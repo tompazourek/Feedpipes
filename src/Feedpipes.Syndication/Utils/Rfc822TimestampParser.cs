@@ -57,12 +57,13 @@ namespace Feedpipes.Syndication.Utils
         public static string FormatTimestampAsString(DateTimeOffset dateTime)
         {
             if (dateTime.Offset == TimeSpan.Zero)
-                return dateTime.ToUniversalTime().ToString("ddd, dd MMM yyyy HH:mm:ss Z", CultureInfo.InvariantCulture);
+                return dateTime.ToUniversalTime().ToString("ddd, dd MMM yyyy HH:mm:ss", CultureInfo.InvariantCulture) + " GMT";
 
             var sb = new StringBuilder(dateTime.ToString("ddd, dd MMM yyyy HH:mm:ss zzz", CultureInfo.InvariantCulture));
 
             // the zzz in Rfc822OutputLocalDateTimeFormat makes the timezone e.g. "-08:00" but we require e.g. "-0800" without the ':'
             sb.Remove(sb.Length - 3, 1);
+
             return sb.ToString();
         }
 

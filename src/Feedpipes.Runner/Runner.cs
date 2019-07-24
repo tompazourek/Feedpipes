@@ -27,7 +27,14 @@ namespace Feedpipes.Runner
             {
                 var document = await XDocument.LoadAsync(xmlReader, LoadOptions.None, token);
                 var parser = new Rss20FeedParser();
-                parser.TryParseRss20Feed(document, out var feed);
+                if (parser.TryParseRss20Feed(document, out var feed))
+                {
+                    var formatter = new Rss20FeedFormatter();
+                    if (formatter.TryFormatRss20Feed(feed, out var document2))
+                    {
+                        parser.TryParseRss20Feed(document2, out var feed2);
+                    }
+                }
             }
         }
     }

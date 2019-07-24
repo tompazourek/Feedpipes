@@ -164,6 +164,7 @@ namespace Feedpipes.Syndication
             parsedImage.Url = imageElement.Element("url")?.Value.Trim();
             parsedImage.Title = imageElement.Element("title")?.Value.Trim();
             parsedImage.Link = imageElement.Element("link")?.Value.Trim();
+            parsedImage.Description = imageElement.Element("description")?.Value.Trim();
 
             if (int.TryParse(imageElement.Element("width")?.Value.Trim(), out var parsedWidth))
             {
