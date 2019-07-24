@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feedpipes.Runner", "src\Feedpipes.Runner\Feedpipes.Runner.csproj", "{CB92FFAD-FD72-4355-9CA2-35D6AF80A1DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Feedpipes.Runner", "src\Feedpipes.Runner\Feedpipes.Runner.csproj", "{CB92FFAD-FD72-4355-9CA2-35D6AF80A1DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0D6CC684-EBEA-4965-BA12-6294920FB2D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{AA3BB02C-19D1-40CD-A438-6D1BE860D56A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Feedpipes.Syndication", "src\Feedpipes.Syndication\Feedpipes.Syndication.csproj", "{2B650A22-9225-4495-AA4F-9926DEB65C95}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +21,17 @@ Global
 		{CB92FFAD-FD72-4355-9CA2-35D6AF80A1DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB92FFAD-FD72-4355-9CA2-35D6AF80A1DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB92FFAD-FD72-4355-9CA2-35D6AF80A1DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B650A22-9225-4495-AA4F-9926DEB65C95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B650A22-9225-4495-AA4F-9926DEB65C95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B650A22-9225-4495-AA4F-9926DEB65C95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B650A22-9225-4495-AA4F-9926DEB65C95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CB92FFAD-FD72-4355-9CA2-35D6AF80A1DE} = {0D6CC684-EBEA-4965-BA12-6294920FB2D5}
+		{2B650A22-9225-4495-AA4F-9926DEB65C95} = {0D6CC684-EBEA-4965-BA12-6294920FB2D5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {21C3749F-EB7F-44BB-BE1F-9F55DB669EBF}
