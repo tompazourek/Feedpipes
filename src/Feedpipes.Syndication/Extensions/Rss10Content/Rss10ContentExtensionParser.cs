@@ -11,24 +11,23 @@ namespace Feedpipes.Syndication.Extensions.Rss10Content
             if (parentElement == null)
                 yield break;
 
-            // parse "content:encoded"
-            foreach (var encodedElement in parentElement.Elements(Rss10ContentExtensionConstants.Namespace + "encoded"))
+            foreach (var element in parentElement.Elements(Rss10ContentExtensionConstants.Namespace + "encoded"))
             {
-                if (!TryParseRss10ContentEncoded(encodedElement, out var parsedEncoded))
+                if (!TryParseRss10ContentEncoded(element, out var entity))
                     continue;
 
-                yield return parsedEncoded;
+                yield return entity;
             }
         }
 
-        private bool TryParseRss10ContentEncoded(XElement encodedElement, out Rss10ContentEncoded parsedEncoded)
+        private bool TryParseRss10ContentEncoded(XElement element, out Rss10ContentEncoded entity)
         {
-            parsedEncoded = default;
+            entity = default;
 
-            if (encodedElement == null)
+            if (element == null)
                 return false;
 
-            parsedEncoded = new Rss10ContentEncoded { Content = encodedElement.Value };
+            entity = new Rss10ContentEncoded { Content = element.Value };
             return true;
         }
     }

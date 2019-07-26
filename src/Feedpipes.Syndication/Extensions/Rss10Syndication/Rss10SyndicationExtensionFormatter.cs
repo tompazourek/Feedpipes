@@ -18,21 +18,18 @@ namespace Feedpipes.Syndication.Extensions.Rss10Syndication
 
             switch (extensionEntityToFormat)
             {
-                // format "sy:updatePeriod"
-                case Rss10SyndicationUpdatePeriod updatePeriodToFormat:
-                    if (TryFormatRss10SyndicationUpdatePeriod(updatePeriodToFormat, out element))
+                case Rss10SyndicationUpdatePeriod entity:
+                    if (TryFormatRss10SyndicationUpdatePeriod(entity, out element))
                         return true;
                     break;
 
-                // format "sy:updateFrequency"
-                case Rss10SyndicationUpdateFrequency updateFrequencyToFormat:
-                    if (TryFormatRss10SyndicationUpdateFrequency(updateFrequencyToFormat, out element))
+                case Rss10SyndicationUpdateFrequency entity:
+                    if (TryFormatRss10SyndicationUpdateFrequency(entity, out element))
                         return true;
                     break;
 
-                // format "sy:updateBase"
-                case Rss10SyndicationUpdateBase updateBaseToFormat:
-                    if (TryFormatRss10SyndicationUpdateBase(updateBaseToFormat, out element))
+                case Rss10SyndicationUpdateBase entity:
+                    if (TryFormatRss10SyndicationUpdateBase(entity, out element))
                         return true;
                     break;
             }
@@ -40,17 +37,17 @@ namespace Feedpipes.Syndication.Extensions.Rss10Syndication
             return false;
         }
 
-        private bool TryFormatRss10SyndicationUpdatePeriod(Rss10SyndicationUpdatePeriod updatePeriodToFormat, out XElement encodedElement)
+        private bool TryFormatRss10SyndicationUpdatePeriod(Rss10SyndicationUpdatePeriod entity, out XElement element)
         {
-            encodedElement = default;
+            element = default;
 
-            if (updatePeriodToFormat == null)
+            if (entity == null)
                 return false;
 
-            encodedElement = new XElement(Rss10SyndicationExtensionConstants.Namespace + "updatePeriod");
+            element = new XElement(Rss10SyndicationExtensionConstants.Namespace + "updatePeriod");
 
             string updatePeriodString;
-            switch (updatePeriodToFormat.Value)
+            switch (entity.Value)
             {
                 case Rss10SyndicationUpdatePeriodValue.Hourly:
                     updatePeriodString = "hourly";
@@ -71,33 +68,33 @@ namespace Feedpipes.Syndication.Extensions.Rss10Syndication
                     return false;
             }
 
-            encodedElement.Value = updatePeriodString;
+            element.Value = updatePeriodString;
 
             return true;
         }
 
-        private bool TryFormatRss10SyndicationUpdateFrequency(Rss10SyndicationUpdateFrequency updateFrequencyToFormat, out XElement encodedElement)
+        private bool TryFormatRss10SyndicationUpdateFrequency(Rss10SyndicationUpdateFrequency entity, out XElement element)
         {
-            encodedElement = default;
+            element = default;
 
-            if (updateFrequencyToFormat == null)
+            if (entity == null)
                 return false;
 
-            var valueString = updateFrequencyToFormat.Frequency.ToString(CultureInfo.InvariantCulture);
-            encodedElement = new XElement(Rss10SyndicationExtensionConstants.Namespace + "updateFrequency") { Value = valueString };
+            var valueString = entity.Frequency.ToString(CultureInfo.InvariantCulture);
+            element = new XElement(Rss10SyndicationExtensionConstants.Namespace + "updateFrequency") { Value = valueString };
 
             return true;
         }
 
-        private bool TryFormatRss10SyndicationUpdateBase(Rss10SyndicationUpdateBase updateBaseToFormat, out XElement encodedElement)
+        private bool TryFormatRss10SyndicationUpdateBase(Rss10SyndicationUpdateBase entity, out XElement element)
         {
-            encodedElement = default;
+            element = default;
 
-            if (updateBaseToFormat == null)
+            if (entity == null)
                 return false;
 
-            var valueString = updateBaseToFormat.Timestamp.ToString("yyyy'-'MM'-'dd'T'HH':'mmzzz", CultureInfo.InvariantCulture);
-            encodedElement = new XElement(Rss10SyndicationExtensionConstants.Namespace + "updateBase") { Value = valueString };
+            var valueString = entity.Timestamp.ToString("yyyy'-'MM'-'dd'T'HH':'mmzzz", CultureInfo.InvariantCulture);
+            element = new XElement(Rss10SyndicationExtensionConstants.Namespace + "updateBase") { Value = valueString };
 
             return true;
         }

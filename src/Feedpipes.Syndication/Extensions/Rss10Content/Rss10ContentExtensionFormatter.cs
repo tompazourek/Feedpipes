@@ -17,9 +17,8 @@ namespace Feedpipes.Syndication.Extensions.Rss10Content
 
             switch (extensionEntityToFormat)
             {
-                // format "content:encoded"
-                case Rss10ContentEncoded encodedToFormat:
-                    if (TryFormatRss10ContentEncoded(encodedToFormat, out element))
+                case Rss10ContentEncoded entity:
+                    if (TryFormatRss10ContentEncoded(entity, out element))
                         return true;
                     break;
             }
@@ -27,15 +26,15 @@ namespace Feedpipes.Syndication.Extensions.Rss10Content
             return false;
         }
 
-        private bool TryFormatRss10ContentEncoded(Rss10ContentEncoded encodedToFormat, out XElement encodedElement)
+        private bool TryFormatRss10ContentEncoded(Rss10ContentEncoded entity, out XElement element)
         {
-            encodedElement = default;
+            element = default;
 
-            if (encodedToFormat == null)
+            if (entity == null)
                 return false;
 
-            encodedElement = new XElement(Rss10ContentExtensionConstants.Namespace + "encoded");
-            encodedElement.Add(new XCData(encodedToFormat.Content));
+            element = new XElement(Rss10ContentExtensionConstants.Namespace + "encoded");
+            element.Add(new XCData(entity.Content));
 
             return true;
         }

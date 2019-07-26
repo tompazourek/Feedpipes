@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
-<rss version="2.0" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
     <channel>
         <title>This is my feed title</title>
         <link>https://example.org/channel</link>
@@ -56,6 +56,10 @@
             <source url="https://example.org/article-source-x">Article source X</source>
             <guid isPermaLink="true">https://example.org/article-permalink</guid>
             <content:encoded><![CDATA[<p>My <strong>awesome</strong> article description...</p>]]></content:encoded>
+            <slash:section>articles</slash:section>
+            <slash:department>not-an-ocean-unless-there-are-lobsters</slash:department>
+            <slash:comments>177</slash:comments>
+            <slash:hit_parade>177,155,105,33,6,3,0</slash:hit_parade>
         </item>
     </channel>
 </rss>

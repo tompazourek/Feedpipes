@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Xml.Linq;
 using Feedpipes.Syndication.Extensions.Rss10Content;
+using Feedpipes.Syndication.Extensions.Rss10Slash;
 using Feedpipes.Syndication.Extensions.Rss10Syndication;
 
 namespace Feedpipes.Syndication.Extensions
@@ -15,6 +16,7 @@ namespace Feedpipes.Syndication.Extensions
             {
                 new Rss10ContentExtensionParser(),
                 new Rss10SyndicationExtensionParser(),
+                new Rss10SlashExtensionParser(),
             };
         }
 

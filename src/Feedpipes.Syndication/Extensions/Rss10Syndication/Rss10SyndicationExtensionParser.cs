@@ -13,42 +13,39 @@ namespace Feedpipes.Syndication.Extensions.Rss10Syndication
             if (parentElement == null)
                 yield break;
 
-            // parse "sy:updatePeriod"
-            foreach (var updatePeriodElement in parentElement.Elements(Rss10SyndicationExtensionConstants.Namespace + "updatePeriod"))
+            foreach (var element in parentElement.Elements(Rss10SyndicationExtensionConstants.Namespace + "updatePeriod"))
             {
-                if (!TryParseRss10SyndicationUpdatePeriod(updatePeriodElement, out var parsedUpdatePeriod))
+                if (!TryParseRss10SyndicationUpdatePeriod(element, out var entity))
                     continue;
 
-                yield return parsedUpdatePeriod;
+                yield return entity;
             }
 
-            // parse "sy:updateFrequency"
-            foreach (var updateFrequencyElement in parentElement.Elements(Rss10SyndicationExtensionConstants.Namespace + "updateFrequency"))
+            foreach (var element in parentElement.Elements(Rss10SyndicationExtensionConstants.Namespace + "updateFrequency"))
             {
-                if (!TryParseRss10SyndicationUpdateFrequency(updateFrequencyElement, out var parsedUpdateFrequency))
+                if (!TryParseRss10SyndicationUpdateFrequency(element, out var entity))
                     continue;
 
-                yield return parsedUpdateFrequency;
+                yield return entity;
             }
 
-            // parse "sy:updateBase"
-            foreach (var updateBaseElement in parentElement.Elements(Rss10SyndicationExtensionConstants.Namespace + "updateBase"))
+            foreach (var element in parentElement.Elements(Rss10SyndicationExtensionConstants.Namespace + "updateBase"))
             {
-                if (!TryParseRss10SyndicationUpdateBase(updateBaseElement, out var parsedUpdateBase))
+                if (!TryParseRss10SyndicationUpdateBase(element, out var entity))
                     continue;
 
-                yield return parsedUpdateBase;
+                yield return entity;
             }
         }
 
-        private bool TryParseRss10SyndicationUpdatePeriod(XElement updatePeriodElement, out Rss10SyndicationUpdatePeriod parsedUpdatePeriod)
+        private bool TryParseRss10SyndicationUpdatePeriod(XElement element, out Rss10SyndicationUpdatePeriod entity)
         {
-            parsedUpdatePeriod = default;
+            entity = default;
 
-            if (updatePeriodElement == null)
+            if (element == null)
                 return false;
 
-            var valueString = updatePeriodElement.Value.Trim().ToLowerInvariant();
+            var valueString = element.Value.Trim().ToLowerInvariant();
             Rss10SyndicationUpdatePeriodValue valueEnum;
             switch (valueString)
             {
@@ -71,33 +68,33 @@ namespace Feedpipes.Syndication.Extensions.Rss10Syndication
                     return false;
             }
 
-            parsedUpdatePeriod = new Rss10SyndicationUpdatePeriod { Value = valueEnum };
+            entity = new Rss10SyndicationUpdatePeriod { Value = valueEnum };
             return true;
         }
 
-        private bool TryParseRss10SyndicationUpdateFrequency(XElement updateFrequencyElement, out Rss10SyndicationUpdateFrequency parsedUpdateFrequency)
+        private bool TryParseRss10SyndicationUpdateFrequency(XElement element, out Rss10SyndicationUpdateFrequency entity)
         {
-            parsedUpdateFrequency = default;
+            entity = default;
 
-            if (updateFrequencyElement == null)
+            if (element == null)
                 return false;
 
-            var valueString = updateFrequencyElement.Value.Trim().ToLowerInvariant();
+            var valueString = element.Value.Trim();
             if (!int.TryParse(valueString, out var valueInt))
                 return false;
 
-            parsedUpdateFrequency = new Rss10SyndicationUpdateFrequency { Frequency = valueInt };
+            entity = new Rss10SyndicationUpdateFrequency { Frequency = valueInt };
             return true;
         }
 
-        private bool TryParseRss10SyndicationUpdateBase(XElement updateBaseElement, out Rss10SyndicationUpdateBase parsedUpdateBase)
+        private bool TryParseRss10SyndicationUpdateBase(XElement element, out Rss10SyndicationUpdateBase entity)
         {
-            parsedUpdateBase = default;
+            entity = default;
 
-            if (updateBaseElement == null)
+            if (element == null)
                 return false;
 
-            var valueString = updateBaseElement.Value.Trim().ToUpperInvariant();
+            var valueString = element.Value.Trim().ToUpperInvariant();
 
             if (!DateTimeOffset.TryParseExact(valueString, "yyyy'-'MM'-'dd'T'HH':'mmzzz", CultureInfo.InvariantCulture, DateTimeStyles.None, out var valueTimestamp) &&
                 !DateTimeOffset.TryParseExact(valueString, "yyyy'-'MM'-'dd'T'HH':'mm", CultureInfo.InvariantCulture, DateTimeStyles.None, out valueTimestamp) &&
@@ -105,7 +102,7 @@ namespace Feedpipes.Syndication.Extensions.Rss10Syndication
                 !DateTimeOffset.TryParseExact(valueString, "yyyy'-'MM'-'dd'T'HH':'mm':'ss", CultureInfo.InvariantCulture, DateTimeStyles.None, out valueTimestamp))
                 return false;
 
-            parsedUpdateBase = new Rss10SyndicationUpdateBase { Timestamp = valueTimestamp };
+            entity = new Rss10SyndicationUpdateBase { Timestamp = valueTimestamp };
             return true;
         }
     }
