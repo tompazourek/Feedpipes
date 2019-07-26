@@ -1,4 +1,4 @@
-﻿namespace Feedpipes.Syndication.Rss20Feed.Document
+﻿namespace Feedpipes.Syndication.Rss20.Document
 {
     /// <summary>
     /// Specifies a text input box that can be displayed with the channel.

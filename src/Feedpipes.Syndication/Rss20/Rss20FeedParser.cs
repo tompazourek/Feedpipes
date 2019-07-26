@@ -4,9 +4,9 @@ using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Xml.Linq;
 using Feedpipes.Syndication.Rfc822Timestamp;
-using Feedpipes.Syndication.Rss20Feed.Document;
+using Feedpipes.Syndication.Rss20.Document;
 
-namespace Feedpipes.Syndication.Rss20Feed
+namespace Feedpipes.Syndication.Rss20
 {
     [SuppressMessage("ReSharper", "UseObjectOrCollectionInitializer")]
     public class Rss20FeedParser
@@ -18,7 +18,7 @@ namespace Feedpipes.Syndication.Rss20Feed
             _timestampParser = new Rfc822TimestampParser();
         }
 
-        public bool TryParseRss20Feed(XDocument document, out Document.Rss20Feed parsedFeed)
+        public bool TryParseRss20Feed(XDocument document, out Rss20Feed parsedFeed)
         {
             parsedFeed = default;
 
@@ -34,7 +34,7 @@ namespace Feedpipes.Syndication.Rss20Feed
             if (!TryParseRss20Channel(channelElement, out var parsedChannel))
                 return false;
 
-            parsedFeed = new Document.Rss20Feed();
+            parsedFeed = new Rss20Feed();
             parsedFeed.Channel = parsedChannel;
             return true;
         }

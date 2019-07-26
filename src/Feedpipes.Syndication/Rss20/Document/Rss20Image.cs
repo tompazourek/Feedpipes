@@ -1,4 +1,4 @@
-﻿namespace Feedpipes.Syndication.Rss20Feed.Document
+﻿namespace Feedpipes.Syndication.Rss20.Document
 {
     /// <summary>
     /// Specifies a GIF, JPEG or PNG image that can be displayed with the channel.

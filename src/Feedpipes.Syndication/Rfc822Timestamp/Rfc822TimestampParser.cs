@@ -175,7 +175,7 @@ namespace Feedpipes.Syndication.Rfc822Timestamp
                     if (whiteSpaceStart < 0)
                     {
                         whiteSpaceStart = index;
-                        
+
                         // normalize all white spaces to be ' ' so that the date time parsing works
                         builder[index] = ' ';
                     }

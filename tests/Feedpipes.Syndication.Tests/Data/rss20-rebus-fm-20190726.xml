@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>rebus.fm</title>
+	<atom:link href="https://rebus.fm/feed/" rel="self" type="application/rss+xml" />
+	<link>https://rebus.fm</link>
+	<description></description>
+	<lastBuildDate>
+	Mon, 25 Mar 2019 21:58:53 +0000	</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.1.1</generator>
+
+<image>
+	<url>https://rebus.fm/wp-content/uploads/2016/01/cropped-icon3-2000x2000-32x32.png</url>
+	<title>rebus.fm</title>
+	<link>https://rebus.fm</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>GitHub stars</title>
+		<link>https://rebus.fm/2019/03/25/github-stars/</link>
+				<comments>https://rebus.fm/2019/03/25/github-stars/#respond</comments>
+				<pubDate>Mon, 25 Mar 2019 21:58:49 +0000</pubDate>
+		<dc:creator><![CDATA[Mogens]]></dc:creator>
+				<category><![CDATA[News]]></category>
+
+		<guid isPermaLink="false">https://rebus.fm/?p=655</guid>
+				<description><![CDATA[<div class="slide-text-bg2"><span>Rebus has reached 1000 stars on GitHub. 🤠 It may seem like an odd thing to notice, but I couldn&#8217;t help getting all warm and fuzzy inside! In my vi</span></div><div class="slide-btn-area-sm"><a href="https://rebus.fm/2019/03/25/github-stars/" class="slide-btn-sm">Read More</a></div>]]></description>
+								<content:encoded><![CDATA[
+<p><a href="https://github.com/rebus-org/Rebus">Rebus</a> has reached 1000 stars on GitHub. <img src="https://s.w.org/images/core/emoji/11.2.0/72x72/1f920.png" alt="🤠" class="wp-smiley" style="height: 1em; max-height: 1em;" /> </p>
+
+
+
+<figure class="wp-block-image"><img src="https://i0.wp.com/rebus.fm/wp-content/uploads/2019/03/github-stars.png?fit=1024%2C294&amp;ssl=1" alt="" class="wp-image-656" srcset="https://rebus.fm/wp-content/uploads/2019/03/github-stars.png 1206w, https://rebus.fm/wp-content/uploads/2019/03/github-stars-300x86.png 300w, https://rebus.fm/wp-content/uploads/2019/03/github-stars-768x220.png 768w, https://rebus.fm/wp-content/uploads/2019/03/github-stars-1024x294.png 1024w" sizes="(max-width: 1206px) 100vw, 1206px" /></figure>
+
+
+
+<p>It may seem like an odd thing to notice, but I couldn&#8217;t help getting all warm and fuzzy inside! In my view, that silly little number, albeit primitive and one-dimensional, is a clear indication of a something pretty important: Street credibility among programmers.</p>
+
+
+
+<p>Even though Rebus started out as a selfish project, in the sense that I needed a handy messaging library that didn&#8217;t have licensing obstacles in the way of delivering great software to consulting clients, it has grown to be so much more.</p>
+
+
+
+<p><strong>Many thanks</strong> to the <strong>almost 100 contributors besides me</strong>, who have contributed with their <strong>time</strong> and <strong>intellect</strong> to build Rebus and <strong>around 50 integration libraries</strong>.</p>
+
+
+
+<p style="text-align:center">Much <img src="https://s.w.org/images/core/emoji/11.2.0/72x72/2764.png" alt="❤" class="wp-smiley" style="height: 1em; max-height: 1em;" />.</p>
+
+
+
+<p></p>
+]]></content:encoded>
+							<wfw:commentRss>https://rebus.fm/2019/03/25/github-stars/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>Generic host</title>
+		<link>https://rebus.fm/2019/01/29/generic-host/</link>
+				<comments>https://rebus.fm/2019/01/29/generic-host/#respond</comments>
+				<pubDate>Tue, 29 Jan 2019 20:10:36 +0000</pubDate>
+		<dc:creator><![CDATA[Mogens]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Topper]]></category>
+
+		<guid isPermaLink="false">https://rebus.fm/?p=647</guid>
+				<description><![CDATA[<div class="slide-text-bg2"><span>Over the years, people have often asked me if Rebus had a &#8220;generic host&#8221;, similar to NServiceBus&#8217; Generic Host. In case you don&#8217;t k</span></div><div class="slide-btn-area-sm"><a href="https://rebus.fm/2019/01/29/generic-host/" class="slide-btn-sm">Read More</a></div>]]></description>
+								<content:encoded><![CDATA[
+<p>Over the years, people have often asked me if Rebus had a &#8220;generic host&#8221;, similar to NServiceBus&#8217; Generic Host. In case you don&#8217;t know, NServiceBus&#8217; generic host is a library that helps you easily get an NServiceBus endpoint up and running as a Windows Service.</p>
+
+
+
+<p>Rebus doesn&#8217;t have a generic host though – and there&#8217;s a good reason for that! <img src="https://s.w.org/images/core/emoji/11.2.0/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+
+
+
+<p>The reason is, that there&#8217;s no reason why the Windows Service host should in any way be Rebus-specific! </p>
+
+
+
+<p>What you really want in a Windows Service host (and in any host, really) is just a simple model for initializing something, keeping it around for the duration of the program&#8217;s lifetime, with proper termination at the end.</p>
+
+
+
+<p>The cool thing is that .NET has great built-in mechanisms for initializing and terminating things – they&#8217;re called CONSTRUCTORS and <code>IDisposable</code>!</p>
+
+
+
+<p>So what if a Windows Service could be composed of something, that should simply be <code>new</code>ed up and disposed afterwards? And what if the hosting library made it possible to also run the app as an <a href="https://docs.microsoft.com/en-us/azure/app-service/webjobs-create">Azure Web Job</a>? And what if it could host any number of &#8220;things&#8221;?</p>
+
+
+
+<p>That&#8217;s what <a href="https://github.com/rebus-org/Topper">Topper</a> does! <img src="https://s.w.org/images/core/emoji/11.2.0/72x72/1f60e.png" alt="😎" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+
+
+
+<p>Topper is built on <a href="https://github.com/Topshelf/Topshelf">Topshelf</a>, so that means F5-debugging as a Console Application, and the ability to be installed as a Windows Service.</p>
+
+
+
+<p>In addition to this, Topper will detect if it&#8217;s running as an Azure Web Job and do what&#8217;s necessary to shut down cleanly.</p>
+
+
+
+<p>This is what your program can look like with Topper:</p>
+
+
+<pre class="brush: csharp; title: ; notranslate">
+class Program
+{
+    static void Main()
+    {
+        var configuration = new ServiceConfiguration()
+            .Add(&quot;first&quot;, () =&gt; new MyFirstService())
+            .Add(&quot;second&quot;, () =&gt; new MySecondService());
+
+        ServiceHost.Run(configuration);                
+    }
+}
+</pre>
+
+
+
+<p><code>ServiceConfiguration</code> allows for adding any number of named factories, each returning an <code>IDisposable</code>, and async factories (<code>Func&lt;Task&lt;IDisposable&gt;&gt;</code>) are supported, too.</p>
+
+
+
+<p>As you can see, there&#8217;s no good reason why a &#8220;generic host&#8221; should be tied to any particular service bus library&#8230; so that&#8217;s why Rebus does not have a generic host. <img src="https://s.w.org/images/core/emoji/11.2.0/72x72/1f913.png" alt="🤓" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+]]></content:encoded>
+							<wfw:commentRss>https://rebus.fm/2019/01/29/generic-host/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>MongoDB database migration</title>
+		<link>https://rebus.fm/2019/01/20/mongodb-database-migration/</link>
+				<comments>https://rebus.fm/2019/01/20/mongodb-database-migration/#respond</comments>
+				<pubDate>Sun, 20 Jan 2019 21:18:32 +0000</pubDate>
+		<dc:creator><![CDATA[Mogens]]></dc:creator>
+				<category><![CDATA[MongoDB]]></category>
+		<category><![CDATA[Mongrow]]></category>
+		<category><![CDATA[News]]></category>
+
+		<guid isPermaLink="false">https://rebus.fm/?p=643</guid>
+				<description><![CDATA[<div class="slide-text-bg2"><span>When you&#8217;re developing a fairly large application, and you design things properly, you will almost inevitably end up distilling out some nice things </span></div><div class="slide-btn-area-sm"><a href="https://rebus.fm/2019/01/20/mongodb-database-migration/" class="slide-btn-sm">Read More</a></div>]]></description>
+								<content:encoded><![CDATA[
+<p>When you&#8217;re developing a fairly large application, and you design things properly, you will almost inevitably end up distilling out some nice things into independent, well-factored libraries – because, <a href="https://en.wikipedia.org/wiki/Separation_of_concerns">Separation of Concerns</a>, you know&#8230; <img src="https://s.w.org/images/core/emoji/11.2.0/72x72/1f913.png" alt="🤓" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+
+
+
+<p>That also happened this Friday, when <a href="https://rebus.fm/services/fleet-manager/">Fleet Manager</a> got its <a href="https://martinfowler.com/articles/evodb.html">evolutionary database design</a> library for MongoDB moved out into its own project: <a href="https://github.com/rebus-org/Mongrow">Mongrow</a>.</p>
+
+
+
+<p>With Mongrow, you can write database migrations as C# classes and have them executed in a safe, consistent, and deterministic manner, probably when your application starts up. </p>
+
+
+
+<p>Its design is very much inspired by <a href="https://github.com/rebus-org/migr8">migr8</a>, another little database migration library, only made for MSSQL and Postgres.</p>
+
+
+
+<p>So&#8230; if you&#8217;re using MongoDB in .NET, you might want to check it out: The <a href="https://www.nuget.org/packages/Mongrow/">binaries are on NuGet.org</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://rebus.fm/2019/01/20/mongodb-database-migration/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>We have a mailing list</title>
+		<link>https://rebus.fm/2019/01/16/we-have-a-mailing-list/</link>
+				<comments>https://rebus.fm/2019/01/16/we-have-a-mailing-list/#comments</comments>
+				<pubDate>Wed, 16 Jan 2019 19:16:03 +0000</pubDate>
+		<dc:creator><![CDATA[Mogens]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Rebus]]></category>
+
+		<guid isPermaLink="false">https://rebus.fm/?p=640</guid>
+				<description><![CDATA[<div class="slide-text-bg2"><span>If you&#8217;re interested in receiving weekly emails with little nuggets of Rebus wisdom, go here and sign up! 💌</span></div>]]></description>
+								<content:encoded><![CDATA[
+<p>If you&#8217;re interested in receiving weekly emails with little nuggets of Rebus wisdom, go <a href="http://eepurl.com/dIAGTH">here</a> and sign up! <img src="https://s.w.org/images/core/emoji/11.2.0/72x72/1f48c.png" alt="💌" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+]]></content:encoded>
+							<wfw:commentRss>https://rebus.fm/2019/01/16/we-have-a-mailing-list/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+							</item>
+		<item>
+		<title>Meet Afonso</title>
+		<link>https://rebus.fm/2019/01/14/meet-afonso/</link>
+				<comments>https://rebus.fm/2019/01/14/meet-afonso/#respond</comments>
+				<pubDate>Mon, 14 Jan 2019 14:50:10 +0000</pubDate>
+		<dc:creator><![CDATA[Mogens]]></dc:creator>
+				<category><![CDATA[Fleet Manager]]></category>
+		<category><![CDATA[News]]></category>
+
+		<guid isPermaLink="false">https://rebus.fm/?p=628</guid>
+				<description><![CDATA[<div class="slide-text-bg2"><span>Hi everyone, meet Afonso! Having finished a secondary school professional programme within Computing, he came to Denmark two years ago from his home island</span></div><div class="slide-btn-area-sm"><a href="https://rebus.fm/2019/01/14/meet-afonso/" class="slide-btn-sm">Read More</a></div>]]></description>
+								<content:encoded><![CDATA[
+<div class="wp-block-image"><figure class="alignright is-resized"><img src="https://i1.wp.com/rebus.fm/wp-content/uploads/2019/01/Image-from-iOS-1.jpg?fit=1024%2C730&amp;ssl=1" alt="" class="wp-image-630" width="299" height="212" srcset="https://rebus.fm/wp-content/uploads/2019/01/Image-from-iOS-1.jpg 3302w, https://rebus.fm/wp-content/uploads/2019/01/Image-from-iOS-1-300x214.jpg 300w, https://rebus.fm/wp-content/uploads/2019/01/Image-from-iOS-1-768x547.jpg 768w, https://rebus.fm/wp-content/uploads/2019/01/Image-from-iOS-1-1024x730.jpg 1024w" sizes="(max-width: 299px) 100vw, 299px" /></figure></div>
+
+
+
+<p>Hi everyone, meet Afonso!</p>
+
+
+
+<p>Having finished a secondary school professional programme within Computing, he came to Denmark two years ago from his home island of Madeira in Portugal, to pursue an AP degree in IT Technology at Dania Academy in Viborg. <img src="https://s.w.org/images/core/emoji/11.2.0/72x72/1f393.png" alt="🎓" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+
+
+
+<p>Afonso has now moved to Horsens to do his final internship here at Rebus FM, where he will spend most of his time performing a security review of <a href="https://rebus.fm/services/fleet-manager/">Fleet Manager</a>. <img src="https://s.w.org/images/core/emoji/11.2.0/72x72/1f68c.png" alt="🚌" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+
+
+
+<p>In addition to this, it&#8217;s already quite clear that he will inspire <a href="http://alley87.dk">Alley 87</a>&#8216;s residents to extend <a href="https://www.instagram.com/p/BrGf1XggpR7/">#skalerbar</a>&#8216;s assortment of beverages into the territory of fortified wines, which we&#8217;re looking forward to. <img src="https://s.w.org/images/core/emoji/11.2.0/72x72/1f377.png" alt="🍷" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+]]></content:encoded>
+							<wfw:commentRss>https://rebus.fm/2019/01/14/meet-afonso/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>MongolianBarbecue is out as 1.0.0</title>
+		<link>https://rebus.fm/2018/11/28/mongolianbarbecue-is-out-as-1-0-0/</link>
+				<comments>https://rebus.fm/2018/11/28/mongolianbarbecue-is-out-as-1-0-0/#respond</comments>
+				<pubDate>Wed, 28 Nov 2018 22:06:09 +0000</pubDate>
+		<dc:creator><![CDATA[Mogens]]></dc:creator>
+				<category><![CDATA[MongoDB]]></category>
+		<category><![CDATA[MongolianBarbecue]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Open source]]></category>
+
+		<guid isPermaLink="false">https://rebus.fm/?p=620</guid>
+				<description><![CDATA[<div class="slide-text-bg2"><span>It&#8217;s a nifty little tool with a silly label, but since it implements queues on top of MongoDB, the name was inevitable! 🤠 So, if all you have in t</span></div><div class="slide-btn-area-sm"><a href="https://rebus.fm/2018/11/28/mongolianbarbecue-is-out-as-1-0-0/" class="slide-btn-sm">Read More</a></div>]]></description>
+								<content:encoded><![CDATA[<p>It&#8217;s a nifty little tool with a silly label, but since it implements queues on top of MongoDB, the name was inevitable! <img src="https://s.w.org/images/core/emoji/11.2.0/72x72/1f920.png" alt="🤠" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>So, if all you have in the world is MongoDB, and you want to do some messaging, you can do this:</p>
+<pre class="brush: csharp; title: ; notranslate">
+var config = new Config(&quot;mongodb://MONGOBONGO01/some-db&quot;, &quot;messages&quot;);
+</pre>
+<p>to create a configuration, and then you</p>
+<pre class="brush: csharp; title: ; notranslate">
+var producer = config.CreateProducer();
+var message = new Message(Encoding.UTF8.GetBytes(&quot;hei&quot;));
+
+await producer.SendAsync(&quot;destination-queue&quot;, message);
+</pre>
+<p>to send a UTF8-encoded text to a queue named <code>destination-queue</code>, and then you</p>
+<pre class="brush: csharp; title: ; notranslate">
+var consumer = config.CreateConsumer(&quot;destination-queue&quot;);
+
+var message = await consumer.GetNextAsync();
+
+// ... handle message here
+</pre>
+<p>to receive the message and handle it.</p>
+<p>You can read more about it on <a href="https://github.com/rebus-org/MongolianBarbecue">the GitHub page</a>, and you can get the binaries from <a href="https://www.nuget.org/packages/MongolianBarbecue/">your favorite package repository</a>.</p>
+<p><span id="more-620"></span></p>
+<p>And why would one want to use MongoDB instead of real message queues?</p>
+<p>It started out as a genuine need for a message queue that supported arbitrarily large payloads with a disconnected API (i.e. connection-less receive protocol, with completely separated receive/ACK operations). <a href="https://rebus.fm/services/fleet-manager/">Fleet Manager</a> uses it internally to support sending commands to Rebus endpoints, which in turn query for messages via long-polling.</p>
+<p>Also, sometimes databases are just nice. They can do lots of stuff that message brokers can&#8217;t, so if your throughput requirements are modest, and you happen to have a MongoDB lying around, then maybe MongolianBarbecue is for you? <img src="https://s.w.org/images/core/emoji/11.2.0/72x72/1f913.png" alt="🤓" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+]]></content:encoded>
+							<wfw:commentRss>https://rebus.fm/2018/11/28/mongolianbarbecue-is-out-as-1-0-0/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>Tababular 3 is out</title>
+		<link>https://rebus.fm/2018/11/15/tababular-3-is-out/</link>
+				<comments>https://rebus.fm/2018/11/15/tababular-3-is-out/#respond</comments>
+				<pubDate>Thu, 15 Nov 2018 09:30:20 +0000</pubDate>
+		<dc:creator><![CDATA[Mogens]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Tababular]]></category>
+
+		<guid isPermaLink="false">https://rebus.fm/?p=613</guid>
+				<description><![CDATA[<div class="slide-text-bg2"><span>Nothing happened, really, since announcing the beta, so this is just a little public service announcement to tell you that Tababular is out now as version </span></div><div class="slide-btn-area-sm"><a href="https://rebus.fm/2018/11/15/tababular-3-is-out/" class="slide-btn-sm">Read More</a></div>]]></description>
+								<content:encoded><![CDATA[<p>Nothing happened, really, since <a href="https://rebus.fm/2018/05/08/tababular-update/">announcing the beta</a>, so this is just a little public service announcement to tell you that Tababular is out now as version 3! <img src="https://s.w.org/images/core/emoji/11.2.0/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>&#8220;What&#8217;s tababambabular?&#8221;, you might ask?</p>
+<p>It&#8217;s just a little nifty library that can format data as tables, which is a nice thing to do sometimes. </p>
+<p>E.g. in automated tests, instead of outputting one manually formatted crappy-looking test output after another, why not just collect the data and print it as a table? Here&#8217;s an example from the Fleet Manager&#8217;s driver, where emitted saga snapshot states are presented in a nice, readable summary form:</p>
+<pre class="brush: csharp; title: ; notranslate">
++-----------+--------------------------------------+
+| Revisions | SagaId                               |
++-----------+--------------------------------------+
+| 0         | 42d9beb5-d94c-4f62-9c60-65beb40c9b5e |
+| 1         |                                      |
+| 2         |                                      |
+| 3         |                                      |
++-----------+--------------------------------------+
+| 0         | 1c4c3db0-9ac2-4541-9752-ed01719aa217 |
+| 1         |                                      |
+| 2         |                                      |
+| 3         |                                      |
+| 4         |                                      |
+| 5         |                                      |
+| 6         |                                      |
+| 7         |                                      |
++-----------+--------------------------------------+
+</pre>
+<p>Or how about CLI applications? Check out how Fleet Manager&#8217;s administration CLI presents the list of accounts in our DEV environment:</p>
+<p><img src="https://rebus.fm/wp-content/uploads/2018/11/tababular-cmd.png" alt="" width="571" height="505" class="aligncenter size-full wp-image-616" srcset="https://rebus.fm/wp-content/uploads/2018/11/tababular-cmd.png 571w, https://rebus.fm/wp-content/uploads/2018/11/tababular-cmd-300x265.png 300w" sizes="(max-width: 571px) 100vw, 571px" /></p>
+<p>Happy formatting! <img src="https://s.w.org/images/core/emoji/11.2.0/72x72/1f4dc.png" alt="📜" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+]]></content:encoded>
+							<wfw:commentRss>https://rebus.fm/2018/11/15/tababular-3-is-out/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>Rebus 5 is out</title>
+		<link>https://rebus.fm/2018/10/08/rebus-5-is-out/</link>
+				<comments>https://rebus.fm/2018/10/08/rebus-5-is-out/#respond</comments>
+				<pubDate>Mon, 08 Oct 2018 21:32:38 +0000</pubDate>
+		<dc:creator><![CDATA[Mogens]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Rebus]]></category>
+
+		<guid isPermaLink="false">https://rebus.fm/?p=604</guid>
+				<description><![CDATA[<div class="slide-text-bg2"><span>Lots of small changes, only a few of them breaking(*), nothing earth-shattering 🙂 The biggest change is probably that the test helpers (FakeBus, SagaFix</span></div><div class="slide-btn-area-sm"><a href="https://rebus.fm/2018/10/08/rebus-5-is-out/" class="slide-btn-sm">Read More</a></div>]]></description>
+								<content:encoded><![CDATA[<p>Lots of small changes, only a few of them breaking(*), nothing earth-shattering <img src="https://s.w.org/images/core/emoji/11.2.0/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>The biggest change is probably that the test helpers (<code>FakeBus</code>, <code>SagaFixture</code>, etc.) were moved to <a href="https://github.com/rebus-org/Rebus.TestHelpers">a separate repository</a> and <a href="https://www.nuget.org/packages/Rebus.TestHelpers">its own NuGet package: Rebus.TestHelpers</a>.</p>
+<p>Another slightly bigger change is that Rebus now targets .NET 4.5, .NET 4.6, and .NET Standard 2.0. If anyone is missing the .NET Standard 1.3. support, please <img src="https://s.w.org/images/core/emoji/11.2.0/72x72/2709.png" alt="✉" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/11.2.0/72x72/27a1.png" alt="➡" class="wp-smiley" style="height: 1em; max-height: 1em;" /><a href="mailto:hello@rebus.fm">hello@rebus.fm</a> and let us know why <img src="https://s.w.org/images/core/emoji/11.2.0/72x72/1f47b.png" alt="👻" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>Some of the smaller changes include a few performance improvements <img src="https://s.w.org/images/core/emoji/11.2.0/72x72/1f4a8.png" alt="💨" class="wp-smiley" style="height: 1em; max-height: 1em;" />, an extension point to customize how topic names are created out of .NET types, the ability to &#8220;fail fast&#8221; (i.e. skip retries) in various situations <img src="https://s.w.org/images/core/emoji/11.2.0/72x72/1f4a5.png" alt="💥" class="wp-smiley" style="height: 1em; max-height: 1em;" />, and a way to delay message processing when starting up the bus.</p>
+<p>As usual, WIRE-COMPATIBILITY is 100% with all versions of Rebus from 2 and up, so you don&#8217;t need to go all-in to start upgrading your endpoints! <img src="https://s.w.org/images/core/emoji/11.2.0/72x72/1f607.png" alt="😇" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>See <a href="https://github.com/rebus-org/Rebus/blob/master/CHANGELOG.md#500">the full 5.0.0 changelog entry</a> for more details on what was changed.</p>
+<p>&#8212;<br />
+(*) In theory, all changes can be breaking&#8230; in this case, the version was bumped to 5 primarily because the <code>IRoutingApi</code> interface was extended with the <code>Defer</code> method signature, and because all of the testing helpers were moved.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://rebus.fm/2018/10/08/rebus-5-is-out/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>Support for Microsoft Extensions Logging</title>
+		<link>https://rebus.fm/2018/10/04/support-for-microsoft-extensions-logging/</link>
+				<comments>https://rebus.fm/2018/10/04/support-for-microsoft-extensions-logging/#respond</comments>
+				<pubDate>Thu, 04 Oct 2018 08:38:53 +0000</pubDate>
+		<dc:creator><![CDATA[Mogens]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Rebus]]></category>
+
+		<guid isPermaLink="false">https://rebus.fm/?p=600</guid>
+				<description><![CDATA[<div class="slide-text-bg2"><span>If you&#8217;re running your Rebus stuff on .NET Core, and you&#8217;re using &#8220;Microsoft Extensions Logging&#8221; (that&#8217;s just not a bite-size</span></div><div class="slide-btn-area-sm"><a href="https://rebus.fm/2018/10/04/support-for-microsoft-extensions-logging/" class="slide-btn-sm">Read More</a></div>]]></description>
+								<content:encoded><![CDATA[<p>If you&#8217;re running your Rebus stuff on .NET Core, and you&#8217;re using &#8220;Microsoft Extensions Logging&#8221; (that&#8217;s just not a bite-sized title for a logging library), you&#8217;re in luck: Rebus now has <a href="https://github.com/rebus-org/Rebus.Microsoft.Extensions.Logging">Rebus.Microsoft.Extensions.Logging</a>, so you can</p>
+<pre class="brush: csharp; title: ; notranslate">
+var loggerFactory = new LoggerFactory()
+	.AddYourSinksHere();
+
+Configure.With(...)
+	.Logging(l =&gt; l.MicrosoftExtensionsLogging(loggerFactory))
+	.Transport(t =&gt; t.Use(...))
+	.(...)
+	.Start();
+</pre>
+<p>and have Rebus log its stuff there, too. </p>
+<p><a href="https://www.nuget.org/packages/Rebus.Microsoft.Extensions.Logging">The package</a> is currently in alpha, but since there&#8217;s not much to it, we expect it to be pretty stable.</p>
+<p>Happy logging! <img src="https://s.w.org/images/core/emoji/11.2.0/72x72/1f920.png" alt="🤠" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+]]></content:encoded>
+							<wfw:commentRss>https://rebus.fm/2018/10/04/support-for-microsoft-extensions-logging/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>Rebus&#8217; Azure Service Bus transport now supports .NET Core</title>
+		<link>https://rebus.fm/2018/09/10/rebus-azure-service-bus-transport-now-supports-net-core/</link>
+				<comments>https://rebus.fm/2018/09/10/rebus-azure-service-bus-transport-now-supports-net-core/#respond</comments>
+				<pubDate>Mon, 10 Sep 2018 20:57:40 +0000</pubDate>
+		<dc:creator><![CDATA[Mogens]]></dc:creator>
+				<category><![CDATA[Azure Service Bus]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Rebus]]></category>
+
+		<guid isPermaLink="false">https://rebus.fm/?p=581</guid>
+				<description><![CDATA[<div class="slide-text-bg2"><span>For almost a year, this GitHub issue has been open – but I&#8217;m happy to announce that I&#8217;ve closed it just now, which I&#8217;ve done of course</span></div><div class="slide-btn-area-sm"><a href="https://rebus.fm/2018/09/10/rebus-azure-service-bus-transport-now-supports-net-core/" class="slide-btn-sm">Read More</a></div>]]></description>
+								<content:encoded><![CDATA[<p>For almost a year, <a href="https://github.com/rebus-org/Rebus.AzureServiceBus/issues/6">this GitHub issue</a> has been open – but I&#8217;m happy to announce that I&#8217;ve closed it just now, which I&#8217;ve done of course because Rebus&#8217; Azure Service Bus transport has now finally been ported properly to <a href="https://github.com/Azure/azure-service-bus-dotnet">Microsoft&#8217;s new Azure Service Bus driver</a>.</p>
+<p>When the new driver came out, lots of people were puzzled, because it lacked the management operations from the original driver. This meant that queue creation, topic creation, and even mundane stuff like subscribing to topics, could not be done with it.</p>
+<p>It took a long time and some pretty dedicated community work for the driver to come out with management operations in it, which happened about two months ago (as a prerelease, stable version was out one month ago).</p>
+<p>Today, all of our Fleet Manager environments have been running with Rebus&#8217; new Azure Service Bus transport a week or more, so we&#8217;re ready to let Rebus.AzureServiceBus 6.0.0 out into the wild <img src="https://s.w.org/images/core/emoji/11.2.0/72x72/1f981.png" alt="🦁" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/11.2.0/72x72/1f333.png" alt="🌳" class="wp-smiley" style="height: 1em; max-height: 1em;" />which in turn means that Rebus can use Azure Service Bus on the .NET Core 2.0/.NET 4.6.1 and later runtimes.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://rebus.fm/2018/09/10/rebus-azure-service-bus-transport-now-supports-net-core/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

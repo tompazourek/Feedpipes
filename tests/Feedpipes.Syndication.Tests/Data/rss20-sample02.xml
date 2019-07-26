@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<rss version="2.0">
+    <channel>
+        <title>This is my feed title</title>
+        <link>https://example.org/channel</link>
+        <description>Description of my feed</description>
+        <language>en-US</language>
+        <copyright>Copyright 2019, All rights reserved</copyright>
+        <managingEditor>managing-editor@example.org (Jane Doe)</managingEditor>
+        <webMaster>webmaster@example.org (John Doe)</webMaster>
+        <generator>My Awesome Generator 3000</generator>
+        <docs>https://example.org/docs</docs>
+        <pubDate>Tue, 01 Jan 2019 12:30:00 +0200</pubDate>
+        <lastBuildDate>Tue, 01 Jan 2019 04:30:00 GMT</lastBuildDate>
+        <category>Alpha</category>
+        <category>Beta</category>
+        <category domain="https://example.org/category-domain">Gama</category>
+        <cloud domain="https://example.org/cloud" port="9000" path="/ghi" registerProcedure="abc" protocol="def" />
+        <ttl>180</ttl>
+        <image>
+            <url>https://example.org/image.png</url>
+            <title>My channel image</title>
+            <link>https://example.org/channel</link>
+            <height>50</height>
+            <width>100</width>
+            <description>My channel image description</description>
+        </image>
+        <textInput>
+            <title>My text input</title>
+            <description>Description of my text input</description>
+            <name>TextInput</name>
+            <link>https://example.org/my-text-input</link>
+        </textInput>
+        <skipHours>
+            <hour>1</hour>
+            <hour>2</hour>
+            <hour>3</hour>
+        </skipHours>
+        <skipDays>
+            <day>Friday</day>
+            <day>Monday</day>
+        </skipDays>
+        <item>
+            <title>My awesome article</title>
+            <link>https://example.org/article</link>
+            <description>My awesome article description...</description>
+            <author>author@example.org (John Doe)</author>
+            <comments>https://example.org/comments</comments>
+            <category domain="https://example.org/category-domain">Delta</category>
+            <enclosure url="https://example.org/enclosure-video.mp4" length="3000" type="video/mp4" />
+            <pubDate>Tue, 01 Jan 2019 05:30:00 GMT</pubDate>
+            <source url="https://example.org/article-source-x">Article source X</source>
+            <guid isPermaLink="true">https://example.org/article-permalink</guid>
+        </item>
+    </channel>
+</rss>

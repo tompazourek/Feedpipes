@@ -1,11 +1,11 @@
-﻿namespace Feedpipes.Syndication.Rss20Feed.Document
+﻿namespace Feedpipes.Syndication.Rss20.Document
 {
     /// <summary>
     /// "guid" element of items.
     /// guid stands for globally unique identifier. It's a string that uniquely identifies the item. When present,
     /// an aggregator may choose to use this string to determine if an item is new.
     /// There are no rules for the syntax of a guid. Aggregators must view them as a string.
-    /// It's up to the source of the feed to establish the uniqueness of the string. 
+    /// It's up to the source of the feed to establish the uniqueness of the string.
     /// </summary>
     public class Rss20Guid
     {

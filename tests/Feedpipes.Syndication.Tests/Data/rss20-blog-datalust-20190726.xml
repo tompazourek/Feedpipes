@@ -1,0 +1,1743 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/"><channel><title><![CDATA[Structured Blog]]></title><description><![CDATA[Seq — Machine data, for humans.]]></description><link>https://blog.datalust.co/</link><image><url>https://blog.datalust.co/favicon.png</url><title>Structured Blog</title><link>https://blog.datalust.co/</link></image><generator>Ghost 2.25</generator><lastBuildDate>Wed, 24 Jul 2019 12:10:21 GMT</lastBuildDate><atom:link href="https://blog.datalust.co/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Maintenance Release 5.1.3118]]></title><description><![CDATA[<!--kg-card-begin: markdown--><p>Seq 5.1.3118 is a straightforward in-place update that fixes several issues in earlier 5.x builds. Binaries are now available from the <a href="https://datalust.co/seq">Seq downloads page</a> and <a href="https://hub.docker.com/r/datalust/seq/">from Docker Hub</a>.</p>
+<p>The drivers for releasing this patch ahead of the original scheduled date are a pair of bugs in the</p>]]></description><link>https://blog.datalust.co/maintenance-release-5-1-3118/</link><guid isPermaLink="false">5cfdb8475330380038d799c5</guid><dc:creator><![CDATA[Nicholas Blumhardt]]></dc:creator><pubDate>Mon, 10 Jun 2019 02:07:38 GMT</pubDate><content:encoded><![CDATA[<!--kg-card-begin: markdown--><p>Seq 5.1.3118 is a straightforward in-place update that fixes several issues in earlier 5.x builds. Binaries are now available from the <a href="https://datalust.co/seq">Seq downloads page</a> and <a href="https://hub.docker.com/r/datalust/seq/">from Docker Hub</a>.</p>
+<p>The drivers for releasing this patch ahead of the original scheduled date are a pair of bugs in the NuGet v3 package installation process, and an issue that would cause custom inputs (including health checks and GELF ingestion) to stop processing events after certain error conditions.</p>
+<p>Along with these, 5.1.3118 now enables both v2 and v3 NuGet package feeds on Windows and Linux (previous support was limited to v2 on Windows and v3 on Linux). Seq will use the presence of <code>/v2/</code> or <code>/v3/</code>, or <code>/index.json</code> at the end of a feed URL to determine which protocol to use.</p>
+<p>Also included in the release is an &quot;expander&quot; to show structured values embedded in log events as indented/pretty-printed JSON as an alternative to the compact, inline, view:</p>
+<p><img src="https://blog.datalust.co/content/images/2019/06/JSON-expander.gif" alt="JSON Expander"></p>
+<p>Full details are in the <a href="https://github.com/datalust/seq-tickets/milestone/101?closed=1">release milestone on GitHub</a>.</p>
+<p>If you need any assistance with the update, please get in touch via <a href="mailto:support@datalust.co">support@datalust.co</a>.</p>
+<p>Happy logging!</p>
+<!--kg-card-end: markdown-->]]></content:encoded></item><item><title><![CDATA[Datalust at NDC Oslo 2019]]></title><description><![CDATA[<!--kg-card-begin: markdown--><p>We're delighted to have two people from Datalust speaking at NDC Oslo in June this year. Read on below for sessions and times, and if you're lucky enough to be in Oslo for the event, we hope you'll say &quot;Hi!&quot;</p>
+<!--kg-card-end: markdown--><!--kg-card-begin: image--><figure class="kg-card kg-image-card"><img src="https://blog.datalust.co/content/images/2019/05/NDC-Oslo-2019.png" class="kg-image"></figure><!--kg-card-end: image--><!--kg-card-begin: markdown--><h2 id="candrustcombiningmanagedandunmanagedcodewithoutsacrificingsafety"><a href="https://ndcoslo.com/talk/c-and-rust-combining-managed-and-unmanaged-code-without-sacrificing-safety/">C# and Rust: combining managed and unmanaged code</a></h2>]]></description><link>https://blog.datalust.co/datalust-at-ndc-oslo-2019/</link><guid isPermaLink="false">5cec8e021a4d4900c0ee1c3a</guid><dc:creator><![CDATA[Nicholas Blumhardt]]></dc:creator><pubDate>Tue, 28 May 2019 03:14:31 GMT</pubDate><content:encoded><![CDATA[<!--kg-card-begin: markdown--><p>We're delighted to have two people from Datalust speaking at NDC Oslo in June this year. Read on below for sessions and times, and if you're lucky enough to be in Oslo for the event, we hope you'll say &quot;Hi!&quot;</p>
+<!--kg-card-end: markdown--><!--kg-card-begin: image--><figure class="kg-card kg-image-card"><img src="https://blog.datalust.co/content/images/2019/05/NDC-Oslo-2019.png" class="kg-image"></figure><!--kg-card-end: image--><!--kg-card-begin: markdown--><h2 id="candrustcombiningmanagedandunmanagedcodewithoutsacrificingsafety"><a href="https://ndcoslo.com/talk/c-and-rust-combining-managed-and-unmanaged-code-without-sacrificing-safety/">C# and Rust: combining managed and unmanaged code without sacrificing safety</a></h2>
+<p><strong>Wednesday 19th June, 10:20-11:20, Room 2 — <a href="https://ndcoslo.com/speaker/ashley-mannix">Ashley Mannix</a></strong></p>
+<blockquote>
+<p>When we set out in 2018 to rebuild the storage engine for our log server, Seq, we decided to complement our existing C# codebase with a new one written in Rust. In this talk we'll look at why you might want to add unmanaged code to your managed codebase, using Seq as an example. We'll explore how to use the tools that .NET and Rust give us to design and build a safe and robust foreign function interface. In the end we'll have a new perspective on the implicit safety contracts we're expected to uphold in our purely managed codebases.</p>
+</blockquote>
+<h2 id="buildingaparserincfromfirstprinciples"><a href="https://ndcoslo.com/talk/building-a-parser-in-c-from-first-principles/">Building a parser in C#, from first principles</a></h2>
+<p><strong>Thursday 20th June, 11:40-12:40, Room 6 — <a href="https://ndcoslo.com/speaker/nicholas-blumhardt">Nicholas Blumhardt</a></strong></p>
+<blockquote>
+<p>Come along to this session to level-up your language implementation skills. We'll distill the nature of the task, the essential techniques on hand, and build a parser using tools you can introduce into your real-world applications and libraries.</p>
+</blockquote>
+<!--kg-card-end: markdown-->]]></content:encoded></item><item><title><![CDATA[Maintenance Release 5.1.3093]]></title><description><![CDATA[<!--kg-card-begin: markdown--><p>Seq maintenanance release 5.1.3093 is now available from the <a href="https://datalust.co/seq">Seq downloads page</a> and <a href="https://hub.docker.com/r/datalust/seq/">on Docker Hub</a>.</p>
+<p>This release includes <a href="https://github.com/datalust/seq-tickets/milestone/99?closed=1">a number of bug fixes</a>, and adds <a href="https://docs.datalust.co/docs/server-command-line#section--migrate-">the <code>seq migrate</code> command</a> to perform in-place conversions of ESENT-backed event history to the new native storage engine.</p>
+<p>If you have any</p>]]></description><link>https://blog.datalust.co/maintenance-release-5-1-3093/</link><guid isPermaLink="false">5ceb797c9509cb00c00cc70c</guid><dc:creator><![CDATA[Nicholas Blumhardt]]></dc:creator><pubDate>Mon, 27 May 2019 05:59:18 GMT</pubDate><content:encoded><![CDATA[<!--kg-card-begin: markdown--><p>Seq maintenanance release 5.1.3093 is now available from the <a href="https://datalust.co/seq">Seq downloads page</a> and <a href="https://hub.docker.com/r/datalust/seq/">on Docker Hub</a>.</p>
+<p>This release includes <a href="https://github.com/datalust/seq-tickets/milestone/99?closed=1">a number of bug fixes</a>, and adds <a href="https://docs.datalust.co/docs/server-command-line#section--migrate-">the <code>seq migrate</code> command</a> to perform in-place conversions of ESENT-backed event history to the new native storage engine.</p>
+<p>If you have any questions or need any assistance with the update, please get in touch with us via <a href="mailto:support@datalust.co">support@datalust.co</a>.</p>
+<p>Happy logging!</p>
+<!--kg-card-end: markdown-->]]></content:encoded></item><item><title><![CDATA[Building Seq Inputs in C#]]></title><description><![CDATA[<!--kg-card-begin: markdown--><p>Custom inputs are an exciting new feature in Seq 5.1. For me, anyway, there's something magical about plug-in systems and being able to extend an app in ways its creators might not have envisaged.</p>
+<p>Seq apps are plug-ins that can read or write events to Seq's event stream. <a href="https://blog.datalust.co/building-modern-seq-apps-in-c-outputs/">The</a></p>]]></description><link>https://blog.datalust.co/building-seq-inputs-in-c/</link><guid isPermaLink="false">5cc7c9ac6c94fb00c0ec4625</guid><dc:creator><![CDATA[Nicholas Blumhardt]]></dc:creator><pubDate>Tue, 30 Apr 2019 04:25:10 GMT</pubDate><content:encoded><![CDATA[<!--kg-card-begin: markdown--><p>Custom inputs are an exciting new feature in Seq 5.1. For me, anyway, there's something magical about plug-in systems and being able to extend an app in ways its creators might not have envisaged.</p>
+<p>Seq apps are plug-ins that can read or write events to Seq's event stream. <a href="https://blog.datalust.co/building-modern-seq-apps-in-c-outputs/">The previous post</a> was about <em>outputs</em> - apps that receive events from Seq - and to complete the picture, this post discusses Seq apps that act as_inputs_.</p>
+<blockquote>
+<p>This example is based on <a href="https://github.com/datalust/seq-input-rabbitmq">the <em>Seq.Input.RabbitMQ</em> repository</a>. If you're keen to follow along, or just impatient to get to the details, you can jump straight over there 🙂.</p>
+</blockquote>
+<h3 id="theplan">The plan</h3>
+<p>Our last example was a bit synthetic. This time around, we'll look at a realistic use case for inputs: receiving events into Seq from a queueing system or message broker.</p>
+<p>There are heaps of similar systems out there. The one used in this example is <a href="https://rabbitmq.com">RabbitMQ</a>. It's easy to spin up a test instance with Docker:</p>
+<pre><code>docker run --rm -it -p 15672:15672 -p 5672:5672 rabbitmq:3-management
+</code></pre>
+<p>And comes with a nice management UI on <a href="http://localhost:15672">http://localhost:15672</a> (<code>guest</code>/<code>guest</code>):</p>
+<p><img src="https://blog.datalust.co/content/images/2019/04/RabbitConsole.png" alt="RabbitMQ management UI"></p>
+<p>Not only that, <a href="https://github.com/sonicjolt/serilog-sinks-rabbitmq"><em>Serilog.Sinks.RabbitMQ</em></a> and <a href="https://github.com/serilog/serilog-formatting-compact"><em>Serilog.Formatting.Compact</em></a> are ready-made for sending nicely-formatted JSON log events to RabbitMQ. Ideal for our current purposes!</p>
+<h3 id="theclientappsendinglogevents">The client app: sending log events</h3>
+<p>The <a href="https://github.com/datalust/seq-input-rabbitmq/blob/dev/example/Demo/Program.cs">demo client app</a> is a small console application.</p>
+<pre><code>mkdir Demo
+cd Demo
+dotnet new console
+dotnet add package Serilog.Sinks.RabbitMQ
+dotnet add package Serilog.Formatting.Compact
+</code></pre>
+<p>All it does is loop and send an event to RabbitMQ each second:</p>
+<pre><code class="language-csharp">using Serilog;
+using Serilog.Formatting.Compact;
+using Serilog.Sinks.RabbitMQ.Sinks.RabbitMQ;
+using System.Threading;
+
+public class Program
+{
+    public static void Main()
+    {
+        var rmq = new RabbitMQConfiguration
+        {
+            Hostname = &quot;localhost&quot;,
+            Username = &quot;guest&quot;,
+            Password = &quot;guest&quot;,
+            Exchange = &quot;&quot;,
+            RouteKey = &quot;logs&quot;
+        };
+
+        Log.Logger = new LoggerConfiguration()
+            .Enrich.WithProperty(&quot;Application&quot;, &quot;Demo&quot;)
+            .WriteTo.RabbitMQ(rmq, new CompactJsonFormatter())
+            .CreateLogger();
+
+        while (true)
+        {
+            Log.Information(&quot;Yo, RabbitMQ!&quot;);
+            Thread.Sleep(1000);
+        }
+    }
+}
+</code></pre>
+<p>If you run this and return to the RabbitMQ management console, you'll see the 'publish' rate is about right:</p>
+<p><img src="https://blog.datalust.co/content/images/2019/04/Publishing.png" alt="RabbitMQ Console with Publish Rate"></p>
+<p>Nothing is subscribed to these messages yet. Our Seq input will set up a subscription and use it to pull these events into Seq's log store.</p>
+<h3 id="filenewproject"><em>File</em> &gt; <em>New Project</em></h3>
+<p>The setup for input apps is the same as for outputs; we need a <code>netstandard2.x</code> class library, a reference to <em>Seq.Apps</em>, and for this example, <em>RabbitMQ.Client</em>:</p>
+<pre><code>mkdir Seq.Input.RabbitMQ
+cd Seq.Input.RabbitMQ
+dotnet new classlib
+dotnet add package Seq.Apps -v 5.1.0
+dotnet add package RabbitMQ.Client
+</code></pre>
+<p>🚀</p>
+<h3 id="theinputseqapptype">The input <code>[SeqApp]</code> type</h3>
+<p>The Seq plug-in loader looks for a type marked with <code>[SeqApp]</code>. The <a href="https://github.com/datalust/seq-input-rabbitmq/blob/dev/src/Seq.Input.RabbitMQ/RabbitMQInput.cs">main input type</a> needs to be annotated with this attribute:</p>
+<pre><code class="language-csharp">using System;
+using System.IO;
+using System.Text;
+using Seq.Apps;
+
+namespace Seq.Input.RabbitMQ
+{
+    [SeqApp(&quot;RabbitMQ Input&quot;,
+        Description = &quot;Pulls JSON-formatted events from a RabbitMQ queue. For details of the &quot; +
+                      &quot;supported JSON schema, see &quot; +
+                      &quot;https://github.com/serilog/serilog-formatting-compact/#format-details.&quot;)]
+    public class RabbitMQInput : SeqApp, IPublishJson, IDisposable
+    {
+</code></pre>
+<p>This will be largely familiar, if you've written or seen Seq output apps in the past.</p>
+<p>What makes this app into an input is the <code>IPublishJson</code> interface. We'll have a look at its mechanics shortly, but first we'll quickly review how the app can be configured with details of the target RabbitMQ server.</p>
+<pre><code class="language-csharp">        [SeqAppSetting(
+            DisplayName = &quot;RabbitMQ host&quot;,
+            IsOptional = true,
+            HelpText = &quot;The hostname on which RabbitMQ is running. The default is `localhost`.&quot;)]
+        public string RabbitMQHost { get; set; } = &quot;localhost&quot;;
+
+        [SeqAppSetting(
+            DisplayName = &quot;RabbitMQ port&quot;,
+            IsOptional = true,
+            HelpText = &quot;The port on which the RabbitMQ server is listening. The default is `5672`.&quot;)]
+        public int RabbitMQPort { get; set; } = 5672;
+</code></pre>
+<p>These two properties supply the host and port that the RabbitMQ broker can be reached via. The <code>[SeqAppSetting]</code> attribute provides all of the information Seq needs to build a user interface for configuring the plug-in. The full source code listing includes several more such properties, including the username, password, queue name, and settings to control how the queue is managed.</p>
+<p>Now the all-important <code>IPublishJsonAsync</code> <code>Start()</code> and <code>Stop()</code> methods, along with <code>Dispose()</code>. All of the action is here:</p>
+<pre><code class="language-csharp">        RabbitMQListener _listener;
+
+        public void Start(TextWriter inputWriter)
+        {
+            var sync = new object();
+            void Receive(byte[] body)
+            {
+                try
+                {
+                    lock (sync)
+                    {
+                        var clef = Encoding.UTF8.GetString(body);
+                        inputWriter.WriteLine(clef);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Log.Error(ex, &quot;A received message could not be decoded&quot;);
+                }
+            }
+
+            // Several more arguments omitted
+            _listener = new RabbitMQListener(Receive, RabbitMQHost, RabbitMQPort);
+        }
+
+        public void Stop()
+        {
+            _listener.Close();
+        }
+
+        public void Dispose()
+        {
+            _listener?.Dispose();
+        }
+</code></pre>
+<p><code>Start()</code> is an implementation of <code>IPublishJson</code>. This somewhat crazy-looking method constructs the <code>RabbitMQListener</code> that will read <code>byte[]</code> messages from RabbitMQ and publish them as JSON through <code>inputWriter</code>.</p>
+<p>The <code>Receive()</code> <a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/local-functions">local function</a> plays the dual role of decoding the UTF-8 JSON payloads, and synchronizing access to <code>inputWriter</code> using <code>lock(sync)</code>. Although the <code>TextWriter</code> passed into <code>Start()</code> is threadsafe, the output stream needs to be well-formed JSON, and if two threads concurrently try writing to it, it's possible JSON payloads might be interleaved and therefore corrupted.</p>
+<p>Behind the scenes, the Seq input infrastructure will handle event validation, and will batch up writes efficiently.</p>
+<p><code>Stop()</code> stops the listener, and <code>Dispose()</code> disposes it. No surprises there 😁.</p>
+<h3 id="rabbitmqlistener"><code>RabbitMQListener</code></h3>
+<p>Check out the <a href="https://github.com/datalust/seq-input-rabbitmq/blob/dev/src/Seq.Input.RabbitMQ/RabbitMQListener.cs">full source code listing</a> to see how this class is implemented. It's a very thin adapter over the API provided by <code>RabbitMQ.Client</code>.</p>
+<h3 id="packagingandpublishing">Packaging and Publishing</h3>
+<p>Although Seq Apps use the NuGet package format and metadata, the package installer doesn't attempt to retrieve package dependencies, and so all binaries required by the app need to go into the package.</p>
+<p>This is achieved by including the <code>dotnet publish</code> output in the package itself. In the <code>CSPROJ</code> file, the <a href="https://github.com/datalust/seq-input-rabbitmq/blob/dev/src/Seq.Input.RabbitMQ/Seq.Input.RabbitMQ.csproj#L24">published binaries are included</a>:</p>
+<pre><code class="language-xml">&lt;None Include=&quot;./obj/publish/**/*&quot;
+  Exclude=&quot;./obj/publish/Seq.Input.RabbitMQ.dll;./obj/publish/Seq.Apps.dll;./obj/publish/Serilog.dll&quot;
+  Pack=&quot;true&quot;
+  PackagePath=&quot;lib/$(TargetFramework)&quot; /&gt;
+</code></pre>
+<p>And the build script <a href="https://github.com/datalust/seq-input-rabbitmq/blob/dev/Build.ps1#L27">calls <code>publish</code> ahead of <code>pack</code></a>:</p>
+<pre><code class="language-powershell">dotnet publish -c Release -o ./obj/publish
+dotnet pack -c Release -o ..\..\artifacts --no-build
+</code></pre>
+<h3 id="theappinseq">The app in Seq</h3>
+<p>Once the app is installed and configured via the Seq user interface, Seq will start receiving events from the queue:</p>
+<p><img src="https://blog.datalust.co/content/images/2019/04/EventsInRabbitMQ.png" alt="Events in Seq"></p>
+<h3 id="learnmore">Learn more</h3>
+<p>You can learn more about Seq custom inputs, and see more inputs implemented, at:</p>
+<ul>
+<li>The <em>Seq.Input.RabbitMQ</em> <a href="https://github.com/datalust/seq-input-rabbitmq">GitHub repository</a></li>
+<li><a href="https://github.com/Hinni/Seq.Input.AzureEventHub"><em>Seq.Input.AzureEventHub</em></a>, a similar input for Azure Event Hubs</li>
+<li><a href="https://github.com/janpieterz/seq-input-certificatecheck"><em>Seq.Input.CertificateCheck</em></a>, an HTTPS certificate expiry monitor</li>
+<li><a href="https://github.com/datalust/seq-input-healthcheck"><em>Seq.Input.HealthCheck</em></a>, an HTTP endpoint monitor</li>
+</ul>
+<p>Until next time, happy (custom) logging!</p>
+<!--kg-card-end: markdown-->]]></content:encoded></item><item><title><![CDATA[Building modern Seq Apps in C#]]></title><description><![CDATA[<!--kg-card-begin: markdown--><p>Seq Apps are plug-ins that read or write events to the Seq event stream. Seq apps have been around a long time, but they've been refreshed and updated recently, first to <a href="https://nblumhardt.com/2017/08/seq-app-rust/">support non-.NET programming languages</a>, and more recently, to support .NET Standard and a more efficient C# API.</p>
+<p>Not</p>]]></description><link>https://blog.datalust.co/building-modern-seq-apps-in-c-outputs/</link><guid isPermaLink="false">5caedc39163ce800c00dee6c</guid><dc:creator><![CDATA[Nicholas Blumhardt]]></dc:creator><pubDate>Tue, 16 Apr 2019 21:55:46 GMT</pubDate><content:encoded><![CDATA[<!--kg-card-begin: markdown--><p>Seq Apps are plug-ins that read or write events to the Seq event stream. Seq apps have been around a long time, but they've been refreshed and updated recently, first to <a href="https://nblumhardt.com/2017/08/seq-app-rust/">support non-.NET programming languages</a>, and more recently, to support .NET Standard and a more efficient C# API.</p>
+<p>Not much has been written about the .NET or C# changes yet, which is a shame because it's now super-easy, and a lot of fun, to programmatically analyze and act on log events.</p>
+<p>This is the first of two parts. In it we'll write a simple <em>output</em> app, one that can receive events from Seq. Outputs are used for a lot of different things: triggering alerts via channels such as email and Slack, archiving data to long-term storage, automatically raising tickets in issue trackers, replicating Seq data to other systems, and more. The second part will look at <em>input</em> apps.</p>
+<h3 id="theplan">The plan</h3>
+<p>One of the fears of companies handling payments is for credit card numbers to inadvertently end up in application logs. There are many steps usually taken to prevent it, but the nature of log collection makes it hard to guarantee with absolute certainty that card numbers can never find their way into exception messages, chunks of request/response payloads, and so on.</p>
+<p>If your domain is sensitive (health, banking, handling PII...) then you'll be able to think of a few similar things that you'd prefer didn't appear in logs.</p>
+<p>The simple app we'll build is going to apply a regular expression to the full JSON representation of each log event, looking for 13 to 16-digit numbers joined with dashes and/or spaces, and raise the alarm if there's any match.</p>
+<p><img src="https://blog.datalust.co/content/images/2019/04/Detected.png" alt="Detected events"></p>
+<p>The example here is easy to understand but isn't meant to be ultra-realistic or production-quality. Most apps would need to parse and manipulate the JSON event data, and if you're working with similar requirements, your checks might have to be a bit more sophisticated 😁.</p>
+<blockquote>
+<p>For the impatient, you can grab the source code for this example <a href="https://github.com/nblumhardt/seq-app-detective">straight from GitHub</a> and start hacking away.</p>
+</blockquote>
+<h3 id="filenewproject"><em>File &gt; New Project</em></h3>
+<p>Seq Apps are regular C# classes, in regular .NET Standard assemblies.</p>
+<p>To build one, the first step is to create a .NET Standard class library, either in Visual Studio, or from the <code>dotnet</code> command line.</p>
+<pre><code>mkdir Seq.App.Detective
+cd Seq.App.Detective
+dotnet new classlib
+</code></pre>
+<p>The app needs a reference to the <em>Seq.Apps</em> package:</p>
+<pre><code>dotnet add package Seq.Apps -v 5.1.0
+</code></pre>
+<p>Does it build?</p>
+<pre><code>dotnet build
+</code></pre>
+<p>👍</p>
+<h3 id="theseqapptype">The <code>[SeqApp]</code> type</h3>
+<p>After deleting the default <code>Class1.cs</code> file, it's time to add the plug-in type. Here's <code>RegexDetective.cs</code>:</p>
+<pre><code class="language-csharp">using System;
+using System.Linq;
+using System.Text.RegularExpressions;
+using System.Threading.Tasks;
+using Seq.Apps;
+
+[SeqApp(&quot;Regular expression detector&quot;,
+    Description = &quot;Checks complete event documents for text matching a regular expression.&quot;)]
+public class RegexDetective : SeqApp, ISubscribeToJsonAsync
+{
+    const int MaximumFragmentChars = 4096;
+
+    static readonly string Pattern = &quot;\\b(?:\\d[ -]*?){13,16}\\b&quot;;
+
+    public Task OnAsync(string json)
+    {
+        var matches = Regex.Matches(json, Pattern);
+
+        if (matches.Count &gt; 0)
+        {
+            var positions = matches.Cast&lt;Match&gt;()
+                .Select(m =&gt; m.Index)
+                .ToArray();
+
+            var sanitized = Regex.Replace(json, Pattern, m =&gt; new string('#', m.Value.Length));
+            var fragment = sanitized.Substring(0, Math.Min(sanitized.Length, MaximumFragmentChars));
+
+            Log.ForContext(&quot;Pattern&quot;, Pattern)
+                .ForContext(&quot;Fragment&quot;, fragment)
+                .ForContext(&quot;Positions&quot;, positions, destructureObjects: true)
+                .Error(&quot;Match detected&quot;);
+        }
+
+        return Task.CompletedTask;
+    }
+}
+</code></pre>
+<p>You'll notice:</p>
+<ul>
+<li>The class is annotated with <code>[SeqApp]</code>. This provides the description and help text for the Seq <em>Settings &gt; Apps</em> screen.</li>
+<li>The class inherits from <code>SeqApp</code>. The base type has properties like <code>Host</code> and <code>Log</code> for interacting with the outside world.</li>
+<li>The class implements <code>ISubscribeToJsonAsync</code> - this is the newest of several ways for the app to receive events, in this case, they're passed to the app as raw JSON.</li>
+</ul>
+<p>The logic is all there in <code>OnAsync()</code>: check for regular expression matches, and report the offending events when they're found.</p>
+<p>Using <code>Log....Error()</code> sends diagnostic events back to Seq. There, they can be forwarded to a different app for alerting, for example to the Slack or email outputs.</p>
+<p>Time to build!</p>
+<pre><code>dotnet build
+</code></pre>
+<h3 id="testinganddebugging">Testing and debugging</h3>
+<p>Before packaging up the app and installing it into Seq, it can be tested locally. You'll need <a href="https://github.com/datalust/seqcli"><code>seqcli</code></a> version 5.1.213 or newer for this.</p>
+<p>Check the version of <code>seqcli</code> you have installed:</p>
+<pre><code>seqcli version
+</code></pre>
+<p>If it's not up-to-date, grab the latest archive for your operating system from <a href="https://github.com/datalust/seqcli/releases">the releases page</a>.</p>
+<p>Things will be made easier if you have Seq running locally on your development machine.</p>
+<p>Once this is ready to go, log some events:</p>
+<pre><code>seqcli log -m &quot;Processing a card&quot;
+seqcli log -m &quot;Processing 1234 567890 1234&quot;
+</code></pre>
+<p>Since they're the most recent events on the server, it's easy to read them back with:</p>
+<pre><code>seqcli search -c 2
+</code></pre>
+<p>You should see something like:</p>
+<pre><code>[2019-04-11T14:24:21.0563248+10:00 INF] Processing 1234 567890 1234 {}
+[2019-04-11T14:23:54.7078096+10:00 INF] Processing a card {}
+</code></pre>
+<p>To test the app, we'll need to change into the directory containing the built DLLs:</p>
+<pre><code>cd bin\Debug\netstandard2.0
+</code></pre>
+<p>Using <code>--json</code> we can pipe the search results into the app:</p>
+<pre><code>seqcli search -c 2 --json | seqcli app run
+</code></pre>
+<p>Aha! A match:</p>
+<pre><code>{&quot;@t&quot;:&quot;2019-04-11T04:24:45.5443570Z&quot;,&quot;@mt&quot;:&quot;Match detected&quot;,&quot;@l&quot;:&quot;Error&quot;,&quot;Positions&quot;:[55],&quot;Fragment&quot;:&quot;{\&quot;@t\&quot;:\&quot;2019-04-11T04:24:21.0563248Z\&quot;,\&quot;@mt\&quot;:\&quot;Processing ################\&quot;}&quot;,&quot;Pattern&quot;:&quot;(?:\\d[ -]*?){13,16}&quot;}
+</code></pre>
+<blockquote>
+<p><strong>Tip:</strong> if this fails, you might be running into some character encoding issues that appear under Windows PowerShell. Using <code>CMD</code> or PowerShell Core 6.x will help.</p>
+</blockquote>
+<h3 id="appsettings">App settings</h3>
+<p>There isn't anything specific to credit card matching in our app, except for the regular expression we're searching for. To generalize the app, we can accept the pattern as an app setting, and configure different instances of the app to use different patterns:</p>
+<pre><code class="language-csharp">        [SeqAppSetting(HelpText = &quot;A regular expression to search for.&quot;)]
+        public string Pattern { get; set; }
+</code></pre>
+<p>It's enough to make the pattern a public property and apply the <code>[SeqAppSetting]</code> attribute.</p>
+<p>After rebuilding the package, we can now try different patterns on the command-line:</p>
+<pre><code>seqcli search -c 2 --json | seqcli app run -p Pattern=&quot;card&quot;
+</code></pre>
+<p>And match different events:</p>
+<pre><code>{&quot;@t&quot;:&quot;2019-04-11T05:05:33.9565488Z&quot;,&quot;@mt&quot;:&quot;Match detected&quot;,&quot;@l&quot;:&quot;Error&quot;,&quot;Positions&quot;:[57],&quot;Fragment&quot;:&quot;{\&quot;@t\&quot;:\&quot;2019-04-11T04:23:54.7078096Z\&quot;,\&quot;@mt\&quot;:\&quot;Processing a ####\&quot;}&quot;,&quot;Pattern&quot;:&quot;card&quot;}```
+</code></pre>
+<h3 id="packaginganddeployment">Packaging and deployment</h3>
+<p>Because our app doesn't have any dependencies apart from <em>Seq.Apps</em>, packaging it for Seq is as simple as:</p>
+<pre><code>dotnet pack
+</code></pre>
+<p>If you're writing a non-trivial app, chances are there are additional assemblies your app will need. Seq expects these to be in the NUPKG, too (it won't recursively install packages), so to do that you'll need to make a <a href="https://github.com/datalust/seq-input-healthcheck/blob/dev/src/Seq.Input.HealthCheck/Seq.Input.HealthCheck.csproj#L28">small modification to your CSPROJ file</a> and use <a href="https://github.com/datalust/seq-input-healthcheck/blob/dev/Build.ps1#L27"><code>dotnet publish</code> alongside <code>pack</code></a> in your build script. (These changes are already present in the example repository.)</p>
+<p>Once we have a <code>NUPKG</code> file, it's time to load it up in Seq. If you already have a NuGet feed configured, push the package there. Otherwise, you can add the build output location (or a file share) as a feed under Seq's <em>Settings &gt; Feeds</em>:</p>
+<p><img src="https://blog.datalust.co/content/images/2019/04/Feed.png" alt="Adding a local feed"></p>
+<p>Now, to install the package, go to <em>Settings &gt; Apps &gt; Install from NuGet</em>, choose the feed, and enter the package id:</p>
+<p><img src="https://blog.datalust.co/content/images/2019/04/Installing.png" alt="Installing the app package"></p>
+<p>With the app installed, <em>Add instance</em> will present some settings for the app: an informational title, the source of events to send to it, and the pattern input for the app itself:</p>
+<p><img src="https://blog.datalust.co/content/images/2019/04/Running.png" alt="Running an instance of the app"></p>
+<blockquote>
+<p><em>Stream incoming events</em> needs to be checked if you want the app to receive events as they arrive.</p>
+</blockquote>
+<h3 id="theappinseq">The app in Seq</h3>
+<p>Now, whenever a matching event is logged, it should be detected:</p>
+<pre><code>seqcli log -m &quot;This one is tricky&quot; -p CardNumber=12345678901234
+</code></pre>
+<p>And, there it is!</p>
+<p><img src="https://blog.datalust.co/content/images/2019/04/Detected.png" alt="Detected events"></p>
+<p>The source code for this example is <a href="https://github.com/nblumhardt/seq-app-detective">published on GitHub</a>. Check out apps that others have written by searching the <a href="https://www.nuget.org/packages?q=%5Bseq-app%5D"><code>seq-app</code> tag on NuGet</a>.</p>
+<!--kg-card-end: markdown-->]]></content:encoded></item><item><title><![CDATA[Simple health checks for any URL]]></title><description><![CDATA[<!--kg-card-begin: markdown--><p>If you run a public-facing web site, chances are you use an uptime monitoring service like <a href="https://www.statuscake.com/">StatusCake</a>, <a href="https://pingdom.com">Pingdom</a>, or the cries of frustrated users, to alert you when it's offline.</p>
+<p>Similar tools are out there for monitoring internal systems, and from <a href="https://datalust.co/seq">Seq 5.1</a>, you can also make simple status</p>]]></description><link>https://blog.datalust.co/simple-health-checks-for-any-url/</link><guid isPermaLink="false">5ca57ebc4fcddd00c0d79b02</guid><dc:creator><![CDATA[Nicholas Blumhardt]]></dc:creator><pubDate>Tue, 09 Apr 2019 21:34:03 GMT</pubDate><content:encoded><![CDATA[<!--kg-card-begin: markdown--><p>If you run a public-facing web site, chances are you use an uptime monitoring service like <a href="https://www.statuscake.com/">StatusCake</a>, <a href="https://pingdom.com">Pingdom</a>, or the cries of frustrated users, to alert you when it's offline.</p>
+<p>Similar tools are out there for monitoring internal systems, and from <a href="https://datalust.co/seq">Seq 5.1</a>, you can also make simple status checks, monitor uptime, and be alerted when things go down, directly from Seq.</p>
+<p><img src="https://blog.datalust.co/content/images/2019/04/cover.png" alt="Health check dashboard"></p>
+<p>The magic ingredient that turns Seq from a passive log server into an active monitoring tool is <a href="https://docs.datalust.co/docs/health-checks"><em>Seq.Input.HealthCheck</em></a>, a tiny plug-in that <code>GET</code>s HTTP or HTTPS URLs, and logs metrics about the responses back into the event stream.</p>
+<p>Why run health checks from Seq?</p>
+<ul>
+<li>It puts health check data alongside the fine-grained events that tell the rest of the story,</li>
+<li>Seq has a powerful query language for analyzing health check data,</li>
+<li>Dashboards can combine service health information with other monitoring data, and</li>
+<li>Seq's alerting system can notify you when a system that should be healthy, isn't.</li>
+</ul>
+<h3 id="healthchecktargets">Health check targets</h3>
+<p>You can health-check HTML pages, JSON API endpoints, and just about anything else you can <code>GET</code> via HTTP. The main consideration is that it's accessible from the Seq server, at a stable URL.</p>
+<p>In this post, I'm using a default ASP.NET Core 2.2 web app, running locally, and <a href="https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/health-checks?view=aspnetcore-2.2">set up to report health</a> at <code>/health</code> using a slightly modified version of <a href="https://www.hanselman.com/blog/HowToSetUpASPNETCore22HealthChecksWithBeatPulsesAspNetCoreDiagnosticsHealthChecks.aspx">Scott Hanselman's example</a>.</p>
+<p>This returns JSON health data like:</p>
+<p><img src="https://blog.datalust.co/content/images/2019/04/health-target.png" alt="ASP.NET Core 2.2 health check endpoint"></p>
+<h3 id="settingupahealthcheck">Setting up a health check</h3>
+<p>First up, under <em>Settings &gt; Apps</em>, choose <em>Install from NuGet</em> and enter the package id <em>Seq.Input.HealthCheck</em> (there's a shortcut for this just under the input box).</p>
+<p>Back in the <em>Apps</em> screen, you'll see the app listed:</p>
+<p><img src="https://blog.datalust.co/content/images/2019/04/apps-screen.png" alt="Apps screen with health check input"></p>
+<p>Choose <em>Add instance</em> and give it a title like <em>Health Checks</em>.</p>
+<p>Next up are the details of the target endpoints: add some addresses to check into <em>Target URLs</em>, one-per-line.</p>
+<p><em>Interval</em> controls the frequency of health checking. Every sixty seconds (the default) is probably ample - you don't want to flood your logs with health check information.</p>
+<p>The <em>Data extraction expression</em> setting identifies a portion of a JSON response to store in the resulting health check events. This avoids bloating out the event with unnecessary detail. Our example health checks return a summary <code>status</code> field, so we'll capture this.</p>
+<p>Here's the complete configuration:</p>
+<p><img src="https://blog.datalust.co/content/images/2019/04/app-configuration.png" alt="Health check input configuration"></p>
+<p>Once the instance is saved, results will start appearing in the <em>Events</em> screen:</p>
+<p><img src="https://blog.datalust.co/content/images/2019/04/health-check-events.png" alt="Health check events"></p>
+<p>If there's a lot of data pouring into your Seq instance, you might need to search for &quot;health check&quot; in order to find them.</p>
+<p>Note the extracted <code>Healthy</code> status in the <code>Data</code> property: this is read from the JSON response using our data extraction expression. If your target system is different, you won't necessarily see the same value; look for <code>InitialContent</code> instead, if you didn't specify an extraction expression.</p>
+<h3 id="analyzingresults">Analyzing results</h3>
+<p>The health check results have tasty morsels like response size and content that are worth sampling. The bread-and-butter use cases for health checks, though, are monitoring response time and status.</p>
+<p>First up, to make sure your queries only touch health checks (and not other, similar-looking events), expand one of the health check results and click on the <em>Type</em> context menu. Choose <em>Find</em>, and when the filter bar is populated, use <code>&gt;&gt;</code> to create and save a signal called <em>Health Checks</em>.</p>
+<p>It should look like this:</p>
+<p><img src="https://blog.datalust.co/content/images/2019/04/health-check-signal.png" alt="Health check signal"></p>
+<p>Now, with <em>Health Checks</em> selected in the signal bar, if you click the green checkmark beside the <code>Elapsed</code> property on one of the events you can choose <em>Plot aggregates over time</em>.</p>
+<p>This little shortcut plots the min/max/90th percentile numbers for the property. Since you'll come back to this a lot, use the <em>Add to Dashboard</em> button to create a new dashboard with this chart:</p>
+<p><img src="https://blog.datalust.co/content/images/2019/04/add-to-dashboard-1.png" alt="Add to dashboard"></p>
+<p>On the chart's <em>Query</em> tab, you can set some more descriptive names like <code>min</code>, <code>max</code>, and <code>p90th</code>, instead of the default <code>col0</code>, <code>col1</code>, etc.</p>
+<p>While we're here, we'll add a second chart to track failed health checks. This one's simple: after clicking <code>+</code> to add the chart, choose the <em>Health Checks</em> and <em>Errors</em> signals in the first (<em>Signal</em>) tab.</p>
+<p>Over on the <em>Style</em> tab, choose the <em>Bar</em> chart type, <em>Reds</em> palette, and we're done! You might group this by <code>TargetUrl</code> over in the <em>Query</em> tab, but getting an aggregate count of health check failures across all endpoints is useful if the services/applications are related.</p>
+<p>Here's what the dashboard looks like, with both charts given titles:</p>
+<p><img src="https://blog.datalust.co/content/images/2019/04/Dashboard.png" alt="Simple health check dashboard"></p>
+<p>When the health check slows down, we'll see that in the first chart, and if health checks fail we'll see those in the second.</p>
+<blockquote>
+<p>Our target application based on ASP.NET Core reports some problems using a <code>status</code> of <code>Degraded</code> in a 200/OK HTTP response. These cases won't be picked up in the <em>Errors</em> signal, so creating an additional signal with a filter like <code>Data = 'Degraded'</code> would be a sensible addition.</p>
+</blockquote>
+<h3 id="alertsandnotifications">Alerts and notifications</h3>
+<p>Before you can find out about failing health checks or slow services, you need a channel for notifications. Set up an instance of the <a href="https://blog.datalust.co/simple-health-checks-for-any-url/">Slack</a>, <a href="https://blog.datalust.co/simple-health-checks-for-any-url/">Teams</a>, <a href="https://blog.datalust.co/simple-health-checks-for-any-url/">email</a>, or a similar app, and configure it so that notifications reach you.</p>
+<p>(If you're just trying things out, spin up the excellent <a href="https://github.com/ChangemakerStudios/Papercut">Papercut</a> email server on your local machine and point an email notification at that.)</p>
+<p>Alerts are added to charts; we'll set an alert on the <em>Errors</em> chart. On the <em>Alerts</em> tab, clicking <code>+</code> will prompt for details of the check and the notification app.</p>
+<p>Our alert will fire if more than one single health check fails in a five minute interval:</p>
+<p><img src="https://blog.datalust.co/content/images/2019/04/alert.png" alt="Alert on failed health checks"></p>
+<p>Save the dashboard, and that's it! Let the health checks roll in, and hope that you don't receive too many emails like this:</p>
+<p><img src="https://blog.datalust.co/content/images/2019/04/alert-email.png" alt="Health check alert email"></p>
+<h3 id="theproject">The project</h3>
+<p>The <a href="https://github.com/datalust/seq-input-healthcheck">source code for <em>Seq.Input.HealthCheck</em></a> is published on GitHub; we'd love to hear your suggestions for improvement over there.</p>
+<p>Happy logging!</p>
+<!--kg-card-end: markdown-->]]></content:encoded></item><item><title><![CDATA[Analyzing IIS log files with Seq]]></title><description><![CDATA[<!--kg-card-begin: markdown--><p>Nested somewhere under <code>C:\inetpub\logs</code>, IIS, the popular Windows web server, writes files like this:</p>
+<pre><code>#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-04-02 05:17:47
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-04-02</code></pre>]]></description><link>https://blog.datalust.co/analyzing-iis-log-files-with-seq/</link><guid isPermaLink="false">5ca5566f4fcddd00c0d79af2</guid><dc:creator><![CDATA[Nicholas Blumhardt]]></dc:creator><pubDate>Mon, 08 Apr 2019 04:55:43 GMT</pubDate><content:encoded><![CDATA[<!--kg-card-begin: markdown--><p>Nested somewhere under <code>C:\inetpub\logs</code>, IIS, the popular Windows web server, writes files like this:</p>
+<pre><code>#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2019-04-02 05:17:47
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2019-04-02 05:17:47 ::1 GET / - 80 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:66.0)+Gecko/20100101+Firefox/66.0 - 200 0 0 183
+2019-04-02 05:18:01 ::1 GET /test - 80 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:66.0)+Gecko/20100101+Firefox/66.0 - 404 0 2 0
+</code></pre>
+<p>This format is standardized <a href="https://www.w3.org/TR/WD-logfile.html">by the W3C</a>. It's not the prettiest thing I've ever seen 😬, but, it does lend itself to easy processing: the (non-comment) lines are space-delimited fields; whitespace isn't allowed within values (quoted strings are discussed in the spec, but not used by IIS), and empty fields are represented by a single dash <code>-</code>.</p>
+<p>Here is one significant line from the log, wrapped so that it fits within the margins of this blog:</p>
+<pre><code>2019-04-02 05:18:01 ::1 GET /test - 80 - ::1 Mozilla/5.0+(Windows+NT+10.0;+Win64;+x64;+rv:66.0)+Gecko/20100101+Firefox/66.0 - 404 0 2 0
+</code></pre>
+<p>This was a request for <code>http://localhost/test</code>. Among the fields, you'll find the port <code>80</code>, HTTP method <code>GET</code> and path <code>/test</code>, the user agent (Firefox), the response status code <code>404</code>, and a zero-millisecond timing. All information we can use to find patterns, explore trends, and check the health of a web application.</p>
+<p>Before we import this log into <a href="https://datalust.co/seq">Seq</a> for analysis, we want to break the line up into structured data and give the fields names like <code>RequestPath</code> and <code>Elapsed</code> so that the log is easy to search and graph.</p>
+<p>Something like:</p>
+<p><img src="https://blog.datalust.co/content/images/2019/04/IIS-Log-in-Seq.png" alt="IIS log in Seq"></p>
+<p>So, armed with <code>seqcli</code>, here we go!</p>
+<h3 id="1getseqcli">1. Get <code>seqcli</code></h3>
+<p>If you have Windows build of <a href="https://datalust.co/download">Seq 5.1</a> installed locally, you'll already have <code>seqcli</code> on your <code>PATH</code>. Otherwise, download the <code>.zip</code> or <code>.tar.gz</code> archive for your platform, from <a href="https://github.com/datalust/seqcli/releases">the project's GitHub releases</a>.</p>
+<p>Run <code>seqcli config</code> to set the default server URL and API key (the default will be to connect to <a href="http://localhost:5341">http://localhost:5341</a>).</p>
+<pre><code>seqcli config -k connection.serverUrl -v https://seq.example.com
+seqcli config -k connection.apiKey -v 1234567890asdfghjkl
+</code></pre>
+<p>You can check your connection to Seq with:</p>
+<pre><code>seqcli search
+</code></pre>
+<p>And the result should be the last event recorded in Seq.</p>
+<h3 id="2bracketthefields">2. <code>{Bracket}</code> the fields</h3>
+<p>To extract individual fields, we'll need an <em>extraction pattern</em>, which is a bit like a regular expression for matching different chunks of the line.</p>
+<p>The extraction pattern isn't all that different from the field list that appears at the top of the log file, so, we'll use that as a starting point and work step-by-step. This approach will work even if your own IIS instance is configured to record a different set of fields.</p>
+<p>The first step is to <code>{}</code> bracket the individual fields.</p>
+<p>Given the field list:</p>
+<pre><code>date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+</code></pre>
+<p>We add some brackets:</p>
+<pre><code>{date time} {s-ip} {cs-method} {cs-uri-stem} {cs-uri-query} {s-port} {cs-username} {c-ip} {cs(User-Agent)} {cs(Referer)} {sc-status} {sc-substatus} {sc-win32-status} {time-taken}
+</code></pre>
+<p>The text outside the brackets - here just spaces - will be matched literally. Each bracketed chunk will match a token with any non-whitespace content.</p>
+<h3 id="3namesandtypes">3. Names and types</h3>
+<p>This isn't a valid extraction pattern, yet.</p>
+<p>First, we'll treat the two fields <code>date</code> and <code>time</code> as the event's timestamp <code>@t</code>. Slurping up the space in between them requires the special-purpose <code>w3cdt</code> matcher:</p>
+<pre><code>{@t:w3cdt} {s-ip} {cs-method} {cs-uri-stem} {cs-uri-query} {s-port} {cs-username} {c-ip} {cs(User-Agent)} {cs(Referer)} {sc-status} {sc-substatus} {sc-win32-status} {time-taken}
+</code></pre>
+<p>Second, the fields need identifiers without dashes, so we'll make up some PascalCase names:</p>
+<pre><code>{@t:w3cdt} {ServerIP} {RequestMethod} {RequestPath} {Query} {ServerPort} {Username} {ClientIP} {UserAgent} {Referer} {StatusCode} {Substatus} {Win32Status} {Elapsed}
+</code></pre>
+<p>Some of these fields will contain numeric data, so we'd like to treat them as numbers instead of text. Just like <code>w3cdt</code>, we can use matchers to convert the values. The <code>nat</code> matcher picks up natural (non-negative) numbers:</p>
+<pre><code>{@t:w3cdt} {ServerIP} {RequestMethod} {RequestPath} {Query} {ServerPort:nat} {Username} {ClientIP} {UserAgent} {Referer} {StatusCode:nat} {Substatus:nat} {Win32Status:nat} {Elapsed:nat}
+</code></pre>
+<h3 id="4matchthenewline">4. Match the newline</h3>
+<p>Finally, each event is delimited by a closing newline, so for completeness we'll add an anonymous <code>n</code> newline matcher at the end:</p>
+<pre><code>{@t:w3cdt} {ServerIP} {RequestMethod} {RequestPath} {Query} {ServerPort:nat} {Username} {ClientIP} {UserAgent} {Referer} {StatusCode:nat} {Substatus:nat} {Win32Status:nat} {Elapsed:nat}{:n}
+</code></pre>
+<p>Done!</p>
+<h3 id="5ingest">5. Ingest</h3>
+<p>This is the easy bit; here's the command-line, where you can see our extraction pattern being passed through:</p>
+<pre><code>seqcli ingest `
+  -i u_ex190402.log `
+  --invalid-data=ignore `
+  -x &quot;{@t:w3cdt} {ServerIP} {RequestMethod} {RequestPath} {Query} {ServerPort:nat} {Username} {ClientIP} {UserAgent} {Referer} {StatusCode:nat} {Substatus:nat} {Win32Status:nat} {Elapsed:nat}{:n}&quot; `
+  -m &quot;IIS {RequestMethod} {RequestPath} responded {StatusCode} in {Elapsed} ms&quot;
+</code></pre>
+<p>First, with <code>-i</code> we pass the log file to ingest.</p>
+<p>The second argument, <code>--invalid-data=ignore</code>, lets us skip over those leading <code>#</code> comment lines.</p>
+<p>With <code>-x</code> we pass through the extraction pattern that describes how fields from the log lines map to event properties.</p>
+<p>Finally, <code>-m</code> specifies a friendly <a href="https://messagetemplates.org">message template</a> that Seq will display in the <em>events</em> view.</p>
+<p>After running this command, refreshing the Seq <em>events</em> screen shows the requests from the log file.</p>
+<h3 id="6analyze">6. Analyze</h3>
+<p>What can you find in the data? Here are some Seq filters and queries to try.</p>
+<p><strong>Find 404s:</strong></p>
+<pre><code class="language-sql">StatusCode = 404
+</code></pre>
+<p><strong>Count requests by path:</strong></p>
+<pre><code class="language-sql">select count(*) from stream group by RequestPath
+</code></pre>
+<p><strong>Track response times for a specific request:</strong></p>
+<pre><code class="language-sql">select percentile(Elapsed, 90) as p90th
+where RequestPath = '/test'
+  and Method = 'GET'
+group by StatusCode, time(5m)
+</code></pre>
+<p>(Click the 📈 timeseries chart icon to plot this.)</p>
+<p>There are endless ways to slice and dice the data; check out the <a href="https://docs.datalust.co/docs/sql-queries">Seq query language</a> documentation for some more ideas.</p>
+<p>Happy logging!</p>
+<ul>
+<li><a href="https://datalust.co/download">Download Seq</a></li>
+<li><a href="https://github.com/datalust/seqcli/releases">Download <code>seqcli</code></a></li>
+<li><a href="https://docs.datalust.co/docs/sql-queries">Seq query language documentation</a></li>
+</ul>
+<!--kg-card-end: markdown-->]]></content:encoded></item><item><title><![CDATA[Our journey from nightly to stable Rust]]></title><description><![CDATA[<!--kg-card-begin: markdown--><p>When we shipped <a href="https://blog.datalust.co/seq-5/">Seq 5.0</a> back in November, our <a href="https://blog.datalust.co/rust-at-datalust/">new storage engine</a> was compiled against Rust's unstable nightly channel. As of <a href="https://blog.datalust.co/seq-5-1-release/">Seq 5.1</a>, we can instead use the supported stable channel. That feels like a bit of a milestone so I'd like to share a few details about</p>]]></description><link>https://blog.datalust.co/our-journey-from-rust-nightly-to-stable/</link><guid isPermaLink="false">5ca5ab5e4fcddd00c0d79b0c</guid><dc:creator><![CDATA[Ashley Mannix]]></dc:creator><pubDate>Thu, 04 Apr 2019 23:44:23 GMT</pubDate><content:encoded><![CDATA[<!--kg-card-begin: markdown--><p>When we shipped <a href="https://blog.datalust.co/seq-5/">Seq 5.0</a> back in November, our <a href="https://blog.datalust.co/rust-at-datalust/">new storage engine</a> was compiled against Rust's unstable nightly channel. As of <a href="https://blog.datalust.co/seq-5-1-release/">Seq 5.1</a>, we can instead use the supported stable channel. That feels like a bit of a milestone so I'd like to share a few details about our journey from nightly to stable, and celebrate the progress the community has made on the language, libraries, and tooling over the last twelve months that made that journey painless for us.</p>
+<h2 id="howrustisshipped">How Rust is shipped</h2>
+<p>The Rust programming language is released through a few channels with different levels of stability:</p>
+<ul>
+<li><strong>stable</strong>: the currently supported version. A new minor version is cut every six weeks. Point releases are uncommon but are made from time to time.</li>
+<li><strong>beta</strong>: candidate for the next supported version.</li>
+<li><strong>nightly</strong>: the current head of the <code>master</code> branch where most development takes place, and enables access to unstable features.</li>
+</ul>
+<p>The trade-off between the stable and nightly channels is early access to new features but less stability in the compiler, libraries, and the availability of associated tools like the language server.</p>
+<h2 id="startingonnightly">Starting on nightly</h2>
+<p>When we started working on our Rust codebase in early 2018 there were some very compelling unstable features that pulled us towards the nightly channel. The main one was <a href="https://github.com/rust-lang/rfcs/pull/2094">non-lexical lifetimes</a>, and the previews of the <a href="https://doc.rust-lang.org/nightly/edition-guide/rust-2018/index.html">2018 edition</a> as they became available. Through the course of the year we both took on new unstable features and shed a few as they stabilized. We were careful not to depend on unstable features that were difficult to shim or didn't have a clear path to stabilization in the near future though, one example being <a href="https://github.com/rust-lang/rfcs/pull/1210">specialization</a>.</p>
+<p>I dug back through the history of our Rust codebase to find some of the unstable features we ended up using. Very early into development the list was already pretty large:</p>
+<pre><code class="language-rust">// For the custom `reason` attribute used by unsafe macros
+#![feature(custom_attribute)]
+// For supporting visibility on the `unsafe_fn` macro
+#![feature(macro_vis_matcher)]
+// For attributes on blocks in `unsafe_block` macro expansion
+#![feature(stmt_expr_attributes)]
+// For using the `RangeArgument` trait
+#![feature(collections_range)]
+// For non-zero unique timestamps
+#![feature(nonzero)]
+// For hardware accelerated crc32c
+#![feature(stdsimd, target_feature, cfg_target_feature)]
+// For converting Rust results into FFI results
+#![feature(try_trait)]
+// For sanity
+#![feature(nll)]
+</code></pre>
+<p>Turns out at this point we almost had more unstable features than implemented methods:</p>
+<pre><code class="language-rust">impl IngestBuf {
+    /**
+    Create an ingestion buffer.
+
+    The file must not already exist. A new file will be created at `path`.
+    */
+    pub fn create(path: impl AsRef&lt;Path&gt;) -&gt; Result&lt;Self, Error&gt; {
+        unimplemented!()
+    }
+}
+</code></pre>
+<p>Aspirational-Doc-Comment-Driven Development at its best.</p>
+<p>A year later that set of unstable features looked like this:</p>
+<pre><code class="language-rust">// For converting Rust results into FFI results
+#![feature(try_trait)]
+// Easier to create safe synchronization primitives
+#![feature(optin_builtin_traits)]
+// For using the `RangeBounds` trait
+#![feature(range_contains)]
+// For using the `SliceIndex` trait
+#![feature(slice_index_methods)]
+</code></pre>
+<p>By this time the two big unstable features we needed; <code>nll</code> and <code>target_feature</code>; had both stabilized so we were left with just a few things to work around.</p>
+<h2 id="movingfromnightlytostable">Moving from nightly to stable</h2>
+<p>In <a href="https://blog.datalust.co/rust-at-datalust-how-we-organize-a-complex-rust-codebase/#findingahomeforcrosscuttingconcerns">a previous post</a> we described our <code>std_ext</code> module where various utilities and extensions to the standard library live. To support the remaining unstable features in some form on the stable channel we ended up adding a new <code>unstable</code> module under <code>std_ext</code> specifically for shimming:</p>
+<pre><code>src
+└── std_ext
+   ├── unstable
+   │   ├── marker.rs
+   │   ├── mod.rs
+   │   ├── ops.rs
+   │   └── range.rs
+   ├── fs.rs
+   ├── io.rs
+   ├── iter.rs
+   ├── mod.rs
+   ├── num.rs
+   ├── ops.rs
+   ├── option.rs
+   ├── range.rs
+   ├── rc.rs
+   ├── result.rs
+   ├── slice.rs
+   ├── sync.rs
+   └── vec.rs
+</code></pre>
+<p>Collecting these shims together lets us track them as tech-debt that we can pay down once the original feature stabilizes. Let's look at how we shimmed our way around each of the remaining unstable features we depended on.</p>
+<h3 id="try_trait"><code>try_trait</code></h3>
+<p>The <code>Try</code> trait lets you hook into the <code>?</code> operator. We use it to convert Rust's <code>Result&lt;T, E&gt;</code> into a flat, FFI-safe <code>FlareResult</code> in our C bindings. We ended up copying the implementation of the <code>Try</code> trait itself so we didn't need to change any <code>impl</code> blocks on our <code>FlareResult</code> type:</p>
+<pre><code class="language-rust">mod ops {
+    // #![feature(try_trait)]
+    pub(crate) trait Try {
+        type Ok;
+        type Error;
+
+        fn into_result(self) -&gt; Result&lt;Self::Ok, Self::Error&gt;;
+
+        fn from_error(v: Self::Error) -&gt; Self;
+
+        fn from_ok(v: Self::Ok) -&gt; Self;
+    }
+}
+</code></pre>
+<p>The <code>?</code>s themselves were replaced with a <code>flare_try!</code> macro (reminiscent of ye olde <code>try!</code> macro) that called <code>from_ok</code> or <code>from_err</code> to carry the result like <code>?</code> would.</p>
+<p>Once <code>try_trait</code> stabilizes we can remove our version and replace <code>flare_try</code> with <code>?</code> again.</p>
+<h3 id="range_contains"><code>range_contains</code></h3>
+<p>Our storage engine has a <em>lot</em> of range code and we used <code>RangeBounds::contains</code> extensively. Thankfully its implementation was fairly straightforward (we've got some truly crazy range code) so we made it an extension trait. We had to change the name of the method from <code>contains</code> to <code>contains_item</code> though so it didn't clash with the unstable one:</p>
+<pre><code class="language-rust">mod range {
+    use std::ops::{
+        Bound,
+        RangeBounds,
+    };
+
+    // #![feature(range_contains)]
+    pub(crate) trait RangeContainsExt&lt;T&gt; {
+        fn contains_item&lt;U&gt;(&amp;self, item: &amp;U) -&gt; bool
+        where
+            T: PartialOrd&lt;U&gt;,
+            U: ?Sized + PartialOrd&lt;T&gt;;
+    }
+
+    impl&lt;T, R&gt; RangeContainsExt&lt;T&gt; for R
+    where
+        R: RangeBounds&lt;T&gt;,
+    {
+        fn contains_item&lt;U&gt;(&amp;self, item: &amp;U) -&gt; bool
+        where
+            T: PartialOrd&lt;U&gt;,
+            U: ?Sized + PartialOrd&lt;T&gt;,
+        {
+            (match self.start_bound() {
+                Bound::Included(ref start) =&gt; *start &lt;= item,
+                Bound::Excluded(ref start) =&gt; *start &lt; item,
+                Bound::Unbounded =&gt; true,
+            }) &amp;&amp; (match self.end_bound() {
+                Bound::Included(ref end) =&gt; item &lt;= *end,
+                Bound::Excluded(ref end) =&gt; item &lt; *end,
+                Bound::Unbounded =&gt; true,
+            })
+        }
+    }
+}
+</code></pre>
+<p>Once <code>range_contains</code> stabilizes we can remove our implementation.</p>
+<h3 id="slice_index_methods"><code>slice_index_methods</code></h3>
+<p>Turns out we were only using the <code>SliceIndex::get_unchecked</code> method in a single place, so we inlined its implementation there.</p>
+<h3 id="optin_builtin_traits"><code>optin_builtin_traits</code></h3>
+<p>There's an unstable feature that lets you opt-out of <em>opt-in-built-in-traits</em> (OIBITs) like <code>Send</code> and <code>Sync</code> using special syntax. If you find yourself needing this you're usually either building some synchronization primitive or a container that lies about what's in it. We have some primitive types that are explicitly <code>!Sync</code>, so instead of <code>impl !Sync for Foo</code>, we add a zero-sized field to these types that is <code>!Send + !Sync</code>:</p>
+<pre><code class="language-rust">mod marker {
+    use std::marker::PhantomData;
+
+    // #![feature(optin_builtin_traits)]
+    #[derive(Default)]
+    pub(crate) struct ClobberOibits(PhantomData&lt;*mut fn()&gt;);
+}
+</code></pre>
+<p>Once <code>optin_builtin_traits</code> stabilizes we can remove <code>ClobberOibits</code> and restore the explicit opt-out <code>impl</code> blocks.</p>
+<h3 id="test"><code>test</code></h3>
+<p>We did have a few internal micro-benchmarks that used the <code>#[bench]</code> attribute for checking things like the difference between our SSE4.2-optimized CRC checksum and its fall-back implementation. These benchmarks were useful in initial development, but not really worthwhile anymore so we just removed them. Our regular benchmark suite was already using a simple, custom framework that we have more control over so we didn't lose much.</p>
+<h2 id="goingforwardsonstable">Going forwards on stable</h2>
+<p>There's an ongoing conversation in the Rust community right now about <em>minimal supported <code>rustc</code> versions</em> (MSRVs). How hard should libraries work to support older versions of the Rust compiler? As a data-point, for our codebase we expect to bump the compiler version to the latest stable whenever we update our <code>Cargo.lock</code> (which is checked in to source control). So the MSRV we anticipate from our dependencies is effectively the latest stable.</p>
+<p>Now that we can build our Rust codebase on the stable channel we'll be very hesitant to move back to nightly. There are some upcoming features I'd be interested to spike out though so that we can get a sense of how effective they are and provide feedback. The first one that comes to mind is <a href="https://github.com/rust-lang/rfcs/pull/2515"><code>impl</code> Trait on type aliases</a>, which could reduce some of the clumsy type boilerplate we have around iterators.</p>
+<p>It's been exciting to see our list of reasons to depend on the unstable nightly channel grow smaller and smaller since we started as important features have been polished and stabilized! It's a solid platform to build on for the future.</p>
+<!--kg-card-end: markdown-->]]></content:encoded></item><item><title><![CDATA[Seq 5.1 Release]]></title><description><![CDATA[<!--kg-card-begin: markdown--><p>We've spent four solid months extending and refining Seq 5. <strong>TL/DR?</strong> Download <a href="https://datalust.co/download">the Seq 5.1 installer</a> for Windows or <a href="https://hub.docker.com/r/datalust/seq">pull <code>datalust/seq</code></a> from Docker Hub.</p>
+<p><img src="https://blog.datalust.co/content/images/2019/04/Seq51.png" alt="Seq 5.1"></p>
+<h3 id="whatisseq">What is Seq?</h3>
+<p>Seq is a log server designed specifically for structured log data. At its core, Seq combines a JSON data model</p>]]></description><link>https://blog.datalust.co/seq-5-1-release/</link><guid isPermaLink="false">5c9c3bfea49fe200c0edb1e7</guid><dc:creator><![CDATA[Nicholas Blumhardt]]></dc:creator><pubDate>Wed, 03 Apr 2019 21:07:43 GMT</pubDate><content:encoded><![CDATA[<!--kg-card-begin: markdown--><p>We've spent four solid months extending and refining Seq 5. <strong>TL/DR?</strong> Download <a href="https://datalust.co/download">the Seq 5.1 installer</a> for Windows or <a href="https://hub.docker.com/r/datalust/seq">pull <code>datalust/seq</code></a> from Docker Hub.</p>
+<p><img src="https://blog.datalust.co/content/images/2019/04/Seq51.png" alt="Seq 5.1"></p>
+<h3 id="whatisseq">What is Seq?</h3>
+<p>Seq is a log server designed specifically for structured log data. At its core, Seq combines a JSON data model with text search and a simple SQL-style query language. On this foundation, Seq builds the diagnostics, dashboarding, and alerting capabilities needed by modern development and operations teams.</p>
+<h3 id="whatsnewinseq51">What's new in Seq 5.1?</h3>
+<p>Seq 5.0 was a game-changing, <em>giant leap</em> kind of release: new platform support (Docker/Linux), new native storage engine with signal indexing, new .NET runtime (.NET Core), new look and feel 😎, workspaces, and more. Just shipping it was, to us, a quiet marvel, and when it came to release day, the rough edges were small in comparison with all the new things Seq gained.</p>
+<p>With that behind us, though, we started noticing where 5.0 stopped short. We rolled up our sleeves and set out to fill some gaps, and along the way, we realized that the earlier version left a lot of low-hanging fruit: new possibilities, easy extensions to new features, and simple ergonomic improvements.</p>
+<ul>
+<li>Faster correlation id searches became <a href="https://nblumhardt.com/2019/02/pre-filtering/">pre-filtering</a>, an up-to-10× speedup for all text-based, and many property-value, searches from disk,</li>
+<li>A review of workspaces led to a more usable signal bar (<em>+N more</em>), and, a visually obvious <code>namespace /</code> convention for distinguishing shared from personal items,</li>
+<li>GELF ingestion for Docker became a whole new pluggable input mechanism, supporting not just <a href="https://docs.datalust.co/docs/using-gelf">GELF</a> but <a href="https://github.com/datalust/seq-input-rabbitmq">RabbitMQ</a> and soon <a href="https://github.com/Hinni/Seq.Input.AzureEventHub/">Azure Event Hubs</a>, and enabling new use cases like <a href="https://docs.datalust.co/docs/health-checks">health checks</a>,</li>
+<li>The new roles/permissions security model let us introduce read-only user roles, and <a href="https://docs.datalust.co/docs/dashboards#section-login-free-dashboards">login-free dashboads</a>,</li>
+<li>Dashboards got table-valued charts and a new mouse-over correlation line, and,</li>
+<li>Manageability in Docker led to environment variables now being available to set or override <a href="https://docs.datalust.co/docs/json-config#section-settings">any configuration item from <em>Seq.json</em></a>.</li>
+</ul>
+<p>The full release notes on GitHub list <a href="https://github.com/datalust/seq-tickets/milestone/90?closed=1">38 new features and bug fixes</a> added in the 5.1 milestone. We'll write about many of these in more detail over the coming weeks.</p>
+<p>On top of this, we think Seq 5.1 is really, really solid. During the 5.1 development cycle, we profiled and tuned everything from connection limits and timeouts in the HTTP stack, to GC settings, to behavior under I/O saturation, and more. We've added better circuit breakers, an indexer throttle, caching in front of the document store, more internal metrics... Heaps of edge cases have been examined, and stablility improved across the board.</p>
+<h3 id="gettingseq51">Getting Seq 5.1</h3>
+<p>Seq 5.1 is a highly-backwards-compatible, in-place upgrade, with no significant breaking changes. <a href="https://docs.datalust.co/v5.1/docs/upgrading-from-seq-50">Detailed upgrade notes</a> are being maintained in the Seq 5.1 documentation.</p>
+<p><strong>Windows users</strong> can install the Seq 5.1 MSI from <a href="https://datalust.co/download">the datalust.co downloads page</a>.</p>
+<p><strong>Linux/macOS users</strong> can update Docker instances to the <code>datalust/seq:latest</code> or <code>datalust/seq:5</code> tags, or a specific build listed on <a href="https://hub.docker.com/r/datalust/seq">Docker Hub</a>.</p>
+<p>As always, if you have more questions or need help upgrading, please get in touch via <a href="mailto:support@datalust.co">support@datalust.co</a>. Happy logging!</p>
+<!--kg-card-end: markdown-->]]></content:encoded></item><item><title><![CDATA[Seq 5.1 Plans]]></title><description><![CDATA[<p>Seq 5.1 is on its way! <a href="https://blog.getseq.net/seq-5/">Version 5.0</a> was a major turning point for Seq, and we're still coming to terms with everything we can now build on its foundations.</p>
+<p>The focus for Seq 5.1 is refinement: we want to improve the ergonomics of workspaces, round out</p>]]></description><link>https://blog.datalust.co/seq-5-roadmap/</link><guid isPermaLink="false">5c927870bfcf5d0017ecc6ba</guid><dc:creator><![CDATA[Nicholas Blumhardt]]></dc:creator><pubDate>Sun, 17 Feb 2019 23:08:01 GMT</pubDate><content:encoded><![CDATA[<p>Seq 5.1 is on its way! <a href="https://blog.getseq.net/seq-5/">Version 5.0</a> was a major turning point for Seq, and we're still coming to terms with everything we can now build on its foundations.</p>
+<p>The focus for Seq 5.1 is refinement: we want to improve the ergonomics of workspaces, round out Docker support, pick off some long-awaited enhancements to dashboards, and give a performance boost to several important categories of query.</p>
+<p><img src="https://blog.datalust.co/content/images/2019/02/Seq51Dashboard.png" alt="Seq 5.1 dashboard"></p>
+<p>Work on all of this is underway now. Some of these features are ready to try in the current preview MSI on <a href="https://getseq.net/download">https://getseq.net/download</a> and the <code>:preview</code> tag <a href="https://hub.docker.com/r/datalust/seq">on Docker Hub</a>; you can find more details on these in this post.</p>
+<h3 id="dashboardsin51">Dashboards in 5.1</h3>
+<p><a href="https://docs.getseq.net/v5.1/docs/dashboards">Dashboards</a> are the perfect demonstration of how much useful information can be easily extracted from structured logs. With each Seq release we make a special point of extending the capabilities of dashboards, and in 5.1 this means:</p>
+<ul>
+<li><a href="https://github.com/datalust/seq-tickets/issues/799"><strong>Login-free dashboards</strong></a> - it's now possible to add <code>&amp;apiKey=...</code> and <code>&amp;theme=...</code> parameters to a dashboard URL to show the dashboard on an overhead display/information radiator without needing to log in. The API key needs to have the <code>Read</code> permission assigned to it.</li>
+<li><a href="https://github.com/datalust/seq-tickets/issues/628"><strong>Tabular charts</strong></a> - show a rowset directly on the dashboard: top five orders, slowest URLs, and much more.</li>
+<li><a href="https://github.com/datalust/seq-tickets/issues/800"><strong>Time-axis reference line on hover</strong></a> - mousing over a chart will now show a reference line at the same x-axis point on other charts.</li>
+<li><a href="https://github.com/datalust/seq-tickets/issues/798"><strong><code>having</code>, <code>order by</code> and <code>limit</code> support</strong></a> - the dashboard query builder now permits a wider range of SQL constructs to be used. This works particularly nicely with the new tabular chart type.</li>
+</ul>
+<p>You can see the reference line and an example tabular chart in the screenshot at the top of this post.</p>
+<h3 id="prefilteringforfastersearches">Pre-filtering for faster searches</h3>
+<p>Seq uses a tiered storage architecture, split into a fast <em>memory store</em> over a much slower, disk-backed <em>persistent store</em>. In the past, we viewed the persistent store as an historical archive, but in our quest to support ever-larger log volumes on the same hardware, we've started squeezing more performance out of the persistent store with the aim of making it more comfortable to use in day-to-day diagnostic analysis.</p>
+<p>In version 5.0 we shipped an all-new native storage engine (which has been hugely successful), and <em>signal indexes</em> to speed up search on low-cardinality fields like <code>Application</code>, <code>@Level</code>, <code>StatusCode</code> etc.</p>
+<p>Version 5.1 introduces a new technique called <em>pre-filtering</em> to speed up free-text searches, and searches on high-cardinality fields such as <code>RequestId</code>, <code>CorrelationId</code> and so-on.</p>
+<p>The essence of pre-filtering is to detect fragments of unique text in the query, for example <code>juVa98HA9dK418hf</code> in <code>RequestId = 'juVa98HA9dK418hf'</code>, and to skip parsing and loading of events that don't include this text in their UTF-8 encoded JSON representation. There are some subtle edge-cases to work around, but, thanks to the blistering performance of Rust's <code>regex::RegexSet</code> we can squeeze 6× more throughput out of many searches against the persistent store with this technique.</p>
+<h3 id="pluggableinputsandgelfingestion">Pluggable inputs and GELF ingestion</h3>
+<p>Seq version 5.0 was the first to run in Docker on Linux, but we're already hearing from a lot of users who are deploying it this way. To fit even more nicely into the Docker ecosystem, 5.1 adds support for ingesting logs from Docker's own logging infrastructure, via the GELF format and protocol.</p>
+<p>Instead of building GELF input directly into Seq 5.1, we've opened up an extension point for custom inputs and shipped GELF support as a plug-in. This means more new input types are coming in the future, and there are already a <a href="https://github.com/datalust/seq-input-rabbitmq">RabbitMQ input</a> and an <a href="https://github.com/Hinni/Seq.Input.AzureEventHub/pull/1">Azure Event Hubs input from Michael Hinni</a> in the works.</p>
+<p><img src="https://blog.datalust.co/content/images/2019/02/gelf-app-screenshot-1.png" alt="GELF input"></p>
+<p>Read more about how the Docker logging integration works in our earlier blog post <a href="https://blog.getseq.net/collecting-docker-logs/"><em>Collecting Docker logs with Seq</em></a>.</p>
+<h3 id="generalimprovements">General improvements</h3>
+<p>We've taken on board a whole lot of feedback and made quite a few other improvements, including:</p>
+<ul>
+<li><a href="https://github.com/datalust/seq-tickets/issues/797">More level names</a> are now recognized, including the standard <code>syslog</code> keywords, and, the set of recognized levels is more consistent throughout Seq</li>
+<li>The fatal/critical and verbose levels now have distinct, <a href="https://github.com/datalust/seq-tickets/issues/769">better-looking markers</a> in the dark theme</li>
+<li>The <em>Event</em> menu under expanded events now has options to <a href="https://github.com/datalust/seq-tickets/issues/788">set the from/to calendar controls to the event's timestamp</a></li>
+<li>Checkboxes states are now <a href="https://github.com/datalust/seq-tickets/issues/789">more distinct and easier to discern</a> for vision-impaired/colourblind users</li>
+<li>A <a href="https://github.com/datalust/seq-tickets/issues/795">bug preventing apps that depend on <em>Newtonsoft.Json.dll</em> from loading under Docker</a> has been fixed</li>
+<li>A <a href="https://github.com/datalust/seq-tickets/issues/787">bug causing the <em>None</em> API key to report incorrect ingestion rates</a> has been fixed</li>
+<li>The system RAM target configuration option now <a href="https://github.com/datalust/seq-tickets/issues/784">accepts absolute byte sizes</a> in addition to percentages</li>
+<li>Plug-in Seq Apps <a href="https://github.com/datalust/seq-tickets/issues/793">can now target <code>netstandard2.0</code> or <code>netstandard2.1</code></a> for cross-platform compatibility</li>
+<li>We've taken some load off of the document store with better read/response caching; this improves performance when many users are working with Seq concurrently</li>
+<li>Some regressions around handling abandoned HTTP &quot;keep alive&quot; connections have been fixed, improving UI/API responsiveness</li>
+</ul>
+<h3 id="gettingthelatestpreview">Getting the latest preview</h3>
+<p>We'll keep posting new builds as we work through the remaining tasks in the release. We're aiming to have a final build completed in late March, if all goes to plan. In the meantime, feedback via the comments section here, <a href="mailto:support@getseq.net">support@getseq.net</a>, or the <a href="https://github.com/datalust/seq-tickets">Seq issue tracker</a>, will be appreciated.</p>
+<p>Happy logging!</p>
+<p><a href="https://getseq.net/download">Download the Seq 5.1 preview</a> or <a href="https://hub.docker.com/r/datalust/seq">pull the <code>datalust/seq:preview</code> container</a>.</p>
+]]></content:encoded></item><item><title><![CDATA[Collecting Docker logs with Seq]]></title><description><![CDATA[<p>Docker's built-in logging infrastructure takes <code>STDOUT</code> and <code>STDERR</code> from a running container, and sends each line of text to one of several <em>logging drivers</em>. This makes it possible to monitor and diagnose issues in containerized apps without any special logging configuration in the app itself.</p>
+<p>Aside from the basic <code>docker</code></p>]]></description><link>https://blog.datalust.co/collecting-docker-logs/</link><guid isPermaLink="false">5c927870bfcf5d0017ecc6bd</guid><dc:creator><![CDATA[Nicholas Blumhardt]]></dc:creator><pubDate>Mon, 04 Feb 2019 23:13:21 GMT</pubDate><content:encoded><![CDATA[<p>Docker's built-in logging infrastructure takes <code>STDOUT</code> and <code>STDERR</code> from a running container, and sends each line of text to one of several <em>logging drivers</em>. This makes it possible to monitor and diagnose issues in containerized apps without any special logging configuration in the app itself.</p>
+<p>Aside from the basic <code>docker logs</code> command that retrieves logs from a runnining container, Docker doesn't provide centralized log storage or management of its own. Instead, it's up to an administrator to choose the logging driver and configure it to forward logs to an appropriate log server.</p>
+<p>Docker doesn't ship with a logging driver for Seq itself, and although it's possible to extend Docker with plug-ins, it's much more convenient to work with one of the built-in drivers. Because of this, we've added GELF event format support into Seq 5.1: collecting Docker logs with Seq is now as simple as:</p>
+<pre><code class="language-shell">$ docker run \
+    --rm \
+    --log-driver gelf \
+    --log-opt gelf-address=udp://seq.example.com:12201 \
+    ubuntu echo HELO
+</code></pre>
+<p>Note the <code>seq.example.com:12201</code> in there - this needs to be the hostname or IP address, and port, where your Seq server's GELF input is listening.</p>
+<p>The Docker infrastructure adds a whole lot of useful information about the container to each line of output:</p>
+<p><img src="https://blog.datalust.co/content/images/2019/02/Docker-Events-in-Seq-1.png" alt="Docker container logs in Seq"></p>
+<p><strong>A quick aside: what is GELF?</strong> GELF is a simple compressed, chunked, JSON log format originally developed by the Graylog project, and now supported by many log servers and aggregators. The format includes well-known field names for typical log event properties like timestamps and messages. GELF can be sent via TCP or UDP transports, but UDP is the more popular option and is what we've chosen to support first in Seq.</p>
+<h3 id="enablinggelfinputsinseq">Enabling GELF inputs in Seq</h3>
+<p>There are two ways to ingest GELF packets into Seq.</p>
+<p>For Windows servers, the simplest option is to install the <em>Seq.Input.Gelf</em> plug-in. The plug-in requires Seq 5.1 because the infrastructure for ingesting high-volume events through apps is new to this version. Seq 5.1 is in development - you'll need to grab the preview installer from <a href="https://getseq.net/download">https://getseq.net/download</a> (bottom of the page). For Windows configuration instructions <a href="https://docs.getseq.net/v5.1/docs/using-gelf#section-enabling-gelf-on-windows">check out these docs</a>.</p>
+<p>For Docker environments, we ship a separate container <code>datalust/sqelf</code> (we love short names :-)) that runs alongside Seq and forwards events to it via Seq's HTTP ingestion API. This works with all recent Seq versions. To get a <code>sqelf</code> container deployed, <a href="https://docs.getseq.net/v5.1/docs/using-gelf#section-enabling-gelf-in-docker">these are the docs you're looking for</a>.</p>
+<h3 id="fullystructuredevents">Fully-structured events</h3>
+<p>If the container's output is valid JSON, the GELF input will attach properties from the JSON to the events in Seq.</p>
+<p>Here's an example (PowerShell syntax warning!) that sets <code>app_name</code> and provides a friendly message <code>@m</code>:</p>
+<pre><code class="language-shell">&gt; docker run `
+     --rm `
+     --log-driver gelf `
+     --log-opt gelf-address=udp://seq.example.com:12201 `
+     ubuntu echo '{\&quot;app_name\&quot;:\&quot;greetings\&quot;,\&quot;@m\&quot;:\&quot;Hello!\&quot;}'
+</code></pre>
+<p>In Seq:</p>
+<p><img src="https://blog.datalust.co/content/images/2019/02/Docker-Events-in-Seq-3.png" alt="Structured Docker container logs in Seq"></p>
+<p>The input recognizes the special field names from the standard Seq JSON format, like <code>@m</code>, <code>@t</code> and so-on, making it possible to use <a href="https://github.com/serilog/serilog-formatting-compact"><em>Serilog.Formatting.Compact</em></a> to losslessly record structured events to <code>STDOUT</code>.</p>
+<h3 id="sharingfeedbackandgettinghelp">Sharing feedback and getting help</h3>
+<p>The GELF input is brand new, and we'd love to hear how you're using it. Please ask questions and share your experiences with us here, <a href="https://twitter.com/datalust_seq">on Twitter</a>, or by emailing <strong><a href="mailto:support@getseq.net">support@getseq.net</a></strong>. If you think you've spotted a bug, the GELF input is <a href="https://github.com/datalust/sqelf">open-source on GitHub</a> and we'd appreciate your issue reports and PRs.</p>
+]]></content:encoded></item><item><title><![CDATA[Seq 5 Released]]></title><description><![CDATA[<p>Today we're excited to take the wraps off Seq 5, a major update to our much-loved log server — bringing faster storage and lower resource requirements, support for Docker on Linux, beautiful new dark and light themes, and a host of improvements throughout the product.</p>
+<p>You can download <a href="https://getseq.net/download">the installer for</a></p>]]></description><link>https://blog.datalust.co/seq-5/</link><guid isPermaLink="false">5c927870bfcf5d0017ecc6bc</guid><dc:creator><![CDATA[Nicholas Blumhardt]]></dc:creator><pubDate>Mon, 12 Nov 2018 19:01:17 GMT</pubDate><content:encoded><![CDATA[<p>Today we're excited to take the wraps off Seq 5, a major update to our much-loved log server — bringing faster storage and lower resource requirements, support for Docker on Linux, beautiful new dark and light themes, and a host of improvements throughout the product.</p>
+<p>You can download <a href="https://getseq.net/download">the installer for Windows</a> or pull the <a href="https://hub.docker.com/r/datalust/seq"><code>datalust/seq</code> Docker image</a> now.</p>
+<p><img src="https://blog.datalust.co/content/images/2018/11/Events-Light-2.PNG" alt="Seq 5 light theme"></p>
+<p style="margin-top: -1.5em; font-size: 80%; color: #ccc">Seq 5 light theme</p>
+<p><img src="https://blog.datalust.co/content/images/2018/11/Chart-Dark.PNG" alt="Seq 5 dark theme"></p>
+<p style="margin-top: -1.5em; font-size: 80%; color: #ccc">Seq 5 dark theme</p>
+<p>Seq 5 is an epic release that puts uncompromising application diagnostics within the reach of every development team:</p>
+<ul>
+<li><strong>Docker/Linux support:</strong> thanks to the magic of .NET Core and Docker, you can <a href="https://docs.getseq.net/v5.0/docs/getting-started-with-docker">run Seq 5 practically anywhere</a>, including on Linux and macOS, and in orchestration engines such as Kubernetes</li>
+<li><strong>Native storage:</strong> we've replaced ESENT and LMDB with an all-new, highly-efficient, cross-platform storage engine <a href="https://blog.getseq.net/rust-at-datalust/">written in the Rust programming language</a></li>
+<li><strong>Signal indexing:</strong> queries over the on-disk archive now complete tens to hundreds of times faster for sparse event streams thanks to <a href="https://blog.getseq.net/signal-indexing-beta/">lightweight indexing of Seq signals</a></li>
+<li><strong>Workspaces:</strong> organize large Seq installations into personal and shared <a href="https://blog.getseq.net/introducing-workspaces/">workspaces</a>, reducing signal bar clutter and improving focus in the UI</li>
+<li><strong>The <code>seqcli</code> command-line client:</strong> log, ingest, search, query, and administer from any OS with the new cross-platform <a href="https://github.com/datalust/seqcli">command-line API client</a></li>
+<li><strong>Quick signal bar, dashboard, and API key searching:</strong> new filter boxes make long lists easier to navigate</li>
+<li><strong>Personal API keys and fine-grained delegation:</strong> regular users can now create personal API keys; administration tasks can now be achieved using API keys with appropriate permissions assigned</li>
+<li><strong>Reworked UI with dark and light themes:</strong> you asked, we delivered, and with a sharp <a href="https://blog.getseq.net/introducing-the-new-seq-logo/">new logo</a> to match :-)</li>
+<li><strong>App manageability improvements:</strong> see the status and memory usage of Seq app processes; quickly find emitted events from apps</li>
+<li><strong>API key data rates:</strong> track down heavy log sources by watching the ingested data rate per API key, in bytes/minute</li>
+<li><strong>Improved free tier:</strong> individual developers can now use Seq with full authentication support via the free, default, single-user license</li>
+</ul>
+<p>There are many more small improvements: we've taken the time to fix papercuts and add polish in almost every part of Seq. You can find some more detail in the <a href="https://github.com/datalust/seq-tickets/milestone/78?closed=1">issue tracker milestone</a>.</p>
+<h3 id="gettingstartedwithseqindocker">Getting started with Seq in Docker</h3>
+<p>Docker makes running Seq trivially easy:</p>
+<pre><code>docker run --rm -it -e ACCEPT_EULA=Y -p 5341:80 datalust/seq
+</code></pre>
+<p>This will start a temporary instance with the UI and ingestion exposed on <code>http://localhost:5341</code>. (This will start Seq with the free single-user license; you can find the full EULA in <em>Settings</em> &gt; <em>License</em>, or online <a href="https://getseq.net/doc/eula-current.pdf">here</a>.)</p>
+<p>Sending events to Seq in Docker is just like using Seq on Windows - <a href="https://github.com/serilog/serilog-sinks-seq">integrations with libraries like Serilog</a> make this quick and painless; check <a href="https://getseq.net">the docs</a> for more options.</p>
+<p>If you're curious to try the new command-line client, which is installed alongside Seq on Windows, or <a href="https://github.com/datalust/seqcli/releases">downloadable from GitHub</a> for Windows, macOS and Linux, a simple log event can be sent with:</p>
+<pre><code>seqcli log -m &quot;Hello, {Name}!&quot; -p Name=Docker
+</code></pre>
+<p>For more detailed instructions for using Seq in Docker, including how to mount persistent volumes and control exposed ports, check out our <a href="https://docs.getseq.net/v5.0/docs/getting-started-with-docker">Getting Started instructions</a> in the Seq documentation.</p>
+<h3 id="gettingstartedonwindows">Getting started on Windows</h3>
+<p>There's not much to say about setting up Seq on Windows: as always, we take pride in the simple <em>next, next, next</em> installation experience using the <a href="https://getseq.net/download">Seq MSI</a>.</p>
+<img alt="Seq 5 Windows installer" src="https://blog.datalust.co/content/images/2018/11/Installer.png" style="height: 348px; width: auto">
+<p>After completing the install sequence, Seq will be running as a service and listening on <code>http://localhost:5341</code>.</p>
+<p>You can use one of many logging library integrations, or the <code>seqcli</code> command-line, to send some events.</p>
+<pre><code>seqcli log -m &quot;Hello {Name}!&quot; -p Name=Windows
+</code></pre>
+<p>More detailed Windows setup instructions can be found in <a href="https://docs.getseq.net/v5.0/docs/getting-started">the Seq documentation</a>.</p>
+<h3 id="upgradingfromseq4">Upgrading from Seq 4</h3>
+<p>Seq 5 is a highly-compatible in-place upgrade for existing installations of Seq 3.0 onward. Simply running the installer and completing each step will be sufficient for normal deployments.</p>
+<p>Seq 5.0 will run on the platforms officially supported by Seq 4.2, however Windows 7 and Server 2008 R4 are no longer compatible, and the minimum recommended OS has been updated to Windows Server 2012 R2 (<em>Updated 14th Nov. — NB</em>).</p>
+<p>Ingestion endpoints are identical (so apps don't need any updates), and existing event data stored in ESENT- or LMDB-backed extents will be retained. Note that existing data in ESENT or LMDB extents will not be indexed.</p>
+<p>Apps and scripts that integrate directly with the API may need minor updates to work with Seq 5: for a list of backwards-incompatible API changes please consult the <a href="https://docs.getseq.net/v5.0/docs/upgrading-from-seq-42">4.2 to 5.0 upgrade guide</a>.</p>
+<h3 id="whatsnext">What's next?</h3>
+<p>Download the <a href="https://getseq.net/download">Windows installer</a> or pull the <a href="https://hub.docker.com/r/datalust/seq">Docker container</a> and get started! The single-user license is enabled out of the box, and if you want to try Seq with your team, multi-user trial keys are <a href="https://getseq.net/trial">available from the website</a>.</p>
+<p>If you have questions or need assistance with upgrading, drop us a line via <strong><a href="mailto:support@getseq.net">support@getseq.net</a></strong>, we'll be pleased to help.</p>
+<p>Seq 5 took a lot of delicate work and experimentation to get right, and we couldn't have made it to the release today without the support of everyone who tried the early previews and betas. Thanks again! Your insights and encouragement made a huge difference to us.</p>
+<p>We're looking forward to hearing how Seq 5 works for you; please get in touch here, via <a href="https://twitter.com/datalust_seq">@datalust_seq</a> on Twitter, or by email, and let us know!</p>
+]]></content:encoded></item><item><title><![CDATA[Introducing Workspaces - Seq 5 Beta 2]]></title><description><![CDATA[<blockquote>
+<p>TL;DR: The latest <a href="https://getseq.net/download">Seq beta build</a> adds <em>workspaces</em> to help keep the Seq user interface focused even when a large number of signals, queries, and dashboards are in use. We've used this opportunity to align how signals, queries, workspaces, and dashboards are shared and managed in team settings.</p>
+</blockquote>
+<p><em>Signals</em></p>]]></description><link>https://blog.datalust.co/introducing-workspaces/</link><guid isPermaLink="false">5c927870bfcf5d0017ecc6bb</guid><dc:creator><![CDATA[Nicholas Blumhardt]]></dc:creator><pubDate>Mon, 05 Nov 2018 04:58:37 GMT</pubDate><content:encoded><![CDATA[<blockquote>
+<p>TL;DR: The latest <a href="https://getseq.net/download">Seq beta build</a> adds <em>workspaces</em> to help keep the Seq user interface focused even when a large number of signals, queries, and dashboards are in use. We've used this opportunity to align how signals, queries, workspaces, and dashboards are shared and managed in team settings.</p>
+</blockquote>
+<p><em>Signals</em> are one of Seq's most useful features: they identify different apps, environments, levels, event types and more; they're a fundamental part of slicing and dicing events during diagnostic sessions; they drive charts; they trigger alerts; they're the basis of the new indexing features in Seq 5, and they drive retention policies.</p>
+<p>Over time, this means Seq installations end up with a lot of signals, sometimes hundreds. While the signal bar allows individual signals to be shown or hidden by each user, has some nice <a href="https://blog.getseq.net/organizing-the-signal-bar-in-seq-4-2/">grouping features</a> — and a scroll bar :-) — the clutter that builds up there can still make it hard to focus on what's important.</p>
+<h3 id="workspaces">Workspaces</h3>
+<p>In Seq 5 we're introducing a new concept called <em>Workspaces</em>. These are as simple as you might imagine: start a new workspace, get an empty signal bar, and then add just what you need for the task at hand.</p>
+<p><img src="https://blog.datalust.co/content/images/2018/11/Workspaces.png" alt="Workspace Selector"></p>
+<p>Each workspace identifies a set of signals, queries, and dashboards, focused on one particular task.</p>
+<p>The workspace selector appears in the top bar right next to the Seq logo, and pops out a little dialog where details of the current workspace can also be edited.</p>
+<h3 id="whatdoworkspacesenable">What do workspaces enable?</h3>
+<p>Every user on a Seq server has traditionally had their own personal workspace &quot;behind the scenes&quot;, allowing them to control which signals and queries are visible in their signal bar. With workspaces in 5.0:</p>
+<ul>
+<li>Everyone can create and use multiple different workspaces, for the projects, roles, and systems important to them;</li>
+<li>Workspaces can be shared, and shared workspaces can be cloned as the basis for new personal workspaces;</li>
+<li>Signals and queries are much more discoverable: searching to add items to a workspace will show all shared items as well as personal ones, so duplication can more easily be avoided;</li>
+<li>The current workspace can be closed, making all personal and shared items easily inspectable and usable;</li>
+<li>All of these benefits now extend to dashboards, too.</li>
+</ul>
+<p>The <em>Settings</em> &gt; <em>Users</em> &gt; <em>New user</em> and <em>Settings</em> &gt; <em>Users</em> &gt; <em>New user defaults</em> screens have been extended so that admins can pre-configure the default personal workspace for each new user.</p>
+<h3 id="newfilterboxes">New filter boxes</h3>
+<p>You'll notice another big, somewhat overdue improvement: the signal bar and dashboard list now have filter boxes so you can pick out individual items faster.</p>
+<p>Once you start filtering, items will be shown even if they're not part of the current workspace. If your filter matches an item that's not part of the current workspace, it will be added when you select it.</p>
+<h3 id="unifiedsharing">Unified sharing</h3>
+<p>This beta also makes some substantial changes to how signals, queries, and dashboards are managed in a team setting. In Seq 4, these items all use different models: dashboards are either shared or personal, for example, but signals are shared-only. Signals can be edited by anyone unless <em>protected</em>, while only administrators can edit shared dashboards.</p>
+<p>In Seq 5, signals, queries, dashboards, and workspaces now follow the same pattern:</p>
+<ul>
+<li>Items can be either <em>shared</em> (viewable by anyone) or <em>personal</em> (private to a single owner)</li>
+<li>Any user can edit shared items, unless they're explicitly marked as protected</li>
+<li>Items are personal by default, and need to be explicitly shared before they'll be seen by other users</li>
+</ul>
+<p>Sharing settings can be modified from the drop-down menu beside the item's name when editing.</p>
+<p><img src="https://blog.datalust.co/content/images/2018/11/SharingSettings.png" alt="Changing sharing settings for a signal"></p>
+<p>Sharing in Seq 5 is a superset of the old model, and the upgrade process reconfigures existing items so that their visibility and permissions stay consistent with how they were used in Seq 4.</p>
+<h1 id="seq5timeline">Seq 5 timeline</h1>
+<p>This is the last planned beta for Seq 5; it won't by any means be the last of the 5.x line of releases (we've got a lot more in the pipeline!) but this build is feature-complete, and we're only focusing on bug fixes and a small number of cosmetic improvements from here through to RTM. If feedback from early production users continues to be positive as we expect, the final build will be available mid-November.</p>
+<h3 id="knownissuesinthisbeta">Known issues in this beta</h3>
+<ul>
+<li>The bundled <code>seqcli</code> doesn't yet work with the new &quot;unified sharing&quot; model, so commands like <code>seqcli signal list</code> fail; the workaround is to grab the latest archive for your platform from <a href="https://github.com/datalust/seqcli/releases">https://github.com/datalust/seqcli/releases</a>.</li>
+<li>A small number of users have reported <a href="https://github.com/datalust/seq-tickets/issues/735">slow upgrades from v4 while permalinks are migrated</a>; we're unsure of the exact scenario to replicate it - if this affects you, please contact us via <a href="mailto:support@getseq.net">support@getseq.net</a> and we'll help out.</li>
+</ul>
+]]></content:encoded></item><item><title><![CDATA[Seq 5 Signal Indexing Beta]]></title><description><![CDATA[<blockquote>
+<p><strong>TL;DR:</strong> Seq 5.0.2138-pre is our first supported beta from the 5.x series, and will be upgradable through to RTM. Seq 5 includes massive storage improvements for high-volume deployments. Download from <a href="https://getseq.net/download">https://getseq.net/download</a> or <a href="https://docs.getseq.net/v5.0/docs/getting-started-with-docker">pull the Docker image</a>.</p>
+</blockquote>
+<p>Earlier this year, we started work on</p>]]></description><link>https://blog.datalust.co/signal-indexing-beta/</link><guid isPermaLink="false">5c927870bfcf5d0017ecc6b9</guid><dc:creator><![CDATA[Nicholas Blumhardt]]></dc:creator><pubDate>Tue, 16 Oct 2018 21:47:32 GMT</pubDate><content:encoded><![CDATA[<blockquote>
+<p><strong>TL;DR:</strong> Seq 5.0.2138-pre is our first supported beta from the 5.x series, and will be upgradable through to RTM. Seq 5 includes massive storage improvements for high-volume deployments. Download from <a href="https://getseq.net/download">https://getseq.net/download</a> or <a href="https://docs.getseq.net/v5.0/docs/getting-started-with-docker">pull the Docker image</a>.</p>
+</blockquote>
+<p>Earlier this year, we started work on <a href="https://getseq.net">Seq</a> version 5, aiming to deliver a completely new storage engine, support for Docker and Linux, and improvements in practically every part of the app.</p>
+<p><img src="https://blog.datalust.co/content/images/2018/10/Events-5.0.2105-Dark.png" alt="Seq 5 - Dark Theme"></p>
+<p>We haven't held back. Seq 5 is a major overhaul that looks great, runs just about anywhere, works more efficiently for small deployments, and is more stable and responsive for large ones.</p>
+<p>While there are still a few features left on our backlog, we're confident that Seq 5 is stable enough for beta-level use, and from this point we'll be testing to ensure that beta installations can be upgraded smoothly to RTM when it arrives.</p>
+<p>The biggest change in Seq 5 is at the storage layer: while past releases have focused on the performance of queries from Seq's in-memory cache, Seq 5 lays new foundations for improving longer-range queries from the disk archive through <em>signal indexes</em>. We hope that, through the beta, we can gather feedback and tune this feature for a wide range of usage scenarios.</p>
+<h3 id="whataresignalindexes">What are signal indexes?</h3>
+<p>Internally, Seq is divided into two complementary storage systems: the in-memory cache, which is fast, and the disk-backed archive, which is slow.</p>
+<img src="https://blog.datalust.co/content/images/2018/10/CacheAndArchive.png" alt="Cache and Archive" style="box-shadow:none;border:none;height:120px;width:auto">
+<p>This works because, for diagnostics, a significant majority of queries will be over recent events: it's more common to hunt for the source of a bug that popped up last week, rather than one that was observed last year.</p>
+<p>As Seq is used for larger and larger event volumes, though, there's a limit to how much history can be stored in the cache. Once queries have to be served from the disk archive, the performance drop can be a burden.</p>
+<p>While we could turn to comprehensive secondary indexes to improve archive search performance, we'd then be on the well-trodden path to new I/O bottlenecks because of write amplification. It's easy to imagine generating 10× as much secondary index data as the log data itself.</p>
+<p>Seq 5 instead uses very lightweight page-level indexes to narrow down search queries. When you create a <em>signal</em> in Seq 5, Seq's new storage engine makes a map of the disk pages that contain one or more matching events. Since the map uses just one bit per signal per page, at most a few megabytes of index information typically have to be maintained for each gigabyte of log data.</p>
+<p>Queries in the Seq UI that are scoped to one or more signals will then read less disk pages, parse fewer event payloads, and spend less time evaluating filter expressions.</p>
+<h3 id="signalindexperformance">Signal index performance</h3>
+<p>To give you an idea of the difference signal indexes can make, we've collected some timings from our test data set and compared the time it takes to run <code>select count(*) from stream</code> on a synthetic data set in Seq 4.2, to the time taken by Seq 5.0.</p>
+<p>In order to avoid the effects of the memory cache, we've turned it off on the test system so that all results are served from the disk archive. The test system is an i7 ThinkPad laptop with SSD, and the numbers are best-of-three server-reported execution times (ignoring network round-trips).</p>
+<table>
+<thead>
+<tr>
+<th>Signal</th><th style="text-align: right">Count</th><th style="text-align: right">Seq 4.2 (ms)</th><th style="text-align: right">Seq 5.0 (ms)</th><th style="text-align: right">Improvement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>None</em></td><td style="text-align: right">1509541</td><td style="text-align: right">22076</td><td style="text-align: right">15445</td><td style="text-align: right">30%</td>
+</tr>
+<tr>
+<td>Warnings</td><td style="text-align: right">27496</td><td style="text-align: right">21868</td><td style="text-align: right">3588</td><td style="text-align: right">84%</td>
+</tr>
+<tr>
+<td>Errors</td><td style="text-align: right">3430</td><td style="text-align: right">21981</td><td style="text-align: right">501</td><td style="text-align: right">98%</td>
+</tr>
+<tr>
+<td>Exceptions</td><td style="text-align: right">1186</td><td style="text-align: right">21495</td><td style="text-align: right">177</td><td style="text-align: right">99%</td>
+</tr>
+</tbody>
+</table>
+<p>As you can see, querying the full event stream is already faster in Seq 5.0, but once the query is scoped down to <em>Warnings</em>, the signal index kicks in and what takes 27 seconds for Seq 4.2 to compute needs only 4 seconds in Seq 5.0.</p>
+<p><em>Errors</em> and <em>Exceptions</em> are even more noticeable, getting well into subsecond response times.</p>
+<p>The neat thing about choosing signals for Seq's second-level indexing strategy (after the primary timestamp index) is that they map very well to how Seq is used in practice. If you activate <em>Errors</em> in <em>Production</em> in <em>Web front end</em>, the combination of the indexes behind those signals will cut down the search time proportionally to how much the signals themselves intersect.</p>
+<h3 id="whendosignalindexeskickin">When do signal indexes kick in?</h3>
+<p>Seq stores events in 7-day <em>extents</em>, and each extent is tied to the storage engine that created it. Existing data stored using Seq 4 won't be indexed, as it will continue using the ESENT storage engine from that version. Only new extents created after the upgrade to Seq 5 will be indexed, so in practice, it may take some time for the effects of the new version to become evident.</p>
+<h3 id="whatelseisinthebeta">What else is in the beta?</h3>
+<p>Signal indexing - and the new native storage engine that drives it - is one of the headline features of the release, but there are a stack of other things you should check out in the beta. Here are a few more to try:</p>
+<ul>
+<li><strong><code>seqcli</code></strong> - ingest, search, and administer using the new command-line client, included in the Windows installer, and <a href="https://github.com/datalust/seqcli/releases">downloadable</a> for macOS and Linux; run <code>seqcli help</code> for a list of available commands</li>
+<li><strong>Fine-grained API key permissions</strong> and personal API keys - check this out by creating a new key in the <em>API keys</em> screen, and by clicking your username and selecting <em>API keys</em></li>
+<li><strong>Manageability improvements</strong> - see the ingested data rate per API key, and the RAM used by Seq apps; permalinks no longer interfere with disk space reclamation, and more</li>
+<li><strong>New light and dark themes</strong> - click your username, choose <em>Theme</em>, and pick the color scheme that works best for your viewing conditions</li>
+</ul>
+<h3 id="releaseschedule">Release Schedule</h3>
+<p>It's likely that further betas will follow as we finish the last few features, and squash any bugs that show up. We're targeting this quarter for a stable release. If you're in a position to try today's beta, we'd love to have your feedback.</p>
+<h3 id="gettingthebeta">Getting the beta</h3>
+<p>Windows installers are on <a href="https://getseq.net/download">https://getseq.net/download</a> (bottom of page). For instructions using the Docker image, read the quick-start documentation <a href="https://docs.getseq.net/v5.0/docs/getting-started-with-docker">here</a>. Existing Seq installations from version 3.0 on will upgrade in-place: just click through the MSI and you're done.</p>
+<p>Happy logging!</p>
+]]></content:encoded></item><item><title><![CDATA[How we integrate Rust with C#]]></title><description><![CDATA[<p>Seq is a log server that's built using a few programming languages; we have a storage engine called Flare written in Rust, and a server application written in C#. Our language stack is something <a href="https://blog.getseq.net/rust-at-datalust/">I've talked about previously</a>.</p>
+<p>Between Rust and C# we have a foreign function interface (FFI) that</p>]]></description><link>https://blog.datalust.co/rust-at-datalust-how-we-integrate-rust-with-csharp/</link><guid isPermaLink="false">5c927870bfcf5d0017ecc6b8</guid><dc:creator><![CDATA[Ashley Mannix]]></dc:creator><pubDate>Tue, 18 Sep 2018 23:15:06 GMT</pubDate><content:encoded><![CDATA[<p>Seq is a log server that's built using a few programming languages; we have a storage engine called Flare written in Rust, and a server application written in C#. Our language stack is something <a href="https://blog.getseq.net/rust-at-datalust/">I've talked about previously</a>.</p>
+<p>Between Rust and C# we have a foreign function interface (FFI) that lets us call out to Rust code from within the .NET runtime. In this post I'd like to explore our approach to FFI between Seq and its storage engine using the API for reading log events as a reference.</p>
+<p>To give you an idea of what the reader API looks like, here's an example of how it can be used in C# to enumerate over all events in the storage engine in order:</p>
+<pre><code class="language-csharp">IEnumerable&lt;(Key, byte[])&gt; ReadAllEvents(Store store)
+{
+    var range = new Range(Bound.Unbounded, Bound.Unbounded);
+    var order = Ordering.Ascending;
+
+    // Begin a reader over the entire store
+    // Events will be yielded oldest first
+    // The `BeginRead` method calls Rust code
+    using (var reader = store.BeginRead(range,  ordering))
+    {
+        // Create a buffer to read the event into
+        // This could be leased from a pool instead
+        var readInto = new byte[1024];
+
+        // The `TryReadNext` method calls Rust code
+        ReadResult read;
+        while (!(read = reader.TryReadNext(readInto.AsSpan())).IsDone)
+        {
+            // If the buffer is too small, resize it and read again
+            if (read.IsBufferTooSmall(out var required))
+            {
+                readInto = new byte[required];
+                continue;
+            }
+
+            // Get the contents of the event from the result
+            read.GetData(out var key, out var payload);
+
+            yield return (key, payload.ToArray());
+        }
+    }
+}
+</code></pre>
+<p>In the above example, the <code>store.BeginRead</code> and <code>reader.TryReadNext</code> methods are implemented in Rust. If any of that Rust code panics or returns an error then we capture them within .NET exceptions like this:</p>
+<p><img src="https://blog.datalust.co/content/images/2018/09/flare-error.png" alt="Combining a Rust error and .NET Exception"></p>
+<p>The <em>caused by</em> lines are the trace we get from Rust, which tells us that it ran into a data corruption trying to read an event from disk.</p>
+<p>The main components of Seq's storage engine FFI that we'll be exploring are:</p>
+<ul>
+<li>The high-level C# class <code>Reader</code>. In the above example, the call to <code>store.BeginRead</code> returns a <code>Reader</code>.</li>
+<li>The handles <code>FlareReaderHandle</code> in Rust and its C# counterpart <code>ReaderHandle</code>. These live a layer below the <code>Reader</code>.</li>
+<li>The binding functions. These perform actions on the handles. There are three involved in reading events:
+<ul>
+<li><code>flare_read_begin</code>: Begin a read transaction, which has a time range to read from and direction to read in.</li>
+<li><code>flare_read_next</code>: Read the next event into a caller-supplied buffer.</li>
+<li><code>flare_read_end</code>: Finish the read transaction and clean up its resources.</li>
+</ul>
+</li>
+<li>The infrastructure for capturing and surfacing Rust errors and panics as .NET exceptions.</li>
+</ul>
+<h1 id="thebenefitsanddrawbacksofffi">The benefits and drawbacks of FFI</h1>
+<p>Building software in multiple languages allows different components to be implemented in particularly idiomatic ways, but integrating those components can be challenging. The challenge comes from Rust and C# both being safe languages, but only being able to talk to each other by pretending to be unsafe C. That means within the FFI itself we can't just rely on Rust's ownership system or .NET's garbage collector to guarantee referenced data is valid without some extra help. Contracts built up in one language aren't guaranteed to be enforced by the other. Mistakes in this unsafe interface are prime suspects for invoking undefined behavior so we have to design it carefully.</p>
+<p>There are other constraints in the FFI in addition to its unsafe nature. We can only share certain kinds of values across the boundary, like primitive numbers, pointers, and simple datastructures. Specifically on the Rust side, we also have to deal with potentially null values, which aren't a feature of safe Rust code.</p>
+<p>All things considered though, the surface area of the FFI is small compared to the codebases on either side of it. If we were going to tackle building a storage engine entirely in C# we'd need a liberal sprinkling of <code>unsafe</code> throughout the whole codebase. Having said that, the recent focus on lower-level features in C# 7 is starting to make it feel more idiomatic to write performance-sensitive code in C# without losing all notion of safety. We'll see some of those features at work in the C# side of our FFI later. All in all, we're happy to trade some design challenges in the FFI for access to Rust's safety and performance characteristics and ecosystem within the rest of the storage engine codebase, and to keep our C# app code within Seq itself productive.</p>
+<p>With a little background behind us, let's dive straight into some code and look at the way state is managed between Rust and C#.</p>
+<h1 id="handles">Handles</h1>
+<p>Rust and C# have different fundamental approaches to managing memory safely. Neither of these are available to us when sharing state between them in the FFI, because Rust doesn't understand C#'s garbage collector and C# doesn't understand Rust's ownership system. So to help us manage shared state safely we wrap raw pointers to its memory in <em>handles</em>. These handles carry additional semantics over the raw pointers to prevent unsafe behaviour at runtime. Each handle has a definition in Rust and a corresponding pair in C#.</p>
+<p>Let's look at the Rust side first.</p>
+<h2 id="inrust">In Rust</h2>
+<p>The handles in Rust are responsible for allocating and deallocating shared FFI state in Rust's heap. The handle for a reader looks like this:</p>
+<pre><code class="language-rust">/**
+An opaque handle to a `StoreReader`.
+
+The reader is not safe to send across threads or access concurrently.
+*/
+pub struct FlareReader {
+    inner: StoreReader,
+}
+
+pub type FlareReaderHandle = HandleOwned&lt;FlareReader&gt;;
+</code></pre>
+<p>Where <code>StoreReader</code> is the more idiomatic Rust type for reading from a Flare store that the handle is wrapping. We'll see it at work later.</p>
+<h3 id="safemutablehandleswithhandleowned">Safe mutable handles with <code>HandleOwned</code></h3>
+<p>There's not much to see in the <code>FlareReader</code>, because it just wraps <code>StoreReader</code>, and the meat of the <code>FlareReaderHandle</code> itself is in that generic <code>HandleOwned</code> type. So let's look at <code>HandleOwned</code> in more detail. Don't worry too much about the <code>Send</code> and <code>UnwindSafe</code> traits yet, I'll explain what they're all about in a moment. <code>HandleOwned</code> looks like this:</p>
+<pre><code class="language-rust">/**
+A non-shared handle that cannot be accessed by multiple threads.
+
+The handle is bound to the thread that it was created on.
+The interior value can be treated like `&amp;mut T`.
+*/
+#[repr(transparent)]
+pub struct HandleOwned&lt;T&gt;(*mut ThreadBound&lt;T&gt;) where T: ?Sized;
+
+unsafe_impl!(
+    &quot;The handle is semantically `&amp;mut T`&quot; =&gt;
+    impl&lt;T&gt; Send for HandleOwned&lt;T&gt;
+    where
+        T: ?Sized + Send
+    {
+    }
+);
+
+impl&lt;T&gt; UnwindSafe for HandleOwned&lt;T&gt;
+where
+    T: ?Sized + RefUnwindSafe
+{
+}
+
+impl&lt;T&gt; HandleOwned&lt;T&gt;
+where
+    T: Send + 'static
+{
+    fn alloc(value: T) -&gt; Self {
+        let v = Box::new(ThreadBound::new(value));
+
+        HandleOwned(Box::into_raw(v))
+    }
+}
+
+impl&lt;T&gt; HandleOwned&lt;T&gt;
+where
+    T: ?Sized + Send
+{
+    unsafe_fn!(&quot;There are no other live references and the handle won't be used again&quot; =&gt;
+        fn dealloc&lt;R&gt;(handle: Self, f: impl FnOnce(&amp;mut T) -&gt; R) -&gt; R {
+            let mut v = Box::from_raw(handle.0);
+
+            f(&amp;mut **v)
+        }
+    );
+}
+
+impl&lt;T&gt; Deref for HandleOwned&lt;T&gt;
+where
+    T: ?Sized
+{
+    type Target = T;
+
+    fn deref(&amp;self) -&gt; &amp;T {
+        unsafe_block!(&quot;We own the interior value&quot; =&gt; {
+            &amp;**self.0
+        })
+    }
+}
+
+impl&lt;T&gt; DerefMut for HandleOwned&lt;T&gt;
+where
+    T: ?Sized
+{
+    fn deref_mut(&amp;mut self) -&gt; &amp;mut T {
+        unsafe_block!(&quot;We own the interior value&quot; =&gt; {
+            &amp;mut **self.0
+        })
+    }
+}
+</code></pre>
+<p><code>HandleOwned</code> is an opaque wrapper over a <code>*mut T</code>, which is a raw pointer. <code>HandleOwned</code> is solely responsible for allocating, deallocating, and dereferencing the memory behind that pointer. It's not accessed in C#. We try to communicate the handle's safety contract using a few standard Rust traits. This contract is actually lost across the FFI boundary so we need a few safety nets at runtime to catch ourselves if we violate it. It's still worth having the traits appropriately implemented though even if they alone can't force the foreign C# code to use the handle correctly. Their presence serves as documentation for the way we expect the handles to be used. Let's look at these traits in some more detail now.</p>
+<h3 id="maintainingthreadsafety">Maintaining thread safety</h3>
+<p>Thread safety is a property of mutli-threaded code that only accesses shared state in a synchronized way that's free from potential data races (there are actually some additional requirements around dangling pointers that we'll deal with later).</p>
+<p>Rust has a pair of traits for communicating thread safety; <a href="https://doc.rust-lang.org/stable/std/marker/trait.Send.html"><code>Send</code></a> and <a href="https://doc.rust-lang.org/stable/std/marker/trait.Sync.html"><code>Sync</code></a>. Together, they form a framework for concurrency that allows Rust code to share state when it's safe, but prevent it when it's not. The <code>Send</code> trait tells us whether a value can safely be sent to different threads. The <code>Sync</code> trait tells us whether a value can safely be accessed from different threads.</p>
+<p>The difference between <code>Send</code> and <code>Sync</code> can be a bit subtle. I think a helpful example of how they work together comes from an impl block in the standard library that looks a little like this:</p>
+<pre><code class="language-rust">impl&lt;'a, T&gt; Send for &amp;'a T where T: Sync { }
+</code></pre>
+<p>It tells us that a borrowed reference, <code>&amp;'a T</code>, is safe to send across threads if the data it references, <code>T</code>, is safe to access from different threads.</p>
+<p>Rust will automatically try and implement <code>Send</code> and <code>Sync</code> for a type, so long as its contents are <code>Send</code> and <code>Sync</code>. This is usually achieved through standard library abstractions like <code>Arc</code> for thread-safe reference counting, and <code>Mutex</code> for thread-safe mutability.</p>
+<p>For <code>HandleOwned</code>, we simply don't want multiple threads to get a hold of the handle because we treat it like a mutable reference, and in Rust having multiple live mutable references to the same data is not allowed. There are a few complications though, <code>Send</code> and <code>Sync</code> are compile-time contracts that only Rust understands. There's nothing stopping a foreign caller from copying a <code>HandleOwned</code> into multiple threads and attempting to access the contents concurrently. As a safety net, <code>HandleOwned</code> wraps its contents in a <code>ThreadBound</code> type when allocating it. <code>ThreadBound</code> is similar to the <a href="https://docs.rs/fragile"><code>fragile::Fragile</code></a> type in the ecosystem in that it panics if it's dereferenced from a different thread than the one it was created on. This check effectively also enforces <code>!Sync</code> at runtime by catching cases where the handle has been passed to a different thread.</p>
+<p>There's an important exception to binding <code>HandleOwned</code> to its initial thread though; in .NET resources aren't guaranteed to be reclaimed from the same thread that allocated them. That means we need to be able to logically <code>Send</code> the <code>HandleOwned</code> to another thread so the GC can finalize it. So our <code>HandleOwned</code> implements the <code>Send</code> trait so long as its contents do. That way it's safe to deallocate it from a finalization thread.</p>
+<h3 id="maintainingunwindsafety">Maintaining unwind safety</h3>
+<p>Unwind safety in Rust is like exception safety in C#. It's a property of code that guarantees that broken invariants aren't observable if a function panics and breaks normal control flow.</p>
+<p>Rust has a pair of traits (Rust seems to have a lot of systems that are built up from a pair of traits) for communicating unwind safety; <a href="https://doc.rust-lang.org/stable/std/panic/trait.UnwindSafe.html"><code>UnwindSafe</code></a> and <a href="https://doc.rust-lang.org/stable/std/panic/trait.RefUnwindSafe.html"><code>RefUnwindSafe</code></a>. The <code>UnwindSafe</code> trait tells us whether an owned value is unwind safe. The <code>RefUnwindSafe</code> trait tells us whether a borrowed reference to a value is unwind safe.</p>
+<p>To demonstrate the difference between <code>UnwindSafe</code> and <code>RefUnwindSafe</code>, let's turn to some more impl blocks in the standard library:</p>
+<pre><code class="language-rust">impl&lt;'a, T&gt; UnwindSafe for &amp;'a T where T: RefUnwindSafe { }
+
+impl&lt;T&gt; UnwindSafe for Rc&lt;T&gt; where T: RefUnwindSafe { }
+
+impl&lt;T&gt; UnwindSafe for Arc&lt;T&gt; where T: RefUnwindSafe { }
+</code></pre>
+<p>These blocks tell us that some reference to a type, <code>T</code>, is unwind safe if <code>T</code> is unwind safe while it's borrowed. <code>RefUnwindSafe</code> lets us be abstract over the kind of reference to <code>T</code> that we're dealing when, whether it's <code>&amp;'a T</code>, <code>Rc&lt;T&gt;</code>, <code>Arc&lt;T&gt;</code>, or in our case, <code>HandleOwned&lt;T&gt;</code>.</p>
+<p>Rust considers everything unwind safe by default unless it can be mutated:</p>
+<pre><code class="language-rust">impl&lt;'a, T&gt; !UnwindSafe for &amp;'a mut T { }
+</code></pre>
+<p>Some types guarantee unwind safety by poisoning their state on a panic. The standard library's <code>Mutex</code> works this way. After being poisoned that state is no longer accessible. It's a broadly applicable technique for guaranteeing unwind safety regardless of how the state itself is mutated. Many types in the storage engine use poisoning to guarantee unwind safety in case something unexpected happens, like a write to disk fails.</p>
+<h3 id="ensuringreferencesremainvalid">Ensuring references remain valid</h3>
+<p>Rust uses a type system to try and prove a program only accesses its memory in valid ways. These types are called lifetimes (they're the little <code>'a</code> sigils in the <code>&amp;'a T</code>). When defining FFI handles in Rust we need to be careful with these lifetimes because, following the theme of <code>Send</code> and <code>Sync</code>, they're a compile-time contract with other Rust code. C# doesn't understand this contract so for data that's shared across the FFI boundary we can't just depend on lifetimes to ensure references to other pieces of state remain valid. Instead we depend on runtime reference counting using <code>Rc&lt;T&gt;</code> or <code>Arc&lt;T&gt;</code>. That's why <code>HandleOwned</code> has a <code>'static</code> requirement in its definition. <code>'static</code> is a special lifetime for data that <em>can</em> live for as long as the program itself. That means if <code>T: 'static</code>, then <code>T</code> is probably an owned value or a reference to static data compiled into the program itself. <code>HandleOwned</code> will only accept data that can live until we're ready to deallocate it.</p>
+<p>Right now, handles are just wrappers over a raw pointer. This means there's nothing <em>technically</em> stopping a foreign caller from re-using that handle after it's been freed. At some point in the future we could turn those raw pointers into entries in some global handle table. That table could then detect attempts to access a handle that's already been freed.</p>
+<h3 id="safeconcurrenthandleswithhandleshared">Safe concurrent handles with <code>HandleShared</code></h3>
+<p>Having <code>HandleOwned</code> bound to a single thread makes it possible for us to ensure there's only a single live mutable reference to its state. That means thread-safety is achieved by simply forbidding multiple threads from using the handle. That's nice, but a bit limiting for potentially long-lived handles so we have a complement to <code>HandleOwned</code> called <code>HandleShared</code> that's safe for concurrent access, so long as its contents are. It looks like this:</p>
+<pre><code class="language-rust">/**
+A shared handle that can be accessed concurrently by multiple threads.
+
+The interior value can be treated like `&amp;T`.
+*/
+#[repr(transparent)]
+pub struct HandleShared&lt;T: ?Sized&gt;(*const T);
+
+unsafe_impl!(
+    &quot;The handle is semantically `&amp;T`&quot; =&gt;
+    impl&lt;T&gt; Send for HandleShared&lt;T&gt;
+        where T: ?Sized + Sync
+    {
+    }
+);
+
+impl&lt;T&gt; UnwindSafe for HandleShared&lt;T&gt;
+where
+    T: ?Sized + RefUnwindSafe
+{
+}
+
+impl&lt;T&gt; HandleShared&lt;T&gt;
+where
+    T: Send + Sync + 'static
+{
+    fn alloc(value: T) -&gt; Self {
+        let v = Box::new(value);
+
+        HandleShared(Box::into_raw(v))
+    }
+}
+
+impl&lt;T&gt; HandleShared&lt;T&gt;
+where
+    T: ?Sized + Send + Sync
+{
+    unsafe_fn!(
+        &quot;There are no other live references and the handle won't be used again&quot; =&gt;
+        fn dealloc&lt;R&gt;(handle: Self, f: impl FnOnce(&amp;mut T) -&gt; R) -&gt; R {
+            let mut v = Box::from_raw(handle.0 as *mut T);
+
+            f(&amp;mut *v)
+        }
+    );
+}
+
+impl&lt;T&gt; Deref for HandleShared&lt;T&gt;
+where
+    T: ?Sized
+{
+    type Target = T;
+
+    fn deref(&amp;self) -&gt; &amp;T {
+        unsafe_block!(&quot;We own the interior value&quot; =&gt; {
+            &amp;*self.0
+        })
+    }
+}
+</code></pre>
+<p>An example of a <code>HandleShared</code> is <code>StoreHandle</code>, which holds most of the state for an instance of the storage engine and is safe for concurrent access:</p>
+<pre><code class="language-rust">/**
+An opaque handle to a `Store`.
+
+The store is safe to send across threads and access concurrently.
+*/
+pub struct FlareStore {
+    inner: Store,
+}
+
+pub type FlareStoreHandle = HandleShared&lt;FlareStore&gt;;
+</code></pre>
+<p>The <code>StoreReader</code> type we saw before borrows a lot of state from the <code>Store</code>.</p>
+<h2 id="inc">In C#</h2>
+<p>Memory in C# is managed by a garbage collector in the .NET runtime. It takes care of keeping objects alive for as long as their accessible, and reclaiming their memory when they’re not. Rust doesn't know about the .NET garbage collector though, so from .NET's point of view Rust is unmanaged code. There are a lot of subtle design challenges that can lead to nasty memory safety issues when integrating managed and unmanaged code. Fortunately though, this is all very well-trodden territory and we have plenty of tools at our disposal in .NET to manage the complexity of building safe, managed APIs to unmanaged resources. We'll see some of these tools in action shortly.</p>
+<p>Let's start by looking at the <code>Reader</code> class, which is the high-level C# API for reading events from the Rust storage engine. It looks like this:</p>
+<pre><code class="language-csharp">public sealed class Reader : IDisposable
+{
+    readonly ReaderHandle _handle;
+    
+    internal Reader(ReaderHandle handle)
+    {
+        _handle = handle;
+    }
+
+    public ReadResult TryReadNext(Span&lt;byte&gt; buffer)
+    {
+        EnsureOpen();
+        
+        unsafe
+        {
+            fixed (byte* bufferPtr = buffer)
+            {
+                var result = Bindings.flare_read_next(
+                    _handle,
+                    out var key,
+                    (IntPtr)bufferPtr,
+                    (UIntPtr)buffer.Length,
+                    out var actualValueLength);
+                    
+                if (result.IsBufferTooSmall())
+                {
+                    return ReadResult.BufferTooSmall((int)actualValueLength);
+                }
+                
+                if (result.IsDone())
+                {
+                    return ReadResult.Done();
+                }
+                
+                result.EnsureSuccess();
+                return ReadResult.Data(key, buffer.Slice(0, (int)actualValueLength));
+            }
+        }
+    }
+    
+    public void Dispose()
+    {
+        _handle.Close();
+    }
+    
+    void EnsureOpen()
+    {
+        // Invalid handles will still be caught by the unmanaged bindings
+        // This method just surfaces a more accurate exception
+        if (_handle.IsClosed)
+            throw new ObjectDisposedException(
+                nameof(Reader),
+                &quot;The reader has been disposed.&quot;
+            );
+    }
+}
+</code></pre>
+<p>The call to <code>Bindings.flare_read_next</code> is executing Rust code on the <code>FlareReaderHandle</code> we saw earlier. We'll look at the exact definition of <code>flare_read_next</code> a bit later.</p>
+<h3 id="safearbitrarymemorywithoutallocating">Safe arbitrary memory, without allocating</h3>
+<p>The <code>Reader.TryReadNext</code> method returns a type called <code>ReadResult</code> that carries the result of reading the event into a buffer, along with the event's byte payload. <code>ReadResult</code> is a <code>ref struct</code>, which is a new C# 7 feature to guarantee instances can never be boxed on the heap. That means a <code>ref struct</code> has a well-defined lifetime that's tied to a specific stack frame. This is what it looks like:</p>
+<pre><code class="language-csharp">public ref struct ReadResult
+{
+    Key _key;
+    Span&lt;byte&gt; _value;
+    int _requiredLength;
+    Result _result;
+
+    enum Result
+    {
+        Ok,
+        Done,
+        BufferTooSmall
+    }
+
+    internal static ReadResult Data(Key key, Span&lt;byte&gt; value)
+    {
+        return new ReadResult
+        {
+            _key = key,
+            _value = value,
+            _result = Result.Ok
+        };
+    }
+
+    internal static ReadResult Done()
+    {
+        return new ReadResult
+        {
+            _result = Result.Done
+        };
+    }
+
+    internal static ReadResult BufferTooSmall(int requiredLength)
+    {
+        return new ReadResult
+        {
+            _requiredLength = requiredLength,
+            _result = Result.BufferTooSmall
+        };
+    }
+
+    public bool IsBufferTooSmall(out int required)
+    {
+        if (_result != Result.BufferTooSmall)
+        {
+            required = 0;
+            return false;
+        }
+        
+        required = _requiredLength;
+        return true;
+    }
+
+    public bool IsDone =&gt; _result == Result.Done;
+
+    public bool HasValue =&gt; _result == Result.Ok;
+
+    public void GetData(out Key key, out Span&lt;byte&gt; value)
+    {
+        if (!HasValue)
+            throw new InvalidOperationException($&quot;`{nameof(ReadResult)}` has no data.&quot;);
+
+        key = _key;
+        value = _value;
+    }
+}
+</code></pre>
+<p>The payload field is a <a href="https://docs.microsoft.com/en-us/dotnet/api/system.span-1?view=netcore-2.1"><code>Span&lt;byte&gt;</code></a> which itself is a <code>ref struct</code> that acts like a potentially GC-aware pointer to arbitrary memory.</p>
+<p>The effort so far in C# 7 to improve the semantics and safety of working with arbitrary memory, and for working with value types in general, makes the .NET side of the FFI easier to build safely with very little overhead.</p>
+<h3 id="managingunmanagedresourceswithsafehandle">Managing unmanaged resources with <code>SafeHandle</code></h3>
+<p>In the Rust FFI handles, we have a fundamental <code>HandleOwned</code> type that encapsulates the memory safety requirements that the consuming Rust code expects to be maintained. We have a similarly fundamental handle type behind <code>Reader</code> in C# called <code>ReaderHandle</code>. It looks like this:</p>
+<pre><code class="language-csharp">class ReaderHandle : SafeHandle
+{
+    public ReaderHandle()
+        : base(IntPtr.Zero, true)
+    {
+    }
+    
+    [ReliabilityContract(Consistency.WillNotCorruptState, Cer.MayFail)]
+    protected override bool ReleaseHandle()
+    {
+        if (handle == IntPtr.Zero) return true;
+        
+        var h = handle;
+        handle = IntPtr.Zero;
+        
+        return Bindings.flare_read_end(h).IsSuccess();
+    }
+    
+    public override bool IsInvalid =&gt; handle == IntPtr.Zero;
+}
+</code></pre>
+<p><code>ReaderHandle</code> is a class that is responsible for integrating with the .NET garbage collector by inheriting from the <a href="https://docs.microsoft.com/en-us/dotnet/api/system.runtime.interopservices.safehandle?view=netcore-2.1"><code>SafeHandle</code></a> class. <code>SafeHandle</code> takes care of a lot of the subtlety of acquiring and releasing unmanaged resources safely. It wraps a raw pointer and ensures the contents of the <code>ReleaseHandle</code> method will get called in a constrained execution region during finalization if the handle isn't released sooner. That means that one way or another, when the handle is no longer accessible the unmanaged resources it wraps will have a chance to get reclaimed.</p>
+<h1 id="indicatingsuccessorfailure">Indicating success or failure</h1>
+<p>When making FFI calls, we want to be able to capture normal errors in Rust and make them available to the foreign caller. In Seq, we also want to catch any potential panics from the storage engine (even though we don’t expect them under normal operation) so we have a chance to log them before either shutting down or attempting to recover. FFI error management is provided by the <code>FlareResult</code> type, which has both a Rust and a C# implementation.</p>
+<h2 id="inrust">In Rust</h2>
+<p><code>FlareResult</code> is an enum for returning a simple status code across an FFI boundary that follows a <a href="https://michael-f-bryan.github.io/rust-ffi-guide/errors/return_types.html#return-types">standard pattern</a> for making more detailed error information available to the foreign caller.</p>
+<p><code>FlareResult</code> looks something like this:</p>
+<pre><code class="language-rust">/** A container for the last result type returned by an FFI call on a given thread. */
+thread_local! {
+    static LAST_RESULT: RefCell&lt;Option&lt;LastResult&gt;&gt; = RefCell::new(None);
+}
+
+struct LastResult {
+    value: FlareResult,
+    err: Option&lt;String&gt;,
+}
+
+/**
+An indicator of success or failure in an FFI call.
+
+If the result is not success, a descriptive error stack can be obtained.
+*/
+#[repr(u32)]
+#[derive(Debug, Clone, Copy, PartialEq, Eq)]
+enum FlareResult {
+    Ok,
+    Done,
+    BufferTooSmall,
+    ArgumentNull,
+    InternalError,
+    ..
+}
+
+impl FlareResult {
+    /**
+    Attempt to get a human-readable error message for a result.
+    
+    If the result is successful then this method returns `None`.
+    */
+    fn as_err(&amp;self) -&gt; Option&lt;&amp;'static str&gt; {
+        match *self {
+            FlareResult::Ok | FlareResult::Done =&gt; None,
+            FlareResult::ArgumentNull =&gt; Some(&quot;a required argument was null&quot;),
+            FlareResult::BufferTooSmall =&gt; Some(&quot;a supplied buffer was too small&quot;),
+            FlareResult::InternalError =&gt; Some(&quot;an internal error occurred&quot;),
+            ..
+        }
+    }
+
+    /**
+    Call a function that returns a `FlareResult`, setting the thread-local last result.
+    
+    This method will also catch panics, so the function to call must be unwind safe.
+    */
+    pub(super) fn catch(f: impl FnOnce() -&gt; Self + UnwindSafe) -&gt; Self {
+        LAST_RESULT.with(|last_result| {
+            {
+                *last_result.borrow_mut() = None;
+            }
+            
+            match catch_unwind(f) {
+                Ok(flare_result) =&gt; {
+                    let extract_err = || flare_result.as_err().map(Into::into);
+                    
+                    // Always set the last result so it matches what's returned.
+                    // This `Ok` branch doesn't necessarily mean the result is ok,
+                    // only that there wasn't a panic.
+                    last_result
+                        .borrow_mut()
+                        .map_mut(|last_result| {
+                            last_result.value = flare_result;
+                            last_result.err.or_else_mut(extract_err);
+                        })
+                        .get_or_insert_with(|| LastResult {
+                            value: flare_result,
+                            err: extract_err(),
+                        })
+                        .value
+                }
+                Err(e) =&gt; {
+                    let extract_panic =
+                        || error::extract_panic(&amp;e)
+                               .map(|s| format!(&quot;internal panic with '{}'&quot;, s));
+                        
+                    // Set the last error to the panic message if it's not already set
+                    last_result
+                        .borrow_mut()
+                        .map_mut(|last_result| {
+                            last_result.err.or_else_mut(extract_panic);
+                        })
+                        .get_or_insert_with(|| LastResult {
+                            value: FlareResult::InternalError,
+                            err: extract_panic(),
+                        })
+                        .value
+                }
+            }
+        })
+    }
+    
+    /** Access the last result returned on the calling thread. */
+    fn with_last_result&lt;R&gt;(f: impl Fn(Option&lt;(FlareResult, Option&lt;&amp;str&gt;)&gt;) -&gt; R) -&gt; R {
+        LAST_RESULT.with(|last_result| {
+            let last_result = last_result.borrow();
+            let last_result = last_result.as_ref().map(|last_result| {
+                let msg = last_result.err.as_ref().map(|msg| msg.as_ref());
+                (last_result.value, msg)
+            });
+            
+            f(last_result)
+        })
+    }
+}
+</code></pre>
+<p>The <code>map_mut</code> and <code>or_else_mut</code> methods are defined in an extension trait on <code>Option</code> that I introduced <a href="https://blog.getseq.net/rust-at-datalust-how-we-organize-a-complex-rust-codebase/#findingahomeforcrosscuttingconcerns">in a previous post</a>.</p>
+<p><code>FlareResult</code> also implements the <code>Try</code> trait so FFI functions can use the <code>?</code> operator to early return errors:</p>
+<pre><code class="language-rust">/**
+Map error types that are convertible into the top-level `FlareError` into `FlareResult`s.
+
+This is so we can use `?` on `Result&lt;T, E: Into&lt;error::FlareError&gt;&gt;` in FFI functions.
+The error state will be serialized and stored in a thread-local that can be queried later.
+*/
+impl&lt;E&gt; From&lt;E&gt; for FlareResult
+where
+    E: Into&lt;error::FlareError&gt; + Fail,
+{
+    fn from(e: E) -&gt; Self {
+        // Get a formatted string representing the error
+        // This includes its chain of causes
+        let err = Some(error::format(&amp;e));
+        
+        // Convert the error into a top-level `FlareError`
+        // This can then be converted into an FFI-specific `FlareResult`
+        let flare_result = e.into().into_flare_result();
+        
+        LAST_RESULT.with(|last_result| {
+            *last_result.borrow_mut() = Some(LastResult {
+                value: flare_result,
+                err,
+            });
+        });
+        
+        flare_result
+    }
+}
+
+/** Allow carrying standard `Result`s as `FlareResult`s. */
+impl Try for FlareResult {
+    type Ok = Self;
+    type Error = Self;
+    
+    fn into_result(self) -&gt; Result&lt;Self::Ok, Self::Error&gt; {
+        match self {
+            FlareResult::Ok | FlareResult::Done =&gt; Ok(self),
+            _ =&gt; Err(self),
+        }
+    }
+    
+    fn from_error(result: Self::Error) -&gt; Self {
+        if result.as_err().is_none() {
+            panic!(format!(
+                &quot;attempted to return success code `{:?}` as an error&quot;,
+                result
+            ));
+        }
+        result
+    }
+    
+    fn from_ok(result: Self::Ok) -&gt; Self {
+        if result.as_err().is_some() {
+            panic!(format!(
+                &quot;attempted to return error code `{:?}` as success&quot;,
+                result
+            ));
+        }
+        result
+    }
+}
+</code></pre>
+<p><code>FlareResult</code> makes it much nicer to write FFI functions more idiomatically and have error information captured or consumers across the boundary.</p>
+<h2 id="inc">In C#</h2>
+<p>The C# implementation of <code>FlareResult</code> wraps the error codes internally and exposes a higher-level API that we can use to determine how to proceed after making an FFI call. It looks like this:</p>
+<pre><code class="language-csharp">[StructLayout(LayoutKind.Sequential)]
+public struct FlareResult
+{
+    enum FlareResultValue : uint
+    {
+        Ok,
+        Done,
+        BufferTooSmall,
+        ArgumentNull,
+        InternalError,
+        ..
+    }
+    
+    readonly FlareResultValue _result;
+    
+    public static (FlareResult, string) GetLastResult()
+    {
+        return LastResult.GetLastResult();
+    }
+    
+    // Check the native result for an error
+    // If there is one, we capture it and wrap it in a .NET exception
+    public void EnsureSuccess()
+    {
+        if (IsSuccess()) return;
+        
+        var (lastResult, msg) = GetLastResult();
+        
+        // This isn't perfect, but avoids some cases where native calls are made
+        // between checking for success.
+        if (lastResult._result == _result)
+        {
+            throw new Exception($&quot;Flare failed with {_result}: {msg?.TrimEnd()}&quot;);
+        }
+        
+        throw new Exception($&quot;Flare failed with {_result}&quot;);
+    }
+    
+    public bool IsSuccess()
+    {
+        return _result == FlareResultValue.Ok || _result == FlareResultValue.Done;
+    }
+    
+    public bool IsDone()
+    {
+        return _result == FlareResultValue.Done;
+    }
+    
+    public bool IsBufferTooSmall()
+    {
+        return _result == FlareResultValue.BufferTooSmall;
+    }
+}
+</code></pre>
+<h1 id="bindings">Bindings</h1>
+<p>The raw bindings are a set of functions with a C calling convention exported by the Rust library, and imported by the .NET runtime.</p>
+<h2 id="inrust">In Rust</h2>
+<p>To simplify safety checks in the FFI binding functions, we use a macro to declare our bindings in Rust called <code>ffi!</code>. Macros are like compile-time functions that operate on fragments of syntax to generate code. The <code>ffi!</code> macro takes care of ensuring arguments aren't null and capturing panics and other errors so they can be consumed by the foreign caller.</p>
+<p>Before looking at the definition of the macro itself, let's see how it's used. This is what our FFI bindings for the read API look like using the <code>ffi!</code> macro:</p>
+<pre><code class="language-rust">ffi! {
+    fn flare_read_begin(
+        store: FlareStoreHandle,
+        range: *const FlareRange,
+        direction: FlareOrdering,
+        reader: Out&lt;FlareReaderHandle&gt;
+    ) -&gt; FlareResult {
+        let range = &amp;*range;
+
+        let index_expr = range.index_expr()?;
+        let direction = match direction {
+            FlareOrdering::Ascending =&gt; Direction::Causal,
+            FlareOrdering::Descending =&gt; Direction::Anticausal,
+        };
+
+        let range = range.range();
+
+        let vread = store.inner.begin_read(range, index_expr, direction)?;
+
+        *reader = FlareReaderHandle::alloc(FlareReader {
+            inner: vread
+        });
+
+        FlareResult::Ok
+    }
+
+    fn flare_read_next(
+        reader: FlareReaderHandle,
+        key: Out&lt;FlareKey&gt;,
+        value_buf: *mut u8,
+        value_buf_len: size_t,
+        actual_value_len: Out&lt;size_t&gt;
+    ) -&gt; FlareResult {
+        fn call_read(
+            vreader: &amp;mut FlareReader,
+            buf: &amp;mut [u8],
+            key: &amp;mut FlareKey,
+            actual_value_len: &amp;mut usize
+        ) -&gt; FlareResult {
+            let reader = &amp;mut vreader.inner;
+
+            // Read the current event into the caller-supplied buffer
+            // We early return from this function if the buffer is too small
+            let read_result = reader.with_current(|current|
+                stream_read::into_fixed_buffer(current, buf, key, actual_value_len))?;
+
+            match read_result {
+                Some(result) =&gt; {
+                    // If the result is ok then we're done with this event
+                    // Fetch the next one
+                    if let FlareResult::Ok = result {
+                        reader.move_next()?;
+                    }
+
+                    result
+                }
+                // If there is no result then we don't have an event
+                // Fetch the next event and recurse
+                None =&gt; {
+                    if reader.move_next()? {
+                        call_read(vreader, buf, key, actual_value_len)
+                    } else {
+                        FlareResult::Done
+                    }
+                }
+            }
+        }
+
+        let buf = slice::from_raw_parts_mut(value_buf, value_buf_len);
+        call_read(&amp;mut reader, buf, &amp;mut *key, &amp;mut *actual_value_len)
+    }
+
+    fn flare_read_end(reader: FlareReaderHandle) -&gt; FlareResult {
+        FlareReaderHandle::dealloc(reader, |r| {
+            r.inner.complete()?;
+
+            FlareResult::Ok
+        })
+    }
+}
+</code></pre>
+<p>Most of the work here is in the <code>flare_read_next</code> function, which attempts to read an event into a caller-supplied buffer and return an appropriate error code if it doesn't fit. The <code>StoreReader</code> type it works with has a similar to API to the <a href="https://docs.rs/streaming-iterator"><code>streaming_iterator::StreamingIterator</code></a> trait. We saw the C# counterpart to the <code>flare_read_next</code> function in the <code>Reader.TryReadNext</code> method.</p>
+<p>The <code>Out</code> type is a simple type alias that makes it clear that we expect the function to assign to that argument:</p>
+<pre><code class="language-rust">type Out&lt;T&gt; = *mut T;
+</code></pre>
+<p>Now let's take a look at the <code>ffi!</code> macro itself and see what it does.</p>
+<h3 id="usingmacrostobuildsaferbindings">Using macros to build safer bindings</h3>
+<p>The <code>flare_read_begin</code>, <code>flare_read_next</code>, and <code>flare_read_end</code> functions are expanded by the <code>ffi!</code> macro to include boilerplate for ensuring arguments aren't null and to catch any panics using the <code>FlareResult</code> type we saw earlier.</p>
+<p>The <code>ffi!</code> macro itself looks like this (don't worry if the syntax looks unfamiliar, Rust macros are a bit different from regular Rust code):</p>
+<pre><code class="language-rust">macro_rules! ffi {
+    ($(fn $name:ident($($arg_ident:ident: $arg_ty:ty),*) -&gt; FlareResult $body:expr)*) =&gt; {
+        $(
+            #[no_mangle]
+            pub unsafe extern &quot;C&quot; fn $name( $($arg_ident : $arg_ty),* ) -&gt; FlareResult {
+                #[allow(unused_mut)]
+                unsafe fn call( $(mut $arg_ident: $arg_ty),* ) -&gt; FlareResult {
+                    if $($arg_ident.is_null()) || * {
+                        return FlareResult::ArgumentNull;
+                    }
+
+                    $body
+                }
+
+                FlareResult::catch(move || call( $($arg_ident),* ))
+            }
+        )*
+    };
+}
+</code></pre>
+<p>Argument null checking is handled by a trait called <code>IsNull</code>. This trait is fairly simple and we only implement it for argument types that are used in the FFI bindings:</p>
+<pre><code class="language-rust">/**
+Whether or not a value passed across an FFI boundary is null.
+*/
+pub(super) trait IsNull {
+    fn is_null(&amp;self) -&gt; bool;
+}
+
+impl&lt;T: ?Sized&gt; IsNull for *const T {
+    fn is_null(&amp;self) -&gt; bool {
+        &lt;*const T&gt;::is_null(*self)
+    }
+}
+
+impl&lt;T: ?Sized&gt; IsNull for *mut T {
+    fn is_null(&amp;self) -&gt; bool {
+        &lt;*mut T&gt;::is_null(*self)
+    }
+}
+
+impl&lt;T: ?Sized&gt; IsNull for super::HandleOwned&lt;T&gt; {
+    fn is_null(&amp;self) -&gt; bool {
+        self.0.is_null()
+    }
+}
+
+impl&lt;T: ?Sized + Sync&gt; IsNull for super::HandleShared&lt;T&gt; {
+    fn is_null(&amp;self) -&gt; bool {
+        self.0.is_null()
+    }
+}
+
+
+macro_rules! never_null {
+    ($($t:ty),*) =&gt; {
+        $(
+            impl IsNull for $t {
+                fn is_null(&amp;self) -&gt; bool { false }
+            }
+        )*
+    }
+}
+
+// Values that aren't pointers aren't ever considered null
+never_null!(
+    usize,
+    isize,
+    u8,
+    u16,
+    u32,
+    u64,
+    u128,
+    i8,
+    i16,
+    i32,
+    i64,
+    i128,
+    bool,
+    super::FlareOrdering
+);
+</code></pre>
+<p>The magic is in the <code>ffi!</code> macro, that knows what all the arguments to the function are and can automatically call <code>IsNull::is_null</code> on each of them.</p>
+<h2 id="inc">In C#</h2>
+<p>There's a standard tool for importing unmanaged function bindings in .NET called P/Invoke. This feature comes with a runtime cost whenever one of the binding functions is invoked, but can be fairly cheap if you amortize the cost by doing as much work as possible in a single call, and are careful about only marshaling blittable types. A type is blittable if its values have the same in-memory representation for both managed and unmanaged code. A few examples of blittable types in .NET are <code>int</code>, <code>IntPtr</code>, and structs with only blittable fields.</p>
+<p>The C# bindings for the three Rust functions needed to read events look like this:</p>
+<pre><code class="language-csharp">static class Bindings
+{
+#if WINDOWS
+    const string NativeLib = &quot;Native/flare&quot;;
+#else
+    const string NativeLib = &quot;Native/libflare&quot;;
+#endif
+
+    [DllImport(NativeLib, EntryPoint = &quot;flare_read_begin&quot;, ExactSpelling = true)]
+    public static extern FlareResult flare_read_begin(
+        StoreHandle store,
+        IntPtr range,
+        Ordering ordering,
+        out ReaderHandle reader);
+        
+    [DllImport(NativeLib, EntryPoint = &quot;flare_read_next&quot;, ExactSpelling = true)]
+    public static extern FlareResult flare_read_next(
+        ReaderHandle reader,
+        out Key key, 
+        IntPtr valueBuf,
+        UIntPtr valueBufLen,
+        out UIntPtr actualValueLen);
+        
+    [DllImport(NativeLib, EntryPoint = &quot;flare_read_end&quot;, ExactSpelling = true)]
+    public static extern FlareResult flare_read_end(IntPtr reader);
+}
+</code></pre>
+<p>The <code>WINDOWS</code> variable is a build-time constant we use for platform-specific code blocks.</p>
+<h1 id="theendresult">The end result</h1>
+<p>That's been a whirlwind tour of how we do FFI between Rust and C# in Seq! I hope there's something in there you've found interesting. We've tried to keep the source on either side of the Rust/C# FFI boundary idiomatic. Macros on the Rust side let us reduce a lot of boilerplate when defining the C ABI. Handles on the C# side take care of the subtleties of holding unmanaged resources alongside GC-managed ones. Using an FFI-specific result type lets us combine Rust errors with .NET exceptions so we have visibility into native code. The end result is an integrated, but independent set of codebases that are idiomatic within their target domains.</p>
+]]></content:encoded></item></channel></rss>

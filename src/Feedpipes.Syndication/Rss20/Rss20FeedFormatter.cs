@@ -4,9 +4,9 @@ using System.Globalization;
 using System.Linq;
 using System.Xml.Linq;
 using Feedpipes.Syndication.Rfc822Timestamp;
-using Feedpipes.Syndication.Rss20Feed.Document;
+using Feedpipes.Syndication.Rss20.Document;
 
-namespace Feedpipes.Syndication.Rss20Feed
+namespace Feedpipes.Syndication.Rss20
 {
     public class Rss20FeedFormatter
     {
@@ -17,7 +17,7 @@ namespace Feedpipes.Syndication.Rss20Feed
             _timestampFormatter = new Rfc822TimestampFormatter();
         }
 
-        public bool TryFormatRss20Feed(Document.Rss20Feed feed, out XDocument document)
+        public bool TryFormatRss20Feed(Rss20Feed feed, out XDocument document)
         {
             document = default;
 
@@ -172,7 +172,7 @@ namespace Feedpipes.Syndication.Rss20Feed
             {
                 itemElement.Add(commentsElement);
             }
-            
+
             foreach (var categoryToFormat in itemToFormat.Categories)
             {
                 if (TryFormatRss20Category(categoryToFormat, out var categoryElement))
@@ -198,7 +198,7 @@ namespace Feedpipes.Syndication.Rss20Feed
             {
                 itemElement.Add(sourceElement);
             }
-            
+
             if (TryFormatRss20Guid(itemToFormat.Guid, out var guidElement))
             {
                 itemElement.Add(guidElement);
@@ -224,7 +224,7 @@ namespace Feedpipes.Syndication.Rss20Feed
 
             return true;
         }
-        
+
         private bool TryFormatRss20Guid(Rss20Guid guidToFormat, out XElement guidElement)
         {
             guidElement = default;
@@ -424,7 +424,7 @@ namespace Feedpipes.Syndication.Rss20Feed
             attribute = new XAttribute(attributeName, stringToFormat);
             return true;
         }
-        
+
         private bool TryFormatOptionalBoolAttribute(bool? boolToFormat, XName attributeName, out XAttribute attribute)
         {
             attribute = default;
