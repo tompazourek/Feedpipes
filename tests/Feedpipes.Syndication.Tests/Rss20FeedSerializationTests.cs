@@ -4,7 +4,7 @@ using System.IO;
 using System.Text;
 using System.Xml;
 using Feedpipes.Syndication.Rss20;
-using Feedpipes.Syndication.Rss20.Document;
+using Feedpipes.Syndication.Rss20.Entities;
 using Feedpipes.Syndication.Tests.Data;
 using Xunit;
 

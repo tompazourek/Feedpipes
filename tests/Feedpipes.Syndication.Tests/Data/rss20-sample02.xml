@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
-<rss version="2.0">
+<rss version="2.0" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>This is my feed title</title>
         <link>https://example.org/channel</link>
@@ -41,6 +41,9 @@
             <day>Friday</day>
             <day>Monday</day>
         </skipDays>
+        <sy:updatePeriod>hourly</sy:updatePeriod>
+        <sy:updateFrequency>2</sy:updateFrequency>
+        <sy:updateBase>2000-01-01T12:00+00:00</sy:updateBase>
         <item>
             <title>My awesome article</title>
             <link>https://example.org/article</link>
@@ -52,6 +55,7 @@
             <pubDate>Tue, 01 Jan 2019 05:30:00 GMT</pubDate>
             <source url="https://example.org/article-source-x">Article source X</source>
             <guid isPermaLink="true">https://example.org/article-permalink</guid>
+            <content:encoded><![CDATA[<p>My <strong>awesome</strong> article description...</p>]]></content:encoded>
         </item>
     </channel>
 </rss>

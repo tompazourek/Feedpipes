@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using Feedpipes.Syndication.Extensions;
 
-namespace Feedpipes.Syndication.Rss20.Document
+namespace Feedpipes.Syndication.Rss20.Entities
 {
     public class Rss20Channel
     {
@@ -161,5 +162,10 @@ namespace Feedpipes.Syndication.Rss20.Document
         /// List of "item" elements.
         /// </summary>
         public IList<Rss20Item> Items { get; set; } = new List<Rss20Item>();
+        
+        /// <summary>
+        /// Extension entities
+        /// </summary>
+        public IList<IFeedExtensionEntity> Extensions { get; set; } = new List<IFeedExtensionEntity>();
     }
 }

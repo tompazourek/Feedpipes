@@ -1,4 +1,4 @@
-﻿namespace Feedpipes.Syndication.Rss20.Document
+﻿namespace Feedpipes.Syndication.Rss20.Entities
 {
     /// <summary>
     /// The RSS channel that the item came from.

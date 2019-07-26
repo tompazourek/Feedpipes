@@ -1,4 +1,4 @@
-﻿namespace Feedpipes.Syndication.Rss20.Document
+﻿namespace Feedpipes.Syndication.Rss20.Entities
 {
     /// <summary>
     /// Describes a media object that is attached to the item.

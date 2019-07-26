@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Xml.Linq;
+using Feedpipes.Syndication.Extensions;
 using Feedpipes.Syndication.Rfc822Timestamp;
-using Feedpipes.Syndication.Rss20.Document;
+using Feedpipes.Syndication.Rss20.Entities;
 
 namespace Feedpipes.Syndication.Rss20
 {
@@ -12,10 +13,12 @@ namespace Feedpipes.Syndication.Rss20
     public class Rss20FeedParser
     {
         private readonly Rfc822TimestampParser _timestampParser;
+        private readonly AbstractFeedExtensionEntityParser _extensionParser;
 
         public Rss20FeedParser()
         {
             _timestampParser = new Rfc822TimestampParser();
+            _extensionParser = new AbstractFeedExtensionEntityParser();
         }
 
         public bool TryParseRss20Feed(XDocument document, out Rss20Feed parsedFeed)
@@ -104,7 +107,11 @@ namespace Feedpipes.Syndication.Rss20
             {
                 parsedChannel.SkipDays = parsedSkipDays;
             }
+            
+            // extensions
+            parsedChannel.Extensions = _extensionParser.ParseExtensionEntities(channelElement).ToList();
 
+            // items
             foreach (var itemElement in channelElement.Elements("item"))
             {
                 if (TryParseRss20Item(itemElement, out var parsedItem))
@@ -334,6 +341,9 @@ namespace Feedpipes.Syndication.Rss20
             {
                 parsedItem.Guid = parsedGuid;
             }
+
+            // extensions
+            parsedItem.Extensions = _extensionParser.ParseExtensionEntities(itemElement).ToList();
 
             return true;
         }

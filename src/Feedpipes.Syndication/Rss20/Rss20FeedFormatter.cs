@@ -3,18 +3,21 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Xml.Linq;
+using Feedpipes.Syndication.Extensions;
 using Feedpipes.Syndication.Rfc822Timestamp;
-using Feedpipes.Syndication.Rss20.Document;
+using Feedpipes.Syndication.Rss20.Entities;
 
 namespace Feedpipes.Syndication.Rss20
 {
     public class Rss20FeedFormatter
     {
         private readonly Rfc822TimestampFormatter _timestampFormatter;
+        private readonly AbstractFeedExtensionEntityFormatter _extensionFormatter;
 
         public Rss20FeedFormatter()
         {
             _timestampFormatter = new Rfc822TimestampFormatter();
+            _extensionFormatter = new AbstractFeedExtensionEntityFormatter();
         }
 
         public bool TryFormatRss20Feed(Rss20Feed feed, out XDocument document)
@@ -29,17 +32,23 @@ namespace Feedpipes.Syndication.Rss20
             var rssElement = new XElement("rss", new XAttribute("version", "2.0"));
             document.Add(rssElement);
 
-            if (!TryFormatRss20Channel(feed.Channel, out var channelElement))
+            if (!TryFormatRss20Channel(feed.Channel, out var channelElement, out var rootNamespaceAliases))
                 return false;
 
             rssElement.Add(channelElement);
 
+            foreach (var rootNamespaceAlias in rootNamespaceAliases.GroupBy(x => x.Name).Select(x => x.First()))
+            {
+                rssElement.Add(rootNamespaceAlias);
+            }
+
             return true;
         }
 
-        private bool TryFormatRss20Channel(Rss20Channel channelToFormat, out XElement channelElement)
+        private bool TryFormatRss20Channel(Rss20Channel channelToFormat, out XElement channelElement, out IEnumerable<XAttribute> rootNamespaceAliases)
         {
             channelElement = default;
+            rootNamespaceAliases = default;
 
             if (channelToFormat == null)
                 return false;
@@ -128,20 +137,34 @@ namespace Feedpipes.Syndication.Rss20
                 channelElement.Add(skipDaysElement);
             }
 
+            var rootNamespaceAliasesList = new List<XAttribute>();
+            
+            // extensions
+            var extensionElements = _extensionFormatter.FormatExtensionEntities(channelToFormat.Extensions, out var channelRootNamespaceAliases);
+            foreach (var extensionElement in extensionElements)
+            {
+                channelElement.Add(extensionElement);
+            }
+            rootNamespaceAliasesList.AddRange(channelRootNamespaceAliases);
+
+            // items
             foreach (var itemToFormat in channelToFormat.Items)
             {
-                if (TryFormatRss20Item(itemToFormat, out var itemElement))
+                if (TryFormatRss20Item(itemToFormat, out var itemElement, out var itemRootNamespaceAliases))
                 {
                     channelElement.Add(itemElement);
+                    rootNamespaceAliasesList.AddRange(itemRootNamespaceAliases);
                 }
             }
-
+            
+            rootNamespaceAliases = rootNamespaceAliasesList;
             return true;
         }
 
-        private bool TryFormatRss20Item(Rss20Item itemToFormat, out XElement itemElement)
+        private bool TryFormatRss20Item(Rss20Item itemToFormat, out XElement itemElement, out IEnumerable<XAttribute> rootNamespaceAliases)
         {
             itemElement = default;
+            rootNamespaceAliases = default;
 
             if (itemToFormat == null)
                 return false;
@@ -202,6 +225,13 @@ namespace Feedpipes.Syndication.Rss20
             if (TryFormatRss20Guid(itemToFormat.Guid, out var guidElement))
             {
                 itemElement.Add(guidElement);
+            }
+
+            // extensions
+            var extensionElements = _extensionFormatter.FormatExtensionEntities(itemToFormat.Extensions, out rootNamespaceAliases);
+            foreach (var extensionElement in extensionElements)
+            {
+                itemElement.Add(extensionElement);
             }
 
             return true;

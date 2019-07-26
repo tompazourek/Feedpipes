@@ -1,4 +1,4 @@
-﻿namespace Feedpipes.Syndication.Rss20.Document
+﻿namespace Feedpipes.Syndication.Rss20.Entities
 {
     /// <summary>
     /// Root RSS 2.0 element. Corresponds to "rss" element.
