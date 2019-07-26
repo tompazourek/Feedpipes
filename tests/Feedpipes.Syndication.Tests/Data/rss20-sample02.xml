@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
-<rss version="2.0" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
+<rss version="2.0"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+
     <channel>
         <title>This is my feed title</title>
         <link>https://example.org/channel</link>
@@ -60,6 +65,8 @@
             <slash:department>not-an-ocean-unless-there-are-lobsters</slash:department>
             <slash:comments>177</slash:comments>
             <slash:hit_parade>177,155,105,33,6,3,0</slash:hit_parade>
+            <wfw:comment>https://example.org/wfw-comment</wfw:comment>
+            <wfw:commentRss>https://example.org/wfw-comment-rss</wfw:commentRss>
         </item>
     </channel>
 </rss>
