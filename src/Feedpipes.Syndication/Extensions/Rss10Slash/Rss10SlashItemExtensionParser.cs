@@ -9,7 +9,7 @@ namespace Feedpipes.Syndication.Extensions.Rss10Slash
     internal static class Rss10SlashItemExtensionParser
     {
         [SuppressMessage("ReSharper", "ConstantNullCoalescingCondition")]
-        public static bool TryParseRss10SlashChannelExtension(XElement itemElement, out Rss10SlashItemExtension extension)
+        public static bool TryParseRss10SlashItemExtension(XElement itemElement, out Rss10SlashItemExtension extension)
         {
             extension = null;
 

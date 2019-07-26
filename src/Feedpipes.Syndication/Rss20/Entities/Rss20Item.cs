@@ -119,5 +119,10 @@ namespace Feedpipes.Syndication.Rss20.Entities
         /// Optional "slash:*" extended information.
         /// </summary>
         public Rss10SlashItemExtension SlashExtension { get; set; }
+
+        /// <summary>
+        /// Optional "dc:*" extended information.
+        /// </summary>
+        public DublinCoreElementExtension DublinCoreExtension { get; set; }
     }
 }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Xml.Linq;
+using Feedpipes.Syndication.Extensions.DublinCore;
 using Feedpipes.Syndication.Extensions.Rss10Content;
 using Feedpipes.Syndication.Extensions.Rss10Slash;
 using Feedpipes.Syndication.Extensions.Rss10Syndication;
@@ -108,6 +109,11 @@ namespace Feedpipes.Syndication.Rss20
                 parsedChannel.SyndicationExtension = parsedSyndicationExtension;
             }
 
+            if (DublinCoreElementExtensionParser.TryParseDublinCoreElementExtension(channelElement, out var parsedDublinCoreExtension))
+            {
+                parsedChannel.DublinCoreExtension = parsedDublinCoreExtension;
+            }
+
             // items
             foreach (var itemElement in channelElement.Elements("item"))
             {
@@ -187,6 +193,12 @@ namespace Feedpipes.Syndication.Rss20
                 parsedImage.Height = parsedHeight;
             }
 
+            // extensions
+            if (DublinCoreElementExtensionParser.TryParseDublinCoreElementExtension(imageElement, out var parsedDublinCoreExtension))
+            {
+                parsedImage.DublinCoreExtension = parsedDublinCoreExtension;
+            }
+
             return true;
         }
 
@@ -202,6 +214,12 @@ namespace Feedpipes.Syndication.Rss20
             parsedTextInput.Description = textInputElement.Element("description")?.Value.Trim();
             parsedTextInput.Name = textInputElement.Element("name")?.Value.Trim();
             parsedTextInput.Link = textInputElement.Element("link")?.Value.Trim();
+
+            // extensions
+            if (DublinCoreElementExtensionParser.TryParseDublinCoreElementExtension(textInputElement, out var parsedDublinCoreExtension))
+            {
+                parsedTextInput.DublinCoreExtension = parsedDublinCoreExtension;
+            }
 
             return true;
         }
@@ -345,7 +363,7 @@ namespace Feedpipes.Syndication.Rss20
                 parsedItem.ContentExtension = parsedContentExtension;
             }
 
-            if (Rss10SlashItemExtensionParser.TryParseRss10SlashChannelExtension(itemElement, out var parsedSlashExtension))
+            if (Rss10SlashItemExtensionParser.TryParseRss10SlashItemExtension(itemElement, out var parsedSlashExtension))
             {
                 parsedItem.SlashExtension = parsedSlashExtension;
             }
@@ -353,6 +371,11 @@ namespace Feedpipes.Syndication.Rss20
             if (WfwItemExtensionParser.TryParseWfwItemExtension(itemElement, out var parsedWfwExtension))
             {
                 parsedItem.WfwExtension = parsedWfwExtension;
+            }
+
+            if (DublinCoreElementExtensionParser.TryParseDublinCoreElementExtension(itemElement, out var parsedDublinCoreExtension))
+            {
+                parsedItem.DublinCoreExtension = parsedDublinCoreExtension;
             }
 
             return true;

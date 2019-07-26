@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Xml.Linq;
+using Feedpipes.Syndication.Extensions.DublinCore;
 using Feedpipes.Syndication.Extensions.Rss10Content;
 using Feedpipes.Syndication.Extensions.Rss10Slash;
 using Feedpipes.Syndication.Extensions.Rss10Syndication;
@@ -32,7 +33,7 @@ namespace Feedpipes.Syndication.Rss20
 
             rssElement.Add(channelElement);
 
-            foreach (var namespaceAlias in namespaceAliases)
+            foreach (var namespaceAlias in namespaceAliases.OrderBy(x => x.Name.LocalName))
             {
                 rssElement.Add(namespaceAlias);
             }
@@ -111,12 +112,12 @@ namespace Feedpipes.Syndication.Rss20
                 channelElement.Add(ttlElement);
             }
 
-            if (TryFormatRss20Image(channelToFormat.Image, out var imageElement))
+            if (TryFormatRss20Image(channelToFormat.Image, namespaceAliases, out var imageElement))
             {
                 channelElement.Add(imageElement);
             }
 
-            if (TryFormatRss20TextInput(channelToFormat.TextInput, out var textInputElement))
+            if (TryFormatRss20TextInput(channelToFormat.TextInput, namespaceAliases, out var textInputElement))
             {
                 channelElement.Add(textInputElement);
             }
@@ -135,6 +136,11 @@ namespace Feedpipes.Syndication.Rss20
             if (Rss10SyndicationChannelExtensionFormatter.TryFormatRss10SyndicationChannelExtension(channelToFormat.SyndicationExtension, namespaceAliases, out var syndicationExtensionElements))
             {
                 channelElement.AddRange(syndicationExtensionElements);
+            }
+
+            if (DublinCoreElementExtensionFormatter.TryFormatDublinCoreElementExtension(channelToFormat.DublinCoreExtension, namespaceAliases, out var dublinCoreExtensionElements))
+            {
+                channelElement.AddRange(dublinCoreExtensionElements);
             }
 
             // items
@@ -228,6 +234,11 @@ namespace Feedpipes.Syndication.Rss20
             if (WfwItemExtensionFormatter.TryFormatWfwItemExtension(itemToFormat.WfwExtension, namespaceAliases, out var wfwExtensionElements))
             {
                 itemElement.AddRange(wfwExtensionElements);
+            }
+            
+            if (DublinCoreElementExtensionFormatter.TryFormatDublinCoreElementExtension(itemToFormat.DublinCoreExtension, namespaceAliases, out var dublinCoreExtensionElements))
+            {
+                itemElement.AddRange(dublinCoreExtensionElements);
             }
 
             return true;
@@ -355,7 +366,7 @@ namespace Feedpipes.Syndication.Rss20
             return true;
         }
 
-        private static bool TryFormatRss20TextInput(Rss20TextInput textInputToFormat, out XElement textInputElement)
+        private static bool TryFormatRss20TextInput(Rss20TextInput textInputToFormat, XNamespaceAliasSet namespaceAliases, out XElement textInputElement)
         {
             textInputElement = default;
 
@@ -369,10 +380,16 @@ namespace Feedpipes.Syndication.Rss20
             textInputElement.Add(new XElement("name") { Value = textInputToFormat.Name });
             textInputElement.Add(new XElement("link") { Value = textInputToFormat.Link });
 
+            // extensions
+            if (DublinCoreElementExtensionFormatter.TryFormatDublinCoreElementExtension(textInputToFormat.DublinCoreExtension, namespaceAliases, out var dublinCoreExtensionElements))
+            {
+                textInputElement.AddRange(dublinCoreExtensionElements);
+            }
+
             return true;
         }
 
-        private static bool TryFormatRss20Image(Rss20Image imageToFormat, out XElement imageElement)
+        private static bool TryFormatRss20Image(Rss20Image imageToFormat, XNamespaceAliasSet namespaceAliases, out XElement imageElement)
         {
             imageElement = default;
 
@@ -400,6 +417,11 @@ namespace Feedpipes.Syndication.Rss20
             if (TryFormatOptionalTextElement(imageToFormat.Description, "description", out var descriptionElement))
             {
                 imageElement.Add(descriptionElement);
+            }
+            
+            if (DublinCoreElementExtensionFormatter.TryFormatDublinCoreElementExtension(imageToFormat.DublinCoreExtension, namespaceAliases, out var dublinCoreExtensionElements))
+            {
+                imageElement.AddRange(dublinCoreExtensionElements);
             }
 
             return true;

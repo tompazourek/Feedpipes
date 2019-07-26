@@ -1,4 +1,6 @@
-﻿namespace Feedpipes.Syndication.Rss20.Entities
+﻿using Feedpipes.Syndication.Extensions.Rss10Content.Entities;
+
+namespace Feedpipes.Syndication.Rss20.Entities
 {
     /// <summary>
     /// Specifies a GIF, JPEG or PNG image that can be displayed with the channel.
@@ -34,5 +36,10 @@
         /// Height of the image in pixels.
         /// </summary>
         public int? Height { get; set; }
+
+        /// <summary>
+        /// Optional "dc:*" extended information.
+        /// </summary>
+        public DublinCoreElementExtension DublinCoreExtension { get; set; }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Feedpipes.Syndication.Extensions.Rss10Content.Entities;
 using Feedpipes.Syndication.Extensions.Rss10Syndication.Entities;
 
 namespace Feedpipes.Syndication.Rss20.Entities
@@ -167,5 +168,10 @@ namespace Feedpipes.Syndication.Rss20.Entities
         /// Optional "sy:*" extended information.
         /// </summary>
         public Rss10SyndicationChannelExtension SyndicationExtension { get; set; }
+        
+        /// <summary>
+        /// Optional "dc:*" extended information.
+        /// </summary>
+        public DublinCoreElementExtension DublinCoreExtension { get; set; }
     }
 }

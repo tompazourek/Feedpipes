@@ -1,4 +1,6 @@
-﻿namespace Feedpipes.Syndication.Rss20.Entities
+﻿using Feedpipes.Syndication.Extensions.Rss10Content.Entities;
+
+namespace Feedpipes.Syndication.Rss20.Entities
 {
     /// <summary>
     /// Specifies a text input box that can be displayed with the channel.
@@ -24,5 +26,10 @@
         /// The URL of the CGI script that processes text input requests.
         /// </summary>
         public string Link { get; set; }
+
+        /// <summary>
+        /// Optional "dc:*" extended information.
+        /// </summary>
+        public DublinCoreElementExtension DublinCoreExtension { get; set; }
     }
 }
