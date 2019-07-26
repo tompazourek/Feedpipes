@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+
+<channel>
+	<title>The Morning Brew</title>
+	
+	<link>http://blog.cwa.me.uk</link>
+	<description>Software | Information | Community</description>
+	<lastBuildDate>Tue, 23 Jul 2019 21:53:40 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/ReflectivePerspective" /><feedburner:info uri="reflectiveperspective" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><feedburner:emailServiceId>ReflectivePerspective</feedburner:emailServiceId><feedburner:feedburnerHostname>https://feedburner.google.com</feedburner:feedburnerHostname><item>
+		<title>The Morning Brew #2794</title>
+		<link>http://feedproxy.google.com/~r/ReflectivePerspective/~3/ev3P4p6VN-0/</link>
+				<comments>http://blog.cwa.me.uk/2019/07/24/the-morning-brew-2794/#respond</comments>
+				<pubDate>Wed, 24 Jul 2019 06:00:59 +0000</pubDate>
+		<dc:creator><![CDATA[Chris Alcock]]></dc:creator>
+				<category><![CDATA[.NET]]></category>
+		<category><![CDATA[Development]]></category>
+		<category><![CDATA[Morning Brew]]></category>
+
+		<guid isPermaLink="false">http://blog.cwa.me.uk/?p=6584</guid>
+				<description><![CDATA[Software Announcing .NET Core 3.0 Preview 7 &#8211; Richard Lander ASP.NET Core and Blazor updates in .NET Core 3.0 Preview 7 &#8211; Daniel Roth Announcing Entity Framework Core 3.0 Preview 7 and Entity Framework 6.3 Preview 7 &#8211; Diego Vega Now available: Azure DevOps Server 2019 Update 1, Release Candidate 2 &#8211; Erin Dormier Information [&#8230;]]]></description>
+								<content:encoded><![CDATA[
+<h3>Software</h3>
+
+
+
+<ul><li><a href="https://devblogs.microsoft.com/dotnet/announcing-net-core-3-0-preview-7/">Announcing .NET Core 3.0 Preview 7</a> &#8211; Richard Lander</li><li><a href="https://devblogs.microsoft.com/aspnet/asp-net-core-and-blazor-updates-in-net-core-3-0-preview-7/">ASP.NET Core and Blazor updates in .NET Core 3.0 Preview 7</a> &#8211; Daniel Roth</li><li><a href="https://devblogs.microsoft.com/dotnet/announcing-entity-framework-core-3-0-preview-7-and-entity-framework-6-3-preview-7/">Announcing Entity Framework Core 3.0 Preview 7 and Entity Framework 6.3 Preview 7</a> &#8211; Diego Vega</li><li><a href="https://devblogs.microsoft.com/devops/now-available-azure-devops-server-2019-update-1-release-candidate-2/">Now available: Azure DevOps Server 2019 Update 1, Release Candidate 2</a> &#8211; Erin Dormier</li></ul>
+
+
+
+<h3>Information</h3>
+
+
+
+<ul><li><a href="https://andrewlock.net/alternatives-to-microsoft-featuremanagement/">Alternatives to Microsoft.FeatureManagement: Adding feature flags to an ASP.NET Core app &#8211; Part 6</a> &#8211; Andrew Lock</li><li><a href="https://www.hanselman.com/blog/InstallingPowerShellWithOneLineAsANETCoreGlobalTool.aspx">Installing PowerShell with one line as a .NET Core global tool</a> &#8211; Scott Hanselman</li><li><a href="https://dfinke.github.io/powershell/2019/07/21/Extending-PowerShell-with-Rust.html">Extending PowerShell with Rust</a> &#8211; Doug Finke</li><li><a href="https://www.telerik.com/blogs/ui-component-development-with-storybook-and-kendoreact">UI Component Development with Storybook and KendoReact</a> &#8211; John Bristowe</li><li><a href="https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/MSBuild-Structured-Log-Viewer">MSBuild Structured Log Viewer</a> &#8211; Robert Green &amp; Kirill Osenkov</li></ul>
+<img src="http://feeds.feedburner.com/~r/ReflectivePerspective/~4/ev3P4p6VN-0" height="1" width="1" alt=""/>]]></content:encoded>
+							<wfw:commentRss>http://blog.cwa.me.uk/2019/07/24/the-morning-brew-2794/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							<feedburner:origLink>http://blog.cwa.me.uk/2019/07/24/the-morning-brew-2794/</feedburner:origLink></item>
+		<item>
+		<title>The Morning Brew #2793</title>
+		<link>http://feedproxy.google.com/~r/ReflectivePerspective/~3/1DW3tBZLuhk/</link>
+				<comments>http://blog.cwa.me.uk/2019/07/23/the-morning-brew-2793/#comments</comments>
+				<pubDate>Tue, 23 Jul 2019 06:00:59 +0000</pubDate>
+		<dc:creator><![CDATA[Chris Alcock]]></dc:creator>
+				<category><![CDATA[.NET]]></category>
+		<category><![CDATA[Development]]></category>
+		<category><![CDATA[Morning Brew]]></category>
+
+		<guid isPermaLink="false">http://blog.cwa.me.uk/?p=6580</guid>
+				<description><![CDATA[Update: Removed the erroneous Raymond Chen link at the top of today&#8217;s edition &#8211; thanks to Bart for pointing it out Information Merge Sort &#8211; The Sorting Algorithm Family Reunion &#8211; Matthew Jones Java on Visual Studio Code July Update &#8211; Xiaokai He Introduction To Lazy Evaluation And Fair Scheduling In C# &#8211; Akram El [&#8230;]]]></description>
+								<content:encoded><![CDATA[
+<p>Update: Removed the erroneous Raymond Chen link at the top of today&#8217;s edition &#8211; thanks to Bart for pointing it out</p>
+
+
+
+<h3>Information</h3>
+
+
+
+<ul><li><a href="https://exceptionnotfound.net/merge-sort-csharp-the-sorting-algorithm-family-reunion/">Merge Sort &#8211; The Sorting Algorithm Family Reunion</a> &#8211; Matthew Jones</li><li><a href="https://devblogs.microsoft.com/visualstudio/java-on-visual-studio-code-july-update/">Java on Visual Studio Code July Update</a> &#8211; Xiaokai He</li><li><a href="https://www.codeproject.com/Articles/5162791/Introduction-To-Lazy-Evaluation-And-Fair-Schedulin">Introduction To Lazy Evaluation And Fair Scheduling In C#</a> &#8211; Akram El Assas</li><li><a href="https://2ality.com/2019/07/private-methods-accessors-in-classes.html">ES proposal: private methods and accessors in JavaScript classes</a> &#8211; Dr. Axel Rauschmayer</li><li><a href="https://blog.jetbrains.com/dotnet/2019/07/22/work-effectively-json-using-rider/">Work effectively with JSON using Rider</a> &#8211; Rachel Appel</li><li><a href="https://www.codeproject.com/Articles/5162506/Containerize-ASP-NET-Core-Applications-with-Docker">Containerize ASP.NET Core Applications with Docker and Azure Kubernetes Services</a> &#8211; Akhil Mittal </li><li><a href="https://rehansaeed.com/gitattributes-best-practices/">.gitattributes Best Practices</a> &#8211; Muhammad Rehan Saeed</li><li><a href="https://www.red-gate.com/simple-talk/sql/sql-development/what-are-columnstore-indexes/">What are Columnstore Indexes?</a> &#8211; Monica Rathbun</li><li><a href="https://slack.engineering/rebuilding-slack-on-the-desktop-308d6fe94ae4">When a rewrite isn&#8217;t: rebuilding Slack on the desktop</a> &#8211; Mark Christian &amp; Johnny Rodgers</li><li><a href="https://www.jimbobbennett.io/save-your-users-from-typing-with-ai/">Save your users from typing with AI <img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/1f916.png" alt="🤖" class="wp-smiley" style="height: 1em; max-height: 1em;" /></a> &#8211; Jim Bennett</li><li><a href="https://microsoft.github.io/AzureTipsAndTricks/blog/tip209.html">Azure Tips and Tricks Part 209 &#8211; Prebuilt Terraform Image to automate Infrastructure Deployment </a> &#8211; Michael Crump</li></ul>
+
+
+
+<h3>History</h3>
+
+
+
+<ul><li><a href="https://devblogs.microsoft.com/oldnewthing/20190722-00/?p=102724">What was the code name for Windows 7?</a> &#8211; Raymond Chen</li></ul>
+
+
+
+<p></p>
+<img src="http://feeds.feedburner.com/~r/ReflectivePerspective/~4/1DW3tBZLuhk" height="1" width="1" alt=""/>]]></content:encoded>
+							<wfw:commentRss>http://blog.cwa.me.uk/2019/07/23/the-morning-brew-2793/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+							<feedburner:origLink>http://blog.cwa.me.uk/2019/07/23/the-morning-brew-2793/</feedburner:origLink></item>
+		<item>
+		<title>The Morning Brew #2792</title>
+		<link>http://feedproxy.google.com/~r/ReflectivePerspective/~3/n9ew-BX-lpw/</link>
+				<comments>http://blog.cwa.me.uk/2019/07/22/the-morning-brew-2792/#respond</comments>
+				<pubDate>Mon, 22 Jul 2019 06:00:04 +0000</pubDate>
+		<dc:creator><![CDATA[Chris Alcock]]></dc:creator>
+				<category><![CDATA[.NET]]></category>
+		<category><![CDATA[Development]]></category>
+		<category><![CDATA[Morning Brew]]></category>
+
+		<guid isPermaLink="false">http://blog.cwa.me.uk/?p=6578</guid>
+				<description><![CDATA[Software Announcing TypeScript 3.6 Beta &#8211; Daniel Rosenwasser Information Introducing PowerShell as .NET Global Tool &#8211; Aditya Patwardhan Modeling version and temporary state in noSQL databases &#8211; Szymon Warda Microbenchmark Design Guidelines &#8211; Adam Sitnik Performance Tune a JavaScript Website with Chrome DevTools &#8211; Christian Nwamba The Azure Infrastructure Architect Map &#8211; stephaneey Azure Blob [&#8230;]]]></description>
+								<content:encoded><![CDATA[
+<h3>Software</h3>
+
+
+
+<ul><li><a href="https://devblogs.microsoft.com/typescript/announcing-typescript-3-6-beta/">Announcing TypeScript 3.6 Beta</a> &#8211; Daniel Rosenwasser</li></ul>
+
+
+
+<h3>Information</h3>
+
+
+
+<ul><li><a href="https://devblogs.microsoft.com/powershell/introducing-powershell-as-net-global-tool/">Introducing PowerShell as .NET Global Tool</a> &#8211; Aditya Patwardhan</li><li><a href="https://indexoutofrange.com//Modeling-version-and-temporary-state-in-noSQL-databases/">Modeling version and temporary state in noSQL databases</a> &#8211; Szymon Warda</li><li><a href="https://github.com/dotnet/performance/blob/master/docs/microbenchmark-design-guidelines.md">Microbenchmark Design Guidelines</a> &#8211; Adam Sitnik</li><li><a href="https://www.telerik.com/blogs/performance-tune-a-javascript-website-with-chrome-devtools">Performance Tune a JavaScript Website with Chrome DevTools</a> &#8211; Christian Nwamba</li><li><a href="https://techcommunity.microsoft.com/t5/Azure-Developer-Community-Blog/The-Azure-Infrastructure-Architect-Map/ba-p/766268">The Azure Infrastructure Architect Map </a> &#8211; stephaneey
+</li><li><a href="https://markheath.net/post/azure-blob-sas-guidelines?utm_source=feedly&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+soundcode+%28SoundCode%29">Azure Blob Storage SAS Guidelines</a> &#8211; Mark Heath</li><li><a href="https://techcommunity.microsoft.com/t5/AI-Customer-Engineering-Team/Deploying-Azure-Machine-Learning-service-models-for-inference/ba-p/765366">Deploying Azure Machine Learning service models for inference with Azure Functions </a> &#8211; Rama Ramani</li><li><a href="https://microsoft.github.io/AzureTipsAndTricks/blog/tip208.html">Azure Tips and Tricks Part 208 &#8211; Set up a MEAN-based web application on a new Azure Linux virtual machine </a> &#8211; Michael Crump</li></ul>
+
+
+
+<h3>Fun</h3>
+
+
+
+<ul><li><a href="http://geekswithblogs.net/JeremyMorgan/archive/2019/07/18/you-can-get-the-source-code-for-apollo-11-and.aspx">You Can Get the Source Code for Apollo 11 and Even Take a Course on It
+</a> &#8211; Jeremy Morgan</li></ul>
+<img src="http://feeds.feedburner.com/~r/ReflectivePerspective/~4/n9ew-BX-lpw" height="1" width="1" alt=""/>]]></content:encoded>
+							<wfw:commentRss>http://blog.cwa.me.uk/2019/07/22/the-morning-brew-2792/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							<feedburner:origLink>http://blog.cwa.me.uk/2019/07/22/the-morning-brew-2792/</feedburner:origLink></item>
+		<item>
+		<title>The Morning Brew #2791</title>
+		<link>http://feedproxy.google.com/~r/ReflectivePerspective/~3/ILsOITfVBwo/</link>
+				<pubDate>Fri, 19 Jul 2019 06:00:05 +0000</pubDate>
+		<dc:creator><![CDATA[Chris Alcock]]></dc:creator>
+				<category><![CDATA[.NET]]></category>
+		<category><![CDATA[Development]]></category>
+		<category><![CDATA[Morning Brew]]></category>
+
+		<guid isPermaLink="false">http://blog.cwa.me.uk/?p=6576</guid>
+				<description><![CDATA[Information Selection Sort in C# &#8211; Matthew Jones DragonFruit and System.CommandLine is a new way to think about .NET Console apps &#8211; Scott Hanselman MSBuild Structured Log Viewer &#8211; Robert Green &#38;y Kirill Osenkov Surfacing GitHub Usage for packages on NuGet.org &#8211; Mohamed Riad Gahlouz The Best Refactoring You&#8217;ve Never Heard Of &#8211; James Koppel [&#8230;]]]></description>
+								<content:encoded><![CDATA[
+<h3>Information</h3>
+
+
+
+<ul><li><a href="https://exceptionnotfound.net/selection-sort-csharp-the-sorting-algorithm-family-reunion/">Selection Sort in C#</a> &#8211;  Matthew Jones </li><li><a href="https://www.hanselman.com/blog/DragonFruitAndSystemCommandLineIsANewWayToThinkAboutNETConsoleApps.aspx">DragonFruit and System.CommandLine is a new way to think about .NET Console apps</a> &#8211; Scott Hanselman</li><li><a href="https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/MSBuild-Structured-Log-Viewer">MSBuild Structured Log Viewer</a> &#8211; Robert Green &amp;y Kirill Osenkov</li><li><a href="https://devblogs.microsoft.com/nuget/surfacing-github-usage-for-packages-on-nuget-org/">Surfacing GitHub Usage for packages on NuGet.org</a> &#8211; Mohamed Riad Gahlouz</li><li><a href="http://www.pathsensitive.com/2019/07/the-best-refactoring-youve-never-heard.html">The Best Refactoring You&#8217;ve Never Heard Of</a> &#8211; James Koppel</li><li><a href="https://community.devexpress.com/blogs/aspnet/archive/2019/07/17/devexpress-blazor-update-metadata-at-runtime-free-seo-tool.aspx">DevExpress Blazor &#8211; Update Metadata at Runtime &#8211; Free SEO Tool</a> &#8211; Mehul Harry</li></ul>
+<img src="http://feeds.feedburner.com/~r/ReflectivePerspective/~4/ILsOITfVBwo" height="1" width="1" alt=""/>]]></content:encoded>
+										<feedburner:origLink>http://blog.cwa.me.uk/2019/07/19/the-morning-brew-2791/</feedburner:origLink></item>
+		<item>
+		<title>The Morning Brew #2790</title>
+		<link>http://feedproxy.google.com/~r/ReflectivePerspective/~3/U1bNHftWEss/</link>
+				<pubDate>Thu, 18 Jul 2019 06:00:24 +0000</pubDate>
+		<dc:creator><![CDATA[Chris Alcock]]></dc:creator>
+				<category><![CDATA[.NET]]></category>
+		<category><![CDATA[Development]]></category>
+		<category><![CDATA[Morning Brew]]></category>
+
+		<guid isPermaLink="false">http://blog.cwa.me.uk/?p=6574</guid>
+				<description><![CDATA[Software Announcing ML.NET 1.2 and Model Builder updates (Machine Learning for .NET) &#8211; Cesar De la Torre Information Executing .NET Core functions in a separate process &#8211; Tom Deseyn Pipeline Pattern Implementations in C# .NET &#8211; Part 1 &#8211; Michael Shpilt Should You Flow External Claims On Every Login? &#8211; Phil Haack The next version [&#8230;]]]></description>
+								<content:encoded><![CDATA[
+<h3>Software</h3>
+
+
+
+<ul><li><a href="https://devblogs.microsoft.com/dotnet/announcing-ml-net-1-2-and-model-builder-updates-machine-learning-for-net/">Announcing ML.NET 1.2 and Model Builder updates (Machine Learning for .NET)</a> &#8211; Cesar De la Torre</li></ul>
+
+
+
+<h3>Information</h3>
+
+
+
+<ul><li><a href="https://developers.redhat.com/blog/2019/07/17/executing-net-core-functions-in-a-separate-process/">Executing .NET Core functions in a separate process</a> &#8211;  Tom Deseyn </li><li><a href="https://michaelscodingspot.com/pipeline-pattern-implementations-csharp/">Pipeline Pattern Implementations in C# .NET &#8211; Part 1</a> &#8211; Michael Shpilt</li><li><a href="https://haacked.com/archive/2019/07/17/should-you-flow-external-claims/">Should You Flow External Claims On Every Login?</a> &#8211; Phil Haack</li><li><a href="https://blogs.windows.com/msedgedev/2019/07/16/microsoft-edge-enterprise-evaluation-roadmap/#3A2DmjYg0B6ElUfS.97">The next version of Microsoft Edge: Enterprise evaluation and roadmap</a> &#8211; Sean Lyndersay &amp; Colleen Williams</li><li><a href="https://2ality.com/2019/07/private-class-fields.html">ES proposal: private class fields</a> &#8211; Dr. Axel Rauschmayer</li></ul>
+
+
+
+<h3>Special1</h3>
+
+
+
+<ul><li><a href="https://devblogs.microsoft.com/oldnewthing/20190717-01/?p=102716">Apollo 11 in real time: Follow the lunar landing mission as it happened</a> &#8211; Via Raymond Chen</li></ul>
+<img src="http://feeds.feedburner.com/~r/ReflectivePerspective/~4/U1bNHftWEss" height="1" width="1" alt=""/>]]></content:encoded>
+										<feedburner:origLink>http://blog.cwa.me.uk/2019/07/18/the-morning-brew-2790/</feedburner:origLink></item>
+	</channel>
+</rss>

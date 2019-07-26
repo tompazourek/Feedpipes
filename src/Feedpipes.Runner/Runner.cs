@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Linq;
 using Feedpipes.Syndication;
+using Feedpipes.Syndication.Rss20Feed;
 using Serilog;
 
 namespace Feedpipes.Runner

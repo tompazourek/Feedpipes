@@ -1,5 +1,8 @@
-﻿namespace Feedpipes.Syndication.Rss20
+﻿namespace Feedpipes.Syndication.Rss20Feed.Document
 {
+    /// <summary>
+    /// Allows processes to register with a cloud to be notified of updates to the channel, implementing a lightweight publish-subscribe protocol for RSS feeds.
+    /// </summary>
     public class Rss20Cloud
     {
         public string Domain { get; set; }

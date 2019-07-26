@@ -3,15 +3,22 @@ using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Xml.Linq;
-using Feedpipes.Syndication.Rss20;
-using Feedpipes.Syndication.Utils;
+using Feedpipes.Syndication.Rfc822Timestamp;
+using Feedpipes.Syndication.Rss20Feed.Document;
 
-namespace Feedpipes.Syndication
+namespace Feedpipes.Syndication.Rss20Feed
 {
     [SuppressMessage("ReSharper", "UseObjectOrCollectionInitializer")]
     public class Rss20FeedParser
     {
-        public bool TryParseRss20Feed(XDocument document, out Rss20Feed parsedFeed)
+        private readonly Rfc822TimestampParser _timestampParser;
+
+        public Rss20FeedParser()
+        {
+            _timestampParser = new Rfc822TimestampParser();
+        }
+
+        public bool TryParseRss20Feed(XDocument document, out Document.Rss20Feed parsedFeed)
         {
             parsedFeed = default;
 
@@ -27,7 +34,7 @@ namespace Feedpipes.Syndication
             if (!TryParseRss20Channel(channelElement, out var parsedChannel))
                 return false;
 
-            parsedFeed = new Rss20Feed();
+            parsedFeed = new Document.Rss20Feed();
             parsedFeed.Channel = parsedChannel;
             return true;
         }
@@ -130,7 +137,7 @@ namespace Feedpipes.Syndication
             if (timestampElement == null)
                 return false;
 
-            if (!Rfc822TimestampParser.TryParseTimestampFromString(timestampElement.Value, out parsedTimestamp))
+            if (!_timestampParser.TryParseTimestampFromString(timestampElement.Value, out parsedTimestamp))
                 return false;
 
             return true;
@@ -296,8 +303,7 @@ namespace Feedpipes.Syndication
             parsedItem.Description = itemElement.Element("description")?.Value.Trim();
             parsedItem.Author = itemElement.Element("author")?.Value.Trim();
             parsedItem.Comments = itemElement.Element("comments")?.Value.Trim();
-            parsedItem.Guid = itemElement.Element("guid")?.Value.Trim();
-            
+
             foreach (var categoryElement in itemElement.Elements("category"))
             {
                 if (TryParseRss20Category(categoryElement, out var parsedCategory))
@@ -305,7 +311,7 @@ namespace Feedpipes.Syndication
                     parsedItem.Categories.Add(parsedCategory);
                 }
             }
-            
+
             foreach (var enclosureElement in itemElement.Elements("enclosure"))
             {
                 if (TryParseRss20Enclosure(enclosureElement, out var parsedEnclosure))
@@ -313,7 +319,7 @@ namespace Feedpipes.Syndication
                     parsedItem.Enclosures.Add(parsedEnclosure);
                 }
             }
-            
+
             if (TryParseRss20Timestamp(itemElement.Element("pubDate"), out var parsedPubDate))
             {
                 parsedItem.PubDate = parsedPubDate;
@@ -324,7 +330,49 @@ namespace Feedpipes.Syndication
                 parsedItem.Source = parsedSource;
             }
 
+            if (TryParseRss20Guid(itemElement.Element("guid"), out var parsedGuid))
+            {
+                parsedItem.Guid = parsedGuid;
+            }
+
             return true;
+        }
+
+        private bool TryParseRss20Guid(XElement guidElement, out Rss20Guid parsedGuid)
+        {
+            parsedGuid = default;
+
+            if (guidElement == null)
+                return false;
+
+            parsedGuid = new Rss20Guid();
+            parsedGuid.Value = guidElement.Value.Trim();
+
+            if (TryParseRss20BoolValue(guidElement.Attribute("isPermaLink")?.Value, out var parsedIsPermaLink))
+            {
+                parsedGuid.IsPermaLink = parsedIsPermaLink;
+            }
+
+            return true;
+        }
+
+        private bool TryParseRss20BoolValue(string boolValue, out bool parsedValue)
+        {
+            parsedValue = false;
+
+            if (string.IsNullOrWhiteSpace(boolValue))
+                return false;
+
+            switch (boolValue.Trim().ToLowerInvariant())
+            {
+                case "true":
+                    parsedValue = true;
+                    return true;
+                case "false":
+                    return true;
+                default:
+                    return false;
+            }
         }
 
         private bool TryParseRss20Source(XElement sourceElement, out Rss20Source parsedSource)
@@ -355,6 +403,5 @@ namespace Feedpipes.Syndication
 
             return true;
         }
-
     }
 }

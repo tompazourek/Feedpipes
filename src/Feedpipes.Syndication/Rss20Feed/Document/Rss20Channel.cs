@@ -1,11 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Feedpipes.Syndication.Rss20
+namespace Feedpipes.Syndication.Rss20Feed.Document
 {
-    /// <remarks>
-    /// Based on: https://validator.w3.org/feed/docs/rss2.html
-    /// </remarks>
     public class Rss20Channel
     {
         /// <summary>
@@ -159,6 +156,9 @@ namespace Feedpipes.Syndication.Rss20
         /// </summary>
         public IList<DayOfWeek> SkipDays { get; set; } = new List<DayOfWeek>();
 
+        /// <summary>
+        /// List of "item" elements.
+        /// </summary>
         public IList<Rss20Item> Items { get; set; } = new List<Rss20Item>();
     }
 }

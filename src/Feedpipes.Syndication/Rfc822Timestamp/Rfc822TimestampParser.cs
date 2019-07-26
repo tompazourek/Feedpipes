@@ -2,13 +2,16 @@
 using System.Globalization;
 using System.Text;
 
-namespace Feedpipes.Syndication.Utils
+namespace Feedpipes.Syndication.Rfc822Timestamp
 {
-    public static class Rfc822TimestampParser
+    public class Rfc822TimestampParser
     {
-        public static bool TryParseTimestampFromString(string timestampString, out DateTimeOffset parsedTimestamp)
+        public bool TryParseTimestampFromString(string timestampString, out DateTimeOffset parsedTimestamp)
         {
             parsedTimestamp = default;
+
+            if (string.IsNullOrWhiteSpace(timestampString))
+                return false;
 
             var timestampStringBuilder = new StringBuilder(timestampString.Trim());
             if (timestampStringBuilder.Length < 18)
@@ -52,19 +55,6 @@ namespace Feedpipes.Syndication.Utils
                 return false;
 
             return true;
-        }
-
-        public static string FormatTimestampAsString(DateTimeOffset dateTime)
-        {
-            if (dateTime.Offset == TimeSpan.Zero)
-                return dateTime.ToUniversalTime().ToString("ddd, dd MMM yyyy HH:mm:ss", CultureInfo.InvariantCulture) + " GMT";
-
-            var sb = new StringBuilder(dateTime.ToString("ddd, dd MMM yyyy HH:mm:ss zzz", CultureInfo.InvariantCulture));
-
-            // the zzz in Rfc822OutputLocalDateTimeFormat makes the timezone e.g. "-08:00" but we require e.g. "-0800" without the ':'
-            sb.Remove(sb.Length - 3, 1);
-
-            return sb.ToString();
         }
 
         private static string NormalizeTimeZone(string rfc822TimeZone, out bool isUtc)
@@ -185,6 +175,7 @@ namespace Feedpipes.Syndication.Utils
                     if (whiteSpaceStart < 0)
                     {
                         whiteSpaceStart = index;
+                        
                         // normalize all white spaces to be ' ' so that the date time parsing works
                         builder[index] = ' ';
                     }

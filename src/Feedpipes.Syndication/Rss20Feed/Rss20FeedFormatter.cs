@@ -3,14 +3,21 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Xml.Linq;
-using Feedpipes.Syndication.Rss20;
-using Feedpipes.Syndication.Utils;
+using Feedpipes.Syndication.Rfc822Timestamp;
+using Feedpipes.Syndication.Rss20Feed.Document;
 
-namespace Feedpipes.Syndication
+namespace Feedpipes.Syndication.Rss20Feed
 {
     public class Rss20FeedFormatter
     {
-        public bool TryFormatRss20Feed(Rss20Feed feed, out XDocument document)
+        private readonly Rfc822TimestampFormatter _timestampFormatter;
+
+        public Rss20FeedFormatter()
+        {
+            _timestampFormatter = new Rfc822TimestampFormatter();
+        }
+
+        public bool TryFormatRss20Feed(Document.Rss20Feed feed, out XDocument document)
         {
             document = default;
 
@@ -47,12 +54,12 @@ namespace Feedpipes.Syndication
             {
                 channelElement.Add(languageElement);
             }
-            
+
             if (TryFormatOptionalTextElement(channelToFormat.Copyright, "copyright", out var copyrightElement))
             {
                 channelElement.Add(copyrightElement);
             }
-            
+
             if (TryFormatOptionalTextElement(channelToFormat.ManagingEditor, "managingEditor", out var managingEditorElement))
             {
                 channelElement.Add(managingEditorElement);
@@ -77,7 +84,7 @@ namespace Feedpipes.Syndication
             {
                 channelElement.Add(pubDateElement);
             }
-            
+
             if (TryFormatRss20Timestamp(channelToFormat.LastBuildDate, "lastBuildDate", out var lastBuildDateElement))
             {
                 channelElement.Add(lastBuildDateElement);
@@ -100,27 +107,27 @@ namespace Feedpipes.Syndication
             {
                 channelElement.Add(ttlElement);
             }
-            
+
             if (TryFormatRss20Image(channelToFormat.Image, out var imageElement))
             {
                 channelElement.Add(imageElement);
             }
-            
+
             if (TryFormatRss20TextInput(channelToFormat.TextInput, out var textInputElement))
             {
                 channelElement.Add(textInputElement);
             }
-            
+
             if (TryFormatRss20SkipHours(channelToFormat.SkipHours, out var skipHoursElement))
             {
                 channelElement.Add(skipHoursElement);
             }
-            
+
             if (TryFormatRss20SkipDays(channelToFormat.SkipDays, out var skipDaysElement))
             {
                 channelElement.Add(skipDaysElement);
             }
-            
+
             foreach (var itemToFormat in channelToFormat.Items)
             {
                 if (TryFormatRss20Item(itemToFormat, out var itemElement))
@@ -140,17 +147,17 @@ namespace Feedpipes.Syndication
                 return false;
 
             itemElement = new XElement("item");
-            
+
             if (TryFormatOptionalTextElement(itemToFormat.Title, "title", out var titleElement))
             {
                 itemElement.Add(titleElement);
             }
-            
+
             if (TryFormatOptionalTextElement(itemToFormat.Link, "link", out var linkElement))
             {
                 itemElement.Add(linkElement);
             }
-            
+
             if (TryFormatOptionalTextElement(itemToFormat.Description, "description", out var descriptionElement))
             {
                 itemElement.Add(descriptionElement);
@@ -160,15 +167,10 @@ namespace Feedpipes.Syndication
             {
                 itemElement.Add(authorElement);
             }
-            
+
             if (TryFormatOptionalTextElement(itemToFormat.Comments, "comments", out var commentsElement))
             {
                 itemElement.Add(commentsElement);
-            }
-            
-            if (TryFormatOptionalTextElement(itemToFormat.Guid, "guid", out var guidElement))
-            {
-                itemElement.Add(guidElement);
             }
             
             foreach (var categoryToFormat in itemToFormat.Categories)
@@ -186,15 +188,20 @@ namespace Feedpipes.Syndication
                     itemElement.Add(enclosureElement);
                 }
             }
-            
+
             if (TryFormatRss20Timestamp(itemToFormat.PubDate, "pubDate", out var pubDateElement))
             {
                 itemElement.Add(pubDateElement);
             }
-            
+
             if (TryFormatRss20Source(itemToFormat.Source, out var sourceElement))
             {
                 itemElement.Add(sourceElement);
+            }
+            
+            if (TryFormatRss20Guid(itemToFormat.Guid, out var guidElement))
+            {
+                itemElement.Add(guidElement);
             }
 
             return true;
@@ -214,7 +221,25 @@ namespace Feedpipes.Syndication
             {
                 sourceElement.Add(sourceUrlAttribute);
             }
-            
+
+            return true;
+        }
+        
+        private bool TryFormatRss20Guid(Rss20Guid guidToFormat, out XElement guidElement)
+        {
+            guidElement = default;
+
+            if (guidToFormat == null)
+                return false;
+
+            if (!TryFormatOptionalTextElement(guidToFormat.Value, "guid", out guidElement))
+                return false;
+
+            if (TryFormatOptionalBoolAttribute(guidToFormat.IsPermaLink, "isPermaLink", out var guidIsPermaLinkAttribute))
+            {
+                guidElement.Add(guidIsPermaLinkAttribute);
+            }
+
             return true;
         }
 
@@ -229,7 +254,7 @@ namespace Feedpipes.Syndication
             enclosureElement.Add(new XAttribute("url", enclosureToFormat.Url));
             enclosureElement.Add(new XAttribute("length", enclosureToFormat.Length));
             enclosureElement.Add(new XAttribute("type", enclosureToFormat.Type));
-            
+
             return true;
         }
 
@@ -274,6 +299,7 @@ namespace Feedpipes.Syndication
                     default:
                         continue;
                 }
+
                 var dayElement = new XElement("day") { Value = dayOfWeekString };
                 skipDaysElement.Add(dayElement);
             }
@@ -328,7 +354,7 @@ namespace Feedpipes.Syndication
                 return false;
 
             imageElement = new XElement("image");
-            
+
             imageElement.Add(new XElement("url") { Value = imageToFormat.Url });
             imageElement.Add(new XElement("title") { Value = imageToFormat.Title });
             imageElement.Add(new XElement("link") { Value = imageToFormat.Link });
@@ -338,7 +364,7 @@ namespace Feedpipes.Syndication
                 var heightString = imageToFormat.Height.Value.ToString(CultureInfo.InvariantCulture);
                 imageElement.Add(new XElement("height") { Value = heightString });
             }
-            
+
             if (imageToFormat.Width != null)
             {
                 var widthString = imageToFormat.Width.Value.ToString(CultureInfo.InvariantCulture);
@@ -352,7 +378,7 @@ namespace Feedpipes.Syndication
 
             return true;
         }
-        
+
         private bool TryFormatRss20Ttl(TimeSpan? ttlToFormat, out XElement ttlElement)
         {
             ttlElement = default;
@@ -370,10 +396,9 @@ namespace Feedpipes.Syndication
         {
             element = default;
 
-            if (timestampToFormat == null)
+            if (!_timestampFormatter.TryFormatTimestampAsString(timestampToFormat, out var timestampString))
                 return false;
 
-            var timestampString = Rfc822TimestampParser.FormatTimestampAsString(timestampToFormat.Value);
             element = new XElement(elementName, timestampString);
             return true;
         }
@@ -388,7 +413,7 @@ namespace Feedpipes.Syndication
             element = new XElement(elementName) { Value = stringToFormat };
             return true;
         }
-        
+
         private bool TryFormatOptionalTextAttribute(string stringToFormat, XName attributeName, out XAttribute attribute)
         {
             attribute = default;
@@ -400,6 +425,17 @@ namespace Feedpipes.Syndication
             return true;
         }
         
+        private bool TryFormatOptionalBoolAttribute(bool? boolToFormat, XName attributeName, out XAttribute attribute)
+        {
+            attribute = default;
+
+            if (boolToFormat == null)
+                return false;
+
+            attribute = new XAttribute(attributeName, boolToFormat.Value ? "true" : "false");
+            return true;
+        }
+
         private bool TryFormatRss20Category(Rss20Category categoryToFormat, out XElement categoryElement)
         {
             categoryElement = default;
@@ -414,7 +450,7 @@ namespace Feedpipes.Syndication
             {
                 categoryElement.Add(categoryDomainAttribute);
             }
-            
+
             return true;
         }
 
@@ -431,7 +467,7 @@ namespace Feedpipes.Syndication
             cloudElement.Add(new XAttribute("path", cloudToFormat.Path));
             cloudElement.Add(new XAttribute("registerProcedure", cloudToFormat.RegisterProcedure));
             cloudElement.Add(new XAttribute("protocol", cloudToFormat.Protocol));
-            
+
             return true;
         }
     }
