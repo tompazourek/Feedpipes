@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
+  <id>tag:paulstraw.svbtle.com,2014:/feed</id>
+  <link rel="alternate" type="text/html" href="https://paulstraw.svbtle.com"/>
+  <link rel="self" type="application/atom+xml" href="https://paulstraw.svbtle.com/feed"/>
+  <title>Paul Straw</title>
+  <updated>2016-09-04T01:59:50-07:00</updated>
+  <author>
+    <name>Paul Straw</name>
+    <uri>https://paulstraw.svbtle.com</uri>
+  </author>
+  <generator>Svbtle.com</generator>
+  <entry>
+    <id>tag:paulstraw.svbtle.com,2014:Post/crockford</id>
+    <published>2016-09-04T01:59:50-07:00</published>
+    <updated>2016-09-04T01:59:50-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://paulstraw.svbtle.com/crockford"/>
+    <title>Crockford</title>
+    <content type="html">&lt;p&gt;&lt;strong&gt;If there is anything inaccurate or inequitable about the following post, please &lt;a href="mailto:paulstraw@paulstraw.com" rel="nofollow"&gt;email me&lt;/a&gt; or &lt;a href="https://twitter.com/paulstraw" rel="nofollow"&gt;send me a tweet&lt;/a&gt; to discuss it.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;When I was about 11 years old, I started getting into politics. Anyone who has met me in the last 12 years would be blown away to hear that I was initially very conservative. I’m talking “Sean Hannity and Ann Coulter book owner” conservative. However, as I got a bit older, many conversations with great, patient folks led me to rethink nearly all of my early political opinions.&lt;/p&gt;
+
+&lt;p&gt;It’s amazing how far a bit of loving explanation can go, even with the most backwards people.&lt;/p&gt;
+
+&lt;p&gt;Folks who know me now know just how central social justice concepts are to all of my work. A recurring theme of &lt;a href="https://spec.fm/podcasts/does-not-compute" rel="nofollow"&gt;my podcast&lt;/a&gt; is how programmers can help make development more friendly to new learners. I helped draft codes of conduct for the Spec, imgix, and slashrocket communities. &lt;a href="https://twitter.com/paulstraw/status/735302996066607104" rel="nofollow"&gt;I publicly spoke out&lt;/a&gt; against LambdaConf’s decision to allow Curtis Yarvin to speak there. I even &lt;a href="https://twitter.com/paulstraw/status/761063231146164224" rel="nofollow"&gt;recently opposed&lt;/a&gt; body shaming Donald Trump, a man I could not be more at odds with. I think about this stuff almost constantly, and do my best.&lt;/p&gt;
+
+&lt;p&gt;Yesterday, it was announced that &lt;a href="https://twitter.com/nodevember/status/771520648191483904" rel="nofollow"&gt;Douglas Crockford was being removed as a keynote speaker at Nodevember&lt;/a&gt;. This hit me particularly hard, as Mr. Crockford is someone I have learned a lot from over the years, and have come to deeply respect. As far as I am aware, Mr. Crockford has never been accused of anything beyond being a “grumpy old man” before this incident (a description I imagine he would happily agree with). Unfortunately, there is very little publicly-available information regarding what he did to warrant removal from this event.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Of course, in any code of conduct response situation, there is a chance that the person who was victimized requested that the specific behavior not be made public. This is perfectly acceptable, and is something I am unable to account for in this article for obvious reasons.&lt;/strong&gt; However, after several hours of research and listening, I have found nothing to indicate that is the case in this instance.&lt;/p&gt;
+
+&lt;p&gt;The following is an account of my findings regarding this incident. Since there is a distinct lack of information from Nodevember about this situation (even in &lt;a href="http://nodevember.org/statement.html" rel="nofollow"&gt;their followup post&lt;/a&gt;), my research methodology was to find links via replies to the &lt;a href="https://twitter.com/nodevember/status/771520648191483904" rel="nofollow"&gt;original tweet&lt;/a&gt;, and &lt;a href="https://www.reddit.com/r/javascript/comments/50u77r/douglas_crockford_removed_as_a_keynote_speaker_at/" rel="nofollow"&gt;a Reddit thread&lt;/a&gt; on the topic that I found by Googling “douglas crockford nodevember”. My investigation of this subject took place starting on Saturday, September 3rd at around 12:00 AM.&lt;/p&gt;
+
+&lt;p&gt;—&lt;/p&gt;
+&lt;h2 id="how-it-started_2"&gt;How it started &lt;a class="head_anchor" href="#how-it-started_2" rel="nofollow"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;This incident appears to have started with &lt;a href="https://twitter.com/jsdnxx/status/771476480048046080" rel="nofollow"&gt;a tweet from @jsdnxx&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote class="short"&gt;
+&lt;p&gt;nice list of illustrious dude programmers. notice any omissions?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;After a bit of back-and-forth on what should be done to rectify that lack of diversity and when, Emily Rose &lt;a href="https://twitter.com/nexxylove/status/771503406716334080" rel="nofollow"&gt;joined&lt;/a&gt; the &lt;a href="https://twitter.com/nexxylove/status/771503661956501504" rel="nofollow"&gt;conversation&lt;/a&gt;, saying:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;@nodevember one way you could show you actually care about community safety &amp;amp; diversity is by uninviting Douglas Crockford.&lt;/p&gt;
+
+&lt;p&gt;@nodevember he has repeatedly shown himself to be actively hostile to fostering inclusivity and many will decline to speak if he is invited.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Unfortunately, there do not appear to be any examples given of Mr. Crockford’s hostile behavior in the remainder of the thread.&lt;/p&gt;
+&lt;h2 id="the-one-with-the-gonads_2"&gt;The one with the gonads &lt;a class="head_anchor" href="#the-one-with-the-gonads_2" rel="nofollow"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;One item that I found brought up a few times is a talk Mr. Crockford gave at Google in 2013, titled “Monads and Gonads”. Certainly, this is a bit of an inappropriate and silly title for a talk. However, it is also not explicitly gendered, as “Gonad” is a term that &lt;a href="https://en.wikipedia.org/wiki/Gonad" rel="nofollow"&gt;refers to both testicles and ovaries&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In order to make sure I wasn’t missing anything, I listened to the talk and Q&amp;amp;A session in its entirety with subtitles on (~50 minutes). Aside from learning a fair bit about monads, here were the bits I found that could potentially be considered offensive:&lt;/p&gt;
+
+&lt;p&gt;At &lt;a href="https://youtu.be/b0EF0VTs9Dc?t=10m5s" rel="nofollow"&gt;10:05&lt;/a&gt;, Mr. Crockford says:&lt;/p&gt;
+&lt;blockquote class="short"&gt;
+&lt;p&gt;… if you have the chicharrones, you can learn monads without Haskell&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I don’t speak Spanish, but this certainly sounded like a gonad reference to me at first blush. I pulled it up on &lt;a href="https://en.wikipedia.org/wiki/Chicharr%C3%B3n" rel="nofollow"&gt;Wikipedia&lt;/a&gt;, and apparently “chicharrones” is a pork belly/rind dish that doesn’t look particularly like any piece of reproductive anatomy I’m familiar with. It’s quite possible that either I or Mr. Crockford made some sort of mistake in the translation here; please let me know if that’s the case.&lt;/p&gt;
+
+&lt;p&gt;Slightly later at &lt;a href="https://youtu.be/b0EF0VTs9Dc?t=11m45s" rel="nofollow"&gt;11:50&lt;/a&gt;, Mr. Crockford says the following:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Now there’s some who will say “No, that’s not true, you don’t dare go that way, otherwise…”, but I say, my friends, if you have the huevos, you can. So what do you say we sack up and look at some monads?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Was this an appropriate “joke” to make in a conference talk? Certainly not.&lt;br&gt;
+Was it even a funny joke? Literally zero percent funny.&lt;br&gt;
+Was it exclusionary? Yup.&lt;/p&gt;
+
+&lt;p&gt;Was it made in bad faith? &lt;u&gt;Not as far as I can tell.&lt;/u&gt;&lt;/p&gt;
+
+&lt;p&gt;Much later in the talk, at &lt;a href="https://youtu.be/b0EF0VTs9Dc?t=39m00s" rel="nofollow"&gt;39:00&lt;/a&gt;, there is a final reference to testicles:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;So, that little pair of parens is really easy to overlook, but it turns out it’s really critical to understanding this. So, just leaving it hanging out there like a pair of dog balls, I don’t think is useful to the reader.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;At best, this is a strained metaphor. At worst, it’s an inappropriate, gendered comment.&lt;/p&gt;
+
+&lt;p&gt;People (especially those who grew up in different times), often don’t think about these problems in the same way younger folks do. That absolutely doesn’t excuse their behavior, but it also doesn’t mean we should discard them. Whenever possible, it’s best to use mistakes as teachable moments.&lt;/p&gt;
+&lt;h2 id="the-one-with-the-slutshaming_2"&gt;The one with the slut-shaming &lt;a class="head_anchor" href="#the-one-with-the-slutshaming_2" rel="nofollow"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;One of the items linked several times in both the Twitter and Reddit threads is a piece by Kassandra Perch from February 2016 titled “&lt;a href="https://medium.com/@nodebotanist/why-i-won-t-be-speaking-at-conferences-with-douglas-crockford-anymore-61bc29f028c8" rel="nofollow"&gt;Why I won’t be speaking at conferences with Douglas Crockford anymore.&lt;/a&gt;” In their article, Mx. Perch mentions two incidents of Mr. Crockford’s “untenable behavior”.&lt;/p&gt;
+
+&lt;p&gt;The first is is a segment in the keynote he gave at the event, “in which he slut-shames the audience”. This talk is called “The Seif Project”, and Mr. Crockford has been giving it repeatedly for a while now (full disclaimer, I saw the last 15 minutes or so of this talk at O'Reilly Fluent earlier this year). Several others have also raised concerns about it on Twitter for slut-shaming:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://twitter.com/ag_dubs/status/666026590774673408" rel="nofollow"&gt;@ag_dubs&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote class="short"&gt;
+&lt;p&gt;dat crock just slut shamed the web ?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href="https://twitter.com/nebrius/status/697491096926945281" rel="nofollow"&gt;@nebrius&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote class="short"&gt;
+&lt;p&gt;And now Crockford very subtly slut shamed a lot people with his talk of promiscuity vs commitment #forwardjs&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The specific version of Mr. Crockford’s keynote from ForwardJS is &lt;a href="https://www.youtube.com/watch?v=0w6tZEbrHIY" rel="nofollow"&gt;available on YouTube&lt;/a&gt;, so I watched the entire thing with subtitles on to find the slut-shaming mentioned by the folks above.&lt;/p&gt;
+
+&lt;p&gt;At &lt;a href="https://youtu.be/0w6tZEbrHIY?t=41m30s" rel="nofollow"&gt;41:30&lt;/a&gt;, Mr. Crockford puts up a slide saying the following:&lt;/p&gt;
+&lt;blockquote class="short"&gt;
+&lt;p&gt;The Old Web: Promiscuity&lt;/p&gt;
+
+&lt;p&gt;The New Web: Commitment&lt;/p&gt;
+
+&lt;p&gt;The Internet of People&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;When he switches to this slide, he says:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;… the Old Web was great because it provided promiscuity. It meant that you could go and connect to anything, and you’re probably gonna be ok. You might get shocked and embarrassed, but your machine’s not gonna get taken over, your identity’s not gonna get stolen. … And that’s good, because that allows us to get introduced to things. We used to call it “surfing”, where you could go from one thing to another, and discover stuff, and start forming relationships. Unfortunately, the same thing which allows the promiscuity to work is very bad for dealing with commitment, so that’s what the New Web is for. Now, once I’ve found my bank, I want to make sure from this point on I’m talking to my bank, and I’m not talking to anything which pretends to be my bank.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;As far as I can tell, there is no slut shaming happening here. It’s a bit of a strained metaphor, but not inaccurate or directed at human relationships. In fact, Mr. Crockford explicitly says that the “Old Web” was great &lt;em&gt;because&lt;/em&gt; of its promiscuity. His point here appears to be that promiscuity as a whole tends to be at odds with commitment, and that in some cases (such as financial transactions), a “committed relationship” can be more beneficial.&lt;/p&gt;
+
+&lt;p&gt;In another segment at &lt;a href="https://youtu.be/0w6tZEbrHIY?t=42m45s" rel="nofollow"&gt;42:45&lt;/a&gt;, Mr. Crockford mentions committed relationships again:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Because we’re now connecting things forming relationships, this should work better for connecting people as well. Right now, we have to do all sorts of terrible things, but we can do safer things now, we can have committed relationships between people as well as between companies.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Again, as far as I’m able to tell, this is not a condemnation of any type of relationship, but rather pointing out that different types of relationships can serve different needs. “Promiscuous” is &lt;a href="https://en.wikipedia.org/wiki/Promiscuous_mode" rel="nofollow"&gt;an industry-standard term&lt;/a&gt; used in networking, and does not have negative connotations in that context. This reminds me a lot of “master/slave” terminology discussion. Should we improve the words we use to discuss concepts? Always. Is it productive or helpful to shout people down instead of educate them? Rarely.&lt;/p&gt;
+
+&lt;p&gt;The second incident Mx. Perch mentions in their article is a discussion with Mr. Crockford about TXJS 2011, where Mr. Crockford said “the talks as the day went on just got stupider and stupider”. As it turns out, Mr. Crockford has &lt;a href="https://plus.google.com/+DouglasCrockfordEsq/posts/9WQ5t2xpVE3" rel="nofollow"&gt;publicly clarified&lt;/a&gt; this quote himself:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In 2011 I spoke at TXJS in at the Alamo Drafthouse in Austin. They started serving alcohol in the morning, and people were drinking all day long. As the day went on, the talks got stupider and stupider.&lt;/p&gt;
+
+&lt;p&gt;I don’t recommend serving alcohol during conferences.﻿&lt;/p&gt;
+&lt;/blockquote&gt;&lt;h2 id="the-one-where-i-finally-finish-this-post_2"&gt;The one where I finally finish this post &lt;a class="head_anchor" href="#the-one-where-i-finally-finish-this-post_2" rel="nofollow"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;After doing all my research, I was left a bit baffled. There still seemed to be a distinct lack of information about what had actually happened here. I decided that it would make sense to contact Mr. Crockford directly and see if he had anything to say. To that end, I sent him &lt;a href="https://svbtleusercontent.com/jrvpigrsbxtqw.jpg" rel="nofollow"&gt;the following message&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Hey Mr. Crockford,&lt;/p&gt;
+
+&lt;p&gt;I’m currently researching an article regarding the recent Nodevember incident, mentioned here: &lt;a href="https://twitter.com/nodevember/status/771520648191483904" rel="nofollow"&gt;https://twitter.com/nodevember/status/771520648191483904&lt;/a&gt;. Since there is an unfortunate lack of concrete information available on the subject, I was hoping you might be willing to provide me some details around what happened from your point of view.&lt;/p&gt;
+
+&lt;p&gt;Of course, I also understand if you can’t or don’t want to discuss this particular issue.&lt;/p&gt;
+
+&lt;p&gt;Sincerely,&lt;br&gt;
+-paul&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;A couple hours later, I received this response:&lt;/p&gt;
+&lt;blockquote class="short"&gt;
+&lt;p&gt;It is a mystery to me too.&lt;/p&gt;
+&lt;/blockquote&gt;</content>
+  </entry>
+  <entry>
+    <id>tag:paulstraw.svbtle.com,2014:Post/bathroom-bill</id>
+    <published>2016-05-13T15:55:31-07:00</published>
+    <updated>2016-05-13T15:55:31-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://paulstraw.svbtle.com/bathroom-bill"/>
+    <title>Bathroom Bill</title>
+    <content type="html">&lt;blockquote class="short"&gt;
+&lt;p&gt;Who the fuck is Bathroom Bill and how do we make him go away&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;— &lt;a href="https://twitter.com/abolishentropy/status/730438511157862405" rel="nofollow"&gt;@abolishentropy&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;As a ten-year-old, I had everything figured out. I knew more about any given topic than anyone else, including professionals who had been performing their job for years. Just like every other ten-year-old, I also knew a lot more about life than my parents.&lt;/p&gt;
+
+&lt;p&gt;“Well if I don’t get my way, I’ll just stand here in my doorway until you agree with me!” I yelled at my mother. “I’ll stand here all night, if I have to!”&lt;/p&gt;
+
+&lt;p&gt;She, of course, walked into another room, while I stood there.&lt;/p&gt;
+
+&lt;p&gt;And stood.&lt;/p&gt;
+
+&lt;p&gt;…and stood.&lt;/p&gt;
+
+&lt;p&gt;It was pretty boring, but I was making a point, right? Really holding the moral high ground in an argument I no longer recall. Sticking to my guns. Look at what an upstanding person I was! Such backbone, wow.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;… if schools don’t knuckle down to force girls showering with boys and force 8-year-old girls to have to endure boys coming into their bathroom, [Barack Obama is] taking money from the poorest of the poor.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;— &lt;a href="http://www.houstonpublicmedia.org/articles/news/politics/2016/05/13/150313/official-texas-will-forego-federal-funds-over-lgbt-policy/" rel="nofollow"&gt;Texas Lt. Gov. Dan Patrick&lt;/a&gt; on turning down federal money in order to prevent transgender students from using the bathroom of the gender they identify with.&lt;/p&gt;
+
+&lt;p&gt;As an adult, I realize that standing in my own doorway only hurt me. It was silly to blame my mom for a decision that I made, out of my own misunderstanding and ignorance. Being the petulant child I was at the time, I kept standing there. I was so angry with my mom, because she couldn’t see how bored I was of being right (she had long since moved on).&lt;/p&gt;
+
+&lt;p&gt;Standing.&lt;/p&gt;
+
+&lt;p&gt;Standing.&lt;/p&gt;
+
+&lt;p&gt;Standing.&lt;/p&gt;
+
+&lt;p&gt;Eventually, my dad came home and laughed at me. After that, I never angrily stood in my own doorway again. Only a child blames someone else for the consequences of their own actions.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:paulstraw.svbtle.com,2014:Post/mouth-noises</id>
+    <published>2016-05-02T23:17:37-07:00</published>
+    <updated>2016-05-02T23:17:37-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://paulstraw.svbtle.com/mouth-noises"/>
+    <title>Mouth Noises</title>
+    <content type="html">&lt;p&gt;I am #blessed enough to be a member of the &lt;a href="http://spec.fm" rel="nofollow"&gt;Spec podcast network&lt;/a&gt;. We just hit a collective total of &lt;a href="https://twitter.com/uberbryn/status/727219434713022464" rel="nofollow"&gt;5,000,000 downloads&lt;/a&gt;, and it made me reflect a bit on what I’m trying to accomplish with &lt;a href="http://doesnotcompute.fm" rel="nofollow"&gt;Does Not Compute&lt;/a&gt;, and my work as a whole.&lt;/p&gt;
+
+&lt;p&gt;I started breaking computers with code about 17 years ago, in 1999. My toolchain for those first few sites was extremely basic: Notepad.exe and &lt;u&gt;lots&lt;/u&gt; of trial and error. I was just a nerdy kid playing with nerdy virtual toys, but something about programming really stuck with me. It was the first time I ever felt truly empowered to create anything I could dream up, without any limitations. I never thought I would be smart enough to be a “real” programmer, but making websites seemed like something &lt;u&gt;anyone&lt;/u&gt; could do. Little did I know those first few goofy sites would eventually blossom into my career over the next decade.&lt;/p&gt;
+
+&lt;p&gt;I still carry that feeling of empowerment with me to this day. Sometimes it’s expressed in different ways now, like creating silly robots, a podcast, or even sometimes overly-complex circuits in Minecraft. No matter what, the bottom line always remains: With enough effort, computers let me create anything I can dream up.&lt;/p&gt;
+
+&lt;p&gt;Last year, &lt;a href="http://twitter.com/seanwashbot" rel="nofollow"&gt;Sean&lt;/a&gt; and I started Does Not Compute with an unspoken mission. As development evolves and becomes more complex, we want to help make sure new developers don’t feel intimidated or excluded. The magic of the Internet is that everyone can contribute something, regardless of their skill level. As more experienced developers, I see it as part of our duty to keep the barrier to entry low.&lt;/p&gt;
+
+&lt;p&gt;If you’ve been programing for a while: Go teach! Teaching can look like pretty much anything you want, from making podcasts, to giving talks, to helping people out in community Slack groups (&lt;a href="http://spec.fm/slack" rel="nofollow"&gt;Spec has one!&lt;/a&gt;). You’ll be amazed how great it makes you feel, and how much you learn by doing it.&lt;/p&gt;
+
+&lt;p&gt;If you’re new to programming: Don’t be afraid to ask! So many people (myself included) learned a lot of what they know by asking questions. There are tons of experienced developers out there who love to lend a hand when they can. That doesn’t mean you’ll get a free pass. It’ll still be lots of hard work, but I guarantee most folks will jump at the chance to help you along the way.&lt;/p&gt;
+
+&lt;p&gt;? ? &lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:paulstraw.svbtle.com,2014:Post/you-must-be-this-sad-to-enter</id>
+    <published>2016-02-25T23:44:08-08:00</published>
+    <updated>2016-02-25T23:44:08-08:00</updated>
+    <link rel="alternate" type="text/html" href="https://paulstraw.svbtle.com/you-must-be-this-sad-to-enter"/>
+    <title>You Must Be This Sad to Enter</title>
+    <content type="html">&lt;p&gt;By now, you’ve almost certainly read the &lt;a href="https://medium.com/@taliajane/an-open-letter-to-my-ceo-fb73df021e7a" rel="nofollow"&gt;open letter&lt;/a&gt; written by Talia Jane to the CEO of Yelp. If you’re reading this, there’s actually a good chance I’ve talked to you about it directly. It seems to keep coming up, and I wanted to write down my thoughts on some of the arguments I’ve seen raised against Talia.&lt;/p&gt;
+&lt;h3 id="if-you-can39t-afford-it-don39t-live-here_3"&gt;If you can’t afford it, don’t live here &lt;a class="head_anchor" href="#if-you-can39t-afford-it-don39t-live-here_3" rel="nofollow"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;To be blunt, she &lt;u&gt;doesn’t&lt;/u&gt;. Talia lives somewhere where it cost her nearly $6.00 one-way to get to her job. That’s something like $250 a month in transit fees, in addition to her ~$1200 monthly rent. For those of you unfamiliar with the Bay Area, $1200 a month is quite cheap, even &lt;u&gt;with&lt;/u&gt; roommates.&lt;/p&gt;
+
+&lt;p&gt;There will always be people here who earn less than others, but affordable housing for all incomes &lt;u&gt;needs&lt;/u&gt; to be a priority for this city. Even if you don’t care whether people who earn a low wage can afford to live here (presumably because you’re a horrid, short-sighted troll of a person), at least consider that those human-powered startups we all love so much are made possible by people earning similar wages.&lt;/p&gt;
+&lt;h3 id="i39m-sure-her-family-is-helping-her-and-she39_3"&gt;I’m sure her family is helping her and she’s exaggerating &lt;a class="head_anchor" href="#i39m-sure-her-family-is-helping-her-and-she39_3" rel="nofollow"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Many people don’t seem to realize just how much of a privilege a supportive family really is. There are a ton of people who have no family to lean on, and several elements of Talia’s post pretty heavily indicate she falls into that group.&lt;/p&gt;
+
+&lt;p&gt;I’ve seen this argument come up several times, usually in the form of “well when I was having trouble, I just moved back in with my parents”. While it’s really great you were able to do that, it’s insulting and thoughtless to assume everyone else also has that option.&lt;/p&gt;
+&lt;h3 id="look-at-the-excessive-things-she39s-bought-wh_3"&gt;Look at the excessive things she’s bought! What a liar! &lt;a class="head_anchor" href="#look-at-the-excessive-things-she39s-bought-wh_3" rel="nofollow"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
+&lt;p&gt;Or maybe, &lt;u&gt;just maybe&lt;/u&gt;, she was presenting herself on social media as a happy, well-off person even when she actually wasn’t, because that’s pretty much the most human thing in the world.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;The primary sentiment tying these arguments together is that they all imply a minimum amount of suffering someone must go through before they “qualify” for our sympathy. They reek of Regan-era “welfare queen” scare tactics, projecting our own privileges onto others, and a form of localized xenophobia.&lt;/p&gt;
+
+&lt;p&gt;These attitudes are quickly pushing us towards a monoculture, even faster than we’re already headed there. Personally, I want the Bay Area to become a &lt;u&gt;more&lt;/u&gt; inclusive and diverse place over the upcoming years and decades. To have any hope of that happening, we need to stop discounting the suffering of others.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:paulstraw.svbtle.com,2014:Post/bowers-wilkins-p5-series-2-review</id>
+    <published>2015-11-18T23:26:09-08:00</published>
+    <updated>2015-11-18T23:26:09-08:00</updated>
+    <link rel="alternate" type="text/html" href="https://paulstraw.svbtle.com/bowers-wilkins-p5-series-2-review"/>
+    <title>Bowers &amp;amp; Wilkins P5 Series 2 Review</title>
+    <content type="html">&lt;p&gt;These are really comfortable headphones, and that’s coming from someone who usually can’t stand on-ears. They’re quite visually appealing as well, and seem like the perfect size for walking around (I bought them for commuting and work). Isolation is decent, but still lets enough ambient sound in to keep you aware of the environment (another point in the “walking around cans” column).&lt;/p&gt;
+
+&lt;p&gt;The inline mic/remote is nice and clicky, but the volume buttons can be a bit awkward to press, since it’s a cylinder instead of the EarPod-style elliptic cylinder/roundrect. I find my fingers looking for the multi-button indent first, then going up or down from there instead of just grabbing the top or bottom right away.&lt;/p&gt;
+
+&lt;p&gt;I haven’t heard any microphonics; probably at least in part because of the replaceable cable. It’s a slightly non-standard 3.5mm -&amp;gt; 2.5mm cable, but still better than something soldered in. The actual jack is located underneath the left cup. Both cups are magnetically attached and pop off for cleaning/replacement — super neat.&lt;/p&gt;
+
+&lt;p&gt;Finally, sound quality. These are definitely some of the most… “opinionated” headphones/speakers I have (compared to my current regulars: AKG K240, and Beyerdynamic DT 770). In terms of flat frequency response, they don’t even get close Bowers &amp;amp; Wilkins’ own MM-1 desktop speakers (where most of my non-headphone listening happens at the moment). However, since I got these for a commute/work pair and won’t be doing any mixing work on them, flat frequency response wasn’t the primary concern. They’re very pleasant, opinionated in the right ways for casual listening, and most importantly aren’t fatiguing at all.&lt;/p&gt;
+
+&lt;p&gt;Recommended.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:paulstraw.svbtle.com,2014:Post/nvalt-and-the-outboard-brain</id>
+    <published>2015-02-06T22:41:36-08:00</published>
+    <updated>2015-02-06T22:41:36-08:00</updated>
+    <link rel="alternate" type="text/html" href="https://paulstraw.svbtle.com/nvalt-and-the-outboard-brain"/>
+    <title>nvALT and the Outboard Brain</title>
+    <content type="html">&lt;p&gt;I have to remember a lot of stuff. If you work with computers, you probably do too. Cory Doctorow popularized the concept of the “&lt;a href="http://archive.oreilly.com/pub/a/javascript/2002/01/01/cory.html" rel="nofollow"&gt;Outboard Brain&lt;/a&gt;” a long time ago, and it’s still a valid concept. While Cory’s approach was based around blogging, mine has used a simple program called &lt;a href="http://brettterpstra.com/projects/nvalt/" rel="nofollow"&gt;nvALT&lt;/a&gt; for the last several years.&lt;/p&gt;
+
+&lt;p&gt;nvALT is a beautifully simple application that lets you write plain text notes about anything. Its main trick is letting you create or search for notes without having to manually manage creating or saving files; everything happens directly from the search bar at the top. If I need to take down contact information, I can just type “James Hobbs”, hit enter, and immediately start typing phone numbers, company names, or any other relevant information.&lt;/p&gt;
+
+&lt;p&gt;Since all files are saved as plain text, they can easily be synced via your service of choice, and edited on any platform (right now, I’m using &lt;a href="http://omz-software.com/editorial/" rel="nofollow"&gt;Editorial&lt;/a&gt; on iOS). By writing my notes using &lt;a href="http://daringfireball.net/projects/markdown/" rel="nofollow"&gt;Markdown&lt;/a&gt; syntax, I can also instantly convert them to beautiful HTML or PDF documents using &lt;a href="http://marked2app.com/" rel="nofollow"&gt;Marked&lt;/a&gt;. This gives me an incredible workflow that scales from one-liner code snippets to documentation for clients; all with no barrier to &lt;u&gt;just start writing&lt;/u&gt;.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:paulstraw.svbtle.com,2014:Post/rails-usereditable-configuration</id>
+    <published>2015-02-06T22:33:48-08:00</published>
+    <updated>2015-02-06T22:33:48-08:00</updated>
+    <link rel="alternate" type="text/html" href="https://paulstraw.svbtle.com/rails-usereditable-configuration"/>
+    <title>Rails User-Editable Configuration</title>
+    <content type="html">&lt;p&gt;When building out a Rails site with a large admin interface, you’ll eventually need to add some system settings that don’t relate specifically to any model. This is an Interesting Problem™, because ActiveRecord ties everything in the database to a model. I’ve recently started using the pattern of a GlobalConfig model to get around this.&lt;/p&gt;
+
+&lt;p&gt;First, create a &lt;code class="prettyprint"&gt;GlobalConfig&lt;/code&gt; model with the standard generator:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="prettyprint lang-bash"&gt;rails g model global_config singleton_guard:integer
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then, do a bit of class customization:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="prettyprint lang-ruby"&gt;class GlobalConfig &amp;lt; ActiveRecord::Base
+  validates :singleton_guard, presence: true, uniqueness: true, numericality: {equal_to: 1}
+  before_validation :set_singleton_guard
+
+private
+  def set_singleton_guard
+    self.singleton_guard = 1
+  end
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Once you’ve got this base, you need a nice way to actually access the config model from your controllers and views. I added this bit to my ApplicationController:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="prettyprint lang-ruby"&gt;class ApplicationController &amp;lt; ActionController::Base
+  # …
+private
+  def global_config
+    @global_config ||= GlobalConfig.first || GlobalConfig.new
+
+    return @global_config
+  end
+  helper_method :global_config
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;From there, you can simply call &lt;code class="prettyprint"&gt;global_config&lt;/code&gt; from any controller or view. By using an instance variable, we ensure that no matter how many times you access the GlobalConfig this way, it will only make one database call per request cycle.&lt;/p&gt;
+
+&lt;p&gt;Now that you’ve got the configuration model all set up, you can add whatever you need (e.g., &lt;code class="prettyprint"&gt;rails g migration add_newsletter_signup_cta_to_global_config newsletter_signup_cta:string&lt;/code&gt;). Since it’s just a normal Rails model, you can set up forms and validation the same way you would for anything else. Using this pattern, clients can easily swap text, images, toggle site features, and more.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:paulstraw.svbtle.com,2014:Post/viewmaster</id>
+    <published>2014-08-30T22:42:27-07:00</published>
+    <updated>2014-08-30T22:42:27-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://paulstraw.svbtle.com/viewmaster"/>
+    <title>ViewMaster</title>
+    <content type="html">&lt;p&gt;I’m happy to announce that my first Mac App Store app has been approved and released to the public! It’s a simple menu bar app that shows you the current status and viewer count of a Twitch stream. I created it over the course of a couple days using &lt;a href="http://rubymotion.com" rel="nofollow"&gt;RubyMotion&lt;/a&gt;, and far too much time tweaking the icon.&lt;/p&gt;
+
+&lt;p&gt;If you’re a Mac user streaming with Twitch, you should check it out: &lt;a href="https://itunes.apple.com/us/app/viewmaster-for-twitch/id913092374" rel="nofollow"&gt;ViewMaster for Twitch&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:paulstraw.svbtle.com,2014:Post/look-at-the-photo-not-the-frame</id>
+    <published>2013-10-04T22:43:27-07:00</published>
+    <updated>2013-10-04T22:43:27-07:00</updated>
+    <link rel="alternate" type="text/html" href="https://paulstraw.svbtle.com/look-at-the-photo-not-the-frame"/>
+    <title>Look at the Photo, Not the Frame</title>
+    <content type="html">&lt;p&gt;I work with an extremely talented design team, all of whom are unhappy with iOS 7’s new design direction. While I agree there are some rough edges, overall I think the changes will ultimately be for the best, as designers and developers (including Apple’s own) learn to work with the new concepts and design language.&lt;/p&gt;
+
+&lt;p&gt;Good “pixel design” is, of course, very important; it has been one of the main ways to provide the “user delight” that designers strive for ever since the first GUI. Very few companies outside of tired examples like Google and Craigslist can even attract users without good design to help sell the product. But computers are now powerful enough to provide that same sense of delight in other ways, one of which is the use of motion, which provides visual interest and context without drawing attention away from the content. iOS 7 utilizes motion in almost every interaction; the parallax effects throughout the system, elastic trays, and home screen icon zooming just scratch the surface.&lt;/p&gt;
+
+&lt;p&gt;As I type this into &lt;a href="http://vesperapp.co" rel="nofollow"&gt;Vesper&lt;/a&gt;, I’m struck by just how much care has gone into what is truly “as little design as possible”. Subtle, well-considered animation and gorgeous typography help create the same sense of wonder that the most ornamental apps inspire on first load, but instead of just being nice to look at, they also improve the actual usage of the application. Every decision that the Q Branch team made serves to make writing more enjoyable; all the design is in service of helping me actually write words on the page. The true soul of every application is its user experience.&lt;/p&gt;
+
+&lt;p&gt;Until iOS 7, app design on iOS had been becoming progressively more complex and ornamental; nearly fetishistic. The sudden turnaround isn’t a rejection of beautiful design, it’s a return to caring more about the photograph than the frame.&lt;/p&gt;
+</content>
+  </entry>
+</feed>

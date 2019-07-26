@@ -1,0 +1,502 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:blogChannel="http://backend.userland.com/blogChannelModule" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:pingback="http://madskills.com/public/xml/rss/module/pingback/" xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:betag="http://dotnetblogengine.net/schemas/tags">
+  <channel>
+    <title>Don't Code Tired</title>
+    <description>Jason Roberts on Software Development and .NET</description>
+    <link>http://dontcodetired.com/blog/</link>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>BlogEngine.NET 3.3.0.0</generator>
+    <language>en-US</language>
+    <blogChannel:blogRoll>http://dontcodetired.com/blog/opml.axd</blogChannel:blogRoll>
+    <blogChannel:blink>http://www.dotnetblogengine.net/syndication.axd</blogChannel:blink>
+    <dc:creator>Jason Roberts</dc:creator>
+    <dc:title>Don't Code Tired</dc:title>
+    <geo:lat>0.000000</geo:lat>
+    <geo:long>0.000000</geo:long>
+    <item>
+      <title>Understanding Azure Durable Functions - Part 3: What Is Durability?</title>
+      <description>&lt;p&gt;This is the third part in a &lt;a href="http://dontcodetired.com/blog/?tag=durfuncseries"&gt;series of articles&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;Durable Functions make it easier to organize (orchestrate) multiple individual Azure Functions working together.&lt;/p&gt; &lt;p&gt;In addition to simplifying this orchestration, durable functions (as its name suggests) provide a level of “durability”. So what is this durability and how does it work?&lt;/p&gt; &lt;p&gt;Durable Functions provides “reliable execution”. What this means is that the framework takes care of a number of things for us, one of these things is the management of orchestration history.&lt;/p&gt; &lt;p&gt;"Orchestrator functions and activity functions may be running on different VMs within a data center, and those VMs or the underlying networking infrastructure is not 100% reliable. In spite of this, Durable Functions ensures reliable execution of orchestrations." [&lt;a href="https://docs.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-checkpointing-and-replay"&gt;Microsoft&lt;/a&gt;]&lt;/p&gt; &lt;p&gt;One important thing to note is that this “durability” is not meant to automatically retry operations or execute compensation logic, later in the series we’ll look at error handling.&lt;/p&gt; &lt;h2&gt;Behind the Scenes&lt;/h2&gt; &lt;p&gt;To better explain how this works, lets take the following functions:&lt;/p&gt;&lt;pre class="brush: csharp;"&gt;using System.Collections.Generic;
+using System.Net.Http;
+using System.Threading;
+using System.Threading.Tasks;
+using Microsoft.Azure.WebJobs;
+using Microsoft.Azure.WebJobs.Extensions.Http;
+using Microsoft.Extensions.Logging;
+
+namespace DurableDemos
+{
+    public static class Function1
+    {
+        [FunctionName("OrchestratorFunction")]
+        public static async Task&amp;lt;List&amp;lt;string&amp;gt;&amp;gt; RunOrchestrator(
+            [OrchestrationTrigger] DurableOrchestrationContext context)
+        {
+            var outputs = new List&amp;lt;string&amp;gt;();
+
+            // Replace "hello" with the name of your Durable Activity Function.
+            outputs.Add(await context.CallActivityAsync&amp;lt;string&amp;gt;("ActivityFunction", "Tokyo"));
+            outputs.Add(await context.CallActivityAsync&amp;lt;string&amp;gt;("ActivityFunction", "Seattle"));
+            outputs.Add(await context.CallActivityAsync&amp;lt;string&amp;gt;("ActivityFunction", "London"));
+
+            // returns ["Hello Tokyo!", "Hello Seattle!", "Hello London!"]
+            return outputs;
+        }
+
+        [FunctionName("ActivityFunction")]
+        public static string SayHello([ActivityTrigger] string name, ILogger log)
+        {
+            Thread.Sleep(5000); // simulate longer processing delay
+
+            log.LogInformation($"Saying hello to {name}.");
+            return $"Hello {name}!";
+        }
+
+        [FunctionName("ClientFunction")]
+        public static async Task&amp;lt;HttpResponseMessage&amp;gt; HttpStart(
+            [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post")]HttpRequestMessage req,
+            [OrchestrationClient]DurableOrchestrationClient starter,
+            ILogger log)
+        {
+            // Function input comes from the request content.
+            string instanceId = await starter.StartNewAsync("OrchestratorFunction", null);
+
+            log.LogInformation($"Started orchestration with ID = '{instanceId}'.");
+
+            return starter.CreateCheckStatusResponse(req, instanceId);
+        }
+    }
+}
+&lt;/pre&gt;
+&lt;p&gt;If we execute the orchestration (as we did in &lt;a href="http://dontcodetired.com/blog/post/Understanding-Azure-Durable-Functions-Part-2-Creating-Your-First-Durable-Function"&gt;part two of this series&lt;/a&gt;) with some PowerShell: &lt;strong&gt;$R = Invoke-WebRequest '&lt;/strong&gt;&lt;a href="http://localhost:7071/api/ReplayExample_HttpStart'"&gt;&lt;strong&gt;http://localhost:7071/api/ReplayExample_HttpStart'&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt; -Method 'POST'&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;And take a look in the Azure storage account associated with the function app (in this example the &lt;a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-use-emulator"&gt;local storage emulator&lt;/a&gt;) there are a number of storage queues and tables created as the following screenshot shows:&lt;/p&gt;
+&lt;p&gt;&lt;img title="Durable Functions tables and queues" alt="Durable Functions tables and queues" src="http://dontcodetired.com/blog/image.axd?picture=image_169.png"&gt;&lt;/p&gt;
+&lt;p&gt;Whilst it is not necessary to understand how Durable Functions works behind the scenes, it is useful to know that these queues and tables exist and are used.&lt;/p&gt;
+&lt;p&gt;For example if we open the &lt;strong&gt;DurableFunctionsHubInstances &lt;/strong&gt;table, we see a single row representing the execution of the orchestration we just initiates with PowerShell:&lt;/p&gt;
+&lt;p&gt;&lt;img title="Azure Durable Functions behind the scenes table" alt="Azure Durable Functions behind the scenes table" src="http://dontcodetired.com/blog/image.axd?picture=image_170.png"&gt;&lt;/p&gt;
+&lt;p&gt;Notice in the preceding screenshot, the Name field contains the name of the orchestration we just executed: &lt;strong&gt;[FunctionName("ReplayExample")]&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If we execution the orchestration again, we get a second row, etc.&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;DurableFunctionsHubHistory&lt;/strong&gt; table is more complex and has more data per invocation:&lt;/p&gt;
+&lt;p&gt;&lt;img title="DurableFunctionsHubHistory Table" alt="DurableFunctionsHubHistory Table" src="http://dontcodetired.com/blog/image.axd?picture=image_171.png"&gt;&lt;/p&gt;
+&lt;p&gt;Notice in the previous screenshot that the data in this table keeps track of where the orchestrator function is at, for example what activity functions have been executed so far.&lt;/p&gt;
+&lt;p&gt;The storage queues behind the scenes are used by the framework to drive function execution.&lt;/p&gt;
+&lt;h2&gt;How Durable Functions Work – Checkpoints&lt;/h2&gt;
+&lt;p&gt;The orchestrator function instance may be removed from memory while it is waiting for activity functions to execute, namely the &lt;strong&gt;await context.CallActivityAsync&lt;/strong&gt; calls. Because these calls are awaited, the orchestrator function may temporarily be removed from memory/paused until the activity function completes. &lt;/p&gt;
+&lt;p&gt;Because orchestrator functions may be removed from memory, there needs to be some way of the framework to keep track of which activity functions have completed and which ones have yet to be executed. The framework does this by creating “checkpoints” and using the &lt;strong&gt;DurableFunctionsHubHistory&lt;/strong&gt; table to store these checkpoints.&lt;/p&gt;
+&lt;p&gt;“Azure Storage does not provide any transactional guarantees between saving data into table storage and queues. To handle failures, the Durable Functions storage provider uses &lt;em&gt;eventual consistency&lt;/em&gt; patterns. These patterns ensure that no data is lost if there is a crash or loss of connectivity in the middle of a checkpoint.” [&lt;a href="https://docs.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-checkpointing-and-replay#history-table"&gt;Microsoft&lt;/a&gt;]&lt;/p&gt;
+&lt;p&gt;Essentially what this means is the the code in the orchestrator function may execute multiple times per invocation (be replayed) and the checkpoint data ensures that a given activity call is not called multiple times.&lt;/p&gt;
+&lt;p&gt;At a high level, at each checkpoint (each await) the execution history is saved into table storage and&amp;nbsp; messages are added to storage queues to trigger other functions.&lt;/p&gt;
+&lt;h2&gt;Replay Considerations&lt;/h2&gt;
+&lt;p&gt;Because the code in an orchestrator function can be replayed, there are a few restrictions on the code you write inside them.&lt;/p&gt;
+&lt;p&gt;Firstly, code in orchestrator function should be deterministic, that is if the code is replayed multiple times it should produce the same result – some examples of non-determinist code include random number generation, GUID generation, current date/time calls and calls to non-deterministic code/APIs/endpoints. &lt;/p&gt;
+&lt;p&gt;Code inside orchestrator functions should not block, so for example do not do IO operations or call Thread.Sleep.&lt;/p&gt;
+&lt;p&gt;Code inside orchestrator functions should not call into &lt;strong&gt;async&lt;/strong&gt; code except by way of the &lt;strong&gt;DurableOrchestrationContext&lt;/strong&gt; object that is passed into the orchestrator function, e.g. &lt;strong&gt;public static async Task RunOrchestrator( [OrchestrationTrigger] DurableOrchestrationContext context)&lt;/strong&gt;. For example initiating an activity function via: &lt;strong&gt;context.CallActivityAsync&amp;lt;string&amp;gt;("ReplayExample_ActivityFunction", "Tokyo"); &lt;/strong&gt;So for example do not use Task.Run, Task.Delay, HttpClient.SendAsync, etc. inside an orchestrator function.&lt;/p&gt;
+&lt;p&gt;Inside an orchestrator function, if you want the following logic use the substitute APIs as recommended in the Microsoft docs:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;To create a delay, instead of Thread.Sleep etc use the &lt;a href="https://azure.github.io/azure-functions-durable-extension/api/Microsoft.Azure.WebJobs.DurableOrchestrationContext.html#Microsoft_Azure_WebJobs_DurableOrchestrationContext_CreateTimer_"&gt;CreateTimer method&lt;/a&gt; of the &lt;strong&gt;DurableOrchestrationContext&lt;/strong&gt; object 
+&lt;li&gt;To get current date/time use the &lt;a href="https://azure.github.io/azure-functions-durable-extension/api/Microsoft.Azure.WebJobs.DurableOrchestrationContext.html#Microsoft_Azure_WebJobs_DurableOrchestrationContext_CurrentUtcDateTime"&gt;CurrentUtcDateTime property&lt;/a&gt; of the context 
+&lt;li&gt;To generate a random GUID, use the &lt;a href="https://azure.github.io/azure-functions-durable-extension/api/Microsoft.Azure.WebJobs.DurableOrchestrationContext.html#Microsoft_Azure_WebJobs_DurableOrchestrationContext_NewGuid"&gt;NewGuid&lt;/a&gt; method of the context&lt;/li&gt;&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: these restrictions apply to the orchestrator function, not to the activity function(s) or client function.&lt;/p&gt;
+&lt;h2&gt;Seeing Replay in Action&lt;/h2&gt;
+&lt;p&gt;As a quick example, we can modify the code in the orchestrator function to add a log message:&lt;/p&gt;&lt;pre class="brush: csharp;"&gt;[FunctionName("ReplayExample")]
+public static async Task RunOrchestrator(
+    [OrchestrationTrigger] DurableOrchestrationContext context, ILogger log)
+{
+    log.LogInformation($"************** RunOrchestrator method executing ********************");
+    
+    await context.CallActivityAsync&amp;lt;string&amp;gt;("ReplayExample_ActivityFunction", "Tokyo");            
+    await context.CallActivityAsync&amp;lt;string&amp;gt;("ReplayExample_ActivityFunction", "Seattle");
+    await context.CallActivityAsync&amp;lt;string&amp;gt;("ReplayExample_ActivityFunction", "London");
+}
+&lt;/pre&gt;
+&lt;p&gt;Now when the client function is called and the orchestration started, the following simplified log output can be seen:&lt;/p&gt;&lt;pre class="brush: csharp;"&gt;Executing HTTP request: {
+  "requestId": "c7edb6b0-e947-4347-9f0e-fc46a2bdeefe",
+  "method": "POST",
+  "uri": "/api/ReplayExample_HttpStart"
+}
+Executing 'ReplayExample_HttpStart' (Reason='This function was programmatically called via the host APIs.', Id=ca981987-5ea3-4c76-8934-09fef757cd6a)
+75dce58e3be440e98dcd3c99112c9bbf: Function 'ReplayExample (Orchestrator)' scheduled. Reason: NewInstance. IsReplay: False. State: Scheduled. HubName: DurableFunctionsHub. AppName: . SlotName: . ExtensionVersion: 1.8.2. SequenceNumber: 2.
+Started orchestration with ID = '75dce58e3be440e98dcd3c99112c9bbf'.
+Executed 'ReplayExample_HttpStart' (Succeeded, Id=ca981987-5ea3-4c76-8934-09fef757cd6a)
+Executing 'ReplayExample' (Reason='', Id=fb5e9945-3f9e-4fc6-bda3-9028fa6d8f04)
+75dce58e3be440e98dcd3c99112c9bbf: Function 'ReplayExample (Orchestrator)' started. IsReplay: False. Input: (16 bytes). State: Started. HubName: DurableFunctionsHub. AppName: . SlotName: . ExtensionVersion: 1.8.2. SequenceNumber: 3.
+************** RunOrchestrator method executing ********************
+75dce58e3be440e98dcd3c99112c9bbf: Function 'ReplayExample_ActivityFunction (Activity)' scheduled. Reason: ReplayExample. IsReplay: False. State: Scheduled. HubName: DurableFunctionsHub. AppName: . SlotName: . ExtensionVersion: 1.8.2. SequenceNumber: 4.
+Executed 'ReplayExample' (Succeeded, Id=fb5e9945-3f9e-4fc6-bda3-9028fa6d8f04)
+75dce58e3be440e98dcd3c99112c9bbf: Function 'ReplayExample (Orchestrator)' awaited. IsReplay: False. State: Awaited. HubName: DurableFunctionsHub. AppName: . SlotName: . ExtensionVersion: 1.8.2. SequenceNumber: 5.
+75dce58e3be440e98dcd3c99112c9bbf: Function 'ReplayExample_ActivityFunction (Activity)' started. IsReplay: False. Input: (36 bytes). State: Started. HubName: DurableFunctionsHub. AppName: . SlotName: . ExtensionVersion: 1.8.2. SequenceNumber: 6.
+Executing 'ReplayExample_ActivityFunction' (Reason='', Id=e93e770c-a15b-47b5-b8e3-e0db081cf44b)
+Saying hello to Tokyo.
+Executed 'ReplayExample_ActivityFunction' (Succeeded, Id=e93e770c-a15b-47b5-b8e3-e0db081cf44b)
+75dce58e3be440e98dcd3c99112c9bbf: Function 'ReplayExample_ActivityFunction (Activity)' completed. ContinuedAsNew: False. IsReplay: False. Output: (56 bytes). State: Completed. HubName: DurableFunctionsHub. AppName: . SlotName: . ExtensionVersion: 1.8.2. SequenceNumber: 7.
+Executing 'ReplayExample' (Reason='', Id=0542a8de-d9e5-46d0-a5a5-d94ea5040202)
+************** RunOrchestrator method executing ********************
+75dce58e3be440e98dcd3c99112c9bbf: Function 'ReplayExample_ActivityFunction (Activity)' scheduled. Reason: ReplayExample. IsReplay: False. State: Scheduled. HubName: DurableFunctionsHub. AppName: . SlotName: . ExtensionVersion: 1.8.2. SequenceNumber: 8.
+Executed 'ReplayExample' (Succeeded, Id=0542a8de-d9e5-46d0-a5a5-d94ea5040202)
+75dce58e3be440e98dcd3c99112c9bbf: Function 'ReplayExample (Orchestrator)' awaited. IsReplay: False. State: Awaited. HubName: DurableFunctionsHub. AppName: . SlotName: . ExtensionVersion: 1.8.2. SequenceNumber: 9.
+75dce58e3be440e98dcd3c99112c9bbf: Function 'ReplayExample_ActivityFunction (Activity)' started. IsReplay: False. Input: (44 bytes). State: Started. HubName: DurableFunctionsHub. AppName: . SlotName: . ExtensionVersion: 1.8.2. SequenceNumber: 10.
+Executing 'ReplayExample_ActivityFunction' (Reason='', Id=9b408473-3224-4968-8d7b-1b1ec56d9359)
+Saying hello to Seattle.
+Executed 'ReplayExample_ActivityFunction' (Succeeded, Id=9b408473-3224-4968-8d7b-1b1ec56d9359)
+75dce58e3be440e98dcd3c99112c9bbf: Function 'ReplayExample_ActivityFunction (Activity)' completed. ContinuedAsNew: False. IsReplay: False. Output: (64 bytes). State: Completed. HubName: DurableFunctionsHub. AppName: . SlotName: . ExtensionVersion: 1.8.2. SequenceNumber: 11.
+Executing 'ReplayExample' (Reason='', Id=040e7026-724c-4b07-9e4f-46ed52278785)
+************** RunOrchestrator method executing ********************
+75dce58e3be440e98dcd3c99112c9bbf: Function 'ReplayExample_ActivityFunction (Activity)' scheduled. Reason: ReplayExample. IsReplay: False. State: Scheduled. HubName: DurableFunctionsHub. AppName: . SlotName: . ExtensionVersion: 1.8.2. SequenceNumber: 12.
+Executed 'ReplayExample' (Succeeded, Id=040e7026-724c-4b07-9e4f-46ed52278785)
+75dce58e3be440e98dcd3c99112c9bbf: Function 'ReplayExample (Orchestrator)' awaited. IsReplay: False. State: Awaited. HubName: DurableFunctionsHub. AppName: . SlotName: . ExtensionVersion: 1.8.2. SequenceNumber: 13.
+75dce58e3be440e98dcd3c99112c9bbf: Function 'ReplayExample_ActivityFunction (Activity)' started. IsReplay: False. Input: (40 bytes). State: Started. HubName: DurableFunctionsHub. AppName: . SlotName: . ExtensionVersion: 1.8.2. SequenceNumber: 14.
+Executing 'ReplayExample_ActivityFunction' (Reason='', Id=03a0b729-d8e5-4e42-8b7a-28ea974bb1a6)
+Saying hello to London.
+Executed 'ReplayExample_ActivityFunction' (Succeeded, Id=03a0b729-d8e5-4e42-8b7a-28ea974bb1a6)
+75dce58e3be440e98dcd3c99112c9bbf: Function 'ReplayExample_ActivityFunction (Activity)' completed. ContinuedAsNew: False. IsReplay: False. Output: (60 bytes). State: Completed. HubName: DurableFunctionsHub. AppName: . SlotName: . ExtensionVersion: 1.8.2. SequenceNumber: 15.
+Executing 'ReplayExample' (Reason='', Id=02f307bc-c63c-4803-80f8-acfae72c3577)
+************** RunOrchestrator method executing ********************
+75dce58e3be440e98dcd3c99112c9bbf: Function 'ReplayExample (Orchestrator)' completed. ContinuedAsNew: False. IsReplay: False. Output: (null). State: Completed. HubName: DurableFunctionsHub. AppName: . SlotName: . ExtensionVersion: 1.8.2. SequenceNumber: 16.
+Executed 'ReplayExample' (Succeeded, Id=02f307bc-c63c-4803-80f8-acfae72c3577)
+&lt;/pre&gt;
+&lt;p&gt;Notice in the preceding log output, there are 4 instances of the log messages &lt;strong&gt;************** RunOrchestrator method executing ********************&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The final instance of the message occurs before the &lt;strong&gt;Function 'ReplayExample (Orchestrator)' completed&lt;/strong&gt; message so even though we only have 3 activity calls, the orchestrator function method itself was executed 4 times.&lt;/p&gt;</description>
+      <link>http://dontcodetired.com/blog/post/Understanding-Azure-Durable-Functions-Part-3-What-Is-Durability</link>
+      <comments>http://dontcodetired.com/blog/post/Understanding-Azure-Durable-Functions-Part-3-What-Is-Durability#comment</comments>
+      <guid>http://dontcodetired.com/blog/post.aspx?id=1fd7f093-3fd5-4b31-a784-5a894d693362</guid>
+      <pubDate>st, 24 7 2019 19:57:04 +0100</pubDate>
+      <betag:tag>C#</betag:tag>
+      <betag:tag>azure</betag:tag>
+      <betag:tag>azure functions</betag:tag>
+      <betag:tag>durable functions</betag:tag>
+      <betag:tag>serverless</betag:tag>
+      <betag:tag>.net</betag:tag>
+      <betag:tag>durfuncseries</betag:tag>
+      <dc:publisher>Jason</dc:publisher>
+      <pingback:server>http://dontcodetired.com/blog/pingback.axd</pingback:server>
+      <pingback:target>http://dontcodetired.com/blog/post.aspx?id=1fd7f093-3fd5-4b31-a784-5a894d693362</pingback:target>
+      <slash:comments>0</slash:comments>
+      <trackback:ping>http://dontcodetired.com/blog/trackback.axd?id=1fd7f093-3fd5-4b31-a784-5a894d693362</trackback:ping>
+      <wfw:comment>http://dontcodetired.com/blog/post/Understanding-Azure-Durable-Functions-Part-3-What-Is-Durability#comment</wfw:comment>
+      <wfw:commentRss>http://dontcodetired.com/blog/syndication.axd?post=1fd7f093-3fd5-4b31-a784-5a894d693362</wfw:commentRss>
+    </item>
+    <item>
+      <title>Understanding Azure Durable Functions - Part 2: Creating Your First Durable Function</title>
+      <description>&lt;p&gt;This is the second part in a &lt;a href="http://dontcodetired.com/blog/?tag=durfuncseries"&gt;series of articles&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;Before creating durable functions it’s important to understand the logical types of functions involved. There are essentially 3 logical types of functions:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Client function: the entry point function, called by the end client to start the workflow, e.g. an HTTP triggered function  &lt;li&gt;Orchestrator function: defines the workflow and what activity functions to call  &lt;li&gt;Activity function: the function(s) that do the actual work/processing&lt;/li&gt;&lt;/ul&gt; &lt;p&gt;When you create a durable function in Visual Studio, the template creates each of these 3 functions for you as a starting point.&lt;/p&gt; &lt;h2&gt;Setup Development Environment&lt;/h2&gt; &lt;p&gt;The first thing to do is set up your development environment:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Install Visual Studio 2019 (e.g. the &lt;a href="https://visualstudio.microsoft.com/free-developer-offers/"&gt;free community version&lt;/a&gt;) – when installing, remember to install the &lt;strong&gt;Azure development&lt;/strong&gt; workload as this enables functions development  &lt;li&gt;Install and check that the &lt;a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-use-emulator"&gt;Azure storage emulator&lt;/a&gt; is running – this allows you to run/test functions locally without deploying to Azure in the cloud&lt;/li&gt;&lt;/ul&gt; &lt;h2&gt;Create Azure Functions Project&lt;/h2&gt; &lt;p&gt;Next, open Visual Studio 2019 and create a new Azure Functions project as the following screenshot shows:&lt;/p&gt; &lt;p&gt;&lt;img title="Creating a new Azure Functions project in Visual Studio 2019" alt="Creating a new Azure Functions project in Visual Studio 2019" src="http://dontcodetired.com/blog/image.axd?picture=image_166.png"&gt;&lt;/p&gt; &lt;p&gt;Once the project is created, you add individual functions to it.&lt;/p&gt; &lt;p&gt;At this point you should also manage NuGet packages for the project and update any packages to the latest versions.&lt;/p&gt; &lt;h2&gt;Add a Function&lt;/h2&gt; &lt;p&gt;Right click the new project and choose Add –&amp;gt; New Azure Function.&lt;/p&gt; &lt;p&gt;&lt;img title="Adding a new Azure Function in Visual Studio 2019" alt="Adding a new Azure Function in Visual Studio 2019" src="http://dontcodetired.com/blog/image.axd?picture=image_167.png"&gt;&lt;/p&gt; &lt;p&gt;Give the function a name (or leave it as the default “Function1.cs”) and click ok - this will open the function template chooser:&lt;/p&gt; &lt;p&gt;&lt;img title="Azure Functions template chooser" alt="Azure Functions template chooser" src="http://dontcodetired.com/blog/image.axd?picture=image_168.png"&gt;&lt;/p&gt; &lt;p&gt;Select &lt;strong&gt;Durable Functions Orchestration&lt;/strong&gt;, and click &lt;strong&gt;OK&lt;/strong&gt;.&lt;/p&gt; &lt;p&gt;This will create the following starter code:&lt;/p&gt;&lt;pre class="brush: csharp;"&gt;using System.Collections.Generic;
+using System.Net.Http;
+using System.Threading.Tasks;
+using Microsoft.Azure.WebJobs;
+using Microsoft.Azure.WebJobs.Extensions.Http;
+using Microsoft.Azure.WebJobs.Host;
+using Microsoft.Extensions.Logging;
+
+namespace DontCodeTiredDemosV2.Durables
+{
+    public static class Function1
+    {
+        [FunctionName("Function1")]
+        public static async Task&amp;lt;List&amp;lt;string&amp;gt;&amp;gt; RunOrchestrator(
+            [OrchestrationTrigger] DurableOrchestrationContext context)
+        {
+            var outputs = new List&amp;lt;string&amp;gt;();
+
+            // Replace "hello" with the name of your Durable Activity Function.
+            outputs.Add(await context.CallActivityAsync&amp;lt;string&amp;gt;("Function1_Hello", "Tokyo"));
+            outputs.Add(await context.CallActivityAsync&amp;lt;string&amp;gt;("Function1_Hello", "Seattle"));
+            outputs.Add(await context.CallActivityAsync&amp;lt;string&amp;gt;("Function1_Hello", "London"));
+
+            // returns ["Hello Tokyo!", "Hello Seattle!", "Hello London!"]
+            return outputs;
+        }
+
+        [FunctionName("Function1_Hello")]
+        public static string SayHello([ActivityTrigger] string name, ILogger log)
+        {
+            log.LogInformation($"Saying hello to {name}.");
+            return $"Hello {name}!";
+        }
+
+        [FunctionName("Function1_HttpStart")]
+        public static async Task&amp;lt;HttpResponseMessage&amp;gt; HttpStart(
+            [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post")]HttpRequestMessage req,
+            [OrchestrationClient]DurableOrchestrationClient starter,
+            ILogger log)
+        {
+            // Function input comes from the request content.
+            string instanceId = await starter.StartNewAsync("Function1", null);
+
+            log.LogInformation($"Started orchestration with ID = '{instanceId}'.");
+
+            return starter.CreateCheckStatusResponse(req, instanceId);
+        }
+    }
+}
+&lt;/pre&gt;
+&lt;p&gt;Notice in the preceding code the 3 types of function: client, orchestrator, and activity.&lt;/p&gt;
+&lt;p&gt;We can make this a bit clearer by renaming a few things:&lt;/p&gt;&lt;pre class="brush: csharp;"&gt;using System.Collections.Generic;
+using System.Net.Http;
+using System.Threading.Tasks;
+using Microsoft.Azure.WebJobs;
+using Microsoft.Azure.WebJobs.Extensions.Http;
+using Microsoft.Azure.WebJobs.Host;
+using Microsoft.Extensions.Logging;
+
+namespace DurableDemos
+{
+    public static class Function1
+    {
+        [FunctionName("OrchestratorFunction")]
+        public static async Task&amp;lt;List&amp;lt;string&amp;gt;&amp;gt; RunOrchestrator(
+            [OrchestrationTrigger] DurableOrchestrationContext context)
+        {
+            var outputs = new List&amp;lt;string&amp;gt;();
+
+            // Replace "hello" with the name of your Durable Activity Function.
+            outputs.Add(await context.CallActivityAsync&amp;lt;string&amp;gt;("ActivityFunction", "Tokyo"));
+            outputs.Add(await context.CallActivityAsync&amp;lt;string&amp;gt;("ActivityFunction", "Seattle"));
+            outputs.Add(await context.CallActivityAsync&amp;lt;string&amp;gt;("ActivityFunction", "London"));
+
+            // returns ["Hello Tokyo!", "Hello Seattle!", "Hello London!"]
+            return outputs;
+        }
+
+        [FunctionName("ActivityFunction")]
+        public static string SayHello([ActivityTrigger] string name, ILogger log)
+        {
+            log.LogInformation($"Saying hello to {name}.");
+            return $"Hello {name}!";
+        }
+
+        [FunctionName("ClientFunction")]
+        public static async Task&amp;lt;HttpResponseMessage&amp;gt; HttpStart(
+            [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post")]HttpRequestMessage req,
+            [OrchestrationClient]DurableOrchestrationClient starter,
+            ILogger log)
+        {
+            // Function input comes from the request content.
+            string instanceId = await starter.StartNewAsync("OrchestratorFunction", null);
+
+            log.LogInformation($"Started orchestration with ID = '{instanceId}'.");
+
+            return starter.CreateCheckStatusResponse(req, instanceId);
+        }
+    }
+}
+&lt;/pre&gt;
+&lt;p&gt;There are 3 Azure Functions in this single Function1 class.&lt;/p&gt;
+&lt;p&gt;First the “ClientFunction” is what starts the workflow, in this example it’s triggered by a HTTP call from the client, but you could use any trigger here – for example from a message on a queue or a timer. When this function is called, it doesn’t do any processing itself but rather creates an instance of the workflow that is defined in the "OrchestratorFunction". The line &lt;strong&gt;string instanceId = await starter.StartNewAsync("OrchestratorFunction", null);&lt;/strong&gt; is what kicks off the workflow: the first argument is a string naming the orchestration to start, the second parameter (in this example &lt;strong&gt;null&lt;/strong&gt;) is any input that needs to be passed to the orchestrator. The final line &lt;strong&gt;return starter.CreateCheckStatusResponse(req, instanceId);&lt;/strong&gt; returns an &lt;strong&gt;HttpResponseMessage&lt;/strong&gt; to the HTTP caller.&lt;/p&gt;
+&lt;p&gt;The second function "OrchestratorFunction" is what defines the activity functions that will comprise the workflow. In this function the &lt;strong&gt;CallActivityAsync &lt;/strong&gt;method defines what activities get executed as part of the orchestration, in this example the same activity "ActivityFunction" is called 3 times. The &lt;strong&gt;CallActivityAsync &lt;/strong&gt;method takes 2 parameters: the first is a string naming the activity function to execute, and the second is any data to be passed to the activity function; in this case hardcoded strings "Tokyo", "Seattle", and "London". Once these activities have completed execution, the result will be returned – a list: ["Hello Tokyo!", "Hello Seattle!", "Hello London!"].&lt;/p&gt;
+&lt;p&gt;The third function "ActivityFunction" is where the actual work/processing takes place.&lt;/p&gt;
+&lt;h2&gt;Testing Durable Functions Locally&lt;/h2&gt;
+&lt;p&gt;The project can be be run locally by hitting F5 in Visual Studio, this will start the local functions runtime:&lt;/p&gt;&lt;pre class="brush: plain;"&gt;
+                  %%%%%%
+                 %%%%%%
+            @   %%%%%%    @
+          @@   %%%%%%      @@
+       @@@    %%%%%%%%%%%    @@@
+     @@      %%%%%%%%%%        @@
+       @@         %%%%       @@
+         @@      %%%       @@
+           @@    %%      @@
+                %%
+                %
+
+Azure Functions Core Tools (2.7.1373 Commit hash: cd9bfca26f9c7fe06ce245f5bf69bc6486a685dd)
+Function Runtime Version: 2.0.12507.0
+[9/07/2019 3:29:16 AM] Starting Rpc Initialization Service.
+[9/07/2019 3:29:16 AM] Initializing RpcServer
+[9/07/2019 3:29:16 AM] Building host: startup suppressed:False, configuration suppressed: False
+[9/07/2019 3:29:17 AM] Initializing extension with the following settings: Initializing extension with the following settings:
+[9/07/2019 3:29:17 AM] AzureStorageConnectionStringName: , MaxConcurrentActivityFunctions: 80, MaxConcurrentOrchestratorFunctions: 80, PartitionCount: 4, ControlQueueBatchSize: 32, ControlQueueVisibilityTimeout: 00:05:00, WorkItemQueueVisibilityTimeout: 00:05:00, ExtendedSessionsEnabled: False, EventGridTopicEndpoint: , NotificationUrl: http://localhost:7071/runtime/webhooks/durabletask, TrackingStoreConnectionStringName: , MaxQueuePollingInterval: 00:00:30, LogReplayEvents: False. InstanceId: . Function: . HubName: DurableFunctionsHub. AppName: . SlotName: . ExtensionVersion: 1.8.2. SequenceNumber: 0.
+[9/07/2019 3:29:17 AM] Initializing Host.
+[9/07/2019 3:29:17 AM] Host initialization: ConsecutiveErrors=0, StartupCount=1
+[9/07/2019 3:29:17 AM] LoggerFilterOptions
+[9/07/2019 3:29:17 AM] {
+[9/07/2019 3:29:17 AM]   "MinLevel": "None",
+[9/07/2019 3:29:17 AM]   "Rules": [
+[9/07/2019 3:29:17 AM]     {
+[9/07/2019 3:29:17 AM]       "ProviderName": null,
+[9/07/2019 3:29:17 AM]       "CategoryName": null,
+[9/07/2019 3:29:17 AM]       "LogLevel": null,
+[9/07/2019 3:29:17 AM]       "Filter": "&amp;lt;AddFilter&amp;gt;b__0"
+[9/07/2019 3:29:17 AM]     },
+[9/07/2019 3:29:17 AM]     {
+[9/07/2019 3:29:17 AM]       "ProviderName": "Microsoft.Azure.WebJobs.Script.WebHost.Diagnostics.SystemLoggerProvider",
+[9/07/2019 3:29:17 AM]       "CategoryName": null,
+[9/07/2019 3:29:17 AM]       "LogLevel": "None",
+[9/07/2019 3:29:17 AM]       "Filter": null
+[9/07/2019 3:29:17 AM]     },
+[9/07/2019 3:29:17 AM]     {
+[9/07/2019 3:29:17 AM]       "ProviderName": "Microsoft.Azure.WebJobs.Script.WebHost.Diagnostics.SystemLoggerProvider",
+[9/07/2019 3:29:17 AM]       "CategoryName": null,
+[9/07/2019 3:29:17 AM]       "LogLevel": null,
+[9/07/2019 3:29:17 AM]       "Filter": "&amp;lt;AddFilter&amp;gt;b__0"
+[9/07/2019 3:29:17 AM]     }
+[9/07/2019 3:29:17 AM]   ]
+[9/07/2019 3:29:17 AM] }
+[9/07/2019 3:29:17 AM] FunctionResultAggregatorOptions
+[9/07/2019 3:29:17 AM] {
+[9/07/2019 3:29:17 AM]   "BatchSize": 1000,
+[9/07/2019 3:29:17 AM]   "FlushTimeout": "00:00:30",
+[9/07/2019 3:29:17 AM]   "IsEnabled": true
+[9/07/2019 3:29:17 AM] }
+[9/07/2019 3:29:17 AM] SingletonOptions
+[9/07/2019 3:29:17 AM] {
+[9/07/2019 3:29:17 AM]   "LockPeriod": "00:00:15",
+[9/07/2019 3:29:17 AM]   "ListenerLockPeriod": "00:00:15",
+[9/07/2019 3:29:17 AM]   "LockAcquisitionTimeout": "10675199.02:48:05.4775807",
+[9/07/2019 3:29:17 AM]   "LockAcquisitionPollingInterval": "00:00:05",
+[9/07/2019 3:29:17 AM]   "ListenerLockRecoveryPollingInterval": "00:01:00"
+[9/07/2019 3:29:17 AM] }
+[9/07/2019 3:29:17 AM] Starting JobHost
+[9/07/2019 3:29:17 AM] Starting Host (HostId=desktopkghqug8-1671102379, InstanceId=015cba37-1f46-41a1-b3c1-19f341c4d3d9, Version=2.0.12507.0, ProcessId=18728, AppDomainId=1, InDebugMode=False, InDiagnosticMode=False, FunctionsExtensionVersion=)
+[9/07/2019 3:29:17 AM] Loading functions metadata
+[9/07/2019 3:29:17 AM] 3 functions loaded
+[9/07/2019 3:29:17 AM] Generating 3 job function(s)
+[9/07/2019 3:29:17 AM] Found the following functions:
+[9/07/2019 3:29:17 AM] DurableDemos.Function1.SayHello
+[9/07/2019 3:29:17 AM] DurableDemos.Function1.HttpStart
+[9/07/2019 3:29:17 AM] DurableDemos.Function1.RunOrchestrator
+[9/07/2019 3:29:17 AM]
+[9/07/2019 3:29:17 AM] Host initialized (221ms)
+[9/07/2019 3:29:18 AM] Starting task hub worker. InstanceId: . Function: . HubName: DurableFunctionsHub. AppName: . SlotName: . ExtensionVersion: 1.8.2. SequenceNumber: 1.
+[9/07/2019 3:29:18 AM] Host started (655ms)
+[9/07/2019 3:29:18 AM] Job host started
+Hosting environment: Production
+Content root path: C:\Users\Admin\OneDrive\Documents\dct\19\DontCodeTiredDemosV2\DontCodeTiredDemosV2\DurableDemos\bin\Debug\netcoreapp2.1
+Now listening on: http://0.0.0.0:7071
+Application started. Press Ctrl+C to shut down.
+
+Http Functions:
+
+        ClientFunction: [GET,POST] http://localhost:7071/api/ClientFunction
+
+[9/07/2019 3:29:23 AM] Host lock lease acquired by instance ID '000000000000000000000000E72C9561'.
+&lt;/pre&gt;
+&lt;p&gt;Now to start an instance of the workflow, the following PowerShell can be used:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;$R = Invoke-WebRequest 'http://localhost:7071/api/ClientFunction' -Method 'POST'&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This will result in the following rather verbose output:&lt;/p&gt;&lt;pre class="brush: plain;"&gt;[9/07/2019 3:30:55 AM] Executing HTTP request: {
+[9/07/2019 3:30:55 AM]   "requestId": "36d9f77f-1ceb-43ec-aa1d-5702b42a8e15",
+[9/07/2019 3:30:55 AM]   "method": "POST",
+[9/07/2019 3:30:55 AM]   "uri": "/api/ClientFunction"
+[9/07/2019 3:30:55 AM] }
+[9/07/2019 3:30:55 AM] Executing 'ClientFunction' (Reason='This function was programmatically called via the host APIs.', Id=a014a4ae-77ff-46c7-b812-344bd442da38)
+[9/07/2019 3:30:55 AM] f5a38610c07a4c90815f2936451628b8: Function 'OrchestratorFunction (Orchestrator)' scheduled. Reason: NewInstance. IsReplay: False. State: Scheduled. HubName: DurableFunctionsHub. AppName: . SlotName: . ExtensionVersion: 1.8.2. SequenceNumber: 2.
+[9/07/2019 3:30:56 AM] Started orchestration with ID = 'f5a38610c07a4c90815f2936451628b8'.
+[9/07/2019 3:30:56 AM] Executed 'ClientFunction' (Succeeded, Id=a014a4ae-77ff-46c7-b812-344bd442da38)
+[9/07/2019 3:30:56 AM] Executing 'OrchestratorFunction' (Reason='', Id=d6263f09-2372-4bfb-9473-70f03874cfee)
+[9/07/2019 3:30:56 AM] f5a38610c07a4c90815f2936451628b8: Function 'OrchestratorFunction (Orchestrator)' started. IsReplay: False. Input: (16 bytes). State: Started. HubName: DurableFunctionsHub. AppName: . SlotName: . ExtensionVersion: 1.8.2. SequenceNumber: 3.
+[9/07/2019 3:30:56 AM] f5a38610c07a4c90815f2936451628b8: Function 'ActivityFunction (Activity)' scheduled. Reason: OrchestratorFunction. IsReplay: False. State: Scheduled. HubName: DurableFunctionsHub. AppName: . SlotName: . ExtensionVersion: 1.8.2. SequenceNumber: 4.
+[9/07/2019 3:30:56 AM] Executed 'OrchestratorFunction' (Succeeded, Id=d6263f09-2372-4bfb-9473-70f03874cfee)
+[9/07/2019 3:30:56 AM] f5a38610c07a4c90815f2936451628b8: Function 'OrchestratorFunction (Orchestrator)' awaited. IsReplay: False. State: Awaited. HubName: DurableFunctionsHub. AppName: . SlotName: . ExtensionVersion: 1.8.2. SequenceNumber: 5.
+[9/07/2019 3:30:56 AM] Executed HTTP request: {
+[9/07/2019 3:30:56 AM]   "requestId": "36d9f77f-1ceb-43ec-aa1d-5702b42a8e15",
+[9/07/2019 3:30:56 AM]   "method": "POST",
+[9/07/2019 3:30:56 AM]   "uri": "/api/ClientFunction",
+[9/07/2019 3:30:56 AM]   "identities": [
+[9/07/2019 3:30:56 AM]     {
+[9/07/2019 3:30:56 AM]       "type": "WebJobsAuthLevel",
+[9/07/2019 3:30:56 AM]       "level": "Admin"
+[9/07/2019 3:30:56 AM]     }
+[9/07/2019 3:30:56 AM]   ],
+[9/07/2019 3:30:56 AM]   "status": 202,
+[9/07/2019 3:30:56 AM]   "duration": 699
+[9/07/2019 3:30:56 AM] }
+[9/07/2019 3:30:56 AM] f5a38610c07a4c90815f2936451628b8: Function 'ActivityFunction (Activity)' started. IsReplay: False. Input: (36 bytes). State: Started. HubName: DurableFunctionsHub. AppName: . SlotName: . ExtensionVersion: 1.8.2. SequenceNumber: 6.
+[9/07/2019 3:30:56 AM] Executing 'ActivityFunction' (Reason='', Id=d35e9667-f77b-4328-aff9-4ecbc3b66e89)
+[9/07/2019 3:30:56 AM] Saying hello to Tokyo.
+[9/07/2019 3:30:56 AM] Executed 'ActivityFunction' (Succeeded, Id=d35e9667-f77b-4328-aff9-4ecbc3b66e89)
+[9/07/2019 3:30:56 AM] f5a38610c07a4c90815f2936451628b8: Function 'ActivityFunction (Activity)' completed. ContinuedAsNew: False. IsReplay: False. Output: (56 bytes). State: Completed. HubName: DurableFunctionsHub. AppName: . SlotName: . ExtensionVersion: 1.8.2. SequenceNumber: 7.
+[9/07/2019 3:30:56 AM] Executing 'OrchestratorFunction' (Reason='', Id=5cc451d2-dd5b-4cb5-b10a-02e7bca71a08)
+[9/07/2019 3:30:56 AM] f5a38610c07a4c90815f2936451628b8: Function 'ActivityFunction (Activity)' scheduled. Reason: OrchestratorFunction. IsReplay: False. State: Scheduled. HubName: DurableFunctionsHub. AppName: . SlotName: . ExtensionVersion: 1.8.2. SequenceNumber: 8.
+[9/07/2019 3:30:56 AM] Executed 'OrchestratorFunction' (Succeeded, Id=5cc451d2-dd5b-4cb5-b10a-02e7bca71a08)
+[9/07/2019 3:30:56 AM] f5a38610c07a4c90815f2936451628b8: Function 'OrchestratorFunction (Orchestrator)' awaited. IsReplay: False. State: Awaited. HubName: DurableFunctionsHub. AppName: . SlotName: . ExtensionVersion: 1.8.2. SequenceNumber: 9.
+[9/07/2019 3:30:56 AM] f5a38610c07a4c90815f2936451628b8: Function 'ActivityFunction (Activity)' started. IsReplay: False. Input: (44 bytes). State: Started. HubName: DurableFunctionsHub. AppName: . SlotName: . ExtensionVersion: 1.8.2. SequenceNumber: 10.
+[9/07/2019 3:30:56 AM] Executing 'ActivityFunction' (Reason='', Id=719c797b-9ee1-4167-972c-c0b0c4dd886c)
+[9/07/2019 3:30:56 AM] Saying hello to Seattle.
+[9/07/2019 3:30:56 AM] Executed 'ActivityFunction' (Succeeded, Id=719c797b-9ee1-4167-972c-c0b0c4dd886c)
+[9/07/2019 3:30:56 AM] f5a38610c07a4c90815f2936451628b8: Function 'ActivityFunction (Activity)' completed. ContinuedAsNew: False. IsReplay: False. Output: (64 bytes). State: Completed. HubName: DurableFunctionsHub. AppName: . SlotName: . ExtensionVersion: 1.8.2. SequenceNumber: 11.
+[9/07/2019 3:30:56 AM] Executing 'OrchestratorFunction' (Reason='', Id=0b115432-1d9d-43af-b5da-3e3607b808ac)
+[9/07/2019 3:30:56 AM] f5a38610c07a4c90815f2936451628b8: Function 'ActivityFunction (Activity)' scheduled. Reason: OrchestratorFunction. IsReplay: False. State: Scheduled. HubName: DurableFunctionsHub. AppName: . SlotName: . ExtensionVersion: 1.8.2. SequenceNumber: 12.
+[9/07/2019 3:30:56 AM] Executed 'OrchestratorFunction' (Succeeded, Id=0b115432-1d9d-43af-b5da-3e3607b808ac)
+[9/07/2019 3:30:56 AM] f5a38610c07a4c90815f2936451628b8: Function 'OrchestratorFunction (Orchestrator)' awaited. IsReplay: False. State: Awaited. HubName: DurableFunctionsHub. AppName: . SlotName: . ExtensionVersion: 1.8.2. SequenceNumber: 13.
+[9/07/2019 3:30:56 AM] f5a38610c07a4c90815f2936451628b8: Function 'ActivityFunction (Activity)' started. IsReplay: False. Input: (40 bytes). State: Started. HubName: DurableFunctionsHub. AppName: . SlotName: . ExtensionVersion: 1.8.2. SequenceNumber: 14.
+[9/07/2019 3:30:56 AM] Executing 'ActivityFunction' (Reason='', Id=2cbd8e65-3e1d-4fbb-8d92-afe4b7e6a012)
+[9/07/2019 3:30:56 AM] Saying hello to London.
+[9/07/2019 3:30:56 AM] Executed 'ActivityFunction' (Succeeded, Id=2cbd8e65-3e1d-4fbb-8d92-afe4b7e6a012)
+[9/07/2019 3:30:56 AM] f5a38610c07a4c90815f2936451628b8: Function 'ActivityFunction (Activity)' completed. ContinuedAsNew: False. IsReplay: False. Output: (60 bytes). State: Completed. HubName: DurableFunctionsHub. AppName: . SlotName: . ExtensionVersion: 1.8.2. SequenceNumber: 15.
+[9/07/2019 3:30:56 AM] Executing 'OrchestratorFunction' (Reason='', Id=10215167-9de6-4197-bc65-1d819b8471cb)
+[9/07/2019 3:30:56 AM] f5a38610c07a4c90815f2936451628b8: Function 'OrchestratorFunction (Orchestrator)' completed. ContinuedAsNew: False. IsReplay: False. Output: (196 bytes). State: Completed. HubName: DurableFunctionsHub. AppName: . SlotName: . ExtensionVersion: 1.8.2. SequenceNumber: 16.
+[9/07/2019 3:30:56 AM] Executed 'OrchestratorFunction' (Succeeded, Id=10215167-9de6-4197-bc65-1d819b8471cb)
+&lt;/pre&gt;
+&lt;p&gt;A few key things to notice:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Executing 'ClientFunction' &lt;/strong&gt;– this is PowerShell calling the HTTP trigger function.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Started orchestration with ID = 'f5a38610c07a4c90815f2936451628b8' &lt;/strong&gt;– the HTTP client function has started an instance of the orchestration.&lt;/p&gt;
+&lt;p&gt;And 3:&lt;strong&gt;Executing 'ActivityFunction'… &lt;/strong&gt; - the 3 activity calls defined in the orchestrator function.&lt;/p&gt;
+&lt;p&gt;If we modify the "ActivityFunction" to introduce a simulated processing time:&lt;/p&gt;&lt;pre class="brush: csharp;"&gt;[FunctionName("ActivityFunction")]
+public static string SayHello([ActivityTrigger] string name, ILogger log)
+{
+    Thread.Sleep(5000); // simulate longer processing delay
+
+    log.LogInformation($"Saying hello to {name}.");
+    return $"Hello {name}!";
+}
+&lt;/pre&gt;
+&lt;p&gt;And now run the project again, and once again make the request from PowerShell, the client function returns a result to PowerShell “immediately”:&lt;/p&gt;&lt;pre class="brush: plain;"&gt;StatusCode        : 202
+StatusDescription : Accepted
+Content           : {"id":"5ed815a8fe3d497993266d49213a7c09","statusQueryGetUri":"http://localhost:7071/runtime/webhook
+                    s/durabletask/instances/5ed815a8fe3d497993266d49213a7c09?taskHub=DurableFunctionsHub&amp;amp;connection=Sto
+                    ra...
+RawContent        : HTTP/1.1 202 Accepted
+                    Retry-After: 10
+                    Content-Length: 1232
+                    Content-Type: application/json; charset=utf-8
+                    Date: Tue, 09 Jul 2019 03:38:46 GMT
+                    Location: http://localhost:7071/runtime/webhooks/durab...
+Forms             : {}
+Headers           : {[Retry-After, 10], [Content-Length, 1232], [Content-Type, application/json; charset=utf-8],
+                    [Date, Tue, 09 Jul 2019 03:38:46 GMT]...}
+Images            : {}
+InputFields       : {}
+Links             : {}
+ParsedHtml        : mshtml.HTMLDocumentClass
+RawContentLength  : 1232
+&lt;/pre&gt;
+&lt;p&gt;So even though the HTTP request is completed (with a 202 Accepted HTTP code), the orchestration is still running.&lt;/p&gt;
+&lt;p&gt;Later in this &lt;a href="http://dontcodetired.com/blog/?tag=durfuncseries"&gt;series of articles&lt;/a&gt; we’ll learn more and dig into more detail about what is going on behind the scenes.&lt;/p&gt;</description>
+      <link>http://dontcodetired.com/blog/post/Understanding-Azure-Durable-Functions-Part-2-Creating-Your-First-Durable-Function</link>
+      <comments>http://dontcodetired.com/blog/post/Understanding-Azure-Durable-Functions-Part-2-Creating-Your-First-Durable-Function#comment</comments>
+      <guid>http://dontcodetired.com/blog/post.aspx?id=589d264a-a1bb-4628-a6bf-7b15a0912974</guid>
+      <pubDate>út, 9 7 2019 19:48:20 +0100</pubDate>
+      <betag:tag>C#</betag:tag>
+      <betag:tag>azure</betag:tag>
+      <betag:tag>azure functions</betag:tag>
+      <betag:tag>durable functions</betag:tag>
+      <betag:tag>serverless</betag:tag>
+      <betag:tag>.net</betag:tag>
+      <betag:tag>durfuncseries</betag:tag>
+      <dc:publisher>Jason</dc:publisher>
+      <pingback:server>http://dontcodetired.com/blog/pingback.axd</pingback:server>
+      <pingback:target>http://dontcodetired.com/blog/post.aspx?id=589d264a-a1bb-4628-a6bf-7b15a0912974</pingback:target>
+      <slash:comments>2</slash:comments>
+      <trackback:ping>http://dontcodetired.com/blog/trackback.axd?id=589d264a-a1bb-4628-a6bf-7b15a0912974</trackback:ping>
+      <wfw:comment>http://dontcodetired.com/blog/post/Understanding-Azure-Durable-Functions-Part-2-Creating-Your-First-Durable-Function#comment</wfw:comment>
+      <wfw:commentRss>http://dontcodetired.com/blog/syndication.axd?post=589d264a-a1bb-4628-a6bf-7b15a0912974</wfw:commentRss>
+    </item>
+    <item>
+      <title>Understanding Azure Durable Functions - Part 1: Overview</title>
+      <description>&lt;p&gt;This is the first part in a &lt;a href="http://dontcodetired.com/blog/?tag=durfuncseries"&gt;series of articles&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;Durable Functions are built on top of top of the basic &lt;a href="http://dontcodetired.com/blog/?tag=azure+functions"&gt;Azure Functions&lt;/a&gt; platform and provide the ability to define how multiple individual functions can be set up to work together.&lt;/p&gt; &lt;p&gt;You can accomplish a lot with just the basic Azure Functions so the durable extensions are not necessarily required to implement your solutions, however if you find yourself needing to make multiple functions work together in some kind of workflow then durable functions may be able to simply things and as a bonus allow you to document in code how the functions interact.&lt;/p&gt; &lt;h2&gt;Using Multiple Functions &lt;/h2&gt; &lt;p&gt;Just as you would keep classes and methods functionally cohesive (i.e. do one/small number related things) so should your Azure Functions be “specialized”. There are a number of good reasons for breaking down a problem into multiple individual functions such as:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Auto-scaling of functions rather than auto-scaling one massive “god” function  &lt;li&gt;Maintainability: individual functions doing one thing are easier to understand/bug fix/test  &lt;li&gt;Reusability/composeability: smaller units (functions) of logic could be reused in multiple workflows  &lt;li&gt;Time-outs: if an individual function execution exceeds a timeout it will be stopped before finishing&lt;/li&gt;&lt;/ul&gt; &lt;p&gt;Even if you are not going to use durable functions the above points still make sense.&lt;/p&gt; &lt;h2&gt;Common Patterns That Durable Functions Can Help With&lt;/h2&gt; &lt;p&gt;There are a number of common logical/architectural/workflow patterns that durable functions can help to orchestrate such as:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Chained Functions: the output of one function triggers the next function in the chain (aka functions pipeline)  &lt;li&gt;Fan out, fan in: Split data into “chunks” (fanning out), process chunks in parallel,&amp;nbsp; aggregate results (fan-in)  &lt;li&gt;Asynchronous HTTP APIs: Co-ordinate HTTP request with other services, client polls endpoint to check if work complete  &lt;li&gt;Monitors: recurring process to perform clean-up, monitor (call) APIs to wait for completion, etc.  &lt;li&gt;Human interaction: wait for human to make a decision at some part during the workflow&lt;/li&gt;&lt;/ul&gt; &lt;p&gt;Implementing the preceding patterns without the use of durable functions may prove difficult, complex, or error prone due to the need to manually manage checkpoints (where are we in the process?) in addition to&amp;nbsp; other implementation details.&lt;/p&gt; &lt;h2&gt;What Do Durable Functions Provide?&lt;/h2&gt; &lt;p&gt;When using durable functions, there are a number of implementation details that are taken care of for you such as:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Maintains execution position of the workflow  &lt;li&gt;When to execute next function  &lt;li&gt;Replaying actions  &lt;li&gt;Workflow monitoring/diagnostics  &lt;li&gt;Workflow state storage  &lt;li&gt;Scalability&lt;/li&gt;&lt;/ul&gt; &lt;p&gt;Durable functions&amp;nbsp; also provide the ability to specify the workflow (“orchestration”) in code rather than using a visual flowchart style tool for example.&lt;/p&gt; &lt;p&gt;In the next part of this series we’ll see how to create a basic durable orchestration in C#.&lt;/p&gt;</description>
+      <link>http://dontcodetired.com/blog/post/Understanding-Azure-Durable-Functions-Part-1-Overview</link>
+      <comments>http://dontcodetired.com/blog/post/Understanding-Azure-Durable-Functions-Part-1-Overview#comment</comments>
+      <guid>http://dontcodetired.com/blog/post.aspx?id=596bb30c-cb0c-474b-abee-0935c8016ec7</guid>
+      <pubDate>čt, 4 7 2019 21:33:18 +0100</pubDate>
+      <betag:tag>C#</betag:tag>
+      <betag:tag>azure</betag:tag>
+      <betag:tag>azure functions</betag:tag>
+      <betag:tag>serverless</betag:tag>
+      <betag:tag>.net</betag:tag>
+      <betag:tag>durfuncseries</betag:tag>
+      <dc:publisher>Jason</dc:publisher>
+      <pingback:server>http://dontcodetired.com/blog/pingback.axd</pingback:server>
+      <pingback:target>http://dontcodetired.com/blog/post.aspx?id=596bb30c-cb0c-474b-abee-0935c8016ec7</pingback:target>
+      <slash:comments>3</slash:comments>
+      <trackback:ping>http://dontcodetired.com/blog/trackback.axd?id=596bb30c-cb0c-474b-abee-0935c8016ec7</trackback:ping>
+      <wfw:comment>http://dontcodetired.com/blog/post/Understanding-Azure-Durable-Functions-Part-1-Overview#comment</wfw:comment>
+      <wfw:commentRss>http://dontcodetired.com/blog/syndication.axd?post=596bb30c-cb0c-474b-abee-0935c8016ec7</wfw:commentRss>
+    </item>
+  </channel>
+</rss>

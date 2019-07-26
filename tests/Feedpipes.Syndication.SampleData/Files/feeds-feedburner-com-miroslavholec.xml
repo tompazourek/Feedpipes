@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+<channel>
+<title>Miroslav Holec { Blog }</title>
+<link>https://www.miroslavholec.cz/blog</link>
+<image>
+<url>https://www.miroslavholec.cz/img/logo-miroslavh-holec.png</url>
+<title>Miroslav Holec { Blog }</title>
+<link>https://www.miroslavholec.cz/blog</link>
+</image>
+<description>Blog o webových technologiích, ASP.NET Core, EF Core a Azure Cloudu.</description>
+<language>cs-CZ</language>
+<pubDate>Fri, 26 Jul 2019 15:53:05 GMT</pubDate>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/miroslavholec" /><feedburner:info uri="miroslavholec" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><item>
+<title>ASP.NET Core, kompatibilita verzí a vliv na vývoj Web API</title>
+<link>http://feedproxy.google.com/~r/miroslavholec/~3/fmFJ_feNBmk/ASP-NET-Core-kompatibilita-verzi-a-vliv-na-vyvoj-Web-API</link>
+<description>&lt;p&gt;dotnetportal&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/miroslavholec/~4/fmFJ_feNBmk" height="1" width="1" alt=""/&gt;</description>
+<pubDate>Sun, 05 May 2019 07:13:47 GMT</pubDate>
+<guid isPermaLink="false">https://www.miroslavholec.cz/blog/ASP-NET-Core-kompatibilita-verzi-a-vliv-na-vyvoj-Web-API</guid>
+<feedburner:origLink>https://www.miroslavholec.cz/blog/ASP-NET-Core-kompatibilita-verzi-a-vliv-na-vyvoj-Web-API</feedburner:origLink></item>
+<item>
+<title>Vývoj ASP.NET Core aplikací na MacBooku - Update 2019</title>
+<link>http://feedproxy.google.com/~r/miroslavholec/~3/w7R-yu-nDKU/vyvoj-asp-net-core-macos-macbook-update-2019</link>
+<description>&lt;p&gt;&lt;style&gt;
+strike, blockquote {color:blue !important;}
+&lt;/style&gt;&lt;/p&gt;
+
+&lt;h2&gt;Proč uvažovat nad změnou?&lt;/h2&gt;
+
+&lt;p&gt;To je věc osobních preferencí. Mně osobně Windows nesedí, nelíbí se mi a práce s tímto systémem je pro mě spíše &lt;strong&gt;nepříjemná povinnost než zábava&lt;/strong&gt;. Windows se za posledních několik let posouvá zvláštním směrem, snaží se být univerzálním systémem ačkoliv to dle mého názoru není žádoucí. Systém jako takový není pěkný (vlastně je čím dál hnusnější), ovládání není intuitivní a i když je to systém mocný a nabízí plno užitečných funkcí, většina z nich se ztrácí v záplavě zbytečných nabídek. Užitečné funkce uživatel neovládne, dokud se o ně nezačne aktivně zajímat a aktivně se je učit. Propojit Windows s dalšími zařízeními lze prakticky jen volbou správných cloudových služeb (například desktop + telefon). Dobré to není ani s hardwarem, protože Windows jakožto UNI systém je dodáván na plno zařízení (hlavně tabletů), kde je prakticky nepoužitelný. Dokonce ani v případě Surface Book 2 není situace z mé cca 2 měsíční zkušenosti používání o moc lepší.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Situace kolem notebooků s operačním systémem Windows je nyní stále zoufalejší. Do všech notebooků se dávají Intel procesory s funkcí Turbo Boost. Většina notebooků tak výkon dohání dočasným přetaktováním v rámci Turbo Boostu a ten rozpaluje procesory dožhava. Většina menších notebooků má tedy reálný problém s chlazením a tudíž s hlukem. Jeden z důvodů, proč jsem utekl před rokem od MBP byl právě hluk, nicméně to se dnes stává standardem asi jako jednodenní výdrž baterky v mobilu.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2&gt;Je macOS lepší desktopový systém?&lt;/h2&gt;
+
+&lt;p&gt;Myslím, že nejen v subjektivní rovině je macOS lepším systémem. Apple vyvíjí od počátku věků &lt;strong&gt;čistě desktopový systém a neustále jej inovuje&lt;/strong&gt;. Má zcela odlišnou strategii než Microsoft, který cca každé 2 roky přijde s velkou senzací a něco z gruntu předělá. Revoluce se koná vždy spíše v Microsoftu než u konečných uživatelů. Ti jsou totiž citliví na změny a potřebují, aby se do nich novinky vpravovaly s chirurgickou opatrností a železnou pravidelností. Je to dle mého názoru klíč k tomu, aby uživatel pomalu vstřebával nové funkce a přirozeně se je učil. Strategie Applu a &lt;strong&gt;stabilita platformy&lt;/strong&gt; dává příležitost ke vzniku dobrého účelového softwaru odladěného pro úzkou skupinu zařízení, který se neustále inovuje. Aplikace na macOS jsou stabilnější, lépe spolupracují a při práci s nimi má uživatel dobrý pocit. To je něco, co jsem z Windows vůbec neznal.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Toto se nezměnilo a rozdíl mezi operačními systémy je skutečně propastný. S příchodem Mojave ještě hlubší. Microsoft strávil dlouhé roky neustálým předěláváním Windows UI až to dohnal do extrému v současné podobě "moderního" UI, založeného na dlaždících a nepřirozených ostrých hranách. &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;K macOS neodmyslitelně patří i &lt;strong&gt;fungující kus hliníku&lt;/strong&gt;. Pokud má někdo estetické cítění, MacBook (jakýkoliv) je zařízení, které člověk používá rád, ke kterému rád usedá a u kterého si může být jistý, že když otevře víko, může za 2 sekundy pracovat. Stejně pohodlně lze kdykoliv víko zavřít a uložit MacBook do tašky. Ne, nemusíte se bát jako u Windows, že vám bude topit na zádech, protože se začal instalovat update nebo "aplikace xxx neodpovídá" a počítač se nevypl. &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Svět je stále v pořádku.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Přesto co se týče MacBooku, určité výhrady mám. Jestliže je MacBook pro esteticky laděné jedince, &lt;strong&gt;jak mohl Apple dopustit přítomnost pouze dvou Thunderbold portů&lt;/strong&gt;? Je přeci jasné, že každý k němu bude mít připojený hnusně zející adaptér. Konektorová výbava je naprostý &lt;strong&gt;výsměch modernímu světu&lt;/strong&gt;. Další výtku bych měl k chlazení MacBooku. Za normálních okolností je totiž MacBook zcela tichý a nemáte šanci ani poznat, že je zapnutý. Jakmile ale začnete MacBook zatěžovat (v mém případě asi 5 z 8 hodin), stane se z něj &lt;strong&gt;nejhlučnější stroj na této planetě&lt;/strong&gt;, který dost možná odfoukne i vašeho kolegu sedícího na druhé straně místnosti. Nepříjemné jsou co se designu týče i hrany notebooku, o které si člověk div nepořeže ruce.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Tentokrát jsem šel do 15" MBP, takže thunderbolt porty mám 4. Toto je těžké hodnotit, protože moderní doba si žádá moderní prostředky a většina ultrabooků už se vydává stejným směrem. Potíž je, že většina lidí a firem bude vyměňovat svá zařízení dlouhé roky. Co se týče chlazení u 15" MBP s i7 šestijádrem, tak nemám co vytknout. Drtivou většinu času neslyším absolutně vůbec nic, výjimečně si Mac odfoukne, když toho opravdu spustím hodně a dost MCB zaměstnám. Za tohle megapalec nahoru, protože většina dnešních notebooků hučí už když loadují do Windows. Ostré hrany notebooku stále vadí, ale kvůli přenášení jsem zabalil mac do plastového pouzdra, které nad tyto hrany vystupuje, takže je po problému.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1&gt;Vývoj webových aplikací v macOS&lt;/h1&gt;
+
+&lt;p&gt;Protože jsem zaháčkovaný na .NET platformě, je pro mě důležité &lt;strong&gt;být schopen vyvíjet webové aplikace postavené na .NET Frameworku&lt;/strong&gt;. Ke štěstí potřebuji jednak dobré vývojářské prostředí a druhak samotný .NET Framework. Vzhledem k tomu, že .NET Core je multiplatformní, předpokládal jsem, že přesedlání na macOS by mohlo být jednoduché. Ale pojďme popořadě.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Toto už neplatí. Tradiční .NET Framework už nemá budoucnost a posledních pár měsíců na něj narážím jen "konzultativně". Aktivně se mu vyhýbám a s příchodem ASP.NET Core 3.0 už se budou tak či onak všechny ASP.NET Core aplikace provozovat pouze nad .NET Core. Pro moderního vývojáře je .NET Framework mrtvý. &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2&gt;Vývojářská IDE&lt;/h2&gt;
+
+&lt;p&gt;Pro vývoj .NET aplikací na Mac existují v současné době 3 významnější hráči a pak sada alternativ, které nebudu zmiňovat. &lt;strong&gt;Tradiční Visual Studio pro Windows není pro macOS k dispozici&lt;/strong&gt;, tudíž je otázka volby IDE docela důležitá a nejde odbýt tím, že bych automaticky použil ten nejsofistikovanější nástroj na planetě.&lt;/p&gt;
+
+&lt;h3&gt;JetBrains Rider&lt;/h3&gt;
+
+&lt;p&gt;Zřejmě nejlepším IDE je prostředí &lt;a href="https://www.jetbrains.com/rider"&gt;Rider&lt;/a&gt; od JetBrains, které poslední měsíce používám experimentálně i na Windows. Ačkoliv je nástroj placený, poskytuje přibližně stejný arzenál funkcí jako Visual Studio s Resharperem. &lt;strong&gt;Resharper je totiž integrován do IDE&lt;/strong&gt; a velmi výrazně zpříjemňuje vývoj aplikací. Rider má výtečnou podporu verzovacích nástrojů, front-endu, je rychlý a podporuje většinu typů aplikací napsaných v .NETu. Na rozdíl od dospělého Visual Studia na Windows mu sice chybí tooling kolem Azure, na druhou stranu zde nechybí podpora VSTS, TFS, GITu, Mercurial, SVN, integrace s Dockerem a další užitečnosti. I když vývoj aplikací v Rideru mi nečiní větší potíže, &lt;strong&gt;občas narazím na nějaký drobný problém&lt;/strong&gt;, který by mě za normálních okolností ve VS neobtěžoval.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Na JetBrains Rider jsem přešel už během vývoje na Windows. Všechny zmíněné drobné problémy jsem již dokázal snadno vyřešit a teď jednoznačně převládají výhody oproti Visual Studiu. Mezi ně patří srozumitelnější UI, mnohem více funkcí, plynulost a naprosto senzační integrace GITu. &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://cdn.miroslavholec.cz/articles/2018/offtopic-vyvoj-net-app-demo-rider.png" alt="Rider IDE" title="" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Visual Studio for Mac&lt;/h3&gt;
+
+&lt;p&gt;V první řadě se &lt;strong&gt;nejedná o klasické Visual Studio&lt;/strong&gt; jak jej známe z Windows. &lt;a href="https://www.visualstudio.com/cs/vs/mac/"&gt;VS for Mac&lt;/a&gt; je zcela odlišný produkt (v podstatě rebrandované Xamarin Studio), který umožňuje vývoj (ASP).NET Core aplikací, aplikací pro macOS a mobilních aplikací. Pro vývoj poskytuje dostatek komfortu, intellisense a všechny běžné vymoženosti, které vývojář potřebuje k životu. Pro člověka přecházejícího z Windows a Visual Studia však působí bez dodatečných nastavení &lt;strong&gt;neohrabaně a neintuitivně&lt;/strong&gt;. Ty funkce tam jsou, jen je těžké je uchopit. V praxi je například nutné vybrat si jedno schéma klávesových zkratek a to následně přizpůsobit svým potřebám. Pro vývojáře používající VS Code je příjemné, že je k dispozici stejné schéma. Oproti Rideru nabízí i drobný tooling kolem Azure, takže lze například publikovat aplikace do App Service nebo snadněji psát Azure Functions. Podporuje rozšíření, která průběžně přibývají a nabízí lepší práci s NuGet balíčky, konverze PCL na .NET Standard 2.0 a plno dalšího. Mně osobně chybí nejvíce funkce "Go To Implementation" a vestavěný terminál. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://cdn.miroslavholec.cz/articles/2018/offtopic-vyvoj-net-demo-vsformac.png" alt="VS for Mac" title="" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Visual Studio Code&lt;/h3&gt;
+
+&lt;p&gt;Třetí hráč zaujme &lt;strong&gt;především front-end vývojáře&lt;/strong&gt;, kteří sice do styku s ASP.NET Core přijdou, není to však jejich denní chléb. &lt;a href="https://code.visualstudio.com"&gt;VS Code&lt;/a&gt; podporuje rozšíření, díky kterým je možné vyvíjet (ASP.NET) Core aplikace, jen už mi to osobně &lt;strong&gt;nepřijde jako vývojářské prostředí&lt;/strong&gt; jako spíše inteligentní editor. Chybí zde velké množství toolingu, auto-discover při vývoji, podpora ASP.NET Core specifik (Razor), tooling kolem Azure, refaktoring, inteligentnější chování (například ctor TAB generuje balast) a intellisense nabízí nesmysly v porovnání s Riderem. Na druhou stranu VS Code nabízí vynikající rychlost, integraci GITu a jednoduchý debugger.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://cdn.miroslavholec.cz/articles/2018/offtopic-vyvoj-net-demo-vscode.png" alt="VS Code" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Shrneme-li si možnosti, jediná rozumná volba je pro vývoj .NET aplikací použít placený Rider, který je relativně schopen konkurovat klasickému Visual Studiu, které známe z Windows.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;V současné době mi Rider přijde o loket lepší než Visual Studio. Pokud jste nicméně zvyklý na některé specific záležitosti kolem Windows a Azure (například publikace přímo z VS), může to pro vás být překážka. Většinou existují pro Rider i různé extenze, ale neměl jsem potřebu je zkoušet.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2&gt;Vývoj .NET aplikací&lt;/h2&gt;
+
+&lt;p&gt;Od IDE se přesuňme k samotnému vývoji webových aplikací. Uvažovat lze nad třemi oblastmi:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Vývoj ASP.NET Core aplikací nad .NET Core a .NET Core obecně&lt;/li&gt;
+&lt;li&gt;Vývoj ASP.NET Core aplikací nad tradičním .NET Frameworkem&lt;/li&gt;
+&lt;li&gt;Vývoj toho ostatního (WinForms, WCF, WPF)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Vývoj ASP.NET Core a .NET Core&lt;/h3&gt;
+
+&lt;p&gt;V případě ASP.NET Core aplikací běžících nad .NET Core nebo .NET Core aplikací má vývojář k dispozici &lt;strong&gt;podporu všeho, co je v NET Standardu&lt;/strong&gt;. Záměrně tu zmiňuji .NET Standard, protože samotný .NET Core je multiplatformní jen do určité míry. Některá API jsou dostupná jen pro systém Windows a v budoucnu se dá předpokládat, že takových specifických API bude více. Pokud mě tedy nelimituje .NET Standard jako takový, mohu bez problému psát aplikaci bez jakýchkoliv omezení. &lt;strong&gt;&lt;strike&gt;V reálném životě a světě webového vývoje se s takovými aplikacemi vývojář zatím moc nesetká.&lt;/strike&gt;&lt;/strong&gt; Když už někdo píše ASP.NET Core aplikaci, většinou ji totiž targetuje na tradiční .NET Framework (viz. druhá možnost níže). Využití tohoto stacku tak zatím spíše zůstává vhodné pro menší projekty, osobní aplikace, malé webové zakázky, mikroslužby nebo dema na přednáškách. &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Tady došlo k velkému posunu a v současné době považuji ASP.NET Core nad .NET Core za mainstream a především budoucnost. Od verze ASP.NET Core 3.0 už je .NET Framework nepoužitelný a některé nové funkce jazyka C# 8.0 už ochutnáte jen v .NET Core. Zkrátka tento stack je nyní hlavní a tato změna výrazně nahrává vývoji na macOS. Přesto je třeba brát v úvahu, že nad .NET Core bude možné ve verzi 3.0 psát i WinForms a jiné desktop aplikace. Z logiky věci tyto aplikace nebude možné psát na macOS (respektive psát ano, ale spustit ne). Pokud tedy jdete čistě cestou webového vývoje, není co řešit.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;Vývoj ASP.NET Core nad tradičním .NET Frameworkem&lt;/h3&gt;
+
+&lt;p&gt;Tím se dostáváme ke stacku, který je &lt;strong&gt;&lt;strike&gt;aktuální pro současné webové projekty&lt;/strike&gt;&lt;/strong&gt; a vzhledem k pesimismu vývojářů i pro mnoho projektů nově vznikajících. Jedná se o vývoj aplikací nad novým ASP.NET Core frameworkem verze 2.0+ targetovaným na tradiční .NET Framework (4.6+). Suplovat .NET Framework musí v takovém případě na MacOS / Linux tzv. &lt;a href="https://www.mono-project.com"&gt;Mono&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Mono 5.4 již sice implementuje .NET Standard 2.0, v praxi to však &lt;strong&gt;nestačí k tomu, aby bylo plně použitelné pro plnohodnotný vývoj aplikací&lt;/strong&gt;. Už samotný .NET Standard 2.0 mnoho 3rd party knihoven nesplňuje a targetuje na staré verze .NET Frameworku. Přinutit k poslušnosti například klasický Entity Framework je peklo na zemi. Logicky vzato není ideální ani myšlenka vyvíjet nad Mono frameworkem aplikace pro zákazníky, kteří hodlají hotovou aplikaci hostovat na Windows serveru nad .NET Frameworkem. &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Celou tuto větev už neřeším. Pro mě je to doba kamenná. Pokud je toto váš stack, mac vám nebude dělat dobrou službu.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;Vývoj tradičních .NET aplikací&lt;/h3&gt;
+
+&lt;p&gt;A pak tu jsou tradiční .NET aplikace, kterými mám na mysli například WinForms, WPF, WCF nebo klasické ASP.NET Web Forms / MVC aplikace, které běží nad tradičním .NET Frameworkem. Tady má vývojář &lt;strong&gt;absolutní smůlu a to i s výhledem na budoucí .NET Core 3.0&lt;/strong&gt;, který sice bude podporovat WinForms a WPF, ale pouze na platformě Windows. &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Popsal jsem již výše. Vývoj ne-webových aplikací je na macOS možný jen ve virtuálním prostředí / nebo přes RDP. Nativně ne.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Jak tedy z popisu všech tří možností vyplývá, vývoj webových .NET aplikací přímo na macOS je utopie, &lt;strike&gt;v lepším případě hudba velmi vzdálené budoucnosti nebo spíše paralelního vesmíru&lt;/strike&gt;. Aby to však nebylo málo, pojďme se podívat na další aplikace.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Co se týče webového stacku, tak nakonec ta budoucnost až tak vzdálená nebyla.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2&gt;Další aplikace pro vývoj, .NET Core&lt;/h2&gt;
+
+&lt;p&gt;Pokud máte totiž ambice zůstat u moderních technologií, nejlépe kombinace ASP.NET Core nad .NET Core, pak stále zbývá dořešit podporu souvisejících aplikací pro vývoj.&lt;/p&gt;
+
+&lt;h3&gt;SQL Server&lt;/h3&gt;
+
+&lt;p&gt;Samozřejmě největší výzva je zajistit aplikacím podporu SQL Serveru. Aktuálně jediné rozumné řešení, které jsem našel a funguje velmi dobře je varianta Docker + SQL Server on Linux. Instalace je otázkou pár minut a pro běžnou práci je SQL Server on Linux dostačující. Popis jak tuto mašinérii uvést do pohybu &lt;strong&gt;&lt;a href="https://www.miroslavholec.cz/blog/jak-na-microsoft-sql-server-a-jeho-spravu-na-macos"&gt;popisuji ve samostatném článku&lt;/a&gt;&lt;/strong&gt;. Je třeba si uvědomit, že virtualizace sežere značnou část výkonu počítače, což zrovna macBooku dokáže pořádně roztočit větráky.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Relativně standardní cesta. Docker sežere cca 2GB operační paměti. Už z toho důvodu doporučuji MCB s 16 GB operační paměti.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;Management SQL Serveru&lt;/h3&gt;
+
+&lt;p&gt;Dále potřebuje vývojář managovat lokální SQL Server, vzdálený server nebo SQL databázi na Azure. Na počítačích s Windows toto kompletně splňuje &lt;strong&gt;SQL Server Management Studio&lt;/strong&gt;. V případě MacOS je k dispozici zdarma nástroj &lt;strong&gt;&lt;a href="https://docs.microsoft.com/en-us/sql/sql-operations-studio/download?view=sql-server-2017"&gt;SQL Operations Studio&lt;/a&gt;&lt;/strong&gt;, který je mimořádně pomalý a neskutečně nešetrný na množství spotřebované operační paměti. Lepší alternativou je &lt;strong&gt;SQLPro for MSSQL&lt;/strong&gt;, který však stejně jako první zmíněný nabízí jen základní množinu funkcí pro správu databáze. Jediné z mého pohledu dobré řešení je opět Rider od JetBrains, který má vestavěný Database Explorer + na exekuční plány použít SQL Operations Studio. Pořád se ale bavíme o &lt;strong&gt;dost slabých alternativách v porovnání s SSMS&lt;/strong&gt;. Chcete-li například profilovat dotazy pomocí SQL Server Profileru, máte smůlu.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Microsoft i nadále věří tomu, že název produktů by se měl každé dva roky měnit a ideálně do něj narvat slovo Azure. Čili SQL Operations Studio je teď Azure Data Studio, rychlostně i konzumací paměti o něco optimálnější než v minulosti. Za uplynulé měsíce pro něj ale vzniklo plno užitečných pluginů, takže funguje i profilování SQL dotazů, práce s dacpac a bacpac, atd. Není to sice SSMS, jsou v něm bugy, ale pro webové vývojáře je to naprosto dostačující (pro databázisty ne).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;Redis, Memcached atd.&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;V případě Redis a Memcached je situace velmi dobrá.&lt;/strong&gt; S nainstalovaným správcem balíčků &lt;a href="https://brew.sh"&gt;Homebrew&lt;/a&gt; stačí jedním příkazem nainstalovat Redis nebo Memcached. Kdo si nevystačí s CLI, má k dispozici různá GUI, například &lt;a href="https://fastoredis.com"&gt;Fasto Redis&lt;/a&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Tady se nic nezměnilo. Spíše si tu trochu přihoršil Windows, protože ztratil výhodu v podobě bezplatného Redis Desktop Manageru (který už není bezplatný).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;Azure Storage Explorer&lt;/h3&gt;
+
+&lt;p&gt;Zde je situace příznivá, existuje stejná aplikace pro MacOS jako pro Windows poskytující stejné funkce i rozhraní.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://cdn.miroslavholec.cz/articles/2018/offtopic-azure-storage-explorer.png" alt="Azure Storage Explorer" title="" /&gt;&lt;/p&gt;
+
+&lt;h3&gt;Azure Storage Emulator&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Oficiální aplikace neexistuje&lt;/strong&gt; a osobně bych to asi řešil testovacím účtem přímo na Azure. Zatím jsem emulátor nepotřeboval.&lt;/p&gt;
+
+&lt;h3&gt;Front-endové nástroje&lt;/h3&gt;
+
+&lt;p&gt;Není o čem, absolutně všechno co jsem zkoušel funguje jako víno. &lt;strong&gt;Front-end vývojáři mohou počítače s Windows rozsekat do posledního tranzistoru.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3&gt;Specializované nástroje&lt;/h3&gt;
+
+&lt;p&gt;V případě intenzivnějšího vývoje .NET aplikací jsou často potřeba různé &lt;strong&gt;memory profilery, nástroje pro debugging, profilování SQL dotazů atd.&lt;/strong&gt; A tady sranda definitivně končí, protože v současné době na platformě macOS téměř žádné specializované nástroje neexistují. &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Podle všeho se dočkáme DotTrace pro macOS, ale aktuálně existuje skutečně relativně málo profilovacích nástrojů. Profilovat SQL dotazy jde v Azure Data Studiu, sledovat chování aplikace pomocí MiniProfileru, nicméně memory profilery jsem zatím nenašel.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1&gt;Virtualizace a RDP&lt;/h1&gt;
+
+&lt;p&gt;Když to všechno shrneme, &lt;strong&gt;macOS je absolutně nevhodný systém pro .NET vývojáře&lt;/strong&gt;, kteří by chtěli využít možnosti samotného systému. Zítřky jsou sice docela světlé (narážím na .NET Core), nicméně technologie dneška a údržba legacy systémů je s macOS neslučitelná. Většina vývojářů tak nakonec sáhne po virtualizaci a rozjede si Windows například v Parallels.&lt;/p&gt;
+
+&lt;p&gt;Virtualizace může být díky Coherence režimu příjemná v tom smyslu, že Visual Studio nebo SSMS se tváří jako samostatná aplikace včleněná do macOS (Windows si šlape na pozadí) avšak už v základu se jedná o přístup náročný na systémové prostředky. Ve chvíli, kdy je vývojář nucen používat paralelně například SSMS a Visual Studio se práce radikálně zpomaluje, MacBook začíná hučet jako turbína a s připočtením &lt;strong&gt;swapování mezi dvěma systémy s odlišným ovládáním jde produktivita výrazně dolů&lt;/strong&gt;. Každý systém má svou vlastní klávesnici, která se od té druhé výrazně liší a v každém systému fungují odlišné klávesové zkratky až na úroveň 3rd party software (například Google Chrome). Chcete-li prodloužit stroji život, neusmažit si ruce o hliník a použít RDP, najednou se systémy od sebe o další krok vzdalují a vzniká nepříjemná závislost na konektivitě. Pokud nainstalujete Windows přes bootcamp jako druhý systém, absolutně tak zabijete smysl macOS, nehledě na to, že &lt;strong&gt;Windows na MacBooku fungují velmi zvláštním způsobem&lt;/strong&gt; (v tom špatném slova smyslu).&lt;/p&gt;
+
+&lt;p&gt;Dovolím si tedy hluboce povzdechnout nad tím, že svět .NETu byl dlouhou dobu izolován alternativním platformám a současný technologický stack si prochází teprve jakousi pubertou v novém prostředí, které není na příchod velikána zatím připraveno.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Jelikož jdu nyní nativní cestou, virtualizaci ani RDP nepotřebuji. Tudíž ani neswapuji mezi systémy a tudíž mohu používat jeden layout klávesnice. Ponechal jsem výchozí nastavení macOS a aktuálně už jsem se na něj zvykl. Nejen to, oproti Windows už nemám potřebu přepínat mezi CZ a EN klávesnicí kvůli speciálním znakům (tedy vystačím si s jednou CZ klávesnicí). &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1&gt;Závěr&lt;/h1&gt;
+
+&lt;p&gt;&lt;strike&gt;Po dvou měsících testování s politováním docházím k závěru, že &lt;strong&gt;macOS je po všech stránkách systém nepoužitelný pro průmyslový a efektivní vývoj .NET aplikací&lt;/strong&gt;. Paralelní běh dvou systémů vyžaduje vysoké hardwarové nároky, MacBook se stává hlučným krámem a produktivita práce je výrazně narušena &lt;strong&gt;neslučitelným chováním dvou operačních systémů&lt;/strong&gt;. V současné době se vracím primárně k mému Thinkpadu 13 s tím, že na MacBook sáhnu občas za účelem nějakých .NET experimentů.&lt;/strike&gt;&lt;/p&gt;
+
+&lt;h1&gt;Přehodnocení (4/2019)&lt;/h1&gt;
+
+&lt;p&gt;Článek jsem nechal záměrně i v původní verzi, aby bylo vidět, k jakým změnám vlastně došlo. Pokud vyvíjíte moderní ASP.NET Core aplikace nad .NET Core, můžete použít MacBook. Rozchodil jsem na něm za poslední měsíce přes 20 aplikací. Pokud něco nefungovalo, byla to drobnost, která se dala velmi jednoduše a rychle vyřešit. Zásadní změna je pro mě v tom, že už nepotřebuji virtualizaci. Mám pouze jeden OS, nemusím se přepínat mezi různými klávesnicemi a používat aplikace s dvojím ovládáním. Šetřím systémové prostředky a notebook je absolutně tichý. Kromě vývoje mohu notebook bez vzteků používat i jiným způsobem, než pouze jako pracovní lopatu.&lt;/p&gt;
+
+&lt;h2&gt;Přehled aplikací (ve zkratce)&lt;/h2&gt;
+
+&lt;p&gt;Ještě doplňuji seznam aplikací, kterými jsem si systém přizpůsobil a které pro vývoj používám.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;JetBrains Rider - hlavní vývojářské IDE&lt;/li&gt;
+&lt;li&gt;Azure Data Studio - správa SQL databází&lt;/li&gt;
+&lt;li&gt;Azure Storage Explorer - správa Azure Storage&lt;/li&gt;
+&lt;li&gt;Visual Studio Code - front-endové psaní, html a css&lt;/li&gt;
+&lt;li&gt;Affinity Photo - něco jako Photoshop&lt;/li&gt;
+&lt;li&gt;Postman - testování REST služeb&lt;/li&gt;
+&lt;li&gt;Typora - psaní v markdown&lt;/li&gt;
+&lt;li&gt;Docker - virtualizace, SQL Server&lt;/li&gt;
+&lt;li&gt;Redis CLI - správa Redis&lt;/li&gt;
+&lt;li&gt;Turbo Boost Switcher - vypnutí funkce turbo boost procesoru&lt;/li&gt;
+&lt;li&gt;Shimo VPN - VPN klient&lt;/li&gt;
+&lt;li&gt;Google File Stream - správa Google Drive&lt;/li&gt;
+&lt;li&gt;Dropbox - sdílení dokumentů pro klienty&lt;/li&gt;
+&lt;li&gt;Chrome - hlavní prohlížeč&lt;/li&gt;
+&lt;li&gt;Last Pass - správce hesel, integrace do Chrome&lt;/li&gt;
+&lt;li&gt;Go2Shell - umožní mi ve finderu kdekoliv jsem zobrazit shell&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A pak plno dalších nevývojářských aplikací, které už nemá smysl vypisovat a udělám pro toto téma samostatný článek.&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/miroslavholec/~4/w7R-yu-nDKU" height="1" width="1" alt=""/&gt;</description>
+<pubDate>Thu, 28 Mar 2019 16:00:17 GMT</pubDate>
+<enclosure url="https://cdn.miroslavholec.cz/articles/poutaky-clanky-2018/net-on-macos.png" type="image/jpg" />
+<guid isPermaLink="false">https://www.miroslavholec.cz/blog/vyvoj-asp-net-core-macos-macbook-update-2019</guid>
+<feedburner:origLink>https://www.miroslavholec.cz/blog/vyvoj-asp-net-core-macos-macbook-update-2019</feedburner:origLink></item>
+<item>
+<title>ASP.NET Core 3.0 - Update Guide</title>
+<link>http://feedproxy.google.com/~r/miroslavholec/~3/0Z0Ea8B3RfY/asp-net-core-3-update-guide</link>
+<description>&lt;p&gt;&lt;strong&gt;Tato příručka je průběžně aktualizována vzhledem k tomu, jak se objevují další zprávy a novinky kolem ASP.NET Core 3.0&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div style="padding:1px 10px 10px 10px; background:#f5f5f5; border-radius:5px; margin-bottom:25px;"&gt;
+&lt;h3&gt;Dostupnost .NET Core 3.0&lt;/h3&gt;
+    &lt;p&gt;
+        Finální verze frameworku .NET Core 3.0 bude vydána v druhé polovině roku 2019 společně s updatem VS 2019 a dalším toolingem. Dočkáme se také ASP.NET Core 3.0, EF Core 3.0, podpory EF 6 v .NET Core 3.0 a nové verze NET Standard 2.1. &lt;b&gt;Oficiální datum vydání bude oznámen na konferenci Build 2019 na začátku května.&lt;/b&gt;
+    &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h1&gt;Nejdůležitější změny v [ASP].NET Core&lt;/h1&gt;
+
+&lt;p&gt;Pro ty z vás, kteří dáváte přednost rychlému přehledu před detaily jsem sepsal v bodech to nejdůležitější, co byste měli vědět. Brzy doplním podrobnější detaily ke každému bodu.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;NET Core 3.0 podporuje .NET Standard 2.1 a tato verze .NET Standardu již není podporována v klasickém .NET Frameworku.&lt;/li&gt;
+&lt;li&gt;NET Standard 2.1 přináší cca 3000 nových API, která jsou delší dobu používána již v .NET Core.&lt;/li&gt;
+&lt;li&gt;Klasický .NET Framework je od verze 4.8 pouze záplatován, ale nedočkáme se žádných (zajímavých) novinek. Některé nové funkce jazyka C# 8.0 nejsou a nebudou v .NET Frameworku již dostupné. Plné podpoře C# 8.0 a novějších se budou těšit jen vývojáři v .NET Core.&lt;/li&gt;
+&lt;li&gt;Microsoft se zavazuje udržovat NET Framework při životě společně s MS Windows. Chlácholí faktem, že sám NET Framework používá v řadě svých produktů, je nainstalován na miliardách strojů a vývojáři tak nemusí fakticky svá řešení migrovat do .NET Core.&lt;/li&gt;
+&lt;li&gt;NET Core 3.0 umožňuje vyvíjet Windows Forms, UWP a WPF aplikace. Tento typ aplikací je možné vytvářet a spouštět pouze na platformě Windows a vývojář má plný přístup ke všem W10 API. Aplikace je možné publikovat do jednoho exe souboru. &lt;/li&gt;
+&lt;li&gt;Webový framework ASP.NET Core 3.0 vyžaduje .NET Standard 2.1 a tudíž není možné vyvíjet ASP.NET Core 3.0+ aplikace nad klasickým .NET Frameworkem.&lt;/li&gt;
+&lt;li&gt;Entity Framework 6 je možné použít v .NET Core aplikacích a to nezávisle na platformě.&lt;/li&gt;
+&lt;li&gt;Pro vývoj webových řešení přibyla nová možnost použít Razor Compoments, což je v zásadě evoluce projektu Blazor. Pod pokličkou je použita technologie SignalR a na klientské straně se nepoužívá WebAssembly. &lt;/li&gt;
+&lt;li&gt;NET Core 3.0 podporuje i open-source framework ML.NET (Azure Machine Learning). &lt;/li&gt;
+&lt;li&gt;Tzv. Shared Framework Microsoft.AspNetCore.All již není nadále doručován, místo něj se používá pouze Microsoft.AspNetCore.App&lt;/li&gt;
+&lt;li&gt;Shared Frameworks se již nezapojují csproj pomocí &lt;PackageReference&gt;, ale nově se používá &lt;FrameworkReference&gt;.&lt;/li&gt;
+&lt;li&gt;Entity Framework Core 3.0 je vyjmut ze shared frameworku Microsoft.AspNetCore.App a musí se instalovat samostatně. Stejně tak je vyjmut i Newtonsoft.Json.&lt;/li&gt;
+&lt;li&gt;Součástí EF Core 3.0 je podpora pro CosmosDB.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1&gt;Co znamená příchod .NET Core 3.0?&lt;/h1&gt;
+
+&lt;h2&gt;Když vyvíjíte novou aplikaci&lt;/h2&gt;
+
+&lt;p&gt;S příchodem verze .NET Core 3.0 se výrazně zjednodušuje rozhodování v souvislosti s volbou frameworku pro vývoj nových aplikací. &lt;strong&gt;Chcete-li napsat novou aplikaci (desktop, web, konzole, wpf), v podstatě jasnou volbou je .NET Core 3.0.&lt;/strong&gt; Pouze .NET Core bude do budoucna dynamicky rozvíjen, doplňován o nové funkce a bude plně podporovat novinky jazyka C#. Díky podpoře Entity Framework 6 se volba radikálně zjednodušuje. Vzhledem k tomu, že nové webové aplikace postavené na ASP.NET Core 3.0 už ani nebude možné psát nad .NET Frameworkem, odpadá v zásadě veškeré rozhodování. &lt;/p&gt;
+
+&lt;h2&gt;Když máte hotovou desktop aplikaci&lt;/h2&gt;
+
+&lt;p&gt;Máte-li již delší dobu postavenou aplikaci na tradičním .NET Frameworku, není nutné za každou cenu migrovat na .NET Core. V případě, že se tak ale rozhodnete, získáte mnoho benefitů. Získáte přístup k novým funkcím .NET Core a jazyka C#, výrazně lepší výkonnost nebo například možnost publikace do jednoho exe. &lt;/p&gt;
+
+&lt;p&gt;V případě rozsáhlejších projektů bych osobně &lt;strong&gt;počkal, zda se neobjeví automatizované nástroje pro migraci&lt;/strong&gt; řešení. V rámci první verze .NET Core 3.0 bych s migrací celkově vyčkal, jelikož se dá očekávat, že mnoho novinek si bude muset "sednout" a nemusí fungovat optimálně. Jestliže jste na začátku vývoje a aplikace běží jen v developerském módu (neprodukčně), migrace na .NET Core se jeví jako dobrá volba.&lt;/p&gt;
+
+&lt;h2&gt;Když máte hotovou webovou aplikaci&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;V případě existujících webových aplikací bude nutné provést větší množství drobných změn.&lt;/strong&gt; Pokud ještě používáte tradiční .NET Framework, bude nutné nejprve přetargetovat projekt na .NET Core, což znamená primárně trochu kódování v csproj souboru. Dále bude nutné vyřešit chybějící reference na NuGet balíčky (což se bude lišit podle toho, jakou nyní používáte verzi a případně zda nemáte referencovaný balíček Microsoft.AspNetCore.All = více práce). Mezi chybějícími referencemi bude například EF Core, Newtonsoft JSON a další.&lt;/p&gt;
+
+&lt;p&gt;Nakonec bude nutné vyřešit několik chyb vznikajících během kompilace (změny v ASP.NET Core API) a doporučeno je zbavit se také hlášek ohledně obsolete API, které budou tolerovány jen dočasně. Budete-li migrovat webovou aplikaci na ASP.NET Core 3.0, můžete se na mě obrátit a celou migraci lze provést onsite během jednoho dopoledního setkání.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Příručka je nyní rozepsaná a již brzy se můžete těšit na další část, ve které budou všechny novinky rozepsány podrobněji. Zatím doporučuji dát si tuto stránku do oblíbených záložek a občas sem nahlédnout.&lt;/strong&gt; Pokud nechcete o nic přijít, doporučuji sledovat novinky, které píšu v rámci zpravodaje &lt;a href="https://www.dotnetnews.cz/"&gt;&lt;strong&gt;Dotnet News&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/miroslavholec/~4/0Z0Ea8B3RfY" height="1" width="1" alt=""/&gt;</description>
+<pubDate>Mon, 11 Mar 2019 17:08:30 GMT</pubDate>
+<enclosure url="https://www.dotnetcore.cz/img/booklets/asp-net-core-3-update-guide.png" type="image/jpg" />
+<guid isPermaLink="false">https://www.miroslavholec.cz/blog/asp-net-core-3-update-guide</guid>
+<feedburner:origLink>https://www.miroslavholec.cz/blog/asp-net-core-3-update-guide</feedburner:origLink></item>
+<item>
+<title>Zhodnocení roku 2018, konec blogu a plány na 2019</title>
+<link>http://feedproxy.google.com/~r/miroslavholec/~3/_482VMsBu9Y/zhodnoceni-roku-2018-konec-blogu-a-plany-na-2019</link>
+<description>&lt;p&gt;Mohl bych vypsat všech 436 věcí, za které jsem vděčný a které se mi podařili za posledních několik měsíců shromáždit, ale to by nikoho nebavilo číst. Hledáme ty velké věci.&lt;/p&gt;
+
+&lt;h2&gt;100 dní v Jihovýchodní Asii&lt;/h2&gt;
+
+&lt;p&gt;Dovolená v Asii sice začala už v prosinci, ale táhla se až do poloviny března 2018. &lt;strong&gt;Procestoval jsem Thajsko, Filipíny, Vietnam a Malajsii.&lt;/strong&gt; Bylo super na tak dlouhou dobu vypnout od práce a poznávat nové prostředí a kultury. Podruhé už bych každopádně na takovou dobu jet nechtěl a volil bych osvědčené 3 - 4 týdny. Během své cesty jsem psal poctivě blog, jehož online podobu si lze přečíst na webu &lt;strong&gt;&lt;a href="https://asie2018.mirekholec.cz"&gt;asie2018.mirekholec.cz&lt;/a&gt;&lt;/strong&gt;. Kulturnější verzi s diakritikou a vybranými obrázky dokončím během roku 2019.&lt;/p&gt;
+
+&lt;h2&gt;Global Azure Bootcamp 2018&lt;/h2&gt;
+
+&lt;p&gt;Po mém návratu do Čech jsem se soustředil na &lt;strong&gt;pořádání konference&lt;/strong&gt; &lt;strong&gt;&lt;a href="https://www.azurebootcamp.cz"&gt;Global Azure Bootcamp 2018&lt;/a&gt;&lt;/strong&gt; ve spolupráci s &lt;strong&gt;HAVIT&lt;/strong&gt;em. Ta se sice nemohla díky pěknému jarnímu počasí pyšnit moc velkou návštěvností, ale dala mi plno organizačních zkušeností, které jsem později ke konci roku ještě zúročil. Global Azure Bootcamp byla zároveň jedna z posledních mých Azurových aktivit.&lt;/p&gt;
+
+&lt;h2&gt;Zaměření na Web Development stack&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Od dubna 2018 jsem se zaměřil čistě na platformu .NET Core.&lt;/strong&gt; Rozhodl jsem se tak z mnoha důvodů. Jedním z těch hlavních byla poptávka po konzultacích v této oblasti. Dlouhodobě jsem se věnoval jak cloudu tak vývoji a cítil jsem, že právě v oblasti webového vývoje mi začíná ujíždět vlak. Přestože jsem se v MS Azure věnoval jen vybraným PaaS službám a serverless computingu, Microsoft hrnul novinky tak závratnou rychlostí, že mimo Azure už jsem neměl čas na nic jiného. Změna na .NET Core a související technologie se mi velmi rychle začala úročit a po pár měsících od mého rozhodnutí se mi &lt;strong&gt;výrazně zvýšila poptávka po konzultacích a firemních školeních&lt;/strong&gt; v této oblasti.&lt;/p&gt;
+
+&lt;h2&gt;Přednášky na konferencích&lt;/h2&gt;
+
+&lt;p&gt;I tento rok jsem si zapřednášel na několika konferencích a dalších akcích. Oproti minulému roku byla změna v tom, že mezi hlavní témata patřil právě ASP.NET Core, logování a hostování webových aplikací, Razor Pages nebo moje vůbec nejoblíbenější oblast - &lt;strong&gt;webová API&lt;/strong&gt;. Kromě přednášek na konferencích jsem přednášel i ve firmách a na semináři &lt;strong&gt;Vývoj cloudových aplikací&lt;/strong&gt; na &lt;strong&gt;&lt;a href="http://www.ksi.mff.cuni.cz/cs/"&gt;MFF UK&lt;/a&gt;&lt;/strong&gt;. Abych si udržel přehled o všech akcích a aktivitách, rozhodl jsem si i vytvořit jednoduchou anglickou verzi webu, která je i jakousi podobou online CV.  Najdete ji na &lt;strong&gt;https://miroslavholec.com&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Kejkle s MacOS&lt;/h2&gt;
+
+&lt;p&gt;Spolu se změnou zaměření na .NET Core jsem očekával, že by mohlo být reálné opustit platformu Windows a začít &lt;strong&gt;vyvíjet webové aplikace na Macbooku&lt;/strong&gt;. Této oblasti jsem se věnoval několik týdnů a po třech pokusech jsem nakonec vývoj na MacOS definitivně vzdal. Více o tomto tématu jsem napsal v článku &lt;strong&gt;&lt;a href="https://www.miroslavholec.cz/blog/vyvoj-asp-net-core-aplikaci-na-macbooku-velke-shrnuti-zkusenosti"&gt;Vývoj ASP.NET (Core) aplikací na MacBooku, velké shrnutí zkušeností&lt;/a&gt;&lt;/strong&gt; a na stejné téma jsem si povídal v &lt;strong&gt;&lt;a href="https://soundcloud.com/msimecek/dotnet-cz-episode-33?in=msimecek/sets/net-cz-podcast"&gt;.NET CZ Podcastu&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Střelecké úspěchy&lt;/h2&gt;
+
+&lt;p&gt;Po necelých dvou letech, co se věnuji Lidové obranné střelbě se mi začalo více dařit na závodech a z boje o přežití se začal stávat boj o medaile. Přezbrojil jsem na &lt;strong&gt;&lt;a href="https://eu.glock.com/en/products/pistols/g43"&gt;Glock 43&lt;/a&gt;&lt;/strong&gt; a začal pro zábavu střílet další divizi PDW, do které jsem si pořídil &lt;strong&gt;&lt;a href="https://www.czub.cz/cz/produkty/samopaly/cz-scorpion-evo-3-s1.html"&gt;CZ Scorpion Evo 3&lt;/a&gt;&lt;/strong&gt;, se kterým jsem si vyzkoušel i skvělý kurz DR-1 na &lt;strong&gt;&lt;a href="https://www.hardtask.cz"&gt;HardTasku&lt;/a&gt;&lt;/strong&gt;. Celkem jsem v roce 2018 vybojoval 5 medailí (z toho 3 pohárové). Kromě LOSu jsem měl možnost vyzkoušet i trénink &lt;strong&gt;&lt;a href="https://www.idpa.com"&gt;IDPA&lt;/a&gt;&lt;/strong&gt;, mezinárodní střelecké soutěže, které se dočkáme v roce 2019 i v Čechách díky skvělé práci &lt;strong&gt;&lt;a href="https://www.hardtaskrangers.cz"&gt;SSK HardTask Rangers&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Osobní růst a volnější noha&lt;/h2&gt;
+
+&lt;p&gt;Po návratu z Asie jsem určitý čas bojoval s organizací času a hledal jsem správný režim jak fungovat. Práce byla u mě na prvním místě na úkor volného času, jenomže jedno slovo zůstávalo nenaplněno. Byla to &lt;strong&gt;synergie, kterou jsem si během cestování vysnil&lt;/strong&gt;. Po návratu do Čech jsem se zaměřil na platformu .NET Core a více jsem začal uvažovat o tom, čemu věnuji svůj čas. S pomocí kouče &lt;strong&gt;&lt;a href="https://www.zivotjakohra.cz/kouci/ales-kohoutek"&gt;Aleše Kohoutka&lt;/a&gt;&lt;/strong&gt; jsem se posunul výrazně dopředu. Dokázal jsem dát své zájmy na první místo, správně se rozhodovat a změnit postoj k mnoha oblastem v mém životě. &lt;/p&gt;
+
+&lt;h2&gt;Organizace DotNET Talks&lt;/h2&gt;
+
+&lt;p&gt;Začátkem října se uskutečnil &lt;strong&gt;vývojářský přednáškový večer&lt;/strong&gt;, který jsem pojmenoval &lt;strong&gt;&lt;a href="https://www.dotnettalks.cz/archiv/1"&gt;DotNET Talks&lt;/a&gt;&lt;/strong&gt;. Podařilo se naplnit kinosál v Microsoftu a získal jsem &lt;strong&gt;velmi pozitivní zpětnou vazbu&lt;/strong&gt;, na základě které jsem se rozhodl, že akci budu pořádat pravidelně. Příští setkání bude už 17. ledna a registrace jsem tiše otevřel pro nedočkavé. DotNET Talks jsou skvělou příležitostí jak během jednoho večera &lt;strong&gt;nasát zajímavé novinky z oblasti webového vývoje&lt;/strong&gt;, na kterou jsem v současné době zaměřen.&lt;/p&gt;
+
+&lt;h2&gt;Spuštění Dotnet News&lt;/h2&gt;
+
+&lt;p&gt;Zatím nejnovějším "počinem" je vývojářský zpravodaj &lt;strong&gt;&lt;a href="https://www.dotnetnews.cz"&gt;Dotnet News&lt;/a&gt;&lt;/strong&gt;. Pustil jsem se do něj velmi opatrně a přesto, že teprve nedávno jsem rozeslal první díl, &lt;strong&gt;už teď mám kolem 100 odběratelů&lt;/strong&gt;. Dotnet News je zpravodaj, ve kterém se budu snažit zkráceně upozorňovat vývojáře na &lt;strong&gt;důležité události v české .NET komunitě&lt;/strong&gt;, poutat na zajímavý obsah a články a udržovat přehled o aktuálních verzích vývojářských produktů.&lt;/p&gt;
+
+&lt;h2&gt;Ukončení blogu&lt;/h2&gt;
+
+&lt;p&gt;Nechci se vymlouvat, že na blogování nemám čas. Mám hlavu plnou nápadů a tyhle nápady chtějí vyrazit do světa. Když jsem uvažoval nad organizací svého času, po seřazení priorit zbylo na sdílení know-how jen pár hodin týdně plus další čas, který si ukrojím z toho "pracovního". Má to smysl. Pomáhá mi to srovnat si myšlenky, učit se něco nového a mám skvělý pocit, když mohu předávat své znalosti a zkušenosti dál. &lt;strong&gt;Blog je ale několik let přežitý.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Za každým článkem se skrývá určité úsilí. To úsilí není úplně malé vzhledem k tomu, že &lt;strong&gt;každý článek po určitě době zastará&lt;/strong&gt;. Čtenáři nemají moc důvod vracet se ke starším článkům. Navíc ne každý článek zajímá každého vývojáře. &lt;strong&gt;Blog je takový chaotický zápisník&lt;/strong&gt;, kde čas od času někdo něco najde. A to je prostě málo.&lt;/p&gt;
+
+&lt;h1&gt;Co chystám v roce 2019&lt;/h1&gt;
+
+&lt;h2&gt;REST API Guide&lt;/h2&gt;
+
+&lt;p&gt;Od příštího roku se budu hlouběji věnovat RESTovým API a pro tento účel &lt;strong&gt;plánuji postavit kompletně celý web zaměřený na problematiku návrhu REST služeb&lt;/strong&gt; aneb jak si usnadnit život s ASP.NET Core. Těšit se můžete na velmi obecnou projektovou šablonu, kterou budou vývojáři moci použít jako výchozí šablonu pro návrh API. Vedle této šablony vznikne i webová stránka s různými praktickými tipy, které budu dlouhodobě udržovat aktuální. Projekt &lt;strong&gt;Apic&lt;/strong&gt; budu postupně prezentovat i na svých přednáškách a používat ho na různá dema.&lt;/p&gt;
+
+&lt;h2&gt;Specializace na (ASP).NET Core&lt;/h2&gt;
+
+&lt;p&gt;ASP.NET Core a souvisejícím technologiím bude patřit pravděpodobně celý rok 2019. Kromě poradenství a školení ve firmách budu školit tyto technologie pod hlavičkou &lt;strong&gt;&lt;a href="https://www.oksystem.com/cz/"&gt;OKsystem&lt;/a&gt;&lt;/strong&gt;. Kromě ASP.NET Core školení chystám i unikátní školení zaměřené pouze na &lt;strong&gt;.NET Core&lt;/strong&gt;, které podle mého názoru v Čechách chybí. Kurzy brzy s OKsystem zveřejníme a lákadlem na ně by mohla být přednáška na konferenci &lt;strong&gt;FreshIT&lt;/strong&gt;, která se bude konat v březnu. &lt;/p&gt;
+
+&lt;h2&gt;Podnikání na volné noze&lt;/h2&gt;
+
+&lt;p&gt;Během roku 2018 jsem se snažil více &lt;strong&gt;experimentovat v mém podnikání&lt;/strong&gt;. Přestože jsem 3 měsíce ekonomicky nefungoval, konečný výsledek v roce 2018 je o píď lepší než 2017. Podíl na tom má i zvýšení ceny služeb. Změnil jsem formát mých služeb a více se zaměřil na jednu oblast, která mi funguje synergičtěji. Díky tomu &lt;strong&gt;produkuji více znovupoužitelného obsahu&lt;/strong&gt;, trávím méně času přípravami školení a konzultací a zároveň mám k dispozici větší množství materiálů pro zákazníky. V zásadě dnes &lt;strong&gt;poskytuji tři základní typy služeb&lt;/strong&gt;: vývoj long-term (dlouhodobé projekty), vývoj short-term (menší zajímavé zakázky) a dev evangelism.&lt;/p&gt;
+
+&lt;p&gt;První dvě kategorie vývoje se liší &lt;strong&gt;délkou kontraktu, formátem spolupráce a sazbou&lt;/strong&gt;. V prvním případě se integruji do týmu a funguji za domluvenou manday rate on-site, ve druhém případě vytvářím produkt na zakázku za dohodnutou cenu. &lt;strong&gt;Třetí kategorie (dev evangelism) je nejzajímavější a nejflexibilnější.&lt;/strong&gt; Pomáhám firmám řešit specifické problémy různými způsoby. Zpravidla je to kombinace školení, workshopů, prezentací a konzultací. Každé &lt;strong&gt;setkání koncipuji jako půldenní&lt;/strong&gt; a v pevně stanovené ceně setkání je zahrnuto vše, včetně individuální přípravy osnov, ukázek, příkladů k procvičení nebo follow-upu.&lt;/p&gt;
+
+&lt;h2&gt;Open Source&lt;/h2&gt;
+
+&lt;p&gt;Protože už se mi hromadí různé "statické" webové stránky, začínám je vytvářet pomocí generátoru. Chci se více věnovat oblasti open-source a proto také plánuji &lt;strong&gt;vydat tento jednoduchý generátor&lt;/strong&gt; jako open-source nástroj (dotnet tool). &lt;strong&gt;Většinu mých webů budu následně migrovat do GitHubu&lt;/strong&gt; a jejich obsah volně zpřístupním.&lt;/p&gt;
+
+&lt;h2&gt;Dev Evangelism&lt;/h2&gt;
+
+&lt;p&gt;Nejen o tom co chystám se dozvíte ve zpravodaji &lt;strong&gt;&lt;a href="https://www.dotnetnews.cz"&gt;Dotnet News&lt;/a&gt;&lt;/strong&gt;. Ten právě nahradí články zaměřené na aktuální dění a události. Pokud budete chtít nasát více znalostí za krátký čas, chystám pro vás pravidelná setkání &lt;strong&gt;&lt;a href="https://www.dotnettalks.cz"&gt;DotNET Talks&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;A komu ani toto nestačí, pořád si mě můžete najmout jako žoldáka. &lt;/p&gt;
+
+&lt;p&gt;Zdar a sílu!&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/miroslavholec/~4/_482VMsBu9Y" height="1" width="1" alt=""/&gt;</description>
+<pubDate>Wed, 12 Dec 2018 13:34:25 GMT</pubDate>
+<enclosure url="https://cdn.miroslavholec.cz/articles/poutaky-clanky-2018/rok-2018-2019.png" type="image/jpg" />
+<guid isPermaLink="false">https://www.miroslavholec.cz/blog/zhodnoceni-roku-2018-konec-blogu-a-plany-na-2019</guid>
+<feedburner:origLink>https://www.miroslavholec.cz/blog/zhodnoceni-roku-2018-konec-blogu-a-plany-na-2019</feedburner:origLink></item>
+<item>
+<title>Chystané novinky v EF Core 2.2 a podpora EF 6.3 pro .NET Core 3.0</title>
+<link>http://feedproxy.google.com/~r/miroslavholec/~3/USWPDeK6Gno/chystane-novinky-v-ef-core-2-2-a-podpora-e-f-6-3-pro-net-core-3-0</link>
+<description>&lt;h3&gt;Owned Entity Types jako kolekce&lt;/h3&gt;
+
+&lt;p&gt;Z Entity Framework 6 možná znáte komplexní typy, které byly přeneseny do EF Core 2.0 pod označením &lt;strong&gt;Owned Entity Types&lt;/strong&gt;. Díky této funkci je možné sdružit společné vlastnosti do jedné C# třídy a tu referencovat jako property.&lt;/p&gt;
+
+&lt;pre&gt;public class Address
+{
+    public string Street { get; set; }
+    public string City { get; set; }
+}
+
+public class Order
+{
+    public int Id { get; set; }
+    public Address BillingAddress { get; set; }
+    public Address ShippingAddress { get; set; }
+}
+
+// OnModelCreating
+modelBuilder.Entity&amp;lt;Order&amp;gt;().OwnsOne(p =&amp;gt; p.BillingAddress);
+modelBuilder.Entity&amp;lt;Order&amp;gt;().OwnsOne(p =&amp;gt; p.ShippingAddress);
+&lt;/pre&gt;
+
+&lt;p&gt;Výhoda je celkem zřejmá. Nemusíme opakovat dokola stejné properties - máme je sdružené v jedné třídě. Pokud by komplexním typem byla například třída Price, pak by konečná třída mohla navíc umět unifikovaně dopočítat například cenu s DPH nebo DPH na základě sazby. Výsledek se vždy namapuje do jedné tabulky:&lt;/p&gt;
+
+&lt;pre&gt;Order
+---------
+Id
+BillingAddress_Street
+BillingAddress_City
+ShippingAddress_Street
+ShippingAddress_City
+&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Od verze EF Core 2.2 bude možné používat tyto typy ve formě kolekcí&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;pre&gt;public class Order
+{
+    public int Id { get; set; }
+    public List&amp;lt;Address&amp;gt; Addresses { get; set; }
+}
+
+modelBuilder.Entity&amp;lt;Order&amp;gt;().OwnsMany(p =&amp;gt; p.Addresses);
+&lt;/pre&gt;
+
+&lt;p&gt;Komplexní typ Address bude vyžadovat vlastní PK (by default property Id). Konečný rozdíl bude v tom, že se tyto kolekce budou automaticky mapovat na samostatnou tabulku v databázi (Addresses) a zároveň nebude potřeba k dotažení dat používat Include. Tuto funkcionalitu ve verzi preview-2 lze vyzkoušet, avšak vykazuje ještě mnoho chyb. Doporučuji tedy vyčkat na preview-3.&lt;/p&gt;
+
+&lt;h2&gt;Spatial Types&lt;/h2&gt;
+
+&lt;p&gt;Další novinkou, kterou známe i z EF 6 budou Spatial Types a jejich podporu zajistíme novým NuGet balíčkem &lt;strong&gt;Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite&lt;/strong&gt; a dodatečnou konfigurací SQL Providera:&lt;/p&gt;
+
+&lt;pre&gt;// Startup.cs - ConfigureServices
+services.AddDbContext&amp;lt;AppDbContext&amp;gt;(op =&amp;gt; op.UseSqlServer(connectionstring, opt =&amp;gt; opt.UseNetTopologySuite()));
+&lt;/pre&gt;
+
+&lt;p&gt;Díky tomu se nám pro SQL Server zpřístupní některé další datové typy (geometrie, geolokace), které známe z EF 6 jako DbGeography - SqlGeography aj. Níže je ukázka s geometrickým typem Point.&lt;/p&gt;
+
+&lt;pre&gt;public class Measurement
+{
+   public int Id {get; set;}
+   public DateTime Date {get; set;}
+   public Point Location {get; set;}
+}
+&lt;/pre&gt;
+
+&lt;h2&gt;Cosmos DB Provider&lt;/h2&gt;
+
+&lt;p&gt;V minulosti jsme viděli CosmosDB Provider ve formě PoC v některých demech. Nyní se plánuje uvolnění veřejné verze, která je již nyní k otestování v rámci preview-2. Použití bude velmi podobné jako v případě SQL Serveru, pouze se místo extension &lt;strong&gt;UseSqlServer&lt;/strong&gt; použije &lt;strong&gt;UseCosmosSql&lt;/strong&gt; a předají se argumenty jako account + key. &lt;/p&gt;
+
+&lt;p&gt;I v tomto případě budeme mít k dispozici celý arsenál funkcí, které známe z EF Core 2.1, pouze data se budou &lt;strong&gt;ukládat ve strukturované formě&lt;/strong&gt; (JSON) do Cosmos DB. Kromě vlastních properties tříd budou záznamy doplněny o dodatečné property pro práci Cosmos DB (např.: _rid, _self, _etag, _ts, _attachments). &lt;/p&gt;
+
+&lt;p&gt;Pro správu Cosmos DB je už nyní dostupný &lt;strong&gt;&lt;a href="https://github.com/MicrosoftDocs/azure-docs/blob/master/articles/cosmos-db/local-emulator.md"&gt;Azure Cosmos DB Emulator&lt;/a&gt;&lt;/strong&gt; (přímé stažení - &lt;strong&gt;&lt;a href="https://aka.ms/cosmosdb-emulator"&gt;MSI file&lt;/a&gt;)&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h1&gt;EF 6.3 na .NET Core 3.0&lt;/h1&gt;
+
+&lt;p&gt;Pro vývojáře, kteří nechtějí migrovat EF 6 na EF Core avšak chtějí používat výhody .NET Core bude s příchodem .NET Core 3.0 (někdy v roce 2019) existovat nové řešení. Microsoft uvolní novou verzi &lt;strong&gt;Entity Framework 6.3&lt;/strong&gt;, kterou bude &lt;strong&gt;možné referencovat v .NET Core 3.0 projektech&lt;/strong&gt;. Balíček bude plně multiplatformní a kromě plné kompatibility zřejmě nepřinese žádné nové funkce, které známe nově z EF Core.&lt;/p&gt;
+
+&lt;p&gt;Obecně &lt;strong&gt;klasický Entity Framework není v plánu nijak rozšiřovat&lt;/strong&gt; (jestli vůbec) a doporučené je vždy upřednostňovat EF Core. Přesto cílem Microsoftu bylo přinést podporu vývojářským týmům, pro které by byla migrace EF na EF Core problematická.&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/miroslavholec/~4/USWPDeK6Gno" height="1" width="1" alt=""/&gt;</description>
+<pubDate>Mon, 08 Oct 2018 07:01:09 GMT</pubDate>
+<enclosure url="https://cdn.miroslavholec.cz/articles/poutaky-clanky-2018/entity-framework-core.png" type="image/jpg" />
+<guid isPermaLink="false">https://www.miroslavholec.cz/blog/chystane-novinky-v-ef-core-2-2-a-podpora-e-f-6-3-pro-net-core-3-0</guid>
+<feedburner:origLink>https://www.miroslavholec.cz/blog/chystane-novinky-v-ef-core-2-2-a-podpora-e-f-6-3-pro-net-core-3-0</feedburner:origLink></item>
+<item>
+<title>Uvolnil jsem novou verzi FioSDK v2.1.1</title>
+<link>http://feedproxy.google.com/~r/miroslavholec/~3/GVXUYtOs_YY/uvolnil-jsem-novou-verzi-fio-sdk-v2-1-1</link>
+<description>&lt;h2&gt;FIO banka API&lt;/h2&gt;
+
+&lt;p&gt;API může mít v dnešní době celou řadu podob. FIO banka v tomto ohledu zvolila cestu &lt;strong&gt;jednoduchého použití&lt;/strong&gt; za cenu nižší bezpečnosti a určitých omezení z hlediska funkčnosti. Pokud nicméně potřebujete programově spravovat účet a znáte základní pravidla bezpečnosti, pak právě pro Vás FIO nabízí velmi jednoduché rozhraní pro rychlé získání přehledu o stavu účtu a transakcích.&lt;/p&gt;
+
+&lt;p&gt;Pro práci s API je potřeba pouze přístupový token, který je možné vygenerovat v internetovém bankingu FIO. Tento token může mít buď práva pro čtení nebo i pro zápis. Generovanému tokenu můžete nastavit libovolnou životnost (doporučuji důkladně zvážit).&lt;/p&gt;
+
+&lt;p&gt;Získaný token následně umožňuje sestavit URL ve tvaru&lt;/p&gt;
+
+&lt;pre&gt;https://www.fio.cz/ib_api/rest/periods/{TOKEN}/{DATE_FROM}/{DATE_TO}/transactions.{FORMAT}
+&lt;/pre&gt;
+
+&lt;p&gt;a získat tak přehled o stavu účtu. Přestože je k dispozici celá řada formátů, pro programové zpracování (např.: hledání konkrétních transakcí) je vhodné mít data v objektové formě. &lt;strong&gt;Proto jsem napsal FioSdk&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2&gt;FIO Banka SDK for C# v2.1.1&lt;/h2&gt;
+
+&lt;p&gt;Před dvěma lety mi bylo potěšením oznámit &lt;strong&gt;&lt;a href="https://github.com/mholec/fio-sdk-csharp"&gt;zveřejnění jednoduchého SDK&lt;/a&gt;&lt;/strong&gt;, s jehož pomocí lze snadno komunikovat s API Fio Banky a získat přehled o bankovních transakcích v čistě objektové formě. SDK prošlo za poslední dva roky rozvojem a &lt;strong&gt;od verze 2.0.0 podporuje .NET Standard 1.3&lt;/strong&gt;. Díky tomu lze SDK použít v celé řadě .NET / .NET Core aplikací.&lt;/p&gt;
+
+&lt;p&gt;Poslední update, &lt;strong&gt;verze 2.1.1  navíc podporuje asynchronní volání&lt;/strong&gt; všech klíčových metod API. SDK je nyní zveřejněno pod open-source licencí MIT na &lt;a href="https://github.com/mholec/fio-sdk-csharp"&gt;&lt;strong&gt;GitHubu&lt;/strong&gt;&lt;/a&gt; i v podobě &lt;a href="https://www.nuget.org/packages/FioSdk"&gt;&lt;strong&gt;NuGet&lt;/strong&gt;&lt;/a&gt; balíčku.&lt;/p&gt;
+
+&lt;pre&gt;PM&amp;gt; Install-Package FioSdk
+&lt;/pre&gt;
+
+&lt;h3&gt;Ukázky použití&lt;/h3&gt;
+
+&lt;p&gt;Pro přehled o stavu účtu stačí pouze dva řádky kódu:&lt;/p&gt;
+
+&lt;pre&gt;ApiExplorer explorer = new ApiExplorer("ACCESS_TOKEN");
+AccountStatement statement = explorer.Periods(TransactionFilter.LastMonth());
+&lt;/pre&gt;
+
+&lt;p&gt;Pro přesnější výběr období lze použít filtr:&lt;/p&gt;
+
+&lt;pre&gt;var statement = explorer.Periods(TransactionFilter.LastWeeks(8));
+&lt;/pre&gt;
+
+&lt;p&gt;Procházení transakcí je intuitivní&lt;/p&gt;
+
+&lt;pre&gt;foreach (var transaction in statement.TransactionList.Transactions)
+{
+    Console.WriteLine(transaction + " - " + transaction.Amount.Value);
+}
+&lt;/pre&gt;
+
+&lt;p&gt;Data jsou k dispozici i v původních formátech&lt;/p&gt;
+
+&lt;pre&gt;string html = explorer.Periods(TransactionFilter.LastDays(10), Format.Html);
+string xml = explorer.Periods(TransactionFilter.LastDays(10), Format.Xml);
+string csv = explorer.Periods(TransactionFilter.LastDays(10), Format.Csv);
+&lt;/pre&gt;
+
+&lt;p&gt;FioSDK má na GitHubu dva kontributory a pouze 27 commitů. Na NuGet.org si balíček stáhlo 2280 uživatelů.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A jak s takovým API a SDK naložit? Plánujete nebo už jste něco svého napsali? Pochlubte se v diskusi.&lt;/strong&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/miroslavholec/~4/GVXUYtOs_YY" height="1" width="1" alt=""/&gt;</description>
+<pubDate>Tue, 02 Oct 2018 07:01:56 GMT</pubDate>
+<guid isPermaLink="false">https://www.miroslavholec.cz/blog/uvolnil-jsem-novou-verzi-fio-sdk-v2-1-1</guid>
+<feedburner:origLink>https://www.miroslavholec.cz/blog/uvolnil-jsem-novou-verzi-fio-sdk-v2-1-1</feedburner:origLink></item>
+<item>
+<title>Časovaná bomba - FDD deployment ASP.NET Core do Azure App Service</title>
+<link>http://feedproxy.google.com/~r/miroslavholec/~3/r0-rSb7DIUs/casovana-bomba-fdd-deployment-aspnet-core-do-azure-app-service</link>
+<description>&lt;p&gt;V prvním odstavci jsem na vás vychrlil plno pojmů, které možná jako vývojáři vůbec neřešíte. Nejprve si tedy přiblížíme výše uvedené pojmy a poté se vrhneme na konkrétní případovku, která za tímto článkem stojí. Pokud se chystáte na pražské &lt;strong&gt;&lt;a href="https://www.dotnettalks.cz/"&gt;DotNET Talks (v.1)&lt;/a&gt;&lt;/strong&gt; (vstup zdarma, posledních asi 15 míst), budu tam přesně tuto problematiku vysvětlovat naživo.&lt;/p&gt;
+
+&lt;h3&gt;Verze ASP.NET Core&lt;/h3&gt;
+
+&lt;p&gt;ASP.NET Core dnes existuje v několika verzích. První verze, se kterými se už moc nesetkáte jsou ASP.NET Core 1.0 a 1.1, které běží nad .NET Core runtimem (nebo nad .NET Framework runtime, ale tuto možnost dále zcela ignorujme). &lt;/p&gt;
+
+&lt;p&gt;Za účelem konsolidace NuGet balíčků Microsoft přišel s metabalíčkem &lt;strong&gt;Microsoft.AspNetCore.All&lt;/strong&gt;, který v podstatě sjednocuje celý ASP.NET Core framework + přidává nějaké 3rd party libraries. Nemusíte tedy udržovat 50 NuGetů, ale staráte se pouze o jeden &lt;strong&gt;Microsoft.AspNetCore.All&lt;/strong&gt;. &lt;/p&gt;
+
+&lt;p&gt;Ve verzi ASP.NET Core 2.1. vydal Microsoft vedle metabalíčku Microsoft.AspNetCore.All ještě &lt;strong&gt;Microsoft.AspNetCore.App&lt;/strong&gt;. Premisa byla jednak odříznout 3rd party libraries, které dělaly neplechu a dále stabilizovat celý framework. Proto verze Microsoft.AspNetCore.App 2.1.0 obsahuje závislosti na striktních verzích balíčků. Od verze 2.1.x už konstelace balíčků není tak striktní, ale jsou definovány rozumné rozsahy verzí (které jsou údajně otestované). &lt;/p&gt;
+
+&lt;p&gt;Od verze &lt;strong&gt;(ASP).NET Core 3.0&lt;/strong&gt; už se nebude 3.x verze metabalíčku Microsoft.AspNetCore.All vydávat (respektive bude se patchovat jen 2.1.x a 2.2.x). Už teď tedy doporučuji začít konsolidovat projekty a upřednostnit verzi &lt;strong&gt;Microsoft.AspNetCore.App&lt;/strong&gt;. &lt;/p&gt;
+
+&lt;p&gt;Důležité je, že Microsoft. AspNetCore.All a App jsou nyní vydávány nejen jako metabalíčky ale i jako shared runtimes. Čili když píšete nyní ASP.NET Core aplikaci, můžete ji psát "nad" &lt;strong&gt;ASP.NET Core Runtime&lt;/strong&gt; (nebo taky nemusíte). A dokonce si můžete vybrat mezi All / App. &lt;/p&gt;
+
+&lt;p&gt;Ve vašem csproj stačí mít něco takového:&lt;/p&gt;
+
+&lt;pre&gt;&amp;lt;Project Sdk="Microsoft.NET.Sdk.Web"&amp;gt;
+  &amp;lt;PropertyGroup&amp;gt;
+    &amp;lt;TargetFramework&amp;gt;netcoreapp2.1&amp;lt;/TargetFramework&amp;gt;
+ &amp;lt;/PropertyGroup&amp;gt;
+ &amp;lt;ItemGroup&amp;gt;
+    &amp;lt;PackageReference Include="Microsoft.AspNetCore.App" Version="2.1.2" /&amp;gt;
+ &amp;lt;/ItemGroup&amp;gt;
+&amp;lt;/Project&amp;gt;
+&lt;/pre&gt;
+
+&lt;p&gt;Tím vlastně říkáte, že využíváte .NET Core 2.1 a ASP.NET Core Runtime 2.1.2. Máte k dispozici dokonce automatické patchování, takže když na cílové mašině bude ASP.NET Core 2.1.3+, tak se rovnou aplikace natargetuje na tuto verzi. Zní to super, ale má to jednu logickou podmínku.&lt;/p&gt;
+
+&lt;h3&gt;SCD vs FDD deployment&lt;/h3&gt;
+
+&lt;p&gt;Existuje ještě tzv. Self-Contained Deployment a Framework-Dependent Deployment. Pokud vypublikujete aplikaci v režimu &lt;strong&gt;SCD&lt;/strong&gt;, v podstatě se vyrobí mega velký publikační balíček pro určitou platformu, obsahující absolutně všechny potřebné dll. V případě publikace pro windows bude součástí i EXE file, který můžete spustit (tím rozjedete kestrel a aplikace bude dostupná na nějaké URL + portu, by default localhost:5000). V případě linuxu nebo jiné platformy to bude zase jiný balast v závislosti na cílové platformě.&lt;/p&gt;
+
+&lt;p&gt;Druhá možnost je, že uděláte tzv. &lt;strong&gt;FDD&lt;/strong&gt;. V tomto případě vytváříte multiplatformní balíček, který obsahuje jen nezbytně nutné DLLka. Tento balíček je minimalistický a předpokládá, že tam kam ho nasadíte bude přítomen .NET Core / ASP.NET Core runtime (dané nebo vyšší verze). Výhoda je ta, že tento balíček lze nasadit na linuxovou mašinu stejně jako na windows. Podmínkou je jen přítomnost onoho runtimu. Právě v tomto režimu funguje patchování.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abychom to tedy shrnuli. Pokud jedete na novém ASP.NET Core Runtime 2.1 a publikujete v režimu FDD na cílový server, můžete tam hostovat třeba 20 aplikací a pod nimi patchovat ASP.NET Core shared runtime, aniž byste museli do aplikací sahat.&lt;/strong&gt; &lt;/p&gt;
+
+&lt;h3&gt;Azure App Service&lt;/h3&gt;
+
+&lt;p&gt;Pokud máte vlastní server, na kterém ASP.NET Core aplikace hostujete, máte všechno pod kontrolou (jako správný líný vývojář nainstalujete novou verzi jednou za uherský rok, takže nic moc nemáte šanci rozsekat).&lt;/p&gt;
+
+&lt;p&gt;Pokud nasazujete do Azure App Service, stará se vám o prostředí přímo Microsoft. Takže tak nějak očekáváte, že Microsoft bude hrnout na App Service všechny patche a vy zase budete hrnout přes CI nové verze aplikace a všechno bude "works like a charm", jak by řekli amíci. &lt;/p&gt;
+
+&lt;p&gt;Důvod, proč tento článek píšu je má třetí negativní zkušenost s tím, že po nasazení aplikace (cca 3 týdny zpět) prostě &lt;strong&gt;jednoho rána vstanu z postele a aplikace nejede&lt;/strong&gt;. Prostě je vychcíplá na chybě 502.5.  Mimochodem &lt;strong&gt;chyba 502.5 se stane časem neprosto legendární&lt;/strong&gt;, protože je absolutně nic neříkající a může mít desítky příčin, které plánuji v blízké době shrnout do článku a minimálně hodinové přednášky. Pro ty z vás, co ještě neměli tu čest si vás dovolím s tou bestií seznámit:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://cdn.miroslavholec.cz/articles/app-service-asp-net/error-502-5.png" alt="error-502-5" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Abych ale došel k nějakému závěru, můj &lt;strong&gt;csproj&lt;/strong&gt; při nasazení vypadal nějak takto:&lt;/p&gt;
+
+&lt;pre&gt; &amp;lt;ItemGroup&amp;gt;
+   &amp;lt;PackageReference Include="Microsoft.AspNetCore.App" /&amp;gt;
+   &amp;lt;PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.1.2" 
+ &amp;lt;/ItemGroup&amp;gt;
+&lt;/pre&gt;
+
+&lt;p&gt;Po třech týdnech od nasazení Microsoft vydal novou verzi Microsoft.EntityFrameworkCore.Sqlite (2.1.3), která referencuje Microsoft.EntityFrameworkCore 2.1.3. Takže se automaticky na serveru začala hledat tato verze balíčku (což jsem zjsitil z logů po přihlášení do kudu na app service). Jenomže tato verze balíčku tam z nějakého důvodu není.&lt;/p&gt;
+
+&lt;pre&gt;Microsoft.NETCore.App 2.1.1 [D:\Program Files (x86)\dotnet\shared\Microsoft.NETCore.App]
+Microsoft.NETCore.App 2.1.4 [D:\Program Files (x86)\dotnet\shared\Microsoft.NETCore.App]
+&lt;/pre&gt;
+
+&lt;p&gt;Jsem od přírody zvědavý, takže jsem začal prolézat další App Services a zjistil jsem, že &lt;strong&gt;toto se týká App Service v regionu West Europe&lt;/strong&gt;. V případě North Europe, kde hostuje jeden můj zákazník je nadílka runtimes bohatší:&lt;/p&gt;
+
+&lt;pre&gt;Microsoft.NETCore.App 2.1.1 [D:\Program Files (x86)\dotnet\shared\Microsoft.NETCore.App]
+Microsoft.NETCore.App 2.1.3 [D:\Program Files (x86)\dotnet\shared\Microsoft.NETCore.App]
+Microsoft.NETCore.App 2.1.4 [D:\Program Files (x86)\dotnet\shared\Microsoft.NETCore.App]
+&lt;/pre&gt;
+
+&lt;p&gt;Takže až budete deployovat aplikaci do více regionů a budete se divit, proč to v jednom jede a ve druhém máte 502.5, vzpomeňte si na to, &lt;strong&gt;jak je skvělé, když se vám o prostředí stará někdo jiný, komu důvěřujete&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3&gt;Known issues&lt;/h3&gt;
+
+&lt;p&gt;Výše popsaný problém není jen Holec-specific. Řeší ho mnoho vývojářů v různých podobách. Když například nareferencujete metabalíček All / App a poté připojíte referenci na NuGet balíček z tohoto runtime jiné specifické verze, bude se vám dít to samé. Jenomže na to přijdete celkem rychle při nasazení. Problém je, když vám prostě aplikace týdny běží a pak jednoho dne spadne, protože někdo vydal nový NuGet balíček.&lt;/p&gt;
+
+&lt;h3&gt;Řešení&lt;/h3&gt;
+
+&lt;p&gt;I když je FDD velmi lákavý režim publikace aplikací, shledal jsem ho fatálně rizikovým a všechny aplikace budu odteď publikovat v režimu self-contained (což bych teoreticky považoval za horší variantu). Někdy ale praxe teorii prostě předčí. Pokud chcete aplikace publikovat jako self-contained (třeba přes CI), stačí v csproj uvést tzv. runtime identifier, pro který je publikační balíček určen. Například:&lt;/p&gt;
+
+&lt;pre&gt;&amp;lt;PropertyGroup&amp;gt;
+    &amp;lt;TargetFramework&amp;gt;netcoreapp2.1&amp;lt;/TargetFramework&amp;gt;
+    &amp;lt;RuntimeIdentifiers&amp;gt;win10-x64&amp;lt;/RuntimeIdentifiers&amp;gt;
+&amp;lt;/PropertyGroup&amp;gt;
+&lt;/pre&gt;
+
+&lt;p&gt;Pro publikaci z CMD nebo obecně při použití dotnet toolu lze použít ekvivalentně:&lt;/p&gt;
+
+&lt;pre&gt;dotnet publish -c release -r win10-x64
+&lt;/pre&gt;
+
+&lt;h3&gt;Závěr&lt;/h3&gt;
+
+&lt;p&gt;Asi k tomu není co dodat. Většina vývojářů, se kterými se bavím nemá sebemenší tušení, že existují nějaké ASP.NET Core runtimes a v ASP.NET Core projektech většinou vidím smečky balíčků nebo metabalíček All. Chápu, že pro většinu vývojářů je těžké usledovat tyto drobnosti, když s každou verzí se toho celkem dost změní. O to víc bych očekával, že za tou netransparencí bude alespoň chytristika, která zabrání podobným situacím. &lt;/p&gt;
+
+&lt;p&gt;Pokud píšete aplikace v ASP.NET Core, sledujte novinky a snažte se vždy ve chvílích času rozkrývat co a jak funguje. Jednoho dne se vám to může hodit. Pokud tomu chcete jít trochu naproti, přijďte na &lt;strong&gt;&lt;a href="https://www.dotnettalks.cz/"&gt;DotNET Talks (v.1)&lt;/a&gt;&lt;/strong&gt;  nebo na &lt;a href="https://www.miroslavholec.cz/skoleni"&gt;&lt;strong&gt;mé školení, které chystám v říjnu&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Update 29.09.2018&lt;/h2&gt;
+
+&lt;p&gt;Pro tentokrát je po problému:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://cdn.miroslavholec.cz/articles/aspnetcore/dotnet-auto-rollback-issue.png" alt="dotnet auto rollback issue" title="" /&gt;&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/miroslavholec/~4/r0-rSb7DIUs" height="1" width="1" alt=""/&gt;</description>
+<pubDate>Fri, 21 Sep 2018 07:05:00 GMT</pubDate>
+<enclosure url="https://cdn.miroslavholec.cz/articles/poutaky-clanky-2018/asp-net-core-caffeine.png" type="image/jpg" />
+<guid isPermaLink="false">https://www.miroslavholec.cz/blog/casovana-bomba-fdd-deployment-aspnet-core-do-azure-app-service</guid>
+<feedburner:origLink>https://www.miroslavholec.cz/blog/casovana-bomba-fdd-deployment-aspnet-core-do-azure-app-service</feedburner:origLink></item>
+<item>
+<title>Azure Cloud Service: programový import a nastavení SSL certifikátů ve Web Roli</title>
+<link>http://feedproxy.google.com/~r/miroslavholec/~3/UmBK9OrLwTc/azure-cloud-service-programovy-import-a-nastaveni-ssl-certifikatu-ve-web-roli</link>
+<description>&lt;p&gt;Pokud by vás více zajímala problematika &lt;strong&gt;jak automatizovaně generovat SSL certifikáty&lt;/strong&gt; pro stovky webových stránek a ty pak následně připojovat ve službě Azure Cloud Service, &lt;strong&gt;&lt;a href="https://www.youtube.com/watch?v=ytGLQ8NJaoc"&gt;podívejte se na případovou studii, kde jsem celé řešení prezentoval&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Certificate Store a Service Manager&lt;/h2&gt;
+
+&lt;p&gt;Chcete-li si napsat vlastní workflow, během kterého budete v rámci Web Role pracovat se Server Manager nebo Certificate Store, čekají vás mnohá překvapení. V mém případě jsem skončil u Microsoft Azure supportu s jehož pomocí jsem sice chytil trochu vítr do plachet, ale o výrazné nápomocnosti se mluvit rozhodně nedá. MS Support jsem nakonec vzdal a vydal se cestou ladění, pokusů a omylů.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Certificate Store je úložiště certifikátů&lt;/strong&gt;, kam si budete chtít certifikáty importovat z jiného úložiště. Zdrojem může být například databáze, azure storage nebo úplně jiné místo. Importovaný certifikát budete moci následně nabindovat v IIS k vybrané Site. Ovšem pozor. Aby byl certifikát v IIS použitelný, musíte splnit dvě pravidla&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;certifikát je &lt;strong&gt;importován do Local Machine&lt;/strong&gt; (NE User Store)&lt;/li&gt;
+&lt;li&gt;certifikát je &lt;strong&gt;exportovatelný&lt;/strong&gt; - obsahuje veřejný i privátní klíč&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Pokud není splněna podmínka č. 1, certifikát v IIS nebudete vidět. Pokud není splněna podmínka č. 2, certifikát sice uvidíte, ale nepodaří se jej připojit. &lt;/p&gt;
+
+&lt;p&gt;Během ladění na lokálním počítači se vám podaří podmínky splnit, ale po nasazení do Cloud Service začne nekonečné ladění. &lt;/p&gt;
+
+&lt;h3&gt;Import do Local Machine Store&lt;/h3&gt;
+
+&lt;p&gt;Pro práci s certifikáty jsem se rozhodl použít typické místo &lt;strong&gt;WebRole.cs&lt;/strong&gt; a metodu &lt;strong&gt;OnStart()&lt;/strong&gt;, která zajistí při stagingu nastavení všeho potřebného. Pro update (nové certifikáty) nebo revoke lze použít metodu &lt;strong&gt;Run()&lt;/strong&gt;, která provede různé změny za běhu.&lt;/p&gt;
+
+&lt;p&gt;Komunikaci s Certificate Store zajišťuje třída &lt;strong&gt;X509Store&lt;/strong&gt;, která je součástí NuGet balíčku Microsoft.Web.Administration. Pomocí této třídy je možné importovat certifikát v podobě instance &lt;strong&gt;X509Certificate2&lt;/strong&gt;. Prakticky to vypadá například takto:&lt;/p&gt;
+
+&lt;pre&gt;public byte[] ImportCertificateToLocalStore(byte[] pfx, string password)
+{
+    using (var x509Certificate = new X509Certificate2())
+    {
+    	x509Certificate.Import(pfx, password, X509KeyStorageFlags.Exportable | 
+	    X509KeyStorageFlags.PersistKeySet | X509KeyStorageFlags.MachineKeySet);
+
+	    X509Store store = new X509Store(StoreName.My, StoreLocation.LocalMachine);
+	    store.Open(OpenFlags.ReadWrite);
+	    store.Add(x509Certificate);
+	    store.Close();
+
+	    return x509Certificate.GetCertHash();
+    }
+}
+&lt;/pre&gt;
+
+&lt;p&gt;Používám certifikát uložený v byte[]. Už tady je důležité, aby tento certifikát v paměti obsahoval oba klíče a byl exportovatelný. Pomocí metody x509Certificate2.Import předávám certifikát, jeho heslo a doplňuji nezbytné flagy. Na dalších řádcích kódu pak otevírám LocalMachine certificate store, kam certifikát přidám.&lt;/p&gt;
+
+&lt;h3&gt;Nedostatečná práva pro NetworkService&lt;/h3&gt;
+
+&lt;p&gt;Po nasazení do Cloud Service jsem zjistil, že řešení není funkční, kvůli nedostatečným právům. Týkalo se to nejen práce s Certificate Store ale i při sahání na IIS pomocí Server Manageru.&lt;/p&gt;
+
+&lt;p&gt;Všechny webové služby, IIS atd běží pod "uživatelem" &lt;strong&gt;NetworkService&lt;/strong&gt;. Jako jediné funkční řešení jsem s pomocí kolegy zvolil přidání tohoto účtu mezi administrátory. To jsem vyřešil pomocí &lt;strong&gt;StartupTasku&lt;/strong&gt;, který se spouští před zavedením Web Role. Definice se provádí v ServiceDefinition.csdef&lt;/p&gt;
+
+&lt;pre&gt;&amp;lt;WebRole name="Web" vmsize="Standard_D1_v2"&amp;gt;
+    &amp;lt;Startup&amp;gt;
+      &amp;lt;Task commandLine="Startup.cmd" executionContext="elevated" taskType="simple" /&amp;gt;
+    &amp;lt;/Startup&amp;gt;
+&lt;/pre&gt;
+
+&lt;p&gt;Důležité je mít nastavený executionContext jako elevated, aby měl proces dostatečná práva pro tyto změny. Samotná přidání práv vypadají takto:&lt;/p&gt;
+
+&lt;pre&gt;Add-LocalGroupMember -Group Administrators -Member NetworkService -ErrorAction SilentlyContinue  -Verbose
+&lt;/pre&gt;
+
+&lt;p&gt;Zařazení mezi administrátory je potřeba zvážit z hlediska bezpečnosti. Výrazně lepší je vyrobit si speciální administrátorský účet, který má nezbytná privilegia (správa Certificate Store + IIS).&lt;/p&gt;
+
+&lt;h3&gt;Chování na různých OS&lt;/h3&gt;
+
+&lt;p&gt;Nastavení práv však také selhávalo, za čímž jsem našel dvě příčiny. Tou první je verze OS, která je na virtuálním stroji přítomná. V tomto případě jsem měnil ServiceConfiguration.Cloud.cscfg, protože zákazníkovi běžela aplikace na verzi osFamily=3. &lt;/p&gt;
+
+&lt;pre&gt;&amp;lt;ServiceConfiguration serviceName="CloudServiceCertificates" osFamily="5" osVersion="*" schemaVersion="2015-04.2.6"&amp;gt;
+  &amp;lt;Role name="Web"&amp;gt;
+&lt;/pre&gt;
+
+&lt;p&gt;Více o tématu se nebudu rozepisovat, celkem hodnotná je v tomto směru &lt;a href="https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-guestos-update-matrix"&gt;&lt;strong&gt;oficiální dokumentace&lt;/strong&gt;&lt;/a&gt;. Změnou na osFamily = 5 jsme zahostovali na Windows Server 2016 a překonali další potíž. Je možné, že tento krok se dal obejít i jinak.&lt;/p&gt;
+
+&lt;h3&gt;Aliasy&lt;/h3&gt;
+
+&lt;p&gt;Po nastavení jiného OS jsem objevil další divné chování. Automatizace nefungovala správně, ale po ručním přidělení NetworkService do skupiny Administrators bylo vše funkční. Náhodou mě napadlo nahradit tedy NetworkService za &lt;strong&gt;NT AUTHORITY\NETWORK SERVICE&lt;/strong&gt; a bylo po problému. Někdy zkrátka nemá smysl na znacích šetřit :)&lt;/p&gt;
+
+&lt;h3&gt;Práva zápisu do složek&lt;/h3&gt;
+
+&lt;p&gt;Mnoho času jsem strávil řešením záhady, která mi nedávala smysl. Tedy dokud jsem nepochopil v čem je zakopaný pes. Můžete si projít odrážky níže a hádat, kde byl problém.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;automatizovaně importovaný certifikát nejde připojit v IIS&lt;/li&gt;
+&lt;li&gt;ukazuje se, že není exportable&lt;/li&gt;
+&lt;li&gt;importuji certifikát ručně a ukazuje se, že exportable je&lt;/li&gt;
+&lt;li&gt;hodiny řeším, co tam x509store dělá, že to prostě není exportable, když import proběhne bez chyb&lt;/li&gt;
+&lt;li&gt;utíkají další hodiny a ze zoufalství tam tlačím certifikáty napůl ručně a napůl automatizovaně&lt;/li&gt;
+&lt;li&gt;aby to nebylo málo, občas to najednou zafunguje&lt;/li&gt;
+&lt;li&gt;dělám reimage a zase všechno rozhašený&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Klíčová otázka byla, "proč tam není privátní klíč"? A pak jsem si vzpomněl na Microsoft support a naše hrabání se ve složkách na lokálním disku. Klíče se totiž ukládají do určitých složek na disku a pro zápis do těchto složek musí mít uživatel práva na toto místo zapsat. Když práva nemá, tak metoda X509Store.Import &lt;strong&gt;nevyhodí výjimku, ale chová se jako by bylo všechno OK&lt;/strong&gt;. &lt;/p&gt;
+
+&lt;p&gt;Tím se vysvětluje, proč "to občas fungovalo". Totiž když jsem certifikát naimportoval ručně, jako adminovi se mi uložil správně i privátní klíč. Když jsem spustil automatizaci se stejným certifikátem (stejný SN), tak už tam ten klíč prostě byl a vše fungovalo. Po reimage nebo při použití jiného certifikátu samozřejmě řešení nebylo funkční. Logický.&lt;/p&gt;
+
+&lt;p&gt;Jako jediné funkční řešení v rámci tohoto workflow, které mi doporučil support Microsoftu bylo tedy umožnit pro NetworkService zápis na toto místo. Možná trochu kontroverzní, ale funkční. Použil jsem opět již jednou zmíněný &lt;strong&gt;StartupTask&lt;/strong&gt; a doplnil pár řádků:&lt;/p&gt;
+
+&lt;pre&gt;$Acl = Get-Acl "D:\ProgramData\Microsoft\Crypto\RSA\MachineKeys"
+New-Object  System.Security.AccessControl.FileSystemAccessRule("NT AUTHORITY\NETWORK SERVICE","FullControl", "ContainerInherit,ObjectInherit", "None", "Allow")
+$Acl.SetAccessRule($Ar) 
+Set-Acl "D:\ProgramData\Microsoft\Crypto\RSA\MachineKeys" $Acl -Verbose
+&lt;/pre&gt;
+
+&lt;p&gt;A to je všechno. Pokud plánujete dělat podobné kejkle s certifikáty, zkuste dát raději přednost službě App Service, kde je možné dělat podobné věci elegantněji, rychleji a možná i trochu bezpečněji než zpřístupněním vyšších oprávnění. Pokud máte za sebou podobné experimentování a zkušenosti a máte elegantnější řešení, podělte se o něj v diskusi.&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/miroslavholec/~4/UmBK9OrLwTc" height="1" width="1" alt=""/&gt;</description>
+<pubDate>Thu, 13 Sep 2018 07:10:38 GMT</pubDate>
+<enclosure url="https://cdn.miroslavholec.cz/articles/perexes/performance-asp-net-core.png" type="image/jpg" />
+<guid isPermaLink="false">https://www.miroslavholec.cz/blog/azure-cloud-service-programovy-import-a-nastaveni-ssl-certifikatu-ve-web-roli</guid>
+<feedburner:origLink>https://www.miroslavholec.cz/blog/azure-cloud-service-programovy-import-a-nastaveni-ssl-certifikatu-ve-web-roli</feedburner:origLink></item>
+<item>
+<title>Přijďte na DotNET Talks, přednáškový večer zaměřený na .NET Core!</title>
+<link>http://feedproxy.google.com/~r/miroslavholec/~3/94tbAUY6KFs/prijdte-na-dotnet-talks-prednaskovy-vecer-zamereny-na-net-core</link>
+<description>&lt;h2&gt;Co jsou DotNET Talks&lt;/h2&gt;
+
+&lt;p&gt;Mou snahou bylo sestavit sadu přednášek, které jsou zaměřené na &lt;strong&gt;svět moderního .NETu&lt;/strong&gt;. Chtěl jsem využít &lt;strong&gt;večer v pracovní den&lt;/strong&gt;, kdy si většina vývojářů dokáže udělat čas a není svázána prací ani natáčením rodinohodin o víkendech. &lt;strong&gt;DotNET Talks je sada přednášek&lt;/strong&gt; o délce mezi 30 - 50 minutami, které pro posluchače chystají přední vývojáři, konzultanti a softwaroví architekti. Přednášky mají užší &lt;strong&gt;zaměření na určité aspekty technologií&lt;/strong&gt;, jejichž znalost by vývojářům neměla chybět. Oproti klasickým konferencím má DotNET Talks pouze &lt;strong&gt;jeden moderovaný track&lt;/strong&gt;. Právě moderování bude naplňovat význam slova "talks" v názvu akce a vytvoří přesah přednášek. Akce má zcela &lt;strong&gt;volný vstup podmíněný registrací online&lt;/strong&gt;. &lt;strong&gt;První DotNET Talks proběhnou 4. října 2018.&lt;/strong&gt; Další setkání by mělo proběhnout v lednu 2019.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href="https://www.dotnettalks.cz/"&gt;&lt;u&gt;Registrace na DotNET Talks a oficiální web akce&lt;/u&gt;&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Program na 4. října 2018&lt;/h2&gt;
+
+&lt;p&gt;V rámci prvního setkání mé pozvání přijal &lt;strong&gt;Jirka Činčura&lt;/strong&gt;, &lt;strong&gt;Jirka Kanda&lt;/strong&gt; (HAVIT), &lt;strong&gt;Robert Haken&lt;/strong&gt; (HAVIT), &lt;strong&gt;Jan Hájek&lt;/strong&gt; (TheNetw.org) a &lt;strong&gt;Patrik Švikruha&lt;/strong&gt; (RIGANTI). Sám pro posluchače chystám úvodní přednášku zaměřenou na novinky v hostování ASP.NET Core aplikací ve verzi 2.1. Kompletní program s popisem přednášek naleznete na &lt;strong&gt;&lt;a href="https://www.dotnettalks.cz/"&gt;&lt;u&gt;oficiálním webu akce&lt;/u&gt;&lt;/a&gt;&lt;/strong&gt;. S registrací ale neotálejte, místa rychle ubývají.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://cdn.miroslavholec.cz/articles/promo/dotnet-talks.png" alt="dotnet-talks" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Přijdete na DotNET Talks? Máte dotazy nebo tipy o čem byste chtěli slyšet třeba na budoucích setkáních? Podělte se o své myšlenky v diskusi pod článkem.&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/miroslavholec/~4/94tbAUY6KFs" height="1" width="1" alt=""/&gt;</description>
+<pubDate>Tue, 28 Aug 2018 07:01:44 GMT</pubDate>
+<enclosure url="https://cdn.miroslavholec.cz/articles/promo/dotnet-talks.png" type="image/jpg" />
+<guid isPermaLink="false">https://www.miroslavholec.cz/blog/prijdte-na-dotnet-talks-prednaskovy-vecer-zamereny-na-net-core</guid>
+<feedburner:origLink>https://www.miroslavholec.cz/blog/prijdte-na-dotnet-talks-prednaskovy-vecer-zamereny-na-net-core</feedburner:origLink></item>
+<item>
+<title>Zkušenosti s Rocketbook, znovupoužitelným chytrým sešitem</title>
+<link>http://feedproxy.google.com/~r/miroslavholec/~3/r8k6Wzpv5J4/zkusenosti-s-rocketbook-znovupouzitelnym-chytrym-sesitem</link>
+<description>&lt;h2&gt;Co je Rocketbook Color&lt;/h2&gt;
+
+&lt;p&gt;Rocketbook je na první pohled klasický poznámkový blok, který se prodává v různých variantách a velikostech. Já se budu v tomto článku výhradně věnovat verzi &lt;strong&gt;Rocketbook Color&lt;/strong&gt;, která je trochu odlišná od ostatních verzí. Verze Rocketbook Color je primárně určena pro &lt;strong&gt;kreslení a malování&lt;/strong&gt;. Pro tento účel je možné použít buď sadu &lt;strong&gt;Crayola Dry Erase nebo psací potřeby Pilot&lt;/strong&gt;. Dvanáct stránek sešitu je ze speciálního materiálu, který umožní papír popsat a následně použitím vlhkého ubrousku zase poznámky smazat. Poznámkový blok je tedy znovupoužitelný. Z 12 stránek je jich 8 čistých, 2 jsou čtverečkované a 2 s linkami. Marketing pak mluví ještě o &lt;strong&gt;šetření životního prostředí,&lt;/strong&gt; což je podle mého názoru jen zbožné přání a skutečnost bude jiná (viz. dále). Tolik k marketingovým výkřikům a lákadlům. Pojďme se podívat na mé zkušenosti s Rocketbookem a psacími potřebami den za dnem.&lt;/p&gt;
+
+&lt;h2&gt;Den 0: Očekávání a důvod pořízení&lt;/h2&gt;
+
+&lt;p&gt;Velmi často používám doma bílou tabuli a od Rocketbooku vlastně očekávám to, že ji do značné míry nahradí. Takovou tabuli používám hlavně na kreslení myšlenkových map, diagramů a případně tabulek. Co se týče psaní, jde spíše jen o krátké poznámky. Když tabuli popíšu, obvykle si ji musím vyfotit, protože jinak je logicky nepoužitelná, dokud ji nesmažu. To občas dost vadí, když na ní mám například nakreslený kalendář.&lt;/p&gt;
+
+&lt;p&gt;Rocketbook by měl všechny potřeby pokrýt. Má více stránek, při kreslení čehokoliv mohu chybné části obrázku smazat a díky chytrým share funkcím a mobilní aplikaci bude možné stránky nafotit a automaticky si je nechat poslat do mailu nebo například Dropboxu. Rocketbook chci používat hlavně během práce, když si potřebuji rychle něco napsat a večer už to můžu s klidným svědomím smazat.&lt;/p&gt;
+
+&lt;h3&gt;Obavy a potenciální rizika&lt;/h3&gt;
+
+&lt;p&gt;Protože jsem si o Rocketbooku přečetl mnoho recenzí, šel jsem do něj s určitými riziky. Recenze sice byly hodně oslavné, ale znáte to. Když si někdo něco koupí, má přirozenou tendenci to vychvalovat do nebes, i kdyby to byl sebevětší shit. Mé obavy kolem Rocketbooku se týkají následujících bodů:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;text nebude čitelný v případě pera s úzkou stopou&lt;/li&gt;
+&lt;li&gt;obsah po týdnu vybledne&lt;/li&gt;
+&lt;li&gt;inkoust nebude zasychat dostatečně rychle a obsah se bude rozmazávat&lt;/li&gt;
+&lt;li&gt;scanování nebude "čisté" a bude obsahovat nežádoucí odlesky a nedostatky&lt;/li&gt;
+&lt;li&gt;po smazání bude stránka "ušmudlaná"&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Den 1: Objednávka&lt;/h2&gt;
+
+&lt;p&gt;K objednávce asi není co dodat. Rocketbook se dá &lt;strong&gt;objednat a zaplatit online&lt;/strong&gt;, samotná objednávka mi dorazila napřesdruhý pracovní den do zásilkovny. V zásilce mi chyběly psací potřeby, nicméně po upozornění mailem mi FISTRO ještě ten samý den odeslala balíček s chybějícím zbožím. Protože jsem zrovna odjížděl na dovolenou, sepisuji tuto recenzi po částech a dnech, jak jsem si všechno postupně zkoušel.&lt;/p&gt;
+
+&lt;h2&gt;Den 3: První dojmy z Rocketbooku&lt;/h2&gt;
+
+&lt;p&gt;Rocketbook je dodán ve speciální ochranné fólii spolu s "děkovným certifikátem" za šetrnost k životnímu prostředí. To mi přišlo trochu úsměvné, protože je mi jasné, že Rocketbook mi do důchodu nevydrží . &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Porovnávat z velké části plastový Rocketbook s několika papírovými sešity z recyklovaného papíru na výhru nestačí. &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Ale může mě hřát pocit, že jsem zachránil asi jednu desetinu vzrostlého stromu (pokud mi tedy Rocketbook vydrží alespoň 100 let). Mimochodem kolik věcí kolem Vás vám slouží byť alespoň 5 let? :) &lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://cdn.miroslavholec.cz/articles/rocketbook/rocketbook-kniha.png" alt="rocketbook kniha" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Rocketbook je sešit s několika stránkami ze &lt;strong&gt;silného papíru&lt;/strong&gt;, který je potažený fólií a spojený kroužkovou vazbou (jak jinak než plastovou). V levém dolním rohu je QR kód a na zbytku dolní strany jsou natištěny symboly, které při zaškrtnutí způsobí určitou akci při scanování pomocí mobilní aplikace Rocketbook (dostupná pro iOS a Android). Akce jsou konfigurovatelné přímo v aplikaci. &lt;strong&gt;Sešit působí dobrým zpracováním&lt;/strong&gt; a vytváří ve mně důvěru. Zároveň ale očekávám, že bude jen trvat několik měsíců, než se začne fólie po okrajích otrhávat (ale třeba se mýlím). &lt;strong&gt;Počet stránek je z praktického hlediska dostatečný&lt;/strong&gt;, ale psychicky má člověk pocit, jako by toho měl v ruce málo. Zvykl jsem se po pár dnech.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://cdn.miroslavholec.cz/articles/rocketbook/rocketbook-kniha-otevrena.png" alt="rocketbook kniha otevřená" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Stránky sešitu nejsou sněhově bílé, ale spíše saturované (typická barva recyklovaného papíru). &lt;strong&gt;Barevný nádech stránek je tedy podobný jako například u sešitů Moleskine.&lt;/strong&gt; Tímto mé první dojmy z Rocketbooku skončily, protože psací potřeby dorazily se zpožděním a vyzvedl jsem je až po 10 dnech po návratu z dovolené.&lt;/p&gt;
+
+&lt;h2&gt;Den 14: Psací potřeby Frixion&lt;/h2&gt;
+
+&lt;p&gt;Protože je Rocketbook vlastně miniaturní podobou psací tabule, je možné použít pro psaní na něj i klasické Markery na tabule. Většina z těchto Markerů má ale příliš velký hrot a tudíž i tlustou stopu (to nechceš). Pro psaní se proto používají nejčastěji (doporučované) psaní potřeby &lt;strong&gt;Pilot Frixion&lt;/strong&gt;. Existuje více druhů psacích potřeb, přičemž já si objednal tyto 3 druhy:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Pilot Frixion Paint&lt;/strong&gt; - v podstatě propiska s úzkou stopou na psaní a kreslení&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pilot Frixion Colors&lt;/strong&gt; - silnější stopa pro kreslení&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pilot Frixion Light&lt;/strong&gt; - velmi silná stopa (highlighter) pro zvýrazňování&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Všechny psaní potřeby zanechávají &lt;strong&gt;speciální stopu z termosenzitivního inkoustu&lt;/strong&gt;, která je smazatelná gumou, kterou mají psací potřeby z druhé strany nebo kterou si lze samostatně přikoupit. Na psací potřeby Pilot Frixion lze pohlížet obecně, protože je s nimi možné psát na klasický papír a poté stopu gumovat. To, že se používají i v kombinaci s Rocketbookem je věc druhá. Zatímco na klasickém papíře zůstávají stopy od přítlaku (i po vygumování), speciální povrch Rocketbooku toto částečně eliminuje. Rozdíl je především v tom, že &lt;strong&gt;z povrchu Rocketbooku je smazání stopy jednodušší než v případě papíru&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;K psacím potřebám nemám žádné zásadní výtky. Obsahují víčko, které zabraňuje zasychání inkoustu a víčko lze umístit na opačnou stranu psacích potřeb (čímž se uzavře přístup ke gumě). &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Na psaní jsou potřeby pohodlné a ani v jednom případě se mi nijak neotlačují prsty. &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Na druhou stranu tyto psací potřeby stejně nemají ambice k intenzivnímu použití. Líbí se mi grafické zpracování, kdy už na první pohled je zřejmě, co je highlighter, co je pero a co kreslící potřeba. Intuitivně lze stejně odhadnout i barvu.&lt;/p&gt;
+
+&lt;h2&gt;Den 15: Psaní do Rocketbooku s Frixiony&lt;/h2&gt;
+
+&lt;p&gt;Po patnácti dnech se setkávájí Rocketbook a psací potřeby, takže &lt;strong&gt;mám poprvé příležitost všechno podrobovat zkouškám&lt;/strong&gt;. Už od začátku cítím určité výhody a už od začátku vnímám plno nedostatků. Nejprve bych začal u psacích potřeb:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pilot Frixion Paint&lt;/strong&gt; má příjemně úzkou stopu pro kreslení i psaní. Potíž je, že aby byla stopa výrazná, je nutné kreslit nebo psát docela pomalým tahem. Rychlejší psaní způsobuje, že je text bledější a hůře čitelný. Vyloženě rychlé psaní nebo kreslení většinou vůbec žádnou stopu nezanechá. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://cdn.miroslavholec.cz/articles/rocketbook/psaci-potreby-k-rocketbooku.png" alt="psací potřeby k rocketbooku" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Co je jednou napsáno v Rocketbooku celkem dobře drží, i když přes to občas šmatlám rukou. Text ale časem jak se osahává bledne. Tomu se prakticky nedá vyhnout, protože při psaní na větší stránce si člověk opírá o některé části stránky a obsahu ruku. Druhá potíž nastává při otáčení stránek, protože to se na text sahá "hrubou silou" a velmi snadno si člověk něco úplně odmázne. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pilot Frixion Colors&lt;/strong&gt; se silnější stopou funguje bezchybně jak při pomalém tak rychlejším tahu. Je to v podstatě taková klasická fixa. Oproti Paint má tu nevýhodu, že &lt;em&gt;*stopa zasychá delší dobu *&lt;/em&gt;(bavíme se až o minutě) a je náchylnější na smazání i rozmazání rukou. Pokud nenechám stopu zaschnout a po půl minutě otočím stránku, stopa se otiskne na stránku protější. Tuto potíž jsem zaznamenal i několik minut po zaschnutí. Jak se stránky o sebe třou, nachytává jedna od druhé obsah, zatímco druhá bledne. Při velmi lehkém přejíždění prstem obsah mizí (což se u Frixion Paint neděje).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pilot Frixion Light&lt;/strong&gt; nakonec nemá moc velké využití. Dělá velmi silnou stopu a slouží jen ke zvýrazňování. Protože ale stopa ostatních per je specifická a smazatelná, nejde logicky text zvýraznit přejetím přes text původní (jednak se původní text smaže a jednak se tím Frixion Light ušpiní). S Pilot Frixion jde tedy pouze &lt;strong&gt;podtrhávat nebo si dávat důležité věci do rámečku&lt;/strong&gt;. Stopa &lt;strong&gt;zasychá po 10 vteřinách&lt;/strong&gt; a poté již drží a nemá tendenci se otiskovat na protější stránku, jako je tomu u Frixion Colors.&lt;/p&gt;
+
+&lt;p&gt;Když to tedy shrnu, &lt;strong&gt;každá psací potřeba vyniká minimálně jednou dost nepříjmnou nevýhodou&lt;/strong&gt;. S jednou se nedá psát rychle, druhá je náchylná na rozmazávání a poslední nemá moc využití jako zvýrazňovač (alespoň ne jako klasický). Důvod vidím v tom, že Rocketbook a Pilot Frixion jsou vlastně dva produkty. &lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Nevýhody psacích potřeb vznikají především proto, že jejich původním účelem je psaní na papír.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;A na papíře to dává naprostý smysl. Zatímco stopu perem většinou nechcete mazat (proto drží lépe), stopy od Frixionů na malování a podtrhávání jsou snadněji smazatelné, protože je to pro ně typické (něco si podtrhnu a časem už to mít podtržené nechci). &lt;/p&gt;
+
+&lt;h2&gt;Den 16. Scanování a mobilní aplikace Rocketbook&lt;/h2&gt;
+
+&lt;p&gt;První den jsem se neměl čas dostat k využití aplikace Rocketbook. Druhý den jsem měl již stránku popsanou a rozhodl jsem se vyzkoušet scanování a pokročilé funkce. Mým cílem bylo, aby se mi scan poslal do Droboxu a mohl jsem s ním dále pracovat. Aplikaci Rocketbook jsem stáhl z App Storu, kde je k dispozici zdarma. Aplikace obsahuje základní nastavení, volbu co se stane po scanování zaškrtnutých symbolů, historii scanů a samotné scanování. Ovládání aplikace mi přišlo divné a naprosto neintuitivní. Platí to o procesu scanování i odesílání. Nebudu zacházet do podrobností, protože popis něčeho tak neintuiviního a bezmozkovitě vytvořeného bych nenarval ani na stopadesát řádků. &lt;/p&gt;
+
+&lt;h3&gt;Kvalita scanu&lt;/h3&gt;
+
+&lt;p&gt;Když pominu šílené rozhraní aplikace a dostal jsem se k samotnému scanování, zajímala mě kvalita nascanovaných stránek. Abych to měl s čím porovnat, zkusil jsem pro scanování použít i aplikaci Scannable, kterou už dlouhou dobu používám pro scanování dokumentů.&lt;/p&gt;
+
+&lt;h3&gt;Scanování se Scannable (neoficiální aplikace)&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Kvalita scanu se Scannable je tradičně špičková, písmo je ostré a výrazné jako na papíře.&lt;/strong&gt; Scannable automaticky zvyšuje kontrast, takže pozadí je bílé jako čerstvě napadný sníh. Barevný text scannable rozlišuje na výbornou. Jedinou nepříjemností je, že oproti klasickému papíru má Scannable potíže najít okraje papíru, takže součástí scanu je občas i černý okraj nebo kroužková vazba. &lt;/p&gt;
+
+&lt;h3&gt;Scanování s Rocketbook (oficiální aplikace)&lt;/h3&gt;
+
+&lt;p&gt;Kvalita scanu s oficiální aplikací Rocketbook je naprosto zoufalá. Tím chci říct, že &lt;strong&gt;scan je nepoužitelný.&lt;/strong&gt; &lt;strong&gt;Text je silně rozmazaný&lt;/strong&gt; v drtivé většině případů. &lt;strong&gt;Nejlepší scany jsou na hranici úrovně "čitelné".&lt;/strong&gt; Pozadí je z určité části bílé ale z velké části (tam, kde padne stín) je &lt;strong&gt;pozadí žlutohnědé !!!!&lt;/strong&gt; Jediné plus je schopnost rozeznat okraje papíru (součástí scanu není rámeček ani vazba). Oficiální aplikaci jsem okamžitě odinstaloval, protože je to výsměch 21. století.&lt;/p&gt;
+
+&lt;p&gt;Obrázek 1: velmi dobré světelné podmínky (rocketbook vlevo, scannable vpravo)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://cdn.miroslavholec.cz/articles/rocketbook/scan-velmi-dobre-podminky.png" alt="Scan velmi dobre podminky" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Obrázek 2: běžné světelné podmínky (rocketbook vlevo, scannable vpravo)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://cdn.miroslavholec.cz/articles/rocketbook/bezne-svetelne-podminky.png" alt="Běžné světelné podminky" title="" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Obrázek 3: horší světelné podmínky - stínění (rocketbook vlevo, scannable vpravo)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://cdn.miroslavholec.cz/articles/rocketbook/horsi-svetelne-podminky.png" alt="Horší světelné podmínky" title="" /&gt;&lt;/p&gt;
+
+&lt;h2&gt;Den 21. Frixion Ball&lt;/h2&gt;
+
+&lt;p&gt;Vzhledem k tomu, že jediná pro mě smysluplná psací potřeba s Rocketbook je Frixion Paint rozhodl jsem se dokoupit i druhou barvu a podobný &lt;strong&gt;Frixion Ball&lt;/strong&gt; s o něco širší stopou na psaní. Zatímco Frixion Paint v červené barvě nezklamal, Frixion Ball mě vůbec nepotěšil. Největší potíž je v tom, že při psaní se hodně špatně nanáší barva, takže cca 30% stopy úplně chybí a zbytek je spíše mdlý. V konečném důsledku má tah nekonzistentní tloušťku a přibližuje se k Frixion Paint s tím rozdílem, že někde je tah silný a někde vůbec není. Frixion Ball není vhodný pro Rocketbook, ale zase na klasickém papíře je docela výrazný a dá se dobře smazat.&lt;/p&gt;
+
+&lt;h2&gt;Závěry a konečné hodnocení (den 35.)&lt;/h2&gt;
+
+&lt;p&gt;V článku jsem se snažil sepsat chronologicky mé zkušenosti a postřehy k Rocketbooku Color. Samotný Rocketbook aktuálně používám celkem intenzivně, především při zápisech ze schůzek, údržbě seznamu úkolů dne a kreslení myšlenkových map. Velkou výhodou je možnost prstem nebo druhou stranou psací potřeby smazat cokoliv, co se mi nehodí bez složitého škrtání nebo přejíždění korekční páskou. Rocketbook jako takový mi vyhovuje a plní to, proč jsem si jej pořídil. Zároveň musím zkritizovat některé drobnosti, které mi vadí. Ze všech psacích potřeb (které mají univerzální užití) je použitelná prakticky jen Frixion Paint, která dostatečně rychle zaschne, nerozmazává a drží. Všechny ostatní psací potřeby mají buď nevýraznou stopu nebo se rozmazávají a to i hodiny po tom, co se Rocketbook zavře. Oficiální aplikace je naprosto nepoužitelná, neintuitivní a neschopná nascanovat čitelný snímek. Řešením je tedy použití aplikace Scannable, jejíž využití je univerzální a jedinou nevýhodou je scan obsahující okraje stránky nebo / a vazbu.&lt;/p&gt;
+
+&lt;p&gt;Kdybych byl postaven před volbu nákupu nyní, zřejmě bych upřednostnil klasický papírový sešit, na kterém nejsem omezen psacími potřebami a scanovat mohu stejně jako v případě Rocketbooku. Výhodou Rocketbooku a důvodem použití je hlavně možnost sahat do napsaného. Vzhledem k tomu, že se ale jedná o funkčnost samotných Frixionů, toho stejného by šlo docílit v kombinaci klasický papír + Frixion bez omezení na psací potřeby. Využití Rocketbooku je tedy i v mém případě dost omezené a jeho nákup vřele nedoporučuji.&lt;/p&gt;
+
+&lt;h3&gt;Výhody&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;možnost smazat text ze stránky prstem&lt;/li&gt;
+&lt;li&gt;pestrost stránek (bílé, linkované, čtvercový poklad)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Nevýhody&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;většina psacích potřeb neplní svou funkci (nepíšou, vynechávají, rozmazávají se)&lt;/li&gt;
+&lt;li&gt;u některých psacích potřeb se text rozmazává i hodiny po napsání pouhou manipulací se sešitem&lt;/li&gt;
+&lt;li&gt;smazání textu po pár dnech je náročné u Frixion Paint, je třeba hodně přitlačit&lt;/li&gt;
+&lt;li&gt;počet stránek je relativně malý&lt;/li&gt;
+&lt;li&gt;po 40 dnech se při nošení v batohu začínají ohýbat rohy a odlupovat fólie&lt;/li&gt;
+&lt;li&gt;po smazaném textu zůstávají ve fólii vrypy, text je možné zpětně přečíst, rychlé opotřebovávání&lt;/li&gt;
+&lt;li&gt;písmo po naskenování aplikací Rocketbook je rozmazané, pozadí v místě stínů tmavé do žlutohněda&lt;/li&gt;
+&lt;li&gt;vzhledem k odhadované životnosti velmi nešetrné k životnímu prostředí (plast, kam se podíváš)&lt;/li&gt;
+&lt;/ul&gt;&lt;img src="http://feeds.feedburner.com/~r/miroslavholec/~4/r8k6Wzpv5J4" height="1" width="1" alt=""/&gt;</description>
+<pubDate>Mon, 20 Aug 2018 07:02:03 GMT</pubDate>
+<enclosure url="https://cdn.miroslavholec.cz/articles/rocketbook/rocketbook-kniha.png" type="image/jpg" />
+<guid isPermaLink="false">https://www.miroslavholec.cz/blog/zkusenosti-s-rocketbook-znovupouzitelnym-chytrym-sesitem</guid>
+<feedburner:origLink>https://www.miroslavholec.cz/blog/zkusenosti-s-rocketbook-znovupouzitelnym-chytrym-sesitem</feedburner:origLink></item>
+</channel>
+</rss>

@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Medio Blog</title>
+	<atom:link href="https://blog.medio.cz/feed" rel="self" type="application/rss+xml" />
+	<link>https://blog.medio.cz</link>
+	<description></description>
+	<lastBuildDate>
+	Fri, 16 Mar 2018 16:34:32 +0000	</lastBuildDate>
+	<language>cs-CZ</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.1.1</generator>
+	<item>
+		<title>Zóny: Velká novinka v Google Tag Manageru</title>
+		<link>https://blog.medio.cz/google-tag-manager-zones</link>
+				<comments>https://blog.medio.cz/google-tag-manager-zones#respond</comments>
+				<pubDate>Fri, 16 Mar 2018 14:15:31 +0000</pubDate>
+		<dc:creator><![CDATA[Lukáš Štěpka]]></dc:creator>
+				<category><![CDATA[Analytika]]></category>
+		<category><![CDATA[Google Tag Manager]]></category>
+
+		<guid isPermaLink="false">https://blog.medio.cz/?p=4826</guid>
+				<description><![CDATA[Největší inovace Google Tag Manageru za posledních několik let je tady. Včera byla zveřejněna funkcionalita tzv. Zón („Zones“). Pojďme se podívat podrobněji, oč jde a jaké využití nabízí. Jedná se o velmi užitečnou a praktickou věc pro Tag Management především rozsáhle strukturovaných či vícejazyčných webů.]]></description>
+								<content:encoded><![CDATA[<p><span style="font-weight: 400;">Největší inovace Google Tag Manageru za posledních několik let je tady. Včera byla zveřejněna funkcionalita tzv. </span><i><span style="font-weight: 400;">Zón</span></i><span style="font-weight: 400;"> („</span><i><span style="font-weight: 400;">Zones“</span></i><span style="font-weight: 400;">). Pojďme se podívat podrobněji, oč jde a jaké využití nabízí.</span></p>
+<p><span style="font-weight: 400;">Jedná se o velmi užitečnou a praktickou věc pro Tag Management především rozsáhle <strong>strukturovaných či vícejazyčných webů</strong>. Ohromné výhody také přinášejí z hlediska udělování oprávnění k editace a publikaci změn v GTM.</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Váháte, zda přidělovat marketingovému oddělení a dodavatelským agenturám práva na publikaci změn, které ve vašem GTM dělají?</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Mají vaši vývojáři obavy, že „jim zas nějakej markeťák rozbije kód“?</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Řešili jste někdy dilema, zda na několik oddělených, ale obsahově podobných webů nasadit samostatné, ale konfigurací velmi podobné GTM kontejnery? </span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Dostali jste se z jiného důvodu do situace, kdy jste potřebovali nakonfigurovat podobným způsobem větší množství </span><i><span style="font-weight: 400;">Značek </span></i><span style="font-weight: 400;">(</span><i><span style="font-weight: 400;">Tags</span></i><span style="font-weight: 400;">) v rámci jednoho kontejneru, a nešlo to vyřešit společným triggerem? </span></li>
+</ul>
+<p><i><span style="font-weight: 400;">Zóny</span></i><span style="font-weight: 400;"> Google Tag Manageru vám mohou pomoci s řešením všech těchto situací.</span></p>
+<h2><span style="font-weight: 400;">O co jde?</span></h2>
+<p><span style="font-weight: 400;"><img class=" alignright wp-image-146 size-full" src="http://www.andreheller.cz/blog/wp-content/uploads/2018/03/screenshot-vytvoření.png" alt="screenshot vytvoření" width="359" height="513" /></span></p>
+<p><span style="font-weight: 400;">Pomocí </span><i><span style="font-weight: 400;">Zón</span></i><span style="font-weight: 400;"> lze v Google Tag Manager kontejneru používat oddělené „oblasti“, z nichž se každá chová jako samostatný celek. Vybraným uživatelům můžete udělit přístupy pouze do těch zón, ve kterých se nachází jimi spravované </span><i><span style="font-weight: 400;">značky</span></i><span style="font-weight: 400;">. Stejně tak lze nastavit podmínky pro spouštění jednotlivých </span><i><span style="font-weight: 400;">Zón </span></i><span style="font-weight: 400;">stejným způsobem, jako se nastavují u běžných </span><i><span style="font-weight: 400;">Pravidel</span></i><span style="font-weight: 400;">.</span></p>
+<p><i><span style="font-weight: 400;">Zóna</span></i><span style="font-weight: 400;"> prakticky představuje jeden nebo více <strong>běžných GTM kontejnerů</strong>. Ty se ovšem nevkládají přímo do webu způsobem, jakým jsme zvyklí. O jejich vložení do kódu webu a vyvolání obsažených </span><i><span style="font-weight: 400;">Značek</span></i><span style="font-weight: 400;"> se postará právě </span><i><span style="font-weight: 400;">Zóna</span></i><span style="font-weight: 400;">, resp. kontejner, ve kterém je nastavena. Kontejnery jsou na sobě nezávislé, disponují samostatnou sadou </span><i><span style="font-weight: 400;">proměnných</span></i><span style="font-weight: 400;"> a mohou mít nastavena různá uživatelská oprávnění. Používají ovšem <strong>společný dataLayer</strong>.</span></p>
+<p><i><span style="font-weight: 400;">Zónu</span></i><span style="font-weight: 400;"> jednoduše vytvoříte a nakonfigurujete přímo v rozhraní GTM, v poslední záložce levého menu.</span></p>
+<h2><span style="font-weight: 400;">Pro koho?</span></h2>
+<p><i><span style="font-weight: 400;">Zóny</span></i><span style="font-weight: 400;"> jsou v tuto chvíli k dispozici ve všech kontejnerech </span><b>Google Tag Manager 360</b><span style="font-weight: 400;">, který je součástí placeného balíku Google Analytics 360 Suite nebo jej lze zakoupit i samostatně. V neplacené variantě Google Tag Manageru </span><i><span style="font-weight: 400;">Zóny</span></i><span style="font-weight: 400;"> k dispozici nejsou a zřejmě to není ani do budoucna v plánu. To ostatně odpovídá i celkovému určení této funkcionality. Ta je svým zaměřením vhodná právě zejména pro rozsáhlé weby, které využijí i další výhody 360 Suite.</span></p>
+<h2><span style="font-weight: 400;">K čemu to lze v GTM použít?</span></h2>
+<p><span style="font-weight: 400;">Pojďme se podívat na konkrétní možnosti využití. Typickým příkladem je situace, kdy určitým uživatelům chcete umožnit zásahy jen do vybrané části </span><i><span style="font-weight: 400;">značek,</span></i><span style="font-weight: 400;"> vyvolávaných na vašem webu. Nechcete, aby agentura spravující váš Facebook měla možnost měnit nastavení měření do<strong> Google Analytics</strong>?</span></p>
+<p><a href="http://www.andreheller.cz/blog/wp-content/uploads/2018/03/screenshot-omezení-typů.png"><img class=" wp-image-145 size-full aligncenter" src="http://www.andreheller.cz/blog/wp-content/uploads/2018/03/screenshot-omezení-typů.png" alt="screenshot omezení typů" width="706" height="450" /></a></p>
+<p><span style="font-weight: 400;">Vytvořte </span><i><span style="font-weight: 400;">zónu</span></i><span style="font-weight: 400;">, kde budou umístěny veškeré </span><i><span style="font-weight: 400;">značky</span></i><span style="font-weight: 400;"> související s Facebookem, a agentuře udělte přístupy pouze do ní. Navíc můžete nastavit i přesná omezení, jaké typy </span><i><span style="font-weight: 400;">značek</span></i><span style="font-weight: 400;">, </span><i><span style="font-weight: 400;">pravidel</span></i><span style="font-weight: 400;"> a </span><i><span style="font-weight: 400;">proměnných</span></i><span style="font-weight: 400;"> budou v dané </span><i><span style="font-weight: 400;">zóně</span></i><span style="font-weight: 400;"> povolené. Tím lze efektivně zabránit například konfliktům kódu samotného webu s obsahem </span><i><span style="font-weight: 400;">Custom HTML </span></i><span style="font-weight: 400;">značek a </span><i><span style="font-weight: 400;">Custom JavaScript</span></i><span style="font-weight: 400;"> proměnných.</span></p>
+<p><a href="http://www.andreheller.cz/blog/wp-content/uploads/2018/03/screenshot-omezení-proměnných.png"><img class="aligncenter wp-image-144 size-full" src="http://www.andreheller.cz/blog/wp-content/uploads/2018/03/screenshot-omezení-proměnných.png" alt="screenshot omezení proměnných" width="611" height="620" /></a></p>
+<p>&nbsp;</p>
+<p><span style="font-weight: 400;">Máte několik oddělených jazykových mutací jednoho webu? Můžete centrále udělit výhradní právo na správu společných částí GTM – jediného kontejneru. Pro každý marketingový tým v daném regionu pak vytvoříte </span><i><span style="font-weight: 400;">zónu</span></i><span style="font-weight: 400;">, kde bude moci svá nastavovat svá specifická měření. To zároveň přinese velkou úsporu času ve chvíli, kdy potřebujete změnit nastavení některého z tagů, které jsou společné pro všechny weby.</span></p>
+<p><span style="font-weight: 400;">Částečně šlo podobné situace řešit jediným společným kontejnerem a používáním pokročilých </span><i><span style="font-weight: 400;">Pravidel</span></i><span style="font-weight: 400;"> již teď. Pokročilejší, ale méně praktickou a spolehlivou možností bylo také vkládání jednoho kontejneru do druhého skrz </span><i><span style="font-weight: 400;">Custom HTML</span></i><span style="font-weight: 400;">.</span><i><span style="font-weight: 400;"> Zóny</span></i><span style="font-weight: 400;"> ale přináší výrazně větší flexibilitu v nastavení, snazší ovládání pro méně zkušené uživatele (přístup pouze do konkrétní </span><i><span style="font-weight: 400;">zóny</span></i><span style="font-weight: 400;">) a nižší riziko chyby s fatálními následky.</span></p>
+<h2><span style="font-weight: 400;">Co dál?</span></h2>
+<p><span style="font-weight: 400;">Jsou </span><i><span style="font-weight: 400;">Zóny</span></i><span style="font-weight: 400;"> v Google Tag Manageru funkcí, kterou musíte okamžitě začít používat a propadnout hluboké depresi, pokud ji k dispozici nemáte? Rozhodně ne. Ale v každém případě jde o užitečnou záležitost a výraznou inovaci GTM. Asi jen v málo případech bude dávat smysl nasazovat ji do konfigurace stávajících kontejnerů, ale určitě je dobré ji využít při návrhu nových implementací. </span></p>
+<p><i><span style="font-weight: 400;">Zóny</span></i><span style="font-weight: 400;"> přináší zásadní výhody ve správě oprávnění u kontejnerů využívaných více stranami, zvýšení bezpečnosti skrze omezení typů entit v jednotlivých zónách a větší flexibilitu tag managementu u rozsáhlých vícedoménových webů. To vše z nich dělá bezpochyby jednu z<strong> nejužitečnějších a nejvýraznějších změn</strong>, kterými Google Tag Manager v posledních letech prošel.</span></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+							<wfw:commentRss>https://blog.medio.cz/google-tag-manager-zones/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>Kalendář akcí v internetovém marketingu pro rok 2018</title>
+		<link>https://blog.medio.cz/kalendar-akci-v-internetovem-marketingu-pro-rok-2018</link>
+				<comments>https://blog.medio.cz/kalendar-akci-v-internetovem-marketingu-pro-rok-2018#comments</comments>
+				<pubDate>Tue, 09 Jan 2018 10:31:43 +0000</pubDate>
+		<dc:creator><![CDATA[Jan Tichý]]></dc:creator>
+				<category><![CDATA[Medio Interactive]]></category>
+		<category><![CDATA[Konference]]></category>
+		<category><![CDATA[Přednášky]]></category>
+
+		<guid isPermaLink="false">https://blog.medio.cz/?p=4813</guid>
+				<description><![CDATA[Dali jsme dohromady asi nejkompletnější kalendář připravovaných konferencí, workshopů a dalších akcí z oblasti internetového marketingu v nadcházejícím roce. Zejméma u vzdálenějších události berte data s rezervou, mohou se ještě měnit. ]]></description>
+								<content:encoded><![CDATA[<p>Dali jsme dohromady asi nejkompletnější kalendář připravovaných konferencí, workshopů a dalších akcí z oblasti internetového marketingu v nadcházejícím roce. Zejméma u vzdálenějších události berte data s rezervou, mohou se ještě měnit. Nejisté a zatím nepotvrzené termíny jsou uzavřené do závorek, ty považujte opravdu jen za velmi orientační.</p>
+<p><iframe src="https://calendar.google.com/calendar/b/0/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=2&amp;hl=cs&amp;bgcolor=%23FFFFFF&amp;src=medio.cz_9ejqlithc4cb50ih9goh8ce0r0%40group.calendar.google.com&amp;color=%23B1440E&amp;ctz=Europe%2FPrague" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe></p>
+<p>Pokud chcete mít přehled neustále při ruce, můžete si ho připojit přímo do svého kalendáře.</p>
+<p>ID kalendáře:<br />
+<a href="mailto:medio.cz_9ejqlithc4cb50ih9goh8ce0r0@group.calendar.google.com">medio.cz_9ejqlithc4cb50ih9goh8ce0r0@group.calendar.google.com</a></p>
+<p>Veřejná adresa URL tohoto kalendáře:<br />
+<a href="https://calendar.google.com/calendar/embed?src=medio.cz_9ejqlithc4cb50ih9goh8ce0r0%40group.calendar.google.com&amp;ctz=Europe%2FPrague">https://calendar.google.com/calendar/embed?src=medio.cz_9ejqlithc4cb50ih9goh8ce0r0%40group.calendar.google.com&amp;ctz=Europe%2FPrague</a></p>
+<p>Veřejná adresa ve formátu iCal:<br />
+<a href="https://calendar.google.com/calendar/ical/medio.cz_9ejqlithc4cb50ih9goh8ce0r0%40group.calendar.google.com/public/basic.ics">https://calendar.google.com/calendar/ical/medio.cz_9ejqlithc4cb50ih9goh8ce0r0%40group.calendar.google.com/public/basic.ics</a></p>
+]]></content:encoded>
+							<wfw:commentRss>https://blog.medio.cz/kalendar-akci-v-internetovem-marketingu-pro-rok-2018/feed</wfw:commentRss>
+		<slash:comments>9</slash:comments>
+							</item>
+		<item>
+		<title>SEO restart 2017 prezentace a odkazy</title>
+		<link>https://blog.medio.cz/seo-restart-2017-prezentace-a-odkazy</link>
+				<comments>https://blog.medio.cz/seo-restart-2017-prezentace-a-odkazy#comments</comments>
+				<pubDate>Mon, 19 Jun 2017 07:22:43 +0000</pubDate>
+		<dc:creator><![CDATA[Zdeněk Nešpor]]></dc:creator>
+				<category><![CDATA[Internetový marketing]]></category>
+		<category><![CDATA[Data]]></category>
+		<category><![CDATA[Medio]]></category>
+		<category><![CDATA[SEO]]></category>
+		<category><![CDATA[SEO restart]]></category>
+
+		<guid isPermaLink="false">https://blog.medio.cz/?p=4741</guid>
+				<description><![CDATA[V pátek 16. června 2017 se konal pátý ročník konference SEO restart. Ve článku naleznete prezentace z přednášek, fotogalerii a spoustu zajímavých odkazů.]]></description>
+								<content:encoded><![CDATA[<p>V pátek 16. června 2017 se konal pátý ročník konference <a href="https://www.seorestart.cz/">SEO restart</a>. Ve článku naleznete prezentace z přednášek, fotogalerii a spoustu zajímavých odkazů.</p>
+<p><b>Prosíme, vyplňte nám <a href="https://docs.google.com/a/medio.cz/forms/d/e/1FAIpQLSeaKMgwGkfW6TQMUrouro0BJaG4dka-oztBCO2XSTR3FMz4Cg/viewform" target="_blank" rel="nofollow">dotazník</a>, ať víme, co můžeme do příště vylepšit.</b></p>
+<h2>Prezentace</h2>
+<p><strong>Jan Tichý:</strong> prezentace <a href="https://www.slideshare.net/mediocz/seo-v-multichannel-svt" target="_blank" rel="nofollow">SEO v multichannel světě</a><br />
+<strong>Marie Štouračová:</strong> prezentace <a href="https://www.slideshare.net/RobertNemeccom/jak-se-dostat-do-featured-snippets-seo-restart-2017" target="_blank" rel="nofollow">Co jsou Featured Snippets a jak se do nich dostat</a><br />
+<strong>Martin Šimko:</strong> prezentace <a href="https://www.slideshare.net/RobertNemeccom/rychla-analyza-zahranicnich-trhu" target="_blank" rel="nofollow">Rychlá analýza zahraničních trhů</a></p>
+<p><strong>Jan Kvasnička:</strong> prezentace <a href="https://www.slideshare.net/Jan_Kvasnicka/seo-a-ux-rivalov-nebo-parci-rozsekneme-to-seorestart-16-6-2017" target="_blank" rel="nofollow">SEO a UX: Rivalové, nebo parťáci? Rozsekneme to!</a><br />
+<strong>Martin Kůra:</strong> prezentace <a href="https://www.slideshare.net/MartinKra/lokalizace-webu-z-pohledu-seo-seo-restart-2017-77026880" target="_blank" rel="nofollow">Překlad vám zajistí přesnost. Kde je ale výkon?</a><br />
+<strong>Martin Humpál:</strong> prezentace <a href="https://www.slideshare.net/mediocz/https-vs-heureka-martin-humpl%20" target="_blank" rel="nofollow">HTTPS vs. Heureka</a></p>
+<p><strong>David Brenner:</strong> prezentace <a href="https://www.slideshare.net/mediocz/pripadova-studie-meyra-david-brenner" target="_blank" rel="nofollow">Případová studie: Jak jsme rozjeli invalidní vozíky</a><br />
+<strong>Vladimír Saur:</strong> prezentace <a href="https://www.slideshare.net/mediocz/crawl-budget-vladimr-saur" target="_blank" rel="nofollow">Crawl budget</a><br />
+<strong>Zdeněk Nešpor:</strong> prezentace <a href="https://www.slideshare.net/Chaoticum/brana-do-pekla-botu" target="_blank" rel="nofollow">Brána do pekla botů</a></p>
+<p><strong>Ondřej Bělský:</strong> prezentace <a href="https://www.slideshare.net/mediocz/lokalni-seo-ondej-blsk-77476589" target="_blank" rel="nofollow">Lokální SEO</a><br />
+<strong>Milan Fiala:</strong> prezentace <a href="https://www.slideshare.net/mediocz/deutsche-seo-milan-fiala" target="_blank" rel="nofollow">Deutsche SEO? Wunderbar!</a><br />
+<strong>Pavel Ungr:</strong> prezentace <a href="https://www.slideshare.net/PavelUngr/pestame-dlat-analzy-zanme-dlat-seo" target="_blank" rel="nofollow">Přestaňme dělat analýzy, začněme dělat SEO!</a></p>
+<h2>Zajímavé odkazy a tipy</h2>
+<p><a href="https://searchenginewatch.com/sew/how-to/2235624/do-know-go-how-to-create-content-at-each-stage-of-the-buying-cycle">Do, Know, Go: How to Create Content at Each Stage of the Buying Cycle</a></p>
+<p><a href="https://www.ulab.rocks/blog/infografika-dulezita-data-pro-export/">Infografika: Důležitá data pro export</a><br />
+<a href="https://docs.google.com/spreadsheets/d/1bzPZY3gyzBJWld718R_is4QA1PA22EKRaIHQ7e8B8QQ/edit#gid=1780643302">Termbase Keyword Brainstorming Blank</a><br />
+<a href="http://www.petrkrauz.com/preklad-vam-zajisti-presnost-martin-kura/">Překlad vám zajistí přesnost – Martin Kůra</a><br />
+<a href="https://docs.google.com/spreadsheets/d/1cLtJEqyxUe3e0vJNbTxodCOyJ3Y43yBDfDxIKh08qNw/edit#gid=0" target="_blank" rel="nofollow">Seznam německých blogů</a></p>
+<p><a href="http://pavelun.gr/seoanalyza-todo">Todo list pro SEO analýzu</a></p>
+<p><a href="http://www.oncrawl.com/how-to-do-log-file-analysis-for-free/">How to do log file analysis for free?</a></p>
+<p><a href="https://docs.google.com/spreadsheets/d/10QhWFmHYhZI7FL7cQZUqkDkRbexPVthEIfp8iibhA3s/edit#gid=1347705177">Google My Business Locations Categories</a><br />
+<a href="https://moz.com/local-search-ranking-factors" target="_blank" rel="nofollow">2017 Local Search Ranking Factors</a><br />
+<a href="http://searchengineland.com/10-local-link-building-tips-2016-240915" target="_blank" rel="nofollow">10 Local Link Building Tips for 2016</a></p>
+<p><a href="https://jakdelatseo.cz/checklist-pro-prechod-z-http-na-https/">Co si pohlídat při přechodu na HTTPS?</a><br />
+<iframe width="640" height="360" src="https://www.youtube.com/embed/d5aaP2FN7IE?rel=0" frameborder="0" allowfullscreen></iframe></p>
+<h2>Fotogalerie a Slido infografika</h2>
+<p><a href="https://www2.sli.do/event/lze2zrxj/infographic/c/9d8a" target="_blank" rel="nofollow">Sli.do infografika</a> &#8211; top dotazy a témata.</p>
+<p><iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fset%3Da.1571006382969324.1073741841.130184383718205%26type%3D3&#038;width=500" width="500" height="646" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></p>
+<h2>Ohlasy na SEO restart 2017</h2>
+<p><a href="https://twitter.com/hashtag/seorestart?f=tweets&#038;vertical=default&#038;src=hash" target="_blank" rel="nofollow">#SEOrestart</a></p>
+<blockquote class="twitter-tweet" data-cards="hidden" data-lang="cs">
+<p lang="cs" dir="ltr">Obrovské díky za organizaci <a href="https://twitter.com/hashtag/seorestart?src=hash">#seorestart</a> <a href="https://twitter.com/mediocz">@mediocz</a> a Terce :-) Byl to nejlepší ročník po všech stránkách! Skvělé přednášky i skvělé publikum. <a href="https://t.co/kkmKGA8swA">pic.twitter.com/kkmKGA8swA</a></p>
+<p>&mdash; Pavel Ungr <img src="https://s.w.org/images/core/emoji/11.2.0/72x72/1f50d.png" alt="🔍" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <img src="https://s.w.org/images/core/emoji/11.2.0/72x72/1f1e8-1f1ff.png" alt="🇨🇿" class="wp-smiley" style="height: 1em; max-height: 1em;" /> (@PavelUngr) <a href="https://twitter.com/PavelUngr/status/875787618906198016">16. června 2017</a></p></blockquote>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<blockquote class="twitter-tweet" data-lang="cs">
+<p lang="cs" dir="ltr">Zdá se, že <a href="https://twitter.com/hashtag/seorestart?src=hash">#seorestart</a> vstal z mrtvých. Letos super ročník, velká pochvala pro <a href="https://twitter.com/mediocz">@mediocz</a>. Super obsah, organizace perfektní (jen trošku kosa)</p>
+<p>&mdash; Martin Matějka (@martinmatejka) <a href="https://twitter.com/martinmatejka/status/875740919764537344">16. června 2017</a></p></blockquote>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<blockquote class="twitter-tweet" data-lang="cs">
+<p lang="cs" dir="ltr">Dle meho zatim, nejepsi <a href="https://twitter.com/hashtag/SEOrestart?src=hash">#SEOrestart</a> , na kterem jsem byla, co se kvality prednasek tyce. Big up vsem prednasejicim!</p>
+<p>&mdash; ŠárkaTyczka (@Sarka_Tyczka) <a href="https://twitter.com/Sarka_Tyczka/status/875735966408945664">16. června 2017</a></p></blockquote>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<h2>Reporty a články</h2>
+<p>Spotibo: <a href="https://blog.spotibo.com/seo-restart-2017/" target="_blank">Live Blogging at SEO restart in Prague</a><br />
+Spotibo: <a href="http://kuchyna.spotibo.com/live-blogging-a-linkbuilding-pripadova-studia/" target="_blank">Prípadová štúdia: Ako sme využili live blogging v SEO a propagácii</a><br />
+Petr Krauz: <a href="http://www.petrkrauz.com/probehl-seo-restart-2017-jaky-byl/" target="_blank">Proběhl SEO restart 2017 – jaký byl?</a><br />
+ANT studio: <a href="https://www.antstudio.cz/blog/seo-restart-2017-postrehy-a-zajimavosti/" target="_blank">SEO restart 2017 &#8211; postřehy a zajímavosti</a><br />
+Daniel Gottwald: <a href="http://danielg.cz/seo-restart-2017/" target="_blank">SEO restart 2017</a><br />
+Unikum blog: <a href="http://www.unikum.cz/blog/seo-restart-2017-menej-teorie-viac-praxe/" target="_blank">SEO Restart 2017 – menej teórie, viac praxe</a><br />
+GetFound: <a href="http://getfound.cz/blog/konference-seo-restart-2017/" target="_blank">Konference SEO restart 2017</a><br />
+Webžurnál.cz: <a href="https://webzurnal.cz/seo/seo-restart-2017-nej-prednasky-odkazy/" target="_blank">SEO Restart 2017 od Medio – To NEJ + odkazy</a><br />
+SEMonline.cz: <a href="http://semonline.cz/seo-restart-2017/" target="_blank">Skvělé přednášky ze SEO Restart 2017</a><br />
+Smartim: <a href="https://www.smartim.cz/blog/seo-restart-2017/" target="_blank">SEO restart 2017 &#8211; jedna z největších SEO konferencí v ČR</a><br />
+INIZIO: <a href="http://blog.inizio.cz/seo-restart-2017/" target="_blank">SEO restart 2017</a><br />
+H1: <a href="http://blog.h1.cz/aktualne/seo-restart-2017/" target="_blank">SEO restart 2017</a><br />
+Sunitka.cz: <a href="http://www.sunitka.cz/c/1065-jak-jsme-se-restartovali-na-seo-restart-2017" target="_blank">Jak jsme se restartovali na SEO Restart 2017</a><br />
+Dobrý web: <a href="http://blog.dobryweb.cz/seo-restart-2017-aneb-seo-jako-multiobor" target="_blank">SEO restart 2017 aneb SEO jako multiobor</a><br />
+Aira: <a href="http://blog.aira.cz/konference-seo-restart-2017-o-vyhledavani-nalezani" target="_blank">Konference SEO restart 2017 o vyhledávání a nalézání</a><br />
+Effectix: <a href="https://www.effectix.com/cs/restart-seo-restartu/" target="_blank">Restart SEO restartu?</a></p>
+<p>&#8212;</p>
+<p><em>Poslední aktualizace proběhla 30. srpna 2017.</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://blog.medio.cz/seo-restart-2017-prezentace-a-odkazy/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+							</item>
+		<item>
+		<title>DATA restart 2017 prezentace a odkazy</title>
+		<link>https://blog.medio.cz/data-restart-2017-prezentace-a-odkazy</link>
+				<comments>https://blog.medio.cz/data-restart-2017-prezentace-a-odkazy#comments</comments>
+				<pubDate>Tue, 11 Apr 2017 06:00:14 +0000</pubDate>
+		<dc:creator><![CDATA[Zdeněk Nešpor]]></dc:creator>
+				<category><![CDATA[Internetový marketing]]></category>
+
+		<guid isPermaLink="false">https://blog.medio.cz/?p=4699</guid>
+				<description><![CDATA[V pátek 7. dubna 2017 se konal třetí ročník konference DATA restart. Ve článku naleznete prezentace z přednášek, fotogalerii a spoustu zajímavých odkazů.]]></description>
+								<content:encoded><![CDATA[<p>V pátek 7. dubna 2017 se konal třetí ročník konference <a href="https://www.datarestart.cz/">DATA restart</a>. Ve článku naleznete prezentace z přednášek, fotogalerii a spoustu zajímavých odkazů.</p>
+<p><b>Prosíme, vyplňte nám <a href="https://docs.google.com/a/medio.cz/forms/d/e/1FAIpQLSdrFdZNvNATlVem10pJl34Xdlbs_BYJCbBbbSGooEaqwH6zrw/viewform" target="_blank" rel="nofollow">dotazník</a>, ať víme, co můžeme do příště vylepšit.</b></p>
+<h2>Prezentace</h2>
+<p><strong>Lukáš Jirát:</strong> prezentace <a href="https://www.slideshare.net/mediocz/automatizace-klientskeho-reportingu" target="_blank" rel="nofollow">Automatizace klientského reportingu</a><br />
+<strong>Martin Matějka:</strong> prezentace <a href="https://www.slideshare.net/mediocz/automaticka-analyza-a-vizualizace-textu" target="_blank" rel="nofollow">Automatická analýza a vizualizace textu</a><br />
+<strong>Pavel Jašek:</strong> prezentace <a href="https://docs.google.com/presentation/d/1HIEm5f-S1W5yrmgGQhyjNDA_S9KjjanfBgRz0MI5HsI" target="_blank" rel="nofollow">Modely pro predikci Customer Lifetime Value</a></p>
+<p><strong>Jan Matoušek:</strong> prezentace <a href="https://www.slideshare.net/mediocz/pokrocila-segementace-webovych-navstevniku" target="_blank" rel="nofollow">Pokročilá segmentace webových návštěvníků</a><br />
+<strong>Lukáš Uhl:</strong> prezentace <a href="https://www.slideshare.net/mediocz/akvizice-a-retence-zakazniku" target="_blank" rel="nofollow">Akvizice a retence zákazníků: jak počítat, co se vyplatí</a><br />
+<strong>André Heller:</strong> prezentace <a href="https://www.slideshare.net/mediocz/stornovani-transakci-v-ga" target="_blank" rel="nofollow">Stornování transakcí v Google Analytics</a></p>
+<p><strong>Eva Škorničková:</strong> prezentace <em>GDPR aneb co nás čeká a nemine</em> nebude zveřejněna<br />
+<strong>Šárka Ludvíková a Vít Mrňávek:</strong> prezentace <a href="https://www.slideshare.net/mediocz/ukazte-svoje-data-v-google-data-studiu" target="_blank" rel="nofollow">Ukažte svá data v Google Data Studio</a><br />
+<strong>Veronika Miňovská:</strong> prezentace <a href="https://prezi.com/kye0wua_edkw/machine-learning-v-cdn77/" target="_blank" rel="nofollow">Využití strojového učení ke klasifikaci leadů</a></p>
+<p><strong>Jan Tichý:</strong> prezentace <a href="https://www.slideshare.net/mediocz/zakaznicka-data-v-google-analytics" target="_blank" rel="nofollow">Zákaznická data v Google Analytics</a><br />
+<strong>Radek Hudák:</strong> prezentace <a href="https://docs.google.com/presentation/d/1KWQ203h9G69k4jkWQszXiVfkd_IaozJpWKEHvfSPghI" target="_blank" rel="nofollow">Atribuce prakticky</a><br />
+<strong>Honza Mayer:</strong> prezentace <a href="https://www.slideshare.net/mediocz/co-si-muzes-udelat-sam-v-power-bi" target="_blank" rel="nofollow">Co si můžeš udělat sám v PowerBI</a> a <a href="https://drive.google.com/file/d/0B2CDFJ3cmEa_cFV3UUpVNkRqb0k/view" target="_blank" rel="nofollow">PowerBI dashboard</a> ke stažení.</p>
+<h2>Zajímavé odkazy a tipy</h2>
+<p><a href="http://www.kdnuggets.com/" target="_blank">KDnuggets.com</a> &#8211; web o analytice, big data, data miningu a data science.</p>
+<p><a href="https://www.gdpr.cz/" target="_blank">GDPR.cz</a> &#8211; web Evy Škorničkové o GDPR.<br />
+<a href="https://www.safetica.cz/blog/46-otazek-a-odpovedi-ke-gdpr/" target="_blank">46 otázek a odpovědí ke GDPR</a> &#8211; dotazy z webináře Mgr. Mateje Zachara a Mgr. Evy Škorníčkové.</p>
+<p><a href="https://gabooster.medio.cz/" target="_blank">GA Booster</a> &#8211; nástroj na stornování transakcí v Google Analytics.<br />
+<a href="https://ga-dev-tools.appspot.com/hit-builder/" target="_blank" rel="nofollow">GA Hit Builder</a> &#8211; nástroj na tvorbu a validaci hitů Measurement protokolu.</p>
+<p><a href="http://honzamayer.cz/" target="_blank">Školení Power BI</a> &#8211; zaujala vás přednáška Honzy Mayera? Zajděte na jeho školení.</p>
+<blockquote class="twitter-tweet" data-lang="cs">
+<p dir="ltr" lang="cs">Užitečné odkazy z přednášky Martina Matějky na <a href="https://twitter.com/hashtag/DATArestart?src=hash">#DATArestart</a> + <a href="https://twitter.com/keboola">@keboola</a> promo kód. <a href="https://t.co/nXhkkqr2f8">pic.twitter.com/nXhkkqr2f8</a></p>
+<p>— Medio Interactive (@mediocz) <a href="https://twitter.com/mediocz/status/850261998734528513">7. dubna 2017</a></p></blockquote>
+<h2>Fotogalerie a Slido infografika</h2>
+<p><a href="https://www2.sli.do/event/cw278wmy/infographic/c/8122" target="_blank" rel="nofollow">Sli.do infografika</a> &#8211; top dotazy a témata.</p>
+<p><iframe width="500" height="645" style="border: none; overflow: hidden;" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedia%2Fset%2F%3Fset%3Da.1467792813290682.1073741840.130184383718205%26type%3D3&amp;width=500" scrolling="no" frameborder="0" allowtransparency="true"></iframe></p>
+<h2>Ohlasy na DATA restart 2016</h2>
+<blockquote class="twitter-tweet" data-lang="cs">
+<p dir="ltr" lang="cs">Letošní <a href="https://twitter.com/hashtag/datarestart?src=hash">#datarestart</a> byl s přehledem nejlepší konference, na které jsem byl. Organizačně a hlavně skvělý obsah &#8211; bez jediného hluchého místa</p>
+<p>— Petr Soukup (@petrsoukup) <a href="https://twitter.com/petrsoukup/status/850390787108077573">7. dubna 2017</a></p></blockquote>
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="cs">
+<p dir="ltr" lang="cs"><a href="https://twitter.com/RadekOnLoyalty">@RadekOnLoyalty</a> <a href="https://twitter.com/lukas_uhl">@lukas_uhl</a> Promin, pochopil jsem to obracene. Diky. To jo, ja jsem si <a href="https://twitter.com/hashtag/dataRestart?src=hash">#dataRestart</a> naramne uzil. <a href="https://twitter.com/hashtag/kohorty?src=hash">#kohorty</a> <a href="https://twitter.com/hashtag/atribuce?src=hash">#atribuce</a> <a href="https://twitter.com/hashtag/AnalyzyTextu?src=hash">#AnalyzyTextu</a>. Tedy az na <a href="https://twitter.com/hashtag/GDPR?src=hash">#GDPR</a>. :)</p>
+<p>— Michal Krutiš (@krutis) <a href="https://twitter.com/krutis/status/850588224875528192">8. dubna 2017</a></p></blockquote>
+<blockquote class="twitter-tweet" data-lang="cs">
+<p dir="ltr" lang="cs">Letošní <a href="https://twitter.com/hashtag/dataRestart?src=hash">#dataRestart</a> nabízí štědrou dávku informací. Pozorně nasloucháme a píšeme si za uši podněty ke klientským analýzám. :) <a href="https://t.co/anKy55VNWv">pic.twitter.com/anKy55VNWv</a></p>
+<p>— PeckaDesign (@peckadesign) <a href="https://twitter.com/peckadesign/status/850316920402432001">7. dubna 2017</a></p></blockquote>
+<blockquote class="twitter-tweet" data-lang="cs">
+<p dir="ltr" lang="cs"><a href="https://twitter.com/ParizekKarel">@ParizekKarel</a>, Klára Zmeškalová a <a href="https://twitter.com/JanSysala">@JanSysala</a> ani nestíhají nadšením tweetovat, ovšem pro fotku najdou čas vždycky :). <a href="https://twitter.com/hashtag/DATArestart?src=hash">#DATArestart</a> <a href="https://twitter.com/hashtag/thumbsup?src=hash">#thumbsup</a> <a href="https://t.co/cKun8Xi7sK">pic.twitter.com/cKun8Xi7sK</a></p>
+<p>— Blueberry (@blueberry_cz) <a href="https://twitter.com/blueberry_cz/status/850291631102337024">7. dubna 2017</a></p></blockquote>
+<p><script src="//platform.twitter.com/widgets.js" async="" charset="utf-8"></script></p>
+<h2>Reporty a články</h2>
+<p>GetFound: <a href="http://getfound.cz/blog/konference-data-restart-2017/" target="_blank">Konference DATA Restart 2017</a><br />
+Lady Virtual: <a href="https://www.ladyvirtual.cz/datarestart-2017-data-google-data-studio/" target="_blank">Jaká byla konference DATA RESTART 2017 aneb ukažte data (třeba v Google Data Studio)</a><br />
+Effectix: <a href="https://www.effectix.com/cs/ohlednuti-za-datarestart-2017/" target="_blank">Ohlédnutí za DataRestart 2017</a><br />
+Sunitka: <a href="http://www.sunitka.cz/c/1043-data-vsude-kolem-na-data-restart-2017/" target="_blank">Data všude kolem na DATA restart 2017</a></p>
+<p>&#8212;</p>
+<p><em>Poslední aktualizace proběhla 12. dubna 2017.</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://blog.medio.cz/data-restart-2017-prezentace-a-odkazy/feed</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+							</item>
+		<item>
+		<title>E-mailing v roce 2020</title>
+		<link>https://blog.medio.cz/e-mailing-v-roce-2020</link>
+				<comments>https://blog.medio.cz/e-mailing-v-roce-2020#comments</comments>
+				<pubDate>Tue, 01 Nov 2016 13:14:49 +0000</pubDate>
+		<dc:creator><![CDATA[Roman Lelek]]></dc:creator>
+				<category><![CDATA[Internetový marketing]]></category>
+		<category><![CDATA[E-mailing]]></category>
+		<category><![CDATA[Konference]]></category>
+
+		<guid isPermaLink="false">https://blog.medio.cz/?p=4576</guid>
+				<description><![CDATA[Začátkem října jsem navštívil konferenci <strong>Emailing 2020</strong>, na které vystoupili špičkoví evropští řečníci - Jordie Van Rijn, Frank Strzyzewski, Kath Pay nebo Krzysztof Jarecki. Za české zástupce se objevili Petr Cikán, Radek Hrachovec, Adam Špina, Jan Špacír nebo Pavel Pola.]]></description>
+								<content:encoded><![CDATA[<p style="text-align: justify">
+Začátkem října jsem navštívil konferenci <a href="http://www.emailing2020.cz/" target="_blank">Emailing 2020</a>, na které vystoupili špičkoví evropští řečníci &#8211; <strong>Jordie Van Rijn, Frank Strzyzewski, Kath Pay</strong> nebo <strong>Krzysztof Jarecki</strong>. Za české zástupce se objevili <strong>Petr Cikán, Radek Hrachovec, Adam Špina, Jan Špacír</strong> nebo <strong>Pavel Pola</strong>.
+</p>
+<p style="text-align: justify">
+Dopoledne bylo v režii anglicky mluvících přednášejících. <strong>Jordie Van Rijn</strong> se snažil probudit studené české publikum svým nadšením a vtípky. V jeho přednášce mě nejvíce zaujala rada o vypnutí neefektivních kampaně, která nepřináší žádný zisk. A druhá rada o získání co nejvíce informací o kontaktech v databázi a především jejich použití. Jako špatný příklad nevyužití získaných dat uvedl přihlášení k newsletteru, kde vyplnil svoje jméno, příjmení a pohlaví a následně mu přišel první e-mail se slevou na sportovní podprsenku. Pro doplnění informací o kontaktech můžeme využít jakékoliv mikrokonverze &#8211; jako například kliknutí na obrázek &#8211; <em>&#8222;Jaký dárek byste chtěli dostat od Ježíška?&#8220;</em> A v následujícím e-mailu přijde právě ten, na který jste klikli.
+</p>
+<p style="text-align: justify">
+<strong>Frank Strzyzewski</strong> uvedl svůj pohled na budoucnost e-mailu. E-mail podle něj rozhodně není mrtvý. Především pro svoje nesporné výhody oproti sociálním sítím. Je to prostředek přímé komunikace s velkým dosahem, jednoduchým používáním, nezávislostí, nízkou cenou a dobrou sledovatelnosti. Podle Franka e-mail v budoucnosti úplně nahradí papírovou komunikaci &#8211; klasickou poštu. Také bude sloužit jako prostředek komunikace pro internet věcí (IoT &#8211; Internet of Things &#8211; například lednice pošle &#8222;e-mail&#8220;, že se blíží datum spotřeby mléka). Změní se ale způsob, jak s e-mailem budeme pracovat. Objeví se prý nástroje, které budou umět automaticky prioritizovat, řadit a vytahovat nejdůležitější informace. Irelevance bude trestána okamžitým odhlášením z newsletteru.
+</p>
+<p style="text-align: justify">
+<strong>Kath Pay</strong> se zaměřila na testování newsletterů. Většina marketérů netestuje e-maily systematicky ale nahodile. Bez plánu a záměru v další kampani použijí testování předmětů a tím to končí. To je podle Kath špatně, protože jsou to statisticky nevypovídající hodnoty. Před testováním na slepo bychom si nejdříve měli položit několik otázek. Co chceme zjistit o naší databázi? Touto otázkou definujeme hypotézu, která může být z nějakého důvodu potvrzena nebo vyvrácena. Měli bychom vždy vytvořit business case, vyzkoušet na e-mailingu a pak rozšířit tyto poznatky na další kanály (web, PPC apod.). Je lepší postupovat po malých krůčcích a neustále něco vylepšovat než se snažit udělat jeden velký pokrok. Vždy sledujte správný ukazatel úspěšnosti testu. Největší otevíranost e-mailu ještě nemusí znamenat největší konverze.
+</p>
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">Curiosity has it&#039;s own reason for existence <a href="https://twitter.com/hashtag/EmailMarketing?src=hash">#EmailMarketing</a> <a href="https://twitter.com/hashtag/testing?src=hash">#testing</a> <a href="https://twitter.com/hashtag/emailing2020?src=hash">#emailing2020</a> <a href="https://twitter.com/kathpay">@kathpay</a> <a href="https://t.co/GsZ4Zim4tQ">pic.twitter.com/GsZ4Zim4tQ</a></p>
+<p>&mdash; Maria Wachal (@wachal_maria) <a href="https://twitter.com/wachal_maria/status/783968326687096832">October 6, 2016</a></p></blockquote>
+<p style="text-align: justify">
+K podobným závěrům jako Frank Strzyzewski se dostal i <strong>Krzysztof Jarecki</strong>. V budoucnosti bude třeba <strong>integrovat velké množství různých marketingových systémů</strong>, kde jednotícím prvkem <strong>bude e-mailová adresa</strong>. Přesněji řečeno její hash, který ale nebude možné odhashovat zpět. Pro marketéry bude jednoduché poznat stejný kontakt v sociálních sítích, bankách, e-shopech apod. Usnadní to tedy leadscoring a výrazně zjednoduší doporučování dalších vhodných produktů. Další zajímavou myšlenkou, na kterou se můžeme těšit, byl <strong>automaticky generovaný obsah e-mailů</strong>. Generátory za nás vymyslí předmět, text na tlačítko i obsah celého e-mailu na základě předchozího chování uživatele a též i předpoví jeho otevíranost.
+</p>
+<p style="text-align: justify">
+Prvním českým řečníkem byl <strong>Petr Cikán</strong>, který nastínil 10+1 e-mailů, které by měly e-shopy odesílat. Jednalo se o welcome e-mail, doplnění profilu, klasický pravidelný newsletter, browse remarketingový e-mail, opuštěný košík, cross-sell nebo up-sell (opakovaný nákup), různá blahopřání (k s svátku, narozeninám a výročím), reaktivační e-mail a omnichannel (spojení offline a online akce).
+</p>
+<p style="text-align: justify">
+Pak na pódium přišel <strong>Radek Hrachovec</strong> a věnoval se tématu <strong>věrnostních programů</strong>. Podle něj polovina z nich vůbec nefunguje, protože jsou v nich lidí, kteří vůbec nestojí o věrnostní program. Do něj patří až zákazníci, kteří nakoupí alespoň dvakrát &#8211; první nakup může být totiž impulzivní nebo náhodný a není spojen s lojalitou. Většina věrnostních programů jsou tzv. &#8222;tiché věrnostní programy&#8220; &#8211; uvedl to na příkladu hokejového zápasu, kde hráči jsou (nemotivovaní) zákazníci, kteří hrají na ledové ploše (tedy věrnostním programu) a publikum je pak marketing (e-mailing). Marketing ale zákazníky vůbec nepodporuje, nefandí ani neděkuje jim. Správný věrnostní program zákazníky <strong>musí bavit a vtáhnout do děje</strong>. Marketéři by měli <strong>prožívat příběhy</strong> svých zákazníků společně s nimi. Kampaně by měly být předem dobře promyšlené a multikanálové (například e-mail, dopis a sms). Radek také doporučoval segmentovat (RFM je základ) a spíš soustředit svou pozornost <strong>na loajální zákazníky (aktivní)</strong> raději než se snažit reaktivovat mrtvé duše (neaktivní zákazníky). U věrného zákazníka existuje totiž velká šance, že se vrátí.</p>
+<blockquote class="twitter-tweet">
+<p lang="cs" dir="ltr">Tichý věrnostní program je jako hrát hokej před prázdným hledištěm <a href="https://twitter.com/RadekOnLoyalty">@RadekOnLoyalty</a> <a href="https://twitter.com/hashtag/emailing2020?src=hash">#emailing2020</a> <a href="https://t.co/xfgF8XHVaT">pic.twitter.com/xfgF8XHVaT</a></p>
+<p>&mdash; Media Guru (@MediaGuruCZ) <a href="https://twitter.com/MediaGuruCZ/status/784003037534846976">October 6, 2016</a></p></blockquote>
+<blockquote class="twitter-tweet">
+<p lang="cs" dir="ltr">Povzbuzujte, motivujte. Zákazníka vnímejte jako hráče, který nechce hrát před prázdným stadionem. &#8212;&gt;<a href="https://twitter.com/RadekOnLoyalty">@RadekOnLoyalty</a> na <a href="https://twitter.com/hashtag/emailing2020?src=hash">#emailing2020</a> <a href="https://t.co/GiaBte76Rx">pic.twitter.com/GiaBte76Rx</a></p>
+<p>&mdash; Iva Podoláková (@IvaPodol) <a href="https://twitter.com/IvaPodol/status/784003109014081536">October 6, 2016</a></p></blockquote>
+<p style="text-align: justify">
+Další zajímavou přednášku předvedl <strong>Adam Špina</strong> z Triadu, který se věnoval možnostem využití botů. E-mailingu se týkala jen okrajově, ale o to zajímavější byla. Bot je naprogramovaný automat, který v reálném čase komunikuje s fanoušky facebookové stránky. Bota využívá třeba O2 a můžete si ho vyzkoušet sami &#8211; <a href="https://www.facebook.com/snupbottest/" target="_blank" rel="nofollow">Snůp bot O2</a>. Bot je oproti e-mailingu sice náročnější na naprogramování, protože je třeba <strong>vytvořit propracovaný scénář a odpovědi</strong>, ale komunikace s ním je pak zážitek. Důležité je správně <strong>nastavit tón komunikace</strong> a neopomenout <strong>důkladné otestování</strong>, především na neočekávané otázky. Společnost KLM vytovořila bota, který pomáhá s vyhledáváním letenek a ušetřili tak práci prý až 200 lidem. V případě, že se bot dostane do úzkých, je možné kontaktovat pracovníka supportu.
+</p>
+<p style="text-align: justify">
+Jako závěrečnou přednášku jsem si vybral <strong>Pavla Polu</strong> a jeho porovnání single a double opt-inu. Příznivci single opt-inu (tedy přihlášení do databáze bez potvrzení e-mailové adresy) argumentují, že se zjednoduší registrace do databáze, která tedy poroste rychleji a přinese tak více objednávek a zisku. Pavel nám ale na případové studii ukázal, že u vybraného klienta se očekávaný nárůst databáze a zisků vůbec nekonal. Právě naopak. <strong>Kromě 2,7x menší návštěvnosti webu a 3,5x menším konverzím z e-mailingu</strong> se bohužel také <strong>výrazně zhoršila doručovanost</strong> do e-mailových schránek. Zde totiž platí, že <strong>nedoručený e-mail neprodává</strong>!
+</p>
+<h2>Závěrem</h2>
+<p>Závěrem bych chtěl pochválit organizátory za bezproblémový průběh celé konference, zajímavé řečníky i prezentace a těším se, až nové poznatky z konference o e-mailingu aplikuji do praxe u našich klientů.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://blog.medio.cz/e-mailing-v-roce-2020/feed</wfw:commentRss>
+		<slash:comments>6</slash:comments>
+							</item>
+		<item>
+		<title>Net Promoter Score – míra spokojenosti zákazníků</title>
+		<link>https://blog.medio.cz/net-promoter-score</link>
+				<comments>https://blog.medio.cz/net-promoter-score#comments</comments>
+				<pubDate>Tue, 25 Oct 2016 10:50:24 +0000</pubDate>
+		<dc:creator><![CDATA[Romana Velflová]]></dc:creator>
+				<category><![CDATA[Internetový marketing]]></category>
+		<category><![CDATA[Analytika]]></category>
+		<category><![CDATA[Net Promoter Score]]></category>
+		<category><![CDATA[SatisMeter]]></category>
+
+		<guid isPermaLink="false">https://blog.medio.cz/?p=4619</guid>
+				<description><![CDATA[Loajalita je vaším rodinným stříbrem, kterým si zajišťujete stálý odbyt vašich produktů či využívání služeb. Je třeba ji v zákaznících rozdmýchávat. Abyste ji měli pod kontrolou, zapomeňte na intuici a vezměte si na pomoc data. Jednou z metod měření loajality vašich zákazníků je Net Promoter Score.]]></description>
+								<content:encoded><![CDATA[<p>Loajalita je vaším rodinným stříbrem, kterým si zajišťujete stálý odbyt vašich produktů či využívání služeb. Je třeba ji v zákaznících rozdmýchávat. Abyste ji měli pod kontrolou, zapomeňte na intuici a vezměte si na pomoc data. Jednou z metod měření loajality vašich zákazníků je <strong>Net Promoter Score</strong>.</p>
+<h2>Míra zákaznické zkušenosti</h2>
+<p>Věrnost značce se řídí empirickými zákony, které se formulovaly desetiletími vědeckého marketingového průzkumu. Co všechno ovlivňuje míru loajality? Řada faktorů. Nejčastěji je zaměňována za <strong>spokojenost</strong> zákazníků s určitým výrobkem či službou. V rámci RFM segmentace je věrnost značce vyčíslena <strong>frekvencí nákupu a penetrací</strong>. Je spojována s <strong>image</strong>, vnímanou <strong>kvalitou</strong> a <strong>hodnotou pro zákazníka</strong> nebo zákazníkovou <strong>ochotou doporučit</strong> daný podnik jinému potencionálnímu nakupujícímu. Poslední zmiňované monitoruje právě Net Promoter Score (dále jen NPS).</p>
+<p>NPS představuje ochotu doporučit značku jako jednu z možností měření zákaznické zkušenosti. Výpočet se provádí na základě marketingového výzkumu. Při něm dostanou respondenti otázku: <em>„Jak pravděpodobné je, že byste doporučili společnost / produkt / službu příteli nebo kolegovi?“</em>. Respondenti odpovídají na škále 0 (zcela nepravděpodobné) až 10 (zcela pravděpodobné). Procento těch, kteří odpověděli 0 až 6 (neloajální) se odečte od procenta těch, kteří odpověděli 9 nebo 10 (loajální klienti). Výsledný rozdíl činí:</p>
+<p><strong>NPS = (počet loajálních odpovědí &#8211; počet neloajálních) / (počet všech odpovědí)</strong>.</p>
+<div id="attachment_4637" style="width: 900px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-4637" class="wp-image-4637 size-full" src="https://blog.medio.cz/wp-content/uploads/net-promoter-score-vypocet.jpg" alt="Výpočet a rozložení respondentů Net Promoter Score" width="890" height="282" srcset="https://blog.medio.cz/wp-content/uploads/net-promoter-score-vypocet.jpg 890w, https://blog.medio.cz/wp-content/uploads/net-promoter-score-vypocet-300x95.jpg 300w, https://blog.medio.cz/wp-content/uploads/net-promoter-score-vypocet-768x243.jpg 768w" sizes="(max-width: 890px) 100vw, 890px" /><p id="caption-attachment-4637" class="wp-caption-text"><center>Podle odpovědí se rozdělují respondenti na tři skupiny zákazníků: „<strong>Kritici</strong>“ (uživatelé, kteří volili 0-6), „<strong>Propagátoři</strong>“ (odpovídali nejčastěji 9 a 10) a zbylí „<strong>Neutrální</strong>“ zákazníci (zaškrtávali 7 nebo 8).</center></p></div>
+<p>Příklad: <span style="color: #339966;">100</span> propagátorů, 30 neutrálních, <span style="color: #ff0000;">80 </span>kritiků. Celkem 210 respondentů</p>
+<p>Výsledná hodnota <strong>NPS</strong> = (<span style="color: #339966;">100</span> – <span style="color: #ff0000;">80</span>) / 210 = <strong>9,5 %</strong></p>
+<p>Mezi zákazníky je o 9,5 % více nadšenců než nespokojenců. NPS může dosáhnout hodnot od -100 do 100. Čím vyšší číslo, tím více jsou zákazníci s obchodem spokojenější.</p>
+<h2>Zase další údaj, který mi bude k ničemu. Omyl!</h2>
+<ul>
+<li><strong>Odhalte VIP zákazníky, kteří jsou momentálně nespokojení</strong>. U pravidelných zákazníků zjistíte, že jsou nespokojení, a můžete jejich problém vyřešit dřív, než odejdou ke konkurenci.</li>
+<li><strong>Zjistěte, zda změny zafungovaly, jak měly</strong>. Jak se odrazila nějaká změna v celkové spokojenosti klientské báze?</li>
+<li><strong>Vyřešte problém konkrétních zákazníků.</strong> Můžete se zabývat každou odpovědí zvlášť a opětovným kontaktováním zákazníka zjistit, proč je nespokojený a pokusit se jeho problém vyřešit.</li>
+<li><strong>Dělejte upsell spokojených zákazníků</strong>. Díky propojení na mailingové služby můžete vytvářet personalizované kampaně pro loajální nespokojené zákazníky a dlouhodobé &#8222;prudiče&#8220; z databáze naopak odebrat. Máte také možnost vytvářet PPC retargetingová publika na spokojené zákazníky a naopak vyloučit ty nespokojené.</li>
+<li><strong>Posilte pozitivní dojem navenek</strong>. Do služeb, kde se sbírá hodnocení o obchodě (Heureka.cz, Facebook, Firmy.cz, Zboží.cz apod.) můžete začít směřovat pouze spokojené zákazníky.</li>
+</ul>
+<h2>Net Promoter Score není samospásný</h2>
+<p>S využitím této metody je spojena i řada neduhů a nepřesností. Nejde do hloubky a takto osamoceně vám neřekne, co konkrétně za případným negativním výsledkem stojí. Zda je skutečně provázaný s vaší nabídkou, nebo jen odráží momentální rozpoložení hodnotícího. Ve výpočtu je také výrazně potlačena skupina neutrálních uživatelů. Nerozlišíte navíc, zda zákazník hodnotil spokojenost se službou, přehlednost webu, nebo jen zakoupené zboží. A ti, kteří odpověděli, že by vás doporučili, vás reálně vůbec doporučit nemusí. Přes všechna negativa využívá NPS právě pro jeho neodolatelnou jednoduchost i <a href="http://www.podnikatel.cz/clanky/7-rad-pro-e-shopy-z-e-business-fora-ktere-vam-pomohou-s-loajalitou-zakazniku/">řada českých e-commerce velikánů</a> jako Zoot, Rohlik nebo Alza.</p>
+<p>Pro přesnější metodu výpočtu náklonnosti můžete použít např. <strong>Index loajality zákazníka</strong> (ILZ), který do svého výpočtu zahrnuje i dobu, po kterou zákazník e-shop navštěvuje. Dalšími alternativami je CES – Customer Effort Score („Jak těžké bylo dokončit nákup?“), <a href="https://en.wikipedia.org/wiki/American_Customer_Satisfaction_Index">ACSI</a> – American Customer Satisfaction Index (vážený průměr tří odpovědí), <a href="https://en.wikipedia.org/wiki/SERVQUAL">SERVQUAL</a> (rozdíl mezi očekáváními a doporučeními), <a href="https://en.wikipedia.org/wiki/Kano_model">KANO</a> (pět kategorií kvality založených na očekávání zákazníků), <a href="http://www.netvaluescore.com/home/">NVS</a> (vnímání zákazníků v jednotlivých segmentech trhu). Z hlediska předvídání budoucnosti vaší značky jsou jako měřítka daleko užitečnější <a href="http://mam.ihned.cz/c1-46751700-loajalita-neni-svaty-gral-jsou-i-jine-cesty">psychická a fyzická dostupnost značky</a>.</p>
+<h2>SatisMeter – „them-promo“ alert</h2>
+<p><a href="http://medio.to/satismeter">SatisMeter</a> je český startup a jednou z platforem sbírající feedback uvnitř webových i mobilních aplikací právě podle popisované metodiky Net Promoter Score. To vše za pomoci jednoduchého pop-upu, lišty v patičce webu, případně neobtěžujícího embedded dotazníku (např. na stránce s poděkováním za nákup) či v e‑mailu. Sebrané odpovědi umí zpracovat i propojovat s dalšími systémy (CRM, Support, Analytika, marketingové nástroje, Slack, Intercom, Salesforce&#8230;) přes Zapier či API. Pokud potřebujete oslovit 10 000 uživatelů, nástroj vás vyjde měsíčně na $299. A pokud budete dostatečně rychlí a ozvete se nám na <a href="mailto:velflova@medio.cz">velflova@medio.cz</a>, můžete ho s námi otestovat na jeden měsíc zdarma. Od týmu SatisMeter máme možnost nástroj s jedním z vás vyzkoušet.</p>
+<p><a href="https://blog.medio.cz/wp-content/uploads/bonami-satismeter-footer.jpg"><img class="" src="https://blog.medio.cz/wp-content/uploads/bonami-satismeter-footer.jpg" alt="Satismeter - patička webu" width="241" height="130" /> </a><a href="https://blog.medio.cz/wp-content/uploads/bonami-satismeter-top-right.jpg"><img class="" src="https://blog.medio.cz/wp-content/uploads/bonami-satismeter-top-right.jpg" alt="Satismeter - pop-up okno" width="241" height="130" /> </a><a href="https://blog.medio.cz/wp-content/uploads/bonami-satismeter-email.jpg"><img class="" src="https://blog.medio.cz/wp-content/uploads/bonami-satismeter-email.jpg" alt="Satismeter - e-mail" width="171" height="130" /> </a><a href="https://blog.medio.cz/wp-content/uploads/bonami-satismeter-embedded-form.jpg"><img class="" src="https://blog.medio.cz/wp-content/uploads/bonami-satismeter-embedded-form.jpg" alt="Satismeter - embedded form" width="179" height="130" /></a></p>
+<p style="text-align: center;">Náhledy forem získávání odpovědí.</p>
+<h2>Loajální zamyšlení před usnutím</h2>
+<blockquote class="twitter-tweet" data-lang="en">
+<p dir="ltr" lang="cs">„Až 50 % nákupů pochází od zákazníků, kterým jste úplně ukradení.“ Radek Hrachovec z Pricewise, <a href="https://twitter.com/hashtag/EBF16?src=hash">#EBF16</a> a <a href="https://twitter.com/Lupacz">@Lupacz</a> <a href="https://t.co/bgexi94zur">https://t.co/bgexi94zur</a></p>
+<p>— ONLINE PEOPLE (@ONLINEPEOPLECZ) <a href="https://twitter.com/ONLINEPEOPLECZ/status/783947653755179009">October 6, 2016</a></p></blockquote>
+<p><script src="//platform.twitter.com/widgets.js" async="" charset="utf-8"></script></p>
+<p>Řečeno slovy Byrona Sharpa:<strong> Loajalita není svatý grál</strong>. Věrný zákazník nemusí být tím nutně nejlepším. Může nakupovat často, ale málo a za málo. Obsese loajalitou svede často marketéry na cestu, u níž je vysoce nepravděpodobné, že by vedla k růstu profitu. Vnucovat loajálním zákazníkům věrnostní program je jako topit bakelitem. Lidé, kteří podléhají „uplácení“ sběrem bodů nebo věrnostními kartami, jen čekají, až se objeví jiná, lepší nabídka. „Věrnostní“ strategie zaměřené na věrné a intenzivní nákupčí, které se snaží zvyšovat tržby bez rozšiřování zákaznické základny, jsou postavené na hlavu. Nikdy totiž nepromění malou značku ve velkou, protože ignorují většinovou bázi zákaznické základny.</p>
+<p>A nezapomeňte, že na prvním místě je vždy zákazník. Plně informovaný, spokojený zákazník – ať nový, nebo ten teprve se rodící. Paradoxně ti <strong>nejspokojenější vznikají často právě ze špatných zážitků</strong> (Ladislav Trpák, E-Business Forum 2016). Proměnit problém v příležitost vám může pomoci právě průběžné sledování míry spokojenosti zákazníků.</p>
+<p><strong>Ozvěte se na </strong><a href="mailto:velflova@medio.cz"><strong>velflova@medio.cz</strong></a><strong> a vyzkoušejte s námi nástroj SatisMeter.</strong></p>
+<h2>Použité a související zdroje:</h2>
+<ul>
+<li><a href="http://www.measuringu.com/sus.php">MeasuringU &#8211; Net Promoter Scoring: The Mean Works As Well As Promoters Minus Detractors</a></li>
+<li><a href="http://www.measuringu.com/sus.php">MeasuringU &#8211; Predicting Net Promoter Scores From System Usability Scale Scores</a></li>
+<li><a href="http://mam.ihned.cz/c1-46751700-loajalita-neni-svaty-gral-jsou-i-jine-cesty">Marketing&amp;Media &#8211; Loajalita není svatý grál. Jsou i jiné cesty (Byron Sharp)</a></li>
+<li><a href="http://www.podnikatel.cz/clanky/7-rad-pro-e-shopy-z-e-business-fora-ktere-vam-pomohou-s-loajalitou-zakazniku/">Reportáž z E-Business Fora</a></li>
+<li><a href="http://onas.heureka.cz/resources/attachments/p0/3/2016-09-26-e-business-forumkompletnistudie.pdf">Kompletní studie o věrnosti zákazníka</a></li>
+<li><a href="http://www.marketingovenoviny.cz/kdo-je-to-ten-verny-zakaznik/">Marketingové noviny &#8211; Kdo je to ten věrný zákazník?</a></li>
+<li><a href="https://www.satismeter.com/">SatisMeter &#8211; nástroj pro monitoring NPS</a></li>
+</ul>
+]]></content:encoded>
+							<wfw:commentRss>https://blog.medio.cz/net-promoter-score/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+							</item>
+		<item>
+		<title>Zpřístupňujeme EasyReport běžným e-shopům</title>
+		<link>https://blog.medio.cz/easyreport</link>
+				<pubDate>Tue, 04 Oct 2016 05:40:51 +0000</pubDate>
+		<dc:creator><![CDATA[Jan Tichý]]></dc:creator>
+				<category><![CDATA[Analytika]]></category>
+		<category><![CDATA[E-shopy]]></category>
+		<category><![CDATA[EasyReport]]></category>
+
+		<guid isPermaLink="false">https://blog.medio.cz/?p=4537</guid>
+				<description><![CDATA[V polovině letošního léta jsme spustili <a href="https://www.easyreport.cz/">EasyReport</a>. Je to analytický nástroj přinášející e-shopům řadu důležitých a smysluplných reportů. Zpřístupňujeme jej teď i skutečně malým e-shopům. V novém tarifu EASY nabízíme <strong>plnou funkčnost nástroje v celé šíři za 2.900 Kč měsíčně</strong>.]]></description>
+								<content:encoded><![CDATA[<p><a href="https://www.easyreport.cz/"><img class="alignright size-medium wp-image-4540" src="https://blog.medio.cz/wp-content/uploads/Logo-ER-barva-600-300x84.png" alt="EasyReport" width="300" height="84" srcset="https://blog.medio.cz/wp-content/uploads/Logo-ER-barva-600-300x84.png 300w, https://blog.medio.cz/wp-content/uploads/Logo-ER-barva-600.png 600w" sizes="(max-width: 300px) 100vw, 300px" /></a> V polovině letošního léta jsme spustili <a href="https://www.easyreport.cz/">EasyReport</a>. Je to analytický nástroj přinášející <strong>e-shopům řadu důležitých a smysluplných reportů</strong>, které v ostatních systémech typu Google Analytics chybějí.</p>
+<p>Po pilotním běhu s několika vybranými obchody teď EasyReport zpřístupňujeme i skutečně malým e-shopům. V novém tarifu EASY nabízíme <strong>plnou funkčnost nástroje v celé šíři za 2.900 Kč měsíčně</strong>.</p>
+<p>Plníme tak hlavní cíl, se kterým jsme EasyReport od začátku stavěli. Přiblížit skutečnou analytiku i běžným e-shopům. Reálné využívání dat nemusí a nesmí být nedostižnou výhodou jen těch největších hráčů na trhu.</p>
+<h2>V čem vám EasyReport pomůže?</h2>
+<p>K vytvoření EasyReportu nás dovedla skutečná potřeba vidět výstupy, které třeba v Google Analytics zcela chybí, ale které jsou přitom pro rozhodování e-shopů klíčové:</p>
+<p><a href="https://www.easyreport.cz/portfolio/marketing"><img class="alignright wp-image-4593 size-medium" src="https://blog.medio.cz/wp-content/uploads/Marketing-289x300.jpg" width="289" height="300" srcset="https://blog.medio.cz/wp-content/uploads/Marketing-289x300.jpg 289w, https://blog.medio.cz/wp-content/uploads/Marketing-768x797.jpg 768w, https://blog.medio.cz/wp-content/uploads/Marketing.jpg 980w" sizes="(max-width: 289px) 100vw, 289px" /></a></p>
+<ul>
+<li>Pro <strong>vyhodnocení kampaní</strong> je potřeba znát dvě věci: kolik stály a jakou marži přinesly. Každá koruna vložená do výkonnostní reklamy musí vrátit aspoň korunu zpátky, ideálně víc. Je to zcela jednoduché, ale Google Analytics na to neumí vůbec odpovědět. Marži nesledují vůbec, tržby jen bez očištění o storna a vratky, o nákladech škoda mluvit. <a href="https://www.easyreport.cz/portfolio/marketing">EasyReport zobrazuje kampaňové reporty</a> opřené o skutečné marže, očištěné o storna a vratky, se započítanými všemi souvisejícími reklamními náklady. Konečně tak zjistíte, která kampaň vám skutečně vydělává a jaký inzerát jste měli už dávno vypnout. Které kampaně vás stojí 80 procent nákladů, ale přinášejí jen 20 procent tržeb. Nebo jak se v čase vyvíjí podíly jednotlivých zdrojů na celkových nákladech a ziscích.</li>
+<li><strong>Akviziční kampaně</strong> slouží k přivedení dlouhodobých vracejících se zákazníků. Chcete u nich proto vidět, jak naučily přivedené zákazníky vracet se k vám a nakupovat opakovaně. Zajímá vás, po kolika měsících se investice do nich vrátila a kolik vám přivedení zákazníci vydělali za celý následující rok. Řeč je o takzvaných <a href="https://www.easyreport.cz/portfolio/kohorty">kohortách a Customer Lifetime Value</a>. Ani zde Google Analytics nenabízí uspokojivou odpověď. V EasyReportu je kohortám věnovaná celá jedna velká samostatná sekce.</li>
+<li><a href="https://www.easyreport.cz/portfolio/kohorty"><img class="alignright size-medium wp-image-4547" src="https://blog.medio.cz/wp-content/uploads/Kohorty-300x262.png" alt="EasyReport Kohorty" width="300" height="262" srcset="https://blog.medio.cz/wp-content/uploads/Kohorty-300x262.png 300w, https://blog.medio.cz/wp-content/uploads/Kohorty-768x671.png 768w, https://blog.medio.cz/wp-content/uploads/Kohorty.png 982w" sizes="(max-width: 300px) 100vw, 300px" /></a><strong>E-shop se točí kolem objednávek.</strong> O objednávkách musíte vědět řadu informací, které vám Google Analytics nedají. Na všemožné důležité otázky odpoví EasyReport. Odkud přišla jaká objednávka? Kolikátý nákup daného uživatele to je? Ze kterých kampaní přichází hodně stornovaných transakcí? Které zdroje návštěvnosti vám přivádí opakované objednávky a které naopak jen jednorázové? Jak se vyvíjí hodnoty opakovaných objednávek v čase?</li>
+<li><strong>Soustřeďte se na zákazníky!</strong> Google Analytics nejsou na zákaznickou analytiku vůbec stavěné a skoro nic kolem ní neumí. EasyReport je tu doma. Roste vám počet vracejících se zákazníků? Kteří to jsou a odkud přišli? Jak často se k vám vracejí? Žije váš e-shop z věrných uživatelů, nebo musíte pro získání každé další objednávky vždy vynaložit další a další peníze do reklamy? Kteří zákazníci vám vydělávají nejvíc? Nepřináší většinu zisků jen desetina věrných zákazníků? Kteří jsou naopak problémoví a opakovaně proděleční?</li>
+<li>Samostatná část EasyReportu je věnována <a href="http://www.slideshare.net/mediocz/rfm-analyza"><strong>RFM segmentaci</strong></a>. Tedy analýze, kterou obvykle nenabízí ani mnohem pokročilejší nástroje, než jsou Google Analytics. Díky ní budete vědět, kdo u vás často nakupuje a hodně utrácí. Kdo se k vám naopak už dlouho nevrátil a je potřeba se mu připomenout nebo ho odprosit. Komu nabídnout věrnostní systém a kde je to zbytečné. Rozpoznejte a hýčkejte své věrné zákazníky. Udržte si lidi, kteří od vás odcházejí. Přiveďte zpět ztracené zákazníky.</li>
+</ul>
+<p>Chcete si EasyReport prohlédnout, osahat a získat přístup do DEMO účtu? <a href="https://www.easyreport.cz/#contact">Napište nám</a>!</p>
+<h2>Jak to celé probíhá?</h2>
+<p><a href="https://www.easyreport.cz/portfolio/dashboard"><img class="alignright size-medium wp-image-4543" src="https://blog.medio.cz/wp-content/uploads/1.1-Overview-300x294.png" alt="EasyReport Overview" width="300" height="294" srcset="https://blog.medio.cz/wp-content/uploads/1.1-Overview-300x294.png 300w, https://blog.medio.cz/wp-content/uploads/1.1-Overview-768x752.png 768w, https://blog.medio.cz/wp-content/uploads/1.1-Overview.png 987w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p>Cena za EasyReport je odvislá na velikosti vašeho e-shopu, konkrétně na počtu objednávek, které průměrně v měsíci odbavíte. E-shopy s prodeji do 1.000 objednávek tak mají <strong>EasyReport už za 2.900 Kč měsíčně</strong>.</p>
+<p>Na začátku spolu uzavřeme smlouvu na první 3 měsíce. Platíte ale jen za dva, <strong>první měsíc provozu máte zdarma</strong> – během něj dořešíme napojení EasyReportu na vaše data, můžete si celý systém osahat a seznámit se s ním. Poté přejdeme na měsíční platby, neuvazujete se k žádné dlouhodobé spolupráci, můžete kdykoliv skončit. Při roční platbě předem dostanete další 2 měsíce provozu zdarma.</p>
+<p><strong>Napojení vašeho e-shopu</strong> do EasyReportu je rozdělené do <strong>několika postupných volitelných fází</strong>. Každá z nich přidává do systému další dodatečná data, a tedy kvalitnější a užitečnější výstupy. Každá z nich je i jinak náročná. V nejjednodušším případě to znamená během pár minut přidání přístupů do Google Analytics či vašich reklamních systémů. Ale i tu nejsložitější část, tedy export skutečných objednávek z vašeho systému, zvládne váš vývojář za několik málo hodin práce.</p>
+<p>Nemusíte ale vůbec splnit hned všechny. <strong>Je ale pouze na vás, co vše napojíte hned a co třeba necháte na někdy později.</strong> Pro první vstup do systému nám dokonce jen stačí během minuty zpřístupnit vaše Google Analytics. Obecně ale platí, že čím více toho hned na začátku napojíte, tím dostanete ve výsledku kvalitnější data a vypovídající reporty.</p>
+<p>Chcete si EasyReport prohlédnout, osahat a <strong>získat přístup do DEMO účtu?</strong> Nebo se třeba jen na něco zeptat? <a href="https://www.easyreport.cz/#contact">Napište nám</a>!</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>DATA workshop – Enhanced ecommerce</title>
+		<link>https://blog.medio.cz/data-workshop-enhanced-ecommerce</link>
+				<pubDate>Tue, 27 Sep 2016 10:50:46 +0000</pubDate>
+		<dc:creator><![CDATA[André Heller]]></dc:creator>
+				<category><![CDATA[Analytika]]></category>
+		<category><![CDATA[Medio Interactive]]></category>
+
+		<guid isPermaLink="false">https://blog.medio.cz/?p=4503</guid>
+				<description><![CDATA[Začátek školního roku k dalšímu vzdělávání přímo vybízel. Vedle Medio Akademie a našich konferencí vznikl DATA workshop. Půldenní setkání se zástupci agentur i všemi dalšími, které vytyčené téma prostě zajímá. Jako téma prvního workshopu jsme vybrali sice starší, leč zatím stále lehce tajemné téma Enhanced Ecommerce.]]></description>
+								<content:encoded><![CDATA[<p>Začátek školního roku k dalšímu vzdělávání přímo vybízel. I naše myšlenka byla už nějakou dobu jasná. <strong>Předat širšímu publiku</strong> naše teoretické i praktické <strong>znalosti</strong> na konkrétní téma a umožnit mu hned si vše i na vlastní kůži <strong>pořádně osahat a v reálu vyzkoušet</strong>. Dlouho nám chyběl ten správný formát. I ten jsme ale nakonec našli. A tak vedle <a href="https://akademie.medio.cz">Medio Akademie</a> a našich konferencí vznikl <a href="https://www.dataworkshop.cz">DATA workshop</a>. Půldenní setkání se zástupci agentur i všemi dalšími, které dané téma prostě zajímá. Pro začátek jsme se spojili s <a href="http://www.digitalnigaraz.cz">Digitální Garáží</a>, novým programem Google, který má za cíl vzdělávat českou populaci v online marketingu.</p>
+<p>Jako téma prvního workshopu jsme vybrali sice starší, leč zatím stále lehce tajemné téma <strong>Enhanced Ecommerce</strong>. Ve čtvrtek 15. září 2016 se na něj v konferenčním centru Green Point sešlo přes 50 účastníků od zástupců agentur až po eshopáře. Ve velkém počtu jsme dorazili i my, abychom byli k dispozici pro konzultace a řešení problémů při praktických úkolech. Úvod si vzal na starost Honza Tichý, který všem <strong>vysvětlil Enhanced Ecommerce </strong>a <strong>přemýšlení okolo něj</strong> pěkně do široka. Tomáš Kumsta si potom vzal do parády rozhraní Google Analytics a postupně všem <strong>vysvětlil report po reportu</strong>. Samozřejmě <strong>nechyběla řada praktických úkolů</strong>, na kterých si účastníci procvičili i své vyhodnocovací dovednosti. Po posilňujícím občerstvení na slunečné terase přišla <strong>segmentace</strong> v podání Marka Aldorfa, <strong>u jehož úkolů se zapotil</strong> snad <strong>každý</strong>. Pomyslnou třešničku nabídla Romana Velflová, která ukázala, <strong>jak snadno</strong> a efektivně <strong>vytáhnout ecommerce data z Google Analytics ven</strong> a dál s nimi mimo GA pracovat. A protože jsme měli my i Google náladu na rozdávání, nabídli jsme všem účastníkům <strong>hodinovou konzultaci v oblasti webové analytiky od nás zdarma</strong>. Jedinou podmínkou bylo složení individuální certifikační zkoušky <a href="https://www.google.com/partners/#p_analyticscertification">Google Analytics</a> do předem daného termínu.</p>
+<h2>Vybrané Enhanced Ecommerce tipy</h2>
+<ul>
+<li>Implementaci je vhodné si rozfázovat. Nikdy se nesnažte to zvládnout všechno najednou. Zvládnete tak jedině získat rozbitá data.</li>
+<li>Pokud uživatel vstoupí přes stránku s detailem produktu, tak Google Analytics tuto aktivitu vnímá jako dva po sobě jdoucí hity: 1. zobrazení stránky (Pageview), 2. zobrazení podrobnosti o produktu (Product Detail Views).</li>
+<li>Podmínky vs. Sekvence ve vlastních segmentech jsou &#8222;pěknej humus&#8220;. Jedině přes sekvence si dokážete nastimulovat více podmínek pro jeden hit.</li>
+<li>Pokud porovnáváte nějaké metriky, dejte pozor, aby měly stejný rozsah (scope). Když např. srovnáváte zobrazení podrobnosti o produktu (Product Detail Views) a unikátní nákupy (Unique Purchases), mícháte jablka s hruškami, resp. hity s návštěvami.</li>
+<li>Přes API Google Analytics máte přístup k 65 dimenzím a metrikám elektronického obchodu, ale 2/3 se týkají pouze Enhanced Ecommerce.</li>
+</ul>
+<h2>Výběr fotek</h2>
+<p>Více fotek si můžete prohlédnout v <a href="https://www.facebook.com/anller/media_set?set=a.10209438130904152.1073741861.1651570484&amp;type=3&amp;pnref=story">galerii</a>.</p>
+<p><img class="alignleft size-large wp-image-4563" src="https://blog.medio.cz/wp-content/uploads/medio-data-workshop-enganced-ecommerce-201609-01-1024x687.jpg" alt="Medio Data Workshop - Úvod do Enhanced Ecommerced" width="1024" height="687" srcset="https://blog.medio.cz/wp-content/uploads/medio-data-workshop-enganced-ecommerce-201609-01-1024x687.jpg 1024w, https://blog.medio.cz/wp-content/uploads/medio-data-workshop-enganced-ecommerce-201609-01-300x201.jpg 300w, https://blog.medio.cz/wp-content/uploads/medio-data-workshop-enganced-ecommerce-201609-01-768x515.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" /><img class="alignleft size-large wp-image-4564" src="https://blog.medio.cz/wp-content/uploads/medio-data-workshop-enganced-ecommerce-201609-02-1024x683.jpg" alt="http://" width="1024" height="683" srcset="https://blog.medio.cz/wp-content/uploads/medio-data-workshop-enganced-ecommerce-201609-02-1024x683.jpg 1024w, https://blog.medio.cz/wp-content/uploads/medio-data-workshop-enganced-ecommerce-201609-02-300x200.jpg 300w, https://blog.medio.cz/wp-content/uploads/medio-data-workshop-enganced-ecommerce-201609-02-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" /><img class="alignleft size-large wp-image-4565" src="https://blog.medio.cz/wp-content/uploads/medio-data-workshop-enganced-ecommerce-201609-03-1024x683.jpg" alt="Medio Data Workshop - Část o přehledech Enhanced Ecommerce" width="1024" height="683" srcset="https://blog.medio.cz/wp-content/uploads/medio-data-workshop-enganced-ecommerce-201609-03-1024x683.jpg 1024w, https://blog.medio.cz/wp-content/uploads/medio-data-workshop-enganced-ecommerce-201609-03-300x200.jpg 300w, https://blog.medio.cz/wp-content/uploads/medio-data-workshop-enganced-ecommerce-201609-03-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" /><img class="alignleft size-large wp-image-4566" src="https://blog.medio.cz/wp-content/uploads/medio-data-workshop-enganced-ecommerce-201609-04-1024x683.jpg" alt="Medio Data Workshop - Digitální garáž coby partner akce" width="1024" height="683" srcset="https://blog.medio.cz/wp-content/uploads/medio-data-workshop-enganced-ecommerce-201609-04-1024x683.jpg 1024w, https://blog.medio.cz/wp-content/uploads/medio-data-workshop-enganced-ecommerce-201609-04-300x200.jpg 300w, https://blog.medio.cz/wp-content/uploads/medio-data-workshop-enganced-ecommerce-201609-04-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" /><img class="alignleft size-large wp-image-4567" src="https://blog.medio.cz/wp-content/uploads/medio-data-workshop-enganced-ecommerce-201609-05-1024x683.jpg" alt="Medio Data Workshop - Pokračujeme v nalévání hlav" width="1024" height="683" srcset="https://blog.medio.cz/wp-content/uploads/medio-data-workshop-enganced-ecommerce-201609-05-1024x683.jpg 1024w, https://blog.medio.cz/wp-content/uploads/medio-data-workshop-enganced-ecommerce-201609-05-300x200.jpg 300w, https://blog.medio.cz/wp-content/uploads/medio-data-workshop-enganced-ecommerce-201609-05-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" /><img class="alignleft size-large wp-image-4568" src="https://blog.medio.cz/wp-content/uploads/medio-data-workshop-enganced-ecommerce-201609-06-1024x683.jpg" alt="Medio Data Workshop - Vlastní přehledy" width="1024" height="683" srcset="https://blog.medio.cz/wp-content/uploads/medio-data-workshop-enganced-ecommerce-201609-06-1024x683.jpg 1024w, https://blog.medio.cz/wp-content/uploads/medio-data-workshop-enganced-ecommerce-201609-06-300x200.jpg 300w, https://blog.medio.cz/wp-content/uploads/medio-data-workshop-enganced-ecommerce-201609-06-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" /><img class="alignleft size-large wp-image-4569" src="https://blog.medio.cz/wp-content/uploads/medio-data-workshop-enganced-ecommerce-201609-07-1024x683.jpg" alt="Medio Data Workshop - Přehledy analýzy nákupu" width="1024" height="683" srcset="https://blog.medio.cz/wp-content/uploads/medio-data-workshop-enganced-ecommerce-201609-07-1024x683.jpg 1024w, https://blog.medio.cz/wp-content/uploads/medio-data-workshop-enganced-ecommerce-201609-07-300x200.jpg 300w, https://blog.medio.cz/wp-content/uploads/medio-data-workshop-enganced-ecommerce-201609-07-768x512.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
+<p>
+<strong>Zaujal vás DATA workshop a chcete se o dalším termínu dovědět mezi prvními? Zapište se do našeho <a href="https://www.dataworkshop.cz/#prihlaseni">seznamu</a>, dáme vám včas vědět!</strong></p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>ShopCamp 2016</title>
+		<link>https://blog.medio.cz/shopcamp-2016</link>
+				<pubDate>Wed, 14 Sep 2016 10:18:21 +0000</pubDate>
+		<dc:creator><![CDATA[Romana Velflová]]></dc:creator>
+				<category><![CDATA[Medio Interactive]]></category>
+		<category><![CDATA[Analytika]]></category>
+		<category><![CDATA[E-shopy]]></category>
+		<category><![CDATA[EasyReport]]></category>
+		<category><![CDATA[Medio]]></category>
+		<category><![CDATA[Přednášky]]></category>
+		<category><![CDATA[Prezentace]]></category>
+		<category><![CDATA[ShopCamp]]></category>
+
+		<guid isPermaLink="false">https://blog.medio.cz/?p=4470</guid>
+				<description><![CDATA[V září jste se s námi mohli potkat na ShopCampu. V rámci oficiálního programu jste se mohli zúčastnit naší přednášky a workshopu. Rozhodně stálo zato navštívit i náš stánek. Přemýšleli jsme, jak udělat stánek zajímavější a užitečnější. U nás jste nedostali bloček a propisku, nesoutěžili o klíčenky a flashky, dokonce si nemohli ani vystřelit pouťovou růži. U našeho stánku se poskytovalo to nejcennější – informace.]]></description>
+								<content:encoded><![CDATA[<p><img src="http://blog.shoptet.cz/wp-content/uploads/2014/11/ShopCamp_logo_180x180.png" align="left" /> V září jste se s námi mohli potkat na <a href="http://www.shopcamp.cz/" target="_blank">ShopCampu</a>. V rámci oficiálního programu jste se mohli zúčastnit naší přednášky a workshopu. Rozhodně ale stálo za to navštívit i náš stánek. Přemýšleli jsme, jak ho udělat ještě zajímavější a užitečnější. A tak jste u nás nedostali bloček a propisku, nesoutěžili o klíčenky a flashky, dokonce si nemohli ani vystřelit pouťovou růži. U našeho stánku se poskytovalo to nejcennější – informace.</p>
+<h2 style="clear: both;">Viděli jste první live demo EasyReportu</h2>
+<p>Na stánku jste se mohli stavit na konzultaci a zejména vidět první veřejné live demo nástroje <strong><a href="https://www.easyreport.cz/">EasyReport</a></strong>. Konzultace byly někdy i v řádech hodin. Povědomí o čase jako by se na Shopcampu vytratilo. Zároveň jsme představili tarif EASY (2 900 Kč/měsíc), který oslovuje zejména malé e-shopy s tisíci objednávkami do měsíce.</p>
+<div align="left">
+<blockquote class="twitter-tweet" data-lang="en">
+<p dir="ltr" lang="cs">Stavte se už v 9.30 na první minipřednášku! U našeho <a href="https://twitter.com/shopcampcz">@shopcampcz</a> stánku, hned vlevo vedle vchodu. <a href="https://t.co/I4m83CScwO">pic.twitter.com/I4m83CScwO</a></p>
+<p>— Medio Interactive (@mediocz) <a href="https://twitter.com/mediocz/status/776681017260269568">September 16, 2016</a></p></blockquote>
+<p><script src="//platform.twitter.com/widgets.js" async="" charset="utf-8"></script></p>
+</div>
+<h2>Slabá místa na cestě uživatele e-shopem</h2>
+<p>Před obědem jste se mohli zanořit do hlubin Google Analytics na přednášce <strong>Vybrané e-shopářské vychytávky z Google Analytics</strong> (Romana Velflová, Tomáš Kumsta). Romana s Tomášem uvedli užitečné ecommerce příklady, o kterých jste ani netušili, že se dají v Google Analytics řešit. Zmapovali problémová místa na cestě uživatele vaším e-shopem jako neexistující vstupní stránky, neintuitivní filtrace, interní vyhledávání s prázdnými výsledky, přesycenost interní propagací či nefunkční nákupní košík. Přednáška byla letmou ochutnávkou našeho nového školení. Nášup si můžete objednat na <a href="https://akademie.medio.cz/google-analytics-pro-fajnsmekry">Google Analytics pro fajnšmekry</a>.</p>
+<p><iframe width="595" height="485" style="border: 1px solid #CCC; border-width: 1px; margin-bottom: 5px; max-width: 100%;" src="//www.slideshare.net/slideshow/embed_code/key/DL7Zd42zwmeXaM" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen="allowfullscreen"> </iframe><br />
+<iframe width="595" height="335" src="https://www.youtube.com/embed/r-p_kmGoBjw" frameborder="0" allowfullscreen></iframe></p>
+<div align="left"><img class="alignnone" src="https://blog.medio.cz/wp-content/uploads/shopcamp-01-1024x683.jpg" alt="Přednáška o vychytávkách v Google Analytics" width="595" /></div>
+<div align="left"><img src="https://blog.medio.cz/wp-content/uploads/shopcamp-02.jpg" alt="Přednáška o vychytávkách Google Analytics" width="595" height="397" /></div>
+<h2>Google Tag Manager a učení se z chyb druhých</h2>
+<p>V odpoledních hodinách se ti techničtěji zaměření mohli rozvinout na 90 minutovém workshopu <strong>Google Tag Manager</strong> (André Heller). Žádný úvod do GTM, ale konkrétní pokročilé usecases. Na základě rozličné úrovně znalostí publika se probírala nejrůznější témata a problémy každého z vás. Nejvíc času se však věnovalo aktuální změně rozhraní Google Tag Manageru. Představte si, kdybyste mohli tento workshop prodloužit na celý den. Nově můžete. Na našem novém školení <a href="https://akademie.medio.cz/google-tag-manager-pro-fajnsmekry">Google Tag Manager pro fajnšmekry</a>.</p>
+<p><em>Aktualizováno: 16. 10. 2016</em>.</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Segmentace pomocí Enhanced Ecommerce</title>
+		<link>https://blog.medio.cz/segmentace-pomoci-enhanced-ecommerce</link>
+				<pubDate>Tue, 30 Aug 2016 12:00:29 +0000</pubDate>
+		<dc:creator><![CDATA[Marek Aldorf]]></dc:creator>
+				<category><![CDATA[Analytika]]></category>
+		<category><![CDATA[DATA workshop]]></category>
+		<category><![CDATA[Enhanced Ecommerce]]></category>
+		<category><![CDATA[Google Analytics]]></category>
+		<category><![CDATA[Segmentace]]></category>
+
+		<guid isPermaLink="false">https://blog.medio.cz/?p=4420</guid>
+				<description><![CDATA[Po zapnutí a implementaci Enhanced Ecommerce se dostanete ke spoustě nových možností. Například vyhodnocování impresí produktů, bannerů nebo košíku. Zároveň se otevírají i nové možnosti v oblasti segmentace. A Google Analytics poskytuje snadnou cestu, jak se k segmentům dostat.]]></description>
+								<content:encoded><![CDATA[<p style="text-align: justify">Po zapnutí a implementaci Enhanced Ecommerce se dostanete ke spoustě nových možností. Například vyhodnocování impresí produktů, bannerů nebo košíku. Zároveň se otevírají i nové možnosti v oblasti segmentace. A Google Analytics poskytuje snadnou cestu, jak se k segmentům dostat.</p>
+<h2>Reporty</h2>
+<p style="text-align: justify">V záložce <strong>Analýza nákupu</strong> se nacházejí reporty s názvy <strong>Analýza chování nakupujících</strong> a <strong>Analýza chování ve službě Checkout</strong>. V těchto reportech jsou zobrazeny funnely uživatelů, kteří procházejí nákupním procesem a checkoutem. Oba reporty vypadají obdobně. Rozdíl je v tom, že report s analýzou checkoutu je složený z kroků, které jste si zvolili v nastavení výběru dat v sekci pro nastavení Enhanced Ecommerce. Výběr s chováním nakupujících je složený z jednotlivých fází nákupního procesu od všech uživatelů. Přes návštěvy s přidáním do košíku až po odeslanou transakci.</p>
+<p><img src="https://blog.medio.cz/wp-content/uploads/funnel_analyza_nakupu-1024x569.png" alt="funnel_analyza_nakupu" width="1024" height="569" class="aligncenter size-large wp-image-4421" srcset="https://blog.medio.cz/wp-content/uploads/funnel_analyza_nakupu-1024x569.png 1024w, https://blog.medio.cz/wp-content/uploads/funnel_analyza_nakupu-300x167.png 300w, https://blog.medio.cz/wp-content/uploads/funnel_analyza_nakupu-768x427.png 768w, https://blog.medio.cz/wp-content/uploads/funnel_analyza_nakupu.png 1121w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
+<h2>Tvorba segmentů</h2>
+<p style="text-align: justify">Ve výše uvedených reportech máte vždy <strong>čtyři možnosti jak segment vytvořit</strong>:
+</p>
+<ol>
+<li>Vytvořit <font color="red">segment [1]</font> na všechny návštěvy, ve kterých uživatel ve vybraném kroku udělal jakoukoliv interakci. Tento <font color="red">segment [1]</font> vytvoříte v prvním kroku nákupního procesu kliknutím na modrý sloupec. V dalších krocích pak vždy kliknutím na spodní modrý sloupec.</li>
+<li>Vytvořit <font color="orange">segment [2]</font> pro návštěvy, ve kterých uživatel opustil nákupní proces ve vybraném kroku. Tento <font color="orange">segment [2]</font> vytvoříte klikem na šipku pod vybranou fází nákupního procesu.</li>
+<li>Vytvořit <font color="green">segment [3]</font> pro návštěvy, ve kterých uživatel přišel do vybraného kroku nákupního procesu. Tento <font color="green">segment</font> vytvoříte klikem na horní sloupec, který se objevuje od druhého kroku košíku.</li>
+<li>Vytvoření vlastního segmentu ve výčtu segmentů.</li>
+</ol>
+<p><img src="https://blog.medio.cz/wp-content/uploads/funnel-vytvareni-jednotlivych-segmentu-1024x488.png" alt="funnel-vytvareni-jednotlivych-segmentu" width="1024" height="488" class="aligncenter size-large wp-image-4425" srcset="https://blog.medio.cz/wp-content/uploads/funnel-vytvareni-jednotlivych-segmentu-1024x488.png 1024w, https://blog.medio.cz/wp-content/uploads/funnel-vytvareni-jednotlivych-segmentu-300x143.png 300w, https://blog.medio.cz/wp-content/uploads/funnel-vytvareni-jednotlivych-segmentu-768x366.png 768w, https://blog.medio.cz/wp-content/uploads/funnel-vytvareni-jednotlivych-segmentu.png 1535w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
+<p style="text-align: justify;margin-top: 25px">Při kliknutí na jeden z výše uvedených prvků vám vyskočí popup okno s výběrem názvu pro segment a výběrem dat. Zvolíte jednu z možností výběru dat a pojmenujete segment. Poté stačí jen potvrdit a segment je vytvořený. Ten se pak nachází mezi vlastními segmenty.</p>
+<p><img src="https://blog.medio.cz/wp-content/uploads/popup_okno.png" alt="popup_okno" width="685" height="433" class="aligncenter size-full wp-image-4427" srcset="https://blog.medio.cz/wp-content/uploads/popup_okno.png 685w, https://blog.medio.cz/wp-content/uploads/popup_okno-300x190.png 300w" sizes="(max-width: 685px) 100vw, 685px" /></p>
+<h2>Využití segmentů</h2>
+<p style="text-align: justify">Vytvořený segment poté můžete využít ve všech reportech. Nejčastěji se využívá segment pro uživatele, kteří přidali produkt do košíku a poté košík opustili. Tento segment přidáte kliknutím na červenou šipku pod fází nákupního procesu <strong>Návštěvy s přidáním do košíku</strong>. Segment vám zobrazí ty uživatele, kteří projevili zájem o daný produkt. Z nějakého důvodu ale ještě nebyli připraveni na nákup nebo při koupi produktu nastala nějaká překážka.</p>
+<p style="text-align: justify">Uživatelé, kteří odpadnou přímo v checkoutu, je další často používaný segment. Opět stačí kliknout na šipku pod danou fází a segment je hotový. Pokud budete chtít vědět, kde přesně v checkoutu se uživatelé ztrácejí, zvolíte zmiňovaný report <strong>Chování ve službě Checkout</strong>.</p>
+<p><img src="https://blog.medio.cz/wp-content/uploads/funnel_analyza_checkoutu-1024x678.png" alt="funnel_analyza_checkoutu" width="1024" height="678" class="aligncenter size-large wp-image-4428" srcset="https://blog.medio.cz/wp-content/uploads/funnel_analyza_checkoutu-1024x678.png 1024w, https://blog.medio.cz/wp-content/uploads/funnel_analyza_checkoutu-300x199.png 300w, https://blog.medio.cz/wp-content/uploads/funnel_analyza_checkoutu-768x508.png 768w, https://blog.medio.cz/wp-content/uploads/funnel_analyza_checkoutu.png 1153w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
+<h2>Custom segmenty</h2>
+<p style="text-align: justify">Pokud si nevystačíte s výše uvedenými možnostmi, přicházejí na řadu vlastní segmenty. Díky Enhanced Ecommerce můžete využít přednastavených podmínek přímo v nástroji v záložce <strong>Pokročilý elektronický obchod</strong>. Tam můžete podrobněji uživatele segmentovat podle jednotlivých produktů, které uživatel zakoupil, přidal do košíku nebo s nimi udělal jakoukoli interakci (například nákup, přidání do košíku, imprese nebo klik na produkt).</p>
+<p><img src="https://blog.medio.cz/wp-content/uploads/vlastni-segment-ee-1024x366.png" alt="vlastni-segment-ee" width="1024" height="366" class="aligncenter size-large wp-image-4429" srcset="https://blog.medio.cz/wp-content/uploads/vlastni-segment-ee-1024x366.png 1024w, https://blog.medio.cz/wp-content/uploads/vlastni-segment-ee-300x107.png 300w, https://blog.medio.cz/wp-content/uploads/vlastni-segment-ee-768x274.png 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
+<p style="text-align: justify;margin-top: 25px">Pokud vám ani toto nestačí, můžete ještě vytvářet podmínky nad uživateli nebo návštěvami podle dimenzí a metrik.</p>
+<p><img src="https://blog.medio.cz/wp-content/uploads/vlastni-segment-podminky-1024x305.png" alt="vlastni-segment-podminky" width="1024" height="305" class="aligncenter size-large wp-image-4430" srcset="https://blog.medio.cz/wp-content/uploads/vlastni-segment-podminky-1024x305.png 1024w, https://blog.medio.cz/wp-content/uploads/vlastni-segment-podminky-300x89.png 300w, https://blog.medio.cz/wp-content/uploads/vlastni-segment-podminky-768x229.png 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></p>
+<h2>Závěrem</h2>
+<p style="text-align: justify">Více o segmentaci pomocí Enhanced Ecommerce a use cases pro jednotlivé segmenty se můžete dozvědět 15. září 2016 na <a href="https://www.dataworkshop.cz/">Medio DATA workshopu</a>, kde se tomuto tématu budeme podrobně věnovat.</p>
+]]></content:encoded>
+										</item>
+	</channel>
+</rss>

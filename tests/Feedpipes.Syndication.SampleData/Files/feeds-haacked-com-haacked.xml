@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/atom10full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.haacked.com/~d/styles/itemcontent.css"?><feed xmlns="http://www.w3.org/2005/Atom" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0"><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://haacked.com/" rel="alternate" type="text/html" /><updated>2019-07-25T02:57:30+00:00</updated><id>https://haacked.com/atom.xml</id><title type="html">You’ve Been Haacked</title><subtitle>You've been Haacked is a blog about Technology, Software, Management, and Open Source. It's full of good stuff.
+</subtitle><author><name>Phil Haack</name></author><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/atom+xml" href="http://feeds.haacked.com/haacked" /><feedburner:info uri="haacked" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><geo:lat>34.03056</geo:lat><geo:long>-118.398043</geo:long><link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/2.5/" /><feedburner:emailServiceId>haacked</feedburner:emailServiceId><feedburner:feedburnerHostname>https://feedburner.google.com</feedburner:feedburnerHostname><entry><title type="html">Should You Flow External Claims On Every Login?</title><link href="http://feeds.haacked.com/~r/haacked/~3/w-pvjkw36dw/" rel="alternate" type="text/html" title="Should You Flow External Claims On Every Login?" /><published>2019-07-17T00:00:00+00:00</published><updated>2019-07-17T00:00:00+00:00</updated><id>https://haacked.com/archive/2019/07/17/should-you-flow-external-claims</id><content type="html" xml:base="https://haacked.com/archive/2019/07/17/should-you-flow-external-claims/">&lt;p&gt;In my last post, I showed how to flow claims from an external identity provider to your application. My post walks through how to bring over the claims every time the user logs in. But why would I want to do this?&lt;/p&gt;
+
+&lt;p&gt;On Twitter, &lt;a href="https://brockallen.com/"&gt;Brock Allen&lt;/a&gt; replied to my post &lt;a href="https://twitter.com/BrockLAllen/status/1151270781181136896"&gt;with this tweet&lt;/a&gt;,&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;IMO, external claims (other than sub) are only useful to pre-populate the registration page in your app the first time the user ever shows up from the external IdP. Otherwise, and forevermore, you ignore those claims from the external IdP.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In case you’re not up on the TLAs (Three Letter Acronyms), “IMO” means “In my opinion” and “IdP” refers to Identity Providers. As one of the maintainers of &lt;a href="https://github.com/IdentityServer/IdentityServer4"&gt;IdentityServer&lt;/a&gt; (among many other identity related open source projects), Brock knows his stuff.&lt;/p&gt;
+
+&lt;p&gt;I picture Brock in the role of Dr. Ian Malcom in Jurassic Park.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://user-images.githubusercontent.com/19977/61344565-8966da00-a806-11e9-9e6c-954a42102b36.png" alt="Your scientists were so preoccupied with whether they could, they didn't stop to think if they should." /&gt;&lt;/p&gt;
+
+&lt;p&gt;After discussing it on Twitter, I came to the conclusion that he’s correct for 99.9% of use cases. So the behavior described in the documentation, &lt;a href="https://docs.microsoft.com/en-us/aspnet/core/security/authentication/social/additional-claims?view=aspnetcore-2.2"&gt;Persist additional claims and tokens from external providers in ASP.NET Core&lt;/a&gt; is preferable to my approach in nearly all cases.&lt;/p&gt;
+
+&lt;h2 id="why-go-against-the-grain"&gt;Why Go Against The Grain?&lt;/h2&gt;
+
+&lt;p&gt;So why am I going against the grain? Ultimately, what you do here is a product decision. And for most products, the default behavior is more correct than what I’m doing. But there are some situations where what I’m doing might make sense.&lt;/p&gt;
+
+&lt;p&gt;My post was a bit misleading because it mentioned social login providers. In general, these are untrusted providers. Anyone can sign up for a gmail account.&lt;/p&gt;
+
+&lt;p&gt;But allowing the general public to use these providers is not what I’m doing. Each of these social providers can be used for companies. For example, Facebook has Workplace, Google has G-Suite, and GitHub has orgs and a decent API.&lt;/p&gt;
+
+&lt;p&gt;In my case, I’m building an app for companies to use. When set up, the app lets employees of a company authenticate to the app using their trusted identity provider (right now I only support G-Suite). It’s an application that’s meant to be internal to a company.&lt;/p&gt;
+
+&lt;p&gt;For the sake of a concrete example, imagine your company has a set of internal apps such as an expense reporting app, a customer support app, an HR app, and so on. All these apps implement single sign-on with your company’s G-Suite login provider. You might not want employees to have different emails, names, and profile images in all these other apps.&lt;/p&gt;
+
+&lt;p&gt;Why not?&lt;/p&gt;
+
+&lt;p&gt;It keeps things simpler to manage. Suppose an employee legally changes their name. It’d be nice if they could change it in one place and have it flow out to all the other apps. Or perhaps your company has pranksters who change their image and name to impersonate the CEO. It’d be nice to manage such changes in a single place.&lt;/p&gt;
+
+&lt;p&gt;And if I turn out to be wrong, it’ll be simple to change course and allow people to change their own information in the app. Until then, my app just tells people to go change their information in their company Google profile. I feel it’s a valid minimum viable approach for now.&lt;/p&gt;
+
+&lt;p&gt;If your app is using these social login providers to make it easier for the general public to log in, this approach is probably not for you.&lt;/p&gt;
+
+&lt;h2 id="another-approach"&gt;Another Approach?&lt;/h2&gt;
+
+&lt;p&gt;One other possible approach that my last post enables is to offer a choice. In my app, I’ve made the identity provider the source of truth. But you may want to own the data as Brock suggests, but give your users a choice.&lt;/p&gt;
+
+&lt;p&gt;When they log in, you can detect if any of these values have changed and offer to update the local information. For example, if their profile picture changes on Google, you can prompt them to update the image on your local site. Today, I do that with &lt;a href="https://ifttt.com"&gt;IFTTT&lt;/a&gt; through &lt;a href="https://ifttt.com/applets/qFZqXrvs-automatically-change-your-twitter-profile-pic-when-you-update-your-facebook-photo"&gt;applets like this&lt;/a&gt;.&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.haacked.com/~ff/haacked?a=w-pvjkw36dw:4KyRVJH_6bs:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/haacked?i=w-pvjkw36dw:4KyRVJH_6bs:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.haacked.com/~ff/haacked?a=w-pvjkw36dw:4KyRVJH_6bs:G79ilh31hkQ"&gt;&lt;img src="http://feeds.feedburner.com/~ff/haacked?d=G79ilh31hkQ" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/haacked/~4/w-pvjkw36dw" height="1" width="1" alt=""/&gt;</content><author><name>Phil Haack</name></author><category term="aspnet" /><category term="security" /><summary type="html">In my last post, I showed how to flow claims from an external identity provider to your application. My post walks through how to bring over the claims every time the user logs in. But why would I want to do this?</summary><feedburner:origLink>https://haacked.com/archive/2019/07/17/should-you-flow-external-claims/</feedburner:origLink></entry><entry><title type="html">Flow External Claims to the Main Identity</title><link href="http://feeds.haacked.com/~r/haacked/~3/gpuaZykLxjo/" rel="alternate" type="text/html" title="Flow External Claims to the Main Identity" /><published>2019-07-16T00:00:00+00:00</published><updated>2019-07-16T00:00:00+00:00</updated><id>https://haacked.com/archive/2019/07/16/external-claims</id><content type="html" xml:base="https://haacked.com/archive/2019/07/16/external-claims/">&lt;p&gt;I love it when a website lets me use my Google, GitHub, or Facebook account to log in. Chances are, I’m already logged into those sites, so it’s one click to log into a new site. This is a great experience for users. It reduces the friction to registration and loggin in to your site. They’re less likely to clam up.&lt;/p&gt;
+
+&lt;p&gt;It’s easy to add external authentication to ASP.NET Core applications. For example, if you want users to log in with their Google or Facebook credentials, &lt;a href="https://docs.microsoft.com/en-us/aspnet/core/security/authentication/social/?view=aspnetcore-2.2&amp;amp;tabs=visual-studio"&gt;follow these instructions&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id="claims-not-clams"&gt;Claims, Not Clams&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src="https://user-images.githubusercontent.com/19977/61318768-a970ac00-a7ba-11e9-9041-83ce8e081809.png" alt="Clam on the beach" /&gt;&lt;/p&gt;
+
+&lt;p&gt;So what happens when a user logs into your application with an external login provider? First, your application receives a set of claims from the login provider. A claim is a name value pair. It contains information about who the authenticated user is. It says nothing about what they can do. For example, a claim might include their given and surname. Or it might include a profile picture.&lt;/p&gt;
+
+&lt;p&gt;Often, you want these claims to flow into the local application identity. When you authenticate with a provider like Google, the provider redirects to a callback URL passing along these claims. In response, the asp.net core application will create a local identity. If there’s no existing user account associated with the external login, the app prompts the user to create one.&lt;/p&gt;
+
+&lt;p&gt;You can see all this logic in the pages for ASP.NET Identity. For example, you can &lt;a href="https://docs.microsoft.com/en-us/aspnet/core/security/authentication/scaffold-identity?view=aspnetcore-2.2&amp;amp;tabs=visual-studio"&gt;scaffold Identity into your project&lt;/a&gt; and see all the Razor Pages.&lt;/p&gt;
+
+&lt;p&gt;The specific logic to handle the callback occurs in &lt;code class="highlighter-rouge"&gt;{YourProjectFolder}/Areas/Identity/Pages/Account/ExternalLogin.cshtml.cs&lt;/code&gt;. You can see the source code for the &lt;a href="https://github.com/aspnet/AspNetCore/blob/master/src/Identity/UI/src/Areas/Identity/Pages/V4/Account/ExternalLogin.cshtml.cs"&gt;latest version on GitHub here&lt;/a&gt;. Note that version is in active development so it might not match up with what you have on your machine.&lt;/p&gt;
+
+&lt;h2 id="persisting-claims"&gt;Persisting Claims&lt;/h2&gt;
+
+&lt;p&gt;Microsoft has a document, &lt;a href="https://docs.microsoft.com/en-us/aspnet/core/security/authentication/social/additional-claims?view=aspnetcore-2.2"&gt;Persist additional claims and tokens from external providers in ASP.NET Core&lt;/a&gt; that provides details on how to persist those claims.&lt;/p&gt;
+
+&lt;p&gt;These steps require editing the &lt;code class="highlighter-rouge"&gt;OnPostConfirmationAsync&lt;/code&gt; method of &lt;code class="highlighter-rouge"&gt;ExternalLogin.cshtml.cs&lt;/code&gt;. When a user authenticates with an external provider for the first time, they won’t have a local account. The &lt;code class="highlighter-rouge"&gt;ExternalLogin&lt;/code&gt; page displays the email address received from the provider and prompts the user to confirm their account information by submitting the form. When they submit the form, &lt;code class="highlighter-rouge"&gt;OnPostConfirmationAsync&lt;/code&gt; handles that post request.&lt;/p&gt;
+
+&lt;h2 id="problems-with-this-approach"&gt;Problems With This Approach&lt;/h2&gt;
+
+&lt;p&gt;There’s a few issues with this approach for my needs. The first is that this only persists these claims when the user creates a local account. Subsequent logins won’t update the claim with this approach. So if the user updates their profile pic on Google, your site won’t receive that change by default.&lt;/p&gt;
+
+&lt;p&gt;The second issue is this updates a scaffolded page. Not terrible, but I try to keep updates to scaffolded pages to a minimum. That way, there’s not too much to change when the next version of ASP.NET Core comes out and I want to use the updated Identity pages.&lt;/p&gt;
+
+&lt;p&gt;Another issue is this, what if I don’t even want to persist these claims. There may be some claims I always want to pull from the provider each time they log in. I don’t have to worry about the logic of storing them. &lt;strong&gt;How do I flow these external claims into the local claims without persisting them?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id="but-first-should-i-do-this"&gt;But First, Should I Do This?&lt;/h2&gt;
+
+&lt;p&gt;What I’m trying to do here is unusual and probably does NOT meet the needs of your app. I wrote a &lt;a href="https://haacked.com/archive/2019/07/17/should-you-flow-external-claims/"&gt;follow-up post covering why I’m doing this&lt;/a&gt;. Most apps should not.&lt;/p&gt;
+
+&lt;h2 id="i-dont-claim-to-have-all-the-answers"&gt;I Don’t Claim to Have All the Answers&lt;/h2&gt;
+
+&lt;p&gt;Turns out, this is not so simple. In researching this, I started to get a bit clammy. Perhaps it doesn’t make sense to do it at all. There’s an &lt;a href="https://github.com/aspnet/Identity/issues/628"&gt;existing issue that explains why&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;To summarize, in order to authenticate a user to the local app, the app calls &lt;a href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.signinmanager-1.externalloginsigninasync?view=aspnetcore-2.2"&gt;&lt;code class="highlighter-rouge"&gt;SignInManager.ExternalLoginSignInAsync&lt;/code&gt;&lt;/a&gt;. This validates the external auth cookie and signs the user in to the local app. At the same time, it &lt;a href="https://github.com/aspnet/AspNetCore/blob/87a92e52c8b4bb7cb75ff78d53d641b1d34f8775/src/Identity/Core/src/SignInManager.cs#L483"&gt;clears the external auth cookie&lt;/a&gt;. Thus you no longer have access to the external claims.&lt;/p&gt;
+
+&lt;p&gt;You could save the claims prior to this method call by calling &lt;a href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.usermanager-1.addclaimasync?view=aspnetcore-2.2"&gt;&lt;code class="highlighter-rouge"&gt;UserManager.AddClaimAsync&lt;/code&gt;&lt;/a&gt;. In fact, this is what &lt;a href="https://github.com/aspnet/AuthSamples/commit/404105bd191f2e973d4befb668f1310d2fd82701"&gt;Microsoft’s own sample does&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;But keep in mind that will persist the claim to the database. Also, if you plan to update the claim with the latest value each time the user logs in, you have to rememeber to remove the existing claim and add the new one. Otherwise you get a database full of the same claims. That’s a lot of cllaims!&lt;/p&gt;
+
+&lt;p&gt;And finally, you have to do this in two places in &lt;code class="highlighter-rouge"&gt;ExternalLoginSignInAsync&lt;/code&gt;, once in &lt;code class="highlighter-rouge"&gt;OnGetCallbackAsync&lt;/code&gt; and once in &lt;code class="highlighter-rouge"&gt;OnPostConfirmationAsync&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;A Microsoft developer (who I used to work with and is a fine poker player) offers &lt;a href="https://github.com/aspnet/AuthSamples/issues/6#issuecomment-356149753"&gt;another promising solution here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;So plug in your own IUserClaimsPrincipalFactory which is called during ExternalLoginSignInAsync, and have it look at the external cookie to add the claims.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;That didn’t work for me. I was unable to access the external claims from within a custom &lt;code class="highlighter-rouge"&gt;IUserClaimsPrincipalFactory&lt;/code&gt; implementation. To access externall claims, you call &lt;a href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.signinmanager-1.getexternallogininfoasync?view=aspnetcore-2.2"&gt;&lt;code class="highlighter-rouge"&gt;SignInManager.GetExternalLoginInfoAsync&lt;/code&gt;&lt;/a&gt;. But I don’t have access to a &lt;code class="highlighter-rouge"&gt;SignInManager&lt;/code&gt; from within an &lt;code class="highlighter-rouge"&gt;IUserClaimsPrincipalFactory&lt;/code&gt; implementation. I can’t inject one either because &lt;code class="highlighter-rouge"&gt;SignInManager&lt;/code&gt; depends on &lt;code class="highlighter-rouge"&gt;IUserClaimsPrincipalFactory&lt;/code&gt;. Injecting one would lead to a circular dependencies and probably cause the colllapse of the universe.&lt;/p&gt;
+
+&lt;h2 id="my-haacky-claim-to-a-solution"&gt;My haacky claim to a solution&lt;/h2&gt;
+
+&lt;p&gt;So the question remains, how do you add the claim to your local identity without persisting it via &lt;code class="highlighter-rouge"&gt;AddClaimAsync&lt;/code&gt;? I came up with a solution, but it’s not as clean as I’d like because I had to copy a bit of code from ASP.NET Core. Thank goodness it’s &lt;a href="https://github.com/aspnet/AspNetCore/blob/master/LICENSE.txt"&gt;open source under a permissive license&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;What I did was write a custom implementation of &lt;a href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.signinmanager-1?view=aspnetcore-2.2"&gt;&lt;code class="highlighter-rouge"&gt;SignInManager&amp;lt;TUser&amp;gt;&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I overrode the &lt;code class="highlighter-rouge"&gt;SignInOrTwoFactorAsync&lt;/code&gt; method so that it would copy any external claims over to the local identity. This method does a few other things I didn’t want to lose, So I copied the internal implementation and just changed the bit I needed.&lt;/p&gt;
+
+&lt;p&gt;I then registered my custom implementation in &lt;code class="highlighter-rouge"&gt;Startup.cs&lt;/code&gt; after the &lt;code class="highlighter-rouge"&gt;services.AddIdentity&lt;/code&gt; call like so:&lt;/p&gt;
+
+&lt;div class="language-csharp highlighter-rouge"&gt;&lt;div class="highlight"&gt;&lt;pre class="highlight"&gt;&lt;code&gt;&lt;span class="n"&gt;services&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;AddIdentity&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;ApplicationUser&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;IdentityRole&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;()&lt;/span&gt;
+    &lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;AddEntityFrameworkStores&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;ApplicationDbContext&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;()&lt;/span&gt;
+    &lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;AddDefaultTokenProviders&lt;/span&gt;&lt;span class="p"&gt;();&lt;/span&gt;
+
+&lt;span class="c1"&gt;// This replaces the default `SignInManager` with my custom one.&lt;/span&gt;
+&lt;span class="n"&gt;services&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;AddScoped&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;SignInManager&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;ApplicationUser&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;,&lt;/span&gt; &lt;span class="n"&gt;ExternalClaimsSignInManager&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;ApplicationUser&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&amp;gt;();&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Just in case it’s not obvious, &lt;code class="highlighter-rouge"&gt;ApplicationUser&lt;/code&gt; is a custom user class that inherits from &lt;code class="highlighter-rouge"&gt;IdentityUser&lt;/code&gt;. If you didn’t override the class, you’d use &lt;code class="highlighter-rouge"&gt;IdentityUser&lt;/code&gt;. If you did, replace &lt;code class="highlighter-rouge"&gt;ApplicationUser&lt;/code&gt; with whatever you named your user class. The same goes for &lt;code class="highlighter-rouge"&gt;ApplicationDbContext&lt;/code&gt; which inherits from &lt;code class="highlighter-rouge"&gt;IdentityDbContext&amp;lt;ApplicationUser&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Here’s the full source for &lt;code class="highlighter-rouge"&gt;ExternalClaimsSignInManager&amp;lt;TUser&amp;gt;&lt;/code&gt;. I’ve tried to format it to fit the constraints of my blog.&lt;/p&gt;
+
+&lt;div class="language-csharp highlighter-rouge"&gt;&lt;div class="highlight"&gt;&lt;pre class="highlight"&gt;&lt;code&gt;&lt;span class="c1"&gt;// Some of this code is copied and modified from&lt;/span&gt;
+&lt;span class="c1"&gt;// https://github.com/aspnet/AspNetCore/blob/master/src/Identity/Core/src/SignInManager.cs&lt;/span&gt;
+&lt;span class="c1"&gt;// Copyright (c) .NET Foundation. All rights reserved.&lt;/span&gt;
+&lt;span class="c1"&gt;// Licensed under the Apache License, Version 2.0. See the license for that code at&lt;/span&gt;
+&lt;span class="c1"&gt;// https://github.com/aspnet/AspNetCore/blob/master/LICENSE.txt&lt;/span&gt;
+&lt;span class="k"&gt;using&lt;/span&gt; &lt;span class="nn"&gt;System.Linq&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="k"&gt;using&lt;/span&gt; &lt;span class="nn"&gt;System.Security.Claims&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="k"&gt;using&lt;/span&gt; &lt;span class="nn"&gt;System.Threading.Tasks&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="k"&gt;using&lt;/span&gt; &lt;span class="nn"&gt;Microsoft.AspNetCore.Authentication&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="k"&gt;using&lt;/span&gt; &lt;span class="nn"&gt;Microsoft.AspNetCore.Http&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="k"&gt;using&lt;/span&gt; &lt;span class="nn"&gt;Microsoft.AspNetCore.Identity&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="k"&gt;using&lt;/span&gt; &lt;span class="nn"&gt;Microsoft.Extensions.Logging&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="k"&gt;using&lt;/span&gt; &lt;span class="nn"&gt;Microsoft.Extensions.Options&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+
+&lt;span class="k"&gt;namespace&lt;/span&gt; &lt;span class="nn"&gt;Haack.Identity.Infrastructure&lt;/span&gt;
+&lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="k"&gt;public&lt;/span&gt; &lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;ExternalClaimsSignInManager&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;TUser&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;SignInManager&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;TUser&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt; &lt;span class="k"&gt;where&lt;/span&gt; &lt;span class="n"&gt;TUser&lt;/span&gt; &lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="k"&gt;class&lt;/span&gt;
+    &lt;span class="err"&gt;{&lt;/span&gt;
+        &lt;span class="nc"&gt;public&lt;/span&gt; &lt;span class="nf"&gt;ExternalClaimsSignInManager&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;
+            &lt;span class="n"&gt;UserManager&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;TUser&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;userManager&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+            &lt;span class="n"&gt;IHttpContextAccessor&lt;/span&gt; &lt;span class="n"&gt;contextAccessor&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+            &lt;span class="n"&gt;IUserClaimsPrincipalFactory&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;TUser&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;claimsFactory&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+            &lt;span class="n"&gt;IOptions&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;IdentityOptions&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;optionsAccessor&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+            &lt;span class="n"&gt;ILogger&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;SignInManager&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;TUser&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;logger&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+            &lt;span class="n"&gt;IAuthenticationSchemeProvider&lt;/span&gt; &lt;span class="n"&gt;schemes&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+            &lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="k"&gt;base&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;
+                &lt;span class="n"&gt;userManager&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+                &lt;span class="n"&gt;contextAccessor&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+                &lt;span class="n"&gt;claimsFactory&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+                &lt;span class="n"&gt;optionsAccessor&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+                &lt;span class="n"&gt;logger&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+                &lt;span class="n"&gt;schemes&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="p"&gt;{&lt;/span&gt;
+        &lt;span class="p"&gt;}&lt;/span&gt;
+
+        &lt;span class="k"&gt;protected&lt;/span&gt; &lt;span class="k"&gt;override&lt;/span&gt; &lt;span class="k"&gt;async&lt;/span&gt; &lt;span class="n"&gt;Task&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;SignInResult&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt; &lt;span class="nf"&gt;SignInOrTwoFactorAsync&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;
+            &lt;span class="n"&gt;TUser&lt;/span&gt; &lt;span class="n"&gt;user&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+            &lt;span class="kt"&gt;bool&lt;/span&gt; &lt;span class="n"&gt;isPersistent&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+            &lt;span class="kt"&gt;string&lt;/span&gt; &lt;span class="n"&gt;loginProvider&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="k"&gt;null&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+            &lt;span class="kt"&gt;bool&lt;/span&gt; &lt;span class="n"&gt;bypassTwoFactor&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="k"&gt;false&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="p"&gt;{&lt;/span&gt;
+            &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="p"&gt;(!&lt;/span&gt;&lt;span class="n"&gt;bypassTwoFactor&lt;/span&gt; &lt;span class="p"&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class="k"&gt;await&lt;/span&gt; &lt;span class="nf"&gt;IsTfaEnabled&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;user&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+            &lt;span class="p"&gt;{&lt;/span&gt;
+                &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="p"&gt;(!&lt;/span&gt;&lt;span class="k"&gt;await&lt;/span&gt; &lt;span class="nf"&gt;IsTwoFactorClientRememberedAsync&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;user&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+                &lt;span class="p"&gt;{&lt;/span&gt;
+                    &lt;span class="c1"&gt;// Store the userId for use after two factor check&lt;/span&gt;
+                    &lt;span class="kt"&gt;var&lt;/span&gt; &lt;span class="n"&gt;userId&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="k"&gt;await&lt;/span&gt; &lt;span class="n"&gt;UserManager&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;GetUserIdAsync&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;user&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+                    &lt;span class="k"&gt;await&lt;/span&gt; &lt;span class="n"&gt;Context&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;SignInAsync&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;IdentityConstants&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;TwoFactorUserIdScheme&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nf"&gt;StoreTwoFactorInfo&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;userId&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;loginProvider&lt;/span&gt;&lt;span class="p"&gt;));&lt;/span&gt;
+                    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;SignInResult&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;TwoFactorRequired&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+                &lt;span class="p"&gt;}&lt;/span&gt;
+            &lt;span class="p"&gt;}&lt;/span&gt;
+
+            &lt;span class="c1"&gt;// Grab external login info before we clean up the external cookie.&lt;/span&gt;
+            &lt;span class="c1"&gt;// This contains the external tokens and claims.&lt;/span&gt;
+            &lt;span class="kt"&gt;var&lt;/span&gt; &lt;span class="n"&gt;externalLoginInfo&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="k"&gt;await&lt;/span&gt; &lt;span class="nf"&gt;GetExternalLoginInfoAsync&lt;/span&gt;&lt;span class="p"&gt;();&lt;/span&gt;
+
+            &lt;span class="c1"&gt;// Cleanup external cookie&lt;/span&gt;
+            &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;loginProvider&lt;/span&gt; &lt;span class="p"&gt;!=&lt;/span&gt; &lt;span class="k"&gt;null&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+            &lt;span class="p"&gt;{&lt;/span&gt;
+                &lt;span class="k"&gt;await&lt;/span&gt; &lt;span class="n"&gt;Context&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;SignOutAsync&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;IdentityConstants&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ExternalScheme&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+            &lt;span class="p"&gt;}&lt;/span&gt;
+            &lt;span class="k"&gt;await&lt;/span&gt; &lt;span class="nf"&gt;SignInAsyncWithExternalClaims&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;
+                &lt;span class="n"&gt;user&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+                &lt;span class="n"&gt;isPersistent&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+                &lt;span class="n"&gt;loginProvider&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+                &lt;span class="n"&gt;externalLoginInfo&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+            &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;SignInResult&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Success&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+        &lt;span class="p"&gt;}&lt;/span&gt;
+
+        &lt;span class="k"&gt;async&lt;/span&gt; &lt;span class="n"&gt;Task&lt;/span&gt; &lt;span class="nf"&gt;SignInAsyncWithExternalClaims&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;
+            &lt;span class="n"&gt;TUser&lt;/span&gt; &lt;span class="n"&gt;user&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+            &lt;span class="kt"&gt;bool&lt;/span&gt; &lt;span class="n"&gt;isPersistent&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+            &lt;span class="kt"&gt;string&lt;/span&gt; &lt;span class="n"&gt;loginProvider&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+            &lt;span class="n"&gt;ExternalLoginInfo&lt;/span&gt; &lt;span class="n"&gt;externalLoginInfo&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="p"&gt;{&lt;/span&gt;
+            &lt;span class="kt"&gt;var&lt;/span&gt; &lt;span class="n"&gt;authenticationProperties&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="k"&gt;new&lt;/span&gt; &lt;span class="n"&gt;AuthenticationProperties&lt;/span&gt;
+            &lt;span class="p"&gt;{&lt;/span&gt;
+                 &lt;span class="n"&gt;IsPersistent&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="n"&gt;isPersistent&lt;/span&gt;
+            &lt;span class="p"&gt;};&lt;/span&gt;
+            &lt;span class="kt"&gt;var&lt;/span&gt; &lt;span class="n"&gt;userPrincipal&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="k"&gt;await&lt;/span&gt; &lt;span class="nf"&gt;CreateUserPrincipalAsync&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;user&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+            &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;loginProvider&lt;/span&gt; &lt;span class="p"&gt;!=&lt;/span&gt; &lt;span class="k"&gt;null&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+            &lt;span class="p"&gt;{&lt;/span&gt;
+                &lt;span class="n"&gt;userPrincipal&lt;/span&gt;
+                    &lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Identities&lt;/span&gt;
+                    &lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;First&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+                    &lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;AddClaim&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;new&lt;/span&gt; &lt;span class="nf"&gt;Claim&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ClaimTypes&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;AuthenticationMethod&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;loginProvider&lt;/span&gt;&lt;span class="p"&gt;));&lt;/span&gt;
+
+                &lt;span class="c1"&gt;// Add External Claimns that start with "urn:"&lt;/span&gt;
+                &lt;span class="kt"&gt;var&lt;/span&gt; &lt;span class="n"&gt;claims&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="n"&gt;externalLoginInfo&lt;/span&gt;
+                    &lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Principal&lt;/span&gt;
+                    &lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Claims&lt;/span&gt;
+                    &lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;Where&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;c&lt;/span&gt; &lt;span class="p"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;c&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Type&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;StartsWith&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"urn:"&lt;/span&gt;&lt;span class="p"&gt;));&lt;/span&gt;
+                &lt;span class="n"&gt;userPrincipal&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Identities&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;First&lt;/span&gt;&lt;span class="p"&gt;().&lt;/span&gt;&lt;span class="nf"&gt;AddClaims&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;claims&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+            &lt;span class="p"&gt;}&lt;/span&gt;
+            &lt;span class="k"&gt;await&lt;/span&gt; &lt;span class="n"&gt;Context&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;SignInAsync&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;IdentityConstants&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ApplicationScheme&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+                &lt;span class="n"&gt;userPrincipal&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+                &lt;span class="n"&gt;authenticationProperties&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+        &lt;span class="p"&gt;}&lt;/span&gt;
+
+        &lt;span class="k"&gt;private&lt;/span&gt; &lt;span class="k"&gt;async&lt;/span&gt; &lt;span class="n"&gt;Task&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="kt"&gt;bool&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt; &lt;span class="nf"&gt;IsTfaEnabled&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;TUser&lt;/span&gt; &lt;span class="n"&gt;user&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+            &lt;span class="p"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;UserManager&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;SupportsUserTwoFactor&lt;/span&gt; &lt;span class="p"&gt;&amp;amp;&amp;amp;&lt;/span&gt;
+            &lt;span class="k"&gt;await&lt;/span&gt; &lt;span class="n"&gt;UserManager&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;GetTwoFactorEnabledAsync&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;user&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;&amp;amp;&amp;amp;&lt;/span&gt;
+            &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;await&lt;/span&gt; &lt;span class="n"&gt;UserManager&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;GetValidTwoFactorProvidersAsync&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;user&lt;/span&gt;&lt;span class="p"&gt;)).&lt;/span&gt;&lt;span class="n"&gt;Count&lt;/span&gt; &lt;span class="p"&gt;&amp;gt;&lt;/span&gt; &lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+
+
+        &lt;span class="c1"&gt;/// &amp;lt;summary&amp;gt;&lt;/span&gt;
+        &lt;span class="c1"&gt;/// Creates a claims principal for the specified 2fa information.&lt;/span&gt;
+        &lt;span class="c1"&gt;/// &amp;lt;/summary&amp;gt;&lt;/span&gt;
+        &lt;span class="c1"&gt;/// &amp;lt;param name="userId"&amp;gt;The user whose is logging in via 2fa.&amp;lt;/param&amp;gt;&lt;/span&gt;
+        &lt;span class="c1"&gt;/// &amp;lt;param name="loginProvider"&amp;gt;The 2fa provider.&amp;lt;/param&amp;gt;&lt;/span&gt;
+        &lt;span class="c1"&gt;/// &amp;lt;returns&amp;gt;A &amp;lt;see cref="ClaimsPrincipal"/&amp;gt; containing the user 2fa information.&amp;lt;/returns&amp;gt;&lt;/span&gt;
+        &lt;span class="k"&gt;internal&lt;/span&gt; &lt;span class="n"&gt;ClaimsPrincipal&lt;/span&gt; &lt;span class="nf"&gt;StoreTwoFactorInfo&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;string&lt;/span&gt; &lt;span class="n"&gt;userId&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kt"&gt;string&lt;/span&gt; &lt;span class="n"&gt;loginProvider&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="p"&gt;{&lt;/span&gt;
+            &lt;span class="kt"&gt;var&lt;/span&gt; &lt;span class="n"&gt;identity&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="k"&gt;new&lt;/span&gt; &lt;span class="nf"&gt;ClaimsIdentity&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;IdentityConstants&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;TwoFactorUserIdScheme&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+            &lt;span class="n"&gt;identity&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;AddClaim&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;new&lt;/span&gt; &lt;span class="nf"&gt;Claim&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ClaimTypes&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Name&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;userId&lt;/span&gt;&lt;span class="p"&gt;));&lt;/span&gt;
+            &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;loginProvider&lt;/span&gt; &lt;span class="p"&gt;!=&lt;/span&gt; &lt;span class="k"&gt;null&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+            &lt;span class="p"&gt;{&lt;/span&gt;
+                &lt;span class="n"&gt;identity&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;AddClaim&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;new&lt;/span&gt; &lt;span class="nf"&gt;Claim&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ClaimTypes&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;AuthenticationMethod&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;loginProvider&lt;/span&gt;&lt;span class="p"&gt;));&lt;/span&gt;
+            &lt;span class="p"&gt;}&lt;/span&gt;
+            &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="k"&gt;new&lt;/span&gt; &lt;span class="nf"&gt;ClaimsPrincipal&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;identity&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+        &lt;span class="p"&gt;}&lt;/span&gt;
+    &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;What’s nice about this approach is I don’t have to change &lt;code class="highlighter-rouge"&gt;ExternalLogin.cshtml.cs&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id="summary"&gt;Summary&lt;/h2&gt;
+
+&lt;p&gt;So, is this a good idea? If the information you want from the external provider doesn’t need to be persisted, then it could be useful.&lt;/p&gt;
+
+&lt;p&gt;In my case, I realized I needed others in my site to see this info. For example, a profile picture only visible to the user and not others isn’t really that useful. I ended up going with a different approach after figuring all this out. But maybe this will be useful to you. At the very least, it helps to understand the inner workings of ASP.NET authentication and the deep extensibility it supports.&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.haacked.com/~ff/haacked?a=gpuaZykLxjo:qIPTTCeSIkM:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/haacked?i=gpuaZykLxjo:qIPTTCeSIkM:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.haacked.com/~ff/haacked?a=gpuaZykLxjo:qIPTTCeSIkM:G79ilh31hkQ"&gt;&lt;img src="http://feeds.feedburner.com/~ff/haacked?d=G79ilh31hkQ" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/haacked/~4/gpuaZykLxjo" height="1" width="1" alt=""/&gt;</content><author><name>Phil Haack</name></author><category term="aspnet" /><category term="security" /><summary type="html">I love it when a website lets me use my Google, GitHub, or Facebook account to log in. Chances are, I’m already logged into those sites, so it’s one click to log into a new site. This is a great experience for users. It reduces the friction to registration and loggin in to your site. They’re less likely to clam up.</summary><feedburner:origLink>https://haacked.com/archive/2019/07/16/external-claims/</feedburner:origLink></entry><entry><title type="html">Deploying ASP.NET Core From A Zip File on Azure</title><link href="http://feeds.haacked.com/~r/haacked/~3/uws62lc91gA/" rel="alternate" type="text/html" title="Deploying ASP.NET Core From A Zip File on Azure" /><published>2019-07-12T00:00:00+00:00</published><updated>2019-07-12T00:00:00+00:00</updated><id>https://haacked.com/archive/2019/07/12/deploy-to-azure</id><content type="html" xml:base="https://haacked.com/archive/2019/07/12/deploy-to-azure/">&lt;p&gt;Azure has a neat feature that runs &lt;a href="https://docs.microsoft.com/en-us/azure/azure-functions/run-functions-from-deployment-package"&gt;Azure Functions from a package file (aka a zip file)&lt;/a&gt;. This same feature also applies to Azure Web Apps, though you wouldn’t know it from &lt;a href="https://docs.microsoft.com/en-us/azure/azure-functions/run-functions-from-deployment-package"&gt;the documentation&lt;/a&gt;. The Run from Package docs only mention Azure Functions. &lt;a href="https://github.com/Azure/app-service-announcements/issues/84"&gt;The GitHub issue that announced the feature&lt;/a&gt; makes it clear this also applies to Web Apps.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Run From Package is an exciting new feature which lets you run a Web App or Function App by simply pointing it to a zip file containing your files.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;There are some cool benefits of this approach according to the docs.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Reduces the risk of file copy locking issues.&lt;/li&gt;
+    &lt;li&gt;Can be deployed to a production app (with restart).&lt;/li&gt;
+    &lt;li&gt;You can be certain of the files that are running in your app.&lt;/li&gt;
+    &lt;li&gt;Improves the performance of Azure Resource Manager deployments.&lt;/li&gt;
+    &lt;li&gt;May reduce cold-start times, particularly for JavaScript functions with large npm package trees.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Performance doesn’t seem to be an issue (caching is probably involved).&lt;/p&gt;
+
+&lt;h2 id="the-punchline"&gt;The Punchline&lt;/h2&gt;
+
+&lt;p&gt;You’re a busy developer, so I’ll get right to the punchline. Nevermind that I spent hours to get this to work.&lt;/p&gt;
+
+&lt;p&gt;If you’re using Azure Pipelines to deploy to a Web App using this feature, most of the docs will point you to the &lt;a href="https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/deploy/azure-rm-web-app-deployment?view=azure-devops"&gt;Azure App Service Deploy task&lt;/a&gt;. In the &lt;code class="highlighter-rouge"&gt;azure-pipelines.yaml&lt;/code&gt;, you invoke this task using &lt;code class="highlighter-rouge"&gt;AzureRmWebAppDeployment@3&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;I could not get that to work. Instead, I discovered another task, &lt;a href="https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/deploy/azure-rm-web-app?view=azure-devops"&gt;Azure Web App&lt;/a&gt; which you invoke with &lt;code class="highlighter-rouge"&gt;AzureWebApp@1&lt;/code&gt;. That’s the one that worked for me.&lt;/p&gt;
+
+&lt;p&gt;Read on to learn of my harrowing journey to discover this and more details on how to set this all up.&lt;/p&gt;
+
+&lt;h2 id="define-some-terms"&gt;Define some terms&lt;/h2&gt;
+
+&lt;p&gt;Before I go further, let me clear up some terminology. Azure terminology keeps me in a constant state of confusion. For example, if you go to your portal, you won’t see any navigation item for web apps.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://user-images.githubusercontent.com/19977/61091392-e32a6700-a3f6-11e9-848a-68e2ed401d1f.png" alt="A portion of the nav bar in the Azure Portal" /&gt;&lt;/p&gt;
+
+&lt;p&gt;What you’re looking for is an App Service. Per &lt;a href="https://docs.microsoft.com/en-us/azure/app-service/?WT.mc_id=AzPortal_AppSvc_CmdBar_DocLink"&gt;the App Service documentation&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Azure App Service enables you to build and host web apps, mobile back ends, and RESTful APIs in the programming language of your choice without managing infrastructure. It offers auto-scaling and high availability, supports both Windows and Linux, and enables automated deployments from GitHub, Azure DevOps, or any Git repo. Learn how to use Azure App Service with our quickstarts, tutorials, and samples.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;A &lt;em&gt;Web App&lt;/em&gt; is one of the types of App Services. When you click on App Services in the left navigation, the portal displays a list of your app services. Your web apps will have an &lt;em&gt;App Type&lt;/em&gt; of &lt;em&gt;Web App&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;What’s confusing to me is that a &lt;em&gt;Function App&lt;/em&gt; is not listed in the documentation for Azure App Services. It is logically a first class citizen in its own right. But, when you list your App Services, you’ll see Function Apps listed with the &lt;em&gt;App Type&lt;/em&gt; of &lt;em&gt;Function App&lt;/em&gt;. I assume they’re mplemented the same way, which is why Run From Package works for Web Apps as well as Function Apps.&lt;/p&gt;
+
+&lt;h2 id="configure-run-from-package"&gt;Configure Run From Package&lt;/h2&gt;
+
+&lt;p&gt;According to the docs,&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;To enable your function app to run from a package, you just add a &lt;code class="highlighter-rouge"&gt;WEBSITE_RUN_FROM_PACKAGE&lt;/code&gt; setting to your function app settings.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;To clarify, when they mention a “setting” here, it refers to an &lt;em&gt;Application Setting&lt;/em&gt;. In the portal, you can set this by navigating to your App Service (Web App or Function App). Then click on the &lt;em&gt;Configuration&lt;/em&gt; link under the &lt;em&gt;Settings&lt;/em&gt; heading in secondary navigation on the left.&lt;/p&gt;
+
+&lt;p&gt;Make sure you’re on the Application Settings tab and click &lt;em&gt;New application setting&lt;/em&gt; as shown in the screenshot.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://user-images.githubusercontent.com/19977/61226960-427ac680-a6d8-11e9-8e2c-6c76a0d9677e.png" alt="Screenshot of the Application Settings page" /&gt;&lt;/p&gt;
+
+&lt;p&gt;There are two values you can set for this setting.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;URL to the package&lt;/strong&gt;: In this case, it’s on you to figure out how to deploy the package to the URL. Azure Blob storage might be a good fit here.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;1&lt;/strong&gt;: If you set the value of the setting to 1, it runs from a special folder in your Web App (or Function App). Let’s dig into this.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;According to the documentation:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Run from a package file in the &lt;code class="highlighter-rouge"&gt;d:\home\data\SitePackages&lt;/code&gt; folder of your function app. If not deploying with zip deploy, this option requires the folder to also have a file named &lt;code class="highlighter-rouge"&gt;packagename.txt&lt;/code&gt;. This file contains only the name of the package file in folder, without any whitespace.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I like this option because in theory, it’s less moving parts. However, to get it all to work turned out to be a pain because of some confusing documentation.&lt;/p&gt;
+
+&lt;h2 id="create-the-sitepackages-folder"&gt;Create the SitePackages folder&lt;/h2&gt;
+
+&lt;p&gt;If you’re running a Web App in App Services, Azure provides this useful administrative Kudu website. Kudu is a deployment system for deploying web apps to Azure from many sources.&lt;/p&gt;
+
+&lt;p&gt;To get to the website, append .scm to your web app’s URL in the right place. For example, when you set up a web app, Azure will give you a URL that looks like: &lt;code class="highlighter-rouge"&gt;https://my-app-name.azurewebsites.net&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;All you have to do is insert &lt;code class="highlighter-rouge"&gt;scm.&lt;/code&gt; between your app name and &lt;code class="highlighter-rouge"&gt;azurewebsites.net&lt;/code&gt;. Thus in the example above, you’d visit &lt;code class="highlighter-rouge"&gt;https://my-app-name.scm.azurewebsites.net&lt;/code&gt; in your browser.&lt;/p&gt;
+
+&lt;p&gt;In the menu, select &lt;code class="highlighter-rouge"&gt;CMD&lt;/code&gt; or &lt;code class="highlighter-rouge"&gt;PowerShell&lt;/code&gt;. This gives you access to both a terminal shell as well as the directory structure.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://user-images.githubusercontent.com/19977/61091391-e32a6700-a3f6-11e9-96d1-6ca90804ef27.png" alt="Screen showing directory structure and command shell" /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can use the web UI (or shell) to create the &lt;code class="highlighter-rouge"&gt;SitePackages&lt;/code&gt; folder. You can also drag and drop files onto the web page to upload them to the folders.&lt;/p&gt;
+
+&lt;p&gt;If you want to do a manual deployment to test out running from a package file, you might run the following steps.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;code class="highlighter-rouge"&gt;dotnet publish -o c:\some\path\on\your\machine&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Zip up the published files (they need to be in the root of your zip archive).&lt;/li&gt;
+  &lt;li&gt;Drag and drop the file into the &lt;code class="highlighter-rouge"&gt;SitePackages&lt;/code&gt; folder in the administrative Kudu site.&lt;/li&gt;
+  &lt;li&gt;Create a file named &lt;code class="highlighter-rouge"&gt;packagename.txt&lt;/code&gt; in the &lt;code class="highlighter-rouge"&gt;SitePackages&lt;/code&gt; folder. This file only contains the name of the zip file you uploaded, nothing else. No newlines or spaces.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Now you should be able to visit your site and see that it’s running from the zip package.&lt;/p&gt;
+
+&lt;h2 id="deploy-from-azure-pipelines"&gt;Deploy from Azure Pipelines&lt;/h2&gt;
+
+&lt;p&gt;Maybe you’re like me and aren’t into that whole manual approach. I like my deployments like my transmissions, automatic.&lt;/p&gt;
+
+&lt;p&gt;If you recall, earlier I noted the following statement in the docs:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If not deploying with zip deploy, this option requires the folder to also have a file named &lt;code class="highlighter-rouge"&gt;packagename.txt&lt;/code&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;A natural question is, what is a Zip Deploy? Well, &lt;a href="https://docs.microsoft.com/en-us/azure/azure-functions/deployment-zip-push"&gt;I found these docs&lt;/a&gt;. Those aren’t helpful because I want to use Azure Functions to deploy the app.&lt;/p&gt;
+
+&lt;p&gt;I then found this documentation on how to &lt;a href="https://docs.microsoft.com/en-us/azure/devops/pipelines/targets/webapp?view=azure-devops&amp;amp;tabs=yaml"&gt;Deploy an Azure Web App&lt;/a&gt;. It mentions the &lt;em&gt;Azure App Service Deploy task&lt;/em&gt; which is invoked via &lt;code class="highlighter-rouge"&gt;AzureRmWebAppDeployment@3&lt;/code&gt; when using Yaml with Azure pipelines.&lt;/p&gt;
+
+&lt;p&gt;I read &lt;a href="https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/deploy/azure-rm-web-app-deployment?view=azure-devops"&gt;the docs on that&lt;/a&gt;. It has a section with the heading &lt;em&gt;Run From Package&lt;/em&gt;. Now we’re getting somewhere. It states,&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Creates the same deployment package as Zip Deploy. However, instead of deploying files to the wwwroot folder, the entire package is mounted by the Functions runtime and files in the wwwroot folder become read-only. For more information, see Run your Azure Functions from a package file.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Typically, if you use the &lt;code class="highlighter-rouge"&gt;AzureRmWebAppDeployment@3&lt;/code&gt; task, it extracts the zip package and deploys it to &lt;code class="highlighter-rouge"&gt;D:\home\site\wwwroot&lt;/code&gt;. But you don’t want that if you plan to run from package. In fact, when you enabled Run From Package, that changes your &lt;code class="highlighter-rouge"&gt;wwwroot&lt;/code&gt; to be read-only. Which makes sense. This deployment task is supposed to understand this setting and instead of deploying to wwwroot, it should deploy to &lt;code class="highlighter-rouge"&gt;SitePackages&lt;/code&gt; and create the &lt;code class="highlighter-rouge"&gt;packagename.txt&lt;/code&gt; file automatically.&lt;/p&gt;
+
+&lt;p&gt;Note, I said &lt;em&gt;should&lt;/em&gt;. Here’s the yaml I tried when I set out to set up an automatic deployment.&lt;/p&gt;
+
+&lt;div class="language-yaml highlighter-rouge"&gt;&lt;div class="highlight"&gt;&lt;pre class="highlight"&gt;&lt;code&gt;&lt;span class="pi"&gt;-&lt;/span&gt; &lt;span class="na"&gt;task&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt; &lt;span class="s"&gt;AzureRmWebAppDeployment@3&lt;/span&gt;
+  &lt;span class="na"&gt;displayName&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;'&lt;/span&gt;&lt;span class="s"&gt;Deploy&lt;/span&gt;&lt;span class="nv"&gt; &lt;/span&gt;&lt;span class="s"&gt;to&lt;/span&gt;&lt;span class="nv"&gt; &lt;/span&gt;&lt;span class="s"&gt;Azure&lt;/span&gt;&lt;span class="nv"&gt; &lt;/span&gt;&lt;span class="s"&gt;App&lt;/span&gt;&lt;span class="nv"&gt; &lt;/span&gt;&lt;span class="s"&gt;Service'&lt;/span&gt;
+  &lt;span class="na"&gt;inputs&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt;
+    &lt;span class="na"&gt;azureSubscription&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;'&lt;/span&gt;&lt;span class="s"&gt;redacted&lt;/span&gt;&lt;span class="nv"&gt; &lt;/span&gt;&lt;span class="s"&gt;-&lt;/span&gt;&lt;span class="nv"&gt; &lt;/span&gt;&lt;span class="s"&gt;Azure'&lt;/span&gt;
+    &lt;span class="na"&gt;WebAppName&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;'&lt;/span&gt;&lt;span class="s"&gt;redacted'&lt;/span&gt;
+    &lt;span class="na"&gt;Package&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt; &lt;span class="s"&gt;$(Build.ArtifactStagingDirectory)/**/*.zip&lt;/span&gt;
+    &lt;span class="na"&gt;enableCustomDeployment&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt; &lt;span class="no"&gt;true&lt;/span&gt;
+    &lt;span class="na"&gt;DeploymentType&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt; &lt;span class="s"&gt;runFromZip&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;I also tried &lt;code class="highlighter-rouge"&gt;runFromPackage&lt;/code&gt; as well as leaving &lt;code class="highlighter-rouge"&gt;DeploymentType&lt;/code&gt; blank. Nothing worked. In the debug logs (I’ll explain how I turned that on later), I noticed it was trying to do a &lt;code class="highlighter-rouge"&gt;PUT&lt;/code&gt; request to &lt;code class="highlighter-rouge"&gt;/site/wwwroot&lt;/code&gt; and getting access denied. Well of course access is denied, &lt;code class="highlighter-rouge"&gt;wwwroot&lt;/code&gt; is read-only now.&lt;/p&gt;
+
+&lt;p&gt;I couldn’t understand why the deployment task wasn’t working as advertized. I was lucky and happened to be clicking around the list of deploy tasks for Azure Pipelines and discovered one named &lt;em&gt;Azure Web App Task&lt;/em&gt;. At first I ignored it because it didn’t have the word “deploy” in the task name. But then I read the description.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Use this task to deploy web applications to Azure App service.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;WTF?!&lt;/p&gt;
+
+&lt;p&gt;Long story short, this worked!&lt;/p&gt;
+
+&lt;div class="language-yaml highlighter-rouge"&gt;&lt;div class="highlight"&gt;&lt;pre class="highlight"&gt;&lt;code&gt;&lt;span class="pi"&gt;-&lt;/span&gt; &lt;span class="na"&gt;task&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt; &lt;span class="s"&gt;AzureWebApp@1&lt;/span&gt;
+  &lt;span class="na"&gt;displayName&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;'&lt;/span&gt;&lt;span class="s"&gt;Deploy&lt;/span&gt;&lt;span class="nv"&gt; &lt;/span&gt;&lt;span class="s"&gt;to&lt;/span&gt;&lt;span class="nv"&gt; &lt;/span&gt;&lt;span class="s"&gt;Azure&lt;/span&gt;&lt;span class="nv"&gt; &lt;/span&gt;&lt;span class="s"&gt;App&lt;/span&gt;&lt;span class="nv"&gt; &lt;/span&gt;&lt;span class="s"&gt;Service'&lt;/span&gt;
+  &lt;span class="na"&gt;inputs&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt;
+    &lt;span class="na"&gt;azureSubscription&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;'&lt;/span&gt;&lt;span class="s"&gt;redacted&lt;/span&gt;&lt;span class="nv"&gt; &lt;/span&gt;&lt;span class="s"&gt;-&lt;/span&gt;&lt;span class="nv"&gt; &lt;/span&gt;&lt;span class="s"&gt;Azure'&lt;/span&gt;
+    &lt;span class="na"&gt;appName&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;'&lt;/span&gt;&lt;span class="s"&gt;redacted'&lt;/span&gt;
+    &lt;span class="na"&gt;package&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt; &lt;span class="s"&gt;$(Build.ArtifactStagingDirectory)/**/*.zip&lt;/span&gt;
+    &lt;span class="na"&gt;enableCustomDeployment&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt; &lt;span class="no"&gt;true&lt;/span&gt;
+    &lt;span class="na"&gt;deploymentMethod&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt; &lt;span class="s"&gt;runFromPackage&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;I didn’t find much in the way of documentation that points to it as an option. Either way, I’m glad I found it and I hope this saves you time and keeps you from headaches.&lt;/p&gt;
+
+&lt;h2 id="adding-debug-logs-to-azure-pipelines"&gt;Adding Debug Logs to Azure Pipelines&lt;/h2&gt;
+
+&lt;p&gt;To help debug issues with my deployment, I turned on debug logging in Azure Pipelines. To do this, add the &lt;code class="highlighter-rouge"&gt;system.debug: true&lt;/code&gt; variable to your yaml file. For example, here’s the set of variables in mine.&lt;/p&gt;
+
+&lt;div class="language-yaml highlighter-rouge"&gt;&lt;div class="highlight"&gt;&lt;pre class="highlight"&gt;&lt;code&gt;&lt;span class="na"&gt;variables&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt;
+  &lt;span class="na"&gt;BuildConfiguration&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt; &lt;span class="s"&gt;Release&lt;/span&gt;
+  &lt;span class="na"&gt;vmImage&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt; &lt;span class="s"&gt;windows-2019&lt;/span&gt;
+  &lt;span class="s"&gt;system.debug&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt; &lt;span class="no"&gt;true&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This will spit out a lot of extra details in your Azure Pipelines log. You may want to turn it back off when you no longer have issues.&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.haacked.com/~ff/haacked?a=uws62lc91gA:QDSq17XQqi8:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/haacked?i=uws62lc91gA:QDSq17XQqi8:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.haacked.com/~ff/haacked?a=uws62lc91gA:QDSq17XQqi8:G79ilh31hkQ"&gt;&lt;img src="http://feeds.feedburner.com/~ff/haacked?d=G79ilh31hkQ" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/haacked/~4/uws62lc91gA" height="1" width="1" alt=""/&gt;</content><author><name>Phil Haack</name></author><category term="aspnet" /><category term="azure" /><summary type="html">Azure has a neat feature that runs Azure Functions from a package file (aka a zip file). This same feature also applies to Azure Web Apps, though you wouldn’t know it from the documentation. The Run from Package docs only mention Azure Functions. The GitHub issue that announced the feature makes it clear this also applies to Web Apps.</summary><feedburner:origLink>https://haacked.com/archive/2019/07/12/deploy-to-azure/</feedburner:origLink></entry><entry><title type="html">When Git Resolves Changes It Shouldn’t</title><link href="http://feeds.haacked.com/~r/haacked/~3/PJqBKTqPpnI/" rel="alternate" type="text/html" title="When Git Resolves Changes It Shouldn't" /><published>2019-06-24T00:00:00+00:00</published><updated>2019-06-24T00:00:00+00:00</updated><id>https://haacked.com/archive/2019/06/24/semantic-merge-conflicts</id><content type="html" xml:base="https://haacked.com/archive/2019/06/24/semantic-merge-conflicts/">&lt;p&gt;When you merge two branches, there may be conflicting changes between the branches. Git can often resolve these differences without intervention. For example, when each branch has changes to different files or lines of code.&lt;/p&gt;
+
+&lt;p&gt;But sometimes each branch has changes that Git cannot resolve without help. For example, if two developers change the same line of code. Or if one developer deletes a file, but the other changed the file. In these situations, Git fails the merge operation and reports a merge conflict.&lt;/p&gt;
+
+&lt;p&gt;This occurs more often than we’d like because Git doesn’t understand the semantics of code. A tool that did understand code semantics could resolve many (but not all) of these conflicts. In my last post, I gave an example of a merge conflict that a semantic tool can resolve automatically.&lt;/p&gt;
+
+&lt;p&gt;What about the opposite situation? Are there cases where Git automatically resolves changes that it shouldn’t? Of course the answer is yes, or I wouldn’t pose the question and write this post.&lt;/p&gt;
+
+&lt;h2 id="multiple-usings"&gt;Multiple usings&lt;/h2&gt;
+
+&lt;p&gt;Let’s start with something that you’re likely to run into if you’re a .NET developer. Here we have a very simple initial commit by Bob.&lt;/p&gt;
+
+&lt;div class="language-csharp highlighter-rouge"&gt;&lt;div class="highlight"&gt;&lt;pre class="highlight"&gt;&lt;code&gt;&lt;span class="k"&gt;using&lt;/span&gt; &lt;span class="nn"&gt;System&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="k"&gt;using&lt;/span&gt; &lt;span class="nn"&gt;System.Collections&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="k"&gt;using&lt;/span&gt; &lt;span class="nn"&gt;System.Collections.Generic&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+
+&lt;span class="k"&gt;public&lt;/span&gt; &lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;Main&lt;/span&gt;
+&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Alice creates a branch named &lt;code class="highlighter-rouge"&gt;diagnostics&lt;/code&gt; and adds a couple using statements.&lt;/p&gt;
+
+&lt;div class="language-diff highlighter-rouge"&gt;&lt;div class="highlight"&gt;&lt;pre class="highlight"&gt;&lt;code&gt; using System;
+&lt;span class="gi"&gt;+using System.Text;
+&lt;/span&gt; using System.Collections;
+&lt;span class="gi"&gt;+using System.Diagnostics;
+&lt;/span&gt; using System.Collections.Generic;
+
+ public class Main
+ {}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Meanwhile, on &lt;code class="highlighter-rouge"&gt;master&lt;/code&gt;, Bob adds &lt;code class="highlighter-rouge"&gt;using System.IO&lt;/code&gt; in the same place where Alice added &lt;code class="highlighter-rouge"&gt;System.Text&lt;/code&gt;. Bob also adds &lt;code class="highlighter-rouge"&gt;using System.Diagnostics&lt;/code&gt; to the end of the usings section.&lt;/p&gt;
+
+&lt;div class="language-diff highlighter-rouge"&gt;&lt;div class="highlight"&gt;&lt;pre class="highlight"&gt;&lt;code&gt; using System;
+&lt;span class="gi"&gt;+using System.IO;
+&lt;/span&gt; using System.Collections;
+ using System.Collections.Generic;
+&lt;span class="gi"&gt;+using System.Diagnostics;
+&lt;/span&gt;
+ public class Main
+ {
+ }
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Now Bob tries to merge Alice’s branch &lt;code class="highlighter-rouge"&gt;diagnostics&lt;/code&gt; into &lt;code class="highlighter-rouge"&gt;master&lt;/code&gt;. This results in the following conflict.&lt;/p&gt;
+
+&lt;div class="language-csharp highlighter-rouge"&gt;&lt;div class="highlight"&gt;&lt;pre class="highlight"&gt;&lt;code&gt; &lt;span class="k"&gt;using&lt;/span&gt; &lt;span class="nn"&gt;System&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+ &lt;span class="p"&gt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class="n"&gt;HEAD&lt;/span&gt;
+ &lt;span class="k"&gt;using&lt;/span&gt; &lt;span class="nn"&gt;System.IO&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+ &lt;span class="p"&gt;=======&lt;/span&gt;
+ &lt;span class="k"&gt;using&lt;/span&gt; &lt;span class="nn"&gt;System.Text&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+ &lt;span class="p"&gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;diagnostics&lt;/span&gt;
+ &lt;span class="k"&gt;using&lt;/span&gt; &lt;span class="nn"&gt;System.Collections&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+ &lt;span class="k"&gt;using&lt;/span&gt; &lt;span class="nn"&gt;System.Diagnostics&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+ &lt;span class="k"&gt;using&lt;/span&gt; &lt;span class="nn"&gt;System.Collections.Generic&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+ &lt;span class="k"&gt;using&lt;/span&gt; &lt;span class="nn"&gt;System.Diagnostics&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Git reports a conflict with the second line because Alice added &lt;code class="highlighter-rouge"&gt;System.Text&lt;/code&gt; there and Bob added &lt;code class="highlighter-rouge"&gt;System.IO&lt;/code&gt; there. Notice that Git doesn’t have any problem with the fact that both developers added a redundant &lt;code class="highlighter-rouge"&gt;using System.Diagnostics&lt;/code&gt; in two different places.&lt;/p&gt;
+
+&lt;p&gt;What happens in gmaster when we launch the semantic merge tool?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://user-images.githubusercontent.com/19977/61091492-37354b80-a3f7-11e9-974a-27f8366243d4.png" alt="gmaster resolves the conflict and duplicate usings" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Because gmaster understands C#, it is not only able to automatically resolve the conflict, it resolves the duplicate usings as well.&lt;/p&gt;
+
+&lt;p&gt;To be fair, the duplicate usings issue is very minor. It doesn’t affect the correctness of the program to have an extra using statement. Also, at the time I write this, gmaster will only resolve the duplicate if there’s another conflict in the file. The reason for this is it still relies on Git to report a merge conflict. If Git doesn’t think there’s a conflict, gmaster won’t intervene.&lt;/p&gt;
+
+&lt;h2 id="divergent-move"&gt;Divergent Move&lt;/h2&gt;
+
+&lt;p&gt;This scenario is a bit of an edge case, but more likely to cause problems with the final code. Here we start with an initial commit by Bob with a set of three simple interfaces.&lt;/p&gt;
+
+&lt;div class="language-csharp highlighter-rouge"&gt;&lt;div class="highlight"&gt;&lt;pre class="highlight"&gt;&lt;code&gt;&lt;span class="k"&gt;public&lt;/span&gt; &lt;span class="k"&gt;interface&lt;/span&gt; &lt;span class="nc"&gt;IStudent&lt;/span&gt;
+&lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="kt"&gt;string&lt;/span&gt; &lt;span class="n"&gt;Name&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="k"&gt;get&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="p"&gt;}&lt;/span&gt;
+    &lt;span class="kt"&gt;string&lt;/span&gt; &lt;span class="n"&gt;Teacher&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="k"&gt;get&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="p"&gt;}&lt;/span&gt;
+    &lt;span class="n"&gt;IClass&lt;/span&gt; &lt;span class="n"&gt;Class&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="k"&gt;get&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+
+&lt;span class="k"&gt;public&lt;/span&gt; &lt;span class="k"&gt;interface&lt;/span&gt; &lt;span class="nc"&gt;IClass&lt;/span&gt;
+&lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="kt"&gt;string&lt;/span&gt; &lt;span class="n"&gt;Name&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="k"&gt;get&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="p"&gt;}&lt;/span&gt;
+    &lt;span class="kt"&gt;string&lt;/span&gt; &lt;span class="n"&gt;Subject&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="k"&gt;get&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+
+&lt;span class="k"&gt;public&lt;/span&gt; &lt;span class="k"&gt;interface&lt;/span&gt; &lt;span class="nc"&gt;IEnrollment&lt;/span&gt;
+&lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="n"&gt;IStudent&lt;/span&gt; &lt;span class="n"&gt;Student&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="k"&gt;get&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="p"&gt;}&lt;/span&gt;
+    &lt;span class="n"&gt;IClass&lt;/span&gt; &lt;span class="n"&gt;Class&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="k"&gt;get&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Alice creates a branch named &lt;code class="highlighter-rouge"&gt;move-teacher-to-class&lt;/code&gt; and moves the &lt;code class="highlighter-rouge"&gt;Teacher&lt;/code&gt; property from &lt;code class="highlighter-rouge"&gt;IStudent&lt;/code&gt; to the &lt;code class="highlighter-rouge"&gt;IClass&lt;/code&gt; interface. She also adds a &lt;code class="highlighter-rouge"&gt;Grade&lt;/code&gt; property to &lt;code class="highlighter-rouge"&gt;IStudent&lt;/code&gt;. This results in these changes:&lt;/p&gt;
+
+&lt;div class="language-diff highlighter-rouge"&gt;&lt;div class="highlight"&gt;&lt;pre class="highlight"&gt;&lt;code&gt; public interface IStudent
+ {
+     string Name { get; }
+&lt;span class="gd"&gt;-    string Teacher { get; }
+&lt;/span&gt;&lt;span class="gi"&gt;+    int Grade { get; }
+&lt;/span&gt;     IClass Class { get; }
+ }
+ 
+ public interface IClass
+ {
+     string Name { get; }
+     string Subject { get; }
+&lt;span class="gi"&gt;+    string Teacher { get; }
+&lt;/span&gt; }
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Meanwhile, on &lt;code class="highlighter-rouge"&gt;master&lt;/code&gt;, Bob moves the &lt;code class="highlighter-rouge"&gt;Teacher&lt;/code&gt; property from &lt;code class="highlighter-rouge"&gt;IStudent&lt;/code&gt; to the &lt;code class="highlighter-rouge"&gt;IEnrollment&lt;/code&gt; interface.&lt;/p&gt;
+
+&lt;div class="language-diff highlighter-rouge"&gt;&lt;div class="highlight"&gt;&lt;pre class="highlight"&gt;&lt;code&gt; public interface IStudent
+ {
+     string Name { get; }
+&lt;span class="gd"&gt;-    string Teacher { get; }
+&lt;/span&gt;     IClass Class { get; }
+ }
+
+ public interface IEnrollment
+ {
+     IStudent Student { get; }
+     IClass Class { get; }
+&lt;span class="gi"&gt;+    string Teacher { get; }
+&lt;/span&gt; }
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Now what happens when Bob merges &lt;code class="highlighter-rouge"&gt;move-teacher-to-class&lt;/code&gt; into &lt;code class="highlighter-rouge"&gt;master&lt;/code&gt;?&lt;/p&gt;
+
+&lt;div class="language-diff highlighter-rouge"&gt;&lt;div class="highlight"&gt;&lt;pre class="highlight"&gt;&lt;code&gt; public interface IStudent
+ {
+     string Name { get; }
+&lt;span class="gi"&gt;+&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt; HEAD
++=======
++    int Grade { get; }
++&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt; move-teacher-to-class
+&lt;/span&gt;     IClass Class { get; }
+ }
+
+public interface IClass
+ {
+     string Name { get; }
+     string Subject { get; }
+&lt;span class="gi"&gt;+    string Teacher { get; }
+&lt;/span&gt; }
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Git notices the conflict in the &lt;code class="highlighter-rouge"&gt;IStudent&lt;/code&gt; class. One developer removed a property. Another developer added a property. But something else interesting happened here that Git did not notice. We have a divergent move situation here. Both developers moved the &lt;code class="highlighter-rouge"&gt;Teacher&lt;/code&gt; property to different interfaces. Let’s see how gmaster handles this. When we launch the Merge Tool from within gmaster, we get this.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://user-images.githubusercontent.com/19977/61091559-7c597d80-a3f7-11e9-8134-a90e35e3dcc7.png" alt="Gmaster Merge Tool notices divergent move" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Notice that gmaster resolves the conflict in &lt;code class="highlighter-rouge"&gt;IStudent&lt;/code&gt; that Git reported. Because it understands C#, it understands this change isn’t actually in conflict.&lt;/p&gt;
+
+&lt;p&gt;However, gmaster does notice another conflict that Git did &lt;em&gt;not&lt;/em&gt; report. gmaster reports that the &lt;code class="highlighter-rouge"&gt;Teacher&lt;/code&gt; property was moved in each branch to two different locations. That is indicative of a semantic conflict. You can click on “Explain Move” to get a semantic visualization of the change.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://user-images.githubusercontent.com/19977/61091590-9bf0a600-a3f7-11e9-9ed9-42de4743d710.png" alt="The divergent move explained in a class diagram" /&gt;&lt;/p&gt;
+
+&lt;h2 id="limitations"&gt;Limitations&lt;/h2&gt;
+
+&lt;p&gt;In the scenario I presented here, there’s an important caveat. As I write this, gmaster relies on Git to detect conflicts. If Alice hadn’t added the &lt;code class="highlighter-rouge"&gt;Grade&lt;/code&gt; property to &lt;code class="highlighter-rouge"&gt;IStudent&lt;/code&gt;, Git would not have reported a conflict. In that case, gmaster would not intervene to report the divergent move. Should a tool like gmaster intervene on every merge? That’s an interesting question for the gmaster product team. In theory they could build a &lt;a href="http://www.mcclellandlegge.com/2017-03-20-customgitmergedriver/"&gt;custom Git merge driver&lt;/a&gt; that understands the semantic of code.&lt;/p&gt;
+
+&lt;h2 id="future-exploration"&gt;Future Exploration&lt;/h2&gt;
+
+&lt;p&gt;There are other conflict scenarios that a semantic tool in theory could resolve. For example, suppose you rename a variable in one branch. Another developer in another branch makes use of the old variable name. When you merge the two branches, it would be nice if the merge tool could resolve that conflict.&lt;/p&gt;
+
+&lt;p&gt;As I write this, gmaster doesn’t yet handle this situation. The creators of gmaster want to make sure that people find the existing tools useful before investing in deeper semantic merge scenarios.&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.haacked.com/~ff/haacked?a=PJqBKTqPpnI:82lheedn7yU:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/haacked?i=PJqBKTqPpnI:82lheedn7yU:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.haacked.com/~ff/haacked?a=PJqBKTqPpnI:82lheedn7yU:G79ilh31hkQ"&gt;&lt;img src="http://feeds.feedburner.com/~ff/haacked?d=G79ilh31hkQ" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/haacked/~4/PJqBKTqPpnI" height="1" width="1" alt=""/&gt;</content><author><name>Phil Haack</name></author><category term="git" /><category term="semantic" /><summary type="html">When you merge two branches, there may be conflicting changes between the branches. Git can often resolve these differences without intervention. For example, when each branch has changes to different files or lines of code.</summary><feedburner:origLink>https://haacked.com/archive/2019/06/24/semantic-merge-conflicts/</feedburner:origLink></entry><entry><title type="html">Banish Merge Conflicts With Semantic Merge</title><link href="http://feeds.haacked.com/~r/haacked/~3/6x8E6czROVA/" rel="alternate" type="text/html" title="Banish Merge Conflicts With Semantic Merge" /><published>2019-06-17T00:00:00+00:00</published><updated>2019-06-17T00:00:00+00:00</updated><id>https://haacked.com/archive/2019/06/17/semantic-merge</id><content type="html" xml:base="https://haacked.com/archive/2019/06/17/semantic-merge/">&lt;p&gt;Raise your hand if you enjoy merge conflicts. I’ll go out on a limb and guess that nobody has a hand up. If you do have your hand up - first, you look silly right now. I can’t see you. And second, you’re being contrarian. Nobody likes merge conflicts. They’re a hassle.&lt;/p&gt;
+
+&lt;p&gt;I know the data backs me up here. When I started at GitHub, I worked on a Git client. If you can avoid it, never work on a Git client. It’s painful. The folks that build these things are true heroes in my book. Every one of them.&lt;/p&gt;
+
+&lt;p&gt;Anyways, the most frequent complaint we heard from our users had to do with merge conflicts. It trips up so many developers, whether new or experienced. We ran some surveys and we’d often hear things along the lines of this…&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;When I run into a merge conflict on GitHub, I flip my desk, set it all on fire, and &lt;code class="highlighter-rouge"&gt;git reset HEAD --hard&lt;/code&gt; and just start over.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id="conflict-reduction"&gt;Conflict Reduction&lt;/h2&gt;
+
+&lt;p&gt;Here’s the dirty little secret of Git. Git has no idea what you’re doing. As far as Git is concerned, you just tappety tap a bunch of random characters into a file. Ok, that’s not fair to Git. It does understand a little bit about the structure of text and code. But not a lot.&lt;/p&gt;
+
+&lt;p&gt;If it did understand the structure and semantics of code, it could reduce the number of merge conflicts by a significant amount. Let me provide a few examples. We’ll assume two developers are collaborating on each example, Alice and Bob. Bob only works on &lt;code class="highlighter-rouge"&gt;master&lt;/code&gt; and Alice works in branches. Be like Alice.&lt;/p&gt;
+
+&lt;p&gt;In each of these examples, I try to keep them as simple as possible. They’re all single file, though the concepts work if you work in separate files too.&lt;/p&gt;
+
+&lt;h2 id="method-move-situation"&gt;Method Move Situation&lt;/h2&gt;
+
+&lt;p&gt;In this scenario, Bob creates an interface for a socket server. He just jams everything into a single interface.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bob: Initial Commit on &lt;code class="highlighter-rouge"&gt;master&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class="language-diff highlighter-rouge"&gt;&lt;div class="highlight"&gt;&lt;pre class="highlight"&gt;&lt;code&gt;&lt;span class="gi"&gt;+public interface ISocket
++{
++    string GetHostName(IPAddress address);
++    void Listen();
++    void Connect(IPAddress address);
++    int Send(byte[] buffer);
++    int Receive(byte[] buffer);
++}
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Alice works with Bob on this code. She decides to separate this interface into two interfaces - an interface for clients and another for servers. So she creates branch &lt;code class="highlighter-rouge"&gt;separate-client-server&lt;/code&gt; and creates the &lt;code class="highlighter-rouge"&gt;IServerSocket&lt;/code&gt; interface. She then renames &lt;code class="highlighter-rouge"&gt;ISocket&lt;/code&gt; to &lt;code class="highlighter-rouge"&gt;IClientSocket&lt;/code&gt;. She also moves the methods &lt;code class="highlighter-rouge"&gt;Listen&lt;/code&gt; and &lt;code class="highlighter-rouge"&gt;Receive&lt;/code&gt; into the &lt;code class="highlighter-rouge"&gt;IServerSocket&lt;/code&gt; interface.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Alice: Commit on &lt;code class="highlighter-rouge"&gt;separate-client-server&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class="language-diff highlighter-rouge"&gt;&lt;div class="highlight"&gt;&lt;pre class="highlight"&gt;&lt;code&gt;&lt;span class="gd"&gt;-public interface ISocket
+&lt;/span&gt;&lt;span class="gi"&gt;+public interface IClientSocket
+&lt;/span&gt; {
+     string GetHostName(IPAddress address);
+&lt;span class="gd"&gt;-    void Listen();
+&lt;/span&gt;     void Connect(IPAddress address);
+     int Send(byte[] buffer);
+&lt;span class="gd"&gt;-    int Receive(byte[] buffer);
+&lt;/span&gt;}
+&lt;span class="gi"&gt;+
++public interface IServerSocket
++{
++    void Listen();
++    int Receive(byte[] buffer);
++}
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Meanwhile, back on the &lt;code class="highlighter-rouge"&gt;master&lt;/code&gt; branch. Bob moves &lt;code class="highlighter-rouge"&gt;GetHostName&lt;/code&gt; into a new interface, &lt;code class="highlighter-rouge"&gt;IDns&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class="language-diff highlighter-rouge"&gt;&lt;div class="highlight"&gt;&lt;pre class="highlight"&gt;&lt;code&gt; public interface ISocket
+ {
+&lt;span class="gd"&gt;-    string GetHostName(IPAddress address);
+&lt;/span&gt;     void Listen();
+     void Connect(IPAddress address);
+     int Send(byte[] buffer);
+     int Receive(byte[] buffer);
+ }
+&lt;span class="gi"&gt;+
++public interface IDns
++{
++    string GetHostName(IPAddress address);
++}
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Now Bob attempts to merge the &lt;code class="highlighter-rouge"&gt;separate-client-server&lt;/code&gt; branch into &lt;code class="highlighter-rouge"&gt;master&lt;/code&gt;. Git loses its shit and reports a merge conflict. Boo hoo.&lt;/p&gt;
+
+&lt;div class="language-diff highlighter-rouge"&gt;&lt;div class="highlight"&gt;&lt;pre class="highlight"&gt;&lt;code&gt; using System.Net;
+
+&lt;span class="gd"&gt;-public interface ISocket
+&lt;/span&gt;&lt;span class="gi"&gt;+public interface IClientSocket
+&lt;/span&gt; {
+&lt;span class="gi"&gt;+&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt; HEAD
+&lt;/span&gt;     void Listen();
+&lt;span class="gi"&gt;+=======
++    string GetHostName(IPAddress address);
++&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt; separate-client-server
+&lt;/span&gt;     void Connect(IPAddress address);
+     int Send(byte[] buffer);
+&lt;span class="gd"&gt;-    int Receive(byte[] buffer);
+&lt;/span&gt; }
+ 
+&lt;span class="gi"&gt;+&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt;&amp;lt; HEAD
+&lt;/span&gt; public interface IDns
+ {
+     string GetHostName(IPAddress address);
+ }
+&lt;span class="gi"&gt;+=======
++public interface IServerSocket
++{
++    void Listen();
++    int Receive(byte[] buffer);
++}
++&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt; separate-client-server
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;All Git knows is that both developers changed some text in the same place. It has no idea that Alice and Bob are extracting interfaces and moving methods around.&lt;/p&gt;
+
+&lt;p&gt;But what if it did? This is where semantic diff and semantic merge come into play. &lt;a href="https://haacked.com/archive/2019/01/07/haacked-llc/"&gt;I’m an advisor&lt;/a&gt; to &lt;a href="https://www.plasticscm.com/company"&gt;Códice Software&lt;/a&gt; who are deep in this space. One of their products, &lt;a href="https://gmaster.io/"&gt;gmaster&lt;/a&gt; is a Git client. This client includes their &lt;a href="https://semanticmerge.com/"&gt;Semantic Merge technology&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Here’s what happens when I run into this situation with gmaster. The UI is a bit busy and confusing at first, but it’s very powerful and you get used to it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://user-images.githubusercontent.com/19977/61091707-01449700-a3f8-11e9-947d-b1a7da0d0f59.png" alt="gmaster with a merge conflict" /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;First, gmaster recognizes that Git reports a merge conflict. It doesn’t resolve it automatically. This is by design. Merge resolution is as intentional act. There’s probably a setting to allow it to automatically resolve conflicts it understands.&lt;/li&gt;
+  &lt;li&gt;Down below, gmaster displays a semantic diff. The diff shows that the method moved to a new interface. It knows what’s going on here.&lt;/li&gt;
+  &lt;li&gt;Click the “Launch Merge Tool” to see the magic happen. This launches the semantic merge tool.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src="https://user-images.githubusercontent.com/19977/61091660-d65a4300-a3f7-11e9-9f98-dfecbe449b46.png" alt="gmaster automatically resolves the conflict" /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;As you can see, the tool was able to automatically resolve the conflict. No manual intervention necessary.&lt;/li&gt;
+  &lt;li&gt;All you have to do is click Commit to complete the merge commit.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;With Git and any other diff/merge tool, you would have to manually resolve the conflict. If you’ve resolved large conflicts, you know what a pain it is. Any tool that can reduce the number of conflicts you need to worry about is valuable. And on a real-world repository, this tool makes a big impact. I’ll cover that in a future post!&lt;/p&gt;
+
+&lt;h2 id="summary"&gt;Summary&lt;/h2&gt;
+
+&lt;p&gt;I’ll be honest, my favorite Git client is still &lt;a href="https://desktop.github.com/"&gt;GitHub Desktop&lt;/a&gt;. I appreciate its clean design, usability, and how it fits my workflow. Along with the command line, Desktop is my primary Git client. But I added gmaster to my toolbelt. It comes in handy when I run into merge conflicts. I’d rather let it handle conflicts than do it all by hand.&lt;/p&gt;
+
+&lt;p&gt;Gmaster is unfortunately &lt;a href="https://www.gmaster.io/"&gt;only available on Windows&lt;/a&gt;, but you can’t beat the price, free!&lt;/p&gt;
+
+&lt;p&gt;I plan to write another post or two about merge conflict scenarios and how semantic approaches can help save developers a lot of time.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;DISCLAIMER: I am a paid advisor to the makers of gmaster, but the content on my blog is my own. They did not pay for this post, in the same way all my previous employers did not pay for any content on my blog.&lt;/em&gt;&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.haacked.com/~ff/haacked?a=6x8E6czROVA:rAfxwGyh6aY:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/haacked?i=6x8E6czROVA:rAfxwGyh6aY:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.haacked.com/~ff/haacked?a=6x8E6czROVA:rAfxwGyh6aY:G79ilh31hkQ"&gt;&lt;img src="http://feeds.feedburner.com/~ff/haacked?d=G79ilh31hkQ" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/haacked/~4/6x8E6czROVA" height="1" width="1" alt=""/&gt;</content><author><name>Phil Haack</name></author><category term="git" /><category term="semantic" /><summary type="html">Raise your hand if you enjoy merge conflicts. I’ll go out on a limb and guess that nobody has a hand up. If you do have your hand up - first, you look silly right now. I can’t see you. And second, you’re being contrarian. Nobody likes merge conflicts. They’re a hassle.</summary><feedburner:origLink>https://haacked.com/archive/2019/06/17/semantic-merge/</feedburner:origLink></entry><entry><title type="html">Package Manager Security</title><link href="http://feeds.haacked.com/~r/haacked/~3/VlckDWvYdts/" rel="alternate" type="text/html" title="Package Manager Security" /><published>2019-06-11T00:00:00+00:00</published><updated>2019-06-11T00:00:00+00:00</updated><id>https://haacked.com/archive/2019/06/11/package-mwanager-security</id><content type="html" xml:base="https://haacked.com/archive/2019/06/11/package-mwanager-security/">&lt;p&gt;It happened &lt;a href="https://twitter.com/bcrypt/status/1136714575770816512"&gt;again&lt;/a&gt;. A group of hackers targeted another cryptocurrency wallet via a malicious NPM package. The good news is that &lt;a href="http://blog.npmjs.org/post/185397814280/plot-to-steal-cryptocurrency-foiled-by-the-npm"&gt;this attempt was foiled&lt;/a&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Yesterday, the npm, Inc. security team, in collaboration with Komodo, helped protect over $13 million USD in cryptocurrency assets as we found and responded to a malware threat targeting the users of a cryptocurrency wallet called Agama.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src="https://user-images.githubusercontent.com/19977/59305523-420d8c80-8c4f-11e9-86de-5c48576298e9.png" alt="They will guard your package" /&gt;&lt;/p&gt;
+
+&lt;p&gt;The bad news is this is just the attempt we know about.&lt;/p&gt;
+
+&lt;p&gt;This attack is a variant of the &lt;code class="highlighter-rouge"&gt;event-stream&lt;/code&gt; attack I wrote about.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The attack was carried out by using a pattern that is becoming more and more popular; publishing a “useful” package (&lt;code class="highlighter-rouge"&gt;electron-native-notify&lt;/code&gt;) to npm, waiting until it was in use by the target, and then updating it to include a malicious payload.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;With &lt;code class="highlighter-rouge"&gt;event-stream&lt;/code&gt;, the attackers took over an existing popular package. In this situation, they created a package that then became popular. In effect, it’s a honeypot malicious package.&lt;/p&gt;
+
+&lt;p&gt;This seems like a difficult attack to pull off. Not only does the attacker have to write a package that is useful. The attacker has to make the package grow in popularity. It’s competing against hundreds of thousands of packages on NPM. On top of that, the attackers have to hope the target open source application makes use of the package.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://haacked.com/archive/2019/05/10/friend-signing-packages/"&gt;Stronger identities&lt;/a&gt; with reputation systems might have helped in this situation. I don’t know enough details to be sure. I haven’t heard whether the attackers impersonated well known authors or simply spent the effort to become well-known. Or maybe package consumers install software from unknown authors at a clip way more than I expected.&lt;/p&gt;
+
+&lt;p&gt;Package Manager security is a topic that’s been on my mind lately. I wrote this post to consolidate my writings on this topic.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href="https://haacked.com/archive/2013/02/19/trust-and-nuget.aspx/"&gt;Trust and Nuget&lt;/a&gt;&lt;/strong&gt; &lt;em&gt;Feb 2013&lt;/em&gt; - Discusses some ideas specific to determining trust on NuGet (a package manager for the .NET ecosystem). The ideas are not specific to NuGet.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href="https://haacked.com/archive/2018/11/28/package-manager-trust/"&gt;The Problem of Package Manager Trust&lt;/a&gt;&lt;/strong&gt; &lt;em&gt;Nov 2018&lt;/em&gt; - Some thoughts about the &lt;code class="highlighter-rouge"&gt;event-stream&lt;/code&gt; incident and some high level ideas on what package manager authors and the overall software community should do about it.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href="https://haacked.com/archive/2019/04/03/nuget-package-signing/"&gt;Why NuGet Package Signing Is Not (Yet) for Me&lt;/a&gt;&lt;/strong&gt; &lt;em&gt;Apr 2019&lt;/em&gt; - A critique of the NuGet package signing feature. Certificate signing seems promising, but it’s useless if nobody does it. Spoiler alert, nobody does it.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href="https://haacked.com/archive/2019/05/10/friend-signing-packages/"&gt;Package Author Identity through Social Proofs&lt;/a&gt;&lt;/strong&gt; &lt;em&gt;May 2019&lt;/em&gt; - An alternative approach to certificate signing for establishing identity through social proofs.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href="https://haacked.com/archive/2019/05/13/package-fingerprint/"&gt;Better Security Through Package Fingerprints&lt;/a&gt;&lt;/strong&gt; &lt;em&gt;May 2019&lt;/em&gt; - An exploration of package fingerprinting as one method of reducing risk with packages. This would provide a way to ensure that a package in a package repository matches the source code on GitHub.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href="https://haacked.com/archive/2019/05/28/maintainer-burnout/"&gt;Maintainer burnout and package security&lt;/a&gt;&lt;/strong&gt; &lt;em&gt;May 2019&lt;/em&gt; - This post draws the conclusion that no matter what we do, malicious packages will find their way in repositories and possibly on our machines. The answer to that is security-in-depth and being quick to respond and repair.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I’m pretty done with this topic for the moment, but if I ever write about it again, I’ll add the post to this list.&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.haacked.com/~ff/haacked?a=VlckDWvYdts:t5-nmw6mhrU:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/haacked?i=VlckDWvYdts:t5-nmw6mhrU:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.haacked.com/~ff/haacked?a=VlckDWvYdts:t5-nmw6mhrU:G79ilh31hkQ"&gt;&lt;img src="http://feeds.feedburner.com/~ff/haacked?d=G79ilh31hkQ" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/haacked/~4/VlckDWvYdts" height="1" width="1" alt=""/&gt;</content><author><name>Phil Haack</name></author><category term="nuget" /><category term="security" /><category term="oss" /><summary type="html">It happened again. A group of hackers targeted another cryptocurrency wallet via a malicious NPM package. The good news is that this attempt was foiled.</summary><feedburner:origLink>https://haacked.com/archive/2019/06/11/package-mwanager-security/</feedburner:origLink></entry><entry><title type="html">Discuss amongst yourselves on GitHub</title><link href="http://feeds.haacked.com/~r/haacked/~3/iR88tWY0ujQ/" rel="alternate" type="text/html" title="Discuss amongst yourselves on GitHub" /><published>2019-06-10T00:00:00+00:00</published><updated>2019-06-10T00:00:00+00:00</updated><id>https://haacked.com/archive/2019/06/10/team-discussions</id><content type="html" xml:base="https://haacked.com/archive/2019/06/10/team-discussions/">&lt;p&gt;When I ran the Client Apps team at GitHub, I wrote a weekly “newsletter” to the team. I named it the CACAW which stood for Completely Awesome Client Apps Weekly. The name gave me an excuse to highlight each letter with a crow themed image.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://user-images.githubusercontent.com/19977/37788571-fa91d55e-2dbe-11e8-961d-f8f13ad65b2e.jpg" alt="Am I taking this crow thing too far?" /&gt;&lt;/p&gt;
+
+&lt;p&gt;I tried to invoke every possible pun on crows I could find. It did not take long to run out of these. The purpose of this newsletter wasn’t to show off my skill at finding funny punny images.&lt;/p&gt;
+
+&lt;p&gt;Distributed teams have a tendency to feel like a collection of seeds strewn about by the wind. This newsletter gave me a channel to relay information important to my team. It was also a place to celebrate our successes as a team and give out kudos. And at the end of each one, I asked for feedback through public or private channels. It was my attempt to reinforce a shared identity as a team with a common mission.&lt;/p&gt;
+
+&lt;p&gt;I felt like the newsletter was a success, and a part of its success was that I didn’t send it out as an email. I had a better tool at my disposal.&lt;/p&gt;
+
+&lt;h2 id="coordinating-distributed-teams-with-discussions"&gt;Coordinating Distributed Teams With Discussions&lt;/h2&gt;
+
+&lt;p&gt;How do you organize the activities of a distributed group? The group might be a team within a company, an open source project, or even an open source foundation. Without the right tools, it is difficult.&lt;/p&gt;
+
+&lt;p&gt;I’m in a group like this right now. We started off with email as our communication tool. Email is terrible for this. So terrible that we &lt;em&gt;weren’t&lt;/em&gt; sending emails to each other and thus not making any progress.&lt;/p&gt;
+
+&lt;p&gt;I managed to convince the group to give &lt;a href="https://help.github.com/en/articles/about-team-discussions"&gt;the team discussions feature on GitHub&lt;/a&gt; a try. Many of these folks were longtime GitHub users, yet they had no idea this feature existed. I don’t blame them of course. The feature is only available if you’re a member of an &lt;a href="https://help.github.com/en/articles/about-organizations"&gt;organization on GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you’re an administrator of an org, you can go to the Teams page to see the list of teams in your org. The URL is always &lt;code class="highlighter-rouge"&gt;https://github.com/orgs/ORG-NAME/teams&lt;/code&gt; (be sure to replace &lt;code class="highlighter-rouge"&gt;ORG-NAME&lt;/code&gt; with the actual organization name).&lt;/p&gt;
+
+&lt;p&gt;Click on a team name to navigate to the team discussion page. The format of the URL for the team discussion page is: &lt;code class="highlighter-rouge"&gt;https://github.com/orgs/ORG-NAME/teams/TEAM-NAME&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://user-images.githubusercontent.com/19977/58995077-99bb7c00-87a7-11e9-85b6-4a57270e1c95.png" alt="Discussion page with no discussions" /&gt;&lt;/p&gt;
+
+&lt;p&gt;When you start a discussion, you can specify whether it should be public to the entire org or private to the specific team.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://user-images.githubusercontent.com/19977/58995127-cb344780-87a7-11e9-9c0a-cd242bc2f81e.png" alt="Starting a discussion" /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is the feature I used for the CACAW newsletter. I posted each newsletter as a new discussion. This allowed people to provide feedback in comments. They could also follow up with me privately through other channels of course. I found this a very handy approach to team communications.&lt;/p&gt;
+
+&lt;h2 id="discussions-vs-issues"&gt;Discussions vs Issues&lt;/h2&gt;
+
+&lt;p&gt;Team Discussions work a lot like issues. A natural question to ask is what’s the difference? When should you use one over the other? There’s no hard science to this, but here’s the rule of thumb I use.&lt;/p&gt;
+
+&lt;p&gt;An issue is a well understood task that someone owns. It’s clear to everyone when that task is complete. If an issue is a bug report, it’s complete when someone fixes the bug. Or it’s complete when the team decides they won’t fix it, or it’s a behavior by design. The key thing here is there’s a clear resolution to issues.&lt;/p&gt;
+
+&lt;p&gt;Discussions are useful in all other situations where people want to discuss a topic. In contrast to issues, discussions often don’t have a clear owner. There’s often no clear call to action. A discussion might  be a one-way announcement, a design session, or a discussion of a hot tv show.&lt;/p&gt;
+
+&lt;p&gt;Often, discussions are the precursor to one or more issues. The participants of an open-ended discussion may identify specific actionable tasks. Those tasks become issues and might link back to the source discussion.&lt;/p&gt;
+
+&lt;p&gt;Another important distinction between issues and discussions is the scope. Issues are specific to a repository. A discussion is specific to a team and may span many repositories. A discussion may be more suitable to coordinate work across many projects than an issue.&lt;/p&gt;
+
+&lt;p&gt;If you found this tip useful, there’s many more like it in the &lt;a href="https://amzn.to/2Qr31t1"&gt;GitHub for Dummies book&lt;/a&gt; that I and &lt;a href="https://haacked.com/archive/2019/05/30/github-for-dummies/"&gt;my co-author Sarah Guthals wrote&lt;/a&gt;! I’ll be blogging some more tips from the book.&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.haacked.com/~ff/haacked?a=iR88tWY0ujQ:K-1XreLLyVQ:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/haacked?i=iR88tWY0ujQ:K-1XreLLyVQ:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.haacked.com/~ff/haacked?a=iR88tWY0ujQ:K-1XreLLyVQ:G79ilh31hkQ"&gt;&lt;img src="http://feeds.feedburner.com/~ff/haacked?d=G79ilh31hkQ" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/haacked/~4/iR88tWY0ujQ" height="1" width="1" alt=""/&gt;</content><author><name>Phil Haack</name></author><category term="github" /><category term="oss" /><category term="tip" /><summary type="html">When I ran the Client Apps team at GitHub, I wrote a weekly “newsletter” to the team. I named it the CACAW which stood for Completely Awesome Client Apps Weekly. The name gave me an excuse to highlight each letter with a crow themed image.</summary><feedburner:origLink>https://haacked.com/archive/2019/06/10/team-discussions/</feedburner:origLink></entry><entry><title type="html">Suggesting Changes on GitHub</title><link href="http://feeds.haacked.com/~r/haacked/~3/VX5XWwe7BFY/" rel="alternate" type="text/html" title="Suggesting Changes on GitHub" /><published>2019-06-03T00:00:00+00:00</published><updated>2019-06-03T00:00:00+00:00</updated><id>https://haacked.com/archive/2019/06/03/suggested-changes</id><content type="html" xml:base="https://haacked.com/archive/2019/06/03/suggested-changes/">&lt;p&gt;When you see a small bug or error in a repository, a common refrain is to submit a pull request to fix it. To submit a pull request with a correction is an act of kindness to the maintainers. It allows the maintainers to review the change and accept it with a click.&lt;/p&gt;
+
+&lt;p&gt;But it’s a bit of a heavyweight operation for the person submitting the fix. Chances are they don’t have write access to the repository. Thus to submit a fix, the person must fork the repository to their account first. The forked repository pollutes their list of repositories (unless they delete the fork). Then they have to edit the file and create a pull request. All this effort because they wanted to correct “their” to “there.”&lt;/p&gt;
+
+&lt;p&gt;A person might decide to forget all that and specify the change in a comment on the repository instead. But now that puts the work on the maintainer to review the comment and redo the specified change. Chances are, it’s too much trouble and they don’t get around to it.&lt;/p&gt;
+
+&lt;p&gt;It would be nice if a person could suggest the exact change in a comment. And that the maintainer could accept the change with a click or two. Well good news, there is! GitHub has a suggested Changes feature that does this. It’s &lt;a href="https://github.blog/changelog/2018-10-16-suggested-changes/"&gt;been around since October 2018&lt;/a&gt;, but is still not that well-known.&lt;/p&gt;
+
+&lt;p&gt;To use it, go to the &lt;em&gt;Files changed&lt;/em&gt; tab of a pull request. When you hover over the line you want to fix, a blue box with a plus sign appears near the gutter on the left. Click that to display the normal line comment form.  Notice that there’s a button there with a plus and minus sign. Click that button to add a suggestion. It adds a suggestion block to the comment text area with the existing text. You can see this in action with the following screenshots.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://user-images.githubusercontent.com/19977/58752991-f39d0880-846c-11e9-8c03-c7aded86ee9b.png" alt="View of the comment form with the suggested change button" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now you can make changes to the text inside the suggestion box. Note that you can add context for your suggested changes outside of the suggestion block. When you create the comment, it will show up to the maintainer as a diff.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="https://user-images.githubusercontent.com/19977/58753039-b1c09200-846d-11e9-901e-699daa736bc5.png" alt="View of the rendered diff comment" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now the maintainer can see what changes you are suggesting and accept them with a click. Technically, it’s two clicks, but let’s not quibble over clicks.&lt;/p&gt;
+
+&lt;p&gt;One nice aspect of suggesting changes in this way is how GitHub handles credit for the change. If the maintainer accepts the change, GitHub creates a commit with the change with the commenter as a &lt;a href="https://help.github.com/en/articles/creating-a-commit-with-multiple-authors"&gt;co-committer&lt;/a&gt;. The commenter sees their avatar in the history of the file they helped improve.&lt;/p&gt;
+
+&lt;p&gt;Another nice aspect of this feature is you can apply it retroactively on a comment. For example, suppose someone adds a normal comment with the suggested change. As a maintainer, you can edit their comment and add the suggestion block around the part of their comment that contains the suggested fix. Then you can accept it so that they receive credit for the change.&lt;/p&gt;
+
+&lt;p&gt;Suggested changes is extremely useful for small fixes. I’ve found it very useful when collaborating on markdown documents in a repository with others.&lt;/p&gt;
+
+&lt;p&gt;If you found this tip useful, there’s many more like it in the &lt;a href="https://amzn.to/2Qr31t1"&gt;GitHub for Dummies book&lt;/a&gt; that I and &lt;a href="https://haacked.com/archive/2019/05/30/github-for-dummies/"&gt;my co-author Sarah Guthals wrote&lt;/a&gt;! I’ll be blogging some more tips from the book.&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.haacked.com/~ff/haacked?a=VX5XWwe7BFY:LFRqcAeoDUE:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/haacked?i=VX5XWwe7BFY:LFRqcAeoDUE:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.haacked.com/~ff/haacked?a=VX5XWwe7BFY:LFRqcAeoDUE:G79ilh31hkQ"&gt;&lt;img src="http://feeds.feedburner.com/~ff/haacked?d=G79ilh31hkQ" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/haacked/~4/VX5XWwe7BFY" height="1" width="1" alt=""/&gt;</content><author><name>Phil Haack</name></author><category term="github" /><category term="oss" /><category term="tip" /><summary type="html">When you see a small bug or error in a repository, a common refrain is to submit a pull request to fix it. To submit a pull request with a correction is an act of kindness to the maintainers. It allows the maintainers to review the change and accept it with a click.</summary><feedburner:origLink>https://haacked.com/archive/2019/06/03/suggested-changes/</feedburner:origLink></entry><entry><title type="html">GitHub for Dummies</title><link href="http://feeds.haacked.com/~r/haacked/~3/ToCMsq3FXQQ/" rel="alternate" type="text/html" title="GitHub for Dummies" /><published>2019-05-30T00:00:00+00:00</published><updated>2019-05-30T00:00:00+00:00</updated><id>https://haacked.com/archive/2019/05/30/github-for-dummies</id><content type="html" xml:base="https://haacked.com/archive/2019/05/30/github-for-dummies/">&lt;p&gt;Millions of years ago, Zach Holman gave a great talk about &lt;a href="https://zachholman.com/talk/how-github-uses-github-to-build-github/"&gt;How GitHub uses GitHub to build GitHub&lt;/a&gt;. The talk focused a lot on GitHub’s approach to coordinating work on &lt;a href="https://github.com/"&gt;github.com&lt;/a&gt;, the software.&lt;/p&gt;
+
+&lt;p&gt;But, the way GitHub uses GitHub goes beyond code. It uses GitHub to not only build github.com, but GitHub company. For example, the employee handbook is in a GitHub repository. This makes it easy to suggest corrections and changes and see a history of its changes. Note that pull requests to suggest an unlimited ice cream benefit will be rejected, ask me how I know.&lt;/p&gt;
+
+&lt;p&gt;During my nearly seven year stint at GitHub, I immersed myself in this way of working. It is a powerful way to coordinate the activities of distributed teams. Having worked this way for so long, I started to assume lots of distributed teams work this way. This is the blindness of being in an echo chamber.&lt;/p&gt;
+
+&lt;p&gt;But I’ve learned that even teams that make heavy use of GitHub leave a lot on the table. They are unaware of many features that would benefit them. These features would improve how they work and save them time and headache.&lt;/p&gt;
+
+&lt;p&gt;And it’s understandable. GitHub has a lot of features! And GitHub ships new features at a steady cadence. It’s difficult to keep on top of them all. Many of them are quite useful. For example, the ability to &lt;a href="https://github.blog/2018-11-01-suggested-changes-update/"&gt;suggest a change to a pull request&lt;/a&gt; via a comment is nice!&lt;/p&gt;
+
+&lt;p&gt;If long-time GitHub users are not aware of these features, what about people new to GitHub? Using GitHub as a new developer, or as an experienced developer new to GitHub, is daunting. If you’re in this situation, or know someone who is, I have just the book for you.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://amzn.to/2Qr31t1"&gt;&lt;img src="https://user-images.githubusercontent.com/19977/58595462-9400ec00-8225-11e9-8df5-b1c60312f9c6.jpg" alt="GitHub For Dummies" /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The book is &lt;a href="https://amzn.to/2Qr31t1"&gt;GitHub for Dummies&lt;/a&gt;. &lt;a href="https://twitter.com/sarahguthals"&gt;Sarah Guthals&lt;/a&gt; and I wrote the book to help people understand how to make effective use of GitHub. Sarah and I worked together at GitHub. She ran the team that built the GitHub extension for Visual Studio, Atom, Unity, and VS Code. Today she’s making waves over at Microsoft. Between the two of us, we have an immense amount of experience building software using GitHub.&lt;/p&gt;
+
+&lt;p&gt;The book covers a lot of interesting topics. Some of my favorites are the chapters that cover both sides of working on an open source repository. It contains great tips on how to be a good contributor (pro tip: put away that sense of entitlement) and how to be a good maintainer (pro tip: be kind and take care of your own health first). The book exposes a lot of less well known features in the context of a typical developer workflow.&lt;/p&gt;
+
+&lt;p&gt;The book targets new developers and experienced developers new to GitHub. If you know anyone in that situation, this could be a great gift. It makes for nice summer reading on the beach. After all, what else are you going to read while waiting for &lt;a href="https://en.wikipedia.org/wiki/The_Winds_of_Winter"&gt;The Winds of Winter?&lt;/a&gt; It’s a great way to learn how to get the most out of GitHub whether you’re a dummy or not.&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.haacked.com/~ff/haacked?a=ToCMsq3FXQQ:ztadRE7fXGs:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/haacked?i=ToCMsq3FXQQ:ztadRE7fXGs:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.haacked.com/~ff/haacked?a=ToCMsq3FXQQ:ztadRE7fXGs:G79ilh31hkQ"&gt;&lt;img src="http://feeds.feedburner.com/~ff/haacked?d=G79ilh31hkQ" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/haacked/~4/ToCMsq3FXQQ" height="1" width="1" alt=""/&gt;</content><author><name>Phil Haack</name></author><category term="github" /><category term="oss" /><category term="books" /><summary type="html">Millions of years ago, Zach Holman gave a great talk about How GitHub uses GitHub to build GitHub. The talk focused a lot on GitHub’s approach to coordinating work on github.com, the software.</summary><feedburner:origLink>https://haacked.com/archive/2019/05/30/github-for-dummies/</feedburner:origLink></entry><entry><title type="html">Maintainer burnout and package security</title><link href="http://feeds.haacked.com/~r/haacked/~3/wXGAeGqmsvE/" rel="alternate" type="text/html" title="Maintainer burnout and package security" /><published>2019-05-28T00:00:00+00:00</published><updated>2019-05-28T00:00:00+00:00</updated><id>https://haacked.com/archive/2019/05/28/maintainer-burnout</id><content type="html" xml:base="https://haacked.com/archive/2019/05/28/maintainer-burnout/">&lt;p&gt;I ended &lt;a href="https://haacked.com/archive/2019/05/13/package-fingerprint/"&gt;my last post on package security through fingerprints&lt;/a&gt; with this ominous note…&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In a future post, I’ll cover how even this wouldn’t protect us from every malicious package. It would do a lot, but there’s always trouble in the water.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Welcome to the future my friends! This is that post. The stream of events I had in mind when I wrote that concerns the &lt;a href="https://www.npmjs.com/package/event-stream"&gt;&lt;code class="highlighter-rouge"&gt;event-stream&lt;/code&gt; NPM package&lt;/a&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Normally, streams are only used for IO, but in event stream we send all kinds of objects down the pipe. If your application’s input and output are streams, shouldn’t the throughput be a stream too?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Based on this description, it sounds a bit like Reactive Extensions for node, but I haven’t played around with it to be sure.&lt;/p&gt;
+
+&lt;h3 id="the-event-stream-timeline"&gt;The Event Stream Timeline&lt;/h3&gt;
+
+&lt;p&gt;Chris Northwood wrote a &lt;a href="https://medium.com/@cnorthwood/todays-javascript-trash-fire-and-pile-on-f3efcf8ac8c7"&gt;fantastic and detailed timeline&lt;/a&gt; of this vulnerability. The folllowing is a brief summary.&lt;/p&gt;
+
+&lt;p&gt;Sometime in 2018, the maintainer of &lt;code class="highlighter-rouge"&gt;event-stream&lt;/code&gt; handed off maintenance of the package to another maintainer. This was a very popular package with around 1.4 million weekly downloads. Not long after, the maintainer added the &lt;code class="highlighter-rouge"&gt;flatmap-stream v0.1.0&lt;/code&gt; dependency to &lt;code class="highlighter-rouge"&gt;event-stream&lt;/code&gt;. You can &lt;a href="https://github.com/dominictarr/event-stream/commit/e3163361fed01384c986b9b4c18feb1fc42b8285#diff-b9cfc7f2cdf78a7f4b91a753d10865a2"&gt;see the commit on GitHub&lt;/a&gt;. Seems pretty innocuous, right? At the time, it was.&lt;/p&gt;
+
+&lt;p&gt;Sometime later, an NPM user uploads &lt;code class="highlighter-rouge"&gt;flatmap-stream v0.1.1&lt;/code&gt; which contained a bit of extra obfuscated code at the end of the minimized code.&lt;/p&gt;
+
+&lt;p&gt;Notice that according to the rules of &lt;a href="https://semver.org/"&gt;Semantic Versioning (aka SemVer)&lt;/a&gt;, this is a patch update to the previous version of the package. This is supposed to indicate that this version only contains bug fixes and is backwards compatible.&lt;/p&gt;
+
+&lt;p&gt;If you can get a bit of obfuscated code to run on a million machines, what would you do? Something something Bitcoin of course! In this specific case, the malicious package targeted a specific application, Coinpay. And not just every Coinpay user, but those with 100 Bitcoin (or 1000 Bitcoin Cash) according to &lt;a href="https://blog.npmjs.org/post/180565383195/details-about-the-event-stream-incident"&gt;the NPM blog post&lt;/a&gt;. To put that in perspective, that’s around $800,000 USD. Or if you wait a bit, now it’s $500,000. Now it’s $1,000,000. Nope, back down to $700,000. Regardless, it’s a lot of money.&lt;/p&gt;
+
+&lt;h2 id="the-role-of-burnout"&gt;The role of burnout&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src="https://user-images.githubusercontent.com/19977/58373908-23d32d00-7eea-11e9-8a36-b894d67bbb4a.jpg" alt="Tire fire by Stephanus Riosetiawan - CC BY-SA 2.0" /&gt;&lt;/p&gt;
+
+&lt;p&gt;From the details I’ve read, it’s unclear if the extra obfuscated code was in the flatmap-stream repository or not. Would fingerprinting have caught this? Maybe. But for a moment, let’s assume that flatmap-stream wasn’t backed by a Git repo. Or perhaps it was, but nobody was taking a close look at it. This is a very difficult attack to counter act.&lt;/p&gt;
+
+&lt;p&gt;In my post about &lt;a href="https://haacked.com/archive/2019/05/10/friend-signing-packgages/"&gt;establishing package author identities&lt;/a&gt;, I talk about having well established identities can help guard against malicious packages.&lt;/p&gt;
+
+&lt;p&gt;But what I didn’t discuss is what happens when a well established identity gets burnt out and hands off their package to someone else? In his own words, the original maintainer of &lt;code class="highlighter-rouge"&gt;event-stream&lt;/code&gt; &lt;a href="https://gist.github.com/dominictarr/9fd9c1024c94592bc7268d36b8d83b3a"&gt;had this to say&lt;/a&gt;…&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If it’s not fun anymore, you get literally nothing from maintaining a popular package.
+…
+So right now, we are in a weird valley where you have a bunch of dependencies that are “maintained” by someone who’s lost interest, or is even starting to burnout, and that they no longer use themselves. You can easily share the code, but no one wants to share the responsibility for maintaining that code. Like a module is like a piece of digital property, a right that can be transferred, but you don’t get any benefit owning it, like being able to sell or rent it, however you still retain the responsibility.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;For all the mitigations we put in place, nothing protects us from a maintainer either going rogue, or burning out and lending their trusted identity to another maintainer.&lt;/p&gt;
+
+&lt;p&gt;The maintainer goes on to suggest a couple of solutions&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I see two strong solutions to this problem…&lt;/p&gt;
+
+  &lt;ol&gt;
+    &lt;li&gt;Pay the maintainers!! Only depend on modules that you know are definitely maintained!&lt;/li&gt;
+    &lt;li&gt;When you depend on something, you should take part in maintaining it.&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The recent announcement of the &lt;a href="https://github.com/sponsors"&gt;GitHub Sponsors program&lt;/a&gt; could be a huge step towards the first issue. Especially for critical open source software that so many depend on.&lt;/p&gt;
+
+&lt;h2 id="where-foundations-might-fit-in"&gt;Where foundations might fit in&lt;/h2&gt;
+
+&lt;p&gt;Perhaps because I’m on the board of the .NET Foundation, I’ve been thinking a lot about the role of foundations in helping to mitigate this problem. In particular, there’s two areas to consider.&lt;/p&gt;
+
+&lt;h3 id="maintainer-burnout"&gt;Maintainer burnout&lt;/h3&gt;
+
+&lt;p&gt;This is probably a larger problem than we realize. How can foundations help provide support so that maintainers are not burning out. The GitHub Sponsors program could help if it provided the means for a maintainer to work on their project full-time. But for those who still have to maintain a full-time job, there’s the potential for it to contribute to burnout as people who contribute feel more entitled to the maintainer’s efforts.&lt;/p&gt;
+
+&lt;h3 id="maintainer-succession-plans"&gt;Maintainer succession plans&lt;/h3&gt;
+
+&lt;p&gt;Perhaps foundations could also provide support to maintainers to provide guidance on succession and help when vetting new maintainers. At the very least, provide this for critical OSS projects. Identify the projects that would harm a huge population of developers if they were compromized. I’m not sure exactly what this looks like yet. This may be an area where GitHub could take a strong lead. GitHub understand which projects everyone depends on. It also has a sense of the reputation for contributors. Maybe they could combine this in some way.&lt;/p&gt;
+
+&lt;p&gt;I’ll have to think about the implications of this more deeply. Any time you start to walk down this path, you start to face the law of unintended consequences, bad actors gaming the system, etc.&lt;/p&gt;
+
+&lt;p&gt;Or even better, maybe I can convince a deep thinker like &lt;a href="https://nadiaeghbal.com/"&gt;Nadia Eghbal&lt;/a&gt; to weigh in. I’m ready to write about topics other than package management for a little while. :)&lt;/p&gt;
+
+&lt;h2 id="security-in-depth"&gt;Security in Depth&lt;/h2&gt;
+
+&lt;p&gt;The final point to make is that when it comes to package security, all our usual approaches to security in depth are important. Developers are not going to stop using packages. The benefits far outweigh the risk.&lt;/p&gt;
+
+&lt;p&gt;At the same time, the risks are high and at the end of the day, a determined attacker is going to get people to download malicious packages.&lt;/p&gt;
+
+&lt;p&gt;As consumers, we have to apply good security practices throughout our stacks. That is a whole post (or even book) in its own right, but a few key principles come to mind.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Observability:&lt;/strong&gt; Ensure you have sufficient monitoring and logging so that you can quickly detect anomalous activity in your systems that might indicate a breach.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Isolation:&lt;/strong&gt; Isolate systems so that a breach in one does not spread to another.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Resiliency:&lt;/strong&gt; Build systems that are resilient to bugs and code. This goes hand in hand with isolation, but also includes ensuring that systems are able to run in a degraded state when a dependency is down.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Recover:&lt;/strong&gt; And finally, make sure that you are well practiced in recovery. How long does it take, once you discover a problem, to get your system back into a good recovered state? How often do you practice recovery?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;So the answer to the package security threat is not to stop using packages. It’s to continue to improve package manager security, while at the same time building up your system and organizational immune system so that a breach doesn’t take down your business.&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.haacked.com/~ff/haacked?a=wXGAeGqmsvE:nXHhino00Jc:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/haacked?i=wXGAeGqmsvE:nXHhino00Jc:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.haacked.com/~ff/haacked?a=wXGAeGqmsvE:nXHhino00Jc:G79ilh31hkQ"&gt;&lt;img src="http://feeds.feedburner.com/~ff/haacked?d=G79ilh31hkQ" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/haacked/~4/wXGAeGqmsvE" height="1" width="1" alt=""/&gt;</content><author><name>Phil Haack</name></author><category term="nuget" /><category term="security" /><category term="oss" /><summary type="html">I ended my last post on package security through fingerprints with this ominous note…</summary><feedburner:origLink>https://haacked.com/archive/2019/05/28/maintainer-burnout/</feedburner:origLink></entry></feed>

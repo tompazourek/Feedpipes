@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+
+<channel>
+	<title>Lukáš Zeman</title>
+	
+	<link>http://blog.proteus.cz</link>
+	<description>Lukáš Zeman bloguje nejen o webdesignu</description>
+	<lastBuildDate>Wed, 14 Mar 2012 23:38:58 +0000</lastBuildDate>
+	<language>cs-CZ</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.3.9</generator>
+	<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/lukas-zeman" /><feedburner:info uri="lukas-zeman" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><item>
+		<title>Optimalizace rychlosti webu: Odmítáme neslušné HTTP požadavky</title>
+		<link>http://feedproxy.google.com/~r/lukas-zeman/~3/G10IWn9h2DQ/optimalizace-rychlosti-webu-snizeni-poctu-http-pozadavku</link>
+		<comments>http://blog.proteus.cz/optimalizace-rychlosti-webu-snizeni-poctu-http-pozadavku#comments</comments>
+		<pubDate>Sat, 14 Aug 2010 16:34:47 +0000</pubDate>
+		<dc:creator><![CDATA[Emka]]></dc:creator>
+				<category><![CDATA[Tvorba webu]]></category>
+		<category><![CDATA[CSS]]></category>
+		<category><![CDATA[Firebug]]></category>
+		<category><![CDATA[HTML]]></category>
+		<category><![CDATA[Javascript]]></category>
+		<category><![CDATA[Optimalizace]]></category>
+
+		<guid isPermaLink="false">http://blog.proteus.cz/?p=7</guid>
+		<description><![CDATA[Druhý díl seriálu o Optimalizaci rychlosti webu popisuje techniky na snížení počtu HTTP požadavků: spojování souborů do jednoho, css sprites, cachování a další.]]></description>
+				<content:encoded><![CDATA[<p>Každý soubor, který se použije při vykreslení webové stránky (obrázek, CSSko, javascriptová knihovna atd.) představuje jeden HTTP požadavek na server. Dle doporučení HTTP protokolu 1.1 by prohlížeče neměly vyřizovat více jak 2 tyto požadavky zároveň na jednom <span title="Tj. například blog.proteus.cz">hostiteli</span>. Současné browsery na to víceméně kašlou a vyřizují jich více. Pro účely tohoto seriálu budeme předpokládat 6 paralelních požadavků (tak je to u většiny současných prohlížečů). Pokud máte na stránce například  5 souborů s CSSkem, 3 javascriptové knihovny, 3 obrázky v HTML kódu a 4 obrázky nahráváte v CSSku, je třeba vyřídit celkem 16 požadavků (tím prvním je samotný HTML dokument). Ty se však nestáhnou zároveň, ale vyřídí se postupně. Nejdříve se začne stahovat prvních šest HTTP požadavků a teprve až první z nich doběhne, může se začít stahovat další. A zde se naskýtá prostor pro optimalizaci. Dneska si povíme konkrétní kroky, jak zvýšit rychlost načítání stránky prostřednictvím snížení počtu HTTP požadavků.</p>
+<h2>Ukázkový příklad před optimalizací</h2>
+<p>Začneme příkladem, kde si můžete ověřit, že jsem vám v prvním odstavci příliš nelhal. Zapněte si ve Firebugu záložku Síť a <a href="http://www.proteus.cz/projekty/optimalizace/test_01.html">navštivte tuto ukázku</a>. Pokud dáte na stránce reload (Ctrl+F5), měli byste dostat nějaký obdobný přehled HTTP požadavků na časové ose:</p>
+<div id="attachment_10" class="wp-caption alignnone" style="width: 870px"><img class="size-full wp-image-10" title="http_pozadavky" src="http://blog.proteus.cz/wp-content/uploads/2010/08/http_pozadavky2.png" alt="Jak vyřizuje prohlížeč HTTP Požadavky - příklad před optimalizací" width="850" height="309" /><p class="wp-caption-text">Jak vyřizuje prohlížeč HTTP Požadavky - příklad před optimalizací</p></div>
+<p>Po načtení HTML dokumentu se vezme prvních 6 požadavků a začnou se stahovat. Na obrázku je vidět, jak soubory <em>jquery-ui-min.js</em> a <em>script.js</em> musí čekat, až se uvolní místo ve frontě na stažení dalších požadavků a začnou se vyřizovat teprve až doběhnou první dva z balíku předchozích šesti.  Dále je vidět, že obrázky se začnou načítat až po načtení <em>jquery.min.js</em>. Toho si zatím nebudeme všímat, dostaneme se k tomu později. Po stažení následuje další balík 6ti požadavků na obrázky a tak poslední obrázek musí chvíli počkat. Tento příklad si pro porovnání ukážeme ještě jednou na konci dnešního dílu, ale už s provedenými optimalizacemi.</p>
+<h2>Optimalizace CSS</h2>
+<p>Nemusíme zrovna chodit do Mensy na obědy, aby nám došlo, kde s optimalizací začneme. Nejdříve všechny <strong>CSS soubory spojíme do jednoho</strong> (zvlášť pokud je stejně máme přilinkovány ke každé stránce webu). Jestliže používáte různé styly pro různá zařízení a odlišujete je přes atribut <code>media</code>, můžete specifikovat typ zařízení až ve spojeném souboru přes pravidlo <code><a href="http://www.w3.org/TR/CSS2/media.html#at-media-rule">@media</a></code>. Vše si ukážeme na příkladu. Nejdříve původní podoba hlavičky před optimalizací:</p>
+<pre class="brush:xml">&lt;link href="/stylesheets/general.css" type="text/css" media="all" rel="stylesheet" /&gt;
+&lt;link href="/stylesheets/print.css" type="text/css" media="print" rel="stylesheet" /&gt;
+&lt;link href="/stylesheets/handheld.css" type="text/css" media="handheld" rel="stylesheet" /&gt;
+
+&lt;style media="screen" type="text/css"&gt;
+	@import '/stylesheets/screen.css';
+	@import '/stylesheets/lightbox.css';
+&lt;/style&gt;</pre>
+<p>Nyní spojíme všechny soubory do jednoho a nazveme jej třeba <em>styles.css</em>. Zároveň se vyhneme zápisu pomocí <code>@import</code>. V některých verzích IE tento zápis způsobí to samé, jako kdybychom připojili CSSko až na konec dokumentu. Stránka by se začala vykreslovat až po načtení tohoto posledního stylu a do té doby by na nás zela bílá obrazovka. Všechny <strong>CSS soubory tedy umístíme do hlavičky</strong> <code>&lt;head&gt;</code> dokumentu a spojíme je do jednoho následovně:</p>
+<pre class="brush:xml">&lt;link href="/stylesheets/styles.css" type="text/css" rel="stylesheet" /&gt;</pre>
+<p>Soubor <em>styles.css</em> pak bude vypadat takto:</p>
+<pre class="brush:css">@media all {
+	/* obsah souboru general.css */
+}
+
+@media screen {
+	/* obsah souboru screen.css a lightbox.css*/
+}
+
+@media print {
+	/* obsah souboru print.css*/
+}
+
+@media handheld {
+	/* obsah souboru handheld.css*/
+}</pre>
+<p>Tímto jsme z pěti HTTP požadavků udělali jeden a máme první krok v daleké cestě za svištícím webem.</p>
+<p>Nyní se podíváme do CSS souboru a provedeme audit toho, co obsahuje. Pokud používáte v CSSku obrázky na pozadí, vytváříte další HTTP požadavky na jejich stáhnutí. Dalším krokem optimalizace bude snaha o <strong>pospojování obrázků z CSS do jednoho</strong>.</p>
+<div id="attachment_13" class="wp-caption alignleft" style="width: 187px"><img class="size-full wp-image-13" title="CSS Sprite - ukázka" src="http://blog.proteus.cz/wp-content/uploads/2010/08/google_sprite.png" alt="CSS Sprite - ukázka" width="167" height="150" /><p class="wp-caption-text">CSS Sprite - ukázka</p></div>
+<p>Tato technika se nazývá CSS sprites a vychází z Pixyho vynálezu <a href="http://www.wellstyled.com/css-nopreload-rollovers.html">Rychlé rollovery bez načítání</a>. Dále se o ní můžete dočíst např. v článku <a href="http://www.alistapart.com/articles/sprites">CSS Sprites: Image Slicing’s Kiss of Death</a> magazínu A List Apart. Vlevo se můžete podívat, jak takový sprajt vypadá třeba na Googlu. Všechny objekty, které vidíte na obrázku, mají tento sprajt nastaven jako svůj <code>background-image</code>. Liší se svými rozměry a nastavením pozice obrázku na pozadí přes <code>background-position</code>. Pravda, tato technika není zrovna jednoduchá na spravování a kodérovi může přinést trochu práce navíc. Zvláště pokud se web často mění. Riziko vzniká především tehdy, pokud budete muset změnit rozměry obrázku, který se nachází uvnitř sprajtu. Budete pak muset upravit nastavení <code>background-position</code> všem objektům, kterým se pozadí díky změně tohoto obrázku posunulo uvnitř sprajtu. Proto, než vytvoříme CSS sprajt, je dobré si vše pořádně rozmyslet a vytipovat vhodné kandidáty. Příliš se nespálíte, pokud vyberete obrázky, které splňují následující:</p>
+<ol>
+<li>Mají fixní rozměry a obrázek je přes celý objekt &#8211; typicky logo, pozadí obrázkového hlavního menu, opakující se obrázkové nadpisy,u e-shopu tlačítka Koupit, fixní ikonky apod.</li>
+<li>Často se opakují napříč webem (nemá smysl, aby si návštěvník nahrával dopředu obrázky, které se mu pak vůbec nezobrazí)</li>
+<li>Je pravděpodobné, že se nebudou příliš měnit (jinak z toho buď zešílíte nebo začnete používat nějaký lepší nástroj než kalkulačku)</li>
+</ol>
+<p>Použití sprajtů není omezeno jen na objekty s fixními rozměry. Vyzkoušejte si na svém webu šikovnou utilitku <a href="http://spriteme.org/">SpriteMe</a>, která sama vytipuje vhodné obrázky z vašeho CSSka ke sprajtování a vygeneruje je včetně CSS.</p>
+<h2>Optimalizace Javascriptu</h2>
+<p>Zde platí stejně jako pro CSSka, <strong>spojte JS soubory do jednoho</strong>. Na rozdíl od CSS však pokud možno <strong>umístěte odkazy na javascripty až na konec HTML dokumentu</strong> před značku <code>&lt;/body&gt;</code>. Pokud bychom nechali javascripty v hlavičce, blokovali bychom stažení všeho co po skriptech následuje v těle stránky. Prohlížeč totiž neví, co je obsahem javascriptu a netroufne si stahovat další soubory, když to může být třeba zbytečné. Představte si, že by javascript obsahoval kód, který přesměruje stránku nebo přes <code>document.write</code> úplně změní DOM stránky. Toto vysvětluje čekání na javascript v prvním příkladu. Umístění skriptů až na konec HTML dokumentu občas nemusí být úplně jednoduché, ale pokud vytváříme web na zelené louce a není třeba přepisovat již funkční rozsáhlý web prošpikovaný javasciptovou nirvánou (nebo peklem), určitě bych tento přístup doporučil. Pokud musíte vkládat javascript v hlavičce dokumentu, <strong>dodržujte alespoň pořadí nejdříve CSS a až pak soubory s javasciptem</strong>. Co jsem testoval, tak Opera (10.60) narozdíl třeba od Firefoxu blokuje i stahování CSSka, dokud se nenahraje javascipt. Na Operu ani nezabírá umístění JS až na konec dokumentu. Pro pokročilé kodéry doporučuji prostudovat také zajímavou studii na téma nahrávání javascriptu javascriptem v článku <a href="http://www.stevesouders.com/blog/2009/04/27/loading-scripts-without-blocking/">Loading Scripts Without Blocking</a>, případně <a href="http://labjs.com/">LABjs</a> &#8211; jednu z mnoha knihoven, která se na to specializuje.</p>
+<p>Pokud si myslíte, že je pravděpodobnější, že spadne Váš web než Google, mám pro vás další tip. Jestliže používáte nějakou známou JS knihovnu, jako je jQuery, YUI, Prototype a podobně, <strong>můžete využít <a href="http://code.google.com/intl/cs/apis/libraries/">Google Libraries API</a></strong>. Zjednodušeně jde o to, že tyto knihovny netaháte ze svého serveru, ale ze serveru od Googlu. Knihovny jsou tam umístěny v různých verzích, stačí si vybrat tu kterou potřebujete a připojit ji do vaší stránky např. takto:</p>
+<pre class="brush:xml">&lt;script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"&gt;&lt;/script&gt;</pre>
+<p>Toto má své výhody i nevýhody. Mezi výhody patří, že HTTP požadavek je na jiný server než váš, a tak se vyhnete omezení počtu HTTP požadavků ze stejného zdroje a stahování dalších souborů poběží paralelně. Další nespornou výhodou je cachování. Pokud Váš návštěvník již v minulosti navštívil některou stránku, která stahuje knihovnu ze stejné adresy, bude mít již při první návštěvě vašich stránek tuto knihovnu ve své cache a nebude si tedy muset knihovnu znovu načítat. Navíc knihovny jsou GZIPované a mají správně nastavené hlavičky &#8211; o tomto v dalších dílech seriálu. V poslední řadě také ušetříte nějaký ten kilobajt z provozu serveru. Nevýhoda je nasnadě: důvěřujete nějaké třetí straně, že vám do stránek naservíruje to, co slibuje, a ještě k tomu v nějakém rozumném čase. Dále vznikne určitá časová režie na vyhledání DNS záznamu.</p>
+<h2>Ukázkový příklad po optimalizaci</h2>
+<p>Nastal čas podívat se na to, jak dopadl náš <a href="http://www.proteus.cz/projekty/optimalizace/test_02.html">ukázkový příklad po optimalizaci</a>. Pokud se podíváte do zdrojového kódu, uvidíte následující změny: 5 CSS souborů bylo spojeno do jednoho stejně tak jako 3 soubory s javascripty. Vzniklý soubor s javascripty byl přilinkován až na konci HTML dokumentu. A nakonec 4 obrázky z CSSka byly spojeny do jednoho sprajtu a CSSko následně upraveno. Podívejme se jak to dopadlo:</p>
+<div id="attachment_14" class="wp-caption alignnone" style="width: 870px"><img class="size-full wp-image-14" title="Jak vyřizuje prohlížeč HTTP požadavky - příklad po optimalizaci" src="http://blog.proteus.cz/wp-content/uploads/2010/08/http_pozadavky_po_optimalizaci.png" alt="Jak vyřizuje prohlížeč HTTP požadavky - příklad po optimalizaci" width="850" height="156" /><p class="wp-caption-text">Jak vyřizuje prohlížeč HTTP požadavky - příklad po optimalizaci</p></div>
+<p>Jak je vidět, počet požadavků jsme srazili z 16 na 7. Ač časy nejde úplně srovnávat (načtení obou stránek s příklady proběhlo v jiný čas a za jiné konstelace hvězd), je optimalizace patrná na první pohled. V druhém příkladě se nečeká na načtení javascriptu, aby se mohly stáhnout obrázky z dokumentu. Zároveň díky CSS sprajtu a pospojování souborů, jsme ušetřili čekání na vyřízení balíku po šesti požadavcích.</p>
+<p>Pokud jste dočetli až sem, zasloužíte si odměnu v podobě kontrolní otázky. Proč se v druhém příkladě soubor <em>img_css_sprite.png</em> nenahraje společně s ostatními v rámci jednoho balíku po šesti? Odpovědi zasílejte na adresu Studio kamarád, nebo je napište do komentářů.</p>
+<h2>Cachování a konfigurace hlaviček</h2>
+<p>Doposud jsme se zabývali optimalizací rychlosti pro všechny návštěvníky webu. Nyní vytvoříme pár optimalizací pro návštěvníky, kteří navštěvují váš web opakovaně.</p>
+<p>Představte si, že poprvé navštívíte úvodní stránku nějakého webu. V ten moment váš prohlížeč vytvoří spoustu HTTP požadavků na všechny komponenty webu: obrázky, CSSka, javascripty a tak dále. Tyto komponenty si prohlížeč uloží k sobě na disk. Z homepage si následně odskočíte na nějakou podstránku, kde budou některé jiné obrázky a soubory, ale spousta jich bude stejných: logo, CSSko, obrázek na pozadí hlavičky apod. Byla by škoda znovu čekat, než se vyřídí opakující se požadavky. Proto existuje mechanismus cachování v prohlížeči, který umí rozhodnout, co nahrávat znovu, a co si vzít z lokální kopie na vašem disku. Abyste prohlížeči pomohli v rozhodování, je třeba správně nakonfigurovat Váš server, aby do hlaviček přidával některé další informace. To lze buď pomocí ETagů nebo nastavením časové platnosti. My se budeme zabývat druhým jmenovaným způsobem.</p>
+<p>Nyní si ukážeme, jak bude zhruba probíhat komunikace se serverem při vyžádání si loga:</p>
+<p>Prohlížeč se zeptá: <cite>Nazdar mašino, mám tu požadavek na stáhnutí loga. Žádné u sebe na disku nemám, jsem u tebe asi poprvé. Hoď mi zpátky to své úžasné logo.</cite> Server odpovídá: <cite>Jasně draku, tady ho máš s kódem <em>200</em>. Naposled se změnilo <em>Last-Modified: Fri, 06 Aug 2010 17:02:37 GMT</em>. Ale tohle logo tady bude stejný ještě tak měsíc. Naštěstí si webmaster přečet jeden návod na netu, tak ti to posílám i s hlavičkou <em>Expires: Tue, 07 Sep 2010 13:21:05 GMT</em>, ať už se příště tak blbě neptáš.</cite> Za datum u Expires si dosaďte dnes + 1 měsíc.</p>
+<p>Logo jsme tedy na úvodní stránce obdrželi a navštívíme podstránku. Prohlížeč si mumlá sám pro sebe: <cite>Hmm, mám stáhnout logo. Kouknu se k sobě na disk, zda ho tam mám. Á tady je, mrška. A platnost koukám má podle <em>Expires</em> ještě skoro jeden měsíc. Tak to už server nebudu otravovat, minule byl nějakej nabubřelej.</cite></p>
+<p>Jenže co se nestane, škodolibý uživatel stiskne F5 (pozor, ne Ctrl + F5) a vynutí si znovunahrání stránky. Prohlížeč se ptá: <cite>Nazdar mašino, tak jsem tu zpět pro logo. Mám ho sice u sebe, platnost má mít ještě skoro měsíc, ale co nadělám, šéf zmáčknul F5ku. Si snad myslí, že se ta rychlost udělá sama nebo co. Posílám ti to i s hlavičkou <em>If-Modified-Since: Fri, 06 Aug 2010 17:02:37 GMT</em>.</cite> Server odpovídá: <cite>Nazdar draku, a cos mu na to řek? No nic, kouknu do <em>Last-Modified</em> a porovnám to s <em>If-Modified-Since</em>. Hele, tak to vypadá, že se nic nezměnilo, posílám kód <em>304 Not Modified</em>.</cite></p>
+<p>Takže takto zhruba probíhá komunikace mezi serverem a prohlížečem. Je třeba říct, že vedle cache v prohlížečích existují další možnosti cachování. Může se vám stát, že prohlížeč takto nebude komunikovat přímo se serverem, ale předtím ještě třeba s proxy cache ve vaší firemní síti. Pokud Vás toto téma zajímá detailněji, doporučuji např. článek <a href="http://www.jakpsatweb.cz/clanky/caching-tutorial-czech-translation.html">Kešovací návod pro autory webu a webmastery</a>. My se podíváme jak nakonfigurovat správně server.</p>
+<p>Jak je vidět z našeho zachyceného dialogu, ideální stav pro snížení počtu HTTP požadavků je monolog prohlížeče, kdy se serveru vůbec na nic neptá a vezme soubor přímo ze své cache. Toho docílíme <strong>správným nastavením hlavičky Expires</strong>. Předtím je třeba si ujasnit, co a jak budeme cachovat. Určitě obrázky, flashe, zipy a další soubory. Ty se na webu obvykle často nemění a můžeme jim nastavit expiraci např. za 1 měsíc nebo ještě později. Podle specifikace HTTP 1.1 by expirace neměla být nastavena na více jak jeden rok (i když je toto doporučení často ignorováno). Javascripty a CSSka už se mění častěji a tak dáme expiraci třeba 1 týden (pro účely ukázky). Naopak HTML dokument cachovat nebudeme.</p>
+<p>Různé webservery mají různé způsoby konfigurace, my si ukážeme jeden ze způsobů, jak si nastavit <em>Expires</em> hlavičku pomocí <em>.htaccess</em> souboru na serveru Apache s nainstalovaným modulem mod_expires:</p>
+<pre>&lt;IfModule mod_expires.c&gt;
+ExpiresActive On
+
+ExpiresByType image/gif "access plus 1 month"
+ExpiresByType image/jpg "access plus 1 month"
+ExpiresByType image/jpeg "access plus 1 month"
+ExpiresByType image/png "access plus 1 month"
+ExpiresByType application/x-shockwave-flash "access plus 1 month" 
+
+ExpiresByType text/css "access plus 1 week"
+ExpiresByType application/javascript "access plus 1 week"
+&lt;/IfModule&gt;</pre>
+<p>Pokud upravíte CSS nebo soubor s javascriptem a chcete, aby se všem návštěvníkům nahrál znovu, pomůže soubor přejmenovat. Můžete do názvu souboru inkrementálně zvyšovat jeho verzi např. <em>styles_v001.css</em>. Jiným řešením může být přidání parametru s verzí CSSka za název souboru např. <em>styles.css?v=001</em>. Avšak zde hrozí, že takovou URL s parametrem na konci můžou některé proxy cache ignorovat. Na druhou stranu je verze s parametrem daleko snadněji spravovatelná.</p>
+<h2>Co se jinam nevešlo</h2>
+<p>Ohlídejte si, aby se na stránce <strong>nevyskytovaly požadavky na neexistující soubory</strong>. Ať už jde o obrázky v dokumentu, špatně zadanou cestu k obrázku v CSSku atd. Dokonce i když můžete mít vše v pořádku, prohlížeč občas požaduje neexistující soubor. Typickým příkladem je Opera, která hledá soubor <em>favicon.ico</em> i v případě, když jej v dokumentu vůbec nelinkujete. Je proto dobré <a href="http://cs.wikipedia.org/wiki/Favicon">faviconu</a> vytvořit či alespoň nahrát na server prázdný soubor <em>favicon.ico</em>.</p>
+<p>Dříve už jsem naznačil, že počet paralelně stahovaných souborů lze zvýšit, pokud soubory taháme z jiného hostitele. Teoreticky bychom mohli např. 6 obrázků umístit na <em>i1.example.com</em>, dalších 6 na <em>i2.example.com</em> a mohli bychom všech dvanáct vyřídit zároveň.</p>
+<h2>Použité zdroje a další počtení</h2>
+<p>Mekkou všech návodů jak zrychlit web je jednak <a href="http://code.google.com/intl/cs/speed/page-speed/docs/using.html">Page Speed</a> od Googlu a <a href="http://developer.yahoo.com/performance/rules.html">Best Practices for Speeding Up Your Web Site</a> od Yahoo!, kde také naleznete <a href="http://www.yuiblog.com/blog/category/performance/">YUIBlog</a> s články na toto téma.</p>
+<p class="clearfix"><object type="application/x-shockwave-flash" class="alignleft" style="width:218px; height:147px;" data="http://www.youtube.com/v/ZRXm1AavtmY?rel=0"><param name="movie" value="http://www.youtube.com/v/ZRXm1AavtmY?rel=0" /></object>Obě společnosti spojuje jméno <a href="http://www.stevesouders.com/">Steva Souderse</a> (pozor, to není ten z Beverly Hills 90210), autora knih High Performance Web Sites a Even Faster Web Sites, který byl do Googlu &#8222;draftován&#8220; právě z Yahoo!. Na jeho blogu najdete spoustu zajímavých výzkumů a mimo jiné i nástroj <a href="http://www.stevesouders.com/cuzillion/">Cuzillion</a>, ve kterém lze provádět různé hrátky s HTTP požadavky a testovat je v různých prohlížečích. Pravda je, že nástroj se občas choval podivně a nevracel mi úplně stejné výsledky jako v ukázkách z tohoto článku. Například <a href="http://www.stevesouders.com/cuzillion/?c0=hc1hfff2_0_f&amp;c1=hc1hfff2_0_f&amp;c2=hc1hfff2_0_f&amp;c3=hc1hfff2_0_f&amp;c4=hc1hfff2_0_f&amp;c5=hj1hfff2_0_f&amp;c6=hj1hfff2_0_f&amp;c7=hj1hfff2_0_f&amp;c8=bi1hfff2_0_f&amp;c9=bi1hfff2_0_f&amp;c10=bi1hfff2_0_f&amp;t=1281296439">zde</a> jsem se pokusil nasimulovat podobné podmínky, jako v úvodním neoptimalizovaném příkladu, ale vůbec tam není vidět čekání na nahrání javascriptů &#8211; ještě to budu muset prozkoumat. Pokud si hrát nechcete, ale chtěli byste mít pohromadě hotové výsledky měření, jak se různé prohlížeče vypořádají s pořadím požadavků, kolik jich zvládají najednou a podobně, doporučuji web <a href="http://www.browserscope.org/">Browserscope</a>, převážně záložku Network.</p>
+<h2>Závěrem</h2>
+<p>Tak jsme dospěli na konec dnešního dílu. Pokud máte nějaké dotazy nebo jste v článku nalezli nějaké chybky či nepřesnosti, pište do komentářů. V příštím dílu se zaměříme na optimalizaci prostřednictvím zmenšení objemu přenášených dat.</p>
+<img src="http://feeds.feedburner.com/~r/lukas-zeman/~4/G10IWn9h2DQ" height="1" width="1" alt=""/>]]></content:encoded>
+			<wfw:commentRss>http://blog.proteus.cz/optimalizace-rychlosti-webu-snizeni-poctu-http-pozadavku/feed</wfw:commentRss>
+		<slash:comments>20</slash:comments>
+		<feedburner:origLink>http://blog.proteus.cz/optimalizace-rychlosti-webu-snizeni-poctu-http-pozadavku</feedburner:origLink></item>
+		<item>
+		<title>Optimalizace rychlosti webu: Úvod</title>
+		<link>http://feedproxy.google.com/~r/lukas-zeman/~3/iFfrJvqpjxI/optimalizace-rychlosti-webu-uvod</link>
+		<comments>http://blog.proteus.cz/optimalizace-rychlosti-webu-uvod#comments</comments>
+		<pubDate>Sun, 08 Aug 2010 21:40:47 +0000</pubDate>
+		<dc:creator><![CDATA[Emka]]></dc:creator>
+				<category><![CDATA[Tvorba webu]]></category>
+		<category><![CDATA[Firebug]]></category>
+		<category><![CDATA[Optimalizace]]></category>
+		<category><![CDATA[Page Speed]]></category>
+		<category><![CDATA[YSlow]]></category>
+
+		<guid isPermaLink="false">http://blog.proteus.cz/?p=28</guid>
+		<description><![CDATA[Úvodní díl seriálu věnovanému optimalizaci rychlosti webu z pohledu kodéra. V tomto díle si představíme užitečné nástroje, které nám s optimalizací pomůžou.]]></description>
+				<content:encoded><![CDATA[<p>V tomto seriálu představím několik tipů, jak si zrychlit webovou prezentaci. Nebudu se zabývat optimalizací výkonu z pohledu programátora aplikace, ale hlavně z pohledu kodéra. V jednotlivých tématických blocích si představíme konkrétní kroky, po jejichž následování bude váš web svištět viditelně rychleji (pokud nemáte stejně loudavý hosting jako momentálně já).</p>
+<h2>Proč je důležité, aby se vaše stránky načítaly rychle?</h2>
+<ul>
+<li>Zvýšíte uživatelský komfort svých návštěvníků</li>
+<li>Optimalizací snížíte objem kilobytů provozu svého webserveru</li>
+<li>Můžete si <strong>trošičku</strong> šplhnout u Googlu, který <a href="http://googlewebmastercentral.blogspot.com/2010/04/using-site-speed-in-web-search-ranking.html">zahrnuje rychlost načítání stránky</a> do svého algoritmu při řazení stránek v  SERP</li>
+</ul>
+<h2>Nástroje optimalizace webu</h2>
+<p>Než začneme s optimalizací, je dobré si představit nástroje, které nám s optimalizací pomůžou. Předpokládám, že <a href="http://getfirebug.com/">Firebug</a> netřeba představovat a pro kodéra by to bylo nošení dříví do Athén (nebo sov do lesa). Zde nás bude hlavně zajímat záložka Síť, která ukazuje průběh načítaní stránky včetně jednotlivých HTTP požadavků. Pokud uctíváte jiný prohlížeč než Firefox, najdete obdobné nástroje i u nich. V Chrome jsou to Nástroje pro vývojáře, záložka Resources. Nebo si pro tento prohlížeč můžete stáhnout ultimátní rozšíření na ladění výkonu <a href="http://code.google.com/p/speedtracer/">SpeedTracer</a>. Opera zas nabízí Opera Dragonfly (Ctrl + Shift + I), záložka Připojení. Pro Internet Explorer můžete použít aplikaci <a href="http://www.httpwatch.com/">HttpWatch</a>, která je ve své základní verzi zdarma a kromě IE existuje i pro Firefox.</p>
+<p>Dále si nainstalujeme dva pluginy do Firebugu: <a href="http://developer.yahoo.com/yslow/">YSlow</a> od Yahoo! a <a href="http://code.google.com/intl/cs/speed/page-speed/">PageSpeed</a> od Google. Oba pluginy ohodnotí stránku na stupnici od 0 do 100 z hlediska optimalizace výkonu a sdělí doporučení, co ještě vylepšit. Dále obsahují rozličné utilitky, které nám při optimalizaci usnadní práci.</p>
+<p>Posledním nástrojem, který budeme používat, jsou <a href="http://www.google.com/webmasters/tools/">Google Webmaster Tools</a>. Pravděpodobně je již dávno používáte a pokud ne, tak je vřele doporučuji. Dozvíte se z nich spoustu užitečných informacích, jak Google vidí vaše stránky a pokud se zajímáte o SEO, stanou se vaším věrným pomocníkem. Z pohledu optimalizace rychlosti nás však bude nejvíc zajímat záložka Laboratoř Google &gt; Výkon webu:</p>
+<div id="attachment_47" class="wp-caption aligncenter" style="width: 790px"><img class="size-full wp-image-47 " title="gwt_vykon_webu" src="http://blog.proteus.cz/wp-content/uploads/2010/08/gwt_vykon_webu.png" alt="Google Webmaster Tools - Graf výkonu webu" width="770" height="180" /><p class="wp-caption-text">Google Webmaster Tools - Graf výkonu webu</p></div>
+<p>Na grafu uvidíte, jak rychle se v čase načítají vaše stránky v porovnání s ostatními weby. Pozor, na vertikální ose je průměrný čas potřebný k načtení stránek v sekundách, tj. čím menší tím lepší. Data si Google nesbírá z údajů svého robota, ale od lidí, kteří mají nainstalován Google Toolbar se zobrazením Page Ranku. Stránky ohodnocené jako rychlé se načítají pod 1,5 sekundy. Tam někde se budeme pohybovat po skončení seriálu :-).</p>
+<p>Nyní jsme vybaveni ohněm i mečem a můžeme se vydat bojovat s valícími se hordami HTTP požadavků, nabobtnalými javascripty a krotit nepoddajnou cache v našich prohlížečích. Příští díly už budou ryze praktické a krok po kroku si projdeme jednotlivé tipy a doporučení. Brzy naviděnou!</p>
+<img src="http://feeds.feedburner.com/~r/lukas-zeman/~4/iFfrJvqpjxI" height="1" width="1" alt=""/>]]></content:encoded>
+			<wfw:commentRss>http://blog.proteus.cz/optimalizace-rychlosti-webu-uvod/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://blog.proteus.cz/optimalizace-rychlosti-webu-uvod</feedburner:origLink></item>
+	</channel>
+</rss>

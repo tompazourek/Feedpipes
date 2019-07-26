@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:media="http://search.yahoo.com/mrss/"
+	>
+
+<channel>
+	<title>ChristianFindlay.com</title>
+	<atom:link href="https://christianfindlay.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://christianfindlay.com</link>
+	<description>C# Blog, Cross Platform Apps</description>
+	<lastBuildDate>Sun, 21 Jul 2019 02:42:34 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>http://wordpress.com/</generator>
+
+<image>
+	<url>https://christianfindlay.files.wordpress.com/2019/03/cropped-head.jpg?w=32</url>
+	<title>ChristianFindlay.com</title>
+	<link>https://christianfindlay.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<cloud domain='christianfindlay.com' port='80' path='/?rsscloud=notify' registerProcedure='' protocol='http-post' />
+<atom:link rel="search" type="application/opensearchdescription+xml" href="https://christianfindlay.com/osd.xml" title="ChristianFindlay.com" />
+	<atom:link rel='hub' href='https://christianfindlay.com/?pushpress=hub'/>
+	<item>
+		<title>Usb.Net 3.0 Beta</title>
+		<link>https://christianfindlay.com/2019/07/21/usb-net-3-0-beta/</link>
+				<comments>https://christianfindlay.com/2019/07/21/usb-net-3-0-beta/#respond</comments>
+				<pubDate>Sun, 21 Jul 2019 01:55:50 +0000</pubDate>
+		<dc:creator><![CDATA[Christian Findlay]]></dc:creator>
+				<category><![CDATA[Software]]></category>
+
+		<guid isPermaLink="false">http://christianfindlay.com/?p=679</guid>
+				<description><![CDATA[Usb.Net is a cross platform USB library for .NET, UWP, and Android. Adapters can be added for platforms such as Linux, or OSX. It puts&#8230; <p><a href="https://christianfindlay.com/2019/07/21/usb-net-3-0-beta/" class="more-link">Continue reading &#8594; <span class="screen-reader-text">Usb.Net 3.0 Beta</span></a></p>]]></description>
+								<content:encoded><![CDATA[<p>Usb.Net is a cross platform USB library for .NET, UWP, and Android. Adapters can be added for platforms such as Linux, or OSX. It puts a wrapper over the OS specific APIs and allows you to write USB code that runs on any of the platforms. Device.Net is a framework for communicating with connected devices such as USB, and Hid devices. Version 3.0  Beta of these libraries have been released, and I&#8217;d like to hear your feedback.</p>
+<p><a href="https://github.com/MelbourneDeveloper/Device.Net">GitHub Repo</a></p>
+<h2>Major Changes</h2>
+<p>This is the Github <a href="https://github.com/MelbourneDeveloper/Device.Net/projects/8">release notes page</a> that lists the issues the were fixed. The main problems with previous versions of Usb.Net were that it was trying to use interrupt pipes for transfer, and the buffer sizes could not be specified. The library has been overhauled so that any if the existing USB interfaces or pipes can be selected, and the buffer sizes can be specified in constructors. This should cover any scenario for connecting to a device.</p>
+<h2>Using the Library</h2>
+<p>The best place to get started is with the <a href="https://github.com/MelbourneDeveloper/Device.Net/wiki/Quick-Start">GitHub wiki</a>. This page is a little out of date and is missing some information about how to set the USB interface, and Endpoint. This documentation is being worked on, and will be added to the wiki soon. Meantime, if you have trouble modifying the sample for your device, please get in contact through the issues page, and I will be happy to help.</p>
+<pre>using Device.Net;
+using System;
+using System.Threading.Tasks;
+
+namespace Usb.Net.Windows
+{
+    public class UsbExample : IDisposable
+    {
+        private WindowsUsbDevice _WindowsUsbDevice;
+
+        public UsbExample(string deviceId)
+        {
+            _WindowsUsbDevice = new WindowsUsbDevice(deviceId, new DebugLogger(), new DebugTracer(), 64, 64);
+        }
+
+        public async Task InitializeAsync()
+        {
+            await _WindowsUsbDevice.InitializeAsync();
+
+            //This is not necessary for most cases, but allows you to select an interface and endpoint
+           _WindowsUsbDevice.UsbDeviceHandler.ReadUsbInterface = _WindowsUsbDevice.UsbDeviceHandler.UsbInterfaces[1];
+           _WindowsUsbDevice.UsbDeviceHandler.ReadUsbInterface.ReadEndpoint = _WindowsUsbDevice.UsbDeviceHandler.ReadUsbInterface.UsbInterfaceEndpoints[1];
+           _WindowsUsbDevice.UsbDeviceHandler.WriteUsbInterface = _WindowsUsbDevice.UsbDeviceHandler.UsbInterfaces[2];
+          _WindowsUsbDevice.UsbDeviceHandler.WriteUsbInterface.ReadEndpoint = _WindowsUsbDevice.UsbDeviceHandler.WriteUsbInterface.UsbInterfaceEndpoints[1];
+       }
+
+       public void Dispose()
+       {
+           _WindowsUsbDevice.Dispose();
+       }
+    }
+}</pre>
+<p>The above is a windows sample but the same code will work on any of the platforms.</p>
+<p>Grab the NuGet. You will need to add Device.Net manually.</p>
+<p>Usb.Net</p>
+<p>Hid.Net</p>
+<p>Device.Net</p>
+<p>Make sure you include pre-release.</p>
+<h2>Why use Device.Net and Usb.Net?</h2>
+<p>There are plenty of C# libraries around for USB. The problem is that they are all different across platforms. Most of the code cannot be reused. Usb.Net maintains uniform code across platforms, but also coupled with Hid.Net allows you to communicate with Hid devices in exactly the same way. Bluetooth support is also on its way. The Device.Net framework is much more than a simple library. So, please check it out and help me iron out the kinks.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://christianfindlay.com/2019/07/21/usb-net-3-0-beta/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						
+		<media:content url="https://2.gravatar.com/avatar/50a3315844050db6770646c20f603bca?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">christianfindlay</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Visual Studio &#8211; Break On All Exceptions</title>
+		<link>https://christianfindlay.com/2019/07/14/visual-studio-break-on-all-exceptions/</link>
+				<comments>https://christianfindlay.com/2019/07/14/visual-studio-break-on-all-exceptions/#comments</comments>
+				<pubDate>Sun, 14 Jul 2019 00:33:38 +0000</pubDate>
+		<dc:creator><![CDATA[Christian Findlay]]></dc:creator>
+				<category><![CDATA[Software]]></category>
+		<category><![CDATA[c#]]></category>
+		<category><![CDATA[debugging]]></category>
+
+		<guid isPermaLink="false">http://christianfindlay.com/?p=660</guid>
+				<description><![CDATA[An app should throw exceptions when something exceptional happens. However, apps and APIs should be designed so that under normal use, exceptions do not occur.&#8230; <p><a href="https://christianfindlay.com/2019/07/14/visual-studio-break-on-all-exceptions/" class="more-link">Continue reading &#8594; <span class="screen-reader-text">Visual Studio &#8211; Break On All&#160;Exceptions</span></a></p>]]></description>
+								<content:encoded><![CDATA[<p>An app should throw exceptions when something exceptional happens. However, <em>apps and APIs should be designed so that under normal use, exceptions do not occur</em>. Exceptions are a good way to tell the debugger, or logging tools that something went wrong. When debugging with the break on all exceptions feature is turned on, it is possible to get information about what went wrong immediately. However, by default, Visual Studio projects don&#8217;t have this feature turned on. This is a guide on how to turn on, and use this feature.</p>
+<p>Exceptions carry a stack trace with them, so they can provide a wealth of information about where the exception arose from and why. Breaking in the debugger on all exceptions can help to diagnose issues at the source. This guide is aimed at Visual Studio on Windows, but the feature is very similar on Visual Studio for Mac. This feature has existed for most of the life of Visual Studio so it should work on any Windows version.</p>
+<p><em>Note: let&#8217;s not get too caught up on the semantics of &#8220;apps and APIs should be designed so that under normal use, exceptions do not occur&#8221;. It just means that if all is well in the app, exceptions shouldn&#8217;t be thrown.</em></p>
+<h2>Exception Handling</h2>
+<p>You should acquaint yourself with <a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/exceptions/">Exception handling</a> in C# first and foremost. Microsoft has a <a href="https://docs.microsoft.com/en-us/dotnet/standard/exceptions/best-practices-for-exceptions">best practices guide</a> that is also very useful. As a general rule, it is a good idea to always debug with break on all exceptions turned on. This means that if anything in the app goes wrong, there will be an alert immediately at the point of failure. There is a general programming principle behind this called <a href="https://en.wikipedia.org/wiki/Fail-fast">fail fast</a>. However, in order to use break on all exceptions, the app&#8217;s code should never throw exceptions under normal circumstances. If the code does so, the debugging flow will be interrupted. Also, Exceptions <a href="https://buildplease.com/pages/slow-exceptions/">are costly operations</a>.</p>
+<h2>Turn it On</h2>
+<p>On Windows, Debug -&gt; Windows -&gt; Exceptions Settings</p>
+<p><img data-attachment-id="661" data-permalink="https://christianfindlay.com/2019/07/14/visual-studio-break-on-all-exceptions/exceptionsettings/" data-orig-file="https://christianfindlay.files.wordpress.com/2019/07/exceptionsettings.png" data-orig-size="648,89" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="ExceptionSettings" data-image-description="" data-medium-file="https://christianfindlay.files.wordpress.com/2019/07/exceptionsettings.png?w=300" data-large-file="https://christianfindlay.files.wordpress.com/2019/07/exceptionsettings.png?w=648" class="alignnone size-full wp-image-661" src="https://christianfindlay.files.wordpress.com/2019/07/exceptionsettings.png?w=760" alt="ExceptionSettings" srcset="https://christianfindlay.files.wordpress.com/2019/07/exceptionsettings.png 648w, https://christianfindlay.files.wordpress.com/2019/07/exceptionsettings.png?w=150 150w, https://christianfindlay.files.wordpress.com/2019/07/exceptionsettings.png?w=300 300w" sizes="(max-width: 648px) 100vw, 648px"   /></p>
+<p>The window will will appear like so. The Common Language Runtime Exceptions is the section we will be interested in for C# and .NET.</p>
+<p><img data-attachment-id="662" data-permalink="https://christianfindlay.com/2019/07/14/visual-studio-break-on-all-exceptions/exceptionsettings-2/" data-orig-file="https://christianfindlay.files.wordpress.com/2019/07/exceptionsettings-2.png" data-orig-size="376,295" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="ExceptionSettings 2" data-image-description="" data-medium-file="https://christianfindlay.files.wordpress.com/2019/07/exceptionsettings-2.png?w=300" data-large-file="https://christianfindlay.files.wordpress.com/2019/07/exceptionsettings-2.png?w=376" class="alignnone size-full wp-image-662" src="https://christianfindlay.files.wordpress.com/2019/07/exceptionsettings-2.png?w=760" alt="ExceptionSettings 2.png" srcset="https://christianfindlay.files.wordpress.com/2019/07/exceptionsettings-2.png 376w, https://christianfindlay.files.wordpress.com/2019/07/exceptionsettings-2.png?w=150 150w, https://christianfindlay.files.wordpress.com/2019/07/exceptionsettings-2.png?w=300 300w" sizes="(max-width: 376px) 100vw, 376px"   /></p>
+<p><em>Note: Mac instructions will be added in future</em></p>
+<p>Clicking this twice will result in a tick for all Exception types. If this is is ticked, this means that Break on All Exceptions is turned on. The debugger will always break whenever an exception is thrown in your code. It will look like this when the node is expanded.</p>
+<p><img data-attachment-id="663" data-permalink="https://christianfindlay.com/2019/07/14/visual-studio-break-on-all-exceptions/exceptionsettings-3/" data-orig-file="https://christianfindlay.files.wordpress.com/2019/07/exceptionsettings-3.png" data-orig-size="345,299" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="ExceptionSettings 3" data-image-description="" data-medium-file="https://christianfindlay.files.wordpress.com/2019/07/exceptionsettings-3.png?w=300" data-large-file="https://christianfindlay.files.wordpress.com/2019/07/exceptionsettings-3.png?w=345" class="alignnone size-full wp-image-663" src="https://christianfindlay.files.wordpress.com/2019/07/exceptionsettings-3.png?w=760" alt="ExceptionSettings 3" srcset="https://christianfindlay.files.wordpress.com/2019/07/exceptionsettings-3.png 345w, https://christianfindlay.files.wordpress.com/2019/07/exceptionsettings-3.png?w=150 150w, https://christianfindlay.files.wordpress.com/2019/07/exceptionsettings-3.png?w=300 300w" sizes="(max-width: 345px) 100vw, 345px"   /></p>
+<h2>Example</h2>
+<h3>Break On All Exceptions turned Off</h3>
+<p>In this example, the feature is not turned on. The app will execute and complete without the debugger displaying any information about the exception thrown. This essentially means that Exception information will be ignored by the debugger.</p>
+<pre>class Program
+{
+    static void Main(string[] args)
+    {
+        try
+        {
+            Test();
+        }
+        catch(Exception ex)
+        {
+        }
+
+        Console.Write("The process completed");
+        Console.ReadLine();
+    }
+
+    public static void Test()
+    {
+        throw new Exception("Break here please");
+    }
+}</pre>
+<p><em>Note: production code should always log exceptions in some way</em></p>
+<p><img data-attachment-id="664" data-permalink="https://christianfindlay.com/2019/07/14/visual-studio-break-on-all-exceptions/exceptions-1/" data-orig-file="https://christianfindlay.files.wordpress.com/2019/07/exceptions-1.png" data-orig-size="751,555" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Exceptions 1" data-image-description="" data-medium-file="https://christianfindlay.files.wordpress.com/2019/07/exceptions-1.png?w=300" data-large-file="https://christianfindlay.files.wordpress.com/2019/07/exceptions-1.png?w=751" class="alignnone size-full wp-image-664" src="https://christianfindlay.files.wordpress.com/2019/07/exceptions-1.png?w=760" alt="Exceptions 1" srcset="https://christianfindlay.files.wordpress.com/2019/07/exceptions-1.png 751w, https://christianfindlay.files.wordpress.com/2019/07/exceptions-1.png?w=150 150w, https://christianfindlay.files.wordpress.com/2019/07/exceptions-1.png?w=300 300w" sizes="(max-width: 751px) 100vw, 751px"   />The output</p>
+<p><img data-attachment-id="665" data-permalink="https://christianfindlay.com/2019/07/14/visual-studio-break-on-all-exceptions/exceptions-2/" data-orig-file="https://christianfindlay.files.wordpress.com/2019/07/exceptions-2.png" data-orig-size="621,145" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Exceptions 2" data-image-description="" data-medium-file="https://christianfindlay.files.wordpress.com/2019/07/exceptions-2.png?w=300" data-large-file="https://christianfindlay.files.wordpress.com/2019/07/exceptions-2.png?w=621" class="alignnone size-full wp-image-665" src="https://christianfindlay.files.wordpress.com/2019/07/exceptions-2.png?w=760" alt="Exceptions 2" srcset="https://christianfindlay.files.wordpress.com/2019/07/exceptions-2.png 621w, https://christianfindlay.files.wordpress.com/2019/07/exceptions-2.png?w=150 150w, https://christianfindlay.files.wordpress.com/2019/07/exceptions-2.png?w=300 300w" sizes="(max-width: 621px) 100vw, 621px"   /></p>
+<h3>Break On All Exceptions turned On</h3>
+<p>If we turn break on all exceptions on and rerun the example, this is what will happen. The debugger will stop at the source of the Exception, and you will be able to wind back the Call Stack. If the app is designed well, it is possible to debug like this in all scenarios.</p>
+<p><img data-attachment-id="667" data-permalink="https://christianfindlay.com/2019/07/14/visual-studio-break-on-all-exceptions/exceptions-3/" data-orig-file="https://christianfindlay.files.wordpress.com/2019/07/exceptions-3.png" data-orig-size="863,570" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Exceptions 3" data-image-description="" data-medium-file="https://christianfindlay.files.wordpress.com/2019/07/exceptions-3.png?w=300" data-large-file="https://christianfindlay.files.wordpress.com/2019/07/exceptions-3.png?w=760" class="alignnone size-full wp-image-667" src="https://christianfindlay.files.wordpress.com/2019/07/exceptions-3.png?w=760" alt="Exceptions 3.png" srcset="https://christianfindlay.files.wordpress.com/2019/07/exceptions-3.png?w=760 760w, https://christianfindlay.files.wordpress.com/2019/07/exceptions-3.png?w=150 150w, https://christianfindlay.files.wordpress.com/2019/07/exceptions-3.png?w=300 300w, https://christianfindlay.files.wordpress.com/2019/07/exceptions-3.png?w=768 768w, https://christianfindlay.files.wordpress.com/2019/07/exceptions-3.png 863w" sizes="(max-width: 760px) 100vw, 760px"   /></p>
+<h2>More Information</h2>
+<ul>
+<li>If there are too many exceptions being thrown, it is sometimes still possible to turn on breaking for most Exception types. Just turn off the ones that are causing issues with the checkbox.</li>
+<li>It&#8217;s normally preferable to debug with &#8220;Just My Code&#8221; turned on. This is the default setting in Visual Studio</li>
+</ul>
+<p><img data-attachment-id="670" data-permalink="https://christianfindlay.com/2019/07/14/visual-studio-break-on-all-exceptions/jmc/" data-orig-file="https://christianfindlay.files.wordpress.com/2019/07/jmc.png" data-orig-size="744,434" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="jmc" data-image-description="" data-medium-file="https://christianfindlay.files.wordpress.com/2019/07/jmc.png?w=300" data-large-file="https://christianfindlay.files.wordpress.com/2019/07/jmc.png?w=744" class="alignnone size-full wp-image-670" src="https://christianfindlay.files.wordpress.com/2019/07/jmc.png?w=760" alt="jmc" srcset="https://christianfindlay.files.wordpress.com/2019/07/jmc.png 744w, https://christianfindlay.files.wordpress.com/2019/07/jmc.png?w=150 150w, https://christianfindlay.files.wordpress.com/2019/07/jmc.png?w=300 300w" sizes="(max-width: 744px) 100vw, 744px"   /></p>
+<p>This means that Exceptions will only be caught in the debugger when they are thrown by the code in the project being debugged, or the underlying code is throwing an Exception that is not being suppressed by a try/catch. Turning this off is often useful for getting details about Exceptions in the underlying code, but it usually ends up disrupting the normal debugging experience.</p>
+<ul>
+<li>The Exceptions settings are not stored in the csproj file. They are a user setting and are usually ignored by Git. Therefore, the settings are usually wiped out when a repo is freshly cloned, or a Git clean is performed. It&#8217;s importantly to communicate with your team members about Exception handling and debugging thereof.</li>
+</ul>
+<h2>Conclusion</h2>
+<p>Take Exception handling in to account when designing code. If done well, it will make debugging easier. If done poorly, it will slow down your application and make it difficult to find the source of issues. If turning on break on all exceptions is possible, it will allow the source of exceptions to be found immediately rather than trace back what happened after the fact.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://christianfindlay.com/2019/07/14/visual-studio-break-on-all-exceptions/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+						
+		<media:thumbnail url="https://christianfindlay.files.wordpress.com/2019/07/kevin-ku-w7zyugynprq-unsplash-1.jpg" />
+		<media:content url="https://christianfindlay.files.wordpress.com/2019/07/kevin-ku-w7zyugynprq-unsplash-1.jpg" medium="image">
+			<media:title type="html">kevin-ku-w7ZyuGYNpRQ-unsplash</media:title>
+		</media:content>
+
+		<media:content url="https://2.gravatar.com/avatar/50a3315844050db6770646c20f603bca?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">christianfindlay</media:title>
+		</media:content>
+
+		<media:content url="https://christianfindlay.files.wordpress.com/2019/07/exceptionsettings.png" medium="image">
+			<media:title type="html">ExceptionSettings</media:title>
+		</media:content>
+
+		<media:content url="https://christianfindlay.files.wordpress.com/2019/07/exceptionsettings-2.png" medium="image">
+			<media:title type="html">ExceptionSettings 2.png</media:title>
+		</media:content>
+
+		<media:content url="https://christianfindlay.files.wordpress.com/2019/07/exceptionsettings-3.png" medium="image">
+			<media:title type="html">ExceptionSettings 3</media:title>
+		</media:content>
+
+		<media:content url="https://christianfindlay.files.wordpress.com/2019/07/exceptions-1.png" medium="image">
+			<media:title type="html">Exceptions 1</media:title>
+		</media:content>
+
+		<media:content url="https://christianfindlay.files.wordpress.com/2019/07/exceptions-2.png" medium="image">
+			<media:title type="html">Exceptions 2</media:title>
+		</media:content>
+
+		<media:content url="https://christianfindlay.files.wordpress.com/2019/07/exceptions-3.png" medium="image">
+			<media:title type="html">Exceptions 3.png</media:title>
+		</media:content>
+
+		<media:content url="https://christianfindlay.files.wordpress.com/2019/07/jmc.png" medium="image">
+			<media:title type="html">jmc</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>xUnit &#8211; Strongly Typed Test Data</title>
+		<link>https://christianfindlay.com/2019/06/30/xunit-strongly-typed-test-data/</link>
+				<comments>https://christianfindlay.com/2019/06/30/xunit-strongly-typed-test-data/#comments</comments>
+				<pubDate>Sun, 30 Jun 2019 09:33:19 +0000</pubDate>
+		<dc:creator><![CDATA[Christian Findlay]]></dc:creator>
+				<category><![CDATA[Software]]></category>
+
+		<guid isPermaLink="false">http://christianfindlay.com/?p=649</guid>
+				<description><![CDATA[xUnit has a quirky system for consuming test data. Strongly typed test data can be specified with the MemberData attribute and the Theory attribute but&#8230; <p><a href="https://christianfindlay.com/2019/06/30/xunit-strongly-typed-test-data/" class="more-link">Continue reading &#8594; <span class="screen-reader-text">xUnit &#8211; Strongly Typed Test&#160;Data</span></a></p>]]></description>
+								<content:encoded><![CDATA[<p><a href="https://xunit.net/">xUnit </a>has a quirky system for consuming test data. Strongly typed test data can be specified with the MemberData attribute and the Theory attribute but it&#8217;s not intuitive.</p>
+<p>The MemberData attribute allows you to specify a getter that returns an enumeration of object arrays. It expects the type to be IEnumerable&lt;object[]&gt; . The trick is to return a List with multiple object arrays in it. Here is some example code for the getting the strongly typed test data. This makes for much cleaner unit testing.</p>
+<p>This repo can be cloned <a href="https://github.com/MelbourneDeveloper/Samples">here</a>. This is the <a href="https://github.com/MelbourneDeveloper/Samples/blob/6b69b4933143fe9b2e43385f3b5acb1b85724075/xUnit/Sample.Tests/Sample.Tests/UnitTest1.cs#L6">source code</a> for the unit test.</p>
+<p>The getter for the test data:</p>
+<p><img data-attachment-id="650" data-permalink="https://christianfindlay.com/2019/06/30/xunit-strongly-typed-test-data/sampledata/" data-orig-file="https://christianfindlay.files.wordpress.com/2019/06/sampledata.png" data-orig-size="898,613" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Sampledata" data-image-description="" data-medium-file="https://christianfindlay.files.wordpress.com/2019/06/sampledata.png?w=300" data-large-file="https://christianfindlay.files.wordpress.com/2019/06/sampledata.png?w=760" class="alignnone size-full wp-image-650" src="https://christianfindlay.files.wordpress.com/2019/06/sampledata.png?w=760" alt="Sampledata.png" srcset="https://christianfindlay.files.wordpress.com/2019/06/sampledata.png?w=760 760w, https://christianfindlay.files.wordpress.com/2019/06/sampledata.png?w=150 150w, https://christianfindlay.files.wordpress.com/2019/06/sampledata.png?w=300 300w, https://christianfindlay.files.wordpress.com/2019/06/sampledata.png?w=768 768w, https://christianfindlay.files.wordpress.com/2019/06/sampledata.png 898w" sizes="(max-width: 760px) 100vw, 760px"   /></p>
+<p>This is the SampleData class:</p>
+<p><img data-attachment-id="651" data-permalink="https://christianfindlay.com/2019/06/30/xunit-strongly-typed-test-data/sampledataclass/" data-orig-file="https://christianfindlay.files.wordpress.com/2019/06/sampledataclass.png" data-orig-size="431,176" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Sampledataclass" data-image-description="" data-medium-file="https://christianfindlay.files.wordpress.com/2019/06/sampledataclass.png?w=300" data-large-file="https://christianfindlay.files.wordpress.com/2019/06/sampledataclass.png?w=431" class="alignnone size-full wp-image-651" src="https://christianfindlay.files.wordpress.com/2019/06/sampledataclass.png?w=760" alt="Sampledataclass.png" srcset="https://christianfindlay.files.wordpress.com/2019/06/sampledataclass.png 431w, https://christianfindlay.files.wordpress.com/2019/06/sampledataclass.png?w=150 150w, https://christianfindlay.files.wordpress.com/2019/06/sampledataclass.png?w=300 300w" sizes="(max-width: 431px) 100vw, 431px"   /></p>
+<p>This is how your unit test can consume the strongly typed data:<img data-attachment-id="653" data-permalink="https://christianfindlay.com/2019/06/30/xunit-strongly-typed-test-data/sampledatausage/" data-orig-file="https://christianfindlay.files.wordpress.com/2019/06/sampledatausage-1.png" data-orig-size="673,197" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Sampledatausage" data-image-description="" data-medium-file="https://christianfindlay.files.wordpress.com/2019/06/sampledatausage-1.png?w=300" data-large-file="https://christianfindlay.files.wordpress.com/2019/06/sampledatausage-1.png?w=673" class="alignnone size-full wp-image-653" src="https://christianfindlay.files.wordpress.com/2019/06/sampledatausage-1.png?w=760" alt="Sampledatausage" srcset="https://christianfindlay.files.wordpress.com/2019/06/sampledatausage-1.png 673w, https://christianfindlay.files.wordpress.com/2019/06/sampledatausage-1.png?w=150 150w, https://christianfindlay.files.wordpress.com/2019/06/sampledatausage-1.png?w=300 300w" sizes="(max-width: 673px) 100vw, 673px"   /></p>
+]]></content:encoded>
+							<wfw:commentRss>https://christianfindlay.com/2019/06/30/xunit-strongly-typed-test-data/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+						
+		<media:content url="https://2.gravatar.com/avatar/50a3315844050db6770646c20f603bca?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">christianfindlay</media:title>
+		</media:content>
+
+		<media:content url="https://christianfindlay.files.wordpress.com/2019/06/sampledata.png" medium="image">
+			<media:title type="html">Sampledata.png</media:title>
+		</media:content>
+
+		<media:content url="https://christianfindlay.files.wordpress.com/2019/06/sampledataclass.png" medium="image">
+			<media:title type="html">Sampledataclass.png</media:title>
+		</media:content>
+
+		<media:content url="https://christianfindlay.files.wordpress.com/2019/06/sampledatausage-1.png" medium="image">
+			<media:title type="html">Sampledatausage</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>C# and WebAssembly (Wasm)</title>
+		<link>https://christianfindlay.com/2019/06/29/c-and-webassembly-wasm/</link>
+				<comments>https://christianfindlay.com/2019/06/29/c-and-webassembly-wasm/#comments</comments>
+				<pubDate>Sat, 29 Jun 2019 00:43:57 +0000</pubDate>
+		<dc:creator><![CDATA[Christian Findlay]]></dc:creator>
+				<category><![CDATA[Software]]></category>
+
+		<guid isPermaLink="false">http://christianfindlay.com/?p=530</guid>
+				<description><![CDATA[WebAssembly may be the most exciting technology for C# developers to emerge in recent times. Browser based applications have been developed in JavaScript, or languages&#8230; <p><a href="https://christianfindlay.com/2019/06/29/c-and-webassembly-wasm/" class="more-link">Continue reading &#8594; <span class="screen-reader-text">C# and WebAssembly&#160;(Wasm)</span></a></p>]]></description>
+								<content:encoded><![CDATA[<p>WebAssembly may be the most exciting technology for C# developers to emerge in recent times. Browser based applications have been developed in JavaScript, or languages that transpile to JavaScript since the early days of the web. This has meant that C# developers have either needed to work with two or more different languages, or avoid browser based development altogether. Wasm may change all of this by being a bridge for .NET based development in browsers.</p>
+<blockquote><p>WebAssembly (abbreviated <i>Wasm</i>) is a binary instruction format for a stack-based virtual machine. Wasm is designed as a portable target for compilation [&#8230;] enabling deployment on the web for client and server applications.</p></blockquote>
+<p><a href="https://webassembly.org/" rel="nofollow">https://webassembly.org/</a></p>
+<h2>Background</h2>
+<p>HTML was originally <a href="https://en.wikipedia.org/wiki/HTML#History">developed by</a> Tim Berners-Lee and released around 1995. It&#8217;s original goal was to display static, formatted text and image content that could be displayed in a web browser. Several companies implemented browsers based on the HTML standard. In an attempt to make web content more dynamic, <a href="https://en.wikipedia.org/wiki/JavaScript#Beginnings_at_Netscape">JavaScript was created</a> as a &#8220;glue language&#8221; where code could be written to dynamically manipulate the HTML <a href="https://en.wikipedia.org/wiki/Document_Object_Model">document object model</a>. This was first added to Netscape Navigator and was loosely based on the <a href="https://en.wikipedia.org/wiki/Java_(programming_language)">Java</a> syntax. Other browsers added dynamic languages, and Microsoft added <a href="https://en.wikipedia.org/wiki/JScript">JScript </a>to their Internet Explorer browser.</p>
+<p>Earlier, the <a href="https://en.wikipedia.org/wiki/Java_(programming_language)#History">Java </a>runtime environment and programming language had been created which allowed for cross-platform code to be run on the major operating systems. <a href="https://en.wikipedia.org/wiki/Java_applet#Embedding_into_a_web_page"> Java Applets</a> were compiled bundles that could be embedded in a web page. Browsers gave control of a slice of the browser&#8217;s canvas for graphics rendering. Java differed from JavaScript in the sense that it did not need to manipulate the HTML DOM. It could render its own graphics and avoid rendering deviance between different OSs and browsers. However, Java applets did not gain much traction in the web community after the early days.</p>
+<p>For many years, browser plugin based runtime technologies like <a href="https://en.wikipedia.org/wiki/Adobe_Flash_Player">Adobe Flash</a> (1996) and <a href="https://en.wikipedia.org/wiki/Microsoft_Silverlight">Microsoft Silverlight</a> (2007) were popular ways of deploying rich web applications in to the browser. These technologies operated in the same way as Java applets. The web browser gave control of the canvas to these plugins and also gave them ability to manipulate the HTML DOM via JavaScript. This meant that developers could code in the language of their choice and render pixel perfect UIs across different platforms.</p>
+<p>Around 2012 Apple <a href="https://www.huffpost.com/entry/apple-drops-java-mac_n_1989623">announced </a>that it would drop the automatic shipping of Java with its OSX. They did not publicize the reason for this but it is widely considered to be because of <a href="https://en.wikipedia.org/wiki/Java_security">security </a>concerns. After this point, plugin based runtimes went out of favor and most browsers are in the process of dropping support for plugin such as Silverlight and Flash.  This leaves a hole where runtime plugins had previously been.</p>
+<p>In 2015, WebAssembly <a href="https://en.wikipedia.org/wiki/WebAssembly#History">was first announced</a>.  The first demo of Wasm was with the game <a href="https://beta.unity3d.com/jonas/AngryBots/">Angry Bots</a> which is based on Unity with <a href="https://en.wikipedia.org/wiki/WebGL">WebGL</a>. This demo is a fully functional 3D environment inside the browser. Once again, browsers were opened up to using languages other than JavaScript, and it was again possible to compile code to a modular binary format. Since then, the <a href="https://www.w3.org/community/webassembly/">W3C has put its support</a> behind Wasm, there is <a href="https://webassembly.org/roadmap/">consensus</a> among the four browsers Chrome, Firefox, Safari, and Edge that the MVP is complete, and Wasm is now being shipped in all new versions of these browsers.</p>
+<p>Wasm provides a runtime environment with many of the benefits of compiled technologies like Java, Silverlight, and Adobe Flash, but with a</p>
+<blockquote><p>sandboxed execution environment that may even be implemented inside existing JavaScript virtual machines. When embedded in the web, WebAssembly will enforce the same-origin and permissions security policies of the browser.</p></blockquote>
+<p>The good news is that C# can already be run on Wasm. There is currently no direct C# to Wasm compiler. However, the current approach is to compile the mono runtime along with CIL assemblies in to Wasm bytecode. This allows for existing C# code to be run on Wasm inside the browser. More detail can be found in the<a href="https://github.com/migueldeicaza/mono-wasm"> mono-wasm Github repo</a>.</p>
+<h2><a href="https://platform.uno/">Uno Platform</a> , <a href="https://github.com/AvaloniaUI/Avalonia/issues/1387">Avalonia </a>&amp; <a href="https://dotnet.microsoft.com/apps/aspnet/web-apps/client">Blazor</a></h2>
+<p>Uno Platform is an ambitious project that aims at providing a C# / XAML based platform for developing apps that target all platforms. This includes browsers,  and native iOS/Android. Uno allows developers to define their UI in the platform agnostic markup language XAML, which in turn renders out to the platform&#8217;s native UI architecture such as the HTML DOM in browsers. This amazing <a href="http://windowstoolkit-wasm.platform.uno/">sample </a>application is a port of the <a href="https://github.com/windows-toolkit/WindowsCommunityToolkit">Windows Community Toolkit</a>. It allows direct XAML editing, and binding to manipulate and create UI elements.</p>
+<p>Blazor &#8220;lets you build interactive web UIs using C# instead of JavaScript. Blazor apps are composed of reusable web UI components implemented using C#, HTML, and CSS. Both client and server code is written in C#, allowing you to share code and libraries&#8221;. Blazor provides C# developers with a smooth pathway to convert existing JavaScript applications to C#. This impressive <a href="http://playground.nethereum.com/">sample </a> allows C# code to be edited and run inside the browser for the <a href="https://www.ethereum.org/">Ethereum </a>blockchain with the popular <a href="https://nethereum.com/">Nethereum </a>C# library.</p>
+<p>In short, these platforms allow C# developers to jump straight in and build web applications with C#. These applications are sandboxed, and fast. However, both these technologies render the UI out to HTML components. C# can be used to manipulate the components, but rendering is still performed by the browser&#8217;s inbuilt engine.</p>
+<p>Avalonia is a UI API based on Microsoft&#8217;s WPF UI API. It doesn&#8217;t yet support Wasm. However, this technology stands out as a <a href="https://github.com/AvaloniaUI/Avalonia/issues/1387">strong candidate</a> for a UI library that would allow for non HTML DOM rendering inside the browser. This technology may once again allow line of business apps to be built and deployed inside the browser with pixel perfect rendering. The result should be very similar to Microsoft Silverlight.</p>
+<p><a href="https://christianfindlay.com/2019/05/11/cross-platform-c-ui-technologies/">This article</a> talks about cross platform C# UI technologies in some depth.</p>
+<h2>Back end and App Development</h2>
+<p>While browser based front end development is the obvious use case for C# developers, Wasm will not stop there. As mentioned on the website, Wasm is also aimed at &#8220;deployment on the web for client and server applications&#8221;. This has big implications for C# developers. Wasm is now being deployed to nearly every device in circulation. All new devices will have the Wasm runtime as part of their browser deployment. Even phones such as iPhones and Android phones will have Wasm installed. This means that Wasm is probably already installed on more devices than technologies like <a href="https://www.mono-project.com/">Mono</a>. This cannot be said for .NET Core.</p>
+<p>It is highly likely that Wasm platforms for building apps outside the browser (<a href="https://webassembly.org/docs/non-web/">non-web embeddings</a>) will emerge, and server side technology will be developed on Wasm. It is also likely that a C# to Wasm compiler will emerge. Wasm may challenge .NET and mono for uptake. Wasm has a long way to go, but it is possible that we may see an ecosystem where modules are built for Wasm and shared across the back end and front end of systems. It will probably mean that modules will be built in various languages such as Rust, and C in the same way that .NET assemblies can currently be built with multiple languages like Python, and Visual Basic. Developers may find themselves on teams where APIs are being built in separate languages concurrently.</p>
+<h2>Conclusion</h2>
+<p>It&#8217;s time to start experimenting with Wasm and feeling out what can be built with C#. Wasm is likely to change the web development landscape and compiled languages like C# are likely to be at the forefront. C# may once again look like an attractive technology for front end web development. This may well be the next phase of web development that C# developers have been waiting for.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://christianfindlay.com/2019/06/29/c-and-webassembly-wasm/feed/</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+						
+		<media:thumbnail url="https://christianfindlay.files.wordpress.com/2019/06/wa-2.png" />
+		<media:content url="https://christianfindlay.files.wordpress.com/2019/06/wa-2.png" medium="image">
+			<media:title type="html">wa</media:title>
+		</media:content>
+
+		<media:content url="https://2.gravatar.com/avatar/50a3315844050db6770646c20f603bca?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">christianfindlay</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Anti-patterns</title>
+		<link>https://christianfindlay.com/2019/06/01/anti-patterns/</link>
+				<comments>https://christianfindlay.com/2019/06/01/anti-patterns/#comments</comments>
+				<pubDate>Sat, 01 Jun 2019 03:57:34 +0000</pubDate>
+		<dc:creator><![CDATA[Christian Findlay]]></dc:creator>
+				<category><![CDATA[Coding]]></category>
+		<category><![CDATA[Critical Thinking]]></category>
+		<category><![CDATA[Software]]></category>
+
+		<guid isPermaLink="false">http://christianfindlay.com/?p=548</guid>
+				<description><![CDATA[The term &#8220;anti-pattern&#8221; is a derogatory term used to disparage software design approaches that a given developer, or group of developers may not like. The&#8230; <p><a href="https://christianfindlay.com/2019/06/01/anti-patterns/" class="more-link">Continue reading &#8594; <span class="screen-reader-text">Anti-patterns</span></a></p>]]></description>
+								<content:encoded><![CDATA[<p>The term &#8220;anti-pattern&#8221; is a derogatory term used to disparage software design approaches that a given developer, or group of developers may not like. The term started its life as a useful way to describe approaches that generally lead to bad outcomes, or for approaches designed to solve problems that already have a proven solution. While some approaches often do lead to bad outcomes, there are very few problems simple enough where a one size fits all solution is adequate for all scenarios. This article is part of a series on Critical Thinking in Software Development and talks about how the term is being misused.</p>
+<p>According to Wikipedia, a software design pattern is:</p>
+<blockquote><p>a general, reusable solution to a commonly occurring problem within a given context in software design [&#8230;] It is a description or template for how to solve a problem that can be used in many different situations. Design patterns are formalized best practices that the programmer can use to solve common problems when designing an application or system.</p></blockquote>
+<p><a href="https://en.wikipedia.org/wiki/Software_design_pattern" rel="nofollow">https://en.wikipedia.org/wiki/Software_design_pattern</a></p>
+<p>The first part of this definition is perfectly reasonable. If some problem has been solved, and that solution has proven to be effective time and time again, it&#8217;s reasonable to consider it as a template for solving similar problems again in future. However, the definition extends further and says that &#8220;patterns are formalized best practices&#8221;. To qualify for the term &#8220;pattern&#8221;, an approach is not worthy until someone or some group has proven through some formal process that this approach is superior to all others, and qualifies as &#8220;best practice&#8221;. An approach that earns the title of &#8220;pattern&#8221; not only becomes one tool in the toolbox, it becomes <em>dogma</em>. Everything that runs contrary to a given pattern becomes an &#8220;anti-pattern&#8221;.</p>
+<p>The term &#8220;anti-pattern&#8221; was popularized in the book <a href="https://en.wikipedia.org/wiki/AntiPatterns">AntiPatterns </a>. For an amusing read, please check out the website called <a href="http://antipatterns.com/">AntiPatterns</a> by the original authors. Wikipedia says that there</p>
+<blockquote><p>must be at least two key elements present to formally distinguish an actual anti-pattern from a simple bad habit, bad practice, or bad idea:</p>
+<ol>
+<li>A commonly used process, structure, or pattern of action that despite initially appearing to be an appropriate and effective response to a problem, has more bad consequences than good ones.</li>
+<li>Another solution exists that is documented, repeatable, and proven to be effective.</li>
+</ol>
+</blockquote>
+<p><a href="https://en.wikipedia.org/wiki/Anti-pattern" rel="nofollow">https://en.wikipedia.org/wiki/Anti-pattern</a></p>
+<p>This definition sounds reasonable and useful. However, when taken on its own the second part of the definition implies that because an approach has proven to be effective at solving a problem, it is pointless to attempt to solve the problem in any other way. This is where the issue of misusing the term becomes a problem. Approaches are routinely singled out as anti-patterns simply because another pattern exists when no case has been made that the approach has been found to have bad consequences in the past. It often used as the only argument against a particular approach with no explanation necessary for why the approach will lead to bad consequences.</p>
+<p>The existence of a pattern for solving some problem does not mean that other approaches are inherently incorrect, or valueless. The phrase &#8220;there is more than one way to skin a cat&#8221; is a truism that we all intuitively understand. While there are some approaches that tend to lead to bad results, and some that tend to lead to good results, there is no correct or incorrect approach for all scenarios.</p>
+<h2>Evolution of Ideas</h2>
+<p>Engineering ideas evolve over time. What may be impossible today may be possible and recommended tomorrow. What was possible yesterday may not be possible or desirable today. Moreover, problems are not isolated. When an engineer is attempting to solve a problem, there is always more than one thing to consider. Lets take transportation as an analogy.</p>
+<p>Before horses were domesticated, people must have assumed that walking or running from place to place was the most efficient way to travel. People must have had the fixed idea that traveling long distances quickly was impossible. When horses were domesticated, it was discovered that people could travel over longer distances in a shorter period of time. With the use of carts and maritime travel they could also move more food and supplies over larger distances.</p>
+<p>Later, trains, automobiles, and airplanes were invented. Imagine if it had been declared that trains were the only valid pattern for solving the problem of transportation. Imagine that the combustion engine had been declared an anti-pattern because of its absurd wastage of fuel. In hindsight we can see how destructive the combustion engine has been for the environment, but the automobile has emancipated people from the tyranny of distance, and trucks have allowed goods to flow freely across borders and supply remote communities with much needed items.</p>
+<p>If one asks the question today &#8220;Which form of transport is best?&#8221;, there is no single answer. Horse riding solved the problem of traveling long distances quickly, but there were many inefficiencies &#8211; much like the automobile. Many other forms of transport were invented, and yet, <a href="https://pubs.acs.org/doi/10.1021/es9039693">rail and shipping remain</a> the most environmentally friendly forms of transport. No single design pattern for transportation was <em>correct</em>, and no one approach used today is an anti-pattern. A square wheel could easily qualify as a good use of the term anti-pattern because there is no scenario in which a square wheel is a good design pattern, but air travel is not an anti-pattern. The invention of the automobile as a form of transport did not relegate airplanes to the anti-pattern bucket. But, at the same time, airplanes do not make automobiles obsolete either.</p>
+<p>Ideas, practices, principles, approaches and so on evolve over time. Declaring one of these as correct and all others to be incorrect is an oversimplification, and a <a href="https://en.wikipedia.org/wiki/False_dilemma">logical fallacy</a>. Using the words pattern and anti-pattern as synonyms for correct or incorrect  ignore reality and and further cements software development dogma.</p>
+<h2>Prototyping</h2>
+<p>The<a href="https://build2think.wordpress.com/2013/04/11/learning-prototyping-with-the-marshmallow-challenge/"> importance of prototyping</a> needs to be considered here. Developers bring with them years of received knowledge from universities, blogs, other developers and so on. It&#8217;s easy to habitually rely on preconceived ideas and practices, but prototyping often proves to be the best way to road test an approach. If a given pattern is the best way to solve a problem, then prototyping it, and comparing it with other prototypes will highlight its benefits. The marshmallow challenge highlights how children tend to approach problems by quickly experimenting without preconceived ideas, quickly reevaluate ideas, and learn from past mistakes.</p>
+<p>Every approach needs to be evaluated on its merits for the use in a specific scenario, and trialing multiple approaches to gain objective insights in to what works best in a given scenario is always going to be superior to blindly following received knowledge. When &#8220;anti-patterns&#8221; are rejected as being incorrect, prototyping is seen as unnecessary and valuable lines of exploration are often avoided. It would be a mistake to think that just because a problem has been solved with a given pattern, that every other similar problem can be solved with the same pattern. Only trialing an approach can demystify potential benefits and costs that an approach may yield.</p>
+<h2>Points To Consider</h2>
+<ul>
+<li>The existence of a pattern for solving a problem does not mean the absence of valid alternative solutions. In other words, categorizing an approach as an anti-pattern is not a valid argument against an approach</li>
+<li>Some accepted patterns have been proven to be bad</li>
+<li>There is no authority that a developer can turn to on all decision making</li>
+<li>Developers may need to get burned by approaches a few times to understand why an approach is generally bad</li>
+<li>The best way to evaluate an approaches is to prototype and compare them in your scenario</li>
+</ul>
+<p>However,</p>
+<ul>
+<li>Following established patterns is <em>usually</em> a good idea</li>
+<li>Being guided by validated studies is likely to enhance the chance of project success</li>
+<li>Reinventing the wheel is risky and time consuming</li>
+<li>Following patterns that other developers can recognize and understand is likely to save time and enhance the chance of project success</li>
+<li>Approaches that have been studied and proven to reduce the chance of success should be viewed unfavorably</li>
+</ul>
+<p>My general contention is that the field of software development is often dominated by people or groups considered to be authorities, that dogma is pervasive, and that developers are often socialized out of critical thinking. Learning lessons based on experience rather than rote memorization of principles is important. When an approach is categorized as an anti-pattern, there is no further explanation necessary for critical thinking on the topic, and other software developers feel they can safely ignore the approach. This creates a toxic culture in the field of software development where useful approaches are often overlooked. A positive path forward is to keep an open mind, continue evaluating knowledge based experience and experimentation, and to learn not to shoot down other based on received knowledge. Most importantly, stop categorizing people&#8217;s ideas as anti-patterns when you simply disagree with them.</p>
+<p><em>Note: This article contains edits</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://christianfindlay.com/2019/06/01/anti-patterns/feed/</wfw:commentRss>
+		<slash:comments>10</slash:comments>
+						
+		<media:content url="https://2.gravatar.com/avatar/50a3315844050db6770646c20f603bca?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">christianfindlay</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>C# and gRPC Part One</title>
+		<link>https://christianfindlay.com/2019/05/26/c-and-grpc-part-one/</link>
+				<comments>https://christianfindlay.com/2019/05/26/c-and-grpc-part-one/#comments</comments>
+				<pubDate>Sun, 26 May 2019 21:14:01 +0000</pubDate>
+		<dc:creator><![CDATA[Christian Findlay]]></dc:creator>
+				<category><![CDATA[Software]]></category>
+
+		<guid isPermaLink="false">http://christianfindlay.com/?p=537</guid>
+				<description><![CDATA[gRPC is a modern open source RPC framework created by Google. It is based on Google&#8217;s modern Protocol Buffer serialization engine but is not tied&#8230; <p><a href="https://christianfindlay.com/2019/05/26/c-and-grpc-part-one/" class="more-link">Continue reading &#8594; <span class="screen-reader-text">C# and gRPC Part&#160;One</span></a></p>]]></description>
+								<content:encoded><![CDATA[<p><a href="https://grpc.io/">gRPC </a>is a modern open source RPC framework created by Google. It is based on Google&#8217;s modern <a href="https://developers.google.com/protocol-buffers/">Protocol Buffer</a> serialization engine but is not tied to it. C# developers who have used <a href="https://docs.microsoft.com/en-us/dotnet/framework/wcf/whats-wcf">WCF </a>in the past, or anyone building C# backend services should take a look at this. gRPC has most of the functionality that WCF has, but you can build on .NET Core. This article will introduce gRPC, explain why WCF developers should pay attention, and talk about why it could be used for any service. According to Scott Hunter at Microsoft:</p>
+<blockquote><p><span class="">If you are a </span>remoting or WCF Server developer and want to build a new application on .NET Core, we would recommend either <span class="">ASP.NET </span>Core Web APIs or gRPC</p></blockquote>
+<blockquote class="wp-embedded-content" data-secret="IEeQ7CEeCn"><p><a href="https://devblogs.microsoft.com/dotnet/net-core-is-the-future-of-net/">.NET Core is the Future of .NET </a></p></blockquote>
+<p><iframe title="&#8220;.NET Core is the Future of .NET &#8221; &#8212; .NET Blog" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" style="position: absolute; clip: rect(1px, 1px, 1px, 1px);" src="https://devblogs.microsoft.com/dotnet/net-core-is-the-future-of-net/embed/#?secret=IEeQ7CEeCn" data-secret="IEeQ7CEeCn" width="600" height="338" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></p>
+<p>This is huge. Many developers invested in WCF as a communication layer over the last ten years. To make a long story short, it was a great technology for building RPC style programming in C#. However, WCF has not yet been ported to .NET Core. This means that any services build for .NET Framework cannot be ported to .NET Core directly. Many services are languishing on .NET Framework. However, gRPC may offer a pathway to move off .NET Framework for these services. It&#8217;s also a lot more simple to get up and running and configure than WCF.</p>
+<p>gRPC may or may not have been developed as a replacement for WCF, but it is a good fit for WCF developers because its messaging system is similar to WCF&#8217;s DataContract and OperationContract system. gRPC calls and messages are defined in a simple markup language like so:</p>
+<p><img data-attachment-id="538" data-permalink="https://christianfindlay.com/2019/05/26/c-and-grpc-part-one/proto1/" data-orig-file="https://christianfindlay.files.wordpress.com/2019/05/proto1.png" data-orig-size="1060,675" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Proto1" data-image-description="" data-medium-file="https://christianfindlay.files.wordpress.com/2019/05/proto1.png?w=300" data-large-file="https://christianfindlay.files.wordpress.com/2019/05/proto1.png?w=760" class="alignnone size-full wp-image-538" src="https://christianfindlay.files.wordpress.com/2019/05/proto1.png?w=760" alt="Proto1.png" srcset="https://christianfindlay.files.wordpress.com/2019/05/proto1.png?w=760 760w, https://christianfindlay.files.wordpress.com/2019/05/proto1.png?w=150 150w, https://christianfindlay.files.wordpress.com/2019/05/proto1.png?w=300 300w, https://christianfindlay.files.wordpress.com/2019/05/proto1.png?w=768 768w, https://christianfindlay.files.wordpress.com/2019/05/proto1.png?w=1024 1024w, https://christianfindlay.files.wordpress.com/2019/05/proto1.png 1060w" sizes="(max-width: 760px) 100vw, 760px"   /></p>
+<p>Those who are familiar will see that this is also the same markup language as Google Protocol Buffers. This language is platform agnostic, but can be rendered out to any language. Languages that are already supported for both server side, and client side, include Ruby, Python, Objective C, Node JS, C++ and more. The code can be shared across the backend and the front end. This is one of the features that will make gRPC familiar for WCF developers. However, what makes this even better is that the same markup code can be used to create clients for many different languages and platforms. The net effect is similar to <a href="https://docs.microsoft.com/en-us/dotnet/framework/wcf/servicemodel-metadata-utility-tool-svcutil-exe">svcutil</a>, but for any platform so your service can be consumed by just about anything.</p>
+<p>C# examples can be found in the <a href="https://github.com/grpc/grpc">gRPC Github repo</a> along with other language examples. This is a great starting point. If you open up the Hello World sample, you can jump straight in and change the various declared RPC calls and messages. As soon as you compile the shared project, the changes are rendered out to the client server projects.</p>
+<p>I have built a sample application here in about one day: <a href="https://github.com/MelbourneDeveloper/DBTogRPC">DBTogRPC</a>. It will change over time, so I have tagged it with &#8220;BlogPostPartOne&#8221;. For this sample, I focused sending message of any type across the wire, mapping it on to database entities, and then saving that in a database and retrieving it. It uses SQLite with Entity Framework Core on the backend, but uses abstraction so that a different type of data layer could be used. On the client side, this is the code for connecting to the service and saving a person:</p>
+<p><img data-attachment-id="539" data-permalink="https://christianfindlay.com/2019/05/26/c-and-grpc-part-one/save-person/" data-orig-file="https://christianfindlay.files.wordpress.com/2019/05/save-person.png" data-orig-size="649,547" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Save Person" data-image-description="" data-medium-file="https://christianfindlay.files.wordpress.com/2019/05/save-person.png?w=300" data-large-file="https://christianfindlay.files.wordpress.com/2019/05/save-person.png?w=649" class="alignnone size-full wp-image-539" src="https://christianfindlay.files.wordpress.com/2019/05/save-person.png?w=760" alt="Save Person.png" srcset="https://christianfindlay.files.wordpress.com/2019/05/save-person.png 649w, https://christianfindlay.files.wordpress.com/2019/05/save-person.png?w=150 150w, https://christianfindlay.files.wordpress.com/2019/05/save-person.png?w=300 300w" sizes="(max-width: 649px) 100vw, 649px"   /></p>
+<p>After that, more database operations can be called with the same methods</p>
+<p><img data-attachment-id="540" data-permalink="https://christianfindlay.com/2019/05/26/c-and-grpc-part-one/load/" data-orig-file="https://christianfindlay.files.wordpress.com/2019/05/load.png" data-orig-size="1010,367" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Load" data-image-description="" data-medium-file="https://christianfindlay.files.wordpress.com/2019/05/load.png?w=300" data-large-file="https://christianfindlay.files.wordpress.com/2019/05/load.png?w=760" class="alignnone size-full wp-image-540" src="https://christianfindlay.files.wordpress.com/2019/05/load.png?w=760" alt="Load.png" srcset="https://christianfindlay.files.wordpress.com/2019/05/load.png?w=760 760w, https://christianfindlay.files.wordpress.com/2019/05/load.png?w=150 150w, https://christianfindlay.files.wordpress.com/2019/05/load.png?w=300 300w, https://christianfindlay.files.wordpress.com/2019/05/load.png?w=768 768w, https://christianfindlay.files.wordpress.com/2019/05/load.png 1010w" sizes="(max-width: 760px) 100vw, 760px"   /></p>
+<p>Here is a snippet of the backend:</p>
+<p><img data-attachment-id="541" data-permalink="https://christianfindlay.com/2019/05/26/c-and-grpc-part-one/backend/" data-orig-file="https://christianfindlay.files.wordpress.com/2019/05/backend.png" data-orig-size="874,657" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="backend" data-image-description="" data-medium-file="https://christianfindlay.files.wordpress.com/2019/05/backend.png?w=300" data-large-file="https://christianfindlay.files.wordpress.com/2019/05/backend.png?w=760" class="alignnone size-full wp-image-541" src="https://christianfindlay.files.wordpress.com/2019/05/backend.png?w=760" alt="backend.png" srcset="https://christianfindlay.files.wordpress.com/2019/05/backend.png?w=760 760w, https://christianfindlay.files.wordpress.com/2019/05/backend.png?w=150 150w, https://christianfindlay.files.wordpress.com/2019/05/backend.png?w=300 300w, https://christianfindlay.files.wordpress.com/2019/05/backend.png?w=768 768w, https://christianfindlay.files.wordpress.com/2019/05/backend.png 874w" sizes="(max-width: 760px) 100vw, 760px"   /></p>
+<p>It was pretty incredible that this came together so quickly with no knowledge of gRPC. I was never able to build WCF services this quickly. I can also say that building ASP .NET Core Web APIs never comes together this quickly. <a href="https://twitter.com/markrendle">Mark Rendle</a> has put together an <a href="https://unwcf.com/posts/wcf-vs-grpc/">article </a>on moving from WCF, but more importantly, he is working on a tool which should help with the migration process. You should check this out if your services are built on WCF.</p>
+<p>In future articles I will delve in to this sample further, explain why dynamic typing (Any) is so important for RPC programming, and how this may even create a shift away from hand crafting REST services in future. Personally, I think that gRPC is going to shake up the backend ecosystem. It means that developers are not forced to be concerned with low level basics like http verbs and so on. Developers can focus on building what is important for them: good quality RPC services.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://christianfindlay.com/2019/05/26/c-and-grpc-part-one/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+						
+		<media:thumbnail url="https://christianfindlay.files.wordpress.com/2019/05/grpc3.png" />
+		<media:content url="https://christianfindlay.files.wordpress.com/2019/05/grpc3.png" medium="image">
+			<media:title type="html">grpc3</media:title>
+		</media:content>
+
+		<media:content url="https://2.gravatar.com/avatar/50a3315844050db6770646c20f603bca?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">christianfindlay</media:title>
+		</media:content>
+
+		<media:content url="https://christianfindlay.files.wordpress.com/2019/05/proto1.png" medium="image">
+			<media:title type="html">Proto1.png</media:title>
+		</media:content>
+
+		<media:content url="https://christianfindlay.files.wordpress.com/2019/05/save-person.png" medium="image">
+			<media:title type="html">Save Person.png</media:title>
+		</media:content>
+
+		<media:content url="https://christianfindlay.files.wordpress.com/2019/05/load.png" medium="image">
+			<media:title type="html">Load.png</media:title>
+		</media:content>
+
+		<media:content url="https://christianfindlay.files.wordpress.com/2019/05/backend.png" medium="image">
+			<media:title type="html">backend.png</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Cross-Platform C# UI Technologies</title>
+		<link>https://christianfindlay.com/2019/05/11/cross-platform-c-ui-technologies/</link>
+				<comments>https://christianfindlay.com/2019/05/11/cross-platform-c-ui-technologies/#comments</comments>
+				<pubDate>Sat, 11 May 2019 01:12:48 +0000</pubDate>
+		<dc:creator><![CDATA[Christian Findlay]]></dc:creator>
+				<category><![CDATA[Software]]></category>
+
+		<guid isPermaLink="false">http://christianfindlay.com/?p=513</guid>
+				<description><![CDATA[There are several UI technologies that can be used to build Cross-Platform apps in C# or other .NET based languages such as Visual Basic (VB).&#8230; <p><a href="https://christianfindlay.com/2019/05/11/cross-platform-c-ui-technologies/" class="more-link">Continue reading &#8594; <span class="screen-reader-text">Cross-Platform C# UI&#160;Technologies</span></a></p>]]></description>
+								<content:encoded><![CDATA[<p>There are several UI technologies that can be used to build Cross-Platform apps in C# or other .NET based languages such as Visual Basic (VB). This article looks at three technologies and discusses which cases these technologies could be used for. This article will give you a baseline understanding of technologies that are available for building front-end applications in C#, and will answers questions like which platforms are available? <em>Can it run in a browser? Will it have a native look and feel? And, can it be deployed to the app stores?</em></p>
+<h2>Background</h2>
+<p><a href="https://en.wikipedia.org/wiki/.NET_Framework">.NET Framework</a> is a technology that was created in the early 2000s primarily for Windows desktop apps. The main two languages at the time were <a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)">C#</a> and <a href="https://en.wikipedia.org/wiki/Visual_Basic">VB</a>. These languages are compiled to <a href="https://en.wikipedia.org/wiki/Common_Intermediate_Language">Common Intermediate Language</a> (CIL &#8211; formerly known as Microsoft Intermediate Language MSIL). At the time, the main competitor to .NET as a technology was <a href="https://en.wikipedia.org/wiki/Java_(programming_language)">Java</a> which is a similar to .NET but was designed for Cross-Platform compatibility from the ground up. Java included the cross-platform UI framework <a href="https://en.wikipedia.org/wiki/Swing_(Java)">Swing</a>.  Soon after the release of .NET, the <a href="https://en.wikipedia.org/wiki/Mono_(software)">Mono</a> platform was released in 2004. This framework allowed CIL libraries to be compiled and run on platforms like Linux. However, UI technologies like <a href="https://en.wikipedia.org/wiki/Windows_Forms">Windows Forms</a> built on .NET could not be run on other platforms because they relied on native components of the Windows operating system. The Mono platform evolved and several UI components were created for each platform, but no single Cross-Platform UI component became a <em>de facto</em> standard. Microsoft does not push any one UI technology as the answer for all platforms.</p>
+<h2>Modern Ecosystem</h2>
+<p>Things have changed a lot since the early days of .NET. There are now at least five major operating systems that people use on a daily basis: Windows (desktop/tablet), MacOS (desktop), Android (phone/tablet), iOS (phone/tablet), Linux (mostly desktop). There are also a raft of other platforms to drive devices like wristwatch and TV components such as <a href="https://www.tizen.org/">Tizen</a>. The deployment mechanism for apps is also quickly changing with the advent of App Stores. The standard method of deploying apps to phones is now via the various App Stores, and people are coming to expect that their phones and tablets be able to run the same applications that their desktops run.</p>
+<p><em><strong>Security is now a huge consideration</strong></em> when it comes to app development deployment. Desktops are lagging behind phones in that many applications still require the user to download the application as an installer and then install manually. This is a colossal problem and any developer that ignores this issue does so at their own peril. If a user is forced to download apps from the internet, they are being exposed to Malware, losing control of application level permissions,  and opening their computers up to spyware and so on that is not vetted by any authority. As users become more savvy, less and less will tolerate this situation and will opt for apps that are deployed via the App Stores or in a browser.</p>
+<p>The point is this: <strong><em>your app needs to be deployed in a secure way, and you need do so on as many platforms as possible</em></strong>.</p>
+<h2>Modern Runtimes: Mono/Xamarin, .NET Core, Web Assembly</h2>
+<p><a href="https://en.wikipedia.org/wiki/Xamarin">Xamarin </a>is a company whose engineers originally created the Mono platform to run CIL across many platforms. In 2016 Xamarin was acquired by Microsoft. They still maintain the Mono platform which allows C# code to be run on iOS, Android and other platforms. Xamarin is often used as a synonym for Mono but Xamarin is also a suite of CIL libraries that drive apps on non Windows platforms.</p>
+<p><a href="https://en.wikipedia.org/wiki/.NET_Core">.NET Core</a> is a modern desktop runtime environment which is heavily based on .NET Framework for operating systems like MacOS, Linux and Windows. Since its inception, several UI frameworks have been built on top of the Mono platform so the ability to build front-end applications that run across platforms has become a reality. Some of these UI frameworks also run on Mono. This means that the ability to build apps which are pixel perfect in similarity across platforms is now a possibility.</p>
+<p><a href="https://webassembly.org/">Web Assembly</a> (wasm) cannot be overlooked. It is an emerging technology built in to browsers and supported by the <a href="https://www.w3.org/wasm/">W3C</a>. This technology essentially allows a developer to compile code that can be run inside a browser in a way that is as safe to run as JavaScript. Most importantly, it is a language independent &#8220;binary instruction format for a stack-based virtual machine&#8221;. C# can be compiled to this instruction format, and therefore a new world of UI capabilities is opened up for C# developers. C# code can be run inside a browser in a similar way to <a href="https://en.wikipedia.org/wiki/Microsoft_Silverlight">Silverlight </a>which is now defunct.</p>
+<p><a href="https://en.wikipedia.org/wiki/Extensible_Application_Markup_Language">XAML </a>also requires a mention here. XAML is the markup language that is used to declaritively define UI across most C# based UI frameworks. The three platforms mentioned here all support XAML. XAML is to C# what HTML is to JavaScript. However, XAML goes a lot further than HTML in that it includes styling like CSS, but also extremely powerful data binding out of the box.</p>
+<p>Here are the UI technologies based on these runtimes.</p>
+<h2><a href="https://platform.uno/">Uno Platform</a></h2>
+<p><img data-attachment-id="518" data-permalink="https://christianfindlay.com/2019/05/11/cross-platform-c-ui-technologies/uno/" data-orig-file="https://christianfindlay.files.wordpress.com/2019/05/uno.png" data-orig-size="487,578" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="UNO" data-image-description="" data-medium-file="https://christianfindlay.files.wordpress.com/2019/05/uno.png?w=253" data-large-file="https://christianfindlay.files.wordpress.com/2019/05/uno.png?w=487" class="alignnone size-full wp-image-518" src="https://christianfindlay.files.wordpress.com/2019/05/uno.png?w=760" alt="UNO.png" srcset="https://christianfindlay.files.wordpress.com/2019/05/uno.png 487w, https://christianfindlay.files.wordpress.com/2019/05/uno.png?w=126 126w, https://christianfindlay.files.wordpress.com/2019/05/uno.png?w=253 253w" sizes="(max-width: 487px) 100vw, 487px"   /></p>
+<p><a href="https://platform.uno/code-samples/">Image Source</a></p>
+<p><em>Note: corrections have been made to this section</em></p>
+<p>Uno Platform is an open source XAML based UI library and platform that runs on iOS, Android, and Web Assembly. It renders to native controls, but attempts to emulate the Windows UWP graphics library on non Windows 10 platforms. It has a modern Windows 10 look and feel by default but can be easily customized with XAML styling.</p>
+<blockquote><p>&#8220;Universal Windows Platform Bridge to allow UWP based code to run on iOS, Android, and WebAssembly&#8221;.</p></blockquote>
+<p><a href="https://github.com/nventive/Uno" rel="nofollow">https://github.com/nventive/Uno</a></p>
+<p>Platforms: iOS, Android, WebAssembly, Windows (As UWP)</p>
+<p>App Stores: Apple Store, Google Play, Microsoft Store (When compiled with UWP)</p>
+<p>Render Type: Native. The behavior of controls remain as they do on the native platform, however, by default, controls will be styled like a Windows 10 app and be close to pixel perfect the same. Styling can be changed to appear more like the native platform though.</p>
+<h2><a href="https://docs.microsoft.com/en-us/xamarin/xamarin-forms/">Xamarin.Forms</a></h2>
+<p><img data-attachment-id="516" data-permalink="https://christianfindlay.com/2019/05/11/cross-platform-c-ui-technologies/xf/" data-orig-file="https://christianfindlay.files.wordpress.com/2019/05/xf.png" data-orig-size="1280,735" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="XF" data-image-description="" data-medium-file="https://christianfindlay.files.wordpress.com/2019/05/xf.png?w=300" data-large-file="https://christianfindlay.files.wordpress.com/2019/05/xf.png?w=760" class="alignnone size-full wp-image-516" src="https://christianfindlay.files.wordpress.com/2019/05/xf.png?w=760" alt="XF" srcset="https://christianfindlay.files.wordpress.com/2019/05/xf.png?w=760 760w, https://christianfindlay.files.wordpress.com/2019/05/xf.png?w=150 150w, https://christianfindlay.files.wordpress.com/2019/05/xf.png?w=300 300w, https://christianfindlay.files.wordpress.com/2019/05/xf.png?w=768 768w, https://christianfindlay.files.wordpress.com/2019/05/xf.png?w=1024 1024w, https://christianfindlay.files.wordpress.com/2019/05/xf.png 1280w" sizes="(max-width: 760px) 100vw, 760px"   /></p>
+<p><a href="https://developer.xamarin.com/samples/mobile/Weather/">Image Source</a></p>
+<p>Xamarin.Forms is an open source XAML based toolkit which supports Android, iOS, Windows UWP, preview MacOS out of the box, and will probably include Linux support in future. It is a phone driven UI technology but bridges the gap between phone, tablet and desktop by rendering declarative XAML out to native UI components.</p>
+<blockquote><p>Xamarin.Forms exposes a complete cross-platform UI toolkit for .NET developers. Build fully native Android, iOS, and Universal Windows Platform apps using C# in Visual Studio.</p></blockquote>
+<p><a href="https://docs.microsoft.com/en-us/xamarin/xamarin-forms/" rel="nofollow">https://docs.microsoft.com/en-us/xamarin/xamarin-forms/</a></p>
+<p>Platforms: iOS, Android, Tizen, Windows (As UWP). Other platforms are in <a href="https://github.com/xamarin/Xamarin.Forms/wiki/Platform-Support">preview</a>.</p>
+<p>App Stores: Apple Store, Google Play, Microsoft Store</p>
+<p>Render Type: Native. An app built for iOS will look and behave like an iOS app. An Android app will look and behave like an Android app.</p>
+<h2><a href="http://avaloniaui.net/">Avalonia</a></h2>
+<p><img data-attachment-id="519" data-permalink="https://christianfindlay.com/2019/05/11/cross-platform-c-ui-technologies/avalonia/" data-orig-file="https://christianfindlay.files.wordpress.com/2019/05/avalonia.jpg" data-orig-size="1691,942" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Avalonia" data-image-description="" data-medium-file="https://christianfindlay.files.wordpress.com/2019/05/avalonia.jpg?w=300" data-large-file="https://christianfindlay.files.wordpress.com/2019/05/avalonia.jpg?w=760" class="alignnone size-full wp-image-519" src="https://christianfindlay.files.wordpress.com/2019/05/avalonia.jpg?w=760" alt="Avalonia" srcset="https://christianfindlay.files.wordpress.com/2019/05/avalonia.jpg?w=760 760w, https://christianfindlay.files.wordpress.com/2019/05/avalonia.jpg?w=1520 1520w, https://christianfindlay.files.wordpress.com/2019/05/avalonia.jpg?w=150 150w, https://christianfindlay.files.wordpress.com/2019/05/avalonia.jpg?w=300 300w, https://christianfindlay.files.wordpress.com/2019/05/avalonia.jpg?w=768 768w, https://christianfindlay.files.wordpress.com/2019/05/avalonia.jpg?w=1024 1024w" sizes="(max-width: 760px) 100vw, 760px"   /></p>
+<p><a href="https://devdigest.today/post/358">Image Source</a></p>
+<p>Avalonia is an open source XAML based UI library and platform that runs on Windows, Linux, and MacOS. It is heavily based on the Windows <a href="https://en.wikipedia.org/wiki/Windows_Presentation_Foundation">WPF </a>UI framework. As such, it is mainly targeted for desktop usage and will probably not be a good fit for mobile applications.</p>
+<blockquote><p>We support Windows, Linux and OSX with experimental mobile support for Android and iOS.</p></blockquote>
+<p><a href="http://avaloniaui.net/" rel="nofollow">http://avaloniaui.net/</a></p>
+<p>Platforms: Windows, Linux, and MacOS, and experimental support for iOS, and Android. The technology is mainly .NET Core based.</p>
+<p>App Stores: Unknown. It will probably possible to release an Avalonia app via the App Stores. But, currently there is no clear documentation or pathway for doing this.</p>
+<p>Render Type: Pixel Perfect. The platform takes control of rendering and does not rely on native components to render.</p>
+<h2>How To Choose</h2>
+<p><strong><em>Do you need browser support?</em></strong></p>
+<p>If so, Uno Platform is probably the clear winner here. It&#8217;s the only platform that supports Wasm from the ground up. Building an app with browser support from the ground up is a good choice because it guarantees maximum penetration. Users do not have to download an app from the App Store to use your app, and they are protected from Malware.</p>
+<p><em>Note: Xamarin.Forms and Uno Platform can work <a href="https://github.com/nventive/Uno.Xamarin.Forms">together</a>.</em></p>
+<p><strong><em>Do you need native look and feel?</em></strong></p>
+<p>If so, Xamarin.Forms may be a good choice. Like Uno platform, Xamarin.Forms allows UIs to be defined declaratively across platforms but renders the UI based on the native platform. So, the user will not be shocked by controls that do not behave in the platform specific way. By default, the styles approximate the platform&#8217;s native look and feel while Uno Platform tends to look more like Windows 10. However, both Xamarin.Forms, and Uno Platform can be styled for their native platforms.</p>
+<p>Xamarin.Forms currently has the full support of Microsoft so there is guaranteed support for the near future. However, Uno Platform is an extremely impressive platform that is certainly a worthy competitor for Xamarin.Forms. If you are going to build a native app, you need to try out both Uno Platform and Xamarin.Forms to see what suits your project best.</p>
+<p><strong><em>Are you targeting desktop with users who will download applications outside of App Stores?</em></strong></p>
+<p>This is in a sense, a rhetorical question. As mentioned earlier, you shouldn&#8217;t really expect your users to download apps outside of the store or browser. However, there are legitimate cases where your users may prefer a custom fit desktop experience that is pixel perfect across Linux, Windows, and MacOS with all the power of the .NET Core runtime. When this is the case, Avalonia is your best bet.</p>
+<p>As a UI library though, Avalonia should not be underestimated. It will be familiar to any WPF developer, and is very easy to get running and dive straight in. The .NET Core runtime makes it a very powerful platform to build upon.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://christianfindlay.com/2019/05/11/cross-platform-c-ui-technologies/feed/</wfw:commentRss>
+		<slash:comments>9</slash:comments>
+						
+		<media:thumbnail url="https://christianfindlay.files.wordpress.com/2019/05/xf-1.png" />
+		<media:content url="https://christianfindlay.files.wordpress.com/2019/05/xf-1.png" medium="image">
+			<media:title type="html">XF</media:title>
+		</media:content>
+
+		<media:content url="https://2.gravatar.com/avatar/50a3315844050db6770646c20f603bca?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">christianfindlay</media:title>
+		</media:content>
+
+		<media:content url="https://christianfindlay.files.wordpress.com/2019/05/uno.png" medium="image">
+			<media:title type="html">UNO.png</media:title>
+		</media:content>
+
+		<media:content url="https://christianfindlay.files.wordpress.com/2019/05/xf.png" medium="image">
+			<media:title type="html">XF</media:title>
+		</media:content>
+
+		<media:content url="https://christianfindlay.files.wordpress.com/2019/05/avalonia.jpg" medium="image">
+			<media:title type="html">Avalonia</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Calling All C# Crypto Developers</title>
+		<link>https://christianfindlay.com/2019/04/28/calling-all-c-crypto-developers/</link>
+				<comments>https://christianfindlay.com/2019/04/28/calling-all-c-crypto-developers/#respond</comments>
+				<pubDate>Sun, 28 Apr 2019 00:37:08 +0000</pubDate>
+		<dc:creator><![CDATA[Christian Findlay]]></dc:creator>
+				<category><![CDATA[Software]]></category>
+
+		<guid isPermaLink="false">http://christianfindlay.com/?p=493</guid>
+				<description><![CDATA[Are you a C# programmer in to crypto? I and the community could use your help. I am maintaining several open source libraries for hardwarewallet&#8230; <p><a href="https://christianfindlay.com/2019/04/28/calling-all-c-crypto-developers/" class="more-link">Continue reading &#8594; <span class="screen-reader-text">Calling All C# Crypto&#160;Developers</span></a></p>]]></description>
+								<content:encoded><![CDATA[<p>Are you a C# programmer in to crypto? I and the community could use your help. I am maintaining several open source libraries for hardwarewallet integration. These libraries are gaining momentum, but I need help from the community to help push them further, improve the quality and support more coins. The overall aim of my libraries is to add support in C# for all hardwarewallet libraries, and enable them to work with all coins.</p>
+<h2>How You Can Help</h2>
+<p>I need people to test, support more coins, develop unit tests, and document the libraries. The easiest way to help is to browse through the libraries, look at the issues sections, test, and attempt to solve the issues. If you have any C# knowledge, I&#8217;m sure your skills will be helpful. Another thing you can do is build your own apps with these libraries. I need people to build real life use cases for these libraries.</p>
+<p><strong>Logging bugs is a great way to help! More than anything, I need to know about the bugs that exist. I can&#8217;t fix bugs I don&#8217;t know about.</strong></p>
+<p>Here is a rundown of the libraries.</p>
+<h2>Hardwarewallet Libraries</h2>
+<p><a href="https://github.com/MelbourneDeveloper/Trezor.Net">Trezor.Net</a>, <a href="https://github.com/MelbourneDeveloper/KeepKey.Net">KeepKey.Net</a>, <a href="https://github.com/MelbourneDeveloper/Ledger.Net">Ledger.Net</a>, <a href="https://github.com/MelbourneDeveloper/Hardwarewallets.Net">Hardwarewallets.Net</a></p>
+<p>These are my C# hardwarewallet libraries. They allow you to get addresses from the hardwarewallets and sign transactions for the blockchain with them. This is my most important contribution to the crypto community. I want more native phone and store apps and C# is a great way to build these &#8211; especially with Xamarin. These need a lot of work, so please have a look at them and see if there&#8217;s anything you can do. It would be really great if you could submit pull requests for getting addresses on all coins, and signing transactions for more coins.</p>
+<h2><a href="https://github.com/MelbourneDeveloper/CryptoCurrency.Net">CryptoCurrency.Net</a></h2>
+<p>This project is aimed at integrating with Blockchain and Exchange APIs. There are more than a dozen coins that are supported for getting balances, and transactions and so on. This works well with the hardwarewallet libraries. You can get an address from your hardwarewallet, and then scan the APIs to get the balances.</p>
+<h2><a href="https://github.com/MelbourneDeveloper/Device.Net">Hid.Net, Usb.Net (Device.Net)</a></h2>
+<p>These are USB and Hid transport libraries. These are the libraries that write data to, and read data from the hardwarewallets. They are the bread and butter of hardwarewallet integration. If you have skills in this area, I&#8217;d really like to hear from you.</p>
+<p>If you have any questions, please join the <a href="https://join.slack.com/t/hardwarewallets/shared_invite/enQtNjA5MDgxMzE2Nzg2LWUyODIzY2U0ODE5OTFlMmI3MGYzY2VkZGJjNTc0OTUwNDliMTg2MzRiNTU1MTVjZjI0YWVhNjQzNjUwMjEyNzQ">C# Hardwarewallets Slack Workspace</a>.</p>
+<p><strong>Spend some time help the C# community have more tools for integrating with crypto!</strong></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+							<wfw:commentRss>https://christianfindlay.com/2019/04/28/calling-all-c-crypto-developers/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						
+		<media:content url="https://2.gravatar.com/avatar/50a3315844050db6770646c20f603bca?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">christianfindlay</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Hardfolio 3.0</title>
+		<link>https://christianfindlay.com/2019/04/13/hardfolio-3-0/</link>
+				<comments>https://christianfindlay.com/2019/04/13/hardfolio-3-0/#comments</comments>
+				<pubDate>Sat, 13 Apr 2019 22:36:35 +0000</pubDate>
+		<dc:creator><![CDATA[Christian Findlay]]></dc:creator>
+				<category><![CDATA[Software]]></category>
+
+		<guid isPermaLink="false">http://christianfindlay.com/?p=472</guid>
+				<description><![CDATA[As I type Hardfolio 3.0 is in the Google Play Store, and the Microsoft Store. This is a very significant release because it brings Trezor&#8230; <p><a href="https://christianfindlay.com/2019/04/13/hardfolio-3-0/" class="more-link">Continue reading &#8594; <span class="screen-reader-text">Hardfolio 3.0</span></a></p>]]></description>
+								<content:encoded><![CDATA[<p>As I type <a href="https://christianfindlay.com/hardfolio/">Hardfolio </a>3.0 is in the <a href="https://play.google.com/store/apps/details?id=com.Hardfolio">Google Play</a> Store, and the <a href="https://www.microsoft.com/en-au/p/hardfolio/9p8xx70n5d2j">Microsoft Store</a>. This is a very significant release because it brings Trezor Model T support and it now works with the latest firmware for all devices. This is a quick few words on what Hardfolio is, where it has come from, and where it is going.</p>
+<p>Hardfolio started its life as an app that was designed to pull together balances from multiple different sources. I quickly realised that this was really lacking for hardwarewallet users. The Ledger Live app does a good job of adding up your balances for the Ledger wallet, but that only works for one wallet. The Trezor wallet is good at giving you a view of your balance for one coin at a time, but it doesn&#8217;t give you a view of all your balances at once. This is what Hardfolio is shooting for: getting all your hardware balances together in one place. Hardfolio 3.0 is a big step in the right direction there. It&#8217;s about being able to reliably plug in your wallets and get your balances.</p>
+<p>Hardfolio is well on its way toward becoming a full open-source project. If you want to inspect the base level code, please check out the repos: <a href="https://github.com/MelbourneDeveloper/Device.Net">Device.Net</a>, <a href="https://github.com/MelbourneDeveloper/Trezor.Net">Trezor.Net</a>, <a href="https://github.com/MelbourneDeveloper/KeepKey.Net">KeepKey.Net</a>, and <a href="https://github.com/MelbourneDeveloper/CryptoCurrency.Net">CryptoCurrency.Net</a>  . <a href="https://github.com/MelbourneDeveloper/Ledger.Net">Ledger.Net</a> is a fully developed library which will be the basis of Ledger support which is on its way. The only reason Ledger has not been integrated yet is that there will need to be user interaction to select coins. This coin selection process must be smoothed out and carefully tested with Ledger&#8217;s app system. It won&#8217;t be added to Hardfolio until it&#8217;s a smooth user experience.</p>
+<p>The last step of full open sourcing is on its way. The portfolio engine that Hardfolio uses will be freely available to be added to other applications so that more native apps can easily display balances from hardware wallets, and the UI will also be open source &#8211; mainly for the purpose of auditing the code. I&#8217;m committed to transparency and making sure that no part of Hardfolio is tampered with. This is why Hardfolio is being deployed in to the stores instead of being a downloadable executable.</p>
+<p>Also, see the <a href="https://christianfindlay.com/hardfolio/">Hardfolio </a>website for more information about Hardfolio, privacy, hardwarewallets and Store apps. I hope you get some use out of the app, and I can always be contacted through the Contact menu item for support or feedback.</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+							<wfw:commentRss>https://christianfindlay.com/2019/04/13/hardfolio-3-0/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+						
+		<media:thumbnail url="https://christianfindlay.files.wordpress.com/2019/04/logowhitebanner-2.png" />
+		<media:content url="https://christianfindlay.files.wordpress.com/2019/04/logowhitebanner-2.png" medium="image">
+			<media:title type="html">LogoWhiteBanner</media:title>
+		</media:content>
+
+		<media:content url="https://2.gravatar.com/avatar/50a3315844050db6770646c20f603bca?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">christianfindlay</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>API Versioning &#8211; Mandatory Columns</title>
+		<link>https://christianfindlay.com/2019/03/30/api-versioning-mandatory-columns/</link>
+				<comments>https://christianfindlay.com/2019/03/30/api-versioning-mandatory-columns/#respond</comments>
+				<pubDate>Sat, 30 Mar 2019 18:15:21 +0000</pubDate>
+		<dc:creator><![CDATA[Christian Findlay]]></dc:creator>
+				<category><![CDATA[Software]]></category>
+
+		<guid isPermaLink="false">http://christianfindlay.wordpress.com/?p=437</guid>
+				<description><![CDATA[There are some difficulties with versioning APIs. One such difficulty is dealing with mandatory columns. If a back-end API upgrade is taking place, and we&#8230; <p><a href="https://christianfindlay.com/2019/03/30/api-versioning-mandatory-columns/" class="more-link">Continue reading &#8594; <span class="screen-reader-text">API Versioning &#8211; Mandatory&#160;Columns</span></a></p>]]></description>
+								<content:encoded><![CDATA[<p>There are some difficulties with versioning APIs. One such difficulty is dealing with mandatory columns. If a back-end API upgrade is taking place, and we think that a new mandatory column is needed, we may create a problem for front-ends that don&#8217;t supply the column. At first, this may seem like an insurmountable problem, but actually, it&#8217;s not as big a problem as you might think. It may be time to rethink making the column mandatory at all. As programmers, this may seem counter intuitive because the database is the fundamental place for stopping data integrity issues from happening, and mandatory columns guarantee that there will be at least something in the database so that there is no need for checking the value after the record is loaded. However, it may be useful to reorient our thinking about <em>mandatory </em>columns as <em>seemingly mandatory</em> instead.</p>
+<p>Please see this article on <a href="https://christianfindlay.wordpress.com/2019/03/22/back-end-front-end-versioning/">Back-end / Front-End Versioning</a>.</p>
+<h2>Data Quality</h2>
+<p>Poor data is the enemy of quality systems. Quality systems encourage a high level of data quality. Poor systems allow a low level of data quality to fester. For people who design databases, the database usually seems like the logical place for data integrity to be enforced. This is generally true when it comes to referential integrity and so on. If users simply opt to not fill in columns that are necessary for record keeping purposes, the data will degrade in to a poor state. The simple answer seems to be to make columns mandatory when they are necessary for record keeping purposes, but this leads to a problem: form abandonment. This <a href="https://en.wikipedia.org/wiki/Abandonment_rate">wikipedia article</a> talks about the issue from a marketing perspective, but the issue can be the same in other types of systems.</p>
+<p>If a user is confronted with a screen with too many mandatory fields, they may simply not be able to fill the form in. This can lead to them abandoning the record before saving it. This is probably a bigger problem that missing columns. What is worse, a record that is missing a few details? Or, a record that a user never entered because they didn&#8217;t have all the data? I would argue that the latter is worse. Missing records is a bigger data quality issue than missing <em>seemingly mandatory</em> columns.</p>
+<p>Lets take a few scenarios. A customer calls up a call centre, and the operator starts creating a record based on the person&#8217;s details. There is a mandatory field for date of birth and the operator asks the caller for this information. The caller refuses. The operator saves the record, but the system rejects it. At this point, the operator has the choice of putting in a false date of birth, or to not record the call. Either way, data quality is eroded. The company may have lost an important record because the system didn&#8217;t allow it to be saved, or incorrect data could have been entered. Perhaps, the date of birth was not so mandatory after all.</p>
+<p>In a similar scenario, an issue tracking system may require information like &#8220;Steps to reproduce&#8221;, &#8220;Operating system&#8221;, &#8220;Software version&#8221; and so on. If a user does not have all this information at their disposal, or does not have time to enter it, the bug will simply not get logged. This is clearly a bigger problem than storing an issue with less information.</p>
+<p>The issue of data quality is not as straight forward as it may have seemed when you consider these things.</p>
+<h2>Moving Away from Mandatory Columns</h2>
+<p>As mentioned above, a new mandatory column in an API can break existing front-ends. If an existing front-end does not supply a column that is mandatory in the back-end database, the record either cannot be added to the database, or the record must be added with a default value. Default values negate the usefulness of mandatory columns because a default value doesn&#8217;t allow you to store whether or not the value was chosen, or just defaulted. So, a different approach is to avoid making mandatory columns at all. You might be thinking, but <em>how do we improve data quality</em>?</p>
+<p>Actually the answers are probably not as complicated as you think. Have a think about existing systems that you use all the time, <a href="https://www.facebook.com/">Facebook</a>, <a href="https://www.linkedin.com">LinkedIn</a>, <a href="https://github.com/">GitHub</a>, and so on. These systems usually don&#8217;t force you to fill in data. They give you the ability to fill in as much data as you can, and then encourage you to fill in more with reminders, and gentle nudges as you are using the systems. A good approach is to group up fields and when the user opens the record, and to display a button like &#8220;Improve Profile&#8221; that directs them to that group of fields. The user will be reminded to increase the quality of the record regularly, and perhaps be given warnings when data is missing.</p>
+<p>In scenarios where certain data is required by mandatory reporting purposes there are other steps that can be taken. For example, there may be a government regulation that says that no engagement can be made with a given customer unless your business has a record of their date of birth.  But, notice the business rule here. The business rule isn&#8217;t that &#8220;date of birth is mandatory&#8221;. The business rule is that &#8220;no engagement can be made with a given customer unless your business has a record of their date of birth&#8221;. So, the system rule would probably stop a user from scheduling an appointment until the date of birth is filled, in, but the original record should not be withheld from the system based on one piece of missing information.</p>
+<p>Record statuses like &#8220;Complete&#8221;, &#8220;Mostly Complete&#8221;, or green ticks to indicate completion  can also visually alert the user as to whether or not the data is complete. These calculations can also be used to report on the quality of data and are generally a good idea in most systems where data is critical. These measures can help to orient the systems towards producing higher quality data without stopping users dead in their tracks.</p>
+<h2>Conclusion</h2>
+<p>It is best to take a fresh approach to thinking about mandatory columns. Finding other ways to encourage users to fill in data instead of forcing them will allow back-ends to be upgraded without breaking front-ends, but this doesn&#8217;t need to lead to data integrity issues. Actually, it can make the user experience better, and encourage more data to be captured in the first place.</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+							<wfw:commentRss>https://christianfindlay.com/2019/03/30/api-versioning-mandatory-columns/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						
+		<media:thumbnail url="https://christianfindlay.files.wordpress.com/2019/03/arrows-box-business-533189.jpg" />
+		<media:content url="https://christianfindlay.files.wordpress.com/2019/03/arrows-box-business-533189.jpg" medium="image">
+			<media:title type="html">arrows-box-business-533189</media:title>
+		</media:content>
+
+		<media:content url="https://2.gravatar.com/avatar/50a3315844050db6770646c20f603bca?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">christianfindlay</media:title>
+		</media:content>
+	</item>
+	</channel>
+</rss>

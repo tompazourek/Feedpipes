@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WUG Česká republika - Záznamy</title>
+    <link>https://www.wug.cz</link>
+    <description>WUG (Windows User Group) je občanské sdružení. Jeho posláním je fyzicky sdružovat počítačové profesionály se zájmem o platformu Microsoft Windows, pořádat přednášky, odborné semináře, konference, vzdělávací akce a pravidelné meetingy (jednou měsíčně) pro své členy i širokou veřejnost.</description>
+    <language>cs</language>
+    <pubDate>Fri, 26 Jul 2019 16:18:43 GMT</pubDate>
+    <atom:link href="https://www.wug.cz" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SQL Server Bootcamp 2018: BI řešení pro ne BI lidi</title>
+      <link>https://www.wug.cz/zaznamy/480-SQL-Server-Bootcamp-2018-BI-reseni-pro-ne-BI-lidi</link>
+      <description></description>
+      <pubDate>Wed, 15 Aug 2018 07:00:00 GMT</pubDate>
+      <guid>https://www.wug.cz/zaznamy/480-SQL-Server-Bootcamp-2018-BI-reseni-pro-ne-BI-lidi</guid>
+      <category>WUG Brno</category>
+    </item>
+    <item>
+      <title>SQL Server Bootcamp 2018: Tipy a triky při vizualizacích v Power BI Desktop</title>
+      <link>https://www.wug.cz/zaznamy/481-SQL-Server-Bootcamp-2018-Tipy-a-triky-pri-vizualizacich-v-Power-BI-Desktop</link>
+      <description></description>
+      <pubDate>Wed, 15 Aug 2018 08:30:00 GMT</pubDate>
+      <guid>https://www.wug.cz/zaznamy/481-SQL-Server-Bootcamp-2018-Tipy-a-triky-pri-vizualizacich-v-Power-BI-Desktop</guid>
+      <category>WUG Brno</category>
+    </item>
+    <item>
+      <title>SQL Server Bootcamp 2018: Power BI Report Server DevOps guide</title>
+      <link>https://www.wug.cz/zaznamy/482-SQL-Server-Bootcamp-2018-Power-BI-Report-Server-DevOps-guide</link>
+      <description></description>
+      <pubDate>Wed, 15 Aug 2018 12:45:00 GMT</pubDate>
+      <guid>https://www.wug.cz/zaznamy/482-SQL-Server-Bootcamp-2018-Power-BI-Report-Server-DevOps-guide</guid>
+      <category>WUG Brno</category>
+    </item>
+    <item>
+      <title>SQL Server Bootcamp 2018: Power BI – Best Practices</title>
+      <link>https://www.wug.cz/zaznamy/483-SQL-Server-Bootcamp-2018-Power-BI-Best-Practices</link>
+      <description></description>
+      <pubDate>Wed, 15 Aug 2018 13:45:00 GMT</pubDate>
+      <guid>https://www.wug.cz/zaznamy/483-SQL-Server-Bootcamp-2018-Power-BI-Best-Practices</guid>
+      <category>WUG Brno</category>
+    </item>
+    <item>
+      <title>SQL Server Bootcamp 2018: Azure Cosmos DB</title>
+      <link>https://www.wug.cz/zaznamy/484-SQL-Server-Bootcamp-2018-Azure-Cosmos-DB</link>
+      <description></description>
+      <pubDate>Wed, 15 Aug 2018 15:15:00 GMT</pubDate>
+      <guid>https://www.wug.cz/zaznamy/484-SQL-Server-Bootcamp-2018-Azure-Cosmos-DB</guid>
+      <category>WUG Brno</category>
+    </item>
+    <item>
+      <title>SQL Server Bootcamp 2018: Otevřená data a Power BI</title>
+      <link>https://www.wug.cz/zaznamy/485-SQL-Server-Bootcamp-2018-Otevrena-data-a-Power-BI</link>
+      <description></description>
+      <pubDate>Wed, 15 Aug 2018 11:15:00 GMT</pubDate>
+      <guid>https://www.wug.cz/zaznamy/485-SQL-Server-Bootcamp-2018-Otevrena-data-a-Power-BI</guid>
+      <category>WUG Brno</category>
+    </item>
+    <item>
+      <title>SQL Server Bootcamp 2018: SQL Server Disaster Recovery</title>
+      <link>https://www.wug.cz/zaznamy/486-SQL-Server-Bootcamp-2018-SQL-Server-Disaster-Recovery</link>
+      <description></description>
+      <pubDate>Wed, 15 Aug 2018 07:00:00 GMT</pubDate>
+      <guid>https://www.wug.cz/zaznamy/486-SQL-Server-Bootcamp-2018-SQL-Server-Disaster-Recovery</guid>
+      <category>WUG Brno</category>
+    </item>
+    <item>
+      <title>SQL Server Bootcamp 2018: Microsoft SQL Server stojící, bdící</title>
+      <link>https://www.wug.cz/zaznamy/487-SQL-Server-Bootcamp-2018-Microsoft-SQL-Server-stojici-bdici</link>
+      <description></description>
+      <pubDate>Wed, 15 Aug 2018 08:30:00 GMT</pubDate>
+      <guid>https://www.wug.cz/zaznamy/487-SQL-Server-Bootcamp-2018-Microsoft-SQL-Server-stojici-bdici</guid>
+      <category>WUG Brno</category>
+    </item>
+    <item>
+      <title>SQL Server Bootcamp 2018: Jak načítat externí data do SQL Serveru</title>
+      <link>https://www.wug.cz/zaznamy/488-SQL-Server-Bootcamp-2018-Jak-nacitat-externi-data-do-SQL-Serveru</link>
+      <description></description>
+      <pubDate>Thu, 16 Aug 2018 07:00:00 GMT</pubDate>
+      <guid>https://www.wug.cz/zaznamy/488-SQL-Server-Bootcamp-2018-Jak-nacitat-externi-data-do-SQL-Serveru</guid>
+      <category>WUG Brno</category>
+    </item>
+    <item>
+      <title>SQL Server Bootcamp 2018: Upgrade SQL Serveru</title>
+      <link>https://www.wug.cz/zaznamy/489-SQL-Server-Bootcamp-2018-Upgrade-SQL-Serveru</link>
+      <description></description>
+      <pubDate>Thu, 16 Aug 2018 08:30:00 GMT</pubDate>
+      <guid>https://www.wug.cz/zaznamy/489-SQL-Server-Bootcamp-2018-Upgrade-SQL-Serveru</guid>
+      <category>WUG Brno</category>
+    </item>
+    <item>
+      <title>SQL Server Bootcamp 2018: Úvod do SQL Server Integration Services</title>
+      <link>https://www.wug.cz/zaznamy/490-SQL-Server-Bootcamp-2018-Uvod-do-SQL-Server-Integration-Services</link>
+      <description></description>
+      <pubDate>Thu, 16 Aug 2018 11:15:00 GMT</pubDate>
+      <guid>https://www.wug.cz/zaznamy/490-SQL-Server-Bootcamp-2018-Uvod-do-SQL-Server-Integration-Services</guid>
+      <category>WUG Brno</category>
+    </item>
+    <item>
+      <title>SQL Server Bootcamp 2018: Power BI – Import dat, živé připojení a kompozitní modely</title>
+      <link>https://www.wug.cz/zaznamy/491-SQL-Server-Bootcamp-2018-Power-BI-Import-dat-zive-pripojeni-a-kompozitni-modely</link>
+      <description></description>
+      <pubDate>Thu, 16 Aug 2018 12:45:00 GMT</pubDate>
+      <guid>https://www.wug.cz/zaznamy/491-SQL-Server-Bootcamp-2018-Power-BI-Import-dat-zive-pripojeni-a-kompozitni-modely</guid>
+      <category>WUG Brno</category>
+    </item>
+    <item>
+      <title>SQL Server Bootcamp 2018: Dynamický partitioning OLAP kostek s použitím SSIS</title>
+      <link>https://www.wug.cz/zaznamy/492-SQL-Server-Bootcamp-2018-Dynamicky-partitioning-OLAP-kostek-s-pouzitim-SSIS</link>
+      <description></description>
+      <pubDate>Thu, 16 Aug 2018 13:45:00 GMT</pubDate>
+      <guid>https://www.wug.cz/zaznamy/492-SQL-Server-Bootcamp-2018-Dynamicky-partitioning-OLAP-kostek-s-pouzitim-SSIS</guid>
+      <category>WUG Brno</category>
+    </item>
+    <item>
+      <title>SQL Server Bootcamp 2018: Možnosti sběru přírůstku dat v Microsoft SQL Serveru</title>
+      <link>https://www.wug.cz/zaznamy/493-SQL-Server-Bootcamp-2018-Moznosti-sberu-prirustku-dat-v-Microsoft-SQL-Serveru</link>
+      <description></description>
+      <pubDate>Thu, 16 Aug 2018 15:15:00 GMT</pubDate>
+      <guid>https://www.wug.cz/zaznamy/493-SQL-Server-Bootcamp-2018-Moznosti-sberu-prirustku-dat-v-Microsoft-SQL-Serveru</guid>
+      <category>WUG Brno</category>
+    </item>
+    <item>
+      <title>SQL Server Bootcamp 2018: Azure Data Lake</title>
+      <link>https://www.wug.cz/zaznamy/496-SQL-Server-Bootcamp-2018-Azure-Data-Lake</link>
+      <description></description>
+      <pubDate>Wed, 15 Aug 2018 12:45:00 GMT</pubDate>
+      <guid>https://www.wug.cz/zaznamy/496-SQL-Server-Bootcamp-2018-Azure-Data-Lake</guid>
+      <category>WUG Brno</category>
+    </item>
+    <item>
+      <title>SQL Server Bootcamp 2018: Microsoft SQL Server v cloudu</title>
+      <link>https://www.wug.cz/zaznamy/497-SQL-Server-Bootcamp-2018-Microsoft-SQL-Server-v-cloudu</link>
+      <description></description>
+      <pubDate>Wed, 15 Aug 2018 11:15:00 GMT</pubDate>
+      <guid>https://www.wug.cz/zaznamy/497-SQL-Server-Bootcamp-2018-Microsoft-SQL-Server-v-cloudu</guid>
+      <category>WUG Brno</category>
+    </item>
+    <item>
+      <title>SQL Server Bootcamp 2018: Resource Governor lessons learned</title>
+      <link>https://www.wug.cz/zaznamy/498-SQL-Server-Bootcamp-2018-Resource-Governor-lessons-learned</link>
+      <description></description>
+      <pubDate>Wed, 15 Aug 2018 15:15:00 GMT</pubDate>
+      <guid>https://www.wug.cz/zaznamy/498-SQL-Server-Bootcamp-2018-Resource-Governor-lessons-learned</guid>
+      <category>WUG Brno</category>
+    </item>
+    <item>
+      <title>SQL Server Bootcamp 2018: SQL Server 2017: Automatic tuning</title>
+      <link>https://www.wug.cz/zaznamy/501-SQL-Server-Bootcamp-2018-SQL-Server-2017-Automatic-tuning</link>
+      <description></description>
+      <pubDate>Thu, 16 Aug 2018 07:00:00 GMT</pubDate>
+      <guid>https://www.wug.cz/zaznamy/501-SQL-Server-Bootcamp-2018-SQL-Server-2017-Automatic-tuning</guid>
+      <category>WUG Brno</category>
+    </item>
+    <item>
+      <title>SQL Server Bootcamp 2018: Zpracovávejte velká data v SQL Serveru rychlostí blesku</title>
+      <link>https://www.wug.cz/zaznamy/503-SQL-Server-Bootcamp-2018-Zpracovavejte-velka-data-v-SQL-Serveru-rychlosti-blesku</link>
+      <description></description>
+      <pubDate>Thu, 16 Aug 2018 08:30:00 GMT</pubDate>
+      <guid>https://www.wug.cz/zaznamy/503-SQL-Server-Bootcamp-2018-Zpracovavejte-velka-data-v-SQL-Serveru-rychlosti-blesku</guid>
+      <category>WUG Brno</category>
+    </item>
+    <item>
+      <title>SQL Server Bootcamp 2018: SQL Server Replication Best Practices</title>
+      <link>https://www.wug.cz/zaznamy/504-SQL-Server-Bootcamp-2018-SQL-Server-Replication-Best-Practices</link>
+      <description></description>
+      <pubDate>Thu, 16 Aug 2018 12:45:00 GMT</pubDate>
+      <guid>https://www.wug.cz/zaznamy/504-SQL-Server-Bootcamp-2018-SQL-Server-Replication-Best-Practices</guid>
+      <category>WUG Brno</category>
+    </item>
+    <item>
+      <title>SQL Server Bootcamp 2018: SQL injection, jak ji možná neznáte</title>
+      <link>https://www.wug.cz/zaznamy/506-SQL-Server-Bootcamp-2018-SQL-injection-jak-ji-mozna-neznate</link>
+      <description></description>
+      <pubDate>Thu, 16 Aug 2018 15:15:00 GMT</pubDate>
+      <guid>https://www.wug.cz/zaznamy/506-SQL-Server-Bootcamp-2018-SQL-injection-jak-ji-mozna-neznate</guid>
+      <category>WUG Brno</category>
+    </item>
+    <item>
+      <title>GIT skrz naskrz </title>
+      <link>https://www.wug.cz/zaznamy/507-GIT-skrz-naskrz</link>
+      <description></description>
+      <pubDate>Thu, 02 Aug 2018 15:00:00 GMT</pubDate>
+      <guid>https://www.wug.cz/zaznamy/507-GIT-skrz-naskrz</guid>
+      <category>WUG Brno</category>
+    </item>
+    <item>
+      <title>React a Redux</title>
+      <link>https://www.wug.cz/zaznamy/508-React-a-Redux</link>
+      <description></description>
+      <pubDate>Thu, 02 Aug 2018 15:30:00 GMT</pubDate>
+      <guid>https://www.wug.cz/zaznamy/508-React-a-Redux</guid>
+      <category>WUG Praha</category>
+    </item>
+    <item>
+      <title>Microsoft Developer Days 2018: Převod aplikací do kontejnerů</title>
+      <link>https://www.wug.cz/zaznamy/509-Microsoft-Developer-Days-2018-Prevod-aplikaci-do-kontejneru</link>
+      <description></description>
+      <pubDate>Wed, 21 Nov 2018 12:00:00 GMT</pubDate>
+      <guid>https://www.wug.cz/zaznamy/509-Microsoft-Developer-Days-2018-Prevod-aplikaci-do-kontejneru</guid>
+      <category>WUG </category>
+    </item>
+    <item>
+      <title>Microsoft Developer Days 2018: Novinky v .NET, C#, Visual Studio a Azure DevOps</title>
+      <link>https://www.wug.cz/zaznamy/510-Microsoft-Developer-Days-2018-Novinky-v-NET-C-Visual-Studio-a-Azure-DevOps</link>
+      <description></description>
+      <pubDate>Wed, 21 Nov 2018 19:30:00 GMT</pubDate>
+      <guid>https://www.wug.cz/zaznamy/510-Microsoft-Developer-Days-2018-Novinky-v-NET-C-Visual-Studio-a-Azure-DevOps</guid>
+      <category>WUG </category>
+    </item>
+    <item>
+      <title>Microsoft Developer Days 2018: Azure a webové aplikace</title>
+      <link>https://www.wug.cz/zaznamy/511-Microsoft-Developer-Days-2018-Azure-a-webove-aplikace</link>
+      <description></description>
+      <pubDate>Fri, 23 Nov 2018 22:30:00 GMT</pubDate>
+      <guid>https://www.wug.cz/zaznamy/511-Microsoft-Developer-Days-2018-Azure-a-webove-aplikace</guid>
+      <category>WUG </category>
+    </item>
+    <item>
+      <title>Microsoft Developer Days 2018: Azure DevOps</title>
+      <link>https://www.wug.cz/zaznamy/512-Microsoft-Developer-Days-2018-Azure-DevOps</link>
+      <description></description>
+      <pubDate>Tue, 27 Nov 2018 19:00:00 GMT</pubDate>
+      <guid>https://www.wug.cz/zaznamy/512-Microsoft-Developer-Days-2018-Azure-DevOps</guid>
+      <category>WUG </category>
+    </item>
+    <item>
+      <title>Microsoft Developer Days 2018: Azure DevOps a GitHub při vývoji DotVVM</title>
+      <link>https://www.wug.cz/zaznamy/513-Microsoft-Developer-Days-2018-Azure-DevOps-a-GitHub-pri-vyvoji-DotVVM</link>
+      <description></description>
+      <pubDate>Fri, 21 Dec 2018 10:00:00 GMT</pubDate>
+      <guid>https://www.wug.cz/zaznamy/513-Microsoft-Developer-Days-2018-Azure-DevOps-a-GitHub-pri-vyvoji-DotVVM</guid>
+      <category>WUG </category>
+    </item>
+    <item>
+      <title>Nasazení Windows 10 pomocí WDS Windows 2016 Serveru</title>
+      <link>https://www.wug.cz/zaznamy/514-Nasazeni-Windows-10-pomoci-WDS-Windows-2016-Serveru</link>
+      <description></description>
+      <pubDate>Thu, 25 Oct 2018 16:00:00 GMT</pubDate>
+      <guid>https://www.wug.cz/zaznamy/514-Nasazeni-Windows-10-pomoci-WDS-Windows-2016-Serveru</guid>
+      <category>WUG Praha</category>
+    </item>
+    <item>
+      <title>Auditování událostí ve Windows</title>
+      <link>https://www.wug.cz/zaznamy/515-Auditovani-udalosti-ve-Windows</link>
+      <description></description>
+      <pubDate>Thu, 10 Jan 2019 16:00:00 GMT</pubDate>
+      <guid>https://www.wug.cz/zaznamy/515-Auditovani-udalosti-ve-Windows</guid>
+      <category>WUG Brno</category>
+    </item>
+    <item>
+      <title>Microsoft SQL Server na Linuxu</title>
+      <link>https://www.wug.cz/zaznamy/516-Microsoft-SQL-Server-na-Linuxu</link>
+      <description></description>
+      <pubDate>Tue, 25 Sep 2018 15:00:00 GMT</pubDate>
+      <guid>https://www.wug.cz/zaznamy/516-Microsoft-SQL-Server-na-Linuxu</guid>
+      <category>WUG Brno</category>
+    </item>
+    <item>
+      <title>XAML Standard (Xamarin.Forms, UWP a WPF)</title>
+      <link>https://www.wug.cz/zaznamy/517-XAML-Standard-Xamarin-Forms-UWP-a-WPF</link>
+      <description></description>
+      <pubDate>Thu, 15 Nov 2018 16:30:00 GMT</pubDate>
+      <guid>https://www.wug.cz/zaznamy/517-XAML-Standard-Xamarin-Forms-UWP-a-WPF</guid>
+      <category>WUG Praha</category>
+    </item>
+    <item>
+      <title>Co čekat ve světě .NETu v roce 2019</title>
+      <link>https://www.wug.cz/zaznamy/518-Co-cekat-ve-svete-NETu-v-roce-2019</link>
+      <description></description>
+      <pubDate>Tue, 15 Jan 2019 16:00:00 GMT</pubDate>
+      <guid>https://www.wug.cz/zaznamy/518-Co-cekat-ve-svete-NETu-v-roce-2019</guid>
+      <category>WUG Brno</category>
+    </item>
+    <item>
+      <title>.NET Tooling Deep Dive: MSBuild &amp; NuGet</title>
+      <link>https://www.wug.cz/zaznamy/519--NET-Tooling-Deep-Dive-MSBuild-NuGet</link>
+      <description></description>
+      <pubDate>Tue, 30 Apr 2019 15:00:00 GMT</pubDate>
+      <guid>https://www.wug.cz/zaznamy/519--NET-Tooling-Deep-Dive-MSBuild-NuGet</guid>
+      <category>WUG Brno</category>
+    </item>
+    <item>
+      <title>Offline útoky na Active Directory (a obrana proti nim)</title>
+      <link>https://www.wug.cz/zaznamy/520-Offline-utoky-na-Active-Directory-a-obrana-proti-nim</link>
+      <description></description>
+      <pubDate>Tue, 29 Jan 2019 16:00:00 GMT</pubDate>
+      <guid>https://www.wug.cz/zaznamy/520-Offline-utoky-na-Active-Directory-a-obrana-proti-nim</guid>
+      <category>WUG Brno</category>
+    </item>
+    <item>
+      <title>.NET Core Summer event: War stories from .NET team</title>
+      <link>https://www.wug.cz/zaznamy/521--NET-Core-Summer-event-War-stories-from-NET-team</link>
+      <description></description>
+      <pubDate>Tue, 09 Jul 2019 15:00:00 GMT</pubDate>
+      <guid>https://www.wug.cz/zaznamy/521--NET-Core-Summer-event-War-stories-from-NET-team</guid>
+      <category>WUG Brno</category>
+    </item>
+    <item>
+      <title>.NET Core Summer event: .NET Core Networking stack evolution to high-performance</title>
+      <link>https://www.wug.cz/zaznamy/522--NET-Core-Summer-event-NET-Core-Networking-stack-evolution-to-high-performance</link>
+      <description></description>
+      <pubDate>Tue, 09 Jul 2019 15:00:00 GMT</pubDate>
+      <guid>https://www.wug.cz/zaznamy/522--NET-Core-Summer-event-NET-Core-Networking-stack-evolution-to-high-performance</guid>
+      <category>WUG Brno</category>
+    </item>
+    <item>
+      <title>.NET Core Summer event: Async demystified</title>
+      <link>https://www.wug.cz/zaznamy/523--NET-Core-Summer-event-Async-demystified</link>
+      <description></description>
+      <pubDate>Tue, 09 Jul 2019 15:00:00 GMT</pubDate>
+      <guid>https://www.wug.cz/zaznamy/523--NET-Core-Summer-event-Async-demystified</guid>
+      <category>WUG Brno</category>
+    </item>
+    <item>
+      <title>Blazor a novinky v ASP.NET Core 3.0</title>
+      <link>https://www.wug.cz/zaznamy/524-Blazor-a-novinky-v-ASP-NET-Core-3-0</link>
+      <description></description>
+      <pubDate>Wed, 19 Jun 2019 15:00:00 GMT</pubDate>
+      <guid>https://www.wug.cz/zaznamy/524-Blazor-a-novinky-v-ASP-NET-Core-3-0</guid>
+      <category>WUG Brno</category>
+    </item>
+  </channel>
+</rss>

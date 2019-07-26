@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:cc="http://cyber.law.harvard.edu/rss/creativeCommonsRssModule.html">
+    <channel>
+        <title><![CDATA[Stories by Brian Lonsdorf on Medium]]></title>
+        <description><![CDATA[Stories by Brian Lonsdorf on Medium]]></description>
+        <link>https://medium.com/@drboolean?source=rss-a3129fead82b------2</link>
+        <image>
+            <url>https://cdn-images-1.medium.com/fit/c/150/150/0*ha7W0K2pqWz5uiws.jpg</url>
+            <title>Stories by Brian Lonsdorf on Medium</title>
+            <link>https://medium.com/@drboolean?source=rss-a3129fead82b------2</link>
+        </image>
+        <generator>Medium</generator>
+        <lastBuildDate>Fri, 26 Jul 2019 16:07:35 GMT</lastBuildDate>
+        <atom:link href="https://medium.com/feed/@drboolean" rel="self" type="application/rss+xml"/>
+        <webMaster><![CDATA[yourfriends@medium.com]]></webMaster>
+        <atom:link href="http://medium.superfeedr.com" rel="hub"/>
+        <item>
+            <title><![CDATA[Robot Show: Interview with Jessitron]]></title>
+            <link>https://medium.com/@drboolean/robot-show-interview-with-jessitron-a03aa62ac156?source=rss-a3129fead82b------2</link>
+            <guid isPermaLink="false">https://medium.com/p/a03aa62ac156</guid>
+            <category><![CDATA[functional-programming]]></category>
+            <category><![CDATA[javascript]]></category>
+            <category><![CDATA[promises]]></category>
+            <category><![CDATA[code]]></category>
+            <dc:creator><![CDATA[Brian Lonsdorf]]></dc:creator>
+            <pubDate>Mon, 05 Feb 2018 20:57:53 GMT</pubDate>
+            <atom:updated>2018-02-05T20:57:53.801Z</atom:updated>
+            <content:encoded><![CDATA[<iframe src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FGuCm1f4We7E%3Ffeature%3Doembed&amp;url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DGuCm1f4We7E&amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FGuCm1f4We7E%2Fhqdefault.jpg&amp;key=a19fcc184b9711e1b4764040d3dc5c07&amp;type=text%2Fhtml&amp;schema=youtube" width="640" height="480" frameborder="0" scrolling="no"><a href="https://medium.com/media/ad9f82460307e263eee656955e8602e6/href">https://medium.com/media/ad9f82460307e263eee656955e8602e6/href</a></iframe><img src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=a03aa62ac156" width="1" height="1">]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Robot show pilot]]></title>
+            <link>https://medium.com/@drboolean/robot-show-pilot-aa2e935a9500?source=rss-a3129fead82b------2</link>
+            <guid isPermaLink="false">https://medium.com/p/aa2e935a9500</guid>
+            <dc:creator><![CDATA[Brian Lonsdorf]]></dc:creator>
+            <pubDate>Sat, 23 Dec 2017 20:41:10 GMT</pubDate>
+            <atom:updated>2017-12-23T20:41:46.908Z</atom:updated>
+            <content:encoded><![CDATA[<iframe src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2Fo3lTE9SKyi8%3Ffeature%3Doembed&amp;url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Do3lTE9SKyi8&amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fo3lTE9SKyi8%2Fhqdefault.jpg&amp;key=a19fcc184b9711e1b4764040d3dc5c07&amp;type=text%2Fhtml&amp;schema=youtube" width="854" height="480" frameborder="0" scrolling="no"><a href="https://medium.com/media/4cb6aad7f0f007afd76d51912c0d6b80/href">https://medium.com/media/4cb6aad7f0f007afd76d51912c0d6b80/href</a></iframe><img src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=aa2e935a9500" width="1" height="1">]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Hey Steve!]]></title>
+            <link>https://medium.com/@drboolean/hey-steve-5df53599d68?source=rss-a3129fead82b------2</link>
+            <guid isPermaLink="false">https://medium.com/p/5df53599d68</guid>
+            <dc:creator><![CDATA[Brian Lonsdorf]]></dc:creator>
+            <pubDate>Mon, 14 Aug 2017 23:13:37 GMT</pubDate>
+            <atom:updated>2017-08-14T23:13:37.284Z</atom:updated>
+            <content:encoded><![CDATA[<p>Hey Steve!</p><p>I haven’t seen that definition. I usually see something more like</p><pre><em>∃x</em>((x -&gt; a), F x) ≅ F a</pre><p>Which is isomorphic anyways.</p><p>So yes, id would easily satisfy that making x the same type as a. No assumptions necessary.</p><p>It is definitely covariant though:</p><p>Starting on the right side, I canmap a -&gt; b on my Fa to get an Fb. I can similarly compose the function x -&gt; a with a -&gt; b and feed it the x from my Fx giving me an Fb.</p><p>The power in the type is simply that we can be lazy about the mapping using composition. That delays the need for map, allowing me a chance to do a natural transformation or deconstruct the type manually.</p><img src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=5df53599d68" width="1" height="1">]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Laziness with Representable Functors]]></title>
+            <link>https://medium.com/@drboolean/laziness-with-representable-functors-9bd506eae83f?source=rss-a3129fead82b------2</link>
+            <guid isPermaLink="false">https://medium.com/p/9bd506eae83f</guid>
+            <category><![CDATA[functional-programming]]></category>
+            <category><![CDATA[javascript]]></category>
+            <category><![CDATA[functor]]></category>
+            <category><![CDATA[reader-monad]]></category>
+            <category><![CDATA[representable]]></category>
+            <dc:creator><![CDATA[Brian Lonsdorf]]></dc:creator>
+            <pubDate>Thu, 20 Jul 2017 22:01:15 GMT</pubDate>
+            <atom:updated>2017-07-21T02:15:11.919Z</atom:updated>
+            <content:encoded><![CDATA[<p>Recommended listening during read: <a href="https://open.spotify.com/track/1vBb916w3u10h8U87QJ1GN">https://open.spotify.com/track/1vBb916w3u10h8U87QJ1GN</a></p><figure><img alt="" src="https://cdn-images-1.medium.com/max/194/1*FTPBYhBuEG-yyLqsxMfesQ.jpeg" /></figure><h4>Tl;dr</h4><p>We can convert any indexable data structure into its function form to achieve laziness. Formally, there’s an isomorphism from any Representable Functor to Reader. Gist is here: <a href="https://gist.github.com/DrBoolean/9b951c1c2cb225be9c289b0a2239132f">https://gist.github.com/DrBoolean/9b951c1c2cb225be9c289b0a2239132f</a></p><h4>Prereq</h4><p>I boldly use words like curry (functions that take 1 arg at a time), isomorphism (a lossless transformation to/from), and functor (a type with a map method)</p><figure><img alt="" src="https://cdn-images-1.medium.com/max/152/1*ulBP-PZzFNE_N3kuWJ1UNQ.jpeg" /></figure><h3>Eager Beavers</h3><p>At work we have a data structure called UI that describes our design system.</p><p>It looks like this:</p><iframe src="" width="0" height="0" frameborder="0" scrolling="no"><a href="https://medium.com/media/cc263cb860cb68ab65afda6d2ac028fa/href">https://medium.com/media/cc263cb860cb68ab65afda6d2ac028fa/href</a></iframe><p>We have tooling, a documentation site, tests, etc, that all expect this structure.</p><p>Here’s sort of how we build/use it:</p><iframe src="" width="0" height="0" frameborder="0" scrolling="no"><a href="https://medium.com/media/ffc754270b4c35b094b307c74563b48b/href">https://medium.com/media/ffc754270b4c35b094b307c74563b48b/href</a></iframe><p>At the end of the day, we want the whole thing, but while developing with hot reload and all, we don’t want to take the time to make every component on every change since it’s pretty expensive.</p><p>Turns out a “sparse” version with the component we’re working on filled out would suffice:</p><iframe src="" width="0" height="0" frameborder="0" scrolling="no"><a href="https://medium.com/media/53a4e09d4190b7ff1eb7f380f9d4e038/href">https://medium.com/media/53a4e09d4190b7ff1eb7f380f9d4e038/href</a></iframe><p>Ya know, something that can be lazily generated as we go along.</p><figure><img alt="" src="https://cdn-images-1.medium.com/max/170/1*8rQCkSdP-C8PfcrQPBlbRA.jpeg" /></figure><h3>REPRESENTABLE</h3><p>A functor is dubbed Representable if it isomorphic to Function.</p><p>This tends to be the case when we have a fixed number of “slots” in our functor and we can represent it with some other type as an index. To do so, we just need an isomorphism and some other type with which to index.</p><p>Lets see a few quick examples.</p><p><em>Id</em> can be represented by <em>undefined</em> since it has 1 slot and <em>undefined</em> has 1 instance</p><iframe src="" width="0" height="0" frameborder="0" scrolling="no"><a href="https://medium.com/media/5e4532a1dd46dd5378393996784bf244/href">https://medium.com/media/5e4532a1dd46dd5378393996784bf244/href</a></iframe><p>See the symmetry in those type signatures of <em>to/from</em> there? In <em>to</em> we simply capture the data structure in a closure via currying and return a function that gives us the value. Going the other way, <em>from</em> just calls that function to give us back <em>Id</em><strong><em>.</em></strong></p><p><em>Pair</em> can be represented by <em>Boolean</em> since it has 2 slots and <em>Boolean</em> has 2 instances:</p><iframe src="" width="0" height="0" frameborder="0" scrolling="no"><a href="https://medium.com/media/625b645e87ae77b34a1d89977ae8ec60/href">https://medium.com/media/625b645e87ae77b34a1d89977ae8ec60/href</a></iframe><p>We could also choose any other type with 2 instances — it doesn’t have to be <em>Boolean </em>(though I’m partial).</p><p>So we can turn our functor into a function and back. Neat!</p><p>If you think about it, feeding a function some input to get a value is the same thing as feeding a data structure some index to get a value. So we can convert from a data structure that can be indexed, to a function which takes an index to a value.</p><p>This only works on types that don’t change shape and have a fixed number of slots.</p><p>Well that sounds perfect for our <em>UI</em> issue — instead of a full eager data structure, we can convert it to a lazy function that gets us components on demand.</p><figure><img alt="" src="https://cdn-images-1.medium.com/max/247/1*7Zd1zJRd7ggyRT_Jej7dqA.jpeg" /></figure><h3>Represent!</h3><p><em>UI</em> is already a functor since <em>Map</em> has a <em>map </em>method via Immutable.js.<br>Let’s make <em>UI</em> a representable functor by adding an index type and isomorphism:</p><iframe src="" width="0" height="0" frameborder="0" scrolling="no"><a href="https://medium.com/media/80d5b7bf0c7a5f7bc4b658f2e6933d74/href">https://medium.com/media/80d5b7bf0c7a5f7bc4b658f2e6933d74/href</a></iframe><p>For the index type we used the list of <em>Components</em> since we know the keys line up with the values in our <em>UI</em> (cause that’s how we build it). Formally, we’d say we <em>UI</em> is “represented by” <em>Components</em>. This is cheating a bit. Usually, you’d see a sum type like <em>Components = Alert | Button | DataTable </em>I’m fine with this morally, since we can’t be that much more type safe in plain JS anyways.</p><p>So that’s our index type. Next we defined our isomorphism (the <em>to/from</em> part).</p><p>The<em> </em><em>from</em> :: <em>(Component -&gt; a) -&gt; UI </em>function basically says “given a function from <em>Component</em> to some <em>a, </em>I’ll build up the whole <em>UI</em> structure”. We just use that same <em>reduce</em> we used to build <em>UI </em>earlier except this time, we pass the index to the provided function so we can set the value to whatever.</p><p>Now for the other way, <em>to :: UI -&gt; (Component -&gt; a).</em> Which says, given a <em>UI</em>, I can return you an index function. Currying for the win!</p><h4>Takin’ it for a spin</h4><p>Let’s change this old version:</p><iframe src="" width="0" height="0" frameborder="0" scrolling="no"><a href="https://medium.com/media/5a89d1131296e545a35f89d1888333b2/href">https://medium.com/media/5a89d1131296e545a35f89d1888333b2/href</a></iframe><p>To this:</p><iframe src="" width="0" height="0" frameborder="0" scrolling="no"><a href="https://medium.com/media/eb629514d94f040ea42dcbdb45175d77/href">https://medium.com/media/eb629514d94f040ea42dcbdb45175d77/href</a></iframe><p>Comparing these two, we only have to change the beginning and end bits. <em>from</em> will build up the whole <em>UI</em> structure from a function — here we just use the identity function <em>x =&gt; x</em> to recover what we had. Then we call <em>to(empty)</em> and <em>map</em> away. Note, we’re not mapping over our Immutable.Map anymore, we’re mapping over our function!</p><p>Wait, Function doesn’t have a functor instance in JS… Never fear though, we can use one more isomorphism.</p><figure><img alt="" src="https://cdn-images-1.medium.com/max/157/1*GsgGdNjiJg_O53HUhv4DOg.jpeg" /></figure><h3>Reader Monad</h3><p>The default <em>map</em> behavior for a function is simply composition. I’ve written about it before:</p><p><a href="https://medium.com/@drboolean/monoidal-contravariant-functors-are-actually-useful-1032211045c4">Monoidal Contravariant Functors are actually useful!</a></p><p>Instead of altering <em>Function.prototype</em>, we can add a wrapper we call <em>Reader</em>.</p><p>Here’s a quick implementation:</p><iframe src="" width="0" height="0" frameborder="0" scrolling="no"><a href="https://medium.com/media/05f799205e19333016e7814333888cda/href">https://medium.com/media/05f799205e19333016e7814333888cda/href</a></iframe><p>It simply swallows up our function so we can decorate with <em>map </em>and <em>chain </em>and stuff.</p><p>Okay now we’re all set:</p><iframe src="" width="0" height="0" frameborder="0" scrolling="no"><a href="https://medium.com/media/131c90089ca1011bae5d9dd1f1a3ec55/href">https://medium.com/media/131c90089ca1011bae5d9dd1f1a3ec55/href</a></iframe><p>Great! We didn’t have to do anything except throw a <em>Reader</em> around it and call <em>run</em>. Problem solved!</p><h3>Extra things to Know</h3><ul><li>Representable works on types with fixed or infinite slots, but not varying shapes or sum types in general.</li><li>Every Representable functor is distributive (like traversable) and a monad/comonad due to it being isomorphic to Reader</li><li>Sum types typically index into Product types. For further reading checkout functor Pairings and Adjunctions</li></ul><p>Full, running code is posted here: <a href="https://gist.github.com/DrBoolean/9b951c1c2cb225be9c289b0a2239132f">https://gist.github.com/DrBoolean/9b951c1c2cb225be9c289b0a2239132f</a></p><p>This was inspired by Chris Penner’s recent work. Checkout his blog <a href="http://chrispenner.ca/">http://chrispenner.ca/</a></p><p>*Artwork by Garth Jones <a href="https://www.behance.net/gallery/30375121/Sketchbook-2015">https://www.behance.net/gallery/30375121/Sketchbook-2015</a></p><img src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=9bd506eae83f" width="1" height="1">]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[All lens buys you is a composable, law-abiding interface to code against.]]></title>
+            <link>https://medium.com/@drboolean/all-lens-buys-you-is-a-composable-law-abiding-interface-to-code-against-d9c529bf19c5?source=rss-a3129fead82b------2</link>
+            <guid isPermaLink="false">https://medium.com/p/d9c529bf19c5</guid>
+            <dc:creator><![CDATA[Brian Lonsdorf]]></dc:creator>
+            <pubDate>Wed, 19 Jul 2017 18:44:13 GMT</pubDate>
+            <atom:updated>2017-07-19T18:44:13.315Z</atom:updated>
+            <content:encoded><![CDATA[<p>All lens buys you is a composable, law-abiding interface to code against.</p><p>Above does the same stuff for sure, but to a specific implementation .</p><p>So using lenses, any getter/setter/traversal can be done generically and nest as deep as you’d like within a data structure.</p><p>Using immutable is tangential, but i dig the library</p><img src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=d9c529bf19c5" width="1" height="1">]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Here ya go https://gist.github.com/DrBoolean/1c9dc38e14e0499f29b4b1aac4f76bd9]]></title>
+            <link>https://medium.com/@drboolean/here-ya-go-https-gist-github-com-drboolean-1c9dc38e14e0499f29b4b1aac4f76bd9-3f23347b2be7?source=rss-a3129fead82b------2</link>
+            <guid isPermaLink="false">https://medium.com/p/3f23347b2be7</guid>
+            <dc:creator><![CDATA[Brian Lonsdorf]]></dc:creator>
+            <pubDate>Thu, 19 Jan 2017 21:53:33 GMT</pubDate>
+            <atom:updated>2017-01-19T21:53:33.385Z</atom:updated>
+            <content:encoded><![CDATA[<p>Here ya go <a href="https://gist.github.com/DrBoolean/1c9dc38e14e0499f29b4b1aac4f76bd9">https://gist.github.com/DrBoolean/1c9dc38e14e0499f29b4b1aac4f76bd9</a></p><img src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=3f23347b2be7" width="1" height="1">]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Yep! And exactly the same as a redux reducer.]]></title>
+            <link>https://medium.com/@drboolean/yep-and-exactly-the-same-as-a-redux-reducer-90c90d22a904?source=rss-a3129fead82b------2</link>
+            <guid isPermaLink="false">https://medium.com/p/90c90d22a904</guid>
+            <dc:creator><![CDATA[Brian Lonsdorf]]></dc:creator>
+            <pubDate>Sun, 08 Jan 2017 01:02:59 GMT</pubDate>
+            <atom:updated>2017-01-08T01:02:59.488Z</atom:updated>
+            <content:encoded><![CDATA[<p>Yep! And exactly the same as a redux reducer. We are folding down a structure recursively to its fixed point. What differs from an algebra here is that we return a monad in our response so it’s actually a natural transformation from F a ~&gt; G a instead of F a -&gt; a</p><img src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=90c90d22a904" width="1" height="1">]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Hi! Just chiming in to say that you are totally right that Maybe() from the Frisby book is not a…]]></title>
+            <link>https://medium.com/@drboolean/hi-just-chiming-in-to-say-that-you-are-totally-right-that-maybe-from-the-frisby-book-is-not-a-b7b074cdf4cc?source=rss-a3129fead82b------2</link>
+            <guid isPermaLink="false">https://medium.com/p/b7b074cdf4cc</guid>
+            <dc:creator><![CDATA[Brian Lonsdorf]]></dc:creator>
+            <pubDate>Wed, 14 Dec 2016 02:38:06 GMT</pubDate>
+            <atom:updated>2016-12-14T02:38:06.048Z</atom:updated>
+            <content:encoded><![CDATA[<p>Hi! Just chiming in to say that you are totally right that Maybe() from the Frisby book is not a true functor — there’s a note in the text since I like to keep it simple to teach.</p><p>However, the Haskell version is indeed a functor (and useful) since it breaks the type into two: Just/Nothing.</p><p>Thanks for the great post!</p><img src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=b7b074cdf4cc" width="1" height="1">]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Also, you’ll find the definition here holds for every other functional language with the same…]]></title>
+            <link>https://medium.com/@drboolean/also-youll-find-the-definition-here-holds-for-every-other-functional-language-with-the-same-d2a961f6cc66?source=rss-a3129fead82b------2</link>
+            <guid isPermaLink="false">https://medium.com/p/d2a961f6cc66</guid>
+            <dc:creator><![CDATA[Brian Lonsdorf]]></dc:creator>
+            <pubDate>Wed, 16 Nov 2016 19:57:43 GMT</pubDate>
+            <atom:updated>2016-11-16T19:57:43.375Z</atom:updated>
+            <content:encoded><![CDATA[<p>Also, you’ll find the definition here holds for every other functional language with the same concept from scala to f# to haskell to swift.</p><img src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=d2a961f6cc66" width="1" height="1">]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[FPSFDC in the house ;)]]></title>
+            <link>https://medium.com/@drboolean/fpsfdc-in-the-house-a8cd4f616a7b?source=rss-a3129fead82b------2</link>
+            <guid isPermaLink="false">https://medium.com/p/a8cd4f616a7b</guid>
+            <dc:creator><![CDATA[Brian Lonsdorf]]></dc:creator>
+            <pubDate>Mon, 14 Nov 2016 20:38:53 GMT</pubDate>
+            <atom:updated>2016-11-14T20:38:53.479Z</atom:updated>
+            <content:encoded><![CDATA[<p>FPSFDC in the house ;)</p><img src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=a8cd4f616a7b" width="1" height="1">]]></content:encoded>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://blog.getbootstrap.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.getbootstrap.com/" rel="alternate" type="text/html" /><updated>2019-07-20T10:34:30+00:00</updated><id>https://blog.getbootstrap.com/feed.xml</id><title type="html">Bootstrap Blog</title><subtitle>Official blog for the Bootstrap framework.</subtitle><author><name>{&quot;twitter&quot;=&gt;&quot;getbootstrap&quot;}</name></author><entry><title type="html">Bootstrap 3.4.1 and 4.3.1</title><link href="https://blog.getbootstrap.com/2019/02/13/bootstrap-4-3-1-and-3-4-1/" rel="alternate" type="text/html" title="Bootstrap 3.4.1 and 4.3.1" /><published>2019-02-13T00:00:00+00:00</published><updated>2019-02-13T00:00:00+00:00</updated><id>https://blog.getbootstrap.com/2019/02/13/bootstrap-4-3-1-and-3-4-1</id><content type="html" xml:base="https://blog.getbootstrap.com/2019/02/13/bootstrap-4-3-1-and-3-4-1/">&lt;p&gt;Today we’re shipping &lt;a href=&quot;https://github.com/twbs/bootstrap/releases/tag/v4.3.1&quot;&gt;Bootstrap v4.3.1&lt;/a&gt; and &lt;a href=&quot;https://github.com/twbs/bootstrap/releases/tag/v3.4.1&quot;&gt;v3.4.1&lt;/a&gt; to patch an XSS vulnerability, CVE-2019-8331. Also included in v4.3.1 is a small fix to some RFS (responsive font sizes) mixins that were added in v4.3.0.&lt;/p&gt;
+
+&lt;p&gt;Earlier this week a developer reported an XSS issue similar to the &lt;code class=&quot;highlighter-rouge&quot;&gt;data-target&lt;/code&gt; vulnerability that was fixed in v4.1.2 and v3.4.0: the &lt;code class=&quot;highlighter-rouge&quot;&gt;data-template&lt;/code&gt; attribute for our tooltip and popover plugins lacked proper XSS sanitization of the HTML that can be passed into the attribute’s value.&lt;/p&gt;
+
+&lt;p&gt;To resolve the issue, we’ve implemented a new JavaScript sanitizer to only allow whitelisted HTML elements in data attribute. You may modify our sanitization implementation to customize the HTML element whitelist, totally disable the sanitization, or pass your own sanitize function (useful if you use your own library). However, for added protection, there is no way to modify the sanitization via data attributes—you must modify these plugin options via the JavaScript API.&lt;/p&gt;
+
+&lt;p&gt;Those who have modified the default templates, please &lt;a href=&quot;https://getbootstrap.com/docs/4.3/getting-started/javascript/#sanitizer&quot;&gt;read the new v4.3 sanitizer docs&lt;/a&gt; or the &lt;a href=&quot;https://getbootstrap.com/docs/3.4/javascript/#js-sanitizer&quot;&gt;new v3.4 sanitizer docs&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In light of this vulnerability, we’re also auditing our security reporting workflows to ensure they’re up to date. This will include steps like adding a &lt;code class=&quot;highlighter-rouge&quot;&gt;SECURITY.md&lt;/code&gt; file to our repository and ensuring our private channels and processes are up to date and documented with the team.&lt;/p&gt;
+
+&lt;p&gt;Thank you to &lt;a href=&quot;https://www.drupal.org/u/poiu&quot;&gt;poiu&lt;/a&gt; for reporting the vulnerability to the &lt;a href=&quot;https://www.drupal.org/project/bootstrap&quot;&gt;Bootstrap Drupal project&lt;/a&gt; and &lt;a href=&quot;https://www.drupal.org/u/markcarver&quot;&gt;Mark Carver&lt;/a&gt; from the &lt;a href=&quot;https://www.drupal.org/project/bootstrap&quot;&gt;Bootstrap Drupal project&lt;/a&gt; for responsibly disclosing the issue to us. Also a massive thank you to &lt;a href=&quot;https://github.com/johann-s&quot;&gt;@Johann-S&lt;/a&gt;, &lt;a href=&quot;https://github.com/xhmikosr&quot;&gt;@Xhmikosr&lt;/a&gt;, and &lt;a href=&quot;https://github.com/bardiharborow&quot;&gt;@bardiharborow&lt;/a&gt; on our team for the fast turnaround on today’s releases.&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;3,&lt;br /&gt;
+&lt;a href=&quot;https://twitter.com/mdo&quot;&gt;@mdo&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://github.com/twbs&quot;&gt;team&lt;/a&gt;&lt;/p&gt;</content><author><name>{&quot;twitter&quot;=&gt;&quot;getbootstrap&quot;}</name></author><summary type="html">Today we’re shipping Bootstrap v4.3.1 and v3.4.1 to patch an XSS vulnerability, CVE-2019-8331. Also included in v4.3.1 is a small fix to some RFS (responsive font sizes) mixins that were added in v4.3.0.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.getbootstrap.com/assets/img/bootstrap-social.png" /></entry><entry><title type="html">Bootstrap 4.3.0</title><link href="https://blog.getbootstrap.com/2019/02/11/bootstrap-4-3-0/" rel="alternate" type="text/html" title="Bootstrap 4.3.0" /><published>2019-02-11T00:00:00+00:00</published><updated>2019-02-11T00:00:00+00:00</updated><id>https://blog.getbootstrap.com/2019/02/11/bootstrap-4-3-0</id><content type="html" xml:base="https://blog.getbootstrap.com/2019/02/11/bootstrap-4-3-0/">&lt;p&gt;Bootstrap v4.3 has landed with over 120 combined closed issues and merged pull requests. This release brings improvements to our utilities, some prep work for moving on to v5’s development, and the standard bug fixes and documentation updates.&lt;/p&gt;
+
+&lt;p&gt;During our last release, we shared a small preview of where we’re taking the project next. That’s getting clearer in the coming weeks as our attention turns towards embracing Hugo for ultra fast docs development, removing jQuery in favor of regular JavaScript, and addressing our growing code base.&lt;/p&gt;
+
+&lt;p&gt;Keep reading for v4.3 highlights, and see you soon with more details on v5!&lt;/p&gt;
+
+&lt;h2 id=&quot;highlights&quot;&gt;Highlights&lt;/h2&gt;
+
+&lt;p&gt;We’ve added some new utilities and deprecated some unused code. Here are the key changes in v4.3, broken down by new, improved, fixed, and deprecated.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;New:&lt;/strong&gt; Added &lt;code class=&quot;highlighter-rouge&quot;&gt;.stretched-link&lt;/code&gt; utility to make any anchor the size of it’s nearest &lt;code class=&quot;highlighter-rouge&quot;&gt;position: relative&lt;/code&gt; parent, perfect for entirely clickable cards!&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;New:&lt;/strong&gt; Added &lt;code class=&quot;highlighter-rouge&quot;&gt;.text-break&lt;/code&gt; utility for applying &lt;code class=&quot;highlighter-rouge&quot;&gt;word-break: break-word&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;New:&lt;/strong&gt; Added &lt;code class=&quot;highlighter-rouge&quot;&gt;.rounded-sm&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;.rounded-lg&lt;/code&gt; for small and large &lt;code class=&quot;highlighter-rouge&quot;&gt;border-radius&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;New:&lt;/strong&gt; Added &lt;code class=&quot;highlighter-rouge&quot;&gt;.modal-dialog-scrollable&lt;/code&gt; modifier class for scrolling content &lt;em&gt;within&lt;/em&gt; a modal.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;New:&lt;/strong&gt; Added responsive &lt;code class=&quot;highlighter-rouge&quot;&gt;.list-group-horizontal&lt;/code&gt; modifier classes for displaying list groups as a horizontal row.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Improved:&lt;/strong&gt; Reduced our compiled CSS by using &lt;code class=&quot;highlighter-rouge&quot;&gt;null&lt;/code&gt; for variables that by default inherit their values from other elements (e.g., &lt;code class=&quot;highlighter-rouge&quot;&gt;$headings-color&lt;/code&gt; was &lt;code class=&quot;highlighter-rouge&quot;&gt;inherit&lt;/code&gt; and is now &lt;code class=&quot;highlighter-rouge&quot;&gt;null&lt;/code&gt; until you modifier it in your custom CSS).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Improved:&lt;/strong&gt; Badge focus styles now match their &lt;code class=&quot;highlighter-rouge&quot;&gt;background-color&lt;/code&gt; like our buttons.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Fixed:&lt;/strong&gt; Silenced bad selectors in our JS plugins for the &lt;code class=&quot;highlighter-rouge&quot;&gt;href&lt;/code&gt; HTML attribute to avoid JavaScript errors. Please try to use &lt;a href=&quot;https://www.w3.org/TR/CSS21/syndata.html#value-def-identifier&quot;&gt;valid selectors&lt;/a&gt; or the &lt;code class=&quot;highlighter-rouge&quot;&gt;data-target&lt;/code&gt; HTML attribute/&lt;code class=&quot;highlighter-rouge&quot;&gt;target&lt;/code&gt; option where available.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Fixed:&lt;/strong&gt; Reverted v4.2.1’s change to the breakpoint and grid container Sass maps that blocked folks from upgrading when modifying those default variables.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Fixed:&lt;/strong&gt; Restored &lt;code class=&quot;highlighter-rouge&quot;&gt;white-space: nowrap&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;.dropdown-toggle&lt;/code&gt; (before v4.2.1 it was on all &lt;code class=&quot;highlighter-rouge&quot;&gt;.btn&lt;/code&gt;s) so carets don’t wrap to new lines.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Deprecated:&lt;/strong&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;img-retina&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;invisible&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;float&lt;/code&gt;, and &lt;code class=&quot;highlighter-rouge&quot;&gt;size&lt;/code&gt; mixins are now deprecated and will be removed in v5.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Checkout the full &lt;a href=&quot;https://github.com/twbs/bootstrap/issues/27893&quot;&gt;v4.3.0 ship list&lt;/a&gt; and &lt;a href=&quot;https://github.com/twbs/bootstrap/projects/16&quot;&gt;GitHub project&lt;/a&gt; for the full details.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://getbootstrap.com/docs/4.3/&quot;&gt;Head to to the v4.3.x docs&lt;/a&gt; to see the latest in action. The full release has been published to npm and will soon appear on the Bootstrap CDN and Rubygems.&lt;/p&gt;
+
+&lt;h2 id=&quot;introducing-responsive-font-sizes&quot;&gt;Introducing responsive font sizes&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/2019/02/rfs.png&quot; alt=&quot;Responsive font-sizes&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Our biggest new addition to Bootstrap in v4.3 is responsive font sizes, a &lt;a href=&quot;https://github.com/twbs/rfs&quot;&gt;new project in the Bootstrap GitHub org&lt;/a&gt; to automate calculate an appropriate &lt;code class=&quot;highlighter-rouge&quot;&gt;font-size&lt;/code&gt; based on the dimensions of a visitor’s device or browser viewport. Here’s how it works:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;All &lt;code class=&quot;highlighter-rouge&quot;&gt;font-size&lt;/code&gt; properties have been switched to the &lt;code class=&quot;highlighter-rouge&quot;&gt;@include font-size()&lt;/code&gt; mixin. Our Stylelint configuration now prevents the usage of &lt;code class=&quot;highlighter-rouge&quot;&gt;font-size&lt;/code&gt; property.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Disabled by default, you can opt into this new behavior by toggling the &lt;code class=&quot;highlighter-rouge&quot;&gt;$enable-responsive-font-sizes&lt;/code&gt; boolean variable.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;font-size&lt;/code&gt;s are entirely configurable via Sass. Be sure to read the docs for how to modify the scales, variables, and more.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;While responsive font-sizes are disabled by default, we’ve enabled them in the custom CSS that powers our docs starting with v4.3. Please share feedback with us via GitHub issues or on Twitter. We’ve added some light guidance to &lt;a href=&quot;https://getbootstrap.com/docs/4.3/content/typography/#responsive-font-sizes&quot;&gt;our Typography docs&lt;/a&gt; to explain the feature. You can also learn more by &lt;a href=&quot;https://github.com/twbs/rfs&quot;&gt;reading the rfs project documentation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;open-collective&quot;&gt;Open Collective&lt;/h2&gt;
+
+&lt;p&gt;Last December we launched our &lt;a href=&quot;https://opencollective.com/bootstrap&quot;&gt;Open Collective page&lt;/a&gt; with our &lt;a href=&quot;https://blog.getbootstrap.com/2018/12/13/bootstrap-3-4-0/&quot;&gt;v3.4 release&lt;/a&gt; to help support the maintainers contributing to Bootstrap. The team has been very excited about this as a way to be transparent about maintainer costs (both time and money), as well as recognition of efforts.&lt;/p&gt;
+
+&lt;h2 id=&quot;branches-hugo-and-jquery&quot;&gt;Branches, Hugo, and jQuery&lt;/h2&gt;
+
+&lt;p&gt;Right after shipping v4.3, we’ll be tackling a few key changes on our road to active v5 development. These are larger changes to how we maintain and develop Bootstrap and are considered foundational for v5.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Improving our branches for development.&lt;/strong&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;master&lt;/code&gt; will become our new &lt;code class=&quot;highlighter-rouge&quot;&gt;v3-dev&lt;/code&gt; branch. &lt;code class=&quot;highlighter-rouge&quot;&gt;v4-dev&lt;/code&gt; will stay as-is, but we’ll cut a new &lt;code class=&quot;highlighter-rouge&quot;&gt;master&lt;/code&gt; branch from there to develop v5.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;We’re moving to Hugo!&lt;/strong&gt; Jekyll has been great, but it’s starting to slow us down in local development. We’ll be making changes to our dependencies to support this move, and there’s already a pull request in progress and near completion for the change. &lt;a href=&quot;https://github.com/twbs/bootstrap/pull/28014&quot;&gt;Follow along&lt;/a&gt; to see what’s changing.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;We’re dropping jQuery for regular JavaScript.&lt;/strong&gt; The cat is out of the bag—we’re dropping our largest client-side dependency for regular JavaScript. Similar to the Hugo move, we’ve been working on this for a long time and have a &lt;a href=&quot;https://github.com/twbs/bootstrap/pull/23586&quot;&gt;pull request in progress&lt;/a&gt; and near completion.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We’ll have even more to share soon around v5’s plans after we tackle these bigger items. In the meantime, keep the feedback coming on GitHub and Twitter!&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;3,&lt;br /&gt;
+&lt;a href=&quot;https://twitter.com/mdo&quot;&gt;@mdo&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://github.com/twbs&quot;&gt;team&lt;/a&gt;&lt;/p&gt;</content><author><name>{&quot;twitter&quot;=&gt;&quot;getbootstrap&quot;}</name></author><summary type="html">Bootstrap v4.3 has landed with over 120 combined closed issues and merged pull requests. This release brings improvements to our utilities, some prep work for moving on to v5’s development, and the standard bug fixes and documentation updates.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.getbootstrap.com/assets/img/bootstrap-social.png" /></entry><entry><title type="html">Bootstrap 4.2.1</title><link href="https://blog.getbootstrap.com/2018/12/21/bootstrap-4-2-1/" rel="alternate" type="text/html" title="Bootstrap 4.2.1" /><published>2018-12-21T00:00:00+00:00</published><updated>2018-12-21T00:00:00+00:00</updated><id>https://blog.getbootstrap.com/2018/12/21/bootstrap-4-2-1</id><content type="html" xml:base="https://blog.getbootstrap.com/2018/12/21/bootstrap-4-2-1/">&lt;p&gt;Look out world, we’re shipping Bootstrap v4.2.1 with a slew of new features, bug fixes, and docs updates. On the new features side, we have spinners, toasts, switches, and (finally!) touch support in the carousel. That’s just the tip of the iceberg though.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Heads up!&lt;/strong&gt; v4.2.0 was incorrectly published to npm, so we’ve had to immediately turnaround a v4.2.1 release. &lt;code class=&quot;highlighter-rouge&quot;&gt;npm i bootstrap@latest&lt;/code&gt; should now return &lt;code class=&quot;highlighter-rouge&quot;&gt;4.2.1&lt;/code&gt;. Apologies for the inconvenience!&lt;/p&gt;
+
+&lt;p&gt;We’ve crammed months of work into v4.2.1 with over 400 commits since our last v4.1.3 release. As mentioned in our v3.4.0 release last week, we’re working to decouple our releases from my direct involvement to improve the shipping cadence. Expect more improvements there in 2019.&lt;/p&gt;
+
+&lt;p&gt;Keep reading for highlights and some insight into how we’re getting to v4.3 quickly, and then into v5 (woo!).&lt;/p&gt;
+
+&lt;h2 id=&quot;whats-new&quot;&gt;What’s new&lt;/h2&gt;
+&lt;p&gt;Here are the highlights of what’s new and updated in v4.2.1.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/2018/12/toasts.png&quot; alt=&quot;Bootstrap toasts&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;New:&lt;/strong&gt; Added a new &lt;a href=&quot;https://getbootstrap.com/docs/4.2/components/spinners/&quot;&gt;spinner loading component&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;New:&lt;/strong&gt; Added new &lt;a href=&quot;https://getbootstrap.com/docs/4.2/components/toasts/&quot;&gt;toast component&lt;/a&gt; for displaying notifications.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;New:&lt;/strong&gt; Added a new &lt;a href=&quot;https://getbootstrap.com/docs/4.2/components/forms/#switches&quot;&gt;iOS style switch&lt;/a&gt; (a modifier class to our custom checkboxes).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;New:&lt;/strong&gt; Added touch support in our carousel component.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;New:&lt;/strong&gt; Added &lt;code class=&quot;highlighter-rouge&quot;&gt;.font-weight-lighter&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;.font-weight-bolder&lt;/code&gt; utilities.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;New:&lt;/strong&gt; Added &lt;code class=&quot;highlighter-rouge&quot;&gt;.text-decoration-none&lt;/code&gt; utility class.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;New:&lt;/strong&gt; Added &lt;code class=&quot;highlighter-rouge&quot;&gt;.modal-xl&lt;/code&gt; modifier class for our modals.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;New:&lt;/strong&gt; Added new negative margin utility classes (e.g., &lt;code class=&quot;highlighter-rouge&quot;&gt;.mb-n3&lt;/code&gt;). These rad new classes not only allow you more control over your general spacing needs, but also allow you to create responsive grid gutters at each breakpoint.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;New:&lt;/strong&gt; Validated form fields now have feedback icons on &lt;code class=&quot;highlighter-rouge&quot;&gt;:invalid&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;:valid&lt;/code&gt; fields. Disable them with the &lt;code class=&quot;highlighter-rouge&quot;&gt;$enable-validation-icons&lt;/code&gt; boolean Sass variable (defaults to &lt;code class=&quot;highlighter-rouge&quot;&gt;true&lt;/code&gt;).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;New:&lt;/strong&gt; Added a new &lt;a href=&quot;https://getbootstrap.com/docs/versions/&quot;&gt;versions page&lt;/a&gt; to our docs.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;New:&lt;/strong&gt; Tooltips/Popovers work with Shadow DOM.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Updated:&lt;/strong&gt; Redesigned the custom checkboxes and radios for more obvious states.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Updated:&lt;/strong&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;bootstrap-grid.css&lt;/code&gt; now includes our &lt;code class=&quot;highlighter-rouge&quot;&gt;margin&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;padding&lt;/code&gt; utilities for full control of our grid system.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Updated:&lt;/strong&gt; Changed auto columns (e.g., &lt;code class=&quot;highlighter-rouge&quot;&gt;.col-auto&lt;/code&gt;) from &lt;code class=&quot;highlighter-rouge&quot;&gt;max-width: none&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;max-width: 100%&lt;/code&gt; to prevent content from causing a column to overflow the parent.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Updated:&lt;/strong&gt; Improved rendering of custom selects, ranges, file input, and more.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Checkout the full &lt;a href=&quot;https://github.com/twbs/bootstrap/issues/26952&quot;&gt;v4.2.0 ship list&lt;/a&gt; and &lt;a href=&quot;https://github.com/twbs/bootstrap/projects/6&quot;&gt;GitHub project&lt;/a&gt; for the full details. Up next is &lt;a href=&quot;https://github.com/twbs/bootstrap/projects/16&quot;&gt;v4.3&lt;/a&gt; with some bugfixes, a few new modifier classes and variables, and some new utilities.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://getbootstrap.com/docs/4.2/&quot;&gt;Head to the v4.2 docs&lt;/a&gt; to see the latest in action. The full release has been published to npm and will soon appear on the Bootstrap CDN and Rubygems.&lt;/p&gt;
+
+&lt;h2 id=&quot;whats-next&quot;&gt;What’s next&lt;/h2&gt;
+&lt;p&gt;We have &lt;a href=&quot;https://github.com/twbs/bootstrap/projects/16&quot;&gt;v4.3&lt;/a&gt; already planned, so that’s our immediate focus. However, while we’re developing that in the &lt;code class=&quot;highlighter-rouge&quot;&gt;v4-dev&lt;/code&gt; branch, we’ll be getting our plans in order for a v5 release.&lt;/p&gt;
+
+&lt;p&gt;Bootstrap 5 will not feature drastic changes to the codebase. While I tweeted about the earnestness to move to PostCSS years ago, we’ll still be on Sass for v5. Instead, we’ll focus our efforts on removing cruft, improving existing components, and dropping old browsers and our jQuery dependency. There are also some updates to our v4.x components we cannot make without causing breaking changes, so v5 feels like it’s coming at the right time for us.&lt;/p&gt;
+
+&lt;p&gt;Stay tuned for a preview of the plans for v5 in the new year. We’ll share via an issue, ask for feedback, and then settle in to development mode.&lt;/p&gt;
+
+&lt;p&gt;Happy holidays, and happy new year to everyone! Thanks for continuing to make Bootstrap an amazing project and community.&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;3,&lt;br /&gt;
+&lt;a href=&quot;https://twitter.com/mdo&quot;&gt;@mdo&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://github.com/twbs&quot;&gt;team&lt;/a&gt;&lt;/p&gt;</content><author><name>{&quot;twitter&quot;=&gt;&quot;getbootstrap&quot;}</name></author><summary type="html">Look out world, we’re shipping Bootstrap v4.2.1 with a slew of new features, bug fixes, and docs updates. On the new features side, we have spinners, toasts, switches, and (finally!) touch support in the carousel. That’s just the tip of the iceberg though.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.getbootstrap.com/assets/img/bootstrap-social.png" /></entry><entry><title type="html">Bootstrap 3.4.0</title><link href="https://blog.getbootstrap.com/2018/12/13/bootstrap-3-4-0/" rel="alternate" type="text/html" title="Bootstrap 3.4.0" /><published>2018-12-13T00:00:00+00:00</published><updated>2018-12-13T00:00:00+00:00</updated><id>https://blog.getbootstrap.com/2018/12/13/bootstrap-3-4-0</id><content type="html" xml:base="https://blog.getbootstrap.com/2018/12/13/bootstrap-3-4-0/">&lt;p&gt;That’s not a typo—today we’re shipping Bootstrap 3.4.0, a long overdue update to address some quality of life issues, XSS fixes, and build tooling updates to make it easier for us, and you, to develop.&lt;/p&gt;
+
+&lt;p&gt;While we’d planned for ages to do a fresh v3.x update, we lost steam as energy was focused on all the work in v4. Early this year, &lt;a href=&quot;https://github.com/twbs/bootstrap/issues/25679&quot;&gt;one issue in particular&lt;/a&gt; gained a ton of momentum from the community and the core team decided to do a huge push to pull together a solid release. I regret the time it took to pull this release together, especially given the security fixes, but with the improvements under the hood, v3 has never been easier to develop and maintain. Thanks for your continued support along the way!&lt;/p&gt;
+
+&lt;p&gt;Keep reading for what’s changed and a look ahead at what’s coming in v4.2.0.&lt;/p&gt;
+
+&lt;h2 id=&quot;whats-new&quot;&gt;What’s new&lt;/h2&gt;
+
+&lt;p&gt;While we haven’t publicly worked on v3.x in years, we’ve heard from all of you during that time that we needed to do a new release to address&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;New:&lt;/strong&gt; Added a &lt;code class=&quot;highlighter-rouge&quot;&gt;.row-no-gutters&lt;/code&gt; class.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;New:&lt;/strong&gt; Added docs searching via Algolia.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Fixed:&lt;/strong&gt; Resolved an XSS issue in Alert, Carousel, Collapse, Dropdown, Modal, and Tab components. See &lt;a href=&quot;https://snyk.io/vuln/npm:bootstrap:20160627&quot;&gt;https://snyk.io/vuln/npm:bootstrap:20160627&lt;/a&gt; for details.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Fixed:&lt;/strong&gt; Added padding to &lt;code class=&quot;highlighter-rouge&quot;&gt;.navbar-fixed-*&lt;/code&gt; on modal open&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Fixed:&lt;/strong&gt; Removed the double border on &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;abbr&amp;gt;&lt;/code&gt; elements.&lt;/li&gt;
+  &lt;li&gt;Removed Gist creation in web-based Customizer since anonymous gists were disabled long ago by GitHub.&lt;/li&gt;
+  &lt;li&gt;Removed drag and drop support from Customizer since it didn’t work anymore.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Our documentation and tooling saw massive updates as well to make it easier to work on v3.x, for ourselves and for you.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Added a dropdown to the docs nav for newer and previous versions.&lt;/li&gt;
+  &lt;li&gt;Update the docs to use a new &lt;code class=&quot;highlighter-rouge&quot;&gt;baseurl&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;/docs/3.4/&lt;/code&gt;, to version the v3.x documentation like we do with v4.&lt;/li&gt;
+  &lt;li&gt;Reorganized the v3 docs CSS to use Less.&lt;/li&gt;
+  &lt;li&gt;Switched to BrowserStack for tests.&lt;/li&gt;
+  &lt;li&gt;Updated links to always use https and fix broken URLs.&lt;/li&gt;
+  &lt;li&gt;Replaced ZeroClipboard with clipboard.js&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://getbootstrap.com/docs/3.4/&quot;&gt;Head to the Bootstrap 3.4 docs&lt;/a&gt; to see the latest in action. &lt;a href=&quot;https://github.com/twbs/bootstrap/pull/27288&quot;&gt;Check out the v3.4.0 pull request&lt;/a&gt; for even more context on what’s changed.&lt;/p&gt;
+
+&lt;h2 id=&quot;upgrading&quot;&gt;Upgrading&lt;/h2&gt;
+
+&lt;p&gt;Upgrade your Bootstrap 3 projects to v3.4.0 with &lt;code class=&quot;highlighter-rouge&quot;&gt;npm i bootstrap@previous&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;npm i bootstrap@3.4.0&lt;/code&gt;. This release won’t be available via Bower to start given the package manager was deprecated and has largely been unused by us in v4 for well over a year. Stay tuned for CDN and Rubygem updates.&lt;/p&gt;
+
+&lt;h2 id=&quot;open-collective&quot;&gt;Open Collective&lt;/h2&gt;
+
+&lt;p&gt;Also new with our v3.4 is the creation of an &lt;a href=&quot;https://opencollective.com/bootstrap&quot;&gt;Open Collective page&lt;/a&gt; to help support the maintainers contributing to Bootstrap. The team has been very excited about this as a way to be transparent about maintainer costs (both time and money), as well as recognition of efforts.&lt;/p&gt;
+
+&lt;h2 id=&quot;v42-and-beyond&quot;&gt;v4.2 and beyond&lt;/h2&gt;
+
+&lt;p&gt;We’ve been working on a &lt;a href=&quot;https://github.com/twbs/bootstrap/projects/6?fullscreen=true&quot;&gt;huge v4.2 update&lt;/a&gt; for several months now. Our attention has largely been on advancing the project and simplifying it’s dependencies, namely by removing our jQuery dependency. That work has sparked a keen interest in a moderately scoped v5 release, so we’ve been taking our sweet time with v4.2 to sneak in as many new features as we can.&lt;/p&gt;
+
+&lt;p&gt;After we ship v4.2, we’ll plan for point releases to address any bugs and improvements as y’all start to use the new version. From there, we’ll start to share more plans on v5 to remove jQuery, drop support for older browsers, and clear up some cruft. This won’t be a sweeping rewrite, but rather an iterative improvement on v4. Stay tuned!&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;3,&lt;br /&gt;
+&lt;a href=&quot;https://twitter.com/mdo&quot;&gt;@mdo&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://github.com/twbs&quot;&gt;team&lt;/a&gt;&lt;/p&gt;</content><author><name>{&quot;twitter&quot;=&gt;&quot;getbootstrap&quot;}</name></author><summary type="html">That’s not a typo—today we’re shipping Bootstrap 3.4.0, a long overdue update to address some quality of life issues, XSS fixes, and build tooling updates to make it easier for us, and you, to develop.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.getbootstrap.com/assets/img/bootstrap-social.png" /></entry><entry><title type="html">Bootstrap 4.1.3</title><link href="https://blog.getbootstrap.com/2018/07/24/bootstrap-4-1-3/" rel="alternate" type="text/html" title="Bootstrap 4.1.3" /><published>2018-07-24T00:00:00+00:00</published><updated>2018-07-24T00:00:00+00:00</updated><id>https://blog.getbootstrap.com/2018/07/24/bootstrap-4-1-3</id><content type="html" xml:base="https://blog.getbootstrap.com/2018/07/24/bootstrap-4-1-3/">&lt;p&gt;Hot on the heels of v4.1.2, we’re shipping another patch release to address an issue with our browserslist config, fix some CSS bugs, make JavaScript plugins UMD ready, and improve form control rendering. Up next will be v4.2, our second minor release where we add some new features.&lt;/p&gt;
+
+&lt;p&gt;But first, here are the highlights for v4.1.3. Pay attention to the change to &lt;code class=&quot;highlighter-rouge&quot;&gt;.form-control&lt;/code&gt;s which adds a new fixed &lt;code class=&quot;highlighter-rouge&quot;&gt;height&lt;/code&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Fixed:&lt;/strong&gt; Moved the browserslist config from our &lt;code class=&quot;highlighter-rouge&quot;&gt;package.json&lt;/code&gt; to a separate file to avoid unintended inherited browser settings across npm projects.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Fixed:&lt;/strong&gt; Removed the &lt;code class=&quot;highlighter-rouge&quot;&gt;:not(:root)&lt;/code&gt; selector from our &lt;code class=&quot;highlighter-rouge&quot;&gt;svg&lt;/code&gt; Reboot styles, resolving an issue that caused all inline SVGs ignore &lt;code class=&quot;highlighter-rouge&quot;&gt;vertical-align&lt;/code&gt; styles via single class due to higher specificity.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Fixed:&lt;/strong&gt; Buttons in custom file inputs are once again clickable when focused.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Improved:&lt;/strong&gt; Bootstrap’s plugins can now be imported separately in any contexts because they are now UMD ready.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Improved:&lt;/strong&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;.form-control&lt;/code&gt;s now have a fixed &lt;code class=&quot;highlighter-rouge&quot;&gt;height&lt;/code&gt; to compensate for differences in computed height across different &lt;code class=&quot;highlighter-rouge&quot;&gt;type&lt;/code&gt;s. This also fixes some IE alignment issues.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Improved:&lt;/strong&gt; Added &lt;code class=&quot;highlighter-rouge&quot;&gt;Noto Color Emoji&lt;/code&gt; to our system font stack for better rendering in Linux OSes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Checkout the full &lt;a href=&quot;https://github.com/twbs/bootstrap/issues/26867&quot;&gt;v4.1.3 ship list&lt;/a&gt; and &lt;a href=&quot;https://github.com/twbs/bootstrap/projects/15&quot;&gt;GitHub project&lt;/a&gt; for the full details. Up next is &lt;a href=&quot;https://github.com/twbs/bootstrap/projects/6&quot;&gt;v4.2&lt;/a&gt;, so stay tuned for some awesome new features like toasts, dismissible badges, negative margins (responsive grid gutters!), spinners, and more!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://getbootstrap.com/docs/4.1/&quot;&gt;Head to the v4.1.x docs&lt;/a&gt; to see the latest in action. The full release has been published to npm and will soon appear on the Bootstrap CDN and Rubygems.&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;3,&lt;br /&gt;
+&lt;a href=&quot;https://twitter.com/mdo&quot;&gt;@mdo&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://github.com/twbs&quot;&gt;team&lt;/a&gt;&lt;/p&gt;</content><author><name>{&quot;twitter&quot;=&gt;&quot;getbootstrap&quot;}</name></author><summary type="html">Hot on the heels of v4.1.2, we’re shipping another patch release to address an issue with our browserslist config, fix some CSS bugs, make JavaScript plugins UMD ready, and improve form control rendering. Up next will be v4.2, our second minor release where we add some new features.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.getbootstrap.com/assets/img/bootstrap-social.png" /></entry><entry><title type="html">Bootstrap 4.1.2</title><link href="https://blog.getbootstrap.com/2018/07/12/bootstrap-4-1-2/" rel="alternate" type="text/html" title="Bootstrap 4.1.2" /><published>2018-07-12T00:00:00+00:00</published><updated>2018-07-12T00:00:00+00:00</updated><id>https://blog.getbootstrap.com/2018/07/12/bootstrap-4-1-2</id><content type="html" xml:base="https://blog.getbootstrap.com/2018/07/12/bootstrap-4-1-2/">&lt;p&gt;We’ve been busy these last couple months since launching v4.1.1, but we’re back with another bug fix and some sweeping changes to how we build and publish our docs after the issues stemming from our v4.1.x launches.&lt;/p&gt;
+
+&lt;p&gt;When we launched v4.1, we ran into unexpected issues with having to rearrange asset paths after deploying, resulting in broken image URLs, a busted service worker, and more. Since then, we’re ironed out most of the kinks and introduced a new docs directory structure inside the repo. Nothing should change for anyone using our docs, but those contributing to the project and developing locally may need to rebase their changes or update their branches accordingly.&lt;/p&gt;
+
+&lt;p&gt;Beyond the file structure changes, here are the highlights for v4.1.2:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Fixed an XSS vulnerability in tooltip, collapse, and scrollspy plugins&lt;/li&gt;
+  &lt;li&gt;Improved how we query elements in our JavaScript plugins&lt;/li&gt;
+  &lt;li&gt;Inline SVGs now have the same vertical alignment as images&lt;/li&gt;
+  &lt;li&gt;Fixed issues with double transitions on carousels&lt;/li&gt;
+  &lt;li&gt;Added Edge and IE10-11 fallbacks to our floating labels example&lt;/li&gt;
+  &lt;li&gt;Various improvements to form controls, including disabled states on file inputs and unified focus styles for selects&lt;/li&gt;
+  &lt;li&gt;Miscellaneous build tool improvements and documentation fixes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Checkout the full &lt;a href=&quot;https://github.com/twbs/bootstrap/issues/26423&quot;&gt;v4.1.2 ship list&lt;/a&gt; and &lt;a href=&quot;https://github.com/twbs/bootstrap/projects/14&quot;&gt;GitHub project&lt;/a&gt; for the full details. Up next will either be &lt;a href=&quot;https://github.com/twbs/bootstrap/projects/15&quot;&gt;v4.1.3&lt;/a&gt; or &lt;a href=&quot;https://github.com/twbs/bootstrap/projects/6&quot;&gt;v4.2&lt;/a&gt; depending on how smoothly this release goes and how well we can keep up with reviewing and merging pull requests.&lt;/p&gt;
+
+&lt;p&gt;Head to the v4.1.x docs to see the latest in action. The full release has been published to npm and will soon appear on the Bootstrap CDN and Rubygems.&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;3,&lt;br /&gt;
+&lt;a href=&quot;https://twitter.com/mdo&quot;&gt;@mdo&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://github.com/twbs&quot;&gt;team&lt;/a&gt;&lt;/p&gt;</content><author><name>{&quot;twitter&quot;=&gt;&quot;getbootstrap&quot;}</name></author><summary type="html">We’ve been busy these last couple months since launching v4.1.1, but we’re back with another bug fix and some sweeping changes to how we build and publish our docs after the issues stemming from our v4.1.x launches.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.getbootstrap.com/assets/img/bootstrap-social.png" /></entry><entry><title type="html">Bootstrap 4.1.1</title><link href="https://blog.getbootstrap.com/2018/04/30/bootstrap-4-1-1/" rel="alternate" type="text/html" title="Bootstrap 4.1.1" /><published>2018-04-30T00:00:00+00:00</published><updated>2018-04-30T00:00:00+00:00</updated><id>https://blog.getbootstrap.com/2018/04/30/bootstrap-4-1-1</id><content type="html" xml:base="https://blog.getbootstrap.com/2018/04/30/bootstrap-4-1-1/">&lt;p&gt;We’re a few weeks out from v4.1 and we have our first patch release of Bootstrap 4! It’s a straightforward set of bug fixes and build tool quality of life updates.&lt;/p&gt;
+
+&lt;p&gt;Here’s a quick rundown of some of the changes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Added validation styles for file inputs&lt;/li&gt;
+  &lt;li&gt;Improved printing of dark tables&lt;/li&gt;
+  &lt;li&gt;Suppressed that &lt;code class=&quot;highlighter-rouge&quot;&gt;text-hide&lt;/code&gt; deprecation notice by default&lt;/li&gt;
+  &lt;li&gt;Fixed an issue where Collapse wasn’t working in Internet Explorer&lt;/li&gt;
+  &lt;li&gt;Cleaned up some JS globals and improve coverage&lt;/li&gt;
+  &lt;li&gt;Bumped dependencies, namely Jekyll&lt;/li&gt;
+  &lt;li&gt;Fixed docs issue with incorrect name for our monospace font utility&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Checkout the full &lt;a href=&quot;https://github.com/twbs/bootstrap/issues/25971&quot;&gt;v4.1.1 ship list&lt;/a&gt; and &lt;a href=&quot;https://github.com/twbs/bootstrap/projects/13&quot;&gt;GitHub project&lt;/a&gt; for the full details. Up next will be &lt;a href=&quot;https://github.com/twbs/bootstrap/projects/14&quot;&gt;v4.1.2&lt;/a&gt;, another patch release to address the next set of CSS and JS bugs you’ve help share with us since v4 launched.&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;3,&lt;br /&gt;
+&lt;a href=&quot;https://twitter.com/mdo&quot;&gt;@mdo&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://github.com/twbs&quot;&gt;team&lt;/a&gt;&lt;/p&gt;</content><author><name>{&quot;twitter&quot;=&gt;&quot;getbootstrap&quot;}</name></author><summary type="html">We’re a few weeks out from v4.1 and we have our first patch release of Bootstrap 4! It’s a straightforward set of bug fixes and build tool quality of life updates.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.getbootstrap.com/assets/img/bootstrap-social.png" /></entry><entry><title type="html">Bootstrap 4.1</title><link href="https://blog.getbootstrap.com/2018/04/09/bootstrap-4-1/" rel="alternate" type="text/html" title="Bootstrap 4.1" /><published>2018-04-09T00:00:00+00:00</published><updated>2018-04-09T00:00:00+00:00</updated><id>https://blog.getbootstrap.com/2018/04/09/bootstrap-4-1</id><content type="html" xml:base="https://blog.getbootstrap.com/2018/04/09/bootstrap-4-1/">&lt;p&gt;Two months ago we shipped the &lt;a href=&quot;/2018/01/18/bootstrap-4/&quot;&gt;first major release of Bootstrap 4&lt;/a&gt; and we’re thrilled y’all love the latest release and &lt;a href=&quot;/2018/02/21/new-bootstrap-themes/&quot;&gt;our brand new themes&lt;/a&gt; so much. Today we’re shipping our first minor release, v4.1! This release comes later than expected and some of the fixes we intended, but there’s still a boatload of fixes, docs updates, build tool changes, and even a few small new features.&lt;/p&gt;
+
+&lt;h2 id=&quot;updated-docs-url&quot;&gt;Updated docs URL&lt;/h2&gt;
+
+&lt;p&gt;With the release of v4 stable, we moved to a versioned docs setup, meaning each minor release would bring with it a new hosted version of our docs. This allows folks who haven’t yet upgraded stick to the docs they know and love and avoids breaking URLs across the web. With today’s release, our we’ll have a new URL for this release’s documentation, &lt;code class=&quot;highlighter-rouge&quot;&gt;getbootstrap.com/docs/4.1/&lt;/code&gt;. The previous URL, &lt;code class=&quot;highlighter-rouge&quot;&gt;getbootstrap.com/docs/4.0/&lt;/code&gt; will still work as y’all would imagine.&lt;/p&gt;
+
+&lt;h2 id=&quot;highlights&quot;&gt;Highlights&lt;/h2&gt;
+
+&lt;p&gt;Here’s what’s new in addition to our bug fixes and docs updates:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Added new custom range form control.&lt;/li&gt;
+  &lt;li&gt;Added new &lt;code class=&quot;highlighter-rouge&quot;&gt;.carousel-fade&lt;/code&gt; modifier to switch carousel from horizontal sliding to crossfade.&lt;/li&gt;
+  &lt;li&gt;Added new &lt;code class=&quot;highlighter-rouge&quot;&gt;.dropdown-item-text&lt;/code&gt; for plaintext dropdown items.&lt;/li&gt;
+  &lt;li&gt;Added new &lt;code class=&quot;highlighter-rouge&quot;&gt;.flex-fill&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;.flex-grow-*&lt;/code&gt;, and &lt;code class=&quot;highlighter-rouge&quot;&gt;.flex-shrink-*&lt;/code&gt; utilities.&lt;/li&gt;
+  &lt;li&gt;Added new &lt;code class=&quot;highlighter-rouge&quot;&gt;.table-borderless&lt;/code&gt; variant for tables.&lt;/li&gt;
+  &lt;li&gt;Added new &lt;code class=&quot;highlighter-rouge&quot;&gt;.text-monospace&lt;/code&gt; utility.&lt;/li&gt;
+  &lt;li&gt;Added new &lt;code class=&quot;highlighter-rouge&quot;&gt;.text-body&lt;/code&gt; (default body color), &lt;code class=&quot;highlighter-rouge&quot;&gt;.text-black-50&lt;/code&gt; (50% opacity black), and &lt;code class=&quot;highlighter-rouge&quot;&gt;.text-white-50&lt;/code&gt; (50% opacity white) utilities.&lt;/li&gt;
+  &lt;li&gt;Added new &lt;code class=&quot;highlighter-rouge&quot;&gt;.shadow-*&lt;/code&gt; utilities for quickly adding &lt;code class=&quot;highlighter-rouge&quot;&gt;box-shadow&lt;/code&gt;s.&lt;/li&gt;
+  &lt;li&gt;Added ability to disable Popper’s positioning in dropdowns.&lt;/li&gt;
+  &lt;li&gt;Updated our Theming docs to confirm you &lt;em&gt;cannot&lt;/em&gt; use CSS variables in media queries (sorry folks!).&lt;/li&gt;
+  &lt;li&gt;Fixed longstanding issue with Chrome rendering CSS columns incorrectly for cards.&lt;/li&gt;
+  &lt;li&gt;Deprecated &lt;code class=&quot;highlighter-rouge&quot;&gt;.text-hide&lt;/code&gt;—you’ll see a warning during compilation—as it’s a dated and undocumented feature.&lt;/li&gt;
+  &lt;li&gt;Fixed up Dashboard and Offcanvas examples across Firefox and IE.&lt;/li&gt;
+  &lt;li&gt;Breadcrumbs can now use non-string values as dividers.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Be sure to look at the &lt;a href=&quot;https://github.com/twbs/bootstrap/issues/25375&quot;&gt;ship list&lt;/a&gt; and &lt;a href=&quot;https://github.com/twbs/bootstrap/projects/5&quot;&gt;project board&lt;/a&gt; for more details on all our fixes. Also, as a small heads up, we’ve split our issue template on GitHub into two separate templates, one for feature requests and one for bug reports. Please let us know if you have any feedback on the change.&lt;/p&gt;
+
+&lt;h2 id=&quot;next-release&quot;&gt;Next release&lt;/h2&gt;
+
+&lt;p&gt;Next up, we’re looking at a &lt;a href=&quot;https://github.com/twbs/bootstrap/projects/13&quot;&gt;v4.1.1 release&lt;/a&gt;. There are some bug fixes for input groups, form fields, and more that I know we need to tackle sooner than later. These were supposed to be in v4.1, but we couldn’t make it happen in time.&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;3,&lt;br /&gt;
+&lt;a href=&quot;https://twitter.com/mdo&quot;&gt;@mdo&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://github.com/twbs&quot;&gt;team&lt;/a&gt;&lt;/p&gt;</content><author><name>{&quot;twitter&quot;=&gt;&quot;getbootstrap&quot;}</name></author><summary type="html">Two months ago we shipped the first major release of Bootstrap 4 and we’re thrilled y’all love the latest release and our brand new themes so much. Today we’re shipping our first minor release, v4.1! This release comes later than expected and some of the fixes we intended, but there’s still a boatload of fixes, docs updates, build tool changes, and even a few small new features.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.getbootstrap.com/assets/img/bootstrap-social.png" /></entry><entry><title type="html">New Bootstrap themes</title><link href="https://blog.getbootstrap.com/2018/02/21/new-bootstrap-themes/" rel="alternate" type="text/html" title="New Bootstrap themes" /><published>2018-02-21T00:00:00+00:00</published><updated>2018-02-21T00:00:00+00:00</updated><id>https://blog.getbootstrap.com/2018/02/21/new-bootstrap-themes</id><content type="html" xml:base="https://blog.getbootstrap.com/2018/02/21/new-bootstrap-themes/">&lt;p&gt;Just over a month ago, we shipped the long awaited Bootstrap 4 stable release. With a brand new codebase designed to better support customization with all new components and documentation, it was the perfect time to debut some brand new themes built. Today, we’d like to introduce you to our brand new &lt;a href=&quot;https://themes.getbootstrap.com/&quot;&gt;Bootstrap Themes marketplace&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;10-new-themes&quot;&gt;10 new themes&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://themes.getbootstrap.com/&quot;&gt;&lt;img src=&quot;/assets/img/2018/02/themes-grid.png&quot; alt=&quot;Bootstrap themes grid&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Over the last several months, we’ve been hard at work with theme creators to build the best themes for you. When we created our original three Bootstrap themes, our goal was to provide the best themes, build tools, documentation, and support to everyone building with Bootstrap. With today’s update, we’re adding 10 new themes to the mix from a global community of designers and developers.&lt;/p&gt;
+
+&lt;p&gt;Every theme is built on Bootstrap 4 (stable, no beta or alpha here!) and comes with its own build tools and customer support. Prices are set by creators with pricing that incentivizes unique and well supported themes. Collectively, this inaugural batch of theme developers have built themes used by over 500,000 people. We’re excited to grow our Themes user base, push the boundaries of premium themes, and help everyone bring their ideas to life on the web.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://themes.getbootstrap.com/&quot;&gt;Explore Bootstrap Themes »&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;sell-your-themes&quot;&gt;Sell your themes&lt;/h2&gt;
+
+&lt;p&gt;Our &lt;a href=&quot;https://themes.getbootstrap.com/&quot;&gt;new marketplace&lt;/a&gt; isn’t just for buying themes. If you’re a theme creator, we’d love to work with you to include your themes or to build new exclusive themes. We’re looking for new creators to design and build high quality themes, provide first class documentation and support, and help create unique experiences built on Bootstrap.&lt;/p&gt;
+
+&lt;p&gt;Learn more at &lt;a href=&quot;https://themes.getbootstrap.com/sell/&quot;&gt;https://themes.getbootstrap.com/sell/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Happy theming,&lt;br /&gt;
+&lt;a href=&quot;https://twitter.com/mdo&quot;&gt;@mdo&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/dhg&quot;&gt;@dhg&lt;/a&gt;, &amp;amp; &lt;a href=&quot;https://twitter.com/fat&quot;&gt;@fat&lt;/a&gt;&lt;/p&gt;</content><author><name>{&quot;twitter&quot;=&gt;&quot;getbootstrap&quot;}</name></author><summary type="html">Just over a month ago, we shipped the long awaited Bootstrap 4 stable release. With a brand new codebase designed to better support customization with all new components and documentation, it was the perfect time to debut some brand new themes built. Today, we’d like to introduce you to our brand new Bootstrap Themes marketplace.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.getbootstrap.com/assets/img/bootstrap-social.png" /></entry><entry><title type="html">Bootstrap 4</title><link href="https://blog.getbootstrap.com/2018/01/18/bootstrap-4/" rel="alternate" type="text/html" title="Bootstrap 4" /><published>2018-01-18T00:00:00+00:00</published><updated>2018-01-18T00:00:00+00:00</updated><id>https://blog.getbootstrap.com/2018/01/18/bootstrap-4</id><content type="html" xml:base="https://blog.getbootstrap.com/2018/01/18/bootstrap-4/">&lt;p&gt;It’s literally taken us years to do it, but Bootstrap 4 has finally arrived! Words cannot begin to describe the elation the entire team and I have for this release, but I’ll do my best. Thank you to everyone, especially to the team, and to everyone who’s contributed code in a pull request or opened an issue. &lt;strong&gt;Thank you.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Since our last beta, we’ve been hard at work stabilizing a few key pieces of our CSS, polishing our documentation, adding some extra surprises, and planning for our follow-up releases. We still have some kinks to iron out, but nothing’s going to stop us from shipping a stable release.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Anxious to jump right in? &lt;a href=&quot;https://getbootstrap.com/&quot;&gt;Head over to our documentation site&lt;/a&gt; and explore.&lt;/strong&gt; Be sure to check out our &lt;a href=&quot;https://getbootstrap.com/docs/4.0/examples/&quot;&gt;new Examples&lt;/a&gt; and the &lt;a href=&quot;https://getbootstrap.com/docs/4.0/migration/&quot;&gt;migration docs page&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;Want to know more before hitting the docs? Great, let’s dive in!&lt;/p&gt;
+
+&lt;h2 id=&quot;whats-new&quot;&gt;What’s new&lt;/h2&gt;
+&lt;p&gt;There are no breaking changes since our last beta, but we have made some key improvements and resolved some tricky bugs.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Print styles and utility classes have been updated. We’ve improved how printed pages are rendered to ensure pages are reasonably sized instead of rendering them as mobile devices. Print display utilities also include a whole slew of new &lt;code class=&quot;highlighter-rouge&quot;&gt;display&lt;/code&gt; values to match our standard display utilities.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Additive border utilities have been added (e.g., &lt;code class=&quot;highlighter-rouge&quot;&gt;.border-top&lt;/code&gt;) and default to a solid 1px light gray border. Now it’s easier to quickly add all borders or a subset of borders to your components.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Our &lt;code class=&quot;highlighter-rouge&quot;&gt;$spacers&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;$sizes&lt;/code&gt; Sass maps have been updated to allow more customization the same way our color maps work. You can now add, remove, or replace all your key-value pairs consistently across our CSS. &lt;a href=&quot;https://getbootstrap.com/docs/4.0/getting-started/theming/&quot;&gt;Head to our Theming docs&lt;/a&gt; for more information and examples.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Added documentation to our Theming docs for using our provided &lt;a href=&quot;https://getbootstrap.com/docs/4.0/getting-started/theming/#css-variables&quot;&gt;CSS variables&lt;/a&gt; for those are living on the edge and don’t want to use Sass.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Added responsive &lt;code class=&quot;highlighter-rouge&quot;&gt;.order-0&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;.order-last&lt;/code&gt; classes for more control over the flexbox grid.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In addition, we’ve made plenty of improvements to reusing and extending variables and general code cleanup. But, that’s still not everything.&lt;/p&gt;
+
+&lt;h2 id=&quot;new-examples&quot;&gt;New examples&lt;/h2&gt;
+
+&lt;p&gt;Nearly every example has been overhauled for our stable v4 release. We’ve removed a couple outdated examples, added brand new ones, and really overhauled a few others.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://getbootstrap.com/docs/4.0/examples/&quot;&gt;&lt;img src=&quot;/assets/img/2018/01/examples.png&quot; alt=&quot;Bootstrap examples&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Here’s the rundown of changes to each:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;You’ve likely already seen our &lt;a href=&quot;https://getbootstrap.com/docs/4.0/examples/album/&quot;&gt;Album example&lt;/a&gt;, but it’s been updated for this release to include more content in our photo cards and improved mobile rendering.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://getbootstrap.com/docs/4.0/examples/pricing/&quot;&gt;Pricing&lt;/a&gt; is brand new with this release and is a fully custom page built with our utilities and card components. It’s responsive and easily extended.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://getbootstrap.com/docs/4.0/examples/checkout/&quot;&gt;Checkout&lt;/a&gt; is a brand new, extensive form example featuring all the best parts of our form layouts, validation styles, grid, and more.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://getbootstrap.com/docs/4.0/examples/product/&quot;&gt;Product&lt;/a&gt; is also new and is a cheeky riff on Apple-style marketing pages, largely built with only our utility classes. Don’t take it too seriously!&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://getbootstrap.com/docs/4.0/examples/blog/&quot;&gt;Blog&lt;/a&gt; has been rewritten from the ground up. Gone is the two column blue header layout. We’ve built a snarky magazine-style layout with featured posts and responsive navigation.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://getbootstrap.com/docs/4.0/examples/dashboard/&quot;&gt;Dashboard&lt;/a&gt; has been overhauled as well to feature a live ChartJS example, includes a refreshed sidebar with &lt;a href=&quot;https://feathericons.com/&quot;&gt;Feather icons&lt;/a&gt;, and is semi-responsive.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://getbootstrap.com/docs/4.0/examples/floating-labels/&quot;&gt;Floating labels&lt;/a&gt; is brand new and builds on our sign-in example to provide a CSS-only implementation of the floating input label. This one’s experimental and may see major changes before we bring it to Bootstrap proper.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Finally, &lt;a href=&quot;https://getbootstrap.com/docs/4.0/examples/offcanvas/&quot;&gt;Offcanvas&lt;/a&gt; has been rewritten from the ground up to show off a navbar-built drawer, horizontal scrolling navigation, and some custom lists built on &lt;a href=&quot;https://getbootstrap.com/docs/4.0/layout/media-object/&quot;&gt;media object&lt;/a&gt; and utilities.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://getbootstrap.com/docs/4.0/examples/cover/&quot;&gt;Cover&lt;/a&gt;, &lt;a href=&quot;https://getbootstrap.com/docs/4.0/examples/carousel/&quot;&gt;Carousel&lt;/a&gt;, &lt;a href=&quot;https://getbootstrap.com/docs/4.0/examples/sign-in/&quot;&gt;Sign-in&lt;/a&gt;, and our &lt;a href=&quot;https://getbootstrap.com/docs/4.0/examples/#framework&quot;&gt;framework examples&lt;/a&gt; only saw minor updates to improve code quality and fix a few smaller bugs. Overall this was a huge update for our examples and I’m excited to iterate on these and add more in future releases.&lt;/p&gt;
+
+&lt;h2 id=&quot;documenting-our-approach&quot;&gt;Documenting our approach&lt;/h2&gt;
+
+&lt;p&gt;New with v4 stable is a brief overview of some of the guiding principles behind why we do the things we do in Bootstrap. Our intent is to distill and document all the things we keep in our heads while writing code, building linters, and debugging. Much of this is focused on concepts and strategies for writing responsive CSS, using simple selectors, and limiting how much JavaScript one needs to write.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://getbootstrap.com/docs/4.0/extend/approach/&quot;&gt;Check out the new Approach page&lt;/a&gt;, and be sure to open an issue or pull request with feedback and suggestions on what else to cover.&lt;/p&gt;
+
+&lt;h2 id=&quot;known-issues&quot;&gt;Known issues&lt;/h2&gt;
+
+&lt;p&gt;No release fixes every bug, and the same can be said for our v4 stable release. Here’s some of the things that we’re looking to tackle first in either a minor release (v4.1) or a patch release (v4.0.1) as time and scope allow.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://github.com/twbs/bootstrap/issues/25110&quot;&gt;Input groups, validation, and rounded corners.&lt;/a&gt; I rewrote this for Beta 3 and I thought nailed it, but I was mistaken. We have some rounded corner issues and the only way we can fix them with CSS without breaking backward compatibility is by limiting how extensible the component can be made. We may need a modifier class to avoid some gnarly CSS and satisfy all the key functionality. Check out the issue and cross-linked PR for more details.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Table variants, in particular &lt;code class=&quot;highlighter-rouge&quot;&gt;.table-active&lt;/code&gt;, have a weird selector we’ve unintentionally left linger since prior releases. The bug results in &lt;a href=&quot;https://github.com/twbs/bootstrap/issues/24529&quot;&gt;double application of an &lt;code class=&quot;highlighter-rouge&quot;&gt;rgba()&lt;/code&gt; background color&lt;/a&gt;—once for the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;tr&amp;gt;&lt;/code&gt; and once for any &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;td&amp;gt;&lt;/code&gt;/&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;th&amp;gt;&lt;/code&gt; elements within.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There are a few more issues not yet confirmed or slated for our first patch release, but expect a handful of fixes coming your way before we hit the next minor release. We’ll likely also package up the default branch change for our repository in this next patch release. We didn’t have time to fit in testing a merge of a hugely divergent code base without nuking the entire Git history of v3. Again, more on that soon.&lt;/p&gt;
+
+&lt;h2 id=&quot;next-releases&quot;&gt;Next releases&lt;/h2&gt;
+
+&lt;p&gt;Speaking of releases, we’re excited about the momentum we have going for us. Our &lt;a href=&quot;https://github.com/twbs/bootstrap/projects&quot;&gt;GitHub project boards&lt;/a&gt; are mostly up to date on upcoming releases, so feel free to jump in and take a look. Our next release will be v4.1 (pending any bugfix patches) and will focus on a slew of small new features, utilities, responsive font sizes, and more. From there we have a couple more minor releases that rally around another group of features.&lt;/p&gt;
+
+&lt;p&gt;We aim to make RTL part of an upcoming minor release depending on overall scope. It’s taken us far too long to commit to this, but we’re on it. Our current plan is focused on implementing this into our build tools and components so you conditionally serve, for example, &lt;code class=&quot;highlighter-rouge&quot;&gt;bootstrap.min.css&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;bootstrap-rtl.min.css&lt;/code&gt;. Weigh in on the open issue please with any feedback; when we’re ready, we’ll tee up a fresh pull request with help from the community.&lt;/p&gt;
+
+&lt;p&gt;It’s worth reiterating that each minor release will bring a new hosted version of our documentation. Right now, we have &lt;code class=&quot;highlighter-rouge&quot;&gt;getbootstrap.com/docs/4.0/&lt;/code&gt; and come v4.1’s release, we’ll have that plus &lt;code class=&quot;highlighter-rouge&quot;&gt;getbootstrap.com/docs/4.1/&lt;/code&gt;. Prior releases will continue to be linked from our navigation as is already the case for v3.x and the last v4 alpha.&lt;/p&gt;
+
+&lt;h2 id=&quot;themes-update&quot;&gt;Themes update&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://themes.getbootstrap.com/&quot;&gt;Bootstrap Themes&lt;/a&gt; are getting a major update this year! We’ve been absolutely thrilled with the response since we originally launched Bootstrap Themes and we’re finally ready to share our plans for what’s next.&lt;/p&gt;
+
+&lt;p&gt;For the past few months, we’ve been working with some amazing theme creators to bring their awesome work to the Official Bootstrap Themes store. We couldn’t be more excited to announce we’re expanding Bootstrap Themes to include ten brand new themes. We’re currently targeting a first quarter launch with themes all built on Bootstrap 4 (sorry, no v3 for these). Depending on final reviews, we might even get them to y’all in the coming weeks.&lt;/p&gt;
+
+&lt;p&gt;So much of Bootstrap’s reach and usefulness comes directly from designers, developers, and creators all over the world building businesses with and on top of Bootstrap. We want to use our platform to give these creators an even larger audience and provide y’all with the best Bootstrap team-approved themes.&lt;/p&gt;
+
+&lt;p&gt;Stay tuned for more information as we get ready to launch.&lt;/p&gt;
+
+&lt;h2 id=&quot;thank-you&quot;&gt;Thank you&lt;/h2&gt;
+
+&lt;p&gt;Finally, one last thank you to everyone who’s contributed to Bootstrap 4. It’s been a crazy journey and I’m personally relieved, thrilled, and anxious to call it stable. There have been roughly 6,000 commits to v4 since we first starting working on it back in 2015. We’ve gone every which direction and rewrote far too many things far too many times, but I’m so very happy and fortunate with where we landed.&lt;/p&gt;
+
+&lt;p&gt;Cheers once again to everyone who’s contributed to and built with Bootstrap. It’s an honor to be building these kind of tools alongside and for all of you.&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;3,&lt;br /&gt;
+&lt;a href=&quot;https://twitter.com/mdo&quot;&gt;@mdo&lt;/a&gt; &amp;amp; &lt;a href=&quot;https://github.com/twbs&quot;&gt;team&lt;/a&gt;&lt;/p&gt;</content><author><name>{&quot;twitter&quot;=&gt;&quot;getbootstrap&quot;}</name></author><summary type="html">It’s literally taken us years to do it, but Bootstrap 4 has finally arrived! Words cannot begin to describe the elation the entire team and I have for this release, but I’ll do my best. Thank you to everyone, especially to the team, and to everyone who’s contributed code in a pull request or opened an issue. Thank you.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://blog.getbootstrap.com/assets/img/bootstrap-social.png" /></entry></feed>

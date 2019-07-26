@@ -1,0 +1,110 @@
+﻿FileName,FeedUrl,Title,WebUrl,Source
+_rss20-sample01,,,,RSS 2.0 Spec
+_rss20-sample02,,,,Custom made
+adamsitnik-com-feed,https://adamsitnik.com/feed.xml,Adam Sitnik,https://adamsitnik.com/,Inoreader OPML
+ajaxian-com-index,http://ajaxian.com/index.xml,Ajaxian » Front Page,http://ajaxian.com/,Inoreader OPML
+awesomepeoplehangingouttogether-tumblr-com-rss,http://awesomepeoplehangingouttogether.tumblr.com/rss,awesome people hanging out together,http://awesomepeoplehangingouttogether.tumblr.com/,Inoreader OPML
+blog-dropbox-com-feed,https://blog.dropbox.com/feed/,The Dropbox Blog,https://blog.dropbox.com/,Inoreader OPML
+blog-getbootstrap-com-feed,http://blog.getbootstrap.com/feed.xml,Bootstrap Blog,http://blog.getbootstrap.com/,Inoreader OPML
+blog-getseq-net-rss,http://blog.getseq.net/rss/,Seq Blog,http://blog.getseq.net/,Inoreader OPML
+blog-imgix-com-feed,https://blog.imgix.com/feed.xml,blog - imgix - Real-time image processing and image CDN,https://blog.imgix.com/,Inoreader OPML
+blog-marcgravell-com-feeds-posts-default,https://blog.marcgravell.com/feeds/posts/default,"Code, code and more code.",http://blog.marcgravell.com/,Inoreader OPML
+blog-medio-cz-feed,http://blog.medio.cz/feed,Medio Blog,http://blog.medio.cz/,Inoreader OPML
+blog-ploeh-dk-syndicationservice-asmx-getrss,http://blog.ploeh.dk/SyndicationService.asmx/GetRss,ploeh blog,http://blog.ploeh.dk/,Inoreader OPML
+blog-productdisrupt-com-feed,https://blog.productdisrupt.com/feed,Product Disrupt Blog - Medium,https://blog.productdisrupt.com/?source=rss----be650246a394---4,Inoreader OPML
+blog-samaltman-com-posts-atom,http://blog.samaltman.com/posts.atom,Sam Altman,http://blog.samaltman.com/,Inoreader OPML
+blog-schema-org-feeds-posts-default,http://blog.schema.org/feeds/posts/default,schema blog,http://blog.schema.org/,Inoreader OPML
+christianfindlay-com-feed,https://christianfindlay.com/feed/,Christian Findlay's Software Development,https://christianfindlay.com/,Inoreader OPML
+codeforcode-com-blog-format-rss,http://codeforcode.com/blog?format=rss,Code for Code,http://codeforcode.com/,Inoreader OPML
+codepen-io-spark-feed,https://codepen.io/spark/feed/,CodePen Spark Feed,https://codepen.io/spark,Inoreader OPML
+coderproverbs-tumblr-com-rss,http://coderproverbs.tumblr.com/rss,"One wise coder once said,",http://coderproverbs.tumblr.com/,Inoreader OPML
+connect-zive-cz-rss-ashx,http://connect.zive.cz/rss.ashx,Connect.cz,http://connect.zive.cz/,Inoreader OPML
+devopsreactions-tumblr-com-rss,http://devopsreactions.tumblr.com/rss,DevOps Reactions,http://devopsreactions.tumblr.com/,Inoreader OPML
+dominictarr-com-rss,http://dominictarr.com/rss,cyberhoboing with dominic tarr,http://dominictarr.com/,Inoreader OPML
+dontcodetired-com-blog-syndication-axd,http://dontcodetired.com/blog/syndication.axd,Don't Code Tired,http://dontcodetired.com/blog/,Inoreader OPML
+facebook-github-io-react-feed,http://facebook.github.io/react/feed.xml,React,http://facebook.github.io/react,Inoreader OPML
+feeds-baymard-com-baymard,http://feeds.baymard.com/baymard,Baymard Institute,http://baymard.com/,Inoreader OPML
+feeds-feedburner-com-basketcasecomix,http://feeds.feedburner.com/BasketcaseComix,basketcase comix,http://www.basketcasecomix.com/,Inoreader OPML
+feeds-feedburner-com-designmodo,http://feeds.feedburner.com/designmodo,DesignModo,http://designmodo.com/,Inoreader OPML
+feeds-feedburner-com-functioningform,http://feeds.feedburner.com/FunctioningForm,LukeW | Digital Product Design + Strategy,http://www.lukew.com/,Inoreader OPML
+feeds-feedburner-com-googleoperatingsystem,http://feeds.feedburner.com/GoogleOperatingSystem,Google Operating System,http://googlesystem.blogspot.com/,Inoreader OPML
+feeds-feedburner-com-hangfireio,http://feeds.feedburner.com/hangfireio,Hangfire,http://hangfire.io/,Inoreader OPML
+feeds-feedburner-com-lefthandedtoons-awesome,http://feeds.feedburner.com/lefthandedtoons/awesome,Left-Handed Toons,http://www.lefthandedtoons.com/,Inoreader OPML
+feeds-feedburner-com-lukas-zeman,http://feeds.feedburner.com/lukas-zeman,Lukáš Zeman,http://blog.proteus.cz/,Inoreader OPML
+feeds-feedburner-com-miroslavholec,https://feeds.feedburner.com/miroslavholec,"Miroslav Holec - Blog (MVC, Web API, AZURE)",https://www.miroslavholec.cz/blog,Inoreader OPML
+feeds-feedburner-com-mrmoneymustache,https://feeds.feedburner.com/mrmoneymustache,Mr. Money Mustache,http://www.mrmoneymustache.com/,Inoreader OPML
+feeds-feedburner-com-nikhilk,http://feeds.feedburner.com/nikhilk,Nikhil Kothari's Blog,http://www.nikhilk.net/,Inoreader OPML
+feeds-feedburner-com-odetocode,http://feeds.feedburner.com/OdeToCode,OdeToCode by K. Scott Allen,http://odetocode.com/,Inoreader OPML
+feeds-feedburner-com-poorlydrawnlines,http://feeds.feedburner.com/PoorlyDrawnLines,Poorly Drawn Lines,http://poorlydrawnlines.com/,Inoreader OPML
+feeds-feedburner-com-profimagazin,http://feeds.feedburner.com/profimagazin,"Profi Magazín - webdesign, ikony, jquery, Textpattern",http://www.profimagazin.cz/,Inoreader OPML
+feeds-feedburner-com-reflectiveperspective,http://feeds.feedburner.com/ReflectivePerspective,The Morning Brew,http://blog.cwa.me.uk/,Inoreader OPML
+feeds-feedburner-com-scotthanselman,http://feeds.feedburner.com/ScottHanselman,Scott Hanselman,http://www.hanselman.com/blog/,Inoreader OPML
+feeds-feedburner-com-uxm,http://feeds.feedburner.com/UXM?,UX Magazine,http://uxmag.com/uxm.xml,Inoreader OPML
+feeds-feedburner-com-vsemiosmi,http://feeds.feedburner.com/vsemiosmi,Všemi osmi,http://vsemiosmi.blogspot.com/,Inoreader OPML
+feeds-feedburner-com-webdesignerwall,http://feeds.feedburner.com/WebDesignerWall,Web Designer Wall - Design Trends and Tutorials,http://webdesignerwall.com/,Inoreader OPML
+feeds-feedburner-com-wulffmorgenthaler,http://feeds.feedburner.com/wulffmorgenthaler,wulffmorgenthaler,http://kindofnormal.com/wumo,Inoreader OPML
+feeds-feedburner-com-zenpencils,http://feeds.feedburner.com/zenpencils,ZEN PENCILS,http://zenpencils.com/,Inoreader OPML
+feeds-haacked-com-haacked,http://feeds.haacked.com/haacked/,you've been HAACKED,http://haacked.com/,Inoreader OPML
+feeds2-feedburner-com-coolthingoftheday,http://feeds2.feedburner.com/coolthingoftheday,Greg's Cool [Insert Clever Name] of the Day,http://coolthingoftheday.blogspot.com/,Inoreader OPML
+feeds2-feedburner-com-robcottinghamcartoons,http://feeds2.feedburner.com/RobCottinghamCartoons,Noise to Signal,http://www.robcottingham.ca/cartoon,Inoreader OPML
+feeds2-feedburner-com-tympanus,http://feeds2.feedburner.com/tympanus,Codrops,http://tympanus.net/codrops,Inoreader OPML
+html456-blogspot-com-feeds-posts-default,http://html456.blogspot.com/feeds/posts/default,HTML 4 5 6...,http://html456.blogspot.com/,Inoreader OPML
+ideje-cz-cz-rss,http://ideje.cz/cz/rss,Ideje.cz : vědecko-populární internetový časopis,http://www.ideje.cz/,Inoreader OPML
+j2kun-svbtle-com-feed,http://j2kun.svbtle.com/feed,Jeremy Kun,http://j2kun.svbtle.com/,Inoreader OPML
+jablickar-cz-feed,http://jablickar.cz/feed/,Jablíčkář.cz,http://jablickar.cz/,Inoreader OPML
+jvns-ca-atom,http://jvns.ca/atom.xml,Julia Evans,http://jvns.ca/,Inoreader OPML
+kahi-cz-blog-feed,http://kahi.cz/blog/feed,Kahi's mindprint,http://kahi.cz/blog,Inoreader OPML
+lyricsquote-com-rss,http://lyricsquote.com/rss,Lyrics Quote,http://lyricsquote.com/,Inoreader OPML
+mattwarren-org-atom,https://mattwarren.org/atom.xml,Performance is a Feature!,http://www.mattwarren.org/,Inoreader OPML
+medium-com-feed-@drboolean,https://medium.com/feed/@drboolean,Brian Lonsdorf on Medium,https://medium.com/@drboolean?source=rss-a3129fead82b------2,Inoreader OPML
+medium-com-feed-@jakubgarfield,https://medium.com/feed/@jakubgarfield,Stories by Jakub Chodounsky on Medium,https://medium.com/@jakubgarfield?source=rss-1c7c2d4e77f7------2,Inoreader OPML
+medium-com-feed-@jose-rosario,https://medium.com/feed/@jose.rosario,Stories by José Rosário on Medium,https://medium.com/@jose.rosario?source=rss-517e1070243c------2,Inoreader OPML
+medium-com-feed-stack-overflow-design,https://medium.com/feed/stack-overflow-design,Stack Overflow Design - Medium,https://medium.com/stack-overflow-design?source=rss----97551a86d458---4,Inoreader OPML
+michaelscodingspot-com-feed,https://michaelscodingspot.com/feed/,Michael's Coding Spot,https://michaelscodingspot.com/,Inoreader OPML
+myego-cz-feed-rss2-blog-welldone,http://myego.cz/feed/rss2/blog/welldone,Radek Hulán - oficiální web,http://myego.cz/blog/welldone,Inoreader OPML
+news-ycombinator-com-rss,http://news.ycombinator.com/rss,Hacker News,https://news.ycombinator.com/,Inoreader OPML
+nickcraver-com-blog-feed,https://nickcraver.com/blog/feed.xml,Nick Craver,http://nickcraver.com/blog,Inoreader OPML
+nodejsreactions-tumblr-com-rss,http://nodejsreactions.tumblr.com/rss,Node.js Reactions,http://nodejsreactions.tumblr.com/,Inoreader OPML
+notch-tumblr-com-rss,http://notch.tumblr.com/rss,The Word of Notch,http://notch.tumblr.com/,Inoreader OPML
+one1more2time3-wordpress-com-feed,http://one1more2time3.wordpress.com/feed/,One1more2time3's Weblog,http://one1more2time3.wordpress.com/,Inoreader OPML
+pabi3-com-blog-rss,http://pabi3.com/blog/rss.xml,PaBi3 Weblog,http://pabi3.com/blog/rss.xml,Inoreader OPML
+paulstraw-svbtle-com-feed,http://paulstraw.svbtle.com/feed,Paul Straw,http://paulstraw.svbtle.com/,Inoreader OPML
+pbfcomics-com-feed-feed,http://pbfcomics.com/feed/feed.xml,The Perry Bible Fellowship,http://pbfcomics.com/feed/feed.xml,Inoreader OPML
+phpfashion-com-feed-rss,https://phpfashion.com/feed/rss,phpFashion,http://phpfashion.com/,Inoreader OPML
+pixy-cz-pixynergia-feed,http://pixy.cz/pixynergia/feed/,Pixynergia,http://pixy.cz/pixynergia,Inoreader OPML
+prigl-cz-feed,http://prigl.cz/feed/,Prigl,http://prigl.cz/,Inoreader OPML
+programovani-tumblr-com-rss,http://programovani.tumblr.com/rss,Programování,http://programovani.tumblr.com/,Inoreader OPML
+rebus-fm-feed,https://rebus.fm/feed/,rebus.fm,https://rebus.fm/,Inoreader OPML
+security-portal-cz-rss,http://security-portal.cz/rss.xml,Security-Portal.cz,http://security-portal.cz/,Inoreader OPML
+theoatmeal-com-feed-rss,http://theoatmeal.com/feed/rss,"The Oatmeal - Comics, Quizzes, & Stories",http://theoatmeal.com/,Inoreader OPML
+tonsky-me-blog-atom,http://tonsky.me/blog/atom.xml,tonsky.me,http://tonsky.me/,Inoreader OPML
+tooslowexception-com-feed,http://tooslowexception.com/feed/,TooSlowException,http://tooslowexception.com/,Inoreader OPML
+twitrss-me-mobile-twitter-to-rss-user-davidgrudl-replies-on,https://twitrss.me/mobile_twitter_to_rss/?user=davidgrudl&replies=on,Twitter Search / davidgrudl,https://twitter.com/davidgrudl,Inoreader OPML
+twitrss-me-mobile-twitter-to-rss-user-iamdevloper,https://twitrss.me/mobile_twitter_to_rss/?user=iamdevloper,Twitter Search / iamdevloper,https://twitter.com/iamdevloper,Inoreader OPML
+twitrss-me-mobile-twitter-to-rss-user-internetofshit,https://twitrss.me/mobile_twitter_to_rss/?user=internetofshit,Twitter Search / internetofshit,https://twitter.com/internetofshit,Inoreader OPML
+twitrss-me-mobile-twitter-to-rss-user-motvicka-replies-on,https://twitrss.me/mobile_twitter_to_rss/?user=motvicka&replies=on,Twitter Search / motvicka,https://twitter.com/motvicka,Inoreader OPML
+twitrss-me-mobile-twitter-to-rss-user-richhickey-replies-on,https://twitrss.me/mobile_twitter_to_rss/?user=richhickey&replies=on,Twitter Search / richhickey,https://twitter.com/richhickey,Inoreader OPML
+viry-cz-rss-php,http://viry.cz/rss.php,VIRY.CZ - Igiho stránka o virech,http://www.viry.cz/,Inoreader OPML
+waitbutwhy-com-feed,http://waitbutwhy.com/feed,Wait But Why,http://waitbutwhy.com/,Inoreader OPML
+weblogs-asp-net-scottgu-rss-aspx,http://weblogs.asp.net/scottgu/rss.aspx,ScottGu's Blog,http://weblogs.asp.net/scottgu/,Inoreader OPML
+what-if-xkcd-com-feed-atom,http://what-if.xkcd.com/feed.atom,What If?,http://what-if.xkcd.com/feed.atom,Inoreader OPML
+www-bugemos-com-q-rss,http://www.bugemos.com/?q=rss.xml,Buridanův geneticky modifikovaný osel,http://www.bugemos.com/,Inoreader OPML
+www-businesscat-happyjar-com-feed,http://www.businesscat.happyjar.com/feed/,The Adventures of Business Cat,http://www.businesscat.happyjar.com/,Inoreader OPML
+www-commitstrip-com-en-feed,http://www.commitstrip.com/en/feed/,CommitStrip - Blog relating the daily life of web agencies developers,http://www.commitstrip.com/,Inoreader OPML
+www-fakturoid-cz-blog-rss,https://www.fakturoid.cz/blog/rss,Fakturoid blog,https://www.fakturoid.cz/blog,Inoreader OPML
+www-latrine-cz-feed-rss,http://www.latrine.cz/feed/rss,La Trine,http://www.latrine.cz/,Inoreader OPML
+www-mediamonkey-com-news-feed,http://www.mediamonkey.com/news/feed/,MediaMonkey News,http://www.mediamonkey.com/news,Inoreader OPML
+www-michalspacek-cz-exporty-clanky,https://www.michalspacek.cz/exporty/clanky,Michal Špaček: Všechny články,https://www.michalspacek.cz/exporty/clanky,Inoreader OPML
+www-recombinantrecords-net-feed,http://www.recombinantrecords.net/feed/,Recombinant Records,http://www.recombinantrecords.net/,Inoreader OPML
+www-reddit-com-rss-feed-4bf8806052eda8ac0389a137933bf2ce8e119ac5-user-tompazourek,https://www.reddit.com/.rss?feed=4bf8806052eda8ac0389a137933bf2ce8e119ac5&user=tompazourek,reddit (personal feed),https://www.reddit.com/,Inoreader OPML
+www-seoblog-cz-feed,http://www.seoblog.cz/feed/,SEO Blog,http://www.seoblog.cz/,Inoreader OPML
+www-soom-cz-rss-clanky,http://www.soom.cz/rss/clanky.xml,SOOM.cz - Články,http://www.soom.cz/,Inoreader OPML
+www-soom-cz-rss-newsreel,http://www.soom.cz/rss/newsreel.xml,SOOM.cz - Aktuality,http://www.soom.cz/,Inoreader OPML
+www-tabsoverspaces-com-feed,https://www.tabsoverspaces.com/feed.xml,tabs ↹ over ␣ ␣ ␣ spaces by Jiří {x2} Činčura,https://www.tabsoverspaces.com/,Inoreader OPML
+www-theitcrowd-cz-rss-php,http://www.theitcrowd.cz/rss.php,The IT Crowd - Novinky,http://www.theitcrowd.cz/,Inoreader OPML
+www-typewolf-com-blog-feed,https://www.typewolf.com/blog/feed,Typewolf Blog,https://www.typewolf.com/blog,Inoreader OPML
+www-wug-cz-rss-zaznamy,https://www.wug.cz/rss/zaznamy,WUG Česká republika - Záznamy,http://www.wug.cz/,Inoreader OPML
+xkcd-com-rss,http://xkcd.com/rss.xml,xkcd.com,http://xkcd.com/,Inoreader OPML
+zdrojak-root-cz-rss-clanky,http://zdrojak.root.cz/rss/clanky/,Zdroják - články,http://www.zdrojak.cz/,Inoreader OPML
+zdrojak-root-cz-rss-zpravicky,http://zdrojak.root.cz/rss/zpravicky/,Zdroják - zprávičky,http://www.zdrojak.cz/,Inoreader OPML
+zkusenosti-gug-cz-feeds-posts-default,http://zkusenosti.gug.cz/feeds/posts/default,"GUG.cz: Zážitky, tipy a bleskovky na téma Google",http://zkusenosti.gug.cz/,Inoreader OPML

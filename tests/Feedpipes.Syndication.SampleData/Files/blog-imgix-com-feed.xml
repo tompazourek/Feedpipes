@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>imgix blog | Real-time image processing and image CDN</title>
+    <description>imgix is a real-time image processing service and CDN. This is our blog.</description>
+    <link>https://blog.imgix.com/</link>
+    <atom:link href="https://blog.imgix.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 17 Jul 2019 13:19:38 UTC</pubDate>
+    <lastBuildDate>Wed, 17 Jul 2019 13:19:38 UTC</lastBuildDate>
+    
+      <item>
+        <title>Aspect Ratio Parameter Makes Cropping Even Easier</title>
+        <description>Our new, convenient ar parameter allows you to resize and crop images simply by specifying an aspect ratio.</description>
+        <pubDate>Wed, 17 Jul 2019 15:26:00 UTC</pubDate>
+        <link>https://blog.imgix.com/2019/07/17/aspect-ratio-parameter-makes-cropping-even-easier</link>
+        <guid isPermaLink="true">https://blog.imgix.com/2019/07/17/aspect-ratio-parameter-makes-cropping-even-easier</guid>
+        
+          <category>aspect ratio</category>
+        
+          <category>cropping</category>
+        
+          <category>design</category>
+        
+          <category>developer tools</category>
+        
+        <category>tutorial</category>
+      </item>
+    
+      <item>
+        <title>New Duotone Parameter Expands Stylistic Possibilities</title>
+        <description>Our latest feature, duotone, is a striking artistic effect that can also be used to great advantage in branding and creating a unified feel across images.</description>
+        <pubDate>Thu, 20 Jun 2019 18:00:00 UTC</pubDate>
+        <link>https://blog.imgix.com/2019/06/20/new-duotone-parameter-expands-stylistic-possibilities</link>
+        <guid isPermaLink="true">https://blog.imgix.com/2019/06/20/new-duotone-parameter-expands-stylistic-possibilities</guid>
+        
+          <category>art direction</category>
+        
+          <category>design</category>
+        
+          <category>developer tools</category>
+        
+          <category>features</category>
+        
+          <category>image composition</category>
+        
+          <category>image enhancement</category>
+        
+          <category>news item</category>
+        
+          <category>text overlay</category>
+        
+        <category>tutorial</category>
+      </item>
+    
+      <item>
+        <title>Deprecating Domain Sharding in the Era of HTTP/2</title>
+        <description>In keeping with best practices, imgix has decided to deprecate domain sharding from its core libraries.</description>
+        <pubDate>Fri, 03 May 2019 18:00:00 UTC</pubDate>
+        <link>https://blog.imgix.com/2019/05/03/deprecating-domain-sharding</link>
+        <guid isPermaLink="true">https://blog.imgix.com/2019/05/03/deprecating-domain-sharding</guid>
+        
+          <category>developer tools</category>
+        
+          <category>website performance</category>
+        
+        <category>announcement</category>
+      </item>
+    
+      <item>
+        <title>Introducing imgix Partners</title>
+        <description>Introducing the imgix Partners Page, a list of trusted companies to help you with your image optimization needs.</description>
+        <pubDate>Thu, 18 Apr 2019 18:00:00 UTC</pubDate>
+        <link>https://blog.imgix.com/2019/04/18/introducing-imgix-partners</link>
+        <guid isPermaLink="true">https://blog.imgix.com/2019/04/18/introducing-imgix-partners</guid>
+        
+          <category>design</category>
+        
+          <category>e-commerce</category>
+        
+          <category>developer tools</category>
+        
+          <category>news item</category>
+        
+          <category>webapp</category>
+        
+          <category>website performance</category>
+        
+        <category>customer-success</category>
+      </item>
+    
+      <item>
+        <title>How to Build the Perfect E-Commerce Image Server</title>
+        <description>A tutorial on how to build an image server that’s simple, powerful, and SEO-friendly, by the founder of Commerce Layer.</description>
+        <pubDate>Tue, 26 Mar 2019 17:00:00 UTC</pubDate>
+        <link>https://blog.imgix.com/2019/03/26/how-to-build-the-perfect-e-commerce-image-server</link>
+        <guid isPermaLink="true">https://blog.imgix.com/2019/03/26/how-to-build-the-perfect-e-commerce-image-server</guid>
+        
+          <category>e-commerce</category>
+        
+          <category>guest post</category>
+        
+          <category>image compression</category>
+        
+          <category>image optimization</category>
+        
+          <category>image quality</category>
+        
+          <category>website performance</category>
+        
+        <category>tutorial</category>
+      </item>
+    
+      <item>
+        <title>Google Sign-In Now Available</title>
+        <description>imgix users can now access the Dashboard using Google Sign-In.</description>
+        <pubDate>Thu, 07 Mar 2019 17:00:00 UTC</pubDate>
+        <link>https://blog.imgix.com/2019/03/07/google-sign-in-now-available</link>
+        <guid isPermaLink="true">https://blog.imgix.com/2019/03/07/google-sign-in-now-available</guid>
+        
+          <category>account</category>
+        
+          <category>features</category>
+        
+          <category>news item</category>
+        
+          <category>security</category>
+        
+        <category>announcement</category>
+      </item>
+    
+      <item>
+        <title>A New Extension Brings imgix&#39;s Image Processing Power to the Cosmic JS CMS</title>
+        <description>Cosmic JS&#39;s new visual editor allows users to access imgix&#39;s image processing capabilities from the Cosmic JS dashboard</description>
+        <pubDate>Mon, 25 Feb 2019 17:00:00 UTC</pubDate>
+        <link>https://blog.imgix.com/2019/02/25/a-new-extension-brings-imgixs-processing-power</link>
+        <guid isPermaLink="true">https://blog.imgix.com/2019/02/25/a-new-extension-brings-imgixs-processing-power</guid>
+        
+          <category>case study</category>
+        
+          <category>design</category>
+        
+          <category>developer tools</category>
+        
+          <category>guest post</category>
+        
+        <category>customer-success</category>
+      </item>
+    
+      <item>
+        <title>Lose Some Page Weight: Optimizing Your Website&#39;s Image Performance</title>
+        <description>Utilize browser dev and other tools to optimize your images and reduce page weight.</description>
+        <pubDate>Mon, 11 Feb 2019 18:00:00 UTC</pubDate>
+        <link>https://blog.imgix.com/2019/02/11/lose-some-page-weight</link>
+        <guid isPermaLink="true">https://blog.imgix.com/2019/02/11/lose-some-page-weight</guid>
+        
+          <category>e-commerce</category>
+        
+          <category>website performance</category>
+        
+          <category>developer tools</category>
+        
+          <category>image compression</category>
+        
+          <category>image enhancement</category>
+        
+          <category>image optimization</category>
+        
+          <category>image quality</category>
+        
+          <category>user-generated content</category>
+        
+        <category>tutorial</category>
+      </item>
+    
+      <item>
+        <title>New Blur Parameter Offers Fresh Possibilities in Fit Mode</title>
+        <description>Fill excess space in resized images with solid color or blurred version of image.</description>
+        <pubDate>Mon, 01 Oct 2018 18:00:00 UTC</pubDate>
+        <link>https://blog.imgix.com/2018/10/01/new-blur-parameter</link>
+        <guid isPermaLink="true">https://blog.imgix.com/2018/10/01/new-blur-parameter</guid>
+        
+          <category>e-commerce</category>
+        
+          <category>vector images</category>
+        
+          <category>features</category>
+        
+          <category>news item</category>
+        
+        <category>tutorial</category>
+      </item>
+    
+      <item>
+        <title>Update to the imgix Privacy Policy</title>
+        <description>An updated Privacy Policy will go into effect May 25, 2018</description>
+        <pubDate>Fri, 25 May 2018 15:20:00 UTC</pubDate>
+        <link>https://blog.imgix.com/2018/05/25/privacy-policy-update</link>
+        <guid isPermaLink="true">https://blog.imgix.com/2018/05/25/privacy-policy-update</guid>
+        
+          <category>news item</category>
+        
+        <category>announcement</category>
+      </item>
+    
+  </channel>
+</rss>

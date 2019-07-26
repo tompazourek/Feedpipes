@@ -5,7 +5,7 @@ using System.Text;
 using System.Xml;
 using Feedpipes.Syndication.Rss20;
 using Feedpipes.Syndication.Rss20.Entities;
-using Feedpipes.Syndication.Tests.Data;
+using Feedpipes.Syndication.SampleData;
 using Xunit;
 
 namespace Feedpipes.Syndication.Tests
@@ -14,7 +14,7 @@ namespace Feedpipes.Syndication.Tests
     {
         [Theory]
         [ClassData(typeof(ParseAndFormatData))]
-        public void ParseAndFormat(EmbeddedXDocumentTestData embeddedDocument)
+        public void ParseAndFormat(SampleFeed embeddedDocument)
         {
             // arrange
             var document1 = embeddedDocument.Document;
@@ -45,18 +45,18 @@ namespace Feedpipes.Syndication.Tests
             }
         }
 
-        public class ParseAndFormatData : EmbeddedXDocumentClassDataBase
+        public class ParseAndFormatData : SampleFeedTestsClassDataBase
         {
             public override IEnumerable<string> XmlFileNames => new[]
             {
-                "rss20-sample01.xml",
-                "rss20-sample02.xml",
+                "_rss20-sample01",
+                "_rss20-sample02",
             };
         }
 
         [Theory]
         [ClassData(typeof(ParseWithoutCrashingData))]
-        public void ParseWithoutCrashing(EmbeddedXDocumentTestData embeddedDocument)
+        public void ParseWithoutCrashing(SampleFeed embeddedDocument)
         {
             // arrange
             var document = embeddedDocument.Document;
@@ -69,15 +69,15 @@ namespace Feedpipes.Syndication.Tests
             Assert.True(tryParseResult);
         }
 
-        public class ParseWithoutCrashingData : EmbeddedXDocumentClassDataBase
+        public class ParseWithoutCrashingData : SampleFeedTestsClassDataBase
         {
             public override IEnumerable<string> XmlFileNames => new[]
             {
-                "rss20-blog-datalust-20190726.xml",
-                "rss20-morningbrew-20190726.xml",
-                "rss20-rebus-fm-20190726.xml",
-                "rss20-sample01.xml",
-                "rss20-sample02.xml",
+                "blog-getseq-net-rss",
+                "feeds-feedburner-com-reflectiveperspective",
+                "rebus-fm-feed",
+                "_rss20-sample01",
+                "_rss20-sample02",
             };
         }
 

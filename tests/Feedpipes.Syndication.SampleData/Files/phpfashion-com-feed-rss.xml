@@ -1,0 +1,1592 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="https://phpfashion.com/assets/css/rss.css"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<channel>
+	<title>phpFashion</title>
+	<link>https://phpfashion.com/</link>
+	<language>cs</language>
+	<category>blog</category>
+	<docs>http://backend.userland.com/rss</docs>
+	<image>
+		<url>https://phpfashion.com/assets/img/logo.gif</url>
+		<title>phpFashion</title>
+		<link>https://phpfashion.com/</link>
+	</image>
+	<atom:link rel="self" href="https://phpfashion.com/feed/rss" type="application/rss+xml" />
+
+	<item>
+		<title>Typed properties v PHP 7.4 jsou cool, ale ne jak si myslíte 😏</title>
+		<link>https://phpfashion.com/typed-properties-v-php-7-4-jsou-cool-ale-ne-jak-si-myslite</link>
+		<description>Po dvou verzích PHP, které nepřinesly nic moc zajímavého, se blíží
+verze, pro kterou bude mít opět smysl aktualizovat knihovny. Jde o PHP 7.4 a
+hlavním tahákem jsou typed properties, které
+uzavírají mnohaletý posun ke striktně typovanému jazyku, což PHP
+zvýhodňuje oproti jiným webovým jazykům.
+
+Ve zkratce, tahle novinka vám umožní deklarovat typy přímo
+u proměnných třídy:
+
+class Config
+{
+    public string $dsn;
+    public ?string $user;
+    public ?string $password;
+    public bool $debugger = true;
+}
+
+Příklad použití najdete i v dokumentaci
+Nette Schema, které je na ně už dnes připravené.
+
+Je potřeba říct, že pokud jste si navykli používat privátní
+proměnné a přistupovat k nim přes typehintované metody (což je
+správně), tak vlastně o žádnou killer feature nejde. Druhotná kontrola
+typů je zbytečná a vlastně jen zpomaluje kód. Diametrálně jiná situace
+se týká public/protected proměnných, kde dosud neexistoval žádný způsob,
+jak mít jejich hodnotu (a dokonce existenci) pod kontrolou. Až dosud.
+
+Což nevyhnutelně povede k otázce:
+
+Je nutné dál psát settery a
+gettery?
+
+Sice veškerý boilerplate kód nám dnes na kliknutí generují editory, ale
+určitě vypadá hezky, když tohle:
+
+class Circle
+{
+    private $radius;
+
+    function setRadius(float $val)
+    {
+        $this-&amp;gt;radius = $val;
+    }
+
+    function getRadius(): float
+    {
+        return $this-&amp;gt;radius;
+    }
+}
+
+nahradíte za:
+
+class Circle
+{
+    public float $radius;
+}
+
+Nehledě na to, že i užití objektu je stručnější
+$circle-&amp;gt;radius = $x vs
+$circle-&amp;gt;setRadius($x).
+
+Problém ale je, že velkou spoustu setterů a getterů nelze jednoduše
+nahradit. Třeba zrovna v uvedeném příkladu by se hodilo ještě ověřit,
+že poloměr není záporné číslo:
+
+function setRadius(float $val)
+{
+    if ($val &amp;lt; 0) {
+        throw new InvalidArgumentException;
+    }
+    $this-&amp;gt;radius = $val;
+}
+
+A v ten moment už nelze kód zredukovat do veřejné proměnné.
+
+Jindy zase chceme, aby jednou nastavená hodnota byla neměnná, což nelze
+u public proměnné zajistit.
+
+Nebo vůbec nechceme dávat k dispozici getter, protože nepatří do
+veřejného API třídy.
+
+Anebo chceme mít setter či getter součástí rozhraní.
+
+Atd, atd.
+
+Zkrátka někdy bude možné použít typované veřejné proměnné místo
+metod, jindy ne, rozdíl bude dost často otázkou vnitřní implementace
+třídy a pro uživatele neprůhledný. Což je cesta v nekonzistentnímu API,
+kdy jednou se používá proměnná, jindy metoda a uživatel v tom nevidí
+logiku. (Podobně jako třeba metoda PDOStatement::errorInfo() vs.
+proměnná PDOException::$errorInfo).
+
+Prohlubování nekonzistence ale nechceš. Raději konzistentní setrvání
+u metod, privátních proměnných a všeho toho boilerplate kódu. A pro
+privátní proměnné, jak jsem zmiňoval v úvodu, je přínos typehintů
+sporný. Nebo ne?
+
+V čem je tedy výhoda?
+
+Vlastně je výhod dost, i když v jiných oblastech. Typované proměnné
+budou užitečné pro kompilátor kvůli optimalizacím, pro práci s reflexí
+nebo nástroje analyzující kód. Důležité budou v šedé zóně protected
+proměnných. Umožňují zapsat prostředky jazyka to, co se dosud obcházelo
+komentářem. A navíc přinášejí do jazyka nový příznak neinicializovaného
+stavu, jakousi obdobu undefined z JavaScriptu.
+</description>
+		<content:encoded><![CDATA[
+		<p>Po dvou verzích PHP, které nepřinesly nic moc zajímavého, se blíží
+verze, pro kterou bude mít opět smysl aktualizovat knihovny. Jde o PHP 7.4 a
+hlavním tahákem jsou <a
+href="https://wiki.php.net/rfc/typed_properties_v2">typed properties</a>, které
+uzavírají mnohaletý posun ke striktně typovanému jazyku, což PHP
+zvýhodňuje oproti jiným webovým jazykům.</p>
+
+<p>Ve zkratce, tahle novinka vám umožní deklarovat typy přímo
+u proměnných třídy:</p>
+
+<pre class="src-php"><code><span
+class="php-keyword1">class</span> Config
+{
+    <span
+class="php-keyword1">public</span> string <span
+class="php-var">$dsn</span>;
+    <span
+class="php-keyword1">public</span> ?string <span
+class="php-var">$user</span>;
+    <span
+class="php-keyword1">public</span> ?string <span
+class="php-var">$password</span>;
+    <span
+class="php-keyword1">public</span> bool <span
+class="php-var">$debugger</span> = <span
+class="php-keyword1">true</span>;
+}</code></pre>
+
+<p><em>Příklad použití najdete i v <a
+href="https://doc.nette.org/cs/3.0/schema#toc-mapovani-dat-na-objekty">dokumentaci
+Nette Schema</a>, které je na ně už dnes připravené.</em></p>
+
+<p>Je potřeba říct, že pokud jste si navykli používat privátní
+proměnné a přistupovat k nim přes typehintované metody (což je
+správně), tak vlastně o žádnou killer feature nejde. Druhotná kontrola
+typů je zbytečná a vlastně jen zpomaluje kód. Diametrálně jiná situace
+se týká public/protected proměnných, kde dosud neexistoval žádný způsob,
+jak mít jejich hodnotu (a dokonce existenci) pod kontrolou. Až dosud.</p>
+
+<p>Což nevyhnutelně povede k otázce:</p>
+
+<h2 id="toc-je-nutne-dal-psat-settery-a-gettery">Je nutné dál psát settery a
+gettery?</h2>
+
+<p>Sice veškerý boilerplate kód nám dnes na kliknutí generují editory, ale
+určitě vypadá hezky, když tohle:</p>
+
+<pre class="src-php"><code><span
+class="php-keyword1">class</span> Circle
+{
+    <span
+class="php-keyword1">private</span> <span
+class="php-var">$radius</span>;
+
+    <span
+class="php-keyword1">function</span> setRadius(float <span
+class="php-var">$val</span>)
+    {
+        <span
+class="php-var">$this</span>-&gt;radius = <span
+class="php-var">$val</span>;
+    }
+
+    <span
+class="php-keyword1">function</span> getRadius(): float
+    {
+        <span
+class="php-keyword1">return</span> <span
+class="php-var">$this</span>-&gt;radius;
+    }
+}</code></pre>
+
+<p>nahradíte za:</p>
+
+<pre class="src-php"><code><span
+class="php-keyword1">class</span> Circle
+{
+    <span
+class="php-keyword1">public</span> float <span
+class="php-var">$radius</span>;
+}</code></pre>
+
+<p>Nehledě na to, že i užití objektu je stručnější
+<code>$circle-&gt;radius = $x</code> vs
+<code>$circle-&gt;setRadius($x)</code>.</p>
+
+<p>Problém ale je, že velkou spoustu setterů a getterů nelze jednoduše
+nahradit. Třeba zrovna v uvedeném příkladu by se hodilo ještě ověřit,
+že poloměr není záporné číslo:</p>
+
+<pre class="src-php"><code><span
+class="php-keyword1">function</span> setRadius(float <span
+class="php-var">$val</span>)
+{
+    <span class="php-keyword1">if</span> (<span
+class="php-var">$val</span> &lt; <span class="php-num">0</span>) {
+        <span
+class="php-keyword1">throw</span> <span
+class="php-keyword1">new</span> InvalidArgumentException;
+    }
+    <span
+class="php-var">$this</span>-&gt;radius = <span
+class="php-var">$val</span>;
+}</code></pre>
+
+<p>A v ten moment už nelze kód zredukovat do veřejné proměnné.</p>
+
+<p>Jindy zase chceme, aby jednou nastavená hodnota byla neměnná, což nelze
+u public proměnné zajistit.</p>
+
+<p>Nebo vůbec nechceme dávat k dispozici getter, protože nepatří do
+veřejného API třídy.</p>
+
+<p>Anebo chceme mít setter či getter součástí rozhraní.</p>
+
+<p>Atd, atd.</p>
+
+<p>Zkrátka někdy bude možné použít typované veřejné proměnné místo
+metod, jindy ne, rozdíl bude dost často otázkou vnitřní implementace
+třídy a pro uživatele neprůhledný. Což je cesta v nekonzistentnímu API,
+kdy jednou se používá proměnná, jindy metoda a uživatel v tom nevidí
+logiku. (Podobně jako třeba metoda <code>PDOStatement::errorInfo()</code> vs.
+proměnná <code>PDOException::$errorInfo</code>).</p>
+
+<p>Prohlubování nekonzistence ale nechceš. Raději konzistentní setrvání
+u metod, privátních proměnných a všeho toho boilerplate kódu. A pro
+privátní proměnné, jak jsem zmiňoval v úvodu, je přínos typehintů
+sporný. Nebo ne?</p>
+
+<h2 id="toc-v-cem-je-tedy-vyhoda">V čem je tedy výhoda?</h2>
+
+<p>Vlastně je výhod dost, i když v jiných oblastech. Typované proměnné
+budou užitečné pro kompilátor kvůli optimalizacím, pro práci s reflexí
+nebo nástroje analyzující kód. Důležité budou v šedé zóně protected
+proměnných. Umožňují zapsat prostředky jazyka to, co se dosud obcházelo
+komentářem. A navíc přinášejí do jazyka nový příznak <a
+href="https://wiki.php.net/rfc/typed_properties_v2#uninitialized_and_unset_properties">neinicializovaného
+stavu</a>, jakousi obdobu <code>undefined</code> z JavaScriptu.</p>
+
+		]]></content:encoded>
+		<comments>https://phpfashion.com/typed-properties-v-php-7-4-jsou-cool-ale-ne-jak-si-myslite#comments</comments>
+		<pubDate>Sun, 14 Jul 2019 15:52:43 +0200</pubDate>
+		<guid isPermaLink="false">item1305@http://phpfashion.com</guid>
+	</item>
+	<item>
+		<title>Texy 3.0: do dokonalosti se nezasahuje</title>
+		<link>https://phpfashion.com/texy-3-0-do-dokonalosti-se-nezasahuje</link>
+		<description>Něco jako když zahlédnete plakát ke koncertu kapely, kterou
+si vybavujete z mládí. Oni stále hrají? Nebo se dali dohromady po letech,
+protože potřebují peníze? Něco vyždímat na strunách nostalgie?
+
+
+
+Texy je můj první open source projekt. Začal jsem ho psát před patnácti lety.
+Texy přežilo několik verzovacích systémů. Několik webových služeb
+hostujících repositáře. Několik kódování řetězců. Několik
+značkovacích jazyků pro tvorbu webových stránek. Několik mých životních
+vztahů. Několik měst, ve kterých jsem bydlel.
+
+Texy je tady stále, protože neexistuje nic
+lepšího.
+
+Takže jej patnáct let udržuji up-to-date. Začínali jsme v PHP 4, což
+byl ten nejhorší programovací jazyk na světě a tedy výzva, pak s úlevou
+přešli na PHP 5, o pár let později se ukryli do jmenného prostoru
+(Texy::Parser místo TexyParser, wow), sledovali, jak
+PHP přestávalo být nejhorším jazykem na světě, což otrávilo spoustu
+programátorů, kteří si našli náhradu v JavaScriptu, poté bůh stvořil
+PHP 7 a s ním typehinty (Texy::process(string $text): string
+megawow) a do módy přišla striktnost declare(strict_types=1) a
+tu my ctíme.
+
+A proto je tu Texy 3.0.. Jde
+o úplně totéž, jako předchozí verze, ale má všechny vychytávky PHP
+7.1. Je to úplně totéž proto, že do dokonalých věcí se nezasahuje.
+
+Texy tu bylo, když jste se narodili. Programátorsky. Texy jednou bude
+formátovat váš epitaf. A mezi v a pokoji vloží
+nedělitelnou mezeru.
+</description>
+		<content:encoded><![CDATA[
+		<p class="perex">Něco jako když zahlédnete plakát ke koncertu kapely, kterou
+si vybavujete z mládí. Oni stále hrají? Nebo se dali dohromady po letech,
+protože potřebují peníze? Něco vyždímat na strunách nostalgie?</p>
+
+<div><img src="/images/texy-box.jpg" class="noborder right" alt="" width="219"
+height="240" /></div>
+
+<p>Texy je můj první open source projekt. Začal jsem ho psát <a
+href="https://phpfashion.com/texy-tak-a-je-to-venku">před patnácti lety</a>.
+Texy přežilo několik verzovacích systémů. Několik webových služeb
+hostujících repositáře. Několik kódování řetězců. Několik
+značkovacích jazyků pro tvorbu webových stránek. Několik mých životních
+vztahů. Několik měst, ve kterých jsem bydlel.</p>
+
+<p>Texy je tady stále, protože <a
+href="https://phpfashion.com/texy2-jeste-vice-sexy">neexistuje nic
+lepšího</a>.</p>
+
+<p>Takže jej patnáct let udržuji up-to-date. Začínali jsme v PHP 4, což
+byl ten nejhorší programovací jazyk na světě a tedy výzva, pak s úlevou
+přešli na PHP 5, o pár let později se ukryli do jmenného prostoru
+(<code>Texy::Parser</code> místo <code>TexyParser</code>, wow), sledovali, jak
+PHP přestávalo být nejhorším jazykem na světě, což otrávilo spoustu
+programátorů, kteří si našli náhradu v JavaScriptu, poté bůh stvořil
+PHP 7 a s ním typehinty (<code>Texy::process(string $text): string</code>
+megawow) a do módy přišla striktnost <code>declare(strict_types=1)</code> a
+tu my ctíme.</p>
+
+<p>A proto je tu <a href="https://github.com/dg/texy">Texy 3.0.</a>. Jde
+o úplně totéž, jako předchozí verze, ale má všechny vychytávky PHP
+7.1. Je to úplně totéž proto, že do dokonalých věcí se nezasahuje.</p>
+
+<p>Texy tu bylo, když jste se narodili. Programátorsky. Texy jednou bude
+formátovat váš epitaf. A mezi <code>v</code> a <code>pokoji</code> vloží
+nedělitelnou mezeru.</p>
+
+		]]></content:encoded>
+		<comments>https://phpfashion.com/texy-3-0-do-dokonalosti-se-nezasahuje#comments</comments>
+		<pubDate>Thu, 14 Feb 2019 17:45:41 +0100</pubDate>
+		<guid isPermaLink="false">item1302@http://phpfashion.com</guid>
+	</item>
+	<item>
+		<title>Chtěl napsat článek, ale…</title>
+		<link>https://phpfashion.com/chtel-napsat-clanek-ale</link>
+		<description>V tu-dů listu mi
+už druhý týden visí: „Sepsat článek, proč podporovat Nette.“
+A zatímco jsem to odkládal, tak kluci z Freelo mě předběhli a napsali to
+tak moc dobře, že už nemá smysl se o něco pokoušet 
+
+Díky moc! A tady je 14 důvodů, proč
+podpořit Nette.
+</description>
+		<content:encoded><![CDATA[
+		<p>V <a href="https://www.youtube.com/watch?v=yvn61RPQQ2U">tu-dů</a> listu mi
+už druhý týden visí: „Sepsat článek, proč podporovat Nette.“
+A zatímco jsem to odkládal, tak kluci z Freelo mě předběhli a napsali to
+tak moc dobře, že už nemá smysl se o něco pokoušet <img
+src="/assets/smilies/smile.gif" alt=":-)" class="smiley" width="15" height="15"
+/></p>
+
+<p>Díky moc! A tady je <a
+href="https://blog.freelo.cz/14-duvodu-proc-podporit-nette/">14 důvodů, proč
+podpořit Nette</a>.</p>
+
+		]]></content:encoded>
+		<comments>https://phpfashion.com/chtel-napsat-clanek-ale#comments</comments>
+		<pubDate>Fri, 13 Jul 2018 12:13:45 +0200</pubDate>
+		<guid isPermaLink="false">item1300@http://phpfashion.com</guid>
+	</item>
+	<item>
+		<title>Co se chystá v Nette?</title>
+		<link>https://phpfashion.com/co-se-chysta-v-nette</link>
+		<description>Co přinesou příští verze Nette Frameworku a jaký je plán
+pro další vývoj?
+
+Nette je tvořeno řadou knihoven, z nichž některé patří mezi světovou
+špičku: Latte je nejbezpečnější
+šablonovací systém, Tracy je mnohými
+považován za nejpřívětivější debugovací nástroj, Dependency Injection
+Container patří mezi ty nejpohodlněji použitelné. Spousta konceptů vznikla
+šťastnou rukou a fungují v prakticky nezměněné podobě už 10 let,
+například formuláře nebo komponentový systém presenterů.
+
+Nicméně ve všech oblastech je hodně příležitostí co vylepšovat a
+inovovat. A nápadů je spousta.
+
+Brzký příchod Nette 3
+
+Jelikož podpora Nette 2.4 podle harmonogramu skončila v červnu 2018,
+tedy po dvou letech od jeho vydání, je hlavní prioritou brzký příchod
+nové verze Nette 3. Ta bude určená pro PHP 7.1 a bude využívat jeho
+zásadních novinek, jako:
+
+
+	poběží ve striktním režimu
+
+	kód bude používat skalární typehinty
+
+	metody budou mít návratové typehinty
+
+
+Zároveň je záměr připravit:
+
+
+	nástroj pro automatizovanou aktualizaci kódu pro novou verzi
+	frameworku (jako tomu bývalo u Nette 0.9 a 2.0)
+
+	aktualizovat dokumentaci včetně příkladů
+
+	vygenerovat API dokumentaci na webu https://api.nette.org (v současnosti chybí
+	generátor dokumentace)
+
+	zajistit kompatibilitu s připravovaným PHP 7.3
+
+
+Do Nette 3 se mohou zahrnout i některé z plánovaných featur uvedených
+níže, ale nic, co by oddalovalo vydání. Stabilní verze následovaná po
+testovacích RC by mohla vyjít v rozmezí října až listopadu 2018 (viz
+konec článku).
+
+Nette 4
+
+Ihned po vydání Nette 3 by začal vývoj Nette 4. Hlavní novinkou by
+byla změna vnitřní architektury na tzv. middleware. Komponenta pro
+zpracování a sanitizaci HTTP požadavku, router, PresenterFactory i samotný
+presenter by byly vrstvy middleware, mezi které bude možné snadno včlenit
+další vrstvy, nebo tyhle existující nahradit. Mělo by tak být mnohem
+snadnější provozování různých aplikací či dokonce frameworků na jednom
+webu. Každá vrstva by mohla požadavek odmítnout, třeba router by mohl
+legitimně vyhodit chybu 404. Zároveň by nové řešení mělo být plně
+kompatibilní se stávajícími presentery, takže bude možné vytvářet
+aplikace využívající jak nových middleware-presenterů, tak i presenterů
+současných.
+
+Tato změna architektury vyřeší řadu issues, které ve frameworku
+existují už dlouho, ale nebylo snadné je zprovodit ze světa:
+
+
+	RequestFactory: rejects
+	invalid URL [WIP]
+
+	Http POST with
+	Content-type: application/json
+
+	Character ? is ignored
+	when canonize url site.com/? to site.com/
+
+	Http\RequestFactory: added
+	workaround for exceeded post_max_size
+
+	redirect() in
+	component does not respect server port
+
+	MessagesStorage &amp;amp;
+	RequestStorage
+
+	Refactored flash
+	session to Http\FlashSession
+
+
+Další plány
+
+Alespoň bodově se pokusím zmínit další plány pro důležité
+balíčky. Ve které verzi budou implementované je zatím otevřené.
+
+Application
+
+
+	nativní presenter pro REST a API
+
+	oddělit routování do samostatného balíčku
+
+	snadnější používání LinkGenerator pod CLI
+
+
+Application\UI
+
+
+	nahradit přímé odesílání HTTP hlaviček (přes HttpResponse)
+	abstrakcí
+
+	zrychlit generování odkazů kešováním
+
+	možnost vkládat bloky šablony do komponent
+
+	CSRF ochrana pro odkazy
+
+	pokusit se odstranit parametr _fid
+
+	vyřešit problém s odkazem this nebo formulářem v Error
+	presenteru
+
+	nativní podpora oprávnění na úrovní presenterů a akcí,
+	makro n:if-allowed
+
+	cmdline nástroj pro předgenerování presenterů a šablon
+
+
+DI
+
+
+	autodiscovery: automatická registrace služeb pomocí masky, podobně jako
+	u presenterů
+
+	validovatelné schéma pro formát NEON
+
+	podpora pro předání pole služeb určitého typu
+	(@param Service[])
+
+	podpora pro předání pole služeb pomocí tagu
+
+	umožnit rozšířením registrovat vlastní options (jako
+	inject:, autowired:) v definicích služeb
+
+	vyřešit problém s prioritou volání rozšíření
+
+
+Forms
+
+
+	vytvořit nativní podporu pro plně dynamické formuláře
+
+	podpora pro nativní validaci přes AJAX
+
+	automatická CSRF ochrana
+
+	provázání na třídy entit, setDefaults() bude přijímat a
+	getValues() vracet objekt entity
+
+	upravit objektový návrh tak, aby setValue() a
+	getValue() mohly mít správné typehinty
+
+	připravit ukázku rendereru pro Bootstrap 4
+
+
+Latte
+
+
+	vytvoření nového AST parseru, který posune možnosti maker na
+	novou úroveň
+
+	možnost spojení šablony se třídu (a jejími properties), aby fungovalo
+	našeptávání nebo statická kontrola i v šabloně
+
+	implementovat sandbox režim
+
+	zjednodušit ověřování validity šablon
+
+	generovat „source map“ – kterým bude rozumět Tracy
+
+	doplnit podporu pro další knihovny a frameworky, vytvořit návody nebo
+	převodníky pro ostatní šablonovací systémy
+
+
+Tracy
+
+
+	podpora source maps
+
+
+Web a forum
+
+
+	v plánu je změnit navigaci a rozčlenění podle jednotlivých
+	komponent
+
+	nahradit fórum za nějaké novější, už kvůli bezpečnosti
+
+	a samozřejmě postupné vylepšování dokumentace jako doposud
+
+
+Je toho prostě opravdu hodně.
+
+Kdy to bude?
+
+Cílem je vydávat novou velkou verzi každý rok na podzim. To bude možné
+za předpokladu, že se získá plné financování, o což usiluje nový crowdfundingový program.
+V případě nenaplnění cílů by byl vývoj značně pomalejší a možnosti
+limitované, proto tento plán berte jako reálný v případě
+naplnění cílů.
+</description>
+		<content:encoded><![CDATA[
+		<p class="perex">Co přinesou příští verze Nette Frameworku a jaký je plán
+pro další vývoj?</p>
+
+<p>Nette je tvořeno řadou knihoven, z nichž některé patří mezi světovou
+špičku: <a href="https://latte.nette.org">Latte</a> je nejbezpečnější
+šablonovací systém, <a href="https://tracy.nette.org">Tracy</a> je mnohými
+považován za nejpřívětivější debugovací nástroj, Dependency Injection
+Container patří mezi ty nejpohodlněji použitelné. Spousta konceptů vznikla
+šťastnou rukou a fungují v prakticky nezměněné podobě už 10 let,
+například formuláře nebo komponentový systém presenterů.</p>
+
+<p>Nicméně ve všech oblastech je hodně příležitostí co vylepšovat a
+inovovat. A nápadů je spousta.</p>
+
+<h2 id="toc-brzky-prichod-nette-3">Brzký příchod Nette 3</h2>
+
+<p>Jelikož podpora Nette 2.4 podle harmonogramu skončila v červnu 2018,
+tedy po dvou letech od jeho vydání, je hlavní prioritou brzký příchod
+nové verze Nette 3. Ta bude určená pro PHP 7.1 a bude využívat jeho
+zásadních novinek, jako:</p>
+
+<ul>
+	<li>poběží ve striktním režimu</li>
+
+	<li>kód bude používat skalární typehinty</li>
+
+	<li>metody budou mít návratové typehinty</li>
+</ul>
+
+<p>Zároveň je záměr připravit:</p>
+
+<ul>
+	<li><b>nástroj pro automatizovanou aktualizaci kódu</b> pro novou verzi
+	frameworku (jako tomu bývalo u Nette 0.9 a 2.0)</li>
+
+	<li>aktualizovat dokumentaci včetně příkladů</li>
+
+	<li>vygenerovat API dokumentaci na webu <a
+	href="https://api.nette.org">https://api.nette.org</a> (v současnosti chybí
+	generátor dokumentace)</li>
+
+	<li>zajistit kompatibilitu s připravovaným PHP 7.3</li>
+</ul>
+
+<p>Do Nette 3 se mohou zahrnout i některé z plánovaných featur uvedených
+níže, ale nic, co by oddalovalo vydání. Stabilní verze následovaná po
+testovacích RC by mohla vyjít v rozmezí října až listopadu 2018 (viz
+konec článku).</p>
+
+<h2 id="toc-nette-4">Nette 4</h2>
+
+<p>Ihned po vydání Nette 3 by začal vývoj Nette 4. Hlavní novinkou by
+byla změna vnitřní architektury na tzv. middleware. Komponenta pro
+zpracování a sanitizaci HTTP požadavku, router, PresenterFactory i samotný
+presenter by byly vrstvy middleware, mezi které bude možné snadno včlenit
+další vrstvy, nebo tyhle existující nahradit. Mělo by tak být mnohem
+snadnější provozování různých aplikací či dokonce frameworků na jednom
+webu. Každá vrstva by mohla požadavek odmítnout, třeba router by mohl
+legitimně vyhodit chybu 404. Zároveň by nové řešení mělo být plně
+kompatibilní se stávajícími presentery, takže bude možné vytvářet
+aplikace využívající jak nových middleware-presenterů, tak i presenterů
+současných.</p>
+
+<p>Tato změna architektury vyřeší řadu issues, které ve frameworku
+existují už dlouho, ale nebylo snadné je zprovodit ze světa:</p>
+
+<ul>
+	<li><a href="https://github.com/nette/http/pull/41">RequestFactory: rejects
+	invalid URL [WIP]</a></li>
+
+	<li><a href="https://github.com/nette/http/issues/57">Http POST with
+	Content-type: application/json</a></li>
+
+	<li><a href="https://github.com/nette/http/issues/68">Character ? is ignored
+	when canonize url site.com/? to site.com/</a></li>
+
+	<li><a href="https://github.com/nette/nette/pull/793">Http\RequestFactory: added
+	workaround for exceeded post_max_size</a></li>
+
+	<li><a href="https://github.com/nette/application/issues/164">redirect() in
+	component does not respect server port</a></li>
+
+	<li><a href="https://github.com/nette/application/pull/4">MessagesStorage &amp;
+	RequestStorage</a></li>
+
+	<li><a href="https://github.com/nette/application/pull/18">Refactored flash
+	session to Http\FlashSession</a></li>
+</ul>
+
+<h2 id="toc-dalsi-plany">Další plány</h2>
+
+<p>Alespoň bodově se pokusím zmínit další plány pro důležité
+balíčky. Ve které verzi budou implementované je zatím otevřené.</p>
+
+<h3 id="toc-application">Application</h3>
+
+<ul>
+	<li>nativní presenter pro REST a API</li>
+
+	<li>oddělit routování do samostatného balíčku</li>
+
+	<li>snadnější používání LinkGenerator pod CLI</li>
+</ul>
+
+<h3 id="toc-application-ui">Application\UI</h3>
+
+<ul>
+	<li>nahradit přímé odesílání HTTP hlaviček (přes HttpResponse)
+	abstrakcí</li>
+
+	<li>zrychlit generování odkazů kešováním</li>
+
+	<li>možnost vkládat bloky šablony do komponent</li>
+
+	<li>CSRF ochrana pro odkazy</li>
+
+	<li>pokusit se odstranit parametr <code>_fid</code></li>
+
+	<li>vyřešit problém s odkazem <code>this</code> nebo formulářem v Error
+	presenteru</li>
+
+	<li>nativní podpora oprávnění na úrovní presenterů a akcí,
+	makro <code>n:if-allowed</code></li>
+
+	<li>cmdline nástroj pro předgenerování presenterů a šablon</li>
+</ul>
+
+<h3 id="toc-di">DI</h3>
+
+<ul>
+	<li>autodiscovery: automatická registrace služeb pomocí masky, podobně jako
+	u presenterů</li>
+
+	<li>validovatelné schéma pro formát NEON</li>
+
+	<li>podpora pro předání pole služeb určitého typu
+	(<code>@param Service[]</code>)</li>
+
+	<li>podpora pro předání pole služeb pomocí tagu</li>
+
+	<li>umožnit rozšířením registrovat vlastní options (jako
+	<code>inject:</code>, <code>autowired:</code>) v definicích služeb</li>
+
+	<li>vyřešit problém s prioritou volání rozšíření</li>
+</ul>
+
+<h3 id="toc-forms">Forms</h3>
+
+<ul>
+	<li>vytvořit nativní podporu pro plně dynamické formuláře</li>
+
+	<li>podpora pro nativní validaci přes AJAX</li>
+
+	<li>automatická CSRF ochrana</li>
+
+	<li>provázání na třídy entit, <code>setDefaults()</code> bude přijímat a
+	<code>getValues()</code> vracet objekt entity</li>
+
+	<li>upravit objektový návrh tak, aby <code>setValue()</code> a
+	<code>getValue()</code> mohly mít správné typehinty</li>
+
+	<li>připravit ukázku rendereru pro Bootstrap 4</li>
+</ul>
+
+<h3 id="toc-latte">Latte</h3>
+
+<ul>
+	<li>vytvoření nového AST parseru, který posune možnosti maker na
+	novou úroveň</li>
+
+	<li>možnost spojení šablony se třídu (a jejími properties), aby fungovalo
+	našeptávání nebo statická kontrola i v šabloně</li>
+
+	<li>implementovat sandbox režim</li>
+
+	<li>zjednodušit ověřování validity šablon</li>
+
+	<li>generovat „source map“ – kterým bude rozumět Tracy</li>
+
+	<li>doplnit podporu pro další knihovny a frameworky, vytvořit návody nebo
+	převodníky pro ostatní šablonovací systémy</li>
+</ul>
+
+<h3 id="toc-tracy">Tracy</h3>
+
+<ul>
+	<li>podpora source maps</li>
+</ul>
+
+<h3 id="toc-web-a-forum">Web a forum</h3>
+
+<ul>
+	<li>v plánu je změnit navigaci a rozčlenění podle jednotlivých
+	komponent</li>
+
+	<li>nahradit fórum za nějaké novější, už kvůli bezpečnosti</li>
+
+	<li>a samozřejmě postupné vylepšování dokumentace jako doposud</li>
+</ul>
+
+<p>Je toho prostě opravdu hodně.</p>
+
+<h2 id="toc-kdy-to-bude">Kdy to bude?</h2>
+
+<p>Cílem je vydávat novou velkou verzi každý rok na podzim. To bude možné
+za předpokladu, že se získá plné financování, o což usiluje <a
+href="https://phpfashion.com/nette-spousti-ambiciozni-program">nový crowdfundingový program</a>.
+V případě nenaplnění cílů by byl vývoj značně pomalejší a možnosti
+limitované, proto tento plán berte jako reálný v případě
+naplnění cílů.</p>
+
+		]]></content:encoded>
+		<comments>https://phpfashion.com/co-se-chysta-v-nette#comments</comments>
+		<pubDate>Wed, 04 Jul 2018 14:08:33 +0200</pubDate>
+		<guid isPermaLink="false">item1299@http://phpfashion.com</guid>
+	</item>
+	<item>
+		<title>Nette spouští ambiciozní program</title>
+		<link>https://phpfashion.com/nette-spousti-ambiciozni-program</link>
+		<description>Nette spouští nový
+crowdfundingový program, jehož cílem je získat finanční prostředky
+pro vývoj frameworku. Hlavní změnou je, že místo jednorázových
+příspěvků je zaměřen na pravidelnou měsíční podporu. Ta může
+přicházet jak od jednotlivců, tak od firem, kterým nabízí možnost
+zviditelnit se na webu Nette a inzerovat na
+fóru nebo přímo v dokumentaci, tedy na místech s nejlepším zásahem
+cílové skupiny programátorů.
+
+Každý, kdo staví na Nette, má zájem, aby se framework aktivně vyvíjel.
+Aby podporoval nové verze PHP. Aby se opravovaly chyby. Aby přicházel s dalšími novinkami, které usnadní práci
+nebo ušetří čas a peníze. Aby framework měl skvělou dokumentaci a
+existoval kolem něj užitečný obsah, ať už ve formě článků, návodů
+nebo videí.
+
+Řada částí Nette představuje světovou špičku a chceme, aby tomu tak
+bylo nadále.
+
+Bez adekvátního financování se nic z toho nedá zajistit. Přitom abyste
+se mohli spolehnout, že vyjdou další verze, stačí docela málo: abyste jej
+každý měsíc podpořili byť jen malou finanční částkou.
+
+Pojďte do toho a staňte se partnerem
+Nette!
+
+Používá vaše firma Nette?
+
+Pokud pracujete ve firmě, které Nette vydělává peníze, vysvětlete
+prosím svému šéfovi, že je dobrý nápad se stát partnerem a zajistit tak
+zdravé fungování projektu, na který spoléháte. Zvýšíte prioritu
+řešení vašich issues a zároveň zviditelníte svoji společnost
+v komunitě a přilákáte k sobě vývojáře.
+
+Partnerství totiž přichází s exkluzivními výhodami. Například
+s uvedením vašeho loga na webu Nette, možností vkládat pracovní nabídky,
+inzerovat na fóru (ukázka)
+nebo v dokumentaci (ukázka),
+tedy na místech se zcela nejlepším zásahem do skupiny Nette
+vývojářů.
+
+Partnerům vystavujeme faktury, aby si mohli podporu dát do nákladů, a to
+buď měsíčně, čtvrtletně, půlročně nebo ročně.
+
+Používáte Nette soukromě?
+
+Stojíme také o vaši podporu. Přihlaste se k pravidelným donations přes
+PayPal. Vaše jméno bude vidět na webu Nette.
+
+Kolik peněz je potřeba?
+
+V tuto chvíli máme stanoveny tři cíle, kterých chceme dosáhnout.
+
+Prvním cílem je 64.000 Kč měsíčně, které zajistí, že se vývoji
+bude věnovat jeden programátor na půl úvazku. Další vývoj Nette tak bude
+pokračovat, nicméně polovičním tempem než dosud, což není úplně
+ideální. Při dosažení hranice 128.000 Kč získá framework full-time
+vývojáře a nové verze mohou přicházet každý rok.
+
+Náklady jsou tak nízké proto, že nepotřebujeme kanceláře a hlavně
+pracujeme na něčem, co nás baví.
+
+Při dosažení třetí mety 196.000 Kč měsíčně budeme moci přizvat
+další spolupracovníky a vylepšovat tak web, dokumentaci, vytvářet nový
+obsah a nechat jej překládat do angličtiny. A tak oslovit zahraniční
+komunitu. Čtvrtá meta dává možnost zapojit druhého programátora, což by
+vývoj a správu issues značně zrychlilo.
+
+Jakmile se dosáhne tohoto milníku, připravíme další cíle, které by
+počítaly s více programátory, mohly by vznikat nové užitečné nástroje
+a knihovny. Pak třeba vznikne i kniha o Nette.
+
+
+
+Viz také Freelo.cz:
+14 důvodů, proč podpořit Nette
+</description>
+		<content:encoded><![CDATA[
+		<p class="perex">Nette spouští <a href="https://nette.org/cs/donate">nový
+crowdfundingový program</a>, jehož cílem je získat finanční prostředky
+pro vývoj frameworku. Hlavní změnou je, že místo jednorázových
+příspěvků je zaměřen na pravidelnou měsíční podporu. Ta může
+přicházet jak od jednotlivců, tak od firem, kterým nabízí možnost
+zviditelnit se na <a href="https://nette.org">webu Nette</a> a inzerovat na
+fóru nebo přímo v dokumentaci, tedy na místech s nejlepším zásahem
+cílové skupiny programátorů.</p>
+
+<p>Každý, kdo staví na Nette, má zájem, aby se framework aktivně vyvíjel.
+Aby podporoval nové verze PHP. Aby se opravovaly chyby. Aby přicházel s <a
+href="https://phpfashion.com/co-se-chysta-v-nette">dalšími novinkami</a>, které usnadní práci
+nebo ušetří čas a peníze. Aby framework měl skvělou dokumentaci a
+existoval kolem něj užitečný obsah, ať už ve formě článků, návodů
+nebo videí.</p>
+
+<p>Řada částí Nette představuje světovou špičku a chceme, aby tomu tak
+bylo nadále.</p>
+
+<p>Bez adekvátního financování se nic z toho nedá zajistit. Přitom abyste
+se mohli spolehnout, že vyjdou další verze, stačí docela málo: abyste jej
+každý měsíc podpořili byť jen malou finanční částkou.</p>
+
+<p>Pojďte do toho a <a href="https://nette.org/cs/donate">staňte se partnerem
+Nette</a>!</p>
+
+<h2 id="toc-pouziva-vase-firma-nette">Používá vaše firma Nette?</h2>
+
+<p>Pokud pracujete ve firmě, které Nette vydělává peníze, vysvětlete
+prosím svému šéfovi, že je dobrý nápad se stát partnerem a zajistit tak
+zdravé fungování projektu, na který spoléháte. Zvýšíte prioritu
+řešení vašich issues a zároveň zviditelníte svoji společnost
+v komunitě a přilákáte k sobě vývojáře.</p>
+
+<p>Partnerství totiž přichází s exkluzivními výhodami. Například
+s uvedením vašeho loga na webu Nette, možností vkládat <a
+href="https://forum.nette.org/cs/f30-prace-a-zakazky">pracovní nabídky</a>,
+inzerovat na fóru (<a
+href="https://forum.nette.org/cs/30798-problem-s-cizim-klicem-pri-mazani#p198093">ukázka</a>)
+nebo v dokumentaci (<a
+href="https://doc.nette.org/cs/2.4/components#toc-flash-zpravy">ukázka</a>),
+tedy na místech se zcela nejlepším zásahem do skupiny Nette
+vývojářů.</p>
+
+<p>Partnerům vystavujeme faktury, aby si mohli podporu dát do nákladů, a to
+buď měsíčně, čtvrtletně, půlročně nebo ročně.</p>
+
+<h2 id="toc-pouzivate-nette-soukrome">Používáte Nette soukromě?</h2>
+
+<p>Stojíme také o vaši podporu. Přihlaste se k <a
+href="https://nette.org/cs/be-partner?tier=1">pravidelným donations přes
+PayPal</a>. Vaše jméno bude vidět na webu Nette.</p>
+
+<h2 id="toc-kolik-penez-je-potreba">Kolik peněz je potřeba?</h2>
+
+<p>V tuto chvíli máme stanoveny tři cíle, kterých chceme dosáhnout.</p>
+
+<p>Prvním cílem je 64.000 Kč měsíčně, které zajistí, že se vývoji
+bude věnovat jeden programátor na půl úvazku. Další vývoj Nette tak bude
+pokračovat, nicméně polovičním tempem než dosud, což není úplně
+ideální. Při dosažení hranice 128.000 Kč získá framework full-time
+vývojáře a nové verze mohou přicházet každý rok.</p>
+
+<p>Náklady jsou tak nízké proto, že nepotřebujeme kanceláře a hlavně
+pracujeme na něčem, co nás baví.</p>
+
+<p>Při dosažení třetí mety 196.000 Kč měsíčně budeme moci přizvat
+další spolupracovníky a vylepšovat tak web, dokumentaci, vytvářet nový
+obsah a nechat jej překládat do angličtiny. A tak oslovit zahraniční
+komunitu. Čtvrtá meta dává možnost zapojit druhého programátora, což by
+vývoj a správu issues značně zrychlilo.</p>
+
+<p>Jakmile se dosáhne tohoto milníku, připravíme další cíle, které by
+počítaly s více programátory, mohly by vznikat nové užitečné nástroje
+a knihovny. Pak třeba vznikne i kniha o Nette.</p>
+
+<hr />
+
+<p>Viz také <a
+href="https://blog.freelo.cz/14-duvodu-proc-podporit-nette/">Freelo.cz:
+14 důvodů, proč podpořit Nette</a></p>
+
+		]]></content:encoded>
+		<comments>https://phpfashion.com/nette-spousti-ambiciozni-program#comments</comments>
+		<pubDate>Tue, 03 Jul 2018 15:42:06 +0200</pubDate>
+		<guid isPermaLink="false">item1298@http://phpfashion.com</guid>
+	</item>
+	<item>
+		<title>Dibi 4: sluší mu přísný kabát?</title>
+		<link>https://phpfashion.com/dibi-4-slusi-mu-prisny-kabat</link>
+		<description>Už je to šílených dvanáct let, co jsem na tomto blogu
+představil knihovnu Dibi. Dnes se dočkala
+čtvrté verze. Využívající všech předností moderního PHP 7.1.
+
+Vývoj a testování verze 4.0 trvalo 11 měsíců a čítá 114 komitů,
+zapojilo se do něj několik autorů, kterým děkuji.
+
+A co je nového? Dibi 4 běží v přísném režimu, tedy s
+declare(strict_types=1). Je plně typovaná, tedy parametry a
+návratové hodnoty metod mají nativní typehinty. Což si vyžádalo jednu
+drobnou změnu: metody fetch() nebo fetchSingle()
+v případě, že už v tabulce není další řádek, vracejí nově
+null na místo false, protože návratové hodnoty
+mohou být nullable,
+nikoliv falseable. Doplněná byla podpora pro JSON (automaticky
+dekóduje tyto sloupce), kontroluje, zda s modifikátorem %i nebo
+%f nepoužijete řetězec, co není číslo, přibyl
+Dibi\Expression a Connection::expression() (příklad), interface
+IConnection a spousta dalších drobností.
+
+Protože Composer se dnes považuje za standard, jak instalovat balíčky,
+archív ZIP i s minifikovanou verzí zmizel v propadlišti dějin.
+
+Změnou je, že metody Connection::query() a
+Fluent::execute() nevrací v případě DML příkazů počet ovlivněných
+řádek, ale objekt Dibi\Result. Počet řádek zjistíte z něj
+($res-&amp;gt;getRowCount()) nebo jako dříve
+($connection-&amp;gt;getAffectedRows()).
+
+Dále objekt Dibi\DateTime je nyní potomkem DateTimeImmutable .
+Má v sobě implementovaný magický mechanismus, který by měl odhalit, pokud
+někde v kódu stavíte na tom, že je mutable, a došlo by tak k chybě.
+
+Pak jsem dal pryč několik historických reliktů nebo zbytečností,
+kompletní přehled najdete v changelogu. Ač ten
+seznam může vypadat dlouze, v praxi byste krom výše zmíněného neměli na
+žádný BC break narazit.
+
+A ještě pro úplnost: Dibi od verze 3.1 podporuje mikrosekundy, což
+může ve specifickém případu vést k BC breaku (viz
+vlákno) a od verze 3.2 podporuje jen třídy s namespaces (tedy krom
+třídy dibi).
+
+Co bude dál?
+
+Určitě zajímavé by bylo do Dibi doplnit podporu pro nativní bindování
+parametrů, třeba pro upload binárních souborů je to nutnost. A s tím úzce
+souvisí i prepared statements. Občas zaznívají žádosti o vylepšení
+fluent interface, volání uložených procedur atd.
+
+Zcela na rovinu říkám, že budoucnost stojí zejména na tom, jestli budu
+mít za Dibi nějaké příspěvky. Takže pokud máte Dibi rádi, nastavte prosím měsíční
+donation a svět bude nadále krásný 
+</description>
+		<content:encoded><![CDATA[
+		<p class="perex">Už je to šílených dvanáct let, co jsem na tomto blogu
+představil <a href="https://dibiphp.com">knihovnu Dibi</a>. Dnes se dočkala
+čtvrté verze. Využívající všech předností moderního PHP 7.1.</p>
+
+<p>Vývoj a testování verze 4.0 trvalo 11 měsíců a čítá 114 komitů,
+zapojilo se do něj několik autorů, kterým děkuji.</p>
+
+<p>A co je nového? Dibi 4 běží v přísném režimu, tedy s
+<code>declare(strict_types=1)</code>. Je plně typovaná, tedy parametry a
+návratové hodnoty metod mají nativní typehinty. Což si vyžádalo jednu
+drobnou změnu: metody <code>fetch()</code> nebo <code>fetchSingle()</code>
+v případě, že už v tabulce není další řádek, vracejí nově
+<code>null</code> na místo <code>false</code>, protože návratové hodnoty
+mohou být <a
+href="http://php.net/manual/en/migration71.new-features.php#migration71.new-features.nullable-types">nullable</a>,
+nikoliv <i>falseable</i>. Doplněná byla podpora pro JSON (automaticky
+dekóduje tyto sloupce), kontroluje, zda s modifikátorem <code>%i</code> nebo
+<code>%f</code> nepoužijete řetězec, co není číslo, přibyl
+<code>Dibi\Expression</code> a <code>Connection::expression()</code> (<a
+href="https://github.com/dg/dibi#complex-queries">příklad</a>), interface
+<code>IConnection</code> a spousta dalších drobností.</p>
+
+<p>Protože Composer se dnes považuje za standard, jak instalovat balíčky,
+archív ZIP i s minifikovanou verzí zmizel v propadlišti dějin.</p>
+
+<p>Změnou je, že metody <code>Connection::query()</code> a
+<code>Fluent::execute()</code> nevrací v případě <acronym
+title="Data manipulation language">DML</acronym> příkazů počet ovlivněných
+řádek, ale objekt <code>Dibi\Result</code>. Počet řádek zjistíte z něj
+(<code>$res-&gt;getRowCount()</code>) nebo jako dříve
+(<code>$connection-&gt;getAffectedRows()</code>).</p>
+
+<p>Dále objekt <code>Dibi\DateTime</code> je nyní potomkem DateTimeImmutable .
+Má v sobě implementovaný magický mechanismus, který by měl odhalit, pokud
+někde v kódu stavíte na tom, že je mutable, a došlo by tak k chybě.</p>
+
+<p>Pak jsem dal pryč několik historických reliktů nebo zbytečností,
+kompletní přehled najdete v <a
+href="https://github.com/dg/dibi/releases/tag/v4.0.0">changelogu</a>. Ač ten
+seznam může vypadat dlouze, v praxi byste krom výše zmíněného neměli na
+žádný BC break narazit.</p>
+
+<p>A ještě pro úplnost: Dibi od verze 3.1 podporuje mikrosekundy, což
+může ve specifickém případu vést k BC breaku (<a
+href="https://github.com/dg/dibi/pull/246#issuecomment-369159136">viz
+vlákno</a>) a od verze 3.2 podporuje jen třídy s namespaces (tedy krom
+třídy <code>dibi</code>).</p>
+
+<h2 id="toc-co-bude-dal">Co bude dál?</h2>
+
+<p>Určitě zajímavé by bylo do Dibi doplnit podporu pro nativní bindování
+parametrů, třeba pro upload binárních souborů je to <a
+href="https://github.com/dg/dibi/issues/287">nutnost</a>. A s tím úzce
+souvisí i prepared statements. Občas zaznívají žádosti o vylepšení
+fluent interface, volání uložených procedur atd.</p>
+
+<p>Zcela na rovinu říkám, že budoucnost stojí zejména na tom, jestli budu
+mít za Dibi nějaké příspěvky. Takže pokud máte Dibi rádi, <a
+href="https://nette.org/cs/make-donation?to=dibi">nastavte prosím měsíční
+donation</a> a svět bude nadále krásný <img
+src="/assets/smilies/biggrin.gif" alt=":-D" class="smiley" width="15"
+height="15" /></p>
+
+		]]></content:encoded>
+		<comments>https://phpfashion.com/dibi-4-slusi-mu-prisny-kabat#comments</comments>
+		<pubDate>Sat, 12 May 2018 16:03:31 +0200</pubDate>
+		<guid isPermaLink="false">item1297@http://phpfashion.com</guid>
+	</item>
+	<item>
+		<title>How to Mock Final Classes?</title>
+		<link>https://phpfashion.com/how-to-mock-final-classes</link>
+		<description>How to mock classes that are defined as final or some of their
+methods are final?
+
+Mocking means replacing the original object with its testing imitation that
+does not perform any functionality and just looks like the original object. And
+pretending the behavior we need to test.
+
+For example, instead of a PDO with methods like query() etc., we create a
+mock that pretends working with the database, and instead verifies that the
+correct SQL statements are called, etc. More e.g. in the Mockery
+documentation.
+
+And in order to be able to pass mock to methods that use PDO
+type hint, it is necessary for the mock class to inherit from the PDO. And that
+can be a stumbling block. If the PDO or method query() were final, it would not
+be possible.
+
+Is there any solution? The first option is not to use the final keyword at
+all. This, of course, does not help with the third-party code that it uses, but
+mainly detracts from the important element of the object design. For example,
+there is dogma that every class should be either final or abstract.
+
+The second and very handy option is to use BypassFinals, which removes
+finals from source code on-the-fly and allows mocking of final methods and
+classes.
+
+Install it using Composer:
+
+composer require dg/bypass-finals --dev
+
+And just call at the beginning of the test:
+
+require __DIR__ . &#039;/vendor/autoload.php&#039;;
+
+DG\BypassFinals::enable();
+
+Thats all. Incredibly black magic 
+
+BypassFinals requires PHP version 5.6 and supports PHP up to 7.2. It can be
+used together with any test tool such as PHPUnit or Mockery.
+
+
+
+This functionality is directly implemented in the „Nette Tester“: https://tester.nette.org version 2.0 and
+can be enabled this way:
+
+require __DIR__ . &#039;/vendor/autoload.php&#039;;
+
+Tester\Environment::bypassFinals();
+</description>
+		<content:encoded><![CDATA[
+		<p class="perex">How to mock classes that are defined as final or some of their
+methods are final?</p>
+
+<p>Mocking means replacing the original object with its testing imitation that
+does not perform any functionality and just looks like the original object. And
+pretending the behavior we need to test.</p>
+
+<p>For example, instead of a PDO with methods like query() etc., we create a
+mock that pretends working with the database, and instead verifies that the
+correct SQL statements are called, etc. More e.g. in the <a
+href="http://docs.mockery.io/en/latest/getting_started/simple_example.html">Mockery
+documentation</a>.</p>
+
+<p>And in order to be able to pass mock to methods that use <code>PDO</code>
+type hint, it is necessary for the mock class to inherit from the PDO. And that
+can be a stumbling block. If the PDO or method query() were final, it would not
+be possible.</p>
+
+<p>Is there any solution? The first option is not to use the final keyword at
+all. This, of course, does not help with the third-party code that it uses, but
+mainly detracts from the important element of the object design. For example,
+there is dogma that every class should be either final or abstract.</p>
+
+<p>The second and very handy option is to use <a
+href="https://github.com/dg/bypass-finals">BypassFinals</a>, which removes
+finals from source code on-the-fly and allows mocking of final methods and
+classes.</p>
+
+<p>Install it using Composer:</p>
+
+<pre>composer require dg/bypass-finals --dev</pre>
+
+<p>And just call at the beginning of the test:</p>
+
+<pre class="src-php"><code><span
+class="php-keyword1">require</span> __DIR__ . <span
+class="php-quote">'/vendor/autoload.php'</span>;
+
+DG\BypassFinals::enable();</code></pre>
+
+<p>Thats all. Incredibly black magic <img src="/assets/smilies/smile.gif"
+alt=":-)" class="smiley" width="15" height="15" /></p>
+
+<p>BypassFinals requires PHP version 5.6 and supports PHP up to 7.2. It can be
+used together with any test tool such as PHPUnit or Mockery.</p>
+
+<hr />
+
+<p>This functionality is directly implemented in the „Nette Tester“: <a
+href="https://tester.nette.org">https://tester.nette.org</a> version 2.0 and
+can be enabled this way:</p>
+
+<pre class="src-php"><code><span
+class="php-keyword1">require</span> __DIR__ . <span
+class="php-quote">'/vendor/autoload.php'</span>;
+
+Tester\Environment::bypassFinals();</code></pre>
+
+		]]></content:encoded>
+		<comments>https://phpfashion.com/how-to-mock-final-classes#comments</comments>
+		<pubDate>Wed, 13 Sep 2017 20:41:26 +0200</pubDate>
+		<guid isPermaLink="false">item1287@http://phpfashion.com</guid>
+	</item>
+	<item>
+		<title>Jak mockovat final třídy?</title>
+		<link>https://phpfashion.com/jak-mockovat-final-tridy</link>
+		<description>Jak mockovat třídy, které jsou definované jako final nebo
+některé z jejich metod jsou final?
+
+Mockování znamená nahrazení původního objektu za jeho testovací
+imitaci, která neprovádí žádnou funkcionalitu a jen se tváří jako
+původní objekt. A předstírá chování, které potřebujeme kvůli
+testování.
+
+Takže například místo objektu PDO s metodami jako query() apod.
+vytvoříme jeho mock, který práci s databází jen předstírá, a místo
+toho ověřuje, že se volají ty správné SQL příkazy atd. Více třeba
+v dokumentaci
+Mockery.
+
+A aby bylo možné mock předávat metodám, které mají type hint
+PDO, je potřeba, aby i třída mocku dědila od PDO. A to může
+být kámen úrazu. Pokud by totiž třída PDO nebo metoda query() byla final,
+už by to nebylo možné.
+
+Existuje nějaké řešení? První možnost je final vůbec
+nepoužívat. To ovšem nepomůže s kódem třetích stran, který final
+používá, ale hlavně se tím ochuzujeme o důležitý prvek objektového
+návrhu. Existuje dogma, že každá třída by měla být buď final, nebo
+abstract.
+
+Druhou a velmi šikovnou možností je použít Nette Tester, který od verze 2.0 disponuje
+vychytávkou, která odstraňuje z kódu klíčové slovo final
+on-the-fly. Stačí na začátku testu zavolat:
+
+require __DIR__ . &#039;/vendor/autoload.php&#039;;
+
+Tester\Environment::bypassFinals();
+
+A je to. Je za tím ukrytá neskutečně černá magie 
+
+Pokud nepoužíváte Nette Tester, ale třeba PHPUnit, nebudete ochuzeni,
+stačí si nainstalovat BypassFinals:
+
+composer require dg/bypass-finals --dev
+
+A na začátku skriptu zavoláte:
+
+require __DIR__ . &#039;/vendor/autoload.php&#039;;
+
+DG\BypassFinals::enable();
+</description>
+		<content:encoded><![CDATA[
+		<p class="perex">Jak mockovat třídy, které jsou definované jako final nebo
+některé z jejich metod jsou final?</p>
+
+<p>Mockování znamená nahrazení původního objektu za jeho testovací
+imitaci, která neprovádí žádnou funkcionalitu a jen se tváří jako
+původní objekt. A předstírá chování, které potřebujeme kvůli
+testování.</p>
+
+<p>Takže například místo objektu PDO s metodami jako query() apod.
+vytvoříme jeho mock, který práci s databází jen předstírá, a místo
+toho ověřuje, že se volají ty správné SQL příkazy atd. Více třeba
+v <a
+href="http://docs.mockery.io/en/latest/getting_started/simple_example.html">dokumentaci
+Mockery</a>.</p>
+
+<p>A aby bylo možné mock předávat metodám, které mají type hint
+<code>PDO</code>, je potřeba, aby i třída mocku dědila od PDO. A to může
+být kámen úrazu. Pokud by totiž třída PDO nebo metoda query() byla final,
+už by to nebylo možné.</p>
+
+<p>Existuje nějaké řešení? První možnost je <code>final</code> vůbec
+nepoužívat. To ovšem nepomůže s kódem třetích stran, který final
+používá, ale hlavně se tím ochuzujeme o důležitý prvek objektového
+návrhu. Existuje dogma, že každá třída by měla být buď final, nebo
+abstract.</p>
+
+<p>Druhou a velmi šikovnou možností je použít <a
+href="https://tester.nette.org">Nette Tester</a>, který od verze 2.0 disponuje
+vychytávkou, která odstraňuje z kódu klíčové slovo <code>final</code>
+on-the-fly. Stačí na začátku testu zavolat:</p>
+
+<pre class="src-php"><code><span
+class="php-keyword1">require</span> __DIR__ . <span
+class="php-quote">'/vendor/autoload.php'</span>;
+
+Tester\Environment::bypassFinals();</code></pre>
+
+<p>A je to. Je za tím ukrytá neskutečně černá magie <img
+src="/assets/smilies/smile.gif" alt=":-)" class="smiley" width="15" height="15"
+/></p>
+
+<p>Pokud nepoužíváte Nette Tester, ale třeba PHPUnit, nebudete ochuzeni,
+stačí si nainstalovat <a
+href="https://github.com/dg/bypass-finals">BypassFinals</a>:</p>
+
+<pre>composer require dg/bypass-finals --dev</pre>
+
+<p>A na začátku skriptu zavoláte:</p>
+
+<pre class="src-php"><code><span
+class="php-keyword1">require</span> __DIR__ . <span
+class="php-quote">'/vendor/autoload.php'</span>;
+
+DG\BypassFinals::enable();</code></pre>
+
+		]]></content:encoded>
+		<comments>https://phpfashion.com/jak-mockovat-final-tridy#comments</comments>
+		<pubDate>Wed, 13 Sep 2017 20:24:10 +0200</pubDate>
+		<guid isPermaLink="false">item1286@http://phpfashion.com</guid>
+	</item>
+	<item>
+		<title>Jak souhrnně nazývat třídy a rozhraní?</title>
+		<link>https://phpfashion.com/jak-souhrnne-nazyvat-tridy-a-rozhrani</link>
+		<description>Názvoslovný oříšek: jak souhrnně označovat třídy a rozhraní? Jak
+třeba nazvat proměnnou, která může obsahovat jak název třídy, tak
+rozhraní? Co zvolit místo $class?
+
+Dá se tomu říkat type ($type), nicméně to je zase
+příliš obecné, protože typem je i řetězec nebo pole. Z pohledu jazyka
+jím může být i něco komplikovanějšího, třeba ?array.
+Navíc je sporné, co je v případě objektu jeho typ: je jím název třídy,
+nebo je to object?
+
+Nicméně souhrnné označení pro třídy a rozhraní skutečně existuje:
+je jím slovo třída.
+
+Cože?
+
+
+	Z pohledu deklarace je interface hodně ořezaná třída. Může obsahovat
+	jen veřejné abstraktní metody. Což také implikuje nemožnost vytvářet
+	objekty. Rozhraní jsou tedy podmnožinou tříd. A pokud je něco
+	podmnožinou, tak to můžeme označovat názvem nadmnožiny. Člověk je savec,
+	stejně jako rozhraní je třída.
+
+	Nicméně je tady ještě pohled užití. Třída může dědit jen od
+	jedné třídy, ale může implementovat vícero rozhraní. Nicméně tohle je
+	omezení týkající se tříd, samotné rozhraní za to nemůže. Obdobně:
+	třída nemůže dědit od final třídy, ale přitom final třídu pořád
+	vnímáme jako třídu. A také pokud třída může implementovat víc
+	rozhraní (tj. tříd, viz 1.), stále je vnímejme jako třídy.
+
+
+A co traity? Ty sem vůbec nepatří, z hlediska OOP jednoduše
+neexistují.
+
+Tedy problém se společným pojmenováním tříd a rozhraní je vyřešen.
+Říkejme jim prostě třídy.
+
+classes + interfaces = classes
+
+No jo, ale vznikl tady problém nový. Jak říkat třídám, které nejsou
+rozhraní? Tedy jejich doplňku. Tomu, co se ještě na začátku článku
+nazývalo třídy. Nerozhraní? Nebo implementations? 
+
+To je ještě větší oříšek. To je pořádný ořech. Víte co, raději
+zapomeňme na to, že rozhraní jsou také třídy, a tvařme se opět, že
+každý OOP identifikátor je buď třída, nebo rozhraní. Bude to
+snazší.
+</description>
+		<content:encoded><![CDATA[
+		<p>Názvoslovný oříšek: jak souhrnně označovat třídy a rozhraní? Jak
+třeba nazvat proměnnou, která může obsahovat jak název třídy, tak
+rozhraní? Co zvolit místo <code>$class</code>?</p>
+
+<p>Dá se tomu říkat <b>type</b> (<code>$type</code>), nicméně to je zase
+příliš obecné, protože typem je i řetězec nebo pole. Z pohledu jazyka
+jím může být i něco komplikovanějšího, třeba <code>?array</code>.
+Navíc je sporné, co je v případě objektu jeho typ: je jím název třídy,
+nebo je to <code>object</code>?</p>
+
+<p>Nicméně souhrnné označení pro třídy a rozhraní skutečně existuje:
+je jím slovo <b>třída</b>.</p>
+
+<p>Cože?</p>
+
+<ol>
+	<li>Z pohledu deklarace je interface hodně ořezaná třída. Může obsahovat
+	jen veřejné abstraktní metody. Což také implikuje nemožnost vytvářet
+	objekty. Rozhraní jsou tedy podmnožinou tříd. A pokud je něco
+	podmnožinou, tak to můžeme označovat názvem nadmnožiny. Člověk je savec,
+	stejně jako rozhraní je třída.</li>
+
+	<li>Nicméně je tady ještě pohled užití. Třída může dědit jen od
+	jedné třídy, ale může implementovat vícero rozhraní. Nicméně tohle je
+	omezení týkající se tříd, samotné rozhraní za to nemůže. Obdobně:
+	třída nemůže dědit od final třídy, ale přitom final třídu pořád
+	vnímáme jako třídu. A také pokud třída může implementovat víc
+	rozhraní (tj. tříd, viz 1.), stále je vnímejme jako třídy.</li>
+</ol>
+
+<p>A co traity? Ty sem vůbec nepatří, z hlediska OOP jednoduše
+neexistují.</p>
+
+<p>Tedy problém se společným pojmenováním tříd a rozhraní je vyřešen.
+Říkejme jim prostě třídy.</p>
+
+<pre>classes + interfaces = classes</pre>
+
+<p>No jo, ale vznikl tady problém nový. Jak říkat třídám, které nejsou
+rozhraní? Tedy jejich doplňku. Tomu, co se ještě na začátku článku
+nazývalo třídy. Nerozhraní? Nebo <a
+href="https://en.wikipedia.org/wiki/Class_(computer_programming)#Class_vs._type">implementations</a>? <img
+src="/assets/smilies/smile.gif" alt=":-)" class="smiley" width="15" height="15"
+/></p>
+
+<p>To je ještě větší oříšek. To je pořádný ořech. Víte co, raději
+zapomeňme na to, že rozhraní jsou také třídy, a tvařme se opět, že
+každý OOP identifikátor je buď třída, nebo rozhraní. Bude to
+snazší.</p>
+
+		]]></content:encoded>
+		<comments>https://phpfashion.com/jak-souhrnne-nazyvat-tridy-a-rozhrani#comments</comments>
+		<pubDate>Thu, 31 Aug 2017 12:10:33 +0200</pubDate>
+		<guid isPermaLink="false">item1285@http://phpfashion.com</guid>
+	</item>
+	<item>
+		<title>PhpStorm a napovídání nad $this-&gt;template</title>
+		<link>https://phpfashion.com/phpstorm-a-napovidani-nad-this-template</link>
+		<description>Jak se zbavit upozorňování PhpStormu na „undefined fields“ a aktivovat
+napovídání u objektu $this-&amp;gt;template v presenterech?
+
+Tedy jak změnit tento pohled s podtrženým abc a prázdným
+napovídacím okénkem:
+
+
+
+Na tento?
+
+
+
+Jednoduše. Stačí do presenteru (například BasePresenter) doplnit tuto
+anotaci:
+
+/**
+ * @property-read \Nette\Bridges\ApplicationLatte\Template|\stdClass $template
+ */
+abstract class BasePresenter extends Nette\Application\UI\Presenter
+
+Pozn.: v nejnovějších verzích Nette bude tato anotace přímo v kódu.
+
+Třída šablony
+
+Třída stdClass v anotaci je workaround pro PhpStorm, který
+jinak všechny proměnné považuje za nedefinované. Nicméně zajímavější
+je si vytvořit třídu se seznamem skutečných proměnných, která šablona
+má, včetně jejich typů. Může vypadat třeba takto:
+
+class ArticleTemplate
+{
+    /** @var string */
+    public $lang;
+
+    /** @var int */
+    public $page;
+
+    /** @var string[] */
+    public $menu;
+
+    /** @var Model\Page */
+    public $article;
+}
+
+a potom ji v anotaci konkrétního presenteru uvedeme namísto
+stdClass:
+
+/**
+ * @property-read ArticleTemplate|\Nette\Bridges\ApplicationLatte\Template $template
+ */
+final class ArticlePresenter extends Nette\Application\UI\Presenter
+
+Od této chvíle je napovídání perfektní:
+
+
+
+Zbývá ještě vyřešit napovídání v šabloně. To zatím Latte plugin neumí,
+nicméně až to bude umět, mohl by k tomu využívat opět tu stejnou třídu
+šablony. Mohlo by se například zavést nové makro
+{template App\Presenters\ArticleTemplate}, kterým by se název
+třídy předal.
+</description>
+		<content:encoded><![CDATA[
+		<p>Jak se zbavit upozorňování PhpStormu na „undefined fields“ a aktivovat
+napovídání u objektu <code>$this-&gt;template</code> v presenterech?</p>
+
+<p>Tedy jak změnit tento pohled s podtrženým <code>abc</code> a prázdným
+napovídacím okénkem:</p>
+
+<div class="noborder figure"><img src="https://preview.ibb.co/hMUCSF/image.png"
+alt="" /></div>
+
+<p>Na tento?</p>
+
+<div class="noborder figure"><img src="https://preview.ibb.co/jSL81a/image.png"
+alt="" /></div>
+
+<p>Jednoduše. Stačí do presenteru (například BasePresenter) doplnit tuto
+anotaci:</p>
+
+<pre class="src-php"><code><span
+class="php-comment">/**
+ * @property-read \Nette\Bridges\ApplicationLatte\Template|\stdClass $template
+ */</span>
+<span
+class="php-keyword1">abstract</span> <span
+class="php-keyword1">class</span> BasePresenter <span
+class="php-keyword1">extends</span> Nette\Application\UI\Presenter</code></pre>
+
+<p>Pozn.: v nejnovějších verzích Nette bude tato anotace <a
+href="https://github.com/nette/application/pull/184">přímo v kódu</a>.</p>
+
+<h2 id="toc-trida-sablony">Třída šablony</h2>
+
+<p>Třída <code>stdClass</code> v anotaci je workaround pro PhpStorm, který
+jinak všechny proměnné považuje za nedefinované. Nicméně zajímavější
+je si vytvořit třídu se seznamem skutečných proměnných, která šablona
+má, včetně jejich typů. Může vypadat třeba takto:</p>
+
+<pre class="src-php"><code><span
+class="php-keyword1">class</span> ArticleTemplate
+{
+    <span
+class="php-comment">/** @var string */</span>
+    <span
+class="php-keyword1">public</span> <span
+class="php-var">$lang</span>;
+
+    <span
+class="php-comment">/** @var int */</span>
+    <span
+class="php-keyword1">public</span> <span
+class="php-var">$page</span>;
+
+    <span
+class="php-comment">/** @var string[] */</span>
+    <span
+class="php-keyword1">public</span> <span
+class="php-var">$menu</span>;
+
+    <span
+class="php-comment">/** @var Model\Page */</span>
+    <span
+class="php-keyword1">public</span> <span
+class="php-var">$article</span>;
+}</code></pre>
+
+<p>a potom ji v anotaci konkrétního presenteru uvedeme namísto
+<code>stdClass</code>:</p>
+
+<pre class="src-php"><code><span
+class="php-comment">/**
+ * @property-read ArticleTemplate|\Nette\Bridges\ApplicationLatte\Template $template
+ */</span>
+<span
+class="php-keyword1">final</span> <span
+class="php-keyword1">class</span> ArticlePresenter <span
+class="php-keyword1">extends</span> Nette\Application\UI\Presenter</code></pre>
+
+<p>Od této chvíle je napovídání perfektní:</p>
+
+<div class="noborder figure"><img src="https://preview.ibb.co/ithzbk/image.png"
+alt="" /></div>
+
+<p>Zbývá ještě vyřešit napovídání v šabloně. To zatím <a
+href="https://plugins.jetbrains.com/plugin/7457-latte">Latte plugin</a> neumí,
+nicméně až to bude umět, mohl by k tomu využívat opět tu stejnou třídu
+šablony. Mohlo by se například zavést nové makro
+<code>{template App\Presenters\ArticleTemplate}</code>, kterým by se název
+třídy předal.</p>
+
+		]]></content:encoded>
+		<comments>https://phpfashion.com/phpstorm-a-napovidani-nad-this-template#comments</comments>
+		<pubDate>Mon, 07 Aug 2017 22:24:11 +0200</pubDate>
+		<guid isPermaLink="false">item1284@http://phpfashion.com</guid>
+	</item>
+</channel>
+</rss>

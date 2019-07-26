@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+
+<channel>
+	<title>Front Page – Ajaxian</title>
+	
+	<link>http://ajaxian.com</link>
+	<description>Cleaning up the web with Ajax</description>
+	<lastBuildDate>Tue, 22 Dec 2015 18:02:46 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	
+	<feedburner:info uri="ajaxian" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://ajaxian.com/index.xml" /><feedburner:browserFriendly>This is an XML content feed. It is intended to be viewed in a newsreader or syndicated to another site, subject to copyright and fair use.</feedburner:browserFriendly><item>
+		<title>Scaling up CSS</title>
+		<link>http://feedproxy.google.com/~r/ajaxian/~3/cyHAq98z7u8/scaling-up-css</link>
+		<comments>http://ajaxian.com/archives/scaling-up-css#respond</comments>
+		<pubDate>Sat, 06 Sep 2014 04:05:45 +0000</pubDate>
+		<dc:creator><![CDATA[Michael Mahemoff]]></dc:creator>
+				<category><![CDATA[CSS]]></category>
+		<category><![CDATA[Front Page]]></category>
+
+		<guid isPermaLink="false">http://ajaxian.com/?p=10867</guid>
+		<description><![CDATA[CSS has a habit of creeping up on you. If you&#8217;re not careful, your humble stylesheet can go from a few flourishes to a giant maintenance tangle. Before you can say &#8220;12-deep nested div&#8221;, your in a world of duplication and complexity that prevents you from making timely user-interface updates. [Medium&#8217;s](https://medium.com) one organisation that&#8217;s been <a href="http://ajaxian.com/archives/scaling-up-css">Read the rest...</a>]]></description>
+				<content:encoded><![CDATA[<p>CSS has a habit of creeping up on you. If you&#8217;re not careful, your humble stylesheet can go from a few flourishes to a giant maintenance tangle. Before you can say &#8220;12-deep nested div&#8221;, your in a world of duplication and complexity that prevents you from making timely user-interface updates.</p>
+<p>[Medium&#8217;s](https://medium.com) one organisation that&#8217;s been through the growing pains of CSS and <a href='https://twitter.com/fat'>Jacob Thornton</a> (&#8220;Fat&#8221;) has an in-depth case study we can all learn from.</p>
+<p><a href='https://medium.com/@fat/mediums-css-is-actually-pretty-fucking-good-b8e2a6c78b06'>Medium’s CSS is actually pretty f***ing good</a> is the claim and it&#8217;s hard to argue with the wisdom herein. Among the improvements Medium has made since the early days:</p>
+<ul>
+<li>Data-URI image optimisatinos</li>
+<li>Isolating z-indexes into a single file (thankyou, Less variables)</li>
+<li>A style style guide, incorporating not only coding conventions but patterns for naming classes and properties</li>
+</ul>
+<p>It&#8217;s nice to see real-world coverage like this, and presented as the series of transformations that took it to where it is now, along with code samples. This kind of high-scale CSS refactoring is something many organisations need to be doing and a guide like this should help.</p>
+<p><a href='https://medium.com/@fat/mediums-css-is-actually-pretty-fucking-good-b8e2a6c78b06'><img src="https://d262ilb51hltx0.cloudfront.net/max/947/1*SS66DN_n9CSJxLFXezG6pw.png" width="330" height="500" class /></a></p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/ajaxian?a=cyHAq98z7u8:rkGHx_RPKTY:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/ajaxian?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ajaxian?a=cyHAq98z7u8:rkGHx_RPKTY:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/ajaxian?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ajaxian?a=cyHAq98z7u8:rkGHx_RPKTY:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/ajaxian?i=cyHAq98z7u8:rkGHx_RPKTY:D7DqB2pKExk" border="0"></img></a>
+</div>]]></content:encoded>
+			<wfw:commentRss>http://ajaxian.com/archives/scaling-up-css/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://ajaxian.com/archives/scaling-up-css</feedburner:origLink></item>
+		<item>
+		<title>Mobile Proxies: A New Era Dawns</title>
+		<link>http://feedproxy.google.com/~r/ajaxian/~3/-7BXaCUTU_Q/mobile-proxies-a-new-era-dawns</link>
+		<comments>http://ajaxian.com/archives/mobile-proxies-a-new-era-dawns#respond</comments>
+		<pubDate>Fri, 08 Mar 2013 02:35:14 +0000</pubDate>
+		<dc:creator><![CDATA[Michael Mahemoff]]></dc:creator>
+				<category><![CDATA[Chrome]]></category>
+		<category><![CDATA[Front Page]]></category>
+		<category><![CDATA[Mobile]]></category>
+
+		<guid isPermaLink="false">http://ajaxian.com/?p=10841</guid>
+		<description><![CDATA[This week, Chrome For Android M26 was announced. It has the literally-awesome ability to record video via `getUserMedia()`, but enough about making Skype irrelevant. What&#8217;s even more interesting is the new data compression feature. Which, to be clear, is experimental, has to be switched on, doesn&#8217;t apply to secure (SSL) sites, and it&#8217;s only running <a href="http://ajaxian.com/archives/mobile-proxies-a-new-era-dawns">Read the rest...</a>]]></description>
+				<content:encoded><![CDATA[<p>This week, Chrome For Android M26 was announced. It has the literally-awesome ability to record video via `getUserMedia()`, but enough about making Skype irrelevant. What&#8217;s even more interesting is the new <a href='http://blog.chromium.org/2013/03/data-compression-in-chrome-beta-for.html'>data compression feature</a>. Which, to be clear, is experimental, has to be switched on, doesn&#8217;t apply to secure (SSL) sites, and it&#8217;s only running in <a href='https://play.google.com/store/apps/details?id=com.chrome.beta'>the beta app</a>.</p>
+<p>With this feature, Google will be delivering streamlined responses, leading to substantial performance improvements and bandwidth savings. In <a href='http://www.youtube.com/watch?v=TAxy4q3RP_s'>the latest Mobile Web Thursday&#8217;s</a>, Google&#8217;s <a href=''>Pete Le Page</a> demonstrated The Verge weighs in at 1.2MB when proxied, down from the hefty 1.9MB it otherwise would have been, and also reports having seen a 65$ reduction elsewhere.</p>
+<p>The speed benefit comes in a couple of ways. First, the proxy and the browser communicate via <a href='http://www.chromium.org/spdy'>SPDY</a>. Most websites still haven&#8217;t enabled SPDY, but Chrome has it built in and Google&#8217;s proxy will now act as a SPDY adaptor for any (non-SSL) website. Second, images are returned as WebP format. WebP <a href='https://developers.google.com/speed/webp/'>claims</a> to shave off around 30% and Google claims 60% of bandwidth is images&#8230;so that&#8217;s about an 18% reduction right there.</p>
+<p><img src='http://i.imgur.com/DHa2AzW.png' /></p>
+<p>Mobile proxying is nothing new for Google. I don&#8217;t know the full history, but I recall seeing it as early as 2003 (anyone know?). It would be enabled after a search, and the proxy is still runnning. But this is a proxy for the new era of smartphone browsers, and comes just over a year after Amazon introduced its Silk browser with a similar proxying solution. Unlike the older Opera Mini solution, which provided comfort for resource-challenged feature phones, this new breed of browser is still able to work as a regular browser, but can route through a proxy as needed. What Amazon refers to as a &#8220;hybrid browser&#8221;.</p>
+<p>I have also seen similar capabilities made available as reverse-proxies for site owners. <a href='http://cloudflare.com'>CloudFlare</a>, for example, can compress scripts and optimize images.</p>
+<p>Overall, these proxying services will make it easier for developers to deliver a better experience for users. But as they become more popular and better-understood, they will also come with the privacy and security concerns that were ignited soon after Silk browser came out. It will be up to the ecosystem to find the right balance, and Google has so far done well to release this experimentally, and ensuring secure sites go direct to the browser.</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/ajaxian?a=-7BXaCUTU_Q:gsYohqOG1MU:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/ajaxian?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ajaxian?a=-7BXaCUTU_Q:gsYohqOG1MU:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/ajaxian?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ajaxian?a=-7BXaCUTU_Q:gsYohqOG1MU:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/ajaxian?i=-7BXaCUTU_Q:gsYohqOG1MU:D7DqB2pKExk" border="0"></img></a>
+</div>]]></content:encoded>
+			<wfw:commentRss>http://ajaxian.com/archives/mobile-proxies-a-new-era-dawns/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://ajaxian.com/archives/mobile-proxies-a-new-era-dawns</feedburner:origLink></item>
+		<item>
+		<title>Here comes Traversty traversing the DOM</title>
+		<link>http://feedproxy.google.com/~r/ajaxian/~3/UXQXsTrgImE/here-comes-traversty-traversing-the-dom</link>
+		<comments>http://ajaxian.com/archives/here-comes-traversty-traversing-the-dom#comments</comments>
+		<pubDate>Fri, 02 Nov 2012 01:59:37 +0000</pubDate>
+		<dc:creator><![CDATA[jvaughan]]></dc:creator>
+				<category><![CDATA[Front Page]]></category>
+		<category><![CDATA[JavaScript]]></category>
+
+		<guid isPermaLink="false">http://ajaxian.com/?p=10832</guid>
+		<description><![CDATA[The Traversty DOM utility has as its purpose to allow you to traverse the DOM and manage collections of DOM elements. Proponents admit core Traversty traversal methods are inspired by Prototype’s DOM Traversal toolkit, but now in a multi-element environment that is more like jQuery and less like Prototype’s single element implementation.]]></description>
+				<content:encoded><![CDATA[<p>The <a href="https://github.com/rvagg/traversty Traversty on GitHub">Traversty DOM utility</a> has as its purpose to allow you to traverse the DOM and manage collections of DOM elements. Proponents admit core Traversty traversal methods are inspired by Prototype’s DOM Traversal toolkit, but now in a multi-element environment that is more like jQuery and less like Prototype’s single element implementation.</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/ajaxian?a=UXQXsTrgImE:K8Du23Tri3o:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/ajaxian?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ajaxian?a=UXQXsTrgImE:K8Du23Tri3o:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/ajaxian?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ajaxian?a=UXQXsTrgImE:K8Du23Tri3o:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/ajaxian?i=UXQXsTrgImE:K8Du23Tri3o:D7DqB2pKExk" border="0"></img></a>
+</div>]]></content:encoded>
+			<wfw:commentRss>http://ajaxian.com/archives/here-comes-traversty-traversing-the-dom/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		<feedburner:origLink>http://ajaxian.com/archives/here-comes-traversty-traversing-the-dom</feedburner:origLink></item>
+		<item>
+		<title>Fat Fractal enters the BaaS fray</title>
+		<link>http://feedproxy.google.com/~r/ajaxian/~3/lQHIQW5mRiY/fat-fractal-enters-the-baas-fray</link>
+		<comments>http://ajaxian.com/archives/fat-fractal-enters-the-baas-fray#respond</comments>
+		<pubDate>Thu, 27 Sep 2012 02:24:34 +0000</pubDate>
+		<dc:creator><![CDATA[jvaughan]]></dc:creator>
+				<category><![CDATA[Front Page]]></category>
+		<category><![CDATA[Mobile]]></category>
+
+		<guid isPermaLink="false">http://ajaxian.com/?p=10813</guid>
+		<description><![CDATA[What has sometimes been described as mobile middleware has taken a new tack. Now, the idea of Backend as a Service (BaaS) has begun to take off in the mobile application development space. Proponents of BaaS say it helps developers easily build mobile apps, or any other applications connected to a cloud backend. Some of <a href="http://ajaxian.com/archives/fat-fractal-enters-the-baas-fray">Read the rest...</a>]]></description>
+				<content:encoded><![CDATA[<p>What has sometimes been described as mobile middleware has taken a new tack. Now, the idea of Backend as a Service (BaaS) has begun to take off in the mobile application development space. Proponents of BaaS say it helps developers easily build mobile apps, or any other applications connected to a cloud backend. Some of their views suggest a wholly new computer architecture is in the works. <a href="http://itknowledgeexchange.techtarget.com/soa-talk/new-baas-players-take-different-approach-to-app-development/">Fact Fractal is among the horses running in the BaaS stakes.</a></p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/ajaxian?a=lQHIQW5mRiY:JwdPxONddj8:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/ajaxian?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ajaxian?a=lQHIQW5mRiY:JwdPxONddj8:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/ajaxian?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ajaxian?a=lQHIQW5mRiY:JwdPxONddj8:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/ajaxian?i=lQHIQW5mRiY:JwdPxONddj8:D7DqB2pKExk" border="0"></img></a>
+</div>]]></content:encoded>
+			<wfw:commentRss>http://ajaxian.com/archives/fat-fractal-enters-the-baas-fray/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://ajaxian.com/archives/fat-fractal-enters-the-baas-fray</feedburner:origLink></item>
+		<item>
+		<title>Windows 8 HTML5 WinRT RSS reader app</title>
+		<link>http://feedproxy.google.com/~r/ajaxian/~3/yWmY6KNYxLc/windows-8-html5-winrt-rss-reader-app</link>
+		<comments>http://ajaxian.com/archives/windows-8-html5-winrt-rss-reader-app#respond</comments>
+		<pubDate>Fri, 24 Aug 2012 02:33:48 +0000</pubDate>
+		<dc:creator><![CDATA[jvaughan]]></dc:creator>
+				<category><![CDATA[Front Page]]></category>
+		<category><![CDATA[HTML]]></category>
+		<category><![CDATA[Microsoft]]></category>
+
+		<guid isPermaLink="false">http://ajaxian.com/?p=10801</guid>
+		<description><![CDATA[WinJS is a JavaScript framework for Windows 8, and David Rousset uses it here to create a quick RSS reader. He shows how in a tutorial series. This first article shows the way to build a welcome screen that employs WinJS ListView control. Blend and CSS3 are employed. The second tutorial shows work on the <a href="http://ajaxian.com/archives/windows-8-html5-winrt-rss-reader-app">Read the rest...</a>]]></description>
+				<content:encoded><![CDATA[<p>WinJS is a JavaScript framework for Windows 8, and David Rousset uses it here to create a quick RSS reader. He shows how in a tutorial series. This first article shows the way to build a welcome screen that employs WinJS ListView control. Blend and CSS3 are employed. The second tutorial shows work on the detail view displayed after a click-on-item. This uses a transition animation. Time to go through the two tutorials is estimated at 30 minutes. Check out the <a href=" http://blogs.msdn.com/b/davrous/archive/2012/08/21/windows-8-html5-metro-style-app-how-to-create-a-small-rss-reader-in-30min-part-1-2.aspx">Windows 8 HTML5 WinRT RSS reader app</a>.</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/ajaxian?a=yWmY6KNYxLc:o7IpJ5wsR4k:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/ajaxian?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ajaxian?a=yWmY6KNYxLc:o7IpJ5wsR4k:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/ajaxian?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ajaxian?a=yWmY6KNYxLc:o7IpJ5wsR4k:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/ajaxian?i=yWmY6KNYxLc:o7IpJ5wsR4k:D7DqB2pKExk" border="0"></img></a>
+</div>]]></content:encoded>
+			<wfw:commentRss>http://ajaxian.com/archives/windows-8-html5-winrt-rss-reader-app/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://ajaxian.com/archives/windows-8-html5-winrt-rss-reader-app</feedburner:origLink></item>
+		<item>
+		<title>Hello, BinaryJS</title>
+		<link>http://feedproxy.google.com/~r/ajaxian/~3/g0-huQww6uI/hello-binaryjs</link>
+		<comments>http://ajaxian.com/archives/hello-binaryjs#respond</comments>
+		<pubDate>Sat, 28 Jul 2012 01:27:03 +0000</pubDate>
+		<dc:creator><![CDATA[jvaughan]]></dc:creator>
+				<category><![CDATA[Front Page]]></category>
+		<category><![CDATA[JavaScript]]></category>
+		<category><![CDATA[Node]]></category>
+
+		<guid isPermaLink="false">http://ajaxian.com/?p=10795</guid>
+		<description><![CDATA[The BinaryJS framework employs websockets to handle binary data bidirectionally between browser-side javascript and server-side Node.js. Ikt supports a BinaryPack serialization format that is JSON-type compatible. It is said to automatically chunk large binary data buffers for streaming performance. BinaryJS currently supports Chrome 15+ and Firefox 11+, IE10. View the Hello World example.]]></description>
+				<content:encoded><![CDATA[<p>The BinaryJS framework employs websockets to handle binary data bidirectionally between browser-side javascript and server-side Node.js. Ikt supports a BinaryPack serialization format that is JSON-type compatible. It is said to automatically chunk large binary data buffers for streaming performance. BinaryJS currently supports Chrome 15+ and Firefox 11+, IE10. <a href="https://github.com/binaryjs/binaryjs/tree/master/examples/helloworld">View the Hello World example</a>.</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/ajaxian?a=g0-huQww6uI:jg_bZX6aIwE:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/ajaxian?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ajaxian?a=g0-huQww6uI:jg_bZX6aIwE:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/ajaxian?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ajaxian?a=g0-huQww6uI:jg_bZX6aIwE:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/ajaxian?i=g0-huQww6uI:jg_bZX6aIwE:D7DqB2pKExk" border="0"></img></a>
+</div>]]></content:encoded>
+			<wfw:commentRss>http://ajaxian.com/archives/hello-binaryjs/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://ajaxian.com/archives/hello-binaryjs</feedburner:origLink></item>
+		<item>
+		<title>Upcoming: Google IO</title>
+		<link>http://feedproxy.google.com/~r/ajaxian/~3/3rt5xws5nA4/upcoming-google-io</link>
+		<comments>http://ajaxian.com/archives/upcoming-google-io#respond</comments>
+		<pubDate>Fri, 22 Jun 2012 02:57:49 +0000</pubDate>
+		<dc:creator><![CDATA[jvaughan]]></dc:creator>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Front Page]]></category>
+
+		<guid isPermaLink="false">http://ajaxian.com/?p=10784</guid>
+		<description><![CDATA[At Google IO June 27-29 the Android platform will be on display. Direct from a recent slamdown legal court grudge win against Java steward Oracle, the Android crew will be able to tell you  about what is new and what is upcoming in Android, how you can monetize Google apps, multiversioning and more. Much will <a href="http://ajaxian.com/archives/upcoming-google-io">Read the rest...</a>]]></description>
+				<content:encoded><![CDATA[<p>At <a href=" https://developers.google.com/events/io/sessions#android">Google IO June 27-29 the Android platform</a> will be on display. Direct from a recent slamdown legal court grudge win against Java steward Oracle, the Android crew will be able to tell you  about what is new and what is upcoming in Android, how you can monetize Google apps, multiversioning and more. Much will be available in webcast streaming format. Be square or be there or <a href=" https://developers.google.com/events/io/sessions#android">be there virtually.<br />
+</a></p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/ajaxian?a=3rt5xws5nA4:aTtt5T0bE7U:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/ajaxian?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ajaxian?a=3rt5xws5nA4:aTtt5T0bE7U:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/ajaxian?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ajaxian?a=3rt5xws5nA4:aTtt5T0bE7U:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/ajaxian?i=3rt5xws5nA4:aTtt5T0bE7U:D7DqB2pKExk" border="0"></img></a>
+</div>]]></content:encoded>
+			<wfw:commentRss>http://ajaxian.com/archives/upcoming-google-io/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://ajaxian.com/archives/upcoming-google-io</feedburner:origLink></item>
+		<item>
+		<title>Vert.x ramblings: Asynchronous network, your time has come</title>
+		<link>http://feedproxy.google.com/~r/ajaxian/~3/2wQ7s0xazNw/vert-x-ramblings-asynchronous-network-your-time-has-come</link>
+		<comments>http://ajaxian.com/archives/vert-x-ramblings-asynchronous-network-your-time-has-come#respond</comments>
+		<pubDate>Sat, 19 May 2012 02:00:24 +0000</pubDate>
+		<dc:creator><![CDATA[jvaughan]]></dc:creator>
+				<category><![CDATA[Front Page]]></category>
+		<category><![CDATA[Node]]></category>
+
+		<guid isPermaLink="false">http://ajaxian.com/?p=10775</guid>
+		<description><![CDATA[With the debut of Vert.x, the asynchronous framework is reaching an inflection point, suggests Andrew Cholakian. With Vert.x, the software is packaged together in such a way as to be extremely practical, he states. For some JVM zealots, Vert.x may meet needs recently and apparently addressed by node.js. Vert.x is an asynchronous application server &#8211; <a href="http://ajaxian.com/archives/vert-x-ramblings-asynchronous-network-your-time-has-come">Read the rest...</a>]]></description>
+				<content:encoded><![CDATA[<p>With the debut of <a href="http://vertx.io/">Vert.x</a>, the asynchronous framework is reaching an inflection point, suggests Andrew Cholakian. With Vert.x, the software is packaged together in such a way as to be extremely practical, he states. For some JVM zealots, Vert.x may meet needs recently and apparently addressed by node.js.</p>
+<p>Vert.x is an asynchronous application server &#8211; which may prove useful as architects rethink the server&#8217;s role in a world of powerful clients. Does the JVM have a role going forward? Some might say &#8216;no&#8217; to the JVM. Many say &#8216;Yes&#8217;. Some of these might say: &#8220;Vert. x could be described as Node.js+ for the JVM.&#8221;</p>
+<p>But let us view some from the Cholakian post:</p>
+<blockquote><p><em>One might say that if all Vert.x consists of is Netty+Hazelcast, that it&#8217;s nothing revolutionary. The reality is that Vert.x gets the API right, which most of the existing JVM tools get very&#8230;. very&#8230; wrong. Even simple services in Netty takes large amounts of code, an inordinate of factories, providers, and threadpools must be created just to do simple things. Mixing all this up with languages like jruby is just prohibitively painful. APIs can be as hard to design as implementations are to write!</em></p>
+<p><em>On top of the API, the other half of the secret sauce is in Vert.x&#8217;s leveraging of high performance implementations of Ruby, Javascript, and Groovy. By integrating them into a single Vert.x executable, they&#8217;ve given developers the ability to write high-performance code on the JVM without knowing much about the JVM or its ecosystem at all. Vert.x can run any of those languages directly. Furthermore, since Vert.x is just a library, any JVM language can leverage it. On top of that, the entire universe of JVM libraries, concurrency APIs, and tooling is available to developers.</em></p></blockquote>
+<p>Like all things, your mileage may differ. The blogger notes : This model is great for large numbers of sockets and file descriptors, where it makes the best use of resources. However, it&#8217;s very confusing and complicated when it comes to day to day business logic, where simple, blocking, threaded code is a welcome comfort.  Read all about it as <a href="http://blog.andrewvc.com/vertx-node-on-ropes">Andrew VC goes through the Vert.X/Node.js ropes</a>.</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/ajaxian?a=2wQ7s0xazNw:rhUVSeTrkSA:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/ajaxian?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ajaxian?a=2wQ7s0xazNw:rhUVSeTrkSA:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/ajaxian?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ajaxian?a=2wQ7s0xazNw:rhUVSeTrkSA:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/ajaxian?i=2wQ7s0xazNw:rhUVSeTrkSA:D7DqB2pKExk" border="0"></img></a>
+</div>]]></content:encoded>
+			<wfw:commentRss>http://ajaxian.com/archives/vert-x-ramblings-asynchronous-network-your-time-has-come/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://ajaxian.com/archives/vert-x-ramblings-asynchronous-network-your-time-has-come</feedburner:origLink></item>
+		<item>
+		<title>Rails cache sweeper redux</title>
+		<link>http://feedproxy.google.com/~r/ajaxian/~3/VsbGZM9TtNA/rails-cache-sweeper-redux</link>
+		<comments>http://ajaxian.com/archives/rails-cache-sweeper-redux#respond</comments>
+		<pubDate>Sat, 28 Apr 2012 03:03:19 +0000</pubDate>
+		<dc:creator><![CDATA[jvaughan]]></dc:creator>
+				<category><![CDATA[Front Page]]></category>
+		<category><![CDATA[Ruby]]></category>
+
+		<guid isPermaLink="false">http://ajaxian.com/?p=10771</guid>
+		<description><![CDATA[Michael Mahemoff writes: To be effective, Rails cache sweepers need to be more fully understood.  They know no standard, so you must employ art. He goes on: Sweepers observe both your models and your controllers, but most workarounds focus on their controller nature.  Importantly: the sweeper must be explicitly added as an observer. Even more <a href="http://ajaxian.com/archives/rails-cache-sweeper-redux">Read the rest...</a>]]></description>
+				<content:encoded><![CDATA[<p>Michael Mahemoff writes: To be effective, Rails cache sweepers need to be more fully understood.  They know no standard, so you must employ art. He goes on: Sweepers observe both your models and your controllers, but most workarounds focus on their controller nature.  Importantly: the sweeper must be explicitly added as an observer. Even more important is redux. Read all about [<a href="http://softwareas.com/rails-cache-sweeper-gotchas">Rails cache sweeper redux</a>] it.</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/ajaxian?a=VsbGZM9TtNA:BfIeQxh2Acc:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/ajaxian?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ajaxian?a=VsbGZM9TtNA:BfIeQxh2Acc:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/ajaxian?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ajaxian?a=VsbGZM9TtNA:BfIeQxh2Acc:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/ajaxian?i=VsbGZM9TtNA:BfIeQxh2Acc:D7DqB2pKExk" border="0"></img></a>
+</div>]]></content:encoded>
+			<wfw:commentRss>http://ajaxian.com/archives/rails-cache-sweeper-redux/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://ajaxian.com/archives/rails-cache-sweeper-redux</feedburner:origLink></item>
+		<item>
+		<title>Node.js – The objective is absolutely fast I/O</title>
+		<link>http://feedproxy.google.com/~r/ajaxian/~3/SBb0n06KMOI/node-js-the-objective-is-absolutely-fast-io</link>
+		<comments>http://ajaxian.com/archives/node-js-the-objective-is-absolutely-fast-io#comments</comments>
+		<pubDate>Sat, 31 Mar 2012 03:03:58 +0000</pubDate>
+		<dc:creator><![CDATA[jvaughan]]></dc:creator>
+				<category><![CDATA[Front Page]]></category>
+		<category><![CDATA[Node]]></category>
+
+		<guid isPermaLink="false">http://ajaxian.com/?p=10768</guid>
+		<description><![CDATA[Node.js employs an event-driven architecture and a non-blocking I/O model, and it provides some blindingly fast performance to some types of data-intensive Web apps. It is about JavaScript on the server side. LinkedIn, Yahoo and eBay are among ardent Node.js users, and none other than Microsoft has discussed end-to-end JavaScript coverage on its Azure cloud. <a href="http://ajaxian.com/archives/node-js-the-objective-is-absolutely-fast-io">Read the rest...</a>]]></description>
+				<content:encoded><![CDATA[<p>Node.js employs an event-driven architecture and a non-blocking I/O model, and it provides some blindingly fast performance to some types of data-intensive Web apps. It is about JavaScript on the server side. LinkedIn, Yahoo and eBay are among ardent Node.js users, and none other than Microsoft has discussed end-to-end JavaScript coverage on its Azure cloud. The objective is absolutely fast I/O.</p>
+<p><a href="http://itknowledgeexchange.techtarget.com/soa-talk/nodejs-bubbling-up-from-javascript/">This article features Joyent CTO and co-founder Jason Hoffman</a>, who discusses the roots and reason of node.js. He said:</p>
+<blockquote>
+<p>“Why we did it is, at Joyent we have a lot of servers, more than most companies in the Fortune500 and we write in C, in a compiled language. We needed to write servers in a dynamic language for talking to certain protocols. Basically, we had to write service endpoints. The Node part of Node.js is separate. It is designed so that it can handle a lot endpoints &#8211; on the order of a million. Most things written for the [Java Virtual Machine] can only handle 20,000 [endpoints]. Node is meant to handle a lot of I/O. So we took the node part and married that with V8 [the JavaScript virtual machine from Google].”</p></blockquote>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/ajaxian?a=SBb0n06KMOI:Km99ZhQ4yL8:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/ajaxian?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ajaxian?a=SBb0n06KMOI:Km99ZhQ4yL8:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/ajaxian?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ajaxian?a=SBb0n06KMOI:Km99ZhQ4yL8:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/ajaxian?i=SBb0n06KMOI:Km99ZhQ4yL8:D7DqB2pKExk" border="0"></img></a>
+</div>]]></content:encoded>
+			<wfw:commentRss>http://ajaxian.com/archives/node-js-the-objective-is-absolutely-fast-io/feed</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		<feedburner:origLink>http://ajaxian.com/archives/node-js-the-objective-is-absolutely-fast-io</feedburner:origLink></item>
+		<item>
+		<title>Winding road of open-source webOS</title>
+		<link>http://feedproxy.google.com/~r/ajaxian/~3/Ebjc6NompAw/winding-road-of-open-source-webos</link>
+		<comments>http://ajaxian.com/archives/winding-road-of-open-source-webos#respond</comments>
+		<pubDate>Thu, 02 Feb 2012 22:21:14 +0000</pubDate>
+		<dc:creator><![CDATA[jvaughan]]></dc:creator>
+				<category><![CDATA[Front Page]]></category>
+		<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[WebOS]]></category>
+
+		<guid isPermaLink="false">http://ajaxian.com/?p=10762</guid>
+		<description><![CDATA[HP continues to divulge bits and pieces of a road map for the ill-starred and nearly-orphaned webOS. The company has followed up its December plan to release webOS mobile platform and development tools with a proposed timeline, with a full release set before year’s end.  Some people see a life for the associated Enyo JavaScript <a href="http://ajaxian.com/archives/winding-road-of-open-source-webos">Read the rest...</a>]]></description>
+				<content:encoded><![CDATA[<p>HP continues to divulge bits and pieces of a<a href="http://almaer.com/blog/the-rise-and-fall-of-webos-is-an-epic-tale-webos-web-os"> road map</a> for the <a href="http://almaer.com/blog/the-rise-and-fall-of-webos-is-an-epic-tale-webos-web-os">ill-starred</a> and nearly-orphaned webOS. The company has followed up its December plan to release webOS mobile platform and development tools with a proposed timeline, with a full release set before year’s end.  Some people see a life for the associated Enyo JavaScript framework aside from any success or failure webOS ultimately achieves.</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/ajaxian?a=Ebjc6NompAw:0xyydazms7s:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/ajaxian?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ajaxian?a=Ebjc6NompAw:0xyydazms7s:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/ajaxian?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ajaxian?a=Ebjc6NompAw:0xyydazms7s:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/ajaxian?i=Ebjc6NompAw:0xyydazms7s:D7DqB2pKExk" border="0"></img></a>
+</div>]]></content:encoded>
+			<wfw:commentRss>http://ajaxian.com/archives/winding-road-of-open-source-webos/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://ajaxian.com/archives/winding-road-of-open-source-webos</feedburner:origLink></item>
+		<item>
+		<title>Shim uses node.js to test sites on multiple browsers</title>
+		<link>http://feedproxy.google.com/~r/ajaxian/~3/HDNIjTaywns/shim-uses-node-js-to-test-sites-on-multiple-browsers</link>
+		<comments>http://ajaxian.com/archives/shim-uses-node-js-to-test-sites-on-multiple-browsers#comments</comments>
+		<pubDate>Sun, 15 Jan 2012 04:01:13 +0000</pubDate>
+		<dc:creator><![CDATA[jvaughan]]></dc:creator>
+				<category><![CDATA[Browsers]]></category>
+		<category><![CDATA[Front Page]]></category>
+		<category><![CDATA[JavaScript]]></category>
+		<category><![CDATA[Testing]]></category>
+
+		<guid isPermaLink="false">http://ajaxian.com/?p=10760</guid>
+		<description><![CDATA[Shim was developed within the Boston Globe&#8217;s media lab as a way to study how Web sites look on various devices and browsers. A laptop intercepts all wifi traffic – this is redirected to a custom node.js server &#8211; which inserts a javascript, or &#8220;shim,&#8221; at the head of each web page that is visited. <a href="http://ajaxian.com/archives/shim-uses-node-js-to-test-sites-on-multiple-browsers">Read the rest...</a>]]></description>
+				<content:encoded><![CDATA[<p>Shim was developed within the Boston Globe&#8217;s media lab as a way to study how Web sites look on various devices and browsers. A laptop intercepts all wifi traffic – this is redirected to a custom node.js server &#8211; which inserts a javascript, or &#8220;shim,&#8221; at the head of each web page that is visited.</p>
+<p>The shim, once loaded in a device&#8217;s browser, opens and maintains a socket connection to the server, according to to Shim&#8217;s developers. Shim was written in 2011 by Chris Marstall, Creative Technologist at the Boston Globe. The software has been open sourced. Write the Shim originators on git.hub:</p>
+<p>Whenever a new page is requested, the page&#8217;s URL is broadcast to all connected browsers, which then redirect themselves to that URL, keeping all devices in sync. <a href="https://github.com/marstall/shim/">Shim info is available on git.hub.</a></p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/ajaxian?a=HDNIjTaywns:MePvfx298XY:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/ajaxian?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ajaxian?a=HDNIjTaywns:MePvfx298XY:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/ajaxian?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ajaxian?a=HDNIjTaywns:MePvfx298XY:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/ajaxian?i=HDNIjTaywns:MePvfx298XY:D7DqB2pKExk" border="0"></img></a>
+</div>]]></content:encoded>
+			<wfw:commentRss>http://ajaxian.com/archives/shim-uses-node-js-to-test-sites-on-multiple-browsers/feed</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		<feedburner:origLink>http://ajaxian.com/archives/shim-uses-node-js-to-test-sites-on-multiple-browsers</feedburner:origLink></item>
+		<item>
+		<title>HipHop Virtual Machine for PHP</title>
+		<link>http://feedproxy.google.com/~r/ajaxian/~3/gRmSNeZIDOs/hiphop-virtual-machine-for-php</link>
+		<comments>http://ajaxian.com/archives/hiphop-virtual-machine-for-php#comments</comments>
+		<pubDate>Sun, 11 Dec 2011 02:15:51 +0000</pubDate>
+		<dc:creator><![CDATA[jvaughan]]></dc:creator>
+				<category><![CDATA[Front Page]]></category>
+		<category><![CDATA[PHP]]></category>
+
+		<guid isPermaLink="false">http://ajaxian.com/?p=10753</guid>
+		<description><![CDATA[Facebook Software Engineer and HipHop for PHP team member Jason Evans provides details on Facebook&#8217;s move to a new high-performance PHP virtual machine. Described by Evans is &#8221;a new PHP execution engine based on the HipHop language runtime that we call the HipHop Virtual Machine (hhvm).&#8221; He sees it as replacement for the HipHop PHP <a href="http://ajaxian.com/archives/hiphop-virtual-machine-for-php">Read the rest...</a>]]></description>
+				<content:encoded><![CDATA[<p>Facebook Software Engineer and HipHop for PHP team member Jason Evans provides details on Facebook&#8217;s move to a new high-performance PHP virtual machine. Described by Evans is &#8221;a new PHP execution engine based on the HipHop language runtime that we call the HipHop Virtual Machine (hhvm).&#8221; He sees it as replacement for the HipHop PHP interpreter (hphpi). He continues:</p>
+<blockquote><p>We have long been keenly aware of the limitations to static analysis imposed by such a dynamic language as PHP, not to mention the risks inherent in developing software with hphpi and deploying with hphpc. Our experiences with hphpc led us to start experimenting with dynamic translation to native machine code, also known as just-in-time (JIT) compilation &#8230; we developed a high-level stack-based virtual machine specifically tailored to PHP that executes HipHop bytecode (HHBC). hhvm uses hphpc&#8217;s PHP&gt;AST implementation and extends the pipeline to PHP&gt;AST&gt;HHBC.</p></blockquote>
+<p>He estimates the hhvm bytecode interpreter is approximately 1.6X faster for certain Facebook-specific benchmarks, with still better performance in the offing. But, as described in his <a href="https://www.facebook.com/notes/facebook-engineering/the-hiphop-virtual-machine/10150415177928920 ">blog post on the PHP compilation innovations</a>, there is still work ahead. You can view <a href="https://github.com/facebook/hiphop-php/wiki/">HipHop-related information at GitHub</a>.</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/ajaxian?a=gRmSNeZIDOs:7rSR6I-FJ9A:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/ajaxian?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ajaxian?a=gRmSNeZIDOs:7rSR6I-FJ9A:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/ajaxian?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ajaxian?a=gRmSNeZIDOs:7rSR6I-FJ9A:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/ajaxian?i=gRmSNeZIDOs:7rSR6I-FJ9A:D7DqB2pKExk" border="0"></img></a>
+</div>]]></content:encoded>
+			<wfw:commentRss>http://ajaxian.com/archives/hiphop-virtual-machine-for-php/feed</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+		<feedburner:origLink>http://ajaxian.com/archives/hiphop-virtual-machine-for-php</feedburner:origLink></item>
+		<item>
+		<title>Adobe to forgo Flash plug-in for mobile devices</title>
+		<link>http://feedproxy.google.com/~r/ajaxian/~3/I2ujJM6rSQs/adobe-to-forgo-flash-plug-in-for-mobile-devices</link>
+		<comments>http://ajaxian.com/archives/adobe-to-forgo-flash-plug-in-for-mobile-devices#comments</comments>
+		<pubDate>Sun, 13 Nov 2011 00:04:13 +0000</pubDate>
+		<dc:creator><![CDATA[jvaughan]]></dc:creator>
+				<category><![CDATA[Flash]]></category>
+		<category><![CDATA[Front Page]]></category>
+		<category><![CDATA[html5]]></category>
+
+		<guid isPermaLink="false">http://ajaxian.com/?p=10747</guid>
+		<description><![CDATA[Earlier this week, Adobe VP and General Manager Danny Winokur disclosed that the company has concluded that HTML5 is &#8221;the best solution for creating and deploying content in the browser across mobile platforms.&#8221; The company said it would stop building Flash to run on mobile browsers. In a blog post on the new focus of <a href="http://ajaxian.com/archives/adobe-to-forgo-flash-plug-in-for-mobile-devices">Read the rest...</a>]]></description>
+				<content:encoded><![CDATA[<p>Earlier this week, Adobe VP and General Manager Danny Winokur disclosed that the company has concluded that HTML5 is &#8221;the best solution for creating and deploying content in the browser across mobile platforms.&#8221; The company said it would stop building Flash to run on mobile browsers. In a <a href="http://blogs.adobe.com/conversations/2011/11/flash-focus.html">blog post on the new focus of Flash strategy</a>, Winokur wrote:</p>
+<blockquote><p>Our future work with Flash on mobile devices will be focused on enabling Flash developers to package native apps with Adobe AIR for all the major app stores.  We will no longer continue to develop Flash Player in the browser to work with new mobile device configurations (chipset, browser, OS version, etc.) following the upcoming release of Flash Player 11.1 for Android and BlackBerry PlayBook.</p></blockquote>
+<p>While Flash 12 work is said to be underway, many observers have wondered if this potentially marks the beginning of the end for Flash, which has been reeling since Apple refused to support it on iPhone and similar of its mobile devices.</p>
+<p>Adobe&#8217;s Michael Chambers, principal product manager for developer relations, has responded to the general concern with a <a href="http://www.mikechambers.com/blog/2011/11/11/clarifications-on-flash-player-for-mobile-browsers-the-flash-platform-and-the-future-of-flash/">clarifying blog post, that includes a discussions of reasons for the move to quit the Flash-on-mobile-browser tact</a>. In a post yesterday Chambers writes:</p>
+<blockquote><p>&#8230; given the fragmentation of the mobile market, and the fact that one of the leading mobile platforms (Apple’s iOS) was not going to allow the Flash Player in the browser, the Flash Player was not on track to reach anywhere near the ubiquity of the Flash Player on desktops.</p></blockquote>
+<p>Also, it seems, the task of porting the plug in to innumerable mobile OSes and device types put a lot of pressure on Adobe development t efforts. &#8221;For each new device, browser and operating system released, the resources required to develop, test and maintain the Flash Player also increases. This is something that we realized is simply not scalable or sustainable,&#8221; wrote Chambers.</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/ajaxian?a=I2ujJM6rSQs:UvXxCiE6HxM:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/ajaxian?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ajaxian?a=I2ujJM6rSQs:UvXxCiE6HxM:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/ajaxian?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ajaxian?a=I2ujJM6rSQs:UvXxCiE6HxM:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/ajaxian?i=I2ujJM6rSQs:UvXxCiE6HxM:D7DqB2pKExk" border="0"></img></a>
+</div>]]></content:encoded>
+			<wfw:commentRss>http://ajaxian.com/archives/adobe-to-forgo-flash-plug-in-for-mobile-devices/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		<feedburner:origLink>http://ajaxian.com/archives/adobe-to-forgo-flash-plug-in-for-mobile-devices</feedburner:origLink></item>
+		<item>
+		<title>Intel’s Parallel Extensions for JavaScript</title>
+		<link>http://feedproxy.google.com/~r/ajaxian/~3/jf_aTxFfWn0/intels-parallel-extensions-for-javascript</link>
+		<comments>http://ajaxian.com/archives/intels-parallel-extensions-for-javascript#comments</comments>
+		<pubDate>Sat, 08 Oct 2011 17:38:07 +0000</pubDate>
+		<dc:creator><![CDATA[jvaughan]]></dc:creator>
+				<category><![CDATA[Front Page]]></category>
+		<category><![CDATA[JavaScript]]></category>
+
+		<guid isPermaLink="false">http://ajaxian.com/?p=10736</guid>
+		<description><![CDATA[Intel&#8217;s Parallel Extensions for JavaScript, code named River Trail, hooks into on-chip vector extensions to improve performance of Web applications. Details of Intel&#8217;s attempt to get on the JavaScript juggernaut emerged last month at its developer event. The prototype JavaScript extension offered by Intel is intended to allow JavaScript apps to take advantage of modern parallel <a href="http://ajaxian.com/archives/intels-parallel-extensions-for-javascript">Read the rest...</a>]]></description>
+				<content:encoded><![CDATA[<p>Intel&#8217;s Parallel Extensions for JavaScript, code named River Trail, hooks into on-chip vector extensions to improve performance of Web applications. Details of Intel&#8217;s attempt to get on the JavaScript juggernaut emerged last month at its developer event.</p>
+<p>The prototype JavaScript extension offered by Intel is intended to allow JavaScript apps to take advantage of modern parallel chip capabilities. Sequential gives way to parallel, at least in theory.</p>
+<p>In-browser games and image editing are pitched as examples of application elements that would take advantage of new eight-core processors, <a href="http://blogs.intel.com/research/2011/09/pjs.php">blogs Intel&#8217;s Stephan Herhut</a>.The software is said to &#8221;play nicely&#8221; with the WebGL JavaScript API to OpenGL for 3D visualization in the browser. Intel has a beta Firefox extension for interested developers. Says Herhut:</p>
+<blockquote><p><em>You can <a href="https://github.com/downloads/RiverTrail/RiverTrail/rivertrail.xpi">download a prebuilt version</a> for Windows and 64 Bit MacOS [from github] or build it yourself. For the latter, we have written a <a href="https://github.com/RiverTrail/RiverTrail/tree/master/extension">README</a> that explains the process. Once you have the extension installed, take a look at our <a href="https://github.com/RiverTrail/RiverTrail/tree/master/examples">demos</a> to see what is possible.</em></p></blockquote>
+<p>Why should the browser be a second fiddle to the operating system? As browsers, JavaScript, and HTML5 gain more influence, top-tier chip makers will start to adapt their libraries to Web application demands. More, including material on <a href="https://github.com/RiverTrail/RiverTrail/wiki/Three-Pillars-of-the-API">API design</a> or the beginnings of  <a href="https://github.com/RiverTrail/RiverTrail/wiki/ParallelArray">API documentation</a>, is on a <a href="https://github.com/RiverTrail/RiverTrail/wiki">RiverTrail wiki</a>.</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/ajaxian?a=jf_aTxFfWn0:EXYKAxug3W0:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/ajaxian?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ajaxian?a=jf_aTxFfWn0:EXYKAxug3W0:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/ajaxian?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ajaxian?a=jf_aTxFfWn0:EXYKAxug3W0:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/ajaxian?i=jf_aTxFfWn0:EXYKAxug3W0:D7DqB2pKExk" border="0"></img></a>
+</div>]]></content:encoded>
+			<wfw:commentRss>http://ajaxian.com/archives/intels-parallel-extensions-for-javascript/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		<feedburner:origLink>http://ajaxian.com/archives/intels-parallel-extensions-for-javascript</feedburner:origLink></item>
+		<item>
+		<title>Adobe buys Nitobi</title>
+		<link>http://feedproxy.google.com/~r/ajaxian/~3/8XG_vsBtafk/adobe-buys-nitobi</link>
+		<comments>http://ajaxian.com/archives/adobe-buys-nitobi#comments</comments>
+		<pubDate>Wed, 05 Oct 2011 01:52:57 +0000</pubDate>
+		<dc:creator><![CDATA[jvaughan]]></dc:creator>
+				<category><![CDATA[Front Page]]></category>
+		<category><![CDATA[html5]]></category>
+		<category><![CDATA[JavaScript]]></category>
+		<category><![CDATA[Mobile]]></category>
+
+		<guid isPermaLink="false">http://ajaxian.com/?p=10731</guid>
+		<description><![CDATA[As it kicked off its yearly developer event, Adobe announced that it had acquired Nitobi Software, maker of PhoneGap open source software for cross-platform mobile application building with HTML5 and JavaScript. In a blog, Nitobi CEO Andre Charland pledged to pursue donation of the PhoneGap code to the Apache Software Foundation &#8221;to ensure open stewardship <a href="http://ajaxian.com/archives/adobe-buys-nitobi">Read the rest...</a>]]></description>
+				<content:encoded><![CDATA[<p>As it kicked off its yearly developer event, Adobe announced that it had acquired Nitobi Software, maker of PhoneGap open source software for cross-platform mobile application building with HTML5 and JavaScript. <a href="http://blogs.nitobi.com/andre/index.php/2011/10/04/nitobi-and-phonegaps-new-home-at-adobe/">In a blog, Nitobi CEO Andre Charland pledged to pursue donation of the PhoneGap code to the Apache Software Foundation </a>&#8221;to ensure open stewardship of the project over the long term.&#8221; In a statement, he said Nitobi and Adobe shared the same philosophy about enabling mobile and Web applications. Dave Johnson, Nitobi CTO said: Adobe was fully supportive of the decision to take PhoneGap to the Apache Software Foundation.</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/ajaxian?a=8XG_vsBtafk:_Iaf5dU_hLA:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/ajaxian?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ajaxian?a=8XG_vsBtafk:_Iaf5dU_hLA:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/ajaxian?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ajaxian?a=8XG_vsBtafk:_Iaf5dU_hLA:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/ajaxian?i=8XG_vsBtafk:_Iaf5dU_hLA:D7DqB2pKExk" border="0"></img></a>
+</div>]]></content:encoded>
+			<wfw:commentRss>http://ajaxian.com/archives/adobe-buys-nitobi/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		<feedburner:origLink>http://ajaxian.com/archives/adobe-buys-nitobi</feedburner:origLink></item>
+		<item>
+		<title>A simple random bit on var selector</title>
+		<link>http://feedproxy.google.com/~r/ajaxian/~3/lYML1fRyKBE/a-simple-random-bit-on-var-selector</link>
+		<comments>http://ajaxian.com/archives/a-simple-random-bit-on-var-selector#comments</comments>
+		<pubDate>Wed, 10 Aug 2011 00:26:21 +0000</pubDate>
+		<dc:creator><![CDATA[jvaughan]]></dc:creator>
+				<category><![CDATA[CSS]]></category>
+		<category><![CDATA[Front Page]]></category>
+		<category><![CDATA[jQuery]]></category>
+
+		<guid isPermaLink="false">http://ajaxian.com/?p=10719</guid>
+		<description><![CDATA[Isobar&#8217;s Rob Larsen suggests that there is often a need to build CSS selectors dynamically when building applications. &#8221;This is typically some existing pattern paired with a loop counter or something pulled from a data attribute,&#8221; he writes on his blog. His choice is to create a variable called &#8221;selector&#8221; and &#8221;to craft the selector <a href="http://ajaxian.com/archives/a-simple-random-bit-on-var-selector">Read the rest...</a>]]></description>
+				<content:encoded><![CDATA[<p>Isobar&#8217;s Rob Larsen suggests that there is often a need to build CSS selectors dynamically when building applications. &#8221;This is typically some existing pattern paired with a loop counter or something pulled from a data attribute,&#8221; he writes on his <a href="http://htmlcssjavascript.com/javascript/var-selector/">blog</a>. His choice is to create a variable called &#8221;selector&#8221; and &#8221;to craft the selector on its own line.&#8221; This is then passed into jQuery. He shows <a href="http://htmlcssjavascript.com/javascript/var-selector/">a simple example</a>.</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/ajaxian?a=lYML1fRyKBE:jOuWUAHxqEw:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/ajaxian?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ajaxian?a=lYML1fRyKBE:jOuWUAHxqEw:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/ajaxian?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ajaxian?a=lYML1fRyKBE:jOuWUAHxqEw:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/ajaxian?i=lYML1fRyKBE:jOuWUAHxqEw:D7DqB2pKExk" border="0"></img></a>
+</div>]]></content:encoded>
+			<wfw:commentRss>http://ajaxian.com/archives/a-simple-random-bit-on-var-selector/feed</wfw:commentRss>
+		<slash:comments>13</slash:comments>
+		<feedburner:origLink>http://ajaxian.com/archives/a-simple-random-bit-on-var-selector</feedburner:origLink></item>
+		<item>
+		<title>The power of intent tag discussed</title>
+		<link>http://feedproxy.google.com/~r/ajaxian/~3/Uu5Is0JKYzs/the-power-of-intent-tag-discussed</link>
+		<comments>http://ajaxian.com/archives/the-power-of-intent-tag-discussed#comments</comments>
+		<pubDate>Mon, 11 Jul 2011 00:09:59 +0000</pubDate>
+		<dc:creator><![CDATA[jvaughan]]></dc:creator>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Front Page]]></category>
+		<category><![CDATA[html5]]></category>
+
+		<guid isPermaLink="false">http://ajaxian.com/?p=10679</guid>
+		<description><![CDATA[Google developer advocate Paul Kinlan has detailed his recent work on a lightweight sharing facility using a very simple intent share protocol. Web Intents began life in 2010. Now, Kinlan and company are looking for feedback. Basically, his intent tag is intended to allow users to more easily mix and match favorite plug-in capabilities, freeing <a href="http://ajaxian.com/archives/the-power-of-intent-tag-discussed">Read the rest...</a>]]></description>
+				<content:encoded><![CDATA[<p>Google developer advocate Paul Kinlan has detailed his recent work on a lightweight sharing facility using a very simple intent share protocol. Web Intents began life in 2010. Now, Kinlan and company are looking for feedback. Basically, his intent tag is intended to allow users to more easily mix and match favorite plug-in capabilities, freeing up developer effort in the meantime.</p>
+<p>Resembling in some ways intent attributes in the Android framework, the Intent tag works by signaling to a browser the intent to handle a number of URIs. The tag is meant for spidering.</p>
+<p>A user chooses a favored service – say, a &#8221;red-eye remover&#8221; for photo editing. The service loads; Intent data gets passed. The system takes care of service resources.</p>
+<p>While somewhat reserved in promoting the power of the intent tag, Kinlan still readily suggests that the Google project could &#8221;fundamentally change and improve the way we build applications on the Web today&#8230;&#8221;</p>
+<p>Behind the effort has been a determined push to keep the API very simple. Kinlan describes the effort in a recent blog entitled <a href="http://paul.kinlan.me/web-intents-a-fresh-look">&#8221;Web Intents: A Fresh Look&#8221;</a> and points you to a prototype <a href="https://github.com/PaulKinlan/WebIntents">API on Github</a>. Further details are on <a href="http://webintents.org/share">http://webintents.org/share</a>.</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/ajaxian?a=Uu5Is0JKYzs:_WT6cxh-nk4:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/ajaxian?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ajaxian?a=Uu5Is0JKYzs:_WT6cxh-nk4:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/ajaxian?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ajaxian?a=Uu5Is0JKYzs:_WT6cxh-nk4:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/ajaxian?i=Uu5Is0JKYzs:_WT6cxh-nk4:D7DqB2pKExk" border="0"></img></a>
+</div>]]></content:encoded>
+			<wfw:commentRss>http://ajaxian.com/archives/the-power-of-intent-tag-discussed/feed</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		<feedburner:origLink>http://ajaxian.com/archives/the-power-of-intent-tag-discussed</feedburner:origLink></item>
+		<item>
+		<title>Code injection, error throwing</title>
+		<link>http://feedproxy.google.com/~r/ajaxian/~3/XoRuVQdcKAk/code-injection-error-throwing</link>
+		<comments>http://ajaxian.com/archives/code-injection-error-throwing#comments</comments>
+		<pubDate>Sat, 11 Jun 2011 03:01:12 +0000</pubDate>
+		<dc:creator><![CDATA[jvaughan]]></dc:creator>
+				<category><![CDATA[Chrome]]></category>
+		<category><![CDATA[Front Page]]></category>
+		<category><![CDATA[Testing]]></category>
+
+		<guid isPermaLink="false">http://ajaxian.com/?p=10673</guid>
+		<description><![CDATA[In a blog, Opera Software Developer Relations team member Tiffany B. Brown looks at code injection, error throwing and handling and mobile debugging. She notes Opera Dragonfly and its remote debug features provide a way to debug mobile sites from their desktop. Brown mentions WebKit&#8217;s recently added remote debugging capabilities, folded into Google Chrome developer <a href="http://ajaxian.com/archives/code-injection-error-throwing">Read the rest...</a>]]></description>
+				<content:encoded><![CDATA[<p>In a blog, Opera Software Developer Relations team member Tiffany B. Brown looks at <a href="http://www.alistapart.com/articles/modern-debugging-tips-and-tricks/">code injection, error throwing and handling and mobile debugging.</a> She notes Opera Dragonfly and its remote debug features provide a way to debug mobile sites from their desktop. Brown mentions WebKit&#8217;s recently added remote debugging capabilities, folded into Google Chrome developer tools. Pointed to as well are Bugaboo, an iOS app for Safari-based debugging; JS Console which is available on the Web or as an iOS app; and Weinre for WebKit-based browsers. In this entry, Brown looks more closely at Dragonfly remote debug and JSConsole.</p>
+<p> </p>
+<p> </p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/ajaxian?a=XoRuVQdcKAk:6fze09zb6qw:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/ajaxian?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ajaxian?a=XoRuVQdcKAk:6fze09zb6qw:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/ajaxian?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ajaxian?a=XoRuVQdcKAk:6fze09zb6qw:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/ajaxian?i=XoRuVQdcKAk:6fze09zb6qw:D7DqB2pKExk" border="0"></img></a>
+</div>]]></content:encoded>
+			<wfw:commentRss>http://ajaxian.com/archives/code-injection-error-throwing/feed</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+		<feedburner:origLink>http://ajaxian.com/archives/code-injection-error-throwing</feedburner:origLink></item>
+		<item>
+		<title>The State – Sort of – of HTML5 Audio</title>
+		<link>http://feedproxy.google.com/~r/ajaxian/~3/XsiAhwWiFKU/the-state-sort-of-of-html5-audio</link>
+		<comments>http://ajaxian.com/archives/the-state-sort-of-of-html5-audio#comments</comments>
+		<pubDate>Fri, 10 Jun 2011 02:17:34 +0000</pubDate>
+		<dc:creator><![CDATA[jvaughan]]></dc:creator>
+				<category><![CDATA[Front Page]]></category>
+		<category><![CDATA[html5]]></category>
+
+		<guid isPermaLink="false">http://ajaxian.com/?p=10671</guid>
+		<description><![CDATA[The State &#8211; Sort of &#8211; of HTML5 Audio Scott Schiller discusses the high level of hype around HTML5 and CSS3. The two specs render &#8221;many years of feature hacks redundant by replacing them with native features,&#8221; he writes in an insightful blog. Blogging, he says: CSS3’s border-radius, box-shadow, text-shadow and gradients, and HTML5’s &#60;canvas&#62;, <a href="http://ajaxian.com/archives/the-state-sort-of-of-html5-audio">Read the rest...</a>]]></description>
+				<content:encoded><![CDATA[<p><a href="http://24ways.org/2010/the-state-of-html5-audio"></a></p>
+<p>The State &#8211; Sort of &#8211; of HTML5 Audio</p>
+<p>Scott Schiller discusses the high level of hype around HTML5 and CSS3. The two specs render &#8221;many years of feature hacks redundant by replacing them with native features,&#8221; he writes in an <a href="http://24ways.org/2010/the-state-of-html5-audio">insightful blog</a>.</p>
+<p>Blogging, he says:</p>
+<blockquote>
+<p>CSS3’s border-radius, box-shadow, text-shadow and gradients, and HTML5’s &lt;canvas&gt;, &lt;audio&gt; and &lt;video&gt; are some of the most anticipated features we’ll see put to creative (ab)use as adoption of the ‘new shiny’ grows. Developers jumping on the cutting edge are using subsets of these features to little detriment, in most cases. The more popular CSS features are design flourishes that can degrade nicely, but the current audio and video implementations in particular suffer from a number of annoyances.</p>
+</blockquote>
+<p>He begs the question: Are we going to see a common format across the major browsers for both audio and video?</p>
+<p><a href="http://24ways.org/2010/the-state-of-html5-audio">Check it out!</a></p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/ajaxian?a=XsiAhwWiFKU:63_3kXbn_2w:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/ajaxian?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ajaxian?a=XsiAhwWiFKU:63_3kXbn_2w:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/ajaxian?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ajaxian?a=XsiAhwWiFKU:63_3kXbn_2w:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/ajaxian?i=XsiAhwWiFKU:63_3kXbn_2w:D7DqB2pKExk" border="0"></img></a>
+</div>]]></content:encoded>
+			<wfw:commentRss>http://ajaxian.com/archives/the-state-sort-of-of-html5-audio/feed</wfw:commentRss>
+		<slash:comments>7</slash:comments>
+		<feedburner:origLink>http://ajaxian.com/archives/the-state-sort-of-of-html5-audio</feedburner:origLink></item>
+	</channel>
+</rss>

@@ -1,0 +1,1610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/atom10full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><feed xmlns="http://www.w3.org/2005/Atom" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0">
+  <title>Hangfire</title>
+  <description>An easy way to perform background processing in .NET and .NET Core applications. No separate process required, uses persistent storage.</description>
+  
+  <link href="https://www.hangfire.io/" />
+  <updated>2019-07-25T07:30:47+00:00</updated>
+  <id>https://www.hangfire.io</id>
+  <author>
+    <name>odinserj</name>
+    <uri>https://twitter.com/odinserj</uri>
+  </author>
+ 
+  
+  <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/atom+xml" href="http://feeds.feedburner.com/hangfireio" /><feedburner:info uri="hangfireio" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><entry>
+  	<id>https://www.hangfire.io/blog/2019/07/19/hangfire-1.7.5</id>
+    <title>Hangfire 1.7.5</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/mM9dieZuw2U/hangfire-1.7.5.html" />
+    <updated>2019-07-19T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This is a maintenance release that provides better handling of recurring job scheduling errors, clearly shows when there are problems with fetching statistics in Dashboard UI (thanks, @prochnowc!), doesn’t infinitely caches &lt;code class="highlighter-rouge"&gt;IBackgroundJobClient&lt;/code&gt; and &lt;code class="highlighter-rouge"&gt;IRecurringJobManager&lt;/code&gt; instances that throw &lt;em&gt;JobStorage.Current is null&lt;/em&gt; exceptions, and also adds the &lt;code class="highlighter-rouge"&gt;AddHangfireServer&lt;/code&gt; overload with options-based callback.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/mM9dieZuw2U" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2019/07/19/hangfire-1.7.5.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2019/07/12/hangfire.pro-2.2.1</id>
+    <title>Hangfire.Pro 2.2.1</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/tUW7ii6df3Q/hangfire.pro-2.2.1.html" />
+    <updated>2019-07-12T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This release fixes occasional timeout exceptions that occur when attaching nested batch continuations for nested batches that are currently processed. The exception occurred due to a deadlock caused by different batch lock acquisition order when nested batches are involved.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/tUW7ii6df3Q" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2019/07/12/hangfire.pro-2.2.1.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2019/07/01/hangfire-1.7.4</id>
+    <title>Hangfire 1.7.4</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/zMeLwIj4OMg/hangfire-1.7.4.html" />
+    <updated>2019-07-01T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This is a maintenance release that contains important fixes for the Hangfire.SqlServer package to avoid deadlocks if you have long-running jobs, improvements for background process dispatch loop’s implementation, and also an interesting experimental feature that can transparently make background job creation resilient to transient exceptions by using idempotent retries.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/zMeLwIj4OMg" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2019/07/01/hangfire-1.7.4.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2019/05/29/hangfire.pro-2.2.0</id>
+    <title>Hangfire.Pro 2.2.0</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/N-iOWdX6Md8/hangfire.pro-2.2.0.html" />
+    <updated>2019-05-29T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This is a maintenance release that plays better with recently released Hangfire 1.7, so you don’t get extra framework packages when targeting .NET Core or .NET Standard 2.0. Also, continuation filters now don’t throw an exception again and again, when continuation has already expired.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/N-iOWdX6Md8" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2019/05/29/hangfire.pro-2.2.0.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2019/05/23/hangfire-1.7.3</id>
+    <title>Hangfire 1.7.3 and 1.6.26</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/nq8Gi0j0Sfk/hangfire-1.7.3.html" />
+    <updated>2019-05-23T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <category>security</category>
+    
+    <content type="html">&lt;p&gt;This version contains &lt;strong&gt;security fixes&lt;/strong&gt; to prevent possible XSS attacks as described in &lt;a href="https://github.com/HangfireIO/Hangfire/issues/1441"&gt;#1441&lt;/a&gt;. They don’t relate to user data submitted to Hangfire directly via method arguments, but it’s recommended to upgrade anyway. If you are using Hangfire 1.6, please upgrade to version &lt;a href="https://github.com/HangfireIO/Hangfire/releases/tag/v1.6.26"&gt;1.6.26&lt;/a&gt; instead.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/nq8Gi0j0Sfk" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2019/05/23/hangfire-1.7.3.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2019/04/29/hangfire-1.7.2</id>
+    <title>Hangfire 1.7.2</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/Paqk8g1KyqQ/hangfire-1.7.2.html" />
+    <updated>2019-04-29T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This patch release contains stability improvements for recurring jobs, better handling of custom time zone resolvers in Dashboard UI and other minor fixes. If you are upgrading from 1.6.X, please see &lt;a href="https://docs.hangfire.io/en/latest/upgrade-guides/upgrading-to-hangfire-1.7.html"&gt;Upgrading to Hangfire 1.7&lt;/a&gt; article to learn the details.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/Paqk8g1KyqQ" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2019/04/29/hangfire-1.7.2.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2019/04/17/hangfire.pro.redis-2.5.1</id>
+    <title>Hangfire.Pro.Redis 2.5.1</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/7pKP9XPCVgc/hangfire.pro.redis-2.5.1.html" />
+    <updated>2019-04-17T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This version brings support for Mono on Linux and macOS platforms without the need to reference additional packages. On Windows, both .NET Framework and .NET Standard 2.0 now use the same methods for polling a socket for new data, to make the behavior consistent across platforms.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/7pKP9XPCVgc" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2019/04/17/hangfire.pro.redis-2.5.1.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2019/04/17/hangfire-1.7.1</id>
+    <title>Hangfire 1.7.1</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/OIhjL4y2WeQ/hangfire-1.7.1.html" />
+    <updated>2019-04-17T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This is a patch release that adds some nice features for Dashboard UI, knows how to deal with recurring jobs with invalid Cron expressions, and contains some minor improvements for SQL Server storage. Also, &lt;code class="highlighter-rouge"&gt;Hangfire.NetCore&lt;/code&gt; package was added to support new .NET Core Worker Service applications without referencing any ASP.NET Core packages.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/OIhjL4y2WeQ" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2019/04/17/hangfire-1.7.1.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2019/03/29/hangfire-1.7.0</id>
+    <title>Hangfire 1.7.0</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/FTRMN62ZX1c/hangfire-1.7.0.html" />
+    <updated>2019-03-29T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;Hangfire 1.7.0 is finally released with the whole bunch of new features and improvements for background processing, background and recurring jobs, SQL Server storage, .NET Core integration and interoperability between .NET platforms to provide a strong foundation for future features and extensions.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/FTRMN62ZX1c" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2019/03/29/hangfire-1.7.0.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2019/03/25/hangfire-1.7.0-rc2</id>
+    <title>Hangfire 1.7.0 RC</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/TUIHXtae9ds/hangfire-1.7.0-rc2.html" />
+    <updated>2019-03-25T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This is a release candidate for the upcoming version 1.7.0 with a lot of new features and improvements for almost all the aspects of background job processing. Below you’ll find a short list of them as well as upgrade details, and more information will be published later. Please note this is a pre-release, and it’s not suitable for critical environments.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/TUIHXtae9ds" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2019/03/25/hangfire-1.7.0-rc2.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2019/03/14/hangfire-1.6.23</id>
+    <title>Hangfire 1.6.23</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/vzH802liZPg/hangfire-1.6.23.html" />
+    <updated>2019-03-14T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This version fixes some issues and acts as an optional trampoline to the upcoming 1.7.0 release to simplify the rolling upgrades. So your current servers will work side-by-side with the newer ones even if you are using SQL Server as a job storage and applied the new migration. There will be more information on upgrading, but this version is nice-to-have (but not required) anyway.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/vzH802liZPg" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2019/03/14/hangfire-1.6.23.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2019/02/07/hangfire.pro.redis-2.4.0</id>
+    <title>Hangfire.Pro.Redis 2.4.0</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/2MZ38wnv8mk/hangfire.pro.redis-2.4.0.html" />
+    <updated>2019-02-07T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This is an important release that makes timeout detection much more robust. First of all, Redis server itself now acts as a single time authority for performing timeout checks for both jobs and servers rather than UTC time of a current Hangfire Server. So you don’t need to use synchronized clocks to prevent false positives for timeout checks.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/2MZ38wnv8mk" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2019/02/07/hangfire.pro.redis-2.4.0.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2019/01/28/hangfire-1.6.22</id>
+    <title>Hangfire 1.6.22</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/hmBKMmBijGg/hangfire-1.6.22.html" />
+    <updated>2019-01-28T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This version finally fixes interoperability issues that arise, because primitive built-in types like &lt;code class="highlighter-rouge"&gt;String&lt;/code&gt; reside in assemblies with different name in .NET Core (&lt;code class="highlighter-rouge"&gt;System.Private.CoreLib.dll&lt;/code&gt;) and .NET Framework (&lt;code class="highlighter-rouge"&gt;mscorlib.dll&lt;/code&gt;). This led to &lt;code class="highlighter-rouge"&gt;JobLoadException&lt;/code&gt; in .NET Framework-based applications, when they tried to perform background jobs created by a .NET Core-based one. The new version solves this problem by re-writing assembly name when resolving a type for a job and its parameters.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/hmBKMmBijGg" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2019/01/28/hangfire-1.6.22.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2018/12/12/hangfire.pro-2.1.2</id>
+    <title>Hangfire.Pro 2.1.2</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/o2y5aGZGzzo/hangfire.pro-2.1.2.html" />
+    <updated>2018-12-12T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This release fixes unexpected behaviors when we are cancelling a batch that has continuations for its inner items as in the following sample. When those continuations have continuations themselves, or when we attaching a job with continuation to a cancelled batch, our leaf-level continuations stuck in the awaiting or non-initialized state until queued manually.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/o2y5aGZGzzo" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2018/12/12/hangfire.pro-2.1.2.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2018/12/04/hangfire-1.6.21</id>
+    <title>Hangfire 1.6.21</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/uvcVy1LNjLQ/hangfire-1.6.21.html" />
+    <updated>2018-12-04T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This are late release notes for a maintenance release with minor fixes. Please see the list of fixed issues below and upgrade if necessary.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/uvcVy1LNjLQ" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2018/12/04/hangfire-1.6.21.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2018/10/18/hangfire.pro.redis-2.3.0</id>
+    <title>Hangfire.Pro.Redis 2.3.0</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/I9wp4OKyMzE/hangfire.pro.redis-2.3.0.html" />
+    <updated>2018-10-18T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;The goal of this release is to resolve the timeout issues that appear in .NET Core 2.X applications. Such behavior was caused by networking implementation of SE.Redis, which posted Redis response processing logic to thread pool’s worker threads, instead of completion ports or custom threads, due to the lack of the corresponding API in &lt;code class="highlighter-rouge"&gt;netstandard1.X&lt;/code&gt; specification.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/I9wp4OKyMzE" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2018/10/18/hangfire.pro.redis-2.3.0.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2018/07/21/hangfire-1.6.20</id>
+    <title>Hangfire 1.6.20</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/ZTf8R6fgk20/hangfire-1.6.20.html" />
+    <updated>2018-07-21T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <category>security</category>
+    
+    <content type="html">&lt;p&gt;This release &lt;strong&gt;contains fixes for security issues&lt;/strong&gt; related to dashboard, so it is highly recommended to upgrade. &lt;a href="https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)_Prevention_Cheat_Sheet"&gt;Cross-Site Request Forgery&lt;/a&gt; protection was added by using existing libraries, but methods are different across application frameworks:&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/ZTf8R6fgk20" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2018/07/21/hangfire-1.6.20.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2018/04/06/hangfire-1.6.19</id>
+    <title>Hangfire 1.6.19</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/WcFn-kphTSY/hangfire-1.6.19.html" />
+    <updated>2018-04-06T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This release fixes a regression appeared in 1.6.18 as well as contain some improvements for the Hangfire.SqlServer package.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/WcFn-kphTSY" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2018/04/06/hangfire-1.6.19.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2018/04/05/hangfire-1.6.18</id>
+    <title>Hangfire 1.6.18</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/gzecqYJZDRk/hangfire-1.6.18.html" />
+    <updated>2018-04-05T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This release contains a lot of fixes, but the most important ones are related to .NET Core and ASP.NET Core frameworks. Filters based on attributes are now working fine there, and &lt;code class="highlighter-rouge"&gt;DisplayName&lt;/code&gt; decoration will finally bring the human-ready name for your jobs. Other fixes are mostly related to dashboard.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/gzecqYJZDRk" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2018/04/05/hangfire-1.6.18.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2018/02/02/hangfire.pro.redis-2.2.0</id>
+    <title>Hangfire.Pro.Redis 2.2.0</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/eLKNejDHi7c/hangfire.pro.redis-2.2.0.html" />
+    <updated>2018-02-02T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This release solves connectivity issues with Redis Cluster 4.X, appeared as a result of breaking changes introduced in Redis 4.0.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/eLKNejDHi7c" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2018/02/02/hangfire.pro.redis-2.2.0.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2017/09/20/hangfire-1.6.17</id>
+    <title>Hangfire 1.6.17</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/SCxebx3jU6w/hangfire-1.6.17.html" />
+    <updated>2017-09-20T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This release contains important improvements when SQL Server is used as a job storage. Distributed locks are much more robust now even when there are significant connectivity issues (like those sometimes happen in Azure or other cloud environments) and require much fewer connections to SQL Server. Another improvement is related to a new option that allows transactions to be committed with fewer round-trips.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/SCxebx3jU6w" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2017/09/20/hangfire-1.6.17.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2017/09/02/hangfire-1.6.16</id>
+    <title>Hangfire 1.6.16</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/X2ZbzzFQ3xY/hangfire-1.6.16.html" />
+    <updated>2017-09-02T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This is yet another maintenance release that fixes a bunch of non-critical bugs in &lt;code class="highlighter-rouge"&gt;Hangfire.Core&lt;/code&gt; and &lt;code class="highlighter-rouge"&gt;Hangfire.SqlServer&lt;/code&gt; packages.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/X2ZbzzFQ3xY" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2017/09/02/hangfire-1.6.16.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2017/09/01/hangfire.pro-2.1.0</id>
+    <title>Hangfire.Pro 2.1.0</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/ca6GNXgHxaM/hangfire.pro-2.1.0.html" />
+    <updated>2017-09-01T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This release brings full support for continuations in batches, including the nested ones. Now you can create continuations within a batch even for jobs or batches in nested batches. Consider the following sample:&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/ca6GNXgHxaM" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2017/09/01/hangfire.pro-2.1.0.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2017/08/08/hangfire-1.6.15</id>
+    <title>Hangfire 1.6.15</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/OC8fQQ1RyNI/hangfire-1.6.15.html" />
+    <updated>2017-08-08T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This release contains important fixes for the Hangfire.SqlServer package, which is actively using the &lt;a href="https://docs.microsoft.com/en-us/sql/relational-databases/system-stored-procedures/sp-getapplock-transact-sql"&gt;&lt;code class="highlighter-rouge"&gt;sp_getapplock&lt;/code&gt;&lt;/a&gt; stored procedure to synchronize work between different servers. I’ve realized that locks shouldn’t be awaited on SQL Server’s side, because this may lead to SQL Server’s connection pool starvation, because each blocked request will block a single worker thread.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/OC8fQQ1RyNI" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2017/08/08/hangfire-1.6.15.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2017/07/19/pricing-changes-2017</id>
+    <title>Pricing Changes in 2017</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/sQOHp8T7zhc/pricing-changes-2017.html" />
+    <updated>2017-07-19T00:00:00+00:00</updated>
+    
+    
+    <content type="html">&lt;p&gt;I didn’t change the price since the introduction of Hangfire Pro in 2014, but the time has come. I have great plans regarding Hangfire 2.0 and the future versions, but I need to prepare the project to make these changes happen. Current state is well enough to support Hangfire for years, but isn’t enough for grow it up without introducing significant risks.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/sQOHp8T7zhc" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2017/07/19/pricing-changes-2017.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2017/06/16/hangfire-1.6.14</id>
+    <title>Hangfire 1.6.14</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/giGfeLdT3ws/hangfire-1.6.14.html" />
+    <updated>2017-06-16T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This versions adds possibility to use non-transactional message fetching algorithm when using Hangfire.SqlServer package. This is especially helpful, if you have a lot of long-running background jobs, since they may prevent you from taking transaction log backups, leading to the &lt;em&gt;Transaction log is full due to ‘ACTIVE_TRANSACTION’&lt;/em&gt; error.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/giGfeLdT3ws" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2017/06/16/hangfire-1.6.14.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2017/06/07/hangfire-1.6.13</id>
+    <title>Hangfire 1.6.13</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/iwQXEJdcqZE/hangfire-1.6.13.html" />
+    <updated>2017-06-07T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This release contains a bunch of fixes for core and integration packages. The most important updates are fix for SQL connection leaks when we failed to acquire a distributed lock, and wrong queue selection, when continuation is created after antecedent job is finished. So upgrade is recommended.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/iwQXEJdcqZE" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2017/06/07/hangfire-1.6.13.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2017/04/27/hangfire.pro.redis-2.1.1</id>
+    <title>Hangfire.Pro.Redis 2.1.1</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/yPzPInax8no/hangfire.pro.redis-2.1.1.html" />
+    <updated>2017-04-27T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This is a minor update that fixes VS Code debugger crash on OS X, and don’t report &lt;code class="highlighter-rouge"&gt;ThreadAbortException&lt;/code&gt; as
+fatal. You can update only if these issues annoys you.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/yPzPInax8no" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2017/04/27/hangfire.pro.redis-2.1.1.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2017/04/26/hangfire.pro-2.0.1</id>
+    <title>Hangfire.Pro 2.0.1</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/VutzgQJo91g/hangfire.pro-2.0.1.html" />
+    <updated>2017-04-26T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;Another bug related to forever incomplete batches has been fixed. This bug existed for a long time, so I’d recommend anyone to upgrade.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/VutzgQJo91g" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2017/04/26/hangfire.pro-2.0.1.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2017/04/19/hangfire.pro-2.0.0</id>
+    <title>Hangfire.Pro 2.0.0</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/deGVx5_ZPqA/hangfire.pro-2.0.0.html" />
+    <updated>2017-04-19T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This release contains the most amazing update to the batches feature. Now you can create nested batches, attach jobs or batches to an existing batch, regardless of its current state, and lazily cancel running batches. Also, you can create job continuation for batch, and batch continuation for job. These feature allows you to build powerful workflows on top of Hangfire with ease.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/deGVx5_ZPqA" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2017/04/19/hangfire.pro-2.0.0.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2017/04/17/hangfire.pro.redis-2.1.0</id>
+    <title>Hangfire.Pro.Redis 2.1.0</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/ZoT-GuryyXk/hangfire.pro.redis-2.1.0.html" />
+    <updated>2017-04-17T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;Redis Cluster is finally supported. Also improved connection resilience using custom connection loop, upgraded StackExchange.Redis to the latest version and fixed some nasty bugs. So I’d recommend to upgrade, especially if you are using Redis in cloud environments.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/ZoT-GuryyXk" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2017/04/17/hangfire.pro.redis-2.1.0.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2017/04/12/hangfire.pro-1.4.10</id>
+    <title>Hangfire.Pro 1.4.10</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/-j1jXTrUsZg/hangfire.pro-1.4.10.html" />
+    <updated>2017-04-12T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;​There was a lack of distributed lock during the batch creation phase. If an antecedent batch succeeded just after adding a batch continuation (continuations:finished set), but before the continuation was created, antecedent batch was silently ignoring the fact that continuation does not exist yet. ​I’ve added a required distributed lock, and taught a state filter related to continuations to throw an exception, when continuation doesn’t exist.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/-j1jXTrUsZg" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2017/04/12/hangfire.pro-1.4.10.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2017/03/31/hangfire.pro.redis-2.1.0-beta1</id>
+    <title>Hangfire.Pro.Redis 2.1.0-beta1</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/O4A51VResuM/hangfire.pro.redis-2.1.0-beta1.html" />
+    <updated>2017-03-31T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;Finally Redis Cluster is officially supported by Hangfire.Pro.Redis package, and correctly handles the corner cases of Redis’ async replication. I was able to implement it without requiring &lt;a href="https://redis.io/topics/distlock"&gt;RedLock&lt;/a&gt; algorithm, regular &lt;code class="highlighter-rouge"&gt;WATCH&lt;/code&gt; commands are used to ensure distributed lock correctness.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/O4A51VResuM" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2017/03/31/hangfire.pro.redis-2.1.0-beta1.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2017/03/31/hangfire.pro-1.4.9</id>
+    <title>Hangfire.Pro 1.4.9</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/4xo7fxSjRIs/hangfire.pro-1.4.9.html" />
+    <updated>2017-03-31T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This is a correcting release that mainly fixes regression related to dashboard, appeared in the previous version.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/4xo7fxSjRIs" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2017/03/31/hangfire.pro-1.4.9.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2017/03/28/hangfire.azure.servicebusqueue-2.2.0</id>
+    <title>Hangfire.Azure.ServiceBusQueue 2.2.0</title>
+    <author>barclayadam</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/YvhLhoysni0/hangfire.azure.servicebusqueue-2.2.0.html" />
+    <updated>2017-03-28T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;A recommended upgrade for all users to improve the reliability and accuracy of the service bus integration:&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/YvhLhoysni0" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2017/03/28/hangfire.azure.servicebusqueue-2.2.0.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2017/03/22/hangfire-1.6.12</id>
+    <title>Hangfire 1.6.12</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/kx2Tc40vUGk/hangfire-1.6.12.html" />
+    <updated>2017-03-22T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This release brings better exception handling policy for state changing pipeline. Previously, non-transient exception in a state filter could cause a worker to perform retries for affected background job infinitely. And a large number of such background jobs could stall the processing.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/kx2Tc40vUGk" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2017/03/22/hangfire-1.6.12.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2017/03/14/hangfire-1.6.11</id>
+    <title>Hangfire 1.6.11</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/smywiiO3_UM/hangfire-1.6.11.html" />
+    <updated>2017-03-14T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This release fixes a problem with CSS and JS files in dashboard appeared in 1.6.10, as well as corrects the authorization behavior, when the &lt;code class="highlighter-rouge"&gt;User&lt;/code&gt; property is &lt;code class="highlighter-rouge"&gt;null&lt;/code&gt;.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/smywiiO3_UM" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2017/03/14/hangfire-1.6.11.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2017/03/13/hangfire-1.6.10</id>
+    <title>Hangfire 1.6.10</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/f8JyIeID_Q0/hangfire-1.6.10.html" />
+    <updated>2017-03-13T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This is a maintenance release that contains fixes for job continuations and some dashboard issues related to Content Security Policy and recurring jobs page. It’s highly recommended to upgrade to prevent problems with continuations. They are rare, but lead to significant headache.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/f8JyIeID_Q0" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2017/03/13/hangfire-1.6.10.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2017/03/02/hangfire.pro-2.0.0-beta2</id>
+    <title>Hangfire.Pro 2.0.0-beta2</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/_BwxZvX5mv4/hangfire.pro-2.0.0-beta2.html" />
+    <updated>2017-03-02T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;I’m very excited to write about all of these changes, because they take batches and Hangfire itself to a whole new level by unlocking a lot of usage scenarios. This pre-release adds support for &lt;a href="https://www.hangfire.io/blog/2017/03/02/hangfire.pro-2.0.0-beta2.html#nested-batches"&gt;nested batches&lt;/a&gt;, modifications of &lt;a href="https://www.hangfire.io/blog/2017/03/02/hangfire.pro-2.0.0-beta2.html#batch-modification"&gt;existing batches&lt;/a&gt;, &lt;a href="https://www.hangfire.io/blog/2017/03/02/hangfire.pro-2.0.0-beta2.html#more-continuations"&gt;batch continuations&lt;/a&gt; for jobs and vice versa, &lt;a href="https://www.hangfire.io/blog/2017/03/02/hangfire.pro-2.0.0-beta2.html#cancellation-of-a-batch"&gt;batch cancellation&lt;/a&gt; as well as support for &lt;a href="https://www.hangfire.io/blog/2017/03/02/hangfire.pro-2.0.0-beta2.html#net-standard"&gt;.NET Standard&lt;/a&gt; and configurable batch &lt;a href="https://www.hangfire.io/blog/2017/03/02/hangfire.pro-2.0.0-beta2.html#configurable-expiration-time"&gt;expiration time&lt;/a&gt;.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/_BwxZvX5mv4" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2017/03/02/hangfire.pro-2.0.0-beta2.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2017/03/02/hangfire-1.6.9</id>
+    <title>Hangfire 1.6.9</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/9ud5cpfW5vk/hangfire-1.6.9.html" />
+    <updated>2017-03-02T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This is a small correcting release that make it possible to have a workaround for &lt;code class="highlighter-rouge"&gt;TimeoutException&lt;/code&gt; exceptions when using &lt;strong&gt;SQL Server&lt;/strong&gt; with huge arguments or batches. The &lt;code class="highlighter-rouge"&gt;SqlServerOptions.CommandTimeout&lt;/code&gt; option was added to allow to override the default timeout of 30 seconds.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/9ud5cpfW5vk" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2017/03/02/hangfire-1.6.9.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2017/02/10/12-reasons-to-use-message-queuing</id>
+    <title>12 reasons to use message queuing</title>
+    <author>stackify</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/E_gI5OlTsKg/12-reasons-to-use-message-queuing.html" />
+    <updated>2017-02-10T00:00:00+00:00</updated>
+    
+    
+    <content type="html">&lt;p&gt;At Stackify we receive a lot of data from your apps to our Retrace APIs. We queue all of that data as soon as it gets to us and then we use separate background services to process the data. Message queues help a lot with ensuring data is never lost, traffic spikes, etc. We decided we to put together a list of why you should be using message queues!&lt;/p&gt;
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/E_gI5OlTsKg" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2017/02/10/12-reasons-to-use-message-queuing.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2017/02/09/hangfire.pro-1.4.8</id>
+    <title>Hangfire Pro 1.4.8</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/wsnFa8FKMfA/hangfire.pro-1.4.8.html" />
+    <updated>2017-02-09T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This release contains a bunch of fixes &lt;strong&gt;for batches&lt;/strong&gt;, and is &lt;strong&gt;recommended for anyone&lt;/strong&gt; who use them. Batches now always created in a correct state (Started, Completed or Succeeded), depending of state of its jobs. This is the most important change that fixes weird problems with batches that hanging forever.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/wsnFa8FKMfA" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2017/02/09/hangfire.pro-1.4.8.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2016/12/21/hangfire-1.6.8</id>
+    <title>Hangfire 1.6.8</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/m5A9zIZ93v4/hangfire-1.6.8.html" />
+    <updated>2016-12-21T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This release contains a bunch of minor fixes, mostly for Dashboard UI.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/m5A9zIZ93v4" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2016/12/21/hangfire-1.6.8.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2016/12/20/hangfire.pro.redis-2.0.6</id>
+    <title>Hangfire.Pro.Redis 2.0.6</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/Qlv2QdPBRP0/hangfire.pro.redis-2.0.6.html" />
+    <updated>2016-12-20T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This is a correcting release that fixes &lt;code class="highlighter-rouge"&gt;Server.StartedAt&lt;/code&gt; field reset problem during each server heartbeat, which lead to confusion that servers are constantly restarted, when watching the Servers page. It also adds missing &lt;code class="highlighter-rouge"&gt;GetValueFromHash&lt;/code&gt; method required by popular &lt;a href="https://github.com/pieceofsummer/Hangfire.Console"&gt;Hangfire.Console&lt;/a&gt; extension.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/Qlv2QdPBRP0" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2016/12/20/hangfire.pro.redis-2.0.6.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2016/12/01/hangfire.pro.redis-2.0.5</id>
+    <title>Hangfire.Pro.Redis 2.0.5</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/wLhv57saD4I/hangfire.pro.redis-2.0.5.html" />
+    <updated>2016-12-01T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This is a maintenance release that add support for Hangfire.Core 1.4.0 for conservative users who are planning to switch to use a more stable &lt;a href="https://github.com/StackExchange/StackExchange.Redis"&gt;StackExchange.Redis&lt;/a&gt; client package, but don’t want to upgrade Hangfire.Core. Originally this package supported only ≥ 1.5.0 versions.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/wLhv57saD4I" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2016/12/01/hangfire.pro.redis-2.0.5.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2016/11/25/hangfire-1.6.7</id>
+    <title>Hangfire 1.6.7</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/s17n5sRxpuk/hangfire-1.6.7.html" />
+    <updated>2016-11-25T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This is a correcting release that brings fixes to fully support generic methods, whose generic arguments are defined in their parameters, including &lt;code class="highlighter-rouge"&gt;List&amp;lt;T&amp;gt;&lt;/code&gt; and &lt;code class="highlighter-rouge"&gt;T[]&lt;/code&gt;. A lot of issues with Dashboard UI that cause exceptions and other errors, like uncontrolled growth of event listeners on resize, were also fixed. Please see the full delails below.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/s17n5sRxpuk" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2016/11/25/hangfire-1.6.7.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2016/11/16/hangfire.pro.redis-2.0.4</id>
+    <title>Hangfire.Pro.Redis 2.0.4</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/d_ygsur4TZ8/hangfire.pro.redis-2.0.4.html" />
+    <updated>2016-11-16T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This is a maintenance release that fixes &lt;code class="highlighter-rouge"&gt;ArgumentNullException&lt;/code&gt; that appears in Dashboard UI and during a call to the &lt;code class="highlighter-rouge"&gt;RedisMonitoringApi.Servers&lt;/code&gt; method, when &lt;code class="highlighter-rouge"&gt;BackgroundJobServer&lt;/code&gt; instance was resurrected. Resurrection happens when a server was removed from active servers list due to network problems, but then appeared again.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/d_ygsur4TZ8" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2016/11/16/hangfire.pro.redis-2.0.4.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2016/10/20/hangfire.pro.redis-2.0.3</id>
+    <title>Hangfire.Pro.Redis 2.0.3</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/gghSBaBhWBI/hangfire.pro.redis-2.0.3.html" />
+    <updated>2016-10-20T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This release adds an option that explicitly allows using multiple endpoints in the connection string, but it’s &lt;strong&gt;not recommended&lt;/strong&gt;.  Use it at your own risk! Here’s a small explanation:&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/gghSBaBhWBI" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2016/10/20/hangfire.pro.redis-2.0.3.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2016/10/13/hangfire-1.6.6</id>
+    <title>Hangfire 1.6.6</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/8AgKPfUQNYM/hangfire-1.6.6.html" />
+    <updated>2016-10-13T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This is a correcting release that fixes a regression, when using generic methods of a scoped variable in expression for  background jobs, as well as some minor optimizations for SQL Server. It also adds CLS compliance for basic packages, since public API is already compliant. Boring release, nothing interesting here.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/8AgKPfUQNYM" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2016/10/13/hangfire-1.6.6.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2016/10/07/hangfire.pro.redis-2.0.2</id>
+    <title>Hangfire.Pro.Redis 2.0.2</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/yFIS1lTDJT0/hangfire.pro.redis-2.0.2.html" />
+    <updated>2016-10-07T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This release brings us a single package that targets both .NET Framework and .NET Core, so there’s no need to use separate packages now. It also fixes a rare issue, when a timed out background job stays in the &lt;code class="highlighter-rouge"&gt;processing&lt;/code&gt; set indefinitely, causing dashboard exceptions.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/yFIS1lTDJT0" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2016/10/07/hangfire.pro.redis-2.0.2.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2016/09/24/hangfire-1.6.5</id>
+    <title>Hangfire 1.6.5</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/SE9wY67ftAQ/hangfire-1.6.5.html" />
+    <updated>2016-09-24T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This correcting release contains a &lt;strong&gt;lot of stability improvements&lt;/strong&gt; for Hangfire.SqlServer, especially for SQL Azure Database environments. Processing is now more predictable even in Basic pricing tier, there is a special harness application that’s running 24/7 to ensure everything is fine. Some problems related to I18N, authorisation and continuations were also fixed.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/SE9wY67ftAQ" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2016/09/24/hangfire-1.6.5.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2016/08/30/hangfire.1.6.4</id>
+    <title>Hangfire 1.6.4</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/y_901oQcUxE/hangfire.1.6.4.html" />
+    <updated>2016-08-30T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This release fixes a problem that caused &lt;code class="highlighter-rouge"&gt;SqlConnection&lt;/code&gt; instance to leak when nested distributed locks are acquired for the same resource. If you are using batches, or continuations, and SQL Server as a storage, it is highly recommended to upgrade to prevent connection pool starvation and timeout exceptions.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/y_901oQcUxE" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2016/08/30/hangfire.1.6.4.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2016/08/19/hangfire-1.6.3</id>
+    <title>Hangfire 1.6.3</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/RZRoXR0i-OM/hangfire-1.6.3.html" />
+    <updated>2016-08-19T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This is a maintenance release that contains fixes for several bugs. It is highly recommended to upgrade to this version, if you are using &lt;code class="highlighter-rouge"&gt;Hangfire.SqlServer&lt;/code&gt;. Thanks to all folks who helped with reporting and investigating these issues!&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/RZRoXR0i-OM" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2016/08/19/hangfire-1.6.3.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2016/08/10/hangfire.pro.redis-2.0</id>
+    <title>Hangfire.Pro.Redis 2.0</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/jjyM-z81orw/hangfire.pro.redis-2.0.html" />
+    <updated>2016-08-10T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;Brand new version of &lt;a href="http://nuget.hangfire.io/feeds/hangfire-pro/Hangfire.Pro.Redis/2.0.0"&gt;Hangfire.Pro.Redis&lt;/a&gt; is finally available. It is now based on feature-rich &lt;a href="https://github.com/StackExchange/StackExchange.Redis"&gt;StackExchange.Redis&lt;/a&gt; library, allowing us to bring Hangfire to more environments that use Redis storage in the near future. This version comes with some new features, including SSL support and highly reduced connection usage.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/jjyM-z81orw" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2016/08/10/hangfire.pro.redis-2.0.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2016/08/05/hangfire-pro-1.4.6</id>
+    <title>Hangfire Pro 1.4.6</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/Vq5HxONPOAg/hangfire-pro-1.4.6.html" />
+    <updated>2016-08-05T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This version fixes different problems, that caused batches and batch continuations appear with no background jobs under rare circumstances. Also, background jobs now have the same expiration time with the batch itself. It is &lt;strong&gt;highly recommended to upgrade&lt;/strong&gt;, if you are using batches.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/Vq5HxONPOAg" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2016/08/05/hangfire-pro-1.4.6.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2016/08/05/hangfire-1.6.2</id>
+    <title>Hangfire 1.6.2</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/tFsCr5GXPpw/hangfire-1.6.2.html" />
+    <updated>2016-08-05T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This correcting release contains important fixes for SQL Server and MSMQ integrations, as well as some cosmetic changes to the Dashboard UI. Major blocking problem was resolved, when using Hangfire with SQL Server, that may cause a lot of blocking records in the &lt;code class="highlighter-rouge"&gt;State&lt;/code&gt; table, preventing background processing from working flawlessly, when expired records are removed from a database – Database Engine didn’t use the right index during the query performance.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/tFsCr5GXPpw" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2016/08/05/hangfire-1.6.2.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2016/07/27/hangfire-1.6.1</id>
+    <title>Hangfire 1.6.1</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/YQVVds4CRxo/hangfire-1.6.1.html" />
+    <updated>2016-07-27T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This is a correcting release that fixes a couple of problems, including exception when using Serilog (appeared in 1.6.0), wrong CRON format strings for intervals, and ones that relate to the .NET Core platform. They were revealed by adding support to continuously run unit tests on Windows, Linux and OS X for the .NET Core using &lt;a href="https://www.appveyor.com/"&gt;AppVeyor&lt;/a&gt; and &lt;a href="https://travis-ci.org/"&gt;Travis CI&lt;/a&gt;.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/YQVVds4CRxo" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2016/07/27/hangfire-1.6.1.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2016/07/16/hangfire-1.6.0</id>
+    <title>Hangfire 1.6.0</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/8FklKCSGgRc/hangfire-1.6.0.html" />
+    <updated>2016-07-16T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;Hangfire 1.6 just released with experimental .NET Core platform support, deep integration with ASP.NET Core and &lt;code class="highlighter-rouge"&gt;async&lt;/code&gt;/&lt;code class="highlighter-rouge"&gt;await&lt;/code&gt; programming model support. Start processing background jobs with ease even on Linux and OS X today!&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/8FklKCSGgRc" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2016/07/16/hangfire-1.6.0.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2016/07/11/hangfire-1.5.9</id>
+    <title>Hangfire 1.5.9</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/eFQROIR-vrc/hangfire-1.5.9.html" />
+    <updated>2016-07-11T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This release contains major bug fixes, and is &lt;strong&gt;very recommended to upgrade&lt;/strong&gt;. In short, &lt;code class="highlighter-rouge"&gt;OperationCanceledException&lt;/code&gt; doesn’t cause background processing to stop now. Dashboard UI doesn’t leak &lt;code class="highlighter-rouge"&gt;READ UNCOMMITTED&lt;/code&gt; isolation level, and &lt;code class="highlighter-rouge"&gt;READ_COMMITTED_SNAPSHOT&lt;/code&gt; option doesn’t lead background jobs to stuck in Enqueued state.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/eFQROIR-vrc" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2016/07/11/hangfire-1.5.9.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2016/06/17/hangfire-1.5.8</id>
+    <title>Hangfire 1.5.8</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/O638LeVaJLM/hangfire-1.5.8.html" />
+    <updated>2016-06-17T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This release fixes a bug appeared in version &lt;a href="/blog/2016/04/25/hangfire-1.5.6.html"&gt;1.5.6&lt;/a&gt; of the &lt;code class="highlighter-rouge"&gt;Hangfire.SqlServer&lt;/code&gt; package. There was a race condition between the &lt;code class="highlighter-rouge"&gt;Timer&lt;/code&gt; and &lt;code class="highlighter-rouge"&gt;Worker&lt;/code&gt; threads, that causes the following problems, especially when small background jobs are processed.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/O638LeVaJLM" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2016/06/17/hangfire-1.5.8.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2016/05/31/hangfire-1.6.0-beta3</id>
+    <title>Hangfire 1.6.0-beta3</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/AI8sUmQY-FU/hangfire-1.6.0-beta3.html" />
+    <updated>2016-05-31T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;Third beta of the upcoming 1.6 release. Contains a fix for a bug introduced in the previous beta, related to inability to add custom filters, as well as fixes from the recent &lt;a href="http://hangfire.io/blog/2016/05/30/hangfire-1.5.7.html"&gt;1.5.7&lt;/a&gt; version.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/AI8sUmQY-FU" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2016/05/31/hangfire-1.6.0-beta3.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2016/05/30/hangfire-1.5.7</id>
+    <title>Hangfire 1.5.7</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/6fGbcBU1Jrc/hangfire-1.5.7.html" />
+    <updated>2016-05-30T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This is a correcting release that contains a fix for Dashboard UI crashes when using MSMQ (finally, thanks @yangman for this!), as well as some other minor fixes.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/6fGbcBU1Jrc" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2016/05/30/hangfire-1.5.7.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2016/05/18/hangfire-pro-redis-2.0.0-beta1</id>
+    <title>Hangfire.Pro.Redis 2.0.0-beta1</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/HA65yO26IQA/hangfire-pro-redis-2.0.0-beta1.html" />
+    <updated>2016-05-18T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;New major version of Hangfire.Pro.Redis package (a part of &lt;a href="/pro/"&gt;Hangfire Pro&lt;/a&gt;) is almost here. Now it uses popular open-source library &lt;a href="https://github.com/StackExchange/StackExchange.Redis"&gt;StackExchange.Redis&lt;/a&gt; to interact with &lt;a href="http://redis.io/"&gt;Redis&lt;/a&gt; – a blazing fast data structure store.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/HA65yO26IQA" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2016/05/18/hangfire-pro-redis-2.0.0-beta1.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2016/05/16/hangfire-pro-1.4.5</id>
+    <title>Hangfire Pro 1.4.5</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/yU882xkXP7I/hangfire-pro-1.4.5.html" />
+    <updated>2016-05-16T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This release fixes distributed locks in &lt;code class="highlighter-rouge"&gt;Hangfire.Pro.Redis&lt;/code&gt; that didn’t take the &lt;em&gt;Prefix&lt;/em&gt; option into account. This may result in problems and different timeout when a single Redis instance is used for a bunch of applications with separate code base.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/yU882xkXP7I" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2016/05/16/hangfire-pro-1.4.5.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2016/04/27/hangfire-1.6.0-beta2</id>
+    <title>Hangfire 1.6.0-beta2</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/2QBO9xvUHbU/hangfire-1.6.0-beta2.html" />
+    <updated>2016-04-27T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This is the second beta of upcoming the 1.6 release. It contains some new features, but most importantly, it incorporates bug fixes released with recent &lt;a href="http://hangfire.io/blog/2016/04/14/hangfire-1.5.5.html"&gt;1.5.5&lt;/a&gt; and &lt;a href="http://hangfire.io/blog/2016/04/25/hangfire-1.5.6.html"&gt;1.5.6&lt;/a&gt; versions related to SQL Azure and recurring jobs, please see them for more details.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/2QBO9xvUHbU" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2016/04/27/hangfire-1.6.0-beta2.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2016/04/25/hangfire-1.5.6</id>
+    <title>Hangfire 1.5.6</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/Bl9xYCMS-cs/hangfire-1.5.6.html" />
+    <updated>2016-04-25T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This release fixes an issue related to SQL Azure and background jobs, running more than 30 minutes. The problem is caused by Azure Database Engine which &lt;a href="https://azure.microsoft.com/en-us/documentation/articles/sql-database-security-guidelines/"&gt;closes idle connections&lt;/a&gt; after 30 minutes of inactivity. Hangfire now periodically sends “keep-alive” queries to prevent this.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/Bl9xYCMS-cs" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2016/04/25/hangfire-1.5.6.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2016/04/14/hangfire-1.5.5</id>
+    <title>Hangfire 1.5.5</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/WMMH6D_E4dE/hangfire-1.5.5.html" />
+    <updated>2016-04-14T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This is a correcting release that fixes a problem with recurring jobs. It is related to a possible misfire on a first run, if a background processing server was inactive during the scheduled time.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/WMMH6D_E4dE" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2016/04/14/hangfire-1.5.5.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2016/03/31/hangfire-1.6.0-beta1</id>
+    <title>Hangfire 1.6.0-beta1</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/8Og8G7A8Rd0/hangfire-1.6.0-beta1.html" />
+    <updated>2016-03-31T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This is the first beta of an upcoming 1.6 release. Added support for async background job methods, ability to access context when creating an IoC container scope, dashboard with i18n support, redesigned Job Details page and zero latency for simple setup with SQL Server.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/8Og8G7A8Rd0" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2016/03/31/hangfire-1.6.0-beta1.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2016/03/22/hangfire-1.5.4</id>
+    <title>Hangfire 1.5.4</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/ddbTzDIzLg8/hangfire-1.5.4.html" />
+    <updated>2016-03-22T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This is a correcting release that is highly recommended to install. It fixes issue related to &lt;strong&gt;daylight savings&lt;/strong&gt; in recurring jobs, and &lt;strong&gt;prevents infinite loop&lt;/strong&gt; when changing state of a background job that doesn’t exists (for example, when deleting a job).&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/ddbTzDIzLg8" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2016/03/22/hangfire-1.5.4.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2016/02/06/hangfire-pro-1.4.4</id>
+    <title>Hangfire Pro 1.4.4</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/BNOLLl3ECQk/hangfire-pro-1.4.4.html" />
+    <updated>2016-02-06T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This release fixes an issue with &lt;strong&gt;batch continuations&lt;/strong&gt;, and is recommended for anyone who use them. The issue takes place, when a parent batch unable to complete within 1 hour, after which batch continuation may start with no jobs, because all of them were expired.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/BNOLLl3ECQk" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2016/02/06/hangfire-pro-1.4.4.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2015/12/07/hangfire-pro-1.4.3</id>
+    <title>Hangfire Pro 1.4.3</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/_bGerN9MS04/hangfire-pro-1.4.3.html" />
+    <updated>2015-12-07T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This release fixes &lt;code class="highlighter-rouge"&gt;Could not find type Hangfire.Batches.States.BatchAwaitingState&lt;/code&gt; exception appeared after upgrading from Hangfire Pro 1.4.0 or 1.4.1 when using batch continuations. Previuos release solved the issue partly, and didn’t cover those who just updated from versions listed above.&lt;/p&gt;
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/_bGerN9MS04" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2015/12/07/hangfire-pro-1.4.3.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2015/11/07/hangfire-1.5.3</id>
+    <title>Hangfire 1.5.3</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/dDeEEc91heY/hangfire-1.5.3.html" />
+    <updated>2015-11-07T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This is a &lt;strong&gt;recommended update&lt;/strong&gt; for all users of &lt;strong&gt;Hangfire.SqlServer&lt;/strong&gt;. It addresses to fix a bug presented in version 1.5.0, associated with incorrect acquiring/releasing of distributed locks after network problems, that may lead to &lt;em&gt;Cannot release the application lock&lt;/em&gt; exceptions and other issues related to synchronization.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/dDeEEc91heY" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2015/11/07/hangfire-1.5.3.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2015/11/05/hangfire-pro-1.4.2</id>
+    <title>Hangfire.Pro.Redis 1.4.2</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/T3dJkGbHI0s/hangfire-pro-1.4.2.html" />
+    <updated>2015-11-05T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This release fixes a security issue that caused Redis password leaks to log targets during the Hangfire Server startup. The password was also shown in dashboard. &lt;strong&gt;If you are using password-protected Redis&lt;/strong&gt;, it is highly recommended to update to this release, and change Redis password.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/T3dJkGbHI0s" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2015/11/05/hangfire-pro-1.4.2.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2015/10/30/ssl-for-nuget-feed-and-forum</id>
+    <title>Securing NuGet feed and discussion forum</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/w6s0RdV1Wx8/ssl-for-nuget-feed-and-forum.html" />
+    <updated>2015-10-30T00:00:00+00:00</updated>
+    
+    
+    <content type="html">&lt;p&gt;I finally bought an SSL certificate to keep your passwords away from others, and ensure you are receiving NuGet packages from the original site. Please meet &lt;a href="https://nuget.hangfire.io"&gt;https://nuget.hangfire.io&lt;/a&gt; (&lt;em&gt;A&lt;/em&gt; grade on &lt;a href="https://www.ssllabs.com/ssltest/analyze.html?d=nuget.hangfire.io"&gt;SSL Labs&lt;/a&gt;) and &lt;a href="https://discuss.hangfire.io"&gt;https://discuss.hangfire.io&lt;/a&gt; (&lt;em&gt;A+&lt;/em&gt; grade on &lt;a href="https://www.ssllabs.com/ssltest/analyze.html?d=discuss.hangfire.io"&gt;SSL Labs&lt;/a&gt;).&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/w6s0RdV1Wx8" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2015/10/30/ssl-for-nuget-feed-and-forum.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2015/10/15/hangfire-1.5.2</id>
+    <title>Hangfire 1.5.2</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/zEGwtGmmrtE/hangfire-1.5.2.html" />
+    <updated>2015-10-15T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This is a hotfix for Hangfire 1.5.1 users. If you are using one of previous versions, you are unaffected by this bug.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/zEGwtGmmrtE" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2015/10/15/hangfire-1.5.2.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2015/10/14/hangfire-1.5.1</id>
+    <title>Hangfire 1.5.1</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/nKR3ZnPpTn0/hangfire-1.5.1.html" />
+    <updated>2015-10-14T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This is a correcting release that fixes some non-critical bugs.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/nKR3ZnPpTn0" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2015/10/14/hangfire-1.5.1.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2015/10/01/hangfire-pro-1.4.0</id>
+    <title>Hangfire Pro 1.4.0</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/O9P0-2EChgY/hangfire-pro-1.4.0.html" />
+    <updated>2015-10-01T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;New versions of Hangfire Pro packages released to be compatible with Hangfire 1.5.0 version. Background jobs in batches now performing slightly faster, and Redis transaction scope was reduced to the &lt;code class="highlighter-rouge"&gt;Commit&lt;/code&gt; method, allowing to query for data from apply state filters.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/O9P0-2EChgY" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2015/10/01/hangfire-pro-1.4.0.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2015/10/01/hangfire-1.5.0</id>
+    <title>Hangfire 1.5.0</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/29mnmaT_rfs/hangfire-1.5.0.html" />
+    <updated>2015-10-01T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;Finally after 4 months of development and after 4 betas, Hangfire 1.5.0 released. Now you are able to customize your background processing pipeline even more, by using many types that were internal in previous versions. More responsive dashboard, IoC container scopes, support for remote MSMQ queues and other cool features are waiting for you!&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/29mnmaT_rfs" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2015/10/01/hangfire-1.5.0.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2015/10/01/hangfire-1.4.7</id>
+    <title>Hangfire 1.4.7</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/GRMr6H4hi4I/hangfire-1.4.7.html" />
+    <updated>2015-10-01T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This is a correcting release that fixes problems with &lt;code class="highlighter-rouge"&gt;TaskCanceledException&lt;/code&gt; thrown by a job method as well as issue with MSMQ extension, when background jobs are created within a &lt;code class="highlighter-rouge"&gt;TransactionScope&lt;/code&gt; block.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/GRMr6H4hi4I" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2015/10/01/hangfire-1.4.7.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2015/08/31/hangfire-1.5.0-beta3</id>
+    <title>Hangfire 1.5.0-beta3</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/ct5Tx1frkEk/hangfire-1.5.0-beta3.html" />
+    <updated>2015-08-31T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;Version 1.5.0 will open many types that were internal in previous versions of Hangfire, like &lt;code class="highlighter-rouge"&gt;Worker&lt;/code&gt; or &lt;code class="highlighter-rouge"&gt;IBackgroundFactory&lt;/code&gt;, to enable you to have completely custom background processing. This release simplifies the usage of these types, of course only to decrease the amount of questions on forums :smiley:.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/ct5Tx1frkEk" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2015/08/31/hangfire-1.5.0-beta3.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2015/08/29/hangfire-1.4.6</id>
+    <title>Hangfire 1.4.6</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/dZ_3HZIIL-w/hangfire-1.4.6.html" />
+    <updated>2015-08-29T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This is a maintenance release that fixes deadlocks in expiration manager, SQL command timeouts in distributed locks (and in the DisableConcurrentExecution filter) and correctly handles poison messages in a schedule.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/dZ_3HZIIL-w" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2015/08/29/hangfire-1.4.6.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2015/08/12/hangfire-pro-1.3.1</id>
+    <title>Hangfire Pro 1.3.1</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/nDiTnkUtiSQ/hangfire-pro-1.3.1.html" />
+    <updated>2015-08-12T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This is a correcting release that fixes a race condition related to batch continuations and slightly improves performance of a batch job processing, especially when using SQL Server. It is strongly recommended to upgrade.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/nDiTnkUtiSQ" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2015/08/12/hangfire-pro-1.3.1.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2015/08/06/happy-birthday-hangfire</id>
+    <title>Happy birthday, Hangfire!</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/K5YuA7nX7lw/happy-birthday-hangfire.html" />
+    <updated>2015-08-06T00:00:00+00:00</updated>
+    
+    
+    <content type="html">&lt;p&gt;Two years ago, on Aug, 6, I tired to write custom implementations of background processing over and over again. So I pushed the first &lt;a href="https://github.com/HangfireIO/Hangfire/tree/d58a619ebc487ef28bef8c6e7f4df8e1d51ee8c5"&gt;Simple and naive implementation&lt;/a&gt; commit to the Hangfire repository. It was really simple and naive – 8 files, ~300 lines of code with a lot of todos in comments, and the story began.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/K5YuA7nX7lw" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2015/08/06/happy-birthday-hangfire.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2015/07/31/hangfire-1.5.0-beta</id>
+    <title>Hangfire 1.5.0 Beta</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/sc_746f8ldI/hangfire-1.5.0-beta.html" />
+    <updated>2015-07-31T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This is a pre-release version that adds a lot of great new features for Hangfire requested by you, including background processes, built-in support for custom scopes in IoC containers, queues for recurring jobs and much more!&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/sc_746f8ldI" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2015/07/31/hangfire-1.5.0-beta.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2015/07/24/hangfire-1.4.5</id>
+    <title>Hangfire 1.4.5</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/dYZbpQ-xVsk/hangfire-1.4.5.html" />
+    <updated>2015-07-24T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This is a correcring release that fixes &lt;em&gt;NotSupportException: This stream does not support seek operations&lt;/em&gt; bug added in 1.4.4. This exception is raised on all unbuffered HTTP POST requests to the Dashboard.&lt;/p&gt;
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/dYZbpQ-xVsk" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2015/07/24/hangfire-1.4.5.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2015/07/23/hangfire-1.4.4</id>
+    <title>Hangfire 1.4.4</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/7PkpFTkZaK0/hangfire-1.4.4.html" />
+    <updated>2015-07-23T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This is a correcting release that contain some fixes for the Dashboard UI:&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/7PkpFTkZaK0" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2015/07/23/hangfire-1.4.4.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2015/06/18/hangfire-pro-1.3.0</id>
+    <title>Hangfire Pro 1.3.0</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/a5aO4Ay3fMY/hangfire-pro-1.3.0.html" />
+    <updated>2015-06-18T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This release makes some hard-coded values (like maximum succeeded job list length) configurable through the &lt;code class="highlighter-rouge"&gt;RedisStorageOptions&lt;/code&gt; class. It also helps to re-queue aborted background jobs earlier – instead of waiting for invisibility timeout after non-graceful shutdown, we are re-queueing aborted background jobs right after its server becomes inactive.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/a5aO4Ay3fMY" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2015/06/18/hangfire-pro-1.3.0.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2015/05/27/hangfire-1.4.3</id>
+    <title>Hangfire 1.4.3</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/lVeSQmXVgxY/hangfire-1.4.3.html" />
+    <updated>2015-05-27T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This is a correcting release that allows Hangfire to work with databases with case-sensitive and binary collations and fixes some other problems. Integration tests now are running against a case-sensitive database to reduce the probability of a mistake.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/lVeSQmXVgxY" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2015/05/27/hangfire-1.4.3.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2015/05/15/hangfire-pro-1.2.2</id>
+    <title>Hangfire Pro 1.2.2</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/UytOAx2NrHE/hangfire-pro-1.2.2.html" />
+    <updated>2015-05-15T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This is a correcting release that fixes job prioritization via queue ordering in an instance of the &lt;code class="highlighter-rouge"&gt;BackgroundJobServerOptions&lt;/code&gt; class and adds support for symbol packages.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/UytOAx2NrHE" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2015/05/15/hangfire-pro-1.2.2.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2015/05/06/hangfire-1.4.2-released</id>
+    <title>Hangfire 1.4.2</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/zUHeGK7W5Gg/hangfire-1.4.2-released.html" />
+    <updated>2015-05-06T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This is a correcting release that contains some bug fixes.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/zUHeGK7W5Gg" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2015/05/06/hangfire-1.4.2-released.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2015/04/17/hangfire-pro-1.2.0-released</id>
+    <title>Hangfire Pro 1.2.0</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/xkc2p6IKMDg/hangfire-pro-1.2.0-released.html" />
+    <updated>2015-04-17T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;After a long development, batches and batch continuations are completed, and I’m glad to introduce these features. It was a real challenge for me and for Hangfire to implement these features as a regular extension. If you don’t share my joy (&lt;em&gt;Batches? Why I need them?&lt;/em&gt;), I’ll show you why they are so important.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/xkc2p6IKMDg" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2015/04/17/hangfire-pro-1.2.0-released.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2015/04/13/hangfire-1.4.0</id>
+    <title>Hangfire 1.4.0</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/oWcqe0HQtxI/hangfire-1.4.0.html" />
+    <updated>2015-04-13T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;About 4 months passed since release of version 1.3, and I’m pleased to introduce the next major release – Hangfire 1.4 with a lot of new features added and a lot of stability improvements made. This is the most important upgrade since version 1.0.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/oWcqe0HQtxI" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2015/04/13/hangfire-1.4.0.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2015/04/11/hangfire-1.4.0-rc2</id>
+    <title>Hangfire 1.4.0 RC2</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/OVYjSAzyEm8/hangfire-1.4.0-rc2.html" />
+    <updated>2015-04-11T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This is a pre-release version of Hangfire 1.4.0 that is considered to be stable (and it is more stable than 1.3.x). Final version will be released after documentation changes (some awesome features added, please see &lt;a href="http://hangfire.io/blog/2015/04/06/hangfire-1.4.0-beta1.html"&gt;1.4.0-beta1&lt;/a&gt;).&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/OVYjSAzyEm8" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2015/04/11/hangfire-1.4.0-rc2.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2015/04/09/hangfire-1.4.0-rc1</id>
+    <title>Hangfire 1.4.0 RC1</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/Vawd-UlVrk8/hangfire-1.4.0-rc1.html" />
+    <updated>2015-04-09T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This is a pre-release version of Hangfire 1.4.0 that is considered to be stable.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/Vawd-UlVrk8" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2015/04/09/hangfire-1.4.0-rc1.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2015/04/06/hangfire-1.4.0-beta1</id>
+    <title>Hangfire 1.4.0 Beta1</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/C14MyVuoJ_E/hangfire-1.4.0-beta1.html" />
+    <updated>2015-04-06T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This pre-release contains a lot of new features of an upcoming Hangfire 1.4.0 – continuations, time zone support for recurring jobs, new dashboard ui, new configuration classes.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/C14MyVuoJ_E" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2015/04/06/hangfire-1.4.0-beta1.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2015/02/04/hangfire-1.3.4-released</id>
+    <title>Hangfire 1.3.4</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/rfwEhF50Ggk/hangfire-1.3.4-released.html" />
+    <updated>2015-02-04T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This is a correcting release that fixes hourly/weekly statistics display in Dashboard, and a rare issue when we trying to cancel a recurring job from a client filter.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/rfwEhF50Ggk" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2015/02/04/hangfire-1.3.4-released.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2015/01/29/hangfire-1.3.3-released</id>
+    <title>Hangfire 1.3.3</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/6S0Yvbha6Kk/hangfire-1.3.3-released.html" />
+    <updated>2015-01-29T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This is a correcting release. Fixed a bug related to MSMQ or RabbitMQ extensions, when enqueued job is not processed and “stucked” in the &lt;em&gt;Enqueued&lt;/em&gt; state indefinitely until we retry it manually.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/6S0Yvbha6Kk" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2015/01/29/hangfire-1.3.3-released.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2015/01/27/hangfire-1.3.2-released</id>
+    <title>Hangfire 1.3.2</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/ZI-YFvc2e-o/hangfire-1.3.2-released.html" />
+    <updated>2015-01-27T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;This is a correcting release. Expiration manager does not attempt to remove all the records at once now. Instead, it removes them by 1000 at a time, so you won’t experience timeout exceptions anymore. If you had problems with recurring jobs, they were fixed also.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/ZI-YFvc2e-o" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2015/01/27/hangfire-1.3.2-released.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2014/12/10/hangfire-1.3.0-released</id>
+    <title>Hangfire 1.3.0</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/OVQ92EpyUs4/hangfire-1.3.0-released.html" />
+    <updated>2014-12-10T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;h3 id="logging-that-just-works"&gt;Logging that just works&lt;/h3&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/OVQ92EpyUs4" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2014/12/10/hangfire-1.3.0-released.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2014/11/15/hangfire-pro</id>
+    <title>Introducing Hangfire Pro</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/tBTsZ2wdsrE/hangfire-pro.html" />
+    <updated>2014-11-15T00:00:00+00:00</updated>
+    
+    
+    <content type="html">&lt;p&gt;As an ASP.NET developer, I always wanted to have something simple to handle scenarios where you need to build a long-running async task and show a loader to a user:&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/tBTsZ2wdsrE" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2014/11/15/hangfire-pro.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2014/06/30/hangfire-1.0-released</id>
+    <title>Hangfire 1.0.0</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/YuRsx4apSXs/hangfire-1.0-released.html" />
+    <updated>2014-06-30T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;&lt;a href="http://hangfire.io"&gt;Hangfire&lt;/a&gt; has finally reached the &lt;code class="highlighter-rouge"&gt;1.0&lt;/code&gt; milestone! This means that public API is frozen and considered to be stable. Starting from now, the &lt;a href="http://semver.org"&gt;SemVer 2.0&lt;/a&gt; specification will be used for versioning every package (but there may be exceptions, follow the README for each package).&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/YuRsx4apSXs" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2014/06/30/hangfire-1.0-released.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2014/06/07/hangfire-0.9-released</id>
+    <title>Hangfire 0.9.0</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/uYJbNoY4sVg/hangfire-0.9-released.html" />
+    <updated>2014-06-07T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;h3 id="recurring-jobs"&gt;Recurring jobs&lt;/h3&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/uYJbNoY4sVg" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2014/06/07/hangfire-0.9-released.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2014/05/23/hangfire-0.8.3-released</id>
+    <title>Hangfire 0.8.3</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/fF5gwlsL1kg/hangfire-0.8.3-released.html" />
+    <updated>2014-05-23T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;h3 id="cancellation-tokens"&gt;Cancellation tokens&lt;/h3&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/fF5gwlsL1kg" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2014/05/23/hangfire-0.8.3-released.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2014/05/21/hangfire-0.8.2-released</id>
+    <title>Hangfire 0.8.2</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/u2UeCxqam5U/hangfire-0.8.2-released.html" />
+    <updated>2014-05-21T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;h3 id="batch-operations"&gt;Batch operations&lt;/h3&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/u2UeCxqam5U" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2014/05/21/hangfire-0.8.2-released.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2014/05/17/hangfire-0.8.1-released</id>
+    <title>Hangfire 0.8.1</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/9bUhSFppvFU/hangfire-0.8.1-released.html" />
+    <updated>2014-05-17T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;&lt;strong&gt;Note.&lt;/strong&gt; &lt;em&gt;The following information may be outdated after 1.0 release. Please see the &lt;a href="http://docs.hangfire.io"&gt;official documentation&lt;/a&gt; first.&lt;/em&gt;&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/9bUhSFppvFU" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2014/05/17/hangfire-0.8.1-released.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2014/05/10/are-your-methods-ready-to-run-in-background</id>
+    <title>Are your methods ready to run in background?</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/K9xy3jaXJEw/are-your-methods-ready-to-run-in-background.html" />
+    <updated>2014-05-10T00:00:00+00:00</updated>
+    
+    
+    <content type="html">&lt;p&gt;Hangfire takes regular classes and regular methods to perform them in the background, because it is simple:&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/K9xy3jaXJEw" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2014/05/10/are-your-methods-ready-to-run-in-background.html</feedburner:origLink></entry>
+  
+  <entry>
+  	<id>https://www.hangfire.io/blog/2014/05/02/hangfire-0.8-released</id>
+    <title>Hangfire 0.8.0</title>
+    <author>odinserj</author>
+    <link href="http://feedproxy.google.com/~r/hangfireio/~3/awEO_WLsyD0/hangfire-0.8-released.html" />
+    <updated>2014-05-02T00:00:00+00:00</updated>
+    
+    
+    <category>release</category>
+    
+    <content type="html">&lt;p&gt;Today I’ve pushed the &lt;a href="https://github.com/odinserj/Hangfire/releases/tag/v0.8"&gt;next version&lt;/a&gt; of &lt;a href="http://hangfire.io"&gt;Hangfire&lt;/a&gt; project that allows to process background jobs inside ASP.NET applications in a reliable way.&lt;/p&gt;
+
+&lt;img src="http://feeds.feedburner.com/~r/hangfireio/~4/awEO_WLsyD0" height="1" width="1" alt=""/&gt;</content>
+  <feedburner:origLink>https://www.hangfire.io/blog/2014/05/02/hangfire-0.8-released.html</feedburner:origLink></entry>
+  
+</feed>

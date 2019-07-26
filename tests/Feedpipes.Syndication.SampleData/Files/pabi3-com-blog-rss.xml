@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version='2.0'>
+<channel>
+<title>PaBi3 Weblog</title>
+<link>http://pabi3.com/blog/rss.xml</link>
+<description>PaBi3 Weblog</description>
+<language>sk</language>
+<lastBuildDate>Fri, 26 Jul 2019 18:31:03 GMT</lastBuildDate>
+<item>
+<title>Prenájom a tvorba e-shopov Shoptec</title>
+<link>http://pabi3.com/blog/prenajom-a-tvorba-e-shopov-shoptec/</link>
+<guid>http://pabi3.com/blog/prenajom-a-tvorba-e-shopov-shoptec/</guid>
+<description>Pred mnohými rokmi som publikoval článok, kde bola zobrazená ukázka internetového obchodu. Roky som tvoril v rámci Webtecu riešenia na mieru, ktorých vývoj neustále rozširoval základné jadro e-shopu o nové a nové funkcie. Tento vývoj vyústil do vydania produktu Shoptec - prenájom e-shopov, cez ktoré za pár minút vyklikáte responzívny dizajn, nastavíte si pokročilé marketingové nástroje za prijateľnú cenu.
+
+
+
+
+
+</description>
+<pubDate>Sat, 03 Jun 2017 21:55:00 GMT</pubDate>
+</item>
+<item>
+<title>Internetový obchod</title>
+<link>http://pabi3.com/blog/internetovy-obchod/</link>
+<guid>http://pabi3.com/blog/internetovy-obchod/</guid>
+<description>Vždy som chcel mať vlastný internetový obchod a po niekoľkých rokoch sa to aj podarilo. Myslím si, že výsledok je celkom pozoruhodný :-)
+
+
+
+Dashboard - úvodná stránka
+
+
+Internetový obchod sa môže pýšiť použitím technológií ako PHP 5.3, PostgreSQL 9, HTML5, CSS3, Nette Framework 2, jQuery, jQuery UI.</description>
+<pubDate>Mon, 30 May 2011 13:45:00 GMT</pubDate>
+</item>
+<item>
+<title>LockHunter pre odomknutie procesov (aj pre 64-bitový Windows)</title>
+<link>http://pabi3.com/blog/lockhunter-pre-odomknutie-procesov-aj-pre-64-bitovy-windows/</link>
+<guid>http://pabi3.com/blog/lockhunter-pre-odomknutie-procesov-aj-pre-64-bitovy-windows/</guid>
+<description>Ešte veľmi dávno, keď som používal 32-bitový Windows Vista, veľmi som ocenil nástroj Unlocker. Umožňoval cez context menu zlikvidovať akýkoľvek proces, ktorý blokoval nejaký súbor alebo adresár pred vymazaním. Dnes už bežím na 64-bitovej Viste a bol som sklamaný, keď som zistil, že Unlocker na nej nie je podporovaný. Vraj sa na podpore pracuje, ale tento proces trvá už vyše roka, takže sa obávam, že celý projekt zanikol. Dnes som objavil skvelý LockHunter. Ponúka prakticky tie isté možnosti ako Unlocker a funguje na 64-bitovej platforme. Po inštalácií sa registruje do context menu Windows, čiže je vždy poruke.
+
+
+
+</description>
+<pubDate>Tue, 30 Jun 2009 15:51:00 GMT</pubDate>
+</item>
+<item>
+<title>Core i-nasledovník</title>
+<link>http://pabi3.com/blog/core-i-nasledovnik/</link>
+<guid>http://pabi3.com/blog/core-i-nasledovnik/</guid>
+<description>
+
+Core i7 boli doteraz výsadou high-endu. Akoby aj nie - nová pätica LGA1366 so sebou priniesla okrem procesora aj nutnosť kúpy novej základnej dosky. Aby to ale nebolo také jednoduché, tie poskytnú útočisko len pre pamäte DDR3, takže na prípadnú migráciu vašich starých modulov z generačne staršej AMD či Intel platformy ste mohli rovno zabudnúť (česť tým pár výnimkám na strane Intelu, kde sa dá aj pre Core 2 naraziť na hybridné dosky disponujúce ako slotmi pre pamäte DDR2, tak aj DDR3, či rovno len pre DDR3). Podčiarknuté a sčítané, zopakovala sa nám história z pred siedmych rokov, keď nastúpili Pentiá 4 a človek mohol rovno kupovať pol počítača nanovo. Na obranu Intelu ale treba povedať, že architektúra Nehalem priniesla niekoľko významných zmien do dovtedy zaužívaného konceptu jeho procesorov. Za všetky spomeniem predovšetkým integráciu pamäťového radiča na procesor, dokonca hneď trojkanálového. Aj to je dôvod, prečo sa konalo významné navýšenie pinov soketu zo 775 na 1366.
+
+</description>
+<pubDate>Mon, 22 Jun 2009 00:31:00 GMT</pubDate>
+</item>
+<item>
+<title>Toshiba Satellite P300-133</title>
+<link>http://pabi3.com/blog/toshiba-satellite-p300-133/</link>
+<guid>http://pabi3.com/blog/toshiba-satellite-p300-133/</guid>
+<description>
+Satellite P300-133 je jedným z predstaviteľov najnovšieho modelového radu notebookov Toshiba, ktoré využívajú služby procesorov Core 2 Duo postavených už na novom jadre série Penryn. K tomu ďalej pripája 17-palcový širokouhlý displej spoločne s klávesnicu s numerickou časťou, slušne výkonnú diskrétnu grafickú kartu a zaujímavý dizajn.
+
+</description>
+<pubDate>Sun, 24 Aug 2008 17:00:00 GMT</pubDate>
+</item>
+<item>
+<title>Core i7 oficiálne</title>
+<link>http://pabi3.com/blog/core-i7-oficialne/</link>
+<guid>http://pabi3.com/blog/core-i7-oficialne/</guid>
+<description>
+
+Pred niekoľkými dňami sa po internete začali šíriť správy o obchodnom názve nových,
+ešte nevyšlých, procesorov Intelu založených na architektúre Nehalem. Tieto správy
+a takisto logá dnes oficiálne Intel potvrdil. Samotné procesory budú naďalej niesť
+označenie Core, pribudne však dvojica znakov i7. Tie by podľa všetkého mali oznamovať,
+že ide v poradí už o siedmu generáciu platformy x86 (súčastná šiesta generácia sa
+na trhu drží už od uvedenia Pentia Pro v novembri 1995, teda takmer 13 rokov!).
+
+
+Nakoľko sa slová ako Solo, Duo či Quad z názvu procesorov vytratia, bude značenie
+Nehalemov oproti terajšiemu zjednodušené. Zostane len obyčajné Intel Core a
+o samotné odlíšenie sa postará model numbering. Identifikátor i7 sa môže u mobilných
+alebo serverových procesorov líšiť, Intel ale pravdepodobne príde s unifikovaným
+názvom pre celú novú modelovú líniu.
+
+
+Desktopové Nehalemy s jadrami Bloomfield sa majú objaviť už onedlho, v priebehu
+štvrtého quartálu tohto roka. Konktrétne pôjde o tri štvrojadrové modely, z toho
+jeden bude verzia Extreme. Extrémna verzia bude uvedená s frekvenciou 3,2 GHz,
+zvyšné dva Core i7 budú taktované na 2,66 a 2,93 GHz. Oproti súčasným procesorom
+Core 2 sa hlavné zmeny týkajú prenesenia pamäťového radiča priamo na CPU a faktom,
+že so zvyškom systému sa nebude komunikovať cez FSB, ale prostredníctvom zbernice
+QPI. Hlavným rozdielom medzi extrémnou
+a štandardnou edíciou Core i7 bude v prenosovej kapacite zbernice QPI a maximálnej
+podporovanej rýchlosti pamätí DDR3. Pre Extreme je to 6,4 GT/s pre zbernicu a 1,33
+GHz pre pamäte. Neextrémne edície ponúknu len zbernicu s prenosovou rýchlosťou
+4,8 GT/s a podporu pre pamäte DDR3 1066 MHz. Všetky majú sdielaných 8 MB L3 cache
+pre celé CPU a vlastnú L1 (2x32 kB) a L2 cache (256 kB) pre každé jadro. 
+
+
+V prípade procesorov Bloomfield pôjde o highendovú platformu, ktorá bude spolupracovať
+s čipovou súpravou X58. Po dlhšej dobe sa bude meniť aj päťica - nová nesie názov
+LGA1366. Okrem týchto na jeseň roku 2009 objavia aj mainstreamové (Havendale, Lynnfield)
+a mobilné (Clarksfield) verzie Nehalemu určené pre pätice LGA1160, resp. mPGA 989.  
+</description>
+<pubDate>Tue, 12 Aug 2008 12:17:54 GMT</pubDate>
+</item>
+<item>
+<title>RibiCPU v zdrojovom kóde</title>
+<link>http://pabi3.com/blog/ribicpu-v-zdrojovom-kode/</link>
+<guid>http://pabi3.com/blog/ribicpu-v-zdrojovom-kode/</guid>
+<description>
+
+Ubehlo už pol roka od zverejnenia RibiCPU, malého programu na detekciu CPU a jeho vlastností a schopností. Takisto je tomu asi pol roka, čo som v zdrojovom kóde nezmenil ani čiarku. Teda až do včerajšieho dňa, keď som sa k programu vrátil, riadne na ňom zapracoval a mnoho vecí vylepšil.
+
+Okrem iného som sa rozhodol, že zverejním zdrojový kód, aby si mohol každý, len tak zo zaujímavosti, pozrieť, ako asi taký detekčný software vyzerá. Nejde síce o žiadne veľdielo softwarového inžinierstva (a z mojho pohľadu ide o narýchlo zlepený balast), rozhodne je v ňom ale kus práce a preto dúfam, že ho aspoň niektorí z vás ocenia.
+
+Verzia programu, ktorého zdrojový kód si budete môcť podrobne preštudovať, prináša oproti predchodcovi najmä zmeny v oblasti detekcie mobilných verzií procesorov, mal by už rozpoznať procesory AMD Phenom, ako aj nové embedded procesory Intel Atom.
+
+
+Myslím, že program už dosiahol určitú úroveň a nastal preň čas pohnúť sa ďalej a pridať doň novú funkcionalitu. V prvom rade dostane poriadne GUI, výstup do HTML a rozšírenie detekčných schopností za hranice značiek AMD a Intel, ako aj schopnosť detekcie voltáže čítaním z čipov na základnej doske (čo si isté úsilie rozhodne zaberie). Stále sa ale chcem držať pôvodnej myšlienky - má ísť o malý programček, ktorý o procesore zistí všetky potrebné informácie. O CPU sa toho dá zistiť síce omnoho viac, ale o vatu vo výstupnom súbore vážne nemám záujem. Ak vy áno, nič vám nebráni si ju do programu pridať.
+
+Ak budete mať akékoľvek otázky ohľadom zverejnenej verzie, pýtajte sa. Program teraz prechádza rozsiahlymi zmenami v architektúre a funkčnosti (na profesionálnejšiu úroveň) a preto zdrojový kód k jeho ďalším verziám už zverejnený nebude.
+
+main.cpp,
+cacheinfo.h,
+datatypes.h,
+RibiCPU.zip</description>
+<pubDate>Mon, 30 Jun 2008 11:51:00 GMT</pubDate>
+</item>
+<item>
+<title>SigmaCMS dostupný na Google Code</title>
+<link>http://pabi3.com/blog/sigmacms-dostupny-na-google-code/</link>
+<guid>http://pabi3.com/blog/sigmacms-dostupny-na-google-code/</guid>
+<description>Google Code je služba umožňujúca každému vlastníkovi Google Account hostovať akýkoľvek projekt. Ide o niečo podobné ako mimoriadne kvalitná, no pomalá a reklamou preplnená služba SourceForge. Rozhodol som sa pre ňu, pretože mi poskytuje wiki, bugreport a hlavne SVN. Ako externé doplnky mám na výber štatistiky návštevnosti Google Analytics alebo možnosť vytvoriť si diskusnú skupinu (mailing list). Maximálna veľkosť projektu je obmedzená len na 100 MB, ale môžete požiadať o zvýšenie. Vlastne, keď vám niečo nevyhovuje, stále musíte otravovať Google e-mailom alebo to nahlásiť ako problém.
+
+
+
+
+
+Aktuálna verzia SigmaCMS je určená iba pre vývojárov, takže začiatočníci nech nečakajú na pomoc s inštaláciou, ale radšej na prvú stabilnú verziu. Dokumentáciu k systému uvoľním onedlho. Zatiaľ to berte ako preview, pretože pluginy sa ešte chvíľu zdržia.
+
+SigmaCMS na Google Code: http://code.google.com/p/sigmacms/</description>
+<pubDate>Sat, 08 Mar 2008 19:48:00 GMT</pubDate>
+</item>
+<item>
+<title>NicEdit - Micro Inline WYSIWYG</title>
+<link>http://pabi3.com/blog/nicedit-micro-inline-wysiwyg/</link>
+<guid>http://pabi3.com/blog/nicedit-micro-inline-wysiwyg/</guid>
+<description>
+
+Už sa stalo mojou obľubou skúšať rôzne WYSIWYG editory. Prednedávnom som narazil na zaujímavý editor NicEdit, ktorý síce nevyniká generovaním kvalitného XHTML kódu, ale je nesmierne ľahko implementovateľný. Stačí na stránku nahrať 30kB (po gzip kompresií 7kB) veľký súbor a inicializovať ho krátkym jednoriadkovým kódom. S podporou prehliadačov som nemal žiadne problémy. Dokonca bez problémov funguje aj application/xhtml+xml. Taktiež konfigurovateľnosť je na vysokej úrovni. Môžete si zvoliť, ktoré funkcie editoru vypnete. Ja som ihneď zrušil fontsize, fontfamily a pod. strašidlá. Máte dokonca na výber aj ukladanie cez AJAX. Som zvedavý na novú verziu (najnovšia je 0.26), pretože sľubuje  veľké veci - tabuľky, obrázky (s uploadom), témy, multijazyčnosť alebo integráciu do rôznych CMS.
+</description>
+<pubDate>Sat, 01 Mar 2008 22:41:08 GMT</pubDate>
+</item>
+<item>
+<title>Microsoft Wireless Entertainment Desktop 7000</title>
+<link>http://pabi3.com/blog/microsoft-wireless-entertainment-desktop-7000/</link>
+<guid>http://pabi3.com/blog/microsoft-wireless-entertainment-desktop-7000/</guid>
+<description>
+Opäť raz sa Microsoft rozhodol rozmútiť trochu vody v rybníku svojich hardwarových produktov. Výsledkom sa stalo kombo klávesnice a myši, tentokrát určené ani pre hráčov, ani pre pisateľov, ale pre stále viac sa rozširujúcu skupinu zákazníkov využívajúcich počítač ako domáce kino. A ako tu už u setov Microsoftu býva dobrým zvykom, ide o riešenie, ktoré rozhodne nesklame a stojí za zváženie.
+
+
+
+
+</description>
+<pubDate>Thu, 28 Feb 2008 08:53:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

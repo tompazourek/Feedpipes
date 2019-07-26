@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Kahi&#039;s mindprint</title>
+	<atom:link href="http://kahi.cz/blog/feed" rel="self" type="application/rss+xml" />
+	<link>http://kahi.cz/blog</link>
+	<description>Zápisník někdy o ničem, ale někdy i o tvorbě webových stránek, o použitelnosti, o uživatelských rozhraních, o CSS a tak všelijak.</description>
+	<lastBuildDate>Mon, 15 Sep 2014 23:08:25 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.2</generator>
+		<item>
+		<title>O posunu</title>
+		<link>http://kahi.cz/blog/o-posunu</link>
+		<comments>http://kahi.cz/blog/o-posunu#comments</comments>
+		<pubDate>Mon, 15 Sep 2014 23:08:25 +0000</pubDate>
+		<dc:creator>Kahi</dc:creator>
+				<category><![CDATA[nic]]></category>
+
+		<guid isPermaLink="false">http://kahi.cz/blog/?p=1398</guid>
+		<description><![CDATA[
+<p>Nikdy jsem přes den neudělal nic smysluplného. Nejde mi to, a myslím si,
+že mi to nejde protože nemám čas. Klidný nepřerušovaný čas. Proto
+nemůžu jít spát před půlnocí, protože nemám hotovo. Co hotovo, ani jsem
+pořádně nezačal. Potřebuji pár hodin samoty, ticha, něče</p>
+]]></description>
+				<content:encoded><![CDATA[
+<p>Nikdy jsem přes den neudělal nic smysluplného. Nejde mi to, a myslím si,
+že mi to nejde protože nemám čas. Klidný nepřerušovaný čas.</p>
+
+<p>Proto nemůžu jít spát před půlnocí, protože nemám hotovo. Co hotovo,
+ani jsem pořádně nezačal. Potřebuji pár hodin samoty, ticha, něče</p>
+
+<!-- by Texy2! -->]]></content:encoded>
+			<wfw:commentRss>http://kahi.cz/blog/o-posunu/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>O oslavování</title>
+		<link>http://kahi.cz/blog/o-oslavovani</link>
+		<comments>http://kahi.cz/blog/o-oslavovani#comments</comments>
+		<pubDate>Sun, 13 Jul 2014 11:48:55 +0000</pubDate>
+		<dc:creator>Kahi</dc:creator>
+				<category><![CDATA[nic]]></category>
+
+		<guid isPermaLink="false">http://kahi.cz/blog/?p=1386</guid>
+		<description><![CDATA[
+<p>Vypadá to, že si hledám práci. Jaksi jinak, než dřív.</p>
+
+<!-- by Texy2! -->]]></description>
+				<content:encoded><![CDATA[
+<p>Vypadá to, že si hledám práci. Jaksi jinak, než dřív.</p>
+
+<!-- by Texy2! -->]]></content:encoded>
+			<wfw:commentRss>http://kahi.cz/blog/o-oslavovani/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Dopad uživatelského jména na UX registračního procesu</title>
+		<link>http://kahi.cz/blog/uzivatelske-jmeno-ux-registrace-etsy</link>
+		<comments>http://kahi.cz/blog/uzivatelske-jmeno-ux-registrace-etsy#comments</comments>
+		<pubDate>Sat, 10 May 2014 21:01:05 +0000</pubDate>
+		<dc:creator>Kahi</dc:creator>
+				<category><![CDATA[něco]]></category>
+		<category><![CDATA[weblogy]]></category>
+
+		<guid isPermaLink="false">http://kahi.cz/blog/?p=1366</guid>
+		<description><![CDATA[
+<p>Kolují vtipy o formulářích, které dalšími a dalšími validačními
+chybami stupňují emoci uživatele až k pláči. Nejsou to jenom báchorky.
+Ty formuláře jsou tam venku. Na jeden takový se teď podívejte.</p>
+
+<!-- by Texy2! -->]]></description>
+				<content:encoded><![CDATA[
+<p>Kolují vtipy o formulářích, které dalšími a dalšími validačními
+chybami stupňují emoci uživatele až k pláči. Nejsou to jenom báchorky.
+Ty formuláře jsou tam venku. Na jeden takový se teď podívejte.</p>
+
+<!-- by Texy2! -->]]></content:encoded>
+			<wfw:commentRss>http://kahi.cz/blog/uzivatelske-jmeno-ux-registrace-etsy/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Peníze, čokoládička a zvedání pastelek</title>
+		<link>http://kahi.cz/blog/penize-cokoladicka-a-zvedani-pastelek</link>
+		<comments>http://kahi.cz/blog/penize-cokoladicka-a-zvedani-pastelek#comments</comments>
+		<pubDate>Tue, 06 May 2014 13:43:03 +0000</pubDate>
+		<dc:creator>Kahi</dc:creator>
+				<category><![CDATA[nic]]></category>
+		<category><![CDATA[něco]]></category>
+		<category><![CDATA[weblogy]]></category>
+
+		<guid isPermaLink="false">http://kahi.cz/blog/?p=1360</guid>
+		<description><![CDATA[
+<p>Představte si peníze, majetek, bohatství… a pravděpodobně si tu
+čokoládičku užijete méně, než byste mohli (Quoidbach 2010). […]
+supporting the theory that money has a causal effect on savoring. Moving beyond
+self-reports, we found that p</p>
+]]></description>
+				<content:encoded><![CDATA[
+<p>Představte si peníze, majetek, bohatství… a pravděpodobně si tu
+čokoládičku užijete méně, než byste mohli (<a
+href="http://pss.sagepub.com/content/21/6/759">Quoidbach 2010</a>).</p>
+
+<blockquote>
+	<p>[…] supporting the theory that money has a causal effect on savoring.
+	Moving beyond self-reports, we found that p</p>
+</blockquote>
+
+<!-- by Texy2! -->]]></content:encoded>
+			<wfw:commentRss>http://kahi.cz/blog/penize-cokoladicka-a-zvedani-pastelek/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Pozitivní dojmy z Interactive Design Conference 2014</title>
+		<link>http://kahi.cz/blog/dojmy-z-idc-2014</link>
+		<comments>http://kahi.cz/blog/dojmy-z-idc-2014#comments</comments>
+		<pubDate>Tue, 08 Apr 2014 18:16:05 +0000</pubDate>
+		<dc:creator>Kahi</dc:creator>
+				<category><![CDATA[něco]]></category>
+		<category><![CDATA[weblogy]]></category>
+
+		<guid isPermaLink="false">http://kahi.cz/blog/?p=1350</guid>
+		<description><![CDATA[
+<p>Interactive design konference byla překvapivě docela prima. O co jste
+přišli?</p>
+
+<!-- by Texy2! -->]]></description>
+				<content:encoded><![CDATA[
+<p>Interactive design konference byla překvapivě docela prima. O co jste
+přišli?</p>
+
+<!-- by Texy2! -->]]></content:encoded>
+			<wfw:commentRss>http://kahi.cz/blog/dojmy-z-idc-2014/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+	</channel>
+</rss>
+
+<!-- Dynamic page generated in 0.229 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2019-07-26 18:04:58 -->
+<!-- Compression = gzip -->

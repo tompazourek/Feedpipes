@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+>
+
+<channel>
+	<title>Michael&#039;s Coding Spot</title>
+	<atom:link href="https://michaelscodingspot.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://michaelscodingspot.com</link>
+	<description>.NET tricks, software developer&#039;s rants and whatever comes to mind</description>
+	<lastBuildDate>Mon, 22 Jul 2019 09:02:08 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+
+<image>
+	<url>https://i1.wp.com/michaelscodingspot.com/wp-content/uploads/2017/01/cropped-stillOnWhite4-transparent-big.png?fit=32%2C32&#038;ssl=1</url>
+	<title>Michael&#039;s Coding Spot</title>
+	<link>https://michaelscodingspot.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">121742020</site>	<item>
+		<title>Pipeline Pattern in C# (part 2) with TPL Dataflow</title>
+		<link>https://michaelscodingspot.com/pipeline-pattern-tpl-dataflow/</link>
+				<comments>https://michaelscodingspot.com/pipeline-pattern-tpl-dataflow/#comments</comments>
+				<pubDate>Mon, 22 Jul 2019 09:02:06 +0000</pubDate>
+		<dc:creator><![CDATA[Michael Shpilt]]></dc:creator>
+				<category><![CDATA[C#]]></category>
+		<category><![CDATA[.NET]]></category>
+		<category><![CDATA[Design Patterns]]></category>
+		<category><![CDATA[MultiThread]]></category>
+		<category><![CDATA[Pipelines]]></category>
+
+		<guid isPermaLink="false">https://michaelscodingspot.com/?p=4033</guid>
+				<description><![CDATA[<p>In the First Part of the series, we talked about the Pipeline Pattern in programming, also known as the Pipes and Filters design pattern. In this part, we'll see how to implement such a pipeline with TPL Dataflow.</p>
+<p>The post <a rel="nofollow" href="https://michaelscodingspot.com/pipeline-pattern-tpl-dataflow/">Pipeline Pattern in C# (part 2) with TPL Dataflow</a> appeared first on <a rel="nofollow" href="https://michaelscodingspot.com">Michael&#039;s Coding Spot</a>.</p>
+]]></description>
+						<wfw:commentRss>https://michaelscodingspot.com/pipeline-pattern-tpl-dataflow/feed/</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">4033</post-id>	</item>
+		<item>
+		<title>Pipeline Pattern Implementations in C# .NET &#8211; Part 1</title>
+		<link>https://michaelscodingspot.com/pipeline-pattern-implementations-csharp/</link>
+				<comments>https://michaelscodingspot.com/pipeline-pattern-implementations-csharp/#comments</comments>
+				<pubDate>Tue, 09 Jul 2019 08:40:18 +0000</pubDate>
+		<dc:creator><![CDATA[Michael Shpilt]]></dc:creator>
+				<category><![CDATA[C#]]></category>
+		<category><![CDATA[.NET]]></category>
+		<category><![CDATA[Design Patterns]]></category>
+		<category><![CDATA[MultiThread]]></category>
+		<category><![CDATA[Pipelines]]></category>
+
+		<guid isPermaLink="false">https://michaelscodingspot.com/?p=4005</guid>
+				<description><![CDATA[<p>The Pipeline pattern is a powerful tool in programming. The idea is to chain a group of functions in a way that the output of each function is the input the next one. The concept is pretty similar to an assembly line where each step manipulates and prepares the product for the next step.</p>
+<p>The post <a rel="nofollow" href="https://michaelscodingspot.com/pipeline-pattern-implementations-csharp/">Pipeline Pattern Implementations in C# .NET &#8211; Part 1</a> appeared first on <a rel="nofollow" href="https://michaelscodingspot.com">Michael&#039;s Coding Spot</a>.</p>
+]]></description>
+						<wfw:commentRss>https://michaelscodingspot.com/pipeline-pattern-implementations-csharp/feed/</wfw:commentRss>
+		<slash:comments>24</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">4005</post-id>	</item>
+		<item>
+		<title>13 Things that Keep Us Motivated as Software Developers</title>
+		<link>https://michaelscodingspot.com/motivation-of-software-developers/</link>
+				<comments>https://michaelscodingspot.com/motivation-of-software-developers/#comments</comments>
+				<pubDate>Mon, 01 Jul 2019 11:24:37 +0000</pubDate>
+		<dc:creator><![CDATA[Michael Shpilt]]></dc:creator>
+				<category><![CDATA[Programming]]></category>
+		<category><![CDATA[Motivation]]></category>
+
+		<guid isPermaLink="false">https://michaelscodingspot.com/?p=3980</guid>
+				<description><![CDATA[<p>I've been developing software for 10 years now. Every now and again I wonder what it is that makes me tick. What's the element that makes me come to want to go work in the mornings. In other words, what is it that motivates us as software developers?</p>
+<p>The post <a rel="nofollow" href="https://michaelscodingspot.com/motivation-of-software-developers/">13 Things that Keep Us Motivated as Software Developers</a> appeared first on <a rel="nofollow" href="https://michaelscodingspot.com">Michael&#039;s Coding Spot</a>.</p>
+]]></description>
+						<wfw:commentRss>https://michaelscodingspot.com/motivation-of-software-developers/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">3980</post-id>	</item>
+		<item>
+		<title>Find, Fix, and Avoid Performance Problems in C# .NET: 10 Best Practices</title>
+		<link>https://michaelscodingspot.com/performance-problems-in-csharp-dotnet/</link>
+				<comments>https://michaelscodingspot.com/performance-problems-in-csharp-dotnet/#comments</comments>
+				<pubDate>Mon, 24 Jun 2019 08:00:46 +0000</pubDate>
+		<dc:creator><![CDATA[Michael Shpilt]]></dc:creator>
+				<category><![CDATA[C#]]></category>
+		<category><![CDATA[.NET]]></category>
+		<category><![CDATA[Memory]]></category>
+		<category><![CDATA[Performance]]></category>
+
+		<guid isPermaLink="false">https://michaelscodingspot.com/?p=3947</guid>
+				<description><![CDATA[<p>Don't know about you, but I'm obsessed about performance. I've gathered a list of 10 best practices on dealing with performance problems, starting with when you need to deal with them at all.</p>
+<p>The post <a rel="nofollow" href="https://michaelscodingspot.com/performance-problems-in-csharp-dotnet/">Find, Fix, and Avoid Performance Problems in C# .NET: 10 Best Practices</a> appeared first on <a rel="nofollow" href="https://michaelscodingspot.com">Michael&#039;s Coding Spot</a>.</p>
+]]></description>
+						<wfw:commentRss>https://michaelscodingspot.com/performance-problems-in-csharp-dotnet/feed/</wfw:commentRss>
+		<slash:comments>10</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">3947</post-id>	</item>
+		<item>
+		<title>How to Debug LINQ queries in C#</title>
+		<link>https://michaelscodingspot.com/debug-linq-in-csharp/</link>
+				<comments>https://michaelscodingspot.com/debug-linq-in-csharp/#comments</comments>
+				<pubDate>Thu, 13 Jun 2019 08:12:20 +0000</pubDate>
+		<dc:creator><![CDATA[Michael Shpilt]]></dc:creator>
+				<category><![CDATA[C#]]></category>
+		<category><![CDATA[.NET]]></category>
+		<category><![CDATA[Debugging]]></category>
+		<category><![CDATA[LINQ]]></category>
+
+		<guid isPermaLink="false">https://michaelscodingspot.com/?p=3917</guid>
+				<description><![CDATA[<p>LINQ is terrible to debug. We have no way of knowing what goes on inside that query. We can see the input, we can see the output, but that's about it. What happens when something goes wrong? Do we just stare at the code, trying to get some kind of insight? There's got to be a better way...</p>
+<p>The post <a rel="nofollow" href="https://michaelscodingspot.com/debug-linq-in-csharp/">How to Debug LINQ queries in C#</a> appeared first on <a rel="nofollow" href="https://michaelscodingspot.com">Michael&#039;s Coding Spot</a>.</p>
+]]></description>
+						<wfw:commentRss>https://michaelscodingspot.com/debug-linq-in-csharp/feed/</wfw:commentRss>
+		<slash:comments>9</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">3917</post-id>	</item>
+		<item>
+		<title>Extension Methods Guidelines in C# .NET</title>
+		<link>https://michaelscodingspot.com/extension-methods/</link>
+				<comments>https://michaelscodingspot.com/extension-methods/#comments</comments>
+				<pubDate>Wed, 05 Jun 2019 19:13:36 +0000</pubDate>
+		<dc:creator><![CDATA[Michael Shpilt]]></dc:creator>
+				<category><![CDATA[C#]]></category>
+		<category><![CDATA[Language]]></category>
+
+		<guid isPermaLink="false">https://michaelscodingspot.com/?p=3866</guid>
+				<description><![CDATA[<p>Extension methods are awesome, right? They are probably most widely used in the LINQ feature. But when should we use them? And when shouldn't we? Let's talk guidelines.</p>
+<p>The post <a rel="nofollow" href="https://michaelscodingspot.com/extension-methods/">Extension Methods Guidelines in C# .NET</a> appeared first on <a rel="nofollow" href="https://michaelscodingspot.com">Michael&#039;s Coding Spot</a>.</p>
+]]></description>
+						<wfw:commentRss>https://michaelscodingspot.com/extension-methods/feed/</wfw:commentRss>
+		<slash:comments>12</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">3866</post-id>	</item>
+		<item>
+		<title>8 Techniques to Avoid GC Pressure and Improve Performance in C# .NET</title>
+		<link>https://michaelscodingspot.com/avoid-gc-pressure/</link>
+				<comments>https://michaelscodingspot.com/avoid-gc-pressure/#comments</comments>
+				<pubDate>Mon, 27 May 2019 11:25:15 +0000</pubDate>
+		<dc:creator><![CDATA[Michael Shpilt]]></dc:creator>
+				<category><![CDATA[C#]]></category>
+		<category><![CDATA[.NET]]></category>
+		<category><![CDATA[Memory]]></category>
+
+		<guid isPermaLink="false">https://michaelscodingspot.com/?p=3852</guid>
+				<description><![CDATA[<p>Poor memory management can hurt performance in many ways. One such effect is called GC Pressure.  This article will show 8 techniques to minimize GC pressure, and by doing so, improve performance.</p>
+<p>The post <a rel="nofollow" href="https://michaelscodingspot.com/avoid-gc-pressure/">8 Techniques to Avoid GC Pressure and Improve Performance in C# .NET</a> appeared first on <a rel="nofollow" href="https://michaelscodingspot.com">Michael&#039;s Coding Spot</a>.</p>
+]]></description>
+						<wfw:commentRss>https://michaelscodingspot.com/avoid-gc-pressure/feed/</wfw:commentRss>
+		<slash:comments>9</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">3852</post-id>	</item>
+		<item>
+		<title>Cache Implementations in C# .NET</title>
+		<link>https://michaelscodingspot.com/cache-implementations-in-csharp-net/</link>
+				<comments>https://michaelscodingspot.com/cache-implementations-in-csharp-net/#comments</comments>
+				<pubDate>Wed, 15 May 2019 07:57:33 +0000</pubDate>
+		<dc:creator><![CDATA[Michael Shpilt]]></dc:creator>
+				<category><![CDATA[C#]]></category>
+		<category><![CDATA[.NET]]></category>
+		<category><![CDATA[Cache]]></category>
+		<category><![CDATA[Memory]]></category>
+		<category><![CDATA[MultiThread]]></category>
+
+		<guid isPermaLink="false">https://michaelscodingspot.com/?p=3826</guid>
+				<description><![CDATA[<p>One of the most commonly used patterns in software development is Caching. It's a simple, yet extremely effective concept. The idea is reuse of results. When performing a heavy operation, we will save the result in said cache</p>
+<p>The post <a rel="nofollow" href="https://michaelscodingspot.com/cache-implementations-in-csharp-net/">Cache Implementations in C# .NET</a> appeared first on <a rel="nofollow" href="https://michaelscodingspot.com">Michael&#039;s Coding Spot</a>.</p>
+]]></description>
+						<wfw:commentRss>https://michaelscodingspot.com/cache-implementations-in-csharp-net/feed/</wfw:commentRss>
+		<slash:comments>18</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">3826</post-id>	</item>
+		<item>
+		<title>Class Instantiation Guidelines in Object Oriented Languages: When to choose Singleton, Static, Extension methods or Dependency Injection</title>
+		<link>https://michaelscodingspot.com/class-instantiation-guidelines-2/</link>
+				<comments>https://michaelscodingspot.com/class-instantiation-guidelines-2/#comments</comments>
+				<pubDate>Tue, 07 May 2019 06:41:26 +0000</pubDate>
+		<dc:creator><![CDATA[Michael Shpilt]]></dc:creator>
+				<category><![CDATA[Programming]]></category>
+		<category><![CDATA[Architecture]]></category>
+		<category><![CDATA[C#]]></category>
+		<category><![CDATA[Object Oriented]]></category>
+		<category><![CDATA[Programming languages]]></category>
+
+		<guid isPermaLink="false">https://michaelscodingspot.com/?p=3779</guid>
+				<description><![CDATA[<p>I'd like to tackle an old dilemma: Class instantiation. Which pattern do you use to create a class? Do you always use a new statement? Do we still need to use Singleton or Factory? Should we always use dependency injection? How about static classes, are they truly evil?</p>
+<p>The post <a rel="nofollow" href="https://michaelscodingspot.com/class-instantiation-guidelines-2/">Class Instantiation Guidelines in Object Oriented Languages: When to choose Singleton, Static, Extension methods or Dependency Injection</a> appeared first on <a rel="nofollow" href="https://michaelscodingspot.com">Michael&#039;s Coding Spot</a>.</p>
+]]></description>
+						<wfw:commentRss>https://michaelscodingspot.com/class-instantiation-guidelines-2/feed/</wfw:commentRss>
+		<slash:comments>9</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">3779</post-id>	</item>
+		<item>
+		<title>Performance Showdown of Producer/Consumer (Job Queues) Implementations in C# .NET</title>
+		<link>https://michaelscodingspot.com/performance-of-producer-consumer/</link>
+				<comments>https://michaelscodingspot.com/performance-of-producer-consumer/#comments</comments>
+				<pubDate>Mon, 29 Apr 2019 09:03:14 +0000</pubDate>
+		<dc:creator><![CDATA[Michael Shpilt]]></dc:creator>
+				<category><![CDATA[C#]]></category>
+		<category><![CDATA[.NET]]></category>
+
+		<guid isPermaLink="false">https://michaelscodingspot.com/?p=3749</guid>
+				<description><![CDATA[<p>I recently wrote 3 blog posts on different Producer/Consumer (Job Queues) implementations. In this article, we will compare performance of all the approaches, including...</p>
+<p>The post <a rel="nofollow" href="https://michaelscodingspot.com/performance-of-producer-consumer/">Performance Showdown of Producer/Consumer (Job Queues) Implementations in C# .NET</a> appeared first on <a rel="nofollow" href="https://michaelscodingspot.com">Michael&#039;s Coding Spot</a>.</p>
+]]></description>
+						<wfw:commentRss>https://michaelscodingspot.com/performance-of-producer-consumer/feed/</wfw:commentRss>
+		<slash:comments>7</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">3749</post-id>	</item>
+	</channel>
+</rss>

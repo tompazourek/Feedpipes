@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:admin="http://webns.net/mvcb/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+
+  <atom:link href="https://www.typewolf.com/blog/feed" rel="self" type="application/rss+xml" />
+  <title><![CDATA[Typewolf]]> Blog</title>
+  <link>https://www.typewolf.com/blog</link>
+  <description>The Typewolf blog takes a deep dive into the latest in web typography</description>
+  <dc:language>en</dc:language>
+  <dc:creator>Jeremiah Shoaf</dc:creator>
+  <dc:rights>Copyright 2019</dc:rights>
+  <dc:date>2019-07-26T08:46:26-04:00</dc:date>
+  <admin:generatorAgent rdf:resource="http://statamic.com/" />
+
+    <item>
+    <title><![CDATA[After Nearly Five Years, I’m Saying Goodbye to My Favorite Sites of the Month Blog Posts]]></title>
+    <link>https://www.typewolf.com/blog/goodbye-to-favorite-sites-posts</link>
+    <guid>https://www.typewolf.com/blog/goodbye-to-favorite-sites-posts</guid>
+    <description><![CDATA[<p class="lead-paragraph">I couldn’t keep writing these forever—it’s finally time to say goodbye. <a href="https://www.typewolf.com/blog/favorite-sites-of-september-2018">Begin here</a> and travel back through 56 months of nice type.</p>
+<div class="article-img"><a href="https://www.typewolf.com/blog/favorite-sites-of-september-2018"><img src="https://www.typewolf.com/assets/blog/2018-11-01/typewolf-favorite-sites-collage.jpg" srcset="https://www.typewolf.com/assets/blog/2018-11-01/typewolf-favorite-sites-collage-2x.jpg 2x" alt="Collage" class="image-with-border" /></a></div>
+<p>I started writing these monthly favorite site roundup posts way back in March 2014, about nine months after I launched Typewolf. I wanted a way to highlight my favorite sites featured on Typewolf and to write about the typographic details behind the designs.</p>
+<p>I’ve enjoyed writing these posts over the years, but lately it has been harder and harder to come up with new things to say every month. I often feel like I’m repeating myself. I think I’m just getting a little bored with this format.</p>
+<p>I haven’t missed a single post (even through the births of two babies), so I’ve been questioning why exactly I’m so blindly dedicated to keeping these going. I know the posts probably seem easy to write, but I actually spend quite a significant amount of time each month putting them together.</p>
+<p>It’s also becoming more difficult to just pick a handful of favorites each month. The quality of the daily featured sites has improved over the years to the point where each one could be a contender now.</p>
+<p>So in short, I just don’t feel the need to keep writing these any longer.</p>
+<p>I wanted to make it to 60 posts so it would be an even five years, but once I made the decision to stop I just kind of lost all remaining motivation to continue. So I’m throwing in the towel early&hellip;</p>
+<h2>Onward to Better Things</h2>
+<p>I’m still working on Typewolf full-time—I’m just going to be spending more time on other things now:</p>
+<ol>
+<li>Higher quality curation for the daily <a href="https://www.typewolf.com/site-of-the-day">Site of the Day</a> section (this is why you visit Typewolf in the first place).</li>
+<li>Keeping my <a href="https://www.typewolf.com/guides">products</a> updated (this is what pays the bills).</li>
+    <li>Making more <a href="https://www.typewolf.com/recommendations">top 10 font lists</a>.</li>
+    <li>A huge backend overhaul is planned with tons of new features (like you’ll actually be able to search Typewolf).</li>
+    <li>My monthly <a href="https://www.typewolf.com/newsletter">newsletter</a> will be switching to a new weekly format which will take more time to curate.</li>
+</ol>
+<p>Thank you to everyone who has been reading these posts over the past five years.</p>]]></description>
+    <dc:subject><![CDATA[typography]]></dc:subject>
+    <dc:date>2018-11-01T00:00:00-04:00</dc:date>
+  </item>
+    <item>
+    <title><![CDATA[The Typographic Details Behind Typewolf’s Favorite Sites of September&nbsp;2018]]></title>
+    <link>https://www.typewolf.com/blog/favorite-sites-of-september-2018</link>
+    <guid>https://www.typewolf.com/blog/favorite-sites-of-september-2018</guid>
+    <description><![CDATA[<p class="lead-paragraph">This is the 56th installment of my monthly feature on Typewolf where I share my favorite type-driven websites from the previous month and then write a little about the typographic details behind the designs. You can check out <a href="https://www.typewolf.com/blog/favorite-sites-of-august-2018">last month&#8217;s post for August&nbsp;here</a>.</p>
+<div class="article-img"><a href="https://www.typewolf.com/site-of-the-day/leader-bag-co"><img src="https://www.typewolf.com/assets/blog/2018-10-03/04.png" srcset="https://www.typewolf.com/assets/blog/2018-10-03/04-2x.png 2x" alt="Leader Bag Co" class="image-with-border" /></a></div>
+<h2>Leader Bag Co</h2>
+<p><a href="https://www.typewolf.com/site-of-the-day/fonts/ogg">Ogg</a> is a beautiful serif that is full of character and personality. It has some unusual features, such as the lower stroke on the <em>e</em> that tends to stick out into the letter that follows it, but that is what makes it so unique and memorable. It’s combined here with <a href="https://www.typewolf.com/site-of-the-day/fonts/freight-text">Freight Text</a> for body copy and <a href="https://www.typewolf.com/site-of-the-day/fonts/pitch-sans">Pitch Sans</a> for navigation and captions. I love the colorful, childlike illustrations, but they feel a little out of place next to the products being sold which come across as more chic and fashionable than fun and quirky.</p>
+<hr />
+<div class="article-img"><a href="https://www.typewolf.com/site-of-the-day/notation-capital"><img src="https://www.typewolf.com/assets/blog/2018-10-03/03.jpg" srcset="https://www.typewolf.com/assets/blog/2018-10-03/03-2x.jpg 2x" alt="Notation" class="image-with-border" /></a></div>
+<h2>Notation</h2>
+<p>This is the first use of <a href="https://www.typewolf.com/site-of-the-day/fonts/halyard">Halyard</a> I’ve featured on Typewolf which is a little surprising as the entire family is readily available on <a href="https://www.typewolf.com/adobe-fonts">Adobe Fonts (Typekit)</a>, and Joshua Darden’s other superfamily, Freight, has been massively popular for quite a long time. The design of Halyard was influenced by the classic grotesques of the nineteenth and early twentieth centuries, but it feels a little more even and regular compared to the grotesques of that era which often feel a little off-kilter and wonky. It’s paired here with <a href="https://www.typewolf.com/site-of-the-day/fonts/freight-display">Freight Display</a> which is used at large sizes for headlines (as intended), while <a href="https://www.typewolf.com/site-of-the-day/fonts/freight-text">Freight Text</a> is used for body copy. The Freight and Halyard families pair together nicely, as is oftentimes the case with typefaces from the same designer.</p>
+<hr />
+<div class="article-img"><a href="https://www.typewolf.com/site-of-the-day/vermonts-quiet-digital-revolution"><img src="https://www.typewolf.com/assets/blog/2018-10-03/02.jpg" srcset="https://www.typewolf.com/assets/blog/2018-10-03/02-2x.jpg 2x" alt="The Story of Vermont’s Quiet Digital Revolution" class="image-with-border" /></a></div>
+<h2>The Story of Vermont’s Quiet Digital Revolution</h2>
+<p>I love the <em>Q</em> on Colophon’s <a href="https://www.typewolf.com/site-of-the-day/fonts/mabry">Mabry</a> typeface—it was the perfect choice for setting the title here as it immediately stands out and gives a distinctive look to the branding. It contrasts nicely with the serif <a href="https://www.typewolf.com/site-of-the-day/fonts/larish-neue">Larish Neue</a>, set directly above it. The body text, set in <a href="https://www.typewolf.com/site-of-the-day/fonts/graphik">Graphik</a>, has a readable, narrow width, and the pullquotes breaking out from the grid make the page feel more dynamic. The wide-bodied <a href="https://www.typewolf.com/site-of-the-day/fonts/adieu">Adieu</a> is used for bylines and labels, and a fourth sans-serif, <a href="https://www.typewolf.com/site-of-the-day/fonts/helvetica">Helvetica</a>, is used sporadically as well but probably isn’t really needed since there are already three other sans-serifs being used.</p>
+<hr />
+<div class="article-img"><a href="https://www.typewolf.com/site-of-the-day/porter-and-pals"><img src="https://www.typewolf.com/assets/blog/2018-10-03/01.jpg" srcset="https://www.typewolf.com/assets/blog/2018-10-03/01-2x.jpg 2x" alt="Porter & Pals" class="image-with-border" /></a></div>
+<h2>Porter &amp; Pals</h2>
+<p>When I first saw this site, I had no idea it was for a dog food company as the branding is completely bizarre. But I think it is brilliant. As a <a href="https://www.jeremiahshoaf.com/misc/griffey_wink/" target="_blank">dog owner myself</a>, I know that the market for specialty dog food is completely saturated—and every brand kind of looks the same. Porter &amp; Pals are probably aware of this and wanted to do something to quickly distinguish themselves from their sea of competitors. And I think they have succeeded here. Their brand feels crazy and exciting and different from anything else out there.</p>
+<p>The type plays a huge role in this. The sans-serif <a href="https://www.typewolf.com/site-of-the-day/fonts/danzza">Danzza</a> is a geometric/grotesque hybrid that feels genuinely happy—the oversized tail on the <em>g</em> makes it look like it is smiling at you. <a href="https://www.typewolf.com/site-of-the-day/fonts/windsor">Windsor</a> has a retro charm that exudes warmth. And <a href="https://www.typewolf.com/site-of-the-day/fonts/suisse-international-mono">Suisse Int’l Mono</a> has a techie feel that matches the aesthetic of the colorful gradients. The type choices, combined with the imagery and colors, come together to create one of the most memorable brands I’ve seen.</p>
+<hr />
+<p></p>]]></description>
+    <dc:subject><![CDATA[typography]]></dc:subject>
+    <dc:date>2018-10-03T00:00:00-04:00</dc:date>
+  </item>
+    <item>
+    <title><![CDATA[The Typographic Details Behind Typewolf’s Favorite Sites of August&nbsp;2018]]></title>
+    <link>https://www.typewolf.com/blog/favorite-sites-of-august-2018</link>
+    <guid>https://www.typewolf.com/blog/favorite-sites-of-august-2018</guid>
+    <description><![CDATA[<p class="lead-paragraph">This is the 55th installment of my monthly feature on Typewolf where I share my favorite type-driven websites from the previous month and then write a little about the typographic details behind the designs. You can check out <a href="https://www.typewolf.com/blog/favorite-sites-of-july-2018">last month&#8217;s post for July&nbsp;here</a>.</p>
+<div class="article-img"><a href="https://www.typewolf.com/site-of-the-day/kleinschmidt"><img src="https://www.typewolf.com/assets/blog/2018-09-03/04.png" srcset="https://www.typewolf.com/assets/blog/2018-09-03/04-2x.png 2x" alt="Kleinschmidt" class="image-with-border" /></a></div>
+<h2>Kleinschmidt</h2>
+<p>Extended sans-serifs have been all the rage lately, especially set in all caps like seen here. It’s refreshing to see Hoefler &amp; Co’s <a href="https://www.typewolf.com/site-of-the-day/fonts/ringside">Ringside</a> family used, as opposed to <a href="https://www.typewolf.com/site-of-the-day/fonts/gt-america">GT America</a> or <a href="https://www.typewolf.com/site-of-the-day/fonts/druk">Druk</a> which seem to be dominating the extended sans market. The entire site is set in Ringside with no other typefaces used. Ringside is a huge family available in a wide range of weights and widths, so it’s well suited to take on such a task.</p>
+<hr />
+<div class="article-img"><a href="https://www.typewolf.com/site-of-the-day/playa-beauty"><img src="https://www.typewolf.com/assets/blog/2018-09-03/03.png" srcset="https://www.typewolf.com/assets/blog/2018-09-03/03-2x.png 2x" alt="Playa" class="image-with-border" /></a></div>
+<h2>Playa</h2>
+<p><a href="https://www.typewolf.com/site-of-the-day/fonts/canela">Canela</a> continues to be massively popular in the fashion and beauty products space as evidenced here. The slight tapering on the stroke endings give it a refined, elegant quality that exudes style. It’s paired here with Klim’s geometric sans <a href="https://www.typewolf.com/site-of-the-day/fonts/calibre">Calibre</a> which adds a contemporary feel to the design. It’s always nice to see sites like this where the typography matches up perfectly with the product packaging. I’m always surprised at the number of products I see with beautiful type, only to be disappointed when I visit the website to find that it’s set entirely in <a href="https://www.typewolf.com/site-of-the-day/fonts/open-sans">Open Sans</a>.</p>
+<hr />
+<div class="article-img"><a href="https://www.typewolf.com/site-of-the-day/titos-vodka"><img src="https://www.typewolf.com/assets/blog/2018-09-03/01.jpg" srcset="https://www.typewolf.com/assets/blog/2018-09-03/01-2x.jpg 2x" alt="Tito’s Handmade Vodka" class="image-with-border" /></a></div>
+<h2>Tito’s Handmade Vodka</h2>
+<p>I think this is one of the few times I’ve seen a compressed style of <a href="https://www.typewolf.com/site-of-the-day/fonts/gt-america">GT America</a> used as opposed to the extended style which seems to be everywhere these days. A layered effect is added to the headline type using the <abbr>CSS</abbr> <em>text-shadow</em> property, making the text pop out from the background. The smaller headlines and body text are set in <a href="https://www.typewolf.com/site-of-the-day/fonts/eames-century-modern">Eames Century Modern</a>, which feels like a more modern and refined version of <a href="https://www.typewolf.com/site-of-the-day/fonts/clarendon">Clarendon</a>. The playful brush script <a href="https://www.typewolf.com/site-of-the-day/fonts/suti">Suti</a> rounds out the design set entirely in uppercase.</p>
+<hr />
+<div class="article-img"><a href="https://www.typewolf.com/site-of-the-day/heard-at-work"><img src="https://www.typewolf.com/assets/blog/2018-09-03/02.png" srcset="https://www.typewolf.com/assets/blog/2018-09-03/02-2x.png 2x" alt="Heard at Work" class="image-with-border" /></a></div>
+<h2>Heard at Work</h2>
+<p><a href="https://www.typewolf.com/site-of-the-day/fonts/berlingske-serif">Berlingske Serif</a> is one of my favorite typefaces, but it seems to be overshadowed by other more popular serifs such as <a href="https://www.typewolf.com/site-of-the-day/fonts/tiempos-headline">Tiempos</a> (which seems especially overused for <a href="https://www.typewolf.com/site-of-the-day/oak">this particular style of design</a>). I love typefaces like these that have small details that are unique but don’t immediately jump out at you—the arm on the lowercase <em>r</em> is actually a detached floating circle, but it doesn’t seem to negatively affect the readability of the typeface. Berlingske Serif is paired here with <a href="https://www.typewolf.com/site-of-the-day/fonts/work-sans">Work Sans</a>, a free font available on <a href="https://www.typewolf.com/google-fonts">Google Fonts</a>. The site uses <a href="https://www.typewolf.com/cheatsheet">proper apostrophes and quotation marks</a>, which is pretty important for a site comprised entirely of quotes from co-workers.</p>
+<hr />
+<p></p>]]></description>
+    <dc:subject><![CDATA[typography]]></dc:subject>
+    <dc:date>2018-09-03T00:00:00-04:00</dc:date>
+  </item>
+    <item>
+    <title><![CDATA[The Typographic Details Behind Typewolf’s Favorite Sites of July&nbsp;2018]]></title>
+    <link>https://www.typewolf.com/blog/favorite-sites-of-july-2018</link>
+    <guid>https://www.typewolf.com/blog/favorite-sites-of-july-2018</guid>
+    <description><![CDATA[<p class="lead-paragraph">This is the 54th installment of my monthly feature on Typewolf where I share my favorite type-driven websites from the previous month and then write a little about the typographic details behind the designs. You can check out <a href="https://www.typewolf.com/blog/favorite-sites-of-june-2018">last month&#8217;s post for June&nbsp;here</a>.</p>
+<div class="article-img"><a href="https://www.typewolf.com/site-of-the-day/twin-soul"><img src="https://www.typewolf.com/assets/blog/2018-08-01/04.png" srcset="https://www.typewolf.com/assets/blog/2018-08-01/04-2x.png 2x" alt="Twin Soul" class="image-with-border" /></a></div>
+<h2>Twin Soul</h2>
+<p>The Twin Soul site combines two fashionable, contemporary sans-serifs—<a href="https://www.typewolf.com/site-of-the-day/fonts/adieu">Adieu</a>, a wide-bodied sans with high contrast, and <a href="https://www.typewolf.com/site-of-the-day/fonts/sneak">Sneak</a>, a quirky grotesque with an <em>s</em> that looks like it is flipped upside down. The addition of the serif <a href="https://www.typewolf.com/site-of-the-day/fonts/itc-clearface">ITC Clearface</a> adds a warm, retro touch to the design which harmonizes nicely with the colorful geometric shapes. My only critique is that the type sizes continuously scale up based on screen size, so on a large monitor like mine the headlines end up with gigantic text that fits only one or two words per line when the browser window is at full width. <em>Update: this minor issue has since been fixed.</em></p>
+<hr />
+<div class="article-img"><a href="https://www.typewolf.com/site-of-the-day/emergence-magazine"><img src="https://www.typewolf.com/assets/blog/2018-08-01/03.jpg" srcset="https://www.typewolf.com/assets/blog/2018-08-01/03-2x.jpg 2x" alt="Emergence Magazine" class="image-with-border" /></a></div>
+<h2>Emergence Magazine</h2>
+<p><a href="https://www.typewolf.com/site-of-the-day/fonts/windsor">Windsor</a>, together with <a href="https://www.typewolf.com/site-of-the-day/fonts/itc-clearface">ITC Clearface</a> mentioned above, are two of the more popular typefaces leading the resurgence of <a href="https://www.typewolf.com/top-10-1970s-album-cover-fonts">1970s-evoking serifs</a>. I think they add a welcoming feeling of warmth to the design landscape, amidst the cold sterility of neo-grotesques and geometric sans-serifs. The serif <a href="https://www.typewolf.com/site-of-the-day/fonts/ogg">Ogg</a>, used for headlines here, has fairly wide proportions, so it was a clever idea to pair it with the extended cut of <a href="https://www.typewolf.com/site-of-the-day/fonts/gt-america">GT America</a>. When stacked on top of each other, they feel balanced and even.</p>
+<hr />
+<div class="article-img"><a href="https://www.typewolf.com/site-of-the-day/emergence"><img src="https://www.typewolf.com/assets/blog/2018-08-01/02.png" srcset="https://www.typewolf.com/assets/blog/2018-08-01/02-2x.png 2x" alt="Emergence" class="image-with-border" /></a></div>
+<h2>Emergence</h2>
+<p>Emergence (completely unrelated to <em>Emergence Magazine</em> featured above) is a venture capital firm with a brand that comes across as stylish and classy in contrast to the techie look that is stereotypical of VC companies. The illustrations help with this as does the type. <a href="https://www.typewolf.com/site-of-the-day/fonts/canela">Canela</a> feels chic and elegant, while <a href="https://www.typewolf.com/site-of-the-day/fonts/styrene">Styrene</a> adds a more modern touch. Neither Styrene nor Canela are ideal for body copy (although <a href="https://commercialtype.com/news/new_release_canela_text_and_deck" target="_blank" rel="nofollow">a text version of Canela was actually just released by Commercial Type</a> last month), so the ever-popular neo-grotesque/gothic hybrid <a href="https://www.typewolf.com/site-of-the-day/fonts/gt-america">GT America</a> is added into the mix to set the body text.</p>
+<hr />
+<div class="article-img"><a href="https://www.typewolf.com/site-of-the-day/massachusetts-institute-of-technology"><img src="https://www.typewolf.com/assets/blog/2018-08-01/01.png" srcset="https://www.typewolf.com/assets/blog/2018-08-01/01-2x.png 2x" alt="MIT" class="image-with-border" /></a></div>
+<h2>MIT</h2>
+<p>The MIT redesign was lead by the talented folks at <a href="https://www.upstatement.com" target="_blank">Upstatement</a>, who are one of my favorite design agencies at the moment. It seems like I end up featuring almost all of their projects on Typewolf (they also did the Emergence site above). The entire site is set in Luzi Type’s <a href="https://www.typewolf.com/site-of-the-day/fonts/messina-sans">Messina Sans</a>, with typographic contrast coming from different sizes and weights rather than different type families. </p>
+<p>The <em>Spotlight</em> section on the homepage features colorful text that switches to a different color theme every day. Some people really despise this kind of type treatment, as evidenced by the “this must have been designed by the same color-blind folks that did Dropbox” <a href="https://www.designernews.co/stories/96250-mit-website-redesign" target="_blank">comment I saw on Designer News</a>. But that seems to be a common complaint of a certain subset of people whenever a site strays too far from default black text on a white background. I personally love the look and think it adds personality to brands which is sorely lacking on the web these days.</p>
+<hr />
+<p></p>]]></description>
+    <dc:subject><![CDATA[typography]]></dc:subject>
+    <dc:date>2018-08-01T00:00:00-04:00</dc:date>
+  </item>
+    <item>
+    <title><![CDATA[The Typographic Details Behind Typewolf’s Favorite Sites of June&nbsp;2018]]></title>
+    <link>https://www.typewolf.com/blog/favorite-sites-of-june-2018</link>
+    <guid>https://www.typewolf.com/blog/favorite-sites-of-june-2018</guid>
+    <description><![CDATA[<p class="lead-paragraph">This is the 53rd installment of my monthly feature on Typewolf where I share my favorite type-driven websites from the previous month and then write a little about the typographic details behind the designs. You can check out <a href="https://www.typewolf.com/blog/favorite-sites-of-may-2018">last month&#8217;s post for May&nbsp;here</a>.</p>
+<div class="article-img"><a href="https://www.typewolf.com/site-of-the-day/jerome-harris"><img src="https://www.typewolf.com/assets/blog/2018-07-05/04.png" srcset="https://www.typewolf.com/assets/blog/2018-07-05/04-2x.png 2x" alt="Jerome Harris" class="image-with-border" /></a></div>
+<h2>Jerome Harris</h2>
+<p>This site uses two freely available <a href="https://www.typewolf.com/google-fonts">open-source fonts</a>—the serif <a href="https://www.typewolf.com/site-of-the-day/fonts/cormorant">Cormorant</a> and the sans <a href="https://www.typewolf.com/site-of-the-day/fonts/gothic-a1">Gothic A1</a>—but still has a distinctive look. The headline type is set tightly with negative letterspacing, recalling the tight-but-not-touching vibe of <a href="https://www.typewolf.com/top-10-1970s-album-cover-fonts">1970s typography</a>. The designer of Cormorant actually commented on Twitter how he wasn’t a fan of the tight setting here, but I think it matches the look of the rest of the design and gives the type a less formal and more raw aesthetic.</p>
+<hr />
+<div class="article-img"><a href="https://www.typewolf.com/site-of-the-day/long-lean-club"><img src="https://www.typewolf.com/assets/blog/2018-07-05/03.png" srcset="https://www.typewolf.com/assets/blog/2018-07-05/03-2x.png 2x" alt="Long Lean Club" class="image-with-border" /></a></div>
+<h2>Long Lean Club</h2>
+<p><a href="https://www.typewolf.com/site-of-the-day/fonts/canela">Canela</a> and <a href="https://www.typewolf.com/site-of-the-day/fonts/gt-america">GT America</a> are two of the hottest typefaces of the moment, and they are both combined here. I really love the overall branding—the logo, type choices, colors and photography all feel spot on. However, I feel like the execution on the website could have been better. The paragraphs extend the full width of the browser window, which makes reading difficult on a large screen. And the introduction of a second sans-serif here—<a href="https://www.typewolf.com/site-of-the-day/fonts/futura">Futura</a>—feels unneeded. Perhaps a different width or weight of GT America could have been added instead to keep the design more cohesive.</p>
+<hr />
+<div class="article-img"><a href="https://www.typewolf.com/site-of-the-day/an-interesting-day-2018"><img src="https://www.typewolf.com/assets/blog/2018-07-05/02.png" srcset="https://www.typewolf.com/assets/blog/2018-07-05/02-2x.png 2x" alt="An Interesting Day" class="image-with-border" /></a></div>
+<h2>An Interesting Day</h2>
+<p>Norwegian design studio <a href="https://bakkenbaeck.com" target="_blank">Bakken &amp; Bæck</a> host a one-day conference every year, with each event getting its own unique website design. This is the fourth feature on Typewolf (check out the <a href="https://www.typewolf.com/site-of-the-day/an-interesting-day-2017">2017</a>, <a href="https://www.typewolf.com/site-of-the-day/an-interesting-day-2016">2016</a> and <a href="https://www.typewolf.com/site-of-the-day/an-interesting-day">2015</a> versions), so it’s an interesting way to watch design trends evolve over the years.</p>
+<p>The 2018 site is a perfect representation of what is on trend at the moment—wide-bodied sans-serifs, heavy borders and quirky illustrations. An extended cut of <a href="https://www.typewolf.com/site-of-the-day/fonts/gt-america">GT America</a> is used throughout with an even wider expanded style used for the main headline. Will the extended sans still be all the rage next year? We will have to wait and see&hellip;</p>
+<hr />
+<div class="article-img"><a href="https://www.typewolf.com/site-of-the-day/whittle-school-and-studios"><img src="https://www.typewolf.com/assets/blog/2018-07-05/01.png" srcset="https://www.typewolf.com/assets/blog/2018-07-05/01-2x.png 2x" alt="Whittle School & Studios" class="image-with-border" /></a></div>
+<h2>Whittle School &amp; Studios</h2>
+<p>I get the occasional complaint from people who think I feature too much harsh, <a href="https://www.typewolf.com/top-10-brutalist-fonts">brutalist-inspired design</a> on Typewolf while passing over anything that takes a more timeless and classy approach. The Whittle School &amp; Studios site should please this group. Nothing about it feels overly trendy—it’s just solid typography executed in a tasteful manner.</p>
+<p>The huge headlines set in the <a href="https://www.typewolf.com/site-of-the-day/fonts/freight-big">Big optical size of Freight</a> contrast nicely with the smaller text set in <a href="https://www.typewolf.com/site-of-the-day/fonts/gt-walsheim">GT Walsheim</a>. GT Walsheim is a unique geometric sans that is full of personality, but it still reads quite well at smaller sizes. And it helps that the line lengths of the paragraphs are kept at a narrow, readable width that fits nicely in the oft-recommended 45–75 characters per line range.</p>
+<hr />
+<p></p>]]></description>
+    <dc:subject><![CDATA[typography]]></dc:subject>
+    <dc:date>2018-07-05T00:00:00-04:00</dc:date>
+  </item>
+    <item>
+    <title><![CDATA[The Typographic Details Behind Typewolf’s Favorite Sites of May&nbsp;2018]]></title>
+    <link>https://www.typewolf.com/blog/favorite-sites-of-may-2018</link>
+    <guid>https://www.typewolf.com/blog/favorite-sites-of-may-2018</guid>
+    <description><![CDATA[<p class="lead-paragraph">This is the 52nd installment of my monthly feature on Typewolf where I share my favorite type-driven websites from the previous month and then write a little about the typographic details behind the designs. You can check out <a href="https://www.typewolf.com/blog/favorite-sites-of-april-2018">last month&#8217;s post for April&nbsp;here</a>.</p>
+<div class="article-img"><a href="https://www.typewolf.com/site-of-the-day/jonesy"><img src="https://www.typewolf.com/assets/blog/2018-06-03/04.png" srcset="https://www.typewolf.com/assets/blog/2018-06-03/04-2x.png 2x" alt="Jonesy" class="image-with-border" /></a></div>
+<h2>Jonesy</h2>
+<p>The <a href="https://www.typewolf.com/top-10-1970s-album-cover-fonts">1970s-evoking</a> <a href="https://www.typewolf.com/site-of-the-day/fonts/windsor">Windsor</a> typeface continues to be popular here on Typewolf. It gives off a warm, vintage aesthetic which feels like a perfect fit for a brand selling high-waisted underwear. The serif <a href="https://www.typewolf.com/site-of-the-day/fonts/plantin">Plantin</a> is used for the text set at smaller sizes where Windsor might be a little too ornate for optimal legibility. <a href="https://www.typewolf.com/site-of-the-day/fonts/calibre">Calibre</a>, a geometric sans from Klim, is paired with the two serifs, making the overall design feel a touch more modern and contemporary.</p>
+<hr />
+<div class="article-img"><a href="https://www.typewolf.com/site-of-the-day/cup-of-couple"><img src="https://www.typewolf.com/assets/blog/2018-06-03/03.png" srcset="https://www.typewolf.com/assets/blog/2018-06-03/03-2x.png 2x" alt="Cup of Couple" class="image-with-border" /></a></div>
+<h2>Cup of Couple</h2>
+<p>The Cup of Couple site uses four type families, but it doesn’t feel like too many as each typeface is used in a consistent way for a specific purpose. <a href="https://www.typewolf.com/site-of-the-day/fonts/displace">Displace</a>, a high-contrast calligraphic sans, is used for the page headers. The article headlines use <a href="https://www.typewolf.com/site-of-the-day/fonts/perpetua">Perpetua Titling</a>, a display cut of Perpetua that is available in uppercase only. <a href="https://www.typewolf.com/site-of-the-day/fonts/franklin-gothic">Franklin Gothic</a> is used for navigation and the body text is set in <a href="https://www.typewolf.com/site-of-the-day/fonts/garamond">Garamond</a>. Everything except the body copy is set entirely in uppercase which creates even more contrast between the text areas.</p>
+<hr />
+<div class="article-img"><a href="https://www.typewolf.com/site-of-the-day/swallowtail-tea"><img src="https://www.typewolf.com/assets/blog/2018-06-03/02.png" srcset="https://www.typewolf.com/assets/blog/2018-06-03/02-2x.png 2x" alt="Swallowtail Tea" class="image-with-border" /></a></div>
+<h2>Swallowtail Tea</h2>
+<p><a href="https://www.typewolf.com/site-of-the-day/fonts/louize-display">Louize Display</a> is an inscriptional typeface from French foundry <a href="http://www.205.tf" target="_blank" rel="nofollow">205TF</a> that is somewhat similar in style to the ultra trendy <a href="https://www.typewolf.com/site-of-the-day/fonts/canela">Canela</a> from Commercial Type. It isn’t used nearly as much though, so it feels a bit more fresh and distinctive. The <a href="https://www.typewolf.com/site-of-the-day/fonts/gt-pressura-mono">monospaced cut of GT Pressura</a> is an unusual pairing choice as it feels more techie and industrial compared to the classical look of Louize, but I think it still works nicely.</p>
+<hr />
+<div class="article-img"><a href="https://www.typewolf.com/site-of-the-day/texas-monthly"><img src="https://www.typewolf.com/assets/blog/2018-06-03/01.png" srcset="https://www.typewolf.com/assets/blog/2018-06-03/01-2x.png 2x" alt="Texas Monthly" class="image-with-border" /></a></div>
+<h2>Texas Monthly</h2>
+<p>Condensed typefaces make for excellent headline choices as they allow for a larger font size while fitting more words per line compared to a standard-width face. The end result is a more efficient use of space with less awkward line breaks. The Texas Monthly site uses <a href="https://www.typewolf.com/site-of-the-day/fonts/grifinito">Grifinito</a>, a compressed member of R-Typography’s <a href="https://www.typewolf.com/site-of-the-day/fonts/grifo">Grifo</a> family, for the main titles with the regular width used for the smaller headers. Hoefler &amp; Co.’s <a href="https://www.typewolf.com/site-of-the-day/fonts/ringside">Ringside</a> and <a href="https://www.typewolf.com/site-of-the-day/fonts/chronicle-text">Chronicle Text</a> round out the design, used as workhorse faces for navigation and body text.</p>
+<hr />
+<p></p>]]></description>
+    <dc:subject><![CDATA[typography]]></dc:subject>
+    <dc:date>2018-06-03T00:00:00-04:00</dc:date>
+  </item>
+    <item>
+    <title><![CDATA[The Typographic Details Behind Typewolf’s Favorite Sites of April&nbsp;2018]]></title>
+    <link>https://www.typewolf.com/blog/favorite-sites-of-april-2018</link>
+    <guid>https://www.typewolf.com/blog/favorite-sites-of-april-2018</guid>
+    <description><![CDATA[<p class="lead-paragraph">This is the 51st installment of my monthly feature on Typewolf where I share my favorite type-driven websites from the previous month and then write a little about the typographic details behind the designs. You can check out <a href="https://www.typewolf.com/blog/favorite-sites-of-march-2018">last month&#8217;s post for March&nbsp;here</a>.</p>
+<div class="article-img"><a href="https://www.typewolf.com/site-of-the-day/checkoutdotcom"><img src="https://www.typewolf.com/assets/blog/2018-05-03/04.jpg" srcset="https://www.typewolf.com/assets/blog/2018-05-03/04-2x.jpg 2x" alt="Checkout.com" class="image-with-border" /></a></div>
+<h2>Checkout.com</h2>
+<p><a href="https://www.typewolf.com/site-of-the-day/fonts/gt-super">GT Super</a> was officially <a href="http://www.gt-super.com" target="_blank">released by Grilli Type</a> just a few weeks ago, but some designers have been able to get their hands on the font early as there have been uses on Typewolf going all the way back to mid-2017. My prediction is that this typeface is going to blow up this year. It ticks all the boxes of what is trending with designers right now—high contrast, <a href="https://www.typewolf.com/top-10-1970s-album-cover-fonts">1970s-evoking</a> and sharp, blade-like serifs. The Checkout.com brand feels a bit corporate to adopt this look, but it shows that this style is going mainstream.</p>
+<p>You might notice that the body text on this site (as shown in the paragraph in the screenshot above) is set pretty tight—the letters and words all seem kind of smushed together. However, it’s not the <abbr>CSS</abbr> <em>letter-spacing</em> or <em>word-spacing</em> causing this but the particular version of <a href="https://www.typewolf.com/site-of-the-day/fonts/neue-haas-grotesk">Neue Haas Grotesk</a> being used. Rather than using the text optical size, everything is set in the display optical size which has tighter spacing built-in. I’m not sure of the reasoning behind this decision, as the type is set pretty small and definitely not used at the kind of large display sizes that would warrant the tighter setting.</p>
+<hr />
+<div class="article-img"><a href="https://www.typewolf.com/site-of-the-day/herb"><img src="https://www.typewolf.com/assets/blog/2018-05-03/03.png" srcset="https://www.typewolf.com/assets/blog/2018-05-03/03-2x.png 2x" alt="Herb" class="image-with-border" /></a></div>
+<h2>Herb</h2>
+<p><a href="https://www.typewolf.com/site-of-the-day/fonts/eksell-display">Eksell Display</a> is somewhat similar to GT Super, mentioned above, with its razor-sharp serifs and general all-around evil appearance. It was originally drawn by someone who was a graphic designer rather than a type designer, which no doubt contributes to its oddball, off-kilter appearance. The body text is set in Commercial Type’s <a href="https://www.typewolf.com/site-of-the-day/fonts/styrene">Styrene</a> family which reads surprisingly well despite its quirky features, such as the overly wide crossbars on the <em>t</em> and <em>f</em>, as well as the prominent curve on the <em>J</em>.</p>
+<hr />
+<div class="article-img"><a href="https://www.typewolf.com/site-of-the-day/gaimo"><img src="https://www.typewolf.com/assets/blog/2018-05-03/02.png" srcset="https://www.typewolf.com/assets/blog/2018-05-03/02-2x.png 2x" alt="Gaimo" class="image-with-border" /></a></div>
+<h2>Gaimo</h2>
+<p><a href="https://www.typewolf.com/site-of-the-day/fonts/sangbleu-empire">SangBleu Empire</a>, a member of the <a href="https://www.swisstypefaces.com/fonts/sangbleu/" target="_blank" rel="nofollow">SangBleu collection</a> from Swiss Typefaces, is yet another typeface that may fall into the “evil serif” category with letters that look like they could be used as weapons. It’s a very distinctive typeface that helps create a strong identity for the Gaimo shoe brand. The pairing with <a href="https://www.typewolf.com/site-of-the-day/fonts/roboto">Roboto</a> feels out of place though—it makes me think of Google and their suite of products, as well as generic website templates that rely on the <a href="https://www.typewolf.com/google-fonts">Google Fonts service</a>. Another member of the SangBleu family could perhaps have been used instead to create a more unique visual identity.</p>
+<hr />
+<div class="article-img"><a href="https://www.typewolf.com/site-of-the-day/dwell-in-other-futures"><img src="https://www.typewolf.com/assets/blog/2018-05-03/01.png" srcset="https://www.typewolf.com/assets/blog/2018-05-03/01-2x.png 2x" alt="Dwell in Other Futures" class="image-with-border" /></a></div>
+<h2>Dwell in Other Futures</h2>
+<p><a href="https://www.typewolf.com/site-of-the-day/fonts/beatrice-display">Beatrice Display</a> is a coming-soon release from <a href="https://sharptype.co" target="_blank" rel="nofollow">Sharp Type</a>, so there isn’t much information available on it yet. I’ve noticed lately that foundries have been making their upcoming releases available early to select designers, perhaps to create buzz ahead of the official launch. I’ve seen designers fawning over Beatrice on Twitter, so this strategy may be working.</p>
+<p>I think this typeface has a visceral appeal to designers due to its striking visual qualities—the ultra high contrast, hairline horizontal strokes and the dot on the <em>i</em> that is just a straight line. It feels very avant garde. Its real-world usefulness, however, is probably quite limited. The hairline strokes completely disappear at small sizes—even at large sizes they are barely there. But that won’t stop designers from reaching for it in situations where aesthetics and emotional response trump pure readability.</p>
+<p>A much more neutral and legible typeface, <a href="https://www.typewolf.com/site-of-the-day/fonts/programm">Programm</a>, is paired here with Beatrice Display. Programm is a sans-serif that originated in the 1960s and has since been revived through <a href="http://dinamostandards.com" target="_blank">Dinamo Standards</a>, a branch of Swiss foundry Dinamo that focuses on revivals and interpretations of forgotten typefaces.</p>
+<hr />
+<p></p>]]></description>
+    <dc:subject><![CDATA[typography]]></dc:subject>
+    <dc:date>2018-05-03T00:00:00-04:00</dc:date>
+  </item>
+    <item>
+    <title><![CDATA[The Typographic Details Behind Typewolf’s Favorite Sites of March&nbsp;2018]]></title>
+    <link>https://www.typewolf.com/blog/favorite-sites-of-march-2018</link>
+    <guid>https://www.typewolf.com/blog/favorite-sites-of-march-2018</guid>
+    <description><![CDATA[<p class="lead-paragraph">This is the 50th installment of my monthly feature on Typewolf where I share my favorite type-driven websites from the previous month and then write a little about the typographic details behind the designs. You can check out <a href="https://www.typewolf.com/blog/favorite-sites-of-february-2018">last month&#8217;s post for February&nbsp;here</a>.</p>
+<div class="article-img"><a href="https://www.typewolf.com/site-of-the-day/sophie-haig"><img src="https://www.typewolf.com/assets/blog/2018-04-04/04.png" srcset="https://www.typewolf.com/assets/blog/2018-04-04/04-2x.png 2x" alt="Sophie Haig" class="image-with-border" /></a></div>
+<h2>Sophie Haig</h2>
+<p>I thought this was <a href="https://www.typewolf.com/site-of-the-day/fonts/times-new-roman">Times New Roman</a> at first, but it’s actually <a href="https://www.typewolf.com/site-of-the-day/fonts/riccione">Riccione</a>, a design that is super similar to Times but with wider proportions and thinner, sharper serifs. They could have saved a webfont download by just using the default system font instead. However, it does add a <em>slightly</em> different feel to the design, so maybe it is indeed worth the extra bandwidth. A wide cut of <a href="https://www.typewolf.com/site-of-the-day/fonts/titling-gothic">Titling Gothic</a> is paired with the serif, adding a contemporary touch to the layout.</p>
+<hr />
+<div class="article-img"><a href="https://www.typewolf.com/site-of-the-day/11-honore"><img src="https://www.typewolf.com/assets/blog/2018-04-04/03.png" srcset="https://www.typewolf.com/assets/blog/2018-04-04/03-2x.png 2x" alt="11 Honoré" class="image-with-border" /></a></div>
+<h2>11 Honoré</h2>
+<p><a href="https://www.typewolf.com/site-of-the-day/fonts/canela">Canela</a> continues to be wildly popular with fashion brands—it’s beginning to feel like the twenty-first century version of <a href="https://www.typewolf.com/site-of-the-day/fonts/optima">Optima</a>. Size-inclusive clothing company 11 Honoré make use of the lighter cuts here for their logo and site design.</p>
+<p>Some of the type is a little on the small size, particularly the thin weights of Canela, which feature delicate strokes that can become brittle if used at too tiny of a size. Smaller type tends to look more elegant though, especially when contrasted next to a larger heading. An expanded cut of <a href="https://www.typewolf.com/site-of-the-day/fonts/favorit">Favorit</a> is used at sizes as small as 9px, but it holds up decently due to its sturdy strokes and wide letterforms.</p>
+<hr />
+<div class="article-img"><a href="https://www.typewolf.com/site-of-the-day/mr-leight"><img src="https://www.typewolf.com/assets/blog/2018-04-04/02.png" srcset="https://www.typewolf.com/assets/blog/2018-04-04/02-2x.png 2x" alt="Mr. Leight" class="image-with-border" /></a></div>
+<h2>Mr. Leight</h2>
+<p>This is another site using the fashionable <a href="https://www.typewolf.com/site-of-the-day/fonts/canela">Canela</a>, but this time a heavier, less-delicate cut is used. The logo looks to be loosely based on Canela as well, but with some strokes erased and triangular shapes tacked on. <a href="https://www.typewolf.com/site-of-the-day/fonts/itc-avant-garde-gothic">ITC Avant Garde Gothic</a> is paired with it, used at a tiny size for maximum contrast with the large headlines.</p>
+<hr />
+<div class="article-img"><a href="https://www.typewolf.com/site-of-the-day/paradiso"><img src="https://www.typewolf.com/assets/blog/2018-04-04/01.png" srcset="https://www.typewolf.com/assets/blog/2018-04-04/01-2x.png 2x" alt="Paradiso" class="image-with-border" /></a></div>
+<h2>Paradiso</h2>
+<p>So we are four-for-four this month on designs using the trendy peachy-pink color. I’m not sure if I specifically seek out this color to feature or if it’s just too popular as to become unavoidable. But hey, it’s a nice color and much more interesting than the default black text on a white background&hellip;</p>
+<p>The Paradiso site is all over the place with its type choices. <a href="https://www.typewolf.com/site-of-the-day/fonts/windsor">Windsor</a> gives off a laid-back <a href="https://www.typewolf.com/top-10-1970s-album-cover-fonts">70s vibe</a>. <a href="https://www.typewolf.com/site-of-the-day/fonts/europa">Europa</a> feels sleek and modern, but it’s set with generous letterspacing, which gives the geometric sans a more open and friendly feel. The use of <a href="https://www.typewolf.com/site-of-the-day/fonts/optima">Optima</a> adds a refined, classy touch. And <a href="https://www.typewolf.com/site-of-the-day/fonts/graphite">Graphite</a>, an upright script face based off an architect’s pencil, seems to be scrawled randomly throughout just for fun. It’s a lot of type to take in, but it makes the entire design engaging and full of personality.</p>
+<hr />
+<p></p>]]></description>
+    <dc:subject><![CDATA[typography]]></dc:subject>
+    <dc:date>2018-04-04T00:00:00-04:00</dc:date>
+  </item>
+    <item>
+    <title><![CDATA[The Typographic Details Behind Typewolf’s Favorite Sites of February&nbsp;2018]]></title>
+    <link>https://www.typewolf.com/blog/favorite-sites-of-february-2018</link>
+    <guid>https://www.typewolf.com/blog/favorite-sites-of-february-2018</guid>
+    <description><![CDATA[<p class="lead-paragraph">This is the 49th installment of my monthly feature on Typewolf where I share my favorite type-driven websites from the previous month and then write a little about the typographic details behind the designs. You can check out <a href="https://www.typewolf.com/blog/favorite-sites-of-january-2018">last month&#8217;s post for January&nbsp;here</a>.</p>
+<div class="article-img"><a href="https://www.typewolf.com/site-of-the-day/creative-leadership-salon"><img src="https://www.typewolf.com/assets/blog/2018-03-01/04.png" srcset="https://www.typewolf.com/assets/blog/2018-03-01/04-2x.png 2x" alt="Creative Leadership Salon" class="image-with-border" /></a></div>
+<h2>Creative Leadership Salon</h2>
+<p><a href="https://www.typewolf.com/site-of-the-day/fonts/antique-olive">Antique Olive</a> is a unique typeface in that it has reverse stroke contrast, meaning the horizontal strokes are thicker than the vertical strokes. This is the opposite of standard typefaces, which gives the letterforms a wonky, off-balanced feel. Here, a condensed cut is set entirely in uppercase which makes the reverse contrast not quite as noticeable. The “evil serif” <a href="https://www.typewolf.com/site-of-the-day/fonts/romana">Romana</a> is paired with it, which starkly contrasts with the quirkiness of Antique Olive.</p>
+<hr />
+<div class="article-img"><a href="https://www.typewolf.com/site-of-the-day/smalls"><img src="https://www.typewolf.com/assets/blog/2018-03-01/03.jpg" srcset="https://www.typewolf.com/assets/blog/2018-03-01/03-2x.jpg 2x" alt="Smalls" class="image-with-border" /></a></div>
+<h2>Smalls</h2>
+<p><a href="https://www.typewolf.com/site-of-the-day/fonts/nimbus-sans">Nimbus Sans</a>, a Helvetica-inspired neo-grotesque, is the sole type family used on the Smalls website. The navigation and subheaders use an extended cut set in uppercase, which helps create hierarchy and breaks up the “sameness” of using a single font.</p>
+<p>The lowercase text has added letterspacing, which is usually considered a typographic faux pas. I’ve noticed other sites doing this lately and it feels like it is starting to become somewhat of a trend. To me, this loose typesetting gives designs an almost childlike quality, feeling friendly and open like a learn-to-read book.</p>
+<hr />
+<div class="article-img"><a href="https://www.typewolf.com/site-of-the-day/book-of-the-month"><img src="https://www.typewolf.com/assets/blog/2018-03-01/02.png" srcset="https://www.typewolf.com/assets/blog/2018-03-01/02-2x.png 2x" alt="Book of the Month" class="image-with-border" /></a></div>
+<h2>Book of the Month</h2>
+<p>Kris Sowersby of Klim designed <a href="https://www.typewolf.com/site-of-the-day/fonts/untitled-serif">Untitled Serif</a> to be a neutral book face that blends into the background. So it is interesting to see it used here as a prominent display face. Graphic designers always end up using typefaces in ways not originally intended by type designers. Grilli Type’s <a href="https://www.typewolf.com/site-of-the-day/fonts/gt-america">GT America</a> is used for the rest of the site, while the logo is set in <a href="https://www.typewolf.com/site-of-the-day/fonts/farnham">Farnham Display</a> italic,  showing off some of the gorgeous swash characters.</p>
+<hr />
+<div class="article-img"><a href="https://www.typewolf.com/site-of-the-day/wepresent"><img src="https://www.typewolf.com/assets/blog/2018-03-01/01.png" srcset="https://www.typewolf.com/assets/blog/2018-03-01/01-2x.png 2x" alt="WePresent" class="image-with-border" /></a></div>
+<h2>WePresent</h2>
+<p><a href="https://www.typewolf.com/site-of-the-day/fonts/itc-clearface">ITC Clearface</a> continues to be popular as of late—it made an appearance on the recent <a href="http://www.thedieline.com/blog/2017/11/29/chobani-americas-favorite-yogurt-redesigns-their-packaging" target="_blank">Chobani rebrand</a> and has been featured quite a bit on Typewolf recently. I feel like it’s losing some of its retro associations and starting to feel contemporary again. I credit <a href="https://www.typewolf.com/site-of-the-day/okreal">OKREAL</a> with helping to revitalize this typeface, as their influential site design from 2014 made prominent use of it (in addition to being one of the first sites to do the whole colored-text-on-a-colored-background thing).</p>
+<p>The WePresent site may have possibly been inspired by OKREAL but manages to do its own unique thing. The headlines mix in the sans-serif <a href="https://www.typewolf.com/site-of-the-day/fonts/fakt">Fakt</a> mid-sentence, giving a distinctive look to the story titles. And I love how some of the stories are individually art directed with their own custom color palettes. The body text is set beautifully in a readable line length with <a href="https://www.typewolf.com/cheatsheet">proper apostrophes, quotation marks and dashes</a> used throughout.</p>
+<hr />
+<p></p>]]></description>
+    <dc:subject><![CDATA[typography]]></dc:subject>
+    <dc:date>2018-03-01T00:00:00-05:00</dc:date>
+  </item>
+    <item>
+    <title><![CDATA[The Typographic Details Behind Typewolf’s Favorite Sites of January&nbsp;2018]]></title>
+    <link>https://www.typewolf.com/blog/favorite-sites-of-january-2018</link>
+    <guid>https://www.typewolf.com/blog/favorite-sites-of-january-2018</guid>
+    <description><![CDATA[<p class="lead-paragraph">This is the 48th installment of my monthly feature on Typewolf where I share my favorite type-driven websites from the previous month and then write a little about the typographic details behind the designs. You can check out <a href="https://www.typewolf.com/blog/favorite-sites-of-december-2017">last month&#8217;s post for December&nbsp;here</a>.</p>
+<div class="article-img"><a href="https://www.typewolf.com/site-of-the-day/penguin-modern"><img src="https://www.typewolf.com/assets/blog/2018-02-01/04.png" srcset="https://www.typewolf.com/assets/blog/2018-02-01/04-2x.png 2x" alt="Penguin Modern" class="image-with-border" /></a></div>
+<h2>Penguin Modern</h2>
+<p>The Penguin Modern book covers are probably the single best use I’ve ever seen of <a href="https://www.typewolf.com/site-of-the-day/fonts/itc-avant-garde-gothic">ITC Avant Garde Gothic’s</a> extensive ligatures. The typesetting really shows off some of the more exuberant letter combinations and everything lines up in such a typographically pleasing way. This level of exact typographic control would be difficult to accomplish using pure <abbr>CSS</abbr>, so it looks like this was integrated using <abbr>SVG</abbr> images rather than text.</p>
+<hr />
+<div class="article-img"><a href="https://www.typewolf.com/site-of-the-day/post-typography"><img src="https://www.typewolf.com/assets/blog/2018-02-01/03.png" srcset="https://www.typewolf.com/assets/blog/2018-02-01/03-2x.png 2x" alt="Post Typography" class="image-with-border" /></a></div>
+<h2>Post Typography</h2>
+<p>A design studio with <em>typography</em> in their name better have type that is on point and these guys certainly do. I really dig the typographic grid on the about page—the body text is offset from the headline with an indent, which helps keep the line length readable while also giving the layout a more dynamic feel. The headlines and body copy are set in <a href="https://okaytype.com" target="_blank" rel="nofollow">Okay Type’s</a> serif <a href="https://www.typewolf.com/site-of-the-day/fonts/harriet">Harriet</a>, with prominent use of the beautiful italic cut, while the subheaders are set with <a href="https://processtypefoundry.com" target="_blank" rel="nofollow">Process Type’s</a> sans-serif <a href="https://www.typewolf.com/site-of-the-day/fonts/colfax">Colfax</a> in letterspaced all-caps. This type system is used consistently throughout the site, giving the design a cohesive feel.</p>
+<hr />
+<div class="article-img"><a href="https://www.typewolf.com/site-of-the-day/grayes"><img src="https://www.typewolf.com/assets/blog/2018-02-01/02.png" srcset="https://www.typewolf.com/assets/blog/2018-02-01/02-2x.png 2x" alt="Grayes" class="image-with-border" /></a></div>
+<h2>Grayes</h2>
+<p><a href="https://www.typewolf.com/site-of-the-day/fonts/canela">Canela</a> and <a href="https://www.typewolf.com/site-of-the-day/fonts/gt-america">GT America</a> are probably the two hottest typefaces from 2017, but their use here comes across as classy and professional rather than trendy. Canela feels inherently fashionable, especially in the lighter weights, with its subtle, delicately flared serifs.</p>
+<p>The screenshot above shows an awkward line break with a single word floating by itself that could have been prevented with a simple trick: manually add a &lt;br&gt; tag between <em>a</em> and <em>point</em>. This would balance out the two lines of text and would read much better. With dynamic content spit out of a <abbr>CMS</abbr> this isn’t always feasible to implement, but it could be worth training writers on the client-side to watch out for weird line wraps like this.</p>
+<hr />
+<div class="article-img"><a href="https://www.typewolf.com/site-of-the-day/bond-conference-2018"><img src="https://www.typewolf.com/assets/blog/2018-02-01/01.png" srcset="https://www.typewolf.com/assets/blog/2018-02-01/01-2x.png 2x" alt="Bond" class="image-with-border" /></a></div>
+<h2>Bond</h2>
+<p>This is the first use of <a href="https://www.typewolf.com/site-of-the-day/fonts/basic-sans">Basic Sans</a> I’ve featured on Typewolf, which is surprising as it’s a <a href="https://www.typewolf.com/top-10-quirky-grotesque-fonts">trendy-looking grotesque</a> that is available to anyone with a <a href="https://www.typewolf.com/adobe-fonts">Typekit</a> plan. It’s paired here with <a href="https://www.schick-toikka.com" target="_blank" rel="nofollow">Schick Toikka’s</a> calligraphic sans-serif <a href="https://www.typewolf.com/site-of-the-day/fonts/chap">Chap</a>. Combining two sans-serifs isn’t usually recommended, but these two are different enough from each other to create sufficient contrast. The layout is built entirely around <a href="http://lisategtmeier.de" target="_blank">Lisa Tegtmeier’s</a> gorgeous illustrations, with the color of the type matching up perfectly with the bold colors from the artwork.</p>
+<hr />
+<p></p>]]></description>
+    <dc:subject><![CDATA[typography]]></dc:subject>
+    <dc:date>2018-02-01T00:00:00-05:00</dc:date>
+  </item>
+  
+  
+</channel>
+</rss>

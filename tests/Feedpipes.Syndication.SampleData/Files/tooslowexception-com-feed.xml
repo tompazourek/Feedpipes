@@ -1,0 +1,1225 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>TooSlowException</title>
+	<atom:link href="http://tooslowexception.com/feed/" rel="self" type="application/rss+xml" />
+	<link>http://tooslowexception.com</link>
+	<description>Performance, architecture, Software Craftmanship...</description>
+	<lastBuildDate>Tue, 23 Jul 2019 08:22:53 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.6.14</generator>
+
+<image>
+	<url>http://tooslowexception.com/wp-content/uploads/2016/09/cropped-logo-32x32.png</url>
+	<title>TooSlowException</title>
+	<link>http://tooslowexception.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>OutOfMemory and IT Startup card game prototypes available!</title>
+		<link>http://tooslowexception.com/outofmemory-and-it-startup-card-game-prototypes-available/</link>
+		<comments>http://tooslowexception.com/outofmemory-and-it-startup-card-game-prototypes-available/#comments</comments>
+		<pubDate>Mon, 15 Jul 2019 08:49:15 +0000</pubDate>
+		<dc:creator><![CDATA[Konrad Kokosa]]></dc:creator>
+				<category><![CDATA[Games]]></category>
+		<category><![CDATA[General]]></category>
+		<category><![CDATA[Performance]]></category>
+		<category><![CDATA[.net]]></category>
+		<category><![CDATA[card game]]></category>
+		<category><![CDATA[fun]]></category>
+		<category><![CDATA[game]]></category>
+		<category><![CDATA[it startup]]></category>
+		<category><![CDATA[performance]]></category>
+		<category><![CDATA[startup]]></category>
+
+		<guid isPermaLink="false">http://tooslowexception.com/?p=460</guid>
+		<description><![CDATA[2 Developers from Poland join forces to publish their IT-related card games: from Devs to Devs &#8211; OutOfMemory and IT Startup! Each of us already has a published book and now we want to share some knowledge with fun games! Remember all the original 151 Pokemon names? How about playing a game that lets you remember [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>2 Developers from Poland join forces to publish their IT-related card games: from Devs to Devs &#8211; OutOfMemory and IT Startup!</p>
+<p>Each of us already has a published book and now we want to share some knowledge with fun games! <strong>Remember all the original 151 Pokemon names? How about playing a game that lets you remember something useful: like what technologies are beneficial to learn to be a better Developer!</strong> One of the games is already published in Poland and sold over 3k copies (so we how already some publishing know how). Now we want to start a company and publish 2 of our IT related card games worldwide in English.</p>
+<p>Have fun while playing our print and play prototypes!</p>
+<p>We plan to publish the games as one company on Kicktarter in Q1 2020.</p>
+<p><span id="more-460"></span></p>
+<h3></h3>
+<h3>OutOfMemory! by Konrad Kokosa</h3>
+<p><a href="http://tooslowexception.com/wp-content/uploads/2019/07/header.png"><img class="aligncenter size-full wp-image-463" src="http://tooslowexception.com/wp-content/uploads/2019/07/header.png" alt="OutOfMemory summary" width="600" height="500" srcset="http://tooslowexception.com/wp-content/uploads/2019/07/header.png 600w, http://tooslowexception.com/wp-content/uploads/2019/07/header-300x250.png 300w" sizes="(max-width: 600px) 100vw, 600px" /></a></p>
+<p>In <strong>OutOfMemory!</strong> game your goal is to build an application from features, represented (mostly) by <em>Feature</em> cards. Each <em>Feature</em> card adds <em>Feature points</em>. The first player who collects 10<em> Feature points</em>, wins. <em>Feature </em>cards have costs. So, for example, many cards allocate <em>Memory</em> at the end of each turn. If you hit the specified memory limit, you experience an <em>OutOfMemory</em> exception resulting in unpleasant consequences &#8211; you loose one <em>Feature</em>! Actions and features are limited by the number of <em>CPU Ticks</em> available (so not always every action or feature is possible). You track available <em>Memory</em> and <em>Ticks</em> using the <em>Benchmark sheet</em>. To reclaim some memory, you can play <em>Garbage Collection</em> cards (like <em>Gen 0 GC</em> card).</p>
+<p>You can disrupt opponents by playing <em>Bug</em> or <em>Issues</em> cards against them. You can help yourself by playing <em>Fix</em> cards. Additionally, there are <em>Action</em> cards with special consequences and you can host a single Hero card with unique and special abilities!</p>
+<p>An example of two prototype sheets is presented below:</p>
+<p><a href="http://tooslowexception.com/wp-content/uploads/2019/07/samplesheets.jpg"><img class="aligncenter size-large wp-image-465" src="http://tooslowexception.com/wp-content/uploads/2019/07/samplesheets-1024x724.jpg" alt="Sample OutOfMemory cards" width="720" height="509" srcset="http://tooslowexception.com/wp-content/uploads/2019/07/samplesheets-1024x724.jpg 1024w, http://tooslowexception.com/wp-content/uploads/2019/07/samplesheets-300x212.jpg 300w, http://tooslowexception.com/wp-content/uploads/2019/07/samplesheets-768x543.jpg 768w" sizes="(max-width: 720px) 100vw, 720px" /></a></p>
+<h3>IT Startup by Mateusz Kupilas</h3>
+<p><a href="http://tooslowexception.com/wp-content/uploads/2019/07/en-promo3-1024x478.png"><img class="aligncenter size-large wp-image-468" src="http://tooslowexception.com/wp-content/uploads/2019/07/en-promo3-1024x478-1024x478.png" alt="IT Startup - banner" width="720" height="336" srcset="http://tooslowexception.com/wp-content/uploads/2019/07/en-promo3-1024x478.png 1024w, http://tooslowexception.com/wp-content/uploads/2019/07/en-promo3-1024x478-300x140.png 300w, http://tooslowexception.com/wp-content/uploads/2019/07/en-promo3-1024x478-768x359.png 768w" sizes="(max-width: 720px) 100vw, 720px" /></a></p>
+<p>The card game for DEVs, HR and IT enthusiasts. <img src="https://s.w.org/images/core/emoji/2/72x72/1f4be.png" alt="💾" class="wp-smiley" style="height: 1em; max-height: 1em;" /> After selling over 3000 copies in Poland IT Startup launches worldwide in 2020!</p>
+<ul>
+<li>Play Developers to finish your project.</li>
+<li>Raise your DEV’s efficiency with Knowledge Cards and watch out for burnout!</li>
+<li>Sabotage your opponents with Action Cards and steal their developers with HR!</li>
+</ul>
+<p>An example of cards from the prototype are presented below:</p>
+<p><a href="http://tooslowexception.com/wp-content/uploads/2019/07/itstartup-samplesheets.jpg"><img class="aligncenter size-large wp-image-467" src="http://tooslowexception.com/wp-content/uploads/2019/07/itstartup-samplesheets-1024x467.jpg" alt="IT Startup - examples" width="720" height="328" srcset="http://tooslowexception.com/wp-content/uploads/2019/07/itstartup-samplesheets-1024x467.jpg 1024w, http://tooslowexception.com/wp-content/uploads/2019/07/itstartup-samplesheets-300x137.jpg 300w, http://tooslowexception.com/wp-content/uploads/2019/07/itstartup-samplesheets-768x351.jpg 768w" sizes="(max-width: 720px) 100vw, 720px" /></a></p>
+<script async data-uid="b80aca0e13" src="https://f.convertkit.com/b80aca0e13/d587ccfffe.js"></script>
+<p>&nbsp;</p>
+<p>And&#8230; that&#8217;s all! <strong>Download, print and play</strong>! And do not forget to spread the word about our games!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://tooslowexception.com/outofmemory-and-it-startup-card-game-prototypes-available/feed/</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+		</item>
+		<item>
+		<title>OutOfMemory! and IT Startup card games are joining forces</title>
+		<link>http://tooslowexception.com/outofmemory-and-it-startup-card-games-are-joining-forces/</link>
+		<comments>http://tooslowexception.com/outofmemory-and-it-startup-card-games-are-joining-forces/#comments</comments>
+		<pubDate>Wed, 08 May 2019 15:58:12 +0000</pubDate>
+		<dc:creator><![CDATA[Konrad Kokosa]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://tooslowexception.com/?p=451</guid>
+		<description><![CDATA[In the previous post, I&#8217;ve announced that I&#8217;m working on a card game for .NET developers. In this post, I would like to make yet another one exciting announcement &#8211; OutOfMemory! game will be Kickstarted and&#8230; even more &#8211; it will be not alone! As around at the same time as I planned, another IT-related [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>In the previous post, <a href="http://tooslowexception.com/outofmemory-a-nerdy-card-game-for-developers/">I&#8217;ve announced that I&#8217;m working on a card game for .NET developers</a>. In this post, I would like to make yet another one exciting announcement &#8211; <strong>OutOfMemory! game will be Kickstarted</strong> and&#8230; even more &#8211; <strong>it will be not alone!</strong> As around at the same time as I planned, another IT-related card game was going to be announced, <strong>we decided to join forces and benefit from such synergy, instead of stepping on each other toes</strong>. This decision was quite obvious &#8211; both we are developers, both we are from Poland and both we are planning to offer IT-related card game <img src="https://s.w.org/images/core/emoji/2/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>So, I am pleased to announce that since today we are joining our design, marketing, and social media forces, which eventually will result in a joined Kickstarter campaign, about two game cards at once:</p>
+<ul>
+<li><strong>OutOfMemory!</strong> game for .NET developers (and I&#8217;m strongly considering other languages/ecosystems as an option) &#8211; in short, a game about building an application from features, with a strong emphasis on their performance and memory consumption</li>
+<li><strong>IT Startup</strong> game &#8211; about building IT company, by hiring developers and taking care of their burnout. This project has been already successfully crowdfunded here in Poland and now its author &#8211; Mateusz Kupilas &#8211; wants to expand into the international market.</li>
+</ul>
+<p>With our joined social media channels and Mateusz experience of selling over 2500 IT Startup games, we believe everyone will benefit &#8211; and <strong>mostly, potential players</strong>!</p>
+<p>As a project supporter, you will have an option to support one of those games or both (with a proper discount, of course!). We even considered designing both games in a way allowing to combine them into one, if one wishes. But this idea is currently postponed.</p>
+<p>When both games will show up on Kickstarter? Not in the upcoming months, for sure. Most probably, at the beginning of February 2020. Since then there will be a lot of time to polish game design and build some community around prototypes.</p>
+<p>If you want to learn more about IT Startup, please feel invited to visit its dedicated page at <a href="http://playitstartup.com/">http://playitstartup.com/</a>, or follow its social media channels on Facebook <a class="_64-f" href="https://www.facebook.com/playitstartup/">It Startup &#8211; The Card Game</a> page or on Twitter <a href="https://twitter.com/playitstartup">@playitstartup</a>. Mateusz writes also about our cooperation on his blog (in Polish) &#8211; <a href="https://www.javadevmatt.pl/lacze-sily-z-konradem/">https://www.javadevmatt.pl/lacze-sily-z-konradem/</a></p>
+<p><a href="http://tooslowexception.com/wp-content/uploads/2019/05/1.png"><img class="aligncenter size-large wp-image-454" src="http://tooslowexception.com/wp-content/uploads/2019/05/1-1024x1024.png" alt="1" width="720" height="720" srcset="http://tooslowexception.com/wp-content/uploads/2019/05/1-1024x1024.png 1024w, http://tooslowexception.com/wp-content/uploads/2019/05/1-150x150.png 150w, http://tooslowexception.com/wp-content/uploads/2019/05/1-300x300.png 300w, http://tooslowexception.com/wp-content/uploads/2019/05/1-768x768.png 768w, http://tooslowexception.com/wp-content/uploads/2019/05/1.png 1200w" sizes="(max-width: 720px) 100vw, 720px" /></a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://tooslowexception.com/outofmemory-and-it-startup-card-games-are-joining-forces/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>OutOfMemory &#8211; a nerdy card game for developers!</title>
+		<link>http://tooslowexception.com/outofmemory-a-nerdy-card-game-for-developers/</link>
+		<comments>http://tooslowexception.com/outofmemory-a-nerdy-card-game-for-developers/#comments</comments>
+		<pubDate>Wed, 24 Apr 2019 09:40:54 +0000</pubDate>
+		<dc:creator><![CDATA[Konrad Kokosa]]></dc:creator>
+				<category><![CDATA[General]]></category>
+		<category><![CDATA[Performance]]></category>
+		<category><![CDATA[cards]]></category>
+		<category><![CDATA[game]]></category>
+		<category><![CDATA[gc]]></category>
+		<category><![CDATA[outofmemory]]></category>
+		<category><![CDATA[performance]]></category>
+
+		<guid isPermaLink="false">http://tooslowexception.com/?p=419</guid>
+		<description><![CDATA[So&#8230;after quite a serious thing which was writing Pro .NET Memory Management book, I&#8217;ve decided to experiment with a little pet project for having some more fun. I have quite a few very interesting ideas going on in my head. Yet, I needed to choose one! And that&#8217;s how an idea of OutOfMemory game prototype [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>So&#8230;after quite a serious thing which was writing <a href="https://prodotnetmemory.com/">Pro .NET Memory Management book</a>, I&#8217;ve decided to experiment with a little pet project for having some more fun. I have quite a few very interesting ideas going on in my head. Yet, I needed to choose one!</p>
+<p>And that&#8217;s how an idea of <strong>OutOfMemory</strong> game prototype materialized! Ladies and gentleman, please meet<strong> the first in the world card game about .NET-based high performance and memory-aware programming</strong>. Sounds so nerdy, doesn&#8217;t it?! That&#8217;s by design and I like it! From developer to developers, with love <img src="https://s.w.org/images/core/emoji/2/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /> It contains a huge amount of stuff related to programming, hardware architecture and&#8230; GC obviously! <strong>This is going to be a physical card game</strong>, not a computer or a mobile one.</p>
+<p>The goal of the game is to build an application. You build it by playing on the table so-called <strong>Feature</strong> cards &#8211; the first player getting a given amount of <strong>Feature</strong> points wins!</p>
+<p><a href="http://tooslowexception.com/wp-content/uploads/2019/04/prototype01.png"><img class="aligncenter size-full wp-image-422" src="http://tooslowexception.com/wp-content/uploads/2019/04/prototype01.png" alt="prototype01" width="650" height="325" srcset="http://tooslowexception.com/wp-content/uploads/2019/04/prototype01.png 650w, http://tooslowexception.com/wp-content/uploads/2019/04/prototype01-300x150.png 300w" sizes="(max-width: 650px) 100vw, 650px" /></a></p>
+<p>But each <strong>Feature</strong> has its cost! Each <strong>Feature</strong> card allocates <strong>Memory</strong> and consumes CPU <strong>Ticks</strong>. At the end of each player&#8217;s turn, you add an appropriate amount of <strong>Memory</strong>. If you hit a given limit &#8211; OutOfMemory occurs! CPU <strong>Ticks</strong> play also an important role in limiting possible actions in a turn.</p>
+<p>In each turn, the player takes a single card from a deck. Or two, if she has an appropriate special card which is&#8230; <a href="https://adamsitnik.com/">Adam Sitnik</a>&#8216;s card (an example of a Hero card). Another example of .NET Hero card is Ben Adams &#8211; very powerful as it both reduces <strong>Memory</strong> and CPU <strong>Ticks</strong>, has a special <strong>ability</strong> (removes all the nasty <strong>Issues</strong> played against you by your opponents) and even adds a single <strong>Feature</strong> point (having Ben contributing to your app is a feature by itself)!<a href="http://tooslowexception.com/wp-content/uploads/2019/04/prototype02.png"><br />
+</a></p>
+<p><a href="http://tooslowexception.com/wp-content/uploads/2019/04/prototype02b.png"><img class="aligncenter size-full wp-image-441" src="http://tooslowexception.com/wp-content/uploads/2019/04/prototype02b.png" alt="prototype02b" width="360" height="232" srcset="http://tooslowexception.com/wp-content/uploads/2019/04/prototype02b.png 360w, http://tooslowexception.com/wp-content/uploads/2019/04/prototype02b-300x193.png 300w" sizes="(max-width: 360px) 100vw, 360px" /></a></p>
+<p>Guess who is on the other Hero cards?! Currently, I plan eight such cards!</p>
+<p>Card(s) taken from the deck can be used immediately or kept at hand (but there is a limit of cards in hand, reflecting CPU cache my dear!)</p>
+<p>There are various other types of cards. For example, there are Garbage Collection <strong>Action</strong> cards so if you are lucky enough (and plan to keep them in advance) you can clean your <strong>Memory</strong> periodically.</p>
+<p><a href="http://tooslowexception.com/wp-content/uploads/2019/04/prototype03.png"><img class="aligncenter size-full wp-image-426" src="http://tooslowexception.com/wp-content/uploads/2019/04/prototype03.png" alt="prototype03" width="750" height="247" srcset="http://tooslowexception.com/wp-content/uploads/2019/04/prototype03.png 750w, http://tooslowexception.com/wp-content/uploads/2019/04/prototype03-300x99.png 300w" sizes="(max-width: 750px) 100vw, 750px" /></a></p>
+<p>A lot of cards help you to keep <strong>Features</strong> while reducing their <strong>Memory</strong> and/or <strong>Ticks</strong> costs, like Span&lt;T&gt; or Lock-free programming<a href="http://tooslowexception.com/wp-content/uploads/2019/04/prototype04.png"><br />
+</a></p>
+<p><a href="http://tooslowexception.com/wp-content/uploads/2019/04/prototype04.png"><img class="aligncenter size-full wp-image-428" src="http://tooslowexception.com/wp-content/uploads/2019/04/prototype04.png" alt="prototype04" width="550" height="244" srcset="http://tooslowexception.com/wp-content/uploads/2019/04/prototype04.png 550w, http://tooslowexception.com/wp-content/uploads/2019/04/prototype04-300x133.png 300w" sizes="(max-width: 550px) 100vw, 550px" /></a></p>
+<p>There are also nasty <strong>Bug</strong> and <strong>Issue</strong> cards that you can play against your opponents, removing their <strong>Feature</strong> points or making their app more allocating and slower!</p>
+<p><a href="http://tooslowexception.com/wp-content/uploads/2019/04/prototype05b.png"><img class="aligncenter size-full wp-image-437" src="http://tooslowexception.com/wp-content/uploads/2019/04/prototype05b.png" alt="prototype05b" width="550" height="240" srcset="http://tooslowexception.com/wp-content/uploads/2019/04/prototype05b.png 550w, http://tooslowexception.com/wp-content/uploads/2019/04/prototype05b-300x131.png 300w" sizes="(max-width: 550px) 100vw, 550px" /></a></p>
+<p>Additionally, there are various <strong>Action</strong> cards that can be played to receive a short, single-turn benefit. Some influence only you, some a given opponent, and some all the players &#8211; like Black Friday cards that makes all Features double-allocating in the next turn (due to high volume traffic!).</p>
+<p><a href="http://tooslowexception.com/wp-content/uploads/2019/04/prototype06.png"><img class="aligncenter size-full wp-image-431" src="http://tooslowexception.com/wp-content/uploads/2019/04/prototype06.png" alt="prototype06" width="360" height="241" srcset="http://tooslowexception.com/wp-content/uploads/2019/04/prototype06.png 360w, http://tooslowexception.com/wp-content/uploads/2019/04/prototype06-300x201.png 300w" sizes="(max-width: 360px) 100vw, 360px" /></a></p>
+<p>All this is in a very early prototype stage, requiring possibly quite a lot of rethinking. And a lot of balancing is required to create playable and enjoyable deck. Currently, my prototype consists of 80 cards.</p>
+<p><a href="http://tooslowexception.com/wp-content/uploads/2019/04/prototype07.jpg"><img class="aligncenter size-full wp-image-432" src="http://tooslowexception.com/wp-content/uploads/2019/04/prototype07.jpg" alt="prototype07" width="650" height="366" srcset="http://tooslowexception.com/wp-content/uploads/2019/04/prototype07.jpg 650w, http://tooslowexception.com/wp-content/uploads/2019/04/prototype07-300x169.jpg 300w" sizes="(max-width: 650px) 100vw, 650px" /></a></p>
+<p>I am playing this game a lot with&#8230; myself, to balance the very first prototype. When ready, <strong>I plan to publish self-printable very rough version</strong> and I hope there will be .NET developers out there willing to try it out! With your feedback, we may create an amazing game!</p>
+<p>Nevertheless, <strong>I would LOVE to start receiving your feedback RIGHT away</strong>! Do you like this idea? Do you have ideas of Hero, Bug, Issue, Fix and Feature cards?</p>
+<hr />
+<p><em><strong>If you are want to be informed about further work and the prototype, feel invited to subscribe at a <a href="https://pages.convertkit.com/bc9ef3d50e/869eb8a3dc">dedicated page</a>!</strong></em></p>
+<hr />
+<p>Note also that this initiative is a part of a bigger <a href="https://conf.dotnetos.org/">Dotnetos initiative</a> &#8211; although currently only I am involved in the design of this game, most probably sooner or later all three Dotnetos will be somehow involved in it &#8211; I hope so!</p>
+<p><em>Note. <strong>All graphics on cards and the cards itself are prototypes and do not reflect the final quality</strong>. Moreover, all cliparts were taken from Free Vectors via <a href="https://www.vecteezy.com">vecteezy.com</a>.</em></p>
+]]></content:encoded>
+			<wfw:commentRss>http://tooslowexception.com/outofmemory-a-nerdy-card-game-for-developers/feed/</wfw:commentRss>
+		<slash:comments>19</slash:comments>
+		</item>
+		<item>
+		<title>Pro .NET Memory Management reviews summary &#8211; Q1 2019</title>
+		<link>http://tooslowexception.com/pro-net-memory-management-reviews-summary-q1-2019/</link>
+		<comments>http://tooslowexception.com/pro-net-memory-management-reviews-summary-q1-2019/#comments</comments>
+		<pubDate>Mon, 15 Apr 2019 07:16:47 +0000</pubDate>
+		<dc:creator><![CDATA[Konrad Kokosa]]></dc:creator>
+				<category><![CDATA[General]]></category>
+		<category><![CDATA[Meta]]></category>
+		<category><![CDATA[Performance]]></category>
+		<category><![CDATA[book]]></category>
+		<category><![CDATA[gc]]></category>
+		<category><![CDATA[pro .net memory management]]></category>
+
+		<guid isPermaLink="false">http://tooslowexception.com/?p=395</guid>
+		<description><![CDATA[It&#8217;s been about half a year since my book has been published and people started to read it. Some even already finished! I thought it would be nice to gather all the reviews I&#8217;ve seen so far. There are not so many still &#8211; I was able to find 13 reviews on various sites. Still, big [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>It&#8217;s been about half a year since my book has been published and people started to read it. Some even already finished! I thought it would be nice to gather <strong>all the reviews</strong> I&#8217;ve seen so far. There are not so many still &#8211; I was able to find 13 reviews on various sites. Still, <strong>big thank you for those who write them</strong>!</p>
+<p>I must admit, I am very, very pleased with those opinions! There are almost no negatives! The greatest satisfaction is given by statements that someone felt a better programmer after reading it. Or applied it in practice immediately. Some reviews are quite comprehensive, some are pretty short. To help you in skimming all them, I&#8217;ve highlighted the most interesting (and positive!) parts of them. Negative parts are also highlighted &#8211; luckily there is so few of them!</p>
+<hr />
+<p><a href="http://tooslowexception.com/wp-content/uploads/2019/04/review05.png"><img class="aligncenter size-full wp-image-402" src="http://tooslowexception.com/wp-content/uploads/2019/04/review05.png" alt="review05" width="660" height="271" srcset="http://tooslowexception.com/wp-content/uploads/2019/04/review05.png 660w, http://tooslowexception.com/wp-content/uploads/2019/04/review05-300x123.png 300w" sizes="(max-width: 660px) 100vw, 660px" /></a> <a href="http://tooslowexception.com/wp-content/uploads/2019/04/review11.png"><img class="aligncenter size-full wp-image-408" src="http://tooslowexception.com/wp-content/uploads/2019/04/review11.png" alt="review11" width="553" height="299" srcset="http://tooslowexception.com/wp-content/uploads/2019/04/review11.png 553w, http://tooslowexception.com/wp-content/uploads/2019/04/review11-300x162.png 300w" sizes="(max-width: 553px) 100vw, 553px" /></a></p>
+<hr />
+<p>&nbsp;</p>
+<p>Obviously, general statements about the book being very well-written or structured are also very pleasing! Hearing &#8220;amazing&#8221; about your work is awesome!</p>
+<p>&nbsp;</p>
+<hr />
+<p><a href="http://tooslowexception.com/wp-content/uploads/2019/04/review10.png"><img class="aligncenter size-full wp-image-407" src="http://tooslowexception.com/wp-content/uploads/2019/04/review10.png" alt="review10" width="558" height="649" srcset="http://tooslowexception.com/wp-content/uploads/2019/04/review10.png 558w, http://tooslowexception.com/wp-content/uploads/2019/04/review10-258x300.png 258w" sizes="(max-width: 558px) 100vw, 558px" /></a></p>
+<p><a href="http://tooslowexception.com/wp-content/uploads/2019/04/review04.png"><img class="aligncenter size-full wp-image-401" src="http://tooslowexception.com/wp-content/uploads/2019/04/review04.png" alt="review04" width="669" height="129" srcset="http://tooslowexception.com/wp-content/uploads/2019/04/review04.png 669w, http://tooslowexception.com/wp-content/uploads/2019/04/review04-300x58.png 300w" sizes="(max-width: 669px) 100vw, 669px" /></a></p>
+<hr />
+<p>&nbsp;</p>
+<p>One of the nicest things is to hear that this book is a<strong> &#8220;must read&#8221; for every .NET developer</strong>!</p>
+<p>&nbsp;</p>
+<hr />
+<p><a href="http://tooslowexception.com/wp-content/uploads/2019/04/review09.png"><img class="aligncenter size-full wp-image-406" src="http://tooslowexception.com/wp-content/uploads/2019/04/review09.png" alt="review09" width="657" height="701" srcset="http://tooslowexception.com/wp-content/uploads/2019/04/review09.png 657w, http://tooslowexception.com/wp-content/uploads/2019/04/review09-281x300.png 281w" sizes="(max-width: 657px) 100vw, 657px" /></a></p>
+<hr />
+<p>&nbsp;</p>
+<p>The same about hearing that it is &#8220;<strong>one of the best books about .NET</strong>&#8221; or the best book about this topic!</p>
+<p>&nbsp;</p>
+<hr />
+<p><a href="http://tooslowexception.com/wp-content/uploads/2019/04/review08.png"><img class="aligncenter size-full wp-image-405" src="http://tooslowexception.com/wp-content/uploads/2019/04/review08.png" alt="review08" width="661" height="226" srcset="http://tooslowexception.com/wp-content/uploads/2019/04/review08.png 661w, http://tooslowexception.com/wp-content/uploads/2019/04/review08-300x103.png 300w" sizes="(max-width: 661px) 100vw, 661px" /></a></p>
+<p><a href="http://tooslowexception.com/wp-content/uploads/2019/04/review07.png"><img class="aligncenter size-full wp-image-404" src="http://tooslowexception.com/wp-content/uploads/2019/04/review07.png" alt="review07" width="654" height="131" srcset="http://tooslowexception.com/wp-content/uploads/2019/04/review07.png 654w, http://tooslowexception.com/wp-content/uploads/2019/04/review07-300x60.png 300w" sizes="(max-width: 654px) 100vw, 654px" /></a></p>
+<p><a href="http://tooslowexception.com/wp-content/uploads/2019/04/review12.png"><img class="aligncenter size-full wp-image-409" src="http://tooslowexception.com/wp-content/uploads/2019/04/review12.png" alt="review12" width="551" height="124" srcset="http://tooslowexception.com/wp-content/uploads/2019/04/review12.png 551w, http://tooslowexception.com/wp-content/uploads/2019/04/review12-300x68.png 300w" sizes="(max-width: 551px) 100vw, 551px" /></a></p>
+<hr />
+<p>&nbsp;</p>
+<p>And even two of those reviews are written by friends of mine, I know them well enough to be sure they are writing sincerely. If they did not like something, they&#8217;d write it honestly!</p>
+<p>So after more than two years of writing, this is a kind of reward for me to read all this!</p>
+<p>&nbsp;</p>
+<hr />
+<p><a href="http://tooslowexception.com/wp-content/uploads/2019/04/review02.png"><img class="aligncenter size-full wp-image-399" src="http://tooslowexception.com/wp-content/uploads/2019/04/review02.png" alt="review02" width="664" height="149" srcset="http://tooslowexception.com/wp-content/uploads/2019/04/review02.png 664w, http://tooslowexception.com/wp-content/uploads/2019/04/review02-300x67.png 300w" sizes="(max-width: 664px) 100vw, 664px" /></a></p>
+<p><a href="http://tooslowexception.com/wp-content/uploads/2019/04/review03.png"><img class="aligncenter size-full wp-image-400" src="http://tooslowexception.com/wp-content/uploads/2019/04/review03.png" alt="review03" width="653" height="148" srcset="http://tooslowexception.com/wp-content/uploads/2019/04/review03.png 653w, http://tooslowexception.com/wp-content/uploads/2019/04/review03-300x68.png 300w" sizes="(max-width: 653px) 100vw, 653px" /></a></p>
+<hr />
+<p>&nbsp;</p>
+<p>The very first review was kind of problematic because of Amazon&#8217;s formatting issue. Not my fault, unfortunately. But luckily reviewer revised his review after correspondence with the Amazon (AFAIK).</p>
+<p>&nbsp;</p>
+<hr />
+<p><a href="http://tooslowexception.com/wp-content/uploads/2019/04/review06.png"><img class="aligncenter size-full wp-image-403" src="http://tooslowexception.com/wp-content/uploads/2019/04/review06.png" alt="review06" width="655" height="247" srcset="http://tooslowexception.com/wp-content/uploads/2019/04/review06.png 655w, http://tooslowexception.com/wp-content/uploads/2019/04/review06-300x113.png 300w" sizes="(max-width: 655px) 100vw, 655px" /></a></p>
+<hr />
+<p>&nbsp;</p>
+<p>So in summary &#8211; I am very pleased to hear that people like the approach taken by me in designing this book. I wanted it to be both very theoretical (a lot of deep-inside stuff and its theoretical basis) and very practical (presented Scenarios and Rules). And it seems it works!</p>
+<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>
+<p><a href="http://tooslowexception.com/wp-content/uploads/2019/04/review13-1.png"><img class="aligncenter size-full wp-image-413" src="http://tooslowexception.com/wp-content/uploads/2019/04/review13-1.png" alt="review13" width="570" height="590" srcset="http://tooslowexception.com/wp-content/uploads/2019/04/review13-1.png 570w, http://tooslowexception.com/wp-content/uploads/2019/04/review13-1-290x300.png 290w" sizes="(max-width: 570px) 100vw, 570px" /></a></p>
+<p><a href="http://tooslowexception.com/wp-content/uploads/2019/04/review01.png"><img class="aligncenter size-full wp-image-398" src="http://tooslowexception.com/wp-content/uploads/2019/04/review01.png" alt="review01" width="663" height="420" srcset="http://tooslowexception.com/wp-content/uploads/2019/04/review01.png 663w, http://tooslowexception.com/wp-content/uploads/2019/04/review01-300x190.png 300w" sizes="(max-width: 663px) 100vw, 663px" /></a></p>
+<hr />
+<p>&nbsp;</p>
+<p>Reviews presented here were taken from the following pages:</p>
+<ul>
+<li><a href="https://www.amazon.de/Pro-NET-Memory-Management-Performance/product-reviews/148424026X/">Amazon DE</a></li>
+<li><a href="https://www.amazon.com/product-reviews/148424026X/ref=acr_dpproductdetail_text?ie=UTF8&amp;showViewpoints=1">Amazon US</a></li>
+<li><a href="https://www.amazon.co.uk/product-reviews/148424026X/ref=acr_dpproductdetail_text?ie=UTF8&amp;showViewpoints=1">Amazon UK</a></li>
+<li><a href="https://www.goodreads.com/book/show/41738065-pro-net-memory-management#other_reviews">Goodreads</a></li>
+</ul>
+<p><strong>If you see another review elsewhere, or you&#8217;ve written one, please leave a comment!</strong></p>
+<p><strong>And if you&#8217;ve read my book already, please write a review somewhere!</strong></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://tooslowexception.com/pro-net-memory-management-reviews-summary-q1-2019/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Heap vs stack, value type vs reference type</title>
+		<link>http://tooslowexception.com/heap-vs-stack-value-type-vs-reference-type/</link>
+		<comments>http://tooslowexception.com/heap-vs-stack-value-type-vs-reference-type/#comments</comments>
+		<pubDate>Thu, 21 Feb 2019 10:50:53 +0000</pubDate>
+		<dc:creator><![CDATA[Konrad Kokosa]]></dc:creator>
+				<category><![CDATA[Platform]]></category>
+
+		<guid isPermaLink="false">http://tooslowexception.com/?p=384</guid>
+		<description><![CDATA[Almost every article about .NET memory tells the same story &#8211; &#8220;there are value types allocated on the stack and reference types allocated on the heap&#8221;. And, &#8220;classes are reference types while structs are value types&#8221;. They are so many popular job interview questions for .NET developers touching this topic. But this is by far [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>Almost every article about .NET memory tells the same story &#8211;<em> &#8220;there are value types allocated on the stack and reference types allocated on the heap&#8221;. </em>And,<em> &#8220;classes are reference types while structs are value types&#8221;</em>. They are so many popular job interview questions for .NET developers touching this topic. But this is by far not the most appropriate way of seeing a difference between value types and reference types. Why it is not quite correct? Because it <strong>describes the concept from the implementation point of view</strong>, not from the point that explains the true difference behind those two categories of types. It was already explained in popular articles <a href="https://blogs.msdn.microsoft.com/ericlippert/2009/04/27/the-stack-is-an-implementation-detail-part-one/">The Stack Is An Implementation Detail, Part One</a> and <a href="https://blogs.msdn.microsoft.com/ericlippert/2009/05/04/the-stack-is-an-implementation-detail-part-two/">The Stack Is An Implementation Detail, Part Two</a>.</p>
+<p>We will delve into implementation details later, but it is worth it to note that they are still only implementation details. And as all implementations behind some kind of abstractions, they are subject to change. <strong>What really matters is the abstraction they provide to the developer</strong>. So instead of taking the same implementation-driven approach, I would like you to present a rationale behind it. And only then we can reach the point when understanding the current implementation will be possible (and will be sensible also).</p>
+<p>Let&#8217;s start from the beginning, which is an ECMA 335 standard. Unfortunately, the definitions we need are a little blurry, and you can get lost in different meanings of words like type, value, value type, value of type, and so on, so forth. In general, it is worth remembering that this standard defines that:</p>
+<blockquote><p>&#8220;any value described by a type is called an instance of that type&#8221;</p></blockquote>
+<p>In other words, we can say about value (or instance, interchangeably) of value type or reference type. Going further, those are defined as:</p>
+<blockquote><p>&#8220;type, value: A type such that an instance of it directly contains all its data. (&#8230;) The values described by a value type are self-contained.&#8221;</p>
+<p>&#8220;type, reference: A type such that an instance of it contains a reference to its data. (&#8230;) A value described by a reference type denotes the location of another value.&#8221;</p></blockquote>
+<p>We can spot there the true difference in abstraction that those two kinds of types provide:<strong> instances (values) of value types contain all its data in place</strong> (they are, in fact, values itself ), while <strong>reference types values only point to data located &#8220;somewhere&#8221;</strong> (they reference something). But this data-location abstraction implies a very significant consequence that relates to some fundamental topics:</p>
+<p>Lifetime:</p>
+<ul>
+<li>Values of value types contain all its data &#8211; we can see it as a single, self-contained being. The data lives as long as the instance of the value type itself.</li>
+<li>Values of reference types denote the location of another value whose lifetime is not defined by the definition itself.</li>
+</ul>
+<p>Sharing:</p>
+<ul>
+<li>Value type&#8217;s value cannot be shared by default &#8211; if we would like to use it in another place (for example, although we are passing a bit of implementation details here, method argument, or another local variable), it will be copied byte by byte by default. We say then about passing-by-value semantics. And as a copy of the value is passed to another place, the lifetime of the original value does not change</li>
+<li>Reference type&#8217;s value can be shared by default &#8211; if we would like to use it in another place, passing-by-reference semantics will be used by default. Hence, after that, one more reference type instance denotes the same value location. We have to track somehow all references to discover the value&#8217;s lifetime.</li>
+</ul>
+<p>Identity:</p>
+<ul>
+<li>Value types do not have an identity. Value types are identical if and only if the bit sequences of their data are the same.</li>
+<li>Reference types are identical if and only if their locations are the same.</li>
+</ul>
+<p>Again, there is no single mention about heap or stack in this context at all. Keeping in mind those differences and definitions should clarify things a little, although you may need a while to get used to them. Next time when asked during job interview about where value types are stored, you may start from such an alternative, extended elaboration.</p>
+<p style="padding-left: 30px;"><em>Note. There is yet another type of category we should know &#8211; immutable types. Immutable type is a type whose value cannot be changed after creation. No more and no less. They do say nothing about their value or reference semantics. In other words, both value type and reference type can be immutable. We can enforce immutability in object-oriented programming by simply not exposing any methods and properties that would lead to changing an object’s value.</em></p>
+<h4>Locations</h4>
+<p>When considering a .NET stack machine, we should mention an important concept of <strong><em>locations</em></strong>. When considering storage of various values required for program execution, a few logical locations exist:</p>
+<ul>
+<li>local variables in a method</li>
+<li>arguments of a method</li>
+<li>instance field of another value</li>
+<li>static field (inside class, interface or module)</li>
+<li>local memory pool</li>
+<li>temporarily on the evaluation stack</li>
+</ul>
+<h4>Type Storage</h4>
+<p>One could insist on asking where is the place here that implies using stack or heap for those two, basic kinds of types? The answer is &#8211; there is none! This is an implementation<br />
+detail taken during design of Microsoft .NET Framework CLI standard. Because it was for years overwhelmingly the most popular one, the <em>&#8220;value types allocated on the stack</em><br />
+<em>and reference types allocated on the heap&#8221;</em> story have been repeated again and again like a mantra without deep reflection. And since it is a very good design decision, it was<br />
+repeated in different CLI implementations we have discussed earlier. Keep in mind, this sentence is not entirely true in the first place. As we will see in the following sections,<br />
+there are exceptions to that rule. Different locations can be treated differently as to how to store the value. And this is exactly the case with CLI as we will soon see.</p>
+<p>Nevertheless, we only can think about the storage of the value types and reference types when designing CLI implementation for a specific platform. We simply just need<br />
+to know whether we have stack or heap available at all on that particular platform! As the vast majority of today’s computers have both, the decision is simple. But then probably<br />
+we have also CPU registers and no one is mentioning them in the <em>&#8220;value types allocated on the&#8230;&#8221;</em> mantra although it is the same level of implementation detail like using<br />
+stack or heap.</p>
+<p>The truth is that the storage implementation of one or another type may be located mostly in the JIT compiler design. This is a component that is designed for a specific<br />
+platform on which it is running so we know what resources will be available there. x86/x64-based JIT has obviously both stack, heap, and registers at its disposal. However, such<br />
+a decision on where to save a given type value can be left not only at the JIT compiler level. We can allow the compiler to influence this decision based on the analysis that<br />
+it performs. And we can even expose somehow such a decision to the developer at the language level (exactly like in C++ where you can allocate objects both on the stack or<br />
+on the heap).</p>
+<p>There is an even simpler approach taken by Java, where there are no user-defined value types at all, hence no problem exists where to store them! A few built-in primitives<br />
+(integers and so forth) are said to be value types there, but everything else is being allocated on the heap (not taking into consideration escape analysis described later). <strong>In</strong><br />
+<strong>case of .NET design, we could also decide to allocate all types instances (including value types) on the heap, and it would be perfectly fine</strong> as long as the value type and reference type semantic would not be violated. When talking about memory location, the ECMA-335 standard gives complete freedom:</p>
+<blockquote><p>&#8220;The four areas of the method state &#8211; incoming arguments array, local variables array, local memory pool and evaluation stack &#8211; are specified as if logically distinct areas. A conforming implementation of the CLI can map these areas into one contiguous array of memory, held as a conventional stack frame on the underlying target architecture, or use any other equivalent representation technique.&#8221;</p></blockquote>
+<p>Why these and no other implementation decisions were taken will be more practical to explain in the following sections, discussing separately the value and the reference types.</p>
+<p style="padding-left: 30px;"><em>Note. There is only a single important remark left. When we know now that talking about stack and heap is an implementation detail, it can still be reasonable to do that. Unfortunately, there is a place where &#8220;as it should be&#8221; odds with the &#8220;as is practical&#8221;. And this place is performance and memory usage optimization. If we are writing our code in C# targeting x86/x64 or ARM computers, we know perfectly that heap, stack, and registers will be used by those types in certain scenarios. So as The Law of Leaky Abstractions says, value or reference type abstraction can leak here. And if we want, we can take advantage of it for performance reasons.</em></p>
+<h4>Value Types</h4>
+<p>As previously said, value type &#8220;directly contains all its data&#8221;. ECMA 335 defines value as:</p>
+<blockquote><p>&#8221; A simple bit pattern for something like an integer or a float. Each value has a type that describes both the storage that it occupies and the meanings of the bits in its representation, and also the operations that can be performed on that representation. Values are intended for representing the simple types and non-objects in programming languages.&#8221;</p></blockquote>
+<p>So what about <em>&#8220;value types are stored on the stack&#8221;</em> part of the story? Regarding implementation, there is nothing stopping from storing all value types on the heap, irrespective of the location used. Except for the fact that there is a better solution &#8211; using the stack or CPU register. The stack is quite a lightweight mechanism. We can &#8220;allocate&#8221; and &#8220;deallocate&#8221; objects there by simply creating a properly sized activation frame and dismissing it when no longer needed. As the stack seems to be so fast, we should use it all the time, right?</p>
+<p>The problem is it is not always possible, mainly because of the lifetime of the stack data versus the desired lifetime of the value itself. It is the life span and value sharing that determines which mechanism we can use to store value type data.</p>
+<p>Let&#8217;s now consider each possible location of value type and what storage we can use there:</p>
+<ul>
+<li>local variables in a method &#8211; they have a very strict and well-defined lifetime, which is a lifetime of a method call (and all its subcalls). We could allocate all value-type local variables on the heap and then just deallocate them when the method ends. But we could also use stack here because we know there is only a single instance of the value (there is no sharing of it). So there is no risk that someone will try to use this value after the method ends or concurrently from another thread. It is then just perfectly fine to use a stack inside an activation frame as storage for local value types (or use a CPU register(s)).</li>
+<li>arguments of a method &#8211; they can be treated exactly as local variables here so again, we can use the stack instead of the heap.</li>
+<li>instance field of a reference type &#8211; their lifetime depends on the lifetime of the containing value. For sure it may live longer than the current or any other activation frame so a stack is not the right place for it. Hence, value types that are fields of reference types (like classes) will be allocated on the heap along with them (which we know as one of the <em>boxing</em> reasons).</li>
+<li>instance field of another value-type &#8211; here the situation is slightly complicated. If the containing value is on the stack, we would also use it. If it is on the heap already, we will use the heap for the field’s value also.</li>
+<li>static field (inside class, interface or module) &#8211; here the situation is similar to using an instance field of reference type. The static field has a lifetime of the type in which it is defined. This means we could not use the stack as storage, as an activation frame may live much shorter.</li>
+<li>local memory pool &#8211; its lifetime is strictly related to the method’s lifetime (ECMA says <em>&#8220;the local memory pool is reclaimed on method exit”</em>). This means we can without a problem use stack and that&#8217;s why local memory pool is implemented as a growth of the activation frame.</li>
+<li>temporarily on the evaluation stack &#8211; value on the evaluation stack has a lifetime strictly controlled by JIT. It perfectly knows why this value is needed and when it will be consumed. Hence, it has complete freedom whether it would like to use the heap, stack, or register. From performance reasons, it will obviously try to use CPU registers and the stack.</li>
+</ul>
+<p>So that is how we come to the first part &#8211; <em>&#8220;value types are stored on the stack&#8221;</em>. As we see, the more true is the statement &#8211; <em>&#8220;value types are stored on the stack when the value is a local</em><br />
+<em>variable or lives inside the local memory pool. But are stored on the heap when they are a part of other objects on the heap or are a static field. And they always can be stored inside CPU register as a part of evaluation stack processing&#8221;</em>. Slightly more complicated, isn&#8217;t?</p>
+<h4>Reference Types</h4>
+<p>When talking about reference types, it is convenient to consider them as consisting of two entities::</p>
+<ul>
+<li>reference &#8211; a value of the reference type is a reference to its data. This reference means, in particular, an address of data stored elsewhere. A reference itself can be seen as a value type because internally it is just a 32- or 64-bit wide address. References have copy-by-value semantics so when passed between locations, they are just copied.</li>
+<li>reference type&#8217;s data &#8211; this is a memory region denoted by the reference. Standard does not define where this data should be stored. It is just stored elsewhere.</li>
+</ul>
+<p><a href="http://tooslowexception.com/wp-content/uploads/2019/02/gcreference.png"><img class="aligncenter size-full wp-image-386" src="http://tooslowexception.com/wp-content/uploads/2019/02/gcreference.png" alt=".NET reference" width="510" height="178" srcset="http://tooslowexception.com/wp-content/uploads/2019/02/gcreference.png 510w, http://tooslowexception.com/wp-content/uploads/2019/02/gcreference-300x105.png 300w" sizes="(max-width: 510px) 100vw, 510px" /></a></p>
+<p>Considering possible storage for each location of the reference type is simpler than for value types. As mentioned, because references can share data, the lifetime of them is<br />
+not well-defined. In general cases, it is impossible to store reference types on instances the stack because their lifetime is probably much longer than an activation frame life (method call duration). Hence it is quite an obvious implementation decision where to store them and that is how we come to &#8220;reference types are stored on the heap&#8221; part of the story.</p>
+<p>Regarding the heap allocation possibilities for reference types &#8211; there is one exception. If we could know that a reference type instance has the same characteristic as a local value-type variable, we could allocate it on the stack, as usual for value types. This particularly means we should know whether a reference does not escape from its local scope (does not escape the stack or thread) and start to be shared among other references. A way of checking this is called <strong><em>Escape Analysis</em></strong>. It has been successfully implemented in Java where it&#8217;s especially beneficial because of their approach of allocating almost everything on the heap by default. At the time of this writing, .NET environment does not support Escape Analysis, <strong><span style="text-decoration: underline;">yet</span></strong>. Well, at least not officialy. And this is the topic we will look at in the next blog post!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://tooslowexception.com/heap-vs-stack-value-type-vs-reference-type/feed/</wfw:commentRss>
+		<slash:comments>6</slash:comments>
+		</item>
+		<item>
+		<title>Readonly ref variables, in parameters and readonly structs</title>
+		<link>http://tooslowexception.com/readonly-ref-variables-in-parameters-and-readonly-structs/</link>
+		<comments>http://tooslowexception.com/readonly-ref-variables-in-parameters-and-readonly-structs/#respond</comments>
+		<pubDate>Tue, 12 Feb 2019 12:02:08 +0000</pubDate>
+		<dc:creator><![CDATA[Konrad Kokosa]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://tooslowexception.com/?p=376</guid>
+		<description><![CDATA[During our trip around managed pointers and structs, we get the last topic to discuss &#8211; readonly semantics. Thus, we touch today topics like readonly structs and readonly paremeters. Readonly ref variables Ref types are quite powerful, because we may change its target. Thus, readonly refs were introduced in C# 7.2 that controls the ability [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>During our trip around <a href="http://tooslowexception.com/managed-pointers-in-net/">managed pointers</a> and <a href="http://tooslowexception.com/ref-struct-byref-like-type-and-byreference-byref-like-instance-field/">structs</a>, we get the last topic to discuss &#8211; <strong>readonly semantics</strong>. Thus, we touch today topics like readonly structs and readonly paremeters.</p>
+<h4>Readonly ref variables</h4>
+<p>Ref types are quite powerful, because we may change its target. Thus, readonly refs were introduced in C# 7.2 that controls the ability to mutate the storage of a ref variable.<br />
+Please note a subtle difference in such context between a managed pointer to a value type versus a reference type:</p>
+<ul>
+<li>for value type target &#8211; it guarantees that the value will not be modified. As the value here is the whole object (memory region), in other words, it guarantees that all fields will not be changed.</li>
+<li>for reference type target &#8211; it guarantees that the reference value will not be changed. As the value here is the reference itself (pointing to another object), it guarantees that we will not change it to point to another object. But we can still modify the properties of the referenced object.</li>
+</ul>
+<p>Let&#8217;s use an example returning a readonly ref:</p><pre class="crayon-plain-tag">public class Book // or struct
+{
+	public string Title;
+	public string Author;
+}
+
+public class BookCollection
+{
+	private Book[] books =
+	{
+	  new Book { Title = "Call of the Wild, The", Author = "Jack London" },
+	  new Book { Title = "Tale of Two Cities, A", Author = "Charles Dickens" }
+   };
+	private Book nobook = default;
+	public ref readonly Book GetBookByTitle(string title)
+	{
+		for (int ctr = 0; ctr &lt; books.Length; ctr++)
+		{
+			if (title == books[ctr].Title)
+				return ref books[ctr];
+		}
+		return ref nobook;
+	}
+}
+
+public class Program
+{
+	static void Main(string[] args)
+	{
+		var collection = new BookCollection();
+		ref readonly var book = ref collection.GetBookByTitle("Tale of Two Cities, A");
+		//book = new Book(); // Line 1
+		book.Author = "Konrad Kokosa"; // Line 2
+		Console.WriteLine(book.Author);
+	}
+}</pre><p><em>BookCollection</em> may illustrate the difference between readonly ref in case of both value type and reference type.<span id="more-376"></span></p>
+<p>If <em>Book</em> is a class, it is guaranteed that we will not change the reference value, like trying to change it to a new object in commented Line 1 above. However, it is perfectly fine to modify fields of the target referenced instance so Line 2 would compile without a problem.</p>
+<p>However, if <em>Book</em> is a struct, it is guaranteed that we will not be able to change its value, like trying to change the author in Line 2 (and for the same reason, it is not possible to assign to it a new value in Line 1).</p>
+<p>These seemingly difficult nuances are easy to remember if we keep in mind what is a protected value &#8211; the whole object (for value type) or reference (for reference type).</p>
+<h4>Defensive copies</h4>
+<p>There is one important aspect to be mentioned in this context. Let’s assume that our Book is a struct and has a method that modifies its field:</p><pre class="crayon-plain-tag">public struct Book
+{
+   ...
+   public void ModifyAuthor(string author)
+   {
+      this.Author = author;
+   }
+}</pre><p>What happens if we call it on a returned readonly ref? Like:</p><pre class="crayon-plain-tag">ref readonly var book = ref collection.GetBookByTitle("Tale of Two Cities, A");
+book.ModifyAuthor("Konrad Kokosa");
+Console.WriteLine(book.Author);</pre><p>Even in such case ,it is guaranteed that the original value will not be changed, so the above sample would still print &#8220;Charles Dickens&#8221; to the console. It is implemented by so-called <strong>defensive copy approach</strong> &#8211; before executing <em>ModifyAuthor</em> method, a copy of the returned value type (a <em>Book</em> struct in our case) is being made and its method is called on it. It is perfectly visible in the corresponding IL code:</p><pre class="crayon-plain-tag">.method public hidebysig static 
+	void Main () cil managed 
+{
+	.locals init (
+		[0] valuetype Book
+	)
+	IL_0000: newobj instance void BookCollection::.ctor()
+	IL_0005: ldstr "Tale of Two Cities, A"
+	IL_000a: callvirt instance valuetype Book&amp; BookCollection::GetBookByTitle(string)
+	IL_000f: ldobj Book
+	IL_0014: stloc.0
+	IL_0015: ldloca.s 0
+	IL_0017: ldstr "Konrad Kokosa"
+	IL_001c: call instance void Book::ModifyAuthor(string)
+	IL_0021: ret
+}</pre><p>Line IL_00f contains <em>ldobj</em> instruction &#8211; it is being described as doing &#8220;<em>Copy the value stored at address src to the stack</em>&#8220;. Such copying does not occur if we use not readonly ref variable:</p><pre class="crayon-plain-tag">.method public hidebysig static 
+	void Main () cil managed 
+{
+	IL_0000: newobj instance void BookCollection::.ctor()
+	IL_0005: ldstr "Tale of Two Cities, A"
+	IL_000a: callvirt instance valuetype Book&amp; BookCollection::GetBookByTitle(string)
+	IL_000f: ldstr "Konrad Kokosa"
+	IL_0014: call instance void Book::ModifyAuthor(string)
+	IL_0019: ret
+}</pre><p>Compiler does not analyze whether a method called on readonly indeed modifies state, as it really difficult (assuming a lot of possible conditions inside a method, maybe even depending on external data). Thus, any method called on such struct will be treated that way. So in fact, <em>ModifyAuthor</em> method is still executed but only on a temporary instance that becomes unused soon. <strong>Any changes applied to such a defensive copy obviously are not performed on the original value</strong>.</p>
+<p>Such defensive copy may be both surprising and costly &#8211; one may expect the field to be modified if <em>ModifyAuthor</em> method executed successfully. Creating a defensive copy of<br />
+a struct also is an obvious performance overhead (it required memory copying).</p>
+<p style="padding-left: 30px;"><em>Note. Please note in case of a Book being a class, the expected behavior remains &#8211; ModifyAuthor would modify the object state even if readonly reference was returned to it. Remember, readonly reference disables reference mutation, not the reference target values.</em></p>
+<p>Please note that readonly ref returns do not have to be used only in the context of collections. There is a good example of using readonly refs in MSDN to return static value type representing some global, commonly used value:</p><pre class="crayon-plain-tag">struct Point3D
+{
+   private static Point3D origin = new Point3D();
+   public static ref readonly Point3D Origin =&gt; ref origin;
+   ...
+}</pre><p>Without readonly ref returned the <em>Origin</em> value would be exposed to modification, which is obviously unacceptable because <em>Origin</em> should be treated as a constant. Before<br />
+introducing ref returns, such value could be exposed as a regular value type, but it could introduce copying of such structure many times.</p>
+<p>A form of readonly refs is also available in the form of <strong>in parameters</strong>. This is a small yet very important addition to passing by reference feature added in C# 7.2. While<br />
+passing by reference using ref parameter, the argument may be changed inside such method &#8211; exposing the same problems as ref returning. Thus, the in modifier on<br />
+parameters was added, to specify that an argument is passed by reference but should not be modified by the called method:</p><pre class="crayon-plain-tag">public class BookCollection
+{
+   ...
+   public void CheckBook(in Book book)
+   {
+      book.Title = "XXX"; // Compilation error: Cannot assign to a member of variable 'in Book' because it is a readonly variable.
+   }
+}</pre><p>Please note the same rules apply here as in readonly refs explained before: only a value of the parameter is guaranteed to be not modified. So, in case of in parameter<br />
+being a reference type, only the reference value is not modifiable &#8211; the target reference instance may be changed.</p>
+<p>Thus, the same defensive copy approach is used when a method is called on in value type parameter:</p><pre class="crayon-plain-tag">public class BookCollection
+{
+   ...
+   public void CheckBook(in Book book)
+   {
+      book.ModifyAuthor(); // Called on book defensive copy, original book Author will not be changed.
+   }
+}</pre><p>You may also avoid defensive copies by making such struct readonly (if it is applicable) &#8211; they are explained just below. Because readonly structs disable any possible modifications on its fields, the compiler may safely omit creating defensive copy and call methods on passed value type arguments directly.</p>
+<p>Defensive copies are created for all readonly structs, not necessarily represented by ref variables. For example, what is the output of the following example (taken from the Github issue listed below):</p><pre class="crayon-plain-tag">class Program
+{
+	private static readonly TestStruct _Account = new TestStruct();
+
+	static void Main(string[] args)
+	{
+		Console.WriteLine(_Account.MyMoney);
+		_Account.UpdateValue(100);
+		Console.WriteLine(_Account.MyMoney);
+	}
+
+	public struct TestStruct
+	{
+		private int _money;
+		public int MyMoney =&gt; _money;
+
+		public void UpdateValue(int moneyAmount)
+		{
+			_money += moneyAmount;
+		}
+	}
+}</pre><p>It will be <em>0</em> and <em>0</em> because <em>UpdateValue</em> method operates on the defensive copy of the readonly struct. Such behavior may sometimes lead to unexpected behavior, like mentioned in <a href="https://github.com/dotnet/roslyn/issues/17310">Readonly Structs vs Classes have dangerous inconsistency &#8211; failed spin lock</a> Github issue.</p>
+<p>The problem is that some types are structs and we may be not aware of that. Common example is <em>SpinLock</em>. Thus, when used as a readonly field (or ref variable) it will operate on a defensive copy:</p><pre class="crayon-plain-tag">class Program
+{
+	private static readonly SpinLock sl = new SpinLock();
+	static void Main(string[] args)
+	{
+		// good luck with sl.Enter and sl.Exit
+	}
+}</pre><p>In the above example we operate on copies, so each <em>Enter</em> and <em>Exit</em> is, in fact, no-op, meaningless operation. What&#8217;s worse, such code does not generate any compiler warnings. As it turns out, it is really demanding to introduce such change:</p>
+<blockquote class="twitter-tweet">
+<p dir="ltr" lang="en">I recently asked to the Roslyn team if it could be possible to add a warning (that we&#8217;d turn into error) when a defensive copy happens on an in param/readonly field and it&#8217;s not possible because it would be considered as a breaking change. Yes, breaking changes go that deep! <img src="https://s.w.org/images/core/emoji/2/72x72/1f613.png" alt="😓" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>— Alexandre Mutel (@xoofx) <a href="https://twitter.com/xoofx/status/1093023187393236992?ref_src=twsrc%5Etfw">February 6, 2019</a></p></blockquote>
+<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p>&nbsp;</p>
+<h4>Readonly structs</h4>
+<p>We have already seen readonly ref and in parameters that disable modification of the argument in specified context. It may be very helpful in controlling that ref variable<br />
+used for value types will not allow the programmer to modify its value. One may, however, go even further and<strong> create immutable struct &#8211; the one that cannot be</strong><br />
+<strong>modified once created</strong>. I hope you already see possible C# compiler and JIT compiler optimizations that comes from that fact &#8211; like the possibility to safely get rid of defensive copies while methods are called.</p>
+<p>We define a readonly struct by adding a readonly modifier to a struct declaration:</p><pre class="crayon-plain-tag">public readonly struct ReadonlyBook
+{
+   public readonly string Title;
+   public readonly string Author;
+   
+   public ReadonlyBook(string title, string author)
+   {
+      this.Title = title;
+      this.Author = author;
+   }
+   
+   public void ModifyAuthor()
+   {
+      //this.Author = "XXX"; // Compilation error: A readonly field cannot be assigned to (except in a constructor or a variable initializer)
+      Console.WriteLine(this.Author);
+   }
+}</pre><p></p>
+<p style="padding-left: 30px;"><em>Note. C# compiler enforces that every field of such struct is also defined as readonly.</em></p>
+<p>If your type is (or can be) immutable from business and/or logic requirements point of view, it is always worth to consider using a readonly struct passed by reference (with<br />
+the help of in keyword) in high-performance pieces of code. As MSDN says:</p>
+<blockquote><p>&#8220;You can use the in modifier at every location where a readonly struct is an argument. In addition, you can return a readonly struct as a ref return when you are returning an object whose lifetime extends beyond the scope of the method returning the object.&#8221;</p></blockquote>
+<p>Thus, using a readonly struct is a very convenient way of manipulating immutable types both in safe and performance-aware manner.</p>
+<p>For example, let’s modify <em>BookCollection</em> class to contain internally an array of readonly structs instead of regular structs:</p><pre class="crayon-plain-tag">public class ReadOnlyBookCollection
+{
+   private ReadonlyBook[] books = {
+      new ReadonlyBook("Call of the Wild, The", "Jack London" ),
+      new ReadonlyBook("Tale of Two Cities, A", "Charles Dickens")
+   };
+   private ReadonlyBook nobook = default;
+   
+   public ref readonly ReadonlyBook GetBookByTitle(string title)
+   {
+      for (int ctr = 0; ctr &lt; books.Length; ctr++)
+      {
+         if (title == books[ctr].Title)
+            return ref books[ctr];
+      }
+      return ref nobook;
+   }
+
+   public void CheckBook(in ReadonlyBook book)
+   {
+      //book.Title = "XXX"; // Would generate compiler error.
+      book.ModifyAuthor(); // It is guaranteed that DoSomething does not modify book's fields. No defensive copy created.
+   }
+}
+
+public static void Main(string[] args)
+{
+   var coll = new ReadOnlyBookCollection();
+   ref readonly var book = ref coll.GetBookByTitle("Call of the Wild, The");
+   book.Author = "XXX"; // Compiler error: A readonly field cannot be assigned to (except in a constructor or a variable initializer)
+}</pre><p>It is fine that our readonly structs will be heap allocated inside such an array, because <em>ReadOnlyBookCollection</em> instances are heap-allocated reference types. However, all<br />
+immutability guarantees remains. Thus, the compiler will omit defensive copy creation in the <em>CheckBook</em> method.:</p><pre class="crayon-plain-tag">.method public hidebysig 
+    instance void CheckBook (
+        [in] valuetype ReadonlyBook&amp; book
+    ) cil managed 
+{
+    IL_0000: ldarg.1
+    IL_0001: call instance void ReadonlyBook::ModifyAuthor()
+    IL_0006: ret
+}</pre><p>While if <em>ReadonlyBook</em> was <span style="text-decoration: underline;">not marked</span> as readonly, such copy would be created:</p><pre class="crayon-plain-tag">.method public hidebysig 
+    instance void CheckBook (
+       [in] valuetype ReadonlyBook&amp; book
+    ) cil managed 
+{
+    .locals init (
+        [0] valuetype ReadonlyBook
+    )
+    IL_0000: ldarg.1
+    IL_0001: ldobj ReadonlyBook
+    IL_0006: stloc.0
+    IL_0007: ldloca.s 0
+    IL_0009: call instance void ReadonlyBook::ModifyAuthor()
+    IL_000e: ret
+}</pre><p></p>
+<h4>Summary</h4>
+<p>This post was solely dedicated to various readonly usages in C#. The three main takeaways for you are:</p>
+<ul>
+<li>structs are a powerful way of optimizing your code &#8211; due to avoiding heap allocations and possible JIT optimizations</li>
+<li>ref variables are a convenient way of operating on value types &#8211; they may prevent copying them, if used wisely</li>
+<li>readonly is a powerful way to semantically guard type instances from modification &#8211; but we should be aware of defensive copies that may hurt us both from performance and correctness perspective</li>
+</ul>
+<p>Having said that, I wish you the best possible usage of structs and managed pointers!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://tooslowexception.com/readonly-ref-variables-in-parameters-and-readonly-structs/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Disposable ref structs in C# 8.0</title>
+		<link>http://tooslowexception.com/disposable-ref-structs-in-c-8-0/</link>
+		<comments>http://tooslowexception.com/disposable-ref-structs-in-c-8-0/#comments</comments>
+		<pubDate>Thu, 31 Jan 2019 09:54:44 +0000</pubDate>
+		<dc:creator><![CDATA[Konrad Kokosa]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://tooslowexception.com/?p=369</guid>
+		<description><![CDATA[Among many things that are coming with the upcoming C# 8.0, one perfectly fits the topic of ref structs I&#8217;ve raised in my previous post &#8211; disposable ref structs. As one of the blog posts announcing C# 8.0 changes (in Visual Studio 2019 Preview 2) mentions: &#8220;Ref structs were introduced in C# 7.2, and this [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>Among many things that are coming with the upcoming C# 8.0, one perfectly fits the <a href="http://tooslowexception.com/ref-struct-byref-like-type-and-byreference-byref-like-instance-field/">topic of ref structs I&#8217;ve raised in my previous post</a> &#8211; <em>disposable ref structs</em>.</p>
+<p>As <a href="https://blogs.msdn.microsoft.com/dotnet/2019/01/24/do-more-with-patterns-in-c-8-0/">one of the blog posts announcing C# 8.0 changes</a> (in Visual Studio 2019 Preview 2) mentions:</p>
+<blockquote><p>&#8220;Ref structs were introduced in C# 7.2, and this is not the place to reiterate their usefulness, but in return they come with some severe limitations, such as not being able to implement interfaces. Ref structs can now be disposable without implementing the IDisposable interface, simply by having a Dispose method in them.&#8221;</p></blockquote>
+<p><span id="more-369"></span></p>
+<p>Indeed, as we should remember from my previous post, ref structs cannot implement interface because it would expose them to boxing possibility. But because of that we cannot make them implementing <em>IDisposable</em>, and thus we cannot use them in <em>using</em> statement:</p><pre class="crayon-plain-tag">class Program
+{
+   static void Main(string[] args)
+   {
+      using (var book = new Book())
+      {
+         Console.WriteLine("Hello World!");
+      }
+   }
+}
+
+ref struct Book : IDisposable
+{
+   public void Dispose()
+   {
+   }
+}</pre><p>The above code ends with compilation eerror</p><pre class="crayon-plain-tag">Error CS8343 'Book': ref structs cannot implement interfaces</pre><p>But from now on, if we add <strong>public</strong> <em>Dispose</em> method to our ref struct, it will be auto-magically consumed by the <em>using</em> statement and the whole thing compiles:</p><pre class="crayon-plain-tag">class Program
+{
+   static void Main(string[] args)
+   {
+      using (var book = new Book())
+      {
+         // ...
+      }
+    }
+}
+
+ref struct Book
+{
+   public void Dispose()
+   {
+   }
+}</pre><p>Even more, due to changes in the using statement itself (described in the mentioned blog post), we can now use more concise way of using&#8230; using (so-called <em>using declarations</em>):</p><pre class="crayon-plain-tag">class Program
+{
+   static void Main(string[] args)
+   {
+      using var book = new Book();
+      // ...
+   }
+}</pre><p></p>
+<h4>But&#8230; why?</h4>
+<p>This is a long topic but in general explicit cleanup (deterministic finalization) is preferred over implicit one (not-deterministic finalization). This is somehow intuitive. It is better to explicitly make a cleanup as soon as it is possible (by calling <em>Close</em>, <em>Dispose</em>, or <em>using</em> statement), instead of waiting for non-explicit cleanup that will occur &#8220;at some time&#8221; (by the runtime executing finalizers).</p>
+<p>Thus, when designing type owning some resource, we would like to have some explicit cleanup possibility. In C# the choice is obvious &#8211; we have a well-known contract in the form of <em>IDisposable</em> interface and its <em>Dispose</em> method.</p>
+<p style="padding-left: 30px;"><em>Note. Please note that in case of ref structs the cleanup choice is also limited to explicit cleanup as ref structs cannot have finalizers defined.</em></p>
+<p>Let&#8217;s take an example of a trivial &#8220;unmanaged memory pool wrapper&#8221; presented below, for illustrative purposes. Dedicated to performance-freaks, it is a ref struct to make it as lightweight as possible (no heap utilization ever):</p><pre class="crayon-plain-tag">public unsafe ref struct UnmanagedArray&lt;T&gt; where T : unmanaged
+{
+   private T* data;
+     public UnmanagedArray(int length)
+   {
+      data = // get memory from some pool
+   }
+
+   public ref T this[int index]
+   {
+      get { return ref data[index]; }
+   }
+
+   public void Dispose()
+   {
+      // return memory to the pool
+   }
+}</pre><p>As it owns unmanaged resource underneath, we introduced <em>Dispose</em> method to cleanup it at the end of usage. Thus, example usage could look like:</p><pre class="crayon-plain-tag">static void Main(string[] args)
+{
+   var array = new UnmanagedArray&lt;int&gt;(10);
+   Console.WriteLine(array[0]);
+   array.Dispose();
+}</pre><p>This is obviously cumbersome &#8211; we need to remember about calling <em>Dispose</em>. And obviously not-happy-path, like exception handling, is not properly handled here. This is why <em>using</em> statement was introduced, to make sure it will be called underneath. But as already said, till C# 8.0 it could not be used here.</p>
+<p>But now in C# 8.0, without a problem, we can make use of all benefits from the using statement:</p><pre class="crayon-plain-tag">static void Main(string[] args)
+{
+   using (var array = new UnmanagedArray&lt;int&gt;(10))
+   {
+      Console.WriteLine(array[0]);
+   }
+}</pre><p>Even more, thanks to using declarations, our code becomes more concise:</p><pre class="crayon-plain-tag">static void Main(string[] args)
+{
+   using var array = new UnmanagedArray&lt;int&gt;(10);
+   Console.WriteLine(array[0]);
+}</pre><p>Another two examples presented below (with a lot of code cut off for brevity) come from <a href="https://github.com/dotnet/corefx">CoreFX repository</a>.</p>
+<p>The first example is <a href="https://github.com/dotnet/corefx/blob/a10890f4ffe0fadf090c922578ba0e606ebdd16c/src/Common/src/System/Text/ValueUtf8Converter.cs"><em>ValueUtf8Converter</em> </a>ref struct that wraps around <em>byte[]</em> array from the array pool:</p><pre class="crayon-plain-tag">internal ref struct ValueUtf8Converter
+{
+   private byte[] _arrayToReturnToPool;
+   ...
+
+   public ValueUtf8Converter(Span&lt;byte&gt; initialBuffer)
+   {
+      _arrayToReturnToPool = null;
+   }
+
+   public Span&lt;byte&gt; ConvertAndTerminateString(ReadOnlySpan&lt;char&gt; value)
+   {
+      ...
+   }
+
+   public void Dispose()
+   {
+      byte[] toReturn = _arrayToReturnToPool;
+      if (toReturn != null)
+      {
+         _arrayToReturnToPool = null;
+         ArrayPool&lt;byte&gt;.Shared.Return(toReturn);
+      }
+   }
+}</pre><p>The second example is <a href="https://github.com/dotnet/corefx/blob/a10890f4ffe0fadf090c922578ba0e606ebdd16c/src/System.Text.RegularExpressions/src/System/Text/RegularExpressions/RegexWriter.cs"><em>RegexWriter</em> </a>that wraps two <em>ValueListBuilder</em> ref structs that need to be explicitly cleaned (as they also manage arrays from the array pool):</p><pre class="crayon-plain-tag">internal ref struct RegexWriter
+{
+   ...
+   private ValueListBuilder&lt;int&gt; _emitted;
+   private ValueListBuilder&lt;int&gt; _intStack;
+   ...
+
+   public void Dispose()
+   {
+      _emitted.Dispose();
+      _intStack.Dispose();
+   }
+}</pre><p></p>
+<h4>In summary</h4>
+<p>We can treat disposable ref structs as lightweight types that have A REAL destructor, known from C++. It will be executed as soon as the corresponding instance goes out of the scope of the underlying using statement (or enclosing scope in case of using declaration).</p>
+<p>For sure it is not a feature that will suddenly become extremely popular in writing regular, business-driven code. But few layers below, when writing high-performant low-level code, it is worth to know about such possibility!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://tooslowexception.com/disposable-ref-structs-in-c-8-0/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>Ref struct (byref-like type) and ByReference (byref-like instance field)</title>
+		<link>http://tooslowexception.com/ref-struct-byref-like-type-and-byreference-byref-like-instance-field/</link>
+		<comments>http://tooslowexception.com/ref-struct-byref-like-type-and-byreference-byref-like-instance-field/#respond</comments>
+		<pubDate>Mon, 21 Jan 2019 11:47:14 +0000</pubDate>
+		<dc:creator><![CDATA[Konrad Kokosa]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://tooslowexception.com/?p=364</guid>
+		<description><![CDATA[Disclaimer &#8211; this article consists of fragments of my book, adapted and re-edited considerably to be presented in the form of an independent whole post. As already explained in the previous article, managed pointers have their well-justified limitations &#8211; especially in that they are not allowed to appear on the Managed Heap (as a field [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><em>Disclaimer &#8211; this article consists of fragments of my book, adapted and re-edited considerably to be presented in the form of an independent whole post.</em></p>
+<p>As already explained in the previous article, managed pointers have their well-justified limitations &#8211; especially in that they are not allowed to appear on the Managed Heap (as a field of reference type or just by boxing). However, for some scenarios, it would be really nice to have a type that contains a managed pointer. The main motivation behind such type is <em>Span&lt;T&gt;</em> &#8211; which should be able to represent references &#8220;inside&#8221; objects (interior pointers), stack address or even unmanaged memory.</p>
+<h4>Ref struct (byref-like type)</h4>
+<p>Such type should have similar limitations as the managed pointer itself (to not break limitations of the contained managed pointer). Thus, those kinds of types are commonly called <em>byref-like types</em> (as the other name of the managed pointer is simply <em>byref</em>). The most important limitation of such type should be an impossibility to have heap-allocated instances. Thus the direction seems obvious &#8211; structs with some additional restrictions should be introduced. Regular structs by default are stack-allocated but may be heap-allocated in various scenarios, like boxing (for example because of casting to an interface).<span id="more-364"></span></p>
+<p>Since C# 7.3 we can declare custom byref-like types in the form of <em>ref structs</em> by adding a <em>ref</em> modifier to the struct declaration:</p><pre class="crayon-plain-tag">public ref struct RefBook
+{
+   public string Title;
+   public string Author;
+}</pre><p>C# compiler imposes many limitations on ref structs (to make sure that they will only be stack allocated):</p>
+<ul>
+<li>It cannot be declared as a field of a class or normal struct (because it could be boxed).</li>
+<li>It cannot be declared as a static field for the same reasons.</li>
+<li>It cannot be boxed &#8211; so it is not possible to assign/cast it to object, dynamic or any interface type. It is also not possible to use them as array elements, as an array stores boxed structs.</li>
+<li>It cannot be used as an iterator, generic argument and cannot implement an interface (because it could become boxed then).</li>
+<li>It cannot be used as a local variable in async method &#8211; as it could be boxed as a part of async state machine.</li>
+<li>It cannot be captured by lambda expressions or local functions &#8211; as it would be boxed by the corresponding closure class</li>
+</ul>
+<p>Trying to use ref struct in those situations will end with compilation error:</p><pre class="crayon-plain-tag">public class RefBookTest
+{
+   private RefBook book; // Compilation error: Field or auto-implemented property cannot be of type 'RefBook' unless it is an instance member of a ref struct
+
+   public void Test()
+   {
+      RefBook localBook = new RefBook();
+      object box = (object) localBook; // Compilation error: Cannot convert type 'CoreCLR.UnsafeTests.RefBook' to 'object'
+      RefBook[] array = new RefBook[4]; // Compilation error: Array elements cannot be of type 'RefBook'
+   }
+}</pre><p>Similar to managed pointers, ref structs can be used only as method parameters and local variables. It is also possible to use ref struct as a field type of other ref structs:</p><pre class="crayon-plain-tag">public ref struct RefBook
+{
+   public string Title;
+   public string Author;
+   public RefPublisher Publisher;
+}
+
+public ref struct RefPublisher
+{
+   public string Name;
+}</pre><p>Additionally, we can declare <em>readonly ref struct</em> to combine <em>readonly</em> and <em>ref</em> struct features &#8211; to declare an immutable struct that will exist only on the stack. It helps the C# compiler and JIT compiler to make further optimizations when using them (like ignoring defensive copy creation).</p>
+<p>Although we already know what ref structs provide, one could really bother where they can be useful, if anywhere at all? Obviously, if they were not, they would not be introduced. They provide two very important features based on their limitations:</p>
+<ul>
+<li>they will never be heap allocated &#8211; this allows to use them in a special way because their lifetime guarantees are quite strong. As mentioned at the beginning, the main advantage is that they may contain a managed pointer as their field. Currently, in C# this is not directly exposed feature, but it is used internally by <em>Span</em> in a form of <em>ByReference</em> (see below).</li>
+<li>they will be never accessed from multiple threads &#8211; as it is illegal to pass stack addresses between threads, it is guaranteed that stack-allocated ref struct is accessed only by its own thread. This eliminates in a trivial way any troublesome synchronization issues without any synchronization costs.</li>
+</ul>
+<p>One could ask why not the <em>&#8220;stackonly&#8221;</em>  keyword is used instead of <em>ref</em> keyword when declaring &#8220;ref structs&#8221;? It seems to be a more self-explaining name. The reason behind that is the fact that &#8220;ref structs&#8221; provide stronger limitations than a simple &#8220;stack-only allocation&#8221;: as listed above, for example, they can&#8217;t be used as generic arguments and as pointer types. Thus, naming them &#8220;stackonly&#8221; would be slightly misleading.</p>
+<h4>ByReference (byref-like instance field)</h4>
+<p>Having byref-like types, one could think of <em>byref-like instance fields</em> &#8211; a managed pointer could be a part of byref-like type because their limitations are related. In other words, a managed pointer may be safely a field of stack-only ref struct because it is guaranteed it will not escape to the heap.</p>
+<p>Unfortunately, both C# and CIL does not have support for such byref-like instance fields and runtime changes are required. Those were introduced only in .NET Core 2.1 (and later). Especially for <em>Span&lt;T&gt;</em> type, a new intrinsic (implemented in runtime) type has been introduced to represent such byref-like instance field. We could imagine it looks like:</p><pre class="crayon-plain-tag">public readonly ref partial struct Span&lt;T&gt;
+{
+   internal readonly ref T _pointer;
+   private readonly int _length;
+   ...
+}</pre><p>But C# does not support any syntax to represent byref-like fields so until they will be added (if ever), a dedicated type was introduced to represent such fields. This type is named <em>ByReference&lt;T&gt;</em> so the true declaration of <em>Span&lt;T&gt;</em> looks like this:</p><pre class="crayon-plain-tag">// ByReference&lt;T&gt; is meant to be used to represent "ref T" fields. It is
+// working around lack of first class support for byref fields in C# and IL.
+// The JIT and type loader has special handling for it that turns it
+// into a thin wrapper around ref T.
+[NonVersionable]
+internal ref struct ByReference&lt;T&gt;
+{
+   private IntPtr _value;
+   ...
+}
+
+public readonly ref partial struct Span&lt;T&gt;
+{
+   /// &lt;summary&gt;A byref or a native ptr.&lt;/summary&gt;
+   internal readonly ByReference&lt;T&gt; _pointer;
+   /// &lt;summary&gt;The number of elements this Span contains.&lt;/summary&gt;
+   private readonly int _length;
+   ...
+}</pre><p><em>ByReference&lt;T&gt;</em> in an internal type (cannot be used outside CoreFX) and is handled by runtime especially to wrap around its managed pointer nature.</p>
+<p style="padding-left: 30px;"><em>Note. General byref-like fields? Is there a chance that general-purpose byref fields will be introduced to C#? It is unlikely it will be justified to allow them for classes (which will, in fact, introduce heap-to-heap interior pointers). It gives too little compared to the difficulty of implementation. But what about general-purpose byref-like fields to be allowed in byref-like (ref struct) types? Will code like &#8220;internal readonly ref T _pointer&#8221; in the above listing ever be possible? There are ongoing discussions. Besides array slicing already exposed via Span&lt;T&gt;, one could think of other usages of such fields: structs that are interconnected by pointers for faster traversal, returning multiple byref results in a single byref-like struct and so on, and so forth. However, as far as I know, CLR team has no plans to generalize this feature.</em></p>
+<p>In the upcoming blog post, we will see two different <em>Span&lt;T&gt;</em> implementations &#8211; so-called &#8220;fast&#8221; Span (using presented here runtime support in the form of ByReference) and &#8220;slow&#8221; Span (back-compatible implementation without the runtime support).</p>
+]]></content:encoded>
+			<wfw:commentRss>http://tooslowexception.com/ref-struct-byref-like-type-and-byreference-byref-like-instance-field/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Managed pointers in .NET</title>
+		<link>http://tooslowexception.com/managed-pointers-in-net/</link>
+		<comments>http://tooslowexception.com/managed-pointers-in-net/#comments</comments>
+		<pubDate>Mon, 14 Jan 2019 13:03:23 +0000</pubDate>
+		<dc:creator><![CDATA[Konrad Kokosa]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://tooslowexception.com/?p=346</guid>
+		<description><![CDATA[Disclaimer &#8211; this article consists of fragments of my book, adapted and re-edited considerably to be presented in the form of an independent whole post. Most of the time a regular .NET developer uses object references and it is simple enough because this is how a managed world is constructed &#8211; objects are referencing each [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><em>Disclaimer &#8211; this article consists of fragments <a href="https://prodotnetmemory.com/">of my book</a>, adapted and re-edited considerably to be presented in the form of an independent whole post.</em></p>
+<p>Most of the time a regular .NET developer uses object references and it is simple enough because this is how a managed world is constructed &#8211; objects are referencing each other via object references. An object reference is, in fact, a type-safe pointer (address) that always points to an object MethodTable reference field (it is often said it points at the beginning of an object). Thus, using them may be quite efficient. Having an object reference, we simply have the whole object address. For example, the GC can quickly access its header via constant offset. Addresses of fields are also easily computable due to information stored in MethodTable.</p>
+<p>There is, however, another pointer type in CLR &#8211; a <em>managed pointer</em>. It could be defined as a more general type of reference, which may point to other locations than just the beginning of an object. ECMA-335 says that a managed pointer can point to:</p>
+<ul>
+<li>local variable &#8211; whether it be a reference to a heap-allocated object or simply stack-allocated type,</li>
+<li>parameter &#8211; like above,</li>
+<li>field of a compound type &#8211; meaning a field of other type (whether it is value or reference type),</li>
+<li>an element of an array</li>
+</ul>
+<p>Despite this flexibility, managed pointers are still types. There is a managed pointer type that points to <em>System.Int32</em> objects, regardless of their localization, denoted as <em>System.Int32&amp;</em> in CIL. Or <em>SomeNamespace.SomeClass&amp;</em> type pointing to our custom <em>SomeNamespace.SomeClass</em> instances. Strong typing makes them safer than pure,<br />
+unmanaged pointers that may be cast back and forth for literally everything. This is also why managed pointers do not offer pointer arithmetic known from raw pointers &#8211; it particularly does not make sense to &#8220;add&#8221; or &#8220;subtract&#8221; addresses they represent, pointing to various places inside objects or to local variables.</p>
+<p><span id="more-346"></span></p>
+<p>However, flexibility does not come without a cost. It reveals itself as limitations of a possible place where we can use managed pointers. As ECMA-335 says, managed<br />
+pointer types are only allowed for:</p>
+<ul>
+<li>local variables</li>
+<li>parameter signatures</li>
+</ul>
+<p>It is directly said that:</p>
+<blockquote><p>&#8220;they cannot be used for field signatures, as the element type of an array and boxing a value of managed pointer type is disallowed. Using a managed pointer type for the return type of methods is not verifiable&#8221;</p></blockquote>
+<p>Due to those limitations, managed pointers are not directly exposed into C# language. However, they have long been present in the well-known form of ref<br />
+parameters. Passing parameter by reference is nothing else than using a managed pointer underneath. Thus, managed pointers are also often referred to as <em>byref types</em><br />
+(or <em>byref</em> simply).</p>
+<p style="padding-left: 30px;"><em>Note. Recently, since C# 7.0, managed pointers usage has been widened in the form of ref locals and ref returns (collectively referred to as ref variables). Thus, the last sentence from the above ECMA citation about using a managed pointer type as the return type has been relaxed.</em></p>
+<h4>Ref parameters</h4>
+<p>The well-known, long-lasting example of ref variable is ref parameter &#8211; instead of passing an argument by value (whether it is a struct or a value of reference), we may pass just a reference to it. This is especially useful in case of value-types (structs) because we avoid copying them (passing them by value):</p><pre class="crayon-plain-tag">public class SomeClass
+{
+   public int Field;
+}
+public struct SomeStruct
+{
+   public int Field;
+}
+
+public int Main(int data)
+{
+   SomeStruct ss = new SomeStruct();
+   ss.Field = 10;
+   Helper(ref ss);
+   return ss.Field;
+}
+   
+private void Helper(ref SomeStruct data)
+{
+   data.Field = 11;
+}</pre><p>This is a great optimization trick &#8211; not only that we cause no heap allocation (by using struct instead of class), we also eliminate the overhead of possible data copying regardless of the struct size.</p>
+<h4>Ref locals</h4>
+<p>You can see ref local as a local variable to store a managed pointer. Thus, it is a convenient way of creating helper variables that may be later on used for direct access to a given field, array element or another local variable. Please note that both the left and right side of an assignment must be marked with the <em>ref</em> keyword to denote operating on managed pointers:</p><pre class="crayon-plain-tag">public static void UsingRefLocal(SomeClass data)
+{
+   ref int refLocal = ref data.Field;
+   refLocal = 2;
+}</pre><p>A trivial above example makes only illustrative sense &#8211; we are gaining direct access to an int field so the performance gain will be neglectable. More commonly you may want to use ref local to gain direct pointer to some heavyweight instance to make sure copying will not happen and pass it by reference somewhere or use locally. Ref locals are also commonly used to store the result of ref return method.</p>
+<p>Ref local may be assigned to reference that itself is null. At first glance, it may sound strange but makes perfect sense. You can think of ref local as a variable storing an address to a reference, but it does not mean that the reference itself points to anything.</p>
+<h4>Ref returns</h4>
+<p>Ref return allows us to return from a method a variable type representing the managed pointer. Obviously, some limitations must be introduced when using them. As MSDN says:</p>
+<blockquote><p>&#8220;The return value must have a lifetime that extends beyond the execution of the method. In other words, it cannot be a local variable in the method that returns it. It can be an instance or static field of a class, or it can be an argument passed to the method&#8221;</p></blockquote>
+<p>Attempting to return a local variable generates compiler error:</p><pre class="crayon-plain-tag">public static ref int ReturnByRefValueTypeInterior(int index)
+{
+   int localInt = 7;
+   return ref localInt; // Compilation error: Cannot return local 'localInt' by reference because it is not a ref local
+}</pre><p>However, it is perfectly fine to ref return element of the method parameter because from the method perspective, this argument lives longer than the method itself:</p><pre class="crayon-plain-tag">public static ref int GetArrayElementByRef(int[] array, int index)
+{
+   return ref array[index];
+}</pre><p>This concludes very short summary of the ref variables usage in C#. If you want to dig into its usage performance impact, <a href="https://adamsitnik.com/ref-returns-and-ref-locals/">read this great blog post from Adam Sitnik.</a></p>
+<p style="padding-left: 30px;"><em>Note. Passing-by reference is so important in terms of optimizing common code base of different libraries that it constantly gains more and more attention from creators of .NET and C# language. From C# 7.1 and 7.2 there is the possibility to pass by read-only reference (by using in keyword instead of ref) and use read-only refs, to explicitly say that a reference is used only for accessing data, without a possibility to modify it. I will look at such possibilities in the one of the next blog post.</em></p>
+<h4>Ref types internals</h4>
+<p>Some interesting questions may arise regarding all byref types. For example, how does passing around all those managed pointers cooperate with the GC? What code is generated underneath by the JIT compiler? Let&#8217;s dig deeper into main use cases that managed pointer usage may be grouped into. Understanding them will reveal the reasons behind the mentioned limitations as well as will help us to understand them better.</p>
+<p><strong>Managed pointer into &#8220;stack-allocated&#8221; object</strong></p>
+<p>A managed pointer can point to a method’s local variable or parameter. From an implementation point of view, a local variable or parameter may be stack-allocated or enregistered into CPU register (if JIT compiler decides so). How does a managed pointer work in such a case then?</p>
+<p>Simply put, it is perfectly fine that the managed pointer points to a stack address! This is one of the reasons why a managed pointer may not be the object’s field (and may not be boxed). If it appears in this way on the Managed Heap, it could outlive the method within which the indicated stack address is located. It would be very dangerous (pointed stack address would contain undefined data, most probably other’s method stack frame). So by limiting a managed pointer’s usage to local variables and parameters, their lifetime is limited to the most restrictive lifetime of a possible target they can point to &#8211; data on the stack.</p>
+<p>What about enregistered local variables and parameters? Remember that such an enregistered target is just an optimization detail; it has to provide at least the same<br />
+lifetime characteristics as a stack-allocated target. A lot depends on the JIT compiler here. If some target was enregistered, it is even better! Such a register may be simply used as a managed pointer. In other words, using a CPU register instead of a stack address does not change much from the JIT compiler perspective.</p>
+<p>But how are managed pointers (or more precisely, objects pointed by them) reported to the GC? They must be, because otherwise, GC may not detect reachability of the target object; if it happens that managed pointer is the only root at the moment.</p>
+<p>Let’s analyze a very simple passing by reference scenario. To remove the effects of inlining and make things clearer, <em>NoInlining</em> attribute was used that prevents inlining of <em>Test</em> method:</p><pre class="crayon-plain-tag">static void Main(string[] args)
+{
+   SomeClass someClass = new SomeClass();
+   PassingByref.Test(ref someClass);
+   Console.WriteLine(someClass.Field); // Prints "11"
+}
+
+public class PassingByref
+{
+   [MethodImpl(MethodImplOptions.NoInlining)]
+   public static void Test(ref SomeClass data)
+   {
+     ...
+     data.Field = 11; // at least to this line corresponding SomeClass instance must be live (not garbage collected)
+     ...
+   }
+}</pre><p>What is interesting for us at the moment is to see how such code is represented both on CIL and assembly level, after JITting. Corresponding CIL code reveals usage of<br />
+strongly typed <em>SomeClass&amp;</em> managed pointer. In the <em>Main</em> method <em>ldloca</em> instruction is used that loads the address of the local variable at a specific index (and index 0 corresponds to our <em>someClass</em> variable) onto the evaluation stack, which is then passed to <em>Test</em> method. Then <em>Test</em> method uses <em>ldind.ref</em> instruction to<br />
+dereference such address and push resulting object reference on the evaluation stack:</p><pre class="crayon-plain-tag">.method private hidebysig static
+void Main (string[] args) cil managed
+{
+.locals init (
+[0] class SomeClass
+)
+IL_0000: newobj instance void SomeClass::.ctor()
+IL_0005: stloc.0
+IL_0006: ldloca.s 0
+IL_0008: call void PassingByref::Test(class SomeClass&amp;)
+IL_000d: ret
+}
+.method public hidebysig static
+void Test (class SomeClass&amp; data) cil managed noinlining
+{
+IL_0000: ldarg.0
+IL_0001: ldind.ref
+IL_0002: ldc.i4.s 11
+IL_0004: stfld int32 SomeClass::Field
+IL_0009: ret
+}</pre><p>But while CIL code may be interesting, usually only JITted code reveals the true nature of what happens underneath. Looking at the assembly code of both methods, we indeed see that <em>Test</em> method receives an address pointing to the stack where reference to newly created <em>SomeClass</em> instance is stored:</p><pre class="crayon-plain-tag">Program.Main(System.String[])
+L0000: sub rsp, 0x28 // Growing stack frame
+L0004: xor eax, eax // Zeroing EAX register
+L0006: mov [rsp+0x20], rax // Zeroing the stack under rsp+0x20 address (where local variable is stored)
+L000b: mov rcx, 0x7ffa69398840 // Moving MT of SomeClass into RCX register
+L0015: call 0x7ffac3452520 // Calling allocator (as a result, RAX will contain address of the new object)
+L001a: mov [rsp+0x20], rax // Storing the address of new object onto the stack
+L001f: lea rcx, [rsp+0x20] // Moving the local variable's stack address into RCX register (which is first Test method argument)
+L0024: call PassingByref.Test(SomeClass ByRef)
+L0029: nop
+L002a: add rsp, 0x28
+L002e: ret
+
+PassingByref.Test(SomeClass ByRef)
+L0000: mov rax, [rcx] // Dereferencing the address in RCX into RAX (As a result, RAX contains object instance address)
+L0003: mov dword [rax+0x8], 0xb // Storing value 11 (0x0B) in the proper field of an object
+L000a: ret</pre><p>From a pure assembly code point of view, sa imilar code would be generated, for example, if using pointer to a pointer in C++. But how, while <em>Test</em> method is executing, the GC knows that <em>RCX</em> register contains an object address? The answer is interesting for us &#8211; <em>Test</em> method contains an empty GCInfo. In other words, <em>Test</em> method is so simple that GC will not interrupt its work. Thus, it does not need to report anything! As simple as that.</p>
+<p>If <em>Test</em> method was more complex, it could be JITted into fully- or partially interruptible method (those are explained in detail in my book&#8217;s Chapter 8). For example, in the latter case, we could see various safepoints, some of them listing some CPU registers (or stack addresses) as live slots:</p><pre class="crayon-plain-tag">&gt; !u -gcinfo 00007ffc86850d00
+Normal JIT generated code
+CoreCLR.Unsafe.PassingByref.Test(CoreCLR.Unsafe.SomeClass ByRef)
+Begin 00007ffc86850d00, size 44
+push rdi
+push rsi
+sub rsp,28h
+mov rsi,rcx
+...
+call 00007ffc`86850938
+00000029 is a safepoint:
+00000028 +rsi(interior)
+...
+call 00007ffc`868508a0
+00000033 is a safepoint:
+00000032 +rsi(interior)
+...
+add rsp,28h
+pop rsi
+pop rdi
+ret</pre><p>Those live slots would be listed as so-called <em>interior pointers</em> because managed pointers, in general, may point inside objects (it will be explained soon). Thus, managed pointers are always reported as interior roots; besides that in our case, they point in fact at the beginning of the object. Interpretation of such pointers is on the GC side, explained later.</p>
+<p>Very similar code would be generated in case of using a struct instead of class. What is more interesting, even it is theoretically known in such case that <em>Test</em> method operates only on stack-allocated data (local variable of <em>SomeStruct</em> value type), the corresponding GCInfo will still list live slots because of using a managed pointer. It is up to the GC just to ignore them.</p>
+<p><strong>Managed pointer into a heap-allocated object</strong></p>
+<p>While stack-pointing managed pointers may seem to be interesting, those that are pointing to objects on the Managed Heap are even more interesting. In contrast to the<br />
+object reference, a managed pointer can point to the inside of the object &#8211; field of a type or element of an array as already cited ECMA standard says.</p>
+<p>&nbsp;</p>
+<p><a href="http://tooslowexception.com/wp-content/uploads/2019/01/managedpointer01-1.png"><img class="aligncenter size-full wp-image-351" src="http://tooslowexception.com/wp-content/uploads/2019/01/managedpointer01-1.png" alt="Managed pointer visualization" width="550" height="220" srcset="http://tooslowexception.com/wp-content/uploads/2019/01/managedpointer01-1.png 550w, http://tooslowexception.com/wp-content/uploads/2019/01/managedpointer01-1-300x120.png 300w" sizes="(max-width: 550px) 100vw, 550px" /></a></p>
+<p>That is why they are in fact &#8220;interior pointers&#8221; as it is named in the literature. When you think about it a little, it may seem very interesting &#8211; how interior pointers pointing inside managed objects may be reported to the GC?</p>
+<p>Let’s modify a little above code, to pass by reference only a field of heap-allocated SomeClass instance:</p><pre class="crayon-plain-tag">static void Main(string[] args)
+{
+   SomeClass someClass = new SomeClass();
+   PassingByref.Test(ref someClass.Field);
+   Console.WriteLine(someClass.Field); // Prints "11"
+}
+public class PassingByref
+{
+   [MethodImpl(MethodImplOptions.NoInlining)]
+   public static void Test(ref int data)
+   {
+      data = 11; // this should keep containing object life!
+   }
+}</pre><p>The <em>Main</em> method looks straightforward. It instantiates <em>SomeClass</em> object, passes a reference to one of its field to the <em>Test</em> method, and prints the result.</p>
+<p>But our modified <em>Test</em> method expects now <em>System.Int32&amp;</em> managed pointer. During execution, <em>Test</em> method operates only on a managed pointer to int. But it is not<br />
+just a regular pointer to int &#8211; it is a field of a heap-allocated object! From where the GC knows that it may not collect the corresponding object, to which used managed pointer belongs? There is absolutely nothing said about from where <em>int&amp;</em> pointer comes from!</p>
+<p>First of all, please note that our <em>Test</em> method contrived example will be JITted into atomic (from the GC point of view) method that the GC will simply not interrupt at all:</p><pre class="crayon-plain-tag">PassingByref.Test(Int32 ByRef)
+L0000: mov dword [rcx], 0xb
+L0006: ret</pre><p>So again, the question of proper root reporting is not needed at all for such a simple method.</p>
+<p>But let&#8217;s suppose <em>Test</em> method is complex enough to produce interruptible code. Below is an example of how corresponding JITted code could look then. <em>RSI</em><br />
+register, which keeps the value of the integer field address passed as an argument in RCX register, is reported as an interior pointer:</p><pre class="crayon-plain-tag">!u -gcinfo 00007ffc86fb0ce0
+Normal JIT generated code
+CoreCLR.Unsafe.PassingByref.Test(Int32 ByRef)
+Begin 00007ffc86fb0ce0, size 41
+push rdi
+push rsi
+sub rsp,28h
+mov rsi,rcx
+00000009 interruptible
+00000009 +rsi(interior)
+...
+0000003a not interruptible
+0000003a -rsi(interior)
+add rsp,28h
+pop rsi
+pop rdi
+ret</pre><p>If GC happens and <em>Test</em> method is suspended when <em>RSI</em> contains such interior pointer, GC must interpret it to find the corresponding object. This is in general, not<br />
+trivial. One could think about simple algorithm that starts from such a pointer’s address and then tries to find the beginning of the object by scanning memory to the left byte by byte (it must have been done with a single byte shift because it is not guaranteed in any way how aligned are interior pointers with respect to the object&#8217;s beginning). This obviously is not efficient and has many drawbacks:</p>
+<ul>
+<li>Interior pointer may point to a distant field of big object (or distant element of very large array) &#8211; so a lot of such naïve scans had to be performed</li>
+<li>It is not trivial to detect beginning of the object &#8211; it could be a check if subsequent 8 bytes (or 4 in 32-bit case) forms valid MT address but this only increases such algorithm complexity. One could imagine some &#8220;marker&#8221; bytes that are allocated at the beginning of each object but this adds unnecessary memory overhead just to support theoretically rare interior pointer&#8217;s usage (and it would be really hard to define mark bytes unique enough to identify object beginning<br />
+unambiguously).</li>
+<li>All managed pointers are reported as interior pointers &#8211; so they may point to the stack and it makes no sense to find containing object in the first place (as it may point, for example, inside stack-allocated struct).</li>
+</ul>
+<p>I hope you get the point that such an algorithm is impractical. Some more intelligent support is required to resolve interior pointers efficiently.</p>
+<p>The fact is that, during GC relocation phase (when object are being compacted), interior pointers are translated into corresponding objects <strong>thanks to the bricks and plugs tree mechanism</strong>. Being crucial during the whole GC process, it is also very useful in the context of interior pointers. Given a specified address, a proper brick table entry is calculated and a corresponding plug tree traversed to find the plug (a continuous region of live objects) within which such an address lives.</p>
+<p><a href="http://tooslowexception.com/wp-content/uploads/2019/01/bricks01.png"><img class="aligncenter size-full wp-image-353" src="http://tooslowexception.com/wp-content/uploads/2019/01/bricks01.png" alt="bricks01" width="700" height="229" srcset="http://tooslowexception.com/wp-content/uploads/2019/01/bricks01.png 700w, http://tooslowexception.com/wp-content/uploads/2019/01/bricks01-300x98.png 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></p>
+<p style="text-align: center;"><em>A brick table consists of brick entries, each representing 4kB region of the managed heap. Such brick entry contains an offset of the root plug info within a region. </em></p>
+<p style="text-align: center;"><a href="http://tooslowexception.com/wp-content/uploads/2019/01/bricks02.png"><img class="aligncenter size-full wp-image-354" src="http://tooslowexception.com/wp-content/uploads/2019/01/bricks02.png" alt="bricks02" width="700" height="222" srcset="http://tooslowexception.com/wp-content/uploads/2019/01/bricks02.png 700w, http://tooslowexception.com/wp-content/uploads/2019/01/bricks02-300x95.png 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></p>
+<p style="text-align: center;"><em>Root plug info and plug info related to each of the plugs constitute a binary tree, easily searchable representation of each plug within a region.</em></p>
+<p>Then, such plug is being scanned object by object to find the one that contains the considered address (plug scanning is possible because the plug starts with an object and then the following objects are easily found because object sizes are known).</p>
+<p>Obviously, such an algorithm has its costs also. Plug tree traversal and plug scanning take some time. Dereferencing interior pointer is not trivial then. This is the second important reason why managed pointers are not allowed to live on the heap (especially as the object’s fields) &#8211; creating complex graphs of objects referenced by interior pointers would make traversing such a graph quite costly. Giving such flexibility is simply not worth the quite significant overhead it introduces.</p>
+<p style="padding-left: 30px;"><em>Note. Even more, during Mark phase, plugs trees do not yet exist so interpreting interior pointers to mark corresponding objects is even more costly. The whole corresponding brick must be scanned to find an object corresponding to a given interior pointer.</em></p>
+<p>Please also note that with such implementation, dereferencing the interior pointer (to know an object within which it lives) is possible only during GC, after Plan phase. Only then plug and gaps are constructed, altogether with the corresponding plug tree. Obviously, this creates only overhead during GC&#8217;s Mark phase &#8211; when such dereferencing is necessary. During normal program execution, interior pointers are just pointers &#8211; one can just read and write memory pointed by them.</p>
+<h4>Summary</h4>
+<p>Interior pointer interpretation allows some magic things to happen, dangerous at first glance. For example, we are able to return a managed pointer to a locally created class instance or an array:</p><pre class="crayon-plain-tag">public static ref int ReturnByRefReferenceTypeInterior(int index)
+{
+   int[] localArray = new[] { 1, 2, 3 };
+   return ref localArray[index];
+}</pre><p>This may seem to be counterintuitive &#8211; how one could return from a method reference to a single integer array element, while the array object itself seems to become unreachable? Obviously, it is not, because after such method ends, the returned interior pointer becomes the only root of the array.</p>
+<p>The array itself is then still alive because of the interior pointer; however, we have lost the array object reference. Due to the limitation mentioned previously (bricks and plug tree availability), such a pointer cannot be at runtime &#8220;converted back&#8221; to the proper reference of the object it points to.</p>
+<p>As a summary remark, please remember that ref variables (ref parameters, ref locals, and ref return usage) are small wrappers around managed pointers. They should not be treated as pointers obviously. They are variables! Read great <a href="http://mustoverride.com/refs-not-ptrs/">&#8220;Ref returns are not pointers&#8221; article by Vladimir Sadov</a> if you feel like needing further clarification.</p>
+<p>In the next articles performance implications of ref variables, ref returning collections and readonly refs will be discussed.</p>
+<p>PS. For fun, here is a generic interior pointer generator <img src="https://s.w.org/images/core/emoji/2/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p><pre class="crayon-plain-tag">public class Helpers {
+   public static ref T MakeInterior&lt;T&gt;(T obj) =&gt; ref (new T[] { obj })[0];
+}</pre><p></p>
+<h4>References:</h4>
+<p><a href="https://mustoverride.com/managed-refs-CLR/">https://mustoverride.com/managed-refs-CLR/</a><br />
+<a href="https://mustoverride.com/refs-not-ptrs/">https://mustoverride.com/refs-not-ptrs/</a><br />
+<a href="https://adamsitnik.com/ref-returns-and-ref-locals/">https://adamsitnik.com/ref-returns-and-ref-locals/</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://tooslowexception.com/managed-pointers-in-net/feed/</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+		</item>
+		<item>
+		<title>Do we need JVM&#8217;s PhantomReference in .NET?</title>
+		<link>http://tooslowexception.com/do-we-need-jvms-phantomreference-in-net/</link>
+		<comments>http://tooslowexception.com/do-we-need-jvms-phantomreference-in-net/#comments</comments>
+		<pubDate>Tue, 08 Jan 2019 11:00:50 +0000</pubDate>
+		<dc:creator><![CDATA[Konrad Kokosa]]></dc:creator>
+				<category><![CDATA[Performance]]></category>
+		<category><![CDATA[Platform]]></category>
+		<category><![CDATA[clr]]></category>
+		<category><![CDATA[coreclr]]></category>
+		<category><![CDATA[gc]]></category>
+		<category><![CDATA[jvm]]></category>
+		<category><![CDATA[phantom]]></category>
+
+		<guid isPermaLink="false">http://tooslowexception.com/?p=335</guid>
+		<description><![CDATA[TL;DR &#8211; would be post-mortem finalization available thanks to phantom references useful in .NET? What is your opinion, especially based on your experience with the finalization of your use cases? Please, share your insights in comments! Both JVM and CLR has the concept of finalizers which is a way of implicit (non-deterministic) cleanup &#8211; at [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><em><strong>TL;DR &#8211; would be post-mortem finalization available thanks to phantom references useful in .NET? What is your opinion, especially based on your experience with the finalization of your use cases? Please, share your insights in comments!</strong></em></p>
+<p>Both JVM and CLR has the concept of finalizers which is a way of implicit (non-deterministic) cleanup &#8211; at some point after an object is recognized as no longer reachable (and thus, may be garbage collected) we may take an action specified by the finalizer &#8211; a special, dedicated method (i.e. <em>Finalize</em> in C#, <em>finalize</em> in Java). This is mostly used for the purpose of cleaning/releasing non-managed resources held by the object to be reclaimed (like OS-limited, and thus valuable, file or socket handles).</p>
+<p>However, such form of finalization has its caveats (elaborated in detail below). That&#8217;s why in Java 9 <em>finalize()</em> method (and thus, finalization in general) has been deprecated, which is <a href="https://docs.oracle.com/javase/9/docs/api/java/lang/Object.html#finalize--">nicely explained in the documentation</a>:</p>
+<blockquote><p>&#8220;Deprecated. The finalization mechanism is inherently problematic. Finalization can lead to performance issues, deadlocks, and hangs. Errors in finalizers can lead to resource leaks; there is no way to cancel finalization if it is no longer necessary; and no order is specified among calls to finalize methods of different objects. Furthermore, there are no guarantees regarding the timing of finalization. The finalize method might be called on a finalizable object only after an indefinite delay, if at all.&#8221;</p></blockquote>
+<p><span id="more-335"></span>While finalization mechanism has been deprecated, the underlying problem should still be solved somehow. What is being suggested instead of it then? Simply put &#8211; an explicit cleanup (which AFAIK anyway was a preferred approach instead of finalization for a long time in Java). As the cited documentation continues:</p>
+<blockquote><p>&#8220;(&#8230;) Classes whose instances hold non-heap resources should provide a method to enable explicit release of those resources, and they should also implement <em>AutoCloseable</em> if appropriate. (&#8230;)&#8221;</p></blockquote>
+<p>In other words, programmers should not rely on &#8220;magic&#8221; implicit cleanup but use objects will well-known lifetime to explicitly close/release any underlying resources (by calling its <em>close</em> or <em>Dispose</em> methods at an appropriate time). Mentioned <em>AutoCloseable</em> is just a mechanism <a href="https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html">that helps to automate that</a>:</p><pre class="crayon-plain-tag">static String readFirstLineFromFile(String path) throws IOException {
+   try (BufferedReader br =
+      new BufferedReader(new FileReader(path))) {
+         return br.readLine();
+   }
+}</pre><p>which obviously resembles us <em>IDisposable</em> and using statement in .NET. At this moment we could stop any further discussion &#8211; assuming finalization is problematic also in .NET, we can &#8220;deprecate&#8221; it mentally (and by the way avoiding finalization is suggested approach in .NET either) and just go with explicit cleanup everywhere. However, we could not assume that it is always applicable &#8211; for example, there may be scenarios where a lifetime of our resource-holding object could not be easily limited to a single using statement.</p>
+<p>So it happens in JVM world and so documentation continues:</p>
+<blockquote><p>&#8220;(&#8230;) The <em>Cleaner</em> and <em>PhantomReference</em> provide more flexible and efficient ways to release resources when an object becomes unreachable.&#8221;</p></blockquote>
+<p>And here our story begins &#8211; what is the <em>PhantomReference</em> mentioned (and related <em>Cleaner</em> class)? For curious &#8211; currently, there is no CLR&#8217;s counterpart of such finalization alternative. Thus, the title question arises &#8211; would it be beneficial to introduce it to CLR (and thus, C#)? To answer to such question we need to understand two things:</p>
+<ul>
+<li>if finalization is also somehow problematic in CLR world (so we would like to have some alternative to it)</li>
+<li>if it is worth to implement it (taking into consideration implementation-specific overhead and problems)</li>
+</ul>
+<p>Let&#8217;s start with the first issue then.</p>
+<h3>Finalization problems</h3>
+<p>Putting aside the defects of finalization in JVM (which I do not know well because of my limited JVM&#8217;s knowledge), let&#8217;s consider why it may be problematic in CLR:</p>
+<h4>1) It is not guaranteed that finalization code will be executed at all, exactly once, or may be executed only partially</h4>
+<p>This is one of the most &#8220;magical&#8221; caveats of finalization. For example, if some finalizer is malfunctioned and blocks its execution indefinitely, other finalizers won&#8217;t be called at all. This is because currently finalization is processed sequentially by a dedicated, single thread. Another problem may arise if the process is terminated rapidly without giving the GC chance to execute some finalizers (which may or may not be a problem because process termination should release underlying handles anyway). Moreover, it is even possible that finalizer will be executed more than once because of a resurrection technique, described later.</p>
+<p><strong>&#8220;Bad finalizer&#8221; example</strong></p>
+<p>We can easily create potentially bad-behaving finalizer:</p><pre class="crayon-plain-tag">public class EvilFinalizableClass
+{
+   private readonly int finalizationDelay;
+   public EvilFinalizableClass(int allocationDelay, int finalizationDelay)
+   {
+      this.finalizationDelay = finalizationDelay;
+      Thread.Sleep(allocationDelay);
+   }
+   ~EvilFinalizableClass()
+   {
+      Thread.Sleep(finalizationDelay);
+   }
+}</pre><p>If we will be creating <em>EvilFinalizableClass</em> instances with <em>finalizationDelay</em> bigger than <em>allocationDelay</em>, we will starve finalization thread endlessly! Not only it is a big problem by itself, but it is also really hard to diagnose such issue. We do not have any easy way to monitor finalization programmatically (like a number of object being finalized etc.).</p>
+<p><strong>&#8220;Resurrection&#8221; example</strong></p>
+<p>A finalizer is just a regular instance method and as such, it has access to <em>this</em> reference. This allows to use a technique called <em>resurrection</em> because out of a sudden, reference to an object that was just to be reclaimed, is being assigned to some globally accessible point, making it reachable (and thus, life from the GC perspective) again:</p><pre class="crayon-plain-tag">class FinalizableObject
+{
+   ~FinalizableObject()
+   {
+      Program.GlobalFinalizableObject = this;
+      GC.ReRegisterForFinalize(this);
+   }
+}</pre><p>It is arguable whether this is an issue or not and whether programmers should be limited to not do this. In most cases, such a technique is barely usable and just makes things awkward. But worse, it implies runtime-level implementation. If an object may be resurrected, it cannot be garbage collected at the moment of the finalization but only afterward.</p>
+<h4>2) Execution time is non-deterministic</h4>
+<p>Finalizer most probably will be called but it is not defined when. This is bad from the resource management point of view. If an owned resource is limited, it should be released as quickly as possible. Waiting for non-deterministic cleanup is barely optimal. Moreover, maybe we know our resources well and we would like to have control over finalization &#8211; to make it at some specific moments of the program execution.</p>
+<p>But due to a reasonable design decision, finalizers are not executed during the GC &#8211; it would introduce a risk that user-defined code from finalizer would stop/block/harm GC process, which should be as fast as possible. Moreover, finalizers have to be able to allocate objects (as any other user-code) so they must be executed during normal program execution. Thus, by design, finalizers are run at &#8220;some time&#8221; after the GC &#8211; we do know when and we do not have any control over it. For most cases, it may be just enough, but for some one could have more strict control over it.</p>
+<h4>3) Order of execution of finalizers is not defined</h4>
+<p>Even if one finalizable object refers to the other finalizable object, it is not guaranteed their finalizers will run in any logical order (like the e.g., &#8220;owning&#8221; object before the &#8220;owned&#8221; one or vice versa). Thus, we should not refer to any other finalizable objects inside a finalizer, even if we &#8220;own&#8221; them. This may be problematic both in unmanaged scenarios (stream and underlying handle) but even in non-obvious only-managed ones.</p><pre class="crayon-plain-tag">class LoggedObject
+{
+   private ILogger logger;
+   public LoggedObject(ILogger logger)
+   {
+      this.logger = logger;
+      // ...
+      this.logger.Log("Object created.");
+   }
+   // Destructor
+   ~LoggedObject()
+   {
+      this.logger.Log("Object destroyed.");
+   }
+}</pre><p>In the above example, a finalizer could be using a dependency-injected logger via an interface. It means we are not guaranteed that an injected, concrete logger instance will not be finalizable and thus we are exposing ourselves to the problem of unordered finalization execution &#8211; the logger may be already disposed inside our finalizer.</p>
+<h4>4) The thread on which the finalizer will be executed is also not defined</h4>
+<p>All we know that it is some &#8220;internal finalizer thread&#8221; maintained by GC. It is not defined whether there are single or multiple such threads. We have no control over it so we cannot introduce any optimizations. For example, maybe for some kind of resource, we would like to introduce parallel finalization with the help of multiple dedicated threads?</p>
+<p>Moreover, not knowing explicitly what thread will execute our finalizer exposes us to various synchronization problems if we decide to use locks and so forth.</p>
+<h4>5) Throwing an exception from the finalizer is very dangerous</h4>
+<p>By default, it simply kills the entire process. While it is a current implementation detail of the CLR, the rule of thumb is (and it always be) to not throw any exceptions from within finalizer. Still, this is enforced by common sense, not by any formal rule.</p>
+<h4>6) Finalizable objects introduce an additional overhead</h4>
+<p>If a type has a finalizer, a slower allocation path will be used. The GC must be aware of all finalizable objects, to call their finalizers when they become unreachable. It records these objects on what’s called the finalization queue. In other words, finalization queue at any moment contains a list of all finalizable objects currently live. Mentioned slower allocation path contains registering a newly-created object in the finalization queue.</p>
+<p>During GC, at the end of Mark phase, GC checks the finalization queue to see if any of the finalizable objects are dead. If they are some, they cannot be yet deleted because their finalizers will need to be executed. Hence, such an object is moved to yet another queue called fReachable queue. Its name comes from the fact that it represents finalization reachable objects &#8211; the ones that are now reachable only because of finalization. If there are any such objects found, GC indicates to the dedicated finalizer thread there’s work to do.</p>
+<p>Finalization thread removes objects from the fReachable queue one by one and calls their finalizers. Since the only root to this object is removed from the fReachable queue, the next GC that condemns the generation this object is in will find it to be unreachable and reclaim it.</p>
+<p style="padding-left: 30px;"><em>Note. BTW this is why trying to fully reclaim memory at some point requires magical formula of two following GCs:</em></p>
+<p style="padding-left: 30px;"><em>GC.Collect();</em><br />
+<em>GC.WaitForPendingFinalizers();</em><br />
+<em>GC.Collect();</em></p>
+<p>But note that such mechanism introduces overhead related to the finalization: a finalizable object by default survives for at least one more GC. Moreover, fReachable queue is treated as a root considered during Mark phase because the finalizer thread may not be fast enough to process all objects from it between GCs. This exposes the finalizable objects more to a Midlife crisis &#8211; they may stay in fReachable queue for a while consuming generation 2 just because of pending finalization.</p>
+<p>Knowing all the implementation details described so far, we can summarize finalization as having the following overhead:</p>
+<ul>
+<li>it forces slower allocation by default, including the overhead of manipulating finalization queue during allocation,</li>
+<li>it promotes finalizable object at least once by default, making Mid-life crisis more likely. It introduces some overhead of finalizable objects handling even while they are still alive &#8211; mostly keeping up-to-date generational finalization list</li>
+</ul>
+<h4>7) Finalization is not optional</h4>
+<p>An object must be &#8220;finalizable&#8221; from the very beginning because the only way to make it so is by defining a finalizer method in it. We cannot create a regular object and only, later on, enable finalization for it (although, we may disable it with the help of <em>GC.SuppressFinalization</em> method).</p>
+<p>&#8230;</p>
+<p>All those points lead to one conclusion &#8211; implementing finalizers is tricky, using them may be unreliable and problematic even from the performance perspective. Thus, they should be generally avoided.</p>
+<p>Avoiding resurrection, synchronization locks, throwing exceptions, dependency on other finalizable objects &#8211; all this may be done only on a good-practice basis, not by any formal technique. Thus, we depend on developers&#8217; common sense, rather on any formally enforced rules.</p>
+<p>Knowing all that, does currently exist in .NET any preferred alternative or technique? There are, so let&#8217;s look at them now.</p>
+<h3>Critical finalizers</h3>
+<p>Due to various problems with finalizers mentioned above, in .NET a little firmer counterpart was introduced in the form of critical finalizers. They are simply regular finalizers with additional guarantees &#8211; designed for a situation where a finalizer code must be executed with certainty, even in case of rude AppDomain or thread abort cases. To define such a critical finalizer, one must define a finalizer in the <em>CriticalFinalizerObject</em>-derived class. The <em>CriticalFinalizerObject</em> itself is abstract and has no implementation. As MSDN says:</p>
+<blockquote><p>&#8220;In classes derived from the CriticalFinalizerObject class, the common language runtime (CLR) guarantees that all critical finalization code will be given the opportunity to execute, provided the finalizer follows the rules for a CER (Constrained Execution Region), even in situations where the CLR forcibly unloads an application domain or aborts a thread.&#8221;</p></blockquote>
+<p>Runtime makes some precautions to make executing critical finalizers possible in any circumstances. For example, it is JITting critical finalizer code in advance, to avoid a situation when later on there is not enough memory for the generated code in an out-of-memory exception scenario. Moreover, critical finalizers added some guarantees on order of execution. As MSDN says:</p>
+<blockquote><p>&#8220;The CLR establishes a weak ordering among normal and critical finalizers: for objects reclaimed by garbage collection at the same time, all the noncritical finalizers are called before any of the critical finalizers.&#8221;</p></blockquote>
+<p>Thus, critical finalizers are designed to solve problems 1 and 3 (at least partially) from the list above.</p>
+<h3>SafeHandle</h3>
+<p>You will rarely need to define types derived directly from <em>CriticalFinalizerObject</em>. More often, you use them via deriving from special <em>SafeHandle</em> type. It was designed from an observation that most of the time, unmanaged resources that need to be &#8220;finalized&#8221; are represented simply by some handle or pointer &#8211; thus <em>IntPtr</em> type. <em>SafeHandle</em> is a type designed to wrap such handle, with finalization support.</p>
+<p>So instead of implementing a finalizer, the preferred and suggested alternative is to create a type that derives from the abstract <em>System.Runtime.InteropServices.SafeHandle</em> class and use it as handle wrapper. Having much of the logic already implemented in such type, we are less exposed to any problems we may introduce implementing our own finalization logic. <em>SafeHandle</em> is critically finalizable and implements Disposable pattern. Both its <em>Dispose</em> and <em>Finalize</em> logic is, in fact, internal (implemented in the runtime itself), we only need to implement abstract <em>ReleaseHandle</em> method and <em>IsInvalid</em> property used by them.</p>
+<p>Unfortunately, even really useful, in the context of our consideration, <em>SafeHandle</em> does not really solve problems 3, 4, 6 and 7 from the above list. Moreover, they are strictly limited to handling <em>IntPtr</em> and nothing else so it is not a general-purpose finalization alternative.</p>
+<p style="padding-left: 30px;"><em>Note. CLR treats instances of SafeHandle class in a special way during P/Invoke calls &#8211; they are being protected from being garbage collected (treated as roots). This prevents to run finalizer during P/Invoke call, which would be very unfortunate (releasing handle being used). When introducing any finalization alternative, we should be aware of this special behavior.</em></p>
+<p>Knowing what .NET currently offers, let&#8217;s now get familiar with what <em>PhantomReference</em> is and why it may solve some issues listed below.</p>
+<h3>What is a phantom reference in JVM?</h3>
+<p>In shortest words, phantom reference is a reference to an object that may be already garbage collected. At first glance, it may sound strange and useless but as you will see, it makes perfect sense in some scenarios.</p>
+<p>In the context of reachability, it adds one new level not seen in .NET &#8211; we say that an object may be phantom reachable, as <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/ref/package-summary.html">the documentation says</a>:</p>
+<blockquote><p>&#8220;An object is phantom reachable if it is neither strongly, softly, nor weakly reachable, it has been finalized, and some phantom reference refers to it.&#8221;</p></blockquote>
+<p>Phantom references are represented in Java by <em>PhantomReference</em> class, derived from more general <em>Reference</em> class (with other subclasses representing strong and weak references). <em>PhantomReference</em> overrides <em>Reference</em>&#8216;s <em>get()</em> method to always return <em>null</em> &#8211; not allowing to get an object being referenced. This may sound strange but makes a perfect sense &#8211; providing such referent would expose the possibility to resurrect an object, but it might be already dead.</p>
+<p>Because there is no way to get a referenced object from <em>PhantomReference</em>, such phantom reachable object, in fact, does not need to be alive. GC is perfectly fine to reclaim memory after it. Thus, we can see a phantom reference as a post-mortem notification. We only get information that an object has become unreachable without any possibility to access it any more.</p>
+<p>But if <em>PhantomReference</em> does not inform us about what object it refers to, how it can be usable? This is solved by an additional <em>ReferenceQueue</em> class &#8211; each <em>PhantomReference</em> is being registered to an instance of it (by specifying it in its constructor). Afterward, we can poll such a queue to observe changes and be notified about an object reclamation. If we are interested in a single, specific object, we can create a dedicated <em>ReferenceQueue</em> for it. But most often, there will be a <em>ReferenceQueue</em> for various types/groups of resources.</p>
+<p>An obvious question arises &#8211; if we cannot access an object from phantom reference, how one can take any cleanup/&#8221;finalization&#8221; action for it? This is done by a simple workaround &#8211; we do not need a whole object to cleanup resource, we just need some representation (handle) of the resource it owns. Thus, altogether with the phantom reference itself we can store some necessary data, taken from an object at the time of phantom reference creation, which will be used afterward. Even if an object will be already garbage collected, our side data will allow us to cleanup resources of our interest.</p>
+<p>Let&#8217;s now see two main use cases of <em>PhantomReference</em> to make things more clear.</p>
+<p><strong>Use case 1 &#8211; determine that object is no longer reachable</strong></p>
+<p>The simplest use case is just to observe a queue and make some action when registered reference has become unreachable:</p><pre class="crayon-plain-tag">ReferenceQueue&lt;SomeObject&gt; referenceQueue = new ReferenceQueue&lt;&gt;();
+SomeObject obj = new SomeObject();
+Reference&lt;SomeObject&gt; ref = new PhantomReference&lt;&gt;(obj, referenceQueue);
+
+// Now somewhere we can wait for changes in a queue
+Reference&lt;? extends SomeObject&gt; polled = referenceQueue.poll();
+if (polled!=null) {
+   // take some action
+}</pre><p>This obviously perfectly works for a single instance and (quite rare) use cases when we do not need to access the data of reclaimed objects.</p>
+<p><strong>Use case 2 &#8211; take a post-mortem action without finalization</strong></p>
+<p>In this scenario, we need somehow to remember resources to be released after an object will die. We can maintain a map between a phantom reference and such data but typically it is stored in an object derived from <em>PhantomReference</em> itself, for convenience:</p><pre class="crayon-plain-tag">public class PhantomReferenceFinalizer extends PhantomReference&lt;Object&gt; {
+   // handle field - some resource to be released
+
+   public PhantomReferenceFinalizer(
+      Object referent, ReferenceQueue&lt;? super Object&gt; queue) {
+         super(referent, queue);
+         // get handle from referent
+   }
+
+   public void finalizeResources() {
+      // free handle
+   }
+}</pre><p>Then usage is simple. We may create a phantom reference from our code, registering them in the reference queue of our choice:</p><pre class="crayon-plain-tag">new PhantomReferenceFinalizer(someObject, referenceQueue);</pre><p>Then, most probably from our dedicated thread, we may observe such queue to take appropriate actions:</p><pre class="crayon-plain-tag">while ((referenceFromQueue = referenceQueue.poll()) != null) {
+   ((PhantomReferenceFinalizer)referenceFromQueue).finalizeResources();
+}</pre><p></p>
+<p style="padding-left: 30px;"><em>Note. Until Java 9, we would need to manually clear phantom reference after pooling it (by calling referenceFromQueue.clear() in the above example). In Java 9 it is not necessary to call clear, as a phantom reference will be cleared automatically when enqueued. See <a href="https://bugs.java.com/bugdatabase/view_bug.do?bug_id=JDK-8071507">https://bugs.java.com/bugdatabase/view_bug.do?bug_id=JDK-8071507</a> and <a href="https://bugs.java.com/bugdatabase/view_bug.do?bug_id=8173071">https://bugs.java.com/bugdatabase/view_bug.do?bug_id=8173071</a>: &#8220;An object becomes phantom reachable after it has been finalized. This change may cause the phantom reachable objects to be GC&#8217;ed earlier &#8211; previously the referent is kept alive until PhantomReference objects are GC&#8217;ed. This potential behavioral change might only impact existing code that would depend on PhantomReference being enqueued rather than when the referent be freed from the heap.&#8221;.</em></p>
+<p>Please note we cannot store referent reference directly in <em>PhantomReferenceFinalizer</em> (exposing it to resurrection) because it would make referent always alive as long as <em>ReferenceQueue</em> is alive &#8211; making the whole mechanism useless.</p>
+<h3>Summary</h3>
+<p>So, knowing what phantom reference (and related queue) provides, let&#8217;s consider the answer to the title question.</p>
+<p>Probably, you can already spot advantages of phantom references over classic finalization:</p>
+<ul>
+<li>manual control over the finalization process &#8211; what we can get by <em>PhantomReference</em> and <em>ReferenceQueue</em> is a way of manually implementing the finalization process. We can create many different &#8220;finalization queues&#8221; and structure them as we wish, for example, to create:
+<ul>
+<li>parallel finalization &#8211; we can process single or multiple queues from a set of multiple threads</li>
+<li>fine-grained finalization &#8211; we can create queues for objects of different types of resources</li>
+<li>ordered finalization &#8211; by observing and processing queues in a specified order we may provide ordered finalization</li>
+</ul>
+</li>
+<li>no prolonged life of &#8220;finalized&#8221; object &#8211; because there is no access from phantom reference to an object, it does not need to be kept alive. There is no additional GC cycle needed to handle it. This is quite an important performance advantage over regular finalization!</li>
+<li>no resurrection possible &#8211; by design we cannot resurrect objects from phantom references. One problem less.</li>
+<li>optional finalization &#8211; an object does not have to be created as &#8220;finalizable&#8221; from the very beginning. Finalization may be enabled for it by creating a phantom reference for it. This may be convenient for itself. Moreover, it allows finalization to be &#8220;injected&#8221; to domain entities like any other infrastructural concern.</li>
+<li>better monitoring &#8211; as we have &#8220;finalization&#8221; queues under our control, we can monitor them and detect any issues (like starvation)</li>
+</ul>
+<p>On the disadvantages side there is one major &#8211; using phantom references is much more complex than simple finalization or SafeHandles. Thus, it is hard to expect that each and every resource management scenario would be handled that way. On the other hand, with the help of a good library covering the repetitive code, we would gain the benefits of phantom references without a big complexity overhead (like Java&#8217;s <a href="https://docs.oracle.com/javase/9/docs/api/java/lang/ref/Cleaner.html">Cleaner</a> class).</p>
+<p>So, would it be wise to introduce phantom references to .NET? Obviously, I do not know the definite answer. In my humble opinion, yes. It is an optional feature. Without using them, there is no additional overhead to the runtime and the GC. On the other hand, having them may be useful in performance and memory critical scenarios. The other thing is &#8211; is it worth to complicate finalization API to cover narrow, like 1%, possible scenarios? Please, share your thoughts!</p>
+<p style="padding-left: 30px;"><em>Note. As I am heavily considering implementing a proof of concept for phantom references in CoreCLR, I am thinking about various implementation details of such mechanism. There are some obvious steps like implementing PhantomReference counterpart on the CoreFX level. Also, there should be a new type of handle inside CoreCLR (besides strong, weak and so forth) that is maintaining PhantomReference instances. Moreover, the runtime would need to manipulate a managed object of the ReferenceQueue to enqueue phantom reference after referent becomes unreachable &#8211; this is, as far as I know, something not done currently in any scenario.</em></p>
+<h3>Follow-ups</h3>
+<p>As a great response to my post, you can find the following articles as a part of the discussion:</p>
+<ul>
+<li><a href="https://ayende.com/blog/185889-A/implementing-phantom-reference-in-c">Implementing Phantom Reference in C#</a> by Ayende Rahien</li>
+<li><a href="https://medium.com/@kevingosse/implementing-java-referencequeue-and-phantomreference-in-c-827d7141b6e4">Implementing Java ReferenceQueue and PhantomReference in C#</a> by Kevin Goose</li>
+<li><a href="https://medium.com/@chnasarre/c-fixing-net-middle-age-crisis-with-java-referencequeue-and-cleaner-971f4031676c">Fixing .NET middle-age crisis with Java ReferenceQueue and Cleaner</a> by Christophe Nasarre</li>
+</ul>
+<h3>References</h3>
+<p><a href="https://www.baeldung.com/java-phantom-reference">https://www.baeldung.com/java-phantom-reference</a><br />
+<a href="https://www.logicbig.com/tutorials/core-java-tutorial/gc/phantom-reference.html">https://www.logicbig.com/tutorials/core-java-tutorial/gc/phantom-reference.html</a><br />
+<a href="https://stackoverflow.com/questions/53822132/java-phantomreference-vs-finalize">https://stackoverflow.com/questions/53822132/java-phantomreference-vs-finalize</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://tooslowexception.com/do-we-need-jvms-phantomreference-in-net/feed/</wfw:commentRss>
+		<slash:comments>8</slash:comments>
+		</item>
+	</channel>
+</rss>

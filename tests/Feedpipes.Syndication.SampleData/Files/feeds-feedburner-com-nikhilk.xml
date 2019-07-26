@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+  <channel>
+    <lastBuildDate>Wed, 23 Mar 2016 09:35:28 +0000</lastBuildDate>
+    <copyright>Copyright (c) 2013, Nikhil Kothari</copyright>
+    <link>http://www.nikhilk.net</link>
+    <title>Nikhil's Blog Feed</title>
+    <description>Nikhil's Blog Feed</description>
+    
+  
+  <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/nikhilk" /><feedburner:info uri="nikhilk" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/2.0/</creativeCommons:license><item>
+    <guid isPermaLink="false">http://www.nikhilk.net/blog/cloud-datalab-dataproc/</guid>
+    <link>http://feedproxy.google.com/~r/nikhilk/~3/wk1a2W1BkY4/</link>
+    <comments>http://www.nikhilk.net/blog/cloud-datalab-dataproc/#comments</comments>
+    <pubDate>Wed, 14 Oct 2015 00:00:00 +0000</pubDate>
+    <title>Introducing Cloud Datalab and Cloud Dataproc</title>
+    <description>&lt;div&gt;
+        &lt;p&gt;Yesterday, we released &lt;a href="https://cloud.google.com/datalab"&gt;Cloud Datalab&lt;/a&gt; into beta. And just a few weeks back, we released &lt;a href="https://cloud.google.com/dataproc"&gt;Cloud Dataproc&lt;/a&gt; beta. And today new blog post… after something of a long hiatus. :)&lt;/p&gt;
+
+&lt;p&gt;Both of these releases join the family of big data products and services on &lt;a href="https://cloud.google.com"&gt;Google Cloud Platform&lt;/a&gt;, and build on popular tools - Jupyter (aka IPython) and Hadoop/Spark. We’re want to enable people to use familiar tools with Google Cloud easily and simply.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id="cloud-datalab"&gt;Cloud DataLab&lt;/h3&gt;
+
+&lt;figure class="rightfloat"&gt;
+  &lt;p&gt;&lt;img src="/content/blog/datalabHexagon.png" alt="Cloud Datalab" /&gt;&lt;/p&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Cloud Datalab builds on Jupyter, aka IPython, and interactive notebooks, for data exploration, analysis and visualization.&lt;/p&gt;
+
+&lt;figure class="left"&gt;
+  &lt;p&gt;&lt;img src="/content/blog/datalabIntro.png" alt="Cloud Datalab" /&gt;&lt;/p&gt;
+  &lt;figcaption&gt;BigQuery SQL, Python Pandas, and Matplotlib - from data to insight&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Cloud Datalab is on GitHub as an &lt;a href="https://github.com/GoogleCloudPlatform/datalab"&gt;open source project&lt;/a&gt;. We’re just getting started and are actively working on the project, so be sure to watch it for updates. Or fork it to work on a contribution.&lt;/p&gt;
+
+
+        &lt;hr /&gt;
+        &lt;a href="http://www.nikhilk.net/blog/cloud-datalab-dataproc/"&gt;Read more or Comment...&lt;/a&gt;
+      &lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/nikhilk/~4/wk1a2W1BkY4" height="1" width="1" alt=""/&gt;</description>
+  <feedburner:origLink>http://www.nikhilk.net/blog/cloud-datalab-dataproc/</feedburner:origLink></item>
+  
+  <item>
+    <guid isPermaLink="false">http://www.nikhilk.net/photos/fall-in-the-northwest/</guid>
+    <link>http://feedproxy.google.com/~r/nikhilk/~3/zx33fll2KNM/</link>
+    <comments>http://www.nikhilk.net/photos/fall-in-the-northwest/#comments</comments>
+    <pubDate>Sat, 30 Nov 2013 00:00:00 +0000</pubDate>
+    <title>Fall in the Northwest</title>
+    <description>&lt;div&gt;
+        &lt;figure class="leftfloat photo"&gt;
+  &lt;img src="http://farm8.staticflickr.com/7350/11123197924_982ce2334a_n.jpg" alt="Fiery Red Leaves" /&gt;
+&lt;/figure&gt;
+&lt;p&gt;Some photos from the fall of 2013, featuring the splash of reds, yellows and oranges against the backdrop of
+evergreens. These were clicked along Highway 2 on the way to Leavenworth.&lt;/p&gt;
+
+
+        &lt;hr /&gt;
+        &lt;a href="http://www.nikhilk.net/photos/fall-in-the-northwest/"&gt;Read more or Comment...&lt;/a&gt;
+      &lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/nikhilk/~4/zx33fll2KNM" height="1" width="1" alt=""/&gt;</description>
+  <feedburner:origLink>http://www.nikhilk.net/photos/fall-in-the-northwest/</feedburner:origLink></item>
+  
+  <item>
+    <guid isPermaLink="false">http://www.nikhilk.net/blog/noogler-at-google/</guid>
+    <link>http://feedproxy.google.com/~r/nikhilk/~3/ebT14o_HW84/</link>
+    <comments>http://www.nikhilk.net/blog/noogler-at-google/#comments</comments>
+    <pubDate>Fri, 15 Nov 2013 00:00:00 +0000</pubDate>
+    <title>Noogler at Google</title>
+    <description>&lt;div&gt;
+        &lt;p&gt;Earlier this month, I began my new gig at Google. So I’m now officially a “noogler” (new Googler), with the propeller hat that goes along with the title.&lt;/p&gt;
+
+&lt;p&gt;My first week was the customary orientation week down in Mountain View. I am now back to Seattle and have joined the team at Kirkland working on Cloud and Developer infrastructure space (not surprising) that builds developer tools and experiences to provide the back-end infrastructure powering Google development and developers on the Google’s cloud platform. Its going to be exciting time to be in this space at Google, as its cloud offering grows up, and being a part of that.&lt;/p&gt;
+
+&lt;p&gt;Of course, its still super early for me, and I’m looking forward to exactly which project I’ll be focusing on. I strongly believe in doing concrete stuff and shipping. At the same time, I am also looking forward to learning a whole bunch - whether its technologies, different perspectives, and more (there is just so much), as well as exploring things in the works already before pitching in some ideas I’d love to see come through. Exciting times ahead! As things progress, and settle, I hope to be able to write and share more of the specifics.&lt;/p&gt;
+
+&lt;p&gt;I waited a bit to post this (ok, just couple of weeks) to share first impressions, but some things that stood out for me during this short time:&lt;/p&gt;
+
+
+        &lt;hr /&gt;
+        &lt;a href="http://www.nikhilk.net/blog/noogler-at-google/"&gt;Read more or Comment...&lt;/a&gt;
+      &lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/nikhilk/~4/ebT14o_HW84" height="1" width="1" alt=""/&gt;</description>
+  <feedburner:origLink>http://www.nikhilk.net/blog/noogler-at-google/</feedburner:origLink></item>
+  
+  <item>
+    <guid isPermaLink="false">http://www.nikhilk.net/blog/time-for-change/</guid>
+    <link>http://feedproxy.google.com/~r/nikhilk/~3/Cr0ldBwBcAk/</link>
+    <comments>http://www.nikhilk.net/blog/time-for-change/#comments</comments>
+    <pubDate>Tue, 22 Oct 2013 00:00:00 +0000</pubDate>
+    <title>Time for Change</title>
+    <description>&lt;div&gt;
+        &lt;p&gt;I am &lt;em&gt;finally&lt;/em&gt; resurrecting my blog… and hope to get back into posting from time to time.&lt;/p&gt;
+
+&lt;p&gt;Its actually a time for a bigger change for me personally. As you might notice from my short about blurb below, and for those who have known me, I have decided to move on to the next step in my career after a long, and awesome journey at Microsoft.&lt;/p&gt;
+
+
+        &lt;hr /&gt;
+        &lt;a href="http://www.nikhilk.net/blog/time-for-change/"&gt;Read more or Comment...&lt;/a&gt;
+      &lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/nikhilk/~4/Cr0ldBwBcAk" height="1" width="1" alt=""/&gt;</description>
+  <feedburner:origLink>http://www.nikhilk.net/blog/time-for-change/</feedburner:origLink></item>
+  
+  </channel>
+</rss>

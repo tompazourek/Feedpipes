@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><description></description><title>cyberhoboing with dominic tarr</title><generator>Tumblr (3.0; @dominictarr)</generator><link>https://dominictarr.com/</link><item><title>fairly tale cryptography 2: hashes</title><description>&lt;p&gt;In &amp;ldquo;cinderella&amp;rdquo; a young woman living in unfortunate circumstances who&amp;rsquo;s situation suddenly changes, when a magical entity appears and gives her a make-over, allowing her to attend a fancy ball at where the local prince falls in love with her &amp;ndash; but must hastily depart before the magic wears off&amp;hellip; and looses a shoe, which happens to be made of glass.&lt;/p&gt;
+
+&lt;p&gt;The prince doesn&amp;rsquo;t write to the &amp;ldquo;missed connections&amp;rdquo; column, because it&amp;rsquo;s medieval times and Cinderella is most likely illiterate. Instead he sends out his people to test everyone and find the person whom the shoe fits.&lt;/p&gt;
+
+&lt;p&gt;In this story, the shoe behaves exactly like a &lt;em&gt;hash&lt;/em&gt;. A hash is a small value that reflects the uniqueness of an file, But does not give you any other clues about the file.&lt;/p&gt;
+
+&lt;p&gt;A hash might usually looks something like this: &lt;code&gt;ebd8581d6cea19558023b851fbdf599a5044b446&lt;/code&gt; Just a seemingly random sequence of numbers and letters. There is nothing obviously indicative of a particular file in the output, yet if the file is changed by even one letter, it will have a &lt;em&gt;completely different&lt;/em&gt; hash.&lt;/p&gt;
+
+&lt;p&gt;If you have that file (&amp;ldquo;Cinderella&amp;rdquo;) you can create that hash (a glass shoe that fits her) but you cannot go back the other way (you cannot create a Cinderella from the shoe!). Possessing the shoe also does not tell you where Cinderella &lt;em&gt;is&lt;/em&gt; Possesing the shoe does not allow the prince to home in on her location - it does not give clues like &amp;ldquo;warmer&amp;rdquo; or &amp;ldquo;colder&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;But what the shoe does do, is it allows the prince to know when he has found her.
+The prince can send someone out to take the shoe to every woman in the kingdom, and test if each one fits the shoe. A hash works exactly like this! If you know the hash, you can check whether any file produces the same hash. But if you only know the hash, and are looking for the file, it may be very hard to find that file.&lt;/p&gt;
+
+&lt;p&gt;What happens if the shoe fits someone else? In modern times, shoes are made in factories to standard sizes, but in medieval times, your shoes would have been handmade to fit your feet, and then worn in to your feet on top of that. If you imagine it from that perspective, it seems more reasonable that the shoe uniquely fits Cinderella, but indeed it is certainly possible that there is different person with the same feet as cinderella, it&amp;rsquo;s just extremely unlikely.&lt;/p&gt;
+
+&lt;p&gt;Again, this is exactly like a hash. The since the hash is often smaller than the file, there are obviously more possible files than hashes, so it&amp;rsquo;s entirely possible that there are two possible files that have the same hash, but there are already so many possible hashes (given 40+characters) that the chance of ever finding two files with the same hash is so low that it will basically never happen. Not before you and everyone you know is dead, or maybe not before the sun swallows the earth. Basically, with a well designed hash, we have much bigger things to worry about than hashes colliding, and if we are worried, we can just use a longer hash.&lt;/p&gt;
+
+&lt;p&gt;So there you go, hashes explained via a fairy tale you already know.
+Also see part 1: &lt;a href="http://dominictarr.com/post/106497926352/asymmetric-cryptography-works-like-magic"&gt;rumplestiltskin as bitcoin&lt;/a&gt;&lt;/p&gt;</description><link>https://dominictarr.com/post/154769946347</link><guid>https://dominictarr.com/post/154769946347</guid><pubDate>Wed, 21 Dec 2016 17:24:05 +0000</pubDate></item><item><title>Video</title><description>&lt;iframe width="400" height="225"  id="youtube_iframe" src="https://www.youtube.com/embed/JolzQo8iLaY?feature=oembed&amp;enablejsapi=1&amp;origin=https://safe.txmblr.com&amp;wmode=opaque" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;br/&gt;&lt;br/&gt;</description><link>https://dominictarr.com/post/153820681097</link><guid>https://dominictarr.com/post/153820681097</guid><pubDate>Tue, 29 Nov 2016 15:14:53 +0000</pubDate></item><item><title>Video</title><description>&lt;iframe width="400" height="225"  id="youtube_iframe" src="https://www.youtube.com/embed/Z8tfpRr1Hu8?feature=oembed&amp;enablejsapi=1&amp;origin=https://safe.txmblr.com&amp;wmode=opaque" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;br/&gt;&lt;br/&gt;</description><link>https://dominictarr.com/post/153820665612</link><guid>https://dominictarr.com/post/153820665612</guid><pubDate>Tue, 29 Nov 2016 15:14:28 +0000</pubDate></item><item><title>Design Challenges of Decentralized Systems (at Data Terra Nemo)</title><description>&lt;iframe width="400" height="225"  id="youtube_iframe" src="https://www.youtube.com/embed/_3eBT46vkaI?feature=oembed&amp;enablejsapi=1&amp;origin=https://safe.txmblr.com&amp;wmode=opaque" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;Design Challenges of Decentralized Systems (at Data Terra Nemo)&lt;/p&gt;</description><link>https://dominictarr.com/post/153820561452</link><guid>https://dominictarr.com/post/153820561452</guid><pubDate>Tue, 29 Nov 2016 15:10:41 +0000</pubDate></item><item><title>pull streams
+
+pull-streams are a very simple streaming primitive,
+but can do everything that streams...</title><description>&lt;h1&gt;pull streams&lt;/h1&gt;
+
+&lt;p&gt;pull-streams are a very simple streaming primitive,
+but can do everything that streams need to do,
+from back pressure to propagating errors (which node streams do not support!)&lt;/p&gt;
+
+&lt;p&gt;You can use them to write any application or system you might
+use node for, but they are also great for simple realtime data
+processing - like &lt;code&gt;Array.map&lt;/code&gt; but now you can easily do it on
+async &amp;ndash; realtime &amp;ndash; sequences of data. Things that would be
+cumbersome to do with node streams.&lt;/p&gt;
+
+&lt;h2&gt;sources&lt;/h2&gt;
+
+&lt;p&gt;The first pull stream you&amp;rsquo;ll meet is &lt;code&gt;values&lt;/code&gt;, it creates
+a pull-stream from an array.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;function values(array) {
+  var i = 0
+  return function (abort, cb) {
+    if(abort) return cb(abort)
+    return cb(i &amp;gt;= array.length ? true : null, array[i++])
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;That&amp;rsquo;s it. &lt;code&gt;values&lt;/code&gt; is a &lt;em&gt;source&lt;/em&gt; pull-stream. A source stream
+is just an async function that you may call repeatedly.
+If you call with the first argument as &lt;code&gt;true&lt;/code&gt; or an error,
+that tells the stream to abort, but we&amp;rsquo;ll come back to that later.&lt;/p&gt;
+
+&lt;p&gt;Otherwise, each time you call the stream, it calls back with the
+next item in the array. When all the items have been returned,
+the first argument will be &lt;code&gt;true&lt;/code&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;this is because err and end both are the terminal state of
+  the stream: they both mean that nothing more is coming&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2&gt;sinks&lt;/h2&gt;
+
+&lt;p&gt;data comes out of sources and goes into sinks. Where a source
+is a function you call repeatedly, a &lt;em&gt;sink&lt;/em&gt; is a function you pass
+a &lt;em&gt;source&lt;/em&gt; to.&lt;/p&gt;
+
+&lt;p&gt;Here is a simple sink that dumps a pull-stream to the console.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;function log () {
+  return function (read) {
+    read(null, function next (end, data) {
+      if(end == true) return
+      else if(end) throw end //error
+      console.log(data)
+      read(null, next) //loop again.
+    })
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;code&gt;log&lt;/code&gt; creates a function that accepts a source - i.e. a read function.
+it then calls that read function, and if it doesn&amp;rsquo;t give an &amp;ldquo;end&amp;rdquo;
+or &amp;ldquo;error&amp;rdquo; signal, then it reads again.&lt;/p&gt;
+
+&lt;p&gt;Other stream apis such as node.js streams have the concept of
+a &amp;ldquo;writable&amp;rdquo; stream. A writable is a passive object that accepts
+data, like a couch-potato watching the TV. They must actively use the TV remote
+to send an explicit signal to the TV when they want to stop or
+slow down.
+A pull-stream sink is a reader. it is like a book-worm reading a
+book - they are active and can read faster or slower.
+They don&amp;rsquo;t need to send an explicit signal to slow down, they just act slower.&lt;/p&gt;
+
+&lt;p&gt;you could combine these two streams like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;log() (values([1,2,3]))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;output:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;1
+2
+3
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Normally, we are used to reading code from left to right,
+  so seeing &lt;code&gt;log&lt;/code&gt; before &lt;code&gt;values&lt;/code&gt; is a bit weird, when the data
+  is coming out of &lt;code&gt;values&lt;/code&gt;, but we&amp;rsquo;ll come back to that.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Since pull-streams use an async call, we get two way back pressure.
+The source can slow the stream down by calling back slower.
+And the sink can slow the stream down by waiting longer until
+they call read again.&lt;/p&gt;
+
+&lt;p&gt;Slowing down is imporant, because that is how you save resource.
+software performance is like loosing weight, not building muscles.
+To go faster you must do less. Streams are about doing less,
+and about not doing things you don&amp;rsquo;t need to do yet.&lt;/p&gt;
+
+&lt;h2&gt;throughs/transforms&lt;/h2&gt;
+
+&lt;p&gt;Often we want to transform data, we might split a file
+into lines, or parse objects out of json, or look for matches.&lt;/p&gt;
+
+&lt;p&gt;for that we need a stream which is both a &lt;em&gt;source&lt;/em&gt; and a &lt;em&gt;sink&lt;/em&gt;.
+here is a &lt;em&gt;through&lt;/em&gt; stream that takes applies a function to the
+data in the stream.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;function map (fn) {
+  return function (read) {
+    return function (abort, cb) {
+      read(abort, function (end, data) {
+        if(end) cb(end)
+        else cb(null, fn(data))
+      })
+    }
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;A &lt;em&gt;through&lt;/em&gt; stream is just a &lt;em&gt;sink&lt;/em&gt; stream that returns a
+&lt;em&gt;source&lt;/em&gt; stream. You can think of it as transforming that stream.&lt;/p&gt;
+
+&lt;p&gt;if we put these streams to gether it would look like this.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var vs = values([2,4,6])
+var ms = map(function (e) { return e*10 })
+var ls = log()
+
+ls(ms(vs))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;output:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;  20
+  40
+  60
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;A through stream is both a source and a sink but also neither.
+To the source, the through seems like a sink, but it&amp;rsquo;s really
+just proxying the sink behind it. To the sink, the through is
+a source, but it&amp;rsquo;s really just transforming the values that
+the source gives it. This means through streams are very cheap.
+They don&amp;rsquo;t need to add their own back pressure, but they allow
+the source/sink back pressure to flow through them.&lt;/p&gt;
+
+&lt;p&gt;Now, we don&amp;rsquo;t like reversing our thinking from left to right
+to right to left. lets fix that.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;function pull() {
+  var stream = arguments[0]
+  //detect a sink (or through)
+  if(stream.length === 1) {
+    var args = [].slice.call(arguments)
+    return function (read) {
+      return pull.apply(null, [read].concat(args))
+    }
+  }
+  for(var i = 1; i 0) read(abort, cb)
+      else      read(true, cb)
+    }
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;code&gt;take&lt;/code&gt; doesn&amp;rsquo;t change the incoming data, but after you have
+called it &lt;code&gt;n&lt;/code&gt; times (&lt;code&gt;n&lt;/code&gt; is decremented until it&amp;rsquo;s zero)
+and then on the next call it calls &lt;code&gt;read&lt;/code&gt; with &lt;code&gt;true&lt;/code&gt;
+as the first argument. If you check back at &lt;code&gt;values&lt;/code&gt;,
+if the first argument is &lt;code&gt;true&lt;/code&gt;, then it just calls back immediately.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;map&lt;/code&gt; doesn&amp;rsquo;t need to handle this case specially, it just passes
+it through.&lt;/p&gt;
+
+&lt;p&gt;that means we can do things like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;pull(
+  values([1,2,3,4,5,6,7]),
+  map(function (e) { return e*e })
+  take(4),
+  log()
+)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;output:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;1
+4
+9
+16
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;when &lt;code&gt;take&lt;/code&gt; decides to stop reading, it passes that on
+to the source end of the stream and they can stop too.
+If there was work they where gonna do, they wont need to do it now.
+This property is known as &lt;em&gt;lazyness&lt;/em&gt;. pull-streams are very lazy.&lt;/p&gt;
+
+&lt;p&gt;Because lazyness means we don&amp;rsquo;t do any work until we know we&amp;rsquo;ll
+need to, we can commit to work that we know we&amp;rsquo;ll never do!
+like, we can have an infinite stream.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;function random () {
+  return function (abort, cb) {
+    cb(abort, abort || Math.random())
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;code&gt;random&lt;/code&gt; creats and infinite stream of random values.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;pull(random(), take(5), log())
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;the output will look like:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;0.16838359273970127
+0.10774739156477153
+0.6401788892690092
+0.24491786980070174
+0.7873906309250742
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Aborting an infinite stream is fun, but in real life
+there are lots of reasons for aborting a stream.
+maybe you are uploading a file, and the wifi goes down
+(now there is no where to send that file)&lt;/p&gt;
+
+&lt;p&gt;maybe you are running a server with many clients downloading
+files, if some of those clients break, you need to clean up
+after them otherwise you will get a &lt;a href="https://github.com/nodejs/node/issues/1834"&gt;resource leak&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Sometimes a stream needs to stop in the middle, maybe
+a parser has found an error.&lt;/p&gt;
+
+&lt;h2&gt;expanding or shrinking streams&lt;/h2&gt;
+
+&lt;p&gt;sometimes we have a stream of big chunks that we want to break into
+small chunks (say, pages into lines) this means few items become many.
+On the other hand, we may want to filter out lines that don&amp;rsquo;t match
+some pattern or property - here we turn many into few.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;flatmap&lt;/code&gt; takes a function that returns an array,
+and outputs a stream of the items in returned arrays.
+(note, the array could have zero or more items!)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;function flatmap (fn) {
+  var queue = []
+  return function (read) {
+    return function again (abort, cb) {
+      if(abort)        return read(abort, cb)
+      if(queue.length) return cb(null, queue.shift())
+
+      read(null, function (err, data) {
+        if(err) return cb(err)
+        queue = fn(data)
+        again(null, cb) //cb or read again if queue is empty.
+      })
+    }
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This gives us expanding or contracting streams!
+The trick is to maintain a queue of the current state,
+and on the next read, read from that instead of asking the source.
+If &lt;code&gt;fn&lt;/code&gt; returns an empty stream, the oppositie happens,
+the source is possibly consulted many times without passing an
+answer through to the sink.&lt;/p&gt;
+
+&lt;hr&gt;&lt;p&gt;Notice that we have not installed &lt;em&gt;any dependencies&lt;/em&gt;, or even
+imported any libraries. We have acomplished a lot, and without
+writing a function longer than 20 lines!
+I&amp;rsquo;m not pulling your leg, the code we have written is completely
+valid pull-streams, without bugs.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;one small lie: log() will get a stack overflow if you use it
+  on a long synchronous source stream, but will be fine with an async stream.
+  use &lt;code&gt;drain&lt;/code&gt; in the pull-stream module to get around this.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;pull-streams are just a pattern. There are many modules
+that implement particular pull streams,
+but you can write a useful pull-stream without using them.
+many pull-stream modules don&amp;rsquo;t depend on other pull-streams,
+except maybe for testing.&lt;/p&gt;
+
+&lt;p&gt;That is how pull-streams work (except we havn&amp;rsquo;t gone into any
+detail about duplex stream - which are distinct from transform streams)
+but the best thing about pull-streams is that they are very
+easy to compose and it is very easy to write modules for
+and reuse those modules and so there are many pull-stream modules.&lt;/p&gt;
+
+&lt;p&gt;The most useful pull-streams are being curated into the
+&lt;a href="https://github.com/pull-stream/pull-stream"&gt;pull-stream&lt;/a&gt;
+github org.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://gist.github.com/dominictarr/fd1ab77564ef38be430468f9c293aa8c"&gt;source for thes post as git repo&lt;/a&gt;&lt;/p&gt;</description><link>https://dominictarr.com/post/149248845122</link><guid>https://dominictarr.com/post/149248845122</guid><pubDate>Sun, 21 Aug 2016 03:02:26 +0100</pubDate></item><item><title>History Of Streams</title><description>&lt;h1&gt;The history of streams&lt;/h1&gt;
+
+&lt;h2&gt;contents&lt;/h2&gt;
+
+&lt;ul&gt;&lt;li&gt;prehistory (streams before a stream api)&lt;/li&gt;
+&lt;li&gt;streams 1&lt;/li&gt;
+&lt;li&gt;summer of streams, userland vs core&lt;/li&gt;
+&lt;li&gt;streams2 (one step forward, 2 steps back)&lt;/li&gt;
+&lt;li&gt;streams3&lt;/li&gt;
+&lt;li&gt;conclusion&lt;/li&gt;
+&lt;/ul&gt;&lt;h2&gt;prehistory&lt;/h2&gt;
+
+&lt;p&gt;in node.js&amp;rsquo;s early days back in 2010, the node.js website featured an example of a tcp echo server.&lt;/p&gt;
+
+&lt;p&gt;on &lt;a href="https://web.archive.org/web/20100209075345/http://nodejs.org/"&gt;feb 9th, 2010&lt;/a&gt; the tcp stream&amp;rsquo;s
+events were named &amp;ldquo;receive&amp;rdquo; and &amp;ldquo;eof&amp;rdquo;. Shorly later, by &lt;a href="https://web.archive.org/web/20100218041736/http://nodejs.org/"&gt;feb 18th, 2010&lt;/a&gt;
+those events had been renamed to their current &amp;ldquo;data&amp;rdquo; and &amp;ldquo;end&amp;rdquo;. There was not yet a Stream class,
+just an EventEmitter, but it was recognised that files and tcp sockets, etc were basically the
+same and a convention had developed.&lt;/p&gt;
+
+&lt;p&gt;This is the birth of node&amp;rsquo;s most important api, the &lt;em&gt;Stream&lt;/em&gt;.
+But things were just beginning to take form.&lt;/p&gt;
+
+&lt;p&gt;Although it never appeared on the website, in
+&lt;a href="https://github.com/nodejs/node-v0.x-archive/blob/v0.2/lib/sys.js#L325-L371"&gt;nodejs@0.2&lt;/a&gt;
+the &lt;code&gt;sys&lt;/code&gt; module (now the &lt;code&gt;util&lt;/code&gt; module) featured a &lt;code&gt;pump&lt;/code&gt; method.
+by the time of &lt;a href="https://web.archive.org/web/20110224122057/http://nodeconf.com/"&gt;the first node conference&lt;/a&gt;
+there was a base class for Stream and &lt;code&gt;sys.pump(readStream, writeStream, callback)&lt;/code&gt; had become
+&lt;code&gt;readStream.pipe(writeStream)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;By node@0.4 stream was now well cemented in the node.js api, but it wasn&amp;rsquo;t until
+&lt;a href="https://github.com/nodejs/node-v0.x-archive/pull/1303"&gt;pipe becomes chainable&lt;/a&gt;
+that it feels like the node.js streams as we know it.&lt;/p&gt;
+
+&lt;p&gt;Around this time the streams was beginning to get popular.
+When I discovered streams and realized they would be useful,
+I wrote &lt;a href="http://github.com/dominictarr/event-stream"&gt;event-stream&lt;/a&gt;
+which applied streams to a use similar to
+&lt;a href="https://en.wikipedia.org/wiki/Functional_reactive_programming"&gt;Functional Reactive Programming&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I convinced substack and Max Ogden how useful streams were,
+and then they convinced everyone else.&lt;/p&gt;
+
+&lt;p&gt;Streams had been created by the core node developers,
+but they were then adopted by userspace - by people who
+maybe didn&amp;rsquo;t contribute much to node&amp;rsquo;s core,
+but did contribute greatly to node&amp;rsquo;s ecosystem.&lt;/p&gt;
+
+&lt;p&gt;These two groups had slightly different interpretations
+of what a stream was. Mainly, the core developers intended
+streams to &lt;em&gt;only&lt;/em&gt; be applied to raw data. The core interpretation
+was that stream could be buffers or strings - but the userland
+interpretation was that a stream could be anything that is serializeable
+- anything that could &lt;em&gt;become&lt;/em&gt; buffers or strings.&lt;/p&gt;
+
+&lt;p&gt;My argument was that you needed all the features of streams,
+passing items one at a time, possibly with an eventual end or error
+wether it was a sequence of buffers, bytes, strings or objects.
+Why not use the same api? If javascript was strictly typed,
+we never would have had this argument, but javascript didn&amp;rsquo;t care
+and the streams code at that time was agnostic - it worked just
+the same with objects as it did with strings.&lt;/p&gt;
+
+&lt;h2&gt;problems with early node streams.&lt;/h2&gt;
+
+&lt;p&gt;Streams were recognised as a powerful abstraction, but also
+difficult to use. One main difficulty was that data started flowing
+through streams as soon as you created them. Once you had a stream,
+had to pipe it somewhere before you did anything async.&lt;/p&gt;
+
+&lt;p&gt;This problem was exacerbated by the fact that the &lt;code&gt;pause&lt;/code&gt; method
+was only &lt;em&gt;advisory&lt;/em&gt;, it did not mean that data would stop flowing
+immediately.&lt;/p&gt;
+
+&lt;p&gt;There were also generally just too many things you had to get
+right for streams to work - not only did you have to implement
+&lt;code&gt;write&lt;/code&gt; &lt;code&gt;end&lt;/code&gt; and events &lt;code&gt;'data'&lt;/code&gt; &lt;code&gt;'end'&lt;/code&gt; and then there was the
+(still controversial) &lt;code&gt;destroy&lt;/code&gt; methods and &lt;code&gt;'close'&lt;/code&gt; events.&lt;/p&gt;
+
+&lt;p&gt;I had written &lt;a href="https://www.npmjs.com/package/pause-stream"&gt;pause-stream&lt;/a&gt;
+to handle the second case, and more importanly &lt;a href="https://github.com/dominictarr/through"&gt;through&lt;/a&gt;.
+Through represented about 11 months worth of myself using streams
+in userland, and I had finally figured out the pattern that was most
+general and easiest to use - from a userland persective 
+(stream authors near core were more likely to implement streams
+that read from or wrote to some device - low level interfaces -
+but userland streams are mostly transformations)&lt;/p&gt;
+
+&lt;p&gt;I had called the module &amp;ldquo;through&amp;rdquo; because I figured that
+input, output&amp;hellip; throughput. it was later pointed out by Isaac
+that &amp;ldquo;through&amp;rdquo; was a common word and &amp;ldquo;transform&amp;rdquo; stream was better
+name. In hindsight, I agree. &lt;code&gt;through&lt;/code&gt; finally made creating streams
+easy, you just had to provide two functions, and all the edge cases
+were handled for you. &lt;code&gt;through&lt;/code&gt; currently has 1601 dependant modules,
+and it&amp;rsquo;s heir, &lt;code&gt;through2&lt;/code&gt; (same api but uses streams2) has 5341 dependents.
+(check with &lt;a href="https://github.com/davidmarkclements/npm-dependents"&gt;npm-dependents&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;Interestingly, I started this a few weeks before isaac
+began developing streams2 - streams2 addressed the problems
+in streams1, but made a much more radical departure from the api.&lt;/p&gt;
+
+&lt;p&gt;streams2 was paused until you called &lt;code&gt;pipe&lt;/code&gt;, and was implemented
+around a &lt;code&gt;read(n)&lt;/code&gt; function. &lt;code&gt;read&lt;/code&gt; took an optional number of bytes,
+and would return a buffer with that many bytes in it.
+This was intended to be useful for implementing parsers,
+but to use it you had to have a handle on the stream directly,
+because &lt;code&gt;pipe&lt;/code&gt; didn&amp;rsquo;t give you a way to specify a number of bytes.&lt;/p&gt;
+
+&lt;p&gt;streams2 was much more complicated than streams1, but worse,
+it was backwards compatible with streams1 (although streams1
+was considered &amp;ldquo;legacy&amp;rdquo;)&lt;/p&gt;
+
+&lt;p&gt;streams1 was a readable 100 lines or so, and I read it many times,
+but by the time streams2 was ready to go into node@0.10,
+the main class: Readable, was &lt;a href="https://github.com/nodejs/readable-stream/blob/v1.0.0/lib/_stream_readable.js"&gt;over 800 lines&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;During streams2 development the &lt;a href="https://github.com/nodejs/readable-stream/issues/11"&gt;are-objects-data argument was
+settled&lt;/a&gt;
+with streams of objects officially sanctioned in the api
+(which would have otherwise excluded their possibility)&lt;/p&gt;
+
+&lt;h2&gt;problems with streams2&lt;/h2&gt;
+
+&lt;p&gt;All these changes in streams were causing their own problems,
+but one good move was developing streams2 in it&amp;rsquo;s own repository.
+This made it possible for those interested to depend on streams2
+and test it out without having to use a fork of node.&lt;/p&gt;
+
+&lt;p&gt;Indeed, if you use &lt;code&gt;through2&lt;/code&gt; (and you very likey do use it,
+maybe because a module you use uses it) then you depend on that
+readable-stream repo. Although it&amp;rsquo;s built into node,
+the version in the repo is more cross version compatible.
+Modules that use readable-stream still work in old versions
+of node that did may not have as modern a version of streams!&lt;/p&gt;
+
+&lt;p&gt;Once the initial difficulties of piping new streams and
+getting friendlier apis for stream creation were surmounted,
+new problems emerged. There is a growing awareness that
+errors need to be propagated somehow. In this (&lt;em&gt;open&lt;/em&gt;)
+issue, it&amp;rsquo;s shown that &lt;a href="https://github.com/nodejs/node/issues/1834"&gt;a naive http file server will have a file
+descriptor leak&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;To prevent that, you need to have a handle on both the source
+fs stream, and the destination stream that errored, not to mention
+a detailed understanding of how node streams function.&lt;/p&gt;
+
+&lt;p&gt;This is an open issue, and not even the iojs revolution could fix it.
+This would most surely be a breaking change, and so changing
+how core streams worked would be very difficult.&lt;/p&gt;
+
+&lt;p&gt;There is an &lt;a href="https://github.com/mafintosh/pump"&gt;approach in userland&lt;/a&gt;
+(that harkens back to &lt;code&gt;sys.pump&lt;/code&gt;!)&lt;/p&gt;
+
+&lt;p&gt;There was one serious proposal to add &lt;a href="https://github.com/nodejs/node-v0.x-archive/pull/8306"&gt;error propagation&lt;/a&gt; to node streams. But the difficulty of providing backwards compatibilty made it untenable.&lt;/p&gt;
+
+&lt;h2&gt;streams 3&lt;/h2&gt;
+
+&lt;p&gt;The version of streams now in contemporary node@5 is considered
+streams3. it&amp;rsquo;s a significant refactor from streams2, but,
+is still backwards compatible. While it still supports &lt;code&gt;streams2#read(n)&lt;/code&gt;
+that behavior is not activated until you &lt;a href="https://github.com/nodejs/node/blob/master/lib/_stream_readable.js#L694-L706"&gt;trigger it by using
+it in a streams2&lt;/a&gt; style. If you just use streams normally,
+via &lt;code&gt;source.pipe(dest)&lt;/code&gt; then it works basically like
+streams1 &lt;a href="https://github.com/nodejs/node/blob/master/lib/_stream_readable.js#L479-L612"&gt;streams3.pipe&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If streams1 is &lt;em&gt;classic streams&lt;/em&gt; and streams2 is &lt;em&gt;new streams&lt;/em&gt;
+then streams3 is &lt;em&gt;vintage streams&lt;/em&gt;. It&amp;rsquo;s old, but it&amp;rsquo;s new.
+But the sad thing, is that now it&amp;rsquo;s still too complex,
+because of features picked up during the streams2 detour.&lt;/p&gt;
+
+&lt;h1&gt;stream 4? no.&lt;/h1&gt;
+
+&lt;p&gt;If node streams teach us anything, it&amp;rsquo;s that it&amp;rsquo;s very difficult
+to develop something as fundamental as streams inside a &amp;ldquo;core&amp;rdquo;
+you can&amp;rsquo;t change core without breaking things, because things
+simply assume core and never declare what aspects of core they
+depend on. Hence a very strong incentive occurs to simply make
+core always be backwards compatible, and to focus only on performance
+improvements. This is still a pretty good thing, except sometimes
+decisions get inadvertently made that have negative implications,
+but that isn&amp;rsquo;t apparent until it&amp;rsquo;s too late. In this situation,
+a clean break is necessary - node.js itself is a great example of this.
+node created a IO performance improvement over previous dynamic
+languages (perl, ruby, python) because node was able to abandon
+threads and blocking, and write an entire stack from scratch.&lt;/p&gt;
+
+&lt;p&gt;But, usability problems with streams1 stopped us from seeing
+the need for error propagation until it was too late,
+and now node&amp;rsquo;s success has created it&amp;rsquo;s own obstacle for further
+improvement.&lt;/p&gt;
+
+&lt;p&gt;Streams are one of the best things about node, but they are
+still quite difficult to use, and they still have room for improvement.
+But that improvement cannot be made while they are a part of node.js core.&lt;/p&gt;
+
+&lt;p&gt;to be continued in part two.&lt;/p&gt;</description><link>https://dominictarr.com/post/145135293917</link><guid>https://dominictarr.com/post/145135293917</guid><pubDate>Mon, 30 May 2016 04:37:07 +0100</pubDate></item><item><title>Video</title><description>&lt;iframe width="400" height="225"  id="youtube_iframe" src="https://www.youtube.com/embed/_3eBT46vkaI?feature=oembed&amp;enablejsapi=1&amp;origin=https://safe.txmblr.com&amp;wmode=opaque" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;br/&gt;&lt;br/&gt;</description><link>https://dominictarr.com/post/139016003407</link><guid>https://dominictarr.com/post/139016003407</guid><pubDate>Tue, 09 Feb 2016 23:24:01 +0000</pubDate></item><item><title>Which JS crypto library should I use?</title><description>&lt;p&gt;A friend recently asked me &amp;ldquo;which js crypto library should I use?&amp;rdquo;
+Since this is a question that many people have, I have answered with a blog post.&lt;/p&gt;
+
+&lt;p&gt;There are basically two schools of crypto library.&lt;/p&gt;
+
+&lt;p&gt;There is the openssl school - here you get a library that was built the same crypto as TSL, the most accessable one of these is node.js&amp;rsquo;s crypto module.&lt;/p&gt;
+
+&lt;p&gt;If you are using browserify, then it also works in the browser.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.npmjs.com/package/crypto-browserify"&gt;https://www.npmjs.com/package/crypto-browserify&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This was a project that I started, but it was brought to completion by other contributors. It has a massive download count because it&amp;rsquo;s bundled in browserify - I have no idea how many people are actually using it, but probably lots.&lt;/p&gt;
+
+&lt;p&gt;That is probably what you should use if you are trying to be backwards compatible with a legacy system. But the problem is that all the &lt;em&gt;standards&lt;/em&gt; in  TLS have bugs, and you really need to understand those bugs to not use that in an insecure way. (hint: if the crypto standard has a 3 letter acronym, it has a bug you need to know about ;)&lt;/p&gt;
+
+&lt;p&gt;The other school is NACL. This is what I&amp;rsquo;d recommend if you are building something new, or just learning. NACL is carefully designed so that it&amp;rsquo;s primitves are simple and easy to use and don&amp;rsquo;t have the surprising bugs that openssl school librarys do. Where as TSL has a veritible buffet of options, NACL has only the best option in each category (signing, DH, hashing, authenticated encryption). This is better because you don&amp;rsquo;t have to risk not selecting the best thing. nacl was written by Daniel Bernstien (&amp;ldquo;djb&amp;rdquo;) who is widely revered among crypto hackers. Sometimes a little too revered - he is certainly an influential academic crypto expert - there are quite a few, but I suspect the reason he is so revered is that he actually produces code, and not just papers, making him a lot more useful to the hacker community.&lt;/p&gt;
+
+&lt;p&gt;nacl links:
+&lt;a href="http://nacl.cr.yp.to/"&gt;http://nacl.cr.yp.to/&lt;/a&gt;
+there is a node binding, &lt;a href="http://npm.im/sodium"&gt;http://npm.im/sodium&lt;/a&gt;
+and in the browser you can use
+&lt;a href="https://www.npmjs.com/package/libsodium-wrappers"&gt;https://www.npmjs.com/package/libsodium-wrappers&lt;/a&gt;
+which has been compiled to javascript, and &lt;a href="https://www.npmjs.com/package/tweetnacl"&gt;https://www.npmjs.com/package/tweetnacl&lt;/a&gt;
+which has been handwritten. I maintain &lt;a href="https://npm.im/chloride"&gt;https://npm.im/chloride&lt;/a&gt; which brings together all of these modules with the same api.
+You can use it to fallback to the small handwritten javascript version, or the large but fast js.&lt;/p&gt;
+
+&lt;p&gt;There is actually one more option: modern browsers now have built in crypto support - the WebCrypto api. &lt;a href="https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto"&gt;https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto&lt;/a&gt; This is also a reasonable option for the openssl school. Here is probably the most contraversal part of the advice I&amp;rsquo;m gonna give here: I don&amp;rsquo;t really advise using this. It has a weird api, it uses promises for everything - but the only operation that is so slow it needs to be async is generating RSA keys, or using scrypt or pbkdf2 to strengthen user passwords. But worst, the political process of adding new browser apis is very slow and does not generally result in the best designs. Although WebCrypto is modern, it&amp;rsquo;s already stuck in legacy because it just exposes the openssl style primitives that browsers use to implement TLS. The one argument for this is that it&amp;rsquo;s faster than JS.&lt;/p&gt;
+
+&lt;p&gt;However, what I am more optimistic about is another developing browser technology - ASM.js and web assembly. This allows you to, end of the day, run C within JS efficiently. This will mean that you can just use nacl in the browser and it will be about as fast as webcrypto. But, there are a lot more interests who will benefit from C in JS (games etc) vs a tiny crypto community who is pushing for WebCrypto. My prediction is that the forces of C get us good browser crypto before the WebCrypto committee modernizes itself.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve talked a lot about speed here - this may or may not be a problem for your application. Encrypting a few messages or verifying a few signatures is not gonna be slow enough to really be noticable - unless you have to do it to many messages in realtime. (exception: performance is critical for scrypt/pbkdf2)&lt;/p&gt;
+
+&lt;p&gt;That said and done, the most important question is: What is your motivation? security requires a different sort of thinking than ordinary web development. In short, it requires paranoia. But, a healthy paranoia tempered by a rational evaluation of the actual theats you system faces - more like a survialist, and less like a conspiracy theorist.&lt;/p&gt;
+
+&lt;p&gt;Choosing the right library is merely the first step - but understanding why to make that choice is the most important. To do this you find crypto experts and study &lt;em&gt;why&lt;/em&gt; they make the decisions they do.&lt;/p&gt;
+
+&lt;p&gt;Of course, you can find this every where - and the blogs of things like &lt;a href="https://whispersystems.org"&gt;https://whispersystems.org&lt;/a&gt; &lt;a href="http://www.tor-project.org/"&gt;http://www.tor-project.org/&lt;/a&gt; bitcoin etc are all worth studying, as well as classic papers, such as New Directions in Cryptography &lt;a href="http://citeseer.ist.psu.edu/viewdoc/summary?doi=10.1.1.37.9720"&gt;http://citeseer.ist.psu.edu/viewdoc/summary?doi=10.1.1.37.9720&lt;/a&gt; (which is much more readable than you might expect! before this paper, cryptography is very different, so they had to explain it simply!)&lt;/p&gt;</description><link>https://dominictarr.com/post/133109715357</link><guid>https://dominictarr.com/post/133109715357</guid><pubDate>Fri, 13 Nov 2015 03:29:45 +0000</pubDate></item><item><title>Asymmetric Cryptography: Works Like Magic</title><description>&lt;p&gt;It&amp;rsquo;s a common complaint that cryptography is too hard for regular people to understand - and that all our current cryptographically secure applications are designed for cyborgs and not humans. While the latter charge may well be correct, I argue that the former most certainly isn&amp;rsquo;t, because we have been teaching children the basic security principles behind asymmetric cryptography for probably thousands of years.&lt;/p&gt;
+
+&lt;p&gt;What am I talking about? A fairly tail called &lt;em&gt;Rumplestiltskin, which is actually about bitcoin!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;You probably heard this fairly tale as a child - but let me refresh your memory.&lt;/p&gt;
+
+&lt;p&gt;There is a miller, who drunkenly brags that is daughter can spin straw into gold.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;probably, he was posting about his half baked cryptocurrency ideas on &lt;a href="https://bitcointalk.org"&gt;bitcointalk&lt;/a&gt;, and creating money &amp;ldquo;gold&amp;rdquo; from pointless work &amp;ldquo;spinning straw&amp;rdquo; sounds A LOT like bitcoin mining.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Anyway, the king is very impressed with his story.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;the king is a venture capitalist?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;And wants to see a demonstration, oh and if it doesn&amp;rsquo;t work he will cut off both their heads.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I have not heard about venture capitalists being quite this evil, but it seems some of them are into this &lt;a href="http://techcrunch.com/2013/11/22/geeks-for-monarchy/"&gt;medieval stuff&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Of course, the miller and his daughter don&amp;rsquo;t actually have the ability to create gold by magic, so they are in big trouble! but just then a magic imp appears.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;a hacker, who understands cryptography&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The imp says he can spin straw into gold, but for a price: the daughter&amp;rsquo;s first born child.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;in the modern version he wants her naked selfies&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s a terrible deal, but the alternative is death, so they reluctantly accept.
+The imp spins straw into gold in 3 increasingly dramatic episodes.&lt;/p&gt;
+
+&lt;p&gt;The kind is satisified, and marries the daughter, making her queen.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;their startup is aquired&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;One year later, the first child is born. The imp returns demanding his prize. Because they love their baby, the King and Queen pleads with the imp to get out of the deal. They offer him all their riches, but the imp is not interested! Desperately, they ask is there any other way? any at all?
+The imp replies, &amp;ldquo;Of course not! not unless you can guess my True Name&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;the true name is actually his private key. If they can guess that, the hacker looses his magical power over them&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Okay I will try and guess your name&amp;rdquo; says the Queen. The imp just laughs! &amp;ldquo;you&amp;rsquo;ll never guess it!&amp;rdquo; &amp;ldquo;but I&amp;rsquo;ll give you three days to try!&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;The imp skips off into the forrest, and the queen trys to think of his name for 3 days&amp;hellip; but can&amp;rsquo;t figure it out.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;The queen trys to brute force his private key. but there is not enough compute in the entire kingdom!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;But then, the a messenger is travelling through the forrest, and he happens past a strange little man, dancing around a camp fire, singing:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;ha ha ha!&lt;/em&gt;&lt;br/&gt;&lt;em&gt;te he he!&lt;/em&gt;&lt;br/&gt;&lt;em&gt;they&amp;rsquo;ll never guess my private key!&lt;/em&gt;&lt;br/&gt;&lt;em&gt;just three days! not enough to begin,&lt;/em&gt;&lt;br/&gt;&lt;em&gt;to guess my name is rumplestiltskin!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Being a messenger, he had a good memory for things he heard.
+When he arrived back at the castle, he mentioned the curious story to the queen.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;the hacker had been careless with his private key&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;When the imp arrived in the morning, the queen greeted him by name.
+He was furious! He stamped his foot so hard the ground split open and then he fell into the gaping hole, never to be seen again. The king, queen, baby lived happily ever after, etc, etc.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;they stole all his bitcoin&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr&gt;&lt;p&gt;The simularities between this fairly tale and cryptography is uncanny. It has proof of work, it has private keys, it has an attempted brute force attack, and a successful (if accidental) end point attack. The essential point about your private key is captured successfully: the source of your magic is just a hard to guess secret, and that it&amp;rsquo;s easy to have a hard to guess name, but what gets you in the end is some work around when they steal your key some other way. This is the most important thing.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s not a talisman that can be physically protected, or an inate power you are born with - it&amp;rsquo;s just a name, but it must be an ungessable name, so the weirder the better.&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;rumplestiltskin&amp;rdquo; is the german name for this story, which became wildly known in english after the brothers grim published their collection of folktales in the early 19th century, but according to &lt;a href="http://en.wikipedia.org/wiki/Rumpelstiltskin"&gt;wikipedia&lt;/a&gt; there are versions of this story throughout the europe, and the concept that knowing the true name of a magical creature give one power over it is common in mythology around the world.&lt;/p&gt;
+
+&lt;p&gt;How did the ancients come up with a children&amp;rsquo;s story that quite accurately (and amusingly) explains some of the important things about asymettric cryptography, and yet we moderns did not figure out the math that makes this possible this until the 1970&amp;rsquo;s?&lt;/p&gt;
+
+&lt;p&gt;Since the villian of the story is magical, really they have chosen &lt;em&gt;any&lt;/em&gt; mechanism for the imps magic, why his name? Is this just a coincidence, or was there inspiration?&lt;/p&gt;
+
+&lt;p&gt;The astute reader has probably already guessed, but I think the simplest (and most fun) explaination is the best: &lt;em&gt;extraterrestials with advanced cryptosystems visited earth during prehistory, and early humans didn&amp;rsquo;t really understand how their &amp;ldquo;magic&amp;rdquo; worked, but got the basic idea&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;To be continued in PART 2&amp;hellip;&lt;/p&gt;</description><link>https://dominictarr.com/post/106497926352</link><guid>https://dominictarr.com/post/106497926352</guid><pubDate>Mon, 29 Dec 2014 09:12:00 +0000</pubDate></item><item><title>Social Networks and the Legal Hack</title><description>&lt;p&gt;There have been a bit of fuss on my twitters about ello.co
+a hip new social network that is gonna change everything.
+They are gonna do things right, no ads, and not sell out their users.&lt;/p&gt;
+
+&lt;p&gt;They have a manifesto!&lt;/p&gt;
+
+&lt;p&gt;People are certainly trying it out, but the general vibe
+amongst my friends is that while they are ready for change,
+they are not yet convinced that we are gonna be treated better this time.&lt;/p&gt;
+
+&lt;p&gt;But here is an idea.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Burn their bridges&lt;/em&gt; to advertising as a business model,
+so that they couldn&amp;rsquo;t take advertising even if they wanted to.&lt;/p&gt;
+
+&lt;p&gt;How would you do that? Well, the simplest way would be with a terms of service! A terms of service is a contract with your users.
+Normally, terms of service are designed to protect the rights
+of the service provider. ToS are likely to include phrases such as
+&amp;ldquo;terms may change without notice&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;But it doesn&amp;rsquo;t have to be this way. The open source movement,
+for example, has performed a &lt;em&gt;legal hack&lt;/em&gt; where by they used
+copyright law to undo copyrights. The right to prevent copying becomes the right for anyone to copy. Instead of reserving rights, open source gives them away!&lt;/p&gt;
+
+&lt;p&gt;An open source license might say that you are free to redistribute the code, or even to modify and sell it. It might say that the license must not be changed, or it might say that you can relicense the code.&lt;/p&gt;
+
+&lt;p&gt;This is not a thing that &lt;em&gt;only&lt;/em&gt; opensource can do, services like ello.co and other social networks can also create a contract with their users that protects &lt;em&gt;the users&lt;/em&gt; instead of the service.&lt;/p&gt;
+
+&lt;p&gt;just include a paragraph something like this&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The user maintains ownership of the data they put into ello,
+  including but not limited to content they post, replies to other
+  users, and also metadata such as logs created by interacting
+  with the ello user interface. Access to this material is granted
+  to ello for the purposes of running the site, and to other users that have explicitly solicited that information by &amp;ldquo;following&amp;rdquo; in the user interface. Users have the right to refuse information &amp;ldquo;block&amp;rdquo; other users that have solicited their information.
+  The data may not be passed on or sold to third parties.
+  ello must honestly represent the information solicited by via the user interface, and must not inject spurious information that the user has not specifically solicited, this includes but is not limited to &lt;em&gt;advertising&lt;/em&gt;.
+  ello cannot change the terms of service without explicit
+  consent of the users.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;(Obviously get a real lawyer to write your ToS)&lt;/p&gt;
+
+&lt;p&gt;Something like that. It lays out clearly what ello is allowed to do with your data &lt;em&gt;and metadata&lt;/em&gt;, and it also lays out information ello is to present to you - material created by users you have solicited content from (i.e. followed), and what not to show you, (i.e. advertising)&lt;/p&gt;
+
+&lt;p&gt;It may be too late for ello.co to do this now, since they may already
+have &lt;a href="https://aralbalkan.com/notes/ello-goodbye/"&gt;obligations to their investors&lt;/a&gt; that giving up a potential business model would conflict with.&lt;/p&gt;
+
+&lt;p&gt;But &lt;em&gt;another&lt;/em&gt; social network could certainly do something like this. To my knowledge, such a legal hack has not been executed for a social network, so you might be the first!&lt;/p&gt;</description><link>https://dominictarr.com/post/98462042492</link><guid>https://dominictarr.com/post/98462042492</guid><pubDate>Fri, 26 Sep 2014 12:58:00 +0100</pubDate></item><item><title>Why Software is Important</title><description>&lt;p&gt;A Hypothesis:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The demand for software increases exponentially, each piece of software enables more software. As we get more software,
+  we want more and more.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Before I learned to program, all I wanted to create was a few games. Now that I am much more experienced, and have written a lot of code, I now have so many ideas that I&amp;rsquo;ll probably never be able to implement them all.
+Even if I never have another idea again&amp;hellip;
+As I implement new things I learn new skills and thus get even more ideas.&lt;/p&gt;
+
+&lt;p&gt;Here is a short list of some things I&amp;rsquo;d like to exist:&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;&lt;p&gt;A role playing game where you cast magic spells my typing &amp;ldquo;magic words&amp;rdquo;.
+Except the &amp;ldquo;magic words&amp;rdquo; are actually a programming language, but you won&amp;rsquo;t realize
+you have learned to program until you have gotten good at the game.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;video chat that uses facial recognition to animate a virtual puppet with your expressions.
+If you had eye tracking, you could also animate eye contact.
+When another participant looks directly at your avatar, you should see them make eye contact,
+but another participant should see them looking to the side (just like in physical space)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;An operating system where every application is downloaded over the network and
+runs inside a secure sandbox. Like tabs in a web browser, except native, and with
+fully configurable permissions. Also, like an app-store, but without a central authority
+that rejects applications they dislike.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;An open-source webmail that is as good as gmail.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A system of polyfils so that it&amp;rsquo;s possible to pipe data from the command line directly into
+widgets in a web browser. I want to be able to pipe a csv into a graphing application in a browser,
+even if it&amp;rsquo;s on another computer. I want to be able to write an HTML file, and push deploy it to
+a particular mobile device. I want to be able to &lt;code&gt;tail -f&lt;/code&gt; the status of a check box, and see
+each update as lines of &lt;code&gt;true&lt;/code&gt; and &lt;code&gt;false&lt;/code&gt; in my terminal.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A modular database where you plug together primitive parts that are optimized for a particular type of data,
+(say, mutable data, append only data, graph data, relational data)
+we have begun to explore this idea with level-db. What if you could have a database that profiled itself
+and switched out different underlying data stores depending on how you use it, like how v8 optimizes
+javascript dynamically.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A framework for creating arbitrary applications that are highly secure and are p2p, without a central server.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;An HTML5 map application that works offline (that can replicate areas of the map)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A 2d drafting application that where you select shapes and can use those shapes to describe new shapes,
+say, two points can describe a line, or a circle. and a point and a circle can be used to describe a line
+that passes through the point and is tangential to the circle.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;a secure p2p package manager, like npm (used in the os mentioned above)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A text editor that runs in the terminal, but has all the same keyboard shortcuts as notepad
+(so user interfaces are consistent, and you don&amp;rsquo;t end up like vim users, accidentally hitting
+&lt;code&gt;:wq&lt;/code&gt; to send an email)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A system to describe the behavior of FSMs with a regular-expression-like-DSL
+(regular expressions describe pretty much the same layer of the Chomsky hierarchy as finite state machines,
+but are much more familiar to application developers)
+This could be used to verify the correctness of systems that are both async and stateful
+(something I&amp;rsquo;ve found very difficult to test)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A pure js implementation of node.js&amp;rsquo;s crypto module.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Some of these I have started on already. some of these are less ambitious than the others,
+but all of these would comprise of a considerable number of sub problems, and would also
+lead to new possibilities, and give me new ideas for new programs to write.&lt;/p&gt;
+
+&lt;p&gt;Software does not have a talent drought. The demands for software is increasing faster than
+new humans are learning to code. Even in just a few decades, most parts of the structure
+of society have become computer programs. Between the point that photons hit the camera&amp;rsquo;s
+detectors to when the jpeg is rendered in your browser, the news is all software.
+The banking system is all software. The music you listen to is recorded with software,
+if not made entirely with software.&lt;/p&gt;
+
+&lt;p&gt;Yet, despite all this, the quality of most software leads a lot to be desired.
+If you have had the misfortune to be exposed to the enterprise legacy systems
+you&amp;rsquo;ll know what I mean.&lt;/p&gt;
+
+&lt;p&gt;The biggest problems facing humanity are really software problems.&lt;/p&gt;
+
+&lt;p&gt;Even politics is a software problem. Politicians use spin and scare tactics, instead
+of making decisions based on objectively measurable data - because there is no
+software to facilitate the right kind of data gathering and decision making.&lt;/p&gt;
+
+&lt;p&gt;A lack of education is a problem, because there we the right kind of educational software.&lt;/p&gt;
+
+&lt;p&gt;Currently, humanity stands at a crossroads like never before. Great power and great changes
+are looming on the horizon - genetic engineering, nano technology.
+Yet also great dangers - Climate Change, peak oil, and the fact that western governments
+are getting stupider and more corrupt. We need better software to solve these problems.&lt;/p&gt;
+
+&lt;p&gt;The good news is that we have already figured out how to reliable create high quality software.
+Open Source. Open source has already created all the best Operating Systems, Databases, Programming
+Languages, and Application Distribution (web browser &amp;amp; virtual machines).
+The problem is that open source is not yet wildly distributed. Apart from developer tools,
+most consumer facing or enterprise software is generally not open source.&lt;/p&gt;
+
+&lt;p&gt;I think the problem is that there has been no way for consumers to pay for open source.
+Open source has the illusion of being free - but it&amp;rsquo;s not. You pay for open source by
+contributing to open source and by writing new software. The open source community is
+what anthropologists call a &amp;ldquo;gift culture&amp;rdquo;. This happens often when there is an abundance of
+resources (because of the ever increasing demand for software). Instead of gaining power and
+respect for what resources you control (such as in a commercial culture), in a gift culture
+individuals gain respect and status by what they give away. Often, in a gift culture,
+the most respected individuals are by no means the wealthiest. This is certainly the case in
+open source!&lt;/p&gt;
+
+&lt;p&gt;What we need is a way to turn open source inside out, or at least expose a way for people who
+do not have technical skills to meaningfully contribute to it. Paying for the software in the
+traditional way is out of the question. To be able to sell something, you need to have the power
+to withhold it until you have received the payment. This is impractical with software because
+it&amp;rsquo;s so easy to copy. If you want to sell software in a traditional way, you have to add copy
+protection features, which actually make the software worse! On the app store you can purchase
+software in single units - but to be able to do that, apple controls the entire ecosystem all
+the way down to the physical hardware!&lt;/p&gt;
+
+&lt;p&gt;But there is one way you can reliably withhold software, and thus effectively demand payment:
+There is no easy someone non-technical to get software that has not been written yet.&lt;/p&gt;
+
+&lt;p&gt;You can&amp;rsquo;t sell software, but you can sell a promise to write software.&lt;/p&gt;
+
+&lt;p&gt;Before software is written is hangs there only as a lingering possibility. It must be mined out of
+the ether by highly trained monkeys in a process where they drink coffee, stare at screens,
+and hammer away at some very fancy typewriters. There is pretty much no way to get software
+that to feed these super-monkeys, or to be one. Being one is a curse as well as a blessing
+because the rate at which primates can create software is really rather low, not more than
+a few hundred lines of tested, working code a day on average. It&amp;rsquo;s totally feasible for one person
+to grow all the vegetables you need to live, but you could not in your lifetime create all the
+software one would like to implement.&lt;/p&gt;
+
+&lt;p&gt;Fortunately, it&amp;rsquo;s possible for these monkeys to work in teams. In fact, it&amp;rsquo;s really quite simple,
+because they actually work better if they are just let to themselves and given only the most
+gentle direction. If you try and dictate what they do they&amp;rsquo;ll only resent you.
+All that is needed is the right sort of guide to encourage them to communicate in the most
+effective way, and make it more rewarding for them to work together than to work on their own.&lt;/p&gt;
+
+&lt;p&gt;This is essentially what &lt;code&gt;git&lt;/code&gt;, &lt;code&gt;github&lt;/code&gt; and &lt;code&gt;npm&lt;/code&gt; accomplish.
+Over the years, we&amp;rsquo;ve made pretty good progress in this area,
+but this has only increased the insatiable demand for software,
+and raised our expectations for software quality and functionality.&lt;/p&gt;
+
+&lt;p&gt;We have such need for software that we really need to look for
+a force multiplier, that increases our ability to create software.
+We don&amp;rsquo;t need to find another low hanging fruit, what we need is a ladder.&lt;/p&gt;
+
+&lt;p&gt;I have an idea for a ladder.
+Will be announcing it shortly.
+Watch this space!&lt;/p&gt;
+
+&lt;p&gt;(here it is: &lt;a href="https://feedopensource.com"&gt;feedopensource&lt;/a&gt;)&lt;/p&gt;</description><link>https://dominictarr.com/post/72542812481</link><guid>https://dominictarr.com/post/72542812481</guid><pubDate>Tue, 07 Jan 2014 10:36:00 +0000</pubDate></item><item><title>Some Thoughts on the Economics of Software Development</title><description>&lt;p&gt;The problem with software development, is that the ways used to fund it are either more suited to physical products, or are otherwise out of line with the interests of the users of the software. Here are my thoughts on the ways this fails, and also an idea for another approach.&lt;/p&gt;
+
+&lt;h2&gt;A Summary of the Current Methods&lt;/h2&gt;
+
+&lt;p&gt;There are currently only a couple of ways of funding software:&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;VC-funded free service&lt;/li&gt;
+&lt;li&gt;proprietary software licensed for a fee&lt;/li&gt;
+&lt;li&gt;open source, funded by charity, or by the creative drive of it&amp;rsquo;s author.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Each of these methods create a different kind of software.
+Essentially, different sources of funding mean different motivations, and these result in different decisions by the developers.&lt;/p&gt;
+
+&lt;h2&gt;The &amp;ldquo;Free&amp;rdquo; Service&lt;/h2&gt;
+
+&lt;p&gt;VC-funded software seems very good at first, but, they aren&amp;rsquo;t really doing it for free.&lt;/p&gt;
+
+&lt;p&gt;The investors are looking to make money, and there is often
+a &amp;ldquo;business model&amp;rdquo; question hanging over the software.
+This question is nearly always resolved by changing the software
+from something that enables users, to something that manipulates the user.
+If this is the sort of software you would like to use (and be used by),
+then you are already well catered to! Your Welcome!&lt;/p&gt;
+
+&lt;h2&gt;Private Source&lt;/h2&gt;
+
+&lt;p&gt;Someone builds the software, then you buy it from them.&lt;/p&gt;
+
+&lt;p&gt;What could be simpler? This works well with physical goods,
+because the exchange is easy to enforce. For example, I have made a bicycle,
+and you want to buy it. You give me some pieces of paper with  pictures
+of George Washington, or Chairman Mao or whatever, and I give you a bicycle.
+This is naturally in line with the physics of physical items, but software is totally
+different. Instead of giving you the bike, I copy the bike to you.
+Now there are two copies. What&amp;rsquo;s more, you can also copy the bike to someone else.
+Now there are a lot of people riding my bike, without me being able to recover the value that I think I deserve for creating it.&lt;/p&gt;
+
+&lt;p&gt;So, to make the private source model work, you have to add extra copy protection &amp;ldquo;features&amp;rdquo; to make the software behave more like a physical good. Like turnstiles on a subway,
+these copy-protection features prevent you from accessing the natural physics of software. This takes extra work, and so you end up paying not just for the product itself,
+but also for the work to cripple the product so that it&amp;rsquo;s more difficult to copy.&lt;/p&gt;
+
+&lt;p&gt;If the value of the software is high enough (enterprise),
+then they can just use lawyers instead of copy protection. I&amp;rsquo;m not sure which is worse.&lt;/p&gt;
+
+&lt;p&gt;This is widely used for games, or enterprise applications.
+Apple&amp;rsquo;s App Store is a great example of an elaborate system
+for making software difficult to copy.&lt;/p&gt;
+
+&lt;p&gt;You purchase a crippled phone that can only install software that apple likes, and then you can pay for software, and also 30% to apple for the service of stopping you from being able to install anything else.&lt;/p&gt;
+
+&lt;h2&gt;Open Source&lt;/h2&gt;
+
+&lt;p&gt;Instead of going to the hassle of charging for software,
+open source just gives it away.&lt;/p&gt;
+
+&lt;p&gt;This eliminates the costs of erecting turnstiles. It also reduces the cost of evaluating software. You don&amp;rsquo;t have to pay for something to try it out. Open Source has created all the best operating systems, programming languages, developer tools, and databases.&lt;/p&gt;
+
+&lt;p&gt;But the scope of Open Source is pretty much limited to this.
+Open Source is created by enthusiasts, and it does get paid for,
+but intangibly.&lt;/p&gt;
+
+&lt;p&gt;A project usually starts because someone thinks it might be fun to implement. But then, if that project becomes useful, it becomes in the interest of other well funded parties. Any large project requires an extraordinary attention to detail and refinements.&lt;/p&gt;
+
+&lt;p&gt;It would not be possible to pursue such a project at hobby scale.
+though, still, there is a huge amount of valuable software essentially created by hobbyists. Tragically, these hobbyists may work a day job writing &amp;ldquo;free&amp;rdquo; services or private software.&lt;/p&gt;
+
+&lt;h2&gt;Moving Forward&lt;/h2&gt;
+
+&lt;p&gt;There have recently been some attempts to move beyond the hobby economics of open source. Each of these are interesting in their own way.&lt;/p&gt;
+
+&lt;h3&gt;gittip&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href="https://gittip.com"&gt;gittip.com&lt;/a&gt; enables you to anonymously
+donate to someone. This is the digital equivalent of busking.&lt;/p&gt;
+
+&lt;p&gt;You can easily give a small amount of money as encouragement to an artist who&amp;rsquo;s creating things you enjoy. But this doesn&amp;rsquo;t really influence them in any way.
+This is an interesting model, but not many people are earning enough to survive like this (and thus devote themselves fully to their art).&lt;/p&gt;
+
+&lt;p&gt;By the way, if you enjoy my creations, please feel free to offer me a token of your appreciation: &lt;a href="https://gittip.com/dominictarr"&gt;gittip.com/dominictarr&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Kickstarter, Indiegogo, etc.&lt;/h3&gt;
+
+&lt;p&gt;Another approach is crowd-funding the development of a project.&lt;/p&gt;
+
+&lt;p&gt;The developer makes a bunch of promises of what they want to deliver, and how much they think it will cost. People either fund it or not. And then, development begins. If you have been following any software projects like this recently it won&amp;rsquo;t be hard to think of examples of one that hasn&amp;rsquo;t really gone according to plan.&lt;/p&gt;
+
+&lt;p&gt;All the crowd-funding platforms and geared towards a single, large, funding round. So, all promises and plans must be made up front, well in advance.&lt;/p&gt;
+
+&lt;p&gt;The problem with promises made well in advance is that they are hard to keep.
+Not necessarily because you didn&amp;rsquo;t mean them, but just because the situation changes, and when you start coding you learn things you didn&amp;rsquo;t know when you started.&lt;/p&gt;
+
+&lt;p&gt;Like representational democracy, you don&amp;rsquo;t know if the party you elect (fund)
+will keep their promises, or even are capable of achieving them.&lt;/p&gt;
+
+&lt;p&gt;Essentially, Kickstarter forces you to use the
+&lt;a href="http://wikipedia.com/en/waterfall_model"&gt;waterfall model&lt;/a&gt;.
+The waterfall model is widely understood to result in low quality software that is delivered late and over-budget.
+Quality Software must be built iteratively, changing the plan as your learn things, but the economics of crowd-funding platforms prevent this.&lt;/p&gt;
+
+&lt;h3&gt;Bountysource&lt;/h3&gt;
+
+&lt;p&gt;Bountysource takes the opposite approach of Kickstarter.&lt;/p&gt;
+
+&lt;p&gt;Instead of funding a whole project all at once, you can fund a specific issue,
+or feature that you want. It&amp;rsquo;s really too early to say what will happen with
+Bountysource, but my feeling is that Bountysource is too specific where Kickstarter is too vague.
+The features of a software project are not isolated. You can&amp;rsquo;t just buy a feature or bug fix. On the one hand, casual users may not understand which issues are really important,
+and on the other there may be a refactor that simplifies multiple features, or eliminates multiple bugs.
+At best, this may be suitable for the developer tools that open source is already good at.&lt;/p&gt;
+
+&lt;p&gt;If open source is to go truly mainstream, it needs be able to create software that is used by people who are not themselves developers, or even particularity competent with computers.&lt;/p&gt;
+
+&lt;h2&gt;One More Way!&lt;/h2&gt;
+
+&lt;p&gt;There is one more way software is funded.&lt;/p&gt;
+
+&lt;p&gt;If you have a software problem that is particular to you, or just want your own thing,
+you can hire a consulting company and get them to make you a bespoke system.&lt;/p&gt;
+
+&lt;p&gt;This can actually work pretty well, provided that communication between the developers and the clients is good, and an iterative process of building a prototype, testing it against
+client expectations, and refining/rebuilding the design.
+This process is often known as &lt;a href="http://wikipedia.org/en/agile_development"&gt;Agile Development&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The developers and the clients both have power in their relationship. The developers have the technical expertise to write the software, but the clients have the checkbook.
+If a project is going badly, they can potentially abandon it and find new consultants.&lt;/p&gt;
+
+&lt;p&gt;A lot of software is built this way, but it&amp;rsquo;s not scalable. 
+The weakness is that is that it must provide sufficient value to
+a single party, who must be willing to foot the bill entirely.
+It doesn&amp;rsquo;t support the case where a small amount of value is provided to a large number of people.&lt;/p&gt;
+
+&lt;p&gt;But what if it could?&lt;/p&gt;
+
+&lt;h2&gt;My idea&lt;/h2&gt;
+
+&lt;p&gt;What we need is something that aligns the interests of the developers and with the interests of users.
+Something that works with the natural physics of computers and data, not against it.
+Something that scales, so that you can use to fund end-user software - not just developer tools.&lt;/p&gt;
+
+&lt;p&gt;Something halfway between Kickstarter, and Bountysource, but with the best parts of Agile development. Development and funding must be iterative. The developers should
+not have to make promises that will be hard to keep.&lt;/p&gt;
+
+&lt;p&gt;Instead, developers should build trust with the clients by making steady, incremental progress. If the progress is in the wrong direction, or the developers
+turn out to be incompetent, then clients can abandon the project without having over-committed.&lt;/p&gt;
+
+&lt;p&gt;If a project goes well, the clients can continue to fund the project. Since the uncertainty decreases as the developers build the clients trust, they could potentially fund much more than they would with a single round of funding,
+where they have to balance their desire for the promised features with their estimation of the projects
+eventual success.&lt;/p&gt;
+
+&lt;p&gt;I am currently working on a prototype of this idea,
+Watch this space!&lt;/p&gt;</description><link>https://dominictarr.com/post/71958587606</link><guid>https://dominictarr.com/post/71958587606</guid><pubDate>Thu, 02 Jan 2014 12:21:00 +0000</pubDate></item><item><title>Mad Science Architectures for Totally Distributed Applications.</title><description>&lt;iframe src="https://player.vimeo.com/video/77352417?title=0&amp;byline=0&amp;portrait=0&amp;app_id=122963" width="400" height="225" frameborder="0" title="2013 Realtime Conf. - Dominic Tarr" allow="autoplay; fullscreen" allowfullscreen&gt;&lt;/iframe&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;Mad Science Architectures for Totally Distributed Applications.&lt;/p&gt;</description><link>https://dominictarr.com/post/64794290821</link><guid>https://dominictarr.com/post/64794290821</guid><pubDate>Tue, 22 Oct 2013 20:29:06 +0100</pubDate></item><item><title>What is scalability, anyway?</title><description>&lt;iframe width="400" height="225"  id="youtube_iframe" src="https://www.youtube.com/embed/rLeCV7eODVg?feature=oembed&amp;enablejsapi=1&amp;origin=https://safe.txmblr.com&amp;wmode=opaque" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;What is scalability, anyway?&lt;/p&gt;</description><link>https://dominictarr.com/post/63647288277</link><guid>https://dominictarr.com/post/63647288277</guid><pubDate>Thu, 10 Oct 2013 16:06:41 +0100</pubDate></item><item><title>leveldb - followed by part2...</title><description>&lt;iframe width="400" height="225"  id="youtube_iframe" src="https://www.youtube.com/embed/PyzKLw8-cpg?feature=oembed&amp;enablejsapi=1&amp;origin=https://safe.txmblr.com&amp;wmode=opaque" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;leveldb - followed by part2 &lt;a href="http://www.youtube.com/watch?v=a8rTAIWjIpw"&gt;http://www.youtube.com/watch?v=a8rTAIWjIpw&lt;/a&gt;&lt;/p&gt;</description><link>https://dominictarr.com/post/63647062250</link><guid>https://dominictarr.com/post/63647062250</guid><pubDate>Thu, 10 Oct 2013 16:02:28 +0100</pubDate></item><item><title>data, events, streams at webrebels 2013</title><description>&lt;iframe src="https://player.vimeo.com/video/76319933?title=0&amp;byline=0&amp;portrait=0&amp;app_id=122963" width="400" height="220" frameborder="0" title="Streams, Events, and Data by Dominic Tarr" allow="autoplay; fullscreen" allowfullscreen&gt;&lt;/iframe&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;data, events, streams at webrebels 2013&lt;/p&gt;</description><link>https://dominictarr.com/post/63646928871</link><guid>https://dominictarr.com/post/63646928871</guid><pubDate>Thu, 10 Oct 2013 16:00:11 +0100</pubDate></item><item><title>watch live demos, and event the presentation software...</title><description>&lt;iframe width="400" height="225"  id="youtube_iframe" src="https://www.youtube.com/embed/ivqI5IZlPRc?feature=oembed&amp;enablejsapi=1&amp;origin=https://safe.txmblr.com&amp;wmode=opaque" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;watch live demos, and event the presentation software fail
+(based on &lt;a href="https://github.com/jed/weenote"&gt;https://github.com/jed/weenote&lt;/a&gt;)
+in the end I save the day by making a joke about java.&lt;/p&gt;</description><link>https://dominictarr.com/post/63646731776</link><guid>https://dominictarr.com/post/63646731776</guid><pubDate>Thu, 10 Oct 2013 15:56:27 +0100</pubDate></item><item><title>the database of the future</title><description>&lt;iframe src="https://player.vimeo.com/video/70232116?title=0&amp;byline=0&amp;portrait=0&amp;app_id=122963" width="400" height="129" frameborder="0" title="Dominic Tarr: The database of the future: leveldb" allow="autoplay; fullscreen" allowfullscreen&gt;&lt;/iframe&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;the database of the future&lt;/p&gt;</description><link>https://dominictarr.com/post/55760915389</link><guid>https://dominictarr.com/post/55760915389</guid><pubDate>Thu, 18 Jul 2013 07:16:30 +0100</pubDate></item><item><title>wizard talk.</title><description>&lt;iframe width="400" height="225"  id="youtube_iframe" src="https://www.youtube.com/embed/giS-aIq0Kaw?feature=oembed&amp;enablejsapi=1&amp;origin=https://safe.txmblr.com&amp;wmode=opaque" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;wizard talk.&lt;/p&gt;</description><link>https://dominictarr.com/post/55760508321</link><guid>https://dominictarr.com/post/55760508321</guid><pubDate>Thu, 18 Jul 2013 07:09:42 +0100</pubDate></item><item><title>distributed systems for realtime applications.</title><description>&lt;iframe width="400" height="225"  id="youtube_iframe" src="https://www.youtube.com/embed/svkdmP9UcLo?feature=oembed&amp;enablejsapi=1&amp;origin=https://safe.txmblr.com&amp;wmode=opaque" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;distributed systems for realtime applications.&lt;/p&gt;</description><link>https://dominictarr.com/post/55760481148</link><guid>https://dominictarr.com/post/55760481148</guid><pubDate>Thu, 18 Jul 2013 07:09:15 +0100</pubDate></item></channel></rss>

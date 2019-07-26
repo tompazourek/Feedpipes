@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>CommitStrip</title>
+	<atom:link href="http://www.commitstrip.com/feed/?" rel="self" type="application/rss+xml" />
+	<link>http://www.commitstrip.com</link>
+	<description>The blog relating the daily life of web agency developers</description>
+	<lastBuildDate>Tue, 23 Jul 2019 11:18:31 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.0.4</generator>
+	<item>
+		<title>CommitStrip &#8211; The Summer of Code : our new book on Kickstarter!</title>
+		<link>http://www.commitstrip.com/en/2019/07/18/commitstrip-the-summer-of-code-our-new-book-on-kickstarter/</link>
+		<pubDate>Thu, 18 Jul 2019 15:25:49 +0000</pubDate>
+		<dc:creator><![CDATA[CommitStrip]]></dc:creator>
+				<category><![CDATA[Coder]]></category>
+
+		<guid isPermaLink="false">http://www.commitstrip.com/?p=20651</guid>
+		<description><![CDATA[]]></description>
+				<content:encoded><![CDATA[<div style="text-align:center;"><a href="https://www.kickstarter.com/projects/commitstrip/commitstrip-the-summer-of-code-a-book-about-love"><img src="https://www.commitstrip.com/kickstarter2019/img/button_en.PNG" alt="" width="427" height="60" class="alignnone size-full wp-image-20654" /><br />
+</a><br />
+<a href="https://www.kickstarter.com/projects/commitstrip/commitstrip-the-summer-of-code-a-book-about-love"><img src="https://www.commitstrip.com/kickstarter2019/img/full_en.jpg" width="680" height="14191" class="alignnone size-full" /></a><br />
+<a href="https://www.kickstarter.com/projects/commitstrip/commitstrip-the-summer-of-code-a-book-about-love"><img src="https://www.commitstrip.com/kickstarter2019/img/button_en.PNG" alt="" width="427" height="60" class="alignnone size-full wp-image-20654" />
+</div>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Your smart home’s Achilles’ heel</title>
+		<link>http://www.commitstrip.com/en/2019/07/18/your-smart-homes-achilles-heel/</link>
+		<pubDate>Thu, 18 Jul 2019 15:25:37 +0000</pubDate>
+		<dc:creator><![CDATA[CommitStrip]]></dc:creator>
+				<category><![CDATA[Coder]]></category>
+
+		<guid isPermaLink="false">http://www.commitstrip.com/?p=20667</guid>
+		<description><![CDATA[]]></description>
+				<content:encoded><![CDATA[<p><img src="https://www.commitstrip.com/wp-content/uploads/2019/07/Strip-Cambriolage-650-finalenglish.jpg" alt="" width="650" height="606" class="alignnone size-full wp-image-20669" /></p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>In emergency conditions</title>
+		<link>http://www.commitstrip.com/en/2019/06/12/in-emergency-conditions/</link>
+		<pubDate>Wed, 12 Jun 2019 15:42:30 +0000</pubDate>
+		<dc:creator><![CDATA[CommitStrip]]></dc:creator>
+				<category><![CDATA[Coder]]></category>
+
+		<guid isPermaLink="false">http://www.commitstrip.com/?p=20644</guid>
+		<description><![CDATA[]]></description>
+				<content:encoded><![CDATA[<p><img src="https://www.commitstrip.com/wp-content/uploads/2019/06/Strip-Test-en-condition-réelle-650-finalenglish.jpg" alt="" width="650" height="602" class="alignnone size-full wp-image-20646" /></p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Giveaway</title>
+		<link>http://www.commitstrip.com/en/2019/06/06/giveaway/</link>
+		<pubDate>Thu, 06 Jun 2019 14:02:41 +0000</pubDate>
+		<dc:creator><![CDATA[CommitStrip]]></dc:creator>
+				<category><![CDATA[Coder]]></category>
+
+		<guid isPermaLink="false">http://www.commitstrip.com/?p=20639</guid>
+		<description><![CDATA[]]></description>
+				<content:encoded><![CDATA[<p><img src="https://www.commitstrip.com/wp-content/uploads/2019/06/Strip-Jeremie-de-la-compta-650-finalenglish-1.jpg" alt="" width="650" height="595" class="alignnone size-full wp-image-20641" /></p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Smart EveryThing</title>
+		<link>http://www.commitstrip.com/en/2019/06/03/smart-everything/</link>
+		<pubDate>Mon, 03 Jun 2019 14:01:00 +0000</pubDate>
+		<dc:creator><![CDATA[CommitStrip]]></dc:creator>
+				<category><![CDATA[Coder]]></category>
+
+		<guid isPermaLink="false">http://www.commitstrip.com/?p=20634</guid>
+		<description><![CDATA[]]></description>
+				<content:encoded><![CDATA[<p><img src="https://www.commitstrip.com/wp-content/uploads/2019/06/Strip-Deconnecter-les-machines-dusine-650-finalenglish-1.jpg" alt="" width="650" height="635" class="alignnone size-full wp-image-20636" /></p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>It’s an art</title>
+		<link>http://www.commitstrip.com/en/2019/05/29/its-an-art/</link>
+		<pubDate>Wed, 29 May 2019 13:58:21 +0000</pubDate>
+		<dc:creator><![CDATA[CommitStrip]]></dc:creator>
+				<category><![CDATA[Coder]]></category>
+
+		<guid isPermaLink="false">http://www.commitstrip.com/?p=20629</guid>
+		<description><![CDATA[]]></description>
+				<content:encoded><![CDATA[<p><img src="https://www.commitstrip.com/wp-content/uploads/2019/06/Strip-Tir-a-larc-code-review-650-finalenglish.jpg" alt="" width="650" height="607" class="alignnone size-full wp-image-20631" /></p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Coders just want to have fun</title>
+		<link>http://www.commitstrip.com/en/2019/05/27/coders-just-want-to-have-fun/</link>
+		<pubDate>Mon, 27 May 2019 14:23:44 +0000</pubDate>
+		<dc:creator><![CDATA[CommitStrip]]></dc:creator>
+				<category><![CDATA[Coder]]></category>
+
+		<guid isPermaLink="false">http://www.commitstrip.com/?p=20619</guid>
+		<description><![CDATA[]]></description>
+				<content:encoded><![CDATA[<p><img src="https://www.commitstrip.com/wp-content/uploads/2019/05/Strip-Motivation-detruite-650-finalenglish.jpg" alt="" width="650" height="625" class="alignnone size-full wp-image-20623" /></p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Monitoring everything…?</title>
+		<link>http://www.commitstrip.com/en/2019/05/20/monitoring-everything/</link>
+		<pubDate>Mon, 20 May 2019 16:09:18 +0000</pubDate>
+		<dc:creator><![CDATA[CommitStrip]]></dc:creator>
+				<category><![CDATA[Coder]]></category>
+
+		<guid isPermaLink="false">http://www.commitstrip.com/?p=20607</guid>
+		<description><![CDATA[]]></description>
+				<content:encoded><![CDATA[<p><img src="https://www.commitstrip.com/wp-content/uploads/2019/05/Strip-Date-dexpiration-CB-650-finalenglish.jpg" alt="" width="650" height="605" class="alignnone size-full wp-image-20611" /></p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Stop messing around</title>
+		<link>http://www.commitstrip.com/en/2019/05/17/stop-messing-around/</link>
+		<pubDate>Fri, 17 May 2019 14:26:37 +0000</pubDate>
+		<dc:creator><![CDATA[CommitStrip]]></dc:creator>
+				<category><![CDATA[Coder]]></category>
+
+		<guid isPermaLink="false">http://www.commitstrip.com/?p=20589</guid>
+		<description><![CDATA[]]></description>
+				<content:encoded><![CDATA[<p><img src="https://www.commitstrip.com/wp-content/uploads/2019/05/Strip-La-demande-de-la-frangine-650-finalenglishV2.jpg" alt="" width="650" height="603" class="alignnone size-full wp-image-20601" /></p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>You couldn’t even imagine&#8230;</title>
+		<link>http://www.commitstrip.com/en/2019/05/14/you-couldnt-even-imagine/</link>
+		<pubDate>Tue, 14 May 2019 16:03:10 +0000</pubDate>
+		<dc:creator><![CDATA[CommitStrip]]></dc:creator>
+				<category><![CDATA[Coder]]></category>
+
+		<guid isPermaLink="false">http://www.commitstrip.com/?p=20575</guid>
+		<description><![CDATA[]]></description>
+				<content:encoded><![CDATA[<p><img src="https://www.commitstrip.com/wp-content/uploads/2019/05/Strip-Un-peu-quon-y-allait650-finalenglish.jpg" alt="" width="650" height="597" class="alignnone size-full wp-image-20579" /></p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Object Caching 85/90 objects using disk
+Page Caching using disk: enhanced (Requested URI contains query) 
+
+Served from: www.commitstrip.com @ 2019-07-26 18:33:38 by W3 Total Cache
+-->

@@ -7,25 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Data\rss20-blog-datalust-20190726.xml" />
-    <None Remove="Data\rss20-morningbrew-20190726.xml" />
-    <None Remove="Data\rss20-rebus-fm-20190726.xml" />
-    <None Remove="Data\rss20-sample01.xml" />
-    <None Remove="Data\rss20-sample02.xml" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <EmbeddedResource Include="Data\rss20-blog-datalust-20190726.xml" />
-    <EmbeddedResource Include="Data\rss20-morningbrew-20190726.xml" />
-    <EmbeddedResource Include="Data\rss20-rebus-fm-20190726.xml" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <EmbeddedResource Include="Data\rss20-sample01.xml" />
-    <EmbeddedResource Include="Data\rss20-sample02.xml" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
     <PackageReference Include="xunit" Version="2.4.0" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
@@ -33,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\Feedpipes.Syndication\Feedpipes.Syndication.csproj" />
+    <ProjectReference Include="..\Feedpipes.Syndication.SampleData\Feedpipes.Syndication.SampleData.csproj" />
   </ItemGroup>
 
 </Project>

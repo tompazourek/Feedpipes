@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Files\*.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Files\*.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="files-metadata.csv" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="files-metadata.csv" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Csv" Version="1.0.40" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>MediaMonkey News</title>
+	<atom:link href="http://www.mediamonkey.com/news/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.mediamonkey.com/news</link>
+	<description>MediaMonkey News, Updates and Information</description>
+	<lastBuildDate>
+	Thu, 28 Mar 2019 18:14:01 +0000	</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.1.1</generator>
+	<item>
+		<title>Announcing MediaMonkey 4.1.24 and Next Gen MediaMonkey 5 Beta</title>
+		<link>https://www.mediamonkey.com/news/2019/03/28/announcing-mediamonkey-4-1-24-and-next-gen-mediamonkey-5-beta/</link>
+				<pubDate>Thu, 28 Mar 2019 18:10:17 +0000</pubDate>
+		<dc:creator><![CDATA[MediaMonkey News]]></dc:creator>
+				<category><![CDATA[Web Announcements]]></category>
+
+		<guid isPermaLink="false">https://www.mediamonkey.com/news/?p=193</guid>
+				<description><![CDATA[Ventis Media has just released a new version of MediaMonkey 4, and has announced details about the upcoming MediaMonkey 5. MediaMonkey 4.1.24 adds about 20 fixes and improvements, including syncronization improvements, tagging improvements, and a number of stability and performance enhancements. &#8220;MediaMonkey 4 has been improved on a regular basis since it was launched over [&#8230;]]]></description>
+								<content:encoded><![CDATA[
+<p>Ventis Media has just released a new version of MediaMonkey 4, and has announced details about the upcoming MediaMonkey 5. </p>
+
+
+
+<p>MediaMonkey 4.1.24 adds about 20 fixes and improvements, including syncronization improvements, tagging improvements, and a number of stability and performance enhancements.</p>
+
+
+
+<p>&#8220;MediaMonkey 4 has been improved on a regular basis since it was launched over 5 years ago. Over the past couple of years we&#8217;ve been hard at work on the MediaMonkey 5 platform that will form the basis of versions to come over the next few years,&#8221; explained Jiri Hajek, VP Development. &#8220;It creates a foundation for a more modern UI, includes a framework that  allows MediaMonkey better integrate with cloud/music services, will allow  MediaMonkey to become cross-platform and support different form factors,  improves developer interfaces so that it can be customized to a greater  degree, lays the groundwork to make it a more social experience, and adds much improved functionality such as automated metadata lookup.&#8221;</p>
+
+
+
+<p>MediaMonkey for Windows 4.1.24 is available at:<br> <a href="http://www.mediamonkey.com/download">http://www.mediamonkey.com/download</a></p>
+
+
+
+<p>MediaMonkey 5 is available in the <a href="http://www.mediamonkey.com/forum/viewtopic.php?f=6&amp;t=86639&amp;sd=d">MediaMonkey 5 Beta forum</a>.<br><br></p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>New versions of MediaMonkey sync with iOS 11 and Android 8.0</title>
+		<link>https://www.mediamonkey.com/news/2017/10/09/new-versions-of-mediamonkey-sync-with-ios-11-and-android-8-0/</link>
+				<pubDate>Mon, 09 Oct 2017 20:34:46 +0000</pubDate>
+		<dc:creator><![CDATA[MediaMonkey News]]></dc:creator>
+				<category><![CDATA[Releases]]></category>
+
+		<guid isPermaLink="false">http://www.mediamonkey.com/news/?p=185</guid>
+				<description><![CDATA[Ventis Media has just released new versions of MediaMonkey for Windows and MediaMonkey for Android. MediaMonkey for Windows 4.1.18 adds support for synchronizing music and video with iOS 11 devices, along with 20 other improvements to syncing, artwork handling, playback and more. MediaMonkey for Android 1.3.1 is a major update with close to 40 improvements [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>Ventis Media has just released new versions of MediaMonkey for Windows and MediaMonkey for Android.</p>
+<p>MediaMonkey for Windows 4.1.18 adds support for synchronizing music and video with iOS 11 devices, along with 20 other improvements to syncing, artwork handling, playback and more.</p>
+<p>MediaMonkey for Android 1.3.1 is a major update with close to 40 improvements to synchronization of music and video with with Windows PCs, chromecasting, artwork handling, Android Auto, and more.</p>
+<p>MediaMonkey for Windows 4.1.18 is available at:<br />
+<a href="http://www.mediamonkey.com/download">http://www.mediamonkey.com/download</a></p>
+<p>MediaMonkey for Android 1.3.1 is available via:<br />
+<a href="https://play.google.com/store/apps/details?id=com.ventismedia.android.mediamonkey&amp;hl=en">https://play.google.com/store/apps/details?id=com.ventismedia.android.mediamonkey&amp;hl=en</a></p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>MediaMonkey adds Android Auto support</title>
+		<link>https://www.mediamonkey.com/news/2017/05/21/mediamonkey-adds-android-auto-support/</link>
+				<pubDate>Sun, 21 May 2017 23:27:05 +0000</pubDate>
+		<dc:creator><![CDATA[MediaMonkey News]]></dc:creator>
+				<category><![CDATA[Web Announcements]]></category>
+
+		<guid isPermaLink="false">http://www.mediamonkey.com/news/?p=182</guid>
+				<description><![CDATA[Ventis Media has released new versions of MediaMonkey for Android and MediaMonkey for Windows. MediaMonkey for Android 1.3 is a major update that adds Android Auto support, improved synchronization of play history between Windows and Android devices, and a raft of other minor improvements and fixes. MediaMonkey for Windows 4.1.16 is a significant update with [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>Ventis Media has released new versions of MediaMonkey for Android and MediaMonkey for Windows.</p>
+<p>MediaMonkey for Android 1.3 is a major update that adds Android Auto support, improved synchronization of play history between Windows and Android devices, and a raft of other minor improvements and fixes.</p>
+<p>MediaMonkey for Windows 4.1.16 is a significant update with over 30 fixes and improvements to music syncing, tagging, UPnP, podcasting, playback and more.</p>
+<p>MediaMonkey for Android 1.3 is available via:<br />
+https://play.google.com/store/apps/details?id=com.ventismedia.android.mediamonkey&#038;hl=en</p>
+<p>MediaMonkey for Windows 4.1.16 is available at:<br />
+http://www.mediamonkey.com/download</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>New versions of MediaMonkey add ALAC and Google Cast support!</title>
+		<link>https://www.mediamonkey.com/news/2016/06/29/new-versions-of-mediamonkey-add-alac-and-google-cast-support/</link>
+				<pubDate>Wed, 29 Jun 2016 19:04:06 +0000</pubDate>
+		<dc:creator><![CDATA[MediaMonkey News]]></dc:creator>
+				<category><![CDATA[Releases]]></category>
+
+		<guid isPermaLink="false">http://www.mediamonkey.com/news/?p=179</guid>
+				<description><![CDATA[Ventis Media has released new versions of MediaMonkey for Windows and MediaMonkey for Android. MediaMonkey for Windows 4.1.13 is a significant update with close to 50 changes including the addition of ALAC support, improvements to UPnP / DLNA, synchronization, artwork lookups, podcasting, and more. MediaMonkey for Android 1.2.0 is a major update that adds Google [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>Ventis Media has released new versions of MediaMonkey for Windows and MediaMonkey for Android.</p>
+<p>MediaMonkey for Windows 4.1.13 is a significant update with close to 50 changes including the addition of ALAC support, improvements to UPnP / DLNA, synchronization, artwork lookups, podcasting, and more.</p>
+<p>MediaMonkey for Android 1.2.0 is a major update that adds Google Cast support along with 50 other fixes and tweaks.</p>
+<p>MediaMonkey for Windows 4.1.13 is available at:<br />
+http://www.mediamonkey.com/download</p>
+<p>MediaMonkey for Android 1.2.0 is available via:<br />
+https://play.google.com/store/apps/details?id=com.ventismedia.android.mediamonkey&#038;hl=en</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>MediaMonkey for Windows 4.1.10 Released</title>
+		<link>https://www.mediamonkey.com/news/2015/12/20/mediamonkey-for-windows-4-1-10-released/</link>
+				<pubDate>Sun, 20 Dec 2015 07:55:34 +0000</pubDate>
+		<dc:creator><![CDATA[MediaMonkey News]]></dc:creator>
+				<category><![CDATA[Web Announcements]]></category>
+
+		<guid isPermaLink="false">http://www.mediamonkey.com/news/?p=175</guid>
+				<description><![CDATA[Ventis Media has just released a new version of MediaMonkey for Windows that includes numerous improvements to USB synchronization and a variety of other issues. The release includes close to 30 minor bug fixes. MediaMonkey for Windows 4.1.10 is available now at: http://www.mediamonkey.com/download]]></description>
+								<content:encoded><![CDATA[<p>Ventis Media has just released a new version of MediaMonkey for Windows that includes numerous improvements to USB synchronization and a variety of other issues. The release includes close to 30 minor bug fixes.</p>
+<p>MediaMonkey for Windows 4.1.10 is available now at:<br />
+http://www.mediamonkey.com/download</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>MediaMonkey for Android 1.1.3 shares ratings across devices</title>
+		<link>https://www.mediamonkey.com/news/2015/10/22/mediamonkey-for-android-1-1-3-shares-ratings-across-devices/</link>
+				<pubDate>Thu, 22 Oct 2015 20:38:39 +0000</pubDate>
+		<dc:creator><![CDATA[MediaMonkey News]]></dc:creator>
+				<category><![CDATA[Releases]]></category>
+
+		<guid isPermaLink="false">http://www.mediamonkey.com/news/?p=171</guid>
+				<description><![CDATA[Ventis Media is proud to announce a new release of MediaMonkey for Android. Together, with MediaMonkey for Windows it lets you share media library across Windows, Android, and iOS devices. The new v1.1.3 release includes over 100 fixes and improvements including: &#8211; MediaMonkey for Android now displays ratings for all tracks synced with MediaMonkey for [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>Ventis Media is proud to announce a new release of MediaMonkey for Android. Together, with MediaMonkey for Windows it lets you share media library across Windows, Android, and iOS devices.</p>
+<div class="recent-change">The new v1.1.3 release includes over 100 fixes and improvements including:</div>
+<div class="recent-change">&#8211; MediaMonkey for Android now displays ratings for all tracks synced with MediaMonkey for Windows</div>
+<div class="recent-change">&#8211; MediaMonkey for Android now shows bookmarks for Audiobooks and Podcasts synced with MediaMonkey for Windows</div>
+<div class="recent-change">&#8211; Compatibility with Android 6 (Marshmallow)</div>
+<p>MediaMonkey is the music and movie manager for serious collectors.  It works with your devices (Apple, Android, etc.), your files (MP3, AAC, FLAC, WMA, etc.), with you in full control of how your music is tagged, organized and shared.  It is available on Windows, Windows tablets, and Android.</p>
+<p>MediaMonkey for Android 1.1.3 is available now via Google Play:<br />
+https://play.google.com/store/apps/details?id=com.ventismedia.android.mediamonkey</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>MediaMonkey 4.1.9 Released</title>
+		<link>https://www.mediamonkey.com/news/2015/10/04/mediamonkey-4-1-9-released/</link>
+				<pubDate>Sun, 04 Oct 2015 18:57:26 +0000</pubDate>
+		<dc:creator><![CDATA[MediaMonkey News]]></dc:creator>
+				<category><![CDATA[Web Announcements]]></category>
+
+		<guid isPermaLink="false">http://www.mediamonkey.com/news/?p=169</guid>
+				<description><![CDATA[Ventis Media has released a new version of MediaMonkey for Windows that adds support for iOS 9, includes several tweaks for Windows 10 environments, and improves sync performance. The release also includes close to 30 minor bug fixes. MediaMonkey for Windows 4.1.9 is available at: http://www.mediamonkey.com/download]]></description>
+								<content:encoded><![CDATA[<p>Ventis Media has released a new version of MediaMonkey for Windows that adds support for iOS 9, includes several tweaks for Windows 10 environments, and improves sync performance. The release also includes close to 30 minor bug fixes.</p>
+<p>MediaMonkey for Windows 4.1.9 is available at:<br />
+http://www.mediamonkey.com/download</p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>MediaMonkey for Windows 4.1.6 released!</title>
+		<link>https://www.mediamonkey.com/news/2015/03/03/mediamonkey-for-windows-4-1-6-released/</link>
+				<pubDate>Tue, 03 Mar 2015 07:59:49 +0000</pubDate>
+		<dc:creator><![CDATA[MediaMonkey News]]></dc:creator>
+				<category><![CDATA[Web Announcements]]></category>
+
+		<guid isPermaLink="false">http://www.mediamonkey.com/news/?p=163</guid>
+				<description><![CDATA[Ventis Media is proud to announce a new release of MediaMonkey for Windows. This update includes 40+ improvements including compatibility with iTunes 12.1, improved synchronization with iOS and Android devices, new UPnP search functionality, and more. &#8220;With this release, Ventis continues to improve one of the only real alternatives to the iTunes &#8211; iPhone ecosystem,&#8221; [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>Ventis Media is proud to announce a new release of MediaMonkey for Windows. This update includes 40+ improvements including compatibility with iTunes 12.1, improved synchronization with iOS and Android devices, new UPnP search functionality, and more.</p>
+<p>&#8220;With this release, Ventis continues to improve one of the only real alternatives to the iTunes &#8211; iPhone ecosystem,&#8221; explained Russell Samuels, VP Marketing.  &#8220;In MediaMonkey, users gain a lightweight but feature-rich tool to manage a single Media Library across their PCs, iPhones, and Android devices.&#8221;</p>
+<p>MediaMonkey is the music and movie manager for serious collectors.  It works with your devices (Apple, Android, etc.), your files (MP3, AAC, FLAC, WMA, etc.), with you in full control of how your music is tagged, organized and shared.  It is available on Windows, Windows tablets, and Android.</p>
+<p>MediaMonkey for Windows 4.1.6 is available at:<br />
+<a href="http://www.mediamonkey.com/download">http://www.mediamonkey.com/download</a></p>
+]]></content:encoded>
+										</item>
+		<item>
+		<title>Announcing MediaMonkey for Windows 4.1.5 and MediaMonkey for Android 1.0.7</title>
+		<link>https://www.mediamonkey.com/news/2014/10/22/announcing-mediamonkey-for-windows-4-15-and-mediamonkey-for-android-1-0-7/</link>
+				<comments>https://www.mediamonkey.com/news/2014/10/22/announcing-mediamonkey-for-windows-4-15-and-mediamonkey-for-android-1-0-7/#respond</comments>
+				<pubDate>Wed, 22 Oct 2014 17:51:55 +0000</pubDate>
+		<dc:creator><![CDATA[MediaMonkey News]]></dc:creator>
+				<category><![CDATA[Releases]]></category>
+
+		<guid isPermaLink="false">http://www.mediamonkey.com/news/?p=150</guid>
+				<description><![CDATA[Ventis Media is proud to announce new releases of MediaMonkey for Windows and MediaMonkey for Android. Together, they let you share your media library across Windows, Android, and iOS devices. Key improvements in these releases include: &#8211; Synchronization between PCs and iPhone 6 / iOS 8 devices &#8211; Synchronization improvements between PCs and Android Kitkat [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>Ventis Media is proud to announce new releases of MediaMonkey for Windows and MediaMonkey for Android. Together, they let you share your media library across Windows, Android, and iOS devices.</p>
+<p>Key improvements in these releases include:<br />
+&#8211; Synchronization between PCs and iPhone 6 / iOS 8 devices<br />
+&#8211; Synchronization improvements between PCs and Android Kitkat devices<br />
+&#8211; Improved UPnP and Wi-Fi synchronization performance<br />
+&#8211; Support for SD Cards on Android Kitkat devices<br />
+&#8211; Over 20 other fixes and improvements to each of MediaMonkey for Windows and MediaMonkey for Android.</p>
+<p>&#8220;Although these are technically minor updates, these releases are major improvements in terms of the synchronization experience,&#8221; explained Jiri Hajek, VP Development.  &#8220;Besides syncing with the latest iPhones, MediaMonkey now lets all the latest Android devices share a single Media Library that can be managed across their various PCs and devices.&#8221;</p>
+<p>MediaMonkey is the music and movie manager for serious collectors.  It works with your devices (Apple, Android, etc.), your files (MP3, AAC, FLAC, WMA, etc.), with you in full control of how your music is tagged, organized and shared.  It is available on Windows, Windows tablets, and Android.</p>
+<p>MediaMonkey for Android 1.0.7 is available via Google Play:<br />
+https://play.google.com/store/apps/details?id=com.ventismedia.android.mediamonkey</p>
+<p>MediaMonkey for Windows 4.1.5 is available at:<br />
+http://www.mediamonkey.com/download</p>
+]]></content:encoded>
+							<wfw:commentRss>https://www.mediamonkey.com/news/2014/10/22/announcing-mediamonkey-for-windows-4-15-and-mediamonkey-for-android-1-0-7/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>New Releases of MediaMonkey for Android and Windows</title>
+		<link>https://www.mediamonkey.com/news/2014/08/25/new-releases-of-mediamonkey-for-android-and-windows/</link>
+				<comments>https://www.mediamonkey.com/news/2014/08/25/new-releases-of-mediamonkey-for-android-and-windows/#respond</comments>
+				<pubDate>Mon, 25 Aug 2014 13:39:27 +0000</pubDate>
+		<dc:creator><![CDATA[MediaMonkey News]]></dc:creator>
+				<category><![CDATA[Web Announcements]]></category>
+
+		<guid isPermaLink="false">http://www.mediamonkey.com/news/?p=146</guid>
+				<description><![CDATA[New minor releases of MediaMonkey have recently been released: MediaMonkey for Windows 4.1.4 includes the following improvements since version 4.1.0: Fixes to playback, duplicates when browsing a USB stick, data corruption issues, CD ripping / conversion, numerous UPnP issues Improved synchronization with MediaMonkey for Android 75 fixes and improvements. MediaMonkey for Windows is available for [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>New minor releases of MediaMonkey have recently been released:</p>
+<p>MediaMonkey for Windows 4.1.4 includes the following improvements since version 4.1.0:</p>
+<ul>
+<li>Fixes to playback, duplicates when browsing a USB stick, data corruption issues, CD ripping / conversion, numerous UPnP issues</li>
+<li>Improved synchronization with MediaMonkey for Android</li>
+<li>75 fixes and improvements.</li>
+</ul>
+<p>MediaMonkey for Windows is available for download at:<br />
+<a href="http://www.mediamonkey.com/download">http://www.mediamonkey.com/download</a></p>
+<p>MediaMonkey for Android 1.0.6 includes the following improvements since the initial version 1.0 release:</p>
+<ul>
+<li>Improved performance</li>
+<li>Fixed numerous stability issues</li>
+<li>Fixed numerous synchronization issues &amp; performance</li>
+<li>Fixed numerous playback issues</li>
+<li>Fixed several UPnP issues</li>
+<li>Fixes database corruption that may occur in some cases</li>
+<li>Fixed suppression of notification sounds can disable notifications</li>
+<li>Fixed Folder browser doesn&#8217;t contain media without album metadata</li>
+<li>Fixed Video node doesn&#8217;t contain all video media types</li>
+<li>Fixed bookmarks shouldn&#8217;t be saved for Music Videos</li>
+<li>Fixed sleep timer</li>
+<li>Fixed duplicates can appear when some Android devices are updated</li>
+<li>Fixed some devices are unsupported in Google Play</li>
+</ul>
+<p>MediaMonkey for Android is available via Google Play:<br />
+<a href="https://play.google.com/store/apps/details?id=com.ventismedia.android.mediamonkey">https://play.google.com/store/apps/details?id=com.ventismedia.android.mediamonkey</a></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+							<wfw:commentRss>https://www.mediamonkey.com/news/2014/08/25/new-releases-of-mediamonkey-for-android-and-windows/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>Announcing MediaMonkey for Android!</title>
+		<link>https://www.mediamonkey.com/news/2014/04/03/announcing-mediamonkey-for-android/</link>
+				<comments>https://www.mediamonkey.com/news/2014/04/03/announcing-mediamonkey-for-android/#comments</comments>
+				<pubDate>Thu, 03 Apr 2014 19:07:54 +0000</pubDate>
+		<dc:creator><![CDATA[MediaMonkey News]]></dc:creator>
+				<category><![CDATA[Releases]]></category>
+
+		<guid isPermaLink="false">http://www.mediamonkey.com/news/?p=141</guid>
+				<description><![CDATA[Ventis Media is proud to release a new member to the MediaMonkey family:  MediaMonkey for Android is the media manager for serious collectors.  It lets users sync, navigate, and manage their media, providing a unified view of their libraries across Windows and Android devices. Key features in the initial release include: Wirelessly sync* Playlists and [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>Ventis Media is proud to release a new member to the MediaMonkey family:  MediaMonkey for Android is the media manager for serious collectors.  It lets users sync, navigate, and manage their media, providing a unified view of their libraries across Windows and Android devices.</p>
+<p>Key features in the initial release include:</p>
+<ul>
+<li>Wirelessly sync* Playlists and media, including file info, ratings, lyrics, play history, etc. with MediaMonkey for Windows 4.1.1.</li>
+<li>Manage Music, Classical music, Audiobooks, Podcasts, Video, etc&#8230;</li>
+<li>Navigate by Artist, Album, Composer, Genre, Playlist, Folder*, etc.) with support for multiple attributes (e.g. Genre=Rock; Alternative)</li>
+<li>Play with replay gain (volume leveling), an equalizer, and sleep timer</li>
+<li>Access, play, and download media from UPnP/DLNA servers*</li>
+<li>Edit properties for single/multiple files &amp; lookup lyrics</li>
+<li>Manage single/multiple files (e.g. play, queue, add to playlist, delete, use as ringtone, share)</li>
+<li>Plus player widgets, scrobbler integration, search, and more&#8230;</li>
+</ul>
+<p>&#8220;This first release brings to the Android platform the level of control that MediaMonkey users have come to expect,&#8221; indicated Russell Samuels. &#8220;It&#8217;s not so much a media player as it is a media manager&#8211;our focus is on building a better management tool for very large media collections.&#8221;</p>
+<p>*MediaMonkey for Android is available as a free download, with the following upgrades available:</p>
+<ul>
+<li>Wi-Fi Sync addon: Allows unlimited wireless synchronization.  Available as an in-app purchase (USB synchronization is free).</li>
+<li>UPnP/DLNA addon: Allows unlimited UPnP/DLNA usage.  Available as an in-app purchase.</li>
+<li>Advanced Media Management addon: Allows unlimited lyrics lookup, home screen customization, folder browser, with more to come.  Available as an in-app purchase.</li>
+<li>MediaMonkey Pro: Provides all of the addon features described above in one bundle.  Available via Google Play.</li>
+</ul>
+<p>MediaMonkey is the music and movie manager for serious collectors.  It works with your devices (Apple, Android, etc.), your files (MP3, AAC, FLAC, WMA, etc.), with you in full control of how your music is tagged, organized and shared.  It is available on Windows, Android, and Windows tablets.</p>
+<p>MediaMonkey for Android is available now via Google Play:<br />
+<a href="https://play.google.com/store/apps/details?id=com.ventismedia.android.mediamonkey">https://play.google.com/store/apps/details?id=com.ventismedia.android.mediamonkey</a></p>
+<p>MediaMonkey for Windows 4.1.1 is available for download at:<br />
+<a href="http://www.mediamonkey.com/download">http://www.mediamonkey.com/download</a></p>
+]]></content:encoded>
+							<wfw:commentRss>https://www.mediamonkey.com/news/2014/04/03/announcing-mediamonkey-for-android/feed/</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+							</item>
+		<item>
+		<title>MediaMonkey 4.1 Released</title>
+		<link>https://www.mediamonkey.com/news/2014/02/10/mediamonkey-4-1-released/</link>
+				<comments>https://www.mediamonkey.com/news/2014/02/10/mediamonkey-4-1-released/#comments</comments>
+				<pubDate>Mon, 10 Feb 2014 06:49:49 +0000</pubDate>
+		<dc:creator><![CDATA[MediaMonkey News]]></dc:creator>
+				<category><![CDATA[Releases]]></category>
+
+		<guid isPermaLink="false">http://www.mediamonkey.com/news/?p=133</guid>
+				<description><![CDATA[Ventis Media is proud to announce a major new release of MediaMonkey. It makes MediaMonkey an even better management tool for serious collectors with a range of new functionality, including: 1) Wireless synchronization with MediaMonkey for Android* and MediaMonkey for Windows 8 tablets.  This allows users to sync their music collection wirelessly, while maintaining common [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>Ventis Media is proud to announce a major new release of MediaMonkey. It makes MediaMonkey an even better management tool for serious collectors with a range of new functionality, including:</p>
+<p>1) Wireless synchronization with <a title="MediaMonkey for Android" href="http://www.mediamonkey.com/android">MediaMonkey for Android</a>* and <a title="MediaMonkey for Windows 8 tablets" href="http://www.mediamonkey.com/touch">MediaMonkey for Windows 8 tablets</a>.  This allows users to sync their music collection wirelessly, while maintaining common metadata, ratings, play history, etc. across devices.</p>
+<p>2) Bi-directional synchronization. Synchronization to Android devices is no longer a one-way street.  MediaMonkey can sync media and metadata in both directions so that music purchases and edits made on the phone also appear in the main library.</p>
+<p>3) Improved device compatibility. MediaMonkey can now sync with almost all Android and iOS 7 (iPod / iPad) devices, with little to no configuration required.</p>
+<p>4) Improved metadata lookup. MediaMonkey can now automatically look up Artwork and Lyrics.</p>
+<p>5) Improved media sharing.  The MediaMonkey UPnP/DLNA server:</p>
+<ul>
+<li>now converts audio/video formats on the fly depending no the needs of individual UPnP/DLNA players</li>
+<li>adds indexed browsing which makes it easier to browse huge lists of content</li>
+<li>adds UPnP renderer &amp; controller functions enabling playback of content to other devices</li>
+<li>can run as a service even when MediaMonkey isn&#8217;t running.</li>
+</ul>
+<p>Finally, the new version improves Windows 8 compatibility, has a new coat of paint (new skin), and includes over 300 other fixes and improvements.<br />
+MediaMonkey is the music and movie manager for serious collectors.  It works with your devices (Apple, Android, etc.), your files (MP3, AAC, FLAC, WMA, etc.), with you in full control of how your music is tagged, organized and shared.</p>
+<p>A full changelog is available at:<br />
+http://www.mediamonkey.com/information/changelog/</p>
+<p>MediaMonkey 4.1.0 is available for download now at:<br />
+http://www.mediamonkey.com/download</p>
+<p>&nbsp;</p>
+<p>* MediaMonkey for Android is currently in beta testing.  Until its release later this week, <a title="MediaMonkey Pro" href="https://play.google.com/store/apps/details?id=com.ventismedia.android.mediamonkeypro">MediaMonkey Pro</a> is available at a 70% discount on Google Play.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://www.mediamonkey.com/news/2014/02/10/mediamonkey-4-1-released/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+							</item>
+		<item>
+		<title>iOS 7 Compatibility</title>
+		<link>https://www.mediamonkey.com/news/2013/11/01/ios-7-compatibility/</link>
+				<comments>https://www.mediamonkey.com/news/2013/11/01/ios-7-compatibility/#respond</comments>
+				<pubDate>Fri, 01 Nov 2013 15:49:57 +0000</pubDate>
+		<dc:creator><![CDATA[MediaMonkey News]]></dc:creator>
+				<category><![CDATA[Web Announcements]]></category>
+
+		<guid isPermaLink="false">http://www.mediamonkey.com/news/?p=128</guid>
+				<description><![CDATA[MediaMonkey 4.0.7 can sync with Apple devices up to and including iOS 6. If you&#8217;re using an iOS 7 device, including the iPhone 5s and 5c, you&#8217;ll need to upgrade to MediaMonkey 4.1.1. More information / download links are available in this knowledgebase article. &#160;]]></description>
+								<content:encoded><![CDATA[<p>MediaMonkey 4.0.7 can sync with Apple devices up to and including iOS 6.</p>
+<p>If you&#8217;re using an iOS 7 device, including the iPhone 5s and 5c, you&#8217;ll need to upgrade to MediaMonkey 4.1.1.</p>
+<p>More information / download links are available in <a title="Device Synchronization Status" href="http://www.mediamonkey.com/devicesync">this knowledgebase article</a>.</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+							<wfw:commentRss>https://www.mediamonkey.com/news/2013/11/01/ios-7-compatibility/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>MediaMonkey 4.0.7 Released</title>
+		<link>https://www.mediamonkey.com/news/2012/11/12/mediamonkey-4-0-7-released/</link>
+				<comments>https://www.mediamonkey.com/news/2012/11/12/mediamonkey-4-0-7-released/#respond</comments>
+				<pubDate>Mon, 12 Nov 2012 21:05:01 +0000</pubDate>
+		<dc:creator><![CDATA[MediaMonkey News]]></dc:creator>
+				<category><![CDATA[Releases]]></category>
+
+		<guid isPermaLink="false">http://www.mediamonkey.com/news/?p=122</guid>
+				<description><![CDATA[Ventis Media is proud to announce a new release of MediaMonkey. The new version is a minor update that adds support for the iPhone 5 / iPod Touch 5G (and iOS 6 on older devices) and the iPod Nano 7G.  It also includes 40+ miscellaneous fixes and tweaks including several related to Android synchronization and [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>Ventis Media is proud to announce a new release of MediaMonkey. The new version is a minor update that adds support for the iPhone 5 / iPod Touch 5G (and iOS 6 on older devices) and the iPod Nano 7G.  It also includes 40+ miscellaneous fixes and tweaks including several related to Android synchronization and compatibility with Windows 8.</p>
+<p>MediaMonkey is the music and movie manager for serious collectors.  It works with your devices (Apple, Android, etc.), your files (MP3, AAC, FLAC, WMA, etc.), with you in full control of how your music is tagged, organized and shared.</p>
+<p>A full changelog is available at:<br />
+<a href="http://www.mediamonkey.com/information/changelog/">http://www.mediamonkey.com/information/changelog/</a></p>
+<p>MediaMonkey 4.0.7 is available for download at:<br />
+<a href="http://www.mediamonkey.com/download">http://www.mediamonkey.com/download</a></p>
+]]></content:encoded>
+							<wfw:commentRss>https://www.mediamonkey.com/news/2012/11/12/mediamonkey-4-0-7-released/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>iPhone 5 / iOS 6 and iTunes Compatibility</title>
+		<link>https://www.mediamonkey.com/news/2012/09/24/ios-6-and-itunes-10-7-compatibility/</link>
+				<comments>https://www.mediamonkey.com/news/2012/09/24/ios-6-and-itunes-10-7-compatibility/#respond</comments>
+				<pubDate>Tue, 25 Sep 2012 01:22:59 +0000</pubDate>
+		<dc:creator><![CDATA[MediaMonkey News]]></dc:creator>
+				<category><![CDATA[Web Announcements]]></category>
+
+		<guid isPermaLink="false">http://www.mediamonkey.com/news/?p=115</guid>
+				<description><![CDATA[MediaMonkey 4.0.7 can sync with: all iPods/iPhones/iPads running iOS 3 /4 / 5 /6 that are available as of Sept 2012, except for the iPad mini which is not yet tested, provided iTunes 10.7 is installed all non-iOS iPods including the iPod Nano 7G Any version of MediaMonkey 4 can sync with any iPod, iPad, [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><a title="Download MediaMonkey" href="http://www.mediamonkey.com/MediaMonkey_Setup.exe">MediaMonkey 4.0.7</a> can sync with:</p>
+<ul>
+<li>all iPods/iPhones/iPads running iOS 3 /4 / 5 /6 that are available as of Sept 2012, except for the iPad mini which is not yet tested, provided iTunes 10.7 is installed</li>
+<li>all non-iOS iPods including the iPod Nano 7G</li>
+</ul>
+<p>Any version of MediaMonkey 4 can sync with any iPod, iPad, or iPhone (including the iPhone 5) via the following addon:<br />
+http://www.mediamonkey.com/addons/browse/item/device-plugin-for-itunes/</p>
+<p>(a version of this addon is also available for MediaMonkey 3).</p>
+<p>-The MediaMonkey team</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+							<wfw:commentRss>https://www.mediamonkey.com/news/2012/09/24/ios-6-and-itunes-10-7-compatibility/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>MediaMonkey 4.0.6 Released</title>
+		<link>https://www.mediamonkey.com/news/2012/07/03/mediamonkey-4-0-6-released/</link>
+				<comments>https://www.mediamonkey.com/news/2012/07/03/mediamonkey-4-0-6-released/#respond</comments>
+				<pubDate>Tue, 03 Jul 2012 16:31:52 +0000</pubDate>
+		<dc:creator><![CDATA[MediaMonkey News]]></dc:creator>
+				<category><![CDATA[Releases]]></category>
+
+		<guid isPermaLink="false">http://www.mediamonkey.com/news/?p=110</guid>
+				<description><![CDATA[Ventis Media is proud to announce a new release of MediaMonkey. The new version is a minor update that adds 20 miscellaneous fixes and improvements, including several related to iPhone / iPod synchronization. MediaMonkey is the music and movie manager for serious collectors.  It works with your devices (Apple, Android, etc.), your files (MP3, AAC, [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>Ventis Media is proud to announce a new release of MediaMonkey. The new version is a minor update that adds 20 miscellaneous fixes and improvements, including several related to iPhone / iPod synchronization.</p>
+<p>MediaMonkey is the music and movie manager for serious collectors.  It works with your devices (Apple, Android, etc.), your files (MP3, AAC, FLAC, WMA, etc.), with you in full control of how your music is tagged, organized and shared.</p>
+<p>A full changelog is available at:<br />
+<a href="http://www.mediamonkey.com/information/changelog/">http://www.mediamonkey.com/information/changelog/</a></p>
+<p>MediaMonkey 4.0.6 is available for download at:<br />
+<a href="http://www.mediamonkey.com/download">http://www.mediamonkey.com/download</a></p>
+]]></content:encoded>
+							<wfw:commentRss>https://www.mediamonkey.com/news/2012/07/03/mediamonkey-4-0-6-released/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>MediaMonkey 4.0.5 Released</title>
+		<link>https://www.mediamonkey.com/news/2012/06/06/mediamonkey-4-0-5-released/</link>
+				<comments>https://www.mediamonkey.com/news/2012/06/06/mediamonkey-4-0-5-released/#comments</comments>
+				<pubDate>Wed, 06 Jun 2012 19:44:28 +0000</pubDate>
+		<dc:creator><![CDATA[MediaMonkey News]]></dc:creator>
+				<category><![CDATA[Releases]]></category>
+
+		<guid isPermaLink="false">http://www.mediamonkey.com/news/?p=104</guid>
+				<description><![CDATA[Ventis Media is proud to announce a new release of MediaMonkey. The new version is a minor update that includes over 50 fixes and improvements to MediaMonkey 4.0.3, including support for synchronization/backup of media for the iPad 3, iPhone and iPod devices running iOS 5. MediaMonkey is the music and movie manager for serious collectors.  [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>Ventis Media is proud to announce a new release of MediaMonkey. The new version is a minor update that includes over 50 fixes and improvements to MediaMonkey 4.0.3, including support for synchronization/backup of media for the iPad 3, iPhone and iPod devices running iOS 5.</p>
+<p>MediaMonkey is the music and movie manager for serious collectors.  It works with your devices (Apple, Android, etc.), your files (MP3, AAC, FLAC, WMA, etc.), with you in control of all tagging and organization settings.</p>
+<p>A full changelog is available at:<br />
+<a href="http://www.mediamonkey.com/information/changelog/">http://www.mediamonkey.com/information/changelog/</a></p>
+<p>MediaMonkey 4.0.5 is available for download at:<br />
+<a href="http://www.mediamonkey.com/download">http://www.mediamonkey.com/download</a></p>
+]]></content:encoded>
+							<wfw:commentRss>https://www.mediamonkey.com/news/2012/06/06/mediamonkey-4-0-5-released/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+							</item>
+		<item>
+		<title>iTunes 10.5 and IOS 5 Compatibility</title>
+		<link>https://www.mediamonkey.com/news/2012/04/18/itunes-10-5-and-ios-5-compatibility/</link>
+				<comments>https://www.mediamonkey.com/news/2012/04/18/itunes-10-5-and-ios-5-compatibility/#respond</comments>
+				<pubDate>Thu, 19 Apr 2012 01:00:33 +0000</pubDate>
+		<dc:creator><![CDATA[MediaMonkey News]]></dc:creator>
+				<category><![CDATA[Web Announcements]]></category>
+
+		<guid isPermaLink="false">http://www.mediamonkey.com/news/?p=73</guid>
+				<description><![CDATA[MediaMonkey 4.0.5 can sync with: all iPods/iPhones/iPads running iOS 3 /4 / 5 that are available as of June 2012 all non-iOS iPods MediaMonkey 3 can: sync with non-iOS iPods and devices running iOS 3/4 if the machine hasn&#8217;t been updated to iTunes 10.5 sync with non-iOS iPods on a PC that has updated to [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>MediaMonkey 4.0.5 can sync with:</p>
+<ul>
+<li>all iPods/iPhones/iPads running iOS 3 /4 / 5 that are available as of June 2012</li>
+<li>all non-iOS iPods</li>
+</ul>
+<p>MediaMonkey 3 can:</p>
+<ul>
+<li>sync with non-iOS iPods and devices running iOS 3/4 if the machine hasn&#8217;t been updated to iTunes 10.5</li>
+<li>sync with non-iOS iPods on a PC that has updated to iTunes 10.5</li>
+<li>not sync with any iOS devices after upgrading to iTunes 10.5</li>
+</ul>
+<p>For more information, see:<br />
+<a href="http://www.mediamonkey.com/forum/viewtopic.php?f=12&amp;t=61107&amp;p=316590#p316590">http://www.mediamonkey.com/forum/viewtopic.php?f=12&amp;t=61107&amp;p=316590#p316590</a></p>
+]]></content:encoded>
+							<wfw:commentRss>https://www.mediamonkey.com/news/2012/04/18/itunes-10-5-and-ios-5-compatibility/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>MediaMonkey 4.0.3 Released</title>
+		<link>https://www.mediamonkey.com/news/2012/02/22/mediamonkey-4-0-3-released/</link>
+				<comments>https://www.mediamonkey.com/news/2012/02/22/mediamonkey-4-0-3-released/#comments</comments>
+				<pubDate>Wed, 22 Feb 2012 21:23:12 +0000</pubDate>
+		<dc:creator><![CDATA[MediaMonkey News]]></dc:creator>
+				<category><![CDATA[General]]></category>
+
+		<guid isPermaLink="false">http://www.mediamonkey.com/news/?p=95</guid>
+				<description><![CDATA[Ventis Media is proud to announce a new release of MediaMonkey. The new version 4.0.3 is a patch update that resolves over 100 miscellaneous issues, including improvements to DLNA media sharing, synchronization, etc. A full changelog is available at: http://www.mediamonkey.com/information/changelog/ MediaMonkey 4.0.3 is available for download at: http://www.mediamonkey.com/download]]></description>
+								<content:encoded><![CDATA[<p>Ventis Media is proud to announce a new release of MediaMonkey. The  new version 4.0.3 is a patch update that resolves over 100 miscellaneous issues, including improvements to DLNA media sharing, synchronization, etc.</p>
+<p>A full changelog is available at:<br />
+<a href="http://www.mediamonkey.com/information/changelog/">http://www.mediamonkey.com/information/changelog/</a></p>
+<p>MediaMonkey 4.0.3 is available for download at:<br />
+<a href="http://www.mediamonkey.com/download">http://www.mediamonkey.com/download</a></p>
+]]></content:encoded>
+							<wfw:commentRss>https://www.mediamonkey.com/news/2012/02/22/mediamonkey-4-0-3-released/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+							</item>
+		<item>
+		<title>MediaMonkey 4.0.2 Released</title>
+		<link>https://www.mediamonkey.com/news/2011/12/25/mediamonkey-4-0-1-released/</link>
+				<comments>https://www.mediamonkey.com/news/2011/12/25/mediamonkey-4-0-1-released/#respond</comments>
+				<pubDate>Sun, 25 Dec 2011 06:48:42 +0000</pubDate>
+		<dc:creator><![CDATA[MediaMonkey News]]></dc:creator>
+				<category><![CDATA[Web Announcements]]></category>
+
+		<guid isPermaLink="false">http://www.mediamonkey.com/news/?p=89</guid>
+				<description><![CDATA[Ventis Media is proud to announce a new release of MediaMonkey. The new version 4.0.2 is a patch update that resolves database upgrade issues to MediaMonkey 4.0.1 which is in itself a minor update that resolves ~40 miscellaneous issues (database upgrades, DLNA media sharing, Art views, tagging, etc.) in MediaMonkey 4.0. A full changelog is [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>Ventis Media is proud to announce a new release of MediaMonkey. The new version 4.0.2 is a patch update that resolves database upgrade issues to MediaMonkey 4.0.1 which is in itself a minor update that resolves ~40 miscellaneous issues (database upgrades, DLNA media sharing, Art views, tagging, etc.) in MediaMonkey 4.0.</p>
+<p>A full changelog is available at:<br />
+<a href="http://www.mediamonkey.com/information/changelog/">http://www.mediamonkey.com/information/changelog/</a></p>
+<p>MediaMonkey 4.0.2 is available for download at:<br />
+<a href="http://www.mediamonkey.com/download">http://www.mediamonkey.com/download</a></p>
+]]></content:encoded>
+							<wfw:commentRss>https://www.mediamonkey.com/news/2011/12/25/mediamonkey-4-0-1-released/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>MediaMonkey 4.0 &#8211; Brings the &#8216;media&#8217; to MediaMonkey</title>
+		<link>https://www.mediamonkey.com/news/2011/11/16/mediamonkey-4-0-brings-the-media-to-mediamonkey/</link>
+				<comments>https://www.mediamonkey.com/news/2011/11/16/mediamonkey-4-0-brings-the-media-to-mediamonkey/#comments</comments>
+				<pubDate>Wed, 16 Nov 2011 07:08:20 +0000</pubDate>
+		<dc:creator><![CDATA[MediaMonkey News]]></dc:creator>
+				<category><![CDATA[Releases]]></category>
+
+		<guid isPermaLink="false">http://www.mediamonkey.com/news/?p=80</guid>
+				<description><![CDATA[MediaMonkey has long been known as a music manager for serious collectors.  With today&#8217;s release, Ventis Media&#8217;s MediaMonkey 4.0 finally lives up to its moniker&#8211;managing video as well as music. &#8220;One of the most commonly received requests we&#8217;ve had was to extend MediaMonkey&#8217;s music management, tagging, and organization tools to video.  MediaMonkey 4 will provide [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>MediaMonkey has long been known as a music manager for serious collectors.  With today&#8217;s release, Ventis Media&#8217;s MediaMonkey 4.0 finally lives up to its moniker&#8211;managing video as well as music.</p>
+<p>&#8220;One of the most commonly received requests we&#8217;ve had was to extend MediaMonkey&#8217;s music management, tagging, and organization tools to video.  MediaMonkey 4 will provide serious video collectors with the tools they need to effectively manage their collections,&#8221; indicated Russell Samuels, VP Marketing.</p>
+<p>The new version tags AVI, MP4, and WMV with support for MKV coming in the future.  It can lookup album art and metadata, automatically rename and organize videos based on metadata, and convert between video formats. Additionally, it&#8217;s able to segment a library into &#8216;Collections&#8217; so that home videos, music videos, movies, and tv shows can be managed independently.</p>
+<p>&#8220;This is one of the most significant MediaMonkey releases to-date.&#8221; said Jiri Hajek, VP Engineering.  &#8220;Although it adds a lot of new functionality, the new UI is even simpler than in previous versions of MediaMonkey. MediaMonkey 4 is accessible to the novice, but powerful enough for the most serious collector.&#8221;</p>
+<p>The new version improves on the UI in so many ways: multiple collections are more easily managed, a tabbed interface allows to easily switch between different views/collections, the toolbar contains only the commands that are needed in any given context, and the overall look and feel is much improved.</p>
+<p>Version 4 also improves devices synchronization for Android devices, adds library sharing over DLNA / UPnP, improved audio output via WASAPI, secure ripping for bit perfect CD rips, and portable mode to carry MediaMonkey on a USB stick.</p>
+<p>MediaMonkey 4.0.0 is available for download at:<br />
+<a href="http://www.mediamonkey.com/download">http://www.mediamonkey.com/download</a></p>
+<p>A full changelog is available here:<br />
+<a href="http://www.mediamonkey.com/information/changelog/">http://www.mediamonkey.com/information/changelog/</a></p>
+<p>Upgrade information for existing users is available here:<br />
+<a href="http://www.mediamonkey.com/support/index.php?_m=knowledgebase&amp;_a=viewarticle&amp;kbarticleid=57">http://www.mediamonkey.com/support/index.php?_m=knowledgebase&amp;_a=viewarticle&amp;kbarticleid=57</a></p>
+]]></content:encoded>
+							<wfw:commentRss>https://www.mediamonkey.com/news/2011/11/16/mediamonkey-4-0-brings-the-media-to-mediamonkey/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+							</item>
+		<item>
+		<title>MediaMonkey 3.2.4 released</title>
+		<link>https://www.mediamonkey.com/news/2010/11/24/mediamonkey-3-2-4-released/</link>
+				<comments>https://www.mediamonkey.com/news/2010/11/24/mediamonkey-3-2-4-released/#respond</comments>
+				<pubDate>Wed, 24 Nov 2010 22:18:56 +0000</pubDate>
+		<dc:creator><![CDATA[MediaMonkey News]]></dc:creator>
+				<category><![CDATA[Releases]]></category>
+
+		<guid isPermaLink="false">http://www.mediamonkey.com/news/?p=66</guid>
+				<description><![CDATA[Ventis Media is proud to announce a new release of MediaMonkey. The new version add compatibility with the iPod Nano 6G, iPod Shuffle 4G, and iPod Touch 4G.  It also resolves compatibility issues with iTunes 10.1 and iOS 4.2.1 firmware recently released for iPod, iPad, and iPhone devices.  In addition, it includes several other minor [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>Ventis Media is proud to announce a new release of MediaMonkey. The new version add compatibility with the iPod Nano 6G, iPod Shuffle 4G, and iPod Touch 4G.  It also resolves compatibility issues with iTunes 10.1 and iOS 4.2.1 firmware recently released for iPod, iPad, and iPhone devices.  In addition, it includes several other minor minor fixes.</p>
+<p>MediaMonkey 3.2.4 is available for download at:<br />
+<a href="http://www.mediamonkey.com/download">http://www.mediamonkey.com/download</a></p>
+<p>A full changelog is available at:<br />
+<a href="http://www.mediamonkey.com/information/changelog/">http://www.mediamonkey.com/information/changelog/</a></p>
+<p>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-<br />
+Give the gift of MediaMonkey&#8230; at 40% off (until Nov. 30):<br />
+<a href="http://www.mediamonkey.com/blackfriday">http://www.mediamonkey.com/blackfriday</a><br />
+Note: if you&#8217;re giving a gift, enter the recipient&#8217;s first name and last name, but enter your e-mail address.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://www.mediamonkey.com/news/2010/11/24/mediamonkey-3-2-4-released/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>MediaMonkey 3.2.2 released &#8211; syncs with iPhone 4</title>
+		<link>https://www.mediamonkey.com/news/2010/08/13/mediamonkey-3-2-2-released-compatible-with-iphone-4/</link>
+				<comments>https://www.mediamonkey.com/news/2010/08/13/mediamonkey-3-2-2-released-compatible-with-iphone-4/#comments</comments>
+				<pubDate>Fri, 13 Aug 2010 14:58:41 +0000</pubDate>
+		<dc:creator><![CDATA[MediaMonkey News]]></dc:creator>
+				<category><![CDATA[Releases]]></category>
+
+		<guid isPermaLink="false">http://www.mediamonkey.com/news/?p=50</guid>
+				<description><![CDATA[Ventis Media is proud to announce a new release of MediaMonkey. The new version syncs with the iPhone 4, iPad, and any other device with iOS 4, making it one of the only iTunes alternatives to fully support all iPod / iPhone devices.  Additionally, the new version includes numerous minor fixes. MediaMonkey 3.2.2 is available [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>Ventis Media is proud to announce a new release of MediaMonkey. The new version syncs with the iPhone 4, iPad, and any other device with iOS 4, making it one of the only iTunes alternatives to fully support all iPod / iPhone devices.  Additionally, the new version includes numerous minor fixes.</p>
+<p>MediaMonkey 3.2.2 is available for download now in free and Gold versions at:<br />
+http://www.mediamonkey.com/download</p>
+<p>Edit: this release was posted prior to the Sept. 2010 launch of new hardware iterations of the iPod Nano, Touch, and Shuffle.  An updated plugin will be released for these devices, but it is not included with MediaMonkey 3.2.2.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://www.mediamonkey.com/news/2010/08/13/mediamonkey-3-2-2-released-compatible-with-iphone-4/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+							</item>
+		<item>
+		<title>MediaMonkey 3.2 Released &#8211; Syncs with the latest phones</title>
+		<link>https://www.mediamonkey.com/news/2009/11/19/mediamonkey-3-2-released-syncs-with-the-latest-phones/</link>
+				<comments>https://www.mediamonkey.com/news/2009/11/19/mediamonkey-3-2-released-syncs-with-the-latest-phones/#respond</comments>
+				<pubDate>Thu, 19 Nov 2009 17:17:21 +0000</pubDate>
+		<dc:creator><![CDATA[MediaMonkey News]]></dc:creator>
+				<category><![CDATA[Releases]]></category>
+
+		<guid isPermaLink="false">http://www.mediamonkey.com/news/?p=38</guid>
+				<description><![CDATA[Ventis Media is proud to announce a major new release of MediaMonkey. The new version syncs with some of the most popular smartphones, including the iPhone 3GS, Palm Pre, and Android phones, as well as with all of the latest iPods including the iPod Nano 5G, and iPod Touch 3G.  This should prove especially useful [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>Ventis Media is proud to announce a major new release of MediaMonkey. The new version syncs with some of the most popular smartphones, including the iPhone 3GS, Palm Pre, and Android phones, as well as with all of the latest iPods including the iPod Nano 5G, and iPod Touch 3G.  This should prove especially useful to Palm Pre and Android phone owners who are unable to sync their devices with the latest versions of iTunes.</p>
+<p>In addition to the new sync capabilities, the new version:<br />
+&#8211; adds support for new Windows 7 features such as Aeropeek and jumplists<br />
+&#8211; automatically monitors directories for changes so that music can be automatically added to the library (in the free version!)<br />
+&#8211; includes close to <a href="http://www.ventismedia.com/mantis/search.php?project_id=4&amp;status_id%5B%5D=80&amp;status_id%5B%5D=90&amp;sticky_issues=on&amp;fixed_in_version%5B%5D=3.1.2&amp;fixed_in_version%5B%5D=3.2&amp;sortby=category&amp;dir=ASC&amp;hide_status_id=-2&amp;per_page=250" target="_blank">200 other minor improvements</a> including numerous CD playback / burning fixes and compatibility with the latest version of iTunes</p>
+<p>MediaMonkey 3.2 is available for download <em>now</em> in free and Gold versions at:<br />
+<a href="http://www.mediamonkey.com/download">http://www.mediamonkey.com/download</a></p>
+]]></content:encoded>
+							<wfw:commentRss>https://www.mediamonkey.com/news/2009/11/19/mediamonkey-3-2-released-syncs-with-the-latest-phones/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>MediaMonkey 3.1.1 Released!</title>
+		<link>https://www.mediamonkey.com/news/2009/09/01/mediamonkey-311-released/</link>
+				<comments>https://www.mediamonkey.com/news/2009/09/01/mediamonkey-311-released/#respond</comments>
+				<pubDate>Tue, 01 Sep 2009 22:52:23 +0000</pubDate>
+		<dc:creator><![CDATA[MediaMonkey News]]></dc:creator>
+				<category><![CDATA[Web Announcements]]></category>
+
+		<guid isPermaLink="false">http://www.mediamonkey.com/news/?p=30</guid>
+				<description><![CDATA[MediaMonkey 3.1.1 is now available! It is a bug fix release, that fixes problems that have recently begun occurring with the Auto-tag from Amazon tool. Want to get your music library under control? Want to sync your music to your phone? Download it here.]]></description>
+								<content:encoded><![CDATA[<div class="newsentry">
+<p>MediaMonkey 3.1.1 is now available!</p>
+<p>It is a bug fix release, that fixes problems that have recently begun occurring with the Auto-tag from Amazon tool.</p>
+<p>Want to get your music library under control? Want to sync your music to your phone? <a href="http://www.mediamonkey.com/download"><strong>Download it here</strong></a>.</p>
+</div>
+]]></content:encoded>
+							<wfw:commentRss>https://www.mediamonkey.com/news/2009/09/01/mediamonkey-311-released/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

@@ -1,0 +1,1064 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://www.michalspacek.cz/exporty/clanky</id><title>Michal Špaček: Všechny články</title><updated>2019-05-08T21:00:00+02:00</updated><author><name>Michal Špaček</name></author><link href="https://www.michalspacek.cz/exporty/clanky" rel="self"/><entry><id>https://www.michalspacek.cz/10-nejlepsich-znacek-kavy-podle-have-i-been-pwned</id><published>2019-05-08T21:00:00+02:00</published><updated>2019-05-08T21:00:00+02:00</updated><summary type="html">&lt;p&gt;10 nejlepších značek kávy podle toho, jak moc se jejich názvy
+používají jako hesla. Protože ne každý výzkum hesel musí být
+k něčemu dobrý.&lt;/p&gt;</summary><title type="html">10 nejlepších značek kávy podle Have I Been Pwned</title><link href="https://www.michalspacek.cz/10-nejlepsich-znacek-kavy-podle-have-i-been-pwned" rel="alternate" type="text/html"/><content type="html">&lt;p&gt;Když Dan Tentler &lt;a
+href=&quot;https://twitter.com/Viss/status/1125861364050718720&quot;&gt;uviděl na Instagramu
+reklamu&lt;/a&gt;, která tvrdí, že si máte hacknout svojí ranní rutinu tím, že
+budete pít proteinové smoothie od Nescafé, tak celkem oprávněně &lt;a
+href=&quot;https://twitter.com/Viss/status/1125861364050718720&quot;&gt;zaglosoval&lt;/a&gt;, že
+pití kafe nebo smoothie není hackování a už vůbec se nedá nazvat
+hackováním pouhá změna vaší ranní drogy. Zároveň ho napadlo se
+podívat, kolik lidí používá &lt;code&gt;nescafe&lt;/code&gt; jako heslo a zjistil, že
+docela dost.&lt;/p&gt;
+
+&lt;p&gt;No jo, ale co je to dost? A jak jsou na tom ostatní značky kafe? A který
+kafe je nejlepší podle toho, jak moc se používá jako heslo? Čas na
+&lt;em&gt;silly password research&lt;/em&gt; 🙃&lt;/p&gt;
+
+&lt;div&gt;&lt;img src=&quot;https://www.michalspacek.cz/i/images/blog/haveibeennescafe.png&quot;
+alt=&quot;„nescafe“: Oh no – pwned! This password has been seen 7,708 times before&quot;
+width=&quot;616&quot; height=&quot;346&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;Jak moc to které heslo bylo v nějakém známém úniku dat se dá zjistit
+z &lt;a href=&quot;https://haveibeenpwned.com/Passwords&quot;&gt;Pwned Passwords&lt;/a&gt;, dotazy se
+dají posílat strojově na &lt;a
+href=&quot;https://haveibeenpwned.com/API/v2#PwnedPasswords&quot;&gt;API&lt;/a&gt; a seznam značek
+kafe je třeba &lt;a href=&quot;https://en.wikipedia.org/wiki/Category:Coffee_brands&quot;&gt;na
+Wikipedii&lt;/a&gt;. Takže tady je…&lt;/p&gt;
+
+&lt;h2 id=&quot;top-10-znacek-kavy&quot;&gt;Top 10 značek kávy&lt;/h2&gt;
+
+&lt;ol&gt;
+	&lt;li&gt;&lt;code&gt;georgia&lt;/code&gt; (57531× použito jako heslo)&lt;/li&gt;
+
+	&lt;li&gt;&lt;code&gt;jacobs&lt;/code&gt; (33594×)&lt;/li&gt;
+
+	&lt;li&gt;&lt;code&gt;starbucks&lt;/code&gt; (17286×)&lt;/li&gt;
+
+	&lt;li&gt;&lt;code&gt;franck&lt;/code&gt; (14508×)&lt;/li&gt;
+
+	&lt;li&gt;&lt;code&gt;nescafe&lt;/code&gt; (7708×)&lt;/li&gt;
+
+	&lt;li&gt;&lt;code&gt;justus&lt;/code&gt; (7484×)&lt;/li&gt;
+
+	&lt;li&gt;&lt;code&gt;timhortons&lt;/code&gt; (1436×)&lt;/li&gt;
+
+	&lt;li&gt;&lt;code&gt;lavazza&lt;/code&gt; (1388×)&lt;/li&gt;
+
+	&lt;li&gt;&lt;code&gt;highpoint&lt;/code&gt; (1304×)&lt;/li&gt;
+
+	&lt;li&gt;&lt;code&gt;folgers&lt;/code&gt; (1288×)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Jo, asi všechno z toho je taky něco jinýho než kafe. Teda snad kromě
+Jihlavanky – &lt;code&gt;jihlavanka&lt;/code&gt;, česká značka kávy, která
+s Jihlavou a Českem už nemá nic společného, byla jako heslo použita 63×.
+Georgia je stát v USA, stát na rozhraní Evropy a Asie (česky &lt;a
+href=&quot;https://cs.wikipedia.org/wiki/Gruzie&quot;&gt;Gruzie&lt;/a&gt;), font, &lt;a
+href=&quot;https://en.wikipedia.org/wiki/USS_Georgia_(BB-15)&quot;&gt;lodě&lt;/a&gt;, &lt;a
+href=&quot;https://en.wikipedia.org/wiki/USS_Georgia_(SSGN-729)&quot;&gt;ponorka&lt;/a&gt; a
+dokonce &lt;a href=&quot;https://en.wikipedia.org/wiki/359_Georgia&quot;&gt;asteroid&lt;/a&gt;
+(i jeho název někdo použil, v heslu &lt;code&gt;georgia359&lt;/code&gt;). Georgia je
+i jméno, podobně jako Franck nebo Justus. Jestli lidi mají v heslu kafe
+nebo ponorku, to už se asi nedozvíme.&lt;/p&gt;
+
+&lt;p&gt;Ale jen jeden hardcore fanda používá jako heslo &lt;code&gt;jitteryjoes&lt;/code&gt;.
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Jittery_Joe%27s&quot;&gt;Jittery Joe's&lt;/a&gt; je
+nějaký kafe z Atén, což je nějaký město v Georgii. V tý Georgii
+v USA. O &lt;a
+href=&quot;https://en.wikipedia.org/wiki/Ziferblat&quot;&gt;&lt;code&gt;ziferblat&lt;/code&gt;&lt;/a&gt;, &lt;a
+href=&quot;https://en.wikipedia.org/wiki/Death_Wish_Coffee&quot;&gt;&lt;code&gt;deathwishcoffee&lt;/code&gt;&lt;/a&gt;
+(„Vaše poslední přání?“ – „Kafe! Ne, ne, počkat, raději si
+změním heslo“) nebo &lt;a
+href=&quot;https://en.wikipedia.org/wiki/Keurig_Dr_Pepper&quot;&gt;&lt;code&gt;keurigdrpepper&lt;/code&gt;&lt;/a&gt;
+nikdo nezavadil ani speciálním znakem.&lt;/p&gt;
+
+&lt;p&gt;Službu &lt;a href=&quot;https://haveibeenpwned.com/&quot;&gt;Have I Been Pwned&lt;/a&gt;
+provozuje Troy Hunt a jeho jméno a příjmení použilo jako heslo 11 lidí,
+kteří se asi jen jmenují stejně. Moje jméno a příjmení sice nikdo jako
+heslo zatím nepoužil, ale &lt;code&gt;mspacek&lt;/code&gt; bylo v databázi 9× a
+&lt;code&gt;spacekm&lt;/code&gt; použili dva uživatelé. Chci ty lidi potkat. Ačkoliv
+prý jeden z nich má v e-mailu slovo „murder“, tak možná bude stačit,
+když mi jen napíšou.&lt;/p&gt;
+
+&lt;p&gt;Seznam všech kafehesel i jednoduchý skript &lt;a
+href=&quot;https://gist.github.com/spaze/0e47e43096da4bd469a1906d2ba934ff&quot;&gt;na
+GitHubu&lt;/a&gt;. A jak teda vlastně vypadá to hackování? Třeba &lt;a
+href=&quot;https://www.instagram.com/p/Bw5lc4kgHE3/&quot;&gt;takhle&lt;/a&gt; nebo &lt;a
+href=&quot;https://youtu.be/M8qkL_7Lbyw&quot;&gt;takhle&lt;/a&gt;.&lt;/p&gt;</content></entry><entry><id>https://www.michalspacek.cz/bezpecnostni-klic-pro-2fa-rovnou-v-androidu</id><published>2019-04-11T21:00:00+02:00</published><updated>2019-04-12T20:18:39+02:00</updated><summary type="html">&lt;p&gt;Google včera &lt;a
+href=&quot;https://www.blog.google/technology/safety-security/your-android-phone-is-a-security-key/&quot;&gt;představil&lt;/a&gt;
+další &lt;em&gt;Security Key&lt;/em&gt;, který se dá použít pro dvoufaktorovou
+autentizaci (2FA, Two-Factor Authentication, někdy též dvoufázové
+ověření, 2-step verification, 2SV) pro Gůglí služby. Tenhle je rovnou
+vestavěný v Androidu 7+, takže ho už možná máte v kapse, používá
+Bluetooth (ale není třeba nic párovat) a funguje zatím jen v Chrome a
+prohlížečích postavených na Chromiu – Google to sám označuje za beta
+verzi. A to je v podstatě všechno co o tom víme. Používám 2FA všude
+kde se dá, doporučuji to kudy chodím, takže jsem to prostě musel
+zkusit.&lt;/p&gt;</summary><title type="html">Bezpečnostní klíč pro 2FA rovnou v Androidu</title><link href="https://www.michalspacek.cz/bezpecnostni-klic-pro-2fa-rovnou-v-androidu" rel="alternate" type="text/html"/><content type="html">&lt;h3&gt;Aktualizace článku&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;&lt;strong&gt;12.4.&lt;/strong&gt; Informace o FIDO a podpoře dalších browserů založených na Chromiu&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Google už nabízí vlastní bezpečnostní klíč &lt;a
+href=&quot;https://cloud.google.com/titan-security-key/&quot;&gt;Titan&lt;/a&gt;. Stojí $50,
+musíte ho párovat (v případě Bluetooth verze) nebo připojovat do USB (a
+do USB-C navíc přes redukci) a je to prostě další věc, kterou musíte
+nosit. Jsem si celkem jist, že něco z toho od používání odradí naprostou
+většinu uživatelů. Ani výrobce &lt;a
+href=&quot;https://www.yubikey.cz/products/&quot;&gt;YubiKey&lt;/a&gt;, podobných ověřovacích
+čudlů, nebyl z Titanu &lt;a
+href=&quot;https://www.yubico.com/2018/07/the-key-to-trust/&quot;&gt;příliš
+nadšený&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;figure&quot;&gt;&lt;img
+src=&quot;https://www.michalspacek.cz/i/images/blog/google-titan-security-key.png&quot;
+class=&quot;noshadow nobgcolor&quot; alt=&quot;&quot; width=&quot;400&quot; height=&quot;252&quot; /&gt;
+	&lt;p&gt;Bezpečnostní klíče Google Titan (&lt;a
+	href=&quot;https://cloud.google.com/titan-security-key/&quot;&gt;zdroj&lt;/a&gt;)&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Google pro 2FA podporuje i tzv. &lt;a
+href=&quot;https://support.google.com/accounts/answer/7026266&quot;&gt;výzvy&lt;/a&gt; (Google
+Prompt): po zadání jména a hesla vás telefon (Android nebo iOS
+s patřičnou aplikací) připojený k Internetu vyzve, abyste potvrdili, že
+jste to opravdu vy. Tohle je skvělé, jen potřebujete připojení k Internetu
+v telefonu (a dá se to použít jen pro Google).&lt;/p&gt;
+
+&lt;p&gt;Bezpečnostní klíč vestavěný v Androidu funguje podobně, ale
+nepotřebuje ani ten Internet. Google zatím neprozradil jak je to vyřešeno
+technicky, nicméně když v browseru &lt;a
+href=&quot;chrome://flags/#enable-web-authentication-ble-support&quot;&gt;vypnu&lt;/a&gt; podporu
+Bluetooth klíčů pro &lt;a href=&quot;https://www.w3.org/TR/webauthn/&quot;&gt;Web
+Authentication API&lt;/a&gt;, tak to stále funguje. Že by to používalo spíš &lt;a
+href=&quot;https://www.chromium.org/security-keys&quot;&gt;U2F API&lt;/a&gt; (které je založené
+na &lt;a
+href=&quot;https://fidoalliance.org/specs/fido-u2f-v1.2-ps-20170411/fido-u2f-javascript-api-v1.2-ps-20170411.html&quot;&gt;&lt;abbr
+title=&quot;Fast Identity Online&quot;&gt;FIDO&lt;/abbr&gt; &lt;abbr
+title=&quot;Universal 2nd Factor&quot;&gt;U2F&lt;/abbr&gt; API&lt;/a&gt;)? Vypadá to tak, &lt;abbr
+title=&quot;Fast Identity Online&quot;&gt;FIDO&lt;/abbr&gt; je zmíněno i na &lt;a
+href=&quot;https://cloud.google.com/security-key/&quot;&gt;stránce&lt;/a&gt; s popisem
+bezpečnostních klíčů a Android 7+ je &lt;a
+href=&quot;https://fidoalliance.org/android-now-fido2-certified-accelerating-global-migration-beyond-passwords/&quot;&gt;„FIDO2
+Certified“&lt;/a&gt; od února.&lt;/p&gt;
+
+&lt;p&gt;Snad je bezpečnostní klíč v mobilu postavený na standardech a takové
+ověřování bude brzy dostupné i pro jiné služby, systémy a aplikace. Moc
+se mi líbí, že se na tomhle poli něco děje a nezůstáváme jen
+u přepisování číslíček, která se každých 30 sekund mění. Čím
+víc to bude pro lidi jednoduchý, tím víc to budou používat a tím méně
+je nějaká uniklá hesla ohrozí. Bezpečnostní klíče jsou mnohem
+bezpečnější než SMS i opisování kódů, nemůžete je totiž zadat do
+jiné stránky – jsou odolné proti phishingu.&lt;/p&gt;
+
+&lt;h2 id=&quot;takhle-se-to-pouziva&quot;&gt;Takhle se to používá&lt;/h2&gt;
+
+&lt;p&gt;Pokud si chcete používání bezpečnostního klíče vestavěného do
+Androidu nastavit, tak se můžete podívat do &lt;a
+href=&quot;https://support.google.com/accounts/answer/9289445&quot;&gt;nápovědy Googlu&lt;/a&gt;
+nebo na moje screenshoty tu.&lt;/p&gt;
+
+&lt;p&gt;V &lt;a
+href=&quot;https://myaccount.google.com/signinoptions/two-step-verification&quot;&gt;nastavení
+dvoufázového ověření&lt;/a&gt; si můžete zvolit, jaký „druhý krok“ chcete
+při přihlášení použít. Jednou z možností je
+i bezpečnostní klíč:&lt;/p&gt;
+
+&lt;div class=&quot;figure&quot;&gt;&lt;img
+src=&quot;https://www.michalspacek.cz/i/images/blog/android-security-key/pridat-bezpecnostni-klic.png&quot;
+alt=&quot;Přidat bezpečnostní klíč&quot; width=&quot;658&quot; height=&quot;152&quot; /&gt;
+	&lt;p&gt;Nelekněte se, že v popisu (zatím?) chybí klíč v telefonu&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Poté si vyberete, jestli chcete používat externí USB nebo Bluetooth
+klíč, nebo ten vestavěný v mobilu, ve kterém jste přihlášení ke
+Google účtu:&lt;/p&gt;
+
+&lt;div&gt;&lt;img
+src=&quot;https://www.michalspacek.cz/i/images/blog/android-security-key/zvolte-bezpecnostni-klic.png&quot;
+alt=&quot;Zvolte bezpečnostní klíč: Bluetooth, USB, vestavěný v zařízení&quot;
+width=&quot;480&quot; height=&quot;539&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;Po zvolení možnosti používání vestavěného klíče v mobilu se
+dozvíte, že musíte mít zapnutý Bluetooth v mobilu i počítači, že
+telefon musí umět určit polohu (a musí mít Android verze 7 a novější) a
+že to funguje zatím jen v Chrome (a také v prohlížečích postavených na
+Chromiu jako Brave, Opera a nový Edge):&lt;/p&gt;
+
+&lt;div&gt;&lt;img
+src=&quot;https://www.michalspacek.cz/i/images/blog/android-security-key/pozadavky.png&quot;
+alt=&quot;Bluetooth i určování polohy musí být zapnuté, funguje pouze v Chrome, zatím&quot;
+width=&quot;480&quot; height=&quot;548&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;Kliknout na „Přidat“ a je hotovo, není potřeba párovat žádná
+Bluetooth zařízení, ani nic opisovat nebo potvrzovat v e-mailu:&lt;/p&gt;
+
+&lt;div&gt;&lt;img
+src=&quot;https://www.michalspacek.cz/i/images/blog/android-security-key/bezpecnostni-klic-pridan.png&quot;
+alt=&quot;Byl přidán bezpečnostní klíč&quot; width=&quot;480&quot; height=&quot;532&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;Po návratu do &lt;a
+href=&quot;https://myaccount.google.com/signinoptions/two-step-verification&quot;&gt;nastavení&lt;/a&gt;
+se dozvíte, že bezpečnostní klíč je výchozí (je vhodné mít nastavené
+i další „druhé kroky“ pro případ ztráty telefonu např.) a že se
+používá ten v telefonu:&lt;/p&gt;
+
+&lt;div&gt;&lt;img
+src=&quot;https://www.michalspacek.cz/i/images/blog/android-security-key/bezpecnostni-klic-vychozi.png&quot;
+alt=&quot;Výchozí bezpečnostní klíč: Google Pixel&quot; width=&quot;658&quot; height=&quot;176&quot;
+/&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;prihlaseni-do-google&quot;&gt;Přihlášení do Google&lt;/h2&gt;
+
+&lt;p&gt;Po zadání jména a hesla vyskočí v Chrome okýnko, ve kterém vám radí
+se podívat na telefon, můžete také vybrat možnost externího
+USB klíče:&lt;/p&gt;
+
+&lt;div&gt;&lt;img
+src=&quot;https://www.michalspacek.cz/i/images/blog/android-security-key/zkontrolujte-telefon.png&quot;
+alt=&quot;Zkontrolujte telefon, na telefon vám bylo odesláno oznámení&quot;
+width=&quot;560&quot; height=&quot;382&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;Na telefonu bude po odemčení zobrazen dotaz jestli se k uvedenému účtu
+pokoušíte přihlásit s možností „Ne, nejsem to já“ a „Ano“:&lt;/p&gt;
+
+&lt;div&gt;&lt;img
+src=&quot;https://www.michalspacek.cz/i/images/blog/android-security-key/pokousite-se-prihlasit.png&quot;
+alt=&quot;Pokoušíte se přihlásit? Ne/Ano&quot; width=&quot;540&quot; height=&quot;458&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;Když vyberete „Ano“, tak tím to končí a jste přihlášení. Pokud to
+budete provádět z nového zařízení nebo anonymního okna prohlížeče,
+tak vám nejspíš ještě přijde jeden dotaz na potvrzení zařízení. Na
+stránce &lt;a href=&quot;https://myaccount.google.com/device-activity&quot;&gt;Nedávno
+použitá zařízení&lt;/a&gt; se pak můžete podívat, kde všude jste k účtu
+přihlášení a případně některé stará již nepoužívaná zařízení
+odstranit. Doporučuji se tam občas podívat.&lt;/p&gt;
+
+&lt;p&gt;V případě, že se z nějakého důvodu potvrzení v telefonu
+nezobrazí, máte možnost použít další nastavený druhý krok.&lt;/p&gt;
+
+&lt;h2 id=&quot;nastavte-si-2fa&quot;&gt;Nastavte si 2FA&lt;/h2&gt;
+
+&lt;p&gt;Fakt bych doporučil si dvoufázové ověření (2FA, 2SV, jak tomu budeme
+říkat je teď asi celkem jedno) nastavit a to i když používáte správce
+hesel (používáte, že jo?) – jako další úroveň ochrany. Pokud máte
+Android 7 a novější, tak tohle je krásná a vysoce použitelná možnost
+pro každého, snad se to rozšíří i do jiných systémů a aplikací.
+Google tvrdí, že potřebujete Windows 10, Chrome OS nebo macOS X, ale mě se
+„Zkontrolujte telefon“ zobrazilo i na Ubuntu 18.04. Na telefon nic
+nedorazilo, ale to může být tím, že Ubuntu běželo jako
+virtuální stroj.&lt;/p&gt;
+
+&lt;p&gt;Nastavte si také další „druhé kroky“ pro případ, že vám telefon
+kamsi odejde (nebo uplave). Jo a nezapomeňte tohle (nebo jinou pro všechny
+použitelnou metodu ověřování přihlášení) taky nastavit ve firmě, hned
+poté, co lidem &lt;a
+href=&quot;https://www.michalspacek.cz/spravce-hesel-jako-firemni-benefit&quot;&gt;rozdáte
+správce hesel&lt;/a&gt;.&lt;/p&gt;</content></entry><entry><id>https://www.michalspacek.cz/slovenske-weby-v-databazi-uniklych-hesel-collection-1-a-dalsich</id><published>2019-01-23T05:30:00+01:00</published><updated>2019-01-23T05:30:00+01:00</updated><summary type="html">&lt;p&gt;&lt;a
+href=&quot;https://www.michalspacek.cz/ceske-weby-v-databazi-uniklych-hesel-collection-1-a-dalsich&quot;&gt;Včera
+jsem hledal české weby&lt;/a&gt; v databázi „Collection #1“ a dalších
+(„Collection #2“ až „Collection #5“, „BigDB“), dnes jsem se
+podíval na ty slovenské. Některé slovenské stránky používají
+i čeští uživatelé a tak mi to přišlo jako dobrý nápad.&lt;/p&gt;</summary><title type="html">Slovenské weby v databázi uniklých hesel „Collection #1“ a
+dalších</title><link href="https://www.michalspacek.cz/slovenske-weby-v-databazi-uniklych-hesel-collection-1-a-dalsich" rel="alternate" type="text/html"/><content type="html">&lt;p&gt;&lt;strong&gt;&lt;em&gt;O databázi úniků s názvem „BigDB“ a dalších píšu &lt;a
+href=&quot;https://www.michalspacek.cz/ceske-weby-v-databazi-uniklych-hesel-collection-1-a-dalsich&quot;&gt;v předchozím
+článku&lt;/a&gt;, pokud chcete úvod prosím &lt;a
+href=&quot;https://www.michalspacek.cz/ceske-weby-v-databazi-uniklych-hesel-collection-1-a-dalsich&quot;&gt;přečtěte
+si jej&lt;/a&gt;, já počkám. Seznam českých webů najdete
+tamtéž.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Jen pro zopakování: u každého webu uvádím způsob uložení hesel,
+resp. tak jak byla v „BigDB“ zveřejněna, a počet záznamů. Pokud daný
+web používal nějaké „nečitelné“ uložení hesel, tak přidám
+i informaci o tom, kolik &lt;em&gt;cracknutých&lt;/em&gt; hesel v čitelné podobě
+z toho konkrétního webu databáze obsahuje. Zcela jistě by za pár peněz (a
+hodin) šlo &lt;em&gt;cracknout&lt;/em&gt; mnohem více hesel, ale to jsem tentokrát, až
+na výjimky, nezkoušel. Podívejte se na &lt;a
+href=&quot;https://www.michalspacek.cz/crackovani-hesel-z-uniku-mall.cz&quot;&gt;článek
+o lámání hesel&lt;/a&gt; pokud vás zajímá, jak se to dnes dělá a kolik
+to stojí.&lt;/p&gt;
+
+&lt;p&gt;Spousta těch webů totiž bohužel používá (nebo používala v době
+možného úniku) velmi nevhodné ukládání hesel, pokud to děláte podobně,
+tak to prosím změňte. Jak na to se &lt;a
+href=&quot;https://www.michalspacek.cz/zmena-hashovani-existujicich-hesel&quot;&gt;dozvíte
+v mém návodu&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Prosím, mějte také na paměti, že záznam v „BigDB“ neznamená, že
+data z daného webu opravdu unikla, v naprosté většině to jsou (zatím)
+nepotvrzené úniky.&lt;/p&gt;
+
+&lt;h2 id=&quot;seznam-slovenskych-webu-v-kompilacich&quot;&gt;Seznam slovenských webů
+v kompilacích&lt;/h2&gt;
+
+&lt;ol&gt;
+	&lt;li&gt;&lt;strong&gt;bozpo.sk&lt;/strong&gt;: 4565 záznamů, plaintext&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;bridgekosice.sk&lt;/strong&gt;: 2360 záznamů, bcrypt+MD5(?),
+	0 čitelných hesel (pouze jediný účet používá bcrypt hash, žádný
+	z účtů s MD5 nemá e-mail s koncovkou &lt;em&gt;.sk&lt;/em&gt;)&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;cykloabc.sk&lt;/strong&gt;: 2111 záznamů, plaintext (1835 hesel je
+	nejspíš náhodně vygenerovaných s délkou 8 znaků)&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;djservice.sk&lt;/strong&gt;: 2446 záznamů, plaintext (v databázi
+	též jako dj-service.sk, djshop.sk, dj-shop.sk s převážně
+	shodnými daty)&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;evillabs.sk&lt;/strong&gt;: 48816 záznamů, DES &lt;code&gt;crypt()&lt;/code&gt;,
+	0 čitelných hesel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;gustokids.sk&lt;/strong&gt;: 1015 záznamů, plaintext&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;i-shops.sk&lt;/strong&gt;: 3048 záznamů, plaintext&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;joico.sk&lt;/strong&gt;: 793 záznamů, plaintext (167× heslo
+	„9Qfeus8v4U“)&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;kassotechnik.sk&lt;/strong&gt;: 861 záznamů, plaintext&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;kolesa.sk&lt;/strong&gt;: 2501 záznamů, plaintext&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;levican.sk&lt;/strong&gt;: 5651 záznamů, MD5,
+	0 čitelných hesel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;lutov.sk&lt;/strong&gt;: 1118 záznamů, MD5, 796 čitelných hesel
+	(103× heslo „x4ivygA51F“)&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;mata.skiper.sk&lt;/strong&gt;: 1400 záznamů, plaintext&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;mojobraz.sk&lt;/strong&gt;: 3092 záznamů, plaintext&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;mydream.sk&lt;/strong&gt;: 5924 záznamů, plaintext&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;papanica.sk&lt;/strong&gt;: 5550 záznamů, MD5+SHA-1(?),
+	1731 čitelných hesel (30× heslo „veslo321“)&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;polymer.sav.sk&lt;/strong&gt;: 2774 záznamů, Salted MD5, 0 čitelných
+	hesel (1877 účtů má náhodné emailové adresy na doméně
+	dendride.ru)&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;predporodnapri­prava.sk&lt;/strong&gt;: 989 záznamů, MD5,
+	955 čitelných hesel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;referaty.hladas­.sk&lt;/strong&gt;: 1006 záznamů, MD5,
+	1004 čitelných he­sel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;risopepi.sk&lt;/strong&gt;: 662 záznamů, MD5(?),
+	0 čitelných hesel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;rooftop.sk&lt;/strong&gt;: 9250 záznamů, MD5,
+	6935 čitelných he­sel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;rs-tuning.sk&lt;/strong&gt;: 6143 záznamů, MD5,
+	3828 čitelných he­sel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;sktorrent.eu&lt;/strong&gt;: 118588 záznamů, plaintext (mediálně &lt;a
+	href=&quot;https://tech.sme.sk/c/20099331/hackeri-ukradli-na-slovensku-118-tisic-identit.html&quot;&gt;známý
+	únik&lt;/a&gt; z roku 2016)&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;songster.sk&lt;/strong&gt;: 5218 záznamů, MD5,
+	0 čitelných hesel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;superceny4u.sk&lt;/strong&gt;: 498 záznamů, plaintext (298 účtů
+	nemá heslo)&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;tombraider.sk&lt;/strong&gt;: 4683 záznamů, MD5(?),
+	0 čitelných hesel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;vupas.sk&lt;/strong&gt;: 1115 záznamů, plaintext&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;woodresearch.sk&lt;/strong&gt;: 2090 záznamů, plaintext (až na pár
+	výjimek jsou hesla generovaná s délkou 8 znaků)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;V „BigDB“ je celkem 165 tisíc hesel v čitelné podobě, která
+pochází ze slovenských webů. Pokud se vám zdá, že z některého webu
+uniklo víc účtů, než kolik jich ve skutečnosti může mít, tak je to
+nejspíš proto, že kvůli sdíleným přihlašovacím údajům k databázi se
+podařilo jednou dírou vytáhnout data z více služeb.&lt;/p&gt;
+
+&lt;h2 id=&quot;analyza-vsech-hesel&quot;&gt;Analýza všech hesel&lt;/h2&gt;
+
+&lt;p&gt;Když na všechna hesla pustíme analyzátor hesel &lt;a
+href=&quot;https://digi.ninja/projects/pipal.php&quot;&gt;Pipal&lt;/a&gt;, tak dostaneme tyto
+výsledky:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Celkový počet hesel: 164 948&lt;/li&gt;
+
+	&lt;li&gt;Celkový počet unikátních hesel: 133 122&lt;/li&gt;
+
+	&lt;li&gt;Nejčastější hesla:
+		&lt;ol&gt;
+			&lt;li&gt;123456 = 941 (0,57%)&lt;/li&gt;
+
+			&lt;li&gt;FuckYou = 865 (0,52%, &lt;a
+			href=&quot;https://gist.github.com/spaze/7d89613cc69d61e03eb4&quot;&gt;nejčastější heslo
+			v úniku z SkTorrentu&lt;/a&gt;)&lt;/li&gt;
+
+			&lt;li&gt;123456789 = 729 (0,44%)&lt;/li&gt;
+
+			&lt;li&gt;hesloveslo456 = 397 (0,24%)&lt;/li&gt;
+
+			&lt;li&gt;x4ivygA51F = 348 (0,21%)&lt;/li&gt;
+		&lt;/ol&gt;
+	&lt;/li&gt;
+
+	&lt;li&gt;Nejčastější základní slova:
+		&lt;ol&gt;
+			&lt;li&gt;fuckyou = 876 (0,53%)&lt;/li&gt;
+
+			&lt;li&gt;heslo = 477 (0,29%)&lt;/li&gt;
+
+			&lt;li&gt;hesloveslo = 405 (0,25%)&lt;/li&gt;
+
+			&lt;li&gt;martin = 350 (0,21%)&lt;/li&gt;
+
+			&lt;li&gt;x4ivyga51f = 348 (0,21%)&lt;/li&gt;
+		&lt;/ol&gt;
+	&lt;/li&gt;
+
+	&lt;li&gt;Délka hesel podle četnosti:
+		&lt;ol&gt;
+			&lt;li&gt;8 = 35 052 (21,25%)&lt;/li&gt;
+
+			&lt;li&gt;10 = 30 323 (18,38%)&lt;/li&gt;
+
+			&lt;li&gt;6 = 20 773 (12,59%)&lt;/li&gt;
+
+			&lt;li&gt;9 = 20 392 (12,36%)&lt;/li&gt;
+
+			&lt;li&gt;7 = 17 270 (10,47%)&lt;/li&gt;
+		&lt;/ol&gt;
+	&lt;/li&gt;
+
+	&lt;li&gt;Hesla složená pouze z malých písmen: 48 583 (29,45%)&lt;/li&gt;
+
+	&lt;li&gt;Pouze z velkých písmen: 1 061 (0,64%)&lt;/li&gt;
+
+	&lt;li&gt;Pouze písmena: 49 644 (30,1%)&lt;/li&gt;
+
+	&lt;li&gt;Pouze čísla: 19 493 (11,82%)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;celkovy-pocet-unikatnich-e-mailu&quot;&gt;Celkový počet unikátních
+e-mailů&lt;/h2&gt;
+
+&lt;p&gt;V „BigDB“ je celkem 161 592 unikátních e-mailových adres a hesel
+v čitelné podobě, které pochází ze slovenských webů, z toho
+48 934 unikátních e-mailových adres s koncovkou &lt;em&gt;.sk&lt;/em&gt;. Pokud mě
+paměť neklame, tak na Slovensku se nap5. více používá např. Gmail, což
+by počtu &lt;em&gt;.sk&lt;/em&gt; adres odpovídalo.&lt;/p&gt;
+
+&lt;p&gt;Pokud to dáme dohromady s e-maily z databáze 1,4 miliardy
+přihlašovacích jmen a hesel &lt;a
+href=&quot;https://www.lupa.cz/clanky/unik-dat-z-nevyhazujto-cz/&quot;&gt;z prosince
+2017&lt;/a&gt;, tak nám vyjde, že &lt;strong&gt;útočníci mají k dispozici
+1,14 milionu unikátních e-mailových adres s koncovkou &lt;em&gt;.sk&lt;/em&gt; a
+hesel&lt;/strong&gt;, což není vůbec špatný.&lt;/p&gt;
+
+&lt;p&gt;Pokud nemáte každé heslo jiné, tak bych vám rád popřál hodně
+štěstí, budete ho potřebovat.&lt;/p&gt;</content></entry><entry><id>https://www.michalspacek.cz/ceske-weby-v-databazi-uniklych-hesel-collection-1-a-dalsich</id><published>2019-01-22T08:00:00+01:00</published><updated>2019-01-22T08:00:00+01:00</updated><summary type="html">&lt;p&gt;Minulý týden se hojně psalo o úniku 773 milionů účtů, kterému se
+přezdívá „Collection #1“. Ve skutečnosti to je několik let stará
+kompilace předchozích úniků, ale i tak stojí za to se podívat, které
+české (a &lt;a
+href=&quot;https://www.michalspacek.cz/slovenske-weby-v-databazi-uniklych-hesel-collection-1-a-dalsich&quot;&gt;slovenské&lt;/a&gt;)
+weby v této a dalších databázích („Collection #2“ až „Collection
+#5“, „BigDB“) jsou.&lt;/p&gt;</summary><title type="html">České weby v databázi uniklých hesel „Collection #1“ a dalších</title><link href="https://www.michalspacek.cz/ceske-weby-v-databazi-uniklych-hesel-collection-1-a-dalsich" rel="alternate" type="text/html"/><content type="html">&lt;p&gt;Zprávu o existenci „Collection #1“ &lt;a
+href=&quot;https://www.troyhunt.com/ive-just-added-2844-new-data-breaches-with-80m-records-to-have-i-been-pwned/&quot;&gt;přinesl
+Troy Hunt&lt;/a&gt;, který tuto databázi nahrál do svého nástroje na
+prohledávání uniklých databází &lt;a href=&quot;https://haveibeenpwned.com/&quot;&gt;Have
+I Been Pwned?&lt;/a&gt; Skoro 90 GB dat, 773 milionů unikátních e-mailů a
+celkem 2,7 miliardy záznamů, slušnej balík. Data v této sbírce &lt;a
+href=&quot;https://krebsonsecurity.com/2019/01/773m-password-megabreach-is-years-old/&quot;&gt;jsou
+několik let stará&lt;/a&gt; a &lt;del&gt;mnoho&lt;/del&gt; pár úniků je tak již známých a
+&lt;em&gt;nějak&lt;/em&gt; vyřešených. Snad.&lt;/p&gt;
+
+&lt;div&gt;&lt;img src=&quot;https://www.michalspacek.cz/i/images/blog/combo-collections.jpg&quot;
+alt=&quot;Collection #1-#5 a další&quot; width=&quot;720&quot; height=&quot;460&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;Existují i další kompilace: „Collection #2“ až „Collection
+#5“ – ty mají dohromady skoro 850 GB dat. Vypadá to, že všechny tyhle
+kolekce, alespoň co se týká českých a slovenských webů, vychází
+z jedné obrovské databáze „BigDB“, ta má 595 GB a obsahuje spoustu
+komprimovaných souborů, takže finální velikost dat bude ještě
+o dost vyšší.&lt;/p&gt;
+
+&lt;p&gt;Databáze jsou často rozškatulkovány na skupiny „hry“,
+„kryptoměny“, podle států apod. a útočníci tyto databáze používají
+k útokům, kterým se říká &lt;a
+href=&quot;https://www.owasp.org/index.php/Credential_stuffing&quot;&gt;&lt;em&gt;credential
+stuffing&lt;/em&gt;&lt;/a&gt;. Mizerové zkouší známá jména a hesla &lt;em&gt;ládovat&lt;/em&gt;
+do dalších služeb a v mnoha případech se jim podaří přihlásit,
+protože uživatelé používají jedno heslo na více místech.&lt;/p&gt;
+
+&lt;p&gt;Které české weby tyto databáze obsahují? Nutno podotknout, že všechny
+jsou již obsaženy v „BigDB“, některé dokonce vícekrát s různým
+počtem záznamů, a že to neznamená, že data v každém jednotlivém
+případu opravdu pochází z uvedených domén. Přistupujte k tomu tak,
+dokud se únik nepotvrdí. Pokud je některý web váš, tak byste měli
+případný únik prověřit, informovat uživatele i &lt;a
+href=&quot;https://www.uoou.cz/poruseni-zabezpeceni/ds-5020/archiv=0&amp;amp;p1=3938&quot;&gt;Úřad
+pro ochranu osobních údajů&lt;/a&gt;. Dobré je také připomenout, že polovina
+těchto českých úniků již byla do &lt;a
+href=&quot;https://haveibeenpwned.com/&quot;&gt;Have I Been Pwned?&lt;/a&gt; nahrána zhruba &lt;a
+href=&quot;https://www.troyhunt.com/ive-just-added-2844-new-data-breaches-with-80m-records-to-have-i-been-pwned/&quot;&gt;před
+rokem&lt;/a&gt;, ale tenkrát nebylo známo, kolik dat to vlastně bylo.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Dal jsem dohromady i &lt;a
+href=&quot;https://www.michalspacek.cz/slovenske-weby-v-databazi-uniklych-hesel-collection-1-a-dalsich&quot;&gt;seznam
+slovenských webů&lt;/a&gt;, najdete ho v &lt;a
+href=&quot;https://www.michalspacek.cz/slovenske-weby-v-databazi-uniklych-hesel-collection-1-a-dalsich&quot;&gt;dalším
+dílu&lt;/a&gt;.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;U každého webu uvádím způsob uložení hesel, resp. tak jak byla v
+„BigDB“ zveřejněna, a počet záznamů. Pokud daný web používal
+nějaké „nečitelné“ uložení hesel, tak přidám i informaci o tom,
+kolik &lt;em&gt;cracknutých&lt;/em&gt; hesel v čitelné podobě z toho konkrétního
+webu databáze obsahuje. Zcela jistě by za pár peněz (a hodin) šlo
+&lt;em&gt;cracknout&lt;/em&gt; mnohem více hesel, ale to jsem tentokrát, až na výjimky,
+nezkoušel. Podívejte se na &lt;a
+href=&quot;https://www.michalspacek.cz/crackovani-hesel-z-uniku-mall.cz&quot;&gt;starší
+článek o lámání hesel&lt;/a&gt; pokud vás zajímá, jak se to dnes dělá a
+kolik to stojí.&lt;/p&gt;
+
+&lt;p&gt;Spousta těch webů totiž bohužel používá (nebo používala v době
+možného úniku) velmi nevhodné ukládání hesel, pokud to děláte podobně,
+tak to prosím změňte. Jak na to se &lt;a
+href=&quot;https://www.michalspacek.cz/zmena-hashovani-existujicich-hesel&quot;&gt;dozvíte
+v mém návodu&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;seznam-ceskych-webu-v-kompilacich&quot;&gt;Seznam českých webů
+v kompilacích&lt;/h2&gt;
+
+&lt;ol&gt;
+	&lt;li&gt;&lt;strong&gt;abkontakt.cz&lt;/strong&gt;: 191199 záznamů, MD5, 0 čitelných hesel
+	(11564× heslo „katerina“, 1500× „dana“, 171013× „robot“)&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;achpak.cz&lt;/strong&gt;: 690 záznamů, plaintext&lt;/li&gt;
+
+	&lt;li&gt;poradna.&lt;strong&gt;adikto­logie.cz&lt;/strong&gt;: 14540 záznamů, prvních
+	11 znaků z MD5, 0 čitelných hesel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;almipraha.cz&lt;/strong&gt;: 2829 záznamů, plaintext&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;aloki.cz&lt;/strong&gt;: 14613 záznamů, MD5,
+	13634 čitelných he­sel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;alveus-drezy.cz&lt;/strong&gt;: 1184 záznamů, MD5,
+	0 čitelných hesel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;asiantitulky.cz&lt;/strong&gt;: 4063 záznamů, MD5(?),
+	3038 čitelných he­sel&lt;/li&gt;
+
+	&lt;li&gt;var2.&lt;strong&gt;astro.cz&lt;/strong&gt;: 584 záznamů, plaintext&lt;/li&gt;
+
+	&lt;li&gt;eshop.&lt;strong&gt;atos.cz&lt;/strong&gt;: 1501 záznamů, MD5,
+	474 čitelných hesel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;auctions-art.cz&lt;/strong&gt;: 5091 záznamů, SHA-1,
+	5444 čitelných he­sel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;banner-lov.cz&lt;/strong&gt;: 10751 záznamů, MD5,
+	6520 čitelných he­sel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;banner-security.cz&lt;/strong&gt;: 10746 záznamů, MD5,
+	6511 čitelných he­sel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;beers.cz&lt;/strong&gt;: 1284 záznamů, plaintext&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;big-wall.cz&lt;/strong&gt;: 3401 záznamů, MD5,
+	0 čitelných hesel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;biomonitoring.cz&lt;/strong&gt;: 5486 záznamů, MD5,
+	0 čitelných hesel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;bonekan.cz&lt;/strong&gt;: 1372 záznamů, MD5,
+	363 čitelných hesel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;canicross.cz&lt;/strong&gt;: 887 záznamů, plaintext&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;casino-technology.cz&lt;/strong&gt;: 6758 záznamů, plaintext+bcrypt,
+	1603 čitelných he­sel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;chotec.cz&lt;/strong&gt;: 620 záznamů, MD5, 0 čitelných hesel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;comx.cz&lt;/strong&gt;: 885 záznamů, MD5, 0 čitelných hesel (ale
+	všechny účty mají stejné heslo „1X1A“)&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;coollight.cz&lt;/strong&gt;: 2127 záznamů, plaintext&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;crew.cz&lt;/strong&gt;: 3037 záznamů, MD5,
+	2782 čitelných he­sel&lt;/li&gt;
+
+	&lt;li&gt;projekty.&lt;strong&gt;czechna­tionalteam.cz&lt;/strong&gt;: 4729 záznamů,
+	MD5+phpBB3(&lt;code&gt;$H$&lt;/code&gt;)+Drupal7(&lt;code&gt;$S$&lt;/code&gt;),
+	1924 čitelných he­sel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;czshopy.com&lt;/strong&gt;: 2403 záznamů, MD5,
+	2225 čitelných he­sel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;danutiming.cz&lt;/strong&gt;: 3767 záznamů, MD5,
+	3270 čitelných he­sel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;dbsvet.cz&lt;/strong&gt;: 17565 záznamů, MD5,
+	3140 čitelných he­sel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;desky.cz&lt;/strong&gt;: 5236 záznamů, MD5,
+	5107 čitelných he­sel&lt;/li&gt;
+
+	&lt;li&gt;2010.&lt;strong&gt;divadelnis­vet.cz&lt;/strong&gt;: 9100 záznamů, MD5,
+	0 čitelných hesel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;pocasi.divoch.cz&lt;/strong&gt;: 3094 záznamů, MD5,
+	3018 čitelných he­sel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;dj-shop.cz&lt;/strong&gt;: 2040 záznamů, plaintext&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;dracidoupe.cz&lt;/strong&gt;: 12982 záznamů, MD5, 5514 čitelných
+	hesel (jiný soubor má jen 5584 účtů)&lt;/li&gt;
+
+	&lt;li&gt;forum.&lt;strong&gt;drbal.cz&lt;/strong&gt;: 2017 záznamů, MD5,
+	0 čitelných hesel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;drp.cz&lt;/strong&gt;: 1112 záznamů, MD5, 0 čitelných hesel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;ekopress.cz&lt;/strong&gt;: 3693 záznamů, plaintext (hesla vypadají
+	generovaná, délka 12 znaků)&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;elektroprinc.cz&lt;/strong&gt;: 2704 záznamů, MD5,
+	2587 čitelných he­sel&lt;/li&gt;
+
+	&lt;li&gt;idnes.www.&lt;strong&gt;elweb­.cz&lt;/strong&gt;: 585 záznamů, plaintext,
+	308 čitelných hesel (některé účty jsou bez hesla, o pár hesel méně je
+	i v úniku z &lt;em&gt;tatoomira.el­web.cz&lt;/em&gt;, zbytek je totožný)&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;eone.cz&lt;/strong&gt;: 1650 záznamů, plaintext, 1060 čitelných
+	hesel (některé účty jsou bez hesla)&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;eski.cz&lt;/strong&gt;: 3448 záznamů, MD5, 0 čitelných hesel&lt;/li&gt;
+
+	&lt;li&gt;urel.&lt;strong&gt;feec.vut­br.cz&lt;/strong&gt;: 999 záznamů, MD5, 363 čitelných
+	hesel (20× heslo „h54rsjrF5J46­788998“, 13× „I9k7hnv5sR“, 9×
+	„1721k1721“)&lt;/li&gt;
+
+	&lt;li&gt;www2.&lt;strong&gt;fm.vse.cz&lt;/strong&gt;: 1745 záznamů, plaintext&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;foosball.cz&lt;/strong&gt;: 1108 záznamů, plaintext&lt;/li&gt;
+
+	&lt;li&gt;kss.&lt;strong&gt;fp.tul.cz&lt;/strong&gt;: 941 záznamů, plaintext&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;funexplosive.cz&lt;/strong&gt;: 2646 záznamů, Salted MD5,
+	0 čitelných hesel (spousta e-mailů je nejspíš generovaných,
+	např. somadrughblhguliwadmin@dendride.ru)&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;gastrotrend.cz&lt;/strong&gt;: 938 záznamů, MD5,
+	925 čitelných hesel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;genomac.cz&lt;/strong&gt;: 4401 záznamů, MD5, 1648 čitelných hesel
+	(část je i v úniku z &lt;em&gt;genomacinst.cz&lt;/em&gt;)&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;hazena.pb.cz&lt;/strong&gt;: 5263 záznamů, plaintext (3292 účtů je
+	generovaných ve tvaru awuodefs@nmjanodd.com)&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;helmetshop.cz&lt;/strong&gt;: 1190 záznamů, plaintext&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;helmy.cz&lt;/strong&gt;: 1758 záznamů, plaintext&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;hvezdarna.cz&lt;/strong&gt;: 6063 záznamů, MD5,
+	5431 čitelných he­sel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;ian.cz&lt;/strong&gt;: 10073 záznamů, plaintext&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;instrumento.cz&lt;/strong&gt;: 3448 záznamů, plaintext&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;isumava.cz&lt;/strong&gt;: 1559 záznamů, MD5,
+	1490 čitelných he­sel&lt;/li&gt;
+
+	&lt;li&gt;hry.&lt;strong&gt;izde.cz&lt;/strong&gt;: 583 záznamů, plaintext&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;jaj.cz&lt;/strong&gt;: 1117 záznamů, MD5, 880 čitelných hesel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;jince.cz&lt;/strong&gt;: 1635 záznamů, MD5, 0 čitelných hesel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;jseddica.cz&lt;/strong&gt;: 2995 záznamů, MD5,
+	2947 čitelných he­sel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;kaktusy-rysavy.cz&lt;/strong&gt;: 1602 záznamů, MD5,
+	0 čitelných hesel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;kkkonstruktiva­.cz&lt;/strong&gt;: 1782 záznamů, MD5,
+	777 čitelných hesel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;kuma.cz&lt;/strong&gt;: 81663 záznamů, plaintext (těm jsem se to
+	snažil minulý rok &lt;a
+	href=&quot;https://www.lupa.cz/clanky/unik-desitek-tisic-hesel-z-kuma-cz-a-hlava-v-pisku/&quot;&gt;nahlásit&lt;/a&gt;,
+	pamatujete?)&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;legendapraha.cz&lt;/strong&gt;: 502 záznamů, MD5,
+	0 čitelných hesel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;lezec.cz&lt;/strong&gt;: 9678 záznamů, plaintext&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;libchavy.cz&lt;/strong&gt;: 6560 záznamů, plaintext (hesla vypadají
+	generovaná o délce 7 znaků, některá jako „procházka po klávesnici“,
+	např. „fssjsjsf“)&lt;/li&gt;
+
+	&lt;li&gt;eshop.&lt;strong&gt;ltec.cz&lt;/strong&gt;: 3592 záznamů, MD5,
+	0 čitelných hesel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;majkluvsvet.cz&lt;/strong&gt;: 4877 záznamů, MD5,
+	0 čitelných hesel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;mesto-klimkovice.cz&lt;/strong&gt;: 1920 záznamů, SHA-1,
+	1712 čitelných hesel (s emailem &lt;em&gt;.cz&lt;/em&gt; jich je jen 21, ostatní
+	vypadají náhodně/divně, v hashi některých hesel je kus SQL dotazu
+	&lt;code&gt;UNION SELECT&lt;/code&gt;)&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;nesedtedoma.cz&lt;/strong&gt;: 585 záznamů, plaintext&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;nockostelu.cz&lt;/strong&gt;: 2668 záznamů, bcrypt,
+	0 čitelných hesel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;online-hry.cz&lt;/strong&gt;: 1907 záznamů, plaintext+MD5,
+	1390 čitelných he­sel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;ostyle.cz&lt;/strong&gt;: 4157 záznamů, Salted MD5,
+	3845 čitelných he­sel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;ovocenaraut.cz&lt;/strong&gt;: 1451 záznamů, MD5,
+	1125 čitelných he­sel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;papcel.cz&lt;/strong&gt;: 11583 záznamů, MD5,
+	11208 čitelných he­sel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;pressonline.cz&lt;/strong&gt;: 5100 záznamů, plaintext+MD5,
+	5071 čitelných he­sel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;rallyfan.cz&lt;/strong&gt;: 75317 záznamů, SHA-1, 0 čitelných hesel
+	(74960 uživatelů má SHA-1 z prázdného hes­la)&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;regionvalassko­.cz&lt;/strong&gt;: 496 záznamů, plaintext&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;roxette.cz&lt;/strong&gt;: 4215 záznamů, SHA-256,
+	0 čitelných hesel&lt;/li&gt;
+
+	&lt;li&gt;expedice.&lt;strong&gt;rps.cz&lt;/strong&gt;: 21655 záznamů, plaintext+MD5,
+	20596 čitelných hesel (plaintext hesla vypadají generovaná náhodně
+	o délce 5–6 znaků, hesla v MD5 už ne)&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;saspi.cz&lt;/strong&gt;: 5579 záznamů, MD5,
+	4828 čitelných he­sel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;satelit.cz&lt;/strong&gt;: 2380 záznamů, DES
+	&lt;code&gt;crypt()&lt;/code&gt;+md5crypt, 0 čitelných hesel (161 účtů má md5crypt
+	&lt;code&gt;$1$&lt;/code&gt;)&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;sawan.cz&lt;/strong&gt;: 7537 záznamů, plaintext&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;scandinaviashop­.cz&lt;/strong&gt;: 2249 záznamů, MD5,
+	1327 čitelných he­sel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;scena.cz&lt;/strong&gt;: 2142 záznamů, plaintext&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;sexonline.cz&lt;/strong&gt;: 2832 záznamů, plaintext&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;sexyweb.cz&lt;/strong&gt;: 8871 záznamů, plaintext&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;signaturymali­ru.cz&lt;/strong&gt;: 53377 záznamů, MD5,
+	50852 čitelných he­sel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;skmseno.cz&lt;/strong&gt;: 5117 záznamů, plaintext+MD5,
+	4793 čitelných he­sel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;softball.cz&lt;/strong&gt;: 640 záznamů, plaintext&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;soural.cz&lt;/strong&gt;: 93499 záznamů, MD5,
+	69840 čitelných he­sel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;spoltex-kravare.cz&lt;/strong&gt;: 2036 záznamů, MD5+SHA-1,
+	447 čitelných hesel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;stoebich.cz&lt;/strong&gt;: 1702 záznamů, MD5,
+	0 čitelných hesel&lt;/li&gt;
+
+	&lt;li&gt;www1.&lt;strong&gt;streetpun­k.cz&lt;/strong&gt;: 1370 záznamů, SHA-1,
+	1351 čitelných he­sel&lt;/li&gt;
+
+	&lt;li&gt;mks.&lt;strong&gt;stribro.cz&lt;/strong&gt;: 3422 záznamů, MD5, 3379 čitelných
+	hesel (v kompilaci též jako &lt;em&gt;infocentrum.stri­bro.cz&lt;/em&gt; a
+	&lt;em&gt;stribro.cz&lt;/em&gt; s o něco méně totožnými záznamy)&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;studiumchemie.cz&lt;/strong&gt;: 1495 záznamů, MD5,
+	0 čitelných hesel&lt;/li&gt;
+
+	&lt;li&gt;foto.&lt;strong&gt;sviga.cz&lt;/strong&gt;: 4236 záznamů, plaintext+MD5,
+	4190 čitelných he­sel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;thalie.pilsfre­e.cz&lt;/strong&gt;: 3796 záznamů, MySQL5 hash,
+	2794 čitelných he­sel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;valtickepodze­mi.cz&lt;/strong&gt;: 1748 záznamů, MD5,
+	1618 čitelných he­sel&lt;/li&gt;
+
+	&lt;li&gt;w.&lt;strong&gt;veteranforum­.cz&lt;/strong&gt;: 9520 záznamů, plaintext&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;vysivaniberus­ka.cz&lt;/strong&gt;: 537 záznamů, plaintext&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;wifi.vscom.cz&lt;/strong&gt;: 1085 záznamů, plaintext&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;windseznam.pb.cz&lt;/strong&gt;: 2244 záznamů, MD5,
+	2214 čitelných he­sel&lt;/li&gt;
+
+	&lt;li&gt;&lt;strong&gt;wohnout.nen.cz&lt;/strong&gt;: 4429 záznamů, MD5,
+	0 čitelných hesel&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Celkem to dělá necelých 450 tisíc hesel v čitelné podobě. Pokud se
+vám zdá, že z některého webu uniklo víc účtů, než kolik jich ve
+skutečnosti může mít v databázi, tak je to nejspíš proto, že kvůli
+sdílenému databázovému přístupu se podařilo jednou dírou vytáhnout data
+z více služeb.&lt;/p&gt;
+
+&lt;p&gt;V balíku „BigDB“ se nachází i pár souborů s názvy
+&lt;code&gt;cz.txt&lt;/code&gt; apod., které jsou nejspíš kompilací některých
+dalších úniků a minimálně část obsahu se shoduje s hesly z databáze,
+která se &lt;a
+href=&quot;https://www.lupa.cz/clanky/unik-dat-z-nevyhazujto-cz/&quot;&gt;objevila už
+v roce 2017&lt;/a&gt;. Celkem v nich je 3 295 430 hesel v čitelné podobě.&lt;/p&gt;
+
+&lt;h2 id=&quot;analyza-vsech-hesel&quot;&gt;Analýza všech hesel&lt;/h2&gt;
+
+&lt;p&gt;Když všechna ta hesla nasypeme na jednu hromadu a pustíme na ni
+analyzátor hesel &lt;a href=&quot;https://digi.ninja/projects/pipal.php&quot;&gt;Pipal&lt;/a&gt;, tak
+dostaneme tyto výsledky:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Celkový počet hesel: 3 740 880&lt;/li&gt;
+
+	&lt;li&gt;Celkový počet unikátních hesel: 2 281 413&lt;/li&gt;
+
+	&lt;li&gt;Nejčastější hesla:
+		&lt;ol&gt;
+			&lt;li&gt;123456 = 19 323 (0,52%)&lt;/li&gt;
+
+			&lt;li&gt;password = 13 155 (0,35%)&lt;/li&gt;
+
+			&lt;li&gt;123456789 = 6 436 (0,17%)&lt;/li&gt;
+
+			&lt;li&gt;qwerty = 5 521 (0,15%)&lt;/li&gt;
+
+			&lt;li&gt;12345 = 5 197 (0,14%)&lt;/li&gt;
+		&lt;/ol&gt;
+	&lt;/li&gt;
+
+	&lt;li&gt;Nejčastější základní slova:
+		&lt;ol&gt;
+			&lt;li&gt;password = 15 619 (0,42%)&lt;/li&gt;
+
+			&lt;li&gt;qwerty = 9 953 (0,27%)&lt;/li&gt;
+
+			&lt;li&gt;martin = 4 747 (0,13%)&lt;/li&gt;
+
+			&lt;li&gt;heslo = 4 422 (0,12%)&lt;/li&gt;
+
+			&lt;li&gt;a838hfid = 4 124 (0,11%)&lt;/li&gt;
+		&lt;/ol&gt;
+	&lt;/li&gt;
+
+	&lt;li&gt;Délka hesel podle četnosti:
+		&lt;ol&gt;
+			&lt;li&gt;8 = 984 760 (26,32%)&lt;/li&gt;
+
+			&lt;li&gt;6 = 734 481 (19,63%)&lt;/li&gt;
+
+			&lt;li&gt;7 = 556 580 (14,88%)&lt;/li&gt;
+
+			&lt;li&gt;9 = 410 853 (10,98%)&lt;/li&gt;
+
+			&lt;li&gt;10 = 324 030 (8,66%)&lt;/li&gt;
+		&lt;/ol&gt;
+	&lt;/li&gt;
+
+	&lt;li&gt;Hesla složená pouze z malých písmen: 1 355 091 (36,22%)&lt;/li&gt;
+
+	&lt;li&gt;Pouze z velkých písmen: 40 970 (1,1%)&lt;/li&gt;
+
+	&lt;li&gt;Pouze písmena: 1 396 061 (37.32%)&lt;/li&gt;
+
+	&lt;li&gt;Pouze čísla: 447 514 (11,96%)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;celkovy-pocet-unikatnich-e-mailu&quot;&gt;Celkový počet unikátních
+e-mailů&lt;/h2&gt;
+
+&lt;p&gt;V „BigDB“ je celkem 3 023 494 uni­kátních e-mailových adres a
+hesel v čitelné podobě, které pochází z českých webů, z toho
+2 923 512 uni­kátních e-mailových adres s koncovkou &lt;em&gt;.cz&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Pokud to dáme dohromady s e-maily z databáze 1,4 miliardy
+přihlašovacích jmen a hesel &lt;a
+href=&quot;https://www.lupa.cz/clanky/unik-dat-z-nevyhazujto-cz/&quot;&gt;z prosince
+2017&lt;/a&gt;, tak nám vyjde, že &lt;strong&gt;útočníci mají k dispozici
+6,2 milionu unikátních e-mailových adres s koncovkou &lt;em&gt;.cz&lt;/em&gt; a
+hesel&lt;/strong&gt;, přičemž do toho nepočítám např. &lt;a
+href=&quot;https://www.michalspacek.cz/crackovani-hesel-z-uniku-mall.cz&quot;&gt;únik
+z Mall.cz&lt;/a&gt; a další, které v těchto obřích databázích z nějakého
+důvodu nejsou. To na tuhle malou zemičku není špatný.&lt;/p&gt;
+
+&lt;p&gt;Pokud nemáte každé heslo jiné, tak bych vám rád popřál hodně
+štěstí, budete ho potřebovat.&lt;/p&gt;</content></entry><entry><id>https://www.michalspacek.cz/zmena-url-a-skryvani-fbclid-pomoci-javascriptu</id><published>2018-11-07T15:00:00+01:00</published><updated>2018-11-15T10:56:26+01:00</updated><summary type="html">&lt;p&gt;Přibližně před dvěma týdny začal Facebook přidávat „sledovací“
+parameter &lt;code&gt;fbclid&lt;/code&gt; (Facebook click id?) do všech externích odkazů,
+které uživatelé sdílí. A mě se to nelíbilo, tak ten parametr
+skrývám.&lt;/p&gt;</summary><title type="html">Změna URL a skrývání &lt;code&gt;fbclid&lt;/code&gt; pomocí JavaScriptu</title><link href="https://www.michalspacek.cz/zmena-url-a-skryvani-fbclid-pomoci-javascriptu" rel="alternate" type="text/html"/><content type="html">&lt;h3&gt;Aktualizace článku&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;&lt;em&gt;&lt;strong&gt;15.11.&lt;/strong&gt; Přidán odstavec o analytice a canonical tagu&lt;/em&gt;&lt;/li&gt;&lt;li&gt;&lt;em&gt;&lt;strong&gt;8.11.&lt;/strong&gt; Kód v anonymní funkci, abychom si hráli jen na svým písečku&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Tenhle nový parametr byl nejspíš přidán proto, aby Facebook mohl
+obcházet omezení sledování třetími stranami a evidentně to funguje.
+Mozilla musela &lt;a
+href=&quot;https://github.com/mozilla/contain-facebook/issues/178&quot;&gt;opravit&lt;/a&gt; jejich
+&lt;a
+href=&quot;https://addons.mozilla.org/cs/firefox/addon/facebook-container/&quot;&gt;Facebook
+Container&lt;/a&gt;, který má právě bránit Facebooku ve sledování uživatelů
+skrz celý web. Mimo jiné to také například rozbíjí &lt;a
+href=&quot;https://community.cloudflare.com/t/facebook-now-adds-fbclid-query-string-to-urls-busting-cloudflares-cache/40355&quot;&gt;Cloudflare
+cachování&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;uprava-historie&quot;&gt;Úprava historie&lt;/h2&gt;
+
+&lt;p&gt;Já naštěstí takové problémy řešit nemusím, ale stejně se mi
+nelíbilo, že návštěvníci přicházející z Facebooku ten parametr
+v mých URL viděli. Chtěl jsem, aby jejich prohlížeče ukazovaly hezké a
+„čisté“ adresy, které by mohli kopírovat a sdílet dále. Ten parametr
+jsem mohl odstranit na serveru a poté návštěvníka přesměrovat na tu samou
+stránku. To by ale zabralo nějaký čas navíc a lidi přicházející
+z Facebooku by za to platili delším časem nahrávání stránek.&lt;/p&gt;
+
+&lt;p&gt;Místo toho jsem udělal něco jiného: tu část URL, která se mi nelíbí,
+prostě schovám. Žádný reloady, žádný přesměrování, žádný
+požadavky sem a odpovědi tam. Ke skrytí se dá použít &lt;a
+href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/History_API#The_replaceState()_method&quot;&gt;&lt;code&gt;history.replaceState()&lt;/code&gt;&lt;/a&gt;
+Pokud bych to měl fakt hodně zjednodušit, tak to změní některé části
+URL (ne, doménu ne), které uživatelé vidí v prohlížeči, aniž by se
+(znovu) načítala stránka. Metoda &lt;code&gt;replaceState()&lt;/code&gt; má kámoše, &lt;a
+href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/History_API#The_pushState()_method&quot;&gt;&lt;code&gt;pushState()&lt;/code&gt;&lt;/a&gt;,
+která dělá to samé, ale navíc vloží nový záznam do historie
+prohlížení stránek. Obě tyto metody mohou přidat „stav“, který bude
+poté dostupný v události &lt;code&gt;popstate&lt;/code&gt;. Víc se &lt;a
+href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/History_API#Adding_and_modifying_history_entries&quot;&gt;dozvíte
+např. v MDN&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;odstraneni-fbclid&quot;&gt;Odstranění &lt;code&gt;fbclid&lt;/code&gt; 🚮&lt;/h2&gt;
+
+&lt;p&gt;S těmito znalostmi jsem vytvořil kratičký kód v JavaScriptu, který se
+spustí co nejdříve a prostě jen změní URL v prohlížeči, aniž by se
+posílal nějaký požadavek nebo se někam přesměrovávalo:&lt;/p&gt;
+
+&lt;pre
+class=&quot;javascript&quot;&gt;&lt;code&gt;(function() {
+        var param = 'fbclid';
+        if (location.search.indexOf(param + '=') !== -1) {
+                var replace = '';
+                try {
+                        var url = new URL(location);
+                        url.searchParams.delete(param);
+                        replace = url.href;
+                } catch (ex) {
+                        var regExp = new RegExp('[?&amp;amp;]' + param + '=.*$');
+                        replace = location.search.replace(regExp, '');
+                        replace = location.pathname + replace + location.hash;
+                }
+                history.replaceState(null, '', replace);
+        }
+})();&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Funguje to takto: pokud je v adrese parametr &lt;code&gt;fbclid&lt;/code&gt;, tak se
+pomocí hezkého URL API odstraní. Pokud to selže, primárně kvůli tomu, že
+to API nepodporuje Internet Explorer, tak se parametr a jeho hodnota odstraní
+z konce URL pomocí regulárních výrazů. Nikde není psáno, že ten
+parametr bude vždy na konci URL, takže ten regulár by mohl odstranit
+i další parametry, ale poněvadž ten kód se použije jen pro Internet
+Explorer a poněvadž jsem nechtěl používat „dospělý“ parser toho za
+otazníčkem, tak je to akceptovatelné riziko, alespoň pro mě. Ve finále se
+stará adresa nahradí novou pomocí &lt;code&gt;history.replaceState()&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Šlo by to celé udělat jen pomocí regulárních výrazů, ale to URL API
+se mi líbí a rád bych ho používal v prohlížečích, které ho
+podporují. Další možností je Internet Explorer ignorovat a parametr
+&lt;code&gt;fbclid&lt;/code&gt; v něm neskrývat, což mi přijde jako řešení
+s výborným poměrem cena/výkon. Pokud byste to tak chtěli udělat, tak kód
+v bloku &lt;code&gt;if (&lt;/code&gt; … &lt;code&gt;) {&lt;/code&gt; … &lt;code&gt;}&lt;/code&gt; nahraďte
+tímto fragmentem:&lt;/p&gt;
+
+&lt;pre
+class=&quot;javascript&quot;&gt;&lt;code&gt;try {
+        var url = new URL(location);
+        url.searchParams.delete(param);
+        history.replaceState(null, '', url.href);
+} catch (ex) {
+        // nic
+}&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Kód uložte do souboru pojmenovaného třeba &lt;code&gt;remove-fbclid.js&lt;/code&gt; a
+nahrávejte ho s &lt;a
+href=&quot;https://flaviocopes.com/javascript-async-defer/&quot;&gt;atributy
+&lt;code&gt;async&lt;/code&gt; a &lt;code&gt;defer&lt;/code&gt;&lt;/a&gt;, aby to nezdržovalo vykreslování
+stránky:&lt;/p&gt;
+
+&lt;pre
+class=&quot;html&quot;&gt;&lt;code&gt;&amp;lt;script src=&quot;remove-fbclid.js&quot; async defer&amp;gt;&amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Můžete to celé vyzkoušet přímo na tomto článku, do adresy přidejte
+&lt;code&gt;?fbclid=1337&lt;/code&gt; a načtěte stránku. Kdybyste chtěli vidět úpravu
+URL a historie v akci na jakékoliv stránce, tak otevřete „developer
+tools“, jděte do konzole a spusťte např.:&lt;/p&gt;
+
+&lt;pre
+class=&quot;javascript&quot;&gt;&lt;code&gt;history.replaceState(null, '', '/admin');&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Řádek s adresou bude ukazovat jiné URL, ale obsah stránky zůstane beze
+změny. Ta nová adresa v podstatě nahradila tu starou. Když ve vašem
+browseru zmáčknete tlačítko „zpět“, tak se dostanete na adresu, ze
+které jste přišli na stránku, na které jste spustili
+&lt;code&gt;history.replaceState()&lt;/code&gt;. Metoda &lt;code&gt;history.pushState()&lt;/code&gt;
+funguje trochu jinak, ta přidá nový záznam do historie prohlížení.
+Využíváme toho např. na Report URI, když měníme URL podle toho, jaké
+vyberete &lt;a
+href=&quot;https://scotthelme.co.uk/introducing-xss-reporting-to-report-uri/#otherupdates&quot;&gt;filtry
+v seznamu reportů&lt;/a&gt;, což se hodí pro ukládání do záložek apod.&lt;/p&gt;
+
+&lt;h2 id=&quot;nikomu-never&quot;&gt;Nikomu nevěř&lt;/h2&gt;
+
+&lt;p&gt;Mimochodem, dnes jste se tu měli naučit ještě jednu lekci: URL v řádku
+s adresou nemusí být to, na které prohlížeč poslal požadavek a které se
+ve skutečnosti načetlo. v kombinaci s útoky jako je Cross-Site Scripting je
+s tím je docela dost srandy. Na debugování stránek raději tedy
+používejte „developer tools“ a adrese, kterou vám prohlížeč ukazuje,
+moc nevěřte.&lt;/p&gt;
+
+&lt;h2 id=&quot;analytika&quot;&gt;Analytika&lt;/h2&gt;
+
+&lt;p&gt;Pokud máte aplikaci postavenou jako &lt;em&gt;single-page application&lt;/em&gt; a
+změny URL po kliknutí jsou řešeny právě pomocí History API, tak by se
+mohlo stát, že po přidání mého kousku kódu se začnou návštěvy
+v přehledech duplikovat. Standardní &lt;code&gt;analytics.js&lt;/code&gt; to tak dělat
+&lt;a
+href=&quot;https://developers.google.com/analytics/devguides/collection/analyticsjs/single-page-applications&quot;&gt;nebude&lt;/a&gt;,
+jiný nástroj by mohl. Řešení webové analytiky ale rád přenechám
+profíkům.&lt;/p&gt;
+
+&lt;p&gt;Zkuste alespoň přidat značku &lt;code&gt;&amp;lt;link&amp;gt;&lt;/code&gt; s &lt;a
+href=&quot;https://support.google.com/webmasters/answer/139066&quot;&gt;atributem
+&lt;code&gt;rel=canonical&lt;/code&gt;&lt;/a&gt;, která bude ukazovat na aktuální stránku, ale
+bez všech nepotřebných parametrů a tedy i bez &lt;code&gt;fbclid&lt;/code&gt;.
+Říkají tomu &lt;a
+href=&quot;https://technicalseo.com/crawling-indexing/annotations/link-element-rel-attribute/canonical/&quot;&gt;self-referencing
+canonical tag&lt;/a&gt; a vyhledávačům to prý pomáhá pochopit, která adresa je
+ta správná pro aktuálně načtenou stránku. V mém oblíbeném frameworku
+&lt;a href=&quot;https://nette.org/cs/&quot;&gt;Nette&lt;/a&gt; jsem v šabloně do
+&lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt; přidal tento řádek, který používá šikovné &lt;a
+href=&quot;https://doc.nette.org/cs/2.4/presenters#toc-odkazy-v-sablonach&quot;&gt;makro
+&lt;code&gt;n:href&lt;/code&gt;&lt;/a&gt;:&lt;/p&gt;
+
+&lt;pre
+class=&quot;html&quot;&gt;&lt;code&gt;&amp;lt;link rel=&quot;canonical&quot; n:href=&quot;//this&quot;&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Přičemž &lt;code&gt;//this&lt;/code&gt; nahrazuju něčím jiným, pokud je to
+potřeba, jako např. u přednášek, kde URL ukazuje přímo na &lt;a
+href=&quot;https://www.michalspacek.cz/prednasky/vyhledavejte-na-netu-jako-macgyver-linuxdays/certificate-transparency&quot;&gt;jednotlivé
+slajdy&lt;/a&gt;. Ty jsou ale pořád jen částí jedné a té &lt;a
+href=&quot;https://www.michalspacek.cz/prednasky/vyhledavejte-na-netu-jako-macgyver-linuxdays&quot;&gt;samé
+stránky&lt;/a&gt;.&lt;/p&gt;</content></entry></feed>

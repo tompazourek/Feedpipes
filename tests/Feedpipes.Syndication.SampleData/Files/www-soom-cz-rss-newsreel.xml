@@ -1,0 +1,1223 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      
+      <title>SOOM.cz</title>
+      <description>we make the internet better. join us!</description>
+      <link>http://www.soom.cz/</link>
+      <language>cs</language>
+      <copyright>© 2003-2019 SOOM.cz</copyright>
+      <webMaster>emkei@soom.cz (Emkei)</webMaster>
+      <atom:link href="http://www.soom.cz/rss/newsreel.xml" rel="self" type="application/rss+xml" />
+      <image>
+        <title>SOOM.cz</title>
+        <url>http://www.soom.cz/images/design/rss.jpg</url>
+        <link>http://www.soom.cz/</link>
+        <width>88</width>
+        <height>31</height>
+        <description>we make the internet better. join us!</description>
+      </image>
+      <item>
+        
+        
+        <title>Globální mobilní telekomunikace se staly oběťmi čínské kybernetické špionáže</title>
+        <description>Globální mobilní telekomunikace se staly oběťmi čínské kybernetické špionáže</description>
+        <author>ls@s-help.com (Cybersecurity Help)</author>
+        <link>http://www.soom.cz/aktuality/1902--Globalni-mobilni-telekomunikace-se-staly-obetmi-cinske-kyberneticke-spionaze</link>
+        <guid>http://www.soom.cz/aktuality/1902--Globalni-mobilni-telekomunikace-se-staly-obetmi-cinske-kyberneticke-spionaze</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1902--Globalni-mobilni-telekomunikace-se-staly-obetmi-cinske-kyberneticke-spionaze</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/3--Hacking">Akutality - Hacking</category>
+        <pubDate>Wed, 26 Jun 2019 10:34:29 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Hlasování o top 10 hacking technik a projektů roku 2018</title>
+        <description>Portswigger - tvůrce oblíbeného nástroje Burp Suite - pořádá, stejně jako každý rok, hlasování o nejzajímavější hacking techniky roku</description>
+        <author>ccuminn@soom.cz (.cCuMiNn.)</author>
+        <link>http://www.soom.cz/aktuality/1901--Hlasovani-o-top-10-hacking-technik-a-projektu-roku-2018</link>
+        <guid>http://www.soom.cz/aktuality/1901--Hlasovani-o-top-10-hacking-technik-a-projektu-roku-2018</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1901--Hlasovani-o-top-10-hacking-technik-a-projektu-roku-2018</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/3--Hacking">Akutality - Hacking</category>
+        <pubDate>Sat, 26 Jan 2019 09:08:44 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>WordCamp Praha 2019</title>
+        <description>Máte-li náladu hacknout si spatně zabezpečený WordPress a ještě za to získat zajímavou odměnu, čtěte dál...</description>
+        <author>ccuminn@soom.cz (.cCuMiNn.)</author>
+        <link>http://www.soom.cz/aktuality/1900--WordCamp-Praha-2019</link>
+        <guid>http://www.soom.cz/aktuality/1900--WordCamp-Praha-2019</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1900--WordCamp-Praha-2019</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/3--Hacking">Akutality - Hacking</category>
+        <pubDate>Mon, 21 Jan 2019 16:52:20 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Nový projekt SecurityHeaders.cz pomáhá zvýšit zabezpečení webových stránek</title>
+        <description>[Brno 30. 10. 2018] Bezpečnosti není nikdy dost, a proto vznikl nový webový projekt SecurityHeaders.cz, který je určen všem webmasterům a majitelům internetových prezentací. Nové stránky obsahují mnoho informací a doporučení jak zvýšit zabezpečení webových prezentací a aplikací pomocí bezpečnostních hlaviček.</description>
+        <author>ccuminn@soom.cz (.cCuMiNn.)</author>
+        <link>http://www.soom.cz/aktuality/1899--Novy-projekt-SecurityHeaderscz-pomaha-zvysit-zabezpeceni-webovych-stranek</link>
+        <guid>http://www.soom.cz/aktuality/1899--Novy-projekt-SecurityHeaderscz-pomaha-zvysit-zabezpeceni-webovych-stranek</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1899--Novy-projekt-SecurityHeaderscz-pomaha-zvysit-zabezpeceni-webovych-stranek</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/6--Sov-bezpenost">Akutality - Síťová bezpečnost</category>
+        <pubDate>Wed, 31 Oct 2018 15:37:02 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Přes třicet IT firem vytvořilo unikátní alianci proti počítačovým útokům</title>
+        <description>Poskytnutí účinné a aktivní ochrany zákazníků před kybernetickými útoky? Přesně takový cíl má nově založená aliance Cybersecurity Tech Accord. Podívejte se, s jakými zásadami chtějí globální IT firmy bojovat za vyšší bezpečnost nás všech.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1898--Pres-tricet-IT-firem-vytvorilo-unikatni-alianci-proti-pocitacovym-utokum</link>
+        <guid>http://www.soom.cz/aktuality/1898--Pres-tricet-IT-firem-vytvorilo-unikatni-alianci-proti-pocitacovym-utokum</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1898--Pres-tricet-IT-firem-vytvorilo-unikatni-alianci-proti-pocitacovym-utokum</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/6--Sov-bezpenost">Akutality - Síťová bezpečnost</category>
+        <pubDate>Thu, 03 May 2018 11:25:08 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Nový Red Hat Enterprise Linux přináší lepší bezpečnost a mnoho novinek</title>
+        <description>Společnost Red Hat představila novou verzi linuxové platformy Enterprise Linux ve verzi 7.5, která je určena pro komerční nasazení. Jaké změny přináší a proč si zaslouží pozornost firem, které neberou bezpečnost na lehkou váhu?</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1897--Novy-Red-Hat-Enterprise-Linux-prinasi-lepsi-bezpecnost-a-mnoho-novinek</link>
+        <guid>http://www.soom.cz/aktuality/1897--Novy-Red-Hat-Enterprise-Linux-prinasi-lepsi-bezpecnost-a-mnoho-novinek</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1897--Novy-Red-Hat-Enterprise-Linux-prinasi-lepsi-bezpecnost-a-mnoho-novinek</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/4--Bezpenost-pota">Akutality - Bezpečnost počítačů</category>
+        <pubDate>Thu, 26 Apr 2018 08:13:42 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Uniklý dokument prozrazuje, jak Apple trestá zaměstnance za úniky informací</title>
+        <description>Co by se stalo, kdyby některý ze zaměstnanců společnosti Apple vynesl ven, jak bude vypadat a co bude umět další iPhone? Nejen to prozrazuje interní dokument.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1896--Unikly-dokument-prozrazuje-jak-Apple-tresta-zamestnance-za-uniky-informaci</link>
+        <guid>http://www.soom.cz/aktuality/1896--Unikly-dokument-prozrazuje-jak-Apple-tresta-zamestnance-za-uniky-informaci</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1896--Unikly-dokument-prozrazuje-jak-Apple-tresta-zamestnance-za-uniky-informaci</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/8--Slab-msta">Akutality - Slabá místa</category>
+        <pubDate>Thu, 19 Apr 2018 11:32:10 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Co přinese slyšení Marka Zuckerberga v kongresu z hlediska bezpečnosti?</title>
+        <description>Zakladatel a šéf Facebooku odpovídal dlouhé hodiny na otázky v rámci slyšení před americkými kongresmany. Kromě opakovaných omluv za kauzu Cambridge Analytica zaznělo z úst Marka Zuckerberga i několik velmi podstatných informací, které ovlivní bezpečnost jednotlivců i firem.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1895--Co-prinese-slyseni-Marka-Zuckerberga-v-kongresu-z-hlediska-bezpecnosti</link>
+        <guid>http://www.soom.cz/aktuality/1895--Co-prinese-slyseni-Marka-Zuckerberga-v-kongresu-z-hlediska-bezpecnosti</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1895--Co-prinese-slyseni-Marka-Zuckerberga-v-kongresu-z-hlediska-bezpecnosti</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/5--Identita-a-soukrom">Akutality - Identita a soukromí</category>
+        <pubDate>Thu, 12 Apr 2018 13:41:46 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Vzniká decentralizované tržiště bezpečnostních expertů</title>
+        <description>Proč by s malwarem měly bojovat pouze velké antivirové společnosti? Přesně takovou otázku si položili zakladatelé projektu PolySwarm, který nyní v rámci soutěže nabízí bezpečnostním expertům z celého světa kryptoměnu Nectar jako odměnu za odhalení škodlivého kódu.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1894--Vznika-decentralizovane-trziste-bezpecnostnich-expertu</link>
+        <guid>http://www.soom.cz/aktuality/1894--Vznika-decentralizovane-trziste-bezpecnostnich-expertu</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1894--Vznika-decentralizovane-trziste-bezpecnostnich-expertu</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/7--Spam-Viry-Phishing">Akutality - Spam/Viry/Phishing</category>
+        <pubDate>Thu, 05 Apr 2018 09:48:05 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Neuvěřitelných 77 % firem nemá plán pro případ kyberbezpečnostního incidentu</title>
+        <description>Je vaše společnost připravena na hackerský útok? Jsou všechna oddělení informována, jakým způsobem v případě incidentu postupovat?</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1893--Neuveritelnych-77-firem-nema-plan-pro-pripad-kyberbezpecnostniho-incidentu</link>
+        <guid>http://www.soom.cz/aktuality/1893--Neuveritelnych-77-firem-nema-plan-pro-pripad-kyberbezpecnostniho-incidentu</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1893--Neuveritelnych-77-firem-nema-plan-pro-pripad-kyberbezpecnostniho-incidentu</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/4--Bezpenost-pota">Akutality - Bezpečnost počítačů</category>
+        <pubDate>Fri, 30 Mar 2018 11:09:27 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Kauza Cambridge Analytica otřásá Facebookem. Odchází šéf bezpečnosti</title>
+        <description>Je zde možná vůbec největší bezpečností skandál v historii sociálních sítí. Uživatelská data Facebooku měla sloužit politickým účelům. Padají hlavy, uživatelé ruší profily a Mark Zuckerberg přiznává chybu.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1892--Kauza-Cambridge-Analytica-otrasa-Facebookem-Odchazi-sef-bezpecnosti</link>
+        <guid>http://www.soom.cz/aktuality/1892--Kauza-Cambridge-Analytica-otrasa-Facebookem-Odchazi-sef-bezpecnosti</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1892--Kauza-Cambridge-Analytica-otrasa-Facebookem-Odchazi-sef-bezpecnosti</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/5--Identita-a-soukrom">Akutality - Identita a soukromí</category>
+        <pubDate>Thu, 22 Mar 2018 09:47:57 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Firmy musí kvůli GDPR promyslet i bezpečnost tisku dokumentů</title>
+        <description>Obecné nařízení na ochranu osobních údajů neboli GDPR, které začne platit od 25. května 2018, stresuje celou řadu firem.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1891--Firmy-musi-kvuli-GDPR-promyslet-i-bezpecnost-tisku-dokumentu</link>
+        <guid>http://www.soom.cz/aktuality/1891--Firmy-musi-kvuli-GDPR-promyslet-i-bezpecnost-tisku-dokumentu</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1891--Firmy-musi-kvuli-GDPR-promyslet-i-bezpecnost-tisku-dokumentu</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/8--Slab-msta">Akutality - Slabá místa</category>
+        <pubDate>Thu, 15 Mar 2018 13:45:56 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Jaké mobily jsou dostatečně bezpečné pro firemní nasazení?</title>
+        <description>Mobilní telefony se mohou velmi snadno stát slabým bodem firemní IT bezpečnosti. S výběrem mobilních telefonů, které splňují firemní a bezpečností standardy, nově pomůže seznam firmy Google.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1890--Jake-mobily-jsou-dostatecne-bezpecne-pro-firemni-nasazeni</link>
+        <guid>http://www.soom.cz/aktuality/1890--Jake-mobily-jsou-dostatecne-bezpecne-pro-firemni-nasazeni</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1890--Jake-mobily-jsou-dostatecne-bezpecne-pro-firemni-nasazeni</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/5--Identita-a-soukrom">Akutality - Identita a soukromí</category>
+        <pubDate>Thu, 08 Mar 2018 10:10:22 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Bezpečnost chytrých televizí s OS Android TV by měla zajímat i firmy</title>
+        <description>Veletrh MWC 2018 v Barceloně vedle řady technologických novinek odhalil i několik bezpečnostních témat, mezi kterými si nemalý prostor získala prezentace antivirové firmy ESET. Ta uvádí, že až 90 % chytrých TV s Androidem je v ohrožení.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1889--Bezpecnost-chytrych-televizi-s-OS-Android-TV-by-mela-zajimat-i-firmy</link>
+        <guid>http://www.soom.cz/aktuality/1889--Bezpecnost-chytrych-televizi-s-OS-Android-TV-by-mela-zajimat-i-firmy</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1889--Bezpecnost-chytrych-televizi-s-OS-Android-TV-by-mela-zajimat-i-firmy</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/5--Identita-a-soukrom">Akutality - Identita a soukromí</category>
+        <pubDate>Thu, 01 Mar 2018 13:07:39 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Homografický phishing si brousí zuby už i na krypto investory</title>
+        <description>Říkáte si, že ve světě investování do kryptoměn už nemůže být volné místo pro další podvody? V tom případě vás zcela jistě překvapí aktuální kauza, která připomíná nebezpečí Unicode kódování v doménových jménech.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1888--Homograficky-phishing-si-brousi-zuby-uz-i-na-krypto-investory</link>
+        <guid>http://www.soom.cz/aktuality/1888--Homograficky-phishing-si-brousi-zuby-uz-i-na-krypto-investory</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1888--Homograficky-phishing-si-brousi-zuby-uz-i-na-krypto-investory</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/7--Spam-Viry-Phishing">Akutality - Spam/Viry/Phishing</category>
+        <pubDate>Thu, 22 Feb 2018 10:19:48 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Globální průzkum Sophos varuje firmy před opakovanými útoky vyděračského softwaru</title>
+        <description>Útok ransonware stojí napadenou společnost v průměru 133 tisíc amerických dolarů. Alespoň to tvrdí závěry globálního průzkumu společnosti Sophos, která se specializuje na ochranu sítí.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1887--Globalni-pruzkum-Sophos-varuje-firmy-pred-opakovanymi-utoky-vyderacskeho-softwaru</link>
+        <guid>http://www.soom.cz/aktuality/1887--Globalni-pruzkum-Sophos-varuje-firmy-pred-opakovanymi-utoky-vyderacskeho-softwaru</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1887--Globalni-pruzkum-Sophos-varuje-firmy-pred-opakovanymi-utoky-vyderacskeho-softwaru</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/4--Bezpenost-pota">Akutality - Bezpečnost počítačů</category>
+        <pubDate>Thu, 15 Feb 2018 15:12:27 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Jak se vyhnout bezpečnostním hrozbám při investování do kryptoměn?</title>
+        <description>Kryptoměny a jejich rostoucí tržní kapitalizace je magnetem nejen na investory z celého světa, ale také na různé bezpečnostní hrozby. Na ty musí reagovat jednotlivci, směnárny i výrobci hardware peněženek.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1886--Jak-se-vyhnout-bezpecnostnim-hrozbam-pri-investovani-do-kryptomen</link>
+        <guid>http://www.soom.cz/aktuality/1886--Jak-se-vyhnout-bezpecnostnim-hrozbam-pri-investovani-do-kryptomen</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1886--Jak-se-vyhnout-bezpecnostnim-hrozbam-pri-investovani-do-kryptomen</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/11--Ostatn">Akutality - Ostatní</category>
+        <pubDate>Fri, 26 Jan 2018 11:00:45 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Pravidla pro firemní IT bezpečnost zná jen 12 % zaměstnanců</title>
+        <description>Průzkum mezinárodní společnosti Kaspersky Lab a B2B International přichází se závažným obviněním, ze kterého nebudou mít zaměstnavatelé radost.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1885--Pravidla-pro-firemni-IT-bezpecnost-zna-jen-12-zamestnancu</link>
+        <guid>http://www.soom.cz/aktuality/1885--Pravidla-pro-firemni-IT-bezpecnost-zna-jen-12-zamestnancu</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1885--Pravidla-pro-firemni-IT-bezpecnost-zna-jen-12-zamestnancu</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/4--Bezpenost-pota">Akutality - Bezpečnost počítačů</category>
+        <pubDate>Fri, 26 Jan 2018 10:57:57 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Sdružení Wi-Fi Alliance představuje bezpečnější standard WPA3</title>
+        <description>Po téměř 14 letech od schválení technologie WPA2 (Wi-Fi Protected Access 2) představilo sdružení Wi-Fi Alliance na veletrhu CES klíčovou novinku v podobě další generace tohoto typu ochrany bezdrátových sítí.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1884--Sdruzeni-Wi-Fi-Alliance-predstavuje-bezpecnejsi-standard-WPA3</link>
+        <guid>http://www.soom.cz/aktuality/1884--Sdruzeni-Wi-Fi-Alliance-predstavuje-bezpecnejsi-standard-WPA3</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1884--Sdruzeni-Wi-Fi-Alliance-predstavuje-bezpecnejsi-standard-WPA3</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/6--Sov-bezpenost">Akutality - Síťová bezpečnost</category>
+        <pubDate>Thu, 25 Jan 2018 15:06:42 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Textové bomby opět dopadají na Apple</title>
+        <description>Bezpečnost produktů Apple je dlouhodobě pod drobnohledem a každé zaváhání si získá velkou pozornost.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1883--Textove-bomby-opet-dopadaji-na-Apple</link>
+        <guid>http://www.soom.cz/aktuality/1883--Textove-bomby-opet-dopadaji-na-Apple</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1883--Textove-bomby-opet-dopadaji-na-Apple</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/8--Slab-msta">Akutality - Slabá místa</category>
+        <pubDate>Fri, 19 Jan 2018 08:46:41 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Co potřebujete vědět o útocích Meltdown a Spectre?</title>
+        <description>Společnost Intel a celá řada dalších výrobců čipů nebude na začátek roku 2018 vzpomínat v dobrém. Vše odstartovalo odhalení závažné bezpečnostní chyby v čipech architektury x86 a podle všeho nabere celá aféra ještě na otáčkách.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1882--Co-potrebujete-vedet-o-utocich-Meltdown-a-Spectre</link>
+        <guid>http://www.soom.cz/aktuality/1882--Co-potrebujete-vedet-o-utocich-Meltdown-a-Spectre</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1882--Co-potrebujete-vedet-o-utocich-Meltdown-a-Spectre</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/4--Bezpenost-pota">Akutality - Bezpečnost počítačů</category>
+        <pubDate>Thu, 11 Jan 2018 15:36:24 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>7 hlavních témat kybernetické bezpečnosti pro rok 2018</title>
+        <description>S novým rokem přichází nové bezpečností výzvy pro jednotlivce i společnosti. Na jaké hrozby se v roce 2018 pečlivě připravit?</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1881--7-hlavnich-temat-kyberneticke-bezpecnosti-pro-rok-2018</link>
+        <guid>http://www.soom.cz/aktuality/1881--7-hlavnich-temat-kyberneticke-bezpecnosti-pro-rok-2018</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1881--7-hlavnich-temat-kyberneticke-bezpecnosti-pro-rok-2018</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/7--Spam-Viry-Phishing">Akutality - Spam/Viry/Phishing</category>
+        <pubDate>Fri, 05 Jan 2018 12:46:17 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Loapi: Malware schopný fyzicky poškodit vaše zařízení</title>
+        <description>Pokud vaše zařízení napadne virus, znamená to obvykle ztracený víkend, zálohování, mazání a instalování. Jakkoliv se ale tento scénář může jevit jako nejhorší možný, ukazuje se, že může být ve skutečnosti ještě hůř.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1880--Loapi-Malware-schopny-fyzicky-poskodit-vase-zarizeni</link>
+        <guid>http://www.soom.cz/aktuality/1880--Loapi-Malware-schopny-fyzicky-poskodit-vase-zarizeni</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1880--Loapi-Malware-schopny-fyzicky-poskodit-vase-zarizeni</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/7--Spam-Viry-Phishing">Akutality - Spam/Viry/Phishing</category>
+        <pubDate>Thu, 04 Jan 2018 09:44:09 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>100 nejčastějších hesel roku 2017</title>
+        <description>Tradičním vánočním zvykem jsou kromě lití olova a házení střevícem také kompilace nejčastějších hesel za uplynulý rok. A tak ani my tuto každoroční tradici neporušíme a přesvědčíme se, že i letos je opět (spoiler alert!) nejčastějším heslem 123456. Co však dále říkají statistiky? Změnilo se něco?</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1879--100-nejcastejsich-hesel-roku-2017</link>
+        <guid>http://www.soom.cz/aktuality/1879--100-nejcastejsich-hesel-roku-2017</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1879--100-nejcastejsich-hesel-roku-2017</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/5--Identita-a-soukrom">Akutality - Identita a soukromí</category>
+        <pubDate>Wed, 27 Dec 2017 09:28:47 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Střípky z Black Hat Europe 2017</title>
+        <description>Začátkem prosince, zhruba v době, kdy se u nás rojili čerti a andělé, se to v Londýně hemžilo černými klobouky. Pojďme se podívat, co zajímavého se tam událo.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1878--Stripky-z-Black-Hat-Europe-2017</link>
+        <guid>http://www.soom.cz/aktuality/1878--Stripky-z-Black-Hat-Europe-2017</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1878--Stripky-z-Black-Hat-Europe-2017</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/3--Hacking">Akutality - Hacking</category>
+        <pubDate>Fri, 15 Dec 2017 10:29:58 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Longenesis: Prodejte svá osobní data výměnou za kryptoměnu</title>
+        <description>Doba, kdy hlavní hodnotu měla lidská práce, s nástupem strojů a postupné mechanizace jednotlivých odvětví pomalu ustupuje. Nyní se stále častěji setkáváme s tím, že hlavní hodnotou jsou údaje a data. A to zejména osobní.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1877--Longenesis-Prodejte-sva-osobni-data-vymenou-za-kryptomenu</link>
+        <guid>http://www.soom.cz/aktuality/1877--Longenesis-Prodejte-sva-osobni-data-vymenou-za-kryptomenu</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1877--Longenesis-Prodejte-sva-osobni-data-vymenou-za-kryptomenu</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/5--Identita-a-soukrom">Akutality - Identita a soukromí</category>
+        <pubDate>Thu, 07 Dec 2017 14:07:55 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Hackeři hackují hackery</title>
+        <description>Na jedné straně jsou oběti a na straně druhé jsou hackeři, kteří na tyto oběti útočí. A na straně třetí jsou hackeři, kteří útočí na tyto hackery. Hostinský Hrubeš hýká hrůzou.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1876--Hackeri-hackuji-hackery</link>
+        <guid>http://www.soom.cz/aktuality/1876--Hackeri-hackuji-hackery</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1876--Hackeri-hackuji-hackery</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/3--Hacking">Akutality - Hacking</category>
+        <pubDate>Thu, 23 Nov 2017 11:47:05 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Účtenková loterie z pohledu bezpečnosti</title>
+        <description>Uplynul měsíc od oficiálního spuštění Účtenkovky, naší nejznámější státní loterie, a za tu dobu se překvapivě mnohé stalo. Pojďme si tyto události shrnout a podívat se na loterii z pohledu bezpečnosti.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1875--Uctenkova-loterie-z-pohledu-bezpecnosti</link>
+        <guid>http://www.soom.cz/aktuality/1875--Uctenkova-loterie-z-pohledu-bezpecnosti</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1875--Uctenkova-loterie-z-pohledu-bezpecnosti</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/8--Slab-msta">Akutality - Slabá místa</category>
+        <pubDate>Thu, 09 Nov 2017 12:20:15 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>KRACK: Wi-Fi již není bezpečné</title>
+        <description>Po nedávné potenciální hrozbě BlueBorne, která zneužívala zranitelný Bluetooth, přichází další, která zneužívá zranitelnosti uvnitř šifrovaného Wi-Fi připojení. Jediný skutečně bezpečný způsob přenosu informací je zřejmě v obálce poštou.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1874--KRACK-Wi-Fi-jiz-neni-bezpecne</link>
+        <guid>http://www.soom.cz/aktuality/1874--KRACK-Wi-Fi-jiz-neni-bezpecne</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1874--KRACK-Wi-Fi-jiz-neni-bezpecne</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/6--Sov-bezpenost">Akutality - Síťová bezpečnost</category>
+        <pubDate>Thu, 19 Oct 2017 11:20:34 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>TOP 5: Bashware, WeChat a práva komárů</title>
+        <description>Internetové prohlížeče se předhánějí v novinkách kvalitnějšího zabezpečení, naopak operační systémy se předhánějí v kvalitě a množství chyb. A Čína s Ruskem se spolu předhánějí v tom, kdo kvalitněji posílí cenzuru.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1873--TOP-5-Bashware-WeChat-a-prava-komaru</link>
+        <guid>http://www.soom.cz/aktuality/1873--TOP-5-Bashware-WeChat-a-prava-komaru</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1873--TOP-5-Bashware-WeChat-a-prava-komaru</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/8--Slab-msta">Akutality - Slabá místa</category>
+        <pubDate>Fri, 06 Oct 2017 13:49:04 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>BlueBorne: Děsivá hrozba postihující všechna zařízení</title>
+        <description>Málokdy se stane, že je v ohrožení současně váš notebook v práci, váš mobilní telefon v kapse, váš automobil v garáži a vaše chytré osvětlení v ložnici. Nyní tato situace nastala a katastrofické scénáře jsou skutečně reálné.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1872--BlueBorne-Desiva-hrozba-postihujici-vsechna-zarizeni</link>
+        <guid>http://www.soom.cz/aktuality/1872--BlueBorne-Desiva-hrozba-postihujici-vsechna-zarizeni</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1872--BlueBorne-Desiva-hrozba-postihujici-vsechna-zarizeni</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/6--Sov-bezpenost">Akutality - Síťová bezpečnost</category>
+        <pubDate>Wed, 27 Sep 2017 12:23:57 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Fyzická bezpečnost (nejen) v hlavním městě</title>
+        <description>Vaše notebooky jsou chráněny antivirem, vaše mobilní telefony mají aktualizovaný operační systém a vaše domácí síť je bezpečně schována za firewallem. Ale myslíte přitom také na bezpečí vás samotných? Ať už při blackoutu, válečném konfliktu a nebo “jen” epidemii či povodních.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1871--Fyzicka-bezpecnost-nejen-v-hlavnim-meste</link>
+        <guid>http://www.soom.cz/aktuality/1871--Fyzicka-bezpecnost-nejen-v-hlavnim-meste</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1871--Fyzicka-bezpecnost-nejen-v-hlavnim-meste</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/11--Ostatn">Akutality - Ostatní</category>
+        <pubDate>Mon, 11 Sep 2017 08:24:49 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>TOP 5: Ethereum, HBO a mozkové vlny</title>
+        <description>Prázdninový speciál těch nejzajímavějších událostí z oblasti bezpečnosti během okurkové sezóny.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1870--TOP-5-Ethereum-HBO-a-mozkove-vlny</link>
+        <guid>http://www.soom.cz/aktuality/1870--TOP-5-Ethereum-HBO-a-mozkove-vlny</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1870--TOP-5-Ethereum-HBO-a-mozkove-vlny</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/3--Hacking">Akutality - Hacking</category>
+        <pubDate>Mon, 04 Sep 2017 09:39:51 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Nejdelší DDoS útok letošního roku: 277 hodin</title>
+        <description>Naprostá většina internetových útoků je buď rychle a tiše provedena nebo rychle odhalena a vyřešena. Jak však ukázala nová čtvrtletní zpráva společnosti Kaspersky, ne vždy tomu tak musí být.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1869--Nejdelsi-DDoS-utok-letosniho-roku-277-hodin</link>
+        <guid>http://www.soom.cz/aktuality/1869--Nejdelsi-DDoS-utok-letosniho-roku-277-hodin</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1869--Nejdelsi-DDoS-utok-letosniho-roku-277-hodin</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/6--Sov-bezpenost">Akutality - Síťová bezpečnost</category>
+        <pubDate>Thu, 17 Aug 2017 12:35:39 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Nový úřad pro kybernetickou bezpečnost</title>
+        <description>Počínaje prvním srpnem v Česku vznikla nová instituce jako reakce na stále častější útoky z oblasti kyberprostoru. Kdo za ní stojí? Co je jejím cílem? A jaký to bude mít dopad na život běžného občana?</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1868--Novy-urad-pro-kybernetickou-bezpecnost</link>
+        <guid>http://www.soom.cz/aktuality/1868--Novy-urad-pro-kybernetickou-bezpecnost</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1868--Novy-urad-pro-kybernetickou-bezpecnost</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/4--Bezpenost-pota">Akutality - Bezpečnost počítačů</category>
+        <pubDate>Fri, 04 Aug 2017 08:03:47 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Roomba si během práce ukládá detailní mapu vašeho bytu</title>
+        <description>Zřejmě další z těch přehnaně chytrých pomocníků, kteří zákeřně bez vašeho vědomí získávají vaše soukromá data a ta pak prodávají na černém trhu… nebo ne? Nejsme ve skutečnosti jen přehnaně konzervativní a paranoidní? Kde je pravda?</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1867--Roomba-si-behem-prace-uklada-detailni-mapu-vaseho-bytu</link>
+        <guid>http://www.soom.cz/aktuality/1867--Roomba-si-behem-prace-uklada-detailni-mapu-vaseho-bytu</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1867--Roomba-si-behem-prace-uklada-detailni-mapu-vaseho-bytu</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/5--Identita-a-soukrom">Akutality - Identita a soukromí</category>
+        <pubDate>Thu, 27 Jul 2017 12:25:19 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>URL padding</title>
+        <description>Nová metoda útoku, která cílí převážně na majitele mobilních telefonů. Vzhledem k její sofistikovanosti však nejste v bezpečí ani na notebooku.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1866--URL-padding</link>
+        <guid>http://www.soom.cz/aktuality/1866--URL-padding</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1866--URL-padding</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/3--Hacking">Akutality - Hacking</category>
+        <pubDate>Thu, 13 Jul 2017 13:15:27 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Petya, další útok na ukrajinskou infrastrukturu</title>
+        <description>Již několikátý kyberútok v pořadí, snažící se ochromit jednotlivé řídicí složky Ukrajiny. Někdo tuhle zemi skutečně nemá rád.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1865--Petya-dalsi-utok-na-ukrajinskou-infrastrukturu</link>
+        <guid>http://www.soom.cz/aktuality/1865--Petya-dalsi-utok-na-ukrajinskou-infrastrukturu</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1865--Petya-dalsi-utok-na-ukrajinskou-infrastrukturu</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/3--Hacking">Akutality - Hacking</category>
+        <pubDate>Mon, 03 Jul 2017 07:20:41 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Sezóna jahod je tady. Pozor na viry!</title>
+        <description>Těmi viry samozřejmě nemyslíme škůdce na rostlinách, ale skutečný malware, který si můžete spolu s jahodami odnést během prohlížení běžné webové stránky. Již dávno neplatí, že jen neznámé stránky mohou být nebezpečné.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1864--Sezona-jahod-je-tady-Pozor-na-viry</link>
+        <guid>http://www.soom.cz/aktuality/1864--Sezona-jahod-je-tady-Pozor-na-viry</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1864--Sezona-jahod-je-tady-Pozor-na-viry</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/4--Bezpenost-pota">Akutality - Bezpečnost počítačů</category>
+        <pubDate>Tue, 27 Jun 2017 08:50:39 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Hackerský útok na elektrárnu v Ukrajině</title>
+        <description>Myslíte si, že virus, který vám smaže fotky na vašem disku nebo zcizí údaje o vašem bankovním účtu, je zákeřný a nebezpečný? Tak to se seznamte s následujícím kouskem, který je schopný odpojit část země od elektrické energie.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1863--Hackersky-utok-na-elektrarnu-v-Ukrajine</link>
+        <guid>http://www.soom.cz/aktuality/1863--Hackersky-utok-na-elektrarnu-v-Ukrajine</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1863--Hackersky-utok-na-elektrarnu-v-Ukrajine</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/3--Hacking">Akutality - Hacking</category>
+        <pubDate>Wed, 14 Jun 2017 14:54:58 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>TOP 5: Nigérie, duhovka a samozřejmě WannaCry</title>
+        <description>Pravidelný přehled toho nejzajímavějšího z oblasti bezpečnosti za uplynulý měsíc.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1862--TOP-5-Nigerie-duhovka-a-samozrejme-WannaCry</link>
+        <guid>http://www.soom.cz/aktuality/1862--TOP-5-Nigerie-duhovka-a-samozrejme-WannaCry</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1862--TOP-5-Nigerie-duhovka-a-samozrejme-WannaCry</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/8--Slab-msta">Akutality - Slabá místa</category>
+        <pubDate>Wed, 07 Jun 2017 15:44:35 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>334 zranitelností nultého dne bylo od roku 2006 využito během APT útoků</title>
+        <description>Jsme nesmírně šťastni, že můžeme oznámit oficiální zahájení bezplatného projektu sledování chyb zabezpečení nultého dne.</description>
+        <author>ls@s-help.com (Cybersecurity Help)</author>
+        <link>http://www.soom.cz/aktuality/1861--334-zranitelnosti-nulteho-dne-bylo-od-roku-2006-vyuzito-behem-APT-utoku</link>
+        <guid>http://www.soom.cz/aktuality/1861--334-zranitelnosti-nulteho-dne-bylo-od-roku-2006-vyuzito-behem-APT-utoku</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1861--334-zranitelnosti-nulteho-dne-bylo-od-roku-2006-vyuzito-behem-APT-utoku</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/5--Identita-a-soukrom">Akutality - Identita a soukromí</category>
+        <pubDate>Wed, 07 Jun 2017 13:49:13 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Zranitelné titulky ve VLC media playeru</title>
+        <description>Zatímco v pohodlí sledujete svůj oblíbený film, váš textový soubor s titulky ožije a převezme kontrolu nad vaším počítačem. Nový vektor útoku jako vystřižený z knihy strašidelných povídek.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1860--Zranitelne-titulky-ve-VLC-media-playeru</link>
+        <guid>http://www.soom.cz/aktuality/1860--Zranitelne-titulky-ve-VLC-media-playeru</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1860--Zranitelne-titulky-ve-VLC-media-playeru</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/8--Slab-msta">Akutality - Slabá místa</category>
+        <pubDate>Tue, 30 May 2017 13:38:11 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Google Play Protect</title>
+        <description>Diskuse o tom, zda mít či nemít antivirus v mobilním telefonu, jsou již pasé. Nyní bude mít antivirus v mobilu každý a bez odmlouvání.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1859--Google-Play-Protect</link>
+        <guid>http://www.soom.cz/aktuality/1859--Google-Play-Protect</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1859--Google-Play-Protect</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/8--Slab-msta">Akutality - Slabá místa</category>
+        <pubDate>Mon, 22 May 2017 15:36:59 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Až 83 % zaměstnanců důvěřuje emailovým přílohám</title>
+        <description>Zaměstnanci jsou klíčovou vstupní bránou bezpečnosti každé firmy. Lze jim však skutečně důvěřovat? Dle nedávné studie si mnozí z nich nejsou vědomi existujícího rizika ani potenciálních škod, které by případný malware mohl napáchat.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1858--Az-83-zamestnancu-duveruje-emailovym-priloham</link>
+        <guid>http://www.soom.cz/aktuality/1858--Az-83-zamestnancu-duveruje-emailovym-priloham</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1858--Az-83-zamestnancu-duveruje-emailovym-priloham</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/4--Bezpenost-pota">Akutality - Bezpečnost počítačů</category>
+        <pubDate>Tue, 16 May 2017 08:18:59 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>TOP 5: Njalla, Webroot a zákeřný burger</title>
+        <description>Přehled toho nejzajímavějšího z oblasti bezpečnosti za uplynulý měsíc.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1857--TOP-5-Njalla-Webroot-a-zakerny-burger</link>
+        <guid>http://www.soom.cz/aktuality/1857--TOP-5-Njalla-Webroot-a-zakerny-burger</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1857--TOP-5-Njalla-Webroot-a-zakerny-burger</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/11--Ostatn">Akutality - Ostatní</category>
+        <pubDate>Fri, 05 May 2017 13:30:09 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Téměř neodhalitelný homografický phishing</title>
+        <description>Žádný “drahoušek zákazník” nebo zemřelý strýček milionář. Tentokrát se jedná o potenciální vektor útoku, který je schopný ošálit i velmi zběhlé uživatele. Přesvědčte se sami.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1856--Temer-neodhalitelny-homograficky-phishing</link>
+        <guid>http://www.soom.cz/aktuality/1856--Temer-neodhalitelny-homograficky-phishing</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1856--Temer-neodhalitelny-homograficky-phishing</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/7--Spam-Viry-Phishing">Akutality - Spam/Viry/Phishing</category>
+        <pubDate>Wed, 03 May 2017 07:23:08 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Jak se ve vězení připojit k internetu</title>
+        <description>Stačí sehnat potřebné komponenty, poskládat z nich počítač a ten připojit k vnitřní síti. Snadné jak facka.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1855--Jak-se-ve-vezeni-pripojit-k-internetu</link>
+        <guid>http://www.soom.cz/aktuality/1855--Jak-se-ve-vezeni-pripojit-k-internetu</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1855--Jak-se-ve-vezeni-pripojit-k-internetu</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/6--Sov-bezpenost">Akutality - Síťová bezpečnost</category>
+        <pubDate>Thu, 20 Apr 2017 15:48:17 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Téměř dokonalá bankovní loupež</title>
+        <description>Scénář jako zkopírovaný ze starých westernových filmů, lupiči jen vyměnili punčochy a bambitky za supermoderní nevystopovatelný malware.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1854--Temer-dokonala-bankovni-loupez</link>
+        <guid>http://www.soom.cz/aktuality/1854--Temer-dokonala-bankovni-loupez</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1854--Temer-dokonala-bankovni-loupez</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/9--Bankovn-bezpenost">Akutality - Bankovní bezpečnost</category>
+        <pubDate>Tue, 18 Apr 2017 12:16:28 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Jak se (ne)bránit proti sledování svým ISP</title>
+        <description>Monetizace osobních uživatelských dat je v dnešní době známým společným jmenovatelem většiny firem. Jak se však změní situace v případě, že se jedná o vašeho poskytovatele internetového připojení, prostředníka veškeré vaší komunikace s okolním světem? A co s tím lze dělat?</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1853--Jak-se-nebranit-proti-sledovani-svym-ISP</link>
+        <guid>http://www.soom.cz/aktuality/1853--Jak-se-nebranit-proti-sledovani-svym-ISP</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1853--Jak-se-nebranit-proti-sledovani-svym-ISP</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/8--Slab-msta">Akutality - Slabá místa</category>
+        <pubDate>Mon, 10 Apr 2017 08:30:32 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>James Comey a soukromí na Instagramu</title>
+        <description>Maličký příběh o jednom účtu na Instagramu je krásnou názornou ukázkou falešného pocitu soukromí a toho, co všechno je možné zjistit z veřejně dostupných informací, pokud někdo opravdu vynaloží potřebné úsilí.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1852--James-Comey-a-soukromi-na-Instagramu</link>
+        <guid>http://www.soom.cz/aktuality/1852--James-Comey-a-soukromi-na-Instagramu</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1852--James-Comey-a-soukromi-na-Instagramu</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/5--Identita-a-soukrom">Akutality - Identita a soukromí</category>
+        <pubDate>Tue, 04 Apr 2017 15:29:40 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Až 15 % aktivních uživatelů Twitteru jsou boti</title>
+        <description>Studie odhalila několik skupin automatických botů, od těch nejprimitivnějších až po kombinované účty a sofistikované účty s velmi lidským chováním, u nichž je o reálnosti uživatele těžké rozhodnout i manuálně. Kolik z nich jsou vaši přátelé?</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1851--Az-15-aktivnich-uzivatelu-Twitteru-jsou-boti</link>
+        <guid>http://www.soom.cz/aktuality/1851--Az-15-aktivnich-uzivatelu-Twitteru-jsou-boti</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1851--Az-15-aktivnich-uzivatelu-Twitteru-jsou-boti</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/11--Ostatn">Akutality - Ostatní</category>
+        <pubDate>Fri, 31 Mar 2017 14:21:36 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>V obchodech nalezeny infikované mobilní telefony</title>
+        <description>Nestahujte podezřelé aplikace a nenavštěvujte pochybné webové stránky, a budete v bezpečí. Tohle zlaté pravidlo znáte? Tak to už dávno neplatí.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1850--V-obchodech-nalezeny-infikovane-mobilni-telefony</link>
+        <guid>http://www.soom.cz/aktuality/1850--V-obchodech-nalezeny-infikovane-mobilni-telefony</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1850--V-obchodech-nalezeny-infikovane-mobilni-telefony</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/8--Slab-msta">Akutality - Slabá místa</category>
+        <pubDate>Mon, 27 Mar 2017 14:59:51 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Vyšel březnový bezpečnostní bulletin pro Android</title>
+        <description>Google vydal pravidelný měsíční seznam nově zaplátovaných zranitelností ve svém mobilním operačním systému Android. Co na tom může být zajímavého? Například fakt, že těch zranitelností je více než 100.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1849--Vysel-breznovy-bezpecnostni-bulletin-pro-Android</link>
+        <guid>http://www.soom.cz/aktuality/1849--Vysel-breznovy-bezpecnostni-bulletin-pro-Android</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1849--Vysel-breznovy-bezpecnostni-bulletin-pro-Android</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/8--Slab-msta">Akutality - Slabá místa</category>
+        <pubDate>Wed, 15 Mar 2017 09:06:22 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Kaspersky OS</title>
+        <description>V době neustálých kybernetických útoků a rostoucího množství šířícího se malwaru přichází nový operační systém, jehož hlavní prioritou je bezpečnost.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1848--Kaspersky-OS</link>
+        <guid>http://www.soom.cz/aktuality/1848--Kaspersky-OS</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1848--Kaspersky-OS</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/4--Bezpenost-pota">Akutality - Bezpečnost počítačů</category>
+        <pubDate>Wed, 08 Mar 2017 09:07:40 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Analýza MS Word makroviru pro systém macOS</title>
+        <description>V poslední době se stále častěji vyskytují případy malwaru určeného pro alternativní operační systémy jako macOS nebo linux. Útočníci se zřejmě rozhodli cílit na sice méně početnou, ale zato zranitelnější komunitu.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1847--Analyza-MS-Word-makroviru-pro-system-macOS</link>
+        <guid>http://www.soom.cz/aktuality/1847--Analyza-MS-Word-makroviru-pro-system-macOS</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1847--Analyza-MS-Word-makroviru-pro-system-macOS</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/4--Bezpenost-pota">Akutality - Bezpečnost počítačů</category>
+        <pubDate>Tue, 21 Feb 2017 15:14:56 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Chytré televize Vizio špehují své uživatele</title>
+        <description>Vaše vláda vás sleduje. Firmy okolo vás monitorují vaši aktivitu. Vaše soukromá data si ukládá váš mobilní telefon, tablet, počítač … a také vaše televize.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1846--Chytre-televize-Vizio-spehuji-sve-uzivatele</link>
+        <guid>http://www.soom.cz/aktuality/1846--Chytre-televize-Vizio-spehuji-sve-uzivatele</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1846--Chytre-televize-Vizio-spehuji-sve-uzivatele</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/5--Identita-a-soukrom">Akutality - Identita a soukromí</category>
+        <pubDate>Fri, 10 Feb 2017 09:38:39 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>WordPress zranitelnost v REST API je aktivně exploitována</title>
+        <description>Byl zaregistrován útok proti nezáplatovaným WordPress webům.</description>
+        <author>ls@s-help.com (Cybersecurity Help)</author>
+        <link>http://www.soom.cz/aktuality/1845--WordPress-zranitelnost-v-REST-API-je-aktivne-exploitovana</link>
+        <guid>http://www.soom.cz/aktuality/1845--WordPress-zranitelnost-v-REST-API-je-aktivne-exploitovana</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1845--WordPress-zranitelnost-v-REST-API-je-aktivne-exploitovana</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/3--Hacking">Akutality - Hacking</category>
+        <pubDate>Tue, 07 Feb 2017 13:46:04 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>SpyNote RAT se maskuje jako aplikace Netflixu</title>
+        <description>Nová verze nechvalně známého trojanu SpyNote je navržena tak, aby zmátla uživatele Androidu ke stažení tím, že se tváří jako aplikace Netflixu. Poté, co si uživatel tuto „aplikaci” nainstaluje, trojan se vzdáleným přístupem v podstatě předá kontrolu nad zařízením útočníkovi – umožní mu mimo jiné kopírovat soubory, prohlížet kontakty a dokonce oběť i odposlouchávat.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1844--SpyNote-RAT-se-maskuje-jako-aplikace-Netflixu</link>
+        <guid>http://www.soom.cz/aktuality/1844--SpyNote-RAT-se-maskuje-jako-aplikace-Netflixu</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1844--SpyNote-RAT-se-maskuje-jako-aplikace-Netflixu</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/7--Spam-Viry-Phishing">Akutality - Spam/Viry/Phishing</category>
+        <pubDate>Fri, 03 Feb 2017 16:01:58 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Dostupný exploit pro 0day zranitelnost v Microsoft Windows</title>
+        <description>Zranitelnost může být použita ke vzdálenému spuštění libovolného kódu ve zranitelném systému.</description>
+        <author>ls@s-help.com (Cybersecurity Help)</author>
+        <link>http://www.soom.cz/aktuality/1843--Dostupny-exploit-pro-0day-zranitelnost-v-Microsoft-Windows</link>
+        <guid>http://www.soom.cz/aktuality/1843--Dostupny-exploit-pro-0day-zranitelnost-v-Microsoft-Windows</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1843--Dostupny-exploit-pro-0day-zranitelnost-v-Microsoft-Windows</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/3--Hacking">Akutality - Hacking</category>
+        <pubDate>Fri, 03 Feb 2017 15:01:03 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Google se stává kořenovou certifikační autoritou</title>
+        <description>Tábory těch, kteří považují společnost Google za základní pilíř důvěry, a těch, kterým naopak rozsah působnosti velkého bratra nahání strach, se budou i nadále prohlubovat.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1842--Google-se-stava-korenovou-certifikacni-autoritou</link>
+        <guid>http://www.soom.cz/aktuality/1842--Google-se-stava-korenovou-certifikacni-autoritou</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1842--Google-se-stava-korenovou-certifikacni-autoritou</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/5--Identita-a-soukrom">Akutality - Identita a soukromí</category>
+        <pubDate>Wed, 01 Feb 2017 16:10:37 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Hacker ochráncem otevřených databází</title>
+        <description>Pokud na internetu necháte otevřenou databázi, je více než jisté, že ji někdo najde. A téměř dozajista také zneužije. Během několika uplynulých týdnů se útočníci zaměřili na tisíce veřejně dostupných serverů běžících na databázových systémech jako MongoDB nebo Hadoop a za držená data chtějí vysoké výkupné. Nyní se však objevil hacker, který se snaží administrátory před nebezpečím varovat.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1841--Hacker-ochrancem-otevrenych-databazi</link>
+        <guid>http://www.soom.cz/aktuality/1841--Hacker-ochrancem-otevrenych-databazi</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1841--Hacker-ochrancem-otevrenych-databazi</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/3--Hacking">Akutality - Hacking</category>
+        <pubDate>Mon, 30 Jan 2017 17:21:24 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Novinka na trhu ransomware: Spora</title>
+        <description>Ransomware je stále oblíbenějším typem malware, a proto není divu, že nové varianty se objevují jako houby po dešti. Dnes si představíme jeden revoluční kousek - ransomware Spora.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1840--Novinka-na-trhu-ransomware-Spora</link>
+        <guid>http://www.soom.cz/aktuality/1840--Novinka-na-trhu-ransomware-Spora</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1840--Novinka-na-trhu-ransomware-Spora</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/7--Spam-Viry-Phishing">Akutality - Spam/Viry/Phishing</category>
+        <pubDate>Mon, 30 Jan 2017 08:32:48 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Je čas zlomit nad uživateli hůl? Nejčastějším heslem je stále 123456</title>
+        <description>Jako v boji proti větrným mlýnům se musí cítit každý, kdo se byť okrajově zabývá osvětou uživatelů v oblasti IT bezpečnosti. Nová studie, která se zabývala nejčastěji používanými hesly minulého roku totiž přišla s děsivým zjištěním – nehledě na všechny snahy o osvětu patří mezi nejpoužívanější hesla stále 123456 a 123456789.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1839--Je-cas-zlomit-nad-uzivateli-hul-Nejcastejsim-heslem-je-stale-123456</link>
+        <guid>http://www.soom.cz/aktuality/1839--Je-cas-zlomit-nad-uzivateli-hul-Nejcastejsim-heslem-je-stale-123456</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1839--Je-cas-zlomit-nad-uzivateli-hul-Nejcastejsim-heslem-je-stale-123456</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/5--Identita-a-soukrom">Akutality - Identita a soukromí</category>
+        <pubDate>Mon, 23 Jan 2017 16:29:03 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Autora Limitless Loggeru čeká až 10 let vězení</title>
+        <description>Začalo to domácím úkolem ze školy a skončilo projektem s více než 3000 platícími zákazníky a policií za dveřmi. Aneb, když vyvíjíte šedý software a nevíte, kdy přestat.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1838--Autora-Limitless-Loggeru-ceka-az-10-let-vezeni</link>
+        <guid>http://www.soom.cz/aktuality/1838--Autora-Limitless-Loggeru-ceka-az-10-let-vezeni</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1838--Autora-Limitless-Loggeru-ceka-az-10-let-vezeni</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/3--Hacking">Akutality - Hacking</category>
+        <pubDate>Fri, 20 Jan 2017 13:32:11 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Ransomware v roce 2017</title>
+        <description>Další článek týkající se ransomwaru. Okurková sezóna? Přehnaný hype poslední doby? A nebo je opravdu ransomware v současnosti tak zásadním tématem?</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1837--Ransomware-v-roce-2017</link>
+        <guid>http://www.soom.cz/aktuality/1837--Ransomware-v-roce-2017</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1837--Ransomware-v-roce-2017</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/3--Hacking">Akutality - Hacking</category>
+        <pubDate>Fri, 13 Jan 2017 13:20:47 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Bezpečnost roku 2016 v pěti bodech</title>
+        <description>Uplynulý rok byl obdobím plným změn a nových trendů v oblasti internetové bezpečnosti.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1836--Bezpecnost-roku-2016-v-peti-bodech</link>
+        <guid>http://www.soom.cz/aktuality/1836--Bezpecnost-roku-2016-v-peti-bodech</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1836--Bezpecnost-roku-2016-v-peti-bodech</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/11--Ostatn">Akutality - Ostatní</category>
+        <pubDate>Wed, 04 Jan 2017 16:05:40 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Backdoor ve Skype pro macOS čekal na své odhalení přes 5 let</title>
+        <description>Minulý týden analytici z Trustwave SpiderLabs představili skrytý backdoor v populárním software pro videohovory a instant messaging od Microsoftu – Skype.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1835--Backdoor-ve-Skype-pro-macOS-cekal-na-sve-odhaleni-pres-5-let</link>
+        <guid>http://www.soom.cz/aktuality/1835--Backdoor-ve-Skype-pro-macOS-cekal-na-sve-odhaleni-pres-5-let</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1835--Backdoor-ve-Skype-pro-macOS-cekal-na-sve-odhaleni-pres-5-let</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/8--Slab-msta">Akutality - Slabá místa</category>
+        <pubDate>Fri, 30 Dec 2016 13:46:43 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>RansomFree: Speciální nástroj v boji proti ransomware</title>
+        <description>Představili jsme si již množství různých typů malwaru a popsali jejich útok a škody, které způsobují. Dosud jsme se však příliš nevěnovali tomu, jak se lze těmto útokům bránit.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1834--RansomFree-Specialni-nastroj-v-boji-proti-ransomware</link>
+        <guid>http://www.soom.cz/aktuality/1834--RansomFree-Specialni-nastroj-v-boji-proti-ransomware</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1834--RansomFree-Specialni-nastroj-v-boji-proti-ransomware</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/4--Bezpenost-pota">Akutality - Bezpečnost počítačů</category>
+        <pubDate>Wed, 21 Dec 2016 11:10:55 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Bug v Messengeru umožňoval přístup k chatu libovolného uživatele</title>
+        <description>Bezpečnostní expert Ysrael Gurt objevil fatální chybu v Messengeru od Facebooku, umožňující potenciálnímu útočníkovi přečíst přijaté a odeslané zprávy jakéhokoliv uživatele.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1833--Bug-v-Messengeru-umoznoval-pristup-k-chatu-libovolneho-uzivatele</link>
+        <guid>http://www.soom.cz/aktuality/1833--Bug-v-Messengeru-umoznoval-pristup-k-chatu-libovolneho-uzivatele</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1833--Bug-v-Messengeru-umoznoval-pristup-k-chatu-libovolneho-uzivatele</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/8--Slab-msta">Akutality - Slabá místa</category>
+        <pubDate>Fri, 16 Dec 2016 12:46:53 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Popcorn Time: Multi-level ransomware marketing</title>
+        <description>Tvůrci ransomwaru hledají stále nové a efektivnější způsoby, jak z obětí získat peníze, ať už postupným mazáním uživatelských dat nebo pomocí doprovodných dojemných příběhů. A jejich taktika se očividně vyplácí.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1832--Popcorn-Time-Multi-level-ransomware-marketing</link>
+        <guid>http://www.soom.cz/aktuality/1832--Popcorn-Time-Multi-level-ransomware-marketing</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1832--Popcorn-Time-Multi-level-ransomware-marketing</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/3--Hacking">Akutality - Hacking</category>
+        <pubDate>Wed, 14 Dec 2016 09:22:54 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Jak získat přístupové údaje k libovolné platební kartě</title>
+        <description>Teoretický útok na online platební systém, který je natolik závažný a přitom tak jednoduše proveditelný, že je až s podivem, že jej nikdo nezneužil již dříve.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1831--Jak-ziskat-pristupove-udaje-k-libovolne-platebni-karte</link>
+        <guid>http://www.soom.cz/aktuality/1831--Jak-ziskat-pristupove-udaje-k-libovolne-platebni-karte</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1831--Jak-ziskat-pristupove-udaje-k-libovolne-platebni-karte</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/9--Bankovn-bezpenost">Akutality - Bankovní bezpečnost</category>
+        <pubDate>Thu, 08 Dec 2016 13:25:50 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Zranitelnost v nejnovější verzi MODX Evolution je aktivně exploitována</title>
+        <description>MODX evo uživatelé by měli aktualizovat co nejrychleji. </description>
+        <author>ls@s-help.com (Cybersecurity Help)</author>
+        <link>http://www.soom.cz/aktuality/1830--Zranitelnost-v-nejnovejsi-verzi-MODX-Evolution-je-aktivne-exploitovana</link>
+        <guid>http://www.soom.cz/aktuality/1830--Zranitelnost-v-nejnovejsi-verzi-MODX-Evolution-je-aktivne-exploitovana</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1830--Zranitelnost-v-nejnovejsi-verzi-MODX-Evolution-je-aktivne-exploitovana</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/8--Slab-msta">Akutality - Slabá místa</category>
+        <pubDate>Wed, 30 Nov 2016 13:07:57 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Malware Nemucod: Podruhé a podrobněji</title>
+        <description>Dost bylo řečí okolo. Pojďme smočit ruce v kódu!&lt;br /&gt;
+</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1829--Malware-Nemucod-Podruhe-a-podrobneji</link>
+        <guid>http://www.soom.cz/aktuality/1829--Malware-Nemucod-Podruhe-a-podrobneji</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1829--Malware-Nemucod-Podruhe-a-podrobneji</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/7--Spam-Viry-Phishing">Akutality - Spam/Viry/Phishing</category>
+        <pubDate>Tue, 29 Nov 2016 14:28:36 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Nemucod: Nová vlna malwaru na Facebooku</title>
+        <description>Už vám také vaši přátelé na Facebooku poslali do zpráv podivný obrázek? Pokud ještě ne, mějte se na pozoru. Nová vlna malwaru se právě v těchto dnech šíří sociálními sítěmi.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1828--Nemucod-Nova-vlna-malwaru-na-Facebooku</link>
+        <guid>http://www.soom.cz/aktuality/1828--Nemucod-Nova-vlna-malwaru-na-Facebooku</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1828--Nemucod-Nova-vlna-malwaru-na-Facebooku</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/7--Spam-Viry-Phishing">Akutality - Spam/Viry/Phishing</category>
+        <pubDate>Wed, 23 Nov 2016 14:01:24 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Co se dělo na PwnFestu 2016?</title>
+        <description>Minulý týden, 10. a 11. listopadu, proběhla soutěž PwnFest 2016, při které byly demonstrovány zranitelnosti na všech majoritních platformách od Apple až po VMWare.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1827--Co-se-delo-na-PwnFestu-2016</link>
+        <guid>http://www.soom.cz/aktuality/1827--Co-se-delo-na-PwnFestu-2016</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1827--Co-se-delo-na-PwnFestu-2016</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/3--Hacking">Akutality - Hacking</category>
+        <pubDate>Mon, 21 Nov 2016 17:17:10 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Prezidentské volby v USA z pohledu bezpečnosti</title>
+        <description>Je hotovo, kostky jsou vrženy. Donald J. Trump se stal nově zvoleným americkým prezidentem. Pojďme se podívat, jaké události tomu předcházely a co z pohledu bezpečnosti nás v budoucnosti čeká.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1826--Prezidentske-volby-v-USA-z-pohledu-bezpecnosti</link>
+        <guid>http://www.soom.cz/aktuality/1826--Prezidentske-volby-v-USA-z-pohledu-bezpecnosti</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1826--Prezidentske-volby-v-USA-z-pohledu-bezpecnosti</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/11--Ostatn">Akutality - Ostatní</category>
+        <pubDate>Fri, 11 Nov 2016 09:48:32 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Šifrovací soutěž od GCHQ je výzvou pro ty nejchytřejší z vás</title>
+        <description>Máte brilantní uvažování, postřeh a kryptologické myšlení? Poměřte své síly s ostatními v této celosvětové online soutěži plné šifer a rébusů.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1825--Sifrovaci-soutez-od-GCHQ-je-vyzvou-pro-ty-nejchytrejsi-z-vas</link>
+        <guid>http://www.soom.cz/aktuality/1825--Sifrovaci-soutez-od-GCHQ-je-vyzvou-pro-ty-nejchytrejsi-z-vas</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1825--Sifrovaci-soutez-od-GCHQ-je-vyzvou-pro-ty-nejchytrejsi-z-vas</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/2--Kryptologie">Akutality - Kryptologie</category>
+        <pubDate>Mon, 07 Nov 2016 14:19:55 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>V Indii bylo ukradeno 3,2 milionu debetních karet</title>
+        <description>Indie si prochází jedním z doposud největších úniků dat, při kterém bylo zcizeno přes 3,2 milionu debetních karet různých společností a finančních platforem.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1824--V-Indii-bylo-ukradeno-32-milionu-debetnich-karet</link>
+        <guid>http://www.soom.cz/aktuality/1824--V-Indii-bylo-ukradeno-32-milionu-debetnich-karet</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1824--V-Indii-bylo-ukradeno-32-milionu-debetnich-karet</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/9--Bankovn-bezpenost">Akutality - Bankovní bezpečnost</category>
+        <pubDate>Thu, 03 Nov 2016 11:07:38 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Hrozba AtomBombing postihuje všechny verze OS Windows</title>
+        <description>Nelze odhalit antivirovými programy, lze aplikovat na plně aktualizovaný nejnovější operační systém a není jednoduchý způsob, jak se jí zbavit.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1823--Hrozba-AtomBombing-postihuje-vsechny-verze-OS-Windows</link>
+        <guid>http://www.soom.cz/aktuality/1823--Hrozba-AtomBombing-postihuje-vsechny-verze-OS-Windows</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1823--Hrozba-AtomBombing-postihuje-vsechny-verze-OS-Windows</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/8--Slab-msta">Akutality - Slabá místa</category>
+        <pubDate>Mon, 31 Oct 2016 16:14:47 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Organizace GCHQ vydává knihu šifer a hádanek</title>
+        <description>Od jednoduchých hříček až po nejtěžší kryptografické rébusy. Kniha nabitá podněty k logickému uvažování je ideálním dárkem k blížícím se vánočním svátkům.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1822--Organizace-GCHQ-vydava-knihu-sifer-a-hadanek</link>
+        <guid>http://www.soom.cz/aktuality/1822--Organizace-GCHQ-vydava-knihu-sifer-a-hadanek</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1822--Organizace-GCHQ-vydava-knihu-sifer-a-hadanek</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/2--Kryptologie">Akutality - Kryptologie</category>
+        <pubDate>Mon, 24 Oct 2016 14:50:54 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Jak se bránit proti odposlechu a skrytým kamerám</title>
+        <description>Ať už jste Edward Snowden, vlivný politik a nebo jen běžný člověk s paranoidními sklony, vězte, že štěnice a špehovací zařízení jsou běžně dostupná věc. A obrana proti nim také.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1821--Jak-se-branit-proti-odposlechu-a-skrytym-kameram</link>
+        <guid>http://www.soom.cz/aktuality/1821--Jak-se-branit-proti-odposlechu-a-skrytym-kameram</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1821--Jak-se-branit-proti-odposlechu-a-skrytym-kameram</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/5--Identita-a-soukrom">Akutality - Identita a soukromí</category>
+        <pubDate>Wed, 19 Oct 2016 08:17:13 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Anonymita na ilegálních online tržištích</title>
+        <description>Kdykoliv máte dojem, že už jste mysleli na všechno, vždy se najde někdo, kdo najde skulinu ve vašem plánu a přechytračí vás. Podívejme se na několik takových poučných příkladů falešné úplné anonymity.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1820--Anonymita-na-ilegalnich-online-trzistich</link>
+        <guid>http://www.soom.cz/aktuality/1820--Anonymita-na-ilegalnich-online-trzistich</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1820--Anonymita-na-ilegalnich-online-trzistich</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/5--Identita-a-soukrom">Akutality - Identita a soukromí</category>
+        <pubDate>Thu, 13 Oct 2016 15:38:46 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Facebook Messenger uvedl do provozu end-to-end šifrování</title>
+        <description>Na začátku července Facebook vypustil zprávu, že se připojí k ostatním komunikátorům jako ruský Telegram či vlastní WhatsApp, a představí ve svém Messengeru end-to-end šifrování.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1819--Facebook-Messenger-uvedl-do-provozu-end-to-end-sifrovani</link>
+        <guid>http://www.soom.cz/aktuality/1819--Facebook-Messenger-uvedl-do-provozu-end-to-end-sifrovani</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1819--Facebook-Messenger-uvedl-do-provozu-end-to-end-sifrovani</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/2--Kryptologie">Akutality - Kryptologie</category>
+        <pubDate>Tue, 11 Oct 2016 15:24:05 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Proběhla konference Hackers Congress 2016</title>
+        <description>Paralelní Polis hostoval letos již třetí ročník konference Hackers Congress, jedné z hlavních událostí pro hackery, aktivisty a kryptonadšence v Evropě, a my jsme u toho samozřejmě nesměli chybět.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1818--Probehla-konference-Hackers-Congress-2016</link>
+        <guid>http://www.soom.cz/aktuality/1818--Probehla-konference-Hackers-Congress-2016</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1818--Probehla-konference-Hackers-Congress-2016</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/2--Kryptologie">Akutality - Kryptologie</category>
+        <pubDate>Fri, 07 Oct 2016 14:06:52 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Down the Deep Dark Web</title>
+        <description>Je Darknet náhledem do zvrácené dystopické budoucnosti, která nás brzy čeká, a nebo je klíčem k úniku z orwellské reality, v níž právě žijeme? Na tuto základní otázku hledá odpověď Yuval Orr.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1817--Down-the-Deep-Dark-Web</link>
+        <guid>http://www.soom.cz/aktuality/1817--Down-the-Deep-Dark-Web</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1817--Down-the-Deep-Dark-Web</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/5--Identita-a-soukrom">Akutality - Identita a soukromí</category>
+        <pubDate>Tue, 04 Oct 2016 13:35:15 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Prezidentské volby USA a důvěryhodnost online dat</title>
+        <description>Nedávná první prezidentská debata mezi Donaldem Trumpem a Hillary Clinton názorně ukázala, jak jednoduše mohou být online data zmanipulována a proč se stále zdráháme zpřístupnit možnost voleb po internetu, přestože nástroje na to už dávno existují.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1816--Prezidentske-volby-USA-a-duveryhodnost-online-dat</link>
+        <guid>http://www.soom.cz/aktuality/1816--Prezidentske-volby-USA-a-duveryhodnost-online-dat</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1816--Prezidentske-volby-USA-a-duveryhodnost-online-dat</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/11--Ostatn">Akutality - Ostatní</category>
+        <pubDate>Fri, 30 Sep 2016 12:30:44 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Bezpečnost anonymních kryptoměn</title>
+        <description>Anonymnější variantu platebních transakcí oproti běžným měnám umožňují kryptoměny, mezi nimi nejznámější Bitcoin. Pokud vám ani jím nabízená úroveň soukromí nedostačuje, jsou na trhu ještě extrémnější formy kryptoměn. Jsou ale opravdu tak bezpečné, jak tvrdí?</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1815--Bezpecnost-anonymnich-kryptomen</link>
+        <guid>http://www.soom.cz/aktuality/1815--Bezpecnost-anonymnich-kryptomen</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1815--Bezpecnost-anonymnich-kryptomen</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/2--Kryptologie">Akutality - Kryptologie</category>
+        <pubDate>Mon, 26 Sep 2016 08:36:47 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Jak snadné je připojit se k internetu bez aktivních mobilních dat</title>
+        <description>Pro přístup k internetu ve vašem mobilním telefonu musíte mít nejprve zaplacena mobilní data. Co dělat v případě, když přístup k internetu potřebujete, ale nemáte peníze? Brouzdejte bez peněz!</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1814--Jak-snadne-je-pripojit-se-k-internetu-bez-aktivnich-mobilnich-dat</link>
+        <guid>http://www.soom.cz/aktuality/1814--Jak-snadne-je-pripojit-se-k-internetu-bez-aktivnich-mobilnich-dat</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1814--Jak-snadne-je-pripojit-se-k-internetu-bez-aktivnich-mobilnich-dat</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/8--Slab-msta">Akutality - Slabá místa</category>
+        <pubDate>Wed, 21 Sep 2016 11:06:12 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Malware, který napadá všechny operační systémy</title>
+        <description>Minulostí jsou usmívající se uživatelé macOS a distribucí linuxu. S rozšiřujícím se trhem a zvyšujícím podílem alternativních operačních systémů se i ony ve stále větší míře dostávají do hledáčku tvůrců malwaru.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1813--Malware-ktery-napada-vsechny-operacni-systemy</link>
+        <guid>http://www.soom.cz/aktuality/1813--Malware-ktery-napada-vsechny-operacni-systemy</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1813--Malware-ktery-napada-vsechny-operacni-systemy</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/4--Bezpenost-pota">Akutality - Bezpečnost počítačů</category>
+        <pubDate>Wed, 14 Sep 2016 14:15:16 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Hacker našel další způsob, jak se dostat do vašeho účtu na Facebooku</title>
+        <description>Zranitelnost byla nalezena, nahlášena. Příslušný nálezce dostal svou odměnu, tým programátorů opravil chybu a svět je zase o něco bezpečnější. Konec příběhu… opravdu? Podívejme se na celou věc ještě jednou.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1812--Hacker-nasel-dalsi-zpusob-jak-se-dostat-do-vaseho-uctu-na-Facebooku</link>
+        <guid>http://www.soom.cz/aktuality/1812--Hacker-nasel-dalsi-zpusob-jak-se-dostat-do-vaseho-uctu-na-Facebooku</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1812--Hacker-nasel-dalsi-zpusob-jak-se-dostat-do-vaseho-uctu-na-Facebooku</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/8--Slab-msta">Akutality - Slabá místa</category>
+        <pubDate>Fri, 09 Sep 2016 08:52:07 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Pozvánka na HackerFest 2016</title>
+        <description>Rok se s rokem sešel a konečně se přiblížil další ročník největší IT security &amp; hacking události v ČR - HackerFest.</description>
+        <author>ccuminn@soom.cz (.cCuMiNn.)</author>
+        <link>http://www.soom.cz/aktuality/1811--Pozvanka-na-HackerFest-2016</link>
+        <guid>http://www.soom.cz/aktuality/1811--Pozvanka-na-HackerFest-2016</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1811--Pozvanka-na-HackerFest-2016</comments>
+        <category domain="http://www.soom.cz/">Akutality - Reklama</category>
+        <pubDate>Tue, 06 Sep 2016 06:36:28 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Top-10 bezpečnostních incidentů v srpnu 2016</title>
+        <description>Měsíční hodnocení bezpečnostních incidentů podle Cybersecurity Help.</description>
+        <author>ls@s-help.com (Cybersecurity Help)</author>
+        <link>http://www.soom.cz/aktuality/1810--Top-10-bezpecnostnich-incidentu-v-srpnu-2016</link>
+        <guid>http://www.soom.cz/aktuality/1810--Top-10-bezpecnostnich-incidentu-v-srpnu-2016</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1810--Top-10-bezpecnostnich-incidentu-v-srpnu-2016</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/3--Hacking">Akutality - Hacking</category>
+        <pubDate>Fri, 02 Sep 2016 12:06:44 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Hacker našel způsob, jak se dostat do vašeho účtu na Facebooku</title>
+        <description>Ano, ještě i v roce 2016 je stále možné jednoduše “hacknout” váš facebookový účet. A to ne pomocí klasického sociálního inženýrství, ale opravdu zneužitím slabiny v mechanismu Facebooku. A postup je až překvapivě přímočarý.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1809--Hacker-nasel-zpusob-jak-se-dostat-do-vaseho-uctu-na-Facebooku</link>
+        <guid>http://www.soom.cz/aktuality/1809--Hacker-nasel-zpusob-jak-se-dostat-do-vaseho-uctu-na-Facebooku</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1809--Hacker-nasel-zpusob-jak-se-dostat-do-vaseho-uctu-na-Facebooku</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/3--Hacking">Akutality - Hacking</category>
+        <pubDate>Fri, 02 Sep 2016 08:33:21 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Poptávka po sledovacím softwaru ze strany vlád je značná, ukázal případ lidskoprávního aktivisty</title>
+        <description>Ahmed Mansoor, lidskoprávní aktivista ze Spojených arabských emirátů, nejprve pojal podezření vůči textové zprávě na svém iPhonu. A ukázalo se, že oprávněně. Odkaz, který byl ke zprávě připojený, následně dovedl výzkumníky ze Citizen Lab ke společnosti NSO Group a malwaru, jaký nemá obdoby.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1808--Poptavka-po-sledovacim-softwaru-ze-strany-vlad-je-znacna-ukazal-pripad-lidskopravniho-aktivisty</link>
+        <guid>http://www.soom.cz/aktuality/1808--Poptavka-po-sledovacim-softwaru-ze-strany-vlad-je-znacna-ukazal-pripad-lidskopravniho-aktivisty</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1808--Poptavka-po-sledovacim-softwaru-ze-strany-vlad-je-znacna-ukazal-pripad-lidskopravniho-aktivisty</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/3--Hacking">Akutality - Hacking</category>
+        <pubDate>Fri, 26 Aug 2016 14:53:42 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Extrémní výzva: 120 zranitelností za 120 dní</title>
+        <description>Bug hunting není pro každého. Několika lidem se poštěstí nějakou dosud neobjevenou zranitelnost odhalit, mnozí na svůj první objev teprve čekají. Jsou ale i tací, pro které je bug hunting jejich denním chlebem. Do které skupiny se řadíte vy?</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1807--Extremni-vyzva-120-zranitelnosti-za-120-dni</link>
+        <guid>http://www.soom.cz/aktuality/1807--Extremni-vyzva-120-zranitelnosti-za-120-dni</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1807--Extremni-vyzva-120-zranitelnosti-za-120-dni</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/8--Slab-msta">Akutality - Slabá místa</category>
+        <pubDate>Thu, 25 Aug 2016 14:51:07 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Uživatelé vBulletin trpí masivním únikem dat</title>
+        <description>Uživatelé vBulleting jsou neustále hackováni, záplatujte hned.</description>
+        <author>ls@s-help.com (Cybersecurity Help)</author>
+        <link>http://www.soom.cz/aktuality/1806--Uzivatele-vBulletin-trpi-masivnim-unikem-dat</link>
+        <guid>http://www.soom.cz/aktuality/1806--Uzivatele-vBulletin-trpi-masivnim-unikem-dat</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1806--Uzivatele-vBulletin-trpi-masivnim-unikem-dat</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/8--Slab-msta">Akutality - Slabá místa</category>
+        <pubDate>Thu, 25 Aug 2016 10:57:31 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Školácká zranitelnost v populárním správci hesel LastPass</title>
+        <description>Nikdo není neomylný. Výjimečně se však podaří přehlédnout chybku natolik základní, že se za ni musí každý zkušenější programátor stydět. Zvláště, pokud se jedná o kus kódu, který má za úkol střežit vaše nejcennější tajemství.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1805--Skolacka-zranitelnost-v-popularnim-spravci-hesel-LastPass</link>
+        <guid>http://www.soom.cz/aktuality/1805--Skolacka-zranitelnost-v-popularnim-spravci-hesel-LastPass</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1805--Skolacka-zranitelnost-v-popularnim-spravci-hesel-LastPass</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/8--Slab-msta">Akutality - Slabá místa</category>
+        <pubDate>Mon, 22 Aug 2016 11:15:38 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Tajné služby jdou po zranitelnostech v hardwaru</title>
+        <description>Narušení Equation Group přineslo nové zpávy o základním zabezpečení hardwaru</description>
+        <author>ls@s-help.com (Cybersecurity Help)</author>
+        <link>http://www.soom.cz/aktuality/1804--Tajne-sluzby-jdou-po-zranitelnostech-v-hardwaru</link>
+        <guid>http://www.soom.cz/aktuality/1804--Tajne-sluzby-jdou-po-zranitelnostech-v-hardwaru</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1804--Tajne-sluzby-jdou-po-zranitelnostech-v-hardwaru</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/8--Slab-msta">Akutality - Slabá místa</category>
+        <pubDate>Fri, 19 Aug 2016 07:21:50 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Tajný tým vládní agentury NSA byl napaden hackery</title>
+        <description>Mezi uniklými daty je rozsáhlé množství funkčních nástrojů sloužících pro kybernetické útoky a špionáž. Kompletní sada je na prodej za 1,000,000 BTC. Jedná se o největší únik informací od dob Edwarda Snowdena.</description>
+        <author>info@soom.cz (S3Ccz)</author>
+        <link>http://www.soom.cz/aktuality/1803--Tajny-tym-vladni-agentury-NSA-byl-napaden-hackery</link>
+        <guid>http://www.soom.cz/aktuality/1803--Tajny-tym-vladni-agentury-NSA-byl-napaden-hackery</guid>
+        <comments>http://www.soom.cz/aktuality/komentare/1803--Tajny-tym-vladni-agentury-NSA-byl-napaden-hackery</comments>
+        <category domain="http://www.soom.cz/aktuality/rubriky/3--Hacking">Akutality - Hacking</category>
+        <pubDate>Wed, 17 Aug 2016 19:35:22 GMT</pubDate>
+      </item>
+    </channel>
+  </rss>
+

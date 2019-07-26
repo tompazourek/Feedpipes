@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      
+      <title>SOOM.cz</title>
+      <description>we make the internet better. join us!</description>
+      <link>http://www.soom.cz/</link>
+      <language>cs</language>
+      <copyright>© 2003-2019 SOOM.cz</copyright>
+      <webMaster>emkei@soom.cz (Emkei)</webMaster>
+      <atom:link href="http://www.soom.cz/rss/clanky.xml" rel="self" type="application/rss+xml" />
+      <image>
+        <title>SOOM.cz</title>
+        <url>http://www.soom.cz/images/design/rss.jpg</url>
+        <link>http://www.soom.cz/</link>
+        <width>88</width>
+        <height>31</height>
+        <description>we make the internet better. join us!</description>
+      </image>
+      <item>
+        
+        
+        <title>Česká doména a její zabezpečení – jak jí vnímají uživatelé internetu?</title>
+        <description>Chcete mít vlastní doménu, její kvalitní zabezpečení, mít svůj prostor na internetu, a ještě využívat výkonný WordPress? Vše se vším úzce souvisí.</description>
+        <author>info@soom.cz (PR článek)</author>
+        <link>http://www.soom.cz/clanky/1215--Ceska-domena-a-jeji-zabezpeceni-jak-ji-vnimaji-uzivatele-internetu</link>
+        <guid>http://www.soom.cz/clanky/1215--Ceska-domena-a-jeji-zabezpeceni-jak-ji-vnimaji-uzivatele-internetu</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1215--Ceska-domena-a-jeji-zabezpeceni-jak-ji-vnimaji-uzivatele-internetu</comments>
+        <category domain="http://www.soom.cz/clanky/rubriky/18--Ostatn">Články - Ostatní</category>
+        <pubDate>Sun, 31 Mar 2019 08:15:21 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>SEO v roce 2018. Bez SSL to nepůjde.</title>
+        <description>Google již řadu let prosazuje zabezpečenou komunikaci webů pomocí https, nutnost SSL/TLS certifikátu přichází. </description>
+        <author>info@soom.cz (PR článek)</author>
+        <link>http://www.soom.cz/clanky/1214--SEO-v-roce-2018-Bez-SSL-to-nepujde</link>
+        <guid>http://www.soom.cz/clanky/1214--SEO-v-roce-2018-Bez-SSL-to-nepujde</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1214--SEO-v-roce-2018-Bez-SSL-to-nepujde</comments>
+        <category domain="http://www.soom.cz/clanky/rubriky/18--Ostatn">Články - Ostatní</category>
+        <pubDate>Tue, 20 Nov 2018 16:38:52 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>DNSSEC – jistota pro uživatele vaší domény</title>
+        <description>Potřebujete vyřešit zabezpečení vaši domény? Rádi byste doménu, která neohrozí vaše uživatele? Víte co je phishing a jak se mu bránit? Bezpečností ve světě je pozitivním způsobem známá česká doména. Je to dáno především tím, že používá jako jedna z prvních zabezpečení DNSSEC.</description>
+        <author>info@soom.cz (PR článek)</author>
+        <link>http://www.soom.cz/clanky/1213--DNSSEC-jistota-pro-uzivatele-vasi-domeny</link>
+        <guid>http://www.soom.cz/clanky/1213--DNSSEC-jistota-pro-uzivatele-vasi-domeny</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1213--DNSSEC-jistota-pro-uzivatele-vasi-domeny</comments>
+        <category domain="http://www.soom.cz/clanky/rubriky/18--Ostatn">Články - Ostatní</category>
+        <pubDate>Tue, 20 Nov 2018 16:22:50 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>HTTP Parameter Pollution (HPP)</title>
+        <description>Zanitelnost webových aplikací HTTP Parameter Pollution patří mezi méně známé zranitelnosti, se kterou se ale zcela jistě stojí za to blíže seznámit.</description>
+        <author>crypto@feec.vutbr.cz (vutbr)</author>
+        <link>http://www.soom.cz/clanky/1212--HTTP-Parameter-Pollution-HPP</link>
+        <guid>http://www.soom.cz/clanky/1212--HTTP-Parameter-Pollution-HPP</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1212--HTTP-Parameter-Pollution-HPP</comments>
+        <category domain="http://www.soom.cz/clanky/rubriky/9">Články - Hacking</category>
+        <pubDate>Tue, 13 Mar 2018 17:33:16 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Back &amp; Refresh Replay Attack</title>
+        <description>Sdílíte svůj počítač s dalšími lidmi, nebo provozujete informační kiosky, na kterých se mohou lidé přihlašovat k webovým aplikacím? Měli byste si dát pozor na zpětné přehrání přihlašovacího procesu.</description>
+        <author>ccuminn@soom.cz (.cCuMiNn.)</author>
+        <link>http://www.soom.cz/clanky/1211--Back-Refresh-Replay-Attack</link>
+        <guid>http://www.soom.cz/clanky/1211--Back-Refresh-Replay-Attack</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1211--Back-Refresh-Replay-Attack</comments>
+        <category domain="http://www.soom.cz/clanky/rubriky/9">Články - Hacking</category>
+        <pubDate>Fri, 19 Jan 2018 10:58:44 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Browser cache weakness</title>
+        <description>Využíváte někdy k přístupu k webovým aplikacím informační kiosky, nebo sdílíte svůj počítač s dalšími lidmi? Hlavně v těchto případech jste velice náchylní na útoky zneužívající mezipaměť webového prohlížeče. Pojďme si tedy některé z těchto útoků blíže představit.</description>
+        <author>ccuminn@soom.cz (.cCuMiNn.)</author>
+        <link>http://www.soom.cz/clanky/1210--Browser-cache-weakness</link>
+        <guid>http://www.soom.cz/clanky/1210--Browser-cache-weakness</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1210--Browser-cache-weakness</comments>
+        <category domain="http://www.soom.cz/clanky/rubriky/9">Články - Hacking</category>
+        <pubDate>Thu, 18 Jan 2018 12:18:52 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Na doméně stojí váš úspěch</title>
+        <description>Podnikáte, píšete, nabízíte, ale nemáte vlastní doménu? Chcete kvalitní prezentaci a zároveň volnou ruku na vlastním zázemí? Vlastní doména je klíč k úspěchu.</description>
+        <author>info@soom.cz (PR článek)</author>
+        <link>http://www.soom.cz/clanky/1209--Na-domene-stoji-vas-uspech</link>
+        <guid>http://www.soom.cz/clanky/1209--Na-domene-stoji-vas-uspech</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1209--Na-domene-stoji-vas-uspech</comments>
+        <category domain="http://www.soom.cz/clanky/rubriky/18--Ostatn">Články - Ostatní</category>
+        <pubDate>Thu, 09 Nov 2017 15:58:33 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Path-relative stylesheet import (PRSSI)</title>
+        <description>Také ve svých webových aplikacích odkazujete na kaskádové styly relativně? Možná by bylo dobré tuto zažitou praktiku změnit. Sama tato skutečnost totiž může být poměrně závažným bezpečnostním nedostatkem.</description>
+        <author>ccuminn@soom.cz (.cCuMiNn.)</author>
+        <link>http://www.soom.cz/clanky/1208--Path-relative-stylesheet-import-PRSSI</link>
+        <guid>http://www.soom.cz/clanky/1208--Path-relative-stylesheet-import-PRSSI</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1208--Path-relative-stylesheet-import-PRSSI</comments>
+        <category domain="http://www.soom.cz/clanky/rubriky/9">Články - Hacking</category>
+        <pubDate>Fri, 25 Aug 2017 08:06:16 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Bojkotujeme nástroje ComboFix, RSIT a viry.cz</title>
+        <description>Ukážeme si ako ľahko sa dajú bojkotovať uvedené nástroje a tým aj fóra zameraná na antivirusové poradenstvo.</description>
+        <author>diallix@centrum.sk (Diallix)</author>
+        <link>http://www.soom.cz/clanky/1207--Bojkotujeme-nastroje-ComboFix-RSIT-a-virycz</link>
+        <guid>http://www.soom.cz/clanky/1207--Bojkotujeme-nastroje-ComboFix-RSIT-a-virycz</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1207--Bojkotujeme-nastroje-ComboFix-RSIT-a-virycz</comments>
+        <category domain="http://www.soom.cz/clanky/rubriky/9">Články - Hacking</category>
+        <pubDate>Thu, 27 Jul 2017 14:21:59 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Jak ukrýt libovolné soubory do obrázku</title>
+        <description>Je až s podivem, jak jednoduše lze ukrýt libovolná data do grafického souboru. A to nemluvím o nějaké krutopřísné steganografii, ale o obyčejném spojení dvou souborů běžným kopírováním.</description>
+        <author>ccuminn@soom.cz (.cCuMiNn.)</author>
+        <link>http://www.soom.cz/clanky/1206--Jak-ukryt-libovolne-soubory-do-obrazku</link>
+        <guid>http://www.soom.cz/clanky/1206--Jak-ukryt-libovolne-soubory-do-obrazku</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1206--Jak-ukryt-libovolne-soubory-do-obrazku</comments>
+        <category domain="http://www.soom.cz/clanky/rubriky/18--Ostatn">Články - Ostatní</category>
+        <pubDate>Thu, 16 Mar 2017 17:03:39 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Apache, MultiViews a jeden bezpečnostní problém</title>
+        <description>Znáte to… Přijde požadavek na rychlou změnu informací na homepage Vašeho webu, a vás nenapadne nic lepšího, než provést tuto změnu přímo v produkčním prostředí. Co když se ale něco zvrtne a web pak nebude fungovat tak, jak má?</description>
+        <author>ccuminn@soom.cz (.cCuMiNn.)</author>
+        <link>http://www.soom.cz/clanky/1205--Apache-MultiViews-a-jeden-bezpecnostni-problem</link>
+        <guid>http://www.soom.cz/clanky/1205--Apache-MultiViews-a-jeden-bezpecnostni-problem</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1205--Apache-MultiViews-a-jeden-bezpecnostni-problem</comments>
+        <category domain="http://www.soom.cz/clanky/rubriky/9">Články - Hacking</category>
+        <pubDate>Tue, 07 Mar 2017 21:14:53 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>PTWA: Hledání subdomén</title>
+        <description>Tento text je součástí on-line testovací příručky, která pro vás na tomto serveru vzniká. Budeme rádi za vaše připomínky v komentářích a za vaši aktivní účast v doprovodných projektech.</description>
+        <author>ccuminn@soom.cz (.cCuMiNn.)</author>
+        <link>http://www.soom.cz/clanky/1204--PTWA-Hledani-subdomen</link>
+        <guid>http://www.soom.cz/clanky/1204--PTWA-Hledani-subdomen</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1204--PTWA-Hledani-subdomen</comments>
+        <category domain="http://www.soom.cz/">Články - Penetrační testování</category>
+        <pubDate>Thu, 19 Jan 2017 19:16:29 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>PTWA: Mapování aplikace</title>
+        <description>Tento text je součástí on-line testovací příručky, která pro vás na tomto serveru vzniká. Budeme rádi za vaše připomínky v komentářích a za vaši aktivní účast v doprovodných projektech.</description>
+        <author>ccuminn@soom.cz (.cCuMiNn.)</author>
+        <link>http://www.soom.cz/clanky/1203--PTWA-Mapovani-aplikace</link>
+        <guid>http://www.soom.cz/clanky/1203--PTWA-Mapovani-aplikace</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1203--PTWA-Mapovani-aplikace</comments>
+        <category domain="http://www.soom.cz/">Články - Penetrační testování</category>
+        <pubDate>Tue, 29 Nov 2016 19:36:13 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Kniha: Efektivní testování softwaru</title>
+        <description>Knih o testování softwaru se v posledních několika letech objevilo na našem trhu hned několik. Nejnovější z nich nesoucí název Efektivní testování softwaru od autorů Miroslava Bureše, Miroslava Rendy, Michala Doležela a dalších přináší detailní náhled na jednotlivé fáze testovacího procesu z pohledu manažera testování. </description>
+        <author>ccuminn@soom.cz (.cCuMiNn.)</author>
+        <link>http://www.soom.cz/clanky/1202--Kniha-Efektivni-testovani-softwaru</link>
+        <guid>http://www.soom.cz/clanky/1202--Kniha-Efektivni-testovani-softwaru</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1202--Kniha-Efektivni-testovani-softwaru</comments>
+        <category domain="http://www.soom.cz/">Články - Knihy</category>
+        <pubDate>Fri, 11 Nov 2016 15:20:45 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Local Session Poisoning - Shared sessions</title>
+        <description>Na Internetu jsou miliony webových stránek hostovány na sdílených serverech (webhostingu). Čím dál častěji se ale objevují také nejrůznější cloudové služby, které nabízejí standardizované webové aplikace běžící na serverech poskytovatelů. Na každém z těchto sdílených serverů se pak nachází klidně i tisíce webových aplikací, přičemž existuje množství různých typů útoků, které umožňují získat neoprávněný přístup z jedné hostované aplikace do jiné. Tento text si klade za cíl popsat jeden takový typ útoku pojmenovaný Local Session Poisoning, jenž útočníkům na těchto serverech umožňuje provádět authorization bypass.</description>
+        <author>ccuminn@soom.cz (.cCuMiNn.)</author>
+        <link>http://www.soom.cz/clanky/1201--Local-Session-Poisoning-Shared-sessions</link>
+        <guid>http://www.soom.cz/clanky/1201--Local-Session-Poisoning-Shared-sessions</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1201--Local-Session-Poisoning-Shared-sessions</comments>
+        <category domain="http://www.soom.cz/clanky/rubriky/9">Články - Hacking</category>
+        <pubDate>Tue, 25 Oct 2016 06:48:48 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>X86-64 podle manuálů Intel</title>
+        <description>Překvapuje mě, jak málo programátorů v assembleru při práci používá asi nejkvalitnější zdroj infomací - oficiální procesorové manuály, ať už od Intelu nebo AMD.</description>
+        <author>mazegen@gmail.com (mazegen)</author>
+        <link>http://www.soom.cz/clanky/1200--X86-64-podle-manualu-Intel</link>
+        <guid>http://www.soom.cz/clanky/1200--X86-64-podle-manualu-Intel</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1200--X86-64-podle-manualu-Intel</comments>
+        <category domain="http://www.soom.cz/clanky/rubriky/1--Programovn">Články - Programování</category>
+        <pubDate>Mon, 26 Sep 2016 13:21:18 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Enumerace souborů s krátkým názvem na IIS</title>
+        <description>Webový server IIS od Microsoftu trpí již od své páté verze zranitelností Microsoft IIS tilde vulnerability, která útočníkům umožňuje enumerovat názvy složek a souborů uložených na zranitelném serveru. Umožňuje ale i jiné věci.</description>
+        <author>ccuminn@soom.cz (.cCuMiNn.)</author>
+        <link>http://www.soom.cz/clanky/1199--Enumerace-souboru-s-kratkym-nazvem-na-IIS</link>
+        <guid>http://www.soom.cz/clanky/1199--Enumerace-souboru-s-kratkym-nazvem-na-IIS</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1199--Enumerace-souboru-s-kratkym-nazvem-na-IIS</comments>
+        <category domain="http://www.soom.cz/clanky/rubriky/9">Články - Hacking</category>
+        <pubDate>Wed, 21 Sep 2016 11:30:05 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>MS Office DoS a možná i něco víc</title>
+        <description>Pojďme si dát pouze takovou malou zajímavost, která může být k smíchu, nebo možná spíše k pláči. Záleží na úhlu pohledu…</description>
+        <author>ccuminn@soom.cz (.cCuMiNn.)</author>
+        <link>http://www.soom.cz/clanky/1198--MS-Office-DoS-a-mozna-i-neco-vic</link>
+        <guid>http://www.soom.cz/clanky/1198--MS-Office-DoS-a-mozna-i-neco-vic</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1198--MS-Office-DoS-a-mozna-i-neco-vic</comments>
+        <category domain="http://www.soom.cz/clanky/rubriky/9">Články - Hacking</category>
+        <pubDate>Thu, 01 Sep 2016 17:50:36 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>PTWA: Povolené HTTP metody</title>
+        <description>Tento text je součástí on-line testovací příručky, která pro vás na tomto serveru vzniká. Budeme rádi za vaše připomínky v komentářích a za vaši aktivní účast v doprovodných projektech.</description>
+        <author>ccuminn@soom.cz (.cCuMiNn.)</author>
+        <link>http://www.soom.cz/clanky/1197--PTWA-Povolene-HTTP-metody</link>
+        <guid>http://www.soom.cz/clanky/1197--PTWA-Povolene-HTTP-metody</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1197--PTWA-Povolene-HTTP-metody</comments>
+        <category domain="http://www.soom.cz/">Články - Penetrační testování</category>
+        <pubDate>Mon, 15 Aug 2016 11:02:41 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>PTWA: Identifikace dalších technologií</title>
+        <description>Tento text je součástí on-line testovací příručky, která pro vás na tomto serveru vzniká. Budeme rádi za vaše připomínky v komentářích a za vaši aktivní účast v doprovodných projektech.</description>
+        <author>ccuminn@soom.cz (.cCuMiNn.)</author>
+        <link>http://www.soom.cz/clanky/1196--PTWA-Identifikace-dalsich-technologii</link>
+        <guid>http://www.soom.cz/clanky/1196--PTWA-Identifikace-dalsich-technologii</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1196--PTWA-Identifikace-dalsich-technologii</comments>
+        <category domain="http://www.soom.cz/">Články - Penetrační testování</category>
+        <pubDate>Tue, 02 Aug 2016 20:37:04 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>PTWA: Identifikace webové aplikace</title>
+        <description>Tento text je součástí on-line testovací příručky, která pro vás na tomto serveru vzniká. Budeme rádi za vaše připomínky v komentářích a za vaši aktivní účast v doprovodných projektech.</description>
+        <author>ccuminn@soom.cz (.cCuMiNn.)</author>
+        <link>http://www.soom.cz/clanky/1195--PTWA-Identifikace-webove-aplikace</link>
+        <guid>http://www.soom.cz/clanky/1195--PTWA-Identifikace-webove-aplikace</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1195--PTWA-Identifikace-webove-aplikace</comments>
+        <category domain="http://www.soom.cz/">Články - Penetrační testování</category>
+        <pubDate>Fri, 22 Jul 2016 08:21:55 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>PTWA: Identifikace jazyka a frameworku</title>
+        <description>Tento text je součástí on-line testovací příručky, která pro vás na tomto serveru vzniká. Budeme rádi za vaše připomínky v komentářích a za vaši aktivní účast v doprovodných projektech.</description>
+        <author>ccuminn@soom.cz (.cCuMiNn.)</author>
+        <link>http://www.soom.cz/clanky/1194--PTWA-Identifikace-jazyka-a-frameworku</link>
+        <guid>http://www.soom.cz/clanky/1194--PTWA-Identifikace-jazyka-a-frameworku</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1194--PTWA-Identifikace-jazyka-a-frameworku</comments>
+        <category domain="http://www.soom.cz/">Články - Penetrační testování</category>
+        <pubDate>Wed, 20 Jul 2016 08:33:53 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>PTWA: Identifikace webového serveru</title>
+        <description>Tento text je součástí on-line testovací příručky, která pro vás na tomto serveru vzniká. Budeme rádi za vaše připomínky v komentářích a za vaši aktivní účast v doprovodných projektech.</description>
+        <author>ccuminn@soom.cz (.cCuMiNn.)</author>
+        <link>http://www.soom.cz/clanky/1193--PTWA-Identifikace-weboveho-serveru</link>
+        <guid>http://www.soom.cz/clanky/1193--PTWA-Identifikace-weboveho-serveru</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1193--PTWA-Identifikace-weboveho-serveru</comments>
+        <category domain="http://www.soom.cz/">Články - Penetrační testování</category>
+        <pubDate>Wed, 13 Jul 2016 16:38:13 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Programování mikrokontrolérů architektury AVR (8)</title>
+        <description>Tento díl nás seznámí s metodou, kterou lze měřit napětí v o mnoho více úrovních, než dvou (logických 0 a 1). Součástí článku bude také stavba jednoduchého voltmetru, který je i sám o sobě užitečnou pomůckou.</description>
+        <author>cech.j@centrum.cz (Prog0el)</author>
+        <link>http://www.soom.cz/clanky/1192--Programovani-mikrokontroleru-architektury-AVR-8</link>
+        <guid>http://www.soom.cz/clanky/1192--Programovani-mikrokontroleru-architektury-AVR-8</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1192--Programovani-mikrokontroleru-architektury-AVR-8</comments>
+        <category domain="http://www.soom.cz/clanky/rubriky/16--Elektronika">Články - Elektronika</category>
+        <pubDate>Fri, 01 Jul 2016 16:47:00 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>PTWA: Průzkum prostředí</title>
+        <description>Tento text je součástí on-line testovací příručky, která pro vás na tomto serveru vzniká. Budeme rádi za vaše připomínky v komentářích a za vaši aktivní účast v doprovodných projektech.</description>
+        <author>ccuminn@soom.cz (.cCuMiNn.)</author>
+        <link>http://www.soom.cz/clanky/1191--PTWA-Pruzkum-prostredi</link>
+        <guid>http://www.soom.cz/clanky/1191--PTWA-Pruzkum-prostredi</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1191--PTWA-Pruzkum-prostredi</comments>
+        <category domain="http://www.soom.cz/">Články - Penetrační testování</category>
+        <pubDate>Thu, 26 May 2016 17:02:00 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>PTWA: Software a bezpečnost</title>
+        <description>Tento text je součástí on-line testovací příručky, která pro vás na tomto serveru vzniká. Budeme rádi za vaše připomínky v komentářích a za vaši aktivní účast v doprovodných projektech. </description>
+        <author>ccuminn@soom.cz (.cCuMiNn.)</author>
+        <link>http://www.soom.cz/clanky/1190--PTWA-Software-a-bezpecnost</link>
+        <guid>http://www.soom.cz/clanky/1190--PTWA-Software-a-bezpecnost</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1190--PTWA-Software-a-bezpecnost</comments>
+        <category domain="http://www.soom.cz/">Články - Penetrační testování</category>
+        <pubDate>Tue, 24 May 2016 16:04:44 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Programování mikrokontrolérů architektury AVR (7)</title>
+        <description>Ve čtvrtém díle našeho seriálu jsme si popsali řízení sedmisegmentového displaye. Tento display je ovšem nevhodný k zobrazování textu. Řízení zobrazovače, který si popíšeme, již bude probíhat na vyšší úrovni a nebudeme muset řešit multiplexování, čímž dojde k výrazné úspoře času procesoru.</description>
+        <author>cech.j@centrum.cz (Prog0el)</author>
+        <link>http://www.soom.cz/clanky/1189--Programovani-mikrokontroleru-architektury-AVR-7</link>
+        <guid>http://www.soom.cz/clanky/1189--Programovani-mikrokontroleru-architektury-AVR-7</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1189--Programovani-mikrokontroleru-architektury-AVR-7</comments>
+        <category domain="http://www.soom.cz/clanky/rubriky/16--Elektronika">Články - Elektronika</category>
+        <pubDate>Fri, 20 May 2016 16:36:56 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Too big cookie value</title>
+        <description>Velká hodnota uložená do cookie může způsobit mnoho komplikací počínaje únikem informací o běžícím webovém serveru, přes krádež obsahu session cookies chráněných příznakem HttpOnly, až po odepření služeb (DoS) uživatelům.</description>
+        <author>ccuminn@soom.cz (.cCuMiNn.)</author>
+        <link>http://www.soom.cz/clanky/1188--Too-big-cookie-value</link>
+        <guid>http://www.soom.cz/clanky/1188--Too-big-cookie-value</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1188--Too-big-cookie-value</comments>
+        <category domain="http://www.soom.cz/clanky/rubriky/9">Články - Hacking</category>
+        <pubDate>Sat, 23 Apr 2016 14:26:56 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Programování mikrokontrolérů architektury AVR (6)</title>
+        <description>Pokud jste již někdy přemýšleli nad jednoduchým způsobem, jak zprovoznit komunikaci mezi mikrokontrolérem a osobním počítačem, pak je tento článek o rozhraní USART přesně pro vás. 
+</description>
+        <author>cech.j@centrum.cz (Prog0el)</author>
+        <link>http://www.soom.cz/clanky/1187--Programovani-mikrokontroleru-architektury-AVR-6</link>
+        <guid>http://www.soom.cz/clanky/1187--Programovani-mikrokontroleru-architektury-AVR-6</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1187--Programovani-mikrokontroleru-architektury-AVR-6</comments>
+        <category domain="http://www.soom.cz/clanky/rubriky/12--Aktuality">Články - Aktuality</category>
+        <pubDate>Mon, 11 Apr 2016 16:55:46 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Jak zničit konkurenci pomocí „hezkých“ URL</title>
+        <description>„Hezká“ URL jsou součástí většiny moderních webových aplikací. I v jejich implementaci se lze ale dopustit mnoha chyb. Jednou z nich je například reflektování URL, které protivníkovi umožní zaindexovat na Google neexistující URL adresy a tím znepřístupnit cílový web části uživatelů.</description>
+        <author>ccuminn@soom.cz (.cCuMiNn.)</author>
+        <link>http://www.soom.cz/clanky/1186--Jak-znicit-konkurenci-pomoci-hezkych-URL</link>
+        <guid>http://www.soom.cz/clanky/1186--Jak-znicit-konkurenci-pomoci-hezkych-URL</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1186--Jak-znicit-konkurenci-pomoci-hezkych-URL</comments>
+        <category domain="http://www.soom.cz/clanky/rubriky/9">Články - Hacking</category>
+        <pubDate>Mon, 11 Apr 2016 05:13:19 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Programování mikrokontrolérů architektury AVR (5)</title>
+        <description>Pátý díl našeho seriálu o mikrokontrolérech bude zaměřen na všestranně využitelnou periferii nazvanou čítač/časovač a budeme jej, mimo jiné, používat ke generování pulzně-šířkově modulovaného signálu, který umožňuje realizovat regulátor o vysoké účinnosti. Část dílu bude věnována také elektronice, jelikož mikrokontroléry nejsou pouze o programování.</description>
+        <author>cech.j@centrum.cz (Prog0el)</author>
+        <link>http://www.soom.cz/clanky/1185--Programovani-mikrokontroleru-architektury-AVR-5</link>
+        <guid>http://www.soom.cz/clanky/1185--Programovani-mikrokontroleru-architektury-AVR-5</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1185--Programovani-mikrokontroleru-architektury-AVR-5</comments>
+        <category domain="http://www.soom.cz/clanky/rubriky/16--Elektronika">Články - Elektronika</category>
+        <pubDate>Tue, 15 Mar 2016 16:24:25 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Zranitelnosti a útoky spojené se session managementem</title>
+        <description>Tento text si klade za cíl seznámit čtenáře s nejčastějšími hrozbami, které se ve webových aplikacích týkají session managementu.</description>
+        <author>ccuminn@soom.cz (.cCuMiNn.)</author>
+        <link>http://www.soom.cz/clanky/1184--Zranitelnosti-a-utoky-spojene-se-session-managementem</link>
+        <guid>http://www.soom.cz/clanky/1184--Zranitelnosti-a-utoky-spojene-se-session-managementem</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1184--Zranitelnosti-a-utoky-spojene-se-session-managementem</comments>
+        <category domain="http://www.soom.cz/clanky/rubriky/9">Články - Hacking</category>
+        <pubDate>Sun, 13 Mar 2016 20:29:23 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>HTTP Response Splitting</title>
+        <description>Zranitelnost HTTP Response Splitting je často označována také za CRLF injection, protože je při jejím zneužití využíváno bílých znaků CR a LF pro přechod na nový řádek. Ve skutečnosti je zranitelnost HTTP Response Splitting pouze podmnožinou zranitelností známých jako CRLF injection.</description>
+        <author>ccuminn@soom.cz (.cCuMiNn.)</author>
+        <link>http://www.soom.cz/clanky/1183--HTTP-Response-Splitting</link>
+        <guid>http://www.soom.cz/clanky/1183--HTTP-Response-Splitting</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1183--HTTP-Response-Splitting</comments>
+        <category domain="http://www.soom.cz/clanky/rubriky/9">Články - Hacking</category>
+        <pubDate>Tue, 23 Feb 2016 21:36:04 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Open Redirect</title>
+        <description>Zranitelnost Open Redirect umožňuje útočníkovi podvrhnout oběti takový odkaz, který se tváří, že směřuje na důvěryhodnou doménu, přestože se po kliknutí na něj uživatel ocitne zcela jinde. Zneužití Open Redirectu umožňuje útočníkovi ale daleko více než jen to.</description>
+        <author>ccuminn@soom.cz (.cCuMiNn.)</author>
+        <link>http://www.soom.cz/clanky/1182--Open-Redirect</link>
+        <guid>http://www.soom.cz/clanky/1182--Open-Redirect</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1182--Open-Redirect</comments>
+        <category domain="http://www.soom.cz/clanky/rubriky/9">Články - Hacking</category>
+        <pubDate>Sat, 20 Feb 2016 13:46:50 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>PHP Code Execution</title>
+        <description>Tento článek si klade za cíl popsat obecnou skupinu chyb umožňující v konečném důsledku vykonat PHP kód na náchylném serveru. Důležité je uvědomit si, že tato chyba se nevztahuje pouze na programovací jazyk PHP, ale postihuje prakticky každý jazyk použitý pro vytvoření webových stránek. Článek popisuje chyby typu Local File Inclusion (LFI), Remote File Inclusion (RFI), Local File Disclosure (LFD), Log Poisoning, Command Execution, Denial of Service (DoS), Session Poisoning, wrappery a další.</description>
+        <author>rubberduck@centrum.cz (RubberDuck)</author>
+        <link>http://www.soom.cz/clanky/1181--PHP-Code-Execution</link>
+        <guid>http://www.soom.cz/clanky/1181--PHP-Code-Execution</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1181--PHP-Code-Execution</comments>
+        <category domain="http://www.soom.cz/clanky/rubriky/9">Články - Hacking</category>
+        <pubDate>Thu, 18 Feb 2016 09:07:37 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>SQL Injection (Full Paper)</title>
+        <description>Pokus o co možná nejkomplexnější popis bezpečnostní chyby známé jako SQL Injection. Článek se zabývá jak běžnými typy SQL injection, tak některými speciálnějšími a méně známými technikami.</description>
+        <author>rubberduck@centrum.cz (RubberDuck)</author>
+        <link>http://www.soom.cz/clanky/1180--SQL-Injection-Full-Paper</link>
+        <guid>http://www.soom.cz/clanky/1180--SQL-Injection-Full-Paper</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1180--SQL-Injection-Full-Paper</comments>
+        <category domain="http://www.soom.cz/clanky/rubriky/9">Články - Hacking</category>
+        <pubDate>Wed, 17 Feb 2016 22:26:52 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>PTWA: Testování softwaru</title>
+        <description>Tento text je součástí on-line testovací příručky, která pro vás na tomto serveru vzniká. Budeme rádi za vaše připomínky v komentářích a za vaši aktivní účast v doprovodných projektech.</description>
+        <author>ccuminn@soom.cz (.cCuMiNn.)</author>
+        <link>http://www.soom.cz/clanky/1179--PTWA-Testovani-softwaru</link>
+        <guid>http://www.soom.cz/clanky/1179--PTWA-Testovani-softwaru</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1179--PTWA-Testovani-softwaru</comments>
+        <category domain="http://www.soom.cz/">Články - Penetrační testování</category>
+        <pubDate>Tue, 16 Feb 2016 11:22:37 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Full Path Disclosure (FPD)</title>
+        <description>Zranitelnost webových aplikací známá jako Full Path Disclosure, nebo pod zkratkou FPD se řadí mezi hrozby s informační severitou. Pouhým zneužitím této jediné slabiny Vám totiž útočník není schopen nijak uškodit. FPD ale může poskytnout dobrý odrazový můstek při zneužívání dalších mnohem závažnějších zranitelností.</description>
+        <author>ccuminn@soom.cz (.cCuMiNn.)</author>
+        <link>http://www.soom.cz/clanky/1178--Full-Path-Disclosure-FPD</link>
+        <guid>http://www.soom.cz/clanky/1178--Full-Path-Disclosure-FPD</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1178--Full-Path-Disclosure-FPD</comments>
+        <category domain="http://www.soom.cz/clanky/rubriky/9">Články - Hacking</category>
+        <pubDate>Sat, 13 Feb 2016 14:36:43 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Programování mikrokontrolérů architektury AVR (4)</title>
+        <description>V tomto díle bude vysvětlena další stěžejní část programovacího jazyka C, kterou jsou funkce. Naučíme se obsluhovat asynchronní události pomocí přerušení a popíšeme si také přerušovací systém mikrokontrolérů AVR. Datový výstup již nebudou pouze jednotlivé LED diody, ale sedmisegmentová zobrazovací jednotka, kterou se naučíme řídit.</description>
+        <author>cech.j@centrum.cz (Prog0el)</author>
+        <link>http://www.soom.cz/clanky/1177--Programovani-mikrokontroleru-architektury-AVR-4</link>
+        <guid>http://www.soom.cz/clanky/1177--Programovani-mikrokontroleru-architektury-AVR-4</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1177--Programovani-mikrokontroleru-architektury-AVR-4</comments>
+        <category domain="http://www.soom.cz/clanky/rubriky/16--Elektronika">Články - Elektronika</category>
+        <pubDate>Wed, 10 Feb 2016 18:19:09 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>PTWA: Řízení kvality softwaru</title>
+        <description>Tento text je součástí on-line testovací příručky, která pro vás na tomto serveru vzniká. Budeme rádi za vaše připomínky v komentářích a za vaši aktivní účast v doprovodných projektech. </description>
+        <author>ccuminn@soom.cz (.cCuMiNn.)</author>
+        <link>http://www.soom.cz/clanky/1176--PTWA-Rizeni-kvality-softwaru</link>
+        <guid>http://www.soom.cz/clanky/1176--PTWA-Rizeni-kvality-softwaru</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1176--PTWA-Rizeni-kvality-softwaru</comments>
+        <category domain="http://www.soom.cz/">Články - Penetrační testování</category>
+        <pubDate>Mon, 08 Feb 2016 23:59:35 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>PTWA: Úvod</title>
+        <description>Tento text je součástí on-line testovací příručky, která pro vás na tomto serveru vzniká. Budeme rádi za vaše připomínky v komentářích a za vaši aktivní účast v doprovodných projektech. </description>
+        <author>ccuminn@soom.cz (.cCuMiNn.)</author>
+        <link>http://www.soom.cz/clanky/1175--PTWA-Uvod</link>
+        <guid>http://www.soom.cz/clanky/1175--PTWA-Uvod</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1175--PTWA-Uvod</comments>
+        <category domain="http://www.soom.cz/">Články - Penetrační testování</category>
+        <pubDate>Mon, 08 Feb 2016 14:02:29 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Programování mikrokontrolérů architektury AVR (3)</title>
+        <description>V minulém díle jsem zmínil, že popisovaný praktický příklad by bylo možno realizovat jednodušeji s použitím cyklů. V tomto díle se naučíme stěžejní část jazyka C, která se souhrnně popisuje jako „větvení programu“.</description>
+        <author>cech.j@centrum.cz (Prog0el)</author>
+        <link>http://www.soom.cz/clanky/1174--Programovani-mikrokontroleru-architektury-AVR-3</link>
+        <guid>http://www.soom.cz/clanky/1174--Programovani-mikrokontroleru-architektury-AVR-3</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1174--Programovani-mikrokontroleru-architektury-AVR-3</comments>
+        <category domain="http://www.soom.cz/clanky/rubriky/16--Elektronika">Články - Elektronika</category>
+        <pubDate>Sat, 23 Jan 2016 15:39:33 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Programování mikrokontrolérů architektury AVR (2)</title>
+        <description>Tentokrát o proměnných a operací s nimi. Proměnné jsou místa v paměti, které mají danou délku a formát dat a podle těchto kritérií v jazyce C rozlišujeme několik typů proměnných podobně, jako číselné obory v matematice. Bez použití proměnných by bylo čistě na programátorovi, aby si pamatoval kde má jaká data uložena a hlavně aby program zabezpečil proti nechtěnému přepsání jiných buněk paměti.</description>
+        <author>cech.j@centrum.cz (Prog0el)</author>
+        <link>http://www.soom.cz/clanky/1173--Programovani-mikrokontroleru-architektury-AVR-2</link>
+        <guid>http://www.soom.cz/clanky/1173--Programovani-mikrokontroleru-architektury-AVR-2</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1173--Programovani-mikrokontroleru-architektury-AVR-2</comments>
+        <category domain="http://www.soom.cz/clanky/rubriky/16--Elektronika">Články - Elektronika</category>
+        <pubDate>Wed, 30 Dec 2015 11:20:11 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Zabezpečení školních serverů (1)</title>
+        <description>Všichni to známe, SAS, Školní Stránky nebo jiné Servery. V tomto seriálu se zaměříme na bezpečnostní stránku těchto školních serverů, které někteří používáme jak za účelem zhlédnutí našich známek v elektronické žákovské tak najití informací na Školních stránkách. V pozdějších dílech bude řeč i o databázi školy o jejich žácích, jako jsou vaše rodná čísla, bydliště a další.</description>
+        <author>agips@ips-database.eu (opaka)</author>
+        <link>http://www.soom.cz/clanky/1172--Zabezpeceni-skolnich-serveru-1</link>
+        <guid>http://www.soom.cz/clanky/1172--Zabezpeceni-skolnich-serveru-1</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1172--Zabezpeceni-skolnich-serveru-1</comments>
+        <category domain="http://www.soom.cz/clanky/rubriky/9">Články - Hacking</category>
+        <pubDate>Mon, 21 Dec 2015 06:54:02 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Bezpečnostní tragikomedie</title>
+        <description>Zajímá v česku někoho bezpečnost? Ač mnoho firem staví ve svých prohlášeních bezpečnost IT na první místo, realita je naprosto odlišná. Když vidíte, jak se firmy ve své malosti k bezpečnostní otázce staví, tak vám zůstává rozum stát.</description>
+        <author>ccuminn@soom.cz (.cCuMiNn.)</author>
+        <link>http://www.soom.cz/clanky/1171--Bezpecnostni-tragikomedie</link>
+        <guid>http://www.soom.cz/clanky/1171--Bezpecnostni-tragikomedie</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1171--Bezpecnostni-tragikomedie</comments>
+        <category domain="http://www.soom.cz/clanky/rubriky/9">Články - Hacking</category>
+        <pubDate>Wed, 25 Nov 2015 17:40:43 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Programování mikrokontrolérů architektury AVR (1)</title>
+        <description>V tomto úvodním díle se seznámíme s vývojovým prostředím Atmel Studio 7 a vysvětlíme si funkci mikrokontroléru Atmel ATmega8 na našem prvním programu, který bude blikat LED diodou, což je obdoba programu „Hello world“. Pro začátek je nutné pochopit jednodušší programy, abyste byli schopni pochopit složitější systémy.</description>
+        <author>cech.j@centrum.cz (Prog0el)</author>
+        <link>http://www.soom.cz/clanky/1170--Programovani-mikrokontroleru-architektury-AVR-1</link>
+        <guid>http://www.soom.cz/clanky/1170--Programovani-mikrokontroleru-architektury-AVR-1</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1170--Programovani-mikrokontroleru-architektury-AVR-1</comments>
+        <category domain="http://www.soom.cz/clanky/rubriky/16--Elektronika">Články - Elektronika</category>
+        <pubDate>Tue, 17 Nov 2015 11:49:27 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Jak nainstalovat Windows 7 na SSD, pokud se vyskytnou problémy</title>
+        <description>Při instalaci Windows 7 na SSD se stává, že instalace Windows nenajde SSD disk, popřípadě najde, ale v průběhu kopírování instalace zamrzne. Co s tím? Návodů je na internetu mnoho, projevů špatné instalace ještě víc. Proto jsem se rozhodl řešení ve stručnosti popsat a přidat i pár svých poznatků.</description>
+        <author>siki@sladkej.cz (siki)</author>
+        <link>http://www.soom.cz/clanky/1169--Jak-nainstalovat-Windows-7-na-SSD-pokud-se-vyskytnou-problemy</link>
+        <guid>http://www.soom.cz/clanky/1169--Jak-nainstalovat-Windows-7-na-SSD-pokud-se-vyskytnou-problemy</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1169--Jak-nainstalovat-Windows-7-na-SSD-pokud-se-vyskytnou-problemy</comments>
+        <category domain="http://www.soom.cz/clanky/rubriky/18--Ostatn">Články - Ostatní</category>
+        <pubDate>Mon, 02 Nov 2015 16:30:26 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Manipulace s výsledky internetových soutěží (6)</title>
+        <description>Z minulého dílu seriálu o manipulaci soutěží založených na hlasování uživatelů vyplynulo, že kontrolovat a znemožňovat opakované hlasování na základě údajů uložených v cookies není pro pořadatele soutěží tím nejlepším nápadem. Vzhledem k tomu, že informace uložené na straně uživatele je možné velice snadno zmanipulovat, bude nutné použít pro kontrolu a zamezení vícenásobného hlasování kontrolu až na straně serveru.</description>
+        <author>ccuminn@soom.cz (.cCuMiNn.)</author>
+        <link>http://www.soom.cz/clanky/1168--Manipulace-s-vysledky-internetovych-soutezi-6</link>
+        <guid>http://www.soom.cz/clanky/1168--Manipulace-s-vysledky-internetovych-soutezi-6</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1168--Manipulace-s-vysledky-internetovych-soutezi-6</comments>
+        <category domain="http://www.soom.cz/clanky/rubriky/9">Články - Hacking</category>
+        <pubDate>Mon, 05 Oct 2015 19:37:22 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>Manipulace s výsledky internetových soutěží (5)</title>
+        <description>Po dříve zveřejněné sérii článků o ovlivňování výsledků internetových soutěží, které byly založeny na získání nejvyššího skóre ve flashových hrách, bych chtěl na tento seriál navázat další sérií článků o ovlivňování soutěží založených na hlasování, tedy těch, kde je potřeba získat největší množství hlasů od hlasujících uživatelů.</description>
+        <author>ccuminn@soom.cz (.cCuMiNn.)</author>
+        <link>http://www.soom.cz/clanky/1167--Manipulace-s-vysledky-internetovych-soutezi-5</link>
+        <guid>http://www.soom.cz/clanky/1167--Manipulace-s-vysledky-internetovych-soutezi-5</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1167--Manipulace-s-vysledky-internetovych-soutezi-5</comments>
+        <category domain="http://www.soom.cz/clanky/rubriky/9">Články - Hacking</category>
+        <pubDate>Tue, 26 May 2015 19:03:49 GMT</pubDate>
+      </item>
+      <item>
+        
+        
+        <title>HW Keylogger: nejsnadnější způsob získání hesla</title>
+        <description>Hardwarový keylogger představuje nejsnadnější způsob získání uživatelských hesel na počítačích, k nimž získá útočník alespoň na chvilku fyzický přístup. Pojďme se podívat, kam se za posledních několik let posunuly technologie v této oblasti a co můžeme na trhu získat.</description>
+        <author>ccuminn@soom.cz (.cCuMiNn.)</author>
+        <link>http://www.soom.cz/clanky/1166--HW-Keylogger-nejsnadnejsi-zpusob-ziskani-hesla</link>
+        <guid>http://www.soom.cz/clanky/1166--HW-Keylogger-nejsnadnejsi-zpusob-ziskani-hesla</guid>
+        <comments>http://www.soom.cz/clanky/komentare/1166--HW-Keylogger-nejsnadnejsi-zpusob-ziskani-hesla</comments>
+        <category domain="http://www.soom.cz/clanky/rubriky/9">Články - Hacking</category>
+        <pubDate>Wed, 11 Feb 2015 11:42:40 GMT</pubDate>
+      </item>
+    </channel>
+  </rss>
+

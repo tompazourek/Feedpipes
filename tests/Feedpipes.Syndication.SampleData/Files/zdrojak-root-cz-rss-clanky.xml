@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Články &#8211; Zdroják</title>
+	<atom:link href="https://www.zdrojak.cz/clanky/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.zdrojak.cz</link>
+	<description>o tvorbě webových stránek a aplikací</description>
+	<lastBuildDate>Fri, 19 Jul 2019 17:02:20 +0000</lastBuildDate>
+	<language>cs-CZ</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>Prohlížeč Blisk a testování responzivních webů</title>
+		<link>https://www.zdrojak.cz/clanky/prohlizec-blisk/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=prohlizec-blisk</link>
+		<comments>https://www.zdrojak.cz/clanky/prohlizec-blisk/#comments</comments>
+		<pubDate>Fri, 12 Jul 2019 18:06:49 +0000</pubDate>
+		<dc:creator><![CDATA[Bohumil Jahoda]]></dc:creator>
+				<category><![CDATA[Webdesign]]></category>
+
+		<guid isPermaLink="false">https://www.zdrojak.cz/clanky/?p=23124</guid>
+		<description><![CDATA[Blisk prohlížeč vypadá jako Chrome a má šikovné nástroje pro testování responzivních webů.]]></description>
+				<content:encoded><![CDATA[<p><em>Text vyšel původně na <a href="https://jecas.cz/blisk">webu autora</a>.</em></p>
+<p>Při testování responzivních webů je zpravidla neustále nutné měnit velikost stránky (viewportu). To jde na desktopu buď přímo změnou rozměrů okna prohlížeče, nebo ve vývojářských nástrojích pomocí režimu pro různá zařízení.</p>
+<p>Prohlížeč <b>Blisk</b> dokáže celý proces testování zjednodušit.</p>
+<p><iframe width="500" height="281" src="https://www.youtube.com/embed/9W_Z5AruTLI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<h2>Stažení Blisku</h2>
+<p>Blisk jde <a href="https://blisk.io/">stáhnout zdarma</a> (nevyžaduje registraci).</p>
+<h2>Funkce</h2>
+<ol>
+<li>Disponuje rozdělením stránky <b>do dvou oken</b>, kde vlevo jde zvolit nějaké z běžných mobilních zařízení a vpravo je klasické desktopové zobrazení. Tedy za situace, že je prohlížeč v dostatečně velkém okně.</li>
+<li>V okně pro mobilní zařízení je potom <b>emulace mobilního prohlížeče</b> včetně dotykových gest a mobilní hlavičky <code>user-agent</code>.</li>
+<li><b>Blisk</b> dokáže synchronizovat rolování, čímž jde docela rychle získat celkový přehled o stránce na mobilu i desktopu.</li>
+</ol>
+<p><a href="https://www.zdrojak.cz/wp-content/uploads/2019/07/prohlizec.png"><img class="aligncenter size-large wp-image-23129" src="https://www.zdrojak.cz/wp-content/uploads/2019/07/prohlizec-1024x541.png" alt="Prohlížeč Blisk" width="1024" height="541" srcset="https://www.zdrojak.cz/wp-content/uploads/2019/07/prohlizec-1024x541.png 1024w, https://www.zdrojak.cz/wp-content/uploads/2019/07/prohlizec-450x238.png 450w, https://www.zdrojak.cz/wp-content/uploads/2019/07/prohlizec-768x406.png 768w, https://www.zdrojak.cz/wp-content/uploads/2019/07/prohlizec-100x53.png 100w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+<p>Trochu je škoda, že stránka otevřená do dvou zařízení není synchronisovaná. Změny ve vývojářských nástrojích v jednom okně se tedy automaticky <b>nepromítnou</b> do okna druhého. To by byla hodně užitečná vlastnost.</p>
+<h2>Auto refresh</h2>
+<p>Kromě zmíněných funkcí umí i automaticky obnovit stránku po změně lokálních souborů.</p>
+<p>Stačí si v nastavení přidat pro určitou doménu lokální složku, ve které změna jakéhokoliv souboru způsobí obnovení stránky.</p>
+<p><a href="https://www.zdrojak.cz/wp-content/uploads/2019/07/auto-refresh.png"><img class="aligncenter size-full wp-image-23130" src="https://www.zdrojak.cz/wp-content/uploads/2019/07/auto-refresh.png" alt="Automatické obnovení stránky v Blisku" width="689" height="284" srcset="https://www.zdrojak.cz/wp-content/uploads/2019/07/auto-refresh.png 689w, https://www.zdrojak.cz/wp-content/uploads/2019/07/auto-refresh-450x185.png 450w, https://www.zdrojak.cz/wp-content/uploads/2019/07/auto-refresh-100x41.png 100w" sizes="(max-width: 689px) 100vw, 689px" /></a></p>
+<p>Tato funkce je použitelná i v případě, že se vyvíjí na vzdáleném serveru, kam se kopírují soubory z lokálního umístění.</p>
+<h2>Závěr</h2>
+<p><b>Blisk</b> vypadá jako šikovný prohlížeč pro testování responzivních webů. Pro uživatele zvyklé na vývojářské nástroje v <b>Chrome</b> se zdá být hodně zajímavou volbou (DevTools jsou prakticky stejné), jak mobilní weby testovat rychleji a pohodlněji.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.zdrojak.cz/clanky/prohlizec-blisk/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>WebExpo představí budoucnost zdravotní péče i to, jak Číňané využívají AI v reklamě</title>
+		<link>https://www.zdrojak.cz/clanky/webexpo-2019-predstavi-budoucnost/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=webexpo-2019-predstavi-budoucnost</link>
+		<pubDate>Wed, 26 Jun 2019 18:19:30 +0000</pubDate>
+		<dc:creator><![CDATA[Redakce]]></dc:creator>
+				<category><![CDATA[PR Články]]></category>
+
+		<guid isPermaLink="false">https://www.zdrojak.cz/clanky/?p=23104</guid>
+		<description><![CDATA[ <div><img width="100" height="100" src="https://www.zdrojak.cz/wp-content/uploads/2019/06/webexpo-2019-100x100.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" srcset="https://www.zdrojak.cz/wp-content/uploads/2019/06/webexpo-2019-100x100.png 100w, https://www.zdrojak.cz/wp-content/uploads/2019/06/webexpo-2019-150x150.png 150w, https://www.zdrojak.cz/wp-content/uploads/2019/06/webexpo-2019-350x350.png 350w, https://www.zdrojak.cz/wp-content/uploads/2019/06/webexpo-2019-32x32.png 32w, https://www.zdrojak.cz/wp-content/uploads/2019/06/webexpo-2019.png 628w" sizes="(max-width: 100px) 100vw, 100px" /></div>WebExpo právě zveřejnilo kompletní program letos již dvanáctého ročníku největší a nejdéle fungující české technologické konference s kapacitou 2000 návštěvníků, která se uskuteční v pražské Lucerně od 20. - 22. září.  ]]></description>
+				<content:encoded><![CDATA[ <div><img width="100" height="100" src="https://www.zdrojak.cz/wp-content/uploads/2019/06/webexpo-2019-100x100.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" srcset="https://www.zdrojak.cz/wp-content/uploads/2019/06/webexpo-2019-100x100.png 100w, https://www.zdrojak.cz/wp-content/uploads/2019/06/webexpo-2019-150x150.png 150w, https://www.zdrojak.cz/wp-content/uploads/2019/06/webexpo-2019-350x350.png 350w, https://www.zdrojak.cz/wp-content/uploads/2019/06/webexpo-2019-32x32.png 32w, https://www.zdrojak.cz/wp-content/uploads/2019/06/webexpo-2019.png 628w" sizes="(max-width: 100px) 100vw, 100px" /></div><p><b>Konference </b><a href="https://www.webexpo.net/prague2019"><b>WebExpo</b></a><b> přiveze v září do Prahy celkem 70 řečníků, kteří se budou zabývat tématy pro vývojáře, designéry, IT manažery, marketéry a startupisty. Jedním z témat budou reklamní technologie a podnikání v Číně, promluví i Bessie Lee, která v Číně vedla pobočku WPP s miliardovým obratem. Představí se také zdravotnický chatbot, který může v budoucnu zprostředkovat dostupnou péči po celém světě. </b></p>
+<p><b>WebExpo právě </b><a href="https://www.webexpo.net/prague2019/program"><b>zveřejnilo kompletní program</b></a><b> letos již dvanáctého ročníku největší a nejdéle fungující české technologické konference s kapacitou 2000 návštěvníků, která se uskuteční v pražské Lucerně od 20. &#8211; 22. září. </b></p>
+<p><a href="https://www.zdrojak.cz/wp-content/uploads/2019/06/Graphic-Generic-1200.png"><img class="aligncenter size-large wp-image-23106" src="https://www.zdrojak.cz/wp-content/uploads/2019/06/Graphic-Generic-1200-1024x576.png" alt="" width="1024" height="576" srcset="https://www.zdrojak.cz/wp-content/uploads/2019/06/Graphic-Generic-1200-1024x576.png 1024w, https://www.zdrojak.cz/wp-content/uploads/2019/06/Graphic-Generic-1200-450x253.png 450w, https://www.zdrojak.cz/wp-content/uploads/2019/06/Graphic-Generic-1200-768x432.png 768w, https://www.zdrojak.cz/wp-content/uploads/2019/06/Graphic-Generic-1200-100x56.png 100w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+<p><i>“Program WebExpa každý rok ukazuje globálními trendy v softwaru a technologiích, letos proto mluvíme o rozvoji umělé inteligence v Číně nebo budoucnosti zdravotnictví. WebExpo je však zároveň největším setkáním české internetové komunity, co se děje mimo přednáškové sály je právě tak důležité jako samotný obsah,”</i> říká ředitelka WebExpa Šárka Štrossová.</p>
+<p>O Číně a tom, jak zde funguje marketing a jak využívání AI mění reklamu bude mluvit <a href="https://www.webexpo.net/prague2019/talk/how-ai-is-changing-advertising-in-china"><b>Bessie Lee</b></a>. Ta jako CEO čínské pobočky WPP, největší reklamní firmy na světě, zodpovídala za 14 000 zaměstnanců a roční obrat ve výši jedné miliardy dolarů. Z Číny dorazí také “královna mobilních aplikací” <a href="https://www.webexpo.net/prague2019/talk/from-social-tools-to-social-ecosystem-wechat-is-worth-learning"><b>Milan Chiang</b></a>, zakladatelka a CEO Verystar, poskytovatele WeChat Pay a Alipay, který dodává řešení pro mobilní marketing více než 40 000 obchodům jako je KFC, L´OREAL nebo Pizza Hut.</p>
+<p>O celosvětovou dostupnost zdravotní péče se snaží <a href="https://www.webexpo.net/prague2019/talk/make-healthcare-affordable-and-accessible-using-tech-and-ai"><b>Anna Zawilska</b></a>, vedoucí výzkumu v Babylon Health. Přiblíží mimojiné vývoj zdravotnického chatbota, který dokáže kdykoliv poradit při zdravotních potížích či spojit se skutečným lékařem. O budoucnosti zdravotní péče bude mluvit i designér <a href="https://www.webexpo.net/prague2019/talk/surgical-ux-information-design-for-visualisation-systems-in-surgery"><b>Tim Caynes</b></a>. Ten se zabývá návrhem systémů pro chirurgy, aby se jim lépe pracovalo s novými technologiemi na operačním sále. Jejich přednášky jsou zajímavé nejen pro zájemce o medtech, ale také pro ty, kdo chtějí své produkty zlepšovat skrze UX nebo použití umělé inteligence .</p>
+<p><a href="https://www.zdrojak.cz/wp-content/uploads/2019/06/DSC_6412.jpg"><img class="aligncenter size-large wp-image-23111" src="https://www.zdrojak.cz/wp-content/uploads/2019/06/DSC_6412-1024x678.jpg" alt="" width="1024" height="678" srcset="https://www.zdrojak.cz/wp-content/uploads/2019/06/DSC_6412-1024x678.jpg 1024w, https://www.zdrojak.cz/wp-content/uploads/2019/06/DSC_6412-450x298.jpg 450w, https://www.zdrojak.cz/wp-content/uploads/2019/06/DSC_6412-768x508.jpg 768w, https://www.zdrojak.cz/wp-content/uploads/2019/06/DSC_6412-100x66.jpg 100w, https://www.zdrojak.cz/wp-content/uploads/2019/06/DSC_6412.jpg 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+<p>WebExpo má ale i své české zastoupení. Na konferenci vystoupí s příspěvkem o budování digitální společnosti <a href="https://www.webexpo.net/prague2019/talk/building-digital-society"><b>Jakub Nešetřil</b></a>, zakladatel českého startupu Apiary, který odkoupil za miliardu korun softwarový gigant Oracle, a který před nedávnem spustil iniciativu <a href="http://cesko.digital">Česko.digital</a>. Po letech se na pódium WebExpa vrací i ikona české programátorské scény, zakladatel Nette <a href="https://cs.wikipedia.org/wiki/David_Grudl"><b>David Grudl</b></a>.</p>
+<p>Dvanáctý ročník WebExpa s kapacitou 2000 návštěvníků se uskuteční v pražské Lucerně od 20. do 22. září 2019. <a href="https://www.webexpo.net/prague2019/program">Kompletní program</a> a lístky naleznete na <a href="https://www.webexpo.net/prague2019">webu konference WebExpo</a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Jaké předpoklady tenkrát měli?</title>
+		<link>https://www.zdrojak.cz/clanky/jake-predpoklady-tenkrat-meli/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=jake-predpoklady-tenkrat-meli</link>
+		<comments>https://www.zdrojak.cz/clanky/jake-predpoklady-tenkrat-meli/#comments</comments>
+		<pubDate>Fri, 21 Jun 2019 12:28:25 +0000</pubDate>
+		<dc:creator><![CDATA[Luboš Račanský]]></dc:creator>
+				<category><![CDATA[Různé]]></category>
+
+		<guid isPermaLink="false">https://www.zdrojak.cz/clanky/?p=23097</guid>
+		<description><![CDATA[Na twitteru jsem zachytil zajímavé vlákno od Graham Lea (@evolvable). S laskavým svolením autora překládám do češtiny.]]></description>
+				<content:encoded><![CDATA[<p><em>Text vyšel původně na <a href="https://blog.zvestov.cz/software%20development/2019/04/16/jake-predpoklady-tenkrat-meli.html">webu autora</a>.</em></p>
+<p>Začátek vlákna, které najdete přeloženo v tomto článku:</p>
+<blockquote class="twitter-tweet" data-width="500" data-dnt="true">
+<p lang="en" dir="ltr">Had a prod incident today. CPU riding at 100% in a typically sleepy webapp. Eventually tracked down the recent changes and the &quot;offending&quot; code that we think is causing the issue. Had the programmer done something stupid? Unlikely, she was one of our very best. But&#8230;</p>
+<p>&mdash; Graham Lea (@evolvable) <a href="https://twitter.com/evolvable/status/1113031660637847552?ref_src=twsrc%5Etfw">April 2, 2019</a></p></blockquote>
+<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p>Dnes jsme měli incident na produkci. U obvykle ospalé webové aplikace vylétlo CPU na 100 %. Nakonec jsme kontrolovali poslední změny kódu, o kterém jsme si mysleli, že způsobil chybu. Udělala programátorka něco hloupého? Patří k jedněm z našich nejlepších, takže je to dost nepravděpodobné, ale…</p>
+<p>Našli jsme kód, který iteroval přes dva seznamy a používal k tomu vnořený <em>for</em> cyklus, což má složitost kartézského součinu: O(MN). Tento týden M i N vyskočily na čtyř až šestinásobek, takže funkce měla náhle zhruba 30 krát větší složitost než minulý týden. Myslím si snad, že je to špatný kód? Ne, nemyslím. Proč?</p>
+<p>Kód byl napsaný v roce 2012, tedy před sedmi lety. V té době měl každý z obou seznamů kolem dvaceti prvků a plán, byznys plán, byl, že by mohly pomalu růst. Možná o pár nových užitečných prvků za rok.</p>
+<p>Plán se ovšem změnil. Mělo se za to, že seznamy porostou o desítky prvků za rok. V roce 2012 měly kolem padesáti prvků, letos obsahovaly tisíce a vyskočily do desítek tisíc.</p>
+<p>Kód je snadné spravit: celý obsah jednoho seznamu se sežvýkne do mapy a pak se jednou proiteruje druhý seznam, aby se našla shoda z mapy. Jednoduché.</p>
+<p>Proč to tak neudělal programátor původně? Protože pro původní požadavky to bylo příliš komplexní. Vnořený cyklus byla ta nejsnazší věc, která mohla fungovat, a nebyl důvod se domnívat, že by to způsobilo problém.</p>
+<p>Sakra, kód přežil 7 let nepředvídatelného růstu před tím, než způsobil problém. Kdo by tipoval, že bude za 7 let vůbec existovat? (Vím, že většina vývojářů si přeje, aby už tato webová aplikace zmizela <img src="https://s.w.org/images/core/emoji/11/72x72/1f61d.png" alt="😝" class="wp-smiley" style="height: 1em; max-height: 1em;" />)</p>
+<p>Před sedmi lety nemohl nikdo předvídat, že seznamy vyrostou do desítek tisíc. (Pořád nedává smysl, že se to stalo.) Psaní komplexního kódu, který by zvládl budoucí bezdůvodné možnosti, je plýtvání časem.</p>
+<p>Dobrá, možná v této konkrétní funkci by to bývalo ušetřilo čas. Ale sázet v každé řádce kódu na apokalyptickou budoucnost &#8211; což je to, co byste museli dělat, jelikož nevíte, který předpoklad se v budoucnu rozbije &#8211; je cesta k obrovskému plýtvání vývojářské produktivity.</p>
+<p>Proto tleskám tomuto jednoduchému kódu. Byl založený na rozumném předpokladu a fungoval ještě léta po tom, co byl předpoklad porušen, než si někdo začal stěžovat. Tleskám vývojáři, že byl dost zralý na to, aby to vyřešil jen O(MN) funkcí. Je to agilní.</p>
+<p>Je z toho ještě jedno ponaučení. Až budete příště ovlivnění nějakým <em>legacy</em> kódem, tak si nemyslete: „Co si mysleli?!“ Raději se ptejte: „Jaké předpoklady tenkrát měli?“ Je to dobrý způsob, jak si vštěpit empatii k těm, kteří přišli před námi.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.zdrojak.cz/clanky/jake-predpoklady-tenkrat-meli/feed/</wfw:commentRss>
+		<slash:comments>7</slash:comments>
+		</item>
+		<item>
+		<title>Testování přístupnosti webu: doporučené kombinace screen readeru a prohlížeče</title>
+		<link>https://www.zdrojak.cz/clanky/testovani-pristupnosti-webu-doporucene-kombinace-screen-readeru-a-prohlizece/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=testovani-pristupnosti-webu-doporucene-kombinace-screen-readeru-a-prohlizece</link>
+		<comments>https://www.zdrojak.cz/clanky/testovani-pristupnosti-webu-doporucene-kombinace-screen-readeru-a-prohlizece/#respond</comments>
+		<pubDate>Wed, 12 Jun 2019 12:20:36 +0000</pubDate>
+		<dc:creator><![CDATA[Radek Pavlíček]]></dc:creator>
+				<category><![CDATA[Webdesign]]></category>
+		<category><![CDATA[přístupnost]]></category>
+		<category><![CDATA[Testování]]></category>
+
+		<guid isPermaLink="false">https://www.zdrojak.cz/clanky/?p=23091</guid>
+		<description><![CDATA[Testujete (či se chystáte testovat) přístupnost webových stránek s odečítači obrazovky a zajímá vás, s jakými konkrétními kombinacemi odečítačů obrazovky a webových prohlížečů dává smysl takové testy dělat?]]></description>
+				<content:encoded><![CDATA[<p>Na základě svých zkušeností, potvrzených <a href="https://twitter.com/martindrzka/status/801093364242202624">nedávnou diskusí na Twitteru </a>a také na základě výsledků <a href="https://accessibility.blog.gov.uk/2016/11/01/results-of-the-2016-gov-uk-assistive-technology-survey/">2016 GOV.UK assistive technology survey </a>doporučuji pro jednotlivé operační systémy používat následující kombinace.</p>
+<h2>MS Windows</h2>
+<p>Na Windows (stále nejpoužívanější platforma) jsou mezi nevidomými uživateli aktuálně nejpoužívanější následující dvě kombinace:</p>
+<ul>
+<li><strong><a href="http://www.nvaccess.org/">NVDA</a> s Mozilla Firefox</strong></li>
+<li><strong><a href="http://www.galop.cz/jaws">JAWS</a> s prohlížeči Google Chrome</strong> nebo Mozilla Firefox, které nahradily dlouhodobě používaný Internet Explorer.</li>
+</ul>
+<p>Pokud zatím nejste s prací se screen readerem zcela obeznámeni (či si ji chcete připomenout), doporučuji k prostudování dva návody:</p>
+<ul>
+<li><a href="http://ewj.blindfriendly.cz/">Testování přístupnosti webových stránek se screenreaderem JAWS</a></li>
+<li><a href="http://ewn.blindfriendly.cz/">Testování přístupnosti webových stránek se screenreaderem NVDA</a></li>
+</ul>
+<p>Je také dobré vědět, že:</p>
+<ul>
+<li>i přes 100 % získaných na <a href="http://www.html5accessibility.com/">www.html5accessibility.com</a>, MS Edge bohužel zatím neposkytuje dostatečnou podporu jak pro JAWS, tak NVDA, a ani není rozšířen mezi uživateli, takže testovat s ním moc nedává smysl.</li>
+<li>JAWS i NVDA nejsou standardní součástí systému, je potřeba je nejprve nainstalovat. U NVDA je případně možné použít i portable verzi.</li>
+<li>JAWS nabízí 40minutovou demoverzi, kterou ale dle licenčních podmínek nelze používat ke (komerčnímu) testování. NVDA je open source odečítač, který žádné takové omezení nemá.</li>
+<li>JAWS spustíte poklepáním na jeho zástupce na Ploše, ukončíte jej pomocí klávesové kombinace <strong>Insert + F4</strong>.</li>
+<li>NVDA spustíte poklepáním na jeho zástupce na Ploše, ukončíte jej pomocí pomocí klávesové kombinace <strong>CapsLock + Q</strong>.</li>
+</ul>
+<h2>OS X a iOS</h2>
+<p>Na zařízeních od Applu, které běží na operačních systémech OS X či iOS, je nejlepší testovat s kombinací <strong>VoiceOver a Safari</strong>. VoiceOver je nedílnou součástí systému a stačí jej spustit:</p>
+<ul>
+<li>na OS X pomocí Command+F5 (stejnou klávesovou kombinací jej pak lze i ukončit).</li>
+<li>Na iOS buď přes Nastavení – Obecné – Zpřístupnění, vhodnější je ale nadefinovat si spuštění/ukončení VoiceOveru na trojí stisknutí tlačítka Plochy (více informací viz <a href="http://www.appliste.cz/voiceover-na-ios-prirucka/">VoiceOver na iOS (příručka)</a>.</li>
+</ul>
+<p>Stručný návod v angličtině, jak testovat přístupnost webu s VoiceOverem, je pak k dispozici v článku <a href="http://webaim.org/articles/voiceover/">Using VoiceOver to Evaluate Web Accessibility</a>.</p>
+<h2>Android</h2>
+<p>Na zařízeních s Androidem je k testování možné použít screen reader <strong>TalkBack s prohlížečem Google Chrome</strong> (nebo nejnovějším Firefoxem). TalkBack je – stejně jako VoiceOver – nabízen jako součást operačního systému, takže jej opět stačí jen spustit přes Nastavení – Přístupnost. Bližší informace k různým možnostem spouštění viz <a href="https://support.google.com/accessibility/android/answer/6007100?hl=cs">Zapnutí aplikace TalkBack</a>, vypnutí TalkBacku se dělá přes Nastavení &gt; Usnadnění &gt; TalkBack.</p>
+<p>Při testování na iOS nebo Androidu se vám může hodit <a href="https://poslepu.cz/prehled-gest-pro-ovladani-mobilnich-zarizeni-sodecitaci-voiceover-a-talkback/">Přehled gest pro ovládání mobilních zařízení s odečítači VoiceOver a TalkBack</a>.</p>
+<p><a href="https://www.flickr.com/photos/radlicek/30222942004"><img src="https://live.staticflickr.com/5706/30222942004_49b9807177.jpg" alt="Roman Kabelka, lektor workshopu Úvod do tvorby webu v redakčním systému WordPress" width="500" height="333" /></a></p>
+<h2>Co je třeba umět</h2>
+<p>Pokud jste dočetli až sem, nejspíš to s testováním přístupnosti pomocí screen readeru myslíte opravdu vážně. Což je z obecného úhlu pohledu dobře, protože seznámení se s potřebami a způsobem práce jedné z cílových skupin určitě není na škodu. Ale pozor, není to tak snadné, jak se může na první pohled zdát. Rozhodně neplatí to, že si vezmete do ruky mobil, spustíte odečítač a začnete testovat – tak jednoduché to bohužel není, viz můj starší článek <a href="https://poslepu.cz/ma-smysl-testovat-svepomoci-pristupnost-webu-pomoci-screen-readeru/">Má smysl testovat svépomocí přístupnost webu pomocí screen readeru?</a>).</p>
+<p>Jestliže chcete, aby takové testování za něco stálo a obdrželi jste na základě něj relevantní výsledky, je <strong>třeba se dobře seznámit s tím, jak screen readery fungují, porozumět principům, na kterých pracují, a naučit se je obsluhovat.</strong> Pomoci vám v tom mohou například tutoriály, odkazované na konci tohoto článku. Bez těchto znalostí nedává moc smysl testovat přístupnost webu tímto způsobem, protože můžete:</p>
+<ul>
+<li>za problém v přístupnosti mylně považovat chyby, které ale budou způsobeny vaší neznalosti obsluhy screen readeru,</li>
+<li>to, že “screen reader něco čte”, vyhodnotit jako potvrzení toho, že kontrolovaný prvek je přístupný (přestože tomu tak v reálu vůbec být nemusí).</li>
+</ul>
+<p>Než se tedy do testování přístupnosti pustíte, zkuste si nejprve projít výše odkazované tutoriály a pokud na to máte prostor, tak není ani věci získat širší znalosti o přístupnosti například prostřednictvím některého z <a href="https://poslepu.cz/dvakrat-mooc-o-digitalni-pristupnosti-pro-zacatecniky-prosim/">MOOCů o přístupnosti</a>, které jsou aktuálně či v dohledné době nabízeny.</p>
+<p>Pokud byste měli k testování přístupnosti se screen readery nějaký dotaz, zkuste na něj buď najít odpověď na <a href="http://webaim.org/articles/screenreader_testing/">Testing with Screen Readers – Questions and Answers</a>, nebo jej napište sem do komentářů.</p>
+<h2>Přehled doporučených kombinací čtečky obrazovky a prohlížeče</h2>
+<ul>
+<li><strong>MS Windows: JAWS + Google Chrome nebo Mozilla Firefox; NVDA + Mozilla Firefox</strong></li>
+<li><strong>OS X a iOS: VoiceOver + Safari</strong></li>
+<li><strong>Android: TalkBack + Google Chrome (eventuálně Mozilla Firefox)</strong></li>
+</ul>
+<h2>Přehled doporučených studijních materiálů</h2>
+<ul>
+<li><a href="http://ewj.blindfriendly.cz/">Testování přístupnosti webových stránek se screenreaderem JAWS</a></li>
+<li><a href="http://ewn.blindfriendly.cz/">Testování přístupnosti webových stránek se screenreaderem NVDA</a></li>
+<li><a href="http://webaim.org/articles/voiceover/">Using VoiceOver to Evaluate Web Accessibility</a></li>
+<li><a href="https://poslepu.cz/prehled-gest-pro-ovladani-mobilnich-zarizeni-sodecitaci-voiceover-a-talkback/">Přehled gest pro ovládání mobilních zařízení s odečítači VoiceOver a TalkBack</a></li>
+<li><a href="https://poslepu.cz/ma-smysl-testovat-svepomoci-pristupnost-webu-pomoci-screen-readeru/">Má smysl testovat svépomocí přístupnost webu pomocí screen readeru?</a></li>
+<li><a href="http://webaim.org/articles/screenreader_testing/">Testing with Screen Readers – Questions and Answers</a></li>
+<li><a href="https://poslepu.cz/dvakrat-mooc-o-digitalni-pristupnosti-pro-zacatecniky-prosim/">Dvakrát MOOC o digitální přístupnosti pro začátečníky, prosím</a></li>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>https://www.zdrojak.cz/clanky/testovani-pristupnosti-webu-doporucene-kombinace-screen-readeru-a-prohlizece/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>97 věcí, které by každý architekt měl znát</title>
+		<link>https://www.zdrojak.cz/clanky/97-veci-ktere-by-kazdy-architekt-mel-znat/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=97-veci-ktere-by-kazdy-architekt-mel-znat</link>
+		<comments>https://www.zdrojak.cz/clanky/97-veci-ktere-by-kazdy-architekt-mel-znat/#respond</comments>
+		<pubDate>Thu, 30 May 2019 18:52:51 +0000</pubDate>
+		<dc:creator><![CDATA[Luboš Račanský]]></dc:creator>
+				<category><![CDATA[Různé]]></category>
+
+		<guid isPermaLink="false">https://www.zdrojak.cz/clanky/?p=23084</guid>
+		<description><![CDATA[ <div><img width="67" height="100" src="https://www.zdrojak.cz/wp-content/uploads/2019/05/97things_cover-67x100.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" srcset="https://www.zdrojak.cz/wp-content/uploads/2019/05/97things_cover-67x100.jpg 67w, https://www.zdrojak.cz/wp-content/uploads/2019/05/97things_cover.jpg 150w" sizes="(max-width: 67px) 100vw, 67px" /></div>Poznámky z knihy 97 Things Every Software Architect Should Know.]]></description>
+				<content:encoded><![CDATA[ <div><img width="67" height="100" src="https://www.zdrojak.cz/wp-content/uploads/2019/05/97things_cover-67x100.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" srcset="https://www.zdrojak.cz/wp-content/uploads/2019/05/97things_cover-67x100.jpg 67w, https://www.zdrojak.cz/wp-content/uploads/2019/05/97things_cover.jpg 150w" sizes="(max-width: 67px) 100vw, 67px" /></div><p>V rámci akce <a href="https://blog.zvestov.cz/software%20development/2018/02/27/spolecne-cteni-knih.html">společném čtení</a> jsme četli jsem knihu <a href="https://www.goodreads.com/book/show/7003902-97-things-every-programmer-should-know">97 Things Every Programmer Should Know</a>, ale ta je, podle mého, určená začátečníkům. Mnohem vhodnější mi přijde kniha <a href="https://www.goodreads.com/book/show/5487765-97-things-every-software-architect-should-know">97 Things Every Software Architect Should Know</a>, kterou bych vám do začátku určitě doporučil. Jedná se o sbírku krátkých esejů, takže lidé můžou mít dobrý pocit, že jim čtení odsýpá.</p>
+<p>Nate Schutta ve své přednášce <a href="https://blog.zvestov.cz/software%20development/2018/07/30/polsky-devoxx-2018.html#thinking-architecturally-nate-schutta">Thinking Architecturally na Devoxx 2018</a> říkal, že:</p>
+<blockquote><p>Architekt je někdo, kdo dělá architektonické rozhodnutí.</p></blockquote>
+<p>Proto se nebojte, že by kniha <em>97 Things Every Software Architect Should Know</em> nebyla vhodná pro programátory, ba právě naopak. Nehodlám přežvýkat obsah celé knihy. Vyzobal jsem pár esejů a myšlenek, které jsem si odnesl, abych vás nalákal. Nejedná se o shrnutí kapitol. V knize jsou silnější i slabší kousky, i když tím neříkám, že ty, co nezmiňuji, nestojí za to číst. Jen se nevešly do mého výběru.</p>
+<h2>Výběr esejů</h2>
+<h4>2. Simplify essential complexity; diminish accidental complexity (Neal Ford)</h4>
+<p>Dnešní řízení letového provozu je tak komplexní, že je obtížné až nemožné něco změnit. Je postavené na technologii staré víc jak třicet let.</p>
+<h4>4. Communication is King; Clarity and Leadership its humble servants (Mark Richards)</h4>
+<p>Nikdo z vašeho týmu nebude číst stostránkový architektonický dokument.</p>
+<h4>6. Seek the value in requested capabilities (Einar Landre)</h4>
+<p>Tohle je můj oblíbený příběh (knihu jsem četl už podruhé). Zadání bylo vyrobit bojový letoun dosahující rychlosti 2 až 2,5 Ma, který by měl navíc být levný a lehký. Ovšem pro zdvojnásobení rychlosti je kvůli odporu vzduchu potřeba zečtyřnásobit sílu, což má dopad na hmotnost. Slepě neplnili požadavky a zeptali se, proč má být letadlo tak rychlé. Bylo to kvůli únikům z bitvy. Vznikl tak <em>F-16 Falcon</em> s dobrou manévrovatelností a zrychlením, nikoliv maximální rychlostí.</p>
+<h4>8. Skyscrapers aren’t scalable (Michael Nygard)</h4>
+<p>Hledáme různé analogie k softwarovému inženýrství a velmi často utíkáme ke stavebnímu inženýrství. Tento příběh je ukázkou toho, že přirovnání trochu kulhá. Ostatně mluvil o tom i <a href="https://youtu.be/-3BCl8DTd0U">Franta Řezáč ve své přednášce Mosty, katastrofy a bytecode</a>.</p>
+<p>Nikdo nezačne stavět mrakodrap, aniž by věděl, jak má být vysoký. Přidání patra k již stojící budově je nákladné a riskantní, takže se tomu snaží vyhnout. Ani se nikdo nepokouší navrženou budovu přestěhovat (nechme stranou tanečky kolem Národní knihovny od Jana Kaplického).</p>
+<p>Není snadné přidat dálniční pruh, ale zato jsme si zvykli, že je snadné přidat softwarovou funkčnost. To není chyba, ale fakt, s kterým pracujeme.</p>
+<h4>10. Quantify (Keith Braithwaite)</h4>
+<p><em>Rychlý</em> není požadavek. Tohle už mě kdysi naučil <a href="https://twitter.com/richardsery">Richard Šerý</a>, že je potřeba se ptát: Kolik? V jakém období? Jak často? V jakém poměru?… Cíl musí být měřitelný.</p>
+<h4>19. Architects must be hands on (John Davies)</h4>
+<p>Architekt je jako pilot letadla. Nemusí být zaneprázdněný celou dobu, ale využívá desítky let praxe k tomu, aby sledoval situaci a případně okamžitě zasáhl, když zpozoruje něco mimořádného. Což bylo krásně vidět ve filmu <a href="https://www.csfd.cz/film/53975-sully-zazrak-na-rece-hudson/komentare/">Sully: Zázrak na řece Hudson</a>.</p>
+<h4>22. Architectural Tradeoffs (Mark Richards)</h4>
+<p>Příběh pejska a kočičky, kterak dělali dort je všeobecně známý. Když dáte spoustu dobrých věcí na jednu hromadu, nemusí to dopadnout dobře. Stejně to bylo v 17. století s <a href="https://cs.wikipedia.org/wiki/Vasa">lodí Vasa</a>, která se potopila hned po vyplutí z přístavu.</p>
+<h4>24. Use uncertainty as a driver (Kevlin Henney)</h4>
+<p>Každá architektura je design, ale ne každý design je architektura. Architektura reprezentuje klíčová designová rozhodnutí, která tvarují systém, přičemž klíčovost se měří cenou změny.</p>
+<h4>26. Reuse is about people and education, not just architecture (Jeremy Meyer)</h4>
+<p>Sníme o znovupoužitelnosti, ale framework nebo systém budou používat lidé, kteří:</p>
+<ul>
+<li>vědí, že existuje</li>
+<li>vědí, jak ho použít</li>
+<li>jsou přesvědčení, že je lepší než to, co si udělají sami</li>
+</ul>
+<h4>28. Get the 1000ft view (Erik Doernenburg)</h4>
+<p>Diagramy jsou pohled na krajinu z letadla ve výšce 10 000 metrů. Zdrojový kód je pohled ze země. Chybí nám pohled mezi, z výšky 300 metrů.</p>
+<h4>35. Warning, problems in mirror may be larger than they appear (Dave Quick)</h4>
+<p>Problémy, které se zpočátku zdály triviální, se později stanou kritickými, ale to už bude pozdě je opravovat. Nastavte si způsob jak spravovat rizika. Většina vývojářů jsou optimisté. Všichni máme slepé skvrny.</p>
+<h4>37. Software architecture has ethical consequences (Michael Nygard)</h4>
+<p>Úspěšné programy ovlivňují životy tisíců a miliónů lidí. Jejich dopad může být pozitivní nebo negativní. Vyberete si snazší nebo obtížnější variantu? A ještě jednou si vzpomenu na Richarda Šerého, který se vždycky zajímal, kolik uživatelů vystupuje v daném scénáři.</p>
+<h4>39. Context is King (Edward Garson)</h4>
+<p>Výběr konkrétní databáze obvykle není architektonicky významné rozhodnutí. Ovšem při vývoji tanku M1 Abrams to důležité bylo. Výstřel z kanónu způsobí tak silný elektromagnetický pulz, že to restartuje celý systém. Proto vybrali InterBase, jelikož rychle nastartuje.</p>
+<h4>52. Record your rationale (Timothy High)</h4>
+<p>Zapisujte si svá rozhodnutí, co jste zvažovali a proč jste se rozhodli zrovna takhle. Po roce si třeba sami nevzpomenete, případně neukážete nově příchozím.</p>
+<h4>54. It is all about the data (Paul W. Homer)</h4>
+<p>Změnit chování programu není zase tak obtížné. Ale předělat datové struktury může vyžadovat hodně velké úsilí.</p>
+<h4>57. Focus on Application Support and Maintenance (Mncedisi Mawabo Kasper)</h4>
+<p>Přes 80  % životního cyklu aplikace tvoří údržba. Měli byste na to při návrhu myslet. V produkci není žádný debugger.</p>
+<h4>65. Your system is legacy, design for it. (Dave Anderson)</h4>
+<p>Přestože používáte nejnovější technologie, tak pro člověka, který přijde po vás, to bude <em>legacy</em> kód.</p>
+<h4>67. Understand the impact of change (Doug Crawford)</h4>
+<p>Role architekta není nutně v tom, aby změnu řídil, ale spíš aby se ujistil, že změna je řiditelná.</p>
+<h4>70. “Perfect” is the Enemy of “Good Enough” (Greg Nyberg.)</h4>
+<p>Architektura je nikdy nekončící činnost. Doménový model škemrá o to, abyste se na něj ještě jedou podívali, jestli nemůžete vytáhnout nějakou funkci nebo atribut do předka.</p>
+<h4>71. Avoid “Good Ideas” (Greg Nyberg)</h4>
+<p>Cesta do pekel je dlážděná dobrými úmysly. Tady s autorem trochu nesouhlasím. Myslím si, že frameworky se upgradovat (s rozmyslem) musí. Jinak se můžete dostat do situace, kdy povýšit už nevyhnutelně potřebujete, ale ten krok už je na vás příliš velký.</p>
+<h4>73. The Business Vs. The Angry Architect (Chad LaVigne)</h4>
+<p>Tady upomínka i pro mě: Pokud mluvíš ty, tak můžeš slyšet jen to, co už víš.</p>
+<h4>76. A rose by any other name will end up as a cabbage (Sam Gardiner)</h4>
+<p>Název této eseje je pěkná slovní hříčka na Shakespeara. Připomíná jednu ze dvou nejtěžších věcí, pojmenování. Nevíte-li, jak by se měla věc jmenovat, tak nemůžete vědět, co to je. Nevíte-li co to je, nemůžete to implementovat. <code>ClientBusinessObjects</code> je úžasně vágní, široké a zavádějící pojmenování.</p>
+<h4>82. Your Customer is Not Your Customer (Eben Hewitt)</h4>
+<p>Zákazník vašeho zákazníka je váš zákazník! Osobně vyvíjím software pro banky, takže musím neustále myslet na koncové klienty banky.</p>
+<h4>95. The Importance of Consommé (Eben Hewitt)</h4>
+<p>Tentokrát analogie z kulinářství. V jedné kuchařské škole testují vývar tak, že do misky hodí deseťák a když jste schopní přečíst datum ražby, tak jste prošli. Vaše architektura bude hotová, až bude čistá jako vývar.</p>
+<h2>Závěr</h2>
+<p>Jestli chcete rozjet čtení u vás v týmu, nemusíte hned dokončit celou knihu. Vyberte si jeden, dva či tři eseje a proberte je spolu. Pak dejte vědět, jak to dopadlo.</p>
+<blockquote class="twitter-tweet" data-width="500" data-dnt="true">
+<p lang="en" dir="ltr">The average software developer, for example, doesn’t own a single book  on the subject of his or her work, and hasn’t ever read one. ~ Tom DeMarco, Peopleware</p>
+<p>(cc <a href="https://twitter.com/hassmanm?ref_src=twsrc%5Etfw">@hassmanm</a>)</p>
+<p>&mdash; SoftWare Samuraj (@sw_samuraj) <a href="https://twitter.com/sw_samuraj/status/1088708564657549314?ref_src=twsrc%5Etfw">January 25, 2019</a></p></blockquote>
+<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p>Jsem teď obklopený partou chytrých lidí, takže jsem v <a href="https://stackoverflow.com/dev-survey/start">letošním průzkumu Stack Overflow</a> zaškrtl, že se cítím jako průměrný programátor. Když <a href="https://sw-samuraj.cz/">SoftWare Samuraj</a> připomněl citát z knihy <a href="https://www.goodreads.com/book/show/67825.Peopleware">Peopleware</a>, tak bych to mohl přehodnotit. Čteme zhruba čtyři knihy ročně, teď zrovna knihu <a href="https://www.goodreads.com/book/show/840.The_Design_of_Everyday_Things">The Design of Everyday Things (Donald A. Norman)</a>, která se mi jeví jako pěkná návaznost na téma architektury. Ale o tom zase někdy příště.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.zdrojak.cz/clanky/97-veci-ktere-by-kazdy-architekt-mel-znat/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Osmý mDevCamp ukáže, jak vznikal Chuchel i proč mají mít boti vlastní osobnost</title>
+		<link>https://www.zdrojak.cz/clanky/osmy-mdevcamp-ukaze-jak-vznikal-chuchel-i-proc-maji-mit-boti-vlastni-osobnost/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=osmy-mdevcamp-ukaze-jak-vznikal-chuchel-i-proc-maji-mit-boti-vlastni-osobnost</link>
+		<pubDate>Thu, 16 May 2019 00:43:11 +0000</pubDate>
+		<dc:creator><![CDATA[Redakce]]></dc:creator>
+				<category><![CDATA[PR Články]]></category>
+
+		<guid isPermaLink="false">https://www.zdrojak.cz/clanky/?p=23072</guid>
+		<description><![CDATA[ <div><img width="100" height="67" src="https://www.zdrojak.cz/wp-content/uploads/2019/05/mDevCamp-III-100x67.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" srcset="https://www.zdrojak.cz/wp-content/uploads/2019/05/mDevCamp-III-100x67.jpg 100w, https://www.zdrojak.cz/wp-content/uploads/2019/05/mDevCamp-III-450x300.jpg 450w, https://www.zdrojak.cz/wp-content/uploads/2019/05/mDevCamp-III-768x512.jpg 768w, https://www.zdrojak.cz/wp-content/uploads/2019/05/mDevCamp-III-1024x683.jpg 1024w, https://www.zdrojak.cz/wp-content/uploads/2019/05/mDevCamp-III.jpg 1225w" sizes="(max-width: 100px) 100vw, 100px" /></div>Jen v loňském roce si lidé stáhli 194 miliard mobilních aplikací. Centrem jejich vývoje se 31. května stane už po osmé Praha, to díky největší konferenci pro mobilní nadšence ve střední Evropě - mDevCamp.]]></description>
+				<content:encoded><![CDATA[ <div><img width="100" height="67" src="https://www.zdrojak.cz/wp-content/uploads/2019/05/mDevCamp-III-100x67.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" srcset="https://www.zdrojak.cz/wp-content/uploads/2019/05/mDevCamp-III-100x67.jpg 100w, https://www.zdrojak.cz/wp-content/uploads/2019/05/mDevCamp-III-450x300.jpg 450w, https://www.zdrojak.cz/wp-content/uploads/2019/05/mDevCamp-III-768x512.jpg 768w, https://www.zdrojak.cz/wp-content/uploads/2019/05/mDevCamp-III-1024x683.jpg 1024w, https://www.zdrojak.cz/wp-content/uploads/2019/05/mDevCamp-III.jpg 1225w" sizes="(max-width: 100px) 100vw, 100px" /></div><p><b>Jen v loňském roce si lidé stáhli 194 miliard mobilních aplikací. Centrem jejich vývoje se 31. května stane už poosmé Praha, to díky největší konferenci pro mobilní nadšence ve střední Evropě &#8211; </b><a href="https://mdevcamp.eu/"><b>mDevCamp</b></a><b>. Na tisíc fanoušků mobilních technologií se tu setká s </b><a href="https://mdevcamp.eu/#speakers"><b>autory technologií a aplikací</b></a><b>, které máme všichni ve svých telefonech.  Na mDevCampu organizátoři zveřejní výsledky právě probíhající </b><a href="https://docs.google.com/forms/d/e/1FAIpQLSehkfOdaFVUejJH9PhGBjcLwO1KSg8Px6ZzH3cO3HQzsdgSsw/viewform?usp=sf_link"><b>studie českého pracovního trhu vývojářů mobilních aplikací</b></a><b>.</b></p>
+<p><a href="https://www.zdrojak.cz/wp-content/uploads/2019/05/mDevCamp-III.jpg"><img class="aligncenter size-large wp-image-23073" src="https://www.zdrojak.cz/wp-content/uploads/2019/05/mDevCamp-III-1024x683.jpg" alt="" width="1024" height="683" srcset="https://www.zdrojak.cz/wp-content/uploads/2019/05/mDevCamp-III-1024x683.jpg 1024w, https://www.zdrojak.cz/wp-content/uploads/2019/05/mDevCamp-III-450x300.jpg 450w, https://www.zdrojak.cz/wp-content/uploads/2019/05/mDevCamp-III-768x512.jpg 768w, https://www.zdrojak.cz/wp-content/uploads/2019/05/mDevCamp-III-100x67.jpg 100w, https://www.zdrojak.cz/wp-content/uploads/2019/05/mDevCamp-III.jpg 1225w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+<p>mDevCamp je největší středoevropská konference pro vývojáře mobilních aplikací, produktové manažery, ale i ty, kteří se starají o mobilní marketing. Tisíc návštěvníků osmého ročníku se sjede do Prahy, aby se potkali s předními světovými vývojáři, kteří se podělí o nejnovější trendy a technologie z mobilního světa a zabrousí do témat souvisejících nejen s vývojem pro iOS a Android, ale také trendů jako je IoT, VR/AR, nebo využití AI.</p>
+<p><i>“Obsah a osobnosti konference si nezadají nic s podobnými akcemi v Americe či západní Evropě, i proto k nám každý rok přijíždí více a více účastníků ze zahraničí,”</i> komentuje program Michal Šrajer, jeden z organizátorů mDevCampu. Mezi více než 20 řečníky letošního mDevCampu je například Assistant Google Developer Expertka <a href="https://mdevcamp.eu/#aygul-zadigullina-modal">Aygul Zagidullina</a>. Ta vysvětlí, jak vytvořit aplikaci s osobností a charakterem, kterou budou lidé skutečně rádi používat. <a href="https://mdevcamp.eu/#jakub-dvorsky-modal">Jakub Dvorský</a> přiblíží, jak probíhal vývoj dobrodružné hry CHUCHEL od Amanita Design, která posbírala řadu ocenění, a k tématu bezpečnosti v mobilním prostředí vystoupí <a href="https://mdevcamp.eu/#kevin-cody-modal">Kevin Cody</a>, Application Security Consultant v nVision. Na konferenci vystoupí také <a href="https://mdevcamp.eu/#tor-norbye-modal">Tor Norbye</a>, technologický šéf Android Studia v Googlu, a promluví o Android Lint – nástroji pro statistickou analýzu, který vývojáři používají k nalezení běžných i neobvyklých chyb ve svých aplikacích. Návštěvníci se mohou těšit na přednášku <a href="https://mdevcamp.eu/#chris-eidhof-modal">Chrise Eidhofa</a>, autora knih o programovacím jazyku Swift pro vývoj iOS aplikací.</p>
+<p>Zároveň zazní to nejzajímavější z právě probíhající <a href="https://docs.google.com/forms/d/e/1FAIpQLSehkfOdaFVUejJH9PhGBjcLwO1KSg8Px6ZzH3cO3HQzsdgSsw/viewform?usp=sf_link">studie mapující tuzemský pracovní trh s vývojáři mobilních aplikací</a>.</p>
+<p><b><i>“</i></b><i>mDevCamp děláme po osmé, s našimi účastníky i celou komunitou mobilních vývojářů máme výborné vztahy, jsme proto v mimořádné pozici vůči trhu. Rádi bychom toho využili k jeho zmapování, chceme se podívat jak na tom vývojáři mobilních aplikací reálně jsou. Zjistíme, zda by chtěli pracovat spíše ve startupu či v zavedené firmě, nebo jestli jsou spíše zaměstnanci či na volné noze a nechtějí třeba změnit zaměstnavatele. Studii plánujeme připravovat každoročně,</i><b><i>”</i></b> říká k připravované studii organizátor mDevCampu Michal Šrajer.</p>
+<p><a href="https://www.zdrojak.cz/wp-content/uploads/2019/05/mDevCamp-IV.jpg"><img class="aligncenter size-large wp-image-23074" src="https://www.zdrojak.cz/wp-content/uploads/2019/05/mDevCamp-IV-1024x683.jpg" alt="" width="1024" height="683" srcset="https://www.zdrojak.cz/wp-content/uploads/2019/05/mDevCamp-IV-1024x683.jpg 1024w, https://www.zdrojak.cz/wp-content/uploads/2019/05/mDevCamp-IV-450x300.jpg 450w, https://www.zdrojak.cz/wp-content/uploads/2019/05/mDevCamp-IV-768x512.jpg 768w, https://www.zdrojak.cz/wp-content/uploads/2019/05/mDevCamp-IV-100x67.jpg 100w, https://www.zdrojak.cz/wp-content/uploads/2019/05/mDevCamp-IV.jpg 1225w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+<p>Samotní vývojáři mobilních aplikací se mohou do studie zapojit <a href="https://docs.google.com/forms/d/e/1FAIpQLSehkfOdaFVUejJH9PhGBjcLwO1KSg8Px6ZzH3cO3HQzsdgSsw/viewform?usp=sf_link">vyplněním krátkého dotazníku</a>. Pokud na sebe zanechají kontakt, mohou navíc vyhrát večeři s řečníky mDevCampu a zároveň jim budu zaslána ta nejzajímavější zjištění, která budou ze studie vyplývat.</p>
+<p>Osmý roční konference mDevCamp se uskuteční 31. května v pražském Kongresovém centru s kapacitou tisíc návštěvníků. Do 14. května si mohou zájemci <a href="https://mdevcamp.eu/#tickets">zakoupit standardní vstupenku &#8211; “Regular Bird” &#8211;  za 109 EUR</a>. Vstupenky zakoupené v posledních dvou týdnech před konferencí, příznačně nazvané “Angry Bird”, je pak přijdou na 139 EUR.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>CSS Grid v MSIE: Jde to. I s automatickým umísťováním do mřížky</title>
+		<link>https://www.zdrojak.cz/clanky/css-grid-v-msie-jde-to-i-s-automatickym-umistovanim-do-mrizky/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=css-grid-v-msie-jde-to-i-s-automatickym-umistovanim-do-mrizky</link>
+		<comments>https://www.zdrojak.cz/clanky/css-grid-v-msie-jde-to-i-s-automatickym-umistovanim-do-mrizky/#comments</comments>
+		<pubDate>Thu, 16 May 2019 00:14:55 +0000</pubDate>
+		<dc:creator><![CDATA[Martin Michálek]]></dc:creator>
+				<category><![CDATA[Webdesign]]></category>
+		<category><![CDATA[CSS]]></category>
+		<category><![CDATA[css grid]]></category>
+		<category><![CDATA[Internet Explorer]]></category>
+
+		<guid isPermaLink="false">https://www.zdrojak.cz/clanky/?p=23059</guid>
+		<description><![CDATA[CSS Grid je možné za pomoci Autoprefixeru v řadě případů použít i v Internet Exploreru. Podíváme se na problematickou oblast, kterou je automatické umísťování prvků do mřížky.]]></description>
+				<content:encoded><![CDATA[<p><em>Text vyšel původně na <a href="https://www.vzhurudolu.cz/prirucka/css-grid-msie-autoplacement">webu autora</a>.</em></p>
+<p>„Neumí to Explorer“ je na prvních devíti místech z 10 důvodů, proč lidé ještě na začátku roku 2019 nepoužívají <a href="https://www.vzhurudolu.cz/prirucka/css-grid">CSS Grid</a>. Ale do jaké míry je to pravda?</p>
+<p>Možná víte, že <em>něco</em> z gridu v Exploreru funguje. A taky, že náš „nejoblíbenější“ prohlížeč nepodporuje důležité vlastnosti jako je <code>grid-gap</code> (mezera mezi buňkami), <code>grid-template-areas</code> (pojmenované oblasti) nebo třeba automatické umísťování prvků do mřížky.</p>
+<p>Na vědomí se tímto dává, že díky <a href="https://css-tricks.com/css-grid-in-ie-css-grid-and-the-new-autoprefixer/">zásadním aktualizacím</a> v <a href="https://github.com/postcss/autoprefixer">Autoprefixeru</a> je možné první dvě vcelku pokojně začít používat ve všech prohlížečích. A automatické umísťování? Tak trochu jde taky. Ale to je složitější.</p>
+<p>Jak fungují první dvě můžete prozkoumat v <a href="https://codepen.io/machal/pen/BvJjdz">třísloupcovém demu na Codepen</a>, podrobněji to najdete vysvětlené v článku <a href="https://www.vzhurudolu.cz/prirucka/css-grid-msie">CSS Grid v Internet Exploreru: Jde to!</a> V tomto textu se podíváme na ono problematické automatické umísťování.</p>
+<p><iframe width="500" height="375" src="https://www.youtube.com/embed/JjmXOB01Yq0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p><em>Autoplacement</em> je důležitá vlastnost Gridu. A Explorer, který stále používá minimálně <a href="https://www.vzhurudolu.cz/prirucka/prohlizece">desetina českých uživatelů</a>, ji nativně neumí.</p>
+<p>Pojďme tradičně na příklad. Chceme layout 2 × 2. HTML kód vypadá takto:</p>
+<pre><code>&lt;div class="container"&gt;
+  &lt;p class="box"&gt;Box&lt;/p&gt;
+  &lt;p class="box"&gt;Box&lt;/p&gt;
+  &lt;p class="box"&gt;Box&lt;/p&gt;
+  &lt;p class="box"&gt;Box&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+<p>Díky automatickému umístění bude v moderních prohlížečích stačit definovat mřížku v CSS:</p>
+<pre><code>.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+}</code></pre>
+<p>Prvky se nám pěkně rozmístí. Jenže smůla, tohle nebude fungovat v Internet Exploreru.</p>
+<div id="attachment_23065" style="width: 1034px" class="wp-caption aligncenter"><a href="https://www.zdrojak.cz/wp-content/uploads/2019/05/msie-grid-autoplacement-browsers.jpg"><img class="size-large wp-image-23065" src="https://www.zdrojak.cz/wp-content/uploads/2019/05/msie-grid-autoplacement-browsers-1024x576.jpg" alt="" width="1024" height="576" srcset="https://www.zdrojak.cz/wp-content/uploads/2019/05/msie-grid-autoplacement-browsers.jpg 1024w, https://www.zdrojak.cz/wp-content/uploads/2019/05/msie-grid-autoplacement-browsers-450x253.jpg 450w, https://www.zdrojak.cz/wp-content/uploads/2019/05/msie-grid-autoplacement-browsers-768x432.jpg 768w, https://www.zdrojak.cz/wp-content/uploads/2019/05/msie-grid-autoplacement-browsers-100x56.jpg 100w" sizes="(max-width: 1024px) 100vw, 1024px" /></a><p class="wp-caption-text">Ale to je nepříjemné, automatické umístění v MSIE nefunguje.</p></div>
+<p>Existuje záchrana – <a href="https://github.com/postcss/autoprefixer">Autoprefixer</a>. Pro MSIE 10 a 11, ve kterých nějaká verze CSS Gridu funguje, nám přidá pseudotřídy:</p>
+<pre><code>.container &gt; *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+
+.container &gt; *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+}</code></pre>
+<p>…a tak dále.</p>
+<p>Neřeší to všechno, ale máme tady o jeden silný důvod navíc použít CSS Grid.</p>
+<h2>Co potřebujete?</h2>
+<p>(<a href="https://www.vzhurudolu.cz/prirucka/css-grid-msie#autoprefixer-nastaveni">Nastavení podpory MSIE</a> jsem popsal podrobněji v základním článku, zde jen stručně.)</p>
+<ul>
+<li><em>Automatizaci</em><br />
+Gulp, <a href="https://www.vzhurudolu.cz/prirucka/grunt">Grunt</a>, skripty v <a href="https://www.vzhurudolu.cz/prirucka/npm">NPM</a> nebo podobné nástroje, které umí využít Autoprefixer.</li>
+<li><em>Zapnout podporu IE11</em><br />
+V Browserslist, seznamu podporovaných prohlížečů, je nutné specifikovat také IE 11, případně i desátou verzi.</li>
+<li><em>Zapnout Grid a auto-umístění</em><br />
+Zavolat Autoprefixer s parametrem <code>grid: 'autoplace'</code>, který zařídí podporu právě pro automatické umístění. Alternativa jsou komentáře přímo v CSS: <code>/* autoprefixer grid: autoplace */</code>.</li>
+</ul>
+<p>Hotové a funkční nastavení je například <a href="https://github.com/machal/css-grid-demos/blob/master/gulpfile.js">v Gulpfile.js</a> mého demonstračního repozitáře.</p>
+<p><small>Mimochodem, řešení v <a href="https://github.com/machal/css-grid-demos/blob/master/package.json#L29">NPM skriptu</a> tam zatím nefunguje. Stejně tak se mi nedaří zařídit podporu autoplacementu <a href="https://codepen.io/machal/pen/aPRVOV">v Codepenu</a>. Nevím proč. Pokud vy ano, napište mi, prosím.</small></p>
+<h2>Pozor na výjimky</h2>
+<p>Autoplacement rozhodně nefunguje ve všech použitích mřížky. Následuje seznam možných problémů, ale bude jich více.</p>
+<ul>
+<li><em>Nefunguje pro neznámý počet položek</em><br />
+Je možné tedy automatizace použít jen pro explicitní mřížky definované pomocí <code>grid-template-*</code> vlastností, nikoliv <code>grid-auto-*</code>.</li>
+<li><em>Pozor na zpětné nasazení na starých projektech</em><br />
+Doporučení zní: Nechte grid vypnutý a pomocí CSS komentářů jej zapínejte pouze pro nové deklarace.</li>
+<li><em>Neumí to repeat() v kombinaci a auto-fill, auto-fit</em><br />
+I když IE funkci <code>repeat()</code> zvládá, klíčová slova <code>auto-fill</code> a <code>auto-fit</code>bohužel ne.</li>
+<li><em>Vyberte si: Buď autoplacement nebo manuální umístění v gridu</em><br />
+V moderních prohlížečích lze obojí kombinovat, v IE bohužel ne. Buď tedy budete všechny prvky gridu umísťovat ručně (použijte vlastnost <code>grid-template-areas</code> v definici gridu) nebo automaticky (bez <code>*-areas</code>).</li>
+<li><em>Pozor na pseudoelementy</em><br />
+<code>::before</code> a <code>::after</code> uvnitř Gridu vám v IE rozbijí mřížku, to se vsaďte.</li>
+<li><em>V Media Qeuries nelze změnit jen grid-gap</em><br />
+Namísto toho je Autoprefixeru potřeba znovu deklarovat explicitní mřížku pomocí vlastností <code>grid-template-*</code>.</li>
+</ul>
+<p>Více najdete <a href="https://github.com/postcss/autoprefixer#grid-autoplacement-support-in-ie">v dokumentaci Autoprefixeru</a>.</p>
+<p>Celkově vzato je tohle pseudo-automatické umísťování prvků do mřížky spolu <a href="https://www.vzhurudolu.cz/prirucka/css-grid-msie">s možností použít oblasti (areas) a mezery (gap)</a> moc fajn posun vpřed. Určitě tedy <a href="https://www.vzhurudolu.cz/prirucka/css-grid">Grid</a> vyzkoušejte.</p>
+<div class="rs-tip-major">
+<p><a href="http://www.vzhurudolu.cz/ebook-responzivni"><img class="alignleft " src="https://www.zdrojak.cz/wp-content/uploads/2017/07/vzuhu-do-responzivniho-designu-e1499722468829.png" alt="ebook-vdcss3-prebal-final" width="70" height="95" /></a></p>
+<p><strong><a href="http://www.vzhurudolu.cz/ebook-responzivni">Kniha „Vzhůru do (responzivního) designu“</a></strong></p>
+<p>Kompletní průvodce návrhem a implementací responzivních uživatelských rozhraní v e-booku a knize. <a href="http://www.vzhurudolu.cz/ebook-responzivni">Více informací</a>.</p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>https://www.zdrojak.cz/clanky/css-grid-v-msie-jde-to-i-s-automatickym-umistovanim-do-mrizky/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>Program konference na veletrhu pro programátory Jobs Dev 2019</title>
+		<link>https://www.zdrojak.cz/clanky/program-konference-na-veletrhu-pro-programatory-jobs-dev-2019/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=program-konference-na-veletrhu-pro-programatory-jobs-dev-2019</link>
+		<pubDate>Fri, 10 May 2019 10:25:31 +0000</pubDate>
+		<dc:creator><![CDATA[Redakce]]></dc:creator>
+				<category><![CDATA[PR Články]]></category>
+
+		<guid isPermaLink="false">https://www.zdrojak.cz/clanky/?p=23050</guid>
+		<description><![CDATA[ <div><img width="100" height="56" src="https://www.zdrojak.cz/wp-content/uploads/2019/05/perex-100x56.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" srcset="https://www.zdrojak.cz/wp-content/uploads/2019/05/perex-100x56.png 100w, https://www.zdrojak.cz/wp-content/uploads/2019/05/perex-450x253.png 450w, https://www.zdrojak.cz/wp-content/uploads/2019/05/perex.png 590w" sizes="(max-width: 100px) 100vw, 100px" /></div>Celý smysl veletrhu, který se letos koná již potřetí, je umožnit vám nakouknout přímo do programátorských týmů firem a to bez větší námahy a během jediného dne. Souběžně s veletrhem bude probíhat konference s řadou odborných přednášek. Nepůjde o přednášky, jak hledat práci, ale o odborné přednášky pro programátory od českých i zahraničních speakrů.]]></description>
+				<content:encoded><![CDATA[ <div><img width="100" height="56" src="https://www.zdrojak.cz/wp-content/uploads/2019/05/perex-100x56.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" srcset="https://www.zdrojak.cz/wp-content/uploads/2019/05/perex-100x56.png 100w, https://www.zdrojak.cz/wp-content/uploads/2019/05/perex-450x253.png 450w, https://www.zdrojak.cz/wp-content/uploads/2019/05/perex.png 590w" sizes="(max-width: 100px) 100vw, 100px" /></div><h2>Vstup na konferenci je zdarma</h2>
+<p>Vstup na konferenci je zdarma pro všechny návštěvníky veletrhu. Jediné, co je třeba udělat, je registrovat se jako účastník na webu <a href="http://www.jobsdev.cz/">www.jobsdev.cz</a>.</p>
+<h2>Program konference</h2>
+<p><b>1) Migrace vašeho legacy projektu na PSR-4 automatickými nástroji</b></p>
+<p>Třídy bez namespaců, soubory obsahující desítky tříd, názvy souborů absolutně neodpovídající třídám uvnitř. Zní vám to povědomě? Každý, kdo to zažil a pokusil se větší projekt s legacy kódem ručně zmigrovat na PSR-4, se v noci budí s křikem a panickou hrůzou! Podělím se s vámi o to, jak jsme v Glami zmigrovali tisícovky tříd z autoloadingu pomocí Nette\RobotLoaderu na autoloading pomocí composeru a PSR-4.</p>
+<p>To vše bez potřeby ručního zásahu do tříd. S Rectorem doba manuálních prací v PHP skončila!</p>
+<p>Jan Mikeš, CTO &amp; Founder Entrydo / Clean Code Ambassador, Glami</p>
+<p><b>2) Self driving CI/CD</b></p>
+<p>Spare your developers the burden of building processes &#8211; let them work on new business features instead! Andrey talks about his brilliant solution which allowed Veeam developers to automate the process of creating a pipeline for CI and CD. A cocktail of Golang, Groovy, Ansible ft. Jenkins with some magic sprinkled on top.</p>
+<p>Andrey Kukoverov, Senior DevOps engineer, Veeam Software</p>
+<p><b>3) Standardizace vývoje prostřednictvím PaaS</b></p>
+<p>V krátké ukázce projdeme přístup, který zvolila banka pro renovaci informačního systému – referenční architekturu pro podporu „cloud native“ vývoje s deploymentem do Kubernetes clusteru běžícího v interním cloud řešení postaveném na OpenStack technologii. Pro standardizaci přístupu jsme vytvořili platformu pokrývající implementované run-time patterny (a přístup k standardním službám), vývojovou architekturu (podpora CI/CD procesy) a operační architekturu (logování, audit, monitoring, …).</p>
+<p>Platforma akceleruje vývoj Java back-endu / Angular front-endu a je poskytována jednotlivým vývojovým týmům jako služba.</p>
+<p>#springboot #java #microservices #kubernetes #cicd #devops #paas #transformation</p>
+<p>David Švejda, Head of Business Services / Tribe Leader, Komerční banka.</p>
+<p><b>4) Cesta od ESB k micro services</b></p>
+<p>S nástupem nových technologií se postupně mění i přístup k enterprise architektuře. Podělíme se o osobní zkušenost s vývojem na ESB a motivaci k změně na mikroservisní architekturu.</p>
+<p>Důvody proč vznikla potřeba po dalším evolučním kroku v architektuře. Výhody a nevýhody jednotlivých přístupů. Proč je z pohledu moderní doby nutná transformace a co nám může přinést.</p>
+<p>Ondrej Michalčík, Integration Architect, Stratox Cloud Native, s. r. o.</p>
+<p>Rastislav Rusinko, Integration Architect, Stratox Cloud Native, s. r. o.</p>
+<p><b>5) Zákeřnosti Big Data vývoje</b></p>
+<p>Big data jsou v posledních pár letech vrcholem vývoje většiny firem. Oproti klasickému programování ale takový vývoj skýtá spoustu zábavných nástrah a specifik. Spolu si na praktických příkladech ukážeme, jak je překonat. Čeká nás:</p>
+<ul>
+<li>Big Data vývojář – co vlastně dělá?</li>
+<li>Functional programming – piš lambdy, cyklus je zlo.</li>
+<li>Distributed/parallel processing – buš do toho, až to projde. Performance je druhořadá, odvážní škálují.</li>
+<li>Data consistency vs High availability – chceme to rychle, nebo správně?</li>
+<li>Real time processing – Není batch jako batch a real-time jako real-time.</li>
+<li>Automatizace – cluster vývoj vs. single node, když dojde duct tape, lepí to bash.</li>
+<li>Obskurní technologie – NoSQL, neuronky, schedulery and other random stuff (wtf Scala podtržítka?!)</li>
+<li>Má to smysl dělat? – Jak to nakonec vůbec funguje?</li>
+</ul>
+<p>Tomáš Sedloň, Big Data Consultant, Adastra</p>
+<p><b>6) Různé přístupy k testování v Ataccama</b></p>
+<p>Současným trendem způsobu vývoje je CI/CD. V důsledku toho se zvyšují nároky na úroveň a kvalitu automatizovaného testování. K pomyslnému cíli funkčního CI/CD Ataccama přistupuje iterativně s hlavním cílem nalézt vhodné řešení a především se cestou k tomuto cíli něco naučit. Ráda bych se s vámi podělila o naše poznatky z cesty k automatizovanému testování:</p>
+<ul>
+<li>Naše přístupy k automatizaci na různých úrovních testování front-endu a back-endu</li>
+<li>Přechod z testování REST API na GraphQL</li>
+<li>Implementace vlastních řešení k usnadnění testování aplikace</li>
+</ul>
+<p>#qa #rest #cucumber #graphql #selenium</p>
+<p>Alexandra Kolpakova, QA Engineer, Ataccama</p>
+<p><strong>7) Programátorské výzvy při vývoji software pro 3D tisk v Průša Research</strong></p>
+<p>Vojtěch Bubník, vedoucí vývoje software Průša Slicer, Prusa Research s.r.o.</p>
+<p><strong>8) Svět IoT a mobilních aplikací pro digitální budovy</strong></p>
+<p>Ondřej Plevka, Co-Founder &amp;amp; Mobile Lead, Spaceti</p>
+<h2>Kam a kdy přijít</h2>
+<p>Veletrh se koná v sobotu 18. 5. od 10.00 do 16.00 na výstavišti PVA EXPO PRAHA v Letňanech. Dostanete se tam jednoduše metrem do stanice Letňany, odtud je to pár metrů. Nebo autem na adresu <a href="http://pvaexpo.cz/navstevnik">Beranových 667, 199 00 Praha 9 &#8211; Letňany</a>.</p>
+<p>Registrovat zdarma se můžete na webu <a href="http://www.jobsdev.cz/">www.jobsdev.cz</a>.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Praktické postřehy z testování přístupnosti webů v soutěži Biblioweb</title>
+		<link>https://www.zdrojak.cz/clanky/prakticke-postrehy-z-testovani-pristupnosti-webu-v-soutezi-biblioweb/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=prakticke-postrehy-z-testovani-pristupnosti-webu-v-soutezi-biblioweb</link>
+		<comments>https://www.zdrojak.cz/clanky/prakticke-postrehy-z-testovani-pristupnosti-webu-v-soutezi-biblioweb/#respond</comments>
+		<pubDate>Thu, 09 May 2019 16:20:15 +0000</pubDate>
+		<dc:creator><![CDATA[Radek Pavlíček]]></dc:creator>
+				<category><![CDATA[Webdesign]]></category>
+		<category><![CDATA[přístupnost]]></category>
+
+		<guid isPermaLink="false">https://www.zdrojak.cz/clanky/?p=23044</guid>
+		<description><![CDATA[Už řadu let hodnotím přístupnost webů v soutěži o nejlepší webovou prezentaci knihovny Biblioweb, do jejíhož jubilejního dvacátého ročníku přihlásilo své weby 41 veřejných knihoven. Jaká byla přístupnost soutěžních webů a jaké trendy lze na základě letošního hodnocení v této oblasti vypozorovat?]]></description>
+				<content:encoded><![CDATA[<p><em>Text vyšel původně na <a href="https://poslepu.cz/prakticke-postrehy-z-testovani-pristupnosti-webu-v-soutezi-biblioweb/?fbclid=IwAR0sq221sFsHqIuuXvjFkd1KamD6y6PA6TLS3eZjkDah8NCBYQxk6kQR948">webu autora</a>.</em></p>
+<h2>Jak a co jsem testoval</h2>
+<p>Podobně jako v jiných soutěžích, i testování v <a href="https://www.skipcr.cz/akce-a-projekty/akce-skip/biblioweb/">Bibliowebu</a> je třeba přizpůsobit aktuálním podmínkám. Což znamená otestovat během relativně krátkého času (cca 10 dnů) relativně velké množství (zpravidla několik desítek) webů. Proto se při testování soustředím na <strong>zhodnocení míry naplnění stěžejních požadavků na technickou přístupnost na klíčových místech webu na vybraném vzorku stránek.</strong></p>
+<h3>Které oblasti to jsou?</h3>
+<ul>
+<li>Strukturování webové stránky – nadpisy, oblasti stránky.</li>
+<li>Přístupnost a ovladatelnost prvků webové stránky z klávesnice.</li>
+<li>Dostatečný barevný kontrast a čitelnost textu.</li>
+<li>Definování smysluplné textové alternativy u grafických prvků, nesoucích významovou informaci.</li>
+<li>Přístupnost dokumentů.</li>
+</ul>
+<p>Testování v zásadě probíhá způsobem popsaným v článku <a href="https://www.zdrojak.cz/clanky/jednoduchy-audit-pristupnosti-otestujte-si-bezbarierovost-sveho-webu/">Jak na jednoduchý audit přístupnosti – otestujte si bezbariérovost svého webu</a>, díky němuž lze poměrně snadno odhalit největší bariéry v přístupnosti.</p>
+<h2>Jak si s jednotlivými oblastmi knihovny poradily?</h2>
+<h3>Strukturování webové stránky pomocí nadpisů a oblastí stránky</h3>
+<p>Obzvlášť u stránek informačně bohatých (a takových najdeme na webech knihoven většinu) je strukturování obsahu webové stránky naprosto zásadní. Nedostatečné či nevyhovující strukturování komplikuje přístup k informacím, naopak <strong>robustní nadpisová osnova a vyznačení alespoň stěžejních oblastí stránky orientaci významně usnadňuje</strong>.</p>
+<h4>Nadpisová osnova</h4>
+<p>Pouze u <strong>8 webů z 41 jsem k nadpisové osnově neměl zásadní připomínky a ohodnotil ji plným počtem bodů</strong>, dalších 10 webů mělo v oblasti nadpisových osnov jen drobné chyby. Na druhém konci žebříčku se umístilo hned 16 webů, jejichž nadpisové osnovy neodpovídaly obsahu jednotlivých stránek a například uživatel čtečky obrazovky ji tak nemohl použít pro zorientování se v obsahu stránky a snadnému přístupu k požadované informaci.</p>
+<h4>Oblasti stránky</h4>
+<p>Oblasti stránky jsou vedle nadpisové osnovy dalším, již nějaký čas standardizovaným řešením, které může uživatelům usnadnit orientaci v obsahu webové stránky. I přes jeho velmi snadnou implementaci do kódu stránky bylo toto řešení v drtivé většině případů použito nedostatečně, či nebylo použito vůbec.</p>
+<p>Na 12 webech bohužel nebyly oblasti stránky vůbec definovány a většina webů je měla definovány nevhodně (tzn. buď nepokrývaly celý obsah; chyběla definice hlavního obsahu; přiřazené role/oblasti neodpovídaly obsahu, kterému byly přiřazeny). <strong>Vhodnou implementaci oblastí stránek bylo možné najít jen na 5 soutěžních webech</strong>.</p>
+<h3>Přístupnost a ovladatelnost prvků webové stránky z klávesnice</h3>
+<p>Dostupnost a ovladatelnost prvků na webové stránce při ovládání pomocí klávesnice je i v době dotykových zařízení stále velmi potřebná. Řada uživatelů (zejména těch se zrakovým postižením) totiž preferuje klávesnici jako primární vstupní zařízení při práci s výpočetní technikou.</p>
+<p>U pěti webů byla přístupnost z klávesnice bohužel velmi problematická kvůli nepřístupnosti položek 2. úrovně menu z klávesnice. U drtivé většiny webů také chyběly přeskakovací odkazy na důležité části webu (hlavní obsah, navigace) a vizuální zvýraznění prvku, který získá focus při ovládání webu z klávesnice. <strong>Zcela bezproblémovou měly ovladatelnost z klávesnice pouze 4 soutěžní weby.</strong></p>
+<h3>Dostatečný barevný kontrast a čitelnost textu</h3>
+<p>Mnohem lepší byla situace v oblasti čitelnosti a kontrastu. Za opravdu problematické z tohoto úhlu pohledu se dalo považovat pouze 6 webů, u <strong>ostatních, což byla opět většina, byla čitelnost a kontrast na bezproblémové až vyhovující úrovni</strong>.</p>
+<p>Dílčí problémy se pak objevily u odlišování odkazů od okolního textu: na několika webech byly odlišeny pouze barvou, v jednom případě pak dokonce nebyly odlišeny vůbec.</p>
+<h3>Definování smysluplné textové alternativy u grafických prvků, nesoucích významovou informaci</h3>
+<p>Přiřazovat grafickým prvkům textové popisky je dovednost, kterou už se tvůrci webů poměrně spolehlivě naučili. Se splněním tohoto bodu tedy nebyly žádné zásadní problémy a <strong>drtivá většina webů měla stěžejní grafické prvky korektně popsány</strong>. Pouze u několika málo webů byly pozvánky na akce zveřejňovány pouze v grafické podobě, což znemožňovalo jejich snadné přečtení či další zpracování (například zkopírování části textu).</p>
+<h3>Přístupnost dokumentů</h3>
+<p>Stále více informací je na webu publikováno prostřednictvím dokumentů. Proto je důležité, aby i tyto dokumenty splňovaly alespoň minimální požadavky na přístupnost, tj. alespoň obsahovaly textovou vrstvu.</p>
+<p>U 13 webů jsem během testování narazil na dokumenty, které byly bez textové vrstvy, a k jejich přečtení tak bylo třeba vynaložit zvláštní úsilí (například si nechat obsah dokumentu rozpoznat pomocí OCR). <strong>Na zbývajících 28 webech byly dokumenty publikovány s textovou vrstvou.</strong></p>
+<h2>Shrnutí</h2>
+<p>Jak je z řádků výše patrné, z obecného úhlu pohledu se stav přístupnosti knihovních webů pomalu lepší, nicméně stále je tady prostor ke zlepšení. <strong>Za pozornost stojí zejména zlepšení strukturování stránky pomocí nadpisů a oblastí a ovladatelnost rozhraní z klávesnice.</strong></p>
+<h2>Cena za nejpřístupnější web</h2>
+<p>Součástí hodnocení je i nominování jednoho ze soutěžních webů na cenu za nejlepší bezbariérový web, který může posloužit jako zdroj inspirace pro ty, kdo chtějí svůj web lépe zpřístupnit. <strong>S požadavky na přístupnost se v letošním ročníku nejlépe vypořádali tvůrci webu <a href="https://knihovna.jabok.cz/">Knihovny Jabok</a>, </strong>kterým tímto ještě jednou srdečně blahopřeji <img src="https://s.w.org/images/core/emoji/11/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.zdrojak.cz/clanky/prakticke-postrehy-z-testovani-pristupnosti-webu-v-soutezi-biblioweb/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Programátoři všech jazyků, přijďte na Jobs Dev 2019</title>
+		<link>https://www.zdrojak.cz/clanky/programatori-vsech-jazyku-prijdte-na-jobs-dev-2019/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=programatori-vsech-jazyku-prijdte-na-jobs-dev-2019</link>
+		<pubDate>Tue, 09 Apr 2019 22:05:14 +0000</pubDate>
+		<dc:creator><![CDATA[Redakce]]></dc:creator>
+				<category><![CDATA[PR Články]]></category>
+
+		<guid isPermaLink="false">https://www.zdrojak.cz/clanky/?p=23002</guid>
+		<description><![CDATA[ <div><img width="100" height="56" src="https://www.zdrojak.cz/wp-content/uploads/2019/04/perex-100x56.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" srcset="https://www.zdrojak.cz/wp-content/uploads/2019/04/perex-100x56.png 100w, https://www.zdrojak.cz/wp-content/uploads/2019/04/perex-450x253.png 450w, https://www.zdrojak.cz/wp-content/uploads/2019/04/perex.png 590w" sizes="(max-width: 100px) 100vw, 100px" /></div>Již potřetí můžete bez větší námahy nakouknout přímo do programátorských týmů velkých firem. V sobotu 18. května se koná další veletrh práce pro programátory Jobs Dev 2019 spolu konferencí. Prezentovat se zde budou firmy skrze své vlastní programátory. Během jediného dne se tak dozvíte víc informací než na běžném pracovním pohovoru.]]></description>
+				<content:encoded><![CDATA[ <div><img width="100" height="56" src="https://www.zdrojak.cz/wp-content/uploads/2019/04/perex-100x56.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" srcset="https://www.zdrojak.cz/wp-content/uploads/2019/04/perex-100x56.png 100w, https://www.zdrojak.cz/wp-content/uploads/2019/04/perex-450x253.png 450w, https://www.zdrojak.cz/wp-content/uploads/2019/04/perex.png 590w" sizes="(max-width: 100px) 100vw, 100px" /></div><p>I když zrovna nehledáte novou práci, veletrh vám nabídne <b>špičky v technologickém oboru</b> a desítky dalších zajímavých firem. Samotné firmy prezentují z velké části jejich vlastní programátoři, kteří svoji práci, projekty a produkty na veletrhu přímo představí. Sami si okamžitě ověříte, jestli <b>je o vaše znalosti a schopnosti zájem</b>. A pokud patříte mezi ty, kteří by rádi změnili zaměstnavatele, získáte během jediného dne odpovědi na všechny vaše otázky.</p>
+<p><iframe width="500" height="281" src="https://www.youtube.com/embed/VXHlKj7fdks?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<h2>Na Jobs Dev 2019 vás čeká:</h2>
+<ul>
+<li>řada zajímavých firem,</li>
+<li>konference souběžně s veletrhem zdarma,</li>
+<li>soutěže o zajímavé ceny na stáncích firem,</li>
+<li>stánky českých programátorských komunit,</li>
+<li>prostor pro networking a občerstvení zdarma.</li>
+</ul>
+<h2>Součástí veletrhu je i odborná konference</h2>
+<p>Zároveň s veletrhem proběhne i konference s řadou odborných přednášek od českých i zahraničních specialistů. Program konference postupně doplňujeme na <a href="https://www.jobsdev.cz/">náš web</a>. <b>Vstup na konferenci je zdarma </b>pro všechny návštěvníky veletrhu. Stačí se jen registrovat jako účastník <b>na webu </b><a href="http://www.jobsdev.cz/"><b>www.jobsdev.cz</b></a>.</p>
+<h2>Co řekli účastníci o minulém ročníku?</h2>
+<p><b>Josef Vítů</b>: „<i>Byl jsem již na minulém ročníku a hned mi bylo jasné, že pokud se bude pořádat další, zúčastním se znovu</i>.”</p>
+<p><b>Jiří Cága</b>: „<i>Akce se rád zúčastním, jako minulý rok. Je to super akce dle mě, programátor zde může nahlédnout, jaké technologie používají jiné firmy, a jak se uchytily nové trendy v oblasti vývoje softwaru mezi firmami.</i>”</p>
+<p><a href="https://www.zdrojak.cz/wp-content/uploads/2019/04/jobsdev-2018-101.jpg"><img class="aligncenter size-large wp-image-23005" src="https://www.zdrojak.cz/wp-content/uploads/2019/04/jobsdev-2018-101-1024x682.jpg" alt="" width="1024" height="682" srcset="https://www.zdrojak.cz/wp-content/uploads/2019/04/jobsdev-2018-101-1024x682.jpg 1024w, https://www.zdrojak.cz/wp-content/uploads/2019/04/jobsdev-2018-101-450x300.jpg 450w, https://www.zdrojak.cz/wp-content/uploads/2019/04/jobsdev-2018-101-768x512.jpg 768w, https://www.zdrojak.cz/wp-content/uploads/2019/04/jobsdev-2018-101-100x67.jpg 100w, https://www.zdrojak.cz/wp-content/uploads/2019/04/jobsdev-2018-101.jpg 1280w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></p>
+<h2>Na Jobs Dev 2019 se budou prezentovat tyto firmy:</h2>
+<ul>
+<li>2N TELEKOMUNIKACE a.s.</li>
+<li>Accenture</li>
+<li>Barclays</li>
+<li>ČSOB</li>
+<li>Digiteq Automotive s.r.o.</li>
+<li>eMan s.r.o.</li>
+<li>EmbedIT</li>
+<li>ERA a.s.</li>
+<li>Greyson Consulting s.r.o.</li>
+<li>INVENTI Development s.r.o.</li>
+<li>JABLOTRON CLOUD Services</li>
+<li>JetBrains s.r.o.</li>
+<li>Jumpshot</li>
+<li>Komerční banka</li>
+<li>Konplan s.r.o.</li>
+<li>Logio</li>
+<li>Oracle Czech Republic</li>
+<li>Seznam.cz, a.s.</li>
+<li>ŠKODA AUTO a.s.</li>
+<li>Tipsport a.s.</li>
+<li>TollNet a.s.</li>
+<li>Unicorn a.s.</li>
+<li>Valeo</li>
+<li>Veeam Software</li>
+</ul>
+<p>Postupně budeme přidávat další vystavující firmy.</p>
+<h2>Za programátory do Letňan</h2>
+<p>Veletrh se koná<b> v sobotu 18. května od 10.00 do 16.00</b> na výstavišti <b>PVA EXPO PRAHA v Letňanech</b>. Dostanete se tam jednoduše metrem do stanice Letňany, odtud je to pár metrů. Nebo autem na adresu <a href="http://pvaexpo.cz/navstevnik">Beranových 667, 199 00 Praha 9 &#8211; Letňany</a>.</p>
+<p>Registrujte se zdarma na webu <a href="http://www.jobsdev.cz/">www.jobsdev.cz</a>.</p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>

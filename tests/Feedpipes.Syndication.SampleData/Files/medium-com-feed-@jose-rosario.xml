@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:cc="http://cyber.law.harvard.edu/rss/creativeCommonsRssModule.html">
+    <channel>
+        <title><![CDATA[Stories by José Rosário on Medium]]></title>
+        <description><![CDATA[Stories by José Rosário on Medium]]></description>
+        <link>https://medium.com/@jose.rosario?source=rss-517e1070243c------2</link>
+        <image>
+            <url>https://cdn-images-1.medium.com/fit/c/150/150/1*MqKTVPR3OaZ4LpWEXqo3kA.jpeg</url>
+            <title>Stories by José Rosário on Medium</title>
+            <link>https://medium.com/@jose.rosario?source=rss-517e1070243c------2</link>
+        </image>
+        <generator>Medium</generator>
+        <lastBuildDate>Fri, 26 Jul 2019 16:18:50 GMT</lastBuildDate>
+        <atom:link href="https://medium.com/feed/@jose.rosario" rel="self" type="application/rss+xml"/>
+        <webMaster><![CDATA[yourfriends@medium.com]]></webMaster>
+        <atom:link href="http://medium.superfeedr.com" rel="hub"/>
+        <item>
+            <title><![CDATA[Hi Aleksander,]]></title>
+            <link>https://medium.com/@jose.rosario/hi-aleksander-c342dec5ca41?source=rss-517e1070243c------2</link>
+            <guid isPermaLink="false">https://medium.com/p/c342dec5ca41</guid>
+            <dc:creator><![CDATA[José Rosário]]></dc:creator>
+            <pubDate>Thu, 14 Jun 2018 10:20:06 GMT</pubDate>
+            <atom:updated>2018-06-14T10:20:06.384Z</atom:updated>
+            <content:encoded><![CDATA[<p>Hi Aleksander,</p><p>Read my article about FLIP technique <a href="https://medium.com/outsystems-experts/flip-your-60-fps-animations-flip-em-good-372281598865">https://medium.com/outsystems-experts/flip-your-60-fps-animations-flip-em-good-372281598865</a></p><p>With this approach you can animate widths and heights :)</p><img src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=c342dec5ca41" width="1" height="1">]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[From Design to Code: Creating and Animating Images with CSS]]></title>
+            <link>https://codeburst.io/from-design-to-code-creating-and-animating-images-with-css-b10c2464f37a?source=rss-517e1070243c------2</link>
+            <guid isPermaLink="false">https://medium.com/p/b10c2464f37a</guid>
+            <category><![CDATA[html]]></category>
+            <category><![CDATA[coding]]></category>
+            <category><![CDATA[web-development]]></category>
+            <category><![CDATA[css]]></category>
+            <dc:creator><![CDATA[José Rosário]]></dc:creator>
+            <pubDate>Mon, 19 Mar 2018 13:59:30 GMT</pubDate>
+            <atom:updated>2018-03-19T13:59:30.741Z</atom:updated>
+            <content:encoded><![CDATA[<figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*DEEWKGshdSLcjanJ4PrpqA.png" /></figure><p>So, there I was. A front-end developer who loves a good challenge. I was determined to turn an image into an elegant piece of code. And I also wanted to animate it. You see, for me, there is nothing more challenging than going deep into CSS and HTML, and honing these skills. Therefore, I’m always on the lookout for something that will push me and also allow me to evaluate where I can improve.</p><p>Before I found this challenge and as part of my self-improvement journey, I tried to play with the <a href="http://dailycssimages.com/">Daily CSS Images</a>, but sadly I don’t have much time to do it! Another thing I do regularly is create small snippets of CSS interactions based on Dribbble Shots.</p><figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*Z4U34DJcpqnMg3AmHWN9IQ.jpeg" /><figcaption>These shots on <a href="https://codepen.io/JoseRosario/">Codepen</a>.</figcaption></figure><p>So when I came across <a href="http://codevember.xyz/">Codevember</a>, my heart skipped a beat! This was perfect. I would have to come up with a creative codepen every day based on the daily Codevember theme.</p><figure><img alt="" src="https://cdn-images-1.medium.com/max/750/0*OZf7pigOIht6caby." /></figure><p>If you have read any of my previous stuff, you know that I love to <a href="https://medium.com/outsystems-experts/how-to-achieve-60-fps-animations-with-css3-db7b98610108">play with CSS</a>, so this challenge was the perfect opportunity to further explore these skills. Now the catch. I’m not a very creative guy, so I had to come up with some sort of technique to turn an image into an elegant piece of code.</p><p>And that’s what I’d like to share with you.</p><h3>Pick Your Image; Break It Apart</h3><p>To explain this process, I chose the iconic classic yellow tram that runs across Lisbon.</p><figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*5cWBdezncHr42tUt_pBx-Q.jpeg" /></figure><p>I drew the yellow tram as a two-dimensional vector graphic. Oh, and I excluded the graffiti. With an image editor (I used Illustrator, but you can also use Photoshop or Sketch), I picked colors and sizes and began to separate the main areas of the image.</p><figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*Taj4-QYS8KOfasBXpA04Rg.jpeg" /><figcaption>Image broken into 6 main areas.</figcaption></figure><p>Then I split each area of the image into even smaller pieces.</p><figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*GHe9ONy5IcpA-uyEgVGshw.jpeg" /><figcaption>This main area was broken into even smaller pieces.</figcaption></figure><h3>Image Pieces Into a Relative Stage</h3><p>Now that I’ve set the relative stage for my tram, you can also create your relative stage because we will work with absolute positions and sizes. Inside the relative stage, create the number of divs that represent the image divided into main areas. And, inside each main area, create the divs that represent the smaller pieces. Then center the stage in the screen.</p><p>This will all make sense soon, I promise.</p><iframe src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fcodepen.io%2FJoseRosario%2Fembed%2Fpreview%2FaYvdYK%3Fheight%3D600%26slug-hash%3DaYvdYK%26default-tabs%3Dcss%2Cresult%26host%3Dhttps%3A%2F%2Fcodepen.io%26embed-version%3D2&amp;url=https%3A%2F%2Fcodepen.io%2FJoseRosario%2Fpen%2FaYvdYK%2F&amp;image=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fi.cdpn.io%2F693640.aYvdYK.small.0f7e9ffe-554f-44ec-98ad-bf64c3fc5db4.png&amp;key=a19fcc184b9711e1b4764040d3dc5c07&amp;type=text%2Fhtml&amp;schema=codepen" width="800" height="600" frameborder="0" scrolling="no"><a href="https://medium.com/media/aa4c7ce7dc5c185019551a9bfb3d024c/href">https://medium.com/media/aa4c7ce7dc5c185019551a9bfb3d024c/href</a></iframe><p>You can now create classes for each div with an obvious name — you know, call things by their names, as this will help you to know which element of the image the div corresponds to. Style each div with width/height and background-color or border to see the range of the areas, and then work with position absolute to position the divs almost in the right place.</p><iframe src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fcodepen.io%2FJoseRosario%2Fembed%2Fpreview%2FQmjNva%3Fheight%3D600%26slug-hash%3DQmjNva%26default-tabs%3Dcss%2Cresult%26host%3Dhttps%3A%2F%2Fcodepen.io%26embed-version%3D2&amp;url=https%3A%2F%2Fcodepen.io%2FJoseRosario%2Fpen%2FQmjNva%2F&amp;image=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fi.cdpn.io%2F693640.QmjNva.small.65325d09-214d-4b70-81de-a4247fd142e7.png&amp;key=a19fcc184b9711e1b4764040d3dc5c07&amp;type=text%2Fhtml&amp;schema=codepen" width="800" height="600" frameborder="0" scrolling="no"><a href="https://medium.com/media/1b5c56e90d8b0fbeba2692ad6918f8d5/href">https://medium.com/media/1b5c56e90d8b0fbeba2692ad6918f8d5/href</a></iframe><h3>Optimize Your Code</h3><p>Now that we have this done, we can optimize the code. Code optimization is an important step especially when you’re dealing with CSS because the number of lines can turn your work into a scavenger hunt.</p><p>So, to optimize the code, you should:</p><ul><li>Identify the common repeated styles to help reduce the number of CSS lines. For example, all divs have the position absolute applied, so instead of declaring position absolute in the entire CSS, we only write it once and apply that class to the HTML. (For this example, I will only identify the repeated background colors, position absolute, and center elements horizontally.)</li><li>Create useful classes for them.</li><li>Write the created useful classes in HTML.</li></ul><iframe src="" width="0" height="0" frameborder="0" scrolling="no"><a href="https://medium.com/media/b14f9392274dce466a18bc2ae14df096/href">https://medium.com/media/b14f9392274dce466a18bc2ae14df096/href</a></iframe><iframe src="" width="0" height="0" frameborder="0" scrolling="no"><a href="https://medium.com/media/1aa0c3ce3c2833390bcf53df6b039677/href">https://medium.com/media/1aa0c3ce3c2833390bcf53df6b039677/href</a></iframe><p>If you follow this advice, you can significantly improve your code, and it’s easier to debug.</p><iframe src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fcodepen.io%2FJoseRosario%2Fembed%2Fpreview%2FwmKbzo%3Fheight%3D600%26slug-hash%3DwmKbzo%26default-tabs%3Dcss%2Cresult%26host%3Dhttps%3A%2F%2Fcodepen.io%26embed-version%3D2&amp;url=https%3A%2F%2Fcodepen.io%2FJoseRosario%2Fpen%2FwmKbzo%2F&amp;image=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fi.cdpn.io%2F693640.wmKbzo.small.3704ccfa-6f50-4f79-8c1c-be7c68ec621e.png&amp;key=a19fcc184b9711e1b4764040d3dc5c07&amp;type=text%2Fhtml&amp;schema=codepen" width="800" height="600" frameborder="0" scrolling="no"><a href="https://medium.com/media/db9d65a7a471a9b3f5565e6ae2fc9a87/href">https://medium.com/media/db9d65a7a471a9b3f5565e6ae2fc9a87/href</a></iframe><h3>Going Pixel Perfect</h3><p>To appease the perfectionist in you, there’s even more you can do to ensure perfect-looking images:</p><ul><li>Remove the auxiliary styles that help you identify the main areas.</li><li>Apply the correct background colors in useful classes.</li><li>Style each div with the correct styles by applying the correct sizes, the correct position, and the other styles for a more accurate design.</li></ul><p>For this example, I added some borders and a border-radius, and of course, I changed some positions and sizes to match the final UI Design 100%. Since some styles are duplicated, I created more useful classes to optimize the code.</p><figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*ea8Hie7R_iSCV6xhdwd5PQ.jpeg" /></figure><h3>Animate Your Images</h3><p>If you know me, you know that I like to animate things. So, here’s what I did to animate our CSS image. I decided to create an animation that represents the idea of movement, and for that, I slightly changed our initial structure because I wanted to create two different types of animations:</p><p>I wrapped all the divs that I wanted to animate in a single div. This way, I only had to animate that div, instead of all the divs individually.</p><p>Since the railways have another animation, I had to move the railway divs outside the train divs.</p><p>Using only CSS Keyframes with some delays and times, this is the final result:</p><iframe src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fcodepen.io%2FJoseRosario%2Fembed%2Fpreview%2FOvXdYy%3Fheight%3D600%26slug-hash%3DOvXdYy%26default-tabs%3Dcss%2Cresult%26host%3Dhttps%3A%2F%2Fcodepen.io%26embed-version%3D2&amp;url=https%3A%2F%2Fcodepen.io%2FJoseRosario%2Fpen%2FOvXdYy%2F&amp;image=https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fi.cdpn.io%2F693640.OvXdYy.small.3b50309b-458f-40ed-8861-6bf32a92a953.png&amp;key=a19fcc184b9711e1b4764040d3dc5c07&amp;type=text%2Fhtml&amp;schema=codepen" width="800" height="600" frameborder="0" scrolling="no"><a href="https://medium.com/media/cbc580375008eee1ac2bddcf1771188d/href">https://medium.com/media/cbc580375008eee1ac2bddcf1771188d/href</a></iframe><p>Questions? Write them in the comments below!</p><figure><a href="http://bit.ly/codeburst"><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*i3hPOj27LTt0ZPn5TQuhZg.png" /></a></figure><blockquote>✉️ <em>Subscribe to </em>CodeBurst’s<em> once-weekly </em><a href="http://bit.ly/codeburst-email"><strong><em>Email Blast</em></strong></a><strong><em>, </em></strong>🐦 <em>Follow </em>CodeBurst<em> on </em><a href="http://bit.ly/codeburst-twitter"><strong><em>Twitter</em></strong></a><em>, view </em>🗺️ <a href="http://bit.ly/2018-web-dev-roadmap"><strong><em>The 2018 Web Developer Roadmap</em></strong></a><em>, and </em>🕸️ <a href="http://bit.ly/learn-web-dev-codeburst"><strong><em>Learn Full Stack Web Development</em></strong></a><em>.</em></blockquote><img src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=b10c2464f37a" width="1" height="1"><hr><p><a href="https://codeburst.io/from-design-to-code-creating-and-animating-images-with-css-b10c2464f37a">From Design to Code: Creating and Animating Images with CSS</a> was originally published in <a href="https://codeburst.io">codeburst</a> on Medium, where people are continuing the conversation by highlighting and responding to this story.</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Using Flexbox, RTL is done automatically :) Just need to change the direction mode.]]></title>
+            <link>https://medium.com/@jose.rosario/using-flexbox-rtl-is-done-automatically-just-need-to-change-the-direction-mode-bfb6cc5bffe2?source=rss-517e1070243c------2</link>
+            <guid isPermaLink="false">https://medium.com/p/bfb6cc5bffe2</guid>
+            <dc:creator><![CDATA[José Rosário]]></dc:creator>
+            <pubDate>Mon, 19 Jun 2017 15:16:33 GMT</pubDate>
+            <atom:updated>2017-06-19T15:16:33.059Z</atom:updated>
+            <content:encoded><![CDATA[<p>Using Flexbox, RTL is done automatically :) Just need to change the direction mode.</p><img src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=bfb6cc5bffe2" width="1" height="1">]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Hi AMp thanks!]]></title>
+            <link>https://medium.com/@jose.rosario/hi-amp-thanks-c43c1a7a3378?source=rss-517e1070243c------2</link>
+            <guid isPermaLink="false">https://medium.com/p/c43c1a7a3378</guid>
+            <dc:creator><![CDATA[José Rosário]]></dc:creator>
+            <pubDate>Mon, 15 May 2017 09:47:41 GMT</pubDate>
+            <atom:updated>2017-05-15T09:47:41.642Z</atom:updated>
+            <content:encoded><![CDATA[<p>Hi AMp thanks! :) I didn’t understand that last part. The CodePen is working fine on my side. What’s the problem you’re having?</p><img src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=c43c1a7a3378" width="1" height="1">]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Hi Juris,]]></title>
+            <link>https://medium.com/@jose.rosario/hi-juris-985509ddad9c?source=rss-517e1070243c------2</link>
+            <guid isPermaLink="false">https://medium.com/p/985509ddad9c</guid>
+            <dc:creator><![CDATA[José Rosário]]></dc:creator>
+            <pubDate>Mon, 10 Apr 2017 13:30:50 GMT</pubDate>
+            <atom:updated>2017-04-10T13:30:50.576Z</atom:updated>
+            <content:encoded><![CDATA[<p>Hi Juris,</p><p>If you animate absolute values like in my other article then yes, but when you don’t know the exact position or dimension of the element you need to go a layer deeper and use the FLIP technique</p><img src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=985509ddad9c" width="1" height="1">]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Hi Bitten,]]></title>
+            <link>https://medium.com/@jose.rosario/hi-bitten-cadc8b905189?source=rss-517e1070243c------2</link>
+            <guid isPermaLink="false">https://medium.com/p/cadc8b905189</guid>
+            <dc:creator><![CDATA[José Rosário]]></dc:creator>
+            <pubDate>Mon, 10 Apr 2017 13:27:29 GMT</pubDate>
+            <atom:updated>2017-04-10T13:27:29.245Z</atom:updated>
+            <content:encoded><![CDATA[<p>Hi Bitten,</p><p>Maybe you are right, but it works on my side. Does it work on your side?</p><img src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=cadc8b905189" width="1" height="1">]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Hi Daniel,]]></title>
+            <link>https://medium.com/@jose.rosario/hi-daniel-963df8a436e5?source=rss-517e1070243c------2</link>
+            <guid isPermaLink="false">https://medium.com/p/963df8a436e5</guid>
+            <dc:creator><![CDATA[José Rosário]]></dc:creator>
+            <pubDate>Mon, 10 Apr 2017 13:25:51 GMT</pubDate>
+            <atom:updated>2017-04-10T13:25:51.605Z</atom:updated>
+            <content:encoded><![CDATA[<p>Hi Daniel,</p><p>Thanks for pointing that out!</p><img src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=963df8a436e5" width="1" height="1">]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Hi Miguel,]]></title>
+            <link>https://medium.com/@jose.rosario/hi-miguel-fd83df251bef?source=rss-517e1070243c------2</link>
+            <guid isPermaLink="false">https://medium.com/p/fd83df251bef</guid>
+            <dc:creator><![CDATA[José Rosário]]></dc:creator>
+            <pubDate>Mon, 10 Apr 2017 13:22:46 GMT</pubDate>
+            <atom:updated>2017-04-10T13:22:46.411Z</atom:updated>
+            <content:encoded><![CDATA[<p>Hi Miguel,</p><p>The variables in CodePen are correct otherwise it wouldn’t work. What is it that you don’t understand, so that I can explain? :)</p><img src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=fd83df251bef" width="1" height="1">]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Can you please provide more information about that?]]></title>
+            <link>https://medium.com/@jose.rosario/can-you-please-provide-more-information-about-that-e0469991d83d?source=rss-517e1070243c------2</link>
+            <guid isPermaLink="false">https://medium.com/p/e0469991d83d</guid>
+            <dc:creator><![CDATA[José Rosário]]></dc:creator>
+            <pubDate>Mon, 10 Apr 2017 13:19:19 GMT</pubDate>
+            <atom:updated>2017-04-10T13:19:19.243Z</atom:updated>
+            <content:encoded><![CDATA[<p>Can you please provide more information about that? For example where are you running your code? I will try to help you! :D</p><img src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=e0469991d83d" width="1" height="1">]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Hi OnTheLine,]]></title>
+            <link>https://medium.com/@jose.rosario/hi-ontheline-73aa0bcadd6a?source=rss-517e1070243c------2</link>
+            <guid isPermaLink="false">https://medium.com/p/73aa0bcadd6a</guid>
+            <dc:creator><![CDATA[José Rosário]]></dc:creator>
+            <pubDate>Mon, 10 Apr 2017 13:17:50 GMT</pubDate>
+            <atom:updated>2017-04-10T13:17:50.498Z</atom:updated>
+            <content:encoded><![CDATA[<p>Hi OnTheLine,</p><p>The reason why I divide the animation into .menu — visible and .menu — animatable is to control the eases of the animation. If I don’t do that, it’s always the same value of animation and time.</p><p>Regarding the values, have a look at this article and let me know if you have any more questions. <a href="https://css-tricks.com/ease-out-in-ease-in-out/">https://css-tricks.com/ease-out-in-ease-in-out/</a></p><p>Regards</p><img src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=73aa0bcadd6a" width="1" height="1">]]></content:encoded>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>tabs ↹ over ␣ ␣ ␣ spaces by Jiří {x2} Činčura</title>
+	<link href="https://www.tabsoverspaces.com/feed.xml" rel="self"/>
+	<link href="https://www.tabsoverspaces.com"/>
+	<updated>2019-07-25T16:27:23Z</updated>
+	<author>
+		<name>tabs ↹ over ␣ ␣ ␣ spaces by Jiří {x2} Činčura</name>
+	</author>
+	<id>http://www.tabsoverspaces.com/</id>
+
+	<entry>
+		<title><![CDATA[Friday’s This<T>]]></title>
+		<link href="https://www.tabsoverspaces.com/233792-fridays-this-t?utm_source=feed"/>
+		<updated>2019-07-25T06:29:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233792</id>
+		<content type="html"><![CDATA[<p>Last week on Friday I was working on some code, I don’t even remember what it was, and there was excessive usage of <code>this</code>. And my personal pet peeve is writing most readable code in most succinct way possible. For sure <code>this</code> hurts this (no pun intended). The following class is a result of that Friday’s frustration.</p>
+<p><a href="https://www.tabsoverspaces.com/233792-fridays-this-t?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[ADO.NET provider 6.7.0.0 for Firebird is ready]]></title>
+		<link href="https://www.tabsoverspaces.com/233791-ado-net-provider-6-7-0-0-for-firebird-is-ready?utm_source=feed"/>
+		<updated>2019-07-25T06:15:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233791</id>
+		<content type="html"><![CDATA[<p>New version 6.7.0.0 of <a href="http://www.firebirdsql.org/en/net-provider/">ADO.NET provider for Firebird</a> is ready for download. This release improves the Entity Framework Core support and Firebird Embedded support.</p>
+<p><a href="https://www.tabsoverspaces.com/233791-ado-net-provider-6-7-0-0-for-firebird-is-ready?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[Introducing D.ebug]]></title>
+		<link href="https://www.tabsoverspaces.com/233790-introducing-d-ebug?utm_source=feed"/>
+		<updated>2019-07-10T08:59:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233790</id>
+		<content type="html"><![CDATA[<p>Lately I’ve been doing a lot of debugging often in code that needs to be executed certain way, from certain place and sometimes is also modified post-build a little. And sometimes more stuff, which I’ll not bother you with. And this makes debugging a tiny bit more difficult.</p>
+<p><a href="https://www.tabsoverspaces.com/233790-introducing-d-ebug?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[FbNetExternalEngine 2.0 released – functions and performance]]></title>
+		<link href="https://www.tabsoverspaces.com/233789-fbnetexternalengine-2-0-released-functions-and-performance?utm_source=feed"/>
+		<updated>2019-07-08T18:38:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233789</id>
+		<content type="html"><![CDATA[<p>It has been few exciting weeks and days lately and today I’m happy to introduce you to <a href="/tools/fb-net-external-engine"><em>FbNetExternalEngine</em></a> version 2.0. This version adds support for functions and also improves performance (on top of <a href="/233788-fbnetexternalengine-1-0-1-with-performance-improvements">previous improvements</a>).</p>
+<p><a href="https://www.tabsoverspaces.com/233789-fbnetexternalengine-2-0-released-functions-and-performance?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[FbNetExternalEngine 1.0.1 with performance improvements]]></title>
+		<link href="https://www.tabsoverspaces.com/233788-fbnetexternalengine-1-0-1-with-performance-improvements?utm_source=feed"/>
+		<updated>2019-06-17T11:02:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233788</id>
+		<content type="html"><![CDATA[<p>Today I’m releasing first small update to the <a href="/tools/fb-net-external-engine"><em>FbNetExternalEngine</em></a>. The focus is just on performance. No new features were added.</p>
+<p><a href="https://www.tabsoverspaces.com/233788-fbnetexternalengine-1-0-1-with-performance-improvements?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[WUG: C# 8, 7.x, .NET Core 3, Visual Studio 2019, .NET 4.8 a ostatné novoty (Košice)]]></title>
+		<link href="https://www.tabsoverspaces.com/233787-wug-csharp-8-7x-net-core-3-visual-studio-2019-net-48-a-ostatne-novoty-kosice?utm_source=feed"/>
+		<updated>2019-06-17T09:47:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233787</id>
+		<content type="html"><![CDATA[<p>V .NETu se dějou v posledních měsích velké změny. Trochu toho zmatku si srovnáme na WUGu v Košicích 18.6.2019 of 17:00. Tak neváhejte a doražte. Beztak bude pršet a Tatry jsou daleko. 😉</p>
+<blockquote>
+<p><a href="https://i.tabsoverspaces.com/233787/slides.pdf">Prezentace <span class="fa fa-file-text-o" aria-hidden="true"></span></a></p>
+</blockquote>
+<blockquote>
+<p><a href="https://i.tabsoverspaces.com/233787/csharp8.cs">C# 8.0 dema <span class="fa fa-file-text-o" aria-hidden="true"></span></a></p>
+</blockquote>
+<p><a href="https://www.tabsoverspaces.com/233787-wug-csharp-8-7x-net-core-3-visual-studio-2019-net-48-a-ostatne-novoty-kosice?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[Empty try with finally]]></title>
+		<link href="https://www.tabsoverspaces.com/233786-empty-try-with-finally?utm_source=feed"/>
+		<updated>2019-06-10T05:55:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233786</id>
+		<content type="html"><![CDATA[<p>The <code>finally</code> block has a little unknown feature, that frankly isn’t even remotely needed for regular day-to-day development, but you already know content on this blog is usually little geeky.</p>
+<p><a href="https://www.tabsoverspaces.com/233786-empty-try-with-finally?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[Is it better to "!= 0” or ”== mask” when working with enums (C#, RyuJIT)]]></title>
+		<link href="https://www.tabsoverspaces.com/233785-is-it-better-to-not-equals-0-or-equals-mask-when-working-with-enums-csharp-ryujit?utm_source=feed"/>
+		<updated>2019-05-20T19:22:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233785</id>
+		<content type="html"><![CDATA[<p>First thing first, I know there’s an <a href="https://docs.microsoft.com/en-us/dotnet/api/system.enum.hasflag"><code>Enum.HasFlag</code> method</a>, yet I’m not interested in it (or optimizations around it). What I like to know is whether one of these two ways – <code>(EnumValue &amp; mask) != 0</code> and <code>(EnumValue &amp; mask) == mask</code> – to check for a (<strong>single value</strong>) flag in an enum is better.</p>
+<p><a href="https://www.tabsoverspaces.com/233785-is-it-better-to-not-equals-0-or-equals-mask-when-working-with-enums-csharp-ryujit?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[Generics, structs and nulls – the JIT is smart so you don’t have to]]></title>
+		<link href="https://www.tabsoverspaces.com/233783-generics-structs-and-nulls-the-jit-is-smart-so-you-dont-have-to?utm_source=feed"/>
+		<updated>2019-05-07T10:34:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233783</id>
+		<content type="html"><![CDATA[<p>Few days back I learned geeky little piece about JIT. This is exactly the type of knowledge you don’t have to use, maybe ever, yet it’s crucial the JIT handles it (so you don’t have to), because every smart instruction is performance gained. Literally, every instruction or every CPU cycle counts.</p>
+<p><a href="https://www.tabsoverspaces.com/233783-generics-structs-and-nulls-the-jit-is-smart-so-you-dont-have-to?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[Update Days: Corestart 3.0]]></title>
+		<link href="https://www.tabsoverspaces.com/233782-update-days-corestart-3-0?utm_source=feed"/>
+		<updated>2019-05-06T14:34:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233782</id>
+		<content type="html"><![CDATA[<p>.NET Core 3.0 se blíží a s ním i další várka změn a novinek. A protože jde o další major verzi, není toho málo. Tomáš Herceg a jeho team připravili konferenci <a href="https://corestart3.updatedays.cz/">Update Days: Corestart 3.0</a>, která se koná 6. – 7. června 2019.</p>
+<p><a href="https://www.tabsoverspaces.com/233782-update-days-corestart-3-0?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[Comparing speed of Blob Storage, AppService and CDN on Azure for static file serving]]></title>
+		<link href="https://www.tabsoverspaces.com/233781-comparing-speed-of-blob-storage-appservice-and-cdn-on-azure-for-static-file-serving?utm_source=feed"/>
+		<updated>2019-04-30T06:16:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233781</id>
+		<content type="html"><![CDATA[<p>For no particular reason and with no particular goal I decided to see how “fast” some selected services, with the ability to serve a static file, on Azure are. I was interested in the time to serve the file and requests per second. The services I selected are AppService in B1 and S1 plan, Blob Storage GPv2 and CDN in Standard plan from Verizon and Microsoft.</p>
+<p><a href="https://www.tabsoverspaces.com/233781-comparing-speed-of-blob-storage-appservice-and-cdn-on-azure-for-static-file-serving?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[Extravaganza using ConfigureAwait, await and await foreach]]></title>
+		<link href="https://www.tabsoverspaces.com/233780-extravaganza-using-configureawait-await-and-await-foreach?utm_source=feed"/>
+		<updated>2019-04-26T07:49:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233780</id>
+		<content type="html"><![CDATA[<p>As I was writing <a href="/233779-using-await-using-iasyncdisposable-with-configureawait">previous post</a> I got some idea to “nest” <code>await</code>s in the <code>using</code> definition and make it little bit confusing.</p>
+<p><a href="https://www.tabsoverspaces.com/233780-extravaganza-using-configureawait-await-and-await-foreach?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[Using await using (IAsyncDisposable) with ConfigureAwait]]></title>
+		<link href="https://www.tabsoverspaces.com/233779-using-await-using-iasyncdisposable-with-configureawait?utm_source=feed"/>
+		<updated>2019-04-24T08:42:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233779</id>
+		<content type="html"><![CDATA[<p>C# 8 is bringing asynchronous disposables via new <a href="https://source.dot.net/#System.Private.CoreLib/shared/System/IAsyncDisposable.cs,4f4bd6a091aeee8b"><code>IAsyncDisposable</code></a> and although the basic concept is easy to grasp, other rules of <code>await</code>ing still apply here. And one of these is the usage of <code>ConfigureAwait</code> call.</p>
+<p><a href="https://www.tabsoverspaces.com/233779-using-await-using-iasyncdisposable-with-configureawait?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[NT konferenca 2019]]></title>
+		<link href="https://www.tabsoverspaces.com/233778-nt-konferenca-2019?utm_source=feed"/>
+		<updated>2019-04-23T05:36:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233778</id>
+		<content type="html"><![CDATA[<p>In less than a month (21st-23rd of May 2019) the biggest Slovenian conference – <a href="https://www.ntk.si/">NT konferenca 2019</a> – will happen. And I’m so stoked to be part of it with my session about <a href="https://www.ntk.si/urnik/predavanje/what_to_expect_from_entity_framework/19">What to expect from Entity Framework Core 3.0 and Entity Framework 6.3</a>.</p>
+<p><a href="https://www.tabsoverspaces.com/233778-nt-konferenca-2019?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[WUG: Co čekat ve světě .NETu v roce 2019 (Olomouc)]]></title>
+		<link href="https://www.tabsoverspaces.com/233777-wug-co-cekat-ve-svete-netu-v-roce-2019-olomouc?utm_source=feed"/>
+		<updated>2019-04-22T15:23:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233777</id>
+		<content type="html"><![CDATA[<p>Nový rok 2019 nám začal, a tak nebude od věci se podívat co nás čeká (a asi ani nemine) za novinky a změny ve světě vývoje .NET aplikací na <a href="https://www.wug.cz/olomouc/akce/1135-Co-cekat-ve-svete-NETu-v-roce-2019">WUGu v Olomouci 25.4.2019 od 17:00</a>. Představíme si praktický dopad jednotlivých novinek z různých pohledů, jejich očekávanou časovou dostupnost i jak se na jejich příchod již nyní připravit.</p>
+<p><a href="https://www.tabsoverspaces.com/233777-wug-co-cekat-ve-svete-netu-v-roce-2019-olomouc?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[Global Azure Bootcamp 2019]]></title>
+		<link href="https://www.tabsoverspaces.com/233784-global-azure-bootcamp-2019?utm_source=feed"/>
+		<updated>2019-04-20T12:21:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233784</id>
+		<content type="html"><![CDATA[<p>Global Azure Bootcamp 2019. Jeden den, Azure po celém světě. A taky <a href="https://www.azurebootcamp.cz/">v Praze</a>. I já přispěju svojí troškou do mlýna a povím vám něco o Azure Cosmos DB.</p>
+<p><a href="https://www.tabsoverspaces.com/233784-global-azure-bootcamp-2019?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[Cloud DeveloperDays 2019]]></title>
+		<link href="https://www.tabsoverspaces.com/233776-cloud-developerdays-2019?utm_source=feed"/>
+		<updated>2019-04-18T07:45:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233776</id>
+		<content type="html"><![CDATA[<p>In less than two months (28th-29th of May 2019) the <a href="http://cloud.developerdays.pl/">Cloud DeveloperDays 2019</a> conference will happen. I was lucky to have two sessions selected and I hope to meet you there.</p>
+<p><a href="https://www.tabsoverspaces.com/233776-cloud-developerdays-2019?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[Gopas TechEd 2019]]></title>
+		<link href="https://www.tabsoverspaces.com/233775-gopas-teched-2019?utm_source=feed"/>
+		<updated>2019-04-10T11:56:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233775</id>
+		<content type="html"><![CDATA[<p>Web ještě nehlásí vyprodáno, takže je stále možnost urvat vstup. Na <a href="http://www.teched.cz">letošní TechEd</a> jsem připravil tři přednášky:</p>
+<ul>
+<li>.NET Core 3.0, .NET Framework 4.8 a proč vše kolem je největší změna od zrodu .NETu</li>
+<li>Jak měřit výkon .NET kódu správně</li>
+<li>Entity Framework vs. SQL Server – co jste mohli udělat a neudělali; a co jste dělat neměli a přesto udělali</li>
+</ul>
+<p><a href="https://www.tabsoverspaces.com/233775-gopas-teched-2019?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[Using Data Protection in Entity Framework Core with Value Converters]]></title>
+		<link href="https://www.tabsoverspaces.com/233774-using-data-protection-in-entity-framework-core-with-value-converters?utm_source=feed"/>
+		<updated>2019-04-02T18:44:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233774</id>
+		<content type="html"><![CDATA[<p>When I wrote the post <a href="/233708-using-value-converter-for-custom-encryption-of-field-on-entity-framework-core-2-1">Using value converter for custom encryption of field on Entity Framework Core 2.1</a> the encryption there was non-existing. My intention was to show the skeleton. But in comments somebody asked how to wire up Data Protection.</p>
+<p><a href="https://www.tabsoverspaces.com/233774-using-data-protection-in-entity-framework-core-with-value-converters?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[ADO.NET provider 6.6.0.0 for Firebird is ready]]></title>
+		<link href="https://www.tabsoverspaces.com/233773-ado-net-provider-6-6-0-0-for-firebird-is-ready?utm_source=feed"/>
+		<updated>2019-04-01T12:28:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233773</id>
+		<content type="html"><![CDATA[<p>New version 6.6.0.0 of <a href="http://www.firebirdsql.org/en/net-provider/">ADO.NET provider for Firebird</a> is ready for download. This release fills all the holes in the Entity Framework Core support. To be precise now <em>Migrations</em> are fully supported and query pipeline has been massively improved. Just to give you an idea, about 4100 tests were added. If you want to use Entity Framework Core with Firebird, now is the time.</p>
+<p><a href="https://www.tabsoverspaces.com/233773-ado-net-provider-6-6-0-0-for-firebird-is-ready?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[ADO.NET provider 6.5.0.0 for Firebird is ready]]></title>
+		<link href="https://www.tabsoverspaces.com/233772-ado-net-provider-6-5-0-0-for-firebird-is-ready?utm_source=feed"/>
+		<updated>2019-02-14T14:14:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233772</id>
+		<content type="html"><![CDATA[<p>New version 6.5.0.0 of <a href="http://www.firebirdsql.org/en/net-provider/">ADO.NET provider for Firebird</a> is ready for download. This is a mostly release with bug fixes, although one new feature was added and that is support for <a href="https://github.com/dotnet/sourcelink/blob/master/README.md">SourceLink</a>.</p>
+<p><a href="https://www.tabsoverspaces.com/233772-ado-net-provider-6-5-0-0-for-firebird-is-ready?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[How many keywords I can fit into a single C# expression? – results]]></title>
+		<link href="https://www.tabsoverspaces.com/233771-how-many-keywords-i-can-fit-into-a-single-csharp-expression-results?utm_source=feed"/>
+		<updated>2019-02-14T10:54:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233771</id>
+		<content type="html"><![CDATA[<p>When I wrote the <a href="/233768-how-many-keywords-i-can-fit-into-a-single-csharp-expression">yield return await and await foreach geekery</a> post I had no idea it would be so interesting for so many people. But it really spiked up. And I feel a need to point out some interesting ideas people posted on Reddit, in comments or on Twitter.</p>
+<p><a href="https://www.tabsoverspaces.com/233771-how-many-keywords-i-can-fit-into-a-single-csharp-expression-results?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[Size of struct and size of class in .NET]]></title>
+		<link href="https://www.tabsoverspaces.com/233770-size-of-struct-and-size-of-class-in-net?utm_source=feed"/>
+		<updated>2019-02-11T19:30:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233770</id>
+		<content type="html"><![CDATA[<p>I was playing with structs and classes recently and found something I had no idea .NET does. Although it’s not something groundbreaking, I’ll share it with you anyway.</p>
+<p><a href="https://www.tabsoverspaces.com/233770-size-of-struct-and-size-of-class-in-net?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[WUG: Co čekat ve světě .NETu v roce 2019 (Zlín)]]></title>
+		<link href="https://www.tabsoverspaces.com/233769-wug-co-cekat-ve-svete-netu-v-roce-2019-zlin?utm_source=feed"/>
+		<updated>2019-02-11T08:29:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233769</id>
+		<content type="html"><![CDATA[<p>Nový rok 2019 nám začal, a tak nebude od věci se podívat co nás čeká (a asi ani nemine) za novinky a změny ve světě vývoje .NET aplikací na <a href="https://wug.cz/zlin/akce/1129-Co-cekat-ve-svete-NETu-v-roce-2019">WUGu ve Zlíně 21.2.2019 od 17:30</a>. Představíme si praktický dopad jednotlivých novinek z různých pohledů, jejich očekávanou časovou dostupnost i jak se na jejich příchod již nyní připravit.</p>
+<p><a href="https://www.tabsoverspaces.com/233769-wug-co-cekat-ve-svete-netu-v-roce-2019-zlin?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[How many keywords I can fit into a single C# expression?]]></title>
+		<link href="https://www.tabsoverspaces.com/233768-how-many-keywords-i-can-fit-into-a-single-csharp-expression?utm_source=feed"/>
+		<updated>2019-02-06T14:31:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233768</id>
+		<content type="html"><![CDATA[<p>As I was playing few days ago with <a href="/233767-yield-return-await-and-await-foreach-geekery">“<code>yield return await</code>“</a> I got an idea to try fit as much “keywords” as possible into one “expression”. I mean as much blue words (in Visual Studio’s default colors) as possible together (not separated by semicolon, comma, colon, bracket, etc.).</p>
+<p><a href="https://www.tabsoverspaces.com/233768-how-many-keywords-i-can-fit-into-a-single-csharp-expression?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[yield return await and await foreach geekery]]></title>
+		<link href="https://www.tabsoverspaces.com/233767-yield-return-await-and-await-foreach-geekery?utm_source=feed"/>
+		<updated>2019-01-29T07:50:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233767</id>
+		<content type="html"><![CDATA[<p>This is just a pure geekery, but as I was playing with <a href="https://github.com/dotnet/roslyn/issues/261"><em>asynchronous enumerables</em></a> I realized I can combine the <code>await</code> and <code>yield return</code> together. In fact, I can even throw <code>await foreach</code> into the mix.</p>
+<p><a href="https://www.tabsoverspaces.com/233767-yield-return-await-and-await-foreach-geekery?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[ThreadPool.QueueUserWorkItem has a generic overload (and a new parameter)]]></title>
+		<link href="https://www.tabsoverspaces.com/233766-threadpool-queueuserworkitem-has-a-generic-overload-and-a-new-parameter?utm_source=feed"/>
+		<updated>2019-01-24T19:25:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233766</id>
+		<content type="html"><![CDATA[<p>Although nowadays people, including me, are working mostly with tasks and async/await, sometimes going one level lower is helpful, because there’s less to worry about. And as I was today calling trusty <code>ThreadPool.QueueUserWorkItem</code> I found new overload. Overload that is generic.</p>
+<p><a href="https://www.tabsoverspaces.com/233766-threadpool-queueuserworkitem-has-a-generic-overload-and-a-new-parameter?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[C#’s discards don’t need var]]></title>
+		<link href="https://www.tabsoverspaces.com/233765-csharps-discards-dont-need-var?utm_source=feed"/>
+		<updated>2019-01-23T18:14:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233765</id>
+		<content type="html"><![CDATA[<p>From the “Today I found out and it’s even in the documentation” series. Did you know that when you’re using <a href="https://docs.microsoft.com/en-us/dotnet/csharp/discards">discards in C# (the <code>_</code>)</a> you don’t have to use <code>var</code>? Let’s see it in action.</p>
+<p><a href="https://www.tabsoverspaces.com/233765-csharps-discards-dont-need-var?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[Switch to errors instead of warnings for nullable reference types in C# 8]]></title>
+		<link href="https://www.tabsoverspaces.com/233764-switch-to-errors-instead-of-warnings-for-nullable-reference-types-in-csharp-8?utm_source=feed"/>
+		<updated>2019-01-21T12:57:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233764</id>
+		<content type="html"><![CDATA[<p><a href="https://docs.microsoft.com/en-us/dotnet/csharp/nullable-references">Nullable reference types</a> coming in C# 8 are a great addition to anyone’s toolbox. But if you tried it you probably know “just” warnings are produced. And sometimes you’d like to have errors instead of warnings, so the build fails hard or something like that. It’s surprisingly easy to do so.</p>
+<p><a href="https://www.tabsoverspaces.com/233764-switch-to-errors-instead-of-warnings-for-nullable-reference-types-in-csharp-8?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[G2B•TechEd 2019 a ShowIT 2019]]></title>
+		<link href="https://www.tabsoverspaces.com/233763-g2b-teched-2019-a-showit-2019?utm_source=feed"/>
+		<updated>2019-01-20T19:33:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233763</id>
+		<content type="html"><![CDATA[<p>Za několik málo týdnů se konají opět konference <a href="https://www.g2bteched.cz/cs/">G2B•TechEd</a> v Brně a <a href="https://www.showit.sk/sk/">ShowIT</a> v Bratislavě. V Brně budu mít dvě přednášky a sice <em>Developer Keynote aneb .NET Core 3.0 a proč je to největší změna od zrodu .NET Core</em> a <em>Lua pro C# vývojáře a proč by se mi to mohlo hodit</em> a V Bratislavě pak <em>.NET Core 3.0 a proč je to největší změna od zrodu .NET Core</em> a <em>Přehled výkonnostních vylepšení v .NET Core a proč je určitě chcete</em>.</p>
+<p>Ať už v tom či onom městě vás zvu a rád zodpovím vaše případné dotazy.</p>
+<p><a href="https://www.tabsoverspaces.com/233763-g2b-teched-2019-a-showit-2019?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[Interpolated verbatim string in C# 8]]></title>
+		<link href="https://www.tabsoverspaces.com/233762-interpolated-verbatim-string-in-csharp-8?utm_source=feed"/>
+		<updated>2019-01-18T16:01:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233762</id>
+		<content type="html"><![CDATA[<p>As I was talking <a href="/233761-dotnet-talks-vol-2">yesterday about new big features in C# 8</a>, I learned about a small feature coming to this version as well that simplifies usage of interpolated verbatim strings.</p>
+<p><a href="https://www.tabsoverspaces.com/233762-interpolated-verbatim-string-in-csharp-8?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[DotNET Talks, vol.2]]></title>
+		<link href="https://www.tabsoverspaces.com/233761-dotnet-talks-vol-2?utm_source=feed"/>
+		<updated>2019-01-17T07:59:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233761</id>
+		<content type="html"><![CDATA[<p>Ups. Úplně jsem zapomněl na <a href="https://www.dotnettalks.cz/">druhou edici DotNET Talks</a>. Akce se koná dneska, tedy máte ještě půl dne udělat si čas. 😃 Já vám řeknu něco o tom co čekat od C# 8 v “Co čekat v C# 8.0 v kostce”. Podle webu ještě místa jsou, tak přijďte.</p>
+<p><a href="https://www.tabsoverspaces.com/233761-dotnet-talks-vol-2?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[FbNetExternalEngine version 1.0 released]]></title>
+		<link href="https://www.tabsoverspaces.com/233760-fbnetexternalengine-version-1-0-released?utm_source=feed"/>
+		<updated>2019-01-10T12:42:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233760</id>
+		<content type="html"><![CDATA[<p>I’m so excited to finally reach point where I can call <a href="/tools/fb-net-external-engine"><em>FbNetExternalEngine</em></a> ready and release version 1.0. It’s finally happening. I remember starting in June 2016 and being excited when Firebird first loaded the stubs I had in place and today all the initial ideas are in place and working.</p>
+<p><a href="https://www.tabsoverspaces.com/233760-fbnetexternalengine-version-1-0-released?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[WUG: Co čekat ve světě .NETu v roce 2019 (Brno)]]></title>
+		<link href="https://www.tabsoverspaces.com/233759-wug-co-cekat-ve-svete-netu-v-roce-2019-brno?utm_source=feed"/>
+		<updated>2019-01-04T09:20:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233759</id>
+		<content type="html"><![CDATA[<p>Nový rok 2019 nám začal, a tak nebude od věci se podívat co nás čeká (a asi ani nemine) za novinky a změny ve světě vývoje .NET aplikací na <a href="https://www.wug.cz/brno/akce/1122-Co-cekat-ve-svete-NETu-v-roce-2019">WUGu v Brně 15.1.2019 od 17:00</a>. Představíme si praktický dopad jednotlivých novinek z různých pohledů, jejich očekávanou časovou dostupnost i jak se na jejich příchod již nyní připravit.</p>
+<p><a href="https://www.tabsoverspaces.com/233759-wug-co-cekat-ve-svete-netu-v-roce-2019-brno?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[Exploring C#’s ref return to better understand it]]></title>
+		<link href="https://www.tabsoverspaces.com/233758-exploring-csharps-ref-return-to-better-understand-it?utm_source=feed"/>
+		<updated>2018-12-05T07:57:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233758</id>
+		<content type="html"><![CDATA[<p>I felt a bit fuzzy on the topic of <a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/ref-returns"><em>ref returns</em> in C#</a>. I used it intuitively few times, but it felt I needed to fill some gaps and play with it in a little bit more structured way. This is my exploration of the topic. No particular order. No deep explanations. Just my thinking what should work and what not and trying it.</p>
+<p><a href="https://www.tabsoverspaces.com/233758-exploring-csharps-ref-return-to-better-understand-it?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[Making failed sleeping node dead to remove it from OpenZWave]]></title>
+		<link href="https://www.tabsoverspaces.com/233757-making-failed-sleeping-node-dead-to-remove-it-from-openzwave?utm_source=feed"/>
+		<updated>2018-12-02T14:33:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233757</id>
+		<content type="html"><![CDATA[<p>Yesterday I found out that one of my <a href="https://nodon.fr/en/nodon/the-z-wave-soft-remote/">NodOn Soft Remote</a>s was dead as a doornail, maybe even deader than a doornail. That was problem. Because the Z-Wave controller has no way detecting this node is dead, because it’s a sleeping node. How to get out of this situation?</p>
+<p><a href="https://www.tabsoverspaces.com/233757-making-failed-sleeping-node-dead-to-remove-it-from-openzwave?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[FirebirdDbComparer with Firebird 3 packages support]]></title>
+		<link href="https://www.tabsoverspaces.com/233756-firebirddbcomparer-with-firebird-3-packages-support?utm_source=feed"/>
+		<updated>2018-11-26T10:12:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233756</id>
+		<content type="html"><![CDATA[<p>It already happened on Friday, but you might have missed this release. The new version of <a href="/tools/firebird-db-comparer">FirebirdDbComparer</a> was published and this version contains among small bug fixes and performance optimizations also one big new feature and that’s support for packages in Firebird 3.</p>
+<p><a href="https://www.tabsoverspaces.com/233756-firebirddbcomparer-with-firebird-3-packages-support?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[UnixEpoch field in DateTime and DateTimeOffset in .NET Standard 2.1 (and .NET Core 2.1)]]></title>
+		<link href="https://www.tabsoverspaces.com/233755-unixepoch-field-in-datetime-and-datetimeoffset-in-net-standard-2-1-and-net-core-2-1?utm_source=feed"/>
+		<updated>2018-11-14T08:52:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233755</id>
+		<content type="html"><![CDATA[<p>When I need to put some default value somewhere, I often use Unix epoch. It’s more reasonable, in my eyes, than <a href="https://docs.microsoft.com/en-us/dotnet/api/system.datetime.minvalue?view=netcore-2.1"><code>DateTime.MinValue</code></a>. But there’s no field for that value thus I always had to create it “manually”. Well, not anymore.</p>
+<p><a href="https://www.tabsoverspaces.com/233755-unixepoch-field-in-datetime-and-datetimeoffset-in-net-standard-2-1-and-net-core-2-1?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[Vertikální půlkilometr na schodech]]></title>
+		<link href="https://www.tabsoverspaces.com/233754-vertikalni-pulkilometr-na-schodech?utm_source=feed"/>
+		<updated>2018-11-05T14:38:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233754</id>
+		<content type="html"><![CDATA[<p>Dostali jsme s <a href="https://wug.cz/prednasejici/2-David-Gesvindr">Davidem Gešvindrem</a> takový “zajímavý” nápad. V budově Gopasu v Praze je docela dost pater a po obědě, v rámci lepšího trávení a protažení, chodíme nahoru po schodech. Ve skutečnosti jdeme většinou z -2. až do 11. patra pro extra body. 😃 No a co třeba zkusit chodit nahoru a dolů…</p>
+<p><a href="https://www.tabsoverspaces.com/233754-vertikalni-pulkilometr-na-schodech?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[Microsoft Developer Days &amp; Azure DevOps Bootcamp 2018]]></title>
+		<link href="https://www.tabsoverspaces.com/233753-microsoft-developer-days-azure-devops-bootcamp-2018?utm_source=feed"/>
+		<updated>2018-11-05T13:08:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233753</id>
+		<content type="html"><![CDATA[<p>Následující pondělí se koná akce s názvem <a href="https://www.azuredevops.cz/">Microsoft Developer Days & Azure DevOps Bootcamp 2018</a>. Já vám povím něco o Azure CosmosDB jako možnosti jak škálovatelně ukládat a hlavně získávat data. Kromě toho je na konci akce (a samozřejmě i v průběhu) vyhrazen čas na konzultace a “networking”. Máte-li tedy chuť něco prodiskutovat, nezapomeňte dorazit.</p>
+<p><a href="https://www.tabsoverspaces.com/233753-microsoft-developer-days-azure-devops-bootcamp-2018?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[ICTech Day]]></title>
+		<link href="https://www.tabsoverspaces.com/233752-ictech-day?utm_source=feed"/>
+		<updated>2018-11-05T11:49:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233752</id>
+		<content type="html"><![CDATA[<p>I almost forgot to tell you about this. This week, Thursday, I’m speaking at <a href="https://www.ictechday.be/">ICTech Day</a> in Belgium. And about the topics I’m very passionate about. First session is <a href="https://www.ictechday.be/jiri-cincura-2-1/">“Tasks and Await from the ground up”</a> and other is <a href="https://www.ictechday.be/jiri-cincura-2-2/">“Async and Await”</a>. If you’re in the area, maybe you can still try to make time and come (you have to be a guest of somebody from PeopleWare or Elmos).</p>
+<p><a href="https://www.tabsoverspaces.com/233752-ictech-day?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[MonkeyFest Bootcamp Prague 2018]]></title>
+		<link href="https://www.tabsoverspaces.com/233751-monkeyfest-bootcamp-prague-2018?utm_source=feed"/>
+		<updated>2018-11-04T17:53:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233751</id>
+		<content type="html"><![CDATA[<p>Za necelý týden se koná akce s názvem <a href="https://xmdg.cz/monkeyfest">MonkeyFest Bootcamp Prague 2018</a>, což je podobně jako <a href="/233713-global-azure-bootcamp-2018">Global Azure Bootcamp</a> akce konající se v jeden den na celém světě. MonkeyFest je zaměřen na svět Xamarinu a příbuzných technologií. No a protože Xamarin je také o C#, připravil jsem si přednášku s názvem “Co čekat od C# 7, 7.1, 7.2, 7.3 a 8.0”. Pokud vás novinky C# zajímají, nezapomeňte dorazit.</p>
+<p><a href="https://www.tabsoverspaces.com/233751-monkeyfest-bootcamp-prague-2018?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[ADO.NET provider 6.4.0.0 for Firebird is ready]]></title>
+		<link href="https://www.tabsoverspaces.com/233750-ado-net-provider-6-4-0-0-for-firebird-is-ready?utm_source=feed"/>
+		<updated>2018-11-02T12:53:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233750</id>
+		<content type="html"><![CDATA[<p>New version 6.4.0.0 of <a href="http://www.firebirdsql.org/en/net-provider/">ADO.NET provider for Firebird</a> is ready for download. Among regular bug fixes and improvements I’d like to talk about one performance improvement done in this version.</p>
+<p><a href="https://www.tabsoverspaces.com/233750-ado-net-provider-6-4-0-0-for-firebird-is-ready?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[Exploiting multiplication by zero optimization (and failing), yet learning about equals to zero shortcut (Roslyn)]]></title>
+		<link href="https://www.tabsoverspaces.com/233749-exploiting-multiplication-by-zero-optimization-and-failing-yet-learning-about-equals-to-zero-shortcut-roslyn?utm_source=feed"/>
+		<updated>2018-11-01T08:12:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233749</id>
+		<content type="html"><![CDATA[<p>Basically by accident I found out that multiplication by zero is optimized in <a href="https://github.com/dotnet/roslyn">Roslyn compiler</a>. That got me thinking… Can I abuse it and make it fail?</p>
+<p><a href="https://www.tabsoverspaces.com/233749-exploiting-multiplication-by-zero-optimization-and-failing-yet-learning-about-equals-to-zero-shortcut-roslyn?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[Comparing speed of ToUpper, ToUpperInvariant, ToLower and ToLowerInvariant in .NET Framework and .NET Core]]></title>
+		<link href="https://www.tabsoverspaces.com/233748-comparing-speed-of-toupper-toupperinvariant-tolower-and-tolowerinvariant-in-net-framework-and-net-core?utm_source=feed"/>
+		<updated>2018-10-23T10:17:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233748</id>
+		<content type="html"><![CDATA[<p>While I was reviewing some code week or two back, I got idea to test what’s the speed difference between <code>ToUpper</code>, <code>ToUpperInvariant</code>, <code>ToLower</code> and <code>ToLowerInvariant</code>. Of course, these methods are not doing the same thing, but sometimes it doesn’t really matter and if any is sufficient then, maybe, performance wins. Or at least I thought it’s going to be interesting to see whether there’s a difference and how much.</p>
+<p><a href="https://www.tabsoverspaces.com/233748-comparing-speed-of-toupper-toupperinvariant-tolower-and-tolowerinvariant-in-net-framework-and-net-core?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[WUG: C# 7, 7.1, 7.2, 7.3 a 8.0 (Zlín)]]></title>
+		<link href="https://www.tabsoverspaces.com/233747-wug-csharp-7-71-72-73-a-80-zlin?utm_source=feed"/>
+		<updated>2018-10-18T18:32:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233747</id>
+		<content type="html"><![CDATA[<p>Máte rádi C#? A ztrácíte se v aktuální rychlé kadenci verzí? Mám pro vás řešení – <a href="https://www.wug.cz/zlin/akce/1106-C-7-7-1-7-2-7-3-a-8-0">WUG 25.10.2018 od 17:30 ve Zlíně</a>. Všechno dáme do kupy a srovnáme si to v hlavě.</p>
+<blockquote>
+<p>C# v poslední době velmi rychle přidává nové funkce. Malé funkce v minor verzích, ale připravuji se i velké změny do major verze (verzí). Co je tedy dostupné v C# 7, 7.1, 7.2, 7.3 a jak to začít používat. A co nás čeká dál a hlavně ve verzi 8.0?</p>
+</blockquote>
+<p><a href="https://www.tabsoverspaces.com/233747-wug-csharp-7-71-72-73-a-80-zlin?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[Faster MS SQL database existence checking with Entity Framework Core and Entity Framework]]></title>
+		<link href="https://www.tabsoverspaces.com/233746-faster-ms-sql-database-existence-checking-with-entity-framework-core-and-entity-framework?utm_source=feed"/>
+		<updated>2018-10-03T09:31:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233746</id>
+		<content type="html"><![CDATA[<p>Bit out of frustration when demoing features newest versions of Entity Framework Core, I’ve found out a new feature of <code>SqlClient</code> (<code>SqlConnection</code> to be precise) that’s available since .NET 4.5.1 that might affect speed when working often without existing database.</p>
+<p><a href="https://www.tabsoverspaces.com/233746-faster-ms-sql-database-existence-checking-with-entity-framework-core-and-entity-framework?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[WUG: Asynchrónne a paralelné programovanie v .NET-e (Košice)]]></title>
+		<link href="https://www.tabsoverspaces.com/233745-wug-asynchronne-a-paralelne-programovanie-v-nete-kosice?utm_source=feed"/>
+		<updated>2018-10-03T08:55:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233745</id>
+		<content type="html"><![CDATA[<p>Tak to vypadá, že se podívám do Košic. Na <a href="https://www.wug.sk/?name=events&amp;e=248">WUGu si povíme něco o asynchronních a parallelních věcech</a> a jak to celé do sebe zapadá a co je “pod tím”.</p>
+<p>Naposledy jsem tam byl na maratonu v roce 2012 a poměrně dobře si pamatuju segment 30. – 35. km. “Lehce” 😃 jsem potkal “zeď”. Naštestí jsem to do cíle “dotlačil”. Tak snad WUG zvládnu lépe. 😃 Určitě přijďte.</p>
+<p><a href="https://www.tabsoverspaces.com/233745-wug-asynchronne-a-paralelne-programovanie-v-nete-kosice?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[DotNET Talks, vol.1]]></title>
+		<link href="https://www.tabsoverspaces.com/233744-dotnet-talks-vol-1?utm_source=feed"/>
+		<updated>2018-09-30T13:02:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233744</id>
+		<content type="html"><![CDATA[<p>Už příští týden se uskuteční nová akce s názvem <a href="https://www.dotnettalks.cz/">DotNET Talks</a>. Moje přednáška “Unit Testing s Entity Framework Core” se podívá na to jak “unit” testovat kód, který využívá Entity Framework Core. Díky “čerstvosti” Entity Frameworku Core jsou možnosti o poznání lepší než tomu bylo u Entity Frameworku 6. Jak to vypadá, tak ještě <a href="https://twitter.com/miroslavholec/status/1046039101676417025">pár míst</a> můžete urvat, tak neváhejte…</p>
+<p><a href="https://www.tabsoverspaces.com/233744-dotnet-talks-vol-1?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[GET.NET (Gdańsk)]]></title>
+		<link href="https://www.tabsoverspaces.com/233743-get-net-gdansk?utm_source=feed"/>
+		<updated>2018-09-30T12:55:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233743</id>
+		<content type="html"><![CDATA[<p>Next month in <a href="https://konferencjaget.net/en/gdansk">Gdańsk GET.NET conference</a> is going to happen and I’m happy to speak there about a topic I’m passionate about.</p>
+<p><a href="https://www.tabsoverspaces.com/233743-get-net-gdansk?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[Step into a specific call when debugging in Visual Studio]]></title>
+		<link href="https://www.tabsoverspaces.com/233742-step-into-a-specific-call-when-debugging-in-visual-studio?utm_source=feed"/>
+		<updated>2018-09-24T19:17:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233742</id>
+		<content type="html"><![CDATA[<p>Last week, as we were wrapping the first day of <a href="/233736-net-developerdays-2018">.NET Developer Days conference</a>, I was sitting in the “Ask The Expert” area <del>quietly by myself, reading the poems, waiting for questions</del> with <a href="https://twitter.com/gotheap">Kendra Havens</a> chatting about Visual Studio shortcuts and <a href="https://twitter.com/gotheap/status/1042064995528392704">enjoying the pre-party beer</a>. As it turned out, there’s one super handy shortcut for debugging that most people – Kendra included 😉 – are not aware of (and which I wasn’t able to cover in my 60 minutes of allotted time). Thus, I must spread the word.</p>
+<p><a href="https://www.tabsoverspaces.com/233742-step-into-a-specific-call-when-debugging-in-visual-studio?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[Keyboard shortcuts from .NET DeveloperDays 2018]]></title>
+		<link href="https://www.tabsoverspaces.com/233741-keyboard-shortcuts-from-net-developerdays-2018?utm_source=feed"/>
+		<updated>2018-09-18T14:28:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233741</id>
+		<content type="html"><![CDATA[<p>As I promised during my session “Turn on Turbo Mode for Your Visual Studio Usage and Debugging” on <a href="/233736-net-developerdays-2018">.NET DeveloperDays 2018</a>, I’m posting the shortcuts I was showing.</p>
+<p><a href="https://www.tabsoverspaces.com/233741-keyboard-shortcuts-from-net-developerdays-2018?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[ADO.NET provider 6.3.0.0 for Firebird is ready]]></title>
+		<link href="https://www.tabsoverspaces.com/233740-ado-net-provider-6-3-0-0-for-firebird-is-ready?utm_source=feed"/>
+		<updated>2018-09-04T08:04:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233740</id>
+		<content type="html"><![CDATA[<p>New version 6.3.0.0 of <a href="http://www.firebirdsql.org/en/net-provider/">ADO.NET provider for Firebird</a> is ready for download. This version had a single focus and that was seemingly random exceptions, usually around blobs. It took me almost 4 days of trying and debugging, time supported by company behind <a href="http://www.bauradar.at/">Bauradar</a> for which I’m thankful, to hunt down the <a href="http://tracker.firebirdsql.org/browse/DNET-847">issue</a>.</p>
+<p><a href="https://www.tabsoverspaces.com/233740-ado-net-provider-6-3-0-0-for-firebird-is-ready?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[ADO.NET provider 6.2.0.0 for Firebird is ready]]></title>
+		<link href="https://www.tabsoverspaces.com/233739-ado-net-provider-6-2-0-0-for-firebird-is-ready?utm_source=feed"/>
+		<updated>2018-08-20T08:03:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233739</id>
+		<content type="html"><![CDATA[<p>New version 6.2.0.0 of <a href="http://www.firebirdsql.org/en/net-provider/">ADO.NET provider for Firebird</a> is ready for download. This version closes the gap with support for <code>DROP PACKAGE</code> and <code>DROP PACKAGE BODY</code>. And better support for encrypted databases – in services and creating databases.</p>
+<p><a href="https://www.tabsoverspaces.com/233739-ado-net-provider-6-2-0-0-for-firebird-is-ready?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[View captured variables for lambdas and local functions]]></title>
+		<link href="https://www.tabsoverspaces.com/233738-view-captured-variables-for-lambdas-and-local-functions?utm_source=feed"/>
+		<updated>2018-08-20T07:00:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233738</id>
+		<content type="html"><![CDATA[<p>I don’t know how long this feature is in Visual Studio – maybe because I’m more keyboard-focused -, but I just noticed it and it’s a complete game changer. I mean, now I can’t imagine not having it. 😃</p>
+<p><a href="https://www.tabsoverspaces.com/233738-view-captured-variables-for-lambdas-and-local-functions?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[Exploring .NET’s – Java inspired – “synchronized” methods]]></title>
+		<link href="https://www.tabsoverspaces.com/233737-exploring-net-s-java-inspired-synchronized-methods?utm_source=feed"/>
+		<updated>2018-08-13T08:19:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233737</id>
+		<content type="html"><![CDATA[<p>I was recently talking about first versions of .NET, C# and the world of development technologies of that time. As I briefly touched J# (anybody remembers?) I realized there’s one Java feature that was added to C# because of inspiration by Java and I wanted to explore it. It’s not much used or even known in C#, but it’s still there. And because it’s about “threading and synchronization” I couldn’t resist and immediately jumped in. It’s <em>synchronized</em> methods.</p>
+<p><a href="https://www.tabsoverspaces.com/233737-exploring-net-s-java-inspired-synchronized-methods?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[.NET DeveloperDays 2018]]></title>
+		<link href="https://www.tabsoverspaces.com/233736-net-developerdays-2018?utm_source=feed"/>
+		<updated>2018-07-27T06:34:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233736</id>
+		<content type="html"><![CDATA[<p>In less than two months the <a href="http://net.developerdays.pl/">.NET DeveloperDays 2018</a> conference will happen. According to the organizers it’s “the biggest event in Central and Eastern Europe dedicated exclusively to application development on the .NET platform” and I’m excited to speak there together with other great <a href="http://net.developerdays.pl/#speakers">speakers</a>.</p>
+<p><a href="https://www.tabsoverspaces.com/233736-net-developerdays-2018?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[How is Thread.SpinWait actually implemented?]]></title>
+		<link href="https://www.tabsoverspaces.com/233735-how-is-thread-spinwait-actually-implemented?utm_source=feed"/>
+		<updated>2018-07-17T18:30:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233735</id>
+		<content type="html"><![CDATA[<p>I’m always drawn into disassembling stuff and learning how something works under the hood. The <code>Thread.SpinWait</code> is something I’m going to explore. Because .NET Core is open source I can attack this from side of both sources as well as pure disassembly.</p>
+<p><a href="https://www.tabsoverspaces.com/233735-how-is-thread-spinwait-actually-implemented?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[WUG: Entity Framework Core 2.1 (Ostrava + Praha)]]></title>
+		<link href="https://www.tabsoverspaces.com/233734-wug-entity-framework-core-2-1-ostrava-praha?utm_source=feed"/>
+		<updated>2018-07-12T11:05:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233734</id>
+		<content type="html"><![CDATA[<p>Ačkoli jsou prázdniny klidnější období v IT, WUG Ostrava a Praha nezahálí a frčí na vlně Entity Frameworku Core 2.1. Já tu vlnu ještě víc zvednu <a href="https://www.wug.cz/ostrava/akce/1075-Entity-Framework-Core-2-1">19.7.2018 od 17:00 v Ostravě</a> a <a href="https://www.wug.cz/praha/akce/1073-Entity-Framework-Core-2-1">21.8.2018 od 17:30 v Praze</a>. Takže doufám, že bude hnusně a dorazíte. 😃</p>
+<blockquote>
+<p>Současně s novou verzí .NET Core 2.1 byla uvolněna i nová verze EF Core 2.1. Co je tedy v EF Core 2.1 nového? Proč všichni o 2.1. mluví? Da se již 2.1 reálné použít nebo jsou ještě oblasti, které pokulhávají?</p>
+</blockquote>
+<blockquote>
+<p><a href="https://www.wug.cz/zaznamy/474-Entity-Framework-Core-2-1">Video <span class="fa fa-file-video-o" aria-hidden="true"></span></a></p>
+</blockquote>
+<p><a href="https://www.tabsoverspaces.com/233734-wug-entity-framework-core-2-1-ostrava-praha?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+	<entry>
+		<title><![CDATA[ADO.NET provider 6.1.0.0 for Firebird is ready]]></title>
+		<link href="https://www.tabsoverspaces.com/233733-ado-net-provider-6-1-0-0-for-firebird-is-ready?utm_source=feed"/>
+		<updated>2018-07-11T18:56:00Z</updated>
+		<id>http://www.tabsoverspaces.com/id/233733</id>
+		<content type="html"><![CDATA[<p>New version 6.1.0.0 of <a href="http://www.firebirdsql.org/en/net-provider/">ADO.NET provider for Firebird</a> is ready for download. Visible change is support for <code>MERGE</code>, <code>CREATE PACKAGE</code> and <code>CREATE PACKAGE BODY</code> statements in <code>FbScript</code>.</p>
+<p><a href="https://www.tabsoverspaces.com/233733-ado-net-provider-6-1-0-0-for-firebird-is-ready?utm_source=feed">Continue reading...</a></p>]]></content>
+	</entry>
+</feed>

@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+  <channel>
+    <title>LukeW | Digital Product Design + Strategy</title>
+    <description>Expert articles about user experience, mobile, Web applications, usability, interaction design and visual design.</description>
+    <link>http://www.lukew.com</link>
+    <language>en</language>
+    <copyright>LukeW Ideation + Design</copyright>
+    <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+    <lastBuildDate>Tue, 05 Mar 2019 00:00:00 +0000</lastBuildDate>
+<!--    <atom:link href="http://www.yourdomain.com/yourfeed.xml" rel="self" type="application/rss+xml" /> -->
+    <image>
+      <title>LukeW | Digital Product Design + Strategy</title>
+      <url>http://www.rssFeedFolder.com/images/rssFeedFolderLogo.gif</url>
+      <link>http://www.lukew.com</link>
+    </image>
+
+    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/FunctioningForm" /><feedburner:info uri="functioningform" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><feedburner:emailServiceId>FunctioningForm</feedburner:emailServiceId><feedburner:feedburnerHostname>https://feedburner.google.com</feedburner:feedburnerHostname><feedburner:browserFriendly>This is an XML content feed. It is intended to be viewed in a newsreader or syndicated to another site, subject to copyright and fair use.</feedburner:browserFriendly><item>
+      <title><![CDATA[An Event Apart: Move Fast and Don’t Break Things]]></title>
+      <description>&lt;p class="feature"&gt;In his &lt;a href="https://aneventapart.com/event/seattle-2019#s16730"&gt;Move Fast and Don’t Break Things&lt;/a&gt; presentation at An Event Apart in Seattle, Scott Jehl shared a number of resilient patterns and tools to help us establish and maintain performant access to our Web sites. Here's my notes from his talk:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;For successful Web design, people used to suggest we move fast and break things. Today we've become more responsible but things can still break for our users if we're not mindful.&lt;/li&gt;
+&lt;li&gt;So many factors that can compromise the delivery of our Web sites are out of our control. We need to be aware of these in order to build resilience into our designs.&lt;/li&gt;
+&lt;li&gt;We used to use browser detection and feature detection to ensure our sites were supported across Web browsers. Progressive enhancement's importance ballooned as a wide range of new devices for accessing the Web, touch interactions, and more browsers became popular.&lt;/li&gt;
+&lt;li&gt;Trying to make a Web site look and work the same across devices was broken, we realized this was the wrong goal and we need to adapt to varying screens, networks, input types, and more.&lt;/li&gt;
+&lt;li&gt;Some practices stay good. Progressive enhancement and accessibility prepared us for many of these changes but it is also a performance enhancement on its own.&lt;/li&gt;
+&lt;li&gt;Figuring out how to make Web sites faster used to be hard but the tools we have for measuring performance have been improving (like PageSpeedTest and WebPageTest).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Making Web Sites Fast&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;First meaningful content: how soon does a page appear to be useful to a user. Progressive enhancement is about starting with meaningful HTML and then layering additional enhancements on top of it. When browsers render HTML, they look for dependencies in the file (CSS and Javascript) before displaying anything.&lt;/li&gt;
+&lt;li&gt;CSS and Javascript are most often the render-blockers on sites, not images &amp; videos. Decide if they need to load at high priority and if not, load async or defer. If you need them to run right away, consider server push (HTTP2) to send files that you know the browser needs making them ready to render right away.&lt;/li&gt;
+&lt;li&gt;If your server does not support push, you can inline your critical CSS and/or Javascript. Inlining however is bad for caching as it does not get reused by other pages. To get around this you can use the Cache API to inline content and cache it as a file for reuse.&lt;/li&gt;
+&lt;li&gt;Critical CSS tools can look over a series of files and identify the common CSS you need across a number of different pages for initial rendering. If you inline your critical CSS, you can preload the rest of your CSS (not great browser support today).&lt;/li&gt;
+&lt;li&gt;Inlining and push are best for first time visits, for return visits they can be wasteful. We can use cookies for checking for return visits or make use of Service Worker.&lt;/li&gt;
+&lt;li&gt;Time to interactive: time it takes a site to become interactive for the user. We should be aiming for interactivity in under 5seconds on a median mobile phone on 3G. Lower end phones can take a long time to process Javascript after it downloads.&lt;/li&gt;
+&lt;li&gt;More weight does not mean more wait. You can prioritize when things load to make pages render much faster.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Keeping Web Sites Fast&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Making a web site fast is easier than keeping it fast. Over time, Web sites will add a number of third party services with unknown performance consequences.&lt;/li&gt;
+&lt;li&gt;We can use a number of tools, like Lighthouse, to track performance unfriendly dependencies. Speed Curves will let you set performance budgets and see when things are over. This allows people to ask questions about the costs of what we're adding to sites.&lt;/li&gt;
+&lt;li&gt;Varying content and personalization can increase optimizations but they are costly from a performance perspective since they introduce a second meaningful content render. Moving these features to the server-side can help a lot.&lt;/li&gt;
+&lt;li&gt;Cloudflare has a solution that allows you to manipulate pages on their server before it comes down to browser. These server-side service workers allow you to adjust pages off the client and thereby avoid delays.&lt;/li&gt;
+&lt;li&gt;Homepages and landing pages are often filled with big images and videos. They're difficult to keep performant because the change all the time and are often managed outside of a central CMS.&lt;/li&gt;
+&lt;li&gt;For really image heavy pages, we can use srcset attributes to define multiple sizes of images. Writing this markup can be tricky if written by hand. Little helper apps can allow people to write good code.&lt;/li&gt;
+&lt;li&gt;Soon we'll have a native lazy load feature in browsers for images and iframes. Chrome has it in testing now and can send aspect ratios before actual images.&lt;/li&gt;
+&lt;/ul&gt;&lt;img src="http://feeds.feedburner.com/~r/FunctioningForm/~4/9t4Y4VpFDxo" height="1" width="1" alt=""/&gt;</description>
+      <link>http://feedproxy.google.com/~r/FunctioningForm/~3/9t4Y4VpFDxo/entry.asp</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      <author>info@lukew.com</author>
+    <feedburner:origLink>http://www.lukew.com/ff/entry.asp?2002</feedburner:origLink></item>
+    <item>
+      <title><![CDATA[An Event Apart: Putting Design in Design Systems]]></title>
+      <description>&lt;p class="feature"&gt;In his &lt;a href="https://aneventapart.com/event/seattle-2019#s16730"&gt;Putting the 'Design' in Design Systems&lt;/a&gt; presentation at An Event Apart in Seattle, Dan Mall talked about the benefits of design systems for designers and how ensure they can be realized. Here's my notes from his talk:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Most content in design systems are not for designers but for developers. This helps to scale design efforts when there's a lot more developers than designers (typical in many companies).&lt;/li&gt;
+&lt;li&gt;But where does design and designers fit within a design system? Are they no longer required?&lt;/li&gt;
+&lt;li&gt;Design can be part of strategy and big picture thinking but most designers are good at making designs and iterating them, not working across the company on "big D" design.&lt;/li&gt;
+&lt;li&gt;When it comes time to make a design system, most people start with "let's make some components!". This is problematic because its missing "for ____". What's the purpose of our design system? Who is it for? &lt;/li&gt;
+&lt;li&gt;Design systems need a focus. One company's design system should not work for another company. A good "onlyness" statement can only apply to one company, it would not work for other companies.&lt;/li&gt;
+&lt;li&gt;Design system principles can guide your work. Some are universal like: accessible, simple. Others should be very specific so you can focus on what matters for you.&lt;/li&gt;
+&lt;li&gt;An audit of common components in design systems shows the coverage varies between companies; the components can focus on their core value.&lt;/li&gt;
+&lt;li&gt;Instead of starting with making design components, think about what components you actually need. Then make some pilot screens as proofs of concept for a design system. Will you be able to make the right kinds of things?&lt;/li&gt;
+&lt;li&gt;Don't start at the abstract level, start at the extract level. Take elements from within pilot designs and look for common components to pull out for reuse. Don't try to make it cover all use cases yet. As you work through a few pilots, expand components to cover additional use cases you uncover.&lt;/li&gt;
+&lt;li&gt;The most exciting design systems are boring. About 80% of the components you're making can be covered by your design system. They allow you to remake product experiences quickly. The remaining 20% is what designers still need to do: custom design work.&lt;/li&gt;
+&lt;li&gt;A good design system takes care of the stuff you shouldn't reinvent and allows you to spend time on where it matters.&lt;/li&gt;
+&lt;li&gt;Creative people are driven by autonomy, mastery, and purpose. A good design system will enable all of these.&lt;/li&gt;
+&lt;li&gt;The most common benefits of design systems are greater efficiency and consistency. But another important one is relief from having to do mundane design work. (editor's note: like maintaining &amp; updating a design system!)&lt;/li&gt;
+&lt;li&gt;The real value of a design system is to help us get back to our real work.&lt;/li&gt;
+&lt;/ul&gt;&lt;img src="http://feeds.feedburner.com/~r/FunctioningForm/~4/pFTIwH6REQA" height="1" width="1" alt=""/&gt;</description>
+      <link>http://feedproxy.google.com/~r/FunctioningForm/~3/pFTIwH6REQA/entry.asp</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      <author>info@lukew.com</author>
+    <feedburner:origLink>http://www.lukew.com/ff/entry.asp?2003</feedburner:origLink></item>
+    <item>
+      <title><![CDATA[The Reason for Micromobility]]></title>
+      <description>&lt;p class="feature"&gt;At the &lt;a href="https://micromobility.io"&gt;Micromobility&lt;/a&gt; conference in Richmond, CA Horace Dediu talked through why micromobility solutions need to exist and  why they are set up to succeed today. Here’s my notes from his talk on The Reason for Micromobility:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The wealthiest nations have always been those with the highest rates of urbanization. Across the World, urbanization continues to increase in all countries and is expected to reach 50% in most countries by 2025. 6.7 billion people will live in cities by 2050. This is easy to predict so you can plan on it happening. 
+&lt;/li&gt;&lt;li&gt;In cities, people are closer together and interact more. That’s how you create wealth and prosperity so it’s no wonder this trend will grow.
+&lt;/li&gt;&lt;li&gt;The World today consumes kilometers through land, air, and sea kilometers. 52 trillion kilometers are traveled per year across the globe. Half of these miles are in cars and low efficiency. In developed countries today (US and Europe), most trips are in personal vehicles like cars. Some of these car miles need to be reallocated.
+&lt;/li&gt;&lt;li&gt;The most common distance traveled by New York taxis is 1.4 miles. Less than 2% are 5 miles or more. 90% of all cars in trips are less than 20 miles. 162 billion trips per year in the United States are less than ten miles. Short trips consume more time and cost more money than long trips as well.
+&lt;/li&gt;&lt;li&gt;The addressable market for micromobility today is zero to five miles. That adds up to 4 trillion kilometers per year. 
+&lt;/li&gt;&lt;li&gt;Cities are going to be the predominant place people live. Short trips are going to be the dominant type of travel. They’ll consume the most time and account for the most consumer spending.
+&lt;/li&gt;&lt;li&gt;There’s a remarkable consistency for modes of travel across the World. Cars are used the same in the US as in the UK and Switzerland. Scooters have a shorter average distance (.4 miles) than e-bikes (.8 miles). Each mode (of transportation) has a clear distance distribution and thereby unique characteristics.
+&lt;/li&gt;&lt;li&gt;We can begin to segment the transportation market by distance traveled. Regardless of vendors, modes of transportation cluster along similar usage models. 
+&lt;/li&gt;&lt;li&gt;Given these usage model differences, can we move automobile mobility to micromobility? There’s currently a gap between average car distances and average scooter/bike distances. However we see cabs and powerful 2-wheelers beginning to cross this chasm. 
+&lt;/li&gt;&lt;li&gt;There’s trillions of car kilometers that can potentially be moved to more efficient solutions. That’s the challenge for micromobility today.
+&lt;/li&gt;&lt;li&gt;The first experiments in micromobilty have been very successful in delivering many miles. Bird hit 10M rides in 320 days since launch. Lime hit 10M in 400 days. The slope of growth for these companies is steeper than for Uber and Lyft. 100M rides per year is the run rate for several of these companies.
+&lt;/li&gt;
+&lt;/ul&gt;&lt;img src="http://feeds.feedburner.com/~r/FunctioningForm/~4/BCBL3cXdCks" height="1" width="1" alt=""/&gt;</description>
+      <link>http://feedproxy.google.com/~r/FunctioningForm/~3/BCBL3cXdCks/entry.asp</link>
+      <pubDate>Thu, 31 Jan 2019 00:00:00 +0000</pubDate>
+      <author>info@lukew.com</author>
+    <feedburner:origLink>http://www.lukew.com/ff/entry.asp?2001</feedburner:origLink></item>
+    <item>
+      <title><![CDATA[Conversions: PWAs, Payment Experiences and More]]></title>
+      <description>&lt;p class="feature"&gt;In her &lt;a href="https://events.withgoogle.com/conversions/agenda/#content"&gt;PWAs, Payment Experiences and More&lt;/a&gt; presentation at Google Conversions 2018 in Dublin Ireland, Jenny Gove talked through the new capabilities available on the Web to build fast and engaging products. Here's my notes from her talk:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The Web was built for desktop devices, not mobile. Native apps, in contrast, were built from the ground up for mobile. So it's no surprise that Web sites are still catching up in terms of experience. While there are great mobile Web experiences, most have a lot of work to do. &lt;/li&gt;
+&lt;li&gt;To help incentivize people to improve mobile Web experiences, Google added the "mobile-friendly" label to search results. When 85% of results in mobile search met this criteria, the label was removed.&lt;/li&gt;
+&lt;li&gt;Progressive Web apps bring richer experiences to the Web through a set of technologies that enable fast, installable, reliable, and engaging. They're the next step in making great Web experiences.&lt;/li&gt;
+&lt;li&gt;Speed is critical for mobile Web sites but it takes a mobile Web page a median time of 9.3 seconds to load on 3G. Pinterest reduced their time for interactive from 23 seconds to 5.6 seconds with their PWA. This resulted in a 60% increase in engagement and a 2-3% improvement over their native app.&lt;/li&gt;
+&lt;li&gt;You can improve speed with technical changes and design (to manage perception). Lighthouse is a tool from Google that shows time to meaningful paint and other relevant metrics for improving technical performance. You can manage user perception of speed using skeletong screens and gradual loading of content.&lt;/li&gt;
+&lt;li&gt;PWAs allow you to add mobile Web pages to your phone's home screens. On Android these apps show up in app switchers and setting screens.&lt;/li&gt;
+&lt;li&gt;Service workers in PWAs enable reliable experiences when there is no network or slow and intermittent network connections. Even in developed markets, slow network conditions often exist. Service workers are now available in all major Web browsers.&lt;/li&gt;
+&lt;li&gt;PWAs make use of Web technologies at the right time and place like app permissions, push notifications, payment request APIs, and better form interactions (autocomplete, input types, etc.)&lt;/li&gt;
+&lt;li&gt;42% of top sites in Europe don't show the appropriate keyboard for specific input types. 27% of the top site in Europe didn't identify which form fields are optional.&lt;/li&gt;
+&lt;li&gt;Google Search uses a PWA to enable offline queries and send results when people are back online using notifications. With a PWA they were able to use 50% fewer external JavaScript requests.&lt;/li&gt;
+&lt;li&gt;In the Starbucks PWA, daily &amp; monthly active users have nearly doubled (compared ot the previous Web experience) and orders placed in the PWA are growing by more than 12% week over week.&lt;/li&gt;
+&lt;li&gt;While mobile has really driven PWA requirements, desktop devices also benefit from PWA app switching and integration. Service workers, push notifications, and other new Web technologies work on desktop as well.&lt;/li&gt;
+&lt;li&gt;It's possible to run PWAs on the desktop in app windows which can be themed. These apps need to use responsive design to adapt from small sized windows to full-sized screens.&lt;/li&gt;
+&lt;li&gt;What's next for PWAs? Support for Windows, macOS and Linux, Keyboard Shortcuts, Badging the launch icon, and Link capturing.&lt;/li&gt;
+&lt;li&gt;Watch the full video of Jenny's: &lt;a href="https://www.youtube.com/watch?v=pbtxdU137Lw"&gt;PWAs, Payment Experiences and More&lt;/a&gt; talk&lt;/li&gt;
+&lt;/ul&gt;&lt;img src="http://feeds.feedburner.com/~r/FunctioningForm/~4/5lvs8pp5b-c" height="1" width="1" alt=""/&gt;</description>
+      <link>http://feedproxy.google.com/~r/FunctioningForm/~3/5lvs8pp5b-c/entry.asp</link>
+      <pubDate>Tue, 06 Nov 2018 00:00:00 +0000</pubDate>
+      <author>info@lukew.com</author>
+    <feedburner:origLink>http://www.lukew.com/ff/entry.asp?2000</feedburner:origLink></item>
+    <item>
+      <title><![CDATA[An Event Apart: Designing Progressive Web Apps]]></title>
+      <description>&lt;p class="feature"&gt;In his &lt;a href="https://aneventapart.com/event/chicago-2018"&gt;The Case for Progressive Web Apps&lt;/a&gt; presentation at An Event Apart in Chicago, Jason Grigsby walked through the process of building Progressive Web Apps for your Web experiences and how to go about it. Here's my notes from his talk: 
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Progressive Web Apps (PWAs) are getting a lot of attention and positive stories about their impact are coming out. &lt;ahref="https://www.pwastats.com"&gt;PWA Stats&lt;/a&gt; tracks many of these case studies. These sorts of examples are getting noticed by CEOs who demand teams build PWAs today.&lt;/li&gt;
+&lt;li&gt;A PWA is a set of technologies designed to make faster, more capable Web sites. They load fast, are available online, are secure, can be accessed from your home screen,  have push notifications, and more.&lt;/li&gt;
+&lt;li&gt;But how can we define Progressive Web Apps? PWAs are Web sites enhanced by three things: https, service worker, and a  manifest file.&lt;/li&gt;
+&lt;li&gt;HTTPS is increasingly required for browsers and APIs. Eventually Chrome will highlight sites that are not on https as "insecure".&lt;/li&gt;
+&lt;li&gt;Service Workers allow Web sites to declare how network requests and the cache are handled. This ability to cache things allows us to build sites that are much faster. With service workers we can deliver near instant and offline experiences.&lt;/li&gt;
+&lt;li&gt;A Web manifest is a JSON file that delivers some attributes about a Web site. Browsers use these files to make decisions on what to do with your site (like add to home page).&lt;/li&gt;
+&lt;li&gt;Are PWAs any different than well-built Web sites? Not really, but the term helps get people excited and build toward best practices on the Web.&lt;/li&gt;
+&lt;li&gt;PWAs are often trojan horses for performance. They help enforce fast experiences.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Feels Like a Native App&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Does your organization have a Web site? Do you make money off your Web site? If so, you probably need a Progressive Web Site.&lt;/li&gt;
+&lt;li&gt;Not every customer will have your native app installed. A better Web experience will help you reach people who don't. For many people this will be their first experience with your company, so you should make it as good as possible.&lt;/li&gt;
+&lt;li&gt;Getting people to install and keep using native apps is difficult. App stores can also change their policies and interfaces which could negatively impact your native app.&lt;/li&gt;
+&lt;li&gt;The Web can do much more than we think, the Web has APIs to access location, do fast payments using fingerprint identification, push notifications, and more.&lt;/li&gt;
+&lt;li&gt;What should we use to design PWAs? Native app styles or Web styles? How much does your design match the platform? You can set up PWAs to use different system fonts for iOS and Android, should you? For now, we should define our own design and be consistent across different OSs.&lt;/li&gt;
+&lt;li&gt;What impact does going "chrome-less" have on our PWAs? You loose back buttons, menu controls, system controls. Browsers provide us with a lot of useful features and adding them back is difficult. Especially navigation via the back button is complex. So in most cases, you should avoid going full screen.&lt;/li&gt;
+&lt;li&gt;While not every person will add your PWA to their home screen, every person will "install" your PWA via the service worker.&lt;/li&gt;
+&lt;li&gt;An app shell model allows you put your common UI (header, footer, nav, etc.) into the app cache. This makes the first loading experience feel a lot faster. Should you app shell or not? If you have architected as a single page app, this is possible but otherwise might not be worth the effort.&lt;/li&gt;
+&lt;li&gt;Animating transitions can help with way-finding and polish on the Web. This gives Web sites even more personality.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Installation and Discovery&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Using a Web manifest file, allows you specify a number of declarations for your app. In addition to name, icon, and even theme colors.&lt;/li&gt;
+&lt;li&gt;Once you have a PWA built and a manifest file, browsers will being prompting people to install your Web site. Some Browsers have subtle "add" actions. Other use more explicit banner prompts. "Add to home screen" banners are only displayed when they make sense (certain level of use).&lt;/li&gt;
+&lt;li&gt;Developers can request these banners to come up when appropriate. You'll want to trigger these where people are mostly likely to install. (like checkout)&lt;/li&gt;
+&lt;li&gt;Microsoft is putting (explicitly and implicitly) PWAs within their app store. Search results may also start highlighting PWAs.&lt;/li&gt;
+&lt;li&gt;You can use Trusted Web Activity or PhoneGap to wrap native shells around your PWA to put them into Android and iOS app stores.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Offline Mode&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Your Web site would benefit from offline support. Service Workers enable you to cache assets on your device to load PWAs quickly and to decide what should be available offline.&lt;/li&gt;
+&lt;li&gt;You can develop offline pages and/or cache pages people viewed before.&lt;/li&gt;
+&lt;li&gt;If you do cache pages, make it clear what data hasn't been updated because it is not available offline.&lt;/li&gt;
+&lt;li&gt;You can give people control over what gets cached and what doesn't. So they can decide what they want available for offline viewing.&lt;/li&gt;
+&lt;li&gt;If you enable offline interactions, be explicit what interactivity is available and what isn't.&lt;/li&gt;
+&lt;/ul&gt;
+
+	
+&lt;h2&gt;Push Notifications&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Push notifications can help you increase engagement. You can send notifications via a Web browser using PWAs.&lt;/li&gt;
+&lt;li&gt;Personal push notifications work best but are difficult to do right. Generic notifications won't be as effective.&lt;/li&gt;
+&lt;li&gt;Don't immediately ask people for push notification permissions. Find the right time and place to ask people to turn them on. Make sure you give people control, if you'd don't they can kill them using browser controls.&lt;/li&gt;
+&lt;li&gt;In the next version of Chrome, Google will make push notification dialogs blocking (can't be dismissed) so people have to decide if they want notifications on or off. This also requires you to ask for permissions at the right time.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Beyond Progressive Web Apps&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Auto-login with credential management APIs allows you to sign into a site using stored credentials. This streamlines the login process.&lt;/li&gt;
+&lt;li&gt;Apple Pay on the Web converged with the Web Payment API so there's one way to use stored payment info on the Web.&lt;/li&gt;
+&lt;li&gt;These next gen capabilities are not part of PWAs but make sense within PWAs.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;How to Implement PWAs&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Building PWAs is a progressive process, it can be a series of incremental updates that all make sense on their own. As a result, you can have an iterative roadmap.&lt;/li&gt;
+&lt;li&gt;Benchmark and measure your improvements so you can use that data to get buy-in for further projects.&lt;/li&gt;
+&lt;li&gt;Assess your current Web site's technology. If things aren't reasonably fast to begin with, you need to address that first. If your site is not usable on mobile, start there first.&lt;/li&gt;
+&lt;li&gt;Begin  by building a baseline PWA (manifest, https, etc.) and then add front-end additions and larger initiatives like payment request and credential api later.&lt;/li&gt;
+&lt;li&gt;Every step on the path toward a PWAS make sense on their own. You should encrypt your Web sites. You should make your Web site fast. These are all just steps along the way.&lt;/li&gt;
+&lt;/ul&gt;&lt;img src="http://feeds.feedburner.com/~r/FunctioningForm/~4/IASkks3GXu4" height="1" width="1" alt=""/&gt;</description>
+      <link>http://feedproxy.google.com/~r/FunctioningForm/~3/IASkks3GXu4/entry.asp</link>
+      <pubDate>Tue, 28 Aug 2018 00:00:00 +0000</pubDate>
+      <author>info@lukew.com</author>
+    <feedburner:origLink>http://www.lukew.com/ff/entry.asp?1998</feedburner:origLink></item>
+    <item>
+      <title><![CDATA[An Event Apart: Data Basics]]></title>
+      <description>&lt;p class="feature"&gt;In her &lt;a href="https://aneventapart.com/event/chicago-2018"&gt;Data Basics&lt;/a&gt; presentation at An Event Apart in Chicago, Laura Martini walked through common issues teams face when working with data and how to get around/work with them. Here's my notes from her talk: 
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Today there's lots of data available to teams for making decisions but it can hard to know what to use and how.&lt;/li&gt;
+&lt;li&gt;Data tools have gotten much better and more useful. Don't underestimate yourself, you can use these tools to learn.&lt;/li&gt;
+&lt;li&gt;Google Analytics: The old way of looking at data is based on sessions are composed of page views and clicks with timestamps. The new way is looking at users with events. Events can be much more granular and cover more of people's behaviors than page views and clicks.&lt;/li&gt;
+&lt;li&gt;Different data can be stored in different systems so it can be hard to get a complete picture of what is happening across platforms and experiences. Journey maps are one way to understand traffic between apps.&lt;/li&gt;
+&lt;li&gt;You can do things with data that don't scale. Some visualizations can give you a sense of what is happening without being completely precise. Example: a quantified journey map can show you where to focus.&lt;/li&gt;
+&lt;li&gt;Individual users can also be good data sources. Zooming in allows you to learn things you can't in aggregate. Tools like Fullstory replays exactly what people did on your Website. These kinds of human-centric sessions can be more engaging/convincing than aggregate measures.&lt;/li&gt;
+&lt;li&gt;Data freshness changes how people use it in their workflows. Having real-time data or predictive tools allows you to monitor and adapt as insights come in.&lt;/li&gt;
+&lt;li&gt;How do you know what questions to ask of your data? HEART framework: happiness, engagement, adoptions, retention, and task success. Start with your goals, decide what is an indicator of success of your goals, then instrument that.&lt;/li&gt;
+&lt;li&gt;To decide which part of the customer journey to measure, start by laying it all out.&lt;/li&gt;
+&lt;li&gt;There's a number of good go-to solutions for answering questions like: funnel analysis (shows you possible improvements) or focus on user groups and split them into a test &amp; control (allows you to test predictions).
+&lt;li&gt;The &lt;a href="http://www.evanmiller.org/ab-testing/sample-size.html"&gt;Sample Size Calculator&lt;/a&gt; gives you a way to determine what size audience you need for your tests.&lt;/li&gt;
+&lt;li&gt;Quantitative data is a good tool for understanding what is happening but it won't tell you why. For that, you often need to turn to qualitative data (talking to people). You can ask people with in-context small surveys and similar techniques.&lt;/li&gt;
+&lt;li&gt;Often the hardest part of using data is getting people on the same page and caring about the metrics. Try turning data insights into a shared activity, bet on results. Make it fun.&lt;/li&gt;
+&lt;li&gt;Dashboards surface data people care about but you need to come together as a team to decide what is important. Having user-centric metrics in your dashboards shows you care about user behavior.&lt;/li&gt;
+&lt;li&gt;Data can be used for good and bad. Proceed with caution when using data and be mindful where and how you collect it.&lt;/li&gt;
+&lt;/ul&gt;&lt;img src="http://feeds.feedburner.com/~r/FunctioningForm/~4/pCauTCpqhSQ" height="1" width="1" alt=""/&gt;</description>
+      <link>http://feedproxy.google.com/~r/FunctioningForm/~3/pCauTCpqhSQ/entry.asp</link>
+      <pubDate>Tue, 28 Aug 2018 00:00:00 +0000</pubDate>
+      <author>info@lukew.com</author>
+    <feedburner:origLink>http://www.lukew.com/ff/entry.asp?1999</feedburner:origLink></item>
+    <item>
+      <title><![CDATA[An Event Apart: Content Performance Quotient]]></title>
+      <description>&lt;p class="feature"&gt;In his &lt;a href="https://aneventapart.com/event/chicago-2018"&gt;Beyond Engagement: the Content Performance Quotient&lt;/a&gt; presentation at An Event Apart in Chicago, Jeffrey Zeldman introduced a new metric for tracking how well Web sites are performing. Here's my notes from his talk: 
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The number one stakeholder request for Web sites is engagement: we need people using our services more. But is it the right metric for all these situations?&lt;/li&gt;
+&lt;li&gt;For some apps, engagement is clearly the right thing to measure. Think Instagram, long-form articles, or gaming sites. For others, more time spent might be a sign of customer frustration.&lt;/li&gt;
+&lt;li&gt;Most of the Web sites we work on are like customer service desks where we want to give people what they need and get them on their way. For these experiences, speed of usefulness should matter more than engagement.&lt;/li&gt;
+&lt;li&gt;Content Performance Quotient (Design CPQ) is a measure of how quickly we can get the right content to solve the customer's problem. The CPQ is a goal to iterate against and aim for the shortest distance between problem &amp; solution. It tracks your value to the customer by measuring the speed of usefulness. &lt;/li&gt;
+&lt;li&gt;Pretty garbage: when a Web site looks good but doesn't help anyone. Garbage in a delightfully responsive grid is still garbage. A lot of a Web designer's job is bridging the gap between what clients say they need and what their customers actually need.&lt;/li&gt;
+&lt;li&gt;Marlboro's advertising company (in the 50s) rethought TV commercials by removing all the copy and focusing on conveying emotions. They went from commercials typically full of text to just ten words focused on their message.&lt;/li&gt;
+&lt;li&gt;Mobile is a great forcing function to re-evaluate our content. Because you can't fit everything on a small screen, you need to make decisions about what matters most.&lt;/li&gt;
+&lt;li&gt;Slash your architecture and shrink your content. Ask: "why do we need this?" Compare all your content to the goals you've established. Design should be intentional. Have purpose-driven design and purpose-driven content. If your design isn't going somewhere, it is going nowhere.&lt;/li&gt;
+&lt;li&gt;We can't always have meetings where everybody wins. We need to argue for the customer and that means not everyone in our meetings will get what they want. Purpose needs to drive our collaborations not individual agendas, which usually leak into our Web site designs.&lt;/li&gt;
+&lt;li&gt;It’s easy to give every stakeholder what they want. We've enabled this through Content Management Systems (CMS) that allow everyone to publish to the site. Don't take the easy way out. It’s harder to do the right thing. Harder for us, but better for the customer &amp; bottom line.&lt;/li&gt;
+&lt;li&gt;Understanding the customer journey allows us to put the right content in the right place. Start with the most important interaction and build out from there. Focus on key interactions and build out from there. Sometimes the right place for your content isn't your Website -for video it could be YouTube or Vimeo.&lt;/li&gt;
+&lt;li&gt;Customers come to our sites with a purpose. Anything that gets in the way of that is a distraction. Constantly iterate on content to remove the cruft and surface what's needed. You can start with a content inventory to audit what is in your site, but most of this content is probably out of date and irrelevant. So being in a state of constant iteration works better.&lt;/li&gt;
+&lt;li&gt;When you want people to go deeper and engage, to slow down... scannability, which is good for transactions, can be bad for thoughtful content. Instead slow people down with bigger type, better typographic hierarchy, more whitespace.&lt;/li&gt;
+&lt;li&gt;Which sites should be slow? If the site is delivering content for the good of the general public, the presentation should enable slow, careful reading. If it’s designed to promote our business or help a customer get an answer to her question, it must be designed for speed of relevancy.&lt;/li&gt;
+&lt;/ul&gt;&lt;img src="http://feeds.feedburner.com/~r/FunctioningForm/~4/7s58Io3fqLY" height="1" width="1" alt=""/&gt;</description>
+      <link>http://feedproxy.google.com/~r/FunctioningForm/~3/7s58Io3fqLY/entry.asp</link>
+      <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
+      <author>info@lukew.com</author>
+    <feedburner:origLink>http://www.lukew.com/ff/entry.asp?1996</feedburner:origLink></item>
+    <item>
+      <title><![CDATA[An Event Apart: Full-Featured Art Direction]]></title>
+      <description>&lt;p class="feature"&gt;In her &lt;a href="https://aneventapart.com/event/chicago-2018"&gt;Full-Featured Art Direction for the Web&lt;/a&gt; presentation at An Event Apart in Chicago, Mina Markham shared her approach to building Web pages that work across a variety of browsers, devices and locales. Here's my notes from her talk: 
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Full-featured art direction is progressively enhanced, localized for a particular user, yet inclusive of all visitors and locations.&lt;/li&gt;
+&lt;li&gt;Start with the most basic minimal viable experience for the user and move up from there. Semantic markup is your best baseline. Annotate a Web site design with HTML structure: H1, H2, H3, etc. From there, gradually add CSS to style the minimal viable experience. If everything else fails, this is what the user will see. It may be the bare minimum but it works.&lt;/li&gt;
+&lt;li&gt;Feature queries in CSS are supported in most browsers other than IE 11. We can use these to set styles based on what browsers support. For instance, modular font scaling allows you to update overall sizing of text in a layout. Feature Query checker allows you to see what things look like when a CSS query is not present.&lt;/li&gt;
+&lt;li&gt;Localization is not just text translation. Other elements in the UI, like images, may need to be adjusted as well. You can use attributes like :lang() pseudoclass to include language specific design elements in your layout.&lt;/li&gt;
+&lt;li&gt;Inclusive art direction ensures people can make use of our Web sites on various devices and in various locations. Don't remove default behaviors in Web browsers. Instead adjust these to better integrate with your site's design.&lt;/li&gt;
+&lt;/ul&gt;&lt;img src="http://feeds.feedburner.com/~r/FunctioningForm/~4/Isbinsp--98" height="1" width="1" alt=""/&gt;</description>
+      <link>http://feedproxy.google.com/~r/FunctioningForm/~3/Isbinsp--98/entry.asp</link>
+      <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
+      <author>info@lukew.com</author>
+    <feedburner:origLink>http://www.lukew.com/ff/entry.asp?1997</feedburner:origLink></item>
+    <item>
+      <title><![CDATA[What Can Bike Sharing Apps Teach Us About Mobile On-boarding Design?]]></title>
+      <description>&lt;p class="feature"&gt;Given the &lt;a href="https://www.slideshare.net/asymco/toward-micromobility-the-low-end-disruption-of-transportation"&gt;proliferation&lt;/a&gt; of bike/scooter sharing services these days, I thought it would be interesting to compare the mobile app on-boarding experiences of the ones I could access. To do so, I went through the new customer flow for six of these services.&lt;/p&gt;
+
+&lt;p&gt;While the mobile on-boarding I experienced across these services looked really similar, the end result differed dramatically -from me abandoning the process to walking away a delighted customer. Understanding how product design impacted these outcomes is critical for anyone trying to grow a new mobile business.
+&lt;/p&gt;
+
+&lt;h2&gt;Applying Design Patterns&lt;/h2&gt;
+&lt;p&gt;My first encounter with bike sharing, appropriately, was in Amsterdam. I was outside the city center for a meeting and encountered a rack of Hello-Bikes. So why not bike back to my hotel in town? Here’s what happened when I tried.
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://static.lukew.com/onboarding_hellobike_2x.png"&gt;&lt;img src="http://static.lukew.com/onboarding_hellobike.png" srcset="http://static.lukew.com/onboarding_hellobike.png, http://static.lukew.com/onboarding_hellobike_2x.png 2x" alt="Hello-Bike app mobile on-boarding process"&gt;&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Hello-Bike’s mobile on-boarding consists of several common patterns: a splash screen, a sign-up form, terms and conditions, and a tutorial. Though widely used, starting the design process off with these types of patterns often results in a flow that seems right in mock-ups or wireframes but fails to solve actual customer needs.
+&lt;/p&gt;
+
+&lt;p&gt;The designer thinks: “I know what an on-boarding flow is. It’s a splash screen, a sign-up screen and a tutorial people can swipe through.” The resulting customer experience in filling in form fields, scrolling through 17 screens of terms &amp; conditions (yes, you are required to scroll through all of them), granting location permissions (because “background location-tracking is required”), and skipping through 6 tutorial screens featuring critical knowledge like “Welcome to Hello-Bike.”
+&lt;/p&gt;
+
+&lt;p&gt;After maneuvering through all this, I found out there were no docking stations in central Amsterdam because of &lt;a href="https://www.citylab.com/transportation/2017/08/amsterdam-fights-back-against-rogue-bike-share/535791/"&gt;government regulation&lt;/a&gt;. So I actually couldn’t use the Hello-Bike service to ride to my hotel. Starting the design process from the perspective of the customer would likely have revealed the importance of communicating these kinds of constraints up front. Starting by selecting design patterns would not.
+&lt;/p&gt;
+
+&lt;em&gt;Lessons Learned:&lt;/em&gt;
+&lt;ul&gt;
+&lt;li&gt;Set expectations appropriately, so potential customers don’t end a lengthy sign-up process in disappointment or frustration.&lt;/li&gt;
+&lt;li&gt;While convenient, design patterns are no substitute for understanding and designing with your customers &amp; their goals top of mind.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Having Desktop Bias&lt;/h2&gt;
+&lt;p&gt;While modern mobile devices have been around for over ten years, desktop devices have had at least 3x more time to influence and bias our approach to software design. That’s why it’s not surprising to see desktop design concepts permeate mobile apps. In the case of Jump’s mobile on-boarding, they are all over the place.
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://static.lukew.com/onboarding_jump_2x.png"&gt;&lt;img src="http://static.lukew.com/onboarding_jump.png" srcset="http://static.lukew.com/onboarding_jump.png, http://static.lukew.com/onboarding_jump_2x.png 2x" alt="Jump mobile app on-boarding process"&gt;&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Following the obligatory splash screen, Jump animates through a series of safety tips calling out the unique features of electric bikes. Unfortunately, so many steps follow these tips that I can’t imagine anyone remembering them when they are finally allowed to ride one of Jump’s electric bikes.
+&lt;/p&gt;
+
+&lt;p&gt;Next up are a series of permission dialogs for access to Motion &amp; Fitness and Location data. Both requests are accompanied by explanatory text that suggests Jump needs access to this information in order to “gather data about how electric bikes affect travel patterns.” Sounds like a good thing for Jump, but it’s not clear why customers should participate or even care.
+&lt;/p&gt;
+
+&lt;p&gt;This mindset permeates the rest of Jump’s on-boarding as well: choose one of our bike “networks”, select one of our plans, verify your phone number, pick a 7 character password with numbers and uppercase letters, agree to our terms and conditions, put money into one of our accounts, etc. After ten steps of doing things for Jump and seeing no progress toward actually riding a bike, I abandoned at the “Enter Credit Card” step. 
+&lt;/p&gt;
+
+&lt;p&gt;Perhaps someone at Jump heard completion rates for forms go up when you place each question on a separate screen (I’ve seen no evidence of this), but the cumulative effect of going through a desktop-design influenced &lt;a href="https://www.lukew.com/ff/entry.asp?1579"&gt;e-commerce checkout flow&lt;/a&gt; one step at a time on my phone was quite painful.
+&lt;/p&gt;
+
+&lt;em&gt;Lessons Learned:&lt;/em&gt;
+&lt;ul&gt;
+&lt;li&gt;Make sure your customers always feel like they are making progress toward their goals, not yours.&lt;/li&gt;
+&lt;li&gt;Desktop paradigms often aren’t a great fit for mobile. For instance, do you really need a checkout form? As we’ll see later, no.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Right Time, Right Place&lt;/h2&gt;
+&lt;p&gt;After abandoning the bike-sharing process with both Hello-Bike and Jump, I had my first successful on-boarding with Spin. That’s not to say there wasn’t a lot of room for improvement. With mobile on-boarding it’s not just &lt;strong&gt;what&lt;/strong&gt; we ask people to do it’s also &lt;strong&gt;when&lt;/strong&gt; we ask them to do it. Spin starts off with a tutorial, which explains they are smart, I can park anywhere, and scanning a bike’s QR code will let me ride it.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://static.lukew.com/onboarding_spin_2x.png"&gt;&lt;img src="http://static.lukew.com/onboarding_spin.png" srcset="http://static.lukew.com/onboarding_spin.png, http://static.lukew.com/onboarding_spin_2x.png 2x" alt="Spin mobile app on-boarding process"&gt;&lt;/a&gt;
+&lt;/p&gt;
+ 
+&lt;p&gt;Turns out that’s not entirely true as I needed to give them my email address, create a password, provide location permissions, and agree to three separate terms of service. It’s only after this gauntlet, that I’m actually able to scan the QR code on the bike in front of me. Why couldn’t we just have started the process there? 
+&lt;/p&gt;
+
+&lt;p&gt;It is worth noting, however, that Spin provides much better &lt;a hrewf="https://www.lukew.com/ff/entry.asp?1928"&gt;explanations&lt;/a&gt; for its permission requests. When requesting location permissions, Hello-Bike told me: “background-location tracking is required” and Jump explained I could help them “gather data about how electric bikes affect travel patterns.” Spin, on the other hand, explained they use location to help me find pick-up and drop off points. They also explained they needed camera permissions so I can scan the QR code on a bike to unlock it.
+&lt;/p&gt;
+
+&lt;p&gt;After I did, my next step was to reload my Spin account, with the only reloading option being $5. This immediately felt odd as the bike ride itself was advertised as $1. So if I never rode another Spin bike again, they had 4 more dollars from me... hmmmm. On a positive note, Spin integrated with Apple Pay which meant I simply had to tap a button on the side of my phone to approve payment. No checkout forms, shopping carts, or credit card entry forms required. See? We can do things in a mobile-native vs. desktop way.
+&lt;/p&gt;
+
+&lt;p&gt;Following the payment process, I was greeted with a another tutorial (these things sure are popular huh? too bad most people skip through them). This time 4 screens told me about parking requirements. But wait… didn’t the first tutorial tell me I could park anywhere? Next Spin asked to send me notifications with no explanation as to why I should agree. So I didn’t.
+&lt;/p&gt;
+
+&lt;p&gt;Once I rode the bike and got to my destination, I received a ride summary that told me my ride was free. That’s much appreciated but it left me asking again… couldn’t we have started there?
+&lt;/p&gt;
+
+&lt;em&gt;Lessons Learned:&lt;/em&gt;
+&lt;ul&gt;
+&lt;li&gt;When you surface information to customers is critical. Spin could have told me my ride was free well before asking me to fill my account with a minimum of $5. And their Parking tutorial was probably more appropriate after my ride when parking my bike, not before it.&lt;/li&gt;
+&lt;li&gt;Get people to your core value as soon as possible, but not sooner. It took 7 steps before I was able to scan the bike in front of me and 9 more steps before I could actually ride it. Every step that keeps customers from experiencing what makes you great, leaves them wondering why you’re not.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Tricky, Tricky&lt;/h2&gt;
+&lt;p&gt;By now, Ofo’s mobile on-boarding process will seem familiar: location and notification permission asks without any useful explanations, an up-front tutorial, a phone number verification flow, a camera permission ask, and more.
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://static.lukew.com/onboarding_ofo_2x.png"&gt;&lt;img src="http://static.lukew.com/onboarding_ofo.png" srcset="http://static.lukew.com/onboarding_ofo.png, http://static.lukew.com/onboarding_ofo_2x.png 2x" alt="Ofo mobile app on-boarding process"&gt;&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;For many mobile apps, phone number verification can replace the need for more traditional desktop computer influenced sign-up process that require people to enter their first and last names, email addresses, passwords, and more into a series of form fields. When you’re on a phone, all you need to verify it’s you is your phone number.
+&lt;/p&gt; 
+
+&lt;p&gt;With this simplified account creation process, Ofo could have had me on my way with a quick QR code scan. But instead I got a subscription service promotion that suggested I could try the service for free. After tapping the “Try it Free” button, however, I ended up on a Choose your Plan page. It was only when I used the small back arrows (tricky, tricky) that I made it back to the QR code unlock process which let me ride the Ofo bike in front of me with no charge.
+&lt;/p&gt;
+
+&lt;em&gt;Lessons Learned:&lt;/em&gt;
+&lt;ul&gt;
+&lt;li&gt;Mobile device capabilities allow us to rethink how people can accomplish tasks. For instance, instead of multiple step sign-up forms, a two step phone verification process can establish someone’s account much quicker by using what mobile devices do well.&lt;/li&gt;
+&lt;li&gt;While companies have revenue and growth needs, unclear flows and UI entrapments are not the way to build long-term customer loyalty and growth. You may trick some people into subscribing to your service but they won’t like you for it.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;But Why?&lt;/h2&gt;
+&lt;p&gt;Starting Bird’s mobile on-boarding gave me high hopes that I had finally found a streamlined customer-centric process that delivered on the promise of fast &amp; easy last-mile transportation (or micro-mobility, if you must).&lt;/p&gt;
+
+&lt;p&gt;Things started out typically, a splash screen, an email form field, a location permission ask, but then moved right to scanning the  QR code of the scooter in front of me and asking me to pay the $1 required to get started. Great, I thought… I’ll be riding in no time as I instantly made it through Apple Pay’s confirmation screen.
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://static.lukew.com/onboarding_bird_2x.png"&gt;&lt;img src="http://static.lukew.com/onboarding_bird.png" srcset="http://static.lukew.com/onboarding_bird.png, http://static.lukew.com/onboarding_bird_2x.png 2x" alt="Bird mobile app on-boarding process"&gt;&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;As a quick aside, integrating native payment platforms can really accelerate the payment process and increase conversion. Hotel Tonight &lt;a href="https://www.slideshare.net/kendrickapp/hotel-tonight-mobile"&gt;saw&lt;/a&gt; a 26% increase in conversion with Apple Pay and Wish used A/B testing to &lt;a href="https://stripe.com/docs/apple-pay/best-practices"&gt;uncover&lt;/a&gt; a 2X conversion increase when they added Apple Pay support. Turns out people do prefer to just look (Face ID) or tap (Touch ID) to pay for things on their phones instead of entering credit card or banking account details into mobile keyboards.
+&lt;/p&gt;
+
+&lt;p&gt;But back to Bird... I scanned the QR code and authorized Apple Pay. Time to ride right? Not quite. Next I was asked to scan the front of my drivers’ license with no explanation of why. Odd, but I assumed it was a legal/safety thing and despite having a lot of privacy reservations got through it. Or so I thought because after this I had to scan the back of my drivers’ license, scroll through all 15 screens of a rental agreement, and tick off 6 checkboxes saying I agreed to wear a helmet, not ride downhill, and was over 18 (can’t they get that from my driver’s license?).
+&lt;/p&gt;
+
+&lt;p&gt;Then it was back to scanning the QR code again, turning down notification permissions, and slogging through a 4 screen tutorial which ended with even more rules. The whole process left me feeling the legal department had taken over control of Bird’s first time customer experience: rental contracts, local rules, driver’s license verifications, etc. -really not in line with the company’s brand message of “enjoy the ride”. I left being intimated by it.&lt;/p&gt;
+
+&lt;em&gt;Lessons Learned:&lt;/em&gt;
+&lt;ul&gt;
+&lt;li&gt;Rules and regulations do exist but mobile on-boarding flows shouldn’t be driven by them. There’s effective ways to balance legal requirements and customer experience. Push hard to find them.&lt;/li&gt;
+&lt;li&gt;When asking for personal (especially highly personal) information, explain why. Even just a sentence about why I had to scan my driver’s license would have helped me immensely with Bird’s process.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Core Value, ASAP&lt;/h2&gt;
+&lt;p&gt;By now, we’ve seen how very similar companies can end up with very different mobile on-boarding designs and results. So how can companies balance all the requirements and steps involved in bike-sharing and still deliver a great first-time experience? By always looking at things from the perspective of your customer. Which Lime, while not perfect, does.
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://static.lukew.com/onboarding_lime2_2x.png"&gt;&lt;img src="http://static.lukew.com/onboarding_lime2.png" srcset="http://static.lukew.com/onboarding_lime2.png, http://static.lukew.com/onboarding_lime2_2x.png 2x" alt="Lime mobile app on-boarding process"&gt;&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Lime doesn’t bother with a splash screen showing you their logo as a first step. Instead they tell you upfront that they know why you’re here with a large headline stating: “Start Riding Now”. Awesome. That’s what I’ve been trying to do this whole time. On this same screen are two streamlined sign-up options: phone number verification (which makes use of native device capabilities) and Facebook -both aimed at getting you started right away.
+&lt;/p&gt;
+
+&lt;p&gt;Next, Lime takes the time to explain why they are asking for location permissions with the clearest copy we’ve seen in all these examples: “to find nearby bikes and scooters”. Sadly, they don’t apply this same level of clarification to the next permission ask for Notifications. But smartly, they use &lt;a href="https://www.lukew.com/ff/entry.asp?1928"&gt;a double dialog solution&lt;/a&gt; and if you say no (which I did), they try again with more clarity.
+&lt;/p&gt;
+
+&lt;p&gt;It’s become almost standard practice to just ask for notification permissions up front in mobile apps because up to 40% of people will just give them to you. So many apps figure, why not ask? Lots of people will say no but we’ll get some people saying yes. Personally, I feel this is an opportunity to improve for Lime.
+&lt;/p&gt;
+
+&lt;p&gt;Ignoring the notifications prompt, the rest of Lime’s on-boarding process is fast and efficient: scan the QR code (once again with a clear explanation of why camera permissions are needed), authorize Apple Pay to pay for your ride. Lime doesn’t either bother to provide other payment options. They know the user experience and conversion benefits of Apple Pay and rely on it exclusively.
+&lt;/p&gt;
+
+&lt;p&gt;And… that’s it. I’m riding. No tutorial! Shocking I know, but they do offer one on the map screen if you’d like to learn more before riding. User choice, not company requirement. 
+&lt;/p&gt;
+
+&lt;p&gt;In their mobile on-boarding, Lime deftly navigated a number of significant hurdles: account set-up/verification, location &amp; camera permissions and payment -the minimum amount necessary to ride and nothing more. They did so by explaining how each of these steps got me closer to my goal of riding and worked hard to minimize their requirements, often relying on native mobile functionality to make things as fast and easy as possible.
+&lt;/p&gt;
+
+&lt;em&gt;Lessons Learned:&lt;/em&gt;
+&lt;ul&gt;
+&lt;li&gt;It’s not about you, it’s about your customer. Put your customer’s goals front and center in your mobile on-boarding process. It starts from the first screen (i.e. “Start Riding Now”)&lt;/li&gt;
+&lt;li&gt;Lean into mobile-native solutions: phone verification, integrated payments, and more.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;More On On-boarding&lt;/h2&gt;
+&lt;p&gt;For a deeper look into mobile on-boarding design, check out this 20 minute segment of my Mobile design and data presentation at Google Conversions this year:
+
+&lt;div style="padding-top: 56.25%;" class="videobox"&gt;&lt;iframe class="videoplayer" src="https://www.youtube.com/embed/EbbjEY-TyhU?rel=0&amp;start=1830" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+You can also read Casey Winter’s &lt;a href="https://news.greylock.com/why-onboarding-is-the-most-crucial-part-of-your-growth-strategy-8f9ad3ec8d5e"&gt;article about on-boarding&lt;/a&gt;, which does a great job outlining the concept of getting people to your company’s core value as fast as possible, but not faster.
+&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/FunctioningForm/~4/qMeocWY9Ycc" height="1" width="1" alt=""/&gt;</description>
+      <link>http://feedproxy.google.com/~r/FunctioningForm/~3/qMeocWY9Ycc/entry.asp</link>
+      <pubDate>Mon, 23 Jul 2018 00:00:00 +0000</pubDate>
+      <author>info@lukew.com</author>
+    <feedburner:origLink>http://www.lukew.com/ff/entry.asp?1995</feedburner:origLink></item>
+    <item>
+      <title><![CDATA[Video: Mobile Planet]]></title>
+      <description>&lt;p class="feature"&gt;For the past six years, I've presented a walkthrough of the latest mobile data and design insights and solutions I've been exploring at &lt;a href="https://www.youtube.com/playlist?list=PLMEOqDSoPMSU2wlfJMERFOZJwMLmhyx90"&gt;Google's Conversions event&lt;/a&gt; in Dublin. This year's video recording is now live.&lt;/p&gt;
+
+&lt;div style="padding-top: 56.25%;" class="videobox"&gt;&lt;iframe class="videoplayer" src="https://www.youtube.com/embed/EbbjEY-TyhU?rel=0" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;p&gt;This year's presentation is a data-informed big picture view of our mobile planet, how to design products for it, and why covering on-boarding, performance, touch gestures, and more.&lt;/p&gt;
+
+&lt;h2&gt;All Annual Sessions:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Conversions@Google 2018 session on our &lt;a href="https://www.lukew.com/ff/entry.asp?1994"&gt;Mobile Planet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Conversions@Google 2017 (November) session on &lt;a href="https://www.lukew.com/ff/entry.asp?1982"&gt;Mobile in The Future&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Conversions@Google 2017 (April) session on &lt;a href="https://www.lukew.com/ff/entry.asp?1973"&gt;Mobile in The Future&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Conversions@Google 2016 session on &lt;a href="https://www.lukew.com/ff/entry.asp?1962"&gt;Obvious Always Wins&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Conversions@Google 2015 session on &lt;a href="https://www.lukew.com/ff/entry.asp?1949"&gt;Screen Time&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Conversions@Google 2014 session on &lt;a href="https://www.lukew.com/ff/entry.asp?1936"&gt;Mobile Design Now&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Conversions@Google 2013 session on &lt;a href="https://www.youtube.com/watch?v=DSye2bcl2Lg&amp;index=2&amp;list=PLMEOqDSoPMSV6jWnwxaAlcuuA0gVRGAuy"&gt;One Design for a Multi-Device Web&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Big thanks to the &lt;a href="https://www.youtube.com/channel/UClGSSyDNPuqaRMUyPru1w4Q"&gt;Conversions@Google&lt;/a&gt; team for making these sessions available to all.&lt;/p&gt;&lt;img src="http://feeds.feedburner.com/~r/FunctioningForm/~4/4E3UodHl2eY" height="1" width="1" alt=""/&gt;</description>
+      <link>http://feedproxy.google.com/~r/FunctioningForm/~3/4E3UodHl2eY/entry.asp</link>
+      <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
+      <author>info@lukew.com</author>
+    <feedburner:origLink>http://www.lukew.com/ff/entry.asp?1994</feedburner:origLink></item>
+    <item>
+      <title><![CDATA[Google Conversions: Highlights]]></title>
+      <description>&lt;p class="feature"&gt;Across several presentations at &lt;a href="https://events.withgoogle.com/conversionsgoogle-9/agenda/#content"&gt;Google Conversions&lt;/a&gt; in Dublin, several speakers shared insights and best practices for conversion rate optimization. Here's a few highlights: 
+&lt;/p&gt;
+&lt;h2&gt;Confirmation Bias - Michael Aagaard&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;In the 18th century, tobacco smoke was considered very good for your heart and lungs. In particular tobacco enemas were quite popular so much that they were placed along the banks of the river Thames to help drowning victims. This is an example of confirmation bias at work.&lt;/li&gt;
+&lt;li&gt;Confirmation biases is our tendency to accept evidence we agree with at face value and dismiss information we don't agree with unless the evidence is overwhelming. Confirmation biases limits our ability to seek out and uncover the truth.&lt;/li&gt;
+&lt;li&gt;Torturing data: if you torture any data long enough it will confess to anything. High levels of correlation between things don't imply causation. We have to be careful to not see what we want in data.&lt;/li&gt;
+&lt;li&gt;Stopping A/B tests when they show the impact we want is an example of confirmation bias. Instead, let them run for an appropriate amount of time. Over time, tests are likely to show much less effects.&lt;/li&gt;
+&lt;li&gt;How to overcome confirmation bias: accept the fact that you could be wrong, seek out a different perspective. Find people who talk to customers/users. They have a bias toward end users.&lt;/li&gt;
+&lt;li&gt;Don't test your ideas, do detective work to find out what customers need and how they talk about it. Then your A/B test is simply the final test at the end to see if you did your detective work well.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;CRO - Lina Hansson&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Celebrate the discovery of weak spots. Don't take it as failure but instead be happy when you find something that can be improved.&lt;/li&gt;
+&lt;li&gt;The biggest missed opportunity in conversion rate optimization is usability testing. Move away from opinions and instead use user testing to identify issues.&lt;/li&gt;
+&lt;li&gt;A common pain point across retail sites is find-ability: both search and browse. When we move to mobile, many sites remove their top categories list in order to fit on smaller screens. This creates discoverability issues. One of the first things retail sites should test is adding categories visibly on their home page.&lt;/li&gt;
+&lt;li&gt;Value propositions for companies are usually cut for mobile. Instead of removing them, redesign them to make them work on mobile.&lt;/li&gt;
+&lt;li&gt;People can be classified into four behavior types. Methodical people read completely and analyze before making decisions. Humanistic people react strongly to the opinions of others. Competitive people move quickly and expect things to work. Spontaneous people are emotional and fast-paced. You can design experiences that are appropriate for each of these behavior types.&lt;/li&gt;
+&lt;li&gt;The companies that solve checkout on mobile are the ones that will win.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Meaningful Data - Simo Ahava&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;It's quite simple to get a service like Google Analytics set up but how do we use these tools to really understand what we're doing. How can data become meaningful?&lt;/li&gt;
+&lt;li&gt;Tactics (tool expertise) without a strategy (business expertise) are just party tricks and a strategy without tactics is just talk. What brings the two together is agility.&lt;/li&gt;
+&lt;li&gt;Tools must be customized for your organization's needs. We are not trying to optimize metrics but our businesses. Default metrics and reports need to be adjusted to work with your specific needs.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Landing Pages - Anna Potanin&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Designers want to do their best and create unique interfaces but making things for the Web often requires understanding and using conventions. Only apply a unique visual design after you have followed best practices.&lt;/li&gt;
+&lt;li&gt;3 things all retail sites should have on their landing and home pages: call to action, value propositions, and visuals.&lt;/li&gt;
+&lt;li&gt;The more prominent you make your search bar, the more searches you get. Why do you want to do this? Conversion rates are usually much higher for people who search&lt;/li&gt;
+&lt;/ul&gt;&lt;img src="http://feeds.feedburner.com/~r/FunctioningForm/~4/6FFMdYaADIE" height="1" width="1" alt=""/&gt;</description>
+      <link>http://feedproxy.google.com/~r/FunctioningForm/~3/6FFMdYaADIE/entry.asp</link>
+      <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
+      <author>info@lukew.com</author>
+    <feedburner:origLink>http://www.lukew.com/ff/entry.asp?1993</feedburner:origLink></item>
+    <item>
+      <title><![CDATA[An Event Apart: The Way of the Web]]></title>
+      <description>&lt;p class="feature"&gt;In his &lt;a href="https://aneventapart.com/event/seattle-2018"&gt;The Way of the Web&lt;/a&gt; presentation at An Event Apart in Seattle, Jeremy Keith discussed building for the Web today and how to manage the rate of change of technologies and tools for Web development. Here's my notes from his talk: 
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Science fiction is not about predicting the future, it is about looking at the concerns we have today and projecting them forward. Novels are empathy machines. You can really get into what the characters were feeling/experiencing and thereby share their concerns.&lt;/li&gt;
+&lt;li&gt;While science fiction books get some things right about the future, they also have blind spots. For instance, people went to phone booths instead of carrying mobile phones. In the present we have a future that was almost beyond what was predicted in seminal works of science fiction.&lt;/li&gt;
+&lt;li&gt;With where technology is today and what is possible, are we in a utopia or a dystopia? Are we excited or afraid of technology's possibilities. What makes the difference? Why are we excited about some technologies and apprehensive about others?&lt;/li&gt;
+&lt;li&gt;Working on the Web can be overwhelming as we have to endure constant changes in technology and processes. When that rate of change is especially steep, things get worse.&lt;/li&gt;
+&lt;li&gt;Stewart Brand's pace layers outline the rate of change of everything from people to buildings. Fashion changes quickly, culture changes slowly, and that's good. We get apprehensive when things that should move slow start changing too quickly. Example: quick changes in government are usually revolutions.&lt;/li&gt;
+&lt;li&gt;The materials of the Web (HTML, CSS, and Javascript) move slow and are more stable, they are lower pace layers. The tools of the Web move much faster and are more subject to change.&lt;/li&gt;
+&lt;li&gt;If a technology helps the developer but not the end user, there's a balance that needs to be understood. Is the trade-off of developer convenience worth a large download for users?&lt;/li&gt;
+&lt;li&gt;We can map Web technologies to pace layers. The bottom layer is the Internet (TCP/IP). This hasn't changed in decades and you don't want it to change. HTTP is the protocol layer above this and is changes very slowly, which is appropriate. URLs are the layer above, which change often but probably shouldn't. HTML and CSS are changing much more quickly but still not as fast as Javascript.&lt;/li&gt;
+&lt;li&gt;Every week there is a new Javascript library, which is where the Web feels apprehensive. Ideas get vetted out in Javascript and when they stabilize, they move down to HTML and CSS. It's ok that Javascript changes quickly -it needs to in order to work out new ideas.&lt;/li&gt;
+&lt;li&gt;You can choose to build single page Web sites in Javascript only. Going directly to URLs and HTTP. However this sets up a works great or doesn't work model. The power of the Web is that we have different levels of "working", a continuum. Everybody gets something with these in-between levels of experience.&lt;/li&gt;
+&lt;li&gt;The rule of least power: "choose the language of least power to accomplish something" It's not as powerful, but much more stable. Instead of doing everything in Javascript, see what can be done in HTML and CSS first.&lt;/li&gt;  
+&lt;li&gt;The Web favors ubiquity over consistency. You can get to the content but it may not look the same to everyone. Start with the simplest element (like a select) and gradually apply styling/code to layer on additional enhancements.&lt;/li&gt;
+&lt;li&gt;This mode of building for the Web isn't just for simple sites. Even "complex" sites can be broken down into simpler elements. There's actually a continuum between simple and complex.&lt;/li&gt;
+&lt;li&gt;Progressive Web apps are Web sites that add HTTPS, a Web app manifest, and a service worker. This layering of technology allows sites to not only run securely but also offline.&lt;/li&gt;
+&lt;li&gt;People want browser features to be supported everywhere before they start using them, but that's not how it works. You can start using these elements now even if they only have partial support and get the benefits where they're available.&lt;/li&gt;
+&lt;/ul&gt;&lt;img src="http://feeds.feedburner.com/~r/FunctioningForm/~4/t1ukcNH6C_8" height="1" width="1" alt=""/&gt;</description>
+      <link>http://feedproxy.google.com/~r/FunctioningForm/~3/t1ukcNH6C_8/entry.asp</link>
+      <pubDate>Tue, 03 Apr 2018 00:00:00 +0000</pubDate>
+      <author>info@lukew.com</author>
+    <feedburner:origLink>http://www.lukew.com/ff/entry.asp?1990</feedburner:origLink></item>
+    <item>
+      <title><![CDATA[An Event Apart: Performance as User Experience]]></title>
+      <description>&lt;p class="feature"&gt;In his &lt;a href="https://aneventapart.com/event/seattle-2018"&gt;Performance as User Experience&lt;/a&gt; presentation at An Event Apart in Seattle, Aaron Gustafson shared a number of ways to optimize Web page performance. Here's my notes from his talk: 
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Our jobs as designers is to reduce friction for our users. Poor performance causes friction and can negatively impact key metrics like conversion and revenue.&lt;/li&gt;
+&lt;li&gt;How do Web pages load: when you enter an address in a URL bar, a DNS look-up replies with an IP address, then there's a TCP handshake followed by the actual request for files/data, once there's a response the browser can actually do something.&lt;/li&gt;
+&lt;li&gt;Once the browser gets a response, it can assemble the document object, the render tree, layout, paint, and finally load. CSS and Javascript can delay this process and sometimes cause it to run again.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Steps for better performance&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Use native features whenever possible. They are effectively free. Semantic elements not only reduce bytes but also contain attributes that provide a lot of functionality like placeholder, autocomplete, autocorrect, type, etc. System fonts can help reduce the need for custom font downloads. Font stacks can cover fallback issues.&lt;/li&gt;
+&lt;li&gt;Only include assets you actually need. Every tool has a cost, make sure you are really using enough of each tool to justify that cost. Chances are the tool you are trying to use is already on a CDN and you can use resource hints to speed up the download process. But downloading isn't everything as Javascript frameworks also take time to execute, which is slower than native JS processing.&lt;/li&gt;
+&lt;li&gt;Optimize everything. Task runners like Grunt and Gulp can help automate optimizations of Javascript, CSS and HTML. Minify and pre-compress all your files.&lt;/li&gt;
+&lt;li&gt;Think about when you load assets. If you have Javascript files divided into modules, you can defer functions you won't need until the after the DOM is loaded. The async attribute also allows you to load files when it makes the most sense. Just make sure you don't hit any race conditions if some of your Javascript files have dependencies on others.&lt;/li&gt;
+&lt;li&gt;Why so many different files? Under HTTP1, each resources was requested sequentially. Now with HTTP2, you set a single connection and then stream in resources as needed.&lt;/li&gt;
+&lt;li&gt;Consider how you load assets. Start simple by loading just your default (often mobile) CSS file. You can add a media query as a threshold for loading more advanced CSS in browsers than can render it. Conditional comments (which only work in IE8 and below) can either load or hide elements from older browsers. Similar techniques can be used to conditionally load images and animations (via SVG support).&lt;/li&gt;
+&lt;li&gt;Only load assets when they add value. Not every article needs an image, think twice before you include it. Images are 53% of the average web page and very expensive size-wise. If you need an image, use the right format. GIFs ae good for solid colors, JPGs for photographs, PNGs are JPG alternatives with alpha transparency, WebPs are note well supported but optimized in many ways.&lt;/li&gt;
+&lt;li&gt;Images can be optimized by removing color, blurring parts of images, resizing, compressing, and using appropriate formats. We can use the picture element to add WebP images in browsers that support them. Remember to put your smallest files first, because the first one that works is what gets used.&lt;/li&gt;
+&lt;li&gt;Every choice we  make affects our  users’ experiences. Let’s spend our time to save it for our users.&lt;/li&gt;
+&lt;/ul&gt;&lt;img src="http://feeds.feedburner.com/~r/FunctioningForm/~4/E8y5ruHnspA" height="1" width="1" alt=""/&gt;</description>
+      <link>http://feedproxy.google.com/~r/FunctioningForm/~3/E8y5ruHnspA/entry.asp</link>
+      <pubDate>Tue, 03 Apr 2018 00:00:00 +0000</pubDate>
+      <author>info@lukew.com</author>
+    <feedburner:origLink>http://www.lukew.com/ff/entry.asp?1991</feedburner:origLink></item>
+    <item>
+      <title><![CDATA[An Event Apart: Navigating Team Friction]]></title>
+      <description>&lt;p class="feature"&gt;In her &lt;a href="https://aneventapart.com/event/seattle-2018"&gt;Navigating Team Friction&lt;/a&gt; presentation at An Event Apart in Seattle, Lara Hogan discussed what causes teams at work to have issues and how to address them. Here's my notes from her talk: 
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Teams of people are amazing. Its a privilege to work together with people to make things.&lt;/li&gt;
+&lt;li&gt;Bruce Tuckman found a series of stages that groups of people go through: forming (comes together in a new state), storming (some friction emerges), norming (clarity begins to emerge), performing (effective state). This is a cycle that repeats itself regularly.&lt;/li&gt;
+&lt;li&gt;Storming is a natural part of team dynamics but it does create friction. You need to be able to move past the friction in order to focus on what actually matters.&lt;/li&gt;
+&lt;li&gt;It can take a while for managers to identify and resolve points of friction. So what can team members do to address the issue earlier on?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Core Needs&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Everyone transforms into different versions of themselves sometimes. The rationale part of our brains isn't always in control. Instead, we may be reacting to fear and/or threats that put us into fight or flight mode. These reactions come from more than use physical safety and shelter needs.&lt;/li&gt;
+&lt;li&gt;Modern humans have several core needs. First, people need to belong to a group or community. Second, people need to make improvements and/or progress (for team, company, or personally). Third, people need to be able to make choices about their work -they need flexibility, and decision-making capabilities. Fourth, people need access to equal resources, information, and fairness. Fifth, people require some amount of predictability in their work days. Lastly, people need to feel their work matters -they need recognition and visibility for work.&lt;/li&gt;
+&lt;li&gt;The BICEPS model (the needs above) gives you a way to assess what could be causing team friction.&lt;/li&gt;
+&lt;li&gt;As an example, moving desks are a great example of why people react emotionally to seemingly sound rationale decisions. They impact belonging, choice, predictability, etc. but do so differently for different people. To address these issues, try to identify the core need being effected.&lt;/li&gt;
+&lt;li&gt;To find which core needs are being impacted, look at the types of resistance you are seeing. Doubt: asking lots of questions/debating the issue. Avoid: not showing up. Fight: people create arguments against the issue. Bond: go to friends &amp; peers to find support. Escape-route: changing roles, leaving company to avoid the threat.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Communication Style&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;When you spot some signals, ask open questions (which are different than yes/no questions). This helps you understand which core needs are being threatened on the team. Then you can figure out how to address the issue.&lt;/li&gt;
+&lt;li&gt;Reflect on the dynamics of the room, what are they thinking and/or worried about? Be aware of your medium: what words, body language are you using?&lt;/li&gt;
+&lt;li&gt;When you make an ask of someone, consider if they can act on what you are saying. Don't tear things down, try to elevate the conversation by being transparent.&lt;/li&gt;
+&lt;li&gt;Assume everyone has the best intentions at work and try to empathize with what other people may be going through.&lt;/li&gt;
+&lt;li&gt;Listen to learn: stay genuinely curious. Operate under the assumption that you don't know the whole story. Be excited to have your mind changed, it helps you learn and grow.&lt;/li&gt;
+&lt;li&gt;Humans aren't great at feedback but we can get better. Good feedback is specific and actionable. This kind of feedback helps us improve and grow.&lt;/li&gt;
+&lt;li&gt;Structure your feedback as: observation of a behavior (just the facts)+ impact of that behavior (share how you feel) + question or request. Write it out first to make sure it's communicating what you want.&lt;/li&gt;
+&lt;li&gt;It's ok to cause some friction, that's a natural part of working together. But know how you can move past it.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Prevention&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Retrospectives allow people to know their feelings have been heard. Name friction points in these meetings to acknowledge what didn't work.&lt;/li&gt;
+&lt;li&gt;Team charters and docs can helps align people's work against a common vision and clear responsibilities.&lt;/li&gt;
+&lt;li&gt;The absence of trust is the source of most team dysfunctions. How do you get these issues surfaced within a team? Determine if you agree or disagree with decisions and whether or not you can commit to a decision.&lt;/li&gt;
+&lt;li&gt;If/when you need to go to HR or leadership, state what's been tried and what you think could help now. Be prepared that they may take a different action after weighing the situation.
+&lt;/ul&gt;&lt;img src="http://feeds.feedburner.com/~r/FunctioningForm/~4/FOCmxyc00RA" height="1" width="1" alt=""/&gt;</description>
+      <link>http://feedproxy.google.com/~r/FunctioningForm/~3/FOCmxyc00RA/entry.asp</link>
+      <pubDate>Tue, 03 Apr 2018 00:00:00 +0000</pubDate>
+      <author>info@lukew.com</author>
+    <feedburner:origLink>http://www.lukew.com/ff/entry.asp?1992</feedburner:origLink></item>
+    <item>
+      <title><![CDATA[An Event Apart: Content Performance Quotient]]></title>
+      <description>&lt;p class="feature"&gt;In his &lt;a href="https://aneventapart.com/event/seattle-2018"&gt;Beyond Engagement: the Content Performance Quotient&lt;/a&gt; presentation at An Event Apart in Seattle, Jeffrey Zeldman introduced a new metric for tracking how well Web sites are performing. Here's my notes from his talk: 
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The number one stakeholder request for Web sites is engagement: we need people using our services more. But is it the right metric for all these situations?&lt;/li&gt;
+&lt;li&gt;For some apps, engagement is clearly the right thing to measure. For others, more time spent might be a sign of frustration.&lt;/li&gt;
+&lt;li&gt;Most of the Web sites we work on are like customer service desks where we want to give people what they need and get them on their way.&lt;/li&gt;
+&lt;li&gt;Content Performance Quotient (Design CPQ) is a metric of how quickly we can get the right content to solve the customer's problem. The shortest distance between problem &amp; solution. This tracks your value to the customer by measuring the speed of usefulness. &lt;/li&gt;
+&lt;li&gt;Pretty garbage: when a Web site looks good but doesn't help anyone. Garbage in a delightfully responsive grid is still garbage.&lt;/li&gt;
+&lt;li&gt;Slash your architecture and shrink your content. Ask: "why do we need this?" Compare all your content to the goals you've established. Design should be intentional. Have purpose-driven design and purpose-driven content.&lt;/li&gt;
+&lt;li&gt;We can't always have meetings where everybody wins. We need to argue for the customer and that means not everyone in our meetings will get what they want. Purpose needs to drive our collaborations not individual agendas, which usually leak into our Web site designs.&lt;/li&gt;
+&lt;li&gt;It’s easy to give every stakeholder what they want. Don't take the easy way out. It’s harder to do the right thing. Harder for us, but better for the customer &amp; bottom line.&lt;/li&gt;
+&lt;li&gt;Understanding the customer journey allows us to put the right content in the right place. Start with the most important interaction and build out from there. Focus on key interactions and build out form there.&lt;/li&gt;
+&lt;li&gt;Customers come to our sites with a purpose. Anything that gets in the way of that is a distraction. Constantly iterate on content to remove the cruft and surface what's needed.&lt;/li&gt;
+&lt;li&gt;When you want people to go deeper and engage, to slow down... scannability, which is good for transactions, can be bad for thoughtful content. Instead slow people down with bigger type, better typographic hierarchy, more whitespace.&lt;/li&gt;
+&lt;li&gt;Which sites should be slow? If the site is delivering content for the good of the general public, the presentation should enable slow, careful reading. If it’s designed to promote our business or help a customer get an answer to her question, it must be designed for speed of relevancy.&lt;/li&gt;
+&lt;/ul&gt;&lt;img src="http://feeds.feedburner.com/~r/FunctioningForm/~4/DbASg3Cnyd8" height="1" width="1" alt=""/&gt;</description>
+      <link>http://feedproxy.google.com/~r/FunctioningForm/~3/DbASg3Cnyd8/entry.asp</link>
+      <pubDate>Mon, 02 Apr 2018 00:00:00 +0000</pubDate>
+      <author>info@lukew.com</author>
+    <feedburner:origLink>http://www.lukew.com/ff/entry.asp?1988</feedburner:origLink></item>
+
+  </channel>
+</rss>

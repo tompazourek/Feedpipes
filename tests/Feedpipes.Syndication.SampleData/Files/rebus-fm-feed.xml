@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
 	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
 	xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -139,7 +139,7 @@ class Program
 
 
 
-<p>As you can see, there&#8217;s no good reason why a &#8220;generic host&#8221; should be tied to any particular service bus library&#8230; so that&#8217;s why Rebus does not have a generic host. <img src="https://s.w.org/images/core/emoji/11.2.0/72x72/1f913.png" alt="🤓" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>As you can see, there&#8217;s no good reason why a &#8220;generic host&#8221; should be tied to any particular service bus library&#8230; so that&#8217;s why Rebus does not have a generic host. <img src="https://s.w.org/images/core/emoji/11.2.0/72x72/1f913.png" alt="🤓" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
 ]]></content:encoded>
 							<wfw:commentRss>https://rebus.fm/2019/01/29/generic-host/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
@@ -375,8 +375,8 @@ Configure.With(...)
 		<category><![CDATA[Rebus]]></category>
 
 		<guid isPermaLink="false">https://rebus.fm/?p=581</guid>
-				<description><![CDATA[<div class="slide-text-bg2"><span>For almost a year, this GitHub issue has been open – but I&#8217;m happy to announce that I&#8217;ve closed it just now, which I&#8217;ve done of course</span></div><div class="slide-btn-area-sm"><a href="https://rebus.fm/2018/09/10/rebus-azure-service-bus-transport-now-supports-net-core/" class="slide-btn-sm">Read More</a></div>]]></description>
-								<content:encoded><![CDATA[<p>For almost a year, <a href="https://github.com/rebus-org/Rebus.AzureServiceBus/issues/6">this GitHub issue</a> has been open – but I&#8217;m happy to announce that I&#8217;ve closed it just now, which I&#8217;ve done of course because Rebus&#8217; Azure Service Bus transport has now finally been ported properly to <a href="https://github.com/Azure/azure-service-bus-dotnet">Microsoft&#8217;s new Azure Service Bus driver</a>.</p>
+				<description><![CDATA[<div class="slide-text-bg2"><span>For almost a year, this GitHub issue has been open – but I&#8217;m happy to announce that I&#8217;ve closed it just now, which I&#8217;ve done of course</span></div><div class="slide-btn-area-sm"><a href="https://rebus.fm/2018/09/10/rebus-azure-service-bus-transport-now-supports-net-core/" class="slide-btn-sm">Read More</a></div>]]></description>
+								<content:encoded><![CDATA[<p>For almost a year, <a href="https://github.com/rebus-org/Rebus.AzureServiceBus/issues/6">this GitHub issue</a> has been open – but I&#8217;m happy to announce that I&#8217;ve closed it just now, which I&#8217;ve done of course because Rebus&#8217; Azure Service Bus transport has now finally been ported properly to <a href="https://github.com/Azure/azure-service-bus-dotnet">Microsoft&#8217;s new Azure Service Bus driver</a>.</p>
 <p>When the new driver came out, lots of people were puzzled, because it lacked the management operations from the original driver. This meant that queue creation, topic creation, and even mundane stuff like subscribing to topics, could not be done with it.</p>
 <p>It took a long time and some pretty dedicated community work for the driver to come out with management operations in it, which happened about two months ago (as a prerelease, stable version was out one month ago).</p>
 <p>Today, all of our Fleet Manager environments have been running with Rebus&#8217; new Azure Service Bus transport a week or more, so we&#8217;re ready to let Rebus.AzureServiceBus 6.0.0 out into the wild <img src="https://s.w.org/images/core/emoji/11.2.0/72x72/1f981.png" alt="🦁" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/11.2.0/72x72/1f333.png" alt="🌳" class="wp-smiley" style="height: 1em; max-height: 1em;" />which in turn means that Rebus can use Azure Service Bus on the .NET Core 2.0/.NET 4.6.1 and later runtimes.</p>

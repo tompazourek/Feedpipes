@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- generator="FeedCreator 1.7.2" -->
+<rdf:RDF
+    xmlns="http://purl.org/rss/1.0/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel rdf:about="http://theoatmeal.com/feed/rss">
+        <title>The Oatmeal - Comics, Quizzes, &amp; Stories</title>
+        <description>The oatmeal tastes better than stale skittles found under the couch cushions</description>
+        <link>http://theoatmeal.com/</link>
+       <dc:date>2019-07-26T16:34:58+01:00</dc:date>
+        <items>
+            <rdf:Seq>
+                <rdf:li rdf:resource="https://burningcat.com"/>
+                <rdf:li rdf:resource="http://theoatmeal.com/blog/secret_life_of_matt"/>
+                <rdf:li rdf:resource="http://theoatmeal.com/comics/kitty_convict2"/>
+                <rdf:li rdf:resource="http://theoatmeal.com/comics/leaving_dog"/>
+                <rdf:li rdf:resource="http://theoatmeal.com/baby"/>
+                <rdf:li rdf:resource="http://theoatmeal.com/comics/why_now_cat"/>
+                <rdf:li rdf:resource="http://theoatmeal.com/comics/chug"/>
+                <rdf:li rdf:resource="http://theoatmeal.com/comics/how_eat_burrito"/>
+                <rdf:li rdf:resource="https://www.throwthrowburrito.com/"/>
+            </rdf:Seq>
+        </items>
+    </channel>
+    <item rdf:about="https://burningcat.com">
+        <dc:format>text/html</dc:format>
+        <dc:date>2019-06-23T18:31:00+01:00</dc:date>
+        <dc:source>http://theoatmeal.com</dc:source>
+        <dc:creator>Matthew Inman</dc:creator>
+        <title>Burning Cat</title>
+        <link>https://burningcat.com</link>
+        <description>&lt;a href=&quot;https://burningcat.com&quot;&gt;&lt;img width=&quot;600&quot; src=&quot;https://s3.amazonaws.com/theoatmeal-img/thumbnails/burning_cat_big.png&quot; alt=&quot;Burning Cat&quot; class=&quot;border0&quot; /&gt;&lt;/a&gt;&lt;p&gt;A gaming convention from the creators of Exploding Kittens.&lt;/p&gt;&lt;a href=&quot;https://burningcat.com&quot;&gt;View on my website&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;</description>
+    </item>
+    <item rdf:about="http://theoatmeal.com/blog/secret_life_of_matt">
+        <dc:format>text/html</dc:format>
+        <dc:date>2019-06-06T19:51:27+01:00</dc:date>
+        <dc:source>http://theoatmeal.com</dc:source>
+        <dc:creator>Matthew Inman</dc:creator>
+        <title>The Secret Life of Matt</title>
+        <link>http://theoatmeal.com/blog/secret_life_of_matt</link>
+        <description>&lt;a href=&quot;http://theoatmeal.com/blog/secret_life_of_matt&quot;&gt;&lt;img width=&quot;600&quot; src=&quot;https://s3.amazonaws.com/theoatmeal-img/thumbnails/secret_life_of_matt_big.png&quot; alt=&quot;The Secret Life of Matt&quot; class=&quot;border0&quot; /&gt;&lt;/a&gt;&lt;p&gt;I got a movie deal!&lt;/p&gt;&lt;a href=&quot;http://theoatmeal.com/blog/secret_life_of_matt&quot;&gt;View on my website&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;</description>
+    </item>
+    <item rdf:about="http://theoatmeal.com/comics/kitty_convict2">
+        <dc:format>text/html</dc:format>
+        <dc:date>2019-05-30T21:49:08+01:00</dc:date>
+        <dc:source>http://theoatmeal.com</dc:source>
+        <dc:creator>Matthew Inman</dc:creator>
+        <title>Is your kitty a convict?</title>
+        <link>http://theoatmeal.com/comics/kitty_convict2</link>
+        <description>&lt;a href=&quot;http://theoatmeal.com/comics/kitty_convict2&quot;&gt;&lt;img width=&quot;600&quot; src=&quot;https://s3.amazonaws.com/theoatmeal-img/thumbnails/kitty_convict2_big.png&quot; alt=&quot;Is your kitty a convict?&quot; class=&quot;border0&quot; /&gt;&lt;/a&gt;&lt;p&gt;A solution to a tricky problem.&lt;/p&gt;&lt;a href=&quot;http://theoatmeal.com/comics/kitty_convict2&quot;&gt;View on my website&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;</description>
+    </item>
+    <item rdf:about="http://theoatmeal.com/comics/leaving_dog">
+        <dc:format>text/html</dc:format>
+        <dc:date>2019-04-10T18:34:33+01:00</dc:date>
+        <dc:source>http://theoatmeal.com</dc:source>
+        <dc:creator>Matthew Inman</dc:creator>
+        <title>Leaving the dog</title>
+        <link>http://theoatmeal.com/comics/leaving_dog</link>
+        <description>&lt;a href=&quot;http://theoatmeal.com/comics/leaving_dog&quot;&gt;&lt;img width=&quot;600&quot; src=&quot;https://s3.amazonaws.com/theoatmeal-img/thumbnails/leaving_dog_big.png&quot; alt=&quot;Leaving the dog&quot; class=&quot;border0&quot; /&gt;&lt;/a&gt;&lt;p&gt;&lt;/p&gt;&lt;a href=&quot;http://theoatmeal.com/comics/leaving_dog&quot;&gt;View on my website&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;</description>
+    </item>
+    <item rdf:about="http://theoatmeal.com/baby">
+        <dc:format>text/html</dc:format>
+        <dc:date>2019-04-09T15:56:00+01:00</dc:date>
+        <dc:source>http://theoatmeal.com</dc:source>
+        <dc:creator>Matthew Inman</dc:creator>
+        <title>Why my cat is more impressive than your baby</title>
+        <link>http://theoatmeal.com/baby</link>
+        <description>&lt;a href=&quot;http://theoatmeal.com/baby&quot;&gt;&lt;img width=&quot;600&quot; src=&quot;https://s3.amazonaws.com/theoatmeal-img/thumbnails/cat_baby_book_big.png&quot; alt=&quot;Why my cat is more impressive than your baby&quot; class=&quot;border0&quot; /&gt;&lt;/a&gt;&lt;p&gt;An illustrated book about cats, dogs, and babies from The Oatmeal.&lt;/p&gt;&lt;a href=&quot;http://theoatmeal.com/baby&quot;&gt;View on my website&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;</description>
+    </item>
+    <item rdf:about="http://theoatmeal.com/comics/why_now_cat">
+        <dc:format>text/html</dc:format>
+        <dc:date>2019-04-02T16:35:01+01:00</dc:date>
+        <dc:source>http://theoatmeal.com</dc:source>
+        <dc:creator>Matthew Inman</dc:creator>
+        <title>Why now, cat?</title>
+        <link>http://theoatmeal.com/comics/why_now_cat</link>
+        <description>&lt;a href=&quot;http://theoatmeal.com/comics/why_now_cat&quot;&gt;&lt;img width=&quot;600&quot; src=&quot;https://s3.amazonaws.com/theoatmeal-img/thumbnails/why_now_cat_big.png&quot; alt=&quot;Why now, cat?&quot; class=&quot;border0&quot; /&gt;&lt;/a&gt;&lt;p&gt;AT-AT versus Cat-Cat.&lt;/p&gt;&lt;a href=&quot;http://theoatmeal.com/comics/why_now_cat&quot;&gt;View on my website&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;</description>
+    </item>
+    <item rdf:about="http://theoatmeal.com/comics/chug">
+        <dc:format>text/html</dc:format>
+        <dc:date>2019-04-02T00:27:45+01:00</dc:date>
+        <dc:source>http://theoatmeal.com</dc:source>
+        <dc:creator>Matthew Inman</dc:creator>
+        <title>Chug! Chug! Chug!</title>
+        <link>http://theoatmeal.com/comics/chug</link>
+        <description>&lt;a href=&quot;http://theoatmeal.com/comics/chug&quot;&gt;&lt;img width=&quot;600&quot; src=&quot;https://s3.amazonaws.com/theoatmeal-img/thumbnails/chug_big.png&quot; alt=&quot;Chug! Chug! Chug!&quot; class=&quot;border0&quot; /&gt;&lt;/a&gt;&lt;p&gt;&lt;/p&gt;&lt;a href=&quot;http://theoatmeal.com/comics/chug&quot;&gt;View on my website&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;</description>
+    </item>
+    <item rdf:about="http://theoatmeal.com/comics/how_eat_burrito">
+        <dc:format>text/html</dc:format>
+        <dc:date>2019-03-11T17:00:10+01:00</dc:date>
+        <dc:source>http://theoatmeal.com</dc:source>
+        <dc:creator>Matthew Inman</dc:creator>
+        <title>How to eat a burrito</title>
+        <link>http://theoatmeal.com/comics/how_eat_burrito</link>
+        <description>&lt;a href=&quot;http://theoatmeal.com/comics/how_eat_burrito&quot;&gt;&lt;img width=&quot;600&quot; src=&quot;https://s3.amazonaws.com/theoatmeal-img/thumbnails/how_eat_burrito_big.png&quot; alt=&quot;How to eat a burrito&quot; class=&quot;border0&quot; /&gt;&lt;/a&gt;&lt;p&gt;&lt;/p&gt;&lt;a href=&quot;http://theoatmeal.com/comics/how_eat_burrito&quot;&gt;View on my website&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;</description>
+    </item>
+    <item rdf:about="https://www.throwthrowburrito.com/">
+        <dc:format>text/html</dc:format>
+        <dc:date>2019-02-26T17:09:00+01:00</dc:date>
+        <dc:source>http://theoatmeal.com</dc:source>
+        <dc:creator>Matthew Inman</dc:creator>
+        <title>Throw Throw Burrito - A dodgeball card game from the creators of Exploding Kittens</title>
+        <link>https://www.throwthrowburrito.com/</link>
+        <description>&lt;a href=&quot;https://www.throwthrowburrito.com/&quot;&gt;&lt;img width=&quot;600&quot; src=&quot;https://s3.amazonaws.com/theoatmeal-img/thumbnails/throw_throw_burrito_big.png&quot; alt=&quot;Throw Throw Burrito - A dodgeball card game from the creators of Exploding Kittens&quot; class=&quot;border0&quot; /&gt;&lt;/a&gt;&lt;p&gt;Collect cards. Play your hand. Throw burritos at your friends.&lt;/p&gt;&lt;a href=&quot;https://www.throwthrowburrito.com/&quot;&gt;View on my website&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;</description>
+    </item>
+</rdf:RDF>
