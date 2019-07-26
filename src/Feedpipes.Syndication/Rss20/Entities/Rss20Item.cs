@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using Feedpipes.Syndication.Extensions;
+using Feedpipes.Syndication.Extensions.Rss10Content.Entities;
+using Feedpipes.Syndication.Extensions.Rss10Slash.Entities;
+using Feedpipes.Syndication.Extensions.WellFormedWeb.Entities;
 
 namespace Feedpipes.Syndication.Rss20.Entities
 {
@@ -104,8 +106,18 @@ namespace Feedpipes.Syndication.Rss20.Entities
         public Rss20Source Source { get; set; }
 
         /// <summary>
-        /// Extension entities
+        /// Optional "content:*" extended information.
         /// </summary>
-        public IList<IFeedExtensionEntity> Extensions { get; set; } = new List<IFeedExtensionEntity>();
+        public Rss10ContentItemExtension ContentExtension { get; set; }
+
+        /// <summary>
+        /// Optional "wfw:*" extended information.
+        /// </summary>
+        public WfwItemExtension WfwExtension { get; set; }
+
+        /// <summary>
+        /// Optional "slash:*" extended information.
+        /// </summary>
+        public Rss10SlashItemExtension SlashExtension { get; set; }
     }
 }

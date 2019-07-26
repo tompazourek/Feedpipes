@@ -4,9 +4,9 @@ using System.Text;
 
 namespace Feedpipes.Syndication.Rfc822Timestamp
 {
-    public class Rfc822TimestampParser
+    public static class Rfc822TimestampParser
     {
-        public bool TryParseTimestampFromString(string timestampString, out DateTimeOffset parsedTimestamp)
+        public static bool TryParseTimestampFromString(string timestampString, out DateTimeOffset parsedTimestamp)
         {
             parsedTimestamp = default;
 

@@ -4,9 +4,9 @@ using System.Text;
 
 namespace Feedpipes.Syndication.Rfc822Timestamp
 {
-    public class Rfc822TimestampFormatter
+    public static class Rfc822TimestampFormatter
     {
-        public bool TryFormatTimestampAsString(DateTimeOffset? timestampToFormat, out string formattedTimestamp)
+        public static bool TryFormatTimestampAsString(DateTimeOffset? timestampToFormat, out string formattedTimestamp)
         {
             formattedTimestamp = default;
 

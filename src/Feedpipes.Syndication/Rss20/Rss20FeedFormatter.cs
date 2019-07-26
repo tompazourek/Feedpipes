@@ -3,24 +3,18 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Xml.Linq;
-using Feedpipes.Syndication.Extensions;
+using Feedpipes.Syndication.Extensions.Rss10Content;
+using Feedpipes.Syndication.Extensions.Rss10Slash;
+using Feedpipes.Syndication.Extensions.Rss10Syndication;
+using Feedpipes.Syndication.Extensions.WellFormedWeb;
 using Feedpipes.Syndication.Rfc822Timestamp;
 using Feedpipes.Syndication.Rss20.Entities;
 
 namespace Feedpipes.Syndication.Rss20
 {
-    public class Rss20FeedFormatter
+    public static class Rss20FeedFormatter
     {
-        private readonly Rfc822TimestampFormatter _timestampFormatter;
-        private readonly AbstractFeedExtensionEntityFormatter _extensionFormatter;
-
-        public Rss20FeedFormatter()
-        {
-            _timestampFormatter = new Rfc822TimestampFormatter();
-            _extensionFormatter = new AbstractFeedExtensionEntityFormatter();
-        }
-
-        public bool TryFormatRss20Feed(Rss20Feed feed, out XDocument document)
+        public static bool TryFormatRss20Feed(Rss20Feed feed, out XDocument document)
         {
             document = default;
 
@@ -32,23 +26,23 @@ namespace Feedpipes.Syndication.Rss20
             var rssElement = new XElement("rss", new XAttribute("version", "2.0"));
             document.Add(rssElement);
 
-            if (!TryFormatRss20Channel(feed.Channel, out var channelElement, out var rootNamespaceAliases))
+            var namespaceAliases = new XNamespaceAliasSet();
+            if (!TryFormatRss20Channel(feed.Channel, namespaceAliases, out var channelElement))
                 return false;
 
             rssElement.Add(channelElement);
 
-            foreach (var rootNamespaceAlias in rootNamespaceAliases.GroupBy(x => x.Name).Select(x => x.First()))
+            foreach (var namespaceAlias in namespaceAliases)
             {
-                rssElement.Add(rootNamespaceAlias);
+                rssElement.Add(namespaceAlias);
             }
 
             return true;
         }
 
-        private bool TryFormatRss20Channel(Rss20Channel channelToFormat, out XElement channelElement, out IEnumerable<XAttribute> rootNamespaceAliases)
+        private static bool TryFormatRss20Channel(Rss20Channel channelToFormat, XNamespaceAliasSet namespaceAliases, out XElement channelElement)
         {
             channelElement = default;
-            rootNamespaceAliases = default;
 
             if (channelToFormat == null)
                 return false;
@@ -137,34 +131,27 @@ namespace Feedpipes.Syndication.Rss20
                 channelElement.Add(skipDaysElement);
             }
 
-            var rootNamespaceAliasesList = new List<XAttribute>();
-            
             // extensions
-            var extensionElements = _extensionFormatter.FormatExtensionEntities(channelToFormat.Extensions, out var channelRootNamespaceAliases);
-            foreach (var extensionElement in extensionElements)
+            if (Rss10SyndicationChannelExtensionFormatter.TryFormatRss10SyndicationChannelExtension(channelToFormat.SyndicationExtension, namespaceAliases, out var syndicationExtensionElements))
             {
-                channelElement.Add(extensionElement);
+                channelElement.AddRange(syndicationExtensionElements);
             }
-            rootNamespaceAliasesList.AddRange(channelRootNamespaceAliases);
 
             // items
             foreach (var itemToFormat in channelToFormat.Items)
             {
-                if (TryFormatRss20Item(itemToFormat, out var itemElement, out var itemRootNamespaceAliases))
+                if (TryFormatRss20Item(itemToFormat, namespaceAliases, out var itemElement))
                 {
                     channelElement.Add(itemElement);
-                    rootNamespaceAliasesList.AddRange(itemRootNamespaceAliases);
                 }
             }
-            
-            rootNamespaceAliases = rootNamespaceAliasesList;
+
             return true;
         }
 
-        private bool TryFormatRss20Item(Rss20Item itemToFormat, out XElement itemElement, out IEnumerable<XAttribute> rootNamespaceAliases)
+        private static bool TryFormatRss20Item(Rss20Item itemToFormat, XNamespaceAliasSet namespaceAliases, out XElement itemElement)
         {
             itemElement = default;
-            rootNamespaceAliases = default;
 
             if (itemToFormat == null)
                 return false;
@@ -228,16 +215,25 @@ namespace Feedpipes.Syndication.Rss20
             }
 
             // extensions
-            var extensionElements = _extensionFormatter.FormatExtensionEntities(itemToFormat.Extensions, out rootNamespaceAliases);
-            foreach (var extensionElement in extensionElements)
+            if (Rss10ContentItemExtensionFormatter.TryFormatRss10ContentItemExtension(itemToFormat.ContentExtension, namespaceAliases, out var contentExtensionElements))
             {
-                itemElement.Add(extensionElement);
+                itemElement.AddRange(contentExtensionElements);
+            }
+
+            if (Rss10SlashItemExtensionFormatter.TryFormatRss10SlashItemExtension(itemToFormat.SlashExtension, namespaceAliases, out var slashExtensionElements))
+            {
+                itemElement.AddRange(slashExtensionElements);
+            }
+
+            if (WfwItemExtensionFormatter.TryFormatWfwItemExtension(itemToFormat.WfwExtension, namespaceAliases, out var wfwExtensionElements))
+            {
+                itemElement.AddRange(wfwExtensionElements);
             }
 
             return true;
         }
 
-        private bool TryFormatRss20Source(Rss20Source sourceToFormat, out XElement sourceElement)
+        private static bool TryFormatRss20Source(Rss20Source sourceToFormat, out XElement sourceElement)
         {
             sourceElement = default;
 
@@ -255,7 +251,7 @@ namespace Feedpipes.Syndication.Rss20
             return true;
         }
 
-        private bool TryFormatRss20Guid(Rss20Guid guidToFormat, out XElement guidElement)
+        private static bool TryFormatRss20Guid(Rss20Guid guidToFormat, out XElement guidElement)
         {
             guidElement = default;
 
@@ -273,7 +269,7 @@ namespace Feedpipes.Syndication.Rss20
             return true;
         }
 
-        private bool TryFormatRss20Enclosure(Rss20Enclosure enclosureToFormat, out XElement enclosureElement)
+        private static bool TryFormatRss20Enclosure(Rss20Enclosure enclosureToFormat, out XElement enclosureElement)
         {
             enclosureElement = default;
 
@@ -288,7 +284,7 @@ namespace Feedpipes.Syndication.Rss20
             return true;
         }
 
-        private bool TryFormatRss20SkipDays(IList<DayOfWeek> skipDaysToFormat, out XElement skipDaysElement)
+        private static bool TryFormatRss20SkipDays(IList<DayOfWeek> skipDaysToFormat, out XElement skipDaysElement)
         {
             skipDaysElement = default;
 
@@ -337,7 +333,7 @@ namespace Feedpipes.Syndication.Rss20
             return true;
         }
 
-        private bool TryFormatRss20SkipHours(IList<int> skipHoursToFormat, out XElement skipHoursElement)
+        private static bool TryFormatRss20SkipHours(IList<int> skipHoursToFormat, out XElement skipHoursElement)
         {
             skipHoursElement = default;
 
@@ -359,7 +355,7 @@ namespace Feedpipes.Syndication.Rss20
             return true;
         }
 
-        private bool TryFormatRss20TextInput(Rss20TextInput textInputToFormat, out XElement textInputElement)
+        private static bool TryFormatRss20TextInput(Rss20TextInput textInputToFormat, out XElement textInputElement)
         {
             textInputElement = default;
 
@@ -376,7 +372,7 @@ namespace Feedpipes.Syndication.Rss20
             return true;
         }
 
-        private bool TryFormatRss20Image(Rss20Image imageToFormat, out XElement imageElement)
+        private static bool TryFormatRss20Image(Rss20Image imageToFormat, out XElement imageElement)
         {
             imageElement = default;
 
@@ -409,7 +405,7 @@ namespace Feedpipes.Syndication.Rss20
             return true;
         }
 
-        private bool TryFormatRss20Ttl(TimeSpan? ttlToFormat, out XElement ttlElement)
+        private static bool TryFormatRss20Ttl(TimeSpan? ttlToFormat, out XElement ttlElement)
         {
             ttlElement = default;
 
@@ -422,18 +418,18 @@ namespace Feedpipes.Syndication.Rss20
             return true;
         }
 
-        private bool TryFormatRss20Timestamp(DateTimeOffset? timestampToFormat, XName elementName, out XElement element)
+        private static bool TryFormatRss20Timestamp(DateTimeOffset? timestampToFormat, XName elementName, out XElement element)
         {
             element = default;
 
-            if (!_timestampFormatter.TryFormatTimestampAsString(timestampToFormat, out var timestampString))
+            if (!Rfc822TimestampFormatter.TryFormatTimestampAsString(timestampToFormat, out var timestampString))
                 return false;
 
             element = new XElement(elementName, timestampString);
             return true;
         }
 
-        private bool TryFormatOptionalTextElement(string stringToFormat, XName elementName, out XElement element)
+        private static bool TryFormatOptionalTextElement(string stringToFormat, XName elementName, out XElement element)
         {
             element = default;
 
@@ -444,7 +440,7 @@ namespace Feedpipes.Syndication.Rss20
             return true;
         }
 
-        private bool TryFormatOptionalTextAttribute(string stringToFormat, XName attributeName, out XAttribute attribute)
+        private static bool TryFormatOptionalTextAttribute(string stringToFormat, XName attributeName, out XAttribute attribute)
         {
             attribute = default;
 
@@ -455,7 +451,7 @@ namespace Feedpipes.Syndication.Rss20
             return true;
         }
 
-        private bool TryFormatOptionalBoolAttribute(bool? boolToFormat, XName attributeName, out XAttribute attribute)
+        private static bool TryFormatOptionalBoolAttribute(bool? boolToFormat, XName attributeName, out XAttribute attribute)
         {
             attribute = default;
 
@@ -466,7 +462,7 @@ namespace Feedpipes.Syndication.Rss20
             return true;
         }
 
-        private bool TryFormatRss20Category(Rss20Category categoryToFormat, out XElement categoryElement)
+        private static bool TryFormatRss20Category(Rss20Category categoryToFormat, out XElement categoryElement)
         {
             categoryElement = default;
 
@@ -484,7 +480,7 @@ namespace Feedpipes.Syndication.Rss20
             return true;
         }
 
-        private bool TryFormatRss20Cloud(Rss20Cloud cloudToFormat, out XElement cloudElement)
+        private static bool TryFormatRss20Cloud(Rss20Cloud cloudToFormat, out XElement cloudElement)
         {
             cloudElement = default;
 

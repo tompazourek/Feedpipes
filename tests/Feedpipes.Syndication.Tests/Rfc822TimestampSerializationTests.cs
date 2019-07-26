@@ -73,11 +73,8 @@ namespace Feedpipes.Syndication.Tests
         [MemberData(nameof(ParseValidInputsData))]
         public void ParseValidInputs(string input, DateTimeOffset expectedOutput)
         {
-            // arrange
-            var parser = new Rfc822TimestampParser();
-
             // action
-            var tryParseResult = parser.TryParseTimestampFromString(input, out var actualOutput);
+            var tryParseResult = Rfc822TimestampParser.TryParseTimestampFromString(input, out var actualOutput);
 
             // assert
             Assert.True(tryParseResult);
@@ -88,41 +85,33 @@ namespace Feedpipes.Syndication.Tests
         [MemberData(nameof(FailParseInvalidInputsData))]
         public void FailParseInvalidInputs(string input)
         {
-            // arrange
-            var parser = new Rfc822TimestampParser();
-
             // action
-            var tryParseResult = parser.TryParseTimestampFromString(input, out _);
+            var tryParseResult = Rfc822TimestampParser.TryParseTimestampFromString(input, out _);
 
             // assert
             Assert.False(tryParseResult);
         }
 
-        [Fact]
-        public void FormatEmpty()
-        {
-            // arrange
-            var formatter = new Rfc822TimestampFormatter();
-
-            // action
-            var tryFormatResult = formatter.TryFormatTimestampAsString(null, out _);
-
-            // assert
-            Assert.False(tryFormatResult);
-        }
-
-        [Theory, MemberData(nameof(FormatInputsData))]
+        [Theory]
+        [MemberData(nameof(FormatInputsData))]
         public void FormatInputs(string expectedOutput, DateTimeOffset input)
         {
-            // arrange
-            var formatter = new Rfc822TimestampFormatter();
-
             // action
-            var tryFormatResult = formatter.TryFormatTimestampAsString(input, out var actualOutput);
+            var tryFormatResult = Rfc822TimestampFormatter.TryFormatTimestampAsString(input, out var actualOutput);
 
             // assert
             Assert.True(tryFormatResult);
             Assert.Equal(expectedOutput, actualOutput);
+        }
+
+        [Fact]
+        public void FormatEmpty()
+        {
+            // action
+            var tryFormatResult = Rfc822TimestampFormatter.TryFormatTimestampAsString(null, out _);
+
+            // assert
+            Assert.False(tryFormatResult);
         }
     }
 }

@@ -5,7 +5,7 @@ namespace Feedpipes.Syndication.Extensions.WellFormedWeb
     /// <remarks>
     /// Spec: https://github.com/simplepie/simplepie-ng/wiki/Spec:-Well-Formed-Web
     /// </remarks>
-    public static class WfwExtensionConstants
+    internal static class WfwConstants
     {
         public const string NamespaceAlias = "wfw";
         public static readonly XNamespace Namespace = "http://wellformedweb.org/CommentAPI/";

@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using Feedpipes.Syndication.Extensions;
+using Feedpipes.Syndication.Extensions.Rss10Syndication.Entities;
 
 namespace Feedpipes.Syndication.Rss20.Entities
 {
@@ -162,10 +162,10 @@ namespace Feedpipes.Syndication.Rss20.Entities
         /// List of "item" elements.
         /// </summary>
         public IList<Rss20Item> Items { get; set; } = new List<Rss20Item>();
-        
+
         /// <summary>
-        /// Extension entities
+        /// Optional "sy:*" extended information.
         /// </summary>
-        public IList<IFeedExtensionEntity> Extensions { get; set; } = new List<IFeedExtensionEntity>();
+        public Rss10SyndicationChannelExtension SyndicationExtension { get; set; }
     }
 }

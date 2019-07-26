@@ -1,14 +1,14 @@
 ﻿namespace Feedpipes.Syndication.Extensions.Rss10Syndication.Entities
 {
     /// <summary>
-    /// Value of <see cref="Rss10SyndicationUpdatePeriod" />.
+    /// Value of <see cref="Rss10SyndicationChannelExtension.UpdatePeriod" />.
     /// </summary>
     public enum Rss10SyndicationUpdatePeriodValue
     {
-        Hourly,
-        Daily,
-        Weekly,
-        Monthly,
-        Yearly,
+        Hourly = 0,
+        Daily = 1,
+        Weekly = 2,
+        Monthly = 3,
+        Yearly = 4,
     }
 }

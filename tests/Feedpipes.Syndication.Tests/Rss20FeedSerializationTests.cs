@@ -18,14 +18,12 @@ namespace Feedpipes.Syndication.Tests
         {
             // arrange
             var document1 = embeddedDocument.Document;
-            var parser = new Rss20FeedParser();
-            var formatter = new Rss20FeedFormatter();
 
             // action
-            var tryParseResult = parser.TryParseRss20Feed(document1, out var feed);
+            var tryParseResult = Rss20FeedParser.TryParseRss20Feed(document1, out var feed);
             Assert.True(tryParseResult);
 
-            var tryFormatResult = formatter.TryFormatRss20Feed(feed, out var document2);
+            var tryFormatResult = Rss20FeedFormatter.TryFormatRss20Feed(feed, out var document2);
             Assert.True(tryFormatResult);
 
             var xmlWriterSettings = new XmlWriterSettings { Indent = true };
@@ -62,11 +60,10 @@ namespace Feedpipes.Syndication.Tests
         {
             // arrange
             var document = embeddedDocument.Document;
-            var parser = new Rss20FeedParser();
 
             // action
             // ReSharper disable once UnusedVariable
-            var tryParseResult = parser.TryParseRss20Feed(document, out var parsedFeed);
+            var tryParseResult = Rss20FeedParser.TryParseRss20Feed(document, out var parsedFeed);
 
             // assert
             Assert.True(tryParseResult);
@@ -87,7 +84,6 @@ namespace Feedpipes.Syndication.Tests
         [Fact]
         public void FormatSampleFeed()
         {
-            var formatter = new Rss20FeedFormatter();
             var feed = new Rss20Feed
             {
                 Channel = new Rss20Channel
@@ -147,7 +143,7 @@ namespace Feedpipes.Syndication.Tests
                 },
             };
 
-            var tryFormatResult = formatter.TryFormatRss20Feed(feed, out var document);
+            var tryFormatResult = Rss20FeedFormatter.TryFormatRss20Feed(feed, out var document);
             Assert.True(tryFormatResult);
 
             var targetEncoding = Encoding.UTF8;
