@@ -68,17 +68,14 @@ namespace Feedpipes.Syndication.Tests
             // assert
             Assert.True(tryParseResult);
         }
-
+        
         public class ParseWithoutCrashingData : SampleFeedTestsClassDataBase
         {
-            public override IEnumerable<string> XmlFileNames => new[]
+            public override bool CustomFilter(SampleFeed x)
             {
-                "blog-getseq-net-rss",
-                "feeds-feedburner-com-reflectiveperspective",
-                "rebus-fm-feed",
-                "_rss20-sample01",
-                "_rss20-sample02",
-            };
+                // skip feeds without <rss> root
+                return x.Document?.Root?.Name == "rss";
+            }
         }
 
         [Fact]

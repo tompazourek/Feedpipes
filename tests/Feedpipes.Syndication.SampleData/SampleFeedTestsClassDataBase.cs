@@ -6,18 +6,20 @@ namespace Feedpipes.Syndication.SampleData
 {
     public abstract class SampleFeedTestsClassDataBase : IEnumerable<object[]>
     {
-        public abstract IEnumerable<string> XmlFileNames { get; }
+        public virtual IEnumerable<string> XmlFileNames { get; } = null;
 
         public IEnumerator<object[]> GetEnumerator()
         {
-            var xmlFileNamesSet = XmlFileNames.ToHashSet();
+            var xmlFileNamesSet = XmlFileNames?.ToHashSet();
             return SampleFeedDirectory
                 .GetSampleFeeds()
-                .Where(x => xmlFileNamesSet.Contains(x.FileName))
+                .Where(x => xmlFileNamesSet?.Contains(x.FileName) != false)
+                .Where(CustomFilter)
                 .Select(x => new object[] { x })
                 .GetEnumerator();
         }
 
         IEnumerator IEnumerable.GetEnumerator() => GetEnumerator();
+        public virtual bool CustomFilter(SampleFeed x) => true;
     }
 }
