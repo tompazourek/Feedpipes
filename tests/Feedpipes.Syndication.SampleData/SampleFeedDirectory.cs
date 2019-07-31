@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.IO;
 using System.Reflection;
 using System.Xml.Linq;
 using Csv;
@@ -40,8 +41,9 @@ namespace Feedpipes.Syndication.SampleData
                     feed.SetDocumentFactory(() =>
                     {
                         using (var feedStream = _currentAssembly.GetManifestResourceStream($"{_manifestResourceStreamPrefix}Files.{feed.FileName}.xml"))
+                        using (var streamReader = new StreamReader(feedStream)) // we explicitly create a stream reader to prevent XDocument encoding issues
                         {
-                            var document = XDocument.Load(feedStream);
+                            var document = XDocument.Load(streamReader);
                             return document;
                         }
                     });
