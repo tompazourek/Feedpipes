@@ -131,12 +131,13 @@ namespace Feedpipes.Syndication.Extensions.DublinCore
 
             var valueString = element.Value.Trim().ToUpperInvariant();
             var formatProvider = CultureInfo.InvariantCulture;
-            var dateTimeStyles = DateTimeStyles.None;
 
-            return DateTimeOffset.TryParseExact(valueString, "yyyy'-'MM'-'dd'T'HH':'mmzzz", formatProvider, dateTimeStyles, out parsedValue)
-                   || DateTimeOffset.TryParseExact(valueString, "yyyy'-'MM'-'dd'T'HH':'mm", formatProvider, dateTimeStyles, out parsedValue)
-                   || DateTimeOffset.TryParseExact(valueString, "yyyy'-'MM'-'dd'T'HH':'mm':'sszzz", formatProvider, dateTimeStyles, out parsedValue)
-                   || DateTimeOffset.TryParseExact(valueString, "yyyy'-'MM'-'dd'T'HH':'mm':'ss", formatProvider, dateTimeStyles, out parsedValue);
+            return DateTimeOffset.TryParseExact(valueString, "yyyy'-'MM'-'dd'T'HH':'mmzzz", formatProvider, DateTimeStyles.None, out parsedValue)
+                   || DateTimeOffset.TryParseExact(valueString, "yyyy'-'MM'-'dd'T'HH':'mm", formatProvider, DateTimeStyles.AdjustToUniversal, out parsedValue)
+                   || DateTimeOffset.TryParseExact(valueString, "yyyy'-'MM'-'dd'T'HH':'mm'Z'", formatProvider, DateTimeStyles.AdjustToUniversal, out parsedValue)
+                   || DateTimeOffset.TryParseExact(valueString, "yyyy'-'MM'-'dd'T'HH':'mm':'sszzz", formatProvider, DateTimeStyles.None, out parsedValue)
+                   || DateTimeOffset.TryParseExact(valueString, "yyyy'-'MM'-'dd'T'HH':'mm':'ss", formatProvider, DateTimeStyles.AdjustToUniversal, out parsedValue)
+                   || DateTimeOffset.TryParseExact(valueString, "yyyy'-'MM'-'dd'T'HH':'mm':'ss'Z'", formatProvider, DateTimeStyles.AdjustToUniversal, out parsedValue);
         }
     }
 }
