@@ -77,7 +77,7 @@ namespace Feedpipes.Syndication.Extensions.Rss10Syndication
                 return false;
 
             var valueString = element.Value.Trim();
-            return int.TryParse(valueString, out parsedValue);
+            return int.TryParse(valueString, NumberStyles.Any, CultureInfo.InvariantCulture, out parsedValue);
         }
 
         private static bool TryParseRss10SyndicationUpdateBase(XElement element, out DateTimeOffset parsedValue)

@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
+using System.Globalization;
 using System.Linq;
 using System.Xml.Linq;
 using Feedpipes.Syndication.Extensions.Rss10Slash.Entities;
@@ -62,7 +63,7 @@ namespace Feedpipes.Syndication.Extensions.Rss10Slash
                 return false;
 
             var valueString = element.Value.Trim();
-            return int.TryParse(valueString, out parsedValue);
+            return int.TryParse(valueString, NumberStyles.Any, CultureInfo.InvariantCulture, out parsedValue);
         }
 
         private static bool TryParseRss10SlashHitParade(XElement element, out IList<int> parsedValue)
@@ -79,7 +80,7 @@ namespace Feedpipes.Syndication.Extensions.Rss10Slash
 
             foreach (var valueStringPart in valueStringParts)
             {
-                if (!int.TryParse(valueStringPart, out var valueInt))
+                if (!int.TryParse(valueStringPart, NumberStyles.Any, CultureInfo.InvariantCulture, out var valueInt))
                     continue;
 
                 parsedValue.Add(valueInt);

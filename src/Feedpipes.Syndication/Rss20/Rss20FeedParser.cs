@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
+using System.Globalization;
 using System.Linq;
 using System.Xml.Linq;
 using Feedpipes.Syndication.Extensions.DublinCore;
@@ -182,12 +183,12 @@ namespace Feedpipes.Syndication.Rss20
             parsedImage.Link = imageElement.Element("link")?.Value.Trim();
             parsedImage.Description = imageElement.Element("description")?.Value.Trim();
 
-            if (int.TryParse(imageElement.Element("width")?.Value.Trim(), out var parsedWidth))
+            if (int.TryParse(imageElement.Element("width")?.Value.Trim(), NumberStyles.Any, CultureInfo.InvariantCulture, out var parsedWidth))
             {
                 parsedImage.Width = parsedWidth;
             }
 
-            if (int.TryParse(imageElement.Element("height")?.Value.Trim(), out var parsedHeight))
+            if (int.TryParse(imageElement.Element("height")?.Value.Trim(), NumberStyles.Any, CultureInfo.InvariantCulture, out var parsedHeight))
             {
                 parsedImage.Height = parsedHeight;
             }
@@ -230,7 +231,7 @@ namespace Feedpipes.Syndication.Rss20
             if (ttlElement == null)
                 return false;
 
-            if (!double.TryParse(ttlElement.Value.Trim(), out var ttlMinutes))
+            if (!double.TryParse(ttlElement.Value.Trim(), NumberStyles.Any, CultureInfo.InvariantCulture, out var ttlMinutes))
                 return false;
 
             parsedTtl = TimeSpan.FromMinutes(ttlMinutes);
@@ -250,7 +251,7 @@ namespace Feedpipes.Syndication.Rss20
             var hourElements = skipHoursElement.Elements("hour");
             foreach (var hourElement in hourElements)
             {
-                if (int.TryParse(hourElement.Value.Trim(), out var parsedHour))
+                if (int.TryParse(hourElement.Value.Trim(), NumberStyles.Any, CultureInfo.InvariantCulture, out var parsedHour))
                 {
                     parsedSkipHours.Add(parsedHour);
                 }
