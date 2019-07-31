@@ -40,7 +40,7 @@ namespace Feedpipes.Syndication.Rss10
             {
                 rdfElement.Add(imageElement);
             }
-            
+
             if (TryFormatRss10TextInput(feed.Channel.TextInput, referenceOnly: false, namespaceAliases, out var textInputElement))
             {
                 rdfElement.Add(textInputElement);
@@ -70,7 +70,7 @@ namespace Feedpipes.Syndication.Rss10
                 return false;
 
             channelElement = new XElement(_rss + "channel");
-            
+
             channelElement.Add(new XAttribute(_rdf + "about", channelToFormat.About));
 
             channelElement.Add(new XElement(_rss + "title", channelToFormat.Title));
@@ -87,7 +87,7 @@ namespace Feedpipes.Syndication.Rss10
             {
                 channelElement.AddRange(dublinCoreExtensionElements);
             }
-            
+
             if (TryFormatRss10Image(channelToFormat.Image, referenceOnly: true, namespaceAliases, out var imageElement))
             {
                 channelElement.Add(imageElement);
@@ -204,7 +204,7 @@ namespace Feedpipes.Syndication.Rss10
             imageElement = referenceOnly
                 ? new XElement(_rss + "image", new XAttribute(_rdf + "resource", imageToFormat.About))
                 : new XElement(_rss + "image", new XAttribute(_rdf + "about", imageToFormat.About));
-            
+
             if (referenceOnly)
                 return true;
 

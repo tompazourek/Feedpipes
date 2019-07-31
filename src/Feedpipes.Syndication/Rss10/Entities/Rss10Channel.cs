@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Feedpipes.Syndication.Extensions.Rss10Content.Entities;
 using Feedpipes.Syndication.Extensions.Rss10Syndication.Entities;
 
@@ -46,7 +45,8 @@ namespace Feedpipes.Syndication.Rss10.Entities
 
         /// <summary>
         /// Optional "textInput" element.
-        /// The textinput element affords a method for submitting form data to an arbitrary URL -- usually located at the parent website.
+        /// The textinput element affords a method for submitting form data to an arbitrary URL -- usually located at the parent
+        /// website.
         /// </summary>
         public Rss10TextInput TextInput { get; set; }
 
@@ -59,7 +59,7 @@ namespace Feedpipes.Syndication.Rss10.Entities
         /// Optional "sy:*" extended information.
         /// </summary>
         public Rss10SyndicationChannelExtension SyndicationExtension { get; set; }
-        
+
         /// <summary>
         /// Optional "dc:*" extended information.
         /// </summary>

@@ -168,7 +168,7 @@ namespace Feedpipes.Syndication.Rss20.Entities
         /// Optional "sy:*" extended information.
         /// </summary>
         public Rss10SyndicationChannelExtension SyndicationExtension { get; set; }
-        
+
         /// <summary>
         /// Optional "dc:*" extended information.
         /// </summary>

@@ -11,8 +11,8 @@ namespace Feedpipes.Syndication.Rss10.Entities
     /// particularly useful. RSS 1.0 therefore suggests either deprecation or augmentation with some form of resource
     /// discovery of this element in future versions while maintaining it for backward compatiblity with RSS 0.9.
     /// {textinput_uri} must be unique with respect to any other rdf:about attributes in the RSS document and is
-    /// a URI which identifies the textinput. {textinput_uri} should be identical to the value of the &lt;link&gt;
-    /// sub-element of the &lt;textinput&gt; element, if possible.
+    /// a URI which identifies the textinput. {textinput_uri} should be identical to the value of the "link"
+    /// sub-element of the "textinput" element, if possible.
     /// </summary>
     public class Rss10TextInput
     {
@@ -31,7 +31,8 @@ namespace Feedpipes.Syndication.Rss10.Entities
 
         /// <summary>
         /// Required "description" element.
-        /// A brief description of the textinput field's purpose. For example: "Subscribe to our newsletter for..." or "Search our site's archive of..."
+        /// A brief description of the textinput field's purpose. For example: "Subscribe to our newsletter for..." or "Search our
+        /// site's archive of..."
         /// Suggested maximum length of 100 characters.
         /// </summary>
         public string Description { get; set; }

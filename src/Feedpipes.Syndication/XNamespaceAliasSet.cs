@@ -19,8 +19,8 @@ namespace Feedpipes.Syndication
 
         public void EnsureNamespaceAlias(string alias, XNamespace ns)
         {
-            _internalSet.Add(string.IsNullOrEmpty(alias) 
-                ? new XAttribute("xmlns", ns.NamespaceName) 
+            _internalSet.Add(string.IsNullOrEmpty(alias)
+                ? new XAttribute("xmlns", ns.NamespaceName)
                 : new XAttribute(XNamespace.Xmlns + alias, ns.NamespaceName));
         }
 

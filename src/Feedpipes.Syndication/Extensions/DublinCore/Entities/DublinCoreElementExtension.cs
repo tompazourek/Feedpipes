@@ -81,6 +81,5 @@ namespace Feedpipes.Syndication.Extensions.Rss10Content.Entities
         /// Corresponds to "dc:rights" element.
         /// </summary>
         public string Rights { get; set; }
-
     }
 }

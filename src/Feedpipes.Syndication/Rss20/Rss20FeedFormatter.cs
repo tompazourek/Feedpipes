@@ -235,7 +235,7 @@ namespace Feedpipes.Syndication.Rss20
             {
                 itemElement.AddRange(wfwExtensionElements);
             }
-            
+
             if (DublinCoreElementExtensionFormatter.TryFormatDublinCoreElementExtension(itemToFormat.DublinCoreExtension, namespaceAliases, out var dublinCoreExtensionElements))
             {
                 itemElement.AddRange(dublinCoreExtensionElements);
@@ -418,7 +418,7 @@ namespace Feedpipes.Syndication.Rss20
             {
                 imageElement.Add(descriptionElement);
             }
-            
+
             if (DublinCoreElementExtensionFormatter.TryFormatDublinCoreElementExtension(imageToFormat.DublinCoreExtension, namespaceAliases, out var dublinCoreExtensionElements))
             {
                 imageElement.AddRange(dublinCoreExtensionElements);

@@ -14,7 +14,7 @@ namespace Feedpipes.Syndication.Rss10.Entities
         /// It's usually the same as the URL.
         /// </summary>
         public string About { get; set; }
-        
+
         /// <summary>
         /// Required "title" element.
         /// The alternative text ("alt" attribute) associated with the channel's image tag when rendered as HTML.
@@ -28,7 +28,7 @@ namespace Feedpipes.Syndication.Rss10.Entities
         /// Suggested maximum length of 500 characters.
         /// </summary>
         public string Url { get; set; }
-        
+
         /// <summary>
         /// Required "link" element.
         /// The URL to which an HTML rendering of the channel image will link. This, as with the channel's title link,

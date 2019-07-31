@@ -13,7 +13,7 @@ namespace Feedpipes.Syndication.Rss20.Entities
         public string Url { get; set; }
 
         /// <summary>
-        /// Describes the image, it's used in the ALT attribute of the HTML &lt;img&gt; tag when the channel is rendered in HTML.
+        /// Describes the image, it's used in the ALT attribute of the HTML "img" tag when the channel is rendered in HTML.
         /// </summary>
         public string Title { get; set; }
 

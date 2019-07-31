@@ -9,7 +9,7 @@
     public class Rss20Source
     {
         /// <summary>
-        /// Its value is the name of the RSS channel that the item came from, derived from its &lt;title&gt;.
+        /// Its value is the name of the RSS channel that the item came from, derived from its "title".
         /// </summary>
         /// <example>
         /// Tomalak's Realm

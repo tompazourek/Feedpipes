@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using Feedpipes.Syndication.Extensions.Rss10Content.Entities;
+﻿using Feedpipes.Syndication.Extensions.Rss10Content.Entities;
 using Feedpipes.Syndication.Extensions.Rss10Slash.Entities;
 using Feedpipes.Syndication.Extensions.WellFormedWeb.Entities;
 
@@ -11,10 +9,9 @@ namespace Feedpipes.Syndication.Rss10.Entities
     /// discussion posting, job listing, software patch -- any object with a URI. There may be a minimum of one item
     /// per RSS document. While RSS 1.0 does not enforce an upper limit, for backward compatibility with RSS 0.9 and 0.91,
     /// a maximum of fifteen items is recommended.
-    /// 
     /// {item_uri} must be unique with respect to any other rdf:about attributes in the RSS document and is a URI
-    /// which identifies the item. {item_uri} should be identical to the value of the &lt;link&gt; sub-element of
-    /// the &lt;item&gt; element, if possible.
+    /// which identifies the item. {item_uri} should be identical to the value of the "link" sub-element of
+    /// the "item" element, if possible.
     /// </summary>
     public class Rss10Item
     {
