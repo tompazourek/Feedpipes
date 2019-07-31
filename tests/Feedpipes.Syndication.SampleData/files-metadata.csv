@@ -1,4 +1,6 @@
 ﻿FileName,FeedUrl,Title,WebUrl,Source
+_rss10-sample01,,,,RSS 1.0 Spec
+_rss10-sample02,,,,RSS 1.0 Spec
 _rss20-sample01,,,,RSS 2.0 Spec
 _rss20-sample02,,,,Custom made
 adamsitnik-com-feed,https://adamsitnik.com/feed.xml,Adam Sitnik,https://adamsitnik.com/,Inoreader OPML

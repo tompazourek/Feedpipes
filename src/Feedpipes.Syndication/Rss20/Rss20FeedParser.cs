@@ -28,8 +28,7 @@ namespace Feedpipes.Syndication.Rss20
             if (rssVersion != "2.0")
                 return false;
 
-            var channelElement = rssElement.Element("channel");
-            if (!TryParseRss20Channel(channelElement, out var parsedChannel))
+            if (!TryParseRss20Channel(rssElement.Element("channel"), out var parsedChannel))
                 return false;
 
             parsedFeed = new Rss20Feed();

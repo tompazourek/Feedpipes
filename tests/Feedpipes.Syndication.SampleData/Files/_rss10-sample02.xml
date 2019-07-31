@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<rdf:RDF
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+    xmlns="http://purl.org/rss/1.0/">
+
+    <channel rdf:about="http://meerkat.oreillynet.com/?_fl=rss1.0">
+        <title>Meerkat</title>
+        <link>http://meerkat.oreillynet.com</link>
+        <description>Meerkat: An Open Wire Service</description>
+
+        <sy:updatePeriod>hourly</sy:updatePeriod>
+        <sy:updateFrequency>2</sy:updateFrequency>
+        <sy:updateBase>2000-01-01T12:00+00:00</sy:updateBase>
+
+        <dc:creator>Rael Dornfest (mailto:rael@oreilly.com)</dc:creator>
+        <dc:publisher>The O'Reilly Network</dc:publisher>
+        <dc:rights>Copyright &#169; 2000 O'Reilly &amp; Associates, Inc.</dc:rights>
+        <dc:date>2000-01-01T12:00+00:00</dc:date>
+
+        <image rdf:resource="http://meerkat.oreillynet.com/icons/meerkat-powered.jpg" />
+
+        <textinput rdf:resource="http://meerkat.oreillynet.com" />
+
+        <items>
+            <rdf:Seq>
+                <rdf:li resource="http://c.moreover.com/click/here.pl?r123" />
+            </rdf:Seq>
+        </items>
+
+    </channel>
+
+    <image rdf:about="http://meerkat.oreillynet.com/icons/meerkat-powered.jpg">
+        <title>Meerkat Powered!</title>
+        <url>http://meerkat.oreillynet.com/icons/meerkat-powered.jpg</url>
+        <link>http://meerkat.oreillynet.com</link>
+    </image>
+
+    <textinput rdf:about="http://meerkat.oreillynet.com">
+        <title>Search Meerkat</title>
+        <description>Search Meerkat's RSS Database...</description>
+        <name>s</name>
+        <link>http://meerkat.oreillynet.com/</link>
+    </textinput>
+
+    <item rdf:about="http://c.moreover.com/click/here.pl?r123">
+        <title>XML: A Disruptive Technology</title>
+        <link>http://c.moreover.com/click/here.pl?r123</link>
+        <dc:creator>Simon St.Laurent (mailto:simonstl@simonstl.com)</dc:creator>
+        <dc:subject>XML</dc:subject>
+        <dc:description>XML is placing increasingly heavy loads on the existing technical
+            infrastructure of the Internet.</dc:description>
+        <dc:publisher>The O'Reilly Network</dc:publisher>
+        <dc:rights>Copyright &#169; 2000 O'Reilly &amp; Associates, Inc.</dc:rights>
+    </item>
+
+</rdf:RDF>

@@ -26,7 +26,6 @@ namespace Feedpipes.Syndication.Tests
                     .Where(x => x.IsNamespaceDeclaration)
                     .ToList();
 
-
                 foreach (var namespaceDeclaration in namespaceDeclarations)
                 {
                     namespaceSet.EnsureNamespaceAlias(namespaceDeclaration.Name.LocalName, namespaceDeclaration.Value);

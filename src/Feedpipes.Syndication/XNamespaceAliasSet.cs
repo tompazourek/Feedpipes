@@ -17,7 +17,12 @@ namespace Feedpipes.Syndication
 
         #region Public methods
 
-        public void EnsureNamespaceAlias(string alias, XNamespace ns) => _internalSet.Add(new XAttribute(XNamespace.Xmlns + alias, ns.NamespaceName));
+        public void EnsureNamespaceAlias(string alias, XNamespace ns)
+        {
+            _internalSet.Add(string.IsNullOrEmpty(alias) 
+                ? new XAttribute("xmlns", ns.NamespaceName) 
+                : new XAttribute(XNamespace.Xmlns + alias, ns.NamespaceName));
+        }
 
         #endregion
 
