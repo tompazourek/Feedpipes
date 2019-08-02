@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Globalization;
-using Feedpipes.Syndication.Rfc3339Timestamp;
-using Feedpipes.Syndication.Rfc822Timestamp;
+using Feedpipes.Syndication.Timestamps.Rfc3339;
+using Feedpipes.Syndication.Timestamps.Rfc822;
 
-namespace Feedpipes.Syndication.RelaxedTimestamp
+namespace Feedpipes.Syndication.Timestamps.Relaxed
 {
     public static class RelaxedTimestampParser
     {

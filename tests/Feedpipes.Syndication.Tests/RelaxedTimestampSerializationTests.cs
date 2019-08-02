@@ -1,5 +1,5 @@
 using System;
-using Feedpipes.Syndication.RelaxedTimestamp;
+using Feedpipes.Syndication.Timestamps.Relaxed;
 using Xunit;
 
 namespace Feedpipes.Syndication.Tests

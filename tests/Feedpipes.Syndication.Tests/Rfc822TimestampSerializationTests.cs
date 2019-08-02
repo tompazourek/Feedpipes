@@ -1,5 +1,5 @@
 using System;
-using Feedpipes.Syndication.Rfc822Timestamp;
+using Feedpipes.Syndication.Timestamps.Rfc822;
 using Xunit;
 
 namespace Feedpipes.Syndication.Tests

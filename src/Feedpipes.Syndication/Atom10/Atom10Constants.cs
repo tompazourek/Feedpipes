@@ -8,7 +8,7 @@ namespace Feedpipes.Syndication.Atom10
     internal static class Atom10Constants
     {
         public static readonly XNamespace Namespace = "http://www.w3.org/2005/Atom";
-        
+
         public static readonly XNamespace[] RecognizedNamespaces =
         {
             "http://www.w3.org/2005/Atom",

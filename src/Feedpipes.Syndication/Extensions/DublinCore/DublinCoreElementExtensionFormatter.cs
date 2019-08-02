@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using System.Xml.Linq;
 using Feedpipes.Syndication.Extensions.DublinCore.Entities;
-using Feedpipes.Syndication.Rfc3339Timestamp;
+using Feedpipes.Syndication.Timestamps.Rfc3339;
+using Feedpipes.Syndication.Xml;
 
 namespace Feedpipes.Syndication.Extensions.DublinCore
 {

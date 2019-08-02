@@ -8,8 +8,9 @@ using Feedpipes.Syndication.Extensions.Rss10Content;
 using Feedpipes.Syndication.Extensions.Rss10Slash;
 using Feedpipes.Syndication.Extensions.Rss10Syndication;
 using Feedpipes.Syndication.Extensions.WellFormedWeb;
-using Feedpipes.Syndication.Rfc822Timestamp;
 using Feedpipes.Syndication.Rss20.Entities;
+using Feedpipes.Syndication.Timestamps.Rfc822;
+using Feedpipes.Syndication.Xml;
 
 namespace Feedpipes.Syndication.Rss20
 {

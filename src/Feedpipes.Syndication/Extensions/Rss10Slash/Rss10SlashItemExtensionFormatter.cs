@@ -3,6 +3,7 @@ using System.Globalization;
 using System.Linq;
 using System.Xml.Linq;
 using Feedpipes.Syndication.Extensions.Rss10Slash.Entities;
+using Feedpipes.Syndication.Xml;
 
 namespace Feedpipes.Syndication.Extensions.Rss10Slash
 {

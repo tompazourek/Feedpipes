@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Xml.Linq;
 using Feedpipes.Syndication.Extensions.WellFormedWeb.Entities;
+using Feedpipes.Syndication.Xml;
 
 namespace Feedpipes.Syndication.Extensions.WellFormedWeb
 {

@@ -9,7 +9,7 @@ namespace Feedpipes.Syndication.Extensions.Rss10Syndication
     {
         public const string NamespaceAlias = "sy";
         public static readonly XNamespace Namespace = "http://purl.org/rss/1.0/modules/syndication/";
-        
+
         public static readonly XNamespace[] RecognizedNamespaces =
         {
             "http://purl.org/rss/1.0/modules/syndication/",

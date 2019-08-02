@@ -9,7 +9,7 @@ namespace Feedpipes.Syndication.Extensions.WellFormedWeb
     {
         public const string NamespaceAlias = "wfw";
         public static readonly XNamespace Namespace = "http://wellformedweb.org/CommentAPI/";
-        
+
         public static readonly XNamespace[] RecognizedNamespaces =
         {
             "http://wellformedweb.org/CommentAPI/",

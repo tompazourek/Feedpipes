@@ -3,7 +3,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 using System.Xml.Linq;
 using Feedpipes.Syndication.Atom10.Entities;
-using Feedpipes.Syndication.RelaxedTimestamp;
+using Feedpipes.Syndication.Timestamps.Relaxed;
 
 namespace Feedpipes.Syndication.Atom10
 {

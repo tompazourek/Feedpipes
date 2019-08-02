@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Xml.Linq;
 using Feedpipes.Syndication.Extensions.Rss10Syndication.Entities;
-using Feedpipes.Syndication.Rfc3339Timestamp;
+using Feedpipes.Syndication.Timestamps.Rfc3339;
+using Feedpipes.Syndication.Xml;
 
 namespace Feedpipes.Syndication.Extensions.Rss10Syndication
 {

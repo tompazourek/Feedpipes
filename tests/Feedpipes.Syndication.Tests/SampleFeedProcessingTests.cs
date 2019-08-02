@@ -6,6 +6,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using Feedpipes.Syndication.Rss20;
 using Feedpipes.Syndication.SampleData;
+using Feedpipes.Syndication.Xml;
 using Xunit;
 
 namespace Feedpipes.Syndication.Tests

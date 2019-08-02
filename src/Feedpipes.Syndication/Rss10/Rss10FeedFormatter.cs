@@ -7,6 +7,7 @@ using Feedpipes.Syndication.Extensions.Rss10Slash;
 using Feedpipes.Syndication.Extensions.Rss10Syndication;
 using Feedpipes.Syndication.Extensions.WellFormedWeb;
 using Feedpipes.Syndication.Rss10.Entities;
+using Feedpipes.Syndication.Xml;
 
 namespace Feedpipes.Syndication.Rss10
 {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 
-namespace Feedpipes.Syndication.Rfc3339Timestamp
+namespace Feedpipes.Syndication.Timestamps.Rfc3339
 {
     public static class Rfc3339TimestampFormatter
     {

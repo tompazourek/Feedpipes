@@ -2,7 +2,7 @@
 using System.Diagnostics.CodeAnalysis;
 using System.Xml.Linq;
 using Feedpipes.Syndication.Extensions.DublinCore.Entities;
-using Feedpipes.Syndication.RelaxedTimestamp;
+using Feedpipes.Syndication.Timestamps.Relaxed;
 
 namespace Feedpipes.Syndication.Extensions.DublinCore
 {
