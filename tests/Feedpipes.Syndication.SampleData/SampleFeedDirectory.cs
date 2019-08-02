@@ -49,7 +49,7 @@ namespace Feedpipes.Syndication.SampleData
 
                             try
                             {
-                                return CustomXDocumentLoader.LoadFromStream(feedStream);
+                                return RelaxedXDocumentLoader.LoadFromStream(feedStream);
                             }
                             catch (XmlException ex)
                             {

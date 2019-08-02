@@ -4,17 +4,19 @@ using System.Xml.Linq;
 
 namespace Feedpipes.Syndication.SampleData
 {
-    public static class CustomXDocumentLoader
+    public static class RelaxedXDocumentLoader
     {
         public static XDocument LoadFromString(string inputString)
         {
             var preprocessedStringBuilder = new StringBuilder(inputString.Length);
-            var soFarOnlyWhitespace = true; // flag to do left whitespace trimming
+            var soFarOnlyWhitespace = true;
             foreach (var c in inputString)
             {
+                // left whitespace trimming
                 if (soFarOnlyWhitespace && char.IsWhiteSpace(c))
                     continue;
 
+                // replace control characters with a space
                 if (char.IsControl(c) && c != '\n' && c != '\r' && c != '\t')
                 {
                     if (soFarOnlyWhitespace)
