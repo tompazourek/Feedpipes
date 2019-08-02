@@ -3,6 +3,11 @@ using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 using System.Xml.Linq;
 using Feedpipes.Syndication.Atom10.Entities;
+using Feedpipes.Syndication.Extensions.DublinCore;
+using Feedpipes.Syndication.Extensions.Rss10Content;
+using Feedpipes.Syndication.Extensions.Rss10Slash;
+using Feedpipes.Syndication.Extensions.Rss10Syndication;
+using Feedpipes.Syndication.Extensions.WellFormedWeb;
 using Feedpipes.Syndication.Timestamps.Relaxed;
 
 namespace Feedpipes.Syndication.Atom10
@@ -105,6 +110,17 @@ namespace Feedpipes.Syndication.Atom10
                 }
             }
 
+            // extensions
+            if (Rss10SyndicationChannelExtensionParser.TryParseRss10SyndicationChannelExtension(feedElement, out var parsedSyndicationExtension))
+            {
+                parsedFeed.SyndicationExtension = parsedSyndicationExtension;
+            }
+
+            if (DublinCoreElementExtensionParser.TryParseDublinCoreElementExtension(feedElement, out var parsedDublinCoreExtension))
+            {
+                parsedFeed.DublinCoreExtension = parsedDublinCoreExtension;
+            }
+
             return true;
         }
 
@@ -184,6 +200,27 @@ namespace Feedpipes.Syndication.Atom10
             if (TryParseAtom10Source(entryElement.Element(atom + "source"), atom, out var parsedSource))
             {
                 parsedEntry.Source = parsedSource;
+            }
+            
+            // extensions
+            if (Rss10ContentItemExtensionParser.TryParseRss10ContentItemExtension(entryElement, out var parsedContentExtension))
+            {
+                parsedEntry.ContentExtension = parsedContentExtension;
+            }
+
+            if (Rss10SlashItemExtensionParser.TryParseRss10SlashItemExtension(entryElement, out var parsedSlashExtension))
+            {
+                parsedEntry.SlashExtension = parsedSlashExtension;
+            }
+
+            if (WfwItemExtensionParser.TryParseWfwItemExtension(entryElement, out var parsedWfwExtension))
+            {
+                parsedEntry.WfwExtension = parsedWfwExtension;
+            }
+
+            if (DublinCoreElementExtensionParser.TryParseDublinCoreElementExtension(entryElement, out var parsedDublinCoreExtension))
+            {
+                parsedEntry.DublinCoreExtension = parsedDublinCoreExtension;
             }
 
             return true;

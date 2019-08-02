@@ -51,9 +51,9 @@ namespace Feedpipes.Syndication.Rss20
 
             channelElement = new XElement("channel");
 
-            channelElement.Add(new XElement("title", channelToFormat.Title));
-            channelElement.Add(new XElement("link", channelToFormat.Link));
-            channelElement.Add(new XElement("description", channelToFormat.Description));
+            channelElement.Add(new XElement("title", channelToFormat.Title ?? ""));
+            channelElement.Add(new XElement("link", channelToFormat.Link ?? ""));
+            channelElement.Add(new XElement("description", channelToFormat.Description ?? ""));
 
             if (TryFormatOptionalTextElement(channelToFormat.Language, "language", out var languageElement))
             {
@@ -289,9 +289,9 @@ namespace Feedpipes.Syndication.Rss20
                 return false;
 
             enclosureElement = new XElement("enclosure");
-            enclosureElement.Add(new XAttribute("url", enclosureToFormat.Url));
-            enclosureElement.Add(new XAttribute("length", enclosureToFormat.Length));
-            enclosureElement.Add(new XAttribute("type", enclosureToFormat.Type));
+            enclosureElement.Add(new XAttribute("url", enclosureToFormat.Url ?? ""));
+            enclosureElement.Add(new XAttribute("length", enclosureToFormat.Length ?? ""));
+            enclosureElement.Add(new XAttribute("type", enclosureToFormat.Type ?? ""));
 
             return true;
         }
@@ -376,10 +376,10 @@ namespace Feedpipes.Syndication.Rss20
 
             textInputElement = new XElement("textInput");
 
-            textInputElement.Add(new XElement("title") { Value = textInputToFormat.Title });
-            textInputElement.Add(new XElement("description") { Value = textInputToFormat.Description });
-            textInputElement.Add(new XElement("name") { Value = textInputToFormat.Name });
-            textInputElement.Add(new XElement("link") { Value = textInputToFormat.Link });
+            textInputElement.Add(new XElement("title") { Value = textInputToFormat.Title ?? "" });
+            textInputElement.Add(new XElement("description") { Value = textInputToFormat.Description ?? "" });
+            textInputElement.Add(new XElement("name") { Value = textInputToFormat.Name ?? "" });
+            textInputElement.Add(new XElement("link") { Value = textInputToFormat.Link ?? "" });
 
             // extensions
             if (DublinCoreElementExtensionFormatter.TryFormatDublinCoreElementExtension(textInputToFormat.DublinCoreExtension, namespaceAliases, out var dublinCoreExtensionElements))
@@ -399,9 +399,9 @@ namespace Feedpipes.Syndication.Rss20
 
             imageElement = new XElement("image");
 
-            imageElement.Add(new XElement("url") { Value = imageToFormat.Url });
-            imageElement.Add(new XElement("title") { Value = imageToFormat.Title });
-            imageElement.Add(new XElement("link") { Value = imageToFormat.Link });
+            imageElement.Add(new XElement("url") { Value = imageToFormat.Url ?? "" });
+            imageElement.Add(new XElement("title") { Value = imageToFormat.Title ?? "" });
+            imageElement.Add(new XElement("link") { Value = imageToFormat.Link ?? "" });
 
             if (imageToFormat.Height != null)
             {
@@ -511,11 +511,11 @@ namespace Feedpipes.Syndication.Rss20
                 return false;
 
             cloudElement = new XElement("cloud");
-            cloudElement.Add(new XAttribute("domain", cloudToFormat.Domain));
-            cloudElement.Add(new XAttribute("port", cloudToFormat.Port));
-            cloudElement.Add(new XAttribute("path", cloudToFormat.Path));
-            cloudElement.Add(new XAttribute("registerProcedure", cloudToFormat.RegisterProcedure));
-            cloudElement.Add(new XAttribute("protocol", cloudToFormat.Protocol));
+            cloudElement.Add(new XAttribute("domain", cloudToFormat.Domain ?? ""));
+            cloudElement.Add(new XAttribute("port", cloudToFormat.Port ?? ""));
+            cloudElement.Add(new XAttribute("path", cloudToFormat.Path ?? ""));
+            cloudElement.Add(new XAttribute("registerProcedure", cloudToFormat.RegisterProcedure ?? ""));
+            cloudElement.Add(new XAttribute("protocol", cloudToFormat.Protocol ?? ""));
 
             return true;
         }

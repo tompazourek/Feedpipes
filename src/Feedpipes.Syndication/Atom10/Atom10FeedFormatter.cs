@@ -3,8 +3,12 @@ using System.Globalization;
 using System.Linq;
 using System.Xml.Linq;
 using Feedpipes.Syndication.Atom10.Entities;
+using Feedpipes.Syndication.Extensions.DublinCore;
+using Feedpipes.Syndication.Extensions.Rss10Content;
+using Feedpipes.Syndication.Extensions.Rss10Slash;
+using Feedpipes.Syndication.Extensions.Rss10Syndication;
+using Feedpipes.Syndication.Extensions.WellFormedWeb;
 using Feedpipes.Syndication.Timestamps.Rfc3339;
-using Feedpipes.Syndication.Timestamps.Rfc822;
 using Feedpipes.Syndication.Xml;
 
 namespace Feedpipes.Syndication.Atom10
@@ -111,10 +115,21 @@ namespace Feedpipes.Syndication.Atom10
                 feedElement.Add(subtitleElement);
             }
 
+            // extensions
+            if (Rss10SyndicationChannelExtensionFormatter.TryFormatRss10SyndicationChannelExtension(feed.SyndicationExtension, namespaceAliases, out var syndicationExtensionElements))
+            {
+                feedElement.AddRange(syndicationExtensionElements);
+            }
+
+            if (DublinCoreElementExtensionFormatter.TryFormatDublinCoreElementExtension(feed.DublinCoreExtension, namespaceAliases, out var dublinCoreExtensionElements))
+            {
+                feedElement.AddRange(dublinCoreExtensionElements);
+            }
+
             // entries
             foreach (var entryToFormat in feed.Entries)
             {
-                if (TryFormatAtom10Entry(entryToFormat, out var entryElement))
+                if (TryFormatAtom10Entry(entryToFormat, namespaceAliases, out var entryElement))
                 {
                     feedElement.Add(entryElement);
                 }
@@ -128,7 +143,7 @@ namespace Feedpipes.Syndication.Atom10
             return true;
         }
 
-        private static bool TryFormatAtom10Entry(Atom10Entry entryToFormat, out XElement entryElement)
+        private static bool TryFormatAtom10Entry(Atom10Entry entryToFormat, XNamespaceAliasSet namespaceAliases, out XElement entryElement)
         {
             entryElement = default;
 
@@ -207,6 +222,27 @@ namespace Feedpipes.Syndication.Atom10
             if (TryFormatAtom10Source(entryToFormat.Source, out var sourceElement))
             {
                 entryElement.Add(sourceElement);
+            }
+
+            // extensions
+            if (Rss10ContentItemExtensionFormatter.TryFormatRss10ContentItemExtension(entryToFormat.ContentExtension, namespaceAliases, out var contentExtensionElements))
+            {
+                entryElement.AddRange(contentExtensionElements);
+            }
+
+            if (Rss10SlashItemExtensionFormatter.TryFormatRss10SlashItemExtension(entryToFormat.SlashExtension, namespaceAliases, out var slashExtensionElements))
+            {
+                entryElement.AddRange(slashExtensionElements);
+            }
+
+            if (WfwItemExtensionFormatter.TryFormatWfwItemExtension(entryToFormat.WfwExtension, namespaceAliases, out var wfwExtensionElements))
+            {
+                entryElement.AddRange(wfwExtensionElements);
+            }
+
+            if (DublinCoreElementExtensionFormatter.TryFormatDublinCoreElementExtension(entryToFormat.DublinCoreExtension, namespaceAliases, out var dublinCoreExtensionElements))
+            {
+                entryElement.AddRange(dublinCoreExtensionElements);
             }
 
             return true;

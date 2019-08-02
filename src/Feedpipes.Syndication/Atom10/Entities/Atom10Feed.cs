@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using Feedpipes.Syndication.Extensions.DublinCore.Entities;
+using Feedpipes.Syndication.Extensions.Rss10Syndication.Entities;
 
 namespace Feedpipes.Syndication.Atom10.Entities
 {
@@ -116,5 +118,15 @@ namespace Feedpipes.Syndication.Atom10.Entities
         /// An example of an entry would be a single post on a weblog.
         /// </summary>
         public IList<Atom10Entry> Entries { get; set; } = new List<Atom10Entry>();
+        
+        /// <summary>
+        /// Optional "sy:*" extended information.
+        /// </summary>
+        public Rss10SyndicationChannelExtension SyndicationExtension { get; set; }
+
+        /// <summary>
+        /// Optional "dc:*" extended information.
+        /// </summary>
+        public DublinCoreElementExtension DublinCoreExtension { get; set; }
     }
 }

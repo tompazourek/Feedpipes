@@ -217,5 +217,38 @@ namespace Feedpipes.Syndication.Tests
                 Assert.NotEmpty(xmlString);
             }
         }
+
+        [Fact]
+        public void FormatSampleFeedEmpty()
+        {
+            var feed = new Atom10Feed
+            {
+                Entries = new List<Atom10Entry>
+                {
+                    new Atom10Entry()
+                },
+            };
+
+            var tryFormatResult = Atom10FeedFormatter.TryFormatAtom10Feed(feed, out var document);
+            Assert.True(tryFormatResult);
+
+            var targetEncoding = Encoding.UTF8;
+            var xmlWriterSettings = new XmlWriterSettings
+            {
+                Encoding = targetEncoding,
+                Indent = true,
+            };
+
+            using (var memoryStream = new MemoryStream())
+            using (var streamWriter = new StreamWriter(memoryStream, targetEncoding))
+            using (var xmlWriter = XmlWriter.Create(streamWriter, xmlWriterSettings))
+            {
+                document.WriteTo(xmlWriter);
+                xmlWriter.Flush();
+
+                var xmlString = targetEncoding.GetString(memoryStream.ToArray());
+                Assert.NotEmpty(xmlString);
+            }
+        }
     }
 }

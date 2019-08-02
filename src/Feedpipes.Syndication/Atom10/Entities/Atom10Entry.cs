@@ -1,5 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using Feedpipes.Syndication.Extensions.DublinCore.Entities;
+using Feedpipes.Syndication.Extensions.Rss10Content.Entities;
+using Feedpipes.Syndication.Extensions.Rss10Slash.Entities;
+using Feedpipes.Syndication.Extensions.WellFormedWeb.Entities;
 
 namespace Feedpipes.Syndication.Atom10.Entities
 {
@@ -109,5 +113,25 @@ namespace Feedpipes.Syndication.Atom10.Entities
         /// Contains metadata from the source feed if this entry is a copy.
         /// </summary>
         public Atom10Source Source { get; set; }
+        
+        /// <summary>
+        /// Optional "dc:*" extended information.
+        /// </summary>
+        public DublinCoreElementExtension DublinCoreExtension { get; set; }
+        
+        /// <summary>
+        /// Optional "content:*" extended information.
+        /// </summary>
+        public Rss10ContentItemExtension ContentExtension { get; set; }
+
+        /// <summary>
+        /// Optional "wfw:*" extended information.
+        /// </summary>
+        public WfwItemExtension WfwExtension { get; set; }
+
+        /// <summary>
+        /// Optional "slash:*" extended information.
+        /// </summary>
+        public Rss10SlashItemExtension SlashExtension { get; set; }
     }
 }

@@ -72,11 +72,11 @@ namespace Feedpipes.Syndication.Rss10
 
             channelElement = new XElement(_rss + "channel");
 
-            channelElement.Add(new XAttribute(_rdf + "about", channelToFormat.About));
+            channelElement.Add(new XAttribute(_rdf + "about", channelToFormat.About ?? ""));
 
-            channelElement.Add(new XElement(_rss + "title", channelToFormat.Title));
-            channelElement.Add(new XElement(_rss + "link", channelToFormat.Link));
-            channelElement.Add(new XElement(_rss + "description", channelToFormat.Description));
+            channelElement.Add(new XElement(_rss + "title", channelToFormat.Title ?? ""));
+            channelElement.Add(new XElement(_rss + "link", channelToFormat.Link ?? ""));
+            channelElement.Add(new XElement(_rss + "description", channelToFormat.Description ?? ""));
 
             // extensions
             if (Rss10SyndicationChannelExtensionFormatter.TryFormatRss10SyndicationChannelExtension(channelToFormat.SyndicationExtension, namespaceAliases, out var syndicationExtensionElements))
@@ -129,14 +129,14 @@ namespace Feedpipes.Syndication.Rss10
                 return false;
 
             itemElement = referenceOnly
-                ? new XElement(_rdf + "li", new XAttribute("resource", itemToFormat.About))
-                : new XElement(_rss + "item", new XAttribute(_rdf + "about", itemToFormat.About));
+                ? new XElement(_rdf + "li", new XAttribute("resource", itemToFormat.About ?? ""))
+                : new XElement(_rss + "item", new XAttribute(_rdf + "about", itemToFormat.About ?? ""));
 
             if (referenceOnly)
                 return true;
 
-            itemElement.Add(new XElement(_rss + "title") { Value = itemToFormat.Title });
-            itemElement.Add(new XElement(_rss + "link") { Value = itemToFormat.Link });
+            itemElement.Add(new XElement(_rss + "title") { Value = itemToFormat.Title ?? "" });
+            itemElement.Add(new XElement(_rss + "link") { Value = itemToFormat.Link ?? "" });
 
             if (TryFormatOptionalTextElement(itemToFormat.Description, _rss + "description", out var descriptionElement))
             {
@@ -175,16 +175,16 @@ namespace Feedpipes.Syndication.Rss10
                 return false;
 
             textInputElement = referenceOnly
-                ? new XElement(_rss + "textinput", new XAttribute(_rdf + "resource", textInputToFormat.About))
-                : new XElement(_rss + "textinput", new XAttribute(_rdf + "about", textInputToFormat.About));
+                ? new XElement(_rss + "textinput", new XAttribute(_rdf + "resource", textInputToFormat.About ?? ""))
+                : new XElement(_rss + "textinput", new XAttribute(_rdf + "about", textInputToFormat.About ?? ""));
 
             if (referenceOnly)
                 return true;
 
-            textInputElement.Add(new XElement(_rss + "title") { Value = textInputToFormat.Title });
-            textInputElement.Add(new XElement(_rss + "description") { Value = textInputToFormat.Description });
-            textInputElement.Add(new XElement(_rss + "name") { Value = textInputToFormat.Name });
-            textInputElement.Add(new XElement(_rss + "link") { Value = textInputToFormat.Link });
+            textInputElement.Add(new XElement(_rss + "title") { Value = textInputToFormat.Title ?? "" });
+            textInputElement.Add(new XElement(_rss + "description") { Value = textInputToFormat.Description ?? "" });
+            textInputElement.Add(new XElement(_rss + "name") { Value = textInputToFormat.Name ?? "" });
+            textInputElement.Add(new XElement(_rss + "link") { Value = textInputToFormat.Link ?? "" });
 
             // extensions
             if (DublinCoreElementExtensionFormatter.TryFormatDublinCoreElementExtension(textInputToFormat.DublinCoreExtension, namespaceAliases, out var dublinCoreExtensionElements))
@@ -203,15 +203,15 @@ namespace Feedpipes.Syndication.Rss10
                 return false;
 
             imageElement = referenceOnly
-                ? new XElement(_rss + "image", new XAttribute(_rdf + "resource", imageToFormat.About))
-                : new XElement(_rss + "image", new XAttribute(_rdf + "about", imageToFormat.About));
+                ? new XElement(_rss + "image", new XAttribute(_rdf + "resource", imageToFormat.About ?? ""))
+                : new XElement(_rss + "image", new XAttribute(_rdf + "about", imageToFormat.About ?? ""));
 
             if (referenceOnly)
                 return true;
 
-            imageElement.Add(new XElement(_rss + "title") { Value = imageToFormat.Title });
-            imageElement.Add(new XElement(_rss + "url") { Value = imageToFormat.Url });
-            imageElement.Add(new XElement(_rss + "link") { Value = imageToFormat.Link });
+            imageElement.Add(new XElement(_rss + "title") { Value = imageToFormat.Title ?? "" });
+            imageElement.Add(new XElement(_rss + "url") { Value = imageToFormat.Url ?? "" });
+            imageElement.Add(new XElement(_rss + "link") { Value = imageToFormat.Link ?? "" });
 
             if (DublinCoreElementExtensionFormatter.TryFormatDublinCoreElementExtension(imageToFormat.DublinCoreExtension, namespaceAliases, out var dublinCoreExtensionElements))
             {

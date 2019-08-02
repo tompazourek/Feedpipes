@@ -143,5 +143,41 @@ namespace Feedpipes.Syndication.Tests
                 Assert.NotEmpty(xmlString);
             }
         }
+        
+        [Fact]
+        public void FormatSampleFeedEmpty()
+        {
+            var feed = new Rss10Feed
+            {
+                Channel = new Rss10Channel
+                {
+                    Items = new List<Rss10Item>
+                    {
+                        new Rss10Item(),
+                    },
+                },
+            };
+
+            var tryFormatResult = Rss10FeedFormatter.TryFormatRss10Feed(feed, out var document);
+            Assert.True(tryFormatResult);
+
+            var targetEncoding = Encoding.UTF8;
+            var xmlWriterSettings = new XmlWriterSettings
+            {
+                Encoding = targetEncoding,
+                Indent = true,
+            };
+
+            using (var memoryStream = new MemoryStream())
+            using (var streamWriter = new StreamWriter(memoryStream, targetEncoding))
+            using (var xmlWriter = XmlWriter.Create(streamWriter, xmlWriterSettings))
+            {
+                document.WriteTo(xmlWriter);
+                xmlWriter.Flush();
+
+                var xmlString = targetEncoding.GetString(memoryStream.ToArray());
+                Assert.NotEmpty(xmlString);
+            }
+        }
     }
 }
