@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
+    <id>https://example.org/feed</id>
+    <title type="html">This is my &lt;strong&gt;feed&lt;/strong&gt; title</title>
+    <updated>2019-01-01T04:30:00Z</updated>
+    <author>
+        <name>Jane</name>
+        <uri>https://example.org/jane</uri>
+        <email>jane@example.org</email>
+    </author>
+    <author>
+        <name>John</name>
+        <uri>https://example.org/john</uri>
+        <email>john@example.org</email>
+    </author>
+    <link href="https://example.org/my-link" rel="via" type="text/html" hreflang="en-GB" title="My link" length="1000" />
+    <link href="https://example.org/feed-alternate" rel="alternate" />
+    <link href="https://example.org/feed" rel="self" />
+    <category term="alpha" label="Alpha" scheme="https://example.org/categories" />
+    <category term="beta" label="Beta" scheme="https://example.org/categories" />
+    <category term="gamma" label="Gamma" scheme="https://example.org/categories" />
+    <contributor>
+        <name>John</name>
+        <uri>https://example.org/john</uri>
+        <email>john@example.org</email>
+    </contributor>
+    <generator uri="https://example.org/generator" version="3000">My Awesome Generator 3000</generator>
+    <icon>https://example.org/icon.png</icon>
+    <logo>https://example.org/logo.png</logo>
+    <rights>All rights reserved.</rights>
+    <subtitle>This is my feed's subtitle</subtitle>
+    <entry>
+        <id>https://example.org/article-permalink</id>
+        <title>My awesome article</title>
+        <updated>2019-01-05T05:30:00-05:00</updated>
+        <author>
+            <name>Tom</name>
+            <uri>https://example.org/tom</uri>
+            <email>tom@example.org</email>
+        </author>
+        <content type="html">My &lt;strong&gt;HTML&lt;/strong&gt; content.</content>
+        <link href="https://example.org/article-alternate?hl=cs" rel="alternate" hreflang="cs-CZ" />
+        <summary>My awesome article summary...</summary>
+        <category term="delta" label="Delta" scheme="https://example.org/categories" />
+        <contributor>
+            <name>Sarah</name>
+            <uri>https://example.org/sarah</uri>
+            <email>sarah@example.org</email>
+        </contributor>
+        <published>2019-01-01T05:30:00Z</published>
+        <rights>All rights reserved again.</rights>
+        <source>
+            <id>https://example.org/source</id>
+            <title>Example, Inc.</title>
+            <updated>2003-12-13T18:30:02Z</updated>
+        </source>
+    </entry>
+</feed>

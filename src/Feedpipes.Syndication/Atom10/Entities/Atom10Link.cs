@@ -24,7 +24,7 @@
         /// - self: the feed itself.
         /// - via: the source of the information provided in the entry.
         /// </summary>
-        public string Rel { get; set; }
+        public string Rel { get; set; } = "alternate";
 
         /// <summary>
         /// Optional "type" attribute.

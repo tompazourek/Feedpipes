@@ -10,7 +10,7 @@
         /// Corresponds to the "type" attribute.
         /// By default, "text", "html"/"xhtml" otherwise.
         /// </summary>
-        public string Type { get; set; }
+        public string Type { get; set; } = "text";
 
         /// <summary>
         /// Value of the element.

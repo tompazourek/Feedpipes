@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Reflection;
 using System.Xml;
 using Csv;
+using Feedpipes.Syndication.Xml;
 
 namespace Feedpipes.Syndication.SampleData
 {

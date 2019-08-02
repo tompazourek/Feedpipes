@@ -24,4 +24,8 @@
     <PackageReference Include="Csv" Version="1.0.40" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Feedpipes.Syndication\Feedpipes.Syndication.csproj" />
+  </ItemGroup>
+
 </Project>
