@@ -13,6 +13,8 @@ namespace Feedpipes.Syndication.Atom10
         {
             "http://www.w3.org/2005/Atom",
             "https://www.w3.org/2005/Atom",
+            "http://purl.org/atom/ns#", // Atom 0.3 namespace
+            "https://purl.org/atom/ns#",
         };
     }
 }

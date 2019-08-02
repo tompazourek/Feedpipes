@@ -88,12 +88,12 @@ namespace Feedpipes.Syndication.Extensions.DublinCore
                 elements.Add(rightsElement);
             }
 
-            if (TryFormatDublinCoreTimestamp(extensionToFormat.Date, namespaceAliases, out var dateElement))
+            if (TryFormatDublinCoreTimestamp(extensionToFormat.Date, "date", namespaceAliases, out var dateElement))
             {
                 elements.Add(dateElement);
             }
 
-            if (TryFormatDublinCoreTimestamp(extensionToFormat.Modified, namespaceAliases, out var modifiedElement))
+            if (TryFormatDublinCoreTimestamp(extensionToFormat.Modified, "modified", namespaceAliases, out var modifiedElement))
             {
                 elements.Add(modifiedElement);
             }
@@ -113,7 +113,7 @@ namespace Feedpipes.Syndication.Extensions.DublinCore
             return true;
         }
 
-        private static bool TryFormatDublinCoreTimestamp(DateTimeOffset? valueToFormat, XNamespaceAliasSet namespaceAliases, out XElement element)
+        private static bool TryFormatDublinCoreTimestamp(DateTimeOffset? valueToFormat, string elementName, XNamespaceAliasSet namespaceAliases, out XElement element)
         {
             element = default;
 
@@ -124,7 +124,7 @@ namespace Feedpipes.Syndication.Extensions.DublinCore
                 return false;
 
             namespaceAliases.EnsureNamespaceAlias(DublinCoreConstants.NamespaceAlias, DublinCoreConstants.Namespace);
-            element = new XElement(DublinCoreConstants.Namespace + "date") { Value = valueString };
+            element = new XElement(DublinCoreConstants.Namespace + elementName) { Value = valueString };
 
             return true;
         }

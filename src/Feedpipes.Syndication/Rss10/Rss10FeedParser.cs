@@ -4,6 +4,7 @@ using Feedpipes.Syndication.Extensions.DublinCore;
 using Feedpipes.Syndication.Extensions.Rss10Content;
 using Feedpipes.Syndication.Extensions.Rss10Slash;
 using Feedpipes.Syndication.Extensions.Rss10Syndication;
+using Feedpipes.Syndication.Extensions.RssAtom10;
 using Feedpipes.Syndication.Extensions.WellFormedWeb;
 using Feedpipes.Syndication.Rss10.Entities;
 
@@ -83,6 +84,11 @@ namespace Feedpipes.Syndication.Rss10
             if (DublinCoreElementExtensionParser.TryParseDublinCoreElementExtension(channelElement, out var parsedDublinCoreExtension))
             {
                 parsedChannel.DublinCoreExtension = parsedDublinCoreExtension;
+            }
+            
+            if (RssAtom10ElementExtensionParser.TryParseRssAtom10ElementExtension(channelElement, out var parsedRssAtom10Extension))
+            {
+                parsedChannel.RssAtom10Extension = parsedRssAtom10Extension;
             }
 
             return true;
@@ -165,6 +171,11 @@ namespace Feedpipes.Syndication.Rss10
             if (DublinCoreElementExtensionParser.TryParseDublinCoreElementExtension(itemElement, out var parsedDublinCoreExtension))
             {
                 parsedItem.DublinCoreExtension = parsedDublinCoreExtension;
+            }
+            
+            if (RssAtom10ElementExtensionParser.TryParseRssAtom10ElementExtension(itemElement, out var parsedRssAtom10Extension))
+            {
+                parsedItem.RssAtom10Extension = parsedRssAtom10Extension;
             }
 
             return true;

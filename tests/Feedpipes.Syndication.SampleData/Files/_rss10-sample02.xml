@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
 <rdf:RDF
+    xmlns:atom="http://www.w3.org/2005/Atom"
     xmlns:dc="http://purl.org/dc/elements/1.1/"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
@@ -11,6 +12,10 @@
         <link>http://meerkat.oreillynet.com</link>
         <description>Meerkat: An Open Wire Service</description>
 
+        <image rdf:resource="http://meerkat.oreillynet.com/icons/meerkat-powered.jpg" />
+
+        <textinput rdf:resource="http://meerkat.oreillynet.com" />
+
         <sy:updatePeriod>hourly</sy:updatePeriod>
         <sy:updateFrequency>2</sy:updateFrequency>
         <sy:updateBase>2000-01-01T12:00:00Z</sy:updateBase>
@@ -20,9 +25,7 @@
         <dc:rights>Copyright &#169; 2000 O'Reilly &amp; Associates, Inc.</dc:rights>
         <dc:date>2000-01-01T12:00:00Z</dc:date>
 
-        <image rdf:resource="http://meerkat.oreillynet.com/icons/meerkat-powered.jpg" />
-
-        <textinput rdf:resource="http://meerkat.oreillynet.com" />
+        <atom:link href="http://meerkat.oreillynet.com/thisfeed.xml" rel="self" type="application/rss+xml"/>
 
         <items>
             <rdf:Seq>

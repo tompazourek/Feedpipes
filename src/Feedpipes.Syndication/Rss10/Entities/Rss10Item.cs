@@ -1,6 +1,7 @@
 ﻿using Feedpipes.Syndication.Extensions.DublinCore.Entities;
 using Feedpipes.Syndication.Extensions.Rss10Content.Entities;
 using Feedpipes.Syndication.Extensions.Rss10Slash.Entities;
+using Feedpipes.Syndication.Extensions.RssAtom10.Entities;
 using Feedpipes.Syndication.Extensions.WellFormedWeb.Entities;
 
 namespace Feedpipes.Syndication.Rss10.Entities
@@ -62,5 +63,10 @@ namespace Feedpipes.Syndication.Rss10.Entities
         /// Optional "dc:*" extended information.
         /// </summary>
         public DublinCoreElementExtension DublinCoreExtension { get; set; }
+        
+        /// <summary>
+        /// Optional "atom:*" extended information.
+        /// </summary>
+        public RssAtom10ElementExtension RssAtom10Extension { get; set; }
     }
 }

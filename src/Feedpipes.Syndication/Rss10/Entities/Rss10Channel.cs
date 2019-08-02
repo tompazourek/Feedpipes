@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using Feedpipes.Syndication.Extensions.DublinCore.Entities;
 using Feedpipes.Syndication.Extensions.Rss10Syndication.Entities;
+using Feedpipes.Syndication.Extensions.RssAtom10.Entities;
 
 namespace Feedpipes.Syndication.Rss10.Entities
 {
@@ -64,5 +65,10 @@ namespace Feedpipes.Syndication.Rss10.Entities
         /// Optional "dc:*" extended information.
         /// </summary>
         public DublinCoreElementExtension DublinCoreExtension { get; set; }
+
+        /// <summary>
+        /// Optional "atom:*" extended information.
+        /// </summary>
+        public RssAtom10ElementExtension RssAtom10Extension { get; set; }
     }
 }

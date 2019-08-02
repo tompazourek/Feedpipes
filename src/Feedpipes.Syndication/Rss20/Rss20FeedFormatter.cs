@@ -7,6 +7,7 @@ using Feedpipes.Syndication.Extensions.DublinCore;
 using Feedpipes.Syndication.Extensions.Rss10Content;
 using Feedpipes.Syndication.Extensions.Rss10Slash;
 using Feedpipes.Syndication.Extensions.Rss10Syndication;
+using Feedpipes.Syndication.Extensions.RssAtom10;
 using Feedpipes.Syndication.Extensions.WellFormedWeb;
 using Feedpipes.Syndication.Rss20.Entities;
 using Feedpipes.Syndication.Timestamps.Rfc822;
@@ -143,6 +144,11 @@ namespace Feedpipes.Syndication.Rss20
             {
                 channelElement.AddRange(dublinCoreExtensionElements);
             }
+            
+            if (RssAtom10ElementExtensionFormatter.TryFormatRssAtom10ElementExtension(channelToFormat.RssAtom10Extension, namespaceAliases, out var rssAtom10ExtensionElements))
+            {
+                channelElement.AddRange(rssAtom10ExtensionElements);
+            }
 
             // items
             foreach (var itemToFormat in channelToFormat.Items)
@@ -240,6 +246,11 @@ namespace Feedpipes.Syndication.Rss20
             if (DublinCoreElementExtensionFormatter.TryFormatDublinCoreElementExtension(itemToFormat.DublinCoreExtension, namespaceAliases, out var dublinCoreExtensionElements))
             {
                 itemElement.AddRange(dublinCoreExtensionElements);
+            }
+            
+            if (RssAtom10ElementExtensionFormatter.TryFormatRssAtom10ElementExtension(itemToFormat.RssAtom10Extension, namespaceAliases, out var rssAtom10ExtensionElements))
+            {
+                itemElement.AddRange(rssAtom10ExtensionElements);
             }
 
             return true;

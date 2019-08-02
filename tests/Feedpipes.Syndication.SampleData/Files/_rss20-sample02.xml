@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
 <rss version="2.0"
+     xmlns:atom="http://www.w3.org/2005/Atom"
      xmlns:content="http://purl.org/rss/1.0/modules/content/"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
@@ -54,6 +55,7 @@
         <dc:publisher>The O'Reilly Network</dc:publisher>
         <dc:rights>Copyright © 2000 O'Reilly &amp; Associates, Inc.</dc:rights>
         <dc:date>2000-01-01T12:00:00Z</dc:date>
+        <atom:link href="https://example.org/thisfeed.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title>My awesome article</title>
             <link>https://example.org/article</link>

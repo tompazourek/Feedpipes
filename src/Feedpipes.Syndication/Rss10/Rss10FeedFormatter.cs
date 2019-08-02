@@ -5,6 +5,7 @@ using Feedpipes.Syndication.Extensions.DublinCore;
 using Feedpipes.Syndication.Extensions.Rss10Content;
 using Feedpipes.Syndication.Extensions.Rss10Slash;
 using Feedpipes.Syndication.Extensions.Rss10Syndication;
+using Feedpipes.Syndication.Extensions.RssAtom10;
 using Feedpipes.Syndication.Extensions.WellFormedWeb;
 using Feedpipes.Syndication.Rss10.Entities;
 using Feedpipes.Syndication.Xml;
@@ -78,6 +79,16 @@ namespace Feedpipes.Syndication.Rss10
             channelElement.Add(new XElement(_rss + "link", channelToFormat.Link ?? ""));
             channelElement.Add(new XElement(_rss + "description", channelToFormat.Description ?? ""));
 
+            if (TryFormatRss10Image(channelToFormat.Image, referenceOnly: true, namespaceAliases, out var imageElement))
+            {
+                channelElement.Add(imageElement);
+            }
+
+            if (TryFormatRss10TextInput(channelToFormat.TextInput, referenceOnly: true, namespaceAliases, out var textInputElement))
+            {
+                channelElement.Add(textInputElement);
+            }
+            
             // extensions
             if (Rss10SyndicationChannelExtensionFormatter.TryFormatRss10SyndicationChannelExtension(channelToFormat.SyndicationExtension, namespaceAliases, out var syndicationExtensionElements))
             {
@@ -88,15 +99,10 @@ namespace Feedpipes.Syndication.Rss10
             {
                 channelElement.AddRange(dublinCoreExtensionElements);
             }
-
-            if (TryFormatRss10Image(channelToFormat.Image, referenceOnly: true, namespaceAliases, out var imageElement))
+            
+            if (RssAtom10ElementExtensionFormatter.TryFormatRssAtom10ElementExtension(channelToFormat.RssAtom10Extension, namespaceAliases, out var rssAtom10ExtensionElements))
             {
-                channelElement.Add(imageElement);
-            }
-
-            if (TryFormatRss10TextInput(channelToFormat.TextInput, referenceOnly: true, namespaceAliases, out var textInputElement))
-            {
-                channelElement.Add(textInputElement);
+                channelElement.AddRange(rssAtom10ExtensionElements);
             }
 
             // items
@@ -162,6 +168,11 @@ namespace Feedpipes.Syndication.Rss10
             if (DublinCoreElementExtensionFormatter.TryFormatDublinCoreElementExtension(itemToFormat.DublinCoreExtension, namespaceAliases, out var dublinCoreExtensionElements))
             {
                 itemElement.AddRange(dublinCoreExtensionElements);
+            }
+            
+            if (RssAtom10ElementExtensionFormatter.TryFormatRssAtom10ElementExtension(itemToFormat.RssAtom10Extension, namespaceAliases, out var rssAtom10ExtensionElements))
+            {
+                itemElement.AddRange(rssAtom10ExtensionElements);
             }
 
             return true;
