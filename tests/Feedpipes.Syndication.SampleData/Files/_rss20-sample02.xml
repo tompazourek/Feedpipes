@@ -49,11 +49,11 @@
         </skipDays>
         <sy:updatePeriod>hourly</sy:updatePeriod>
         <sy:updateFrequency>2</sy:updateFrequency>
-        <sy:updateBase>2000-01-01T12:00+00:00</sy:updateBase>
+        <sy:updateBase>2000-01-01T12:00:00Z</sy:updateBase>
         <dc:creator>Rael Dornfest (mailto:rael@oreilly.com)</dc:creator>
         <dc:publisher>The O'Reilly Network</dc:publisher>
         <dc:rights>Copyright © 2000 O'Reilly &amp; Associates, Inc.</dc:rights>
-        <dc:date>2000-01-01T12:00+00:00</dc:date>
+        <dc:date>2000-01-01T12:00:00Z</dc:date>
         <item>
             <title>My awesome article</title>
             <link>https://example.org/article</link>

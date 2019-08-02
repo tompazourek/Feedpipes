@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Xml.Linq;
 using Feedpipes.Syndication.Extensions.Rss10Syndication.Entities;
+using Feedpipes.Syndication.Rfc3339Timestamp;
 
 namespace Feedpipes.Syndication.Extensions.Rss10Syndication
 {
@@ -93,7 +94,9 @@ namespace Feedpipes.Syndication.Extensions.Rss10Syndication
             if (valueToFormat == null)
                 return false;
 
-            var valueString = valueToFormat.Value.ToString("yyyy'-'MM'-'dd'T'HH':'mmzzz", CultureInfo.InvariantCulture);
+            if (!Rfc3339TimestampFormatter.TryFormatTimestampAsString(valueToFormat.Value, out var valueString))
+                return false;
+
             namespaceAliases.EnsureNamespaceAlias(Rss10SyndicationConstants.NamespaceAlias, Rss10SyndicationConstants.Namespace);
             element = new XElement(Rss10SyndicationConstants.Namespace + "updateBase") { Value = valueString };
 

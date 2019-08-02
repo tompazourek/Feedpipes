@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Globalization;
 using System.Xml.Linq;
 using Feedpipes.Syndication.Extensions.Rss10Content.Entities;
 using Feedpipes.Syndication.Extensions.Rss10Slash;
+using Feedpipes.Syndication.Rfc3339Timestamp;
 
 namespace Feedpipes.Syndication.Extensions.DublinCore
 {
@@ -92,7 +92,7 @@ namespace Feedpipes.Syndication.Extensions.DublinCore
             {
                 elements.Add(dateElement);
             }
-            
+
             if (TryFormatDublinCoreTimestamp(extensionToFormat.Modified, namespaceAliases, out var modifiedElement))
             {
                 elements.Add(modifiedElement);
@@ -120,7 +120,9 @@ namespace Feedpipes.Syndication.Extensions.DublinCore
             if (valueToFormat == null)
                 return false;
 
-            var valueString = valueToFormat.Value.ToString("yyyy'-'MM'-'dd'T'HH':'mmzzz", CultureInfo.InvariantCulture);
+            if (!Rfc3339TimestampFormatter.TryFormatTimestampAsString(valueToFormat.Value, out var valueString))
+                return false;
+
             namespaceAliases.EnsureNamespaceAlias(DublinCoreConstants.NamespaceAlias, DublinCoreConstants.Namespace);
             element = new XElement(DublinCoreConstants.Namespace + "date") { Value = valueString };
 

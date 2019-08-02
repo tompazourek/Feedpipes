@@ -3,6 +3,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 using System.Xml.Linq;
 using Feedpipes.Syndication.Extensions.Rss10Syndication.Entities;
+using Feedpipes.Syndication.RelaxedTimestamp;
 
 namespace Feedpipes.Syndication.Extensions.Rss10Syndication
 {
@@ -87,14 +88,10 @@ namespace Feedpipes.Syndication.Extensions.Rss10Syndication
             if (element == null)
                 return false;
 
-            var valueString = element.Value.Trim().ToUpperInvariant();
-            var formatProvider = CultureInfo.InvariantCulture;
-            var dateTimeStyles = DateTimeStyles.None;
+            if (!RelaxedTimestampParser.TryParseTimestampFromString(element.Value, out parsedValue))
+                return false;
 
-            return DateTimeOffset.TryParseExact(valueString, "yyyy'-'MM'-'dd'T'HH':'mmzzz", formatProvider, dateTimeStyles, out parsedValue)
-                   || DateTimeOffset.TryParseExact(valueString, "yyyy'-'MM'-'dd'T'HH':'mm", formatProvider, dateTimeStyles, out parsedValue)
-                   || DateTimeOffset.TryParseExact(valueString, "yyyy'-'MM'-'dd'T'HH':'mm':'sszzz", formatProvider, dateTimeStyles, out parsedValue)
-                   || DateTimeOffset.TryParseExact(valueString, "yyyy'-'MM'-'dd'T'HH':'mm':'ss", formatProvider, dateTimeStyles, out parsedValue);
+            return true;
         }
     }
 }
