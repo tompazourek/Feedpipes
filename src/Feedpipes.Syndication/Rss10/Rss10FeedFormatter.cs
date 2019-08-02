@@ -12,7 +12,7 @@ namespace Feedpipes.Syndication.Rss10
 {
     public static class Rss10FeedFormatter
     {
-        private static readonly XNamespace _rss = Rss10Constants.Rss10Namespace;
+        private static readonly XNamespace _rss = Rss10Constants.Namespace;
         private static readonly XNamespace _rdf = Rss10Constants.RdfNamespace;
 
         public static bool TryFormatRss10Feed(Rss10Feed feed, out XDocument document)

@@ -12,7 +12,6 @@ namespace Feedpipes.Syndication.Rss10
     [SuppressMessage("ReSharper", "UseObjectOrCollectionInitializer")]
     public static class Rss10FeedParser
     {
-        private static readonly XNamespace _rss = Rss10Constants.Rss10Namespace;
         private static readonly XNamespace _rdf = Rss10Constants.RdfNamespace;
 
         public static bool TryParseRss10Feed(XDocument document, out Rss10Feed parsedFeed)
@@ -24,26 +23,34 @@ namespace Feedpipes.Syndication.Rss10
                 return false;
 
             var rssNamespace = rdfElement.Attribute("xmlns")?.Value;
-            if (rssNamespace != _rss.NamespaceName)
+            XNamespace rss = null;
+            foreach (var ns in Rss10Constants.RecognizedNamespaces)
+            {
+                rss = ns;
+                if (rssNamespace == ns.NamespaceName)
+                    break;
+            }
+
+            if (rss == null)
                 return false;
 
-            if (!TryParseRss10Channel(rdfElement.Element(_rss + "channel"), out var parsedChannel))
+            if (!TryParseRss10Channel(rdfElement.Element(rss + "channel"), rss, out var parsedChannel))
                 return false;
 
-            if (TryParseRss10Image(rdfElement.Element(_rss + "image"), out var parsedImage))
+            if (TryParseRss10Image(rdfElement.Element(rss + "image"), rss, out var parsedImage))
             {
                 parsedChannel.Image = parsedImage;
             }
 
-            if (TryParseRss10TextInput(rdfElement.Element(_rss + "textinput"), out var parsedTextInput))
+            if (TryParseRss10TextInput(rdfElement.Element(rss + "textinput"), rss, out var parsedTextInput))
             {
                 parsedChannel.TextInput = parsedTextInput;
             }
 
             // items
-            foreach (var itemElement in rdfElement.Elements(_rss + "item"))
+            foreach (var itemElement in rdfElement.Elements(rss + "item"))
             {
-                if (TryParseRss10Item(itemElement, out var parsedItem))
+                if (TryParseRss10Item(itemElement, rss, out var parsedItem))
                 {
                     parsedChannel.Items.Add(parsedItem);
                 }
@@ -54,7 +61,7 @@ namespace Feedpipes.Syndication.Rss10
             return true;
         }
 
-        private static bool TryParseRss10Channel(XElement channelElement, out Rss10Channel parsedChannel)
+        private static bool TryParseRss10Channel(XElement channelElement, XNamespace rss, out Rss10Channel parsedChannel)
         {
             parsedChannel = default;
 
@@ -63,9 +70,9 @@ namespace Feedpipes.Syndication.Rss10
 
             parsedChannel = new Rss10Channel();
             parsedChannel.About = channelElement.Attribute(_rdf + "about")?.Value;
-            parsedChannel.Title = channelElement.Element(_rss + "title")?.Value.Trim();
-            parsedChannel.Link = channelElement.Element(_rss + "link")?.Value.Trim();
-            parsedChannel.Description = channelElement.Element(_rss + "description")?.Value.Trim();
+            parsedChannel.Title = channelElement.Element(rss + "title")?.Value.Trim();
+            parsedChannel.Link = channelElement.Element(rss + "link")?.Value.Trim();
+            parsedChannel.Description = channelElement.Element(rss + "description")?.Value.Trim();
 
             // extensions
             if (Rss10SyndicationChannelExtensionParser.TryParseRss10SyndicationChannelExtension(channelElement, out var parsedSyndicationExtension))
@@ -81,7 +88,7 @@ namespace Feedpipes.Syndication.Rss10
             return true;
         }
 
-        private static bool TryParseRss10Image(XElement imageElement, out Rss10Image parsedImage)
+        private static bool TryParseRss10Image(XElement imageElement, XNamespace rss, out Rss10Image parsedImage)
         {
             parsedImage = default;
 
@@ -90,9 +97,9 @@ namespace Feedpipes.Syndication.Rss10
 
             parsedImage = new Rss10Image();
             parsedImage.About = imageElement.Attribute(_rdf + "about")?.Value;
-            parsedImage.Title = imageElement.Element(_rss + "title")?.Value.Trim();
-            parsedImage.Url = imageElement.Element(_rss + "url")?.Value.Trim();
-            parsedImage.Link = imageElement.Element(_rss + "link")?.Value.Trim();
+            parsedImage.Title = imageElement.Element(rss + "title")?.Value.Trim();
+            parsedImage.Url = imageElement.Element(rss + "url")?.Value.Trim();
+            parsedImage.Link = imageElement.Element(rss + "link")?.Value.Trim();
 
             // extensions
             if (DublinCoreElementExtensionParser.TryParseDublinCoreElementExtension(imageElement, out var parsedDublinCoreExtension))
@@ -103,7 +110,7 @@ namespace Feedpipes.Syndication.Rss10
             return true;
         }
 
-        private static bool TryParseRss10TextInput(XElement textInputElement, out Rss10TextInput parsedTextInput)
+        private static bool TryParseRss10TextInput(XElement textInputElement, XNamespace rss, out Rss10TextInput parsedTextInput)
         {
             parsedTextInput = default;
 
@@ -112,10 +119,10 @@ namespace Feedpipes.Syndication.Rss10
 
             parsedTextInput = new Rss10TextInput();
             parsedTextInput.About = textInputElement.Attribute(_rdf + "about")?.Value;
-            parsedTextInput.Title = textInputElement.Element(_rss + "title")?.Value.Trim();
-            parsedTextInput.Description = textInputElement.Element(_rss + "description")?.Value.Trim();
-            parsedTextInput.Name = textInputElement.Element(_rss + "name")?.Value.Trim();
-            parsedTextInput.Link = textInputElement.Element(_rss + "link")?.Value.Trim();
+            parsedTextInput.Title = textInputElement.Element(rss + "title")?.Value.Trim();
+            parsedTextInput.Description = textInputElement.Element(rss + "description")?.Value.Trim();
+            parsedTextInput.Name = textInputElement.Element(rss + "name")?.Value.Trim();
+            parsedTextInput.Link = textInputElement.Element(rss + "link")?.Value.Trim();
 
             // extensions
             if (DublinCoreElementExtensionParser.TryParseDublinCoreElementExtension(textInputElement, out var parsedDublinCoreExtension))
@@ -126,7 +133,7 @@ namespace Feedpipes.Syndication.Rss10
             return true;
         }
 
-        private static bool TryParseRss10Item(XElement itemElement, out Rss10Item parsedItem)
+        private static bool TryParseRss10Item(XElement itemElement, XNamespace rss, out Rss10Item parsedItem)
         {
             parsedItem = default;
 
@@ -135,9 +142,9 @@ namespace Feedpipes.Syndication.Rss10
 
             parsedItem = new Rss10Item();
             parsedItem.About = itemElement.Attribute(_rdf + "about")?.Value;
-            parsedItem.Title = itemElement.Element(_rss + "title")?.Value.Trim();
-            parsedItem.Link = itemElement.Element(_rss + "link")?.Value.Trim();
-            parsedItem.Description = itemElement.Element(_rss + "description")?.Value.Trim();
+            parsedItem.Title = itemElement.Element(rss + "title")?.Value.Trim();
+            parsedItem.Link = itemElement.Element(rss + "link")?.Value.Trim();
+            parsedItem.Description = itemElement.Element(rss + "description")?.Value.Trim();
 
             // extensions
             if (Rss10ContentItemExtensionParser.TryParseRss10ContentItemExtension(itemElement, out var parsedContentExtension))

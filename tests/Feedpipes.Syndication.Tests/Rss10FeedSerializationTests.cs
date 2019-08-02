@@ -76,7 +76,7 @@ namespace Feedpipes.Syndication.Tests
                 if (x.Document?.Root?.Name != Rss10Constants.RdfNamespace + "RDF")
                     return false;
 
-                if (x.Document?.Root?.Attribute("xmlns")?.Value != Rss10Constants.Rss10Namespace.NamespaceName)
+                if (x.Document?.Root?.Attribute("xmlns")?.Value != Rss10Constants.Namespace.NamespaceName)
                     return false;
 
                 return true;

@@ -1,4 +1,4 @@
-﻿using Feedpipes.Syndication.Extensions.Rss10Content.Entities;
+﻿using Feedpipes.Syndication.Extensions.DublinCore.Entities;
 
 namespace Feedpipes.Syndication.Rss20.Entities
 {

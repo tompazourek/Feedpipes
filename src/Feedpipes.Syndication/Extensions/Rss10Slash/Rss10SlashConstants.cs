@@ -9,5 +9,11 @@ namespace Feedpipes.Syndication.Extensions.Rss10Slash
     {
         public const string NamespaceAlias = "slash";
         public static readonly XNamespace Namespace = "http://purl.org/rss/1.0/modules/slash/";
+
+        public static readonly XNamespace[] RecognizedNamespaces =
+        {
+            "http://purl.org/rss/1.0/modules/slash/",
+            "https://purl.org/rss/1.0/modules/slash/",
+        };
     }
 }

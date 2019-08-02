@@ -17,28 +17,31 @@ namespace Feedpipes.Syndication.Extensions.Rss10Slash
             if (itemElement == null)
                 return false;
 
-            if (TryParseRss10SlashTextElement(itemElement.Element(Rss10SlashConstants.Namespace + "section"), out var parsedSection))
+            foreach (var ns in Rss10SlashConstants.RecognizedNamespaces)
             {
-                extension = extension ?? new Rss10SlashItemExtension();
-                extension.Section = parsedSection;
-            }
+                if (TryParseRss10SlashTextElement(itemElement.Element(ns + "section"), out var parsedSection))
+                {
+                    extension = extension ?? new Rss10SlashItemExtension();
+                    extension.Section = parsedSection;
+                }
 
-            if (TryParseRss10SlashTextElement(itemElement.Element(Rss10SlashConstants.Namespace + "department"), out var parsedDepartment))
-            {
-                extension = extension ?? new Rss10SlashItemExtension();
-                extension.Department = parsedDepartment;
-            }
+                if (TryParseRss10SlashTextElement(itemElement.Element(ns + "department"), out var parsedDepartment))
+                {
+                    extension = extension ?? new Rss10SlashItemExtension();
+                    extension.Department = parsedDepartment;
+                }
 
-            if (TryParseRss10SlashComments(itemElement.Element(Rss10SlashConstants.Namespace + "comments"), out var parsedComments))
-            {
-                extension = extension ?? new Rss10SlashItemExtension();
-                extension.Comments = parsedComments;
-            }
+                if (TryParseRss10SlashComments(itemElement.Element(ns + "comments"), out var parsedComments))
+                {
+                    extension = extension ?? new Rss10SlashItemExtension();
+                    extension.Comments = parsedComments;
+                }
 
-            if (TryParseRss10SlashHitParade(itemElement.Element(Rss10SlashConstants.Namespace + "hit_parade"), out var parsedHitParade))
-            {
-                extension = extension ?? new Rss10SlashItemExtension();
-                extension.HitParade = parsedHitParade;
+                if (TryParseRss10SlashHitParade(itemElement.Element(ns + "hit_parade"), out var parsedHitParade))
+                {
+                    extension = extension ?? new Rss10SlashItemExtension();
+                    extension.HitParade = parsedHitParade;
+                }
             }
 
             return extension != null;

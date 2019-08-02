@@ -14,10 +14,13 @@ namespace Feedpipes.Syndication.Extensions.Rss10Content
             if (itemElement == null)
                 return false;
 
-            if (TryParseRss10ContentEncoded(itemElement.Element(Rss10ContentConstants.Namespace + "encoded"), out var parsedEncoded))
+            foreach (var ns in Rss10ContentConstants.RecognizedNamespaces)
             {
-                extension = extension ?? new Rss10ContentItemExtension();
-                extension.Encoded = parsedEncoded;
+                if (TryParseRss10ContentEncoded(itemElement.Element(ns + "encoded"), out var parsedEncoded))
+                {
+                    extension = extension ?? new Rss10ContentItemExtension();
+                    extension.Encoded = parsedEncoded;
+                }
             }
 
             return extension != null;

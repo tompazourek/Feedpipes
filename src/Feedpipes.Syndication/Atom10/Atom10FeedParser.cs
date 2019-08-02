@@ -10,14 +10,22 @@ namespace Feedpipes.Syndication.Atom10
     [SuppressMessage("ReSharper", "UseObjectOrCollectionInitializer")]
     public static class Atom10FeedParser
     {
-        private static readonly XNamespace _atom = Atom10Constants.Atom10Namespace;
         private static readonly XNamespace _xml = XNamespace.Xml;
 
         public static bool TryParseAtom10Feed(XDocument document, out Atom10Feed parsedFeed)
         {
             parsedFeed = default;
 
-            var feedElement = document?.Element(_atom + "feed");
+            XElement feedElement = null;
+            XNamespace atom = null;
+            foreach (var ns in Atom10Constants.RecognizedNamespaces)
+            {
+                atom = ns;
+                feedElement = document?.Element(atom + "feed");
+                if (feedElement != null)
+                    break;
+            }
+
             if (feedElement == null)
                 return false;
 
@@ -26,27 +34,27 @@ namespace Feedpipes.Syndication.Atom10
             parsedFeed.Lang = feedElement.Attribute(_xml + "lang")?.Value;
             parsedFeed.Base = feedElement.Attribute(_xml + "base")?.Value;
 
-            parsedFeed.Id = feedElement.Element(_atom + "id")?.Value.Trim();
+            parsedFeed.Id = feedElement.Element(atom + "id")?.Value.Trim();
 
-            if (TryParseAtom10Text(feedElement.Element(_atom + "title"), out var parsedTitle))
+            if (TryParseAtom10Text(feedElement.Element(atom + "title"), out var parsedTitle))
             {
                 parsedFeed.Title = parsedTitle;
             }
 
-            if (TryParseAtom10Timestamp(feedElement.Element(_atom + "updated"), out var parsedUpdated))
+            if (TryParseAtom10Timestamp(feedElement.Element(atom + "updated"), out var parsedUpdated))
             {
                 parsedFeed.Updated = parsedUpdated;
             }
 
-            foreach (var authorElement in feedElement.Elements(_atom + "author"))
+            foreach (var authorElement in feedElement.Elements(atom + "author"))
             {
-                if (TryParseAtom10Person(authorElement, out var parsedPerson))
+                if (TryParseAtom10Person(authorElement, atom, out var parsedPerson))
                 {
                     parsedFeed.Authors.Add(parsedPerson);
                 }
             }
 
-            foreach (var linkElement in feedElement.Elements(_atom + "link"))
+            foreach (var linkElement in feedElement.Elements(atom + "link"))
             {
                 if (TryParseAtom10Link(linkElement, out var parsedLink))
                 {
@@ -54,7 +62,7 @@ namespace Feedpipes.Syndication.Atom10
                 }
             }
 
-            foreach (var categoryElement in feedElement.Elements(_atom + "category"))
+            foreach (var categoryElement in feedElement.Elements(atom + "category"))
             {
                 if (TryParseAtom10Category(categoryElement, out var parsedCategory))
                 {
@@ -62,36 +70,36 @@ namespace Feedpipes.Syndication.Atom10
                 }
             }
 
-            foreach (var contributorElement in feedElement.Elements(_atom + "contributor"))
+            foreach (var contributorElement in feedElement.Elements(atom + "contributor"))
             {
-                if (TryParseAtom10Person(contributorElement, out var parsedPerson))
+                if (TryParseAtom10Person(contributorElement, atom, out var parsedPerson))
                 {
                     parsedFeed.Contributors.Add(parsedPerson);
                 }
             }
 
-            if (TryParseAtom10Generator(feedElement.Element(_atom + "generator"), out var parsedGenerator))
+            if (TryParseAtom10Generator(feedElement.Element(atom + "generator"), out var parsedGenerator))
             {
                 parsedFeed.Generator = parsedGenerator;
             }
 
-            parsedFeed.Icon = feedElement.Element(_atom + "icon")?.Value.Trim();
-            parsedFeed.Logo = feedElement.Element(_atom + "logo")?.Value.Trim();
+            parsedFeed.Icon = feedElement.Element(atom + "icon")?.Value.Trim();
+            parsedFeed.Logo = feedElement.Element(atom + "logo")?.Value.Trim();
 
-            if (TryParseAtom10Text(feedElement.Element(_atom + "rights"), out var parsedRights))
+            if (TryParseAtom10Text(feedElement.Element(atom + "rights"), out var parsedRights))
             {
                 parsedFeed.Rights = parsedRights;
             }
 
-            if (TryParseAtom10Text(feedElement.Element(_atom + "subtitle"), out var parsedSubtitle))
+            if (TryParseAtom10Text(feedElement.Element(atom + "subtitle"), out var parsedSubtitle))
             {
                 parsedFeed.Subtitle = parsedSubtitle;
             }
 
             // entries
-            foreach (var entryElement in feedElement.Elements(_atom + "entry"))
+            foreach (var entryElement in feedElement.Elements(atom + "entry"))
             {
-                if (TryParseAtom10Entry(entryElement, out var parsedEntry))
+                if (TryParseAtom10Entry(entryElement, atom, out var parsedEntry))
                 {
                     parsedFeed.Entries.Add(parsedEntry);
                 }
@@ -100,7 +108,7 @@ namespace Feedpipes.Syndication.Atom10
             return true;
         }
 
-        private static bool TryParseAtom10Entry(XElement entryElement, out Atom10Entry parsedEntry)
+        private static bool TryParseAtom10Entry(XElement entryElement, XNamespace atom, out Atom10Entry parsedEntry)
         {
             parsedEntry = default;
 
@@ -109,32 +117,32 @@ namespace Feedpipes.Syndication.Atom10
 
             parsedEntry = new Atom10Entry();
 
-            parsedEntry.Id = entryElement.Element(_atom + "id")?.Value.Trim();
+            parsedEntry.Id = entryElement.Element(atom + "id")?.Value.Trim();
 
-            if (TryParseAtom10Text(entryElement.Element(_atom + "title"), out var parsedTitle))
+            if (TryParseAtom10Text(entryElement.Element(atom + "title"), out var parsedTitle))
             {
                 parsedEntry.Title = parsedTitle;
             }
 
-            if (TryParseAtom10Timestamp(entryElement.Element(_atom + "updated"), out var parsedUpdated))
+            if (TryParseAtom10Timestamp(entryElement.Element(atom + "updated"), out var parsedUpdated))
             {
                 parsedEntry.Updated = parsedUpdated;
             }
 
-            foreach (var authorElement in entryElement.Elements(_atom + "author"))
+            foreach (var authorElement in entryElement.Elements(atom + "author"))
             {
-                if (TryParseAtom10Person(authorElement, out var parsedPerson))
+                if (TryParseAtom10Person(authorElement, atom, out var parsedPerson))
                 {
                     parsedEntry.Authors.Add(parsedPerson);
                 }
             }
 
-            if (TryParseAtom10Content(entryElement.Element(_atom + "content"), out var parsedContent))
+            if (TryParseAtom10Content(entryElement.Element(atom + "content"), out var parsedContent))
             {
                 parsedEntry.Content = parsedContent;
             }
 
-            foreach (var linkElement in entryElement.Elements(_atom + "link"))
+            foreach (var linkElement in entryElement.Elements(atom + "link"))
             {
                 if (TryParseAtom10Link(linkElement, out var parsedLink))
                 {
@@ -142,12 +150,12 @@ namespace Feedpipes.Syndication.Atom10
                 }
             }
 
-            if (TryParseAtom10Text(entryElement.Element(_atom + "summary"), out var parsedSummary))
+            if (TryParseAtom10Text(entryElement.Element(atom + "summary"), out var parsedSummary))
             {
                 parsedEntry.Summary = parsedSummary;
             }
 
-            foreach (var categoryElement in entryElement.Elements(_atom + "category"))
+            foreach (var categoryElement in entryElement.Elements(atom + "category"))
             {
                 if (TryParseAtom10Category(categoryElement, out var parsedCategory))
                 {
@@ -155,25 +163,25 @@ namespace Feedpipes.Syndication.Atom10
                 }
             }
 
-            foreach (var contributorElement in entryElement.Elements(_atom + "contributor"))
+            foreach (var contributorElement in entryElement.Elements(atom + "contributor"))
             {
-                if (TryParseAtom10Person(contributorElement, out var parsedPerson))
+                if (TryParseAtom10Person(contributorElement, atom, out var parsedPerson))
                 {
                     parsedEntry.Contributors.Add(parsedPerson);
                 }
             }
 
-            if (TryParseAtom10Timestamp(entryElement.Element(_atom + "published"), out var parsedPublished))
+            if (TryParseAtom10Timestamp(entryElement.Element(atom + "published"), out var parsedPublished))
             {
                 parsedEntry.Published = parsedPublished;
             }
 
-            if (TryParseAtom10Text(entryElement.Element(_atom + "rights"), out var parsedRights))
+            if (TryParseAtom10Text(entryElement.Element(atom + "rights"), out var parsedRights))
             {
                 parsedEntry.Rights = parsedRights;
             }
 
-            if (TryParseAtom10Source(entryElement.Element(_atom + "source"), out var parsedSource))
+            if (TryParseAtom10Source(entryElement.Element(atom + "source"), atom, out var parsedSource))
             {
                 parsedEntry.Source = parsedSource;
             }
@@ -181,7 +189,7 @@ namespace Feedpipes.Syndication.Atom10
             return true;
         }
 
-        private static bool TryParseAtom10Source(XElement sourceElement, out Atom10Source parsedSource)
+        private static bool TryParseAtom10Source(XElement sourceElement, XNamespace atom, out Atom10Source parsedSource)
         {
             parsedSource = default;
 
@@ -190,14 +198,14 @@ namespace Feedpipes.Syndication.Atom10
 
             parsedSource = new Atom10Source();
 
-            parsedSource.Id = sourceElement.Element(_atom + "id")?.Value.Trim();
+            parsedSource.Id = sourceElement.Element(atom + "id")?.Value.Trim();
 
-            if (TryParseAtom10Text(sourceElement.Element(_atom + "title"), out var parsedTitle))
+            if (TryParseAtom10Text(sourceElement.Element(atom + "title"), out var parsedTitle))
             {
                 parsedSource.Title = parsedTitle;
             }
 
-            if (TryParseAtom10Timestamp(sourceElement.Element(_atom + "updated"), out var parsedUpdated))
+            if (TryParseAtom10Timestamp(sourceElement.Element(atom + "updated"), out var parsedUpdated))
             {
                 parsedSource.Updated = parsedUpdated;
             }
@@ -277,7 +285,7 @@ namespace Feedpipes.Syndication.Atom10
             return true;
         }
 
-        private static bool TryParseAtom10Person(XElement personElement, out Atom10Person parsedPerson)
+        private static bool TryParseAtom10Person(XElement personElement, XNamespace atom, out Atom10Person parsedPerson)
         {
             parsedPerson = default;
 
@@ -286,9 +294,9 @@ namespace Feedpipes.Syndication.Atom10
 
             parsedPerson = new Atom10Person();
 
-            parsedPerson.Name = personElement.Element(_atom + "name")?.Value.Trim();
-            parsedPerson.Email = personElement.Element(_atom + "email")?.Value.Trim();
-            parsedPerson.Uri = personElement.Element(_atom + "uri")?.Value.Trim();
+            parsedPerson.Name = personElement.Element(atom + "name")?.Value.Trim();
+            parsedPerson.Email = personElement.Element(atom + "email")?.Value.Trim();
+            parsedPerson.Uri = personElement.Element(atom + "uri")?.Value.Trim();
 
             return true;
         }

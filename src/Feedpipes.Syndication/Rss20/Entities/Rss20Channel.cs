@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using Feedpipes.Syndication.Extensions.Rss10Content.Entities;
+using Feedpipes.Syndication.Extensions.DublinCore.Entities;
 using Feedpipes.Syndication.Extensions.Rss10Syndication.Entities;
 
 namespace Feedpipes.Syndication.Rss20.Entities

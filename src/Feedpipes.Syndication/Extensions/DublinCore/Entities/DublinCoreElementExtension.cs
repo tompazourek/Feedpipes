@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Feedpipes.Syndication.Extensions.Rss10Content.Entities
+namespace Feedpipes.Syndication.Extensions.DublinCore.Entities
 {
     /// <summary>
     /// Applies to multiple elements (channel, item, image, textinput)
@@ -41,7 +41,7 @@ namespace Feedpipes.Syndication.Extensions.Rss10Content.Entities
         /// Corresponds to "dc:date" element.
         /// </summary>
         public DateTimeOffset? Date { get; set; }
-        
+
         /// <summary>
         /// Corresponds to "dc:modified" element.
         /// </summary>

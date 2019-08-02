@@ -17,22 +17,25 @@ namespace Feedpipes.Syndication.Extensions.Rss10Syndication
             if (channelElement == null)
                 return false;
 
-            if (TryParseRss10SyndicationUpdatePeriod(channelElement.Element(Rss10SyndicationConstants.Namespace + "updatePeriod"), out var parsedUpdatePeriod))
+            foreach (var ns in Rss10SyndicationConstants.RecognizedNamespaces)
             {
-                extension = extension ?? new Rss10SyndicationChannelExtension();
-                extension.UpdatePeriod = parsedUpdatePeriod;
-            }
+                if (TryParseRss10SyndicationUpdatePeriod(channelElement.Element(ns + "updatePeriod"), out var parsedUpdatePeriod))
+                {
+                    extension = extension ?? new Rss10SyndicationChannelExtension();
+                    extension.UpdatePeriod = parsedUpdatePeriod;
+                }
 
-            if (TryParseRss10SyndicationUpdateFrequency(channelElement.Element(Rss10SyndicationConstants.Namespace + "updateFrequency"), out var parsedUpdateFrequency))
-            {
-                extension = extension ?? new Rss10SyndicationChannelExtension();
-                extension.UpdateFrequency = parsedUpdateFrequency;
-            }
+                if (TryParseRss10SyndicationUpdateFrequency(channelElement.Element(ns + "updateFrequency"), out var parsedUpdateFrequency))
+                {
+                    extension = extension ?? new Rss10SyndicationChannelExtension();
+                    extension.UpdateFrequency = parsedUpdateFrequency;
+                }
 
-            if (TryParseRss10SyndicationUpdateBase(channelElement.Element(Rss10SyndicationConstants.Namespace + "updateBase"), out var parsedUpdateBase))
-            {
-                extension = extension ?? new Rss10SyndicationChannelExtension();
-                extension.UpdateBase = parsedUpdateBase;
+                if (TryParseRss10SyndicationUpdateBase(channelElement.Element(ns + "updateBase"), out var parsedUpdateBase))
+                {
+                    extension = extension ?? new Rss10SyndicationChannelExtension();
+                    extension.UpdateBase = parsedUpdateBase;
+                }
             }
 
             return extension != null;

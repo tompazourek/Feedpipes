@@ -1,4 +1,5 @@
-﻿using Feedpipes.Syndication.Extensions.Rss10Content.Entities;
+﻿using Feedpipes.Syndication.Extensions.DublinCore.Entities;
+using Feedpipes.Syndication.Extensions.Rss10Content.Entities;
 using Feedpipes.Syndication.Extensions.Rss10Slash.Entities;
 using Feedpipes.Syndication.Extensions.WellFormedWeb.Entities;
 

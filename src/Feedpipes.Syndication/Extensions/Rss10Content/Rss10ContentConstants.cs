@@ -9,5 +9,11 @@ namespace Feedpipes.Syndication.Extensions.Rss10Content
     {
         public const string NamespaceAlias = "content";
         public static readonly XNamespace Namespace = "http://purl.org/rss/1.0/modules/content/";
+        
+        public static readonly XNamespace[] RecognizedNamespaces =
+        {
+            "http://purl.org/rss/1.0/modules/content/",
+            "https://purl.org/rss/1.0/modules/content/",
+        };
     }
 }

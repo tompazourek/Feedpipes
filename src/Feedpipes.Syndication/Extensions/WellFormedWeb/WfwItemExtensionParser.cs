@@ -14,22 +14,24 @@ namespace Feedpipes.Syndication.Extensions.WellFormedWeb
             if (itemElement == null)
                 return false;
 
-            if (TryParseWfwTextElement(itemElement.Element(WfwConstants.Namespace + "comment"), out var parsedComment))
+            foreach (var ns in WfwConstants.RecognizedNamespaces)
             {
-                extension = extension ?? new WfwItemExtension();
-                extension.Comment = parsedComment;
-            }
+                if (TryParseWfwTextElement(itemElement.Element(ns + "comment"), out var parsedComment))
+                {
+                    extension = extension ?? new WfwItemExtension();
+                    extension.Comment = parsedComment;
+                }
 
-
-            if (TryParseWfwTextElement(itemElement.Element(WfwConstants.Namespace + "commentRss"), out var parsedCommentRss))
-            {
-                extension = extension ?? new WfwItemExtension();
-                extension.CommentRss = parsedCommentRss;
-            }
-            else if (TryParseWfwTextElement(itemElement.Element(WfwConstants.Namespace + "commentRSS"), out var parsedCommentRSS))
-            {
-                extension = extension ?? new WfwItemExtension();
-                extension.CommentRss = parsedCommentRSS;
+                if (TryParseWfwTextElement(itemElement.Element(ns + "commentRss"), out var parsedCommentRss))
+                {
+                    extension = extension ?? new WfwItemExtension();
+                    extension.CommentRss = parsedCommentRss;
+                }
+                else if (TryParseWfwTextElement(itemElement.Element(ns + "commentRSS"), out var parsedCommentRSS))
+                {
+                    extension = extension ?? new WfwItemExtension();
+                    extension.CommentRss = parsedCommentRSS;
+                }
             }
 
             return extension != null;
