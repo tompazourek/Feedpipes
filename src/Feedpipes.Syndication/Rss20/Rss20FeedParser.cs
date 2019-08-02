@@ -9,7 +9,7 @@ using Feedpipes.Syndication.Extensions.Rss10Content;
 using Feedpipes.Syndication.Extensions.Rss10Slash;
 using Feedpipes.Syndication.Extensions.Rss10Syndication;
 using Feedpipes.Syndication.Extensions.WellFormedWeb;
-using Feedpipes.Syndication.Rfc822Timestamp;
+using Feedpipes.Syndication.RelaxedTimestamp;
 using Feedpipes.Syndication.Rss20.Entities;
 
 namespace Feedpipes.Syndication.Rss20
@@ -147,7 +147,7 @@ namespace Feedpipes.Syndication.Rss20
             if (timestampElement == null)
                 return false;
 
-            if (!Rfc822TimestampParser.TryParseTimestampFromString(timestampElement.Value, out parsedTimestamp))
+            if (!RelaxedTimestampParser.TryParseTimestampFromString(timestampElement.Value, out parsedTimestamp))
                 return false;
 
             return true;

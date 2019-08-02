@@ -49,7 +49,7 @@ namespace Feedpipes.Syndication.Rfc822Timestamp
 
             var parseFormat = thereAreSeconds ? "dd MMM yyyy HH:mm:ss zzz" : "dd MMM yyyy HH:mm zzz";
 
-            var dateTimeStyles = isUtc ? DateTimeStyles.AdjustToUniversal : DateTimeStyles.None;
+            var dateTimeStyles = isUtc ? DateTimeStyles.AssumeUniversal : DateTimeStyles.None;
             var dateTimeFormat = CultureInfo.InvariantCulture.DateTimeFormat;
             if (!DateTimeOffset.TryParseExact(wellFormattedString, parseFormat, dateTimeFormat, dateTimeStyles, out parsedTimestamp))
                 return false;

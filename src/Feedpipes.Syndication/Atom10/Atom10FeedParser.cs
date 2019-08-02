@@ -3,7 +3,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 using System.Xml.Linq;
 using Feedpipes.Syndication.Atom10.Entities;
-using Feedpipes.Syndication.Rfc3339Timestamp;
+using Feedpipes.Syndication.RelaxedTimestamp;
 
 namespace Feedpipes.Syndication.Atom10
 {
@@ -300,7 +300,7 @@ namespace Feedpipes.Syndication.Atom10
             if (timestampElement == null)
                 return false;
 
-            if (!Rfc3339TimestampParser.TryParseTimestampFromString(timestampElement.Value, out parsedTimestamp))
+            if (!RelaxedTimestampParser.TryParseTimestampFromString(timestampElement.Value, out parsedTimestamp))
                 return false;
 
             return true;

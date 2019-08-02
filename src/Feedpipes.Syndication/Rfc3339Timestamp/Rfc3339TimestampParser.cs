@@ -40,7 +40,7 @@ namespace Feedpipes.Syndication.Rfc3339Timestamp
 
             timestampString = timestampString.Trim().ToUpperInvariant();
 
-            if (DateTimeOffset.TryParseExact(timestampString, SupportedFormatsWithoutOffset, CultureInfo.InvariantCulture, DateTimeStyles.AdjustToUniversal, out parsedTimestamp))
+            if (DateTimeOffset.TryParseExact(timestampString, SupportedFormatsWithoutOffset, CultureInfo.InvariantCulture, DateTimeStyles.AssumeUniversal, out parsedTimestamp))
                 return true;
 
             if (DateTimeOffset.TryParseExact(timestampString, SupportedFormatsWithOffset, CultureInfo.InvariantCulture, DateTimeStyles.None, out parsedTimestamp))

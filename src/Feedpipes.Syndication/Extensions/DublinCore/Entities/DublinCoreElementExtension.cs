@@ -41,6 +41,11 @@ namespace Feedpipes.Syndication.Extensions.Rss10Content.Entities
         /// Corresponds to "dc:date" element.
         /// </summary>
         public DateTimeOffset? Date { get; set; }
+        
+        /// <summary>
+        /// Corresponds to "dc:modified" element.
+        /// </summary>
+        public DateTimeOffset? Modified { get; set; }
 
         /// <summary>
         /// Corresponds to "dc:type" element.

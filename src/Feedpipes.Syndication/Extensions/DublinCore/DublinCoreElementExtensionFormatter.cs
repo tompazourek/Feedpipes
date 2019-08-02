@@ -88,10 +88,14 @@ namespace Feedpipes.Syndication.Extensions.DublinCore
                 elements.Add(rightsElement);
             }
 
-
-            if (TryFormatDublinCoreDate(extensionToFormat.Date, namespaceAliases, out var dateElement))
+            if (TryFormatDublinCoreTimestamp(extensionToFormat.Date, namespaceAliases, out var dateElement))
             {
                 elements.Add(dateElement);
+            }
+            
+            if (TryFormatDublinCoreTimestamp(extensionToFormat.Modified, namespaceAliases, out var modifiedElement))
+            {
+                elements.Add(modifiedElement);
             }
 
             return true;
@@ -109,7 +113,7 @@ namespace Feedpipes.Syndication.Extensions.DublinCore
             return true;
         }
 
-        private static bool TryFormatDublinCoreDate(DateTimeOffset? valueToFormat, XNamespaceAliasSet namespaceAliases, out XElement element)
+        private static bool TryFormatDublinCoreTimestamp(DateTimeOffset? valueToFormat, XNamespaceAliasSet namespaceAliases, out XElement element)
         {
             element = default;
 

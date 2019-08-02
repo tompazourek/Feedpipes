@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
 using System.Xml.Linq;
 using Feedpipes.Syndication.Extensions.Rss10Content.Entities;
 using Feedpipes.Syndication.Extensions.Rss10Slash;
+using Feedpipes.Syndication.RelaxedTimestamp;
 
 namespace Feedpipes.Syndication.Extensions.DublinCore
 {
@@ -101,11 +101,16 @@ namespace Feedpipes.Syndication.Extensions.DublinCore
                 extension.Rights = parsedRights;
             }
 
-
-            if (TryParseDublinCoreDate(parentElement.Element(DublinCoreConstants.Namespace + "date"), out var parsedDate))
+            if (TryParseDublinCoreTimestamp(parentElement.Element(DublinCoreConstants.Namespace + "date"), out var parsedDate))
             {
                 extension = extension ?? new DublinCoreElementExtension();
                 extension.Date = parsedDate;
+            }
+
+            if (TryParseDublinCoreTimestamp(parentElement.Element(DublinCoreConstants.Namespace + "modified"), out var parsedModified))
+            {
+                extension = extension ?? new DublinCoreElementExtension();
+                extension.Modified = parsedModified;
             }
 
             return extension != null;
@@ -122,22 +127,17 @@ namespace Feedpipes.Syndication.Extensions.DublinCore
             return true;
         }
 
-        private static bool TryParseDublinCoreDate(XElement element, out DateTimeOffset parsedValue)
+        private static bool TryParseDublinCoreTimestamp(XElement element, out DateTimeOffset parsedValue)
         {
             parsedValue = default;
 
             if (element == null)
                 return false;
 
-            var valueString = element.Value.Trim().ToUpperInvariant();
-            var formatProvider = CultureInfo.InvariantCulture;
+            if (!RelaxedTimestampParser.TryParseTimestampFromString(element.Value, out parsedValue))
+                return false;
 
-            return DateTimeOffset.TryParseExact(valueString, "yyyy'-'MM'-'dd'T'HH':'mmzzz", formatProvider, DateTimeStyles.None, out parsedValue)
-                   || DateTimeOffset.TryParseExact(valueString, "yyyy'-'MM'-'dd'T'HH':'mm", formatProvider, DateTimeStyles.AdjustToUniversal, out parsedValue)
-                   || DateTimeOffset.TryParseExact(valueString, "yyyy'-'MM'-'dd'T'HH':'mm'Z'", formatProvider, DateTimeStyles.AdjustToUniversal, out parsedValue)
-                   || DateTimeOffset.TryParseExact(valueString, "yyyy'-'MM'-'dd'T'HH':'mm':'sszzz", formatProvider, DateTimeStyles.None, out parsedValue)
-                   || DateTimeOffset.TryParseExact(valueString, "yyyy'-'MM'-'dd'T'HH':'mm':'ss", formatProvider, DateTimeStyles.AdjustToUniversal, out parsedValue)
-                   || DateTimeOffset.TryParseExact(valueString, "yyyy'-'MM'-'dd'T'HH':'mm':'ss'Z'", formatProvider, DateTimeStyles.AdjustToUniversal, out parsedValue);
+            return true;
         }
     }
 }
