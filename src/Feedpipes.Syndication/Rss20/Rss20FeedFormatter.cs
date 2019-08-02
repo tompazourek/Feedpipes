@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Xml.Linq;
+using Feedpipes.Syndication.Extensions.CreativeCommons;
 using Feedpipes.Syndication.Extensions.DublinCore;
 using Feedpipes.Syndication.Extensions.Rss10Content;
 using Feedpipes.Syndication.Extensions.Rss10Slash;
@@ -150,6 +151,11 @@ namespace Feedpipes.Syndication.Rss20
                 channelElement.AddRange(rssAtom10ExtensionElements);
             }
 
+            if (CreativeCommonsElementExtensionFormatter.TryFormatCreativeCommonsElementExtension(channelToFormat.CreativeCommonsExtension, namespaceAliases, out var creativeCommonsExtensionElements))
+            {
+                channelElement.AddRange(creativeCommonsExtensionElements);
+            }
+
             // items
             foreach (var itemToFormat in channelToFormat.Items)
             {
@@ -251,6 +257,11 @@ namespace Feedpipes.Syndication.Rss20
             if (RssAtom10ElementExtensionFormatter.TryFormatRssAtom10ElementExtension(itemToFormat.RssAtom10Extension, namespaceAliases, out var rssAtom10ExtensionElements))
             {
                 itemElement.AddRange(rssAtom10ExtensionElements);
+            }
+
+            if (CreativeCommonsElementExtensionFormatter.TryFormatCreativeCommonsElementExtension(itemToFormat.CreativeCommonsExtension, namespaceAliases, out var creativeCommonsExtensionElements))
+            {
+                itemElement.AddRange(creativeCommonsExtensionElements);
             }
 
             return true;
@@ -431,6 +442,7 @@ namespace Feedpipes.Syndication.Rss20
                 imageElement.Add(descriptionElement);
             }
 
+            // extensions
             if (DublinCoreElementExtensionFormatter.TryFormatDublinCoreElementExtension(imageToFormat.DublinCoreExtension, namespaceAliases, out var dublinCoreExtensionElements))
             {
                 imageElement.AddRange(dublinCoreExtensionElements);

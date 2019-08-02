@@ -3,6 +3,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 using System.Xml.Linq;
 using Feedpipes.Syndication.Atom10.Entities;
+using Feedpipes.Syndication.Extensions.CreativeCommons;
 using Feedpipes.Syndication.Extensions.DublinCore;
 using Feedpipes.Syndication.Extensions.Rss10Content;
 using Feedpipes.Syndication.Extensions.Rss10Slash;
@@ -120,6 +121,11 @@ namespace Feedpipes.Syndication.Atom10
             {
                 parsedFeed.DublinCoreExtension = parsedDublinCoreExtension;
             }
+            
+            if (CreativeCommonsElementExtensionParser.TryParseCreativeCommonsElementExtension(feedElement, out var parsedCreativeCommonsExtension))
+            {
+                parsedFeed.CreativeCommonsExtension = parsedCreativeCommonsExtension;
+            }
 
             return true;
         }
@@ -221,6 +227,11 @@ namespace Feedpipes.Syndication.Atom10
             if (DublinCoreElementExtensionParser.TryParseDublinCoreElementExtension(entryElement, out var parsedDublinCoreExtension))
             {
                 parsedEntry.DublinCoreExtension = parsedDublinCoreExtension;
+            }
+
+            if (CreativeCommonsElementExtensionParser.TryParseCreativeCommonsElementExtension(entryElement, out var parsedCreativeCommonsExtension))
+            {
+                parsedEntry.CreativeCommonsExtension = parsedCreativeCommonsExtension;
             }
 
             return true;

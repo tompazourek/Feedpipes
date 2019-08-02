@@ -3,6 +3,7 @@ using System.Globalization;
 using System.Linq;
 using System.Xml.Linq;
 using Feedpipes.Syndication.Atom10.Entities;
+using Feedpipes.Syndication.Extensions.CreativeCommons;
 using Feedpipes.Syndication.Extensions.DublinCore;
 using Feedpipes.Syndication.Extensions.Rss10Content;
 using Feedpipes.Syndication.Extensions.Rss10Slash;
@@ -125,6 +126,11 @@ namespace Feedpipes.Syndication.Atom10
             {
                 feedElement.AddRange(dublinCoreExtensionElements);
             }
+            
+            if (CreativeCommonsElementExtensionFormatter.TryFormatCreativeCommonsElementExtension(feed.CreativeCommonsExtension, namespaceAliases, out var creativeCommonsExtensionElements))
+            {
+                feedElement.AddRange(creativeCommonsExtensionElements);
+            }
 
             // entries
             foreach (var entryToFormat in feed.Entries)
@@ -243,6 +249,11 @@ namespace Feedpipes.Syndication.Atom10
             if (DublinCoreElementExtensionFormatter.TryFormatDublinCoreElementExtension(entryToFormat.DublinCoreExtension, namespaceAliases, out var dublinCoreExtensionElements))
             {
                 entryElement.AddRange(dublinCoreExtensionElements);
+            }
+
+            if (CreativeCommonsElementExtensionFormatter.TryFormatCreativeCommonsElementExtension(entryToFormat.CreativeCommonsExtension, namespaceAliases, out var creativeCommonsExtensionElements))
+            {
+                entryElement.AddRange(creativeCommonsExtensionElements);
             }
 
             return true;

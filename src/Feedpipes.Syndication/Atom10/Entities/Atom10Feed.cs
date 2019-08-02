@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Feedpipes.Syndication.Extensions.CreativeCommons.Entities;
 using Feedpipes.Syndication.Extensions.DublinCore.Entities;
 using Feedpipes.Syndication.Extensions.Rss10Syndication.Entities;
 
@@ -128,5 +129,10 @@ namespace Feedpipes.Syndication.Atom10.Entities
         /// Optional "dc:*" extended information.
         /// </summary>
         public DublinCoreElementExtension DublinCoreExtension { get; set; }
+        
+        /// <summary>
+        /// Optional "cc:*" extended information.
+        /// </summary>
+        public CreativeCommonsElementExtension CreativeCommonsExtension { get; set; }
     }
 }

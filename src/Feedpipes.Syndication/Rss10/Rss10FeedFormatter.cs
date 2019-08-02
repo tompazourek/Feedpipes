@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Xml.Linq;
+using Feedpipes.Syndication.Extensions.CreativeCommons;
 using Feedpipes.Syndication.Extensions.DublinCore;
 using Feedpipes.Syndication.Extensions.Rss10Content;
 using Feedpipes.Syndication.Extensions.Rss10Slash;
@@ -105,6 +106,11 @@ namespace Feedpipes.Syndication.Rss10
                 channelElement.AddRange(rssAtom10ExtensionElements);
             }
 
+            if (CreativeCommonsElementExtensionFormatter.TryFormatCreativeCommonsElementExtension(channelToFormat.CreativeCommonsExtension, namespaceAliases, out var creativeCommonsExtensionElements))
+            {
+                channelElement.AddRange(creativeCommonsExtensionElements);
+            }
+
             // items
             var liElements = new List<XElement>();
             foreach (var itemToFormat in channelToFormat.Items)
@@ -175,6 +181,11 @@ namespace Feedpipes.Syndication.Rss10
                 itemElement.AddRange(rssAtom10ExtensionElements);
             }
 
+            if (CreativeCommonsElementExtensionFormatter.TryFormatCreativeCommonsElementExtension(itemToFormat.CreativeCommonsExtension, namespaceAliases, out var creativeCommonsExtensionElements))
+            {
+                itemElement.AddRange(creativeCommonsExtensionElements);
+            }
+
             return true;
         }
 
@@ -224,6 +235,7 @@ namespace Feedpipes.Syndication.Rss10
             imageElement.Add(new XElement(_rss + "url") { Value = imageToFormat.Url ?? "" });
             imageElement.Add(new XElement(_rss + "link") { Value = imageToFormat.Link ?? "" });
 
+            // extensions
             if (DublinCoreElementExtensionFormatter.TryFormatDublinCoreElementExtension(imageToFormat.DublinCoreExtension, namespaceAliases, out var dublinCoreExtensionElements))
             {
                 imageElement.AddRange(dublinCoreExtensionElements);
