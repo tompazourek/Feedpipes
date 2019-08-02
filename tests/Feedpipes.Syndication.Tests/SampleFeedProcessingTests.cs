@@ -57,7 +57,7 @@ namespace Feedpipes.Syndication.Tests
         }
 
         [Fact]
-        public void DebugRssPossibleNamespaceDeclarations()
+        public void DebugPossibleNamespaceDeclarations()
         {
             var sampleFeeds = SampleFeedDirectory.GetSampleFeeds();
             var namespaceSet = new XNamespaceAliasSet();
@@ -66,7 +66,7 @@ namespace Feedpipes.Syndication.Tests
             {
                 var documentRoot = feed.Document.Root;
 
-                if (documentRoot?.Name != "rss")
+                if (documentRoot == null) 
                     continue;
 
                 var namespaceDeclarations = documentRoot
@@ -76,7 +76,13 @@ namespace Feedpipes.Syndication.Tests
 
                 foreach (var namespaceDeclaration in namespaceDeclarations)
                 {
-                    namespaceSet.EnsureNamespaceAlias(namespaceDeclaration.Name.LocalName, namespaceDeclaration.Value);
+                    var alias = namespaceDeclaration.Name.LocalName;
+                    if (alias == "xmlns")
+                    {
+                        alias = null;
+                    }
+
+                    namespaceSet.EnsureNamespaceAlias(alias, namespaceDeclaration.Value);
                 }
             }
 
