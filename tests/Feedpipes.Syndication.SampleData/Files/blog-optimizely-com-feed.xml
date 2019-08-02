@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+>
+
+<channel>
+	<title>Optimizely Blog</title>
+	<atom:link href="https://blog.optimizely.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://blog.optimizely.com</link>
+	<description>Stories, tips, and expert advice to help you turn data into action</description>
+	<lastBuildDate>Wed, 31 Jul 2019 18:30:48 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">96781880</site>	<item>
+		<title>Talking Shop with Investor Howard Lindzon about DTC</title>
+		<link>https://blog.optimizely.com/2019/07/31/talking-shop-with-investor-howard-lindzon-about-dtc/</link>
+				<comments>https://blog.optimizely.com/2019/07/31/talking-shop-with-investor-howard-lindzon-about-dtc/#respond</comments>
+				<pubDate>Wed, 31 Jul 2019 18:30:48 +0000</pubDate>
+		<dc:creator><![CDATA[Todd Krieger]]></dc:creator>
+				<category><![CDATA[Show Marketing Popup (Big Book)]]></category>
+
+		<guid isPermaLink="false">http://blog.optimizely.com/?p=9496</guid>
+				<description><![CDATA[Howard Lindzon is an investor, social media maven and impossibly funny human being. I first got to know Howard around the time that Twitter was taking off and the only thing that surpasses his wisdom and insight with respect to the markets is his generosity in sharing exactly what he’s thinking, and perhaps equally importantly, [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><span style="font-weight: 400">Howard Lindzon is an investor, social media maven and impossibly funny human being. I first got to know Howard around the time that Twitter was taking off and the only thing that surpasses his wisdom and insight with respect to the markets is his generosity in sharing exactly what he’s thinking, and perhaps equally importantly, investing in. </span></p>
+<p><span style="font-weight: 400">Either individually or through his fund, </span><a href="https://www.socialleverage.com/" target="_blank" rel="noopener noreferrer"><span style="font-weight: 400">Social Leverage</span></a><span style="font-weight: 400">, he has had successful exits with companies such as TweetDeck (sold to Twitter), Ticketfly (sold to Pandora) and Buddy Media (Salesforce). Additional portfolio companies include the investment app Robinhood and dog care service Wag. He has written about The Death of Retail, the Birth of Retail and every permutation therein. </span></p>
+<p><span style="font-weight: 400">This is the first of an ongoing series of interviews with leaders in the Direct to Consumer space. While Howard doesn’t necessarily see around corners, his views and perspective are invaluable for anyone interested in the future of eCommerce, DTC software, and the future consumer. </span></p>
+<div id="attachment_9497" style="width: 778px" class="wp-caption alignleft"><img aria-describedby="caption-attachment-9497" class="size-full wp-image-9497" src="https://blog.optimizely.com/wp-content/uploads/2019/07/lindzon-2-768x512.jpg" alt="" width="768" height="512" /><p id="caption-attachment-9497" class="wp-caption-text"><em>                                                           Howard Doing What He Does Best</em></p></div>
+<p><i><span style="font-weight: 400">Let’s jump right in. What are you currently interested in within the DTC space?</span></i></p>
+<p><span style="font-weight: 400">Through our fund, we are invested in <a href="https://corp.narvar.com/" target="_blank" rel="noopener noreferrer">Narvar</a> and <a href="https://www.kustomer.com/" target="_blank" rel="noopener noreferrer">Kustomer.com</a>. We got involved in Narvar in 2016 and Kustomer in 2017. </span></p>
+<p><i><span style="font-weight: 400">What do these companies do? </span></i></p>
+<p><span style="font-weight: 400">Narvar is a logistics backend for delivery. The interface post-purchase. Say you’re at Nordstrom’s online and you bought something online but when you go back and check on your package in the next few days and you’re taken to some FedEx or UPS loop. This is not the Nordstrom experience. </span></p>
+<p><span style="font-weight: 400">Narvar built it so the experience from Nordstrom post-purchase would look and feel like the brand. And from Crate &amp; Barrel to Nordstrom they have really just won the business of post purchase.</span></p>
+<p><span style="font-weight: 400">Kustomer.com is seeking to be the next generation Zendesk. A modern platform built for an ecommerce generation.</span></p>
+<p><i><span style="font-weight: 400">From your perspective where is the excitement in DTC right now? </span></i></p>
+<p><span style="font-weight: 400">It’s everything from Libra at Facebook to Shopify to Stripe to Venmo to Instagram to Facebook. You can’t go build a massive company on top of Instagram, but you can build a multi hundred million dollar eCommerce brand on top of Instagram and Twitter and Snapchat. What’s happening is you have all these brands that start out on Instagram and you may end up in a retail store in Soho. </span></p>
+<p><span style="font-weight: 400">Everybody’s gunning for Amazon. It is like all these little Velociraptors nipping at them. But the eCommerce industry is so big there’s room for everybody. Amazon has state of the art software that they aren’t going to share. </span></p>
+<p><span style="font-weight: 400">Small eCommerce like Dollar Shave Club or something we are invested in Manscape or a Mom and Pop on Spotify need state of the art customer support software and they need state of the art website design. You need to look like you’re big or the customer gets nervous. These software companies supporting the ecosystem are exciting to work with. </span></p>
+<p><i><span style="font-weight: 400">So is it apt to use the age old Star Wars analogy of Amazon is the Dark Side and all the smaller software companies are like the Rebel Alliance</span></i><span style="font-weight: 400">?</span></p>
+<p><span style="font-weight: 400">They are the dark force. The consumers don’t look at it that way. Eventually every consumer is going to be screwed by Amazon. You’re either going to be working for a company Amazon is trying to eat or you’re trying to start a new business and Amazon is trying to eat you. But because of the way smartphones work, and the way social networks work, everybody kind of has a shot. </span></p>
+<p><span style="font-weight: 400">You have to be creative. You have to understand marketing. You can’t just buy Facebook Ads. You have to know how to do everything from radio to podcasts to billboard ads. You’re gonna have to have marketing chops to rise above the din.</span></p>
+<p><i><span style="font-weight: 400">Do you think marketing is where it’s at?</span></i></p>
+<p><span style="font-weight: 400">Finally we’re back to a little more of an artistic bent. That is why you see companies like Lululemon and McDonald’s and Nike thriving. They have great marketing and do innovative and bold things and the little guy needs to keep up. </span></p>
+<p><i><span style="font-weight: 400">What are you excited about?</span></i></p>
+<p><span style="font-weight: 400">As an investor I’m excited about software that helps the David attack the Goliath. I’m excited about being able to win best in simple ideas run by great marketers. I’m excited about how money is moving around through all this. People’s spending habits have changed dramatically. I mean once we had four seasons of clothing, I watch my kids and everything is just-in-time. </span></p>
+<p><span style="font-weight: 400">You don’t have so much stuff. This next generation lives a lot lighter. It is a huge shift in everything. You may have more stuff in more places and less in one place. You can get anything you want within 24 hours. </span></p>
+<p><i><span style="font-weight: 400">How important is the experience of purchasing? </span></i></p>
+<p><span style="font-weight: 400">Purchasing is a commodity. The experience of buying is everything. Whether it’s Nike allowing you to customize your shoe or a brand knowing your size and sending you personalized collections.</span></p>
+<p><span style="font-weight: 400">It’s way more cool to buy a shoe online and design yourself. Once you’ve assembled what you want, you just want the transaction to happen. Now it’s the excitement of picking your colors and working with your brands and having them give you what you want. Personalization is the next wave of DTC.</span></p>
+<p>You can read more of Howard&#8217;s thoughts on his blog at <a href="https://howardlindzon.com" target="_blank" rel="noopener noreferrer">HowardLindzon.com</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://blog.optimizely.com/2019/07/31/talking-shop-with-investor-howard-lindzon-about-dtc/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">9496</post-id>	</item>
+		<item>
+		<title>Using Experimentation to Measure and Validate Backend Performance Improvements</title>
+		<link>https://blog.optimizely.com/2019/07/19/using-experimentation-to-measure-and-validate-backend-performance-improvements/</link>
+				<comments>https://blog.optimizely.com/2019/07/19/using-experimentation-to-measure-and-validate-backend-performance-improvements/#respond</comments>
+				<pubDate>Fri, 19 Jul 2019 16:48:59 +0000</pubDate>
+		<dc:creator><![CDATA[Travis Beck]]></dc:creator>
+				<category><![CDATA[Show Developer Popup (None)]]></category>
+		<category><![CDATA[Developers]]></category>
+		<category><![CDATA[Full Stack]]></category>
+
+		<guid isPermaLink="false">http://blog.optimizely.com/?p=9383</guid>
+				<description><![CDATA[<img width="1200" height="628" src="https://blog.optimizely.com/wp-content/uploads/2019/07/Blog-image_1200X628-01.png" class="attachment-large size-large wp-post-image" alt="" srcset="https://blog.optimizely.com/wp-content/uploads/2019/07/Blog-image_1200X628-01.png 1200w, https://blog.optimizely.com/wp-content/uploads/2019/07/Blog-image_1200X628-01-768x402.png 768w" sizes="(max-width: 1200px) 100vw, 1200px" />Experimentation is highly effective as a learning tool when there is a clearly defined outcome that you want to achieve (such as improving conversion rate) and some uncertainty around the specific way to do it. But sometimes you know what you need to change and you just want to be able to measure how that [&#8230;]]]></description>
+								<content:encoded><![CDATA[<img width="1200" height="628" src="https://blog.optimizely.com/wp-content/uploads/2019/07/Blog-image_1200X628-01.png" class="attachment-large size-large wp-post-image" alt="" srcset="https://blog.optimizely.com/wp-content/uploads/2019/07/Blog-image_1200X628-01.png 1200w, https://blog.optimizely.com/wp-content/uploads/2019/07/Blog-image_1200X628-01-768x402.png 768w" sizes="(max-width: 1200px) 100vw, 1200px" /><p><span style="font-weight: 400">Experimentation is highly effective as a learning tool when there is a clearly defined outcome that you want to achieve (such as improving conversion rate) and some uncertainty around the specific way to do it. But sometimes you know what you need to change and you just want to be able to measure how that change will affect the metrics that are most important to you. Experimentation works very well for this too in that it provides a way to validate and illustrate the impact of invisible changes that could otherwise go unnoticed.</span></p>
+<p><span style="font-weight: 400">As an engineer on the Optimizely backend team, I care deeply about performance and latency, as one should in all backend applications. Recently in doing some routine development, I discovered a costly database query that was being executed on many requests. </span><span style="font-weight: 400">This was a blocking query, meaning the application had to wait for it to return before doing anything else.</span><span style="font-weight: 400"> I found a way to skip the query most of the time by caching the data it was fetching inside of our web processes.</span></p>
+<p><span style="font-weight: 400">I was confident that my cached approach was going to be faster than waiting for the existing query. At the same time, it seemed important to deploy this as an experiment so we could accurately measure the difference in approaches and also add better instrumentation for request latency events to enable future backend performance experimentation.</span></p>
+<p><b>The Experiment</b></p>
+<p><span style="font-weight: 400">I used a </span><a href="https://www.optimizely.com/platform/full-stack/"><span style="font-weight: 400">Full Stack</span></a><span style="font-weight: 400"> feature flag to control my new code, setting up the experiment to be remotely configured once it was deployed to each environment. This de-risked the deploy as I was able to test out the change prior to enabling it for actual customers.</span></p>
+<p>&nbsp;</p>
+<pre><span style="font-weight: 400">def _has_cached_whitelist_feature():</span>
+
+<span style="font-weight: 400">  fullstack_client = fullstack_service.get_optly_object()</span>
+
+<span style="font-weight: 400">  request = request_context.get_request()</span>
+
+<span style="font-weight: 400">  if fullstack_client and request and 
+
+request.registry.get('request_id'):</span>
+
+<span style="font-weight: 400">    # we will get significance faster if we activate on the unique Request ID</span>
+
+<span style="font-weight: 400">    # since it really only has to match for the duration of the request</span>
+
+<span style="font-weight: 400">    return fullstack_client.</span><b>is_feature_enabled</b><span style="font-weight: 400">(</span><b>'cached_whitelist'</b><span style="font-weight: 400">, request.registry.get('request_id'))</span>
+
+<span style="font-weight: 400">  return False
+
+</span></pre>
+<p><img class="alignnone size-full wp-image-9387" style="font-family: Consolas, Monaco, monospace" src="https://blog.optimizely.com/wp-content/uploads/2019/07/Travis-Backend-Experiment-3.png" alt="" width="880" height="692" srcset="https://blog.optimizely.com/wp-content/uploads/2019/07/Travis-Backend-Experiment-3.png 880w, https://blog.optimizely.com/wp-content/uploads/2019/07/Travis-Backend-Experiment-3-768x604.png 768w" sizes="(max-width: 880px) 100vw, 880px" /></p>
+<p><b>Measuring Success</b></p>
+<p><span style="font-weight: 400">Overall, we were looking to see a decrease in latency per request. To measure this, I added a new event called api_response_time_ms that measures the time on the backend server between receiving the request and finishing building the response.</span></p>
+<pre><span style="font-weight: 400">fullstack_client.track(
+    'api_response_time_ms',
+    self.request.registry.get('request_id'),</span>
+<span style="font-weight: 400">    attributes=attributes,
+    event_tags=tags
+)
+
+</span></pre>
+<p><span style="font-weight: 400">The new event only applied to API requests (not page loads) and we made a conscious decision not to measure any in-transit time as a part of this, because we wanted this metric to measure the part that we control to validate if we&#8217;re improving things on our end. This means that the metric we are sending is not a true end-to-end latency metric, but it is “good enough” to provide a baseline for the parts that we can change. I also added attributes for segmenting results by response size and route since I wasn’t sure how it might affect the latency of some routes differently and I wanted to be able to explore the data later. So the full instrumentation looks like this:</span></p>
+<p>&nbsp;</p>
+<pre><span style="font-weight: 400">    start_time = self.request.registry.get('request_start_time')</span>
+
+<span style="font-weight: 400">    render_time_ms = math.floor((time.time() - start_time) * 1000)</span>
+
+
+
+<span style="font-weight: 400">    fullstack_client = fullstack_service.get_optly_object()</span>
+
+<span style="font-weight: 400">    content_length = int(self.response.headers.get('Content-Length', 0))</span>
+
+
+
+<span style="font-weight: 400">    if content_length &gt; 1000 * 1000:</span>
+
+<span style="font-weight: 400">      response_size = '&gt;1000kB'</span>
+
+<span style="font-weight: 400">    elif content_length &gt; 500 * 1000:</span>
+
+<span style="font-weight: 400">      response_size = '500-1000kB'</span>
+
+<span style="font-weight: 400">    else:</span>
+
+<span style="font-weight: 400">      response_size = '0-500kB'</span>
+
+
+<span style="font-weight: 400">    route = request_context.get_route_string()</span>
+
+
+<span style="font-weight: 400">    </span><b>attributes</b><span style="font-weight: 400"> = {</span>
+
+<span style="font-weight: 400">      'route': </span><b>route</b><span style="font-weight: 400">,  # Example: GET /api/v1/categories</span>
+
+<span style="font-weight: 400">      'response_size': </span><b>response_size</b><span style="font-weight: 400">, # Example: 515kB</span>
+
+<span style="font-weight: 400">    }</span>
+<span style="font-weight: 400">    </span>
+
+<span style="font-weight: 400">    </span><b>tags</b><span style="font-weight: 400"> = {</span>
+
+<span style="font-weight: 400">      'value': render_time_ms,</span>
+
+<span style="font-weight: 400">    }</span>
+
+
+<span style="font-weight: 400">    fullstack_client.track(</span>
+
+<span style="font-weight: 400">      'api_response_time_ms',</span>
+
+<span style="font-weight: 400">      self.request.registry.get('request_id'),</span>
+
+<span style="font-weight: 400">      attributes=</span><b>attributes</b><span style="font-weight: 400">,</span>
+
+<span style="font-weight: 400">      event_tags=</span><b>tags</b>
+
+<span style="font-weight: 400">    )</span>
+</pre>
+<p><b>The Results</b></p>
+<p><span style="font-weight: 400">After the experiment ran for about a month we saw on average 40 milliseconds improvement in the average case for response time latency from our API. In the report below you can see how I was able to filter the report by specific segments. In the segment below the API response time improved by 19.1%.</span></p>
+<pre><span style="font-weight: 400"><img class="alignnone size-full wp-image-9384" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif" src="https://blog.optimizely.com/wp-content/uploads/2019/07/Travis-Backend-Experiment-1.png" alt="" width="1999" height="1072" srcset="https://blog.optimizely.com/wp-content/uploads/2019/07/Travis-Backend-Experiment-1.png 1999w, https://blog.optimizely.com/wp-content/uploads/2019/07/Travis-Backend-Experiment-1-768x412.png 768w" sizes="(max-width: 1999px) 100vw, 1999px" />
+</span></pre>
+<p><span style="font-weight: 400">When working on improving performance in complex applications, there is rarely one big change that you can make that will make everything immediately faster. Many small incremental changes built up over time are usually required to achieve your goals. Those changes can have hidden trade-offs and it’s not always clear how much a given change will improve things.  Profiling and better instrumentation can help, but profilers don’t tend to get run in production and thus don’t always tell the whole story. Instrumentation generally just tells you how a metric has changed over time, but not necessarily what caused that change and small changes can sometimes get lost in the noise. Experimentation can tell you with certainty that you are making things better.</span></p>
+<pre><span style="font-weight: 400"> </span></pre>
+<p><span style="font-weight: 400">Thanks to the experiment results, we know with certainty that the change we made was worthwhile. The change has now been fully rolled out to benefit all of our customers and we can easily reuse the instrumentation work we did here to measure the latency impact on any backend change that we want to make in the future. On to the next improvement!</span></p>
+<p>&nbsp;</p>
+<p style="text-align: center"><em>Lay the foundation for backend experimentation with <a href="https://www.optimizely.com/rollouts/?utm_source=blog&amp;utm_campaign=beexp">Optimizely Rollouts</a>, our free feature flagging solution.</em></p>
+<pre><span style="font-weight: 400"> </span></pre>
+]]></content:encoded>
+							<wfw:commentRss>https://blog.optimizely.com/2019/07/19/using-experimentation-to-measure-and-validate-backend-performance-improvements/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">9383</post-id>	</item>
+		<item>
+		<title>Forrester on Must-Have eCommerce Features</title>
+		<link>https://blog.optimizely.com/2019/07/17/forrester-ecommerce-optimization/</link>
+				<comments>https://blog.optimizely.com/2019/07/17/forrester-ecommerce-optimization/#respond</comments>
+				<pubDate>Wed, 17 Jul 2019 14:00:18 +0000</pubDate>
+		<dc:creator><![CDATA[Nicole Thompson]]></dc:creator>
+				<category><![CDATA[Show Marketing Popup (Big Book)]]></category>
+		<category><![CDATA[cart abandonment]]></category>
+		<category><![CDATA[Digital]]></category>
+		<category><![CDATA[E-commerce]]></category>
+		<category><![CDATA[Forrester]]></category>
+		<category><![CDATA[Personalization]]></category>
+		<category><![CDATA[Research]]></category>
+		<category><![CDATA[Retail]]></category>
+
+		<guid isPermaLink="false">http://blog.optimizely.com/?p=9454</guid>
+				<description><![CDATA[Digital paralysis got you down? Conscious of the need to innovate on your eCommerce game but unsure exactly how to improve? In a Forrester report from April of this year, author Suchariti Kodali offers up well researched and highly prescriptive counsel on exactly how to approach improving your company’s eCommerce offering. With tips for site [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><span style="font-weight: 400;">Digital paralysis got you down? Conscious of the need to innovate on your eCommerce game but unsure exactly how to improve? In a Forrester report from April of this year, author Suchariti Kodali offers up well researched and highly prescriptive counsel on exactly how to approach improving your company’s eCommerce offering. With tips for site navigation, optimizing product detail pages, and seizing the opportunity within the checkout experience, the report provides tactical advice wherever you are in your optimization journey.</span></p>
+<p><span style="font-weight: 400;">One of the key findings from the report is the value of having a quality search function. In fact, “79% of US online adults agree that it’s important for retailers to offer advanced site search features (i.e. the ability to refine search results by price, brand, and/or style)”. Additionally, the report highlights that leading online performers like Amazon and Sephora make use of diverse tactics ranging from visual sliders to scrolling to encourage “discovery and serendipity.”</span></p>
+<p><span style="font-weight: 400;">Other findings that are sure to resonate speak to the value of personalization and the necessity of remaining hyper-focused on your shopping cart experience. Forrester found that personalization was expected by a large percentage of US shoppers with “49% of US online adults ages 18 to 24, and 54% of US online adults ages 25-34, agree(ing) that retailers should provide product recommendations based on their shopping or browsing history.” With respect to shopping cart abandonment, the report found that 28% of retailers had seen online cart abandonment rise while 55% saw it stay flat. </span></p>
+<p><span style="font-weight: 400;">If you’re looking at ways to remain digitally competitive, download the report </span><a href="https://www.optimizely.com/resources/forrester-must-have-ecommerce-features/"><span style="font-weight: 400;">here</span></a><span style="font-weight: 400;">. </span></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+							<wfw:commentRss>https://blog.optimizely.com/2019/07/17/forrester-ecommerce-optimization/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">9454</post-id>	</item>
+		<item>
+		<title>How to Manage Outdated Feature Flags</title>
+		<link>https://blog.optimizely.com/2019/07/16/manage-outdated-feature-flags/</link>
+				<comments>https://blog.optimizely.com/2019/07/16/manage-outdated-feature-flags/#respond</comments>
+				<pubDate>Tue, 16 Jul 2019 17:10:05 +0000</pubDate>
+		<dc:creator><![CDATA[Jeff Sing]]></dc:creator>
+				<category><![CDATA[Show Developer Popup (None)]]></category>
+		<category><![CDATA[Developers]]></category>
+		<category><![CDATA[feature flags]]></category>
+
+		<guid isPermaLink="false">http://blog.optimizely.com/?p=9435</guid>
+				<description><![CDATA[Not cleaning up feature flags can introduce risk to your code base. Learn how Feature Flag Removal Day can lead to better feature management. Feature flags (aka feature toggles) are a gold standard of agile software development and continuous integration for good reason: they help teams deliver new features to customers safely, and with better [&#8230;]]]></description>
+								<content:encoded><![CDATA[<h2><strong>Not cleaning up feature flags can introduce risk to your code base. Learn how Feature Flag Removal Day can lead to better feature management.</strong></h2>
+<p><img class="alignnone size-full wp-image-9436" src="https://blog.optimizely.com/wp-content/uploads/2019/07/featureflag.png" alt="" width="1200" height="794" srcset="https://blog.optimizely.com/wp-content/uploads/2019/07/featureflag.png 1200w, https://blog.optimizely.com/wp-content/uploads/2019/07/featureflag-768x508.png 768w" sizes="(max-width: 1200px) 100vw, 1200px" /></p>
+<p><span style="font-weight: 400"><a href="https://www.optimizely.com/optimization-glossary/feature-flags" target="_blank" rel="noopener noreferrer">Feature flags</a> (aka feature toggles) are a gold standard of agile software development and continuous integration for good reason: they help teams deliver new features to customers safely, and with better control. If you’ve ever needed to validate new functionality with end users (hint: </span><a href="https://blog.optimizely.com/2019/02/11/using-feature-flags-to-test-in-production/"><span style="font-weight: 400">test code in production!</span></a><span style="font-weight: 400">), quickly roll back a change, or run an A/B test on a feature, you might be a fan of feature flags too. They help de-risk feature releases and code deployment.</span></p>
+<p><span style="font-weight: 400">But as a DevOps engineer, feature flag management can also give you heartburn. When they’re mismanaged, you can end up with a codebase littered with old, forgotten feature flags that actually introduce risk.</span><span style="font-weight: 400"><br />
+</span></p>
+<p><span style="font-weight: 400">A Feature Flag Removal Day is a simple, effective way to manage feature flags </span><i><span style="font-weight: 400">responsibly</span></i><span style="font-weight: 400">.</span></p>
+<h2><strong>A feature flag whose job is complete should be removed </strong></h2>
+<p><span style="font-weight: 400">Feature flagging lets you roll out code rapidly and safely. But once your experiment is complete or the rollout has been fully deployed with no chance of rollback, an engineer should remove it as a feature flag best practice. </span></p>
+<p><span style="font-weight: 400">Not doing so opens up the possibility of exposing your customers to the wrong feature or to code base breaking functionality.</span></p>
+<p><span style="font-weight: 400">That said, it can be hard to prioritize managing feature flags and ownership isn’t always clear. You can set expiration dates for your feature flags, but developers can become swamped with other projects, leave the team, or just need repeated, gentle prodding to prioritize removal. Feature Flag Removal Day can help you cut through all that.</span></p>
+<h2><strong>Why a Feature Flag Removal Day?</strong></h2>
+<p><img class="alignnone size-full wp-image-9437" src="https://blog.optimizely.com/wp-content/uploads/2019/07/IMG_6770.jpg" alt="" width="1600" height="1200" srcset="https://blog.optimizely.com/wp-content/uploads/2019/07/IMG_6770.jpg 1600w, https://blog.optimizely.com/wp-content/uploads/2019/07/IMG_6770-768x576.jpg 768w" sizes="(max-width: 1600px) 100vw, 1600px" /></p>
+<p><span style="font-weight: 400">Feature Flag Removal Day is one day each month when developers swarm to remove feature flags that have completed their job. The session generally lasts 4-6 hours &#8212; we order donuts to keep the energy high! At Optimizely, some squads come together to remove flags as a group; others assign a single developer to own the task. </span></p>
+<p><span style="font-weight: 400">The goal isn’t necessarily to have all flags removed during the session. We use the time to audit expired feature flags, check that the exit criteria has been met, and assign owners.</span></p>
+<p><b>Designating a specific day gives developers a set time to swarm together to help approve the Pull Request changes for removing their feature flags.</b></p>
+<p><span style="font-weight: 400">It also has the following benefits:</span><span style="font-weight: 400"><br />
+</span></p>
+<ul>
+<li style="font-weight: 400"><b>A human check</b><span style="font-weight: 400">: You can build in a human check with the Product Owner to make sure that each flag on the list should be removed. </span></li>
+<li style="font-weight: 400"><b>Socializes feature flag hygiene practices</b><span style="font-weight: 400">: Leaving too many flags in your code base can cause technical debt and make the code base brittle. A well-publicized day can help you make your whole organization aware of this risk. Tackling it regularly should become part of the culture of your development teams.</span></li>
+<li style="font-weight: 400"><b>Lightweight, reliable process: </b><span style="font-weight: 400">Remove the back-and-forth debates about each flag that should be removed by establishing a standard practice and set cycle. At Optimizely, this helps us avoid the anxiety that feature flags of past employees might come back to haunt us. </span></li>
+<li style="font-weight: 400"><b>Clear, time-bound ownership</b><span style="font-weight: 400">: Instead of making your developers own a specific feature flag forever, let the process handle it. On Feature Flag Removal Day, assign a developer the responsibility for removing that flag &#8212; case closed.</span></li>
+<li style="font-weight: 400"><b>Transparency</b><span style="font-weight: 400">: Give your entire engineering organization notice that certain feature toggles are being removed. This reduces the chance that a flag that’s in use by one team might be removed by another.</span></li>
+<li style="font-weight: 400"><b>Efficient use of developers’ time</b><span style="font-weight: 400">: Chunk out a specific time for your developers to work on removing their feature flags. Then, they can go back to their regularly scheduled programming.</span></li>
+</ul>
+<h2><strong>Which flags should be removed?</strong></h2>
+<p><span style="font-weight: 400">The goal is to remove all feature flags that are no longer actively in use as part of an experiment or rollout.</span></p>
+<p><span style="font-weight: 400">On our first Feature Flag Removal Day at Optimizely, we evaluated every single flag that fit the following criteria:</span><span style="font-weight: 400"><br />
+</span></p>
+<ul>
+<li style="font-weight: 400"><span style="font-weight: 400">Flags that were created before 2019</span></li>
+<li style="font-weight: 400"><span style="font-weight: 400">Flags that haven’t been updated since 2019 </span></li>
+<li style="font-weight: 400"><span style="font-weight: 400">Flags that don’t have a specific target audience attached, meaning they’re exposed to everyone</span></li>
+<li style="font-weight: 400"><span style="font-weight: 400">Flags that are rolled out to 100% of the user base and 100% in the production environment</span><span style="font-weight: 400"><br />
+</span></li>
+</ul>
+<p><span style="font-weight: 400">We identified 11 flags that matched this criteria.</span></p>
+<p><span style="font-weight: 400">We spoke to the Product Owners for each feature to ensure that they could be removed. We found two that shouldn’t be removed (one was a kill switch, the other maintained a legacy feature for certain customers). We updated these flags with an exit criteria and their expiration date blank. </span></p>
+<p><span style="font-weight: 400">We investigated the remaining nine. </span></p>
+<h2><strong>What we found</strong></h2>
+<p><span style="font-weight: 400">Some of the code had already been removed, but the flags were still listed in our feature flagging system dashboard. We archived these and called it a day.</span></p>
+<p><span style="font-weight: 400">A few feature flags were more difficult to remove because they were distributed throughout the code base and required multiple developers from different product teams to remove. These took longer than a day and multiple code reviews to remove.</span></p>
+<p><span style="font-weight: 400">But the majority of flags were easily and cleanly removed.</span></p>
+<p><span style="font-weight: 400">Bonus: The practice of removing flags gave developers a different perspective on best practices for implementing them. Placing them </span><i><span style="font-weight: 400">higher</span></i><span style="font-weight: 400"> in the code base and taking them out </span><i><span style="font-weight: 400">earlier</span></i><span style="font-weight: 400"> makes them easier to rip out later.</span></p>
+<h2><strong>Future plans for feature flags</strong></h2>
+<p><span style="font-weight: 400">Our feature flag best practices now include an </span><b>exit criteria</b><span style="font-weight: 400"> and an </span><b>expiration date</b><span style="font-weight: 400">. These markers help us manage how and when we remove our flags. </span></p>
+<p><span style="font-weight: 400">The exit criteria is a condition that qualifies the feature flag to be removed. For example, if a flag has been rolled out to the public at 100% and no major bugs have been reported, it can be removed in 30 days (the expiration date).</span></p>
+<p><span style="font-weight: 400">We set this exit criteria when we write feature acceptance criteria, as an agreement between:</span></p>
+<ul>
+<li style="font-weight: 400"><span style="font-weight: 400">Developer: The engineer who implements the feature flag.</span></li>
+<li style="font-weight: 400"><span style="font-weight: 400">Product owner: the project manager who decides the feature rollout strategy, writes the initial removal criteria, and communicates the feature to customers.</span></li>
+<li style="font-weight: 400"><span style="font-weight: 400">QA team: Auditors who ensure that the policy was executed correctly.</span></li>
+</ul>
+<p><span style="font-weight: 400">Our removal process looks like this: </span><span style="font-weight: 400"><br />
+</span></p>
+<ol>
+<li style="font-weight: 400"><span style="font-weight: 400">QA team checks the Features dashboard in Optimizely to identify all flags that have met their exit criteria.</span></li>
+<li style="font-weight: 400"><span style="font-weight: 400">Flags whose expiration date falls before the next Feature Flag Removal Day are listed in a new Jira epic. </span></li>
+<li style="font-weight: 400"><span style="font-weight: 400">QA tags the developer who implemented the flag and invites them to the next Feature Flag Removal Day event. </span></li>
+<li style="font-weight: 400"><span style="font-weight: 400">On Feature Flag Removal Day, developers gather to swarm on removing their feature flags and archiving them in the Optimizely Features dashboard. </span></li>
+</ol>
+<h2><strong>In Conclusion</strong></h2>
+<p><span style="font-weight: 400">Setting a dedicated day once a month helps build a practice of reviewing every feature flag in the code base at regular intervals to ensure that only the right flags are live. This has given our Engineering team better visibility into the number of flags in flight, and helps us measure work in progress (WIP) as part of our agile product management and development process. </span><span style="font-weight: 400">By actively auditing our feature flags on Feature Flag Removal Day, we ensure that Optimizely can safely and rapidly release product, while keeping the code base safe and clean. </span></p>
+<p><span style="font-weight: 400">If you want to get started with feature management, you can check out </span><a href="https://www.optimizely.com/rollouts/?utm_source=blog&amp;utm_medium=optimizely_blog&amp;utm_campaign=outdated_featureflags" target="_blank" rel="noopener noreferrer"><span style="font-weight: 400">Optimizely </span><span style="font-weight: 400">Rollouts</span></a><span style="font-weight: 400"> for unlimited </span><span style="font-weight: 400">feature flags</span><span style="font-weight: 400"> and controlled </span><span style="font-weight: 400">rollouts</span><span style="font-weight: 400">. </span></p>
+]]></content:encoded>
+							<wfw:commentRss>https://blog.optimizely.com/2019/07/16/manage-outdated-feature-flags/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">9435</post-id>	</item>
+		<item>
+		<title>Collaboration simplified with Optimizely + Jira</title>
+		<link>https://blog.optimizely.com/2019/07/15/collaboration-simplified-with-optimizely-jira/</link>
+				<comments>https://blog.optimizely.com/2019/07/15/collaboration-simplified-with-optimizely-jira/#respond</comments>
+				<pubDate>Mon, 15 Jul 2019 17:00:26 +0000</pubDate>
+		<dc:creator><![CDATA[Kris McKee]]></dc:creator>
+				<category><![CDATA[Show Marketing Popup (Big Book)]]></category>
+
+		<guid isPermaLink="false">http://blog.optimizely.com/?p=9406</guid>
+				<description><![CDATA[What is one major challenge of cross-company collaboration? What’s that you say? Diverse platforms that don’t communicate with each other? We’re excited to announce that our second release of Optimizely for Jira is now available. Optimizely will now integrate with Jira to enable cross-functional collaboration for all experiments.  This integration allows customers of both platforms [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><span style="font-weight: 400">What is one major challenge of cross-company collaboration? What’s that you say? Diverse platforms that don’t communicate with each other? We’re excited to announce that our second release of Optimizely for Jira is now available. Optimizely will now integrate with Jira to enable cross-functional collaboration for all experiments.  This integration allows customers of both platforms to manage experiments in Optimizely and project work in Jira, all while seamlessly transitioning between the two.</span></p>
+<p><span style="font-weight: 400">Regardless of which Optimizely product that you use, you will now be able to leverage the “Optimizely for Jira” integration. This integration allows users to link any Optimizely experiment, feature rollout, personalization campaign, or Program Management idea to Jira issues. Once linked, key details of the experiment, feature, campaign, or idea will be visible in Jira to all Jira users. </span></p>
+<p><span style="font-weight: 400">Reduce context switching and scale your experimentation program by bringing Optimizely to your engineers, designers, product managers &amp; team members that work in Jira!</span></p>
+<p><img class="alignnone size-full wp-image-9410" src="https://blog.optimizely.com/wp-content/uploads/2019/07/jira-gify.gif" alt="" width="480" height="300" /></p>
+<h1><span style="font-weight: 400">More is still to come!</span></h1>
+<p><span style="font-weight: 400">The Optimizely team is committed to increasing collaboration and driving efficiency within your experimentation team. Over the next several months, we will be adding even more functionality to this integration, including the ability to create Jira tickets from Optimizely and the ability to create new experiment Ideas from Jira.</span></p>
+<h1><span style="font-weight: 400">Try it today</span></h1>
+<p><span style="font-weight: 400">If you’re already an Optimizely customer, you can enable the integration today by following the steps in </span><a href="https://help.optimizely.com/Integrate_Other_Platforms/Integrate_Optimizely_with_Jira"><span style="font-weight: 400">this Knowledge Base article</span></a><span style="font-weight: 400"> about the integration, or going directly to the </span><a href="https://marketplace.atlassian.com/apps/1219783/optimizely-for-jira?hosting=cloud&amp;tab=overview"><span style="font-weight: 400">Atlassian marketplace listing</span></a><span style="font-weight: 400">.</span></p>
+<p><span style="font-weight: 400">If you are not an Optimizely customer yet, reach out to us today to learn how Optimizely can help your company out-experiment and outperform the competition.</span></p>
+]]></content:encoded>
+							<wfw:commentRss>https://blog.optimizely.com/2019/07/15/collaboration-simplified-with-optimizely-jira/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">9406</post-id>	</item>
+		<item>
+		<title>The Opticon19 Agenda Is Here!</title>
+		<link>https://blog.optimizely.com/2019/07/10/the-opticon19-agenda-is-here/</link>
+				<comments>https://blog.optimizely.com/2019/07/10/the-opticon19-agenda-is-here/#respond</comments>
+				<pubDate>Thu, 11 Jul 2019 05:44:51 +0000</pubDate>
+		<dc:creator><![CDATA[Robin Pam]]></dc:creator>
+				<category><![CDATA[Show Marketing Popup (Big Book)]]></category>
+		<category><![CDATA[opticon19]]></category>
+
+		<guid isPermaLink="false">http://blog.optimizely.com/?p=9417</guid>
+				<description><![CDATA[How do global enterprises like Salesforce, IBM, and Cox Automotive, and digital disruptors like Mailchimp, Classpass, and Atlassian deliver amazing digital experiences to their customers while outperforming the competition? With experimentation. And at Opticon19, you&#8217;ll hear from experts from each of these companies on exactly how they do it. By attending Opticon, you&#8217;ll see firsthand [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>How do global enterprises like Salesforce, IBM, and Cox Automotive, and digital disruptors like Mailchimp, Classpass, and Atlassian deliver amazing digital experiences to their customers while outperforming the competition? With experimentation. And at Opticon19, you&#8217;ll hear from experts from each of these companies on exactly how they do it.</p>
+<p>By attending Opticon, you&#8217;ll see firsthand success stories showcasing how experimentation can be the engine to drive digital excellence and innovation. From marketers to product managers, executives to technologists, Opticon19 has something for everyone in your organization who cares about experimentation. See the <a href="https://www.optimizely.com/opticon/agenda/">full agenda here</a>.</p>
+<h2>Out-experiment, outperform</h2>
+<p>To out-experiment and outperform the competition, organizations must focus on three essential capabilities: building and inspiring the right team, implementing an experimentation strategy and process, and implementing best-in-class technology. Together, these three pillars form the three tracks at Opticon19.</p>
+<p>From these breakout sessions, you&#8217;ll learn:</p>
+<ul>
+<li>How to quantify the ROI of experimentation, to secure more resources to grow your program</li>
+<li>Proven strategies to 10x your experimentation velocity</li>
+<li>How to multiply your impact with personalization, full stack experimentation, and performance optimization</li>
+</ul>
+<p>In addition to over 20 breakout speakers, we&#8217;ll also be joined by several technology luminaries in keynote sessions. Investor, entrepreneur and philanthropist <a href="https://blog.optimizely.com/2019/07/01/opticon19-ashton-kutcher/">Ashton Kutcher</a> will be sitting down for a fireside chat with our own Carl Tsukahara at Opticon19 to share the possibilities technology brings to organizations, what drives exceptional performance, and how curiosity moves us forward.</p>
+<p>Gibson Biddle, former VP Product at Netflix, will take the stage alongside Optimizely&#8217;s product team to share how your team can become customer obsessed by using experimentation and personalization to discover what truly delights customers.</p>
+<p>And, in an intimate panel discussion, you&#8217;ll hear from our customers as varied as events giant Stubhub to global automotive powerhouse Cox Automotive and SaaS market leader Salesforce on what it takes to build the Outperforming Organization.</p>
+<h2>Session highlights</h2>
+<h4>Culture &amp; Growth</h4>
+<p><em>Learn how to create a culture of experimentation by inspiring your team to do their best work. Expand your testing program across business units and into new channels.</em></p>
+<p>The Culture &amp; Growth track will highlight how a legacy enterprise company like Northwestern Mutual was able to achieve enough velocity to have 4,000 digital releases in the last year. It will also feature insights and observations from Fox and Nike how they have extended experimentation beyond the desktop.</p>
+<p>The Cox Automotive team will share how they have empowered multiple brands like Autotrader and Kelley Blue Book to increase experiment velocity with a Center of Excellence, while program managers from Brooks Running, Mailchimp, and the Wall Street Journal will share the challenges and successes they&#8217;ve faced in building world-class teams.</p>
+<h4>Strategy &amp; Process</h4>
+<p><em>Best practices and frameworks for scaling winning experimentation programs. Learn how to gauge the true success of an experiment, roll out new features, and measure the value of your overall program.</em></p>
+<p>Learn how to quantify the ROI of experimentation from customers who have done it before. You&#8217;ll also hear from Nina Bayatti of Classpass, on how she uses experimentation to drive customer acquisition and growth, and Optimizely co-founder Pete Koomen on how to use Optimizely’s newest product innovations to measure the impact of experimentation.</p>
+<h4>Platform &amp; Technology</h4>
+<p><em>Learn how Optimizely customers accelerate innovation by creating a best-in-class technology stack and transforming their product development with experimentation.</em></p>
+<p>Lastly, within Platform and Technology you&#8217;ll learn how to optimize your implementation of Optimizely for blazing fast performance, and how to get started integrating Optimizely Full Stack into your stack. From our customers, Updater&#8217;s product team will reveal how they are disrupting the moving industry with experimentation, and Atlassian&#8217;s growth team will share how they have delivered smarter experiments and personalization campaigns to drive more sign ups.</p>
+<p>It&#8217;s going to be an incredible conference. We hope you&#8217;ll join us in San Francisco on September 12 &amp; 13. Ticket prices go up in just 4 days, so take advantage of our early bird pricing today!</p>
+<ul>
+<li><a href="https://www.optimizely.com/opticon/agenda/">View the full agenda</a></li>
+<li><a href="https://www.optimizely.com/opticon/" target="_blank" rel="noopener noreferrer">Purchase your tickets today!</a></li>
+</ul>
+]]></content:encoded>
+							<wfw:commentRss>https://blog.optimizely.com/2019/07/10/the-opticon19-agenda-is-here/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">9417</post-id>	</item>
+		<item>
+		<title>Are You Ready for Your Earthquake Moment?</title>
+		<link>https://blog.optimizely.com/2019/07/10/earthquake-preparedness/</link>
+				<comments>https://blog.optimizely.com/2019/07/10/earthquake-preparedness/#respond</comments>
+				<pubDate>Wed, 10 Jul 2019 17:39:56 +0000</pubDate>
+		<dc:creator><![CDATA[Todd Krieger]]></dc:creator>
+				<category><![CDATA[Show Marketing Popup (Big Book)]]></category>
+
+		<guid isPermaLink="false">http://blog.optimizely.com/?p=9398</guid>
+				<description><![CDATA[Many of us who work in marketing are familiar with the Oreo Moment. The Super Bowl. 2013. The lights go out in the Superdome in New Orleans and Oreo, equipped with a war room to man their Twitter feed delivers the ultimate tweet, “Power out, no problem. You can still dunk in the dark.” It [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><span style="font-weight: 400">Many of us who work in marketing are familiar with the </span><a href="https://www.wired.com/2013/02/oreo-twitter-super-bowl/" target="_blank" rel="noopener noreferrer"><span style="font-weight: 400">Oreo Moment</span></a><span style="font-weight: 400">. The Super Bowl. 2013. The lights go out in the Superdome in New Orleans and Oreo, equipped with a war room to man their Twitter feed delivers the ultimate tweet, “Power out, no problem. You can still dunk in the dark.” It went viral. It got written about. It did all the things that social media is supposed to accomplish for you as a marketer. But did it generate revenue? Did it improve the customer experience or merely create noise?</span></p>
+<div id="attachment_9399" style="width: 610px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-9399" class="size-full wp-image-9399" src="https://blog.optimizely.com/wp-content/uploads/2019/07/BCOVrUMCIAAdN5J.jpg" alt="The Oreo Dunk" width="600" height="600" /><p id="caption-attachment-9399" class="wp-caption-text">The Oreo Dunk</p></div>
+<p><span style="font-weight: 400">I bring this up as I was listening to NPR last night (<a href="https://www.npr.org/2019/07/09/739999709/why-only-13-of-california-homeowners-have-earthquake-insurance" target="_blank" rel="noopener noreferrer">audio and transcript available here</a>) and they were discussing the double dose of earthquakes that visited Southern California over the July 4th weekend, the second of which was felt as far north as Lake Tahoe. Speaking with <a href="https://www.earthquakeauthority.com/" target="_blank" rel="noopener noreferrer">California Earthquake Authority</a> CEO Glenn Pomeroy the conversation centered on how, for a variety of reasons, only 13% of homeowners in California have earthquake insurance. But then he said something even more shocking as he was asked if a lot of people had signed up for insurance after the pair of quakes rattled the region, 6.4 followed by 7.1.</span></p>
+<blockquote><p><em><span style="font-weight: 400">“</span><span style="font-weight: 400">Our website traffic went through the roof throughout the weekend and continues. We&#8217;re up tenfold in terms of the number of people that are coming to our website. It&#8217;s going to be a while before we figure out how that translates in terms of how many people are actually buying policies.”</span></em></p></blockquote>
+<div id="attachment_9401" style="width: 653px" class="wp-caption aligncenter"><img aria-describedby="caption-attachment-9401" class="wp-image-9401 size-full" src="https://blog.optimizely.com/wp-content/uploads/2019/07/Screen-Shot-2019-07-10-at-10.25.23-AM.png" alt="" width="643" height="224" /><p id="caption-attachment-9401" class="wp-caption-text">A snapshot of some of the reasons California homeowners might consider insurance</p></div>
+<p><span style="font-weight: 400">This struck me as the customer experience equivalent of disaster preparedness. Are you prepared to capitalize on a 10X traffic increase due to a unique event? If not, why not? Granted Mr. Pomeroy works at a non-profit that may not have the ability to scale up to capitalize on a moment like this, but hearing him say traffic is up tenfold and we don’t know how that translates struck me as an excellent way to sound the wake-up call for anyone in the business of generating revenue off a site or app. Do you have experiments deployed to take advantage of this possible traffic windfall, or do you have the right heat-maps and analytics to digest how your experience is being used?</span></p>
+<p><span style="font-weight: 400">Put simply, are you ready for your earthquake moment? </span></p>
+]]></content:encoded>
+							<wfw:commentRss>https://blog.optimizely.com/2019/07/10/earthquake-preparedness/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">9398</post-id>	</item>
+		<item>
+		<title>Ashton Kutcher to Keynote Opticon19</title>
+		<link>https://blog.optimizely.com/2019/07/01/opticon19-ashton-kutcher/</link>
+				<comments>https://blog.optimizely.com/2019/07/01/opticon19-ashton-kutcher/#respond</comments>
+				<pubDate>Mon, 01 Jul 2019 15:49:04 +0000</pubDate>
+		<dc:creator><![CDATA[Cheyenne Havens]]></dc:creator>
+				<category><![CDATA[Show Marketing Popup (Big Book)]]></category>
+		<category><![CDATA[event]]></category>
+		<category><![CDATA[Events]]></category>
+		<category><![CDATA[opticon19]]></category>
+
+		<guid isPermaLink="false">http://blog.optimizely.com/?p=9371</guid>
+				<description><![CDATA[Opticon19 is the largest gathering of Digital Experience Optimization and a must-attend conference for anyone looking to uplevel their experimentation, personalization, and optimization skill set. The conference is two full days of sessions, inspiring speakers and networking. We are excited to share that Ashton Kutcher, co-founder of Sound Ventures and co-founder of Thorn: Digital Defenders [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><img class="alignnone size-full wp-image-9375" src="https://blog.optimizely.com/wp-content/uploads/2019/07/Opticon19_Keynote-Announcement_Creative_Email-images_513x256.png" alt="" width="513" height="256" /></p>
+<p><a href="https://www.optimizely.com/opticon/"><span style="font-weight: 400">Opticon19</span></a><span style="font-weight: 400"> is the largest gathering of Digital Experience Optimization and a must-attend conference for anyone looking to uplevel their experimentation, personalization, and optimization skill set. The conference is two full days of sessions, inspiring speakers and networking.</span></p>
+<p><span style="font-weight: 400">We are excited to share that </span><a href="https://twitter.com/aplusk"><span style="font-weight: 400">Ashton Kutcher</span></a><span style="font-weight: 400">, co-founder of Sound Ventures and co-founder of Thorn: Digital Defenders of Children will be joining Optimizely CMO, </span><a href="https://twitter.com/CarlTsukahara"><span style="font-weight: 400">Carl Tsukahara</span></a><span style="font-weight: 400"> for a fireside chat where they’ll explore the possibilities technology brings to organizations, what drives exceptional performance, and how curiosity moves us forward.</span></p>
+<p><span style="font-weight: 400">Whether it be his beginning days in acting or producing, to co-founding Thorn, with its focus on using technology to help the most vulnerable, Kutcher has seemingly always been ahead of the curve. His foresight and reputation in the technology sector has been cemented by his early investments in  Airbnb, Spotify, Uber, as well as </span><a href="https://www.optimizely.com"><span style="font-weight: 400">Optimizely</span></a><span style="font-weight: 400">. </span></p>
+<p><span style="font-weight: 400">This exciting announcement comes on the heels of our after  our </span><a href="https://www.optimizely.com/optimizely-announces-series-d/"><span style="font-weight: 400">Series D funding</span></a><span style="font-weight: 400"> which includes $50 million raised with investors including Goldman Sachs, the world’s premier banker, and Accenture   </span></p>
+<p><span style="font-weight: 400">Opticon19 will take place September 12-13 at the San Francisco Marriott Marquis with hands-on training courses at an additional cost on September 11.  </span><a href="https://optimizely.com/opticon/"><span style="font-weight: 400">Register now</span></a><span style="font-weight: 400"> and save $200 before prices go up on July 15. </span></p>
+]]></content:encoded>
+							<wfw:commentRss>https://blog.optimizely.com/2019/07/01/opticon19-ashton-kutcher/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">9371</post-id>	</item>
+		<item>
+		<title>Feature Flags: 3 Uses Cases for your Development Cycle</title>
+		<link>https://blog.optimizely.com/2019/06/26/feature-flags-how-to-integrate-them-into-your-development-cycle/</link>
+				<comments>https://blog.optimizely.com/2019/06/26/feature-flags-how-to-integrate-them-into-your-development-cycle/#respond</comments>
+				<pubDate>Wed, 26 Jun 2019 16:18:17 +0000</pubDate>
+		<dc:creator><![CDATA[Asa Schachar]]></dc:creator>
+				<category><![CDATA[Show Developer Popup (None)]]></category>
+		<category><![CDATA[Developers]]></category>
+
+		<guid isPermaLink="false">http://blog.optimizely.com/?p=9240</guid>
+				<description><![CDATA[Feature flags allow you to slowly rollout your feature gradually rather than doing a risky big bang launch and are extremely helpful when used in a continuous integration and continuous delivery environment. However, when integrating feature flags into your development cycle it can be difficult to know where to start. I&#8217;m Asa, Optimizely&#8217;s Developer Advocate. [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><span style="font-weight: 400"><a href="http://optimizely.com/optimization-glossary/feature-flags">Feature flags</a> allow you to slowly rollout your feature gradually rather than doing a risky big bang launch and are extremely helpful when used in a continuous integration and <a href="https://www.optimizely.com/optimization-glossary/continuous-delivery/">continuous delivery</a> environment.</span></p>
+<p><span style="font-weight: 400">However, when integrating feature flags into your development cycle it can be difficult to know where to start.</span></p>
+<p><span style="font-weight: 400">I&#8217;m Asa, Optimizely&#8217;s Developer Advocate. In part 1 of this blog series, I&#8217;ll cover 3 feature flag wins in development processes to help understand how you can integrate feature flagging into your process.</span></p>
+<p>&nbsp;</p>
+<h2><span style="font-weight: 400">1. End Merge Conflicts</span></h2>
+<p><b>The Problem: Merge conflicts</b></p>
+<p><span style="font-weight: 400">Early in my development career, I would get so excited and focused on building a big new feature that I would forget about the consequences of trying to merge a big pull request in later.</span></p>
+<p><span style="font-weight: 400">I would pile change upon change in my asa/&lt;new_awesome_feature&gt; feature branch until I was done, but in my excitement to merge, I would get merge conflicts:</span></p>
+<p><img class="alignnone size-full wp-image-9242" src="https://blog.optimizely.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-07-at-12.27.57-PM.png" alt="" width="937" height="75" srcset="https://blog.optimizely.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-07-at-12.27.57-PM.png 937w, https://blog.optimizely.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-07-at-12.27.57-PM-768x61.png 768w" sizes="(max-width: 937px) 100vw, 937px" /></p>
+<p><span style="font-weight: 400">This is because in the time that I spent trying to build my feature, the codebase had changed as a result of my coworkers landing their changes in the same area of code as my new feature.</span></p>
+<p>&nbsp;</p>
+<p><b>Ok Solution: Rebase often</b></p>
+<p><span style="font-weight: 400">The first solution you learn to deal with this problem of a long-lived feature branch is to frequently rebase onto your team&#8217;s latest changes. A better solution is to use a feature flag.</span></p>
+<p>&nbsp;</p>
+<p><b>Better Solution: Continuous integration with feature flags</b></p>
+<p><span style="font-weight: 400">A better solution is feature flags. With feature flags, you can make a natural sandbox around areas of the codebase where you&#8217;re working. If you&#8217;re working on a new dashboard, you can start with a simple boolean wrapper:</span></p>
+<p><img class="alignnone size-full wp-image-9243" src="https://blog.optimizely.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-07-at-12.28.06-PM.png" alt="" width="851" height="240" srcset="https://blog.optimizely.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-07-at-12.28.06-PM.png 851w, https://blog.optimizely.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-07-at-12.28.06-PM-768x217.png 768w" sizes="(max-width: 851px) 100vw, 851px" /></p>
+<p><span style="font-weight: 400">By merging and deploying the feature flag first before you begin working on your feature, you clearly indicate to your coworkers where new dashboard code will be and naturally avoid code conflicts when merging.</span></p>
+<p><span style="font-weight: 400">You can also merge code before the feature is completely finished because you&#8217;ve hidden the functionality from users.</span></p>
+<p><span style="font-weight: 400">With this setup, you have short-lived incremental feature-branches landing more quickly and continuously with a much less chance of running into the headache of merge conflicts.</span></p>
+<p>&nbsp;</p>
+<h2><span style="font-weight: 400">2. Iterate and Prototype exploratory code</span></h2>
+<p><b>The Problem: Production requires close to perfect code</b></p>
+<p><span style="font-weight: 400">Your company wants to innovate and you have a lot of crazy ideas, but you&#8217;re not sure if they are going to work or if they are possible in a production environment.</span></p>
+<p><span style="font-weight: 400">For example, you&#8217;re not sure if the API you are building will be performant enough on production data for it to be truly use-able.</span></p>
+<p>&nbsp;</p>
+<p><b>Ok Solution: Find expertise</b></p>
+<p><span style="font-weight: 400">One solution is to do a lot of planning or find expertise or experience in others that may help guide you to the right answer. Maybe there&#8217;s an API expert at your company you can talk to.</span></p>
+<p><span style="font-weight: 400">However, with truly innovative ideas, no one will have the expertise to guide the right answers and may only have advice. Another solution is to use feature flags to prototype in production.</span></p>
+<p>&nbsp;</p>
+<p><b>Better Solution: Prototype in production with feature flags</b></p>
+<p><span style="font-weight: 400">By using feature flags, you can deploy code to production that is not shown to your users or customers. This allows you to prototype different solutions in a real-world environment, proving or disproving what is technically possible without having to rely on knowing all information in advance.</span></p>
+<p><span style="font-weight: 400">Since the prototype is behind a feature flag, you can scrap the idea early if it is not technically feasible and the feature flag provides an easy marker for code cleanup of prototype changes.</span></p>
+<p>&nbsp;</p>
+<h2><span style="font-weight: 400">3. Understand and predict scale issues</span></h2>
+<p><b>The Problem: Improving performance is hard</b></p>
+<p><span style="font-weight: 400">Performance and scale issues are challenging. Unlike other software problems, they are hard to predict and hard to simulate.</span></p>
+<p><span style="font-weight: 400">Often times, you only find out that your feature has a scale problem when it&#8217;s too late. You have too many users and your feature is starting to fail, your performance dashboards are showing ugly spikes in delays, error rates, and response times.</span></p>
+<p>&nbsp;</p>
+<p><b>Ok Solution: Automated performance tests</b></p>
+<p><span style="font-weight: 400">One solution is to try and build performance or benchmarking tests. However, these test suites are complicated to get right because they require a very controlled environment in order to be able to accurately compare times. Furthermore, these tests often don&#8217;t actually reflect real-world experience or usage.</span></p>
+<p><span style="font-weight: 400">Another option is to use feature flags.</span></p>
+<p>&nbsp;</p>
+<p><b>Better Solution: Real-world performance testing with feature flags</b></p>
+<p><span style="font-weight: 400">By instrumenting your feature with a feature flag, you can roll out your feature to a small percentage of your traffic and measure how your feature is scaling with a given set of traffic.</span></p>
+<p><span style="font-weight: 400">Having the feature flag allows you to be more mathematical in your predictions of whether a feature will scale while also using real world traffic in production for measurement.</span></p>
+<p>&nbsp;</p>
+<h2><span style="font-weight: 400">Let us know what you think!</span></h2>
+<p><span style="font-weight: 400">Hope these 3 wins helped show you how to integrate feature flags into your development processes.</span></p>
+<p><span style="font-weight: 400">If you enjoyed this post, keep your eyes out for the next part in this blog series on feature flag use cases and sign up for <a href="https://www.optimizely.com/rollouts-signup/?utm_source=blog&amp;utm_campaign=feature-flags-use-case-1">Optimizely Rollouts</a> which is a free product that allows you to create and manage an unlimited number of feature flags!</span></p>
+]]></content:encoded>
+							<wfw:commentRss>https://blog.optimizely.com/2019/06/26/feature-flags-how-to-integrate-them-into-your-development-cycle/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">9240</post-id>	</item>
+		<item>
+		<title>Building an Experimentation Program from the Ground Up: uShip&#8217;s Journey</title>
+		<link>https://blog.optimizely.com/2019/06/26/building-an-experimentation-program-from-the-ground-up-uships-journey/</link>
+				<comments>https://blog.optimizely.com/2019/06/26/building-an-experimentation-program-from-the-ground-up-uships-journey/#respond</comments>
+				<pubDate>Wed, 26 Jun 2019 14:00:02 +0000</pubDate>
+		<dc:creator><![CDATA[Mary Zabriskie]]></dc:creator>
+				<category><![CDATA[Show Marketing Popup (Big Book)]]></category>
+		<category><![CDATA[experimentation]]></category>
+		<category><![CDATA[Experimentation Culture]]></category>
+
+		<guid isPermaLink="false">http://blog.optimizely.com/?p=9316</guid>
+				<description><![CDATA[Many companies are so daunted by the challenge of where to begin with experimentation, they never start. Here’s one customer story that may provide inspiration for individuals and teams out there who just need a little push. It’s hard to bring experimentation to a company that has no testing experts or existing experimentation culture. When [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><i><span style="font-weight: 400">Many companies are so daunted by the challenge of where to begin with experimentation, they never start. Here’s one customer story that may provide inspiration for individuals and teams out there who just need a little push.</span></i></p>
+<p><span style="font-weight: 400">It’s hard to bring experimentation to a company that has no testing experts or existing experimentation culture. When <a href="https://www.uship.com/" target="_blank" rel="noopener noreferrer">uShip</a>, an online marketplace for shipping services, began working with Optimizely in 2017 they faced tough challenges. These challenges ranged from lofty goals like having a test’s ROI be in the million dollar range to spaghetti testing (the throwing of things at the proverbial wall and hoping they stick). </span></p>
+<p><span style="font-weight: 400">In a recent webinar, </span><a href="https://www.optimizely.com/resources/uShip-building-an-experimentation-culture/" target="_blank" rel="noopener noreferrer"><span style="font-weight: 400">Building a Culture Rooted in Experimentation</span></a><span style="font-weight: 400">, uShip’s Jamy Squillace (Director of Product Management) and Brooks Lyford (Product Manager) share some of their key challenges, successes, and tips for building a culture of experimentation in a company where testing had previously been nonexistent. </span></p>
+<h1><span style="font-weight: 400">Don’t Overindex on ROI  </span></h1>
+<p><span style="font-weight: 400">uShip experienced early roadblocks that hindered process—like executive approval required on each test and needing multiple stakeholders to weigh in on ROI. Jamy noted that others starting out with experimentation shouldn’t let “perfect get in the way of good.”</span></p>
+<p><span style="font-weight: 400">By shipping tests faster, uShip could test more and learn from failures and successes—leading to increased ROI </span><span style="font-weight: 400">vis-à-vis </span><span style="font-weight: 400">experimentation. uShipers involved in the beginning were focused on perfecting tests and earning higher returns, but when the team shifted their focus to “testing to learn, not testing to earn,” they had better results.</span></p>
+<div id="attachment_9321" style="width: 2152px" class="wp-caption alignnone"><img aria-describedby="caption-attachment-9321" class="wp-image-9321 size-full" src="https://blog.optimizely.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-17-at-10.28.12-PM.png" alt="" width="2142" height="714" srcset="https://blog.optimizely.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-17-at-10.28.12-PM.png 2142w, https://blog.optimizely.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-17-at-10.28.12-PM-768x256.png 768w" sizes="(max-width: 2142px) 100vw, 2142px" /><p id="caption-attachment-9321" class="wp-caption-text">An example of a multivariate test the team ran</p></div>
+<blockquote><p><i><span style="font-weight: 400">“Don’t make things more complex than they need to be. Get the tests going, get people used to testing, learn and get the insight back to the team. Then, make sure tests are perfect.” </span></i></p></blockquote>
+<p style="padding-left: 40px"><strong><i>—</i>Jamy Squillace, Director of Product Management, uShip</strong></p>
+<p><span style="font-weight: 400">To ship more tests, uShip’s team revamped the ownership of their company’s experimentation. They decided the product team should oversee experiments and report on the success of the company’s experimentation culture. It only made sense, as the product team was in charge of the company’s roadmap. In Q1 of 2019, uShip’s product team promised six tests to the CEO, which was more tests than they ran the entirety of 2018. </span></p>
+<p><em>Tip #1</em><span style="font-weight: 400">: Give the folks that own experimentation a goal to increase the velocity of testing. </span></p>
+<h1><span style="font-weight: 400">Use feature flags</span></h1>
+<p><span style="font-weight: 400">Experimenting with feature flags helped uShip drive immediate impact by testing changes to their payment plans. Feature flags allow for features to be tested to a select audience&#8211; one benefit of them being able to test different versions of features is that you can see what experience performs best.</span></p>
+<p><span style="font-weight: 400">Using Optimizely, they tested the impact of showing different plans to 10% of their user base. In the first iteration, uShip noticed some of their power users were caught in </span><span style="font-weight: 400">a variant bucket with an isolated payment option that was not suitable for their volume of transactions</span><span style="font-weight: 400">. This revealed to uShip that people were using their products in ways they didn’t realize. This insight uncovered possible user experience improvements that uShip’s product and development teams wouldn’t have noticed without having tested this feature.  </span></p>
+<p><span style="font-weight: 400"><em>Tip #2</em>: Use feature flags to turn on or off new features or test different experiences faster.  </span></p>
+<h1><span style="font-weight: 400">Involve other teams in the organization</span></h1>
+<p><span style="font-weight: 400">Uship’s  product team owns the company’s experimentation program, but they are certain to  share the results, goals, ideas, and more with the entire company. They use all-hands meetings, bi-weekly “experimentation guild” meetings, and organize company-wide experimentation workshops to cultivate their experimentation culture. </span></p>
+<p><span style="font-weight: 400">uShip empowered their marketing team with Optimizely Web early on. But, doing so came with challenges. For example, as the marketing organization became self-sufficient in running web tests quickly, it was possible for experiments to ship without quality assurance testing. This drove home the importance of  controlled processes related to testing, an important step in experimentation maturity. </span></p>
+<p><span style="font-weight: 400">Brooks Lyford, uShip Product Manager, suggests teams be mindful of experiments going live before they&#8217;ve been tested for quality assurance. It is so quick and easy to create tests, they sometimes go live without QA, and teams must remember even with tests you have to build QA into the process. So, it’s important to make quality assurance testing part of the process to keep different departments from shipping tests or changes too soon. </span></p>
+<p><em>Tip #3</em><span style="font-weight: 400">: Make sure teams are in sync and communicating to ensure everyone is aligned on experimentation initiative</span></p>
+<p><img class="wp-image-9320 aligncenter" src="https://blog.optimizely.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-19-at-4.02.27-PM.png" alt="" width="409" height="421" /></p>
+<h1><span style="font-weight: 400">Moving forward</span></h1>
+<p><span style="font-weight: 400">uShip is looking to increase the company’s engagement in future testing and experimentation initiatives—involving departments beyond just product, development, and marketing. They’re also committed to improving their metrics and analytics as well as the visibility of their experimentation culture through a company-wide newsletter. </span></p>
+<p><span style="font-weight: 400">Creating a culture of experimentation—especially within an organization that hasn’t ever run an A/B test—will always be a steep challenge. But, by setting realistic goals, increasing test velocity, and sharing results and ideas with the entire company, teams dramatically increase the rate at which experimentation is adopted throughout the company. </span></p>
+<p><span style="font-weight: 400">For more advice from uShip’s team, click here to </span><a href="https://www.optimizely.com/resources/uShip-building-an-experimentation-culture/" target="_blank" rel="noopener noreferrer"><span style="font-weight: 400">watch the webinar</span></a><span style="font-weight: 400">. </span></p>
+]]></content:encoded>
+							<wfw:commentRss>https://blog.optimizely.com/2019/06/26/building-an-experimentation-program-from-the-ground-up-uships-journey/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">9316</post-id>	</item>
+	</channel>
+</rss>

@@ -1,0 +1,3391 @@
+
+
+
+
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/">
+	<channel>
+		<title>JavaWorld</title>
+		<link>https://www.javaworld.com</link>
+		<description></description>
+		<language>en-us</language>
+		<pubDate>Thu, 01 Aug 2019 14:10:19 -0700</pubDate>
+		<lastBuildDate>Thu, 01 Aug 2019 14:10:19 -0700</lastBuildDate>
+		
+			<image>
+				<url>https://idge.staticworld.net/jvw/javaworld510x510.png</url>
+				<title>JavaWorld</title>
+				<link>www.javaworld.com</link>
+				<width>510</width>
+				<height>510</height>
+			</image>
+		
+		
+			<image>
+				<url>https://idge.staticworld.net/jvw/javaworld798x288.png</url>
+				<title>JavaWorld</title>
+				<link>www.javaworld.com</link>
+				<width>796</width>
+				<height>288</height>
+			</image>
+		
+		
+
+	
+		
+			
+				
+				
+					
+						
+							
+							
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+		
+	
+	
+	
+	
+
+
+
+	
+	
+	
+	<item>
+
+		<title>13 free tools for API design, development, and testing</title>
+
+		<pubDate>Wed, 31 Jul 2019 03:00:00 -0700</pubDate>
+
+		
+		
+		
+		<author>Serdar Yegulalp</author>
+		<dc:creator>Serdar Yegulalp</dc:creator>
+		
+
+		
+		
+		<description><![CDATA[<p>The <a href="https://www.infoworld.com/article/3269878/apis/what-is-an-api-application-programming-interfaces-explained.html" rel="noopener" target="_blank">rise of RESTful APIs</a> has been met by a rise in tools for creating, testing, and managing them. Whether you’re an API newbie or an expert on an intractable deadline, you have a gamut of services to help you bring your API from concept to production, and many of them won’t cost you a dime.<p class="jumpTag"><a href="/article/3429366/13-free-tools-for-api-design-development-and-testing.html#jump">To read this article in full, please click here</a></p></section></article>]]>(Insider Story)</description>
+
+		<link>https://www.javaworld.com/article/3429366/13-free-tools-for-api-design-development-and-testing.html#tk.rss_all</link>
+		
+		
+		
+		
+		
+			
+				
+				
+					<media:thumbnail
+						url="https://images.idgesg.net/images/article/2018/02/binary_code_data_tunnel_thinkstock_473265020-100749733-large.3x2.jpg" />
+						<media:content url="https://images.idgesg.net/images/article/2018/02/binary_code_data_tunnel_thinkstock_473265020-100749733-large.3x2.jpg"/>
+				
+			
+		
+		
+		
+
+		
+		
+			<categories>
+				
+				
+					
+						<category>APIs</category>
+					
+				
+				
+					
+						<category>Web Services</category>
+					
+				
+				
+					
+						<category>Software Development</category>
+					
+				
+				
+					
+						<category>Cloud Computing</category>
+					
+				
+				
+					
+						<category>Open Source</category>
+					
+				
+				<category>IDG Insider</category>
+			</categories>
+ 		
+		
+	</item>
+ 
+					
+				
+			
+		
+			
+				
+				
+					
+						
+							
+							
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+		
+	
+	
+	
+	
+
+
+
+	
+	
+	
+	<item>
+
+		<title>The best graph databases</title>
+
+		<pubDate>Mon, 29 Jul 2019 03:00:00 -0700</pubDate>
+
+		
+		
+		
+		<author>Martin Heller</author>
+		<dc:creator>Martin Heller</dc:creator>
+		
+
+		
+		
+		<description><![CDATA[<p>Graph databases, which explicitly express the connections between nodes, are more efficient at the analysis of networks (computer, human, geographic, or otherwise) than relational databases. That gives graph databases a leg up for applications such as fraud detection and recommendation systems.<p class="jumpTag"><a href="/article/3428498/the-best-graph-databases.html#jump">To read this article in full, please click here</a></p></section></article>]]>(Insider Story)</description>
+
+		<link>https://www.javaworld.com/article/3428498/the-best-graph-databases.html#tk.rss_all</link>
+		
+		
+		
+		
+		
+			
+				
+				
+					<media:thumbnail
+						url="https://images.techhive.com/images/article/2016/08/thinkstockphotos-509731276-100677664-primary.idge.jpg" />
+						<media:content url="https://images.techhive.com/images/article/2016/08/thinkstockphotos-509731276-100677664-primary.idge.jpg"/>
+				
+			
+		
+		
+		
+
+		
+		
+			<categories>
+				
+				
+					
+						<category>Database</category>
+					
+				
+				
+					
+						<category>Graph Databases</category>
+					
+				
+				
+					
+						<category>Development Tools</category>
+					
+				
+				
+					
+						<category>Software Development</category>
+					
+				
+				
+					
+						<category>Analytics</category>
+					
+				
+				<category>IDG Insider</category>
+			</categories>
+ 		
+		
+	</item>
+ 
+					
+				
+			
+		
+			
+				
+				
+					
+						
+							
+							
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+		
+	
+	
+	
+	
+
+
+
+	
+	
+	
+	<item>
+
+		<title>NetBeans 11.1 adds Java EE 8 support</title>
+
+		<pubDate>Thu, 25 Jul 2019 15:01:00 -0700</pubDate>
+
+		
+		
+		
+		<author>Paul Krill</author>
+		<dc:creator>Paul Krill</dc:creator>
+		
+
+		
+		
+		<description><![CDATA[<article>
+	<section class="page">
+<p>Apache NetBeans 11.1, the first release in a new quarterly release cycle for the integrated development environment, builds on its longstanding support for enterprise Java.</p><p>Released July 22, 2019, NetBeans 11.1 provides <a href="https://www.infoworld.com/article/3226777/java-ee-8-is-here-what-you-need-to-know.html">Java EE (Enterprise Edition) 8</a> support for Maven-based and Gradle-based web applications, allowing them to be deployed to Java EE 8 containers. NetBeans 11.1 also integrates with Payara, a replacement for the GlassFish Java server, and GlassFish 5.01.</p><aside class="fakesidebar"><strong>[ The new Java is coming! Learn everything you need to know about <a href="https://www.infoworld.com/article/3340052/jdk-13-the-new-features-coming-to-java-13.html">what’s new in Java JDK 13</a>. | Discover the <a href="https://www.infoworld.com/article/3269210/java-roadmap-eclipses-jakarta-ee-enterprise-java-takes-shape.html">Jakarta EE enterprise Java roadmap</a>. | Keep up with hot topics in programming with InfoWorld’s <a href="https://www.infoworld.com/newsletters/signup.html">App Dev Report newsletter</a>. ]</strong></aside>
+<aside class="fakesidebar"/>
+<p>The NetBeans Java code editor supports new Java language features including switch expressions and an enhancement to the Java launcher to support single-file source-code programs. Switch expressions were introduced in a preview form in Java Development Kit (JDK) 12. NetBeans 11.1 also integrates with the Gluon OpenJFX samples for JavaFX.</p><p class="jumpTag"><a href="/article/3428637/netbeans-111-adds-java-ee-8-support.html#jump">To read this article in full, please click here</a></p></section></article>]]></description>
+
+		<link>https://www.javaworld.com/article/3428637/netbeans-111-adds-java-ee-8-support.html#tk.rss_all</link>
+		
+		
+		
+		
+		
+			
+				
+				
+					<media:thumbnail
+						url="https://images.idgesg.net/images/article/2018/06/java_coffee_beans_by_couleur_cc0_via_pixabay_1200x800-100760555-large.3x2.jpg" />
+						<media:content url="https://images.idgesg.net/images/article/2018/06/java_coffee_beans_by_couleur_cc0_via_pixabay_1200x800-100760555-large.3x2.jpg"/>
+				
+			
+		
+		
+		
+
+		
+		
+			<categories>
+				
+				
+					
+						<category>Java</category>
+					
+				
+				
+					
+						<category>Software Development</category>
+					
+				
+				
+					
+						<category>Development Tools</category>
+					
+				
+				
+			</categories>
+ 		
+		
+	</item>
+ 
+					
+				
+			
+		
+			
+				
+				
+					
+						
+							
+							
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+		
+	
+	
+	
+	
+
+
+
+	
+	
+	
+	<item>
+
+		<title>The best distributed NoSQL databases</title>
+
+		<pubDate>Thu, 25 Jul 2019 10:43:00 -0700</pubDate>
+
+		
+		
+		
+		<author>Martin Heller</author>
+		<dc:creator>Martin Heller</dc:creator>
+		
+
+		
+		
+		<description><![CDATA[<p>The modern sense of <a href="https://www.infoworld.com/article/3240644/what-is-nosql-nosql-databases-explained.html">NoSQL</a>, which dates from 2009, refers to databases that are not built on relational tables, unlike <a href="https://www.infoworld.com/article/3219795/what-is-sql-structured-query-language-explained.html">SQL databases</a>. Often, <a href="https://www.infoworld.com/article/3240644/what-is-nosql-nosql-databases-explained.html">NoSQL databases</a> boast better design flexibility, horizontal scalability, and higher availability than traditional SQL databases, sometimes at the cost of weaker consistency.<p class="jumpTag"><a href="/article/3411564/the-best-distributed-nosql-databases.html#jump">To read this article in full, please click here</a></p></section></article>]]>(Insider Story)</description>
+
+		<link>https://www.javaworld.com/article/3411564/the-best-distributed-nosql-databases.html#tk.rss_all</link>
+		
+		
+		
+		
+		
+			
+				
+				
+					<media:thumbnail
+						url="https://images.idgesg.net/images/article/2018/02/big_data_fintech_globe_thinkstock_826139768-100749747-large.3x2.jpg" />
+						<media:content url="https://images.idgesg.net/images/article/2018/02/big_data_fintech_globe_thinkstock_826139768-100749747-large.3x2.jpg"/>
+				
+			
+		
+		
+		
+
+		
+		
+			<categories>
+				
+				
+					
+						<category>Database</category>
+					
+				
+				
+					
+						<category>NoSQL</category>
+					
+				
+				
+					
+						<category>Software Development</category>
+					
+				
+				
+					
+						<category>Analytics</category>
+					
+				
+				
+					
+						<category>Cloud Computing</category>
+					
+				
+				
+					
+						<category>Enterprise Architecture</category>
+					
+				
+				<category>IDG Insider</category>
+			</categories>
+ 		
+		
+	</item>
+ 
+					
+				
+			
+		
+			
+				
+				
+					
+						
+							
+							
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+		
+	
+	
+	
+	
+
+
+
+	
+	
+	
+	<item>
+
+		<title>5 machine learning tools to ease software development</title>
+
+		<pubDate>Thu, 25 Jul 2019 10:41:00 -0700</pubDate>
+
+		
+		
+		
+		<author>Serdar Yegulalp</author>
+		<dc:creator>Serdar Yegulalp</dc:creator>
+		
+
+		
+		
+		<description><![CDATA[<p>Most discussions of developers making use of machine learning revolve around creating AI-powered applications and the tools used to create them: <a href="https://www.infoworld.com/article/3405641/tensorflow-2-review-easier-end-to-end-machine-learning.html">TensorFlow</a>, <a href="https://www.infoworld.com/article/3289633/pytorch-review-a-deep-learning-framework-built-for-speed.html">PyTorch</a>, <a href="https://www.infoworld.com/article/3158509/review-scikit-learn-shines-for-simpler-machine-learning.html">Scikit-learn</a>, <a href="https://www.infoworld.com/article/3163525/the-best-machine-learning-and-deep-learning-libraries.html">and so on</a>.<p class="jumpTag"><a href="/article/3411565/5-machine-learning-tools-to-ease-software-development.html#jump">To read this article in full, please click here</a></p></section></article>]]>(Insider Story)</description>
+
+		<link>https://www.javaworld.com/article/3411565/5-machine-learning-tools-to-ease-software-development.html#tk.rss_all</link>
+		
+		
+		
+		
+		
+			
+				
+				
+					<media:thumbnail
+						url="https://images.idgesg.net/images/article/2018/02/coding_programming_development_binary_stream_monitor_thinkstock_846758904-100749646-large.3x2.jpg" />
+						<media:content url="https://images.idgesg.net/images/article/2018/02/coding_programming_development_binary_stream_monitor_thinkstock_846758904-100749646-large.3x2.jpg"/>
+				
+			
+		
+		
+		
+
+		
+		
+			<categories>
+				
+				
+					
+						<category>Software Development</category>
+					
+				
+				
+					
+						<category>Analytics</category>
+					
+				
+				
+					
+						<category>Machine Learning</category>
+					
+				
+				
+					
+						<category>Development Tools</category>
+					
+				
+				
+					
+						<category>Java</category>
+					
+				
+				
+					
+						<category>Python</category>
+					
+				
+				<category>IDG Insider</category>
+			</categories>
+ 		
+		
+	</item>
+ 
+					
+				
+			
+		
+			
+				
+				
+					
+						
+							
+							
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+		
+	
+	
+	
+	
+
+
+
+	
+	
+	
+	<item>
+
+		<title>JDK 13: The new features coming to Java 13</title>
+
+		<pubDate>Tue, 23 Jul 2019 09:15:00 -0700</pubDate>
+
+		
+		
+		
+		<author>Paul Krill</author>
+		<dc:creator>Paul Krill</dc:creator>
+		
+
+		
+		
+		<description><![CDATA[<article>
+	<section class="page">
+<p><a href="https://openjdk.java.net/projects/jdk/13/" rel="nofollow" target="_blank">Java Development Kit (JDK) 13</a>, the next version of standard Java, has reached its second “rampdown” phase, and thus all of the new features have been locked down. One capability proposed for JDK 13 but never added to the official list, the <code>jpackage</code> tool for packaging self-contained Java applications, has missed the cut. It is no longer under consideration for JDK 13.</p><p><strong>[ The new Java is coming! Discover the <a href="https://www.infoworld.com/article/3269210/java-roadmap-eclipses-jakarta-ee-enterprise-java-takes-shape.html" target="_blank">Jakarta EE enterprise Java roadmap</a>. | The new Java versions are here! Learn everything you need to know about <a href="https://www.infoworld.com/article/3265447/java-jdk-11-all-the-new-features-now-available.html" target="_blank">what’s new in Java JDK 11</a> and <a href="https://www.infoworld.com/article/3198989/java/the-road-to-java-9-the-current-status.html" target="_blank">what’s new in Java EE 8</a>. | Keep up with hot topics in programming with InfoWorld’s <a href="https://www.infoworld.com/newsletters/signup.html" target="_blank">App Dev Report newsletter</a>. ]</strong></p><p class="jumpTag"><a href="/article/3341388/jdk-13-the-new-features-coming-to-java-13.html#jump">To read this article in full, please click here</a></p></section></article>]]></description>
+
+		<link>https://www.javaworld.com/article/3341388/jdk-13-the-new-features-coming-to-java-13.html#tk.rss_all</link>
+		
+		
+		
+		
+		
+			
+				
+				
+					<media:thumbnail
+						url="https://images.idgesg.net/images/article/2018/12/java-coffee_lover-100782397-large.3x2.jpg" />
+						<media:content url="https://images.idgesg.net/images/article/2018/12/java-coffee_lover-100782397-large.3x2.jpg"/>
+				
+			
+		
+		
+		
+
+		
+		
+			<categories>
+				
+				
+					
+						<category>Java</category>
+					
+				
+				
+					
+						<category>Languages and Runtimes</category>
+					
+				
+				
+					
+						<category>Open Source</category>
+					
+				
+				
+					
+						<category>Software Development</category>
+					
+				
+				
+			</categories>
+ 		
+		
+	</item>
+ 
+					
+				
+			
+		
+			
+				
+				
+					
+						
+							
+							
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+		
+	
+	
+	
+	
+
+
+
+	
+	
+	
+		
+			
+			
+		
+		
+	<item>
+
+		<title>Java Challengers #7: Debugging Java inheritance</title>
+
+		<pubDate>Tue, 23 Jul 2019 00:00:00 -0700</pubDate>
+
+		
+		
+		
+		<author>Rafael Chinelato Del Nero</author>
+		<dc:creator>Rafael Chinelato Del Nero</dc:creator>
+		
+
+		
+		
+		<description><![CDATA[<article>
+	<section class="page">
+<p>Inheritance and composition are two programming techniques developers use to establish relationships between classes and objects. Whereas inheritance derives one class from another, composition defines a class as the sum of its parts.</p><p>Classes and objects created through inheritance are <em>tightly coupled</em> because changing the parent or superclass in an inheritance relationship risks breaking your code. Classes and objects created through composition are <em>loosely coupled</em>, meaning that you can more easily change the component parts without breaking your code.</p><p>Because loosely coupled code offers more flexibility, many developers have learned that composition is a better technique than inheritance, but the truth is more complex. Choosing a programming tool is similar to choosing the correct kitchen tool: You wouldn't use a butter knife to cut vegetables, and in the same way you shouldn't choose composition for every programming scenario. </p><p class="jumpTag"><a href="/article/3409071/java-challenger-7-debugging-java-inheritance.html#jump">To read this article in full, please click here</a></p></section></article>]]></description>
+
+		<link>https://www.javaworld.com/article/3409071/java-challenger-7-debugging-java-inheritance.html#tk.rss_all</link>
+		
+		
+		
+		
+		
+			
+				
+				
+					<media:thumbnail
+						url="https://images.idgesg.net/images/article/2019/05/abstract_connections_network_object_ineritance_root_superclass_by_koto_feja_gettyimages-974104916_2400x1600-100795778-large.3x2.jpg" />
+						<media:content url="https://images.idgesg.net/images/article/2019/05/abstract_connections_network_object_ineritance_root_superclass_by_koto_feja_gettyimages-974104916_2400x1600-100795778-large.3x2.jpg"/>
+				
+			
+		
+		
+		
+
+		
+		
+			<categories>
+				
+				
+					
+						<category>Java</category>
+					
+				
+				
+					
+						<category>Core Java</category>
+					
+				
+				
+					
+						<category>Learn Java</category>
+					
+				
+				
+			</categories>
+ 		
+		
+	</item>
+ 
+					
+				
+			
+		
+			
+				
+				
+					
+						
+							
+							
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+		
+	
+	
+	
+	
+
+
+
+	
+	
+	
+	<item>
+
+		<title>OpenJDK proposal: Dump Mercurial for Git</title>
+
+		<pubDate>Thu, 18 Jul 2019 09:59:00 -0700</pubDate>
+
+		
+		
+		
+		<author>Paul Krill</author>
+		<dc:creator>Paul Krill</dc:creator>
+		
+
+		
+		
+		<description><![CDATA[<article>
+	<section class="page">
+<p>Single-repo OpenJDK projects would move from Mercurial to <a href="https://www.infoworld.com/article/3257791/git-essentials-get-started-with-git-version-control.html">Git version control</a> under a <a href="https://openjdk.java.net/jeps/357" rel="nofollow">JDK Enhancement Proposal</a> (JEP) being reviewed by Mark Reinhold, chief architect of the Java platform group at Oracle.</p><p>A primary motivation behind the effort is reducing the size of version control metadata, which would preserve disk space and reduce clone size. The proposal notes that the <code>.git</code> directory of the <code>jdk/jdk</code> repo is approximately 300 MB with Git while the <code>.hg</code> directory is around 1.2 GB with Mercurial, depending on the version of Mercurial in use.</p><p class="jumpTag"><a href="/article/3410218/openjdk-proposal-dump-mercurial-for-git.html#jump">To read this article in full, please click here</a></p></section></article>]]></description>
+
+		<link>https://www.javaworld.com/article/3410218/openjdk-proposal-dump-mercurial-for-git.html#tk.rss_all</link>
+		
+		
+		
+		
+		
+			
+				
+				
+					<media:thumbnail
+						url="https://images.techhive.com/images/article/2017/01/coffee-shop-1045065_1920-100703949-large.3x2.jpg" />
+						<media:content url="https://images.techhive.com/images/article/2017/01/coffee-shop-1045065_1920-100703949-large.3x2.jpg"/>
+				
+			
+		
+		
+		
+
+		
+		
+			<categories>
+				
+				
+					
+						<category>Java</category>
+					
+				
+				
+					
+						<category>Open Source</category>
+					
+				
+				
+					
+						<category>Software Development</category>
+					
+				
+				
+					
+						<category>Development Tools</category>
+					
+				
+				
+			</categories>
+ 		
+		
+	</item>
+ 
+					
+				
+			
+		
+			
+				
+				
+					
+						
+							
+							
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+		
+	
+	
+	
+	
+
+
+
+	
+	
+	
+	<item>
+
+		<title>Eclipse enterprise Java is due in September 2019</title>
+
+		<pubDate>Thu, 18 Jul 2019 09:58:00 -0700</pubDate>
+
+		
+		
+		
+		<author>Paul Krill</author>
+		<dc:creator>Paul Krill</dc:creator>
+		
+
+		
+		
+		<description><![CDATA[<article>
+	<section class="page">
+<p>Jakarta EE 8, an <a href="https://www.infoworld.com/article/3254191/vote-now-for-enterprise-javas-new-name.html">Eclipse Foundation implementation</a> of enterprise Java that promises to be fully compatible with <a href="https://www.infoworld.com/article/3226777/java-ee-8-is-here-what-you-need-to-know.html">Java Enterprise Edition 8</a>, is expected to arrive September 10, 2019. Eclipse has made the Jakarta EE platform specifications <a href="https://github.com/orgs/eclipse-ee4j/projects" rel="nofollow">available on GitHub</a>.</p><p>The foundation reported progress this week on <a href="https://github.com/orgs/eclipse-ee4j/projects/14" rel="nofollow">Jakarta TCK (Technology Compatiblity Kit) Jobs</a>, <a href="https://github.com/orgs/eclipse-ee4j/projects/11" rel="nofollow">Jakarta Specification Project Names</a>, and <a href="https://github.com/orgs/eclipse-ee4j/projects/10" rel="nofollow">Jakarta Specification Scope Statements</a>. The TCK 1.0 process document is expected to be completed in the near future. This document will cover aspects such as the materials a TCK must have in order to be considered suitable for providing portability, the process for challenging tests, and resolving them.</p><p class="jumpTag"><a href="/article/3410317/eclipse-enterprise-java-due-in-september.html#jump">To read this article in full, please click here</a></p></section></article>]]></description>
+
+		<link>https://www.javaworld.com/article/3410317/eclipse-enterprise-java-due-in-september.html#tk.rss_all</link>
+		
+		
+		
+		
+		
+			
+				
+				
+					<media:thumbnail
+						url="https://images.techhive.com/images/article/2016/11/solar-eclipse-100526609-orig-100693873-large.3x2.jpg" />
+						<media:content url="https://images.techhive.com/images/article/2016/11/solar-eclipse-100526609-orig-100693873-large.3x2.jpg"/>
+				
+			
+		
+		
+		
+
+		
+		
+			<categories>
+				
+				
+					
+						<category>Java</category>
+					
+				
+				
+					
+						<category>Enterprise Java</category>
+					
+				
+				
+					
+						<category>Open Source</category>
+					
+				
+				
+					
+						<category>Software Development</category>
+					
+				
+				
+			</categories>
+ 		
+		
+	</item>
+ 
+					
+				
+			
+		
+			
+				
+				
+					
+						
+							
+							
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+		
+	
+	
+	
+	
+
+
+
+	
+	
+	
+	<item>
+
+		<title>Facebook JavaScript engine boosts React Native on Android</title>
+
+		<pubDate>Mon, 15 Jul 2019 18:40:00 -0700</pubDate>
+
+		
+		
+		
+		<author>Paul Krill</author>
+		<dc:creator>Paul Krill</dc:creator>
+		
+
+		
+		
+		<description><![CDATA[<article>
+	<section class="page">
+<p>Facebook has built a JavaScript engine, called Hermes, that improves the performance of <a href="https://www.infoworld.com/article/3296736/react-native-javascript-framework-stumbles.html">React Native applications</a> on Android devices. While the open-source engine is optimized for React Native today, it could be used to improve the performance of JavaScript-based mobile applications generally. </p><p>Specifically, Hermes is geared to fast startup, leveraging compact bytecode and ahead-of-time static optimization. In many cases, enabling Hermes will improve startup time, decrease memory usage, and result in smaller app size.</p><aside class="fakesidebar"><strong>[ Using Visual Studio Code? Don’t miss these <a href="https://www.infoworld.com/article/3390988/10-visual-studio-code-extensions-for-every-developer.html">10 Visual Studio Code extensions for every developer</a>. • Learn <a href="https://www.infoworld.com/article/3231655/application-development/whats-new-in-microsoft-visual-studio-code.html">what’s new in the latest version of Visual Studio Code</a>. | Keep up with hot topics in programming with InfoWorld’s <a href="https://www.infoworld.com/newsletters/signup.html">App Dev Report newsletter</a>. ]</strong></aside>
+<aside class="fakesidebar"/>
+<p>Hermes currently is an opt-in feature in React Native. Most of Facebook’s React Native products on Android are already using Hermes, including Crisis Response and the Oculus companion app.</p><p class="jumpTag"><a href="/article/3409046/facebook-javascript-engine-boosts-react-native-on-android.html#jump">To read this article in full, please click here</a></p></section></article>]]></description>
+
+		<link>https://www.javaworld.com/article/3409046/facebook-javascript-engine-boosts-react-native-on-android.html#tk.rss_all</link>
+		
+		
+		
+		
+		
+			
+				
+				
+					<media:thumbnail
+						url="https://images.idgesg.net/images/article/2019/01/motor_engine_auto_close-up_by_tamara_stuckmeyer_cc0_via_pixabay-100784976-large.3x2.jpg" />
+						<media:content url="https://images.idgesg.net/images/article/2019/01/motor_engine_auto_close-up_by_tamara_stuckmeyer_cc0_via_pixabay-100784976-large.3x2.jpg"/>
+				
+			
+		
+		
+		
+
+		
+		
+			<categories>
+				
+				
+					
+						<category>JavaScript</category>
+					
+				
+				
+					
+						<category>Mobile Development</category>
+					
+				
+				
+					
+						<category>Web Development</category>
+					
+				
+				
+					
+						<category>Android</category>
+					
+				
+				
+					
+						<category>Software Development</category>
+					
+				
+				
+			</categories>
+ 		
+		
+	</item>
+ 
+					
+				
+			
+		
+			
+				
+				
+					
+						
+							
+							
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+		
+	
+	
+	
+	
+
+
+
+	
+	
+	
+	<item>
+
+		<title>Golang 1.13 adds number literal prefixes</title>
+
+		<pubDate>Mon, 15 Jul 2019 18:39:00 -0700</pubDate>
+
+		
+		
+		
+		<author>Paul Krill</author>
+		<dc:creator>Paul Krill</dc:creator>
+		
+
+		
+		
+		<description><![CDATA[<article>
+	<section class="page">
+<p>Go (golang) 1.13, the next version of <a href="https://www.infoworld.com/article/3201037/whats-new-in-googles-go-language.html">Google’s open source language</a>, is now in a beta stage. The update supports a more uniform and modernized set of number literal prefixes.</p><p>Go 1.13 is expected to graduate to production release status in August 2019. Language changes in the release abide by the <a href="https://github.com/golang/proposal/blob/master/design/19308-number-literals.md" rel="nofollow">golang number literal proposal</a>, which extends the language to make it easier for developers to move between Go and other “C-numbered” languages including C, C++, C#, Java, and JavaScript. </p><p class="jumpTag"><a href="/article/3408788/golang-113-adds-number-literal-prefixes.html#jump">To read this article in full, please click here</a></p></section></article>]]></description>
+
+		<link>https://www.javaworld.com/article/3408788/golang-113-adds-number-literal-prefixes.html#tk.rss_all</link>
+		
+		
+		
+		
+		
+			
+				
+				
+					<media:thumbnail
+						url="https://images.techhive.com/images/article/2015/08/thinkstockphotos-483544679-100610273-primary.idge.jpg" />
+						<media:content url="https://images.techhive.com/images/article/2015/08/thinkstockphotos-483544679-100610273-primary.idge.jpg"/>
+				
+			
+		
+		
+		
+
+		
+		
+			<categories>
+				
+				
+					
+						<category>Google Go</category>
+					
+				
+				
+					
+						<category>Languages and Runtimes</category>
+					
+				
+				
+					
+						<category>Development Tools</category>
+					
+				
+				
+					
+						<category>Software Development</category>
+					
+				
+				
+			</categories>
+ 		
+		
+	</item>
+ 
+					
+				
+			
+		
+			
+				
+				
+					
+						
+							
+							
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+		
+	
+	
+	
+	
+
+
+
+	
+	
+	
+	<item>
+
+		<title>The best machine learning and deep learning libraries</title>
+
+		<pubDate>Mon, 15 Jul 2019 18:38:00 -0700</pubDate>
+
+		
+		
+		
+		<author>Martin Heller</author>
+		<dc:creator>Martin Heller</dc:creator>
+		
+
+		
+		
+		<description><![CDATA[<p>If you’re starting a new machine learning or deep learning project, you may be confused about which framework to choose. As we’ll discuss, there are several good options for both kinds of projects.</p><h2 class="toc">TensorFlow</h2><p class="jumpTag"><a href="/article/3409095/the-best-machine-learning-and-deep-learning-libraries.html#jump">To read this article in full, please click here</a></p></section></article>]]>(Insider Story)</description>
+
+		<link>https://www.javaworld.com/article/3409095/the-best-machine-learning-and-deep-learning-libraries.html#tk.rss_all</link>
+		
+		
+		
+		
+		
+			
+				
+				
+					<media:thumbnail
+						url="https://images.idgesg.net/images/article/2019/02/artificial_intelligence_human_profile_containing_digital_wireframe_of_technology_connections_by_sadsadang_gettyimages-1075427272_2400x1600-100788439-large.3x2.jpg" />
+						<media:content url="https://images.idgesg.net/images/article/2019/02/artificial_intelligence_human_profile_containing_digital_wireframe_of_technology_connections_by_sadsadang_gettyimages-1075427272_2400x1600-100788439-large.3x2.jpg"/>
+				
+			
+		
+		
+		
+
+		
+		
+			<categories>
+				
+				
+					
+						<category>Machine Learning</category>
+					
+				
+				
+					
+						<category>Deep Learning</category>
+					
+				
+				
+					
+						<category>Artificial Intelligence</category>
+					
+				
+				
+					
+						<category>Big Data</category>
+					
+				
+				
+					
+						<category>Analytics</category>
+					
+				
+				
+					
+						<category>Open Source</category>
+					
+				
+				
+					
+						<category>Data Science</category>
+					
+				
+				<category>IDG Insider</category>
+			</categories>
+ 		
+		
+	</item>
+ 
+					
+				
+			
+		
+			
+				
+				
+					
+						
+							
+							
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+		
+	
+	
+	
+	
+
+
+
+	
+	
+	
+		
+			
+			
+		
+		
+	<item>
+
+		<title>Java 101: Interfaces in Java</title>
+
+		<pubDate>Mon, 15 Jul 2019 18:00:00 -0700</pubDate>
+
+		
+		
+		
+		<author>Jeff Friesen</author>
+		<dc:creator>Jeff Friesen</dc:creator>
+		
+
+		
+		
+		<description><![CDATA[<article>
+	<section class="page">
+<p>Java interfaces are different from classes, and it's important to know how to use their special properties in your Java programs. This tutorial introduces the difference between classes and interfaces, then guides you through examples demonstrating how to declare, implement, and extend Java interfaces.</p><p>You'll also learn how the interface has evolved in Java 8, with the addition of default and static methods, and in Java 9 with the new private methods. These additions make interfaces more useful to experienced developers. Unfortunately, they also blur the lines between classes and interfaces, making interface programming even more confusing to Java beginners.</p><p class="jumpTag"><a href="/article/3171300/java-101-interfaces-in-java.html#jump">To read this article in full, please click here</a></p></section></article>]]></description>
+
+		<link>https://www.javaworld.com/article/3171300/java-101-interfaces-in-java.html#tk.rss_all</link>
+		
+		
+		
+		
+		
+			
+				
+				
+					<media:thumbnail
+						url="https://images.techhive.com/images/article/2017/02/interfaces-j101-100709755-large.3x2.jpg" />
+						<media:content url="https://images.techhive.com/images/article/2017/02/interfaces-j101-100709755-large.3x2.jpg"/>
+				
+			
+		
+		
+		
+
+		
+		
+			<categories>
+				
+				
+					
+						<category>Java</category>
+					
+				
+				
+					
+						<category>Learn Java</category>
+					
+				
+				
+					
+						<category>Core Java</category>
+					
+				
+				
+					
+						<category>Languages and Runtimes</category>
+					
+				
+				
+			</categories>
+ 		
+		
+	</item>
+ 
+					
+				
+			
+		
+			
+				
+				
+					
+						
+							
+							
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+		
+	
+	
+	
+	
+
+
+
+	
+	
+	
+	<item>
+
+		<title>OpenJDK Mobile: A plan to bring Java to iOS</title>
+
+		<pubDate>Thu, 11 Jul 2019 10:40:00 -0700</pubDate>
+
+		
+		
+		
+		<author>Paul Krill</author>
+		<dc:creator>Paul Krill</dc:creator>
+		
+
+		
+		
+		<description><![CDATA[<article>
+	<section class="page">
+<p>A proposal floating in the OpenJDK community seeks to jumpstart Java on Apple’s iOS. The plan involves restarting work on the OpenJDK Mobile project, which is intended to build the OpenJDK classes and API for iOS and Android, said Johan Vos, CTO at mobile developer Gluon.</p><p>Vos recently posted a <a href="https://mail.openjdk.java.net/pipermail/mobile-dev/2019-June/000584.html" rel="nofollow">bulletin pertaining to these efforts</a>. OpenJDK Mobile centers on providing the same APIs in the latest version of the OpenJDK source repository to iOS and Android, leveraging tools familiar to Java developers. The first focus, though, is on iOS, which has lacked traditional support for Java. Apple has not allowed the <a href="https://www.infoworld.com/article/2654278/no-java—flash-for-iphone-this-christmas.html">Java Virtual Machine</a> to run on the platform.</p><p class="jumpTag"><a href="/article/3408677/a-plan-to-bring-java-to-ios.html#jump">To read this article in full, please click here</a></p></section></article>]]></description>
+
+		<link>https://www.javaworld.com/article/3408677/a-plan-to-bring-java-to-ios.html#tk.rss_all</link>
+		
+		
+		
+		
+		
+			
+				
+				
+					<media:thumbnail
+						url="https://images.techhive.com/images/article/2015/08/thinkstockphotos-482140172-100610268-primary.idge.jpg" />
+						<media:content url="https://images.techhive.com/images/article/2015/08/thinkstockphotos-482140172-100610268-primary.idge.jpg"/>
+				
+			
+		
+		
+		
+
+		
+		
+			<categories>
+				
+				
+					
+						<category>Java</category>
+					
+				
+				
+					
+						<category>iOS</category>
+					
+				
+				
+					
+						<category>Android</category>
+					
+				
+				
+					
+						<category>Software Development</category>
+					
+				
+				
+					
+						<category>Mobile Java</category>
+					
+				
+				
+			</categories>
+ 		
+		
+	</item>
+ 
+					
+				
+			
+		
+			
+				
+				
+					
+						
+							
+							
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+		
+	
+	
+	
+	
+
+
+
+	
+	
+	
+	<item>
+
+		<title>MacOS targeted for new Java graphics pipeline</title>
+
+		<pubDate>Thu, 11 Jul 2019 10:38:00 -0700</pubDate>
+
+		
+		
+		
+		<author>Paul Krill</author>
+		<dc:creator>Paul Krill</dc:creator>
+		
+
+		
+		
+		<description><![CDATA[<article>
+	<section class="page">
+<p>Java would get a new graphics rendering pipeline for MacOS based on <a href="https://www.infoworld.com/article/3167886/apple-proposes-gpu-api-for-3d-graphics-on-the-web.html">Apple’s Metal graphics APIs</a>, under a proposal called the Lanai Project, being floated in the OpenJDK community.</p><p>Engineers from Oracle and JetBrains already have been exploring the Metal APIs, working on proofs of concept and prototypes in the JDK sandbox. Metal was designed as a long-term replacement for OpenGL as a rendering pipeline on Apple platforms, offering better performance and simpler GPU designs.</p><aside class="fakesidebar"><strong>[ The new Java is coming! Learn everything you need to know about <a href="https://www.infoworld.com/article/3340052/jdk-13-the-new-features-coming-to-java-13.html">what’s new in Java JDK 13</a>. | Discover the <a href="https://www.infoworld.com/article/3269210/java-roadmap-eclipses-jakarta-ee-enterprise-java-takes-shape.html">Jakarta EE enterprise Java roadmap</a>. | Keep up with hot topics in programming with InfoWorld’s <a href="https://www.infoworld.com/newsletters/signup.html">App Dev Report newsletter</a>. ]</strong></aside>
+<aside class="fakesidebar"/>
+<p>The Java Development Kit and <a href="https://www.infoworld.com/article/3305073/removed-from-jdk-11-javafx-11-arrives-as-a-standalone-module.html">OpenJFX</a> currently use OpenGL, which Apple has deprecated. Currently, if OpenGL is not present in a MacOS system, JDK desktop APIs cannot function and will not start. OpenJFX is in a similar spot. Goals of Lanai include:</p><p class="jumpTag"><a href="/article/3408638/macos-targeted-for-new-java-graphics-pipeline.html#jump">To read this article in full, please click here</a></p></section></article>]]></description>
+
+		<link>https://www.javaworld.com/article/3408638/macos-targeted-for-new-java-graphics-pipeline.html#tk.rss_all</link>
+		
+		
+		
+		
+		
+			
+				
+				
+					<media:thumbnail
+						url="https://images.idgesg.net/images/article/2019/05/java_binary_code_gears_programming_coding_development_by_bluebay2014_gettyimages-1040871468_2400x1600-100795798-large.3x2.jpg" />
+						<media:content url="https://images.idgesg.net/images/article/2019/05/java_binary_code_gears_programming_coding_development_by_bluebay2014_gettyimages-1040871468_2400x1600-100795798-large.3x2.jpg"/>
+				
+			
+		
+		
+		
+
+		
+		
+			<categories>
+				
+				
+					
+						<category>Java</category>
+					
+				
+				
+					
+						<category>MacOS</category>
+					
+				
+				
+					
+						<category>Software Development</category>
+					
+				
+				
+			</categories>
+ 		
+		
+	</item>
+ 
+					
+				
+			
+		
+			
+				
+				
+					
+						
+							
+							
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+		
+	
+	
+	
+	
+
+
+
+	
+	
+	
+		
+			
+			
+		
+		
+	<item>
+
+		<title>Java 101: Class and object initialization in Java</title>
+
+		<pubDate>Tue, 09 Jul 2019 11:54:00 -0700</pubDate>
+
+		
+		
+		
+		<author>Jeff Friesen</author>
+		<dc:creator>Jeff Friesen</dc:creator>
+		
+
+		
+		
+		<description><![CDATA[<article>
+	<section class="page">
+<p>Classes and objects in Java must be initialized before they are used. You've <a href="http://www.javaworld.com/article/2979739/learn-java/java-101-classes-and-objects-in-java.html" rel="noopener" target="_blank">previously learned</a> that class fields are initialized to default values when classes are loaded and that objects are initialized via constructors, but there is more to initialization. This article introduces all of Java's features for initializing classes and objects.</p><aside class="sidebar">
+<p>Note that code examples in this tutorial compile and run under Java 12.</p></aside>
+<h2>How to initialize a Java class</h2>
+<p>Before we explore Java's support for class initialization, let's recap the steps of initializing a Java class. Consider Listing 1.</p><p class="jumpTag"><a href="/article/3040564/java-101-class-and-object-initialization-in-java.html#jump">To read this article in full, please click here</a></p></section></article>]]></description>
+
+		<link>https://www.javaworld.com/article/3040564/java-101-class-and-object-initialization-in-java.html#tk.rss_all</link>
+		
+		
+		
+		
+		
+			
+				
+				
+					<media:thumbnail
+						url="https://images.techhive.com/images/article/2016/03/472097903_6147a13e9d_o-100648445-primary.idge.jpg" />
+						<media:content url="https://images.techhive.com/images/article/2016/03/472097903_6147a13e9d_o-100648445-primary.idge.jpg"/>
+				
+			
+		
+		
+		
+
+		
+		
+			<categories>
+				
+				
+					
+						<category>Learn Java</category>
+					
+				
+				
+					
+						<category>Core Java</category>
+					
+				
+				
+					
+						<category>Java</category>
+					
+				
+				
+					
+						<category>Languages and Runtimes</category>
+					
+				
+				
+			</categories>
+ 		
+		
+	</item>
+ 
+					
+				
+			
+		
+			
+				
+				
+					
+						
+							
+							
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+		
+	
+	
+	
+	
+
+
+
+	
+	
+	
+	<item>
+
+		<title>Oracle Java updates have become easier to ignore</title>
+
+		<pubDate>Thu, 27 Jun 2019 10:18:00 -0700</pubDate>
+
+		
+		
+		
+		<author>Paul Krill</author>
+		<dc:creator>Paul Krill</dc:creator>
+		
+
+		
+		
+		<description><![CDATA[<article>
+	<section class="page">
+<p>Oracle’s shift from doing a major release of standard Java every three years to doing releases every six months, a plan announced in September 2017, has resulted in versions with far fewer new capabilities than before. And that are perhaps far less interesting.</p><p><a href="https://www.infoworld.com/article/3340052/jdk-13-the-new-features-coming-to-java-13.html">Java Development Kit (JDK) 13</a>, due in September, has just five new features, including a <a href="https://openjdk.java.net/jeps/355" rel="nofollow">preview of text blocks</a> and an <a href="https://openjdk.java.net/jeps/351" rel="nofollow">enhancement to the Z garbage collector</a>. Now in a rampdown phase in its development, JDK 13 follows <a href="https://www.infoworld.com/article/3301197/jdk-12-the-new-features-in-java-12.html">JDK 12, released in March</a>. JDK 12 had eight new features, including a preview of switch expressions.</p><p class="jumpTag"><a href="/article/3405837/oracle-java-updates-have-become-easier-to-ignore.html#jump">To read this article in full, please click here</a></p></section></article>]]></description>
+
+		<link>https://www.javaworld.com/article/3405837/oracle-java-updates-have-become-easier-to-ignore.html#tk.rss_all</link>
+		
+		
+		
+		
+		
+			
+				
+				
+					<media:thumbnail
+						url="https://images.techhive.com/images/article/2015/12/thinkstockphotos-487835014-100632539-primary.idge.jpg" />
+						<media:content url="https://images.techhive.com/images/article/2015/12/thinkstockphotos-487835014-100632539-primary.idge.jpg"/>
+				
+			
+		
+		
+		
+
+		
+		
+			<categories>
+				
+				
+					
+						<category>Java</category>
+					
+				
+				
+					
+						<category>Oracle</category>
+					
+				
+				
+					
+						<category>Software Development</category>
+					
+				
+				
+			</categories>
+ 		
+		
+	</item>
+ 
+					
+				
+			
+		
+			
+				
+				
+					
+						
+							
+							
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+		
+	
+	
+	
+	
+
+
+
+	
+	
+	
+	<item>
+
+		<title>Google App Engine adds Java 11 runtime</title>
+
+		<pubDate>Tue, 25 Jun 2019 10:43:00 -0700</pubDate>
+
+		
+		
+		
+		<author>Paul Krill</author>
+		<dc:creator>Paul Krill</dc:creator>
+		
+
+		
+		
+		<description><![CDATA[<article>
+	<section class="page">
+<p>Google has added Java 11 as a second-generation runtime on App Engine, the fully managed platform-as-a-service on Google Cloud. Second-generation runtimes on App Engine allow developers to use any version, framework, library, or binary of the supported language, whereas first-generation runtimes strictly limit these.</p><p>Java 11 is currently provided in a beta stage on App Engine, giving users access to the latest long-term support version of standard Java for deploying serverless applications. The second generation App Engine runtime for Java 11 is based on the <a href="https://github.com/google/gvisor" rel="nofollow">gVisor container sandbox</a>, which helps provide secure isolation for containers. The runtime also handles security tasks such as application and operating system security patches and updates.</p><p class="jumpTag"><a href="/article/3405119/google-app-engine-adds-java-11-runtime.html#jump">To read this article in full, please click here</a></p></section></article>]]></description>
+
+		<link>https://www.javaworld.com/article/3405119/google-app-engine-adds-java-11-runtime.html#tk.rss_all</link>
+		
+		
+		
+		
+		
+			
+				
+				
+					<media:thumbnail
+						url="https://images.techhive.com/images/article/2017/04/hot_coffee-100716885-large.3x2.jpg" />
+						<media:content url="https://images.techhive.com/images/article/2017/04/hot_coffee-100716885-large.3x2.jpg"/>
+				
+			
+		
+		
+		
+
+		
+		
+			<categories>
+				
+				
+					
+						<category>Java</category>
+					
+				
+				
+					
+						<category>Google</category>
+					
+				
+				
+					
+						<category>Libraries and Frameworks</category>
+					
+				
+				
+					
+						<category>Cloud Computing</category>
+					
+				
+				
+					
+						<category>Software Development</category>
+					
+				
+				
+			</categories>
+ 		
+		
+	</item>
+ 
+					
+				
+			
+		
+			
+				
+				
+					
+						
+							
+							
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+		
+	
+	
+	
+	
+
+
+
+	
+	
+	
+	<item>
+
+		<title>Ruby language upgrade improves garbage collection, pattern matching</title>
+
+		<pubDate>Tue, 25 Jun 2019 10:42:00 -0700</pubDate>
+
+		
+		
+		
+		<author>Paul Krill</author>
+		<dc:creator>Paul Krill</dc:creator>
+		
+
+		
+		
+		<description><![CDATA[<article>
+	<section class="page">
+<p>Ruby 2.7, the latest upgrade of the Ruby programming language, is now in a preview release. Ruby 2.7 brings improvements in garbage collection, pattern matching, and REPL (read-eval-print-loop).</p><aside class="fakesidebar"><strong>[ Git essentials: <a href="https://www.infoworld.com/article/3257791/git-essentials-get-started-with-git-version-control.html">Get started with Git version control</a>. • <a href="https://www.infoworld.com/resources/61873/application-development/quick-guide-20-tips-and-tricks-git-github-users">20 essential pointers for Git and GitHub</a>. | Keep up with hot topics in programming with InfoWorld’s <a href="https://www.infoworld.com/newsletters/signup.html">App Dev Report newsletter</a>. ]</strong></aside>
+<aside class="fakesidebar"/>
+<p>The general release is planned for December 2019. New in the Ruby preview release is compaction garbage collection, which is used to defragment a fragmented memory space. The <code>GC.compact</code> method compacts the objects in the heap so that fewer pages are used. Members of the Ruby development team explained that some multi-threaded Ruby programs may cause memory fragmentation, which leads to high memory utilization and speed degradation.</p><p class="jumpTag"><a href="/article/3405139/ruby-language-upgrade-improves-garbage-collection-pattern-matching.html#jump">To read this article in full, please click here</a></p></section></article>]]></description>
+
+		<link>https://www.javaworld.com/article/3405139/ruby-language-upgrade-improves-garbage-collection-pattern-matching.html#tk.rss_all</link>
+		
+		
+		
+		
+		
+			
+				
+				
+					<media:thumbnail
+						url="https://images.idgesg.net/images/article/2018/02/two-rubies-100750931-large.3x2.jpg" />
+						<media:content url="https://images.idgesg.net/images/article/2018/02/two-rubies-100750931-large.3x2.jpg"/>
+				
+			
+		
+		
+		
+
+		
+		
+			<categories>
+				
+				
+					
+						<category>Ruby</category>
+					
+				
+				
+					
+						<category>Languages and Runtimes</category>
+					
+				
+				
+					
+						<category>Software Development</category>
+					
+				
+				
+			</categories>
+ 		
+		
+	</item>
+ 
+					
+				
+			
+		
+			
+				
+				
+					
+						
+							
+							
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+		
+	
+	
+	
+	
+
+
+
+	
+	
+	
+	<item>
+
+		<title>The best programming language to learn</title>
+
+		<pubDate>Tue, 25 Jun 2019 10:41:00 -0700</pubDate>
+
+		
+		
+		
+		<author>Peter Wayner</author>
+		<dc:creator>Peter Wayner</dc:creator>
+		
+
+		
+		
+		<description><![CDATA[<article>
+	<section class="page">
+<p class="toc">Everyone is learning to write software these days. That means every school, MOOC, and training site needs to embrace a first language for the young Padawans. Some places, like fusty Harvard, still cling to the <a href="https://www.infoworld.com/article/3402023/why-the-c-programming-language-still-rules.html">70’s era C</a>, but many schools are oscillating between JavaScript, <a href="https://www.infoworld.com/article/3204016/what-is-python.html">Python</a>, and Java. One is buried in every browser, one is the clean choice of the social sciences, and one is the type-rich preference of more mathematically-minded folks.</p><p>Is one the best choice? Is one clearly better than the others? Or are they all equally likely to send a substantial number of students screaming into their pillows at night? Let’s examine the best reasons to learn Java, Python, or JavaScript.</p><p class="jumpTag"><a href="/article/3405159/the-best-programming-language-to-learn.html#jump">To read this article in full, please click here</a></p></section></article>]]></description>
+
+		<link>https://www.javaworld.com/article/3405159/the-best-programming-language-to-learn.html#tk.rss_all</link>
+		
+		
+		
+		
+		
+			
+				
+				
+					<media:thumbnail
+						url="https://images.techhive.com/images/article/2016/10/code-459070_1280-100690667-large.3x2.jpg" />
+						<media:content url="https://images.techhive.com/images/article/2016/10/code-459070_1280-100690667-large.3x2.jpg"/>
+				
+			
+		
+		
+		
+
+		
+		
+			<categories>
+				
+				
+					
+						<category>Java</category>
+					
+				
+				
+					
+						<category>Python</category>
+					
+				
+				
+					
+						<category>JavaScript</category>
+					
+				
+				
+					
+						<category>Languages and Runtimes</category>
+					
+				
+				
+					
+						<category>Software Development</category>
+					
+				
+				
+			</categories>
+ 		
+		
+	</item>
+ 
+					
+				
+			
+		
+			
+				
+				
+					
+						
+							
+							
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+		
+	
+	
+	
+	
+
+
+
+	
+	
+	
+	<item>
+
+		<title>Why the C programming language still rules</title>
+
+		<pubDate>Wed, 19 Jun 2019 03:00:00 -0700</pubDate>
+
+		
+		
+		
+		<author>Serdar Yegulalp</author>
+		<dc:creator>Serdar Yegulalp</dc:creator>
+		
+
+		
+		
+		<description><![CDATA[<p>No technology sticks around for 50 years unless it does its job better than most anything else—especially a computer technology. The C programming language has been alive and kicking since 1972, and it still reigns as one of the fundamental building blocks of our software-defined world.<p class="jumpTag"><a href="/article/3402023/why-the-c-programming-language-still-rules.html#jump">To read this article in full, please click here</a></p></section></article>]]>(Insider Story)</description>
+
+		<link>https://www.javaworld.com/article/3402023/why-the-c-programming-language-still-rules.html#tk.rss_all</link>
+		
+		
+		
+		
+		
+			
+				
+				
+					<media:thumbnail
+						url="https://images.techhive.com/images/article/2017/01/02_crown-100704411-large.3x2.jpg" />
+						<media:content url="https://images.techhive.com/images/article/2017/01/02_crown-100704411-large.3x2.jpg"/>
+				
+			
+		
+		
+		
+
+		
+		
+			<categories>
+				
+				
+					
+						<category>C Language</category>
+					
+				
+				
+					
+						<category>C++</category>
+					
+				
+				
+					
+						<category>Java</category>
+					
+				
+				
+					
+						<category>Google Go</category>
+					
+				
+				
+					
+						<category>C#</category>
+					
+				
+				
+					
+						<category>Languages and Runtimes</category>
+					
+				
+				
+					
+						<category>Software Development</category>
+					
+				
+				<category>IDG Insider</category>
+			</categories>
+ 		
+		
+	</item>
+ 
+					
+				
+			
+		
+			
+				
+				
+					
+						
+							
+							
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+		
+	
+	
+	
+	
+
+
+
+	
+	
+	
+	<item>
+
+		<title>10 new tricks your old database can do</title>
+
+		<pubDate>Tue, 18 Jun 2019 10:29:00 -0700</pubDate>
+
+		
+		
+		
+		<author>Martin Heller</author>
+		<dc:creator>Martin Heller</dc:creator>
+		
+
+		
+		
+		<description><![CDATA[<p>In all the excitement about NoSQL databases, distributed databases, data warehouses, and GPU-accelerated databases these days, it’s easy to forget that traditional relational databases still store and serve the mission-critical information for many, if not most, line-of-business applications. Oracle Database, Microsoft SQL Server, MySQL/MariaDB, and PostgreSQL may trace their origins back to the 1980s, but they are all still under active development, and not just to fix bugs and tweak performance.<p class="jumpTag"><a href="/article/3403400/10-new-tricks-your-old-database-can-do.html#jump">To read this article in full, please click here</a></p></section></article>]]>(Insider Story)</description>
+
+		<link>https://www.javaworld.com/article/3403400/10-new-tricks-your-old-database-can-do.html#tk.rss_all</link>
+		
+		
+		
+		
+		
+			
+				
+				
+					<media:thumbnail
+						url="https://images.idgesg.net/images/article/2018/10/wizard_magic_trick_magician_illusion_electric-100777515-large.3x2.jpg" />
+						<media:content url="https://images.idgesg.net/images/article/2018/10/wizard_magic_trick_magician_illusion_electric-100777515-large.3x2.jpg"/>
+				
+			
+		
+		
+		
+
+		
+		
+			<categories>
+				
+				
+					
+						<category>Database</category>
+					
+				
+				
+					
+						<category>SQL</category>
+					
+				
+				
+					
+						<category>NoSQL</category>
+					
+				
+				
+					
+						<category>Software Development</category>
+					
+				
+				
+					
+						<category>Analytics</category>
+					
+				
+				<category>IDG Insider</category>
+			</categories>
+ 		
+		
+	</item>
+ 
+					
+				
+			
+		
+			
+				
+				
+					
+						
+							
+							
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+		
+	
+	
+	
+	
+
+
+
+	
+	
+	
+	<item>
+
+		<title>Scala 2.13 overhauls collections, improves the standard library</title>
+
+		<pubDate>Thu, 13 Jun 2019 10:12:00 -0700</pubDate>
+
+		
+		
+		
+		<author>Paul Krill</author>
+		<dc:creator>Paul Krill</dc:creator>
+		
+
+		
+		
+		<description><![CDATA[<article>
+	<section class="page">
+<p><a href="https://www.infoworld.com/article/3270626/python-scala-climb-the-ranks-of-language-popularity.html">Scala</a>, the functional and object-oriented programming language with JVM and JavaScript runtimes, is available in a new version. Scala 2.13 improves the standard library with an overhaul of collections, the addition of new classes and methods, and performance and stability improvements.</p><aside class="fakesidebar"><strong>[ The new Java is coming! Learn <a href="https://www.infoworld.com/article/3340052/jdk-13-the-new-features-coming-to-java-13.html">what’s new in Java 13</a>. | Learn <a href="https://www.infoworld.com/article/3301197/jdk-12-the-new-features-in-java-12.html">what’s new in Java 12</a> | Learn <a href="https://www.infoworld.com/article/3265447/java-jdk-11-all-the-new-features-now-available.html">what’s new in Java JDK 11</a> and <a href="https://www.infoworld.com/article/3198989/java/the-road-to-java-9-the-current-status.html">what’s new in Java EE 8</a>. | Keep up with hot topics in programming with InfoWorld’s <a href="https://www.infoworld.com/newsletters/signup.html">App Dev Report newsletter</a>. ]</strong></aside>
+<aside class="fakesidebar"/>
+<p>Collections in the standard library have been overhauled for performance, safety, and simplicity. Multiple improvements have been made to collections including:</p><p class="jumpTag"><a href="/article/3402537/scala-213-overhauls-collections-improves-the-standard-library.html#jump">To read this article in full, please click here</a></p></section></article>]]></description>
+
+		<link>https://www.javaworld.com/article/3402537/scala-213-overhauls-collections-improves-the-standard-library.html#tk.rss_all</link>
+		
+		
+		
+		
+		
+			
+				
+				
+					<media:thumbnail
+						url="https://images.idgesg.net/images/article/2019/05/cross-functional-talent_multi-talented_ballet_ballerina_skateboard_versatile_agile-100796237-large.3x2.jpg" />
+						<media:content url="https://images.idgesg.net/images/article/2019/05/cross-functional-talent_multi-talented_ballet_ballerina_skateboard_versatile_agile-100796237-large.3x2.jpg"/>
+				
+			
+		
+		
+		
+
+		
+		
+			<categories>
+				
+				
+					
+						<category>Scala</category>
+					
+				
+				
+					
+						<category>Java</category>
+					
+				
+				
+					
+						<category>Software Development</category>
+					
+				
+				
+					
+						<category>Languages and Runtimes</category>
+					
+				
+				
+			</categories>
+ 		
+		
+	</item>
+ 
+					
+				
+			
+		
+			
+				
+				
+					
+						
+							
+							
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+		
+	
+	
+	
+	
+
+
+
+	
+	
+	
+	<item>
+
+		<title>The best new features in Python 3.8</title>
+
+		<pubDate>Wed, 12 Jun 2019 03:00:00 -0700</pubDate>
+
+		
+		
+		
+		<author>Serdar Yegulalp</author>
+		<dc:creator>Serdar Yegulalp</dc:creator>
+		
+
+		
+		
+		<description><![CDATA[<p>Python 3.8 is the latest version of the popular language for everything from scripting and automation to machine learning and web development. Now available in an official beta release, Python 3.8 brings a number of slick syntax changes, memory sharing, more efficient serialization and deserialization, revamped dictionaries, and much more.<p class="jumpTag"><a href="/article/3400640/the-best-new-features-in-python-38.html#jump">To read this article in full, please click here</a></p></section></article>]]>(Insider Story)</description>
+
+		<link>https://www.javaworld.com/article/3400640/the-best-new-features-in-python-38.html#tk.rss_all</link>
+		
+		
+		
+		
+		
+			
+				
+				
+					<media:thumbnail
+						url="https://images.idgesg.net/images/article/2018/05/happy_confetti_celebrate_victory_proud_winner_ambreen-hasan-346960-unsplash-100759037-large.3x2.jpg" />
+						<media:content url="https://images.idgesg.net/images/article/2018/05/happy_confetti_celebrate_victory_proud_winner_ambreen-hasan-346960-unsplash-100759037-large.3x2.jpg"/>
+				
+			
+		
+		
+		
+
+		
+		
+			<categories>
+				
+				
+					
+						<category>Python</category>
+					
+				
+				
+					
+						<category>Development Tools</category>
+					
+				
+				
+					
+						<category>Data Science</category>
+					
+				
+				
+					
+						<category>Software Development</category>
+					
+				
+				
+					
+						<category>Open Source</category>
+					
+				
+				<category>IDG Insider</category>
+			</categories>
+ 		
+		
+	</item>
+ 
+					
+				
+			
+		
+			
+				
+				
+					
+						
+							
+							
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+		
+	
+	
+	
+	
+
+
+
+	
+	
+	
+	<item>
+
+		<title>Why Kotlin? Eight features that could convince Java developers to switch</title>
+
+		<pubDate>Tue, 11 Jun 2019 12:08:00 -0700</pubDate>
+
+		
+		
+		
+		<author>John I. Moore, Jr.</author>
+		<dc:creator>John I. Moore, Jr.</dc:creator>
+		
+
+		
+		
+		<description><![CDATA[<p>Officially released in 2016, Kotlin has attracted a lot of attention in recent years, especially since Google announced its support for Kotlin as an alternative to Java on Android platforms. With the recently announced <a href="https://www.javaworld.com/article/3393972/google-use-kotlin-for-new-android-apps.html" rel="noopener" target="_blank">decision to make Kotlin the preferred language for Android</a>, you may be wondering if it's time to start learning a new programming language. If that's the case, this article could help you decide.<p class="jumpTag"><a href="/article/3396141/why-kotlin-eight-features-that-could-convince-java-developers-to-switch.html#jump">To read this article in full, please click here</a></p></section></article>]]>(Insider Story)</description>
+
+		<link>https://www.javaworld.com/article/3396141/why-kotlin-eight-features-that-could-convince-java-developers-to-switch.html#tk.rss_all</link>
+		
+		
+		
+		
+		
+			
+				
+				
+					<media:thumbnail
+						url="https://images.idgesg.net/images/article/2019/06/number-8_infinity-symbol_silver_8-tips_by-photo-by-doguhakan-getty-100799035-large.3x2.jpg" />
+						<media:content url="https://images.idgesg.net/images/article/2019/06/number-8_infinity-symbol_silver_8-tips_by-photo-by-doguhakan-getty-100799035-large.3x2.jpg"/>
+				
+			
+		
+		
+		
+
+		
+		
+			<categories>
+				
+				
+					
+						<category>Java Platform</category>
+					
+				
+				
+					
+						<category>Languages and Runtimes</category>
+					
+				
+				
+					
+						<category>Android</category>
+					
+				
+				
+					
+						<category>Android Studio</category>
+					
+				
+				<category>IDG Insider</category>
+			</categories>
+ 		
+		
+	</item>
+ 
+					
+				
+			
+		
+			
+				
+				
+					
+						
+							
+							
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+		
+	
+	
+	
+	
+
+
+
+	
+	
+	
+	<item>
+
+		<title>Python popularity reaches an all-time high</title>
+
+		<pubDate>Tue, 11 Jun 2019 10:23:00 -0700</pubDate>
+
+		
+		
+		
+		<author>Paul Krill</author>
+		<dc:creator>Paul Krill</dc:creator>
+		
+
+		
+		
+		<description><![CDATA[<article>
+	<section class="page">
+<p>Python has reached its highest rating ever in the monthly Tiobe index of programming language popularity. On its current trajectory, Tiobe noted, Python could leapfrog Java and C in the next three or four years to become the index’s most-popular language.</p><p>The June Tiobe rating of 8.53 percent for <a href="https://www.infoworld.com/article/3323070/visual-basicnet-soars-but-may-tumble-soon.html">Python tops its previous high of 8.376 percent achieved last December</a>. Python remains in third place behind Java and C. Python offers an ease of use that Java and C do not and is attracting a lot of newcomers, Tiobe reasoned.</p><aside class="fakesidebar"><strong>[ <a href="https://www.infoworld.com/article/3204016/what-is-python.html">What is Python? Everything you need to know</a>. • Tutorial: <a href="https://www.infoworld.com/article/3209091/how-to-get-started-with-python.html">How to get started with Python</a>. • <a href="https://www.infoworld.com/article/3230202/6-essential-libraries-for-every-python-developer.html">6 essential libraries for every Python developer</a>. • <a href="https://www.infoworld.com/article/3269316/python/why-you-should-use-python-for-machine-learning.html">Why you should use Python for machine learning</a>. | Keep up with hot topics in programming with InfoWorld’s <a href="https://www.infoworld.com/newsletters/signup.html">App Dev Report newsletter</a>. ]</strong></aside>
+<aside class="fakesidebar"/>
+<p><a href="https://www.tiobe.com/tiobe-index/" rel="nofollow">Tiobe’s index</a> bases its ratings on a formula that assesses searches related to programming languages in search engines such as Google, Yahoo, and Bing. Specifically, ratings are based on the number of courses, skilled engineers, and third-party vendors pertinent to a language. Python already is at the top of the rival <a href="http://pypl.github.io/PYPL.html" rel="nofollow">Pypl (Popularity of Programming Language) index</a>, which bases ratings only on how often language tutorials are searched in Google.</p><p class="jumpTag"><a href="/article/3401621/python-popularity-reaches-an-all-time-high.html#jump">To read this article in full, please click here</a></p></section></article>]]></description>
+
+		<link>https://www.javaworld.com/article/3401621/python-popularity-reaches-an-all-time-high.html#tk.rss_all</link>
+		
+		
+		
+		
+		
+			
+				
+				
+					<media:thumbnail
+						url="https://images.idgesg.net/images/article/2018/02/wood-type-number-3_top-three-100750886-large.3x2.jpg" />
+						<media:content url="https://images.idgesg.net/images/article/2018/02/wood-type-number-3_top-three-100750886-large.3x2.jpg"/>
+				
+			
+		
+		
+		
+
+		
+		
+			<categories>
+				
+				
+					
+						<category>Python</category>
+					
+				
+				
+					
+						<category>Software Development</category>
+					
+				
+				
+					
+						<category>Languages and Runtimes</category>
+					
+				
+				
+			</categories>
+ 		
+		
+	</item>
+ 
+					
+				
+			
+		
+			
+				
+				
+					
+						
+							
+							
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+		
+	
+	
+	
+	
+
+
+
+	
+	
+	
+	<item>
+
+		<title>Hadoop runs out of gas</title>
+
+		<pubDate>Tue, 11 Jun 2019 10:22:00 -0700</pubDate>
+
+		
+		
+		
+		<author>Matt Asay</author>
+		<dc:creator>Matt Asay</dc:creator>
+		
+
+		
+		
+		<description><![CDATA[<p>Big data remains a big deal, but that fact is somewhat obscured by the recent stumbling of its former poster children: Cloudera, Hortonworks, and MapR. Once the darlings of data, able to raise gargantuan piles of cash—Intel pumped $766 million into Cloudera in just one investment round!—the heavyweights have been forced to skinny down, whether by merging (Cloudera and Hortonworks) or cutting heads (MapR).<p class="jumpTag"><a href="/article/3401917/hadoop-runs-out-of-gas.html#jump">To read this article in full, please click here</a></p></section></article>]]>(Insider Story)</description>
+
+		<link>https://www.javaworld.com/article/3401917/hadoop-runs-out-of-gas.html#tk.rss_all</link>
+		
+		
+		
+		
+		
+			
+				
+				
+					<media:thumbnail
+						url="https://images.idgesg.net/images/article/2018/01/broken-down_red-mustang_in-trouble_roadside_hopeless-100747976-large.3x2.jpg" />
+						<media:content url="https://images.idgesg.net/images/article/2018/01/broken-down_red-mustang_in-trouble_roadside_hopeless-100747976-large.3x2.jpg"/>
+				
+			
+		
+		
+		
+
+		
+		
+			<categories>
+				
+				
+					
+						<category>Hadoop</category>
+					
+				
+				
+					
+						<category>Big Data</category>
+					
+				
+				
+					
+						<category>Analytics</category>
+					
+				
+				
+					
+						<category>Software Development</category>
+					
+				
+				
+					
+						<category>Cloud Development</category>
+					
+				
+				<category>IDG Insider</category>
+			</categories>
+ 		
+		
+	</item>
+ 
+					
+				
+			
+		
+			
+				
+				
+					
+						
+							
+							
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+		
+	
+	
+	
+	
+
+
+
+	
+	
+	
+	<item>
+
+		<title>5 Kubernetes distributions with something extra</title>
+
+		<pubDate>Thu, 06 Jun 2019 10:40:00 -0700</pubDate>
+
+		
+		
+		
+		<author>Serdar Yegulalp</author>
+		<dc:creator>Serdar Yegulalp</dc:creator>
+		
+
+		
+		
+		<description><![CDATA[<p>The <a href="https://www.infoworld.com/article/3268073/what-is-kubernetes-container-orchestration-explained.html">Kubernetes</a> container management system has been described as “<a href="https://www.infoworld.com/article/3322120/sorry-linux-kubernetes-is-now-the-os-that-matters.html">the new Linux</a>” because of how it transforms the way software is deployed. But there is another way Kubernetes is akin to Linux: the sheer number and variety of distributions, incarnations, and re-packagings of Kubernetes out there.<p class="jumpTag"><a href="/article/3400903/5-kubernetes-distributions-with-something-extra.html#jump">To read this article in full, please click here</a></p></section></article>]]>(Insider Story)</description>
+
+		<link>https://www.javaworld.com/article/3400903/5-kubernetes-distributions-with-something-extra.html#tk.rss_all</link>
+		
+		
+		
+		
+		
+			
+				
+				
+					<media:thumbnail
+						url="https://images.idgesg.net/images/article/2019/02/container-ship_storage_transport_colorful-containers_diversity_outsourcing-100787326-large.3x2.jpg" />
+						<media:content url="https://images.idgesg.net/images/article/2019/02/container-ship_storage_transport_colorful-containers_diversity_outsourcing-100787326-large.3x2.jpg"/>
+				
+			
+		
+		
+		
+
+		
+		
+			<categories>
+				
+				
+					
+						<category>Kubernetes</category>
+					
+				
+				
+					
+						<category>Containers</category>
+					
+				
+				
+					
+						<category>Cloud Computing</category>
+					
+				
+				
+					
+						<category>Open Source</category>
+					
+				
+				<category>IDG Insider</category>
+			</categories>
+ 		
+		
+	</item>
+ 
+					
+				
+			
+		
+			
+				
+				
+					
+						
+							
+							
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+		
+	
+	
+	
+	
+
+
+
+	
+	
+	
+	<item>
+
+		<title>Pivotal answers Oracle with supported Java distribution</title>
+
+		<pubDate>Tue, 04 Jun 2019 09:47:00 -0700</pubDate>
+
+		
+		
+		
+		<author>Paul Krill</author>
+		<dc:creator>Paul Krill</dc:creator>
+		
+
+		
+		
+		<description><![CDATA[<article>
+	<section class="page">
+<p>Pivotal is offering a supported distribution of standard Java that also includes the Spring Framework and Apache Tomcat. Called the Pivotal Spring Runtime, the product is available by yearly subscription, with pricing based on Kubernetes Pods or compute core. </p><p>The Pivotal Spring Runtime package is being offered in response to Oracle’s new policies on Java Development Kit (JDK) distribution. Oracle has begun requiring a <a href="https://www.infoworld.com/article/3284164/oracle-now-requires-a-subscription-to-use-java-se.html">subscription for commercial Java support</a> for mission-critical deployments, after previously offering a perpetual license and an annual support fee. </p><p class="jumpTag"><a href="/article/3400396/pivotal-answers-oracle-with-supported-java-distribution.html#jump">To read this article in full, please click here</a></p></section></article>]]></description>
+
+		<link>https://www.javaworld.com/article/3400396/pivotal-answers-oracle-with-supported-java-distribution.html#tk.rss_all</link>
+		
+		
+		
+		
+		
+			
+				
+				
+					<media:thumbnail
+						url="https://images.idgesg.net/images/article/2018/08/spiral_spring_coil_cycles_iterations_by_rawpixel_cc0_via_stocksnap_1200x800-100766908-large.3x2.jpg" />
+						<media:content url="https://images.idgesg.net/images/article/2018/08/spiral_spring_coil_cycles_iterations_by_rawpixel_cc0_via_stocksnap_1200x800-100766908-large.3x2.jpg"/>
+				
+			
+		
+		
+		
+
+		
+		
+			<categories>
+				
+				
+					
+						<category>Java</category>
+					
+				
+				
+					
+						<category>Spring Framework</category>
+					
+				
+				
+					
+						<category>Oracle</category>
+					
+				
+				
+					
+						<category>Software Development</category>
+					
+				
+				
+			</categories>
+ 		
+		
+	</item>
+ 
+					
+				
+			
+		
+			
+				
+				
+					
+						
+							
+							
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+		
+	
+	
+	
+	
+
+
+
+	
+	
+	
+		
+			
+			
+		
+		
+	<item>
+
+		<title>Java 101: Java polymorphism and its types</title>
+
+		<pubDate>Thu, 30 May 2019 10:54:00 -0700</pubDate>
+
+		
+		
+		
+		<author>Jeff Friesen</author>
+		<dc:creator>Jeff Friesen</dc:creator>
+		
+
+		
+		
+		<description><![CDATA[<article>
+	<section class="page">
+<p><em>Polymorphism</em> refers to the ability of some entities to occur in different forms. It is popularly represented by the butterfly, which morphs from larva to pupa to imago. Polymorphism also exists in programming languages, as a modeling technique that allows you to create a single interface to various operands, arguments, and objects. Java polymorphism results in code that is more concise and easier to maintain.</p><p>While this tutorial focuses on subtype polymorphism, there are several other types you should know about. We'll start with an overview of all four types of polymorphism.</p><aside class="sidebar">
+<p>Note that code examples in this tutorial compile and run under Java 12.</p><p class="jumpTag"><a href="/article/3033445/java-101-polymorphism-in-java.html#jump">To read this article in full, please click here</a></p></section></article>]]></description>
+
+		<link>https://www.javaworld.com/article/3033445/java-101-polymorphism-in-java.html#tk.rss_all</link>
+		
+		
+		
+		
+		
+			
+				
+				
+					<media:thumbnail
+						url="https://images.idgesg.net/images/article/2019/05/blue_morpho_butterfly_polymorphism_by_davemhuntphotography_gettyimages-504705188_2400x1600-100796988-large.3x2.jpg" />
+						<media:content url="https://images.idgesg.net/images/article/2019/05/blue_morpho_butterfly_polymorphism_by_davemhuntphotography_gettyimages-504705188_2400x1600-100796988-large.3x2.jpg"/>
+				
+			
+		
+		
+		
+
+		
+		
+			<categories>
+				
+				
+					
+						<category>Java</category>
+					
+				
+				
+					
+						<category>Core Java</category>
+					
+				
+				
+					
+						<category>Learn Java</category>
+					
+				
+				
+					
+						<category>Languages and Runtimes</category>
+					
+				
+				
+			</categories>
+ 		
+		
+	</item>
+ 
+					
+				
+			
+		
+	
+	
+
+
+
+
+	</channel>
+</rss>

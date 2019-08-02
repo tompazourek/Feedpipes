@@ -1,0 +1,1498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:prism="http://purl.org/rss/1.0/modules/prism/"
+ xmlns:admin="http://webns.net/mvcb/"
+>
+
+<channel rdf:about="http://science.sciencemag.org">
+<title>Science current issue</title>
+<link>http://science.sciencemag.org</link>
+<description>Science RSS feed -- current issue</description>
+<prism:eIssn>1095-9203</prism:eIssn>
+<prism:coverDisplayDate>Aug  2 2019 12:00:00:000AM</prism:coverDisplayDate>
+<prism:publicationName>Science</prism:publicationName>
+<prism:issn>0036-8075</prism:issn>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/411?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/412?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/414?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/415?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/416?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/417?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/418?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/419?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/420?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/422?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/426?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/430?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/436?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/438?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/440?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/442?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/443?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/444?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/446?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/447?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/449?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/452?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/453?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/454-a?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/454-b?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/455?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/456?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/457?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/458-a?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/458-b?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/458-c?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/458-d?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/458-e?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/458-f?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/458-g?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/458-h?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/458-i?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/458-j?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/458-k?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/458-l?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/458-m?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/458-n?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/458-o?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/458-p?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/458-q?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/458-r?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/458-s?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/459-a?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/459-b?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/459-c?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/459-d?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/459-e?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/459-f?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/459-g?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/465?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/469?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/473?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/478?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/482?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/487?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/491?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/495?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/498?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/502?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/505?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/510?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/514?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/eaax1033?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/eaaw4361?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/eaax4406?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/eaay7985?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/eaay8818?rss=1" />
+  <rdf:li rdf:resource="http://science.sciencemag.org/cgi/content/short/365/6452/eaau9923?rss=1" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://science.sciencemag.org/icons/banner/title.gif" />
+</channel>
+<image rdf:about="http://science.sciencemag.org/icons/banner/title.gif">
+<title>Science</title>
+<url>http://science.sciencemag.org/icons/banner/title.gif</url>
+<link>http://science.sciencemag.org</link>
+</image>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/411?rss=1">
+<title><![CDATA[Time's up, CO2]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/411?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[McNutt, M.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.aay8827</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/411</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:subject><![CDATA[Editorials]]></dc:subject>
+<dc:title><![CDATA[Time's up, CO2]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>editorial</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>411</prism:startingPage>
+<prism:endingPage>411</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/412?rss=1">
+<title><![CDATA[News at a glance]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/412?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.365.6452.412</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/412</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:subject><![CDATA[Scientific Community]]></dc:subject>
+<dc:title><![CDATA[News at a glance]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>In Brief</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>412</prism:startingPage>
+<prism:endingPage>413</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/414?rss=1">
+<title><![CDATA[NIH fetal tissue research requirements raise worries]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/414?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Kaiser, J., Wadman, M.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.365.6452.414</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/414</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:subject><![CDATA[Science and Policy]]></dc:subject>
+<dc:title><![CDATA[NIH fetal tissue research requirements raise worries]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>In Depth</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>414</prism:startingPage>
+<prism:endingPage>414</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/415?rss=1">
+<title><![CDATA[U.S. suspicions rankle Chinese scientists]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/415?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Normile, D.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.365.6452.415</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/415</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:subject><![CDATA[Asia/Pacific News, Scientific Community, Science and Policy]]></dc:subject>
+<dc:title><![CDATA[U.S. suspicions rankle Chinese scientists]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>In Depth</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>415</prism:startingPage>
+<prism:endingPage>415</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/416?rss=1">
+<title><![CDATA[Bringing machine learning to the masses]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/416?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Hutson, M.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.365.6452.416</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/416</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:subject><![CDATA[Engineering]]></dc:subject>
+<dc:title><![CDATA[Bringing machine learning to the masses]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>In Depth</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>416</prism:startingPage>
+<prism:endingPage>417</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/417?rss=1">
+<title><![CDATA[Fossils show large predator prowled Cambrian sediments]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/417?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Sokol, J.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.365.6452.417</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/417</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:subject><![CDATA[Paleontology]]></dc:subject>
+<dc:title><![CDATA[Fossils show large predator prowled Cambrian sediments]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>In Depth</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>417</prism:startingPage>
+<prism:endingPage>417</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/418?rss=1">
+<title><![CDATA[Brexit backer Boris Johnson stokes fears for U.K. scientists]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/418?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Stokstad, E.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.365.6452.418</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/418</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:subject><![CDATA[European News, Scientific Community]]></dc:subject>
+<dc:title><![CDATA[Brexit backer Boris Johnson stokes fears for U.K. scientists]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>In Depth</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>418</prism:startingPage>
+<prism:endingPage>418</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/419?rss=1">
+<title><![CDATA[Brazilian president attacks deforestation data]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/419?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Escobar, H.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.365.6452.419</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/419</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:subject><![CDATA[Ecology, Latin American News, Scientific Community]]></dc:subject>
+<dc:title><![CDATA[Brazilian president attacks deforestation data]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>In Depth</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>419</prism:startingPage>
+<prism:endingPage>419</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/420?rss=1">
+<title><![CDATA[China's CRISPR revolution]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/420?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Cohen, J.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.365.6452.420</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/420</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:subject><![CDATA[Asia/Pacific News, Genetics]]></dc:subject>
+<dc:title><![CDATA[China's CRISPR revolution]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>special/Feature</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>420</prism:startingPage>
+<prism:endingPage>421</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/422?rss=1">
+<title><![CDATA[Fields of dreams]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/422?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Cohen, J.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.365.6452.422</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/422</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:subject><![CDATA[Asia/Pacific News, Ecology, Genetics]]></dc:subject>
+<dc:title><![CDATA[Fields of dreams]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>special/Feature</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>422</prism:startingPage>
+<prism:endingPage>425</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/426?rss=1">
+<title><![CDATA[The CRISPR animal kingdom]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/426?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Cohen, J.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.365.6452.426</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/426</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:subject><![CDATA[Asia/Pacific News, Genetics]]></dc:subject>
+<dc:title><![CDATA[The CRISPR animal kingdom]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>special/Feature</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>426</prism:startingPage>
+<prism:endingPage>429</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/430?rss=1">
+<title><![CDATA[Inside the circle of trust]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/430?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Cohen, J.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.365.6452.430</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/430</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:subject><![CDATA[Asia/Pacific News, Genetics, Scientific Community]]></dc:subject>
+<dc:title><![CDATA[Inside the circle of trust]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>special/Feature</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>430</prism:startingPage>
+<prism:endingPage>437</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/436?rss=1">
+<title><![CDATA[The long shadow of a CRISPR scandal]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/436?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Cohen, J.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.365.6452.436</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/436</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:subject><![CDATA[Asia/Pacific News, Genetics, Scientific Community]]></dc:subject>
+<dc:title><![CDATA[The long shadow of a CRISPR scandal]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>special/Feature</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>436</prism:startingPage>
+<prism:endingPage>436</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/438?rss=1">
+<title><![CDATA[Targeting transmissible cancers in animals]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/438?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Patchett, A., Woods, G.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.aau8936</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/438</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:title><![CDATA[Targeting transmissible cancers in animals]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>perspective</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>438</prism:startingPage>
+<prism:endingPage>440</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/440?rss=1">
+<title><![CDATA[Cancer cell evolution through the ages]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/440?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Maley, C. C., Shibata, D.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.aay2859</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/440</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:title><![CDATA[Cancer cell evolution through the ages]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>perspective</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>440</prism:startingPage>
+<prism:endingPage>441</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/442?rss=1">
+<title><![CDATA[Embryonic self-fracking]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/442?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Arroyo, M., Trepat, X.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.aay2860</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/442</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:subject><![CDATA[Development]]></dc:subject>
+<dc:title><![CDATA[Embryonic self-fracking]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>perspective</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>442</prism:startingPage>
+<prism:endingPage>443</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/443?rss=1">
+<title><![CDATA[Fishing for answers]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/443?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Jorgensen, C., Enberg, K.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.aay3158</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/443</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:subject><![CDATA[Ecology]]></dc:subject>
+<dc:title><![CDATA[Fishing for answers]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>perspective</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>443</prism:startingPage>
+<prism:endingPage>444</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/444?rss=1">
+<title><![CDATA[Walk on the wildling side]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/444?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Nobs, S. P., Elinav, E.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.aay2864</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/444</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:subject><![CDATA[Microbiology]]></dc:subject>
+<dc:title><![CDATA[Walk on the wildling side]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>perspective</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>444</prism:startingPage>
+<prism:endingPage>445</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/446?rss=1">
+<title><![CDATA[A FRESH SLATE for 3D bioprinting]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/446?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Dasgupta, Q., Black, L. D.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.aay0478</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/446</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:subject><![CDATA[Engineering, Materials Science]]></dc:subject>
+<dc:title><![CDATA[A FRESH SLATE for 3D bioprinting]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>perspective</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>446</prism:startingPage>
+<prism:endingPage>447</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/447?rss=1">
+<title><![CDATA[How diatoms harvest light]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/447?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Bu&#x0308;chel, C.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.aay3036</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/447</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:subject><![CDATA[Biochemistry]]></dc:subject>
+<dc:title><![CDATA[How diatoms harvest light]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>perspective</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>447</prism:startingPage>
+<prism:endingPage>448</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/449?rss=1">
+<title><![CDATA[A greener path for the EU Common Agricultural Policy]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/449?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Pe'er, G., Zinngrebe, Y., Moreira, F., Sirami, C., Schindler, S., Mu&#x0308;ller, R., Bontzorlos, V., Clough, D., Bezak, P., Bonn, A., Hansju&#x0308;rgens, B., Lomba, A., Mo&#x0308;ckel, S., Passoni, G., Schleyer, C., Schmidt, J., Lakner, S.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.aax3146</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/449</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:subject><![CDATA[Ecology, Science and Policy]]></dc:subject>
+<dc:title><![CDATA[A greener path for the EU Common Agricultural Policy]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>p-forum</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>449</prism:startingPage>
+<prism:endingPage>451</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/452?rss=1">
+<title><![CDATA[The dark side of the Moon--and science]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/452?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Gibson, E. K.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.aay1315</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/452</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:title><![CDATA[The dark side of the Moon--and science]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>books</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>452</prism:startingPage>
+<prism:endingPage>452</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/453?rss=1">
+<title><![CDATA[The world mosquitoes built]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/453?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Hemingway, J.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.aax8549</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/453</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:title><![CDATA[The world mosquitoes built]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>books</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>453</prism:startingPage>
+<prism:endingPage>453</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/454-a?rss=1">
+<title><![CDATA[Land reclamation threatens sandpipers]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/454-a?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Fu, Q., Yang, J., Xu, Q., Wang, D., Liu, X.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.aay5526</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/454-a</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:title><![CDATA[Land reclamation threatens sandpipers]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>letters</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>454</prism:startingPage>
+<prism:endingPage>454</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/454-b?rss=1">
+<title><![CDATA[Regulate GM fungi to protect ecosystems]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/454-b?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[French, K. E.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.aay3082</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/454-b</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:title><![CDATA[Regulate GM fungi to protect ecosystems]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>letters</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>454</prism:startingPage>
+<prism:endingPage>455</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/455?rss=1">
+<title><![CDATA[Regulate GM fungi to protect ecosystems--Response]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/455?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[St. Leger, R., Diabate, A., Lovett, B.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.aay5221</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/455</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:title><![CDATA[Regulate GM fungi to protect ecosystems--Response]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>letters</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>455</prism:startingPage>
+<prism:endingPage>455</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/456?rss=1">
+<title><![CDATA[Optical modulation goes deep in the brain]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/456?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Chen, S.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.aay4350</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/456</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:title><![CDATA[Optical modulation goes deep in the brain]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>essays</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>456</prism:startingPage>
+<prism:endingPage>457</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/457?rss=1">
+<title><![CDATA[Nongenetic neural control with light]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/457?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Tian, B.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.aay4351</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/457</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:title><![CDATA[Nongenetic neural control with light]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>essays</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>457</prism:startingPage>
+<prism:endingPage>457</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/458-a?rss=1">
+<title><![CDATA[The making of a lumen]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/458-a?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Purnell, B. A.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.365.6452.458-a</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/458-a</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:subject><![CDATA[Development]]></dc:subject>
+<dc:title><![CDATA[The making of a lumen]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>twis</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>458</prism:startingPage>
+<prism:endingPage>458</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/458-b?rss=1">
+<title><![CDATA[Thrifty thermoelectric cooling]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/458-b?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Grocholski, B.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.365.6452.458-b</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/458-b</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:subject><![CDATA[Materials Science]]></dc:subject>
+<dc:title><![CDATA[Thrifty thermoelectric cooling]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>twis</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>458</prism:startingPage>
+<prism:endingPage>458</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/458-c?rss=1">
+<title><![CDATA[Cepheids help to map the Galaxy]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/458-c?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Smith, K. T.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.365.6452.458-c</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/458-c</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:subject><![CDATA[Astronomy]]></dc:subject>
+<dc:title><![CDATA[Cepheids help to map the Galaxy]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>twis</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>458</prism:startingPage>
+<prism:endingPage>458</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/458-d?rss=1">
+<title><![CDATA[Stability through oxysalts]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/458-d?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Szuromi, P.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.365.6452.458-d</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/458-d</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:subject><![CDATA[Chemistry, Materials Science]]></dc:subject>
+<dc:title><![CDATA[Stability through oxysalts]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>twis</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>458</prism:startingPage>
+<prism:endingPage>458</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/458-e?rss=1">
+<title><![CDATA[Parallel and idiosyncratic fish adaptation]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/458-e?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Ash, C.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.365.6452.458-e</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/458-e</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:subject><![CDATA[Evolution, Genetics]]></dc:subject>
+<dc:title><![CDATA[Parallel and idiosyncratic fish adaptation]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>twis</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>458</prism:startingPage>
+<prism:endingPage>459</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/458-f?rss=1">
+<title><![CDATA[A sound way to deliver power]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/458-f?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Lavine, M. S.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.365.6452.458-f</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/458-f</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:subject><![CDATA[Physics, Applied, Materials Science]]></dc:subject>
+<dc:title><![CDATA[A sound way to deliver power]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>twis</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>458</prism:startingPage>
+<prism:endingPage>459</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/458-g?rss=1">
+<title><![CDATA[Spontaneous degradation in hormone synthesis]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/458-g?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Hines, P. J.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.365.6452.458-g</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/458-g</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:subject><![CDATA[Botany]]></dc:subject>
+<dc:title><![CDATA[Spontaneous degradation in hormone synthesis]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>twis</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>458</prism:startingPage>
+<prism:endingPage>459</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/458-h?rss=1">
+<title><![CDATA[Making sense of our sense of smell]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/458-h?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Vosshall, L.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.365.6452.458-h</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/458-h</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:title><![CDATA[Making sense of our sense of smell]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>twis</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>458</prism:startingPage>
+<prism:endingPage>459</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/458-i?rss=1">
+<title><![CDATA[Slow growth for bacterial persistence]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/458-i?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[VanHook, A. M.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.365.6452.458-i</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/458-i</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:title><![CDATA[Slow growth for bacterial persistence]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>twis</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>i</prism:startingPage>
+<prism:endingPage>459</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/458-j?rss=1">
+<title><![CDATA[A light-harvesting array in diatoms]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/458-j?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Funk, M. A.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.365.6452.458-j</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/458-j</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:subject><![CDATA[Biochemistry, Botany]]></dc:subject>
+<dc:title><![CDATA[A light-harvesting array in diatoms]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>twis</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>458</prism:startingPage>
+<prism:endingPage>460</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/458-k?rss=1">
+<title><![CDATA[Born to be a wildling]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/458-k?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Scanlon, S. T.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.365.6452.458-k</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/458-k</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:subject><![CDATA[Immunology, Medicine, Diseases]]></dc:subject>
+<dc:title><![CDATA[Born to be a wildling]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>twis</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>458</prism:startingPage>
+<prism:endingPage>460</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/458-l?rss=1">
+<title><![CDATA[Protein unfolding, one substrate at a time]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/458-l?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Hurtley, S. M.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.365.6452.458-l</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/458-l</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:subject><![CDATA[Biochemistry, Cell Biology]]></dc:subject>
+<dc:title><![CDATA[Protein unfolding, one substrate at a time]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>twis</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>458</prism:startingPage>
+<prism:endingPage>460</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/458-m?rss=1">
+<title><![CDATA[It's a dog's life]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/458-m?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Vignieri, S.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.365.6452.458-m</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/458-m</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:subject><![CDATA[Genetics, Medicine, Diseases]]></dc:subject>
+<dc:title><![CDATA[It's a dog's life]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>twis</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>458</prism:startingPage>
+<prism:endingPage>460</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/458-n?rss=1">
+<title><![CDATA[Not as hot as we thought]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/458-n?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Smith, H. J.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.365.6452.458-n</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/458-n</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:subject><![CDATA[Geochemistry, Geophysics]]></dc:subject>
+<dc:title><![CDATA[Not as hot as we thought]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>twis</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>458</prism:startingPage>
+<prism:endingPage>460</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/458-o?rss=1">
+<title><![CDATA[If I only had a heart]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/458-o?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Lavine, M. S.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.365.6452.458-o</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/458-o</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:subject><![CDATA[Engineering, Medicine, Diseases]]></dc:subject>
+<dc:title><![CDATA[If I only had a heart]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>twis</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>458</prism:startingPage>
+<prism:endingPage>460</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/458-p?rss=1">
+<title><![CDATA[Building a better RSV vaccine]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/458-p?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Scanlon, S. T.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.365.6452.458-p</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/458-p</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:subject><![CDATA[Immunology]]></dc:subject>
+<dc:title><![CDATA[Building a better RSV vaccine]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>twis</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>458</prism:startingPage>
+<prism:endingPage>460</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/458-q?rss=1">
+<title><![CDATA[Targeting cancer transmission in devils]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/458-q?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Alderton, G.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.365.6452.458-q</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/458-q</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:title><![CDATA[Targeting cancer transmission in devils]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>twis</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>458</prism:startingPage>
+<prism:endingPage>460</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/458-r?rss=1">
+<title><![CDATA[Interfering with macrophage activation]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/458-r?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Balasubramani, A.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.365.6452.458-r</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/458-r</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:title><![CDATA[Interfering with macrophage activation]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>twis</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>458</prism:startingPage>
+<prism:endingPage>460</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/458-s?rss=1">
+<title><![CDATA[Enriching stem cells for gene editing]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/458-s?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Nusinovich, Y.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.365.6452.458-s</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/458-s</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:title><![CDATA[Enriching stem cells for gene editing]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>twis</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>458</prism:startingPage>
+<prism:endingPage>460</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/459-a?rss=1">
+<title><![CDATA[Too much of a gas]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/459-a?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Smith, H. J.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.365.6452.459-a</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/459-a</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:title><![CDATA[Too much of a gas]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>twil</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>459</prism:startingPage>
+<prism:endingPage>459</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/459-b?rss=1">
+<title><![CDATA[Loss of control in aging brains]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/459-b?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Ray, L. B.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.365.6452.459-b</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/459-b</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:title><![CDATA[Loss of control in aging brains]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>twil</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>459</prism:startingPage>
+<prism:endingPage>460</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/459-c?rss=1">
+<title><![CDATA[A preference for alcohol]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/459-c?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Purnell, B. A.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.365.6452.459-c</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/459-c</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:title><![CDATA[A preference for alcohol]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>twil</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>459</prism:startingPage>
+<prism:endingPage>460</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/459-d?rss=1">
+<title><![CDATA[Cooling through particle loss]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/459-d?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Stajic, J.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.365.6452.459-d</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/459-d</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:title><![CDATA[Cooling through particle loss]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>twil</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>459</prism:startingPage>
+<prism:endingPage>460</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/459-e?rss=1">
+<title><![CDATA[Transition states under pressure]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/459-e?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Funk, M. A.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.365.6452.459-e</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/459-e</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:title><![CDATA[Transition states under pressure]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>twil</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>459</prism:startingPage>
+<prism:endingPage>460</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/459-f?rss=1">
+<title><![CDATA[Synthetic bacterial cancer therapy]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/459-f?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Alderton, G.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.365.6452.459-f</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/459-f</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:title><![CDATA[Synthetic bacterial cancer therapy]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>twil</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>459</prism:startingPage>
+<prism:endingPage>460</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/459-g?rss=1">
+<title><![CDATA[A weedy challenge]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/459-g?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Ash, C.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.365.6452.459-g</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/459-g</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:title><![CDATA[A weedy challenge]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>twil</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>459</prism:startingPage>
+<prism:endingPage>460</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/465?rss=1">
+<title><![CDATA[Hydraulic fracturing and active coarsening position the lumen of the mouse blastocyst]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/465?rss=1</link>
+<description><![CDATA[
+<p>During mouse pre-implantation development, the formation of the blastocoel, a fluid-filled lumen, breaks the radial symmetry of the blastocyst. The factors that control the formation and positioning of this basolateral lumen remain obscure. We found that accumulation of pressurized fluid fractures cell-cell contacts into hundreds of micrometer-size lumens. These microlumens eventually discharge their volumes into a single dominant lumen, which we model as a process akin to Ostwald ripening, underlying the coarsening of foams. Using chimeric mutant embryos, we tuned the hydraulic fracturing of cell-cell contacts and steered the coarsening of microlumens, allowing us to successfully manipulate the final position of the lumen. We conclude that hydraulic fracturing of cell-cell contacts followed by contractility-directed coarsening of microlumens sets the first axis of symmetry of the mouse embryo.</p>
+]]></description>
+<dc:creator><![CDATA[Dumortier, J. G., Le Verge-Serandour, M., Tortorelli, A. F., Mielke, A., de Plater, L., Turlier, H., Maitre, J.-L.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.aaw7709</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/465</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:subject><![CDATA[Development]]></dc:subject>
+<dc:title><![CDATA[Hydraulic fracturing and active coarsening position the lumen of the mouse blastocyst]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>r-articles</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>465</prism:startingPage>
+<prism:endingPage>468</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/469?rss=1">
+<title><![CDATA[The geologic history of seawater oxygen isotopes from marine iron oxides]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/469?rss=1</link>
+<description><![CDATA[
+<p>The oxygen isotope composition (<sup>18</sup>O) of marine sedimentary rocks has increased by 10 to 15 per mil since Archean time. Interpretation of this trend is hindered by the dual control of temperature and fluid <sup>18</sup>O on the rocks&rsquo; isotopic composition. A new <sup>18</sup>O record in marine iron oxides covering the past ~2000 million years shows a similar secular rise. Iron oxide precipitation experiments reveal a weakly temperature-dependent iron oxide&ndash;water oxygen isotope fractionation, suggesting that increasing seawater <sup>18</sup>O over time was the primary cause of the long-term rise in <sup>18</sup>O values of marine precipitates. The <sup>18</sup>O enrichment may have been driven by an increase in terrestrial sediment cover, a change in the proportion of high- and low-temperature crustal alteration, or a combination of these and other factors.</p>
+]]></description>
+<dc:creator><![CDATA[Galili, N., Shemesh, A., Yam, R., Brailovsky, I., Sela-Adler, M., Schuster, E. M., Collom, C., Bekker, A., Planavsky, N., Macdonald, F. A., Preat, A., Rudmin, M., Trela, W., Sturesson, U., Heikoop, J. M., Aurell, M., Ramajo, J., Halevy, I.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.aaw9247</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/469</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:subject><![CDATA[Geochemistry, Geophysics]]></dc:subject>
+<dc:title><![CDATA[The geologic history of seawater oxygen isotopes from marine iron oxides]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>r-articles</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>469</prism:startingPage>
+<prism:endingPage>473</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/473?rss=1">
+<title><![CDATA[Stabilizing halide perovskite surfaces for solar cell operation with wide-bandgap lead oxysalts]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/473?rss=1</link>
+<description><![CDATA[
+<p>We show that converting the surfaces of lead halide perovskite to water-insoluble lead (II) oxysalt through reaction with sulfate or phosphate ions can effectively stabilize the perovskite surface and bulk material. These capping lead oxysalt thin layers enhance the water resistance of the perovskite films by forming strong chemical bonds. The wide-bandgap lead oxysalt layers also reduce the defect density on the perovskite surfaces by passivating undercoordinated surface lead centers, which are defect-nucleating sites. Formation of the lead oxysalt layer increases the carrier recombination lifetime and boosts the efficiency of the solar cells to 21.1%. Encapsulated devices stabilized by the lead oxysalt layers maintain 96.8% of their initial efficiency after operation at maximum power point under simulated air mass (AM) 1.5 G irradiation for 1200 hours at 65&deg;C.</p>
+]]></description>
+<dc:creator><![CDATA[Yang, S., Chen, S., Mosconi, E., Fang, Y., Xiao, X., Wang, C., Zhou, Y., Yu, Z., Zhao, J., Gao, Y., De Angelis, F., Huang, J.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.aax3294</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/473</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:subject><![CDATA[Chemistry, Materials Science]]></dc:subject>
+<dc:title><![CDATA[Stabilizing halide perovskite surfaces for solar cell operation with wide-bandgap lead oxysalts]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>reports</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>473</prism:startingPage>
+<prism:endingPage>478</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/478?rss=1">
+<title><![CDATA[A three-dimensional map of the Milky Way using classical Cepheid variable stars]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/478?rss=1</link>
+<description><![CDATA[
+<p>The Milky Way is a barred spiral galaxy, with physical properties inferred from various tracers informed by the extrapolation of structures seen in other galaxies. However, the distances of these tracers are measured indirectly and are model-dependent. We constructed a map of the Milky Way in three dimensions, based on the positions and distances of thousands of classical Cepheid variable stars. This map shows the structure of our Galaxy&rsquo;s young stellar population and allows us to constrain the warped shape of the Milky Way&rsquo;s disk. A simple model of star formation in the spiral arms reproduces the observed distribution of Cepheids.</p>
+]]></description>
+<dc:creator><![CDATA[Skowron, D. M., Skowron, J., Mroz, P., Udalski, A., Pietrukowicz, P., Soszynski, I., Szymanski, M. K., Poleski, R., Koz&#x0142;owski, S., Ulaczyk, K., Rybicki, K., Iwanek, P.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.aau3181</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/478</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:subject><![CDATA[Astronomy]]></dc:subject>
+<dc:title><![CDATA[A three-dimensional map of the Milky Way using classical Cepheid variable stars]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>reports</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>478</prism:startingPage>
+<prism:endingPage>482</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/482?rss=1">
+<title><![CDATA[3D bioprinting of collagen to rebuild components of the human heart]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/482?rss=1</link>
+<description><![CDATA[
+<p>Collagen is the primary component of the extracellular matrix in the human body. It has proved challenging to fabricate collagen scaffolds capable of replicating the structure and function of tissues and organs. We present a method to 3D-bioprint collagen using freeform reversible embedding of suspended hydrogels (FRESH) to engineer components of the human heart at various scales, from capillaries to the full organ. Control of pH-driven gelation provides 20-micrometer filament resolution, a porous microstructure that enables rapid cellular infiltration and microvascularization, and mechanical strength for fabrication and perfusion of multiscale vasculature and tri-leaflet valves. We found that FRESH 3D-bioprinted hearts accurately reproduce patient-specific anatomical structure as determined by micro&ndash;computed tomography. Cardiac ventricles printed with human cardiomyocytes showed synchronized contractions, directional action potential propagation, and wall thickening up to 14% during peak systole.</p>
+]]></description>
+<dc:creator><![CDATA[Lee, A., Hudson, A. R., Shiwarski, D. J., Tashman, J. W., Hinton, T. J., Yerneni, S., Bliley, J. M., Campbell, P. G., Feinberg, A. W.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.aav9051</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/482</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:subject><![CDATA[Engineering, Medicine, Diseases]]></dc:subject>
+<dc:title><![CDATA[3D bioprinting of collagen to rebuild components of the human heart]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>reports</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>482</prism:startingPage>
+<prism:endingPage>487</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/487?rss=1">
+<title><![CDATA[Contrasting genomic shifts underlie parallel phenotypic evolution in response to fishing]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/487?rss=1</link>
+<description><![CDATA[
+<p>Humans cause widespread evolutionary change in nature, but we still know little about the genomic basis of rapid adaptation in the Anthropocene. We tracked genomic changes across all protein-coding genes in experimental fish populations that evolved pronounced shifts in growth rates due to size-selective harvest over only four generations. Comparisons of replicate lines show parallel allele frequency shifts that recapitulate responses to size-selection gradients in the wild across hundreds of unlinked variants concentrated in growth-related genes. However, a supercluster of genes also rose rapidly in frequency and dominated the evolutionary dynamic in one replicate line but not in others. Parallel phenotypic changes thus masked highly divergent genomic responses to selection, illustrating how contingent rapid adaptation can be in the face of strong human-induced selection.</p>
+]]></description>
+<dc:creator><![CDATA[Therkildsen, N. O., Wilder, A. P., Conover, D. O., Munch, S. B., Baumann, H., Palumbi, S. R.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.aaw7271</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/487</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:subject><![CDATA[Evolution, Genetics]]></dc:subject>
+<dc:title><![CDATA[Contrasting genomic shifts underlie parallel phenotypic evolution in response to fishing]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>reports</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>487</prism:startingPage>
+<prism:endingPage>490</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/491?rss=1">
+<title><![CDATA[Transcutaneous ultrasound energy harvesting using capacitive triboelectric technology]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/491?rss=1</link>
+<description><![CDATA[
+<p>A major challenge for implantable medical systems is the inclusion or reliable delivery of electrical power. We use ultrasound to deliver mechanical energy through skin and liquids and demonstrate a thin implantable vibrating triboelectric generator able to effectively harvest it. The ultrasound can induce micrometer-scale displacement of a polymer thin membrane to generate electrical energy through contact electrification. We recharge a lithium-ion battery at a rate of 166 microcoulombs per second in water. The voltage and current generated ex vivo by ultrasound energy transfer reached 2.4 volts and 156 microamps under porcine tissue. These findings show that a capacitive triboelectric electret is the first technology able to compete with piezoelectricity to harvest ultrasound in vivo and to power medical implants.</p>
+]]></description>
+<dc:creator><![CDATA[Hinchet, R., Yoon, H.-J., Ryu, H., Kim, M.-K., Choi, E.-K., Kim, D.-S., Kim, S.-W.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.aan3997</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/491</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:subject><![CDATA[Physics, Applied, Materials Science]]></dc:subject>
+<dc:title><![CDATA[Transcutaneous ultrasound energy harvesting using capacitive triboelectric technology]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>reports</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>491</prism:startingPage>
+<prism:endingPage>494</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/495?rss=1">
+<title><![CDATA[High thermoelectric cooling performance of n-type Mg3Bi2-based materials]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/495?rss=1</link>
+<description><![CDATA[
+<p>Thermoelectric materials have a large Peltier effect, making them attractive for solid-state cooling applications. Bismuth telluride (Bi<SUB>2</SUB>Te<SUB>3</SUB>)&ndash;based alloys have remained the state-of-the-art room-temperature materials for many decades. However, cost partially limited wider use of thermoelectric cooling devices because of the large amounts of expensive tellurium required. We report n-type magnesium bismuthide (Mg<SUB>3</SUB>Bi<SUB>2</SUB>)&ndash;based materials with a peak figure of merit (<I>ZT</I>) of ~0.9 at 350 kelvin, which is comparable to the commercial bismuth telluride selenide (Bi<SUB>2</SUB>Te<SUB>3&ndash;</SUB><I><SUB>x</SUB></I>Se<I><SUB>x</SUB></I>) but much cheaper. A cooling device made of our material and p-type bismuth antimony telluride (Bi<SUB>0.5</SUB>Sb<SUB>1.5</SUB>Te<SUB>3</SUB>) has produced a large temperature difference of ~91 kelvin at the hot-side temperature of 350 kelvin. n-type Mg<SUB>3</SUB>Bi<SUB>2</SUB>-based materials are promising for thermoelectric cooling applications.</p>
+]]></description>
+<dc:creator><![CDATA[Mao, J., Zhu, H., Ding, Z., Liu, Z., Gamage, G. A., Chen, G., Ren, Z.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.aax7792</dc:identifier>
+<dc:identifier>hwp:master-id:sci;science.aax7792</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:subject><![CDATA[Materials Science]]></dc:subject>
+<dc:title><![CDATA[High thermoelectric cooling performance of n-type Mg3Bi2-based materials]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>reports</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>495</prism:startingPage>
+<prism:endingPage>498</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/498?rss=1">
+<title><![CDATA[Isochorismate-derived biosynthesis of the plant stress hormone salicylic acid]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/498?rss=1</link>
+<description><![CDATA[
+<p>The phytohormone salicylic acid (SA) controls biotic and abiotic plant stress responses. Plastid-produced chorismate is a branch-point metabolite for SA biosynthesis. Most pathogen-induced SA derives from isochorismate, which is generated from chorismate by the catalytic activity of ISOCHORISMATE SYNTHASE1. Here, we ask how and in which cellular compartment isochorismate is converted to SA. We show that in <I>Arabidopsis</I>, the pathway downstream of isochorismate requires only two additional proteins: ENHANCED DISEASE SUSCEPTIBILITY5, which exports isochorismate from the plastid to the cytosol, and the cytosolic amidotransferase avrPphB SUSCEPTIBLE3 (PBS3). PBS3 catalyzes the conjugation of glutamate to isochorismate to produce isochorismate-9-glutamate, which spontaneously decomposes into SA and 2-hydroxy-acryloyl-<I>N</I>-glutamate. The minimal requirement of three compartmentalized proteins controlling unidirectional forward flux may protect the pathway against evolutionary forces and pathogen perturbations.</p>
+]]></description>
+<dc:creator><![CDATA[Rekhter, D., Lu&#x0308;dke, D., Ding, Y., Feussner, K., Zienkiewicz, K., Lipka, V., Wiermer, M., Zhang, Y., Feussner, I.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.aaw1720</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/498</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:subject><![CDATA[Botany]]></dc:subject>
+<dc:title><![CDATA[Isochorismate-derived biosynthesis of the plant stress hormone salicylic acid]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>reports</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>498</prism:startingPage>
+<prism:endingPage>502</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/502?rss=1">
+<title><![CDATA[Structure of the Cdc48 segregase in the act of unfolding an authentic substrate]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/502?rss=1</link>
+<description><![CDATA[
+<p>The cellular machine Cdc48 functions in multiple biological pathways by segregating its protein substrates from a variety of stable environments such as organelles or multi-subunit complexes. Despite extensive studies, the mechanism of Cdc48 has remained obscure, and its reported structures are inconsistent with models of substrate translocation proposed for other AAA+ ATPases (adenosine triphosphatases). Here, we report a 3.7-angstrom&ndash;resolution structure of Cdc48 in complex with an adaptor protein and a native substrate. Cdc48 engages substrate by adopting a helical configuration of substrate-binding residues that extends through the central pore of both of the ATPase rings. These findings indicate a unified hand-over-hand mechanism of protein translocation by Cdc48 and other AAA+ ATPases.</p>
+]]></description>
+<dc:creator><![CDATA[Cooney, I., Han, H., Stewart, M. G., Carson, R. H., Hansen, D. T., Iwasa, J. H., Price, J. C., Hill, C. P., Shen, P. S.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.aax0486</dc:identifier>
+<dc:identifier>hwp:master-id:sci;science.aax0486</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:subject><![CDATA[Biochemistry]]></dc:subject>
+<dc:title><![CDATA[Structure of the Cdc48 segregase in the act of unfolding an authentic substrate]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>reports</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>502</prism:startingPage>
+<prism:endingPage>505</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/505?rss=1">
+<title><![CDATA[A proof of concept for structure-based vaccine design targeting RSV in humans]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/505?rss=1</link>
+<description><![CDATA[
+<p>Technologies that define the atomic-level structure of neutralization-sensitive epitopes on viral surface proteins are transforming vaccinology and guiding new vaccine development approaches. Previously, iterative rounds of protein engineering were performed to preserve the prefusion conformation of the respiratory syncytial virus (RSV) fusion (F) glycoprotein, resulting in a stabilized subunit vaccine candidate (DS-Cav1), which showed promising results in mice and macaques. Here, phase I human immunogenicity data reveal a more than 10-fold boost in neutralizing activity in serum from antibodies targeting prefusion-specific surfaces of RSV F. These findings represent a clinical proof of concept for structure-based vaccine design, suggest that development of a successful RSV vaccine will be feasible, and portend an era of precision vaccinology.</p>
+]]></description>
+<dc:creator><![CDATA[Crank, M. C., Ruckwardt, T. J., Chen, M., Morabito, K. M., Phung, E., Costner, P. J., Holman, L. A., Hickman, S. P., Berkowitz, N. M., Gordon, I. J., Yamshchikov, G. V., Gaudinski, M. R., Kumar, A., Chang, L. A., Moin, S. M., Hill, J. P., DiPiazza, A. T., Schwartz, R. M., Kueltzo, L., Cooper, J. W., Chen, P., Stein, J. A., Carlton, K., Gall, J. G., Nason, M. C., Kwong, P. D., Chen, G. L., Mascola, J. R., McLellan, J. S., Ledgerwood, J. E., Graham, B. S., the VRC 317 Study Team, Novik, Saunders, Mendoza, Whalen, Eshun, Cunningham, Wang, Hicks, Sitar, Hendel, Ola, Requilman, Tran, Nguyen, Williams, Boyd, Trofmenko, Carter, Widge]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.aav9033</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/505</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:subject><![CDATA[Immunology]]></dc:subject>
+<dc:title><![CDATA[A proof of concept for structure-based vaccine design targeting RSV in humans]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>reports</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>505</prism:startingPage>
+<prism:endingPage>509</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/510?rss=1">
+<title><![CDATA[New Products]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/510?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.365.6452.510</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/510</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:title><![CDATA[New Products]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>products</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>510</prism:startingPage>
+<prism:endingPage>510</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/514?rss=1">
+<title><![CDATA[Seeing my science clearly]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/514?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[Manzar, G.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.365.6452.514</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/514</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:title><![CDATA[Seeing my science clearly]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>Working Life</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>514</prism:startingPage>
+<prism:endingPage>514</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/eaax1033?rss=1">
+<title><![CDATA[Substrate processing by the Cdc48 ATPase complex is initiated by ubiquitin unfolding]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/eaax1033?rss=1</link>
+<description><![CDATA[
+<p>The Cdc48 adenosine triphosphatase (ATPase) (p97 or valosin-containing protein in mammals) and its cofactor Ufd1/Npl4 extract polyubiquitinated proteins from membranes or macromolecular complexes for subsequent degradation by the proteasome. How Cdc48 processes its diverse and often well-folded substrates is unclear. Here, we report cryo&ndash;electron microscopy structures of the Cdc48 ATPase in complex with Ufd1/Npl4 and polyubiquitinated substrate. The structures show that the Cdc48 complex initiates substrate processing by unfolding a ubiquitin molecule. The unfolded ubiquitin molecule binds to Npl4 and projects its N-terminal segment through both hexameric ATPase rings. Pore loops of the second ring form a staircase that acts as a conveyer belt to move the polypeptide through the central pore. Inducing the unfolding of ubiquitin allows the Cdc48 ATPase complex to process a broad range of substrates.</p>
+]]></description>
+<dc:creator><![CDATA[Twomey, E. C., Ji, Z., Wales, T. E., Bodnar, N. O., Ficarro, S. B., Marto, J. A., Engen, J. R., Rapoport, T. A.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.aax1033</dc:identifier>
+<dc:identifier>hwp:master-id:sci;science.aax1033</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:subject><![CDATA[Biochemistry, Cell Biology, Online Only]]></dc:subject>
+<dc:title><![CDATA[Substrate processing by the Cdc48 ATPase complex is initiated by ubiquitin unfolding]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>r-articles</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>eaax1033</prism:startingPage>
+<prism:endingPage>eaax1033</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/eaaw4361?rss=1">
+<title><![CDATA[Laboratory mice born to wild mice have natural microbiota and model human immune responses]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/eaaw4361?rss=1</link>
+<description><![CDATA[
+<p>Laboratory mouse studies are paramount for understanding basic biological phenomena but also have limitations. These include conflicting results caused by divergent microbiota and limited translational research value. To address both shortcomings, we transferred C57BL/6 embryos into wild mice, creating "wildlings." These mice have a natural microbiota and pathogens at all body sites and the tractable genetics of C57BL/6 mice. The bacterial microbiome, mycobiome, and virome of wildlings affect the immune landscape of multiple organs. Their gut microbiota outcompete laboratory microbiota and demonstrate resilience to environmental challenges. Wildlings, but not conventional laboratory mice, phenocopied human immune responses in two preclinical studies. A combined natural microbiota- and pathogen-based model may enhance the reproducibility of biomedical studies and increase the bench-to-bedside safety and success of immunological studies.</p>
+]]></description>
+<dc:creator><![CDATA[Rosshart, S. P., Herz, J., Vassallo, B. G., Hunter, A., Wall, M. K., Badger, J. H., McCulloch, J. A., Anastasakis, D. G., Sarshad, A. A., Leonardi, I., Collins, N., Blatter, J. A., Han, S.-J., Tamoutounour, S., Potapova, S., Foster St. Claire, M. B., Yuan, W., Sen, S. K., Dreier, M. S., Hild, B., Hafner, M., Wang, D., Iliev, I. D., Belkaid, Y., Trinchieri, G., Rehermann, B.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.aaw4361</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/eaaw4361</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:subject><![CDATA[Immunology, Medicine, Diseases, Online Only]]></dc:subject>
+<dc:title><![CDATA[Laboratory mice born to wild mice have natural microbiota and model human immune responses]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>r-articles</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>eaaw4361</prism:startingPage>
+<prism:endingPage>eaaw4361</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/eaax4406?rss=1">
+<title><![CDATA[The pigment-protein network of a diatom photosystem II-light-harvesting antenna supercomplex]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/eaax4406?rss=1</link>
+<description><![CDATA[
+<p>Diatoms play important roles in global primary productivity and biogeochemical cycling of carbon, in part owing to the ability of their photosynthetic apparatus to adapt to rapidly changing light intensity. We report a cryo&ndash;electron microscopy structure of the photosystem II (PSII)&ndash;fucoxanthin (Fx) chlorophyll (Chl) a/c binding protein (FCPII) supercomplex from the centric diatom <I>Chaetoceros gracilis</I>. The supercomplex comprises two protomers, each with two tetrameric and three monomeric FCPIIs around a PSII core that contains five extrinsic oxygen-evolving proteins at the lumenal surface. The structure reveals the arrangement of a huge pigment network that contributes to efficient light energy harvesting, transfer, and dissipation processes in the diatoms.</p>
+]]></description>
+<dc:creator><![CDATA[Pi, X., Zhao, S., Wang, W., Liu, D., Xu, C., Han, G., Kuang, T., Sui, S.-F., Shen, J.-R.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.aax4406</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/eaax4406</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:subject><![CDATA[Biochemistry, Botany, Online Only]]></dc:subject>
+<dc:title><![CDATA[The pigment-protein network of a diatom photosystem II-light-harvesting antenna supercomplex]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>r-articles</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>eaax4406</prism:startingPage>
+<prism:endingPage>eaax4406</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/eaay7985?rss=1">
+<title><![CDATA[Erratum for the Report: "Elevated HLA-A expression impairs HIV control through inhibition of NKG2A-expressing cells" by V. Ramsuran, V. Naranbhai, A. Horowitz, Y. Qi, M. P. Martin, Y. Yuki, X. Gao, V. Walker-Sperling, G. Q. Del Prete, D. K. Schneider, J. D. Lifson, J. Fellay, S. G. Deeks, J. N. Martin, J. J. Goedert, S. M. Wolinsky, N. L. Michael, G. D. Kirk, S. Buchbinder, D. Haas, T. Ndungu, P. Goulder, P. Parham, B. D. Walker, J. M. Carlson, M. Carrington]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/eaay7985?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.aay7985</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/eaay7985</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:title><![CDATA[Erratum for the Report: "Elevated HLA-A expression impairs HIV control through inhibition of NKG2A-expressing cells" by V. Ramsuran, V. Naranbhai, A. Horowitz, Y. Qi, M. P. Martin, Y. Yuki, X. Gao, V. Walker-Sperling, G. Q. Del Prete, D. K. Schneider, J. D. Lifson, J. Fellay, S. G. Deeks, J. N. Martin, J. J. Goedert, S. M. Wolinsky, N. L. Michael, G. D. Kirk, S. Buchbinder, D. Haas, T. Ndungu, P. Goulder, P. Parham, B. D. Walker, J. M. Carlson, M. Carrington]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>Errata</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>eaay7985</prism:startingPage>
+<prism:endingPage>eaay7985</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/eaay8818?rss=1">
+<title><![CDATA[Erratum for the Research Article "Synthetic glycolate metabolism pathways stimulate crop growth and productivity in the field" by P. F. South, A. P. Cavanagh, H. W. Liu, D. R. Ort]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/eaay8818?rss=1</link>
+<description><![CDATA[]]></description>
+<dc:creator><![CDATA[]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.aay8818</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/eaay8818</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:title><![CDATA[Erratum for the Research Article "Synthetic glycolate metabolism pathways stimulate crop growth and productivity in the field" by P. F. South, A. P. Cavanagh, H. W. Liu, D. R. Ort]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>Errata</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>eaay8818</prism:startingPage>
+<prism:endingPage>eaay8818</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+<item rdf:about="http://science.sciencemag.org/cgi/content/short/365/6452/eaau9923?rss=1">
+<title><![CDATA[Somatic evolution and global expansion of an ancient transmissible cancer lineage]]></title>
+<link>http://science.sciencemag.org/cgi/content/short/365/6452/eaau9923?rss=1</link>
+<description><![CDATA[
+<p>The canine transmissible venereal tumor (CTVT) is a cancer lineage that arose several millennia ago and survives by "metastasizing" between hosts through cell transfer. The somatic mutations in this cancer record its phylogeography and evolutionary history. We constructed a time-resolved phylogeny from 546 CTVT exomes and describe the lineage&rsquo;s worldwide expansion. Examining variation in mutational exposure, we identify a highly context-specific mutational process that operated early in the cancer&rsquo;s evolution but subsequently vanished, correlate ultraviolet-light mutagenesis with tumor latitude, and describe tumors with heritable hyperactivity of an endogenous mutational process. CTVT displays little evidence of ongoing positive selection, and negative selection is detectable only in essential genes. We illustrate how long-lived clonal organisms capture changing mutagenic environments, and reveal that neutral genetic drift is the dominant feature of long-term cancer evolution.</p>
+]]></description>
+<dc:creator><![CDATA[Baez-Ortega, A., Gori, K., Strakova, A., Allen, J. L., Allum, K. M., Bansse-Issa, L., Bhutia, T. N., Bisson, J. L., Briceno, C., Castillo Domracheva, A., Corrigan, A. M., Cran, H. R., Crawford, J. T., Davis, E., de Castro, K. F., B. de Nardi, A., de Vos, A. P., Delgadillo Keenan, L., Donelan, E. M., Espinoza Huerta, A. R., Faramade, I. A., Fazil, M., Fotopoulou, E., Fruean, S. N., Gallardo-Arrieta, F., Glebova, O., Gouletsou, P. G., Ha&#x0308;felin Manrique, R. F., Henriques, J. J. G. P., Horta, R. S., Ignatenko, N., Kane, Y., King, C., Koenig, D., Krupa, A., Kruzeniski, S. J., Kwon, Y.-M., Lanza-Perea, M., Lazyan, M., Lopez Quintana, A. M., Losfelt, T., Marino, G., Martinez Castaneda, S., Martinez-Lopez, M. F., Meyer, M., Migneco, E. J., Nakanwagi, B., Neal, K. B., Neunzig, W., Ni Leathlobhair, M., Nixon, S. J., Ortega-Pacheco, A., Pedraza-Ordonez, F., Peleteiro, M. C., Polak, K., Pye, R. J., Reece, J. F., Rojas Gutierrez, J., Sadia, H., Schmeling, S. K., Shamanova, O., Sherlock, A. G., Stammnitz, M., Steenland-Smit, A. E., Svitich, A., Tapia Martinez, L. J., Thoya Ngoka, I., Torres, C. G., Tudor, E. M., van der Wel, M. G., Vitalaru, B. A., Vural, S. A., Walkinton, O., Wang, J., Wehrle-Martinez, A. S., Widdowson, S. A. E., Stratton, M. R., Alexandrov, L. B., Martincorena, I., Murchison, E. P.]]></dc:creator>
+<dc:date>2019-08-01T10:40:00-07:00</dc:date>
+<dc:identifier>info:doi/10.1126/science.aau9923</dc:identifier>
+<dc:identifier>hwp:resource-id:sci;365/6452/eaau9923</dc:identifier>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:subject><![CDATA[Genetics, Medicine, Diseases, Online Only]]></dc:subject>
+<dc:title><![CDATA[Somatic evolution and global expansion of an ancient transmissible cancer lineage]]></dc:title>
+<prism:publicationDate>2019-08-02</prism:publicationDate>
+<prism:section>r-articles</prism:section>
+<prism:volume>365</prism:volume>
+<prism:number>6452</prism:number>
+<prism:startingPage>eaau9923</prism:startingPage>
+<prism:endingPage>eaau9923</prism:endingPage>
+<prism:issueName>CRISPR in China</prism:issueName>
+</item>
+</rdf:RDF>

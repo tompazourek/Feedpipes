@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?><feed
+	xmlns="http://www.w3.org/2005/Atom"
+	xmlns:thr="http://purl.org/syndication/thread/1.0"
+	xml:lang="en"
+	xml:base="https://mindhacks.com/wp-atom.php"
+	xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" >
+	<title type="text">Mind Hacks</title>
+	<subtitle type="text">Neuroscience and psychology news and views.</subtitle>
+
+	<updated>2018-09-27T05:39:29Z</updated>
+
+	<link rel="alternate" type="text/html" href="https://mindhacks.com" />
+	<id>http://mindhacks.com/feed/atom/</id>
+	<link rel="self" type="application/atom+xml" href="https://mindhacks.com/feed/atom/" />
+
+	<generator uri="http://wordpress.com/">WordPress.com</generator>
+<link rel="search" type="application/opensearchdescription+xml" href="https://mindhacks.com/osd.xml" title="Mind Hacks" />
+<link rel="search" type="application/opensearchdescription+xml" href="https://s1.wp.com/opensearch.xml" title="WordPress.com" />
+	<link rel='hub' href='https://mindhacks.com/?pushpress=hub' />
+	<entry>
+		<author>
+			<name>tomstafford</name>
+					</author>
+		<title type="html"><![CDATA[The Choice Engine]]></title>
+		<link rel="alternate" type="text/html" href="https://mindhacks.com/2018/09/13/the-choice-engine/" />
+		<id>http://mindhacks.com/?p=34312</id>
+		<updated>2018-09-27T05:39:29Z</updated>
+		<published>2018-09-13T10:52:14Z</published>
+		<category scheme="https://mindhacks.com" term="Nonsense" />		<summary type="html"><![CDATA[A project I&#8217;ve been working on a for a long time has just launched: The Choice Engine is an interactive essay about the psychology, neuroscience and philosophy of free will. To begin, follow and reply START &#8212; ChoiceEngine (@ChoiceEngine) September 20, 2018 By talking to the @ChoiceEngine twitter-bot you can navigate an essay about choice, &#8230; <a href="https://mindhacks.com/2018/09/13/the-choice-engine/" class="more-link">Continue reading<span class="screen-reader-text"> "The Choice Engine"</span></a>]]></summary>
+				<content type="html" xml:base="https://mindhacks.com/2018/09/13/the-choice-engine/"><![CDATA[<p><img data-attachment-id="34313" data-permalink="https://mindhacks.com/2018/09/13/the-choice-engine/logo/" data-orig-file="https://mindhacksblog.files.wordpress.com/2018/09/logo.gif" data-orig-size="1112,1112" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="logo" data-image-description="" data-medium-file="https://mindhacksblog.files.wordpress.com/2018/09/logo.gif?w=300" data-large-file="https://mindhacksblog.files.wordpress.com/2018/09/logo.gif?w=840" class="wp-image-34313 size-thumbnail aligncenter" src="https://mindhacksblog.files.wordpress.com/2018/09/logo.gif?w=150&#038;h=150" alt="" width="150" height="150" srcset="https://mindhacksblog.files.wordpress.com/2018/09/logo.gif?w=150&amp;h=150 150w, https://mindhacksblog.files.wordpress.com/2018/09/logo.gif?w=300&amp;h=300 300w" sizes="(max-width: 150px) 85vw, 150px" />A project I&#8217;ve been working on a for a long time has just launched:</p>
+<div class="embed-twitter">
+<blockquote class="twitter-tweet" data-width="550" data-dnt="true">
+<p lang="en" dir="ltr">The Choice Engine is an interactive essay about the psychology, neuroscience and philosophy of free will. To begin, follow and reply START</p>
+<p>&mdash; ChoiceEngine (@ChoiceEngine) <a href="https://twitter.com/ChoiceEngine/status/1042758612832210946?ref_src=twsrc%5Etfw">September 20, 2018</a></p></blockquote>
+<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+<p>By talking to the <a href="https://twitter.com/intent/tweet?text=@ChoiceEngine%20START">@ChoiceEngine</a> twitter-bot you can navigate an essay about choice, complexity and the nature of our minds. Along the way I argue why the most famous experiment on the neuroscience of free will doesn&#8217;t really tell us much, and discuss the wasp which made Darwin lose his faith in a benevolent god. And there&#8217;s this animated gif:</p>
+<p><img data-attachment-id="34314" data-permalink="https://mindhacks.com/2018/09/13/the-choice-engine/rule30_1/" data-orig-file="https://mindhacksblog.files.wordpress.com/2018/09/rule30_1.gif" data-orig-size="200,200" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="rule30_1" data-image-description="" data-medium-file="https://mindhacksblog.files.wordpress.com/2018/09/rule30_1.gif?w=200" data-large-file="https://mindhacksblog.files.wordpress.com/2018/09/rule30_1.gif?w=200" class="size-full wp-image-34314 aligncenter" src="https://mindhacksblog.files.wordpress.com/2018/09/rule30_1.gif?w=840" alt=""   /></p>
+<p>Follow and tweet <a href="https://twitter.com/intent/tweet?text=@ChoiceEngine%20START">START @ChoiceEngine</a> to begin</p>
+]]></content>
+						<link rel="replies" type="text/html" href="https://mindhacks.com/2018/09/13/the-choice-engine/#comments" thr:count="5"/>
+		<link rel="replies" type="application/atom+xml" href="https://mindhacks.com/2018/09/13/the-choice-engine/feed/atom/" thr:count="5"/>
+		<thr:total>5</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>tomstafford</name>
+					</author>
+		<title type="html"><![CDATA[After the methods crisis, the theory crisis]]></title>
+		<link rel="alternate" type="text/html" href="https://mindhacks.com/2018/08/15/after-the-methods-crisis-the-theory-crisis/" />
+		<id>http://mindhacks.com/?p=34304</id>
+		<updated>2018-08-16T06:48:46Z</updated>
+		<published>2018-08-15T06:10:22Z</published>
+		<category scheme="https://mindhacks.com" term="Theory" />		<summary type="html"><![CDATA[This thread started by Ekaterina Damer has prompted many recommendations from psychologists on twitter. Can anyone recommend an (ideally brief) introductory paper or post or book explaining what makes for a good theory? For example, how to construct a good psychological theory, what are key things to consider?@psforscher @lakens @talyarkoni @chrisdc77 @tomstafford @kurtjgray &#8212; Ekaterina &#8230; <a href="https://mindhacks.com/2018/08/15/after-the-methods-crisis-the-theory-crisis/" class="more-link">Continue reading<span class="screen-reader-text"> "After the methods crisis, the theory&#160;crisis"</span></a>]]></summary>
+				<content type="html" xml:base="https://mindhacks.com/2018/08/15/after-the-methods-crisis-the-theory-crisis/"><![CDATA[<p>This thread started by Ekaterina Damer has prompted many recommendations from psychologists on twitter.</p>
+<div class="embed-twitter">
+<blockquote class="twitter-tweet" data-width="550" data-dnt="true">
+<p lang="en" dir="ltr">Can anyone recommend an (ideally brief) introductory paper or post or book explaining what makes for a good theory? For example, how to construct a good psychological theory, what are key things to consider?<a href="https://twitter.com/psforscher?ref_src=twsrc%5Etfw">@psforscher</a> <a href="https://twitter.com/lakens?ref_src=twsrc%5Etfw">@lakens</a> <a href="https://twitter.com/talyarkoni?ref_src=twsrc%5Etfw">@talyarkoni</a> <a href="https://twitter.com/chrisdc77?ref_src=twsrc%5Etfw">@chrisdc77</a> <a href="https://twitter.com/tomstafford?ref_src=twsrc%5Etfw">@tomstafford</a> <a href="https://twitter.com/kurtjgray?ref_src=twsrc%5Etfw">@kurtjgray</a></p>
+<p>&mdash; Ekaterina Damer (@ekadamer) <a href="https://twitter.com/ekadamer/status/1029329431423344640?ref_src=twsrc%5Etfw">August 14, 2018</a></p></blockquote>
+<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+<p>Here are most of the recommendations, with their recommender in brackets. I haven&#8217;t read these, but wanted to collate them in one place. Comments are open if you have your own suggestions.</p>
+<p>(Iris van Rooij)<br />
+<a href="https://pdfs.semanticscholar.org/f5b1/b05e8313aee94ccd98e80eab3ec56dbd2c97.pdf">&#8220;How does it work?&#8221; vs. &#8220;What are the laws?&#8221; Two conceptions of psychological explanation.</a> Robert Cummins</p>
+<p>(Ed Orehek)<br />
+<a href="http://journals.sagepub.com/doi/abs/10.1207/s15327957pspr0802_1">Theory Construction in Social Personality Psychology: Personal Experiences and Lessons Learned: A Special Issue of Personality and Social Psychology Review</a></p>
+<p>(Djouria Ghilani)<br />
+<a href="http://journals.sagepub.com/doi/abs/10.1177/0959354310378184">Personal Reflections on Theory and Psychology</a><br />
+Gerd Gigerenzer, </p>
+<p><a href="https://works.bepress.com/barry_markovsky/">Selected Works of Barry N. Markovsky</a></p>
+<p>(pretty much everyone, but Tal Yarkoni put it like this)<br />
+&#8220;Meehl said most of what there is to say about this&#8221;</p>
+<li><a href="http://meehl.umn.edu/sites/g/files/pua1696/f/074theorytestingparadox.pdf">Theory-testing in psychology and physics: A methodological paradox</a></li>
+<li><a href="http://meehl.umn.edu/sites/g/files/pua1696/f/147appraisingamending.pdf">Appraising and amending theories: The strategy of Lakatosian defense and two principles that warrant it</a></li>
+<li><a href="http://meehl.umn.edu/sites/g/files/pua1696/f/144whysummaries.pdf">Why summaries of research on psychological theories are often uninterpretable</a></li>
+<p>(Which reminds me, <a href="https://twitter.com/PsyBrief">PsychBrief</a> has been reading Meehl and provides extensive summaries here: <a href="http://psychbrief.com/meehl-videos-papers/">Paul Meehl on philosophy of science: video lectures and papers</a>)</p>
+<p>(Burak Tunca)<br />
+<a href="http://haas.berkeley.edu/faculty/papers/stawtheory.pdf">What Theory is Not</a> by Robert I. Sutton &amp; Barry M. Staw </p>
+<p>(Joshua Skewes)<br />
+Valerie Gray Hardcastle&#8217;s &#8220;How to build a theory in cognitive science&#8221;.</p>
+<p>(Randy McCarthy)<br />
+Chapter 1 of Gawronski, B., &amp; Bodenhausen, G. V. (2015). Theory and explanation in social psychology. Guilford Publications.</p>
+<p>(Kimberly Quinn)<br />
+McGuire, W. J. (1997). <a href="http://sing.stanford.edu/cs303-sp11/papers/mcguire_hypothesis_gen.pdf">Creative hypothesis generating in psychology: Some useful heuristics</a>. Annual review of psychology, 48(1), 1-30.</p>
+<p>(Daniël Lakens)<br />
+Jaccard, J., &amp; Jacoby, J. (2010). Theory Construction and Model-building Skills: A Practical Guide for Social Scientists. Guilford Press.</p>
+<p>Fiedler, K. (2004). Tools, toys, truisms, and theories: Some thoughts on the creative cycle of theory formation. Personality and Social Psychology Review, 8(2), 123–131.</p>
+<p>(Tom Stafford)<br />
+Roberts and Pashler (2000). <a href="https://cloudfront.escholarship.org/dist/prd/content/qt5vt0z72k/qt5vt0z72k.pdf">How persuasive is a good fit? A comment on theory testing</a></p>
+<p>From the discussion it is clear that the theory crisis will be every bit as rich and full of dissent as the methods crisis.</p>
+<p><b>Updates 16 August 2018</b></p>
+<p>(Richard Prather)<br />
+Simmering et al (2010). <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3103214/">To Model or Not to Model? A Dialogue on the Role of Computational Modeling in Developmental Science</a></p>
+<p>(Brett Buttliere: we made a Facebook group to talk about theory)<br />
+<a href="https://www.facebook.com/groups/153619768802306/about/">Psychological Theory Discussion Group</a></p>
+<p>(Eric Morris)<br />
+Wilson, K. G. (2001). <a href="http://www.ijpsy.com/volumen1/num2/23/some-notes-on-theoretical-constructs-types-EN.pdf">Some notes on theoretical constructs: types and validation from a contextual behavioral perspective</a></p>
+<p>(Michael P. Grosz)<br />
+<a href="http://osc.centerforopenscience.org/2013/11/20/theoretical-amnesia/">Theoretical Amnesia</a> by Denny Borsboom</p>
+<p>(Ivan Grahek)<br />
+Fiedler (2017). <a href="http://journals.sagepub.com/doi/abs/10.1177/1745691616654458">What Constitutes Strong Psychological Science? The (Neglected) Role of Diagnosticity and A Priori Theorizing</a></p>
+<p>(Iris van Rooij)<br />
+More suggestions in these two theads (<a href="https://twitter.com/psmaldino/status/952267372231933952">one</a>, <a href="https://twitter.com/IrisVanRooij/status/1029713122532179968">two</a>)</p>
+]]></content>
+						<link rel="replies" type="text/html" href="https://mindhacks.com/2018/08/15/after-the-methods-crisis-the-theory-crisis/#comments" thr:count="3"/>
+		<link rel="replies" type="application/atom+xml" href="https://mindhacks.com/2018/08/15/after-the-methods-crisis-the-theory-crisis/feed/atom/" thr:count="3"/>
+		<thr:total>3</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>tomstafford</name>
+					</author>
+		<title type="html"><![CDATA[Open Science Essentials: Preprints]]></title>
+		<link rel="alternate" type="text/html" href="https://mindhacks.com/2018/08/14/open-science-essentials-preprints/" />
+		<id>http://mindhacks.com/?p=34301</id>
+		<updated>2018-08-14T07:59:48Z</updated>
+		<published>2018-08-14T07:59:48Z</published>
+		<category scheme="https://mindhacks.com" term="Theory" />		<summary type="html"><![CDATA[Open science essentials in 2 minutes, part 4 Before a research article is published in a journal you can make it freely available for anyone to read. You could do this on your own website, but you can also do it on a preprint server, such as psyarxiv.com, where other researchers also share their preprints, &#8230; <a href="https://mindhacks.com/2018/08/14/open-science-essentials-preprints/" class="more-link">Continue reading<span class="screen-reader-text"> "Open Science Essentials:&#160;Preprints"</span></a>]]></summary>
+				<content type="html" xml:base="https://mindhacks.com/2018/08/14/open-science-essentials-preprints/"><![CDATA[<p><i>Open science essentials in 2 minutes, part 4</i></p>
+<p>Before a research article is published in a journal you can make it freely available for anyone to read. You could do this on your own website, but you can also do it on a preprint server, such as <a href="http://psyarxiv.com/">psyarxiv.com</a>, where other researchers also share their preprints, which is supported by the <a href="https://mindhacks.com/2017/11/09/open-science-essentials-the-open-science-framework/">OSF</a> so will be around for a while, and which allows you to find others&#8217; research easily.</p>
+<p>Preprint servers have been used for decades in physics, but are now becoming more common across academia. Preprints allow rapid dissemination of your research, which is especially important for early career researchers. Preprints can be cited and indexing services like Google Scholar will join your preprint citations with the record of your eventual journal publication.</p>
+<p>Preprints also mean that work can be reviewed (and errors-caught) before final publication.</p>
+<p><b>What happens when my paper is published?</b></p>
+<p>Your work is still available in preprint form, which means that there is a non-paywalled version and so more people will read and cite it. If you upload a version of the manuscript after it has been accepted for publication that is called a post-print.</p>
+<p><b>What about copyright?</b></p>
+<p>Mostly journals own the formatted, typeset version of your published manuscript. This is why you often aren&#8217;t allowed to upload the PDF of this to your own website or a preprint server, but there&#8217;s nothing stopping you uploading a version with the same text (so the formatting will be different, but the information is the same).</p>
+<p><b>Will journals refuse my paper if it is already &#8220;published&#8221; via a preprint?</b></p>
+<p><a href="https://en.wikipedia.org/wiki/List_of_academic_journals_by_preprint_policy">Most journals</a> allow, or even encourage preprints. A diminishing minority don&#8217;t. If you&#8217;re interested you can search for specific journal policies <a href="http://www.sherpa.ac.uk/romeo/index.php">here</a>.</p>
+<p><b>Will I get scooped?</b></p>
+<p>Preprints allow you to timestamp your work before publication, so they can act to establish priority on a findings which is protection against being scooped. Of course, if you have a project where you don&#8217;t want to let anyone know you are working in that area until you&#8217;re published, preprints may not be suitable.</p>
+<p><b>When should I upload a preprint?</b></p>
+<p>Upload a preprint at the point of submission to a journal, and for each further submission and upon acceptance (making it a postprint).</p>
+<p><b>What&#8217;s to stop people uploading rubbish to a preprint server?</b></p>
+<p>There&#8217;s nothing to stop this, but since your reputation for doing quality work is one of the most important things a scholar has I don&#8217;t recommend it.</p>
+<p>Useful links:</p>
+<ul>
+<li><a href="http://psyarxiv.com/">psyarxiv</a> &#8211; preprint server for psychology</li>
+<li><a href="https://en.wikipedia.org/wiki/List_of_academic_journals_by_preprint_policy">List of academic journals by preprint policy</a> (Wikipedia)</li>
+<li>Search publishers policies on preprints by journal name at <a href="http://www.sherpa.ac.uk/romeo/index.php">ShERPA/RoMEO</a></li>
+<li><a href="http://science.sciencemag.org/content/357/6358/1344">The preprint dilemma</a> (Jocelyn Kaiser in Science, 2017).</li>
+<li><a href="http://asapbio.org/preprint-info/preprint-faq">ASAPbio Preprint FAQ</a></li>
+<li>Bourne et al (2016) <a href="https://peerj.com/preprints/2669v1/">Ten simple rules for considering preprints</a></li>
+</ul>
+<p>Part of a series:</p>
+<ol>
+<li><a href="https://mindhacks.com/2017/11/09/open-science-essentials-pre-registration/">Pre-registration</a></li>
+<li><a href="https://mindhacks.com/2017/11/09/open-science-essentials-the-open-science-framework/">The Open Science Framework</a></li>
+<li><a href="https://mindhacks.com/2018/01/02/open-science-essentials-reproducibility/">Reproducibility</a></li>
+</ol>
+]]></content>
+						<link rel="replies" type="text/html" href="https://mindhacks.com/2018/08/14/open-science-essentials-preprints/#comments" thr:count="2"/>
+		<link rel="replies" type="application/atom+xml" href="https://mindhacks.com/2018/08/14/open-science-essentials-preprints/feed/atom/" thr:count="2"/>
+		<thr:total>2</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>tomstafford</name>
+					</author>
+		<title type="html"><![CDATA[Believing everyone else is wrong is a danger sign]]></title>
+		<link rel="alternate" type="text/html" href="https://mindhacks.com/2018/06/17/believing-everyone-else-is-wrong-is-a-danger-sign/" />
+		<id>http://mindhacks.com/?p=34299</id>
+		<updated>2018-06-17T10:01:54Z</updated>
+		<published>2018-06-17T10:01:54Z</published>
+		<category scheme="https://mindhacks.com" term="Reasoning" />		<summary type="html"><![CDATA[I have a guest post for the Research Digest, snappily titled &#8216;People who think their opinions are superior to others are most prone to overestimating their relevant knowledge and ignoring chances to learn more&#8216;. The paper I review is about the so-called &#8220;belief superiority&#8221; effect, which is defined by thinking that your views are better &#8230; <a href="https://mindhacks.com/2018/06/17/believing-everyone-else-is-wrong-is-a-danger-sign/" class="more-link">Continue reading<span class="screen-reader-text"> "Believing everyone else is wrong is a danger&#160;sign"</span></a>]]></summary>
+				<content type="html" xml:base="https://mindhacks.com/2018/06/17/believing-everyone-else-is-wrong-is-a-danger-sign/"><![CDATA[<p>I have a guest post for the Research Digest, snappily titled &#8216;<a href="https://digest.bps.org.uk/2018/05/31/people-who-think-their-opinions-are-superior-to-others-are-most-prone-to-overestimating-their-relevant-knowledge-and-ignoring-chances-to-learn-more/">People who think their opinions are superior to others are most prone to overestimating their relevant knowledge and ignoring chances to learn more</a>&#8216;. The paper I review is about the so-called &#8220;belief superiority&#8221; effect, which is defined by thinking that your views are better than other people&#8217;s (i.e. not just that you are right, but that other people are wrong). The finding that people who have belief superiority are more likely to overestimate their knowledge is a twist on the famous <a href="https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect">Dunning-Kruger</a> phenomenon, but showing that it isn&#8217;t just ignorance that predicts overconfidence, but also the specific belief that everyone else has mistaken beliefs.</p>
+<p>Here&#8217;s the first lines of the Research Digest piece:</p>
+<blockquote><p>We all know someone who is convinced their opinion is better than everyone else’s on a topic – perhaps, even, that it is the only correct opinion to have. Maybe, on some topics, <i>you</i> are that person. No psychologist would be surprised that people who are convinced their beliefs are superior think they are better informed than others, but this fact leads to a follow on question: are people <i>actually</i> better informed on the topics for which they are convinced their opinion is superior? This is what Michael Hall and Kaitlin Raimi set out to check in <a href="https://www.sciencedirect.com/science/article/pii/S002210311730714X">a series of experiments</a> in the <em>Journal of Experimental Social Psychology</em>.</p></blockquote>
+<p>Read more here: &#8216;<a href="https://digest.bps.org.uk/2018/05/31/people-who-think-their-opinions-are-superior-to-others-are-most-prone-to-overestimating-their-relevant-knowledge-and-ignoring-chances-to-learn-more/">People who think their opinions are superior to others are most prone to overestimating their relevant knowledge and ignoring chances to learn more</a>&#8216;</p>
+<p>&nbsp;</p>
+]]></content>
+						<link rel="replies" type="text/html" href="https://mindhacks.com/2018/06/17/believing-everyone-else-is-wrong-is-a-danger-sign/#comments" thr:count="7"/>
+		<link rel="replies" type="application/atom+xml" href="https://mindhacks.com/2018/06/17/believing-everyone-else-is-wrong-is-a-danger-sign/feed/atom/" thr:count="7"/>
+		<thr:total>7</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>tomstafford</name>
+					</author>
+		<title type="html"><![CDATA[Review: John Bargh&#8217;s &#8220;Before You Know It&#8221;]]></title>
+		<link rel="alternate" type="text/html" href="https://mindhacks.com/2018/04/04/review-john-barghs-before-you-know-it/" />
+		<id>http://mindhacks.com/?p=34287</id>
+		<updated>2018-04-05T07:55:48Z</updated>
+		<published>2018-04-04T20:57:05Z</published>
+		<category scheme="https://mindhacks.com" term="books" />		<summary type="html"><![CDATA[I have a review of John Bargh&#8217;s new book &#8220;Before You Know It: The Unconscious Reasons We Do What We Do&#8221; in this month&#8217;s Psychologist magazine. You can read the review in print (or online here) but the magazine could only fit in 250 words, and I originally wrote closer to 700. I&#8217;ll put the &#8230; <a href="https://mindhacks.com/2018/04/04/review-john-barghs-before-you-know-it/" class="more-link">Continue reading<span class="screen-reader-text"> "Review: John Bargh&#8217;s &#8220;Before You Know&#160;It&#8221;"</span></a>]]></summary>
+				<content type="html" xml:base="https://mindhacks.com/2018/04/04/review-john-barghs-before-you-know-it/"><![CDATA[<p><a href="https://thepsychologist.bps.org.uk/"><img data-attachment-id="34288" data-permalink="https://mindhacks.com/2018/04/04/review-john-barghs-before-you-know-it/before-you-know-it/" data-orig-file="https://mindhacksblog.files.wordpress.com/2018/04/before-you-know-it.jpg" data-orig-size="528,360" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="before-you-know-it" data-image-description="" data-medium-file="https://mindhacksblog.files.wordpress.com/2018/04/before-you-know-it.jpg?w=300" data-large-file="https://mindhacksblog.files.wordpress.com/2018/04/before-you-know-it.jpg?w=528" class="alignright wp-image-34288 size-medium" src="https://mindhacksblog.files.wordpress.com/2018/04/before-you-know-it.jpg?w=300&#038;h=205" alt="" width="300" height="205" srcset="https://mindhacksblog.files.wordpress.com/2018/04/before-you-know-it.jpg?w=300&amp;h=205 300w, https://mindhacksblog.files.wordpress.com/2018/04/before-you-know-it.jpg?w=150&amp;h=102 150w, https://mindhacksblog.files.wordpress.com/2018/04/before-you-know-it.jpg 528w" sizes="(max-width: 300px) 85vw, 300px" /></a>I have <a href="https://thepsychologist.bps.org.uk/volume-31/april-2018/missed-opportunity">a review</a> of John Bargh&#8217;s new book &#8220;Before You Know It: The Unconscious Reasons We Do What We Do&#8221; in this month&#8217;s <a href="https://thepsychologist.bps.org.uk/">Psychologist magazine</a>. You can read the review in print (or online <a href="https://thepsychologist.bps.org.uk/volume-31/april-2018/missed-opportunity">here)</a> but the magazine could only fit in 250 words, and I originally wrote closer to 700. I&#8217;ll put the full, unedited, review below at the end of this post.</p>
+<p>John Bargh is one of the world&#8217;s most celebrated social psychologists, and has made his name with creative experiments supposedly demonstrating the nature of our unconscious minds. His work, and style of work, has been directly or implicitly criticised during the so-called replication crisis in psychology (<a href="http://neurobonkers.com/2012/03/08/a-yale-professors-one-man-rampage-against-plos-the-internet-and-a-cambridge-research-group/">example</a>), so I approached a book length treatment of his ideas with interest, and in anticipation of how he&#8217;d respond to his critics.</p>
+<p>Full disclosure: I&#8217;ve <a href="https://www.frontiersin.org/articles/10.3389/fpsyg.2014.01067/full">previously argued that Bargh&#8217;s definition of &#8216;unconscious&#8217; is theoretically incoherent</a>, rather than <a href="https://replicationindex.wordpress.com/2017/11/28/before-you-know-it-by-john-a-bargh-a-quantitative-book-review/">merely empirically unreliable</a>, so my prior expectations for his book are probably best classified as &#8216;skeptical&#8217;. I did get a free copy though, which always puts me in a good mood.</p>
+<p>If you like short and sweet, please pay The Psychologist a visit for <a href="https://thepsychologist.bps.org.uk/volume-31/april-2018/missed-opportunity">the short review</a>. If you&#8217;ve patience for more of me (and John Bargh), read on&#8230;.</p>
+<p><span id="more-34287"></span>Review of</p>
+<p><em>Before you know it: The unconscious reasons we do what do do</em></p>
+<p>by John <span class="il">Bargh</span></p>
+<p>Heinemann, 2017</p>
+<p>First the good news. John <span class="il">Bargh</span> is a luminary of social psychology, a charming and expert guide to research on the importance of our motivations, goals, habits, history and environment in affecting our everyday behaviours. His enthusiasm for the topic, and track record for conducting experiments with just that bit more flair than most psychology studies, shine through this book, as does some his love of his family, of road trips and of Led Zeppelin.  In &#8220;Before you know it&#8221;, Bargh walks us through a series of striking demonstrations of how small differences can have big effects on our behaviour, perhaps without our full awareness of their import. These are things such as his famous experiment reporting that students who were asked to do a word unscrambling task containing primes of the concept &#8220;elderly&#8221; walked slower down the corridor upon leaving the experiment, or the study showing that holding a hot drink influenced people to rate a stranger more warmly. In addition to this tour of social psychology experiments by someone with an unrivaled insider&#8217;s knowledge, <span class="il">Bargh</span> presents an account of human behaviour which situates our social lives within what we know about cognition, neuroscience and evolution. Social psychology, in his view, is no isolated discipline, but a part of a broader, multidisciplinary, account of the mind. He draws on Skinner, Freud and Darwin as well as a range of important historical and contemporary psychologists.</p>
+<p>So, the bad news. Like all of psychology, much of the literature cited in this book has faced new scrutiny as part of the &#8216;replication crisis&#8217;. A core topic of the book, so called &#8216;social priming&#8217; has been very staunchly criticised for being based on shifting sands of unreliable, selectively published research. This is not the place to critique the reliability of <span class="il">Bargh</span>&#8216;s research methods, but it is remiss that he doesn&#8217;t once offer a rejoinder these criticisms.</p>
+<p><span class="il">Bargh</span>&#8216;s over-inclusive use of the term &#8216;unconscious&#8217; renders the term meaningless, in my opinion. He applies it to any behaviour of which we do not offer full report of all causes. Difficulties with eliciting reliable self-reports on internal states, twinned with the privileged perspective of experimenters (who know the experiment&#8217;s conditions) over participants (who each only know one condition) mean it is simply invalid to infer from a lack of report that a participant is unconscious of a driver of their behaviour in any strong way. <span class="il">Bargh</span> can use the word &#8216;unconscious&#8217; to mean &#8216;not often discussed&#8217; if he wants, but it is an unfair trick on the reader, who might assume that the word carried some deeper conceptual importance.</p>
+<p><span class="il">Bargh</span>&#8216;s book doesn&#8217;t live up to the promise of any of the components. The real world examples of people whose behaviour has been &#8216;unconsciously&#8217; influenced that he recruits to motivate his chapters are engagingly told, but the analysis is not deep and could have been more thoroughly woven with the experimental results. The experiments described are fascinating, but &#8211; and maybe this is the academic in me &#8211; I would have loved to have heard more discussion of possible interpretations and more detail on the exact results. The theoretical account of the mind he is advancing is pleasing syncretic, as I mention above, but the experiments are presented as merely confirming some theoretical idea, it is often unclear what theories they disprove or practical applications they endorse. Finally, while the author&#8217;s personal character and story feature frequently in the book, it is in a frustrating lack of depth (in one chapter <span class="il">Bargh</span> describes in a few lines how a chance meeting in a diner led to his future marriage, but we learn almost nothing about his wife-to-be. Please, John, if you&#8217;re going to gossip, gossip good!). As such a successful psychologist and pivotal researcher, details of how <span class="il">Bargh</span> lives and works could be interesting in and of themselves, but these details are tantalisingly few &#8211; <span class="il">Bargh</span>&#8216;s charms come through, but as with the research, there aren&#8217;t enough details to really satisfy.</p>
+]]></content>
+						<link rel="replies" type="text/html" href="https://mindhacks.com/2018/04/04/review-john-barghs-before-you-know-it/#comments" thr:count="2"/>
+		<link rel="replies" type="application/atom+xml" href="https://mindhacks.com/2018/04/04/review-john-barghs-before-you-know-it/feed/atom/" thr:count="2"/>
+		<thr:total>2</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>tomstafford</name>
+					</author>
+		<title type="html"><![CDATA[Did the Victorians have faster reactions?]]></title>
+		<link rel="alternate" type="text/html" href="https://mindhacks.com/2018/04/03/did-the-victorians-have-faster-reactions/" />
+		<id>http://mindhacks.com/?p=34276</id>
+		<updated>2018-04-03T21:20:44Z</updated>
+		<published>2018-04-03T21:16:18Z</published>
+		<category scheme="https://mindhacks.com" term="Nonsense" />		<summary type="html"><![CDATA[Psychologists have been measuring reaction times since before psychology existed, and they are still a staple of cognitive psychology experiments today. Typically psychologists look for a difference in the time it takes participants to respond to stimuli under different conditions as evidence of differences in how cognitive processing occurs in those conditions. Galton, the famous &#8230; <a href="https://mindhacks.com/2018/04/03/did-the-victorians-have-faster-reactions/" class="more-link">Continue reading<span class="screen-reader-text"> "Did the Victorians have faster&#160;reactions?"</span></a>]]></summary>
+				<content type="html" xml:base="https://mindhacks.com/2018/04/03/did-the-victorians-have-faster-reactions/"><![CDATA[<p>Psychologists have been measuring reaction times since before psychology existed, and they are still a staple of cognitive psychology experiments today. Typically psychologists look for a difference in the time it takes participants to respond to stimuli under different conditions as evidence of differences in how cognitive processing occurs in those conditions.</p>
+<p><a href="https://en.wikipedia.org/wiki/Francis_Galton">Galton</a>, the famous eugenicist and statistician, collected <a href="http://dx.doi.org/10.1037/0003-066X.40.8.875">a large data set (n=3410)</a> of so called &#8216;simple reaction times&#8217; in the last years of the 19th century.  Galton&#8217;s interest was rather different from most modern psychologists &#8211; he was interested in measures of reaction time as a indicator of individual differences. Galton&#8217;s theory was that differences in processing speed might underlie differences in intelligence, and maybe those differences could be efficiently assessed by recording people&#8217;s reaction times.</p>
+<p>Galton&#8217;s data creates an interesting opportunity &#8211; are people today, over 100 years later, faster or slower than Galton&#8217;s participants? If you believe Galton&#8217;s theory, the answer wouldn&#8217;t just tell you if you would be likely to win in a quick-draw  contest with a Victorian gunslinger, it could also provide an insight into generational changes in cognitive function more broadly.</p>
+<p>Reaction time [RT] data provides an interesting counterpoint to the most famous historical change in cognitive function &#8211; the generation on generation increase in IQ scores, known as the <a href="https://en.wikipedia.org/wiki/Flynn_effect">Flynn Effect</a>. The Flynn Effect surprises two kinds of people &#8211; those who look at &#8220;kids today&#8221; and know by instinct that they are less polite, less intelligent and less disciplined their own generation (this has been documented <a href="https://history.stackexchange.com/questions/28169/what-is-the-oldest-authentic-example-of-people-complaining-about-modern-times-an/35294">in every generation back to at least Ancient Greece</a>), and those who look at kids today and know by prior theoretical commitments that each generation should be dumber than the previous (because more intelligent people have fewer children, is the idea).</p>
+<p>Whilst the Flynn Effect contradicts the idea that people are getting dumber, some hope does seem to lie in the reaction time data. Maybe Victorian participants really did have faster reaction times! Several research papers  (<a href="https://www.sciencedirect.com/science/article/pii/S0160289613000470#bb0140">1</a>, <a href="http://www.jstor.org/stable/10.5406/amerjpsyc.123.1.0039">2</a>) have tried to compare Galton&#8217;s results to more modern studies, some of which tried to use the the same apparatus as well as the same method of measurement. Here&#8217;s <a href="http://www.jstor.org/stable/10.5406/amerjpsyc.123.1.0039">Silverman (2010)</a>:</p>
+<blockquote>
+<div>the RTs obtained by young adults in 14 studies published from 1941 on were compared with the RTs obtained by young adults in a study conducted by Galton in the late 1800s. With one exception, the newer studies obtained RTs longer than those obtained by Galton. The possibility that these differences in results are due to faulty timing instruments is considered but deemed unlikely.</div>
+</blockquote>
+<div>Woodley et al (2015) have a helpful graph (Galton&#8217;s result shown on the bottom left):</div>
+<div></div>
+<div>
+<figure data-shortcode="caption" id="attachment_34277" aria-describedby="caption-attachment-34277" style="width: 454px" class="wp-caption aligncenter"><a href="https://www.frontiersin.org/articles/10.3389/fnhum.2015.00452/fullhttp://"><img data-attachment-id="34277" data-permalink="https://mindhacks.com/2018/04/03/did-the-victorians-have-faster-reactions/fnhum-09-00452-g001/" data-orig-file="https://mindhacksblog.files.wordpress.com/2018/04/fnhum-09-00452-g001.jpg" data-orig-size="454,316" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1430675904&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="fnhum-09-00452-g001" data-image-description="&lt;p&gt;Figure 1, From Woodley, M.A., te Nijenhuis, J., &amp;amp; Murphy, R. (2015). The Victorians were still faster than us. Commentary: Factors influencing the latency of simple reaction time. Frontiers in human neuroscience, 9, 452.https://www.frontiersin.org/articles/10.3389/fnhum.2015.00452/full&lt;/p&gt;
+" data-medium-file="https://mindhacksblog.files.wordpress.com/2018/04/fnhum-09-00452-g001.jpg?w=300" data-large-file="https://mindhacksblog.files.wordpress.com/2018/04/fnhum-09-00452-g001.jpg?w=454" class="wp-image-34277 size-full" src="https://mindhacksblog.files.wordpress.com/2018/04/fnhum-09-00452-g001.jpg?w=840" alt="" srcset="https://mindhacksblog.files.wordpress.com/2018/04/fnhum-09-00452-g001.jpg 454w, https://mindhacksblog.files.wordpress.com/2018/04/fnhum-09-00452-g001.jpg?w=150 150w, https://mindhacksblog.files.wordpress.com/2018/04/fnhum-09-00452-g001.jpg?w=300 300w" sizes="(max-width: 454px) 85vw, 454px"   /></a><figcaption id="caption-attachment-34277" class="wp-caption-text">(Woodley et al, 2015, Figure 1, &#8220;Secular SRT slowing across four large, representative studies from the UK spanning a century. Bubble-size is proportional to sample size. Combined <i>N</i> = 6622.&#8221;)</figcaption></figure>
+<p>So the difference is only ~20 milliseconds (i.e. one fiftieth of a second) over 100 years, but in reaction time terms that&#8217;s a hefty chunk &#8211; it means modern participants are about 10% slower!</p>
+<p>What are we to make of this? Normally we wouldn&#8217;t put much weight on a single study, even one with 3000 participants, but there aren&#8217;t many alternatives. It isn&#8217;t as if we can have access to young adults born in the 19th century to check if the result replicates. It&#8217;s a shame there aren&#8217;t more intervening studies, so we could test the reasonable prediction that participants in the 1930s should be about halfway between the Victorian and modern participants.</p>
+<p>And, even if we believe this datum, <em>what does it mean?</em> A genuine decline in cognitive capacity? Excess cognitive load on other functions? Motivational changes? Changes in how experiments are run or approached by participants? I&#8217;m not giving up on the kids just yet.</p>
+<p><strong>References:</strong></p>
+<ul>
+<li>Irwin, W. S. (2010). <a href="http://www.jstor.org/stable/10.5406/amerjpsyc.123.1.0039">Simple reaction time: it is not what it used to be</a>. <i>American Journal of Psychology</i>, <i>123</i>(1), 39-50.</li>
+<li>Woodley, M. A., Te Nijenhuis, J., &amp; Murphy, R. (2013). <a href="https://www.sciencedirect.com/science/article/pii/S0160289613000470#bb0140">Were the Victorians cleverer than us? The decline in general intelligence estimated from a meta-analysis of the slowing of simple reaction time</a>. <i>Intelligence</i>, <i>41</i>(6), 843-850.</li>
+<li>Woodley, M. A, te Nijenhuis, J., &amp; Murphy, R. (2015). <a href="https://www.frontiersin.org/articles/10.3389/fnhum.2015.00452/full">The Victorians were still faster than us. Commentary: Factors influencing the latency of simple reaction time</a>. <i>Frontiers in human neuroscience</i>, <i>9</i>, 452.</li>
+</ul>
+</div>
+]]></content>
+						<link rel="replies" type="text/html" href="https://mindhacks.com/2018/04/03/did-the-victorians-have-faster-reactions/#comments" thr:count="19"/>
+		<link rel="replies" type="application/atom+xml" href="https://mindhacks.com/2018/04/03/did-the-victorians-have-faster-reactions/feed/atom/" thr:count="19"/>
+		<thr:total>19</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>tomstafford</name>
+					</author>
+		<title type="html"><![CDATA[spaced repetition &#038; Darwin&#8217;s golden rule]]></title>
+		<link rel="alternate" type="text/html" href="https://mindhacks.com/2018/02/26/spaced-repetition-darwins-golden-rule/" />
+		<id>http://mindhacks.com/?p=34270</id>
+		<updated>2018-02-26T20:02:21Z</updated>
+		<published>2018-02-26T20:02:00Z</published>
+		<category scheme="https://mindhacks.com" term="Learning" />		<summary type="html"><![CDATA[Spaced repetition is a memory hack. We know that spacing out your study is more effective than cramming, but using an app you can tailor your own spaced repetition schedule, allowing you to efficiently create reliable memories for any material you like. Michael Nielsen, has a nice thread on his use of spaced repetition on &#8230; <a href="https://mindhacks.com/2018/02/26/spaced-repetition-darwins-golden-rule/" class="more-link">Continue reading<span class="screen-reader-text"> "spaced repetition &#38; Darwin&#8217;s golden&#160;rule"</span></a>]]></summary>
+				<content type="html" xml:base="https://mindhacks.com/2018/02/26/spaced-repetition-darwins-golden-rule/"><![CDATA[<p>Spaced repetition is a memory hack. We know that spacing out your study is more effective than cramming, but using an app you can tailor your own spaced repetition schedule, allowing you to efficiently create reliable memories for any material you like.</p>
+<p><a href="http://michaelnielsen.org/">Michael Nielsen</a>, has a nice thread on his use of spaced repetition on twitter:</p>
+<div class="embed-twitter">
+<blockquote class="twitter-tweet" data-width="550" data-dnt="true">
+<p lang="en" dir="ltr">The use of spaced repetition memory systems has changed my life over the past couple of years.  Here&#39;s a few things I&#39;ve found helpful:</p>
+<p>&mdash; michael_nielsen (@michael_nielsen) <a href="https://twitter.com/michael_nielsen/status/957763229454774272?ref_src=twsrc%5Etfw">January 28, 2018</a></p></blockquote>
+<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+<p>He covers how he chooses what to put into his review system, what the right amount of information is for each item, and what memory alone won&#8217;t give you (understanding of the process which uses the memorised items). Nielsen is pretty enthusiastic about the benefits:</p>
+<blockquote><p>The single biggest change is that memory is no longer a haphazard event, to be left to chance. Rather, I can guarantee I will remember something, with minimal effort: it makes memory a  <em>choice</em>.</p></blockquote>
+<p>There are lots of apps/programmes which can help you run a spaced repetition system, but Nielsen used Anki (<a href="https://apps.ankiweb.net/">ankiweb.net</a>), which is open source, and has desktop and mobile clients (which sync between themselves, which is useful if you want to add information while at a computer, then review it on your mobile while you wait in line for coffee or whatever).</p>
+<div class="stream-item-footer">
+<div role="group"></div>
+</div>
+<p>Checking Anki out, it seems pretty nice, and I&#8217;ve realised I can use it to overcome a cognitive bias we all suffer from: a tendency to forget facts which are an inconvenient for our beliefs.</p>
+<p>Charles Darwin notes this in his autobiography:</p>
+<blockquote><p>&#8220;I had, also, during many years, followed a golden rule, namely, that whenever a published fact, a new observation or thought came across me, which was opposed to my general results, to make a memorandum of it without fail and at once; for I had found by experience that such facts and thoughts were far more apt to escape from the memory than favourable ones. Owing to this habit, very few objections were raised against my views which I had not at least noticed and attempted to answer.&#8221;</p></blockquote>
+<p>(Darwin, 1856/1958, p123).</p>
+<p>I have notebooks, and Darwin&#8217;s habit of forgetting &#8220;unfavourable&#8221; facts, but I wonder if my thinking might be improved by not just noting the facts, but being able to keep them in memory &#8211; using a spaced repetition system. I&#8217;m going to give it a go.</p>
+<p><strong>Links &amp; Footnotes:</strong></p>
+<p>Anki app (<a href="https://apps.ankiweb.net/">ankiweb.net</a>)</p>
+<p>Wikipedia on <a href="https://en.wikipedia.org/wiki/Spaced_repetition">space repetition systems</a></p>
+<p><a href="http://darwin-online.org.uk/content/frameset?itemID=F1497&amp;viewtype=text&amp;pageseq=1">The Autobiography of Charles Darwin</a>, 1809–1882, edited by Nora Barlow. London: Collins</p>
+<p>For more on the science, see this recent review for educators: Weinstein, Y., Madan, C. R., &amp; Sumeracki, M. A. (2018). <a href="https://cognitiveresearchjournal.springeropen.com/articles/10.1186/s41235-017-0087-y">Teaching the science of learning</a>. <i>Cognitive research: principles and implications</i>, <i>3</i>(1), 2.</p>
+<p>I note that Anki-based spaced repetition also does a side serving of retrieval practice and interleaving (other effective learning techniques).</p>
+]]></content>
+						<link rel="replies" type="text/html" href="https://mindhacks.com/2018/02/26/spaced-repetition-darwins-golden-rule/#comments" thr:count="1"/>
+		<link rel="replies" type="application/atom+xml" href="https://mindhacks.com/2018/02/26/spaced-repetition-darwins-golden-rule/feed/atom/" thr:count="1"/>
+		<thr:total>1</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>tomstafford</name>
+					</author>
+		<title type="html"><![CDATA[A graph that is made by perceiving it]]></title>
+		<link rel="alternate" type="text/html" href="https://mindhacks.com/2018/02/25/a-graph-that-is-made-by-perceiving-it/" />
+		<id>http://mindhacks.com/?p=34260</id>
+		<updated>2018-02-25T15:42:17Z</updated>
+		<published>2018-02-25T10:01:19Z</published>
+		<category scheme="https://mindhacks.com" term="Seeing" />		<summary type="html"><![CDATA[The contrast sensitivity function shows how our sensitivity to contrasts is affected by spatial frequency. You can test it using gratings of alternating light and darker shade. Ian Goodfellow has this neat observation: By looking at this image, you can see how sensitive your own eyes are to contrast at different frequencies (taller apparent peaks=more &#8230; <a href="https://mindhacks.com/2018/02/25/a-graph-that-is-made-by-perceiving-it/" class="more-link">Continue reading<span class="screen-reader-text"> "A graph that is made by perceiving&#160;it"</span></a>]]></summary>
+				<content type="html" xml:base="https://mindhacks.com/2018/02/25/a-graph-that-is-made-by-perceiving-it/"><![CDATA[<p>The contrast sensitivity function shows how our sensitivity to contrasts is affected by spatial frequency. You can test it using gratings of alternating light and darker shade. <a href="http://www.iangoodfellow.com/">Ian Goodfellow</a> has this neat observation:</p>
+<div class="embed-twitter">
+<blockquote class="twitter-tweet" data-width="550" data-dnt="true">
+<p lang="en" dir="ltr">By looking at this image, you can see how sensitive your own eyes are to contrast at different frequencies (taller apparent peaks=more sensitivity at that frequency). It&#39;s like a graph that is made by perceiving the graph itself. h/t <a href="https://twitter.com/catherineols?ref_src=twsrc%5Etfw">@catherineols</a>  <a href="https://t.co/3WosnCfbX1">https://t.co/3WosnCfbX1</a> <a href="https://t.co/Io7OxAmrB0">pic.twitter.com/Io7OxAmrB0</a></p>
+<p>&mdash; Ian Goodfellow (@goodfellow_ian) <a href="https://twitter.com/goodfellow_ian/status/967201169939382272?ref_src=twsrc%5Etfw">February 24, 2018</a></p></blockquote>
+<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+<p>It&#8217;s a graph that makes itself! The image is the raw data, and by interacting with your visual system, you perceive a discontinuity which illustrates the limits of your perception.</p>
+<p>Spatial frequency means how often things change in space. High spatial frequency changes means lots of small detail.  Spatial frequency is surprisingly important to our visual system &#8211; lots of basic features of the visual world, like orientation or motion, are processed first according to which spatial frequency the information is available at.</p>
+<p>Spatial frequency is behind the Einstein-Marilyn illusion, whereby you see Albert Einstein if the image is large or close up, and Marilyn Monroe if the image is small / seen from a distance (try it! You&#8217;ll have to walk away from your screen to see it change).</p>
+<figure data-shortcode="caption" id="attachment_34261" aria-describedby="caption-attachment-34261" style="width: 254px" class="wp-caption aligncenter"><img data-attachment-id="34261" data-permalink="https://mindhacks.com/2018/02/25/a-graph-that-is-made-by-perceiving-it/35927-see_albert_einstein_marilyn_monroe/" data-orig-file="https://mindhacksblog.files.wordpress.com/2018/02/35927-see_albert_einstein_marilyn_monroe.jpg" data-orig-size="957,1175" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="35927-see_albert_einstein_marilyn_monroe" data-image-description="" data-medium-file="https://mindhacksblog.files.wordpress.com/2018/02/35927-see_albert_einstein_marilyn_monroe.jpg?w=244" data-large-file="https://mindhacksblog.files.wordpress.com/2018/02/35927-see_albert_einstein_marilyn_monroe.jpg?w=834" class="size-medium wp-image-34261" src="https://mindhacksblog.files.wordpress.com/2018/02/35927-see_albert_einstein_marilyn_monroe.jpg?w=244&#038;h=300" alt="" width="244" height="300" srcset="https://mindhacksblog.files.wordpress.com/2018/02/35927-see_albert_einstein_marilyn_monroe.jpg?w=244&amp;h=300 244w, https://mindhacksblog.files.wordpress.com/2018/02/35927-see_albert_einstein_marilyn_monroe.jpg?w=488&amp;h=600 488w, https://mindhacksblog.files.wordpress.com/2018/02/35927-see_albert_einstein_marilyn_monroe.jpg?w=122&amp;h=150 122w" sizes="(max-width: 244px) 85vw, 244px" /><figcaption id="caption-attachment-34261" class="wp-caption-text"><a href="http://cvcl.mit.edu/hybrid_gallery/monroe_einstein.html">The Einstein Monroe was created by Dr. Aude Oliva at MIT for the March 31st 2007 issue of New Scientist magazine</a></figcaption></figure>
+<p>Depending on distance, different spatial frequencies are easier to see, and if those spatial frequencies encode different information then you can make a <a href="http://cvcl.mit.edu/hybrid/OlivaTorralb_Hybrid_Siggraph06.pdf">hybrid image</a> which switches as you alter your distance from it.</p>
+<p>Spatial frequency is also why, when you&#8217;re flying over the ocean, you can see waves which appear not to move. Although you vision is sensitive enough to see the wave, the motion sensitive part of your visual system isn&#8217;t as good at the fine spatial frequencies &#8211; which creates a natural illusion of static waves.</p>
+<p>The contrast sensitivity image at the head of this post varies contrast top to bottom (low to high) and spatial frequency left to right (low to high). The point at which the bars stop looking distinct picks out a ridge which rises (to a maximum at about about 10 cycles per degrees of angle) and then drops off. Where this ridge is will vary depending on your particular visual system and what distance you view the image at. It is the ultimate individualised data visualisation &#8211; it picks out the particular sensitivity of your own visual system, in real time. It&#8217;s even interactive, instantly adjusting for momentary changes in parameters like brightness!</p>
+<p>More on hybrid images (including some neat examples): Oliva, A., Torralba, A., &amp; Schyns, P. G. (2006, July). <a href="http://cvcl.mit.edu/hybrid/OlivaTorralb_Hybrid_Siggraph06.pdf">Hybrid images</a>. In <i>ACM Transactions on Graphics (TOG)</i> (Vol. 25, No. 3, pp. 527-532). ACM.</p>
+<p>More on the visual system, including the contrast sensitivity function: Frisby, J. P., &amp; Stone, J. V. (2010).<a href="http://jim-stone.staff.shef.ac.uk/bookseeing.htm"> <i>Seeing: The computational approach to biological vision</i></a>. The MIT Press.</p>
+]]></content>
+						<link rel="replies" type="text/html" href="https://mindhacks.com/2018/02/25/a-graph-that-is-made-by-perceiving-it/#comments" thr:count="3"/>
+		<link rel="replies" type="application/atom+xml" href="https://mindhacks.com/2018/02/25/a-graph-that-is-made-by-perceiving-it/feed/atom/" thr:count="3"/>
+		<thr:total>3</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>tomstafford</name>
+					</author>
+		<title type="html"><![CDATA[How To Become A Centaur]]></title>
+		<link rel="alternate" type="text/html" href="https://mindhacks.com/2018/02/07/how-to-become-a-centaur/" />
+		<id>http://mindhacks.com/?p=34257</id>
+		<updated>2018-02-07T22:25:29Z</updated>
+		<published>2018-02-07T22:25:29Z</published>
+		<category scheme="https://mindhacks.com" term="Reasoning" />		<summary type="html"><![CDATA[Nicky Case (of Explorable Explanations and Parable of the Polygons internet fame) has a fantastic essay which picks up on the theme of my last Cyberselves post &#8211; technology as companion, not competitor. In How To Become A Centaur Case gives blitz history of AI, and of its lesser known cousin IA &#8211; Intelligence Augmentation. &#8230; <a href="https://mindhacks.com/2018/02/07/how-to-become-a-centaur/" class="more-link">Continue reading<span class="screen-reader-text"> "How To Become A&#160;Centaur"</span></a>]]></summary>
+				<content type="html" xml:base="https://mindhacks.com/2018/02/07/how-to-become-a-centaur/"><![CDATA[<p><a href="https://commons.wikimedia.org/wiki/Category:Centaurs#/media/File:Centaur_(PSF).jpg"><img data-attachment-id="34258" data-permalink="https://mindhacks.com/2018/02/07/how-to-become-a-centaur/centaur_psf/" data-orig-file="https://mindhacksblog.files.wordpress.com/2018/02/centaur_psf.jpg" data-orig-size="468,599" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Centaur_(PSF)" data-image-description="" data-medium-file="https://mindhacksblog.files.wordpress.com/2018/02/centaur_psf.jpg?w=234" data-large-file="https://mindhacksblog.files.wordpress.com/2018/02/centaur_psf.jpg?w=468" class="alignright size-medium wp-image-34258" src="https://mindhacksblog.files.wordpress.com/2018/02/centaur_psf.jpg?w=234&#038;h=300" alt="" width="234" height="300" srcset="https://mindhacksblog.files.wordpress.com/2018/02/centaur_psf.jpg?w=234&amp;h=300 234w, https://mindhacksblog.files.wordpress.com/2018/02/centaur_psf.jpg?w=117&amp;h=150 117w, https://mindhacksblog.files.wordpress.com/2018/02/centaur_psf.jpg 468w" sizes="(max-width: 234px) 85vw, 234px" /></a><a href="http://ncase.me/">Nicky Case</a> (of <a href="http://explorabl.es/">Explorable Explanations</a> and <a href="http://ncase.me/polygons/">Parable of the Polygons</a> internet fame) has a <a href="https://jods.mitpress.mit.edu/pub/issue3-case">fantastic essay</a> which picks up on the theme of my <a href="https://cyberselves.org/2018/02/05/tools-substitutes-or-companions-metaphors-for-thinking-about-technology/">last Cyberselves post </a>&#8211; technology as companion, not competitor.</p>
+<p>In <a href="https://jods.mitpress.mit.edu/pub/issue3-case">How To Become A Centaur</a> Case gives blitz history of AI, and of its lesser known cousin IA &#8211; Intelligence Augmentation. The insight that digital technology could be a a &#8216;bicycle for the mind&#8217; (Steve Jobs&#8217; quote) gave us the modern computer, as shown in the 1968 <a href="https://en.wikipedia.org/wiki/The_Mother_of_All_Demos">Mother of All Demos</a> which introduced the world to the mouse, hypertext, video conferencing and collaborative working. (1968 people! 1968! As Case notes, 44 years before google docs, 35 years before skype).</p>
+<p>We&#8217;re living in the world made possible by Englebart&#8217;s demo. Digital tools, from mere phones to the remote presence they enable, or the remote action that robots are surely going to make more common, and as Case says:</p>
+<blockquote><p>a tool doesn’t “just” make something easier — it allows for new, previously-impossible ways of thinking, of living, of being.</p></blockquote>
+<p>And the vital insight is that the future will rely on identifying the strengths and weakness of natural and artificial cognition, and figuring out how to harness them together. Case again:</p>
+<blockquote><p>When you create a Human+AI team, the hard part isn’t the “AI”. It isn’t even the “Human”.</p>
+<p>It’s the “+”.</p></blockquote>
+<p>The article is too good to try to summarise. Read the <a href="https://jods.mitpress.mit.edu/pub/issue3-case">full text here</a></p>
+<p><em><a href="https://cyberselves.org/2018/02/07/how-to-become-a-centaur/">Cross-posted at the Cyberselves blog</a></em>.</p>
+<p>Previously: <a href="https://cyberselves.org/2018/02/05/tools-substitutes-or-companions-metaphors-for-thinking-about-technology/">Tools, substitutes or companions: three metaphors for thinking about technology</a>, <a href="https://mindhacks.com/2017/12/14/cyberselves-how-immersive-technologies-will-impact-our-future-selves/">Cyberselves: How Immersive Technologies Will Impact Our Future Selves</a></p>
+]]></content>
+						<link rel="replies" type="text/html" href="https://mindhacks.com/2018/02/07/how-to-become-a-centaur/#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="https://mindhacks.com/2018/02/07/how-to-become-a-centaur/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+			</entry>
+		<entry>
+		<author>
+			<name>tomstafford</name>
+					</author>
+		<title type="html"><![CDATA[Debating Sex Differences: Talk transcript]]></title>
+		<link rel="alternate" type="text/html" href="https://mindhacks.com/2018/01/26/debating-sex-differences-talk-transcript/" />
+		<id>http://mindhacks.com/?p=34253</id>
+		<updated>2018-01-26T18:25:37Z</updated>
+		<published>2018-01-26T18:25:37Z</published>
+		<category scheme="https://mindhacks.com" term="gender" />		<summary type="html"><![CDATA[A talk I gave titled &#8220;Debating Sex Differences in Cognition: We Can Do Better&#8221; now has a home on the web. The pages align a rough transcript of the talk with the slides, for your browsing pleasure. Mindhacks.com readers will recognise many of the slides, which started their lives as blog posts. The full series &#8230; <a href="https://mindhacks.com/2018/01/26/debating-sex-differences-talk-transcript/" class="more-link">Continue reading<span class="screen-reader-text"> "Debating Sex Differences: Talk&#160;transcript"</span></a>]]></summary>
+				<content type="html" xml:base="https://mindhacks.com/2018/01/26/debating-sex-differences-talk-transcript/"><![CDATA[<p><img data-attachment-id="33833" data-permalink="https://mindhacks.com/2017/02/07/sex-differences-in-brain-size/mf_heights/" data-orig-file="https://mindhacksblog.files.wordpress.com/2017/02/mf_heights.png" data-orig-size="686,504" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="mf_heights" data-image-description="" data-medium-file="https://mindhacksblog.files.wordpress.com/2017/02/mf_heights.png?w=300" data-large-file="https://mindhacksblog.files.wordpress.com/2017/02/mf_heights.png?w=686" class="alignright size-medium wp-image-33833" src="https://mindhacksblog.files.wordpress.com/2017/02/mf_heights.png?w=300&#038;h=220" alt="" width="300" height="220" srcset="https://mindhacksblog.files.wordpress.com/2017/02/mf_heights.png?w=300&amp;h=220 300w, https://mindhacksblog.files.wordpress.com/2017/02/mf_heights.png?w=600&amp;h=440 600w, https://mindhacksblog.files.wordpress.com/2017/02/mf_heights.png?w=150&amp;h=110 150w" sizes="(max-width: 300px) 85vw, 300px" />A talk I gave titled &#8220;Debating Sex Differences in Cognition: We Can Do Better&#8221; now has <a href="http://tomstafford.staff.shef.ac.uk/delusions/">a home on the web</a>.</p>
+<p>The pages align a rough transcript of the talk with the slides, for your browsing pleasure.</p>
+<p>Mindhacks.com readers will recognise many of the slides, which started their lives as blog posts. The full series is linked from this first post: <a href="https://mindhacks.com/2017/02/06/gender-brain-blogging/">Gender brain blogging.</a> The whole thing came about because I was teaching a graduate discussion class on <a href="https://www.goodreads.com/book/show/8031168-delusions-of-gender">Cordelia Fine&#8217;s book</a>, and then Andrew over at <a href="http://psychsciencenotes.blogspot.co.uk/">psychsciencenotes</a> invited me to give a talk about it.</p>
+<p>Here&#8217;s a bit from the introduction:</p>
+<blockquote><p>I love Fine&#8217;s book. I think of it as a sort of <a href="https://www.goodreads.com/book/show/3272165-bad-science">Bad Science</a> but for sex differences research. Part of my argument in this talk is that Fine&#8217;s book, and reactions to it, can show us something important about how psychology is conducted and interpreted. The book has flaws, and some people hate it, and those things too are part of the story about the state of psychological research.</p></blockquote>
+<p>More <a href="http://tomstafford.staff.shef.ac.uk/delusions">here</a></p>
+]]></content>
+						<link rel="replies" type="text/html" href="https://mindhacks.com/2018/01/26/debating-sex-differences-talk-transcript/#comments" thr:count="5"/>
+		<link rel="replies" type="application/atom+xml" href="https://mindhacks.com/2018/01/26/debating-sex-differences-talk-transcript/feed/atom/" thr:count="5"/>
+		<thr:total>5</thr:total>
+			</entry>
+	</feed>

@@ -1,7 +1,8 @@
-﻿using System.Collections.Generic;
-using System.IO;
+﻿using System;
+using System.Collections.Generic;
+using System.Diagnostics;
 using System.Reflection;
-using System.Xml.Linq;
+using System.Xml;
 using Csv;
 
 namespace Feedpipes.Syndication.SampleData
@@ -40,11 +41,21 @@ namespace Feedpipes.Syndication.SampleData
 
                     feed.SetDocumentFactory(() =>
                     {
-                        using (var feedStream = _currentAssembly.GetManifestResourceStream($"{_manifestResourceStreamPrefix}Files.{feed.FileName}.xml"))
-                        using (var streamReader = new StreamReader(feedStream)) // we explicitly create a stream reader to prevent XDocument encoding issues
+                        var streamName = $"{_manifestResourceStreamPrefix}Files.{feed.FileName}.xml";
+                        using (var feedStream = _currentAssembly.GetManifestResourceStream(streamName))
                         {
-                            var document = XDocument.Load(streamReader);
-                            return document;
+                            if (feedStream == null)
+                                throw new ArgumentNullException($"Couldn't find manifest resource stream '{streamName}'.");
+
+                            try
+                            {
+                                return CustomXDocumentLoader.LoadFromStream(feedStream);
+                            }
+                            catch (XmlException ex)
+                            {
+                                Debugger.Break();
+                                throw;
+                            }
                         }
                     });
 

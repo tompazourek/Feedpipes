@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+
+<channel>
+	<title>Information is Beautiful</title>
+	
+	<link>https://informationisbeautiful.net</link>
+	<description>Distilling the world's data, information &amp; knowledge into beautiful infographics &amp; visualizations</description>
+	<lastBuildDate>Tue, 23 Jul 2019 14:25:31 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">32531086</site>	<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/InformationIsBeautiful" /><feedburner:info uri="informationisbeautiful" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><feedburner:emailServiceId>InformationIsBeautiful</feedburner:emailServiceId><feedburner:feedburnerHostname>https://feedburner.google.com</feedburner:feedburnerHostname><item>
+		<title>The World’s Largest and Most Notable Energy Sources</title>
+		<link>http://feedproxy.google.com/~r/InformationIsBeautiful/~3/XHJlz1SIO_M/</link>
+				<pubDate>Tue, 23 Jul 2019 14:25:31 +0000</pubDate>
+		<dc:creator><![CDATA[Duncan Geere]]></dc:creator>
+				<category><![CDATA[General Blog]]></category>
+
+		<guid isPermaLink="false">https://informationisbeautiful.net/?p=6891</guid>
+				<description><![CDATA[What&#8217;s the world&#8217;s largest power plant? How does solar compare to nuclear, coal and gas? How much of the world&#8217;s renewable energy potential are we using? Understanding the world&#8217;s energy systems isn&#8217;t easy, so we&#8217;ve made it a little simpler with this ranking of the world&#8217;s biggest and most notable power plants. » Power through [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><strong>What&#8217;s the world&#8217;s largest power plant? How does solar compare to nuclear, coal and gas? How much of the world&#8217;s renewable energy potential are we using?</strong></p>
+<p>Understanding the world&#8217;s energy systems isn&#8217;t easy, so we&#8217;ve made it a little simpler with this ranking of <a href="https://informationisbeautiful.net/visualizations/mega-what-the-worlds-biggest-and-most-notable-power-plants">the world&#8217;s biggest and most notable power plants</a>.</p>
+<p>» <a href="https://informationisbeautiful.net/visualizations/mega-what-the-worlds-biggest-and-most-notable-power-plants">Power through to the graphic</a><br />
+» <a href="http://bit.ly/iib-megawhat">See the data</a></p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/InformationIsBeautiful?a=XHJlz1SIO_M:nU5Up4G_Edg:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/InformationIsBeautiful?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/InformationIsBeautiful?a=XHJlz1SIO_M:nU5Up4G_Edg:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/InformationIsBeautiful?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/InformationIsBeautiful?a=XHJlz1SIO_M:nU5Up4G_Edg:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/InformationIsBeautiful?i=XHJlz1SIO_M:nU5Up4G_Edg:V_sGLiPBpWU" border="0"></img></a>
+</div>]]></content:encoded>
+									<post-id xmlns="com-wordpress:feed-additions:1">6891</post-id>	<feedburner:origLink>https://informationisbeautiful.net/2019/the-worlds-largest-and-most-notable-energy-sources/</feedburner:origLink></item>
+		<item>
+		<title>A Curated Library of Essential Dataviz Books</title>
+		<link>http://feedproxy.google.com/~r/InformationIsBeautiful/~3/w2kX0B2l-FU/</link>
+				<pubDate>Wed, 10 Jul 2019 13:34:29 +0000</pubDate>
+		<dc:creator><![CDATA[Duncan Geere]]></dc:creator>
+				<category><![CDATA[General Blog]]></category>
+
+		<guid isPermaLink="false">https://informationisbeautiful.net/?p=6859</guid>
+				<description><![CDATA[A filterable chart of dataviz books that we think everyone should read. We excluded books about specific tools or programming concepts, but you&#8217;ll find them in the full datasheet. Crowdsourced with the help of the Data Visualization Society Did we miss any? Send a suggestion. » Check out our recommendations]]></description>
+								<content:encoded><![CDATA[<p><strong>A filterable chart of dataviz books that we think everyone should read.</strong></p>
+<p>We excluded books about specific tools or programming concepts, but you&#8217;ll find them in the <a href="http://bit.ly/dataviz-books" target="_blank" rel="noopener noreferrer">full datasheet</a>.</p>
+<p>Crowdsourced with the help of the <a href="https://www.datavisualizationsociety.com/join">Data Visualization Society</a></p>
+<p>Did we miss any? <a href="https://airtable.com/shrejifSv5vmaHkwa" target="_blank" rel="noopener noreferrer">Send a suggestion</a>.</p>
+<p>» <a href="https://informationisbeautiful.net/visualizations/dataviz-books">Check out our recommendations</a></p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/InformationIsBeautiful?a=w2kX0B2l-FU:6IGz2539CgU:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/InformationIsBeautiful?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/InformationIsBeautiful?a=w2kX0B2l-FU:6IGz2539CgU:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/InformationIsBeautiful?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/InformationIsBeautiful?a=w2kX0B2l-FU:6IGz2539CgU:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/InformationIsBeautiful?i=w2kX0B2l-FU:6IGz2539CgU:V_sGLiPBpWU" border="0"></img></a>
+</div>]]></content:encoded>
+									<post-id xmlns="com-wordpress:feed-additions:1">6859</post-id>	<feedburner:origLink>https://informationisbeautiful.net/2019/a-curated-library-of-essential-dataviz-books/</feedburner:origLink></item>
+		<item>
+		<title>Fact-Checking The Vegan Netflix Documentary ‘What The Health’</title>
+		<link>http://feedproxy.google.com/~r/InformationIsBeautiful/~3/m--raBvKwVY/</link>
+				<pubDate>Thu, 20 Jun 2019 21:40:15 +0000</pubDate>
+		<dc:creator><![CDATA[David McCandless]]></dc:creator>
+				<category><![CDATA[General Blog]]></category>
+
+		<guid isPermaLink="false">https://informationisbeautiful.net/?p=6791</guid>
+				<description><![CDATA[I’ve been vegetarian for 26 years. Never managed to make the leap to vegan though. Cheese and eggs. Cheese and eggs. I&#8217;m working on it. Here&#8217;s my motivational breakdown: It’s been interesting to witness the abrupt mainstreaming of vegan and plant-based diets in recent years. But less interesting to have so many friends suddenly start [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><strong>I’ve been vegetarian for 26 years. Never managed to make the leap to vegan though. <em>Cheese and eggs. Cheese and eggs.</em> I&#8217;m working on it.</strong></p>
+<p>Here&#8217;s my motivational breakdown:</p>
+<p><img src="https://infobeautiful4.s3.amazonaws.com/2019/06/david-reasons-plant-based-960x375.png" alt="" width="960" height="375" class="alignnone size-large wp-image-6825" srcset="https://informationisbeautiful.net/wp-content/uploads/2019/06/david-reasons-plant-based-960x375.png 960w, https://informationisbeautiful.net/wp-content/uploads/2019/06/david-reasons-plant-based-480x188.png 480w, https://informationisbeautiful.net/wp-content/uploads/2019/06/david-reasons-plant-based-768x300.png 768w, https://informationisbeautiful.net/wp-content/uploads/2019/06/david-reasons-plant-based.png 1600w, https://informationisbeautiful.net/wp-content/uploads/2019/06/david-reasons-plant-based-1200x469.png 1200w, https://informationisbeautiful.net/wp-content/uploads/2019/06/david-reasons-plant-based-240x94.png 240w" sizes="(max-width: 960px) 100vw, 960px" /></p>
+<p>It’s been interesting to witness the abrupt mainstreaming of vegan and plant-based diets in recent years. But less interesting to have so many friends suddenly start lecturing me how cruel the meat industry is, how unhealthy red meat is, how environmentally damaging. Thank! You!</p>
+<p>More striking is the amount of people who’ve said:</p>
+<blockquote><p><strong>&#8220;Have you seen it? What the Health? The vegan documentary on Netflix. OMG. You gotta see it.&#8221;</strong></p></blockquote>
+<p>So I did. I watched the <em>What The Health</em> documentary on Netflix, directed by Kip Andersen <em>(sorry, SEO)</em>.</p>
+<p>It <em>is</em> powerful, moving and shocking without being gory or alienating. But my journalistic spidey-sense started pulsing as I watched it. It’s kinda <em>too</em> powerful. <em>Too</em> certain of itself. <em>Too</em> sure. Some of the facts raised the BS-detecting hairs on the back of my neck.</p>
+<p>So I gathered the team and we dove in to produce an interactive scene-by-scene, fact-by-fact visual analysis of the documentary. <a href="https://informationisbeautiful.net/visualizations/what-the-health-netflix-documentary-fact-checked-debunked">Have a play</a> to see how true the film is.</p>
+<p><strong>SPOILER: it’s a mix</strong>. Classic misinformation-age / post-truth fare. There’s chunks of truth, some misleading facts, a few outright falsehoods, some very old science, some recent science. All intermixed. Blended into a modern smoothie. Tastes good, feels healthy, but who knows what’s hidden in the ingredients list?</p>
+<p>Well, we do now.</p>
+<p>It’s saddening because the scientific evidence is in, and vegans are right. Plant-based diets are a choice for good &#8211; health, emissions, animal welfare, land use, kindness. Every way you look at it, vegans, you are ethically correct. So please &#8211; there’s no need to lie.</p>
+<p>» <a href="https://informationisbeautiful.net/visualizations/what-the-health-netflix-documentary-fact-checked-debunked">See the interactive</a><br />
+» <a href="http://bit.ly/amatteroffact">Read the data</a></p>
+<hr />
+<div style="font-size: 13px;">CREDITS<br />
+<strong>Research &amp; writing</strong>: David McCandless, Stephanie Tomasevic, Duncan Geere, Miriam Quick<br />
+<strong>Code</strong>: Omid Kashan</div>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/InformationIsBeautiful?a=m--raBvKwVY:s03tDcHzt-I:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/InformationIsBeautiful?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/InformationIsBeautiful?a=m--raBvKwVY:s03tDcHzt-I:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/InformationIsBeautiful?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/InformationIsBeautiful?a=m--raBvKwVY:s03tDcHzt-I:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/InformationIsBeautiful?i=m--raBvKwVY:s03tDcHzt-I:V_sGLiPBpWU" border="0"></img></a>
+</div>]]></content:encoded>
+									<post-id xmlns="com-wordpress:feed-additions:1">6791</post-id>	<feedburner:origLink>https://informationisbeautiful.net/2019/fact-checking-the-vegan-netflix-documentary-what-the-health/</feedburner:origLink></item>
+		<item>
+		<title>Information is Beautiful Awards 2019</title>
+		<link>http://feedproxy.google.com/~r/InformationIsBeautiful/~3/_gUXKA2oiHY/</link>
+				<pubDate>Wed, 19 Jun 2019 11:54:47 +0000</pubDate>
+		<dc:creator><![CDATA[Duncan Geere]]></dc:creator>
+				<category><![CDATA[Awards]]></category>
+
+		<guid isPermaLink="false">https://informationisbeautiful.net/?p=6738</guid>
+				<description><![CDATA[Rejoice! The Information is Beautiful Awards are now open for 2019. It&#8217;s our eighth year celebrating the planet&#8217;s most awesome information design and we have $27,500 in cash prizes to give away, courtesy of our wonderful sponsor Kantar. Twenty-five expert judges, plus a public vote, will decide who takes home our coveted, 3D-printed trophy. We [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><strong>Rejoice! The <a href="https://www.informationisbeautifulawards.com/news/344-2019-information-is-beautiful-awards-now-open" target="_blank" rel="noopener noreferrer">Information is Beautiful Awards</a> are now open for 2019.</strong></p>
+<p>It&#8217;s our eighth year celebrating the planet&#8217;s most awesome information design and we have $27,500 in cash prizes to give away, courtesy of our wonderful sponsor <a href="http://www.kantar.com/" target="_blank" rel="noopener noreferrer">Kantar</a>. Twenty-five expert judges, plus a public vote, will decide who takes home our coveted, 3D-printed trophy.</p>
+<p>We have gold, silver and bronze awards in <a href="https://www.informationisbeautifulawards.com/news/345-2019-awards-categories" target="_blank" rel="noopener noreferrer">ten different categories</a> plus six special prizes awarded by the judging panel.</p>
+<p><a href="https://infobeautiful4.s3.amazonaws.com/2019/06/IIBA18_Announcement@2x.png"><img class="alignnone size-full wp-image-6759" title="" src="https://infobeautiful4.s3.amazonaws.com/2019/06/IIBA18_Announcement@2x.png" alt="IIB Awards Infographic" width="3200" height="5300" srcset="https://informationisbeautiful.net/wp-content/uploads/2019/06/IIBA18_Announcement@2x.png 3200w, https://informationisbeautiful.net/wp-content/uploads/2019/06/IIBA18_Announcement@2x-480x795.png 480w, https://informationisbeautiful.net/wp-content/uploads/2019/06/IIBA18_Announcement@2x-768x1272.png 768w, https://informationisbeautiful.net/wp-content/uploads/2019/06/IIBA18_Announcement@2x-960x1590.png 960w, https://informationisbeautiful.net/wp-content/uploads/2019/06/IIBA18_Announcement@2x-1600x2650.png 1600w, https://informationisbeautiful.net/wp-content/uploads/2019/06/IIBA18_Announcement@2x-1200x1988.png 1200w, https://informationisbeautiful.net/wp-content/uploads/2019/06/IIBA18_Announcement@2x-240x398.png 240w" sizes="(max-width: 3200px) 100vw, 3200px" /></a></p>
+<p>As usual, students and public whose work has not been professionally commissioned / published enter free. Studios / agencies, NGOs and media pay to submit work. Previous winners have gone on to land new clients, book deals, investment and jobs with hot startups.</p>
+<p>Any piece created between 1st June 2018 and 30 August 2019 is eligible, as long as you have not entered it in any previous Information is Beautiful Awards.</p>
+<div class="content">
+<h3><strong>» <a href="https://www.informationisbeautifulawards.com/awards/2019" target="_blank" rel="noopener noreferrer">Enter the 2019 Awards</a></strong></h3>
+<p>» Browse all shortlists, longlists and winners <a href="https://www.informationisbeautifulawards.com/showcase?page=1&amp;pcategory=winner&amp;type=awards" target="_blank" rel="noopener noreferrer">dating back to 2012</a>.<br />
+» Check out the <a href="https://www.informationisbeautifulawards.com/news/334-the-2018-awards-ceremony" target="_blank" rel="noopener noreferrer">2018 Awards ceremony</a> in New York.<br />
+» Discover <a href="https://www.informationisbeautifulawards.com/news/236-voting-what-our-judges-and-you-look-out-for-in-great-visualization" target="_blank" rel="noopener noreferrer">what we look for in a great dataviz</a>.</p>
+<h3><strong>Key Dates</strong></h3>
+</div>
+<p>Entries close <strong>30 August 2019, 11:59pm PST</strong><br />
+Longlist released <strong>17 September 2019</strong><br />
+Shortlist released and public voting begins <strong>1 October 2019</strong><br />
+Winners announced at our ceremony in London at the <strong>end of November 2019</strong></p>
+<p><a href="https://infobeautiful4.s3.amazonaws.com/2019/06/page-1.jpg"><img class="alignnone size-full wp-image-6760" title="" src="https://infobeautiful4.s3.amazonaws.com/2019/06/page-1.jpg" alt="" width="1090" height="1090" srcset="https://informationisbeautiful.net/wp-content/uploads/2019/06/page-1.jpg 1090w, https://informationisbeautiful.net/wp-content/uploads/2019/06/page-1-150x150.jpg 150w, https://informationisbeautiful.net/wp-content/uploads/2019/06/page-1-480x480.jpg 480w, https://informationisbeautiful.net/wp-content/uploads/2019/06/page-1-768x768.jpg 768w, https://informationisbeautiful.net/wp-content/uploads/2019/06/page-1-960x960.jpg 960w, https://informationisbeautiful.net/wp-content/uploads/2019/06/page-1-240x240.jpg 240w" sizes="(max-width: 1090px) 100vw, 1090px" /></a></p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/InformationIsBeautiful?a=_gUXKA2oiHY:pjXocqy49Yw:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/InformationIsBeautiful?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/InformationIsBeautiful?a=_gUXKA2oiHY:pjXocqy49Yw:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/InformationIsBeautiful?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/InformationIsBeautiful?a=_gUXKA2oiHY:pjXocqy49Yw:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/InformationIsBeautiful?i=_gUXKA2oiHY:pjXocqy49Yw:V_sGLiPBpWU" border="0"></img></a>
+</div>]]></content:encoded>
+									<post-id xmlns="com-wordpress:feed-additions:1">6738</post-id>	<feedburner:origLink>https://informationisbeautiful.net/2019/information-is-beautiful-awards-2019-now-open/</feedburner:origLink></item>
+		<item>
+		<title>What is Methane And Where Does it Come From?</title>
+		<link>http://feedproxy.google.com/~r/InformationIsBeautiful/~3/Leq3USoNprw/</link>
+				<pubDate>Thu, 30 May 2019 08:11:38 +0000</pubDate>
+		<dc:creator><![CDATA[Duncan Geere]]></dc:creator>
+				<category><![CDATA[General Blog]]></category>
+
+		<guid isPermaLink="false">https://informationisbeautiful.net/?p=6687</guid>
+				<description><![CDATA[What is natural gas? Where does methane gas come from? Is methane a greenhouse gas? How much methane do cows produce? All these questions are answered by our comprehensive methane cycle infographic. » Methane explained » See the data]]></description>
+								<content:encoded><![CDATA[<p><strong>What is natural gas? Where does methane gas come from? Is methane a greenhouse gas? How much methane do cows produce?</strong></p>
+<p>All these questions are answered by our <a href="https://informationisbeautiful.net/visualizations/methane-or-natural-gas-the-other-major-greenhouse-gas">comprehensive methane cycle infographic</a>.</p>
+<p>» <a href="https://informationisbeautiful.net/visualizations/methane-or-natural-gas-the-other-major-greenhouse-gas">Methane explained</a><br />
+» <a href="http://bit.ly/Methane-Emissions">See the data</a></p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/InformationIsBeautiful?a=Leq3USoNprw:06EmqbX_lb4:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/InformationIsBeautiful?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/InformationIsBeautiful?a=Leq3USoNprw:06EmqbX_lb4:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/InformationIsBeautiful?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/InformationIsBeautiful?a=Leq3USoNprw:06EmqbX_lb4:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/InformationIsBeautiful?i=Leq3USoNprw:06EmqbX_lb4:V_sGLiPBpWU" border="0"></img></a>
+</div>]]></content:encoded>
+									<post-id xmlns="com-wordpress:feed-additions:1">6687</post-id>	<feedburner:origLink>https://informationisbeautiful.net/2019/what-is-methane-and-where-does-it-come-from/</feedburner:origLink></item>
+		<item>
+		<title>Learn the Art of Data Visualization in NYC</title>
+		<link>http://feedproxy.google.com/~r/InformationIsBeautiful/~3/0bK4Mx0n-YY/</link>
+				<pubDate>Wed, 22 May 2019 13:17:56 +0000</pubDate>
+		<dc:creator><![CDATA[Duncan Geere]]></dc:creator>
+				<category><![CDATA[General Blog]]></category>
+
+		<guid isPermaLink="false">https://informationisbeautiful.net/?p=6670</guid>
+				<description><![CDATA[Tickets are selling fast for our NYC workshop on 18 June. David McCandless, founder of Information is Beautiful, offers you training on his process and method for creating successful dataviz and infographics. Participants have described it as “awesome”, “amazing” and “one of the best I’ve attended” (check out more workshop feedback). » Get your ticket [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p><strong>Tickets are selling fast for our <a href="https://www.eventbrite.co.uk/e/workshops-are-beautiful-full-day-nyc-june-2019-tickets-60188541548">NYC workshop on 18 June</a>.</strong></p>
+<p>David McCandless, founder of Information is Beautiful, offers you training on his process and method for creating successful dataviz and infographics.</p>
+<p>Participants have described it as “awesome”, “amazing” and “one of the best I’ve attended” (check out <a href="https://informationisbeautiful.net/workshops-feedback/">more workshop feedback</a>).</p>
+<p>» <a href="https://www.eventbrite.co.uk/e/workshops-are-beautiful-full-day-nyc-june-2019-tickets-60188541548">Get your ticket now</a><br />
+» <a href="https://informationisbeautiful.net/workshops/">Other upcoming workshops</a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/InformationIsBeautiful?a=0bK4Mx0n-YY:C3sL1u9JBPk:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/InformationIsBeautiful?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/InformationIsBeautiful?a=0bK4Mx0n-YY:C3sL1u9JBPk:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/InformationIsBeautiful?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/InformationIsBeautiful?a=0bK4Mx0n-YY:C3sL1u9JBPk:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/InformationIsBeautiful?i=0bK4Mx0n-YY:C3sL1u9JBPk:V_sGLiPBpWU" border="0"></img></a>
+</div>]]></content:encoded>
+									<post-id xmlns="com-wordpress:feed-additions:1">6670</post-id>	<feedburner:origLink>https://informationisbeautiful.net/2019/learn-the-art-of-data-visualization-in-nyc/</feedburner:origLink></item>
+		<item>
+		<title>How To Cut Carbon Emissions to Zero by 2050</title>
+		<link>http://feedproxy.google.com/~r/InformationIsBeautiful/~3/_BpoWGigRag/</link>
+				<pubDate>Tue, 21 May 2019 14:57:04 +0000</pubDate>
+		<dc:creator><![CDATA[Duncan Geere]]></dc:creator>
+				<category><![CDATA[General Blog]]></category>
+
+		<guid isPermaLink="false">https://informationisbeautiful.net/?p=6666</guid>
+				<description><![CDATA[To prevent climate change climate breakdown and keep global warming global heating below 3–4 degrees celsius, we have to reduce greenhouse gas emissions and transition to renewable energy – globally. Here’s a graphical blueprint on how we might get to net zero carbon emissions by 2050. Created in association with New Internationalist Magazine. » How [&#8230;]]]></description>
+								<content:encoded><![CDATA[<p>To prevent <del>climate change</del> <a href="https://twitter.com/georgemonbiot/status/1057989766485102592" target="_blank" rel="noopener noreferrer">climate breakdown</a> and keep <del>global warming</del> <a href="https://www.theguardian.com/environment/2018/dec/13/global-heating-more-accurate-to-describe-risks-to-planet-says-key-scientist" target="_blank" rel="noopener noreferrer">global heating</a> below 3–4 degrees celsius, we have to reduce greenhouse gas emissions and transition to renewable energy – globally.</p>
+<p><strong>Here’s a <a href="https://informationisbeautiful.net/visualizations/how-to-reduce-the-worlds-carbon-footprint-by-2050/">graphical blueprint</a> on how we might get to net zero carbon emissions by 2050.</strong></p>
+<p>Created in association with <a href="https://newint.org/features/2018/12/17/what-if-we-reduced-carbon-emissions-zero-2025" target="_blank" rel="noopener noreferrer">New Internationalist Magazine</a>.</p>
+<p>» <a href="https://informationisbeautiful.net/visualizations/how-to-reduce-the-worlds-carbon-footprint-by-2050/">How to cut carbon emissions to zero</a><br />
+» <a href="http://bit.ly/CarbonZero">See the data</a></p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/InformationIsBeautiful?a=_BpoWGigRag:lvo6qIc4MgE:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/InformationIsBeautiful?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/InformationIsBeautiful?a=_BpoWGigRag:lvo6qIc4MgE:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/InformationIsBeautiful?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/InformationIsBeautiful?a=_BpoWGigRag:lvo6qIc4MgE:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/InformationIsBeautiful?i=_BpoWGigRag:lvo6qIc4MgE:V_sGLiPBpWU" border="0"></img></a>
+</div>]]></content:encoded>
+									<post-id xmlns="com-wordpress:feed-additions:1">6666</post-id>	<feedburner:origLink>https://informationisbeautiful.net/2019/cutting-carbon-emissions-to-zero-by-2050/</feedburner:origLink></item>
+		<item>
+		<title>Tell Us Your Beautiful Thoughts, Win A Book</title>
+		<link>http://feedproxy.google.com/~r/InformationIsBeautiful/~3/ISiAtqs5rVI/</link>
+				<pubDate>Tue, 30 Apr 2019 11:24:09 +0000</pubDate>
+		<dc:creator><![CDATA[Duncan Geere]]></dc:creator>
+				<category><![CDATA[General Blog]]></category>
+
+		<guid isPermaLink="false">https://informationisbeautiful.net/?p=6614</guid>
+				<description><![CDATA[What do you like about Information is Beautiful? What could we do more of? Who exactly are you, beautiful follower? We&#8217;re running a two-minute visitor survey to find out more. Include your email address for a chance to win a signed copy of Information is Beautiful. Thank you!]]></description>
+								<content:encoded><![CDATA[<p><strong>What do you like about Information is Beautiful? What could we do more of? Who exactly are you, beautiful follower? </strong></p>
+<p>We&#8217;re <a href="https://forms.gle/6wZNPFfekHNM8T4X6" target="_blank" rel="noopener noreferrer">running a two-minute visitor survey to find out more</a>. Include your email address for a chance to win a signed copy of Information is Beautiful. Thank you!</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/InformationIsBeautiful?a=ISiAtqs5rVI:C_8VshyNbw4:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/InformationIsBeautiful?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/InformationIsBeautiful?a=ISiAtqs5rVI:C_8VshyNbw4:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/InformationIsBeautiful?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/InformationIsBeautiful?a=ISiAtqs5rVI:C_8VshyNbw4:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/InformationIsBeautiful?i=ISiAtqs5rVI:C_8VshyNbw4:V_sGLiPBpWU" border="0"></img></a>
+</div>]]></content:encoded>
+									<post-id xmlns="com-wordpress:feed-additions:1">6614</post-id>	<feedburner:origLink>https://informationisbeautiful.net/2019/tell-us-your-beautiful-thoughts-visitor-survey/</feedburner:origLink></item>
+		<item>
+		<title>The Bay Area MemeSpace</title>
+		<link>http://feedproxy.google.com/~r/InformationIsBeautiful/~3/xlBeqbRrlAI/</link>
+				<pubDate>Thu, 18 Apr 2019 15:37:06 +0000</pubDate>
+		<dc:creator><![CDATA[Duncan Geere]]></dc:creator>
+				<category><![CDATA[General Blog]]></category>
+
+		<guid isPermaLink="false">https://informationisbeautiful.net/?p=6575</guid>
+				<description><![CDATA[Julia Galef&#8217;s original map of the San Francisco &#8220;Bay Area Memespace&#8221; reworked and redesigned. Visualizing the ideas and subcultures that pervade San Francisco / Silicon Valley, and now the world. » check out the reworking » see the original graphic and commentary at JuliaGalef.com]]></description>
+								<content:encoded><![CDATA[<p><strong>Julia Galef&#8217;s <a href="https://juliagalef.com/2017/02/20/map-of-bay-area-memespace/" target="_blank" rel="noopener noreferrer">original map of the San Francisco &#8220;Bay Area Memespace&#8221;</a> <a href="https://informationisbeautiful.net/visualizations/the-bay-area-memespace-silicon-valleys-most-contagious-ideas">reworked and redesigned</a>.</strong></p>
+<p>Visualizing the ideas and subcultures that pervade San Francisco / Silicon Valley, and now the world.</p>
+<p>» <a href="https://informationisbeautiful.net/visualizations/the-bay-area-memespace-silicon-valleys-most-contagious-ideas">check out the reworking</a><br />
+» see <a href="https://juliagalef.com/2017/02/20/map-of-bay-area-memespace/" target="_blank" rel="noopener noreferrer">the original graphic and commentary</a> at JuliaGalef.com</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/InformationIsBeautiful?a=xlBeqbRrlAI:Rkoe0ayYAgY:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/InformationIsBeautiful?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/InformationIsBeautiful?a=xlBeqbRrlAI:Rkoe0ayYAgY:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/InformationIsBeautiful?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/InformationIsBeautiful?a=xlBeqbRrlAI:Rkoe0ayYAgY:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/InformationIsBeautiful?i=xlBeqbRrlAI:Rkoe0ayYAgY:V_sGLiPBpWU" border="0"></img></a>
+</div>]]></content:encoded>
+									<post-id xmlns="com-wordpress:feed-additions:1">6575</post-id>	<feedburner:origLink>https://informationisbeautiful.net/2019/the-bay-area-memespace-reworked/</feedburner:origLink></item>
+		<item>
+		<title>What Really Extends Lifespan?</title>
+		<link>http://feedproxy.google.com/~r/InformationIsBeautiful/~3/MCMfZynBQU8/</link>
+				<pubDate>Tue, 05 Mar 2019 09:41:46 +0000</pubDate>
+		<dc:creator><![CDATA[Duncan Geere]]></dc:creator>
+				<category><![CDATA[General Blog]]></category>
+
+		<guid isPermaLink="false">https://informationisbeautiful.net/?p=6525</guid>
+				<description><![CDATA[What&#8217;s the best method of life extension? Diet and exercise? Or polygamy and pets? The latest data visualized. » How to extend your lifespan » See the data and studies]]></description>
+								<content:encoded><![CDATA[<p>What&#8217;s the best method of life extension? Diet and exercise? Or polygamy and pets? The latest data visualized.</p>
+<p>» <a href="https://informationisbeautiful.net/visualizations/what-could-really-increase-life-expectancy-lifespan-and-longevity/">How to extend your lifespan</a><br />
+» <a href="http://bit.ly/IIB-Livelong">See the data and studies</a></p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/InformationIsBeautiful?a=MCMfZynBQU8:LiV_KaapAhk:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/InformationIsBeautiful?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/InformationIsBeautiful?a=MCMfZynBQU8:LiV_KaapAhk:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/InformationIsBeautiful?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/InformationIsBeautiful?a=MCMfZynBQU8:LiV_KaapAhk:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/InformationIsBeautiful?i=MCMfZynBQU8:LiV_KaapAhk:V_sGLiPBpWU" border="0"></img></a>
+</div>]]></content:encoded>
+									<post-id xmlns="com-wordpress:feed-additions:1">6525</post-id>	<feedburner:origLink>https://informationisbeautiful.net/2019/what-really-extends-lifespan/</feedburner:origLink></item>
+	</channel>
+</rss>

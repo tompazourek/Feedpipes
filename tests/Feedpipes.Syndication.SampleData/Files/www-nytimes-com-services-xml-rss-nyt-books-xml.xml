@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:nyt="http://www.nytimes.com/namespaces/rss/2.0" version="2.0">
+  <channel>
+    <title>NYT &gt; Books</title>
+    <link>https://www.nytimes.com/section/books?emc=rss&amp;partner=rss</link>
+    <atom:link href="https://rss.nytimes.com/services/xml/rss/nyt/Books.xml" rel="self" type="application/rss+xml"></atom:link>
+    <description></description>
+    <language>en-us</language>
+    <copyright>Copyright 2019 The New York Times Company</copyright>
+    <lastBuildDate>Thu, 01 Aug 2019 21:28:29 +0000</lastBuildDate>
+    <image>
+      <title>NYT &gt; Books</title>
+      <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
+      <link>https://www.nytimes.com/section/books?emc=rss&amp;partner=rss</link>
+    </image>
+    <item>
+      <title>How a Group of Heretical Thinkers Chipped Away at the Idea of ‘Us’ and ‘Them’</title>
+      <link>https://www.nytimes.com/2019/07/30/books/review-gods-of-upper-air-charles-king.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/30/books/review-gods-of-upper-air-charles-king.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/30/books/review-gods-of-upper-air-charles-king.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>“Gods of the Upper Air,” by Charles King, tells the story of the anthropologist Franz Boas and those he influenced, including Margaret Mead and Zora Neale Hurston.</description>
+      <dc:creator>Jennifer Szalai</dc:creator>
+      <pubDate>Tue, 30 Jul 2019 09:00:02 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Gods of the Upper Air: How a Circle of Renegade Anthropologists Reinvented Race, Sex, and Gender in the Twentieth Century (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">King, Charles (1967- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Archaeology and Anthropology</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/01/books/01bookking1/01bookking1-moth.jpg" width="151"></media:content>
+      <media:credit>Patricia Wall/The New York Times</media:credit>
+    </item>
+    <item>
+      <title>Jia Tolentino Wants You to Read Children’s Books</title>
+      <link>https://www.nytimes.com/2019/08/01/books/review/by-the-book-jia-tolentino.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/books/review/by-the-book-jia-tolentino.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/books/review/by-the-book-jia-tolentino.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>“A really good middle-grade novel,” says the New Yorker essayist, whose debut collection is “Trick Mirror,” “will supersede a lot of contemporary fiction in terms of economy, lucidity and grace.”</description>
+      <pubDate>Thu, 01 Aug 2019 18:00:03 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Writing and Writers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Tolentino, Jia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Trick Mirror (Book)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/11/books/review/11ByTheBook/11ByTheBook-moth.jpg" width="151"></media:content>
+      <media:credit>Jillian Tamaki</media:credit>
+    </item>
+    <item>
+      <title>‘Abnormal, as Most Geniuses Are’: Celebrating 200 Years of Herman Melville</title>
+      <link>https://www.nytimes.com/2019/08/01/books/herman-melville-moby-dick.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/books/herman-melville-moby-dick.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/books/herman-melville-moby-dick.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The Times has not always given the writer his due. Here’s a look at how we covered him and his most famous novel, ‘Moby-Dick,’ over the past century or two.</description>
+      <dc:creator>Tina Jordan</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 17:09:46 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Melville, Herman</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Moby-Dick (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Writing and Writers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Newspapers</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/01/books/review/01Melville01/merlin_158623956_b749cfb3-46fa-418c-baec-a1badf1027e7-moth.jpg" width="151"></media:content>
+      <media:credit>Apic/Getty Images</media:credit>
+      <media:description>When Herman Melville died in 1891, The New York Times barely noted it, listing his obituary after a civil engineer, “the best known criminal lawyer in Connecticut” and “the oldest resident of the Oranges.”</media:description>
+    </item>
+    <item>
+      <title>11 New Books to Watch For in August</title>
+      <link>https://www.nytimes.com/2019/07/31/books/new-august-books.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/31/books/new-august-books.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/31/books/new-august-books.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Jia Tolentino’s essay collection, a highly anticipated new novel from Téa Obreht, a Japanese thriller and more.</description>
+      <dc:creator>Joumana Khatib</dc:creator>
+      <pubDate>Wed, 31 Jul 2019 10:53:45 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">The Dearly Beloved: A Novel (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Wall, Cara</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Drive Your Plow Over the Bones of the Dead (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Tokarczuk, Olga</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">A Door in the Earth (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Waldman, Amy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Everything Inside: Stories (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Danticat, Edwidge</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Inconspicuous Consumption: An Obsessive Look at the Stuff We Take for Granted, from the Everyday to the Obscure (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Schlossberg, Tatiana</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Inland (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Obreht, Tea</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">The Memory Police (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Ogawa, Yoko</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">A Particular Kind of Black Man (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Folarin, Tope</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Trick Mirror: Reflections on Self-Delusion (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Tolentino, Jia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">White Flights: Race, Fiction, and the American Imagination (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Row, Jess (1974- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">The Yellow House (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Writing and Writers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Broom, Sarah M</category>
+    </item>
+    <item>
+      <title>What Moves Nina Stibbe Most in a Book? ‘Dogs’</title>
+      <link>https://www.nytimes.com/2019/07/31/books/review/nina-stibbe-by-the-book-interview.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/31/books/review/nina-stibbe-by-the-book-interview.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/31/books/review/nina-stibbe-by-the-book-interview.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The British author, whose latest novel is “Reasons to Be Cheerful,” says that “fictional animals were fundamental to my early reading and continue to score high, emotionally.”</description>
+      <pubDate>Wed, 31 Jul 2019 15:41:28 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Writing and Writers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Stibbe, Nina</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/04/books/review/04ByTheBook/04ByTheBook-moth.jpg" width="151"></media:content>
+      <media:credit>Jillian Tamaki</media:credit>
+    </item>
+    <item>
+      <title>Fiction About Unprecedented Situations</title>
+      <link>https://www.nytimes.com/2019/07/26/books/review/podcast-ted-chiang-exhalation-helen-phillips-need.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/26/books/review/podcast-ted-chiang-exhalation-helen-phillips-need.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/26/books/review/podcast-ted-chiang-exhalation-helen-phillips-need.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Ted Chiang talks about “Exhalation,” and Helen Phillips discusses “The Need.”</description>
+      <pubDate>Thu, 01 Aug 2019 16:07:51 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+    </item>
+    <item>
+      <title>Picture Books to Perk Up Any Kid’s Summer</title>
+      <link>https://www.nytimes.com/2019/08/01/books/review/great-picture-books-summer.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/books/review/great-picture-books-summer.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/books/review/great-picture-books-summer.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The story behind sea glass, a walrus who helps you learn to swim, a cat and a dog on the run, and more in books from Cori Doerrfeld, Calef Brown and others.</description>
+      <pubDate>Thu, 01 Aug 2019 18:49:14 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Children and Childhood</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Goodbye, Friend! Hello, Friend! (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Doerrfeld, Cori</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Lottie &amp; Walter (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Walker, Anna (Author)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Spot &amp; Dot (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Cole, Henry (Illustrator)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Grandpa Cacao: A Tale of Chocolate, from Farm to Family (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Zunon, Elizabeth</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">A Stone Sat Still (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Wenzel, Brendan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">American Gargoyles: Save The Wentworth (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Cohen, Neil</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Sea Glass Summer (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Houts, Michelle</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Ibatoulline, Bagram</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Up Verses Down: Poems, Paintings, and Serious Nonsense (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Brown, Calef</category>
+    </item>
+    <item>
+      <title>11 New Books We Recommend This Week</title>
+      <link>https://www.nytimes.com/2019/08/01/books/review/11-new-books-we-recommend-this-week.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/books/review/11-new-books-we-recommend-this-week.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/books/review/11-new-books-we-recommend-this-week.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Suggested reading from critics and editors at The New York Times.</description>
+      <pubDate>Thu, 01 Aug 2019 18:29:57 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+    </item>
+    <item>
+      <title>The Man Who Tried to Catch the 100-Pound Salmon</title>
+      <link>https://www.nytimes.com/2019/08/01/books/review/stronghold-tucker-malarkey.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/books/review/stronghold-tucker-malarkey.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/books/review/stronghold-tucker-malarkey.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>In “Stronghold,” Tucker Malarkey profiles her cousin, Guido Rahr, who has made it his life mission to conserve the salmon of Russia’s Far East.</description>
+      <dc:creator>Nate Blakeslee</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 17:13:20 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+    </item>
+    <item>
+      <title>Edward Snowden’s Memoir Is Coming in September</title>
+      <link>https://www.nytimes.com/2019/08/01/books/edward-snowden-book.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/books/edward-snowden-book.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/books/edward-snowden-book.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The National Security Agency whistle-blower has written a book exploring his role in mass surveillance and the “crisis of conscience” that led to his actions.</description>
+      <dc:creator>Concepción de León</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 17:09:52 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Snowden, Edward J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Permanent Record (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Classified Information and State Secrets</category>
+    </item>
+    <item>
+      <title>Spain’s Most Celebrated Writer Believes the Fascist Past Is Still Present</title>
+      <link>https://www.nytimes.com/2019/08/01/magazine/javier-marias-spanish-literature.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/magazine/javier-marias-spanish-literature.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/magazine/javier-marias-spanish-literature.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Javier Marías has spent his career chronicling his country’s moral trade-off with its violent history.</description>
+      <dc:creator>Giles Harvey</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 09:00:01 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Spanish Civil War (1936-39)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Spain</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Writing and Writers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Franco, Francisco</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Translation and Interpreters</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/04/magazine/04mag-Marias-image01/04mag-Marias-image-02-moth.jpg" width="151"></media:content>
+      <media:credit>Gianfranco Tripodo for The New York Times</media:credit>
+    </item>
+    <item>
+      <title>Irish Band Channels the Spirit of Punk, and James Joyce</title>
+      <link>https://www.nytimes.com/2019/07/31/arts/music/fontaines-dc.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/31/arts/music/fontaines-dc.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/31/arts/music/fontaines-dc.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Fontaines D.C. is a breakout Irish rock act. The emphasis is on the Irish.</description>
+      <dc:creator>Amos Barshad</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 06:49:28 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Dublin (Ireland)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ireland</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Joyce, James</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Yeats, William Butler</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Fontaines DC (Music Group)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Chatten, Grian</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Dogrel (Album)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/31/arts/31fontaines1/31fontaines1-moth.jpg" width="151"></media:content>
+      <media:credit>Paulo Nunes dos Santos for The New York Times</media:credit>
+      <media:description>From left: Carlos O’Connell, Conor Curley, Conor Deegan, Grian Chatten and Tom Coll make up the Irish rock band Fontaines D.C.</media:description>
+    </item>
+    <item>
+      <title>The Ideas Flow in Hervé Tullet’s Studio</title>
+      <link>https://www.nytimes.com/2019/07/31/books/herve-tullet-studio.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/31/books/herve-tullet-studio.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/31/books/herve-tullet-studio.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The French-born illustrator behind “Press Here” and other children’s books strives for “no barrier” between inspiration and the finished product.</description>
+      <dc:creator>Maria Russo</dc:creator>
+      <pubDate>Wed, 31 Jul 2019 09:05:30 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Tullet, Herve</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Art</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Harlem (Manhattan, NY)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Press Here (Book)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/05/books/05Tullet11/merlin_154800192_c99c0cbf-59bd-49ae-b4f2-c17573f288a1-moth.jpg" width="151"></media:content>
+      <media:credit>Caroline Tompkins for The New York Times</media:credit>
+      <media:description>“Sometimes I feel the space here is too small,” Tullet said. “But then that also makes me feel more free. Because this isn’t really my studio — my studio is in my brain.”</media:description>
+    </item>
+    <item>
+      <title>Unearthed Steinbeck Short Story Isn’t at All Like ‘Grapes of Wrath’</title>
+      <link>https://www.nytimes.com/2019/07/31/books/new-steinbeck-story-amiable-fleas.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/31/books/new-steinbeck-story-amiable-fleas.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/31/books/new-steinbeck-story-amiable-fleas.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The quintessentially American author wrote pieces for a Paris newspaper in the 1950s. Now, one of those — about a nervous chef and a magnificent cat — is being published in English for the first time.</description>
+      <dc:creator>Jacey Fortin</dc:creator>
+      <pubDate>Wed, 31 Jul 2019 09:00:06 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Steinbeck, John</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Manuscripts</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Strand Magazine</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Le Figaro (Newspaper)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Writing and Writers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cats</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Paris (France)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Ransom, Harry, Center, The University of Texas at Austin</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/31/books/31xp-steinbeck/00xp-steinbeck-moth.jpg" width="151"></media:content>
+      <media:credit>Bettmann/Getty Images</media:credit>
+      <media:description>John Steinbeck and his wife, Elaine, in 1954, the year he wrote a series of pieces that ran in Le Figaro, a French newspaper.</media:description>
+    </item>
+    <item>
+      <title>Agnes Heller, 90, Hungarian Philosopher and Outspoken Dissident, Is Dead</title>
+      <link>https://www.nytimes.com/2019/07/30/world/europe/agnes-heller-dead.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/30/world/europe/agnes-heller-dead.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/30/world/europe/agnes-heller-dead.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Since the 1950s, she had been a thorn in the side of authoritarian governments on the left and the right, including Viktor Orban’s today.</description>
+      <dc:creator>Neil Genzlinger</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 19:52:55 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Heller, Agnes (1920-2019)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Philosophy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">New School for Social Research</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Hungary</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Human Rights and Human Rights Violations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Deaths (Obituaries)</category>
+    </item>
+    <item>
+      <title>The Old Men and the Sea (or, Richard Russo’s New Novel)</title>
+      <link>https://www.nytimes.com/2019/07/30/books/review/richard-russo-chances-are.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/30/books/review/richard-russo-chances-are.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/30/books/review/richard-russo-chances-are.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>“Chances Are...,” about college friends who reunite one weekend on Martha’s Vineyard, is tinged with regret and melancholy.</description>
+      <dc:creator>Alida Becker</dc:creator>
+      <pubDate>Tue, 30 Jul 2019 18:10:09 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Russo, Richard (1949- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Chances Are... (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+    </item>
+    <item>
+      <title>She Was Filipino Food’s Greatest Champion. Now Her Work Is Finding New Fans.</title>
+      <link>https://www.nytimes.com/2019/07/30/dining/filipino-food-doreen-fernandez.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/30/dining/filipino-food-doreen-fernandez.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/30/dining/filipino-food-doreen-fernandez.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Years after her death, the writer Doreen Gamboa Fernandez is gaining a following among Filipino-American chefs for the way she explored the cuisine from the bottom up.</description>
+      <dc:creator>Ligaya Mishan</dc:creator>
+      <pubDate>Wed, 31 Jul 2019 04:30:52 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cooking and Cookbooks</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Restaurants</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Filipino-Americans</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Writing and Writers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Chefs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Philippines</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Fernandez, Doreen Gamboa</category>
+    </item>
+    <item>
+      <title>You Can Read Yuval Noah Harari’s Book in Russian, Except for the Parts About Russia</title>
+      <link>https://www.nytimes.com/2019/07/30/books/yuval-harari-21-lessons-russian.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/30/books/yuval-harari-21-lessons-russian.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/30/books/yuval-harari-21-lessons-russian.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The translation of “21 Lessons for the 21st Century” removed or altered passages critical of Putin’s administration, as well as references to the author’s sexuality.</description>
+      <dc:creator>Ivan Nechepurenko and Alexandra Alter</dc:creator>
+      <pubDate>Tue, 30 Jul 2019 17:26:23 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Language</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Censorship</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Translation and Interpreters</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Harari, Yuval Noah</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Crimea (Ukraine)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Russia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ukraine</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">21 Lessons for the 21st Century (Book)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/29/books/review/xxHarari01/xxxHarari01-moth.jpg" width="151"></media:content>
+      <media:credit>Emily Berl for The New York Times</media:credit>
+      <media:description>Yuval Noah Harari agreed to some changes to his book “21 Lessons for the 21st Century” when it was translated into Russian. “It’s important to reach people in nondemocratic societies,” he said, “and for that you have to make compromises.”</media:description>
+    </item>
+    <item>
+      <title>A Defense of the Semicolon and Other Adventures in the English Language</title>
+      <link>https://www.nytimes.com/2019/07/30/books/review/cecelia-watson-semicolon-peter-martin-the-dictionary-wars-trish-hall-writing-to-persuade.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/30/books/review/cecelia-watson-semicolon-peter-martin-the-dictionary-wars-trish-hall-writing-to-persuade.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/30/books/review/cecelia-watson-semicolon-peter-martin-the-dictionary-wars-trish-hall-writing-to-persuade.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Four new books examine our language from various angles — historical, political and grammatical.</description>
+      <dc:creator>Patricia T. O’Conner</dc:creator>
+      <pubDate>Tue, 30 Jul 2019 09:00:09 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Dictionaries</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Grammar</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Writing and Writers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Language and Languages</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Women and Girls</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Writing to Persuade (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Wordslut: A Feminist Guide to Taking Back the English Language (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Hall, Trish</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Martin, Peter (1940- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Montell, Amanda</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Watson, Cecelia (Author)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">The Dictionary Wars: The American Fight Over the English Language (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Semicolon: The Past, Present, and Future of a Misunderstood Mark (Book)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/04/books/review/04Shortlist-0804/04Shortlist-0804-moth.jpg" width="151"></media:content>
+      <media:credit>John Gall</media:credit>
+    </item>
+    <item>
+      <title>The Bohemian Life of the French Composer Erik Satie Imagined as a Novel</title>
+      <link>https://www.nytimes.com/2019/07/30/books/review/the-vexations-caitlin-horrocks.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/30/books/review/the-vexations-caitlin-horrocks.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/30/books/review/the-vexations-caitlin-horrocks.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>“The Vexations,” a debut by Caitlin Horrocks, places the avant-garde composer within the colorful world of fin-de-siècle Paris and at the center of a family drama.</description>
+      <dc:creator>Seth Colter Walls</dc:creator>
+      <pubDate>Tue, 30 Jul 2019 09:00:09 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Satie, Erik</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">The Vexations (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Horrocks, Caitlin</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/16/books/review/WALLS2/WALLS2-moth.jpg" width="151"></media:content>
+      <media:credit>Tyler Steimle</media:credit>
+      <media:description>Caitlin Horrocks</media:description>
+    </item>
+    <item>
+      <title>A Girl Goes Missing. A Loner Takes Her Place.</title>
+      <link>https://www.nytimes.com/2019/07/30/books/review/marilou-is-everywhere-sarah-elaine-smith.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/30/books/review/marilou-is-everywhere-sarah-elaine-smith.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/30/books/review/marilou-is-everywhere-sarah-elaine-smith.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Sarah Elaine Smith’s debut novel, “Marilou Is Everywhere,” is a coming-of-age mystery that’s also about what it’s like to be an outsider.</description>
+      <dc:creator>Rachel Khong</dc:creator>
+      <pubDate>Tue, 30 Jul 2019 09:00:08 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Marilou Is Everywhere (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Smith, Sarah Elaine</category>
+    </item>
+    <item>
+      <title>New &amp; Noteworthy Books, From Italian History to Asian Politics</title>
+      <link>https://www.nytimes.com/2019/07/30/books/review/new-this-week.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/30/books/review/new-this-week.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/30/books/review/new-this-week.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>A selection of recent books of interest; plus, a peek at what our colleagues around the newsroom are reading.</description>
+      <pubDate>Tue, 30 Jul 2019 09:00:01 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+    </item>
+    <item>
+      <title>Natural Wines, Explained</title>
+      <link>https://www.nytimes.com/2019/07/29/dining/drinks/natural-wine-for-the-people-book-alice-feiring.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/29/dining/drinks/natural-wine-for-the-people-book-alice-feiring.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/29/dining/drinks/natural-wine-for-the-people-book-alice-feiring.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Alice Feiring’s new book takes a deep dive into the additive-free world of winemaking.</description>
+      <dc:creator>Florence Fabricant</dc:creator>
+      <pubDate>Wed, 31 Jul 2019 04:40:03 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Feiring, Alice</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Wines</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Ten Speed Press</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Natural Wine for the People: What It Is, Where to Find It, How to Love It (Book)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/31/dining/29burner4/29burner4-moth.jpg" width="151"></media:content>
+      <media:credit>Sonny Figueroa/The New York Times</media:credit>
+    </item>
+    <item>
+      <title>Have You Seen ‘Once Upon a Time … in Hollywood’? Here’s What to Read</title>
+      <link>https://www.nytimes.com/2019/07/29/books/charles-manson-books-once-upon-time-hollywood.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/29/books/charles-manson-books-once-upon-time-hollywood.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/29/books/charles-manson-books-once-upon-time-hollywood.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Five books about or inspired by Charles Manson give insight into one of the 20th century’s most notorious crime sprees.</description>
+      <dc:creator>Concepción de León</dc:creator>
+      <pubDate>Mon, 29 Jul 2019 22:44:58 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Manson, Charles</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Serial Murders</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Cline, Emma</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">The Girls (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">The Family: The Story of Charles Manson&#39;s Dune Buggy Attack Battalion (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Sanders, Edward (1939- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Helter Skelter (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Bugliosi, Vincent</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Manson: The Life and Times of Charles Manson (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">O&#39;Neill, Tom (Journalist)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Guinn, Jeff</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Chaos: Charles Manson, the C.I.A. and the Secret History of the Sixties (Book)</category>
+    </item>
+    <item>
+      <title>The Lives of Four Andover Grads Cut Short</title>
+      <link>https://www.nytimes.com/2019/07/29/books/review/william-cohan-four-friends.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/29/books/review/william-cohan-four-friends.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/29/books/review/william-cohan-four-friends.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>In “Four Friends,” William D. Cohan examines what happened to four alumni of the famous prep school, including John F. Kennedy Jr.</description>
+      <dc:creator>Janny Scott</dc:creator>
+      <pubDate>Mon, 29 Jul 2019 18:15:39 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Private and Sectarian Schools</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Phillips Academy (Andover, Mass)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kennedy, John F Jr</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Four Friends (Book)</category>
+    </item>
+    <item>
+      <title>What Do Kurt Vonnegut, Vladimir Nabokov and Nora Ephron Have in Common?</title>
+      <link>https://www.nytimes.com/2019/07/29/books/review/ephron-vonnegut-nabokov-reviews.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/29/books/review/ephron-vonnegut-nabokov-reviews.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/29/books/review/ephron-vonnegut-nabokov-reviews.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>They all wrote for The New York Times Book Review.</description>
+      <dc:creator>Tina Jordan</dc:creator>
+      <pubDate>Wed, 31 Jul 2019 10:53:45 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Vonnegut, Kurt Jr</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Wolfe, Tom</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">The Kandy-Colored Tangerine-Flake Streamline Baby (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Ephron, Nora</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Susann, Jacqueline</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">The Love Machine (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Nabokov, Vladimir</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Sartre, Jean-Paul</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Nausea (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Williams, Tennessee</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Bowles, Paul</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">The Sheltering Sky (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Amis, Martin</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Drabble, Margaret</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Dead Babies (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Morrison, Toni</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Price, Reynolds</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Song of Solomon (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Powell, Dawn</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">The World in Vogue (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Pynchon, Thomas</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Garcia Marquez, Gabriel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Love in the Time of Cholera (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Auden, Wystan Hugh</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Tolkien, J R R</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">The Fellowship of the Ring (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Parker, Dorothy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Perelman, S J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">The Road to Miltown (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Didion, Joan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Cheever, John</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">The Falconer (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/15/books/00famousreviews/00famousreviews-moth.jpg" width="151"></media:content>
+      <media:credit>Photo credits, from left: Oliver Morris/Getty Images, Hulton-Deutsch/Getty Images, Ray Howard/Associated Press</media:credit>
+      <media:description>From left: Kurt Vonnegut Jr., Vladimir Nabokov and Nora Ephron, all former New York Times book reviewers.</media:description>
+    </item>
+    <item>
+      <title>Bryan Magee, Who Brought Philosophy to British TV, Dies at 89</title>
+      <link>https://www.nytimes.com/2019/07/28/business/bryan-magee-dead.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/28/business/bryan-magee-dead.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/28/business/bryan-magee-dead.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Mr. Magee was a philosopher, writer and politician who challenged the idea that television could not “make serious demands on viewers.”</description>
+      <dc:creator>Palko Karasz</dc:creator>
+      <pubDate>Mon, 29 Jul 2019 19:06:08 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Magee, Bryan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Philosophy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">British Broadcasting Corp</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Men of Ideas (TV Program)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Television</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Radio</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Labour Party (Great Britain)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Music</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Deaths (Obituaries)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Great Britain</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/31/world/31magee/28magee-moth.jpg" width="151"></media:content>
+      <media:credit>Chris Ridley/Radio Times, via Getty Images</media:credit>
+      <media:description>The British philosopher and TV personality Bryan Magee in 1976. He believed that on television, ideas could be as entertaining as images.</media:description>
+    </item>
+    <item>
+      <title>Journalist Misses His Deadline on Manson Article. By 20 Years.</title>
+      <link>https://www.nytimes.com/2019/07/28/style/charles-manson-book.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/28/style/charles-manson-book.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/28/style/charles-manson-book.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Tom O’Neill, the author of a new book about the Manson murders, finds that the accepted narrative of the crimes doesn’t quite add up.</description>
+      <dc:creator>Alex Williams</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 05:58:39 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Helter Skelter (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Manson, Charles</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/01/fashion/25mansonbook1/25mansonbook1-moth.jpg" width="151"></media:content>
+      <media:credit>Bettmann</media:credit>
+      <media:description>Charles Manson entering the Los Angeles city jail in December 1969.</media:description>
+    </item>
+    <item>
+      <title>In ‘Idiot Wind,’ a Lost Soul Finds His Way Home</title>
+      <link>https://www.nytimes.com/2019/07/28/books/idiot-wind-peter-kaldheim.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/28/books/idiot-wind-peter-kaldheim.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/28/books/idiot-wind-peter-kaldheim.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Peter Kaldheim talks about leaving his life behind, his book’s 30-year gestation and the kindred spirit he sees in Tom Waits.</description>
+      <dc:creator>John Williams</dc:creator>
+      <pubDate>Sun, 28 Jul 2019 09:00:01 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kaldheim, Peter</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Idiot Wind: A Memoir (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Writing and Writers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Drug Abuse and Traffic</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Waits, Tom</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/28/books/28kaldheim1/28kaldheim1-moth.jpg" width="151"></media:content>
+      <media:credit>Patricia Wall/The New York Times</media:credit>
+    </item>
+    <item>
+      <title>A da Vinci for Any Budget</title>
+      <link>https://www.nytimes.com/2019/07/27/books/leonardo-by-leonardo-martin-kemp-leonardo-100-milestones-leonardo-da-vinci-rediscovered.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/27/books/leonardo-by-leonardo-martin-kemp-leonardo-100-milestones-leonardo-da-vinci-rediscovered.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/27/books/leonardo-by-leonardo-martin-kemp-leonardo-100-milestones-leonardo-da-vinci-rediscovered.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>On the 500th anniversary of Leonardo’s death, three new coffee-table books revisit the life and legacy of the original Renaissance man.</description>
+      <dc:creator>Lauren Christensen</dc:creator>
+      <pubDate>Sat, 27 Jul 2019 21:09:53 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Art</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">da Vinci, Leonardo</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Bambach, Carmen C</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kemp, Martin J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Leonardo Da Vinci Rediscovered (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Leonardo Da Vinci: The 100 Milestones (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Leonardo by Leonardo (Book)</category>
+    </item>
+    <item>
+      <title>Four Wall Street Bankers Are Stuck in an Elevator — and It’s No Joke</title>
+      <link>https://www.nytimes.com/2019/07/26/books/review/escape-room-megan-goldin.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/26/books/review/escape-room-megan-goldin.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/26/books/review/escape-room-megan-goldin.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>In Megan Goldin’s debut thriller, “The Escape Room,” cutthroat colleagues must figure out how to get out of an escape room and save their lives.</description>
+      <dc:creator>Rene Denfeld</dc:creator>
+      <pubDate>Fri, 26 Jul 2019 19:19:18 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/28/books/review/28Denfeld/28Denfeld-moth.jpg" width="151"></media:content>
+      <media:credit>Jamiel Law</media:credit>
+    </item>
+    <item>
+      <title>50 States of True Crime</title>
+      <link>https://www.nytimes.com/2019/07/26/books/50-states-of-true-crime.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/26/books/50-states-of-true-crime.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/26/books/50-states-of-true-crime.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Every state has an infamous crime — and a book about it.</description>
+      <dc:creator>Tina Jordan and Ross MacDonald</dc:creator>
+      <pubDate>Tue, 30 Jul 2019 16:21:10 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Murders, Attempted Murders and Homicides</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Arson</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Kidnapping and Hostages</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/28/books/review/28ThrillerMap-PRINT/28ThrillerMap-PRINT-moth.jpg" width="151"></media:content>
+      <media:credit>Ross MacDonald</media:credit>
+    </item>
+    <item>
+      <title>Down but Not Out: Fiction Filled With Second Chances</title>
+      <link>https://www.nytimes.com/2019/07/26/books/review/books-review-miller-biloxi-kane-rules-for-visiting-kibler-home-for-erring-and-outcast-girls.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/26/books/review/books-review-miller-biloxi-kane-rules-for-visiting-kibler-home-for-erring-and-outcast-girls.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/26/books/review/books-review-miller-biloxi-kane-rules-for-visiting-kibler-home-for-erring-and-outcast-girls.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Three new novels trace the experiences of a sad sack bachelor, a lonely gardener and three women with ties to a home for “fallen” young ladies.</description>
+      <dc:creator>Michael Callahan</dc:creator>
+      <pubDate>Fri, 26 Jul 2019 14:22:36 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Biloxi: A Novel (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Miller, Mary</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Rules for Visiting (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kane, Jessica Francis</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Home for Erring and Outcast Girls (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kibler, Julie</category>
+    </item>
+    <item>
+      <title>Solace and Salvation in the Marvel Universe, at 12 Cents a Comic Book</title>
+      <link>https://www.nytimes.com/2019/07/26/arts/marvel-universe-comics.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/26/arts/marvel-universe-comics.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/26/arts/marvel-universe-comics.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>How Jack Kirby, Steve Ditko and Stan Lee shaped one boy’s life at a time when his family was in deep distress.</description>
+      <dc:creator>Dana Jennings</dc:creator>
+      <pubDate>Fri, 26 Jul 2019 22:58:11 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Comic Books and Strips</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Marvel Comics</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Spider-Man (Fictional Character)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Children and Childhood</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Ditko, Steve</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kirby, Jack</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Lee, Stan</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/28/arts/28marvel-notebook-copy/28marvel-notebook-copy-moth.jpg" width="151"></media:content>
+      <media:credit>Armando Veve</media:credit>
+    </item>
+    <item>
+      <title>Why the ‘Orange Is the New Black’ Author Returned to Prison</title>
+      <link>https://www.nytimes.com/2019/07/26/arts/television/piper-kerman-orange-is-the-new-black.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/26/arts/television/piper-kerman-orange-is-the-new-black.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/26/arts/television/piper-kerman-orange-is-the-new-black.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Piper Kerman, whose experiences and memoir inspired the Netflix prison dramedy, now works with inmates in correctional facilities.</description>
+      <dc:creator>Alexis Soloski</dc:creator>
+      <pubDate>Mon, 29 Jul 2019 02:44:36 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Television</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kerman, Piper</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Orange Is the New Black (TV Program)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Netflix Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Writing and Writers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Prisons and Prisoners</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Women and Girls</category>
+    </item>
+    <item>
+      <title>We Asked 13 Novelists, From Lee Child to Ruth Ware, ‘What’s the Best Murder You Ever Wrote?’</title>
+      <link>https://www.nytimes.com/2019/07/26/books/lee-child-ruth-ware-my-favorite-murder.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/26/books/lee-child-ruth-ware-my-favorite-murder.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/26/books/lee-child-ruth-ware-my-favorite-murder.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Karin Slaughter killed a character with antifreeze; Peter Swanson used cashews and a missing EpiPen. Welcome to the devious minds of thriller writers.</description>
+      <dc:creator>Tammy Tarng</dc:creator>
+      <pubDate>Sun, 28 Jul 2019 18:41:02 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Hirahara, Naomi</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Duncan, Glen</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Sager, Riley (Author)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Swanson, Peter (1968- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Coben, Harlan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Ware, Ruth (1977- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kamal, Sheena</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Child, Lee</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Bohjalian, Chris</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Slaughter, Karin (1971- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Paris, B A</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Gerritsen, Tess</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Coonts, Stephen</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Writing and Writers</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/28/books/review/28Tarng-Favorite-Murder/28Tarng-Favorite-Murder-moth.jpg" width="151"></media:content>
+      <media:credit>Golden Cosmos</media:credit>
+    </item>
+    <item>
+      <title>What if Hercule Poirot Went Sleuthing on the L Train?</title>
+      <link>https://www.nytimes.com/2019/07/26/books/review/what-if-hercule-poirot-went-sleuthing-on-the-l-train.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/26/books/review/what-if-hercule-poirot-went-sleuthing-on-the-l-train.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/26/books/review/what-if-hercule-poirot-went-sleuthing-on-the-l-train.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Ali Fitzgerald imagines Agatha Christie’s famous detective on a hunt for clues through the New York City subways.</description>
+      <dc:creator>Ali Fitzgerald</dc:creator>
+      <pubDate>Fri, 26 Jul 2019 09:00:24 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+    </item>
+    <item>
+      <title>Taxidermy, Velvet and Candlelight: A Lush Victorian Horror Story</title>
+      <link>https://www.nytimes.com/2019/07/26/books/review/taxidermy-velvet-and-candlelight-a-lush-victorian-horror-story.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/26/books/review/taxidermy-velvet-and-candlelight-a-lush-victorian-horror-story.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/26/books/review/taxidermy-velvet-and-candlelight-a-lush-victorian-horror-story.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>In Elizabeth Macneal’s debut novel, “The Doll Factory,” a taxidermist becomes obsessed with a young painter.</description>
+      <dc:creator>Lyndsay Faye</dc:creator>
+      <pubDate>Fri, 26 Jul 2019 16:25:04 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">The Doll Factory (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Macneal, Elizabeth (Author)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/28/books/review/28Faye/28Faye-moth.jpg" width="151"></media:content>
+      <media:credit>Leigh Guldig</media:credit>
+    </item>
+    <item>
+      <title>Can Communists Be Good Americans?</title>
+      <link>https://www.nytimes.com/2019/07/26/books/review/can-communists-be-good-americans.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/26/books/review/can-communists-be-good-americans.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/26/books/review/can-communists-be-good-americans.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Readers respond to recent issues of the Sunday Book Review.</description>
+      <pubDate>Fri, 26 Jul 2019 09:00:11 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+    </item>
+    <item>
+      <title>A Dystopian Cocktail, Served Chilled With a Twist</title>
+      <link>https://www.nytimes.com/2019/07/26/books/review/empty-hearts-julie-zeh.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/26/books/review/empty-hearts-julie-zeh.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/26/books/review/empty-hearts-julie-zeh.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>In Juli Zeh’s “Empty Hearts,” a German businesswoman runs a start-up that matches despondent people with terrorist organizations in need of suicide bombers.</description>
+      <dc:creator>Adam Sternbergh</dc:creator>
+      <pubDate>Mon, 29 Jul 2019 18:38:06 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Empty Hearts (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Zeh, Julie</category>
+    </item>
+    <item>
+      <title>New in Paperback: ‘The Family Tabor,’ ‘Into the Hands of the Soldiers’</title>
+      <link>https://www.nytimes.com/2019/07/26/books/review/new-paperbacks.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/26/books/review/new-paperbacks.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/26/books/review/new-paperbacks.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Six new paperbacks to check out this week.</description>
+      <dc:creator>Joumana Khatib</dc:creator>
+      <pubDate>Fri, 26 Jul 2019 09:00:08 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+    </item>
+    <item>
+      <title>How Did We Get From Compassionate Conservatism to the Party of Trump?</title>
+      <link>https://www.nytimes.com/2019/07/26/books/review/american-carnage-tim-alberta.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/26/books/review/american-carnage-tim-alberta.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/26/books/review/american-carnage-tim-alberta.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Tim Alberta speaks to us about “American Carnage,” his gripping new account of the Republican Party.</description>
+      <dc:creator>Emily Eakin</dc:creator>
+      <pubDate>Fri, 26 Jul 2019 19:28:28 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Alberta, Tim (Journalist)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">American Carnage: On the Front Lines of the Republican Civil War and the Rise of President Trump (Book)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/04/books/04insidethelist02-promo/04insidethelist02-promo-moth-v2.jpg" width="151"></media:content>
+      <media:credit>Pool photo by Doug Mills</media:credit>
+      <media:description>President Trump delivers his State of the Union Address in February, as Vice President Mike Pence, left, applauds.</media:description>
+    </item>
+    <item>
+      <title>Your Therapist’s Prescription? The Right Book.</title>
+      <link>https://www.nytimes.com/2019/07/26/books/review/can-a-book-cure-mental-illness.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/26/books/review/can-a-book-cure-mental-illness.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/26/books/review/can-a-book-cure-mental-illness.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Lori Gottlieb analyzes the benefits — and side effects — of bibliotherapy.</description>
+      <dc:creator>Lori Gottlieb</dc:creator>
+      <pubDate>Fri, 26 Jul 2019 09:00:01 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/11/books/review/11Gottleib/merlin_158620506_42745108-f140-4285-8d77-9d2b4d1437dc-moth.jpg" width="151"></media:content>
+      <media:credit>Linda Huang</media:credit>
+    </item>
+    <item>
+      <title>She Grew Up in a House Without Books. A Teacher Helped Her Realize She Could Write One Herself.</title>
+      <link>https://www.nytimes.com/2019/07/26/books/review/mary-beth-keane-reading-list-mary-gordon.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/26/books/review/mary-beth-keane-reading-list-mary-gordon.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/26/books/review/mary-beth-keane-reading-list-mary-gordon.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>At the end of her sophomore year in college, Mary Beth Keane’s writing teacher gave her a summer reading list that changed her life.</description>
+      <dc:creator>Mary Beth Keane</dc:creator>
+      <pubDate>Fri, 26 Jul 2019 09:00:01 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Writing and Writers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Gordon, Mary (1949- )</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/04/books/review/04Keane/merlin_158305254_b7d7075b-867a-4616-8fdd-a6e5ff144314-moth.jpg" width="151"></media:content>
+      <media:credit>Molly Fairhurst</media:credit>
+    </item>
+    <item>
+      <title>Margaret Fulton Brought the World to the Australian Table</title>
+      <link>https://www.nytimes.com/2019/07/25/world/australia/margaret-fulton-dies.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/25/world/australia/margaret-fulton-dies.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/25/world/australia/margaret-fulton-dies.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>It’s hard to overstate the cultural impact of the prolific Australian author, who propelled nearly an entire generation toward more open-minded cooking.</description>
+      <dc:creator>Tacey Rychter</dc:creator>
+      <pubDate>Fri, 26 Jul 2019 13:00:02 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cooking and Cookbooks</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Immigration and Emigration</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Food</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Writing and Writers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Australia</category>
+    </item>
+  </channel>
+</rss>

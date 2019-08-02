@@ -1,0 +1,1434 @@
+<?xml version="1.0"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns="http://purl.org/rss/1.0/"
+>
+<channel rdf:about="http://planetpython.org/">
+	<title>Planet Python</title>
+	<link>http://planetpython.org/</link>
+	<description>Planet Python - http://planetpython.org/</description>
+
+	<items>
+		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.techbeamers.com/?p=7414" />
+			<rdf:li rdf:resource="https://www.anaconda.com/?p=14426" />
+			<rdf:li rdf:resource="https://kibiwebgeek.com/?p=183" />
+			<rdf:li rdf:resource="tag:blogger.com,1999:blog-2577456377723588929.post-1089165756930073341" />
+			<rdf:li rdf:resource="http://blogs.python-gsoc.org/en/bksahus-blog/weekly-checkin-5/" />
+			<rdf:li rdf:resource="tag:blogger.com,1999:blog-2577456377723588929.post-6092012368810645400" />
+			<rdf:li rdf:resource="https://www.djangoproject.com/weblog/2019/aug/01/security-releases/" />
+			<rdf:li rdf:resource="https://discuss.tryton.org/c/discuss.tryton.org-topic-1539" />
+			<rdf:li rdf:resource="http://blogs.python-gsoc.org/en/sudharsana-kjls-blog/weekly-check-in-8-1/" />
+			<rdf:li rdf:resource="http://blogs.python-gsoc.org/en/mehaksachdevas-blog/coding-week-9/" />
+			<rdf:li rdf:resource="https://bluesock.org/~willkg/blog/mozilla/crashstats_tools_v1_0_1.html" />
+			<rdf:li rdf:resource="https://www.marsja.se/?p=3148" />
+			<rdf:li rdf:resource="http://blog.jetbrains.com/pycharm/?p=6271" />
+			<rdf:li rdf:resource="https://realpython.com/pyspark-intro/" />
+			<rdf:li rdf:resource="tag:blogger.com,1999:blog-3941553907430899163.post-8642798484196614347" />
+			<rdf:li rdf:resource="tag:blogger.com,1999:blog-8520.post-4621905600709948175" />
+			<rdf:li rdf:resource="tag:blogger.com,1999:blog-7958828565254404797.post-7929555569156255041" />
+			<rdf:li rdf:resource="https://feeds.fireside.fm/testandcode/91e4986f-1120-42fd-be2c-70159fcb3262" />
+			<rdf:li rdf:resource="https://kibiwebgeek.com/?p=177" />
+			<rdf:li rdf:resource="http://blogs.python-gsoc.org/en/treamouss-blog/packaging-your-panda3d-game-for-ios/" />
+			<rdf:li rdf:resource="tag:blogger.com,1999:blog-7958828565254404797.post-4253464139453261394" />
+			<rdf:li rdf:resource="https://www.mattlayman.com/building-saas/static-assets-deployment/" />
+			<rdf:li rdf:resource="http://pythontips.com/?p=1690" />
+			<rdf:li rdf:resource="http://blogs.python-gsoc.org/en/tommyli3318s-blog/google-summer-of-code-with-nuitka-5th-weekly-check-in/" />
+			<rdf:li rdf:resource="https://tibonihoo.net/en/blog/2019/07/pourquoi-abandonner-wordpress/" />
+		</rdf:Seq>
+	</items>
+</channel>
+
+<item rdf:about="https://www.techbeamers.com/python-check-integer-in-range/">
+	<title>TechBeamers Python: Python Check Integer Number in Range</title>
+	<link>https://www.techbeamers.com/python-check-integer-in-range/</link>
+	<content:encoded>&lt;p&gt;This tutorial provides you multiple methods to check if an integer number lies in the given range or not. It includes several examples to bring clarity. Let&amp;#8217;s first define the problem. We want to verify whether an integer value lies between two other numbers, for example, 1000 and 7000: So, we need a simple method that can tell us about any numeric value if it belongs to a given range. Hence, in this post, we&amp;#8217;ll describe three ways of solving this problem. You can choose which of these suits you the best. Two of these methods works in Python 3, &lt;/p&gt;
+&lt;p&gt;The post &lt;a rel=&quot;nofollow&quot; href=&quot;https://www.techbeamers.com/python-check-integer-in-range/&quot;&gt;Python Check Integer Number in Range&lt;/a&gt; appeared first on &lt;a rel=&quot;nofollow&quot; href=&quot;https://www.techbeamers.com&quot;&gt;Learn Programming and Software Testing&lt;/a&gt;.&lt;/p&gt;</content:encoded>
+	<dc:date>2019-08-01T17:04:00+00:00</dc:date>
+</item>
+<item rdf:about="https://www.anaconda.com/machine-learning-finance-use-cases/">
+	<title>Continuum Analytics Blog: 4 Ways Financial Firms Put Machine Learning to Work</title>
+	<link>https://www.anaconda.com/machine-learning-finance-use-cases/</link>
+	<content:encoded>&lt;p&gt;Several industry giants in the finance sector are well on their way to implementing machine learning technology that improves operations and guides strategy in multiple departments. So far, machine learning algorithms are being used in&amp;#8230;&lt;/p&gt;
+&lt;p&gt;The post &lt;a rel=&quot;nofollow&quot; href=&quot;https://www.anaconda.com/machine-learning-finance-use-cases/&quot;&gt;4 Ways Financial Firms Put Machine Learning to Work&lt;/a&gt; appeared first on &lt;a rel=&quot;nofollow&quot; href=&quot;https://www.anaconda.com&quot;&gt;Anaconda&lt;/a&gt;.&lt;/p&gt;</content:encoded>
+	<dc:date>2019-08-01T15:02:32+00:00</dc:date>
+</item>
+<item rdf:about="https://kibiwebgeek.com/2019/08/01/use-the-blockchain-data-to-populate-the-combo-box/">
+	<title>IslandT: Use the Blockchain data to populate the combo box</title>
+	<link>https://kibiwebgeek.com/2019/08/01/use-the-blockchain-data-to-populate-the-combo-box/</link>
+	<content:encoded>&lt;p&gt;Previously the cryptocurrency application has loaded the world currency text file and then populate the currency combo box based on the currency symbol in that text file. In this article, the cryptocurrency program will use the returning currency symbol from Blockchain to populate that same combo box.&lt;/p&gt;
+
+
+
+&lt;p&gt;Populate the currency combo box with currency symbols from Blockchain.&lt;/p&gt;
+
+
+
+&lt;pre class=&quot;EnlighterJSRAW&quot;&gt;
+    for k in ticker:
+        #sell_buy += &amp;quot;BTC:&amp;quot; + str(k) + &amp;quot; &amp;quot; + str(ticker[k].p15min) + &amp;quot;\n&amp;quot;
+        currency_exchange_rate.append((ticker[k].p15min))
+        currency_index.append(str(k))
+        curr1 += (str(k),) # the tuple used to populate the currency combo box
+&lt;/pre&gt;
+
+
+
+&lt;p&gt;As you can see all the currency symbols will be kept in a tuple which will then be used to populate the currency combo box.&lt;/p&gt;
+
+
+
+&lt;p&gt;Below is the entire code used to populate the combo box with the currency symbol.&lt;/p&gt;
+
+
+
+&lt;pre class=&quot;EnlighterJSRAW&quot;&gt;
+def get_exchange_rate():  # this method will display the incoming exchange rate data after the api called
+
+    global exchange_rate
+    global base_crypto
+
+    # read the currency file
+    #c_string = &amp;#039;&amp;#039;
+    #with open(&amp;#039;currency.txt&amp;#039;) as fp:
+        #for currency in fp.readlines():
+            #c_string += currency[:-1] + &amp;quot;,&amp;quot;
+    #c_string = c_string[:-1]
+
+    #base_crypto = crypto.get()  # get the desired crypto currency
+    #try:
+        #url = &amp;quot;https://min-api.cryptocompare.com/data/price&amp;quot;  # url for API call
+        #data = {&amp;#039;fsym&amp;#039;: base_crypto, &amp;#039;tsyms&amp;#039;: c_string}
+        # = requests.get(url, params=data)
+        #exchange_rate_s = json.loads(json.dumps(r.json()))
+
+    #except:
+        #print(&amp;quot;An exception occurred&amp;quot;)
+
+    curr1 = tuple()  # the tuple which will be populated by currency
+    sell_buy = &amp;#039;&amp;#039;
+
+    #for key, value in exchange_rate_s.items():  # populate exchange rate string and the currency tuple
+        #sell_buy += base_crypto + &amp;quot;:&amp;quot; + key + &amp;quot;  &amp;quot; + str(value) + &amp;quot;\n&amp;quot;
+        #curr1 += (key,)
+
+    #sell_buy += &amp;quot;Bitcoin : Currency price every 15 minute:&amp;quot; + &amp;quot;\n\n&amp;quot;
+    # print the 15 min price for every bitcoin/currency
+    currency_exchange_rate = []
+    currency_index = []
+
+
+    for k in ticker:
+        #sell_buy += &amp;quot;BTC:&amp;quot; + str(k) + &amp;quot; &amp;quot; + str(ticker[k].p15min) + &amp;quot;\n&amp;quot;
+        currency_exchange_rate.append((ticker[k].p15min))
+        currency_index.append(str(k))
+        curr1 += (str(k),) # the tuple used to populate the currency combo box
+
+    # construct the pandas data frame object
+    d = {&amp;#039;BTC&amp;#039;: currency_exchange_rate}
+    df = pd.DataFrame(data=d, index=currency_index)
+
+    countVar = StringVar()  # use to hold the character count
+    text_widget.tag_remove(&amp;quot;search&amp;quot;, &amp;quot;1.0&amp;quot;, &amp;quot;end&amp;quot;)  # cleared the hightlighted currency pair
+
+    text_widget.delete(&amp;#039;1.0&amp;#039;, END)  # clear all those previous text first
+    s.set(df)
+    text_widget.insert(INSERT, s.get())  # populate the text widget with new exchange rate data
+
+    # highlight the background of the searched currency pair
+    pos = text_widget.search(&amp;#039;AUD&amp;#039;, &amp;quot;1.0&amp;quot;, stopindex=&amp;quot;end&amp;quot;, count=countVar)
+    text_widget.tag_configure(&amp;quot;search&amp;quot;, background=&amp;quot;green&amp;quot;)
+    end_pos = float(pos) + float(0.96)
+    text_widget.tag_add(&amp;quot;search&amp;quot;, pos, str(end_pos))
+    pos = float(pos) + 2.0
+    text_widget.see(str(pos))
+
+    # fill up combo box of world currency
+    based[&amp;#039;values&amp;#039;] = curr1
+    based.current(0)
+
+    # enable all buttons
+    action_search.config(state=NORMAL)
+    action_coin_volume.config(state=NORMAL)
+    action_coin_market_cap.config(state=NORMAL)
+    action_coin_top_exchange.config(state=NORMAL)
+&lt;/pre&gt;
+
+
+
+&lt;p&gt;Some of the code has appeared in the previous chapter which you can read them in the previous article.&lt;/p&gt;
+
+
+
+&lt;div class=&quot;wp-block-image&quot;&gt;&lt;img src=&quot;https://kibiwebgeek.com/wp-content/uploads/2019/08/2019-08-01-at-19-50-28.png&quot; alt=&quot;&quot; class=&quot;wp-image-184&quot; /&gt;Load the currency symbol from Blockchain&lt;/div&gt;
+
+
+
+&lt;p&gt;&lt;/p&gt;</content:encoded>
+	<dc:date>2019-08-01T11:59:13+00:00</dc:date>
+</item>
+<item rdf:about="http://python-catalin.blogspot.com/2019/08/python-373-using-flask-part-005.html">
+	<title>Catalin George Festila: Python 3.7.3 : Using the flask - part 005.</title>
+	<link>http://python-catalin.blogspot.com/2019/08/python-373-using-flask-part-005.html</link>
+	<content:encoded>In the last tutorial, I used the flask-sqlalchemy python module.
+Today I will show you how to use the flask_marshmallow python module.
+First, let's take a look at this python module, see the official webpage:
+Flask-Marshmallow is a thin integration layer for Flask (a Python web framework) and marshmallow (an object serialization/deserialization library) that adds additional features to</content:encoded>
+	<dc:date>2019-08-01T10:13:03+00:00</dc:date>
+</item>
+<item rdf:about="http://blogs.python-gsoc.org/en/bksahus-blog/weekly-checkin-5/">
+	<title>PSF GSoC students blogs: Weekly Checkin #5</title>
+	<link>http://blogs.python-gsoc.org/en/bksahus-blog/weekly-checkin-5/</link>
+	<content:encoded>&lt;h2&gt;&lt;strong&gt;1. What did you do this week?&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;I'm still going on with zip reformulation and at the same time also working on the keyfun parameter of the min and max builtin. To be completely honest this week has not be that productive because I am studying for an upcoming exam. But I'm hoping to get back on track in a next couple of days.&lt;/p&gt;
+
+&lt;h2&gt;&lt;strong&gt;2. What is coming up next?&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;I will keep working on both them until they are ready to be merged.&lt;/p&gt;
+
+&lt;h2&gt;&lt;strong&gt;3. Did you get stuck anywhere?&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Yes I was stuck with zip reformulations for a while but with the help of my mentor everything is back on track. &lt;/p&gt;</content:encoded>
+	<dc:date>2019-08-01T10:09:22+00:00</dc:date>
+</item>
+<item rdf:about="http://python-catalin.blogspot.com/2019/07/python-373-using-flask-part-004.html">
+	<title>Catalin George Festila: Python 3.7.3 : Using the flask - part 004.</title>
+	<link>http://python-catalin.blogspot.com/2019/07/python-373-using-flask-part-004.html</link>
+	<content:encoded>The goal of this tutorial is to interact with the database in order to use it with flask_sqlalchemy python module.
+The db.Model is used to interact with the database.
+A database doesn't need a primary key but if you using the flask-sqlalchemy you need to have it for each one table in order to connect it.
+Let's see the database:
+C:\Python373\my_flask&amp;gt;python
+Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25</content:encoded>
+	<dc:date>2019-08-01T10:04:36+00:00</dc:date>
+</item>
+<item rdf:about="https://www.djangoproject.com/weblog/2019/aug/01/security-releases/">
+	<title>Django Weblog: Django security releases issued: 2.2.4, 2.1.11 and 1.11.23</title>
+	<link>https://www.djangoproject.com/weblog/2019/aug/01/security-releases/</link>
+	<content:encoded>&lt;p&gt;In accordance with &lt;a class=&quot;reference external&quot; href=&quot;https://docs.djangoproject.com/en/dev/internals/security/&quot;&gt;our security release policy&lt;/a&gt;, the Django team is issuing &lt;a class=&quot;reference external&quot; href=&quot;https://docs.djangoproject.com/en/dev/releases/1.11.23/&quot;&gt;Django 1.11.23&lt;/a&gt;, &lt;a class=&quot;reference external&quot; href=&quot;https://docs.djangoproject.com/en/dev/releases/2.1.11/&quot;&gt;Django 2.1.11&lt;/a&gt;, and &lt;a class=&quot;reference external&quot; href=&quot;https://docs.djangoproject.com/en/dev/releases/2.2.4/&quot;&gt;Django 2.2.4&lt;/a&gt;. These releases addresses the security issues detailed below. We encourage all users of Django to upgrade as soon as possible.&lt;/p&gt;
+&lt;p&gt;Thanks Guido Vranken and Sage M. Abdullah for reporting these issues.&lt;/p&gt;
+&lt;div class=&quot;section&quot; id=&quot;s-cve-2019-14232-denial-of-service-possibility-in-django-utils-text-truncator&quot;&gt;
+&lt;h3&gt;CVE-2019-14232: Denial-of-service possibility in &lt;tt class=&quot;docutils literal&quot;&gt;django.utils.text.Truncator&lt;/tt&gt;&lt;/h3&gt;
+&lt;p&gt;If &lt;tt class=&quot;docutils literal&quot;&gt;django.utils.text.Truncator&lt;/tt&gt;'s &lt;tt class=&quot;docutils literal&quot;&gt;chars()&lt;/tt&gt; and &lt;tt class=&quot;docutils literal&quot;&gt;words()&lt;/tt&gt; methods
+were passed the &lt;tt class=&quot;docutils literal&quot;&gt;html=True&lt;/tt&gt; argument, they were extremely slow to evaluate
+certain inputs due to a catastrophic backtracking vulnerability in a regular
+expression. The &lt;tt class=&quot;docutils literal&quot;&gt;chars()&lt;/tt&gt; and &lt;tt class=&quot;docutils literal&quot;&gt;words()&lt;/tt&gt; methods are used to implement the
+&lt;tt class=&quot;docutils literal&quot;&gt;truncatechars_html&lt;/tt&gt; and &lt;tt class=&quot;docutils literal&quot;&gt;truncatewords_html&lt;/tt&gt; template
+filters, which were thus vulnerable.&lt;/p&gt;
+&lt;p&gt;The regular expressions used by &lt;tt class=&quot;docutils literal&quot;&gt;Truncator&lt;/tt&gt; have been simplified in order to
+avoid potential backtracking issues. As a consequence, trailing punctuation may
+now at times be included in the truncated output.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;s-cve-2019-14233-denial-of-service-possibility-in-strip-tags&quot;&gt;
+&lt;h3&gt;CVE-2019-14233: Denial-of-service possibility in &lt;tt class=&quot;docutils literal&quot;&gt;strip_tags()&lt;/tt&gt;&lt;/h3&gt;
+&lt;p&gt;Due to the behavior of the underlying &lt;tt class=&quot;docutils literal&quot;&gt;HTMLParser&lt;/tt&gt;,
+&lt;tt class=&quot;docutils literal&quot;&gt;django.utils.html.strip_tags()&lt;/tt&gt; would be extremely slow to evaluate
+certain inputs containing large sequences of nested incomplete HTML entities.
+The &lt;tt class=&quot;docutils literal&quot;&gt;strip_tags()&lt;/tt&gt; method is used to implement the corresponding
+&lt;tt class=&quot;docutils literal&quot;&gt;striptags&lt;/tt&gt; template filter, which was thus also vulnerable.&lt;/p&gt;
+&lt;p&gt;&lt;tt class=&quot;docutils literal&quot;&gt;strip_tags()&lt;/tt&gt; now avoids recursive calls to &lt;tt class=&quot;docutils literal&quot;&gt;HTMLParser&lt;/tt&gt; when progress
+removing tags, but necessarily incomplete HTML entities, stops being made.&lt;/p&gt;
+&lt;p&gt;Remember that absolutely NO guarantee is provided about the results of
+&lt;tt class=&quot;docutils literal&quot;&gt;strip_tags()&lt;/tt&gt; being HTML safe. So NEVER mark safe the result of a
+&lt;tt class=&quot;docutils literal&quot;&gt;strip_tags()&lt;/tt&gt; call without escaping it first, for example with
+&lt;tt class=&quot;docutils literal&quot;&gt;django.utils.html.escape()&lt;/tt&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;s-cve-2019-14234-sql-injection-possibility-in-key-and-index-lookups-for-jsonfield-hstorefield&quot;&gt;
+&lt;h3&gt;CVE-2019-14234: SQL injection possibility in key and index lookups for &lt;tt class=&quot;docutils literal&quot;&gt;JSONField&lt;/tt&gt;/&lt;tt class=&quot;docutils literal&quot;&gt;HStoreField&lt;/tt&gt;&lt;/h3&gt;
+&lt;p&gt;Key and index lookups for
+&lt;tt class=&quot;docutils literal&quot;&gt;django.contrib.postgres.fields.JSONField&lt;/tt&gt; and key lookups for &lt;tt class=&quot;docutils literal&quot;&gt;django.contrib.postgres.fields.HStoreField&lt;/tt&gt;
+were subject to SQL injection, using a suitably crafted dictionary, with
+dictionary expansion, as the &lt;tt class=&quot;docutils literal&quot;&gt;**kwargs&lt;/tt&gt; passed to &lt;tt class=&quot;docutils literal&quot;&gt;QuerySet.filter()&lt;/tt&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;s-cve-2019-14235-potential-memory-exhaustion-in-django-utils-encoding-uri-to-iri&quot;&gt;
+&lt;h3&gt;CVE-2019-14235: Potential memory exhaustion in &lt;tt class=&quot;docutils literal&quot;&gt;django.utils.encoding.uri_to_iri()&lt;/tt&gt;&lt;/h3&gt;
+&lt;p&gt;If passed certain inputs, &lt;tt class=&quot;docutils literal&quot;&gt;django.utils.encoding.uri_to_iri&lt;/tt&gt; could lead
+to significant memory usage due to excessive recursion when re-percent-encoding
+invalid UTF-8 octet sequences.&lt;/p&gt;
+&lt;p&gt;&lt;tt class=&quot;docutils literal&quot;&gt;uri_to_iri()&lt;/tt&gt; now avoids recursion when re-percent-encoding invalid UTF-8
+octet sequences.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;s-affected-supported-versions&quot;&gt;
+&lt;h3&gt;Affected supported versions&lt;/h3&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;Django master development branch&lt;/li&gt;
+&lt;li&gt;Django 2.2 before version 2.2.4&lt;/li&gt;
+&lt;li&gt;Django 2.1 before version 2.1.11&lt;/li&gt;
+&lt;li&gt;Django 1.11 before version 1.11.23&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;s-resolution&quot;&gt;
+&lt;h3&gt;Resolution&lt;/h3&gt;
+&lt;p&gt;Patches to resolve the issue have been applied to Django's master branch and
+the 2.2, 2.1, and 1.11 release branches. The patches may be obtained from the following changesets:&lt;/p&gt;
+&lt;p&gt;On the development master branch:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/django/django/commit/7f65974f8219729c047fbbf8cd5cc9d80faefe77&quot;&gt;master Truncator&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/django/django/commit/4b78420d250df5e21763633871e486ee76728cc4&quot;&gt;master strip_tags()&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/django/django/commit/7deeabc7c7526786df6894429ce89a9c4b614086&quot;&gt;master JSONField/HStoreField&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/django/django/commit/76ed1c49f804d409cfc2911a890c78584db3c76e&quot;&gt;master uri_to_iri()&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;On the Django 2.2 release branch:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/django/django/commit/c3289717c6f21a8cf23daff1c78c0c014b94041f&quot;&gt;2.2 Truncator&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/django/django/commit/e34f3c0e9ee5fc9022428fe91640638bafd4cda7&quot;&gt;2.2 strip_tags()&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/django/django/commit/4f5b58f5cd3c57fee9972ab074f8dc6895d8f387&quot;&gt;2.2 JSONField/HStoreField&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/django/django/commit/cf694e6852b0da7799f8b53f1fb2f7d20cf17534&quot;&gt;2.2 uri_to_iri()&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;On the Django 2.1 release branch:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/django/django/commit/c23723a1551340cc7d3126f04fcfd178fa224193&quot;&gt;2.1 Truncator&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/django/django/commit/5ff8e791148bd451180124d76a55cb2b2b9556eb&quot;&gt;2.1 strip_tags()&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/django/django/commit/f74b3ae3628c26e1b4f8db3d13a91d52a833a975&quot;&gt;2.1 JSONField/HStoreField&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/django/django/commit/5d50a2e5fa36ad23ab532fc54cf4073de84b3306&quot;&gt;2.1 uri_to_iri()&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;On the Django 1.11 release branch:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/django/django/commit/42a66e969023c00536256469f0e8b8a099ef109d&quot;&gt;1.11 Truncator&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/django/django/commit/52479acce792ad80bb0f915f20b835f919993c72&quot;&gt;1.11 strip_tags()&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/django/django/commit/ed682a24fca774818542757651bfba576c3fc3ef&quot;&gt;1.11 JSONField/HStoreField&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/django/django/commit/869b34e9b3be3a4cfcb3a145f218ffd3f5e3fd79&quot;&gt;1.11 uri_to_iri()&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following releases have been issued:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;Django 1.11.23 (&lt;a class=&quot;reference external&quot; href=&quot;https://www.djangoproject.com/m/releases/1.11/Django-1.11.23.tar.gz&quot;&gt;download Django 1.11.23&lt;/a&gt; | &lt;a class=&quot;reference external&quot; href=&quot;https://www.djangoproject.com/m/pgp/Django-1.11.23.checksum.txt&quot;&gt;1.11.23 checksums&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Django 2.1.11 (&lt;a class=&quot;reference external&quot; href=&quot;https://www.djangoproject.com/m/releases/2.1/Django-2.1.11.tar.gz&quot;&gt;download Django 2.1.11&lt;/a&gt; | &lt;a class=&quot;reference external&quot; href=&quot;https://www.djangoproject.com/m/pgp/Django-2.1.11.checksum.txt&quot;&gt;2.1.11 checksums&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Django 2.2.4 (&lt;a class=&quot;reference external&quot; href=&quot;https://www.djangoproject.com/m/releases/2.2/Django-2.2.4.tar.gz&quot;&gt;download Django 2.2.4&lt;/a&gt; | &lt;a class=&quot;reference external&quot; href=&quot;https://www.djangoproject.com/m/pgp/Django-2.2.4.checksum.txt&quot;&gt;2.2.4 checksums&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The PGP key ID used for this release is Carlton Gibson: E17DF5C82B4F9D00&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;s-general-notes-regarding-security-reporting&quot;&gt;
+&lt;h3&gt;General notes regarding security reporting&lt;/h3&gt;
+&lt;p&gt;As always, we ask that potential security issues be reported via
+private email to &lt;tt class=&quot;docutils literal&quot;&gt;security&amp;#64;djangoproject.com&lt;/tt&gt;, and not via Django's
+Trac instance, Django's GitHub repositories, or the django-developers list.
+Please see &lt;a class=&quot;reference external&quot; href=&quot;https://www.djangoproject.com/security/&quot;&gt;our security policies&lt;/a&gt;
+for further information.&lt;/p&gt;
+&lt;/div&gt;</content:encoded>
+	<dc:date>2019-08-01T09:10:20+00:00</dc:date>
+</item>
+<item rdf:about="https://discuss.tryton.org/t/newsletter-august-2019/1539">
+	<title>Tryton News: Newsletter August 2019</title>
+	<link>https://discuss.tryton.org/t/newsletter-august-2019/1539</link>
+	<content:encoded>&lt;p&gt;&lt;a href=&quot;https://discuss.tryton.org/u/ced&quot;&gt;@ced&lt;/a&gt; wrote:&lt;/p&gt;
+            &lt;blockquote&gt;
+              &lt;p&gt;&lt;div class=&quot;lightbox-wrapper&quot;&gt;&lt;a class=&quot;lightbox&quot; href=&quot;https://discuss-cdn.tryton.org/uploads/default/original/1X/c1b60752724532b86b2b94a5ff81ddd4c8b3d139.jpeg&quot; title=&quot;as11-44-6551.jpg&quot;&gt;&lt;img src=&quot;https://discuss-cdn.tryton.org/uploads/default/optimized/1X/c1b60752724532b86b2b94a5ff81ddd4c8b3d139_2_690x455.jpeg&quot; alt=&quot;View of moon limb,with Earth on the horizon&quot; width=&quot;690&quot; height=&quot;455&quot; /&gt;&lt;div class=&quot;meta&quot;&gt;
+&lt;span class=&quot;filename&quot;&gt;as11-44-6551.jpg&lt;/span&gt;&lt;span class=&quot;informations&quot;&gt;800×528 126 KB&lt;/span&gt;
+&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&quot;http://www.tryton.org/&quot;&gt;Tryton&lt;/a&gt; development has resumed now its cruising pace. There are a lot of changes to improve the user experiences. A new major feature, the secondary unit, has landed in the form of four new modules.&lt;/p&gt;
+&lt;p&gt;Thanks to the &lt;a href=&quot;https://www.keycdn.com/open-source-cdn&quot; rel=&quot;nofollow noopener&quot;&gt;Open Source program of KeyCDN&lt;/a&gt;, our website and forum are now speeded up by delivering static content at global scale. We have also pushed our downloads on the KeyCDN, so we encourage you to use &lt;a href=&quot;http://downloads-cdn.tryton.org&quot;&gt;downloads-cdn.tryton.org&lt;/a&gt; instead of &lt;a href=&quot;http://downloads.tryton.org&quot;&gt;downloads.tryton.org&lt;/a&gt; (Thank you for checking your automated scripts which are looking up for new releases).&lt;/p&gt;
+&lt;p&gt;Please help translating Tryton in to your language. The development sources from the repositories are updated every month. So please don’t forget to check them regularly every month on &lt;a href=&quot;https://translate.tryton.org/&quot;&gt;https://translate.tryton.org/&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Contents:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://discuss.tryton.org/c/news.rss#heading--users&quot;&gt;Changes for users&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://discuss.tryton.org/c/news.rss#heading--new-modules&quot;&gt;New modules&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://discuss.tryton.org/c/news.rss#heading--developers&quot;&gt;Changes for developers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;heading--users&quot;&gt;Changes For The User&lt;/h2&gt;
+&lt;p&gt;We changed all main &lt;a href=&quot;https://bugs.tryton.org/issue8430&quot;&gt;editable lists to add new records on top&lt;/a&gt;. This is more efficient for the web client on large lists. But inside One2Many lists we keep adding new records at the bottom.&lt;/p&gt;
+&lt;p&gt;You can now define which &lt;a href=&quot;https://bugs.tryton.org/issue8442&quot;&gt;unit of measure is the basis for quantities used in a price list.&lt;/a&gt; In standard modules we support the default unit (the original one) and the sale unit.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&quot;https://bugs.tryton.org/issue8308&quot;&gt;column size of the web client&lt;/a&gt; has been improved. Now columns have a minimal width (depending of the type) and a double scrollbar (top and bottom) is displayed if there is not enough space to show all the columns on the view-port.&lt;/p&gt;
+&lt;p&gt;Until now, it was possible to cancel a posted supplier invoice but not one from a customer. This was because in many countries it is not allowed. But in order to be more flexible, we &lt;a href=&quot;https://bugs.tryton.org/issue8445&quot;&gt;added an option on the company to allow cancel of customer invoice&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;When renewing a fiscal year, the &lt;a href=&quot;https://bugs.tryton.org/issue7967&quot;&gt;new sequences will have their name also updated&lt;/a&gt;. If the name of the previous fiscal year appears in the sequence name then it will be replaced by the new fiscal year name. This reduces confusion when listing all the sequences.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&quot;https://bugs.tryton.org/issue8516&quot;&gt;income statement is included in the balance sheet&lt;/a&gt; for the Spanish accounting (as it is done for other countries). So the running income of the current year is already included before the year closing.&lt;/p&gt;
+&lt;p&gt;When using the “Enter Timesheet” wizard, now we &lt;a href=&quot;https://bugs.tryton.org/issue8541&quot;&gt;display the date&lt;/a&gt; in the window name (next to the employee name) . The shown date is the one selected in the first step of the wizard.&lt;/p&gt;
+&lt;h2 id=&quot;heading--new-modules&quot;&gt;New Modules&lt;/h2&gt;
+&lt;h3&gt;Modules to manage secondary unit&lt;/h3&gt;
+&lt;p&gt;They follow the blueprint of &lt;a href=&quot;https://discuss.tryton.org/t/uom-conversion-inter-category-on-product/1219&quot; class=&quot;inline-onebox&quot;&gt;Uom Conversion Inter category on product&lt;/a&gt;&lt;br /&gt;
+and allow to define a different secondary unit and factor on the product for sale and for purchase.&lt;br /&gt;
+The quantity of sale and purchase lines can be defined using the secondary unit fields (quantity and unit price), the main unit fields are automatically updated using the product factor.&lt;br /&gt;
+On related documents like the invoice or shipment, the secondary fields are displayed using the factor stored on the sale or purchase.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://docs.tryton.org/projects/modules-account-invoice-secondary-unit/en/latest/&quot;&gt;Account Invoice Secondary Unit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://docs.tryton.org/projects/modules-purchase-secondary-unit/en/latest/&quot;&gt;Purchase Secondary Unit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://docs.tryton.org/projects/modules-sale-secondary-unit/en/latest/&quot;&gt;Sale Secondary Unit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://docs.tryton.org/projects/modules-stock-secondary-unit/en/latest/&quot;&gt;Stock Secondary Unit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Changes For The Developer&lt;/h2&gt;
+&lt;p&gt;Since release 5.2 we have made the view parser reusable for different view types (e.g. form and list-form). Now we &lt;a href=&quot;https://bugs.tryton.org/issue8313&quot;&gt;reuse also the form parser for the board views&lt;/a&gt;. This reduces the code to maintain and ensure the same behavior for the same tags.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://bugs.tryton.org/issue8253&quot;&gt;A stock move can be the origin of another stock move&lt;/a&gt;. This allows us to keep a link between inventory, incoming and outgoing moves.&lt;/p&gt;
+&lt;p&gt;We support the &lt;a href=&quot;https://bugs.tryton.org/issue8238&quot;&gt;conversion between different categories of unit of measures&lt;/a&gt; as long as the user provides a factor/rate for the two base units of both categories.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&quot;https://hub.docker.com/r/tryton/tryton/&quot; rel=&quot;nofollow noopener&quot;&gt;docker images of Tryton&lt;/a&gt; have &lt;a href=&quot;https://bugs.tryton.org/issue8480&quot;&gt;proteus installed&lt;/a&gt; now. This is useful if you want to run &lt;code&gt;trytond_import_zip&lt;/code&gt; on it or launch the tests.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&quot;https://bugs.tryton.org/issue8308&quot;&gt;&lt;code&gt;expand&lt;/code&gt; attribute&lt;/a&gt; has been changed from a boolean (1 or 0) into an integer. The integer represents the proportion of available space which is taken among all expanded columns.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;format_date&lt;/code&gt;  method on &lt;code&gt;Report&lt;/code&gt; can now take an &lt;a href=&quot;https://bugs.tryton.org/issue8444&quot;&gt;optional &lt;code&gt;format&lt;/code&gt; parameter&lt;/a&gt; if you don’t want to use the default format of the language.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&quot;https://bugs.tryton.org/issue8498&quot;&gt;web client updates the states of the wizard buttons and title&lt;/a&gt; like the desktop client does. This closes a little more the behavior gap between both clients.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&quot;https://stripe.com/&quot; rel=&quot;nofollow noopener&quot;&gt;Stripe&lt;/a&gt; module for payment didn’t support the &lt;a href=&quot;https://bugs.tryton.org/issue8455&quot;&gt;webhook when charge expired&lt;/a&gt;. Now it is supported and behaves the same way as for charge failed.&lt;/p&gt;
+&lt;p&gt;There is now an &lt;a href=&quot;https://bugs.tryton.org/issue8510&quot;&gt;environment variable to set the default logging level&lt;/a&gt; when running trytond as a &lt;a href=&quot;https://en.wikipedia.org/wiki/Web_Server_Gateway_Interface&quot; rel=&quot;nofollow noopener&quot;&gt;WSGI application&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&quot;https://bugs.tryton.org/issue8346&quot;&gt;countries, subdivisions and currencies are no more loaded from XML&lt;/a&gt; at the module installation but using proteus scripts which use &lt;a href=&quot;https://pypi.org/project/pycountry/&quot; rel=&quot;nofollow noopener&quot;&gt;pycountry&lt;/a&gt; data: &lt;code&gt;trytond_import_countries&lt;/code&gt; and &lt;code&gt;trytond_import_currencies&lt;/code&gt;. The translations are also loaded by those scripts.&lt;br /&gt;
+This reduces the maintenance load of each release and allows users to keep their database up to date without relying on Tryton releases.&lt;/p&gt;
+            &lt;/blockquote&gt;
+            &lt;p&gt;Posts: 2&lt;/p&gt;
+            &lt;p&gt;Participants: 1&lt;/p&gt;
+            &lt;p&gt;&lt;a href=&quot;https://discuss.tryton.org/t/newsletter-august-2019/1539&quot;&gt;Read full topic&lt;/a&gt;&lt;/p&gt;</content:encoded>
+	<dc:date>2019-08-01T06:00:06+00:00</dc:date>
+</item>
+<item rdf:about="http://blogs.python-gsoc.org/en/sudharsana-kjls-blog/weekly-check-in-8-1/">
+	<title>PSF GSoC students blogs: Weekly Check-in #8</title>
+	<link>http://blogs.python-gsoc.org/en/sudharsana-kjls-blog/weekly-check-in-8-1/</link>
+	<content:encoded>&lt;p&gt;In the past week, I was working on setting up Hadoop and trying to import data from it. I got my PRs reviewed by my mentor and working on the changes he suggested.&lt;/p&gt;
+
+&lt;h2&gt;What did I do this week?&lt;/h2&gt;
+
+&lt;p&gt;I had initially set up Hadoop in my Ubuntu system. But setting this up would be difficult in Travis CI. So I was exploring other options. The easy way to do this is through docker but there is no official Hadoop distribution in docker. I was checking out cloudera's quick start VM but when I was trying to set this up my laptop started to hang. I will continue to look into other options. Also my mentor had reviewed my HDFS source PR and guided me on how to proceed further. &lt;/p&gt;
+
+&lt;h2&gt;What is coming up next?&lt;/h2&gt;
+
+&lt;p&gt;I'll have to work on the docker set up for Hdfs source. I'll probably have to write a script or a docker-compose script. MySQL PR had an issue while my mentor was adding a merge test. Will work on that as well. We'll be preparing for a release soon.&lt;/p&gt;
+
+&lt;h2&gt;Did you get stuck anywhere?&lt;/h2&gt;
+
+&lt;p&gt;I struggled a bit with the Hadoop set up. My mentor gave me some input on this and hopefully I'll be able to create a docker set up by next week.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;</content:encoded>
+	<dc:date>2019-08-01T04:20:27+00:00</dc:date>
+</item>
+<item rdf:about="http://blogs.python-gsoc.org/en/mehaksachdevas-blog/coding-week-9/">
+	<title>PSF GSoC students blogs: Coding week #9</title>
+	<link>http://blogs.python-gsoc.org/en/mehaksachdevas-blog/coding-week-9/</link>
+	<content:encoded>&lt;h3&gt;&lt;big&gt;What did I do this week? &lt;/big&gt;&lt;/h3&gt;
+
+&lt;p&gt;After a productive discussion with my mentors last week, we agreed to proceed coding the local scoring algorithm for Binomial MGWR and testing the results from that. After familiarizing myself with the literature on the local scoring procedure, I coded it in the context of local models for MGWR. After multiple iterations, the model is converging and the bandwidth results are looking as expected. Though the parameter coefficients have values close to expected but not as accurate as needed. There could be possible issues with the weights associated in the model, and some adjustments need to be made for the coefficients which need to be figured out.&lt;/p&gt;
+
+&lt;h3&gt;&lt;big&gt;What is coming up next? &lt;/big&gt;&lt;/h3&gt;
+
+&lt;p&gt;In the coming week I will work on resolving the coefficient value issue discussed above and design and implement a Monte-Carlo design for the Binomial model as was done for the Poisson MGWR model.&lt;/p&gt;
+
+&lt;h3&gt;&lt;big&gt;Did I get stuck anywhere?&lt;/big&gt;&lt;/h3&gt;
+
+&lt;p&gt;The modeling of the binary response variable with MGWR is still not resolved and issues have been encountered continuously in it, though that is expected from research. Hoping to resolve these final issues soon and work further on the predictions with GWR and MGWR.&lt;/p&gt;
+
+&lt;p&gt;Looking forward to the progress update next week!&lt;/p&gt;</content:encoded>
+	<dc:date>2019-08-01T01:06:13+00:00</dc:date>
+</item>
+<item rdf:about="https://bluesock.org/~willkg/blog/mozilla/crashstats_tools_v1_0_1.html">
+	<title>Will Kahn-Greene: crashstats-tools v1.0.1 released! cli for Crash Stats.</title>
+	<link>https://bluesock.org/~willkg/blog/mozilla/crashstats_tools_v1_0_1.html</link>
+	<content:encoded>&lt;div&gt;&lt;div class=&quot;section&quot; id=&quot;what-is-it&quot;&gt;
+&lt;h2&gt;What is it?&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/willkg/crashstats-tools/&quot;&gt;crashstats-tools&lt;/a&gt; is a set of
+command-line tools for working with Crash Stats
+(&lt;a class=&quot;reference external&quot; href=&quot;https://crash-stats.mozilla.org/&quot;&gt;https://crash-stats.mozilla.org/&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;crashstats-tools comes with two commands:&lt;/p&gt;
+&lt;ul class=&quot;simple&quot;&gt;
+&lt;li&gt;supersearch: for performing Crash Stats Super Search queries&lt;/li&gt;
+&lt;li&gt;fetch-data: for fetching raw crash, dumps, and processed crash data for
+specified crash ids&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;v1-0-1-released&quot;&gt;
+&lt;h2&gt;v1.0.1 released!&lt;/h2&gt;
+&lt;p&gt;I extracted two commands we have in the Socorro local dev environment as a
+separate Python project. This allows anyone to use those two commands without
+having to set up a Socorro local dev environment.&lt;/p&gt;
+&lt;p&gt;The audience for this is pretty limited, but I think it'll help significantly
+for testing analysis tools.&lt;/p&gt;
+&lt;p&gt;Say I'm working on an analysis tool that looks at crash report minidump files
+and does some additional analysis on it. I could use &lt;tt class=&quot;docutils literal&quot;&gt;supersearch&lt;/tt&gt; command to
+get me a list of crash ids to download data for and the &lt;tt class=&quot;docutils literal&quot;&gt;&lt;span class=&quot;pre&quot;&gt;fetch-data&lt;/span&gt;&lt;/tt&gt; command
+to download the requisite data.&lt;/p&gt;
+&lt;pre class=&quot;code bash&quot;&gt;&lt;a name=&quot;rest_code_77cc4f0cac714fc5aee71fe36aaea895-1&quot;&gt;&lt;/a&gt;$ &lt;span class=&quot;nb&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;CRASHSTATS_API_TOKEN&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;foo
+&lt;a name=&quot;rest_code_77cc4f0cac714fc5aee71fe36aaea895-2&quot;&gt;&lt;/a&gt;$ mkdir crashdata
+&lt;a name=&quot;rest_code_77cc4f0cac714fc5aee71fe36aaea895-3&quot;&gt;&lt;/a&gt;$ supersearch --product&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;Firefox --num&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;10&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
+&lt;a name=&quot;rest_code_77cc4f0cac714fc5aee71fe36aaea895-4&quot;&gt;&lt;/a&gt;    fetch-data --raw --dumps --no-processed crashdata
+&lt;/pre&gt;&lt;p&gt;Then I can run my tools on the dumps in &lt;tt class=&quot;docutils literal&quot;&gt;crashdata/upload_file_minidump/&lt;/tt&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;be-thoughtful-about-using-data&quot;&gt;
+&lt;h2&gt;Be thoughtful about using data&lt;/h2&gt;
+&lt;p&gt;Make sure to use these tools in compliance with our data policy:&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://crash-stats.mozilla.org/documentation/memory_dump_access/&quot;&gt;https://crash-stats.mozilla.org/documentation/memory_dump_access/&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;section&quot; id=&quot;where-to-go-for-more&quot;&gt;
+&lt;h2&gt;Where to go for more&lt;/h2&gt;
+&lt;p&gt;See the project on GitHub which includes a README which contains everything
+about the project including examples of usage, the issue tracker, and the
+source code:&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;reference external&quot; href=&quot;https://github.com/willkg/crashstats-tools&quot;&gt;https://github.com/willkg/crashstats-tools&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Let me know whether this helps you!&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;</content:encoded>
+	<dc:date>2019-07-31T19:00:00+00:00</dc:date>
+</item>
+<item rdf:about="https://www.marsja.se/how-to-read-and-write-json-files-using-python-and-pandas/">
+	<title>Erik Marsja: How to Read and Write JSON Files using Python and Pandas</title>
+	<link>https://www.marsja.se/how-to-read-and-write-json-files-using-python-and-pandas/</link>
+	<content:encoded>&lt;p&gt;In this post we will learn how to read and write &lt;a href=&quot;https://sv.wikipedia.org/wiki/JSON&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;JSON&lt;/a&gt; files using Python. In the first, part we are going to use the Python package json to create a JSON file and write a JSON file. In the next part we are going to use &lt;em&gt;Pandas json&lt;/em&gt; method to load JSON files into Pandas &lt;a href=&quot;https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;dataframe&lt;/a&gt;. Here, we will learn how to read from a JSON file locally and from an URL as well as how to read a nested JSON file using Pandas.&lt;/p&gt;
+&lt;p&gt;Finally, as a bonus, we will also learn how to manipulate data in Pandas dataframes, rename columns, and plot the data using &lt;a href=&quot;https://seaborn.pydata.org/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Seaborn&lt;/a&gt;.&lt;span id=&quot;more-3148&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+
+
+&lt;h2&gt;What is a JSON File?&lt;/h2&gt;
+
+
+
+&lt;p&gt;JSON, short for JavaScript Object Notation, is a compact, text based format used to exchange data. This format that is common for downloading, and storing, information from web servers via so-called Web APIs. JSON is a text-based format and&amp;nbsp; when opening up a JSON file, we will recognize the structure. That is, it is not so different from Python&amp;#8217;s structure for a dictionary.&lt;/p&gt;
+&lt;a href=&quot;https://www.marsja.se/wp-content/uploads/2019/07/pandas_json_tutorial_python_read_write.png&quot;&gt;&lt;img class=&quot;size-full wp-image-3154&quot; src=&quot;https://www.marsja.se/wp-content/uploads/2019/07/pandas_json_tutorial_python_read_write.png&quot; alt=&quot;&quot; width=&quot;262&quot; height=&quot;238&quot; /&gt;&lt;/a&gt;Example JSON file
+&lt;p&gt;In the first example we are going to use the Python module json to create a JSON file. After we’ve done that we are going to load the JSON file. In this Python JSON tutorial, we start by create a dictionary for our data:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-python hljs&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;import&lt;/span&gt; json
+
+data = {&lt;span class=&quot;hljs-string&quot;&gt;&quot;Sub_ID&quot;&lt;/span&gt;:[&lt;span class=&quot;hljs-string&quot;&gt;&quot;1&quot;&lt;/span&gt;,&lt;span class=&quot;hljs-string&quot;&gt;&quot;2&quot;&lt;/span&gt;,&lt;span class=&quot;hljs-string&quot;&gt;&quot;3&quot;&lt;/span&gt;,&lt;span class=&quot;hljs-string&quot;&gt;&quot;4&quot;&lt;/span&gt;,&lt;span class=&quot;hljs-string&quot;&gt;&quot;5&quot;&lt;/span&gt;,&lt;span class=&quot;hljs-string&quot;&gt;&quot;6&quot;&lt;/span&gt;,&lt;span class=&quot;hljs-string&quot;&gt;&quot;7&quot;&lt;/span&gt;,&lt;span class=&quot;hljs-string&quot;&gt;&quot;8&quot;&lt;/span&gt; ],
+        &lt;span class=&quot;hljs-string&quot;&gt;&quot;Name&quot;&lt;/span&gt;:[&lt;span class=&quot;hljs-string&quot;&gt;&quot;Erik&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Daniel&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Michael&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Sven&quot;&lt;/span&gt;,
+                &lt;span class=&quot;hljs-string&quot;&gt;&quot;Gary&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Carol&quot;&lt;/span&gt;,&lt;span class=&quot;hljs-string&quot;&gt;&quot;Lisa&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Elisabeth&quot;&lt;/span&gt; ],
+        &lt;span class=&quot;hljs-string&quot;&gt;&quot;Salary&quot;&lt;/span&gt;:[&lt;span class=&quot;hljs-string&quot;&gt;&quot;723.3&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;515.2&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;621&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;731&quot;&lt;/span&gt;, 
+                  &lt;span class=&quot;hljs-string&quot;&gt;&quot;844.15&quot;&lt;/span&gt;,&lt;span class=&quot;hljs-string&quot;&gt;&quot;558&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;642.8&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;732.5&quot;&lt;/span&gt; ],
+        &lt;span class=&quot;hljs-string&quot;&gt;&quot;StartDate&quot;&lt;/span&gt;:[ &lt;span class=&quot;hljs-string&quot;&gt;&quot;1/1/2011&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;7/23/2013&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;12/15/2011&quot;&lt;/span&gt;,
+                     &lt;span class=&quot;hljs-string&quot;&gt;&quot;6/11/2013&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;3/27/2011&quot;&lt;/span&gt;,&lt;span class=&quot;hljs-string&quot;&gt;&quot;5/21/2012&quot;&lt;/span&gt;, 
+                     &lt;span class=&quot;hljs-string&quot;&gt;&quot;7/30/2013&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;6/17/2014&quot;&lt;/span&gt;],
+        &lt;span class=&quot;hljs-string&quot;&gt;&quot;Department&quot;&lt;/span&gt;:[ &lt;span class=&quot;hljs-string&quot;&gt;&quot;IT&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Manegement&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;IT&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;HR&quot;&lt;/span&gt;, 
+                      &lt;span class=&quot;hljs-string&quot;&gt;&quot;Finance&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;IT&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Manegement&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;IT&quot;&lt;/span&gt;],
+        &lt;span class=&quot;hljs-string&quot;&gt;&quot;Sex&quot;&lt;/span&gt;:[ &lt;span class=&quot;hljs-string&quot;&gt;&quot;M&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;M&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;M&quot;&lt;/span&gt;, 
+              &lt;span class=&quot;hljs-string&quot;&gt;&quot;M&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;M&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;F&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;F&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;F&quot;&lt;/span&gt;]}
+
+print(data)&lt;/code&gt;&lt;/pre&gt;
+
+
+
+&lt;img src=&quot;https://www.marsja.se/wp-content/uploads/2019/07/python_create_json_write_to_file.png&quot; alt=&quot;&quot; class=&quot;wp-image-3158&quot; /&gt;Python dictionary
+
+
+
+&lt;h2&gt;Saving to a JSON file&lt;/h2&gt;
+
+
+
+&lt;p&gt;In Python, there is the module json that enables us read and write content to and from a JSON file. This module converts the JSONs format to Python&amp;#8217;s internal format for Data Structures. So we can work with JSON structures just as we do in the usual way with Python&amp;#8217;s own data structures.&lt;/p&gt;
+
+
+
+&lt;h3&gt;Python JSON Example:&lt;/h3&gt;
+
+
+
+&lt;p&gt;In the example code below, we start by importing the json module. After we&amp;#8217;ve done that, we open up a new file and use the &lt;em&gt;dump&lt;/em&gt; method to write a json file using Python.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-python&quot;&gt;import json
+with open('data.json', 'w') as outfile:
+    json.dump(data, outfile)&lt;/code&gt;&lt;/pre&gt;
+
+
+
+&lt;h2&gt;How to Use Pandas to Load a JSON File&lt;/h2&gt;
+
+
+
+&lt;p&gt;Now, if we are going to work with the data we might want to use Pandas to load the JSON file into a Pandas dataframe. This will enable us to &lt;a rel=&quot;noreferrer noopener&quot; href=&quot;https://www.marsja.se/data-manipulation-pandas-tutorial/&quot; target=&quot;_blank&quot;&gt;manipulate data&lt;/a&gt;, do &lt;a rel=&quot;noreferrer noopener&quot; href=&quot;https://www.marsja.se/pandas-python-descriptive-statistics/&quot; target=&quot;_blank&quot;&gt;summary statistics&lt;/a&gt;, and &lt;a rel=&quot;noreferrer noopener&quot; href=&quot;https://www.marsja.se/python-data-visualization-techniques-you-should-learn-seaborn/&quot; target=&quot;_blank&quot;&gt;data visualization&lt;/a&gt; using Pandas built-in methods. Note, we will cover this briefly later in this post also.&lt;/p&gt;
+
+
+
+&lt;h3&gt;Pandas Read Json Example:&lt;/h3&gt;
+
+
+
+&lt;p&gt;In the next example we are going to use Pandas read_json method to read the JSON file we wrote earlier (i.e., data.json). It&amp;#8217;s fairly simple we start by importing pandas as pd:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-python&quot;&gt;import pandas as pd
+
+df = pd.read_json('data.json')
+
+df&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The output, when working with Jupyter Notebooks, will look like this:&lt;/p&gt;
+
+
+
+&lt;div class=&quot;wp-block-image&quot;&gt;&lt;img src=&quot;https://www.marsja.se/wp-content/uploads/2019/07/pandas_read_json_to_dataframe_example.png&quot; alt=&quot;&quot; class=&quot;wp-image-3171&quot; /&gt;&lt;/div&gt;
+
+
+
+&lt;h4&gt;Data Manipulation using Pandas&lt;/h4&gt;
+
+
+
+&lt;p&gt;Now that we have loaded the JSON file into a Pandas dataframe we are going use Pandas inplace method to modify our dataframe. We start by setting the Sub_ID column as index.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-python&quot;&gt;df.set_index('Sub_ID', inplace=True)
+df&lt;/code&gt;&lt;/pre&gt;
+
+
+
+&lt;div class=&quot;wp-block-image&quot;&gt;&lt;img src=&quot;https://www.marsja.se/wp-content/uploads/2019/07/reading_json_files_using_pandas_data_manipulation.png&quot; alt=&quot;&quot; class=&quot;wp-image-3178&quot; /&gt;&lt;/div&gt;
+
+
+
+&lt;h4&gt;Pandas JSON to CSV Example&lt;/h4&gt;
+
+
+
+&lt;p&gt;Now when we have loaded a JSON file into a dataframe we may want to save it in another format. For instance, we may want to save it as a CSV file and we can do that using Pandas read_csv method.  It may be useful to store it in a CSV, if we prefer to browse through the data in a text editor or Excel.&lt;/p&gt;
+
+
+
+&lt;p&gt; In the Pandas JSON to CSV example below, we carry out the same data manipulation method.  &lt;/p&gt;
+
+
+
+&lt;pre&gt;&lt;code class=&quot;lang-python&quot;&gt;df.to_csv(&quot;data.csv&quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Learn more about working with CSV files using Pandas in the&amp;nbsp; &lt;a href=&quot;https://www.marsja.se/pandas-read-csv-tutorial-to-csv/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Pandas Read CSV Tutorial&lt;/a&gt;&lt;/p&gt;
+
+
+
+&lt;h3&gt;How to Load JSON from an URL&lt;/h3&gt;
+
+
+
+&lt;p&gt;We have now seen how easy it is to create a JSON file, write it to our hard drive using Python, and, finally, how to read it using Pandas.  However, as previously mentioned, many times the data in stored in the JSON format are on the web.&lt;/p&gt;
+
+
+
+&lt;p&gt;Thus, in this section of the Python json guide, we are going to learn how to use Pandas read_json method to read a JSON file from an URL.  Most often, it&amp;#8217;s fairly simple we just create a string variable pointing to the URL:&lt;/p&gt;
+
+
+
+&lt;pre&gt;&lt;code class=&quot;python-lang&quot;&gt;url = &quot;https://api.exchangerate-api.com/v4/latest/USD&quot;
+df = pd.read_json(url)
+df.head()&lt;/code&gt;&lt;/pre&gt;
+
+
+
+&lt;div class=&quot;wp-block-image&quot;&gt;&lt;img src=&quot;https://www.marsja.se/wp-content/uploads/2019/07/pandas_read_json_from_an_url.png&quot; alt=&quot;&quot; class=&quot;wp-image-3188&quot; /&gt;&lt;/div&gt;
+
+
+
+&lt;h3&gt;Load JSON from an URL Second Example&lt;/h3&gt;
+
+
+
+&lt;p&gt;When
+loading some data, using Pandas read_json seems to create a dataframe
+with dictionaries within each cell. One way to deal with these
+dictionaries, nested within dictionaries, is to work with the Python
+module request. This module also have a method for parsing JSON
+files. After we have parsed the JSON file we will use the method
+json_normalize to convert the JSON file to a dataframe.&lt;/p&gt;
+
+
+
+&lt;div class=&quot;wp-block-image&quot;&gt;&lt;img src=&quot;https://www.marsja.se/wp-content/uploads/2019/07/python_parse_json_using_requests_pandas_dataframe.png&quot; alt=&quot;&quot; class=&quot;wp-image-3196&quot; /&gt;Pandas Dataframe from JSON&lt;/div&gt;
+
+
+
+&lt;pre&gt;&lt;code class=&quot;python-lang&quot;&gt;import requests
+from pandas.io.json import json_normalize
+
+url = &quot;https://think.cs.vt.edu/corgis/json/airlines/airlines.json&quot;
+resp = requests.get(url=url)
+
+df = json_normalize(resp.json())
+df.head()&lt;/code&gt;&lt;/pre&gt;
+
+
+
+&lt;div class=&quot;wp-block-image&quot;&gt;&lt;img src=&quot;https://www.marsja.se/wp-content/uploads/2019/07/pandas_read_nested_json_to_dataframe.png&quot; alt=&quot;&quot; class=&quot;wp-image-3202&quot; /&gt;&lt;/div&gt;
+
+
+
+&lt;p&gt;As can be seen in the image above, the column names are quite long. This is quite impractical when we are going to create a time series plot, later, using Seaborn. We are now going to rename the columns so they become a bit easier to use.&lt;/p&gt;
+&lt;p&gt;In the code example below, we use Pandas &lt;em&gt;rename&lt;/em&gt; method together with the Python module re. That is, we are using a regular expression to remove &amp;#8220;statistics.# of&amp;#8221; and &amp;#8220;statistics.&amp;#8221; from the column names. Finally, we are also replacing dots (&amp;#8220;.&amp;#8221;) with underscores (&amp;#8220;_&amp;#8221;) using the &lt;em&gt;str.replace &lt;/em&gt;method:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-python&quot;&gt;import re
+
+df.rename(columns=lambda x: re.sub(&quot;statistics.# of&quot;,&quot;&quot;,x), 
+          inplace=True)
+df.rename(columns=lambda x: re.sub(&quot;statistics.&quot;,&quot;&quot;,x), 
+          inplace=True)
+
+df.columns = df.columns.str.replace(&quot;[.]&quot;, &quot;_&quot;)
+df.head()&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;h2&gt;Time Series Plot from JSON Data using Seaborn&lt;/h2&gt;
+
+
+
+&lt;p&gt;In the last example, in this post, we are going to use Seaborn to create a time series plot. The data we loaded from JSON to a dataframe contains data about delayed and canceled flights. We are going to use Seaborns &lt;em&gt;lineplot&lt;/em&gt; method to create a time series plot of the number of canceled flights throughout 2003 to 2016, grouped by carrier code.&lt;/p&gt;
+
+
+
+&lt;pre&gt;&lt;code class=&quot;lang-python&quot;&gt;%matplotlib inline
+
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+fig = plt.figure(figsize=(10, 7))
+g = sns.lineplot(x=&quot;timeyear&quot;, y=&quot;flightscancelled&quot;, ci=False,
+             hue=&quot;carriercode&quot;, data=df)
+
+g.set_ylabel(&quot;Flights Cancelled&quot;,fontsize=20)
+g.set_xlabel(&quot;Year&quot;,fontsize=20)
+
+
+plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)&lt;/code&gt;&lt;/pre&gt;
+
+
+
+&lt;img src=&quot;https://www.marsja.se/wp-content/uploads/2019/07/time_series_plot_seaborn_json_data_pandas.png&quot; alt=&quot;&quot; class=&quot;wp-image-3210&quot; /&gt;
+
+
+
+&lt;p&gt;Note, we changed the font size as well as the x- and y-axis&amp;#8217; labels using the methods &lt;em&gt;set_ylabel&lt;/em&gt; and &lt;em&gt;set_xlabel&lt;/em&gt;. Furthermore, we also moved the legend using the &lt;em&gt;legend&lt;/em&gt; method from matplotlib.&lt;br /&gt;&lt;br /&gt;For more about exploratory data analysis using Python:&lt;/p&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;&lt;a rel=&quot;noreferrer noopener&quot; href=&quot;https://www.marsja.se/python-data-visualization-techniques-you-should-learn-seaborn/&quot; target=&quot;_blank&quot;&gt;9 Data Visualization Techniques That You Should Learn in Python&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.marsja.se/explorative-data-analysis-with-pandas-scipy-and-seaborn/&quot; target=&quot;_blank&quot; rel=&quot;noreferrer noopener&quot;&gt;Exploratory Data Analysis using Python, Pandas, and Seaborn&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+
+
+
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+
+
+
+&lt;p&gt;In this post we have learned how to write a JSON file from a Python
+dictionary, how to load that JSON file using Python and Pandas.
+Furthermore, we have also learned how to use Pandas to load a JSON
+file from an URL to a dataframe, how to read a nested JSON file to a
+dataframe.
+&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/marsja/jupyter/blob/master/json_in_python_and_pandas.ipynb&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Here&amp;#8217;s a link&lt;/a&gt; to a Jupyter Notebook containing all code examples in this post.&lt;/p&gt;
+&lt;div class=&quot;shareaholic-canvas&quot;&gt;&lt;/div&gt;&lt;p&gt;The post &lt;a rel=&quot;nofollow&quot; href=&quot;https://www.marsja.se/how-to-read-and-write-json-files-using-python-and-pandas/&quot;&gt;How to Read and Write JSON Files using Python and Pandas&lt;/a&gt; appeared first on &lt;a rel=&quot;nofollow&quot; href=&quot;https://www.marsja.se&quot;&gt;Erik Marsja&lt;/a&gt;.&lt;/p&gt;</content:encoded>
+	<dc:date>2019-07-31T15:22:39+00:00</dc:date>
+</item>
+<item rdf:about="http://feedproxy.google.com/~r/Pycharm/~3/Nq6PMREkaj8/">
+	<title>PyCharm: Jupyter, PyCharm and Pizza</title>
+	<link>http://feedproxy.google.com/~r/Pycharm/~3/Nq6PMREkaj8/</link>
+	<content:encoded>&lt;p&gt;Hi there! Have you tried Jupyter Notebooks integration in PyCharm 2019.2? Not yet? Then let me show you what it looks like!&lt;/p&gt;
+&lt;p&gt;In this blog post, we&amp;#8217;re going to explore some data using PyCharm and its Jupyter Notebook integration. First, of course, we&amp;#8217;ll need said data. Whenever I need a new dataset to play with, I typically head to &lt;a href=&quot;https://www.kaggle.com/datasets&quot;&gt;Kaggle&lt;/a&gt; where I&amp;#8217;m sure to find something interesting to toy with. This time a dataset called &amp;#8220;&lt;a href=&quot;https://www.kaggle.com/datafiniti/pizza-restaurants-and-the-pizza-they-sell&quot;&gt;Pizza Restaurants and the Pizza They Sell&lt;/a&gt;&amp;#8221; caught my attention. Who doesn&amp;#8217;t love pizza? Let&amp;#8217;s analyze these pizza restaurants and try to learn a thing or two from it.&lt;/p&gt;
+&lt;p&gt;Since this data isn&amp;#8217;t a part of any of my existing PyCharm projects, I&amp;#8217;ll create a new one.&lt;br /&gt;
+Make sure to use &lt;a href=&quot;https://www.jetbrains.com/pycharm/download/&quot;&gt;PyCharm Professional Edition&lt;/a&gt;, the Community Edition does not include Jupyter Notebooks integration.&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;alignleft size-full wp-image-6272&quot; src=&quot;https://d3nmt5vlzunoa1.cloudfront.net/pycharm/files/2019/07/pizza-00.png&quot; alt=&quot;Create new PyCHarm project&quot; width=&quot;1556&quot; height=&quot;968&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tip&lt;/strong&gt;: When using Jupyter notebooks in the browser, I tend to create multiply temporary notebooks just for experiments. It would be quite tedious to create a PyCharm project for each of them, so instead, you can have a single project for such experiments.&lt;/p&gt;
+&lt;p&gt;I like my things organized, so once the project is created, I&amp;#8217;ll add some structure to it &amp;#8211; a directory for the data where I&amp;#8217;ll move the downloaded dataset, and another directory for the notebooks.&lt;/p&gt;
+&lt;p&gt;Once I create my first &lt;code&gt;pizza.ipynb&lt;/code&gt; notebook, PyCharm suggests to install Jupyter package and provides a link in the upper right corner to do that.&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;alignleft size-full wp-image-6273&quot; src=&quot;https://d3nmt5vlzunoa1.cloudfront.net/pycharm/files/2019/07/pizza-01.png&quot; alt=&quot;Install Jupyter package&quot; width=&quot;2082&quot; height=&quot;620&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Once the Jupyter package is installed, we&amp;#8217;re ready to go!&lt;/p&gt;
+&lt;p&gt;The first thing that probably 90% of data scientists do in their Jupyter notebooks is type &lt;code&gt;import pandas as pd&lt;/code&gt;. At this point, PyCharm will suggest installing pandas in this venv and you can do it with a single click:&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;alignleft size-full wp-image-6274&quot; src=&quot;https://d3nmt5vlzunoa1.cloudfront.net/pycharm/files/2019/07/pizza-02.png&quot; alt=&quot;Install Pandas&quot; width=&quot;1218&quot; height=&quot;210&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Once we have pandas installed, we can read the data from the csv into a pandas DataFrame:&lt;br /&gt;
+&lt;code&gt;df = pd.read_csv(&quot;../data/Datafiniti_Pizza_Restaurants_and_the_Pizza_They_Sell_May19.csv&quot;)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;To execute this cell, hit &lt;strong&gt;Shift+Enter&lt;/strong&gt;, or click the green arrow icon in the gutter next to the cell.&lt;br /&gt;
+When you run a cell for the first time, PyCharm will launch a local Jupyter server to execute the code in it &amp;#8211; you don&amp;#8217;t need to manually do this from your terminal.&lt;/p&gt;
+&lt;p&gt;Let&amp;#8217;s get to know the data. First, we&amp;#8217;ll learn the basic things about this dataset &amp;#8211; how many rows does it have? What are the columns? What does the data look like?&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;alignleft size-full wp-image-6275&quot; src=&quot;https://d3nmt5vlzunoa1.cloudfront.net/pycharm/files/2019/07/pizza-03.png&quot; alt=&quot;First look at the data&quot; width=&quot;2792&quot; height=&quot;1450&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;I have a suspicion that this data contains information only on restaurants in the US. To confirm this, let&amp;#8217;s count the values in the country column:&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;alignleft size-full wp-image-6276&quot; src=&quot;https://d3nmt5vlzunoa1.cloudfront.net/pycharm/files/2019/07/pizza-04.png&quot; alt=&quot;Count unique values in country column&quot; width=&quot;1338&quot; height=&quot;186&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Yep, the only country presented in this dataset is US, so it&amp;#8217;s safe to drop the &lt;code&gt;country&lt;/code&gt; column altogether. Same goes for &lt;code&gt;menus.currency&lt;/code&gt; and &lt;code&gt;priceRangeCurrency&lt;/code&gt;, those values too are all the same &amp;#8211; USD. I&amp;#8217;ll also drop &lt;code&gt;menuPageURL&lt;/code&gt; as it doesn&amp;#8217;t add much value to the analysis, and &lt;code&gt;key&lt;/code&gt; as it duplicates the information from other columns (country, state, city, etc.).&lt;/p&gt;
+&lt;p&gt;Another cleanup that I&amp;#8217;ll do here is rename &lt;code&gt;province&lt;/code&gt; column into &lt;code&gt;states&lt;/code&gt; as it makes more sense in this context, and for better readability, I&amp;#8217;ll replace the state acronyms with full names of the states.&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;alignleft size-full wp-image-6277&quot; src=&quot;https://d3nmt5vlzunoa1.cloudfront.net/pycharm/files/2019/07/pizza-05.png&quot; alt=&quot;Data cleanup&quot; width=&quot;1338&quot; height=&quot;660&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Once we&amp;#8217;re done with cleaning the data, how about we plot it? As humans, we are better at understanding information when it&amp;#8217;s presented visually.&lt;/p&gt;
+&lt;p&gt;First, let&amp;#8217;s see what are the most common types of pizza we have in this dataset. Given the theme, it feels appropriate to visualize this as a pie with matplotlib &lt;img src=&quot;https://d3nmt5vlzunoa1.cloudfront.net/pycharm/wp-includes/images/smilies/simple-smile.png&quot; alt=&quot;:)&quot; class=&quot;wp-smiley&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;alignleft size-full wp-image-6278&quot; src=&quot;https://d3nmt5vlzunoa1.cloudfront.net/pycharm/files/2019/07/pizza-06.png&quot; alt=&quot;Pizza pie plot&quot; width=&quot;1368&quot; height=&quot;172&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Oops, where&amp;#8217;s my pie? To have it displayed, I need to add &lt;code&gt;%matplotlib inline&lt;/code&gt; magic command for IPython, and while I&amp;#8217;m at it, I&amp;#8217;ll add another magic command to let IPython know to render the plots appropriately for retina screen.&lt;/p&gt;
+&lt;p&gt;I could add these lines to the same cell and run it again, but I prefer to have this type of magic commands defined at the very beginning of the notebook.&lt;/p&gt;
+&lt;p&gt;To navigate to the very beginning of the notebook, you can use &lt;strong&gt;Cmd+[&lt;/strong&gt; (&lt;strong&gt;Ctrl+Alt+Left&lt;/strong&gt; on Windows). Inserting a new cell is as easy as typing &lt;code&gt;#%%&lt;/code&gt; (if you prefer a shortcut to insert a cell above your current one, there&amp;#8217;s one! &lt;strong&gt;Option+Shift+A&lt;/strong&gt;on mac, or &lt;strong&gt;Alt+Shift+A&lt;/strong&gt; on Windows). Now all I need to do is add the magic commands and run all cells below:&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;alignleft size-full wp-image-6279&quot; src=&quot;https://d3nmt5vlzunoa1.cloudfront.net/pycharm/files/2019/07/pizza-07.png&quot; alt=&quot;Run Below&quot; width=&quot;1520&quot; height=&quot;832&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;And voila! Now we know that the most common type of pizza is Cheese Pizza closely followed by White Pizza.&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;alignleft size-full wp-image-6280&quot; src=&quot;https://d3nmt5vlzunoa1.cloudfront.net/pycharm/files/2019/07/pizza-08.png&quot; alt=&quot;Pie plot&quot; width=&quot;1378&quot; height=&quot;928&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;What about the restaurants? We have their geographical locations in the dataset, so we can easily see where they are located.&lt;/p&gt;
+&lt;p&gt;Each restaurant has a unique id and can have multiple entries in the dataset, each entry representing a pizza from that restaurant&amp;#8217;s menu. So to plot the restaurants and not the pizza, we&amp;#8217;ll need to group the entries by restaurant id.&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;alignleft size-full wp-image-6281&quot; src=&quot;https://d3nmt5vlzunoa1.cloudfront.net/pycharm/files/2019/07/pizza-09.png&quot; alt=&quot;Unique restaurants&quot; width=&quot;1366&quot; height=&quot;192&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Now we can plot them on a map. For geographical plotting, I like to use &lt;a href=&quot;https://plot.ly&quot;&gt;plotly&lt;/a&gt;. Make sure to grab the latest version of it (&lt;strong&gt;4.0.0&lt;/strong&gt;) to have plotly outputs rendered nicely in PyCharm.&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;alignleft size-full wp-image-6282&quot; src=&quot;https://d3nmt5vlzunoa1.cloudfront.net/pycharm/files/2019/07/pizza-10.png&quot; alt=&quot;Pizza restaurants on a map&quot; width=&quot;1372&quot; height=&quot;1208&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;What else can we learn from this data? Let&amp;#8217;s try something a little more complicated. Let&amp;#8217;s see what states have the most pizza restaurants in them. To make this comparison fair, we&amp;#8217;ll count the restaurants per capita (per 100 000 residents). You can get the population data for the US and multiple other datasets at &lt;a href=&quot;https://www.census.gov/&quot;&gt;https://www.census.gov/&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img class=&quot;alignleft size-full wp-image-6283&quot; src=&quot;https://d3nmt5vlzunoa1.cloudfront.net/pycharm/files/2019/07/pizza-11.png&quot; alt=&quot;Pizza restaurants per capita&quot; width=&quot;1376&quot; height=&quot;1222&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;And the winner is… New York!&lt;/p&gt;
+&lt;p&gt;One can think of a number of questions we can try to get answered with this dataset, like, what city has the most/least expensive Veggie Pizza? Or what are the most common pizza restaurant chains? If you want to toy with this dataset and answer these or other questions, you can grab it on &lt;a href=&quot;https://www.kaggle.com/datafiniti/pizza-restaurants-and-the-pizza-they-sell&quot;&gt;kaggle&lt;/a&gt; and run your own analysis. The notebook used in this blog post is available on &lt;a href=&quot;https://github.com/MKhalusova/pizza&quot;&gt;GitHub&lt;/a&gt;. And if you want to try it with PyCharm, make sure you&amp;#8217;re using &lt;a href=&quot;https://www.jetbrains.com/pycharm/download/&quot;&gt;PyCharm 2019.2 Professional Edition&lt;/a&gt;.&lt;/p&gt;
+&lt;img src=&quot;http://feeds.feedburner.com/~r/Pycharm/~4/Nq6PMREkaj8&quot; height=&quot;1&quot; width=&quot;1&quot; alt=&quot;&quot; /&gt;</content:encoded>
+	<dc:date>2019-07-31T14:00:41+00:00</dc:date>
+</item>
+<item rdf:about="https://realpython.com/pyspark-intro/">
+	<title>Real Python: First Steps With PySpark and Big Data Processing</title>
+	<link>https://realpython.com/pyspark-intro/</link>
+	<content:encoded>&lt;p&gt;It&amp;rsquo;s becoming more common to face situations where the amount of data is simply too big to handle on a single machine. Luckily, technologies such as Apache Spark, Hadoop, and others have been developed to solve this exact problem. The power of those systems can be tapped into directly from Python using PySpark!&lt;/p&gt;
+&lt;p&gt;Efficiently handling datasets of gigabytes and more is &lt;strong&gt;well within the reach of any Python developer&lt;/strong&gt;, whether you&amp;rsquo;re a data scientist, a web developer, or anything in between.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;In this tutorial, you&amp;rsquo;ll learn:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What Python concepts can be applied to Big Data&lt;/li&gt;
+&lt;li&gt;How to use Apache Spark and PySpark&lt;/li&gt;
+&lt;li&gt;How to write basic PySpark programs&lt;/li&gt;
+&lt;li&gt;How to run PySpark programs on small datasets locally&lt;/li&gt;
+&lt;li&gt;Where to go next for taking your PySpark skills to a distributed system&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;alert alert-warning&quot;&gt;&lt;p&gt;&lt;strong&gt;Free Bonus:&lt;/strong&gt; &lt;a href=&quot;https://realpython.com/atom.xml&quot; class=&quot;alert-link&quot;&gt;Click here to get access to a chapter from Python Tricks: The Book&lt;/a&gt; that shows you Python's best practices with simple examples you can apply instantly to write more beautiful + Pythonic code.&lt;/p&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;big-data-concepts-in-python&quot;&gt;Big Data Concepts in Python&lt;/h2&gt;
+&lt;p&gt;Despite its popularity as &lt;em&gt;just&lt;/em&gt; a &lt;a href=&quot;https://en.wikipedia.org/wiki/Scripting_language&quot;&gt;scripting language&lt;/a&gt;, Python exposes several &lt;a href=&quot;https://en.wikipedia.org/wiki/Programming_paradigm&quot;&gt;programming paradigms&lt;/a&gt; like &lt;a href=&quot;https://realpython.com/numpy-array-programming/&quot;&gt;array-oriented programming&lt;/a&gt;, &lt;a href=&quot;https://realpython.com/python3-object-oriented-programming/&quot;&gt;object-oriented programming&lt;/a&gt;, &lt;a href=&quot;https://realpython.com/courses/python-3-concurrency-asyncio-module/&quot;&gt;asynchronous programming&lt;/a&gt;, and many others. One paradigm that is of particular interest for aspiring Big Data professionals is &lt;a href=&quot;https://realpython.com/courses/functional-programming-python/&quot;&gt;functional programming&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Functional programming is a common paradigm when you are dealing with Big Data. Writing in a functional manner makes for &lt;a href=&quot;https://en.wikipedia.org/wiki/Embarrassingly_parallel&quot;&gt;embarrassingly parallel&lt;/a&gt; code. This means it&amp;rsquo;s easier to take your code and have it run on several CPUs or even entirely different machines. You can work around the physical memory and CPU restrictions of a single workstation by running on multiple systems at once.&lt;/p&gt;
+&lt;p&gt;This is the power of the PySpark ecosystem, allowing you to take functional code and automatically distribute it across an entire cluster of computers.&lt;/p&gt;
+&lt;p&gt;Luckily for Python programmers, many of the core ideas of functional programming are available in Python&amp;rsquo;s standard library and built-ins. You can learn many of the concepts needed for Big Data processing without ever leaving the comfort of Python.&lt;/p&gt;
+&lt;p&gt;The core idea of functional programming is that data should be manipulated by functions without maintaining any external state. This means that your code avoids global variables and always returns &lt;strong&gt;new data&lt;/strong&gt; instead of manipulating the data in-place.&lt;/p&gt;
+&lt;p&gt;Another common idea in functional programming is &lt;a href=&quot;https://en.wikipedia.org/wiki/Anonymous_function&quot;&gt;anonymous functions&lt;/a&gt;. Python exposes anonymous functions using the &lt;code&gt;lambda&lt;/code&gt; keyword, not to be confused with &lt;a href=&quot;https://realpython.com/code-evaluation-with-aws-lambda-and-api-gateway/&quot;&gt;AWS Lambda functions&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Now that you know some of the terms and concepts, you can explore how those ideas manifest in the Python ecosystem.&lt;/p&gt;
+&lt;h3 id=&quot;lambda-functions&quot;&gt;Lambda Functions&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://realpython.com/python-lambda/&quot;&gt;lambda functions&lt;/a&gt; in Python are defined inline and are limited to a single expression. You&amp;rsquo;ve likely seen &lt;code&gt;lambda&lt;/code&gt; functions when using the built-in &lt;code&gt;sorted()&lt;/code&gt; function:&lt;/p&gt;
+&lt;div class=&quot;highlight python repl&quot;&gt;&lt;span class=&quot;repl-toggle&quot; title=&quot;Toggle REPL prompts and output&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Python'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'programming'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'is'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'awesome!'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sorted&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;['Python', 'awesome!', 'is', 'programming']&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;sorted&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;key&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arg&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lower&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()))&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;['awesome!', 'is', 'programming', 'Python']&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;The &lt;code&gt;key&lt;/code&gt; parameter to &lt;code&gt;sorted&lt;/code&gt; is called for each item in the &lt;a href=&quot;https://realpython.com/lessons/looping-over-iterables/&quot;&gt;iterable&lt;/a&gt;. This makes the sorting case-insensitive by changing all the strings to lowercase &lt;em&gt;before&lt;/em&gt; the sorting takes place.&lt;/p&gt;
+&lt;p&gt;This is a common use-case for &lt;code&gt;lambda&lt;/code&gt; functions, small anonymous functions that maintain no external state.&lt;/p&gt;
+&lt;p&gt;Other common functional programming functions exist in Python as well, such as &lt;code&gt;filter()&lt;/code&gt;, &lt;code&gt;map()&lt;/code&gt;, and &lt;code&gt;reduce()&lt;/code&gt;. All these functions can make use of &lt;code&gt;lambda&lt;/code&gt; functions or standard functions defined with &lt;code&gt;def&lt;/code&gt; in a similar manner.&lt;/p&gt;
+&lt;h3 id=&quot;filter-map-and-reduce&quot;&gt;&lt;code&gt;filter()&lt;/code&gt;, &lt;code&gt;map()&lt;/code&gt;, and &lt;code&gt;reduce()&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;The built-in &lt;a href=&quot;https://realpython.com/lessons/filter-function-overview/&quot;&gt;&lt;code&gt;filter()&lt;/code&gt;&lt;/a&gt;, &lt;a href=&quot;https://realpython.com/lessons/map-function-overview/&quot;&gt;&lt;code&gt;map()&lt;/code&gt;&lt;/a&gt;, and &lt;a href=&quot;https://realpython.com/lessons/reduce-function-overview/&quot;&gt;&lt;code&gt;reduce()&lt;/code&gt;&lt;/a&gt; functions are all common in functional programming. You&amp;rsquo;ll soon see that these concepts can make up a significant portion of the functionality of a PySpark program.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s important to understand these functions in a core Python context. Then, you&amp;rsquo;ll be able to translate that knowledge into PySpark programs and the Spark API.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;filter()&lt;/code&gt; filters items out of an iterable based on a condition, typically expressed as a &lt;code&gt;lambda&lt;/code&gt; function:&lt;/p&gt;
+&lt;div class=&quot;highlight python repl&quot;&gt;&lt;span class=&quot;repl-toggle&quot; title=&quot;Toggle REPL prompts and output&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Python'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'programming'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'is'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'awesome!'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;filter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;arg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;['Python', 'is']&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;code&gt;filter()&lt;/code&gt; takes an iterable, calls the &lt;code&gt;lambda&lt;/code&gt; function on each item, and returns the items where the &lt;code&gt;lambda&lt;/code&gt; returned &lt;code&gt;True&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&quot;alert alert-primary&quot;&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Calling &lt;code&gt;list()&lt;/code&gt; is required because &lt;code&gt;filter()&lt;/code&gt; is also an iterable. &lt;code&gt;filter()&lt;/code&gt; only gives you the values as you loop over them. &lt;code&gt;list()&lt;/code&gt; forces all the items into memory at once instead of having to use a loop.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;You can imagine using &lt;code&gt;filter()&lt;/code&gt; to replace a common &lt;code&gt;for&lt;/code&gt; loop pattern like the following:&lt;/p&gt;
+&lt;div class=&quot;highlight python&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;is_less_than_8_characters&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Python'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'programming'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'is'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'awesome!'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;results&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;item&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is_less_than_8_characters&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;results&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;nb&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;results&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;This code collects all the strings that have less than 8 characters. The code is more verbose than the &lt;code&gt;filter()&lt;/code&gt; example, but it performs the same function with the same results.&lt;/p&gt;
+&lt;p&gt;Another less obvious benefit of &lt;code&gt;filter()&lt;/code&gt; is that it returns an iterable. This means &lt;code&gt;filter()&lt;/code&gt; doesn&amp;rsquo;t require that your computer have enough memory to hold all the items in the iterable at once. This is increasingly important with Big Data sets that can quickly grow to several gigabytes in size.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;map()&lt;/code&gt; is similar to &lt;code&gt;filter()&lt;/code&gt; in that it applies a function to each item in an iterable, but it always produces a 1-to-1 mapping of the original items. The &lt;strong&gt;new&lt;/strong&gt; iterable that &lt;code&gt;map()&lt;/code&gt; returns will always have the same number of elements as the original iterable, which was not the case with &lt;code&gt;filter()&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&quot;highlight python repl&quot;&gt;&lt;span class=&quot;repl-toggle&quot; title=&quot;Toggle REPL prompts and output&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Python'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'programming'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'is'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'awesome!'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arg&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;upper&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;['PYTHON', 'PROGRAMMING', 'IS', 'AWESOME!']&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;code&gt;map()&lt;/code&gt; automatically calls the &lt;code&gt;lambda&lt;/code&gt; function on all the items, effectively replacing a &lt;code&gt;for&lt;/code&gt; loop like the following:&lt;/p&gt;
+&lt;div class=&quot;highlight python&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;results&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Python'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'programming'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'is'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'awesome!'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;item&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;results&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;upper&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
+
+&lt;span class=&quot;nb&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;results&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;The &lt;code&gt;for&lt;/code&gt; loop has the same result as the &lt;code&gt;map()&lt;/code&gt; example, which collects all items in their upper-case form. However, as with the &lt;code&gt;filter()&lt;/code&gt; example, &lt;code&gt;map()&lt;/code&gt; returns an iterable, which again makes it possible to process large sets of data that are too big to fit entirely in memory.&lt;/p&gt;
+&lt;p&gt;Finally, the last of the functional trio in the Python standard library is &lt;code&gt;reduce()&lt;/code&gt;. As with &lt;code&gt;filter()&lt;/code&gt; and &lt;code&gt;map()&lt;/code&gt;, &lt;code&gt;reduce()&lt;/code&gt;applies a function to elements in an iterable.&lt;/p&gt;
+&lt;p&gt;Again, the function being applied can be a standard Python function created with the &lt;code&gt;def&lt;/code&gt; keyword or a &lt;code&gt;lambda&lt;/code&gt; function.&lt;/p&gt;
+&lt;p&gt;However, &lt;code&gt;reduce()&lt;/code&gt; doesn&amp;rsquo;t return a new iterable. Instead, &lt;code&gt;reduce()&lt;/code&gt; uses the function called to reduce the iterable to a single value:&lt;/p&gt;
+&lt;div class=&quot;highlight python repl&quot;&gt;&lt;span class=&quot;repl-toggle&quot; title=&quot;Toggle REPL prompts and output&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;functools&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;reduce&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Python'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'programming'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'is'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'awesome!'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reduce&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;val1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;val2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;val1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;val2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;Pythonprogrammingisawesome!&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;This code combines all the items in the iterable, from left to right, into a single item. There is no call to &lt;code&gt;list()&lt;/code&gt; here because &lt;code&gt;reduce()&lt;/code&gt; already returns a single item.&lt;/p&gt;
+&lt;div class=&quot;alert alert-primary&quot;&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Python 3.x moved the built-in &lt;code&gt;reduce()&lt;/code&gt; function into the &lt;code&gt;functools&lt;/code&gt; package.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;code&gt;lambda&lt;/code&gt;, &lt;code&gt;map()&lt;/code&gt;, &lt;code&gt;filter()&lt;/code&gt;, and &lt;code&gt;reduce()&lt;/code&gt; are concepts that exist in many languages and can be used in regular Python programs. Soon, you&amp;rsquo;ll see these concepts extend to the PySpark API to process large amounts of data.&lt;/p&gt;
+&lt;h3 id=&quot;sets&quot;&gt;Sets&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://realpython.com/python-sets/&quot;&gt;Sets&lt;/a&gt; are another common piece of functionality that exist in standard Python and is widely useful in Big Data processing. Sets are very similar to lists except they do not have any ordering and cannot contain duplicate values. You can think of a set as similar to the keys in a Python dict.&lt;/p&gt;
+&lt;h2 id=&quot;hello-world-in-pyspark&quot;&gt;Hello World in PySpark&lt;/h2&gt;
+&lt;p&gt;As in any good programming tutorial, you&amp;rsquo;ll want to get started with a &lt;code&gt;Hello World&lt;/code&gt; example. Below is the PySpark equivalent:&lt;/p&gt;
+&lt;div class=&quot;highlight python&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pyspark&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;sc&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pyspark&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;SparkContext&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'local[*]'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;txt&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;textFile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'file:////usr/share/doc/python/copyright'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;txt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;python_lines&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;txt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'python'&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lower&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;python_lines&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Don&amp;rsquo;t worry about all the details yet. The main idea is to keep in mind that a PySpark program isn&amp;rsquo;t much different from a regular Python program.&lt;/p&gt;
+&lt;div class=&quot;alert alert-primary&quot;&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; This program will likely raise an &lt;a href=&quot;https://realpython.com/python-exceptions/&quot;&gt;Exception&lt;/a&gt; on your system if you don&amp;rsquo;t have PySpark installed yet or don&amp;rsquo;t have the specified &lt;code&gt;copyright&lt;/code&gt; file, which you&amp;rsquo;ll see how to do later.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;You&amp;rsquo;ll learn all the details of this program soon, but take a good look. The program counts the total number of lines and the number of lines that have the word &lt;code&gt;python&lt;/code&gt; in a file named &lt;code&gt;copyright&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Remember, &lt;strong&gt;a PySpark program isn&amp;rsquo;t that much different from a regular Python program&lt;/strong&gt;, but the &lt;strong&gt;execution model can be very different&lt;/strong&gt; from a regular Python program, especially if you&amp;rsquo;re running on a cluster.&lt;/p&gt;
+&lt;p&gt;There can be a lot of things happening behind the scenes that distribute the processing across multiple nodes if you&amp;rsquo;re on a cluster. However, for now, think of the program as a Python program that uses the PySpark library.&lt;/p&gt;
+&lt;p&gt;Now that you&amp;rsquo;ve seen some common functional concepts that exist in Python as well as a simple PySpark program, it&amp;rsquo;s time to dive deeper into Spark and PySpark.&lt;/p&gt;
+&lt;h2 id=&quot;what-is-spark&quot;&gt;What Is Spark?&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://spark.apache.org&quot;&gt;Apache Spark&lt;/a&gt; is made up of several components, so describing it can be difficult. At its core, Spark is a generic &lt;strong&gt;engine&lt;/strong&gt; for processing large amounts of data.&lt;/p&gt;
+&lt;p&gt;Spark is written in &lt;a href=&quot;https://scala-lang.org&quot;&gt;Scala&lt;/a&gt; and runs on the &lt;a href=&quot;https://en.wikipedia.org/wiki/Java_virtual_machine&quot;&gt;JVM&lt;/a&gt;. Spark has built-in components for processing streaming data, machine learning, graph processing, and even interacting with data via SQL.&lt;/p&gt;
+&lt;p&gt;In this guide, you&amp;rsquo;ll only learn about the core Spark components for processing Big Data. However, all the other components such as machine learning, SQL, and so on are all available to Python projects via PySpark too.&lt;/p&gt;
+&lt;h2 id=&quot;what-is-pyspark&quot;&gt;What Is PySpark?&lt;/h2&gt;
+&lt;p&gt;Spark is implemented in Scala, a language that runs on the JVM, so how can you access all that functionality via Python?&lt;/p&gt;
+&lt;p&gt;PySpark is the answer.&lt;/p&gt;
+&lt;p&gt;The current version of PySpark is 2.4.3 and works with Python 2.7, 3.3, and above.&lt;/p&gt;
+&lt;p&gt;You can think of PySpark as a Python-based wrapper on top of the Scala API. This means you have two sets of documentation to refer to:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;http://spark.apache.org/docs/latest/api/python/index.html&quot;&gt;PySpark API documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://spark.apache.org/docs/latest/api/scala/index.html#package&quot;&gt;Spark Scala API documentation&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The PySpark API docs have examples, but often you&amp;rsquo;ll want to refer to the Scala documentation and translate the code into Python syntax for your PySpark programs. Luckily, Scala is a very readable function-based programming language.&lt;/p&gt;
+&lt;p&gt;PySpark communicates with the Spark Scala-based API via the &lt;a href=&quot;https://www.py4j.org&quot;&gt;Py4J library&lt;/a&gt;. Py4J isn&amp;rsquo;t specific to PySpark or Spark. Py4J allows any Python program to talk to JVM-based code.&lt;/p&gt;
+&lt;p&gt;There are two reasons that PySpark is based on the functional paradigm:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Spark&amp;rsquo;s native language, Scala, is functional-based.&lt;/li&gt;
+&lt;li&gt;Functional code is much easier to parallelize.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Another way to think of PySpark is a library that allows processing large amounts of data on a single machine or a cluster of machines.&lt;/p&gt;
+&lt;p&gt;In a Python context, think of PySpark has a way to handle parallel processing without the need for the &lt;code&gt;threading&lt;/code&gt; or &lt;code&gt;multiprocessing&lt;/code&gt; modules. All of the complicated communication and synchronization between threads, processes, and even different CPUs is handled by Spark.&lt;/p&gt;
+&lt;h2 id=&quot;pyspark-api-and-data-structures&quot;&gt;PySpark API and Data Structures&lt;/h2&gt;
+&lt;p&gt;To interact with PySpark, you create specialized data structures called &lt;a href=&quot;https://spark.apache.org/docs/latest/rdd-programming-guide.html#resilient-distributed-datasets-rdds&quot;&gt;Resilient Distributed Datasets&lt;/a&gt; (RDDs).&lt;/p&gt;
+&lt;p&gt;RDDs hide all the complexity of transforming and distributing your data automatically across multiple nodes by a scheduler if you&amp;rsquo;re running on a cluster.&lt;/p&gt;
+&lt;p&gt;To better understand PySpark&amp;rsquo;s API and data structures, recall the &lt;code&gt;Hello World&lt;/code&gt; program mentioned previously:&lt;/p&gt;
+&lt;div class=&quot;highlight python&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pyspark&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;sc&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pyspark&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;SparkContext&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'local[*]'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;txt&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;textFile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'file:////usr/share/doc/python/copyright'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;txt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;python_lines&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;txt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'python'&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lower&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;python_lines&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;The entry-point of any PySpark program is a &lt;code&gt;SparkContext&lt;/code&gt; object. This object allows you to connect to a Spark cluster and create RDDs. The &lt;code&gt;local[*]&lt;/code&gt; string is a special string denoting that you&amp;rsquo;re using a &lt;em&gt;local&lt;/em&gt; cluster, which is another way of saying you&amp;rsquo;re running in single-machine mode. The &lt;code&gt;*&lt;/code&gt; tells Spark to create as many worker threads as logical cores on your machine.&lt;/p&gt;
+&lt;p&gt;Creating a &lt;code&gt;SparkContext&lt;/code&gt; can be more involved when you&amp;rsquo;re using a cluster. To connect to a Spark cluster, you might need to handle authentication and a few other pieces of information specific to your cluster. You can set up those details similarly to the following:&lt;/p&gt;
+&lt;div class=&quot;highlight python&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;conf&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pyspark&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;SparkConf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;conf&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;setMaster&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'spark://head_node:56887'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;conf&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;set&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'spark.authenticate'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;True&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;conf&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;set&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'spark.authenticate.secret'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'secret-key'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;sc&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;SparkContext&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;conf&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;conf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;You can start creating RDDs once you have a &lt;code&gt;SparkContext&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;You can create RDDs in a number of ways, but one common way is the PySpark &lt;code&gt;parallelize()&lt;/code&gt; function. &lt;code&gt;parallelize()&lt;/code&gt; can transform some Python data structures like lists and tuples into RDDs, which gives you functionality that makes them fault-tolerant and distributed.&lt;/p&gt;
+&lt;p&gt;To better understand RDDs, consider another example. The following code creates an iterator of 10,000 elements and then uses &lt;code&gt;parallelize()&lt;/code&gt; to distribute that data into 2 partitions:&lt;/p&gt;
+&lt;div class=&quot;highlight python repl&quot;&gt;&lt;span class=&quot;repl-toggle&quot; title=&quot;Toggle REPL prompts and output&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;big_list&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10000&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rdd&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;parallelize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;big_list&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;odds&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rdd&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;odds&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;take&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;[1, 3, 5, 7, 9]&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;code&gt;parallelize()&lt;/code&gt; turns that iterator into a &lt;strong&gt;distributed&lt;/strong&gt; set of numbers and gives you all the capability of Spark&amp;rsquo;s infrastructure.&lt;/p&gt;
+&lt;p&gt;Notice that this code uses the RDD&amp;rsquo;s &lt;code&gt;filter()&lt;/code&gt; method instead of Python&amp;rsquo;s built-in &lt;code&gt;filter()&lt;/code&gt;, which you saw earlier. The result is the same, but what&amp;rsquo;s happening behind the scenes is drastically different. By using the RDD &lt;code&gt;filter()&lt;/code&gt; method, that operation occurs in a distributed manner across several CPUs or computers.&lt;/p&gt;
+&lt;p&gt;Again, imagine this as Spark doing the &lt;code&gt;multiprocessing&lt;/code&gt; work for you, all encapsulated in the RDD data structure.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;take()&lt;/code&gt; is a way to see the contents of your RDD, but only a small subset. &lt;code&gt;take()&lt;/code&gt; pulls that subset of data from the distributed system onto a single machine.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;take()&lt;/code&gt; is important for debugging because inspecting your entire dataset on a single machine may not be possible. RDDs are optimized to be used on Big Data so in a real world scenario a single machine may not have enough RAM to hold your entire dataset.&lt;/p&gt;
+&lt;div class=&quot;alert alert-primary&quot;&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Spark temporarily prints information to &lt;code&gt;stdout&lt;/code&gt; when running examples like this in the shell, which you&amp;rsquo;ll see how to do soon. Your &lt;code&gt;stdout&lt;/code&gt; might temporarily show something like &lt;code&gt;[Stage 0:&amp;gt;    (0 + 1) / 1]&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;stdout&lt;/code&gt; text demonstrates how Spark is splitting up the RDDs and processing your data into multiple stages across different CPUs and machines.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Another way to create RDDs is to read in a file with &lt;code&gt;textFile()&lt;/code&gt;, which you&amp;rsquo;ve seen in previous examples. RDDs are one of the foundational data structures for using PySpark so many of the functions in the API return RDDs.&lt;/p&gt;
+&lt;p&gt;One of the key distinctions between RDDs and other data structures is that processing is delayed until the result is requested. This is similar to a &lt;a href=&quot;https://realpython.com/introduction-to-python-generators/&quot;&gt;Python generator&lt;/a&gt;. Developers in the Python ecosystem typically use the term &lt;a href=&quot;https://realpython.com/introduction-to-python-generators/&quot;&gt;lazy evaluation&lt;/a&gt; to explain this behavior.&lt;/p&gt;
+&lt;p&gt;You can stack up multiple transformations on the same RDD without any processing happening. This functionality is possible because Spark maintains a &lt;a href=&quot;https://en.wikipedia.org/wiki/Directed_acyclic_graph&quot;&gt;directed acyclic graph&lt;/a&gt; of the transformations. The underlying graph is only activated when the final results are requested. In the previous example, no computation took place until you requested the results by calling &lt;code&gt;take()&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;There are multiple ways to request the results from an RDD. You can explicitly request results to be evaluated and collected to a single cluster node by using &lt;code&gt;collect()&lt;/code&gt; on a RDD. You can also implicitly request the results in various ways, one of which was using &lt;code&gt;count()&lt;/code&gt; as you saw earlier.&lt;/p&gt;
+&lt;div class=&quot;alert alert-primary&quot;&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Be careful when using these methods because they pull the entire dataset into memory, which will not work if the dataset is too big to fit into the RAM of a single machine.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Again, refer to the &lt;a href=&quot;http://spark.apache.org/docs/latest/api/python/index.html&quot;&gt;PySpark API documentation&lt;/a&gt; for even more details on all the possible functionality.&lt;/p&gt;
+&lt;h2 id=&quot;installing-pyspark&quot;&gt;Installing PySpark&lt;/h2&gt;
+&lt;p&gt;Typically, you&amp;rsquo;ll run PySpark programs on a &lt;a href=&quot;http://hadoop.apache.org&quot;&gt;Hadoop cluster&lt;/a&gt;, but other cluster deployment options are supported. You can read &lt;a href=&quot;https://spark.apache.org/docs/latest/cluster-overview.html&quot;&gt;Spark&amp;rsquo;s cluster mode overview&lt;/a&gt; for more details.&lt;/p&gt;
+&lt;div class=&quot;alert alert-primary&quot;&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Setting up one of these clusters can be difficult and is outside the scope of this guide. Ideally, your team has some wizard &lt;a href=&quot;https://realpython.com/learning-paths/python-devops/&quot;&gt;DevOps&lt;/a&gt; engineers to help get that working. If not, Hadoop publishes &lt;a href=&quot;http://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleCluster.html&quot;&gt;a guide&lt;/a&gt; to help you.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;In this guide, you&amp;rsquo;ll see several ways to run PySpark programs on your local machine. This is useful for testing and learning, but you&amp;rsquo;ll quickly want to take your new programs and run them on a cluster to truly process Big Data.&lt;/p&gt;
+&lt;p&gt;Sometimes setting up PySpark by itself can be challenging too because of all the required dependencies.&lt;/p&gt;
+&lt;p&gt;PySpark runs on top of the JVM and requires a lot of underlying Java infrastructure to function. That being said, we live in the age of &lt;a href=&quot;https://realpython.com/docker-in-action-fitter-happier-more-productive/&quot;&gt;Docker&lt;/a&gt;, which makes experimenting with PySpark much easier.&lt;/p&gt;
+&lt;p&gt;Even better, the amazing developers behind &lt;a href=&quot;https://jupyter.org&quot;&gt;Jupyter&lt;/a&gt; have done all the heavy lifting for you. They publish a &lt;a href=&quot;https://github.com/jupyter/docker-stacks/tree/master/pyspark-notebook&quot;&gt;Dockerfile&lt;/a&gt; that includes all the PySpark dependencies along with Jupyter. So, you can experiment directly in a Jupyter notebook!&lt;/p&gt;
+&lt;div class=&quot;alert alert-primary&quot;&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Jupyter notebooks have a lot of functionality. Check out
+&lt;a href=&quot;https://realpython.com/jupyter-notebook-introduction/&quot;&gt;Jupyter Notebook: An Introduction&lt;/a&gt; for a lot more details on how to use notebooks effectively.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;First, you&amp;rsquo;ll need to install Docker. Take a look at &lt;a href=&quot;https://realpython.com/docker-in-action-fitter-happier-more-productive/&quot;&gt;Docker in Action – Fitter, Happier, More Productive&lt;/a&gt; if you don&amp;rsquo;t have Docker setup yet.&lt;/p&gt;
+&lt;div class=&quot;alert alert-primary&quot;&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; The Docker images can be quite large so make sure you&amp;rsquo;re okay with using up around 5 GBs of disk space to use PySpark and Jupyter.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Next, you can run the following command to download and automatically launch a Docker container with a pre-built PySpark single-node setup. This command may take a few minutes because it downloads the images directly from &lt;a href=&quot;https://hub.docker.com&quot;&gt;DockerHub&lt;/a&gt; along with all the requirements for Spark, PySpark, and Jupyter:&lt;/p&gt;
+&lt;div class=&quot;highlight sh&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;gp&quot;&gt;$&lt;/span&gt; docker run -p &lt;span class=&quot;m&quot;&gt;8888&lt;/span&gt;:8888 jupyter/pyspark-notebook
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Once that command stops printing output, you have a running container that has everything you need to test out your PySpark programs in a single-node environment.&lt;/p&gt;
+&lt;p&gt;To stop your container, type &lt;span class=&quot;keys&quot;&gt;&lt;kbd class=&quot;key-control&quot;&gt;Ctrl&lt;/kbd&gt;&lt;span&gt;+&lt;/span&gt;&lt;kbd class=&quot;key-c&quot;&gt;C&lt;/kbd&gt;&lt;/span&gt; in the same window you typed the &lt;code&gt;docker run&lt;/code&gt; command in.&lt;/p&gt;
+&lt;p&gt;Now it&amp;rsquo;s time to finally run some programs!&lt;/p&gt;
+&lt;h2 id=&quot;running-pyspark-programs&quot;&gt;Running PySpark Programs&lt;/h2&gt;
+&lt;p&gt;There are a number of ways to execute PySpark programs, depending on whether you prefer a command-line or a more visual interface. For a command-line interface, you can use the &lt;code&gt;spark-submit&lt;/code&gt; command, the standard Python shell, or the specialized PySpark shell.&lt;/p&gt;
+&lt;p&gt;First, you&amp;rsquo;ll see the more visual interface with a Jupyter notebook.&lt;/p&gt;
+&lt;h3 id=&quot;jupyter-notebook&quot;&gt;Jupyter Notebook&lt;/h3&gt;
+&lt;p&gt;You can run your program in a Jupyter notebook by running the following command to start the Docker container you previously downloaded (if it&amp;rsquo;s not already running):&lt;/p&gt;
+&lt;div class=&quot;highlight sh&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;gp&quot;&gt;$&lt;/span&gt; docker run -p &lt;span class=&quot;m&quot;&gt;8888&lt;/span&gt;:8888 jupyter/pyspark-notebook
+&lt;span class=&quot;go&quot;&gt;Executing the command: jupyter notebook&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;[I 08:04:22.869 NotebookApp] Writing notebook server cookie secret to /home/jovyan/.local/share/jupyter/runtime/notebook_cookie_secret&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;[I 08:04:25.022 NotebookApp] JupyterLab extension loaded from /opt/conda/lib/python3.7/site-packages/jupyterlab&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;[I 08:04:25.022 NotebookApp] JupyterLab application directory is /opt/conda/share/jupyter/lab&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;[I 08:04:25.027 NotebookApp] Serving notebooks from local directory: /home/jovyan&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;[I 08:04:25.028 NotebookApp] The Jupyter Notebook is running at:&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;[I 08:04:25.029 NotebookApp] http://(4d5ab7a93902 or 127.0.0.1):8888/?token=80149acebe00b2c98242aa9b87d24739c78e562f849e4437&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;[I 08:04:25.029 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;[C 08:04:25.037 NotebookApp]&lt;/span&gt;
+
+&lt;span class=&quot;go&quot;&gt;    To access the notebook, open this file in a browser:&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;        file:///home/jovyan/.local/share/jupyter/runtime/nbserver-6-open.html&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;    Or copy and paste one of these URLs:&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;        http://(4d5ab7a93902 or 127.0.0.1):8888/?token=80149acebe00b2c98242aa9b87d24739c78e562f849e4437&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Now you have a container running with PySpark. Notice that the end of the &lt;code&gt;docker run&lt;/code&gt; command output mentions a local URL.&lt;/p&gt;
+&lt;div class=&quot;alert alert-primary&quot;&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; The output from the &lt;code&gt;docker&lt;/code&gt; commands will be slightly different on every machine because the tokens, container IDs, and container names are all randomly generated.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;You need to use that URL to connect to the Docker container running Jupyter in a web browser. Copy and paste the URL &lt;strong&gt;from your output&lt;/strong&gt; directly into your web browser. Here is an example of the URL you&amp;rsquo;ll likely see:&lt;/p&gt;
+&lt;div class=&quot;highlight sh&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;gp&quot;&gt;$&lt;/span&gt; http://127.0.0.1:8888/?token&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;80149acebe00b2c98242aa9b87d24739c78e562f849e4437
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;The URL in the command below will likely differ slightly on your machine, but once you connect to that URL in your browser, you can access a Jupyter notebook environment, which should look similar to this:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://files.realpython.com/media/jupyter_notebook_homepage.99427f629127.png&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;img-fluid mx-auto d-block border &quot; src=&quot;https://files.realpython.com/media/jupyter_notebook_homepage.99427f629127.png&quot; width=&quot;2552&quot; height=&quot;802&quot; alt=&quot;Jupyter notebook homepage&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;From the Jupyter notebook page, you can use the &lt;em&gt;New&lt;/em&gt; button on the far right to create a new Python 3 shell. Then you can test out some code, like the &lt;code&gt;Hello World&lt;/code&gt; example from before:&lt;/p&gt;
+&lt;div class=&quot;highlight python&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pyspark&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;sc&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pyspark&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;SparkContext&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'local[*]'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;txt&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;textFile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'file:////usr/share/doc/python/copyright'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;txt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;python_lines&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;txt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'python'&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lower&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;python_lines&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Here&amp;rsquo;s what running that code will look like in the Jupyter notebook:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://files.realpython.com/media/pyspark_hello_world_jupyter.6dcd55274218.png&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;img-fluid mx-auto d-block border &quot; src=&quot;https://files.realpython.com/media/pyspark_hello_world_jupyter.6dcd55274218.png&quot; width=&quot;2556&quot; height=&quot;1104&quot; alt=&quot;PySpark Hello World in Jupyter notebook&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;There is a lot happening behind the scenes here, so it may take a few seconds for your results to display. The answer won&amp;rsquo;t appear immediately after you click the cell.&lt;/p&gt;
+&lt;h3 id=&quot;command-line-interface&quot;&gt;Command-Line Interface&lt;/h3&gt;
+&lt;p&gt;The command-line interface offers a variety of ways to submit PySpark programs including the PySpark shell and the &lt;code&gt;spark-submit&lt;/code&gt; command. To use these CLI approaches, you&amp;rsquo;ll first need to connect to the CLI of the system that has PySpark installed.&lt;/p&gt;
+&lt;p&gt;To connect to the CLI of the Docker setup, you&amp;rsquo;ll need to start the container like before and then attach to that container. Again, to start the container, you can run the following command:&lt;/p&gt;
+&lt;div class=&quot;highlight sh&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;gp&quot;&gt;$&lt;/span&gt; docker run -p &lt;span class=&quot;m&quot;&gt;8888&lt;/span&gt;:8888 jupyter/pyspark-notebook
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Once you have the Docker container running, you need to connect to it via the shell instead of a Jupyter notebook. To do this, run the following command to find the container name:&lt;/p&gt;
+&lt;div class=&quot;highlight sh&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;gp&quot;&gt;$&lt;/span&gt; docker container ls
+&lt;span class=&quot;go&quot;&gt;CONTAINER ID        IMAGE                      COMMAND                  CREATED             STATUS              PORTS                    NAMES&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;4d5ab7a93902        jupyter/pyspark-notebook   &amp;quot;tini -g -- start-no…&amp;quot;   12 seconds ago      Up 10 seconds       0.0.0.0:8888-&amp;gt;8888/tcp   kind_edison&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;This command will show you all the running containers. Find the &lt;code&gt;CONTAINER ID&lt;/code&gt; of the container running the &lt;code&gt;jupyter/pyspark-notebook&lt;/code&gt; image and use it to connect to the &lt;code&gt;bash&lt;/code&gt; shell &lt;em&gt;inside&lt;/em&gt; the container:&lt;/p&gt;
+&lt;div class=&quot;highlight sh&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;gp&quot;&gt;$&lt;/span&gt; docker &lt;span class=&quot;nb&quot;&gt;exec&lt;/span&gt; -it 4d5ab7a93902 bash
+&lt;span class=&quot;gp&quot;&gt;jovyan@4d5ab7a93902:~$&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Now you should be connected to a &lt;code&gt;bash&lt;/code&gt; prompt &lt;em&gt;inside of the container&lt;/em&gt;. You can verify that things are working because the prompt of your shell will change to be something similar to &lt;code&gt;jovyan@4d5ab7a93902&lt;/code&gt;, but using the unique ID of your container.&lt;/p&gt;
+&lt;div class=&quot;alert alert-primary&quot;&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Replace &lt;code&gt;4d5ab7a93902&lt;/code&gt; with the &lt;code&gt;CONTAINER ID&lt;/code&gt; used on your machine.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h3 id=&quot;cluster&quot;&gt;Cluster&lt;/h3&gt;
+&lt;p&gt;You can use the &lt;code&gt;spark-submit&lt;/code&gt; command installed along with Spark to submit PySpark code to a cluster using the command line. This command takes a PySpark or Scala program and executes it on a cluster. This is likely how you&amp;rsquo;ll execute your real Big Data processing jobs.&lt;/p&gt;
+&lt;div class=&quot;alert alert-primary&quot;&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; The path to these commands depends on where Spark was installed and will likely only work when using the referenced Docker container.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;To run the &lt;code&gt;Hello World&lt;/code&gt; example (or any PySpark program) with the running Docker container, first access the shell as described above. Once you&amp;rsquo;re in the container&amp;rsquo;s shell environment you can create files using the &lt;a href=&quot;https://www.lifewire.com/beginners-guide-to-nano-editor-3859002&quot;&gt;nano text editor&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To create the file in your current folder, simply launch &lt;code&gt;nano&lt;/code&gt; with the name of the file you want to create:&lt;/p&gt;
+&lt;div class=&quot;highlight sh&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;gp&quot;&gt;$&lt;/span&gt; nano hello_world.py
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Type in the contents of the &lt;code&gt;Hello World&lt;/code&gt; example and save the file by typing &lt;span class=&quot;keys&quot;&gt;&lt;kbd class=&quot;key-control&quot;&gt;Ctrl&lt;/kbd&gt;&lt;span&gt;+&lt;/span&gt;&lt;kbd class=&quot;key-x&quot;&gt;X&lt;/kbd&gt;&lt;/span&gt; and following the save prompts:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://files.realpython.com/media/nano_example.1de8bb953293.png&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;img-fluid mx-auto d-block &quot; src=&quot;https://files.realpython.com/media/nano_example.1de8bb953293.png&quot; width=&quot;2556&quot; height=&quot;1438&quot; alt=&quot;Example using Nano Text Editor&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Finally, you can run the code through Spark with the &lt;code&gt;pyspark-submit&lt;/code&gt; command:&lt;/p&gt;
+&lt;div class=&quot;highlight sh&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;gp&quot;&gt;$&lt;/span&gt; /usr/local/spark/bin/spark-submit hello_world.py
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;This command results in &lt;em&gt;a lot&lt;/em&gt; of output by default so it may be difficult to see your program&amp;rsquo;s output. You can control the log verbosity somewhat inside your PySpark program by changing the level on your &lt;code&gt;SparkContext&lt;/code&gt; variable. To do that, put this line near the top of your script:&lt;/p&gt;
+&lt;div class=&quot;highlight python&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;setLogLevel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'WARN'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;This will omit &lt;em&gt;some&lt;/em&gt; of the output of &lt;code&gt;spark-submit&lt;/code&gt; so you can more clearly see the output of your program. However, in a real-world scenario, you&amp;rsquo;ll want to put any output into a file, database, or some other storage mechanism for easier debugging later.&lt;/p&gt;
+&lt;p&gt;Luckily, a PySpark program still has access to all of Python&amp;rsquo;s standard library, so saving your results to a file is not an issue:&lt;/p&gt;
+&lt;div class=&quot;highlight python&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pyspark&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;sc&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pyspark&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;SparkContext&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'local[*]'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;txt&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;textFile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'file:////usr/share/doc/python/copyright'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;python_lines&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;txt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;filter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;lambda&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'python'&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lower&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'results.txt'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'w'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;file_obj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;file_obj&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Number of lines: {txt.count()}&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;file_obj&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Number of lines with python: {python_lines.count()}&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Now your results are in a separate file called &lt;code&gt;results.txt&lt;/code&gt; for easier reference later.&lt;/p&gt;
+&lt;div class=&quot;alert alert-primary&quot;&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; The above code uses &lt;a href=&quot;https://realpython.com/python-f-strings/&quot;&gt;f-strings&lt;/a&gt;, which were introduced in Python 3.6.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h3 id=&quot;pyspark-shell&quot;&gt;PySpark Shell&lt;/h3&gt;
+&lt;p&gt;Another PySpark-specific way to run your programs is using the shell provided with PySpark itself. Again, using the Docker setup, you can connect to the container&amp;rsquo;s CLI as described above. Then, you can run the specialized Python shell with the following command:&lt;/p&gt;
+&lt;div class=&quot;highlight sh&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;gp&quot;&gt;$&lt;/span&gt; /usr/local/spark/bin/pyspark
+&lt;span class=&quot;go&quot;&gt;Python 3.7.3 | packaged by conda-forge | (default, Mar 27 2019, 23:01:00)&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;[GCC 7.3.0] :: Anaconda, Inc. on linux&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;Type &amp;quot;help&amp;quot;, &amp;quot;copyright&amp;quot;, &amp;quot;credits&amp;quot; or &amp;quot;license&amp;quot; for more information.&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;Setting default log level to &amp;quot;WARN&amp;quot;.&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;Welcome to&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;      ____              __&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;     / __/__  ___ _____/ /__&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;    _\ \/ _ \/ _ `/ __/  '_/&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;   /__ / .__/\_,_/_/ /_/\_\   version 2.4.1&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;      /_/&lt;/span&gt;
+
+&lt;span class=&quot;go&quot;&gt;Using Python version 3.7.3 (default, Mar 27 2019 23:01:00)&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;SparkSession available as 'spark'.&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Now you&amp;rsquo;re in the Pyspark shell environment &lt;em&gt;inside&lt;/em&gt; your Docker container, and you can test out code similar to the Jupyter notebook example:&lt;/p&gt;
+&lt;div class=&quot;highlight python repl&quot;&gt;&lt;span class=&quot;repl-toggle&quot; title=&quot;Toggle REPL prompts and output&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;txt&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;textFile&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'file:////usr/share/doc/python/copyright'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;txt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
+&lt;span class=&quot;go&quot;&gt;316&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Now you can work in the Pyspark shell just as you would with your normal Python shell.&lt;/p&gt;
+&lt;div class=&quot;alert alert-primary&quot;&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; You didn&amp;rsquo;t have to create a &lt;code&gt;SparkContext&lt;/code&gt; variable in the Pyspark shell example. The PySpark shell automatically creates a variable, &lt;code&gt;sc&lt;/code&gt;, to connect you to the Spark engine in single-node mode.&lt;/p&gt;
+&lt;p&gt;You &lt;strong&gt;must create your own&lt;/strong&gt; &lt;code&gt;SparkContext&lt;/code&gt; when submitting real PySpark programs with &lt;code&gt;spark-submit&lt;/code&gt; or a Jupyter notebook.&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;You can also use the standard Python shell to execute your programs as long as PySpark is installed into that Python environment. The Docker container you&amp;rsquo;ve been using &lt;em&gt;does not&lt;/em&gt; have PySpark enabled for the standard Python environment. So, you must use one of the previous methods to use PySpark in the Docker container.&lt;/p&gt;
+&lt;h2 id=&quot;combining-pyspark-with-other-tools&quot;&gt;Combining PySpark With Other Tools&lt;/h2&gt;
+&lt;p&gt;As you already saw, PySpark comes with additional libraries to do things like machine learning and SQL-like manipulation of large datasets. However, you can also use other common scientific libraries like &lt;a href=&quot;https://realpython.com/numpy-array-programming/&quot;&gt;NumPy&lt;/a&gt; and &lt;a href=&quot;https://realpython.com/courses/pandas-dataframes-101/&quot;&gt;Pandas&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You must install these in the same environment &lt;strong&gt;on each cluster node&lt;/strong&gt;, and then your program can use them as usual. Then, you&amp;rsquo;re free to use all the familiar &lt;a href=&quot;https://realpython.com/courses/idiomatic-pandas-tricks-features-you-may-not-know/&quot;&gt;idiomatic Pandas&lt;/a&gt; tricks you already know. &lt;/p&gt;
+&lt;div class=&quot;alert alert-primary&quot;&gt;
+&lt;p&gt;&lt;strong&gt;Remember:&lt;/strong&gt; &lt;a href=&quot;https://realpython.com/courses/pandas-dataframes-101/&quot;&gt;Pandas DataFrames&lt;/a&gt; are eagerly evaluated so all the data will need to fit in memory &lt;strong&gt;on a single machine&lt;/strong&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;next-steps-for-real-big-data-processing&quot;&gt;Next Steps for Real Big Data Processing&lt;/h2&gt;
+&lt;p&gt;Soon after learning the PySpark basics, you&amp;rsquo;ll surely want to start analyzing huge amounts of data that likely won&amp;rsquo;t work when you&amp;rsquo;re using single-machine mode. Installing and maintaining a Spark cluster is way outside the scope of this guide and is likely a full-time job in itself.&lt;/p&gt;
+&lt;p&gt;So, it might be time to visit the IT department at your office or look into a hosted Spark cluster solution. One potential hosted solution is &lt;a href=&quot;https://databricks.com/spark/about&quot;&gt;Databricks&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Databricks allows you to host your data with &lt;a href=&quot;https://azure.microsoft.com/en-us/&quot;&gt;Microsoft Azure&lt;/a&gt; or &lt;a href=&quot;https://aws.amazon.com&quot;&gt;AWS&lt;/a&gt; and has a &lt;a href=&quot;https://databricks.com/try-databricks&quot;&gt;free 14-day trial&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;After you have a working Spark cluster, you&amp;rsquo;ll want to get all your data into
+that cluster for analysis. Spark has a number of ways to import data:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https://aws.amazon.com/s3/&quot;&gt;Amazon S3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://hive.apache.org&quot;&gt;Apache Hive Data Warehouse&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Any database with a &lt;a href=&quot;https://en.wikipedia.org/wiki/Java_Database_Connectivity&quot;&gt;JDBC&lt;/a&gt; or &lt;a href=&quot;https://en.wikipedia.org/wiki/Open_Database_Connectivity&quot;&gt;ODBC&lt;/a&gt; interface&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;You can even read data directly from a Network File System, which is how the previous examples worked.&lt;/p&gt;
+&lt;p&gt;There&amp;rsquo;s no shortage of ways to get access to all your data, whether you&amp;rsquo;re using a hosted solution like Databricks or your own cluster of machines.&lt;/p&gt;
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;PySpark is a good entry-point into Big Data Processing.&lt;/p&gt;
+&lt;p&gt;In this tutorial, you learned that you don&amp;rsquo;t have to spend a lot of time learning up-front if you&amp;rsquo;re familiar with a few functional programming concepts like &lt;code&gt;map()&lt;/code&gt;, &lt;code&gt;filter()&lt;/code&gt;, and &lt;a href=&quot;https://realpython.com/learning-paths/python3-introduction/&quot;&gt;basic Python&lt;/a&gt;. In fact, you can use all the Python you already know including familiar tools like NumPy and Pandas directly in your PySpark programs.&lt;/p&gt;
+&lt;p&gt;You are now able to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Understand&lt;/strong&gt; built-in Python concepts that apply to Big Data&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Write&lt;/strong&gt; basic PySpark programs&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Run&lt;/strong&gt; PySpark programs on small datasets with your local machine&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Explore&lt;/strong&gt; more capable Big Data solutions like a Spark cluster or another custom, hosted solution&lt;/li&gt;
+&lt;/ul&gt;
+        &lt;hr /&gt;
+        &lt;p&gt;&lt;em&gt;[ Improve Your Python With 🐍 Python Tricks 💌 – Get a short &amp;amp; sweet Python Trick delivered to your inbox every couple of days. &lt;a href=&quot;https://realpython.com/python-tricks/?utm_source=realpython&amp;utm_medium=rss&amp;utm_campaign=footer&quot;&gt;&amp;gt;&amp;gt; Click here to learn more and see examples&lt;/a&gt; ]&lt;/em&gt;&lt;/p&gt;</content:encoded>
+	<dc:date>2019-07-31T14:00:00+00:00</dc:date>
+</item>
+<item rdf:about="http://feedproxy.google.com/~r/PythonInsider/~3/MwuRB1u_KNQ/pypi-now-supports-uploading-via-api.html">
+	<title>Python Insider: PyPI now supports uploading via API token</title>
+	<link>http://feedproxy.google.com/~r/PythonInsider/~3/MwuRB1u_KNQ/pypi-now-supports-uploading-via-api.html</link>
+	<content:encoded>We're&amp;nbsp;&lt;a href=&quot;https://pyfound.blogspot.com/search/label/pypi&quot;&gt;further&lt;/a&gt;&amp;nbsp;increasing the security of the Python Package Index with another new beta feature: scoped API tokens for package upload. This is thanks to a&amp;nbsp;&lt;a href=&quot;https://pyfound.blogspot.com/2019/03/commencing-security-accessibility-and.html&quot;&gt;grant from the Open Technology Fund&lt;/a&gt;, coordinated by the&amp;nbsp;&lt;a href=&quot;https://wiki.python.org/psf/PackagingWG&quot;&gt;Packaging Working Group&lt;/a&gt;&amp;nbsp;of the&amp;nbsp;&lt;a href=&quot;https://www.python.org/psf-landing/&quot;&gt;Python Software Foundation&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+Over the last few months, we've&amp;nbsp;&lt;a href=&quot;https://pyfound.blogspot.com/2019/06/pypi-now-supports-two-factor-login-via.html&quot;&gt;added two-factor authentication (2FA) login security methods&lt;/a&gt;. We added Time-based One-Time Password (TOTP) support in late May and physical security device support in mid-June. Now, over 1600 users have started using physical security devices or TOTP applications to better secure their accounts. And over the past week, over 7.8% of logins to PyPI.org have been protected by 2FA, up from 3% in the month of June.&lt;br /&gt;
+&lt;br /&gt;
+Now, we have another improvement:&amp;nbsp;&lt;a href=&quot;https://pypi.org/help/#apitoken&quot;&gt;you can use API tokens to upload packages&lt;/a&gt;&amp;nbsp;to PyPI and&amp;nbsp;&lt;a href=&quot;https://packaging.python.org/guides/using-testpypi/&quot;&gt;Test PyPI&lt;/a&gt;! And we've designed the token to be a drop-in replacement for the username and password you already use (warning: this is a&amp;nbsp;&lt;b&gt;beta feature&lt;/b&gt;&amp;nbsp;that&amp;nbsp;&lt;a href=&quot;https://wiki.python.org/psf/WarehousePackageMaintainerTesting&quot;&gt;we need your help to test&lt;/a&gt;).&lt;br /&gt;
+&lt;br /&gt;
+&lt;table align=&quot;center&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; class=&quot;tr-caption-container&quot;&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;https://1.bp.blogspot.com/-MOsRSH42y50/XUDA_d2jApI/AAAAAAAAACk/QqqWXrax4DUIl-r8VbbizQ5UouARR6vcQCPcBGAYYCw/s1600/creating-api-token-pypi.png&quot;&gt;&lt;img alt=&quot;Add API token screen, with textarea for token name and dropdown menu to choose token scope&quot; border=&quot;0&quot; height=&quot;188&quot; src=&quot;https://1.bp.blogspot.com/-MOsRSH42y50/XUDA_d2jApI/AAAAAAAAACk/QqqWXrax4DUIl-r8VbbizQ5UouARR6vcQCPcBGAYYCw/s320/creating-api-token-pypi.png&quot; title=&quot;Add API token screen&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class=&quot;tr-caption&quot;&gt;PyPI interface for adding an&lt;br /&gt;
+API token for package upload&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;b&gt;How it works:&amp;nbsp;&lt;/b&gt;Go to your&amp;nbsp;&lt;a href=&quot;https://pypi.org/manage/account/#two-factor&quot;&gt;PyPI account settings&lt;/a&gt;&amp;nbsp;and select &quot;Add API token&quot;. When you create an API token, you choose its scope: you can create a token that can upload to all the projects you maintain or own, or you can limit its scope to just one project.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+The token management screen shows you when each of your tokens were created, and last used. And you can revoke one token without revoking others, and without having to change your password on PyPI and in configuration files.&lt;br /&gt;
+&lt;table align=&quot;center&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; class=&quot;tr-caption-container&quot;&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;https://1.bp.blogspot.com/-O6xLonqNBKk/XUDBANE6C4I/AAAAAAAAACs/SXcm_h6HQJgnTE24vL02GaoSmSsWrS4gACPcBGAYYCw/s1600/pypi-api-token-management.png&quot;&gt;&lt;img alt=&quot;API token management interface displays each token's name, scope, date/time created, and date/time last used, and the user can view each token's unique ID or revoke it&quot; border=&quot;0&quot; height=&quot;172&quot; src=&quot;https://1.bp.blogspot.com/-O6xLonqNBKk/XUDBANE6C4I/AAAAAAAAACs/SXcm_h6HQJgnTE24vL02GaoSmSsWrS4gACPcBGAYYCw/s320/pypi-api-token-management.png&quot; title=&quot;API token management interface&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class=&quot;tr-caption&quot;&gt;PyPI API token management interface&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;br /&gt;
+Uploading with an API token is currently optional but encouraged; in the future, PyPI will set and enforce a policy requiring users with two-factor authentication enabled to use API tokens to upload (rather than just their password sans second factor). Watch&amp;nbsp;&lt;a href=&quot;https://mail.python.org/mailman3/lists/pypi-announce.python.org/&quot;&gt;our announcement mailing list&lt;/a&gt;&amp;nbsp;for future details.&lt;br /&gt;
+&lt;br /&gt;
+&lt;table align=&quot;center&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; class=&quot;tr-caption-container&quot;&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;https://1.bp.blogspot.com/-TZtfwo1OgzY/XUDA_YXiHzI/AAAAAAAAACo/kc1f2ctpzowOTehr8nXCWsk5b6LN5TdKACPcBGAYYCw/s1600/pypi-api-token-just-created.png&quot;&gt;&lt;img alt=&quot;A successful API token creation: a long string that only appears once, for the user to copy&quot; border=&quot;0&quot; height=&quot;160&quot; src=&quot;https://1.bp.blogspot.com/-TZtfwo1OgzY/XUDA_YXiHzI/AAAAAAAAACo/kc1f2ctpzowOTehr8nXCWsk5b6LN5TdKACPcBGAYYCw/s320/pypi-api-token-just-created.png&quot; title=&quot;a just-created API token&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class=&quot;tr-caption&quot;&gt;Immediately after creating the API token,&lt;br /&gt;
+PyPI gives the user one chance to copy it&lt;/td&gt;&lt;td class=&quot;tr-caption&quot;&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;b&gt;Why:&amp;nbsp;&lt;/b&gt;These API tokens can&amp;nbsp;&lt;b&gt;only&lt;/b&gt;&amp;nbsp;be used to upload packages to PyPI, and not to log in more generally. This makes it safer to automate package upload and store the credential in the cloud, since a thief who copies the token won't also gain the ability to delete the project, delete old releases, or add or remove collaborators. And, since the token is a long character string (with 32 bytes of entropy and a service identifier) that PyPI has securely generated on the server side,&lt;span class=&quot;c-message__body&quot; dir=&quot;auto&quot;&gt;&lt;/span&gt;&amp;nbsp;we vastly reduce the potential for credential reuse on other sites and for a bad actor to guess the token.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;Help us test:&amp;nbsp;&lt;/b&gt;Please&amp;nbsp;&lt;a href=&quot;https://wiki.python.org/psf/WarehousePackageMaintainerTesting&quot;&gt;try this out&lt;/a&gt;! This is a&amp;nbsp;&lt;a href=&quot;https://wiki.python.org/psf/WarehousePackageMaintainerTesting&quot;&gt;beta feature&lt;/a&gt;&amp;nbsp;and we expect that users will find minor issues over the next few weeks; we ask for your bug reports. If you find any potential security vulnerabilities, please follow our&amp;nbsp;&lt;a href=&quot;https://pypi.org/security/&quot;&gt;published security policy&lt;/a&gt;. (Please don't report security issues in Warehouse via GitHub, IRC, or mailing lists. Instead, please directly email security@python.org.) If you find an issue that is not a security vulnerability, please&amp;nbsp;&lt;a href=&quot;https://github.com/pypa/warehouse/issues/new&quot;&gt;report it via GitHub&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+We'd particularly like testing from:&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;Organizations that automate uploads using continuous integration&lt;/li&gt;
+&lt;li&gt;People who save PyPI credentials in a&amp;nbsp;&lt;tt&gt;.pypirc&lt;/tt&gt;&amp;nbsp;file&lt;/li&gt;
+&lt;li&gt;Windows users&lt;/li&gt;
+&lt;li&gt;People on mobile devices&lt;/li&gt;
+&lt;li&gt;People on very slow connections&lt;/li&gt;
+&lt;li&gt;Organizations where users share an auth token within a group&lt;/li&gt;
+&lt;li&gt;Projects with 4+ maintainers or owners&lt;/li&gt;
+&lt;li&gt;People who usually block cookies and JavaScript&lt;/li&gt;
+&lt;li&gt;People who maintain 20+ projects&lt;/li&gt;
+&lt;li&gt;People who created their PyPI account 6+ years ago&lt;/li&gt;
+&lt;/ul&gt;
+&lt;b&gt;What's next for PyPI:&amp;nbsp;&lt;/b&gt;Next, we'll move on to working on an advanced audit trail of sensitive user actions, plus improvements to accessibility and localization for PyPI (some of which have already started). More details are in&amp;nbsp;&lt;a href=&quot;https://discuss.python.org/t/pypi-security-work-multifactor-auth-progress-help-needed/1042&quot;&gt;our progress reports on Discourse&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+Thanks to the&amp;nbsp;&lt;a href=&quot;https://www.opentech.fund/&quot;&gt;Open Technology Fund&lt;/a&gt;&amp;nbsp;for funding this work. And please sign up for the&amp;nbsp;&lt;a href=&quot;https://mail.python.org/mailman3/lists/pypi-announce.python.org/&quot;&gt;PyPI Announcement Mailing List&lt;/a&gt;&amp;nbsp;for future updates.&lt;br /&gt;
+&lt;br /&gt;
+Written by Sumana Harihareswara, published initially to&amp;nbsp;https://pyfound.blogspot.com/2019/07/pypi-now-supports-uploading-via-api.html&lt;div class=&quot;feedflare&quot;&gt;
+&lt;a href=&quot;http://feeds.feedburner.com/~ff/PythonInsider?a=MwuRB1u_KNQ:skd_q7oPUNE:yIl2AUoC8zA&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/PythonInsider?d=yIl2AUoC8zA&quot; border=&quot;0&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/PythonInsider?a=MwuRB1u_KNQ:skd_q7oPUNE:-BTjWOF_DHI&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/PythonInsider?i=MwuRB1u_KNQ:skd_q7oPUNE:-BTjWOF_DHI&quot; border=&quot;0&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/PythonInsider?a=MwuRB1u_KNQ:skd_q7oPUNE:F7zBnMyn0Lo&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/PythonInsider?i=MwuRB1u_KNQ:skd_q7oPUNE:F7zBnMyn0Lo&quot; border=&quot;0&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/PythonInsider?a=MwuRB1u_KNQ:skd_q7oPUNE:V_sGLiPBpWU&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/PythonInsider?i=MwuRB1u_KNQ:skd_q7oPUNE:V_sGLiPBpWU&quot; border=&quot;0&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/PythonInsider?a=MwuRB1u_KNQ:skd_q7oPUNE:qj6IDK7rITs&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/PythonInsider?d=qj6IDK7rITs&quot; border=&quot;0&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src=&quot;http://feeds.feedburner.com/~r/PythonInsider/~4/MwuRB1u_KNQ&quot; height=&quot;1&quot; width=&quot;1&quot; alt=&quot;&quot; /&gt;</content:encoded>
+	<dc:date>2019-07-31T12:08:58+00:00</dc:date>
+</item>
+<item rdf:about="http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/PyfIYGrs4Vo/pypi-now-supports-uploading-via-api.html">
+	<title>Python Software Foundation: PyPI now supports uploading via API token</title>
+	<link>http://feedproxy.google.com/~r/PythonSoftwareFoundationNews/~3/PyfIYGrs4Vo/pypi-now-supports-uploading-via-api.html</link>
+	<content:encoded>We're &lt;a href=&quot;https://pyfound.blogspot.com/search/label/pypi&quot;&gt;further&lt;/a&gt; increasing the security of the Python Package Index with another new beta feature: scoped API tokens for package upload. This is thanks to a &lt;a href=&quot;https://pyfound.blogspot.com/2019/03/commencing-security-accessibility-and.html&quot;&gt;grant from the Open Technology Fund&lt;/a&gt;, coordinated by the &lt;a href=&quot;https://wiki.python.org/psf/PackagingWG&quot;&gt;Packaging Working Group&lt;/a&gt; of the &lt;a href=&quot;https://www.python.org/psf-landing/&quot;&gt;Python Software Foundation&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+Over the last few months, we've &lt;a href=&quot;https://pyfound.blogspot.com/2019/06/pypi-now-supports-two-factor-login-via.html&quot;&gt;added two-factor authentication (2FA) login security methods&lt;/a&gt;. We added Time-based One-Time Password (TOTP) support in late May and physical security device support in mid-June. Now, over 1600 users have started using physical security devices or TOTP applications to better secure their accounts. And over the past week, over 7.8% of logins to PyPI.org have been protected by 2FA, up from 3% in the month of June.&lt;br /&gt;
+&lt;br /&gt;
+&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; class=&quot;tr-caption-container&quot;&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;https://1.bp.blogspot.com/-MOsRSH42y50/XUDA_d2jApI/AAAAAAAAACk/QqqWXrax4DUIl-r8VbbizQ5UouARR6vcQCPcBGAYYCw/s1600/creating-api-token-pypi.png&quot;&gt;&lt;img alt=&quot;Add API token screen, with textarea for token name and dropdown menu to choose token scope&quot; border=&quot;0&quot; height=&quot;235&quot; src=&quot;https://1.bp.blogspot.com/-MOsRSH42y50/XUDA_d2jApI/AAAAAAAAACk/QqqWXrax4DUIl-r8VbbizQ5UouARR6vcQCPcBGAYYCw/s400/creating-api-token-pypi.png&quot; title=&quot;Add API token screen&quot; width=&quot;400&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class=&quot;tr-caption&quot;&gt;PyPI interface for adding an&lt;br /&gt;
+API token for package upload&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+Now, we have another improvement: &lt;a href=&quot;https://pypi.org/help/#apitoken&quot;&gt;you can use API tokens to upload packages&lt;/a&gt; to PyPI and &lt;a href=&quot;https://packaging.python.org/guides/using-testpypi/&quot;&gt;Test PyPI&lt;/a&gt;! And we've designed the token to be a drop-in replacement for the username and password you already use (warning: this is a &lt;b&gt;beta feature&lt;/b&gt; that &lt;a href=&quot;https://wiki.python.org/psf/WarehousePackageMaintainerTesting&quot;&gt;we need your help to test&lt;/a&gt;).&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;How it works: &lt;/b&gt;Go to your &lt;a href=&quot;https://pypi.org/manage/account/#two-factor&quot;&gt;PyPI account settings&lt;/a&gt; and select &quot;Add API token&quot;. When you create an API token, you choose its scope: you can create a 
+token that can upload to all the projects you maintain or own, or you 
+can limit its scope to just one project. &lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; class=&quot;tr-caption-container&quot;&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;https://1.bp.blogspot.com/-O6xLonqNBKk/XUDBANE6C4I/AAAAAAAAACs/SXcm_h6HQJgnTE24vL02GaoSmSsWrS4gACPcBGAYYCw/s1600/pypi-api-token-management.png&quot;&gt;&lt;img alt=&quot;API token management interface displays each token's name, scope, date/time created, and date/time last used, and the user can view each token's unique ID or revoke it&quot; border=&quot;0&quot; height=&quot;172&quot; src=&quot;https://1.bp.blogspot.com/-O6xLonqNBKk/XUDBANE6C4I/AAAAAAAAACs/SXcm_h6HQJgnTE24vL02GaoSmSsWrS4gACPcBGAYYCw/s320/pypi-api-token-management.png&quot; title=&quot;API token management interface&quot; width=&quot;320&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class=&quot;tr-caption&quot;&gt;PyPI API token management interface&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+The token management screen shows you when each of your tokens were created, and last used. And you can revoke one token without revoking others, and without having to change your password on PyPI and in configuration files.&lt;br /&gt;
+&lt;br /&gt;
+Uploading with an API token is currently optional but encouraged; in the
+ future, PyPI will set and enforce a policy requiring users with 
+two-factor authentication enabled to use API tokens to upload (rather 
+than just their password sans second factor). Watch &lt;a href=&quot;https://mail.python.org/mailman3/lists/pypi-announce.python.org/&quot;&gt;our announcement mailing list&lt;/a&gt; for future details.&lt;br /&gt;
+&lt;br /&gt;
+&lt;table cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; class=&quot;tr-caption-container&quot;&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;https://1.bp.blogspot.com/-TZtfwo1OgzY/XUDA_YXiHzI/AAAAAAAAACo/kc1f2ctpzowOTehr8nXCWsk5b6LN5TdKACPcBGAYYCw/s1600/pypi-api-token-just-created.png&quot;&gt;&lt;img alt=&quot;A successful API token creation: a long string that only appears once, for the user to copy&quot; border=&quot;0&quot; height=&quot;200&quot; src=&quot;https://1.bp.blogspot.com/-TZtfwo1OgzY/XUDA_YXiHzI/AAAAAAAAACo/kc1f2ctpzowOTehr8nXCWsk5b6LN5TdKACPcBGAYYCw/s400/pypi-api-token-just-created.png&quot; title=&quot;a just-created API token&quot; width=&quot;400&quot; /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td class=&quot;tr-caption&quot;&gt;Immediately after creating the API token,&lt;br /&gt;
+PyPI gives the user one chance to copy it&lt;/td&gt;&lt;td class=&quot;tr-caption&quot;&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;b&gt;Why: &lt;/b&gt;These API tokens can &lt;b&gt;only&lt;/b&gt;
+ be used to upload packages to PyPI, and not to log in more generally. 
+This makes it safer to automate package upload and store the credential 
+in the cloud, since a thief who copies the token won't also gain the 
+ability to delete the project, delete old releases, or add or remove 
+collaborators. And, since the token is a long character string (with 32 
+bytes of entropy and a service identifier) that PyPI has securely 
+generated on the server side,&lt;span class=&quot;c-message__body&quot; dir=&quot;auto&quot;&gt;&lt;/span&gt; we vastly reduce the potential for credential reuse on other sites and for a bad actor to guess the token. &lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;Help us test: &lt;/b&gt;Please &lt;a href=&quot;https://wiki.python.org/psf/WarehousePackageMaintainerTesting&quot;&gt;try this out&lt;/a&gt;! This is a &lt;a href=&quot;https://wiki.python.org/psf/WarehousePackageMaintainerTesting&quot;&gt;beta feature&lt;/a&gt; and we expect that users will find minor issues over the next few weeks; we ask for your bug reports. If you find any potential security vulnerabilities, please follow our &lt;a href=&quot;https://pypi.org/security/&quot;&gt;published security policy&lt;/a&gt;. (Please don't report security issues in Warehouse via GitHub, IRC, or mailing lists. Instead, please directly email security@python.org.) If you find an issue that is not a security vulnerability, please &lt;a href=&quot;https://github.com/pypa/warehouse/issues/new&quot;&gt;report it via GitHub&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+We'd particularly like testing from: &lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;Organizations that automate uploads using continuous integration&lt;/li&gt;
+&lt;li&gt;People who save PyPI credentials in a &lt;tt&gt;.pypirc&lt;/tt&gt; file&lt;/li&gt;
+&lt;li&gt;Windows users&lt;/li&gt;
+&lt;li&gt;People on mobile devices&lt;/li&gt;
+&lt;li&gt;People on very slow connections&lt;/li&gt;
+&lt;li&gt;Organizations where users share an auth token within a group&lt;/li&gt;
+&lt;li&gt;Projects with 4+ maintainers or owners&lt;/li&gt;
+&lt;li&gt;People who usually block cookies and JavaScript&lt;/li&gt;
+&lt;li&gt;People who maintain 20+ projects&lt;/li&gt;
+&lt;li&gt;People who created their PyPI account 6+ years ago&lt;/li&gt;
+&lt;/ul&gt;
+&lt;b&gt;What's next for PyPI: &lt;/b&gt;Next, we'll move on to working on an advanced audit trail of sensitive user actions, plus improvements to accessibility and localization for PyPI (some of which have already started). More details are in &lt;a href=&quot;https://discuss.python.org/t/pypi-security-work-multifactor-auth-progress-help-needed/1042&quot;&gt;our progress reports on Discourse&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+Thanks to the &lt;a href=&quot;https://www.opentech.fund/&quot;&gt;Open Technology Fund&lt;/a&gt; for funding this work. And please sign up for the &lt;a href=&quot;https://mail.python.org/mailman3/lists/pypi-announce.python.org/&quot;&gt;PyPI Announcement Mailing List&lt;/a&gt; for future updates.&lt;div class=&quot;feedflare&quot;&gt;
+&lt;a href=&quot;http://feeds.feedburner.com/~ff/PythonSoftwareFoundationNews?a=PyfIYGrs4Vo:KCSV_h0FGUc:yIl2AUoC8zA&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/PythonSoftwareFoundationNews?d=yIl2AUoC8zA&quot; border=&quot;0&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/PythonSoftwareFoundationNews?a=PyfIYGrs4Vo:KCSV_h0FGUc:-BTjWOF_DHI&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/PythonSoftwareFoundationNews?i=PyfIYGrs4Vo:KCSV_h0FGUc:-BTjWOF_DHI&quot; border=&quot;0&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/PythonSoftwareFoundationNews?a=PyfIYGrs4Vo:KCSV_h0FGUc:F7zBnMyn0Lo&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/PythonSoftwareFoundationNews?i=PyfIYGrs4Vo:KCSV_h0FGUc:F7zBnMyn0Lo&quot; border=&quot;0&quot; /&gt;&lt;/a&gt; &lt;a href=&quot;http://feeds.feedburner.com/~ff/PythonSoftwareFoundationNews?a=PyfIYGrs4Vo:KCSV_h0FGUc:V_sGLiPBpWU&quot;&gt;&lt;img src=&quot;http://feeds.feedburner.com/~ff/PythonSoftwareFoundationNews?i=PyfIYGrs4Vo:KCSV_h0FGUc:V_sGLiPBpWU&quot; border=&quot;0&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src=&quot;http://feeds.feedburner.com/~r/PythonSoftwareFoundationNews/~4/PyfIYGrs4Vo&quot; height=&quot;1&quot; width=&quot;1&quot; alt=&quot;&quot; /&gt;</content:encoded>
+	<dc:date>2019-07-31T12:02:42+00:00</dc:date>
+</item>
+<item rdf:about="https://www.listendata.com/2019/06/matplotlib-tutorial-learn-plot-python.html">
+	<title>ListenData: Matplotlib Tutorial : Learn with Examples in 3 hours</title>
+	<link>https://www.listendata.com/2019/06/matplotlib-tutorial-learn-plot-python.html</link>
+	<content:encoded>&lt;div dir=&quot;ltr&quot;&gt;This tutorial outlines how to perform plotting and data visualization in python using Matplotlib library. The objective of this post is to get you familiar with the basics and advanced plotting functions of the library. It contains several examples which will give you hands-on experience in generating plots in python.&lt;br /&gt;&lt;div id=&quot;toc&quot;&gt;&lt;span&gt;Table of Contents&lt;/span&gt;&lt;/div&gt;&lt;hr /&gt;&lt;div id=&quot;contents&quot;&gt;&lt;h2&gt;What is Matplotlib?&lt;/h2&gt;It is a powerful python library for creating graphics or charts. It takes care of all of your basic and advanced plotting requirements in Python. It took inspiration from &lt;code&gt;MATLAB&lt;/code&gt; programming language and provides a similar MATLAB like interface for graphics. The beauty of this library is that it integrates well with pandas package which is used for data manipulation. With the combination of these two libraries, you can easily perform data wrangling along with visualization and get valuable insights out of data. Like ggplot2 library in R, matplotlib library is the grammar of graphics in Python and most used library for charts in Python. &lt;div class=&quot;separator&quot;&gt;&lt;a href=&quot;https://4.bp.blogspot.com/-cplm_aJtKII/XRX0fdcmkPI/AAAAAAAAH0U/t2P1ck76Y8YZ6oSFh_JMFUFYaVquVQWSQCLcBGAs/s1600/visualization%2Bpython.PNG&quot;&gt;&lt;img alt=&quot;visualization python&quot; border=&quot;0&quot; src=&quot;https://4.bp.blogspot.com/-cplm_aJtKII/XRX0fdcmkPI/AAAAAAAAH0U/t2P1ck76Y8YZ6oSFh_JMFUFYaVquVQWSQCLcBGAs/s1600/visualization%2Bpython.PNG&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;h2&gt;Basics of Matplotlib&lt;/h2&gt;First step you need to install and load matplotlib library. It must be already installed if you used Anaconda for setting up Python environment. &lt;div class=&quot;db2&quot;&gt;Install library&lt;/div&gt;If matplotlib is not already installed, you can install it by using the command  &lt;pre&gt;pip install matplotlib&lt;/pre&gt;&lt;div class=&quot;db2&quot;&gt;Import / Load Library&lt;/div&gt;We will import Matplotlib’s Pyplot module and used alias or short-form as &lt;code&gt;plt&lt;/code&gt; &lt;pre&gt;from matplotlib import pyplot as plt&lt;/pre&gt;&lt;div class=&quot;db&quot;&gt;Elements of Graph&lt;/div&gt;Different elements or parts of a standard graph are shown in the image below - &lt;div class=&quot;separator&quot;&gt;&lt;a href=&quot;https://3.bp.blogspot.com/-AtPG_12l4e8/XRSuQEECZGI/AAAAAAAAHxY/ZsgtA4rMphMZujcWUur9BB-xYKoWDkKPQCLcBGAs/s1600/basics_matplotlib.PNG&quot;&gt;&lt;img alt=&quot;basics of plot&quot; border=&quot;0&quot; src=&quot;https://3.bp.blogspot.com/-AtPG_12l4e8/XRSuQEECZGI/AAAAAAAAHxY/ZsgtA4rMphMZujcWUur9BB-xYKoWDkKPQCLcBGAs/s1600/basics_matplotlib.PNG&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;db2&quot;&gt;Figure&lt;/div&gt;You can think of the figure as a big graph consisting of multiple sub-plots. Sub-plot can be one or more than one on a figure. In graphics world, it is called 'canvas'. &lt;div class=&quot;separator&quot;&gt;&lt;a href=&quot;https://2.bp.blogspot.com/-F__I5bCe3uI/XRS1Y3gdP9I/AAAAAAAAHxk/plElt8VRYRMp42BuHTe9wkD29hZaPvo-ACLcBGAs/s1600/figure_axes.PNG&quot;&gt;&lt;img alt=&quot;figure vs axes&quot; border=&quot;0&quot; src=&quot;https://2.bp.blogspot.com/-F__I5bCe3uI/XRS1Y3gdP9I/AAAAAAAAHxk/plElt8VRYRMp42BuHTe9wkD29hZaPvo-ACLcBGAs/s1600/figure_axes.PNG&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;db2&quot;&gt;Axes&lt;/div&gt;You can call them 'sub-plots'. &lt;div class=&quot;db2&quot;&gt;Axis&lt;/div&gt;It's the same thing (x or y-axis) which you studied in school or college. A standard graph shows the marks on the axis. In matplotlib library, it is called &lt;code&gt;ticks&lt;/code&gt; and text or value in ticks is called &lt;code&gt;ticklabels&lt;/code&gt;. &lt;div class=&quot;db2&quot;&gt;Basic Plot&lt;/div&gt;&lt;pre&gt;x = [1, 2, 3, 4, 5]&lt;br /&gt;y = [5, 7, 3, 8, 4]&lt;br /&gt;plt.bar(x,y)&lt;br /&gt;plt.show()&lt;br /&gt;&lt;/pre&gt;&lt;div class=&quot;separator&quot;&gt;&lt;a href=&quot;https://1.bp.blogspot.com/-bamSdPlBdas/XRD7aKeEgSI/AAAAAAAAHuA/lVCEFF8BaKcYjsVe5Znzb_EdqE34Xo72gCLcBGAs/s1600/bar.PNG&quot;&gt;&lt;img alt=&quot;bar plot python&quot; border=&quot;0&quot; src=&quot;https://1.bp.blogspot.com/-bamSdPlBdas/XRD7aKeEgSI/AAAAAAAAHuA/lVCEFF8BaKcYjsVe5Znzb_EdqE34Xo72gCLcBGAs/s1600/bar.PNG&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;box green&quot;&gt;If you are using &lt;b&gt;Jupyter Notebook&lt;/b&gt;, you can submit this command &lt;code&gt; %matplotlib inline &lt;/code&gt; &lt;b&gt;once&lt;/b&gt; to display or show plots automatically without need to enter &lt;code&gt;plt.show()&lt;/code&gt; after generation of each plot. &lt;/div&gt;&lt;h2&gt;Functions used for different types of plots&lt;/h2&gt;The following tables explain different graphs along with functions defined for these graphs in matplotlib library.  &lt;table&gt;  &lt;tbody&gt;&lt;tr&gt;    &lt;th&gt;Type of Plot&lt;/th&gt;    &lt;th&gt;Function&lt;/th&gt;  &lt;/tr&gt;&lt;tr&gt;    &lt;td&gt;line plot (Default)&lt;/td&gt;    &lt;td&gt;plt.plot(  )&lt;/td&gt;  &lt;/tr&gt;&lt;tr&gt;    &lt;td&gt;vertical bar plots&lt;/td&gt;    &lt;td&gt;plt.bar(  )&lt;/td&gt;  &lt;/tr&gt;&lt;tr&gt;    &lt;td&gt;horizontal bar plots&lt;/td&gt;    &lt;td&gt;plt.barh(  )&lt;/td&gt;  &lt;/tr&gt;&lt;tr&gt;    &lt;td&gt;histogram&lt;/td&gt;    &lt;td&gt;plt.hist(  )&lt;/td&gt;  &lt;/tr&gt;&lt;tr&gt;    &lt;td&gt;boxplot&lt;/td&gt;    &lt;td&gt;plt.box(  )&lt;/td&gt;  &lt;/tr&gt;&lt;tr&gt;    &lt;td&gt;area plots&lt;/td&gt;    &lt;td&gt;plt.area(  )&lt;/td&gt;  &lt;/tr&gt;&lt;tr&gt;    &lt;td&gt;scatter plots&lt;/td&gt;    &lt;td&gt;plt.scatter(  )&lt;/td&gt;  &lt;/tr&gt;&lt;tr&gt;    &lt;td&gt;pie plots&lt;/td&gt;    &lt;td&gt;plt.pie(  )&lt;/td&gt;  &lt;/tr&gt;&lt;tr&gt;    &lt;td&gt;hexagonal bin plots&lt;/td&gt;    &lt;td&gt;plt.hexbin(  )&lt;/td&gt;  &lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;https://www.listendata.com/2019/06/matplotlib-tutorial-learn-plot-python.html#more&quot;&gt;READ MORE »&lt;/a&gt;</content:encoded>
+	<dc:date>2019-07-31T07:58:11+00:00</dc:date>
+</item>
+<item rdf:about="https://testandcode.com/82">
+	<title>Test and Code: 82: pytest - favorite features since 3.0 -  Anthony Sottile</title>
+	<link>https://testandcode.com/82</link>
+	<content:encoded>&lt;p&gt;Anthony Sottile is a pytest core contributor, as well as a maintainer and contributor to &lt;br /&gt;
+many other projects. In this episode, Anthony shares some of the super cool features of pytest that have  been added since he started using it.&lt;/p&gt;
+
+&lt;p&gt;We also discuss Anthony's move from user to contributor, and how others can help with the pytest project.&lt;/p&gt;&lt;p&gt;Special Guest: Anthony Sottile.&lt;/p&gt;&lt;p&gt;Sponsored By:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://azure.com/pipelines&quot; rel=&quot;nofollow&quot;&gt;Azure Pipelines&lt;/a&gt;: &lt;a href=&quot;https://azure.com/pipelines&quot; rel=&quot;nofollow&quot;&gt;Many organizations and open source projects are using Azure Pipelines already. Get started for free at azure.com/pipelines&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;https://www.patreon.com/testpodcast&quot; rel=&quot;payment&quot;&gt;Support Test &amp;amp; Code - Python Testing &amp;amp; Development&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Links:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://pytest.org/en/latest/&quot; title=&quot;pytest documentation&quot; rel=&quot;nofollow&quot;&gt;pytest documentation&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://doc.pytest.org/en/latest/changelog.html&quot; title=&quot;pytest Changelog&quot; rel=&quot;nofollow&quot;&gt;pytest Changelog&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://doc.pytest.org/en/latest/reference.html#&quot; title=&quot;pytest API Reference&quot; rel=&quot;nofollow&quot;&gt;pytest API Reference&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://docs.pytest.org/en/latest/sponsor.html&quot; title=&quot;sponsor pytest&quot; rel=&quot;nofollow&quot;&gt;sponsor pytest&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;http://doc.pytest.org/en/latest/contributing.html&quot; title=&quot;getting started contributing to pytest&quot; rel=&quot;nofollow&quot;&gt;getting started contributing to pytest&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://amzn.to/2QnzvUv&quot; title=&quot;the book: Python Testing with pytest&quot; rel=&quot;nofollow&quot;&gt;the book: Python Testing with pytest&lt;/a&gt; &amp;mdash; The fastest way to learn pytest&lt;/li&gt;&lt;/ul&gt;&amp;lt;p&amp;gt;Anthony Sottile is a pytest core contributor, as well as a maintainer and contributor to &amp;lt;br&amp;gt;
+many other projects. In this episode, Anthony shares some of the super cool features of pytest that have  been added since he started using it.&amp;lt;/p&amp;gt;
+
+&amp;lt;p&amp;gt;We also discuss Anthony&amp;amp;#39;s move from user to contributor, and how others can help with the pytest project.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Special Guest: Anthony Sottile.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Sponsored By:&amp;lt;/p&amp;gt;&amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;&amp;lt;a href=&quot;https://azure.com/pipelines&quot; rel=&quot;nofollow&quot;&amp;gt;Azure Pipelines&amp;lt;/a&amp;gt;: &amp;lt;a href=&quot;https://azure.com/pipelines&quot; rel=&quot;nofollow&quot;&amp;gt;Many organizations and open source projects are using Azure Pipelines already. Get started for free at azure.com/pipelines&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt;&amp;lt;p&amp;gt;&amp;lt;a href=&quot;https://www.patreon.com/testpodcast&quot; rel=&quot;payment&quot;&amp;gt;Support Test &amp;amp; Code - Python Testing &amp;amp; Development&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;Links:&amp;lt;/p&amp;gt;&amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;&amp;lt;a href=&quot;https://pytest.org/en/latest/&quot; title=&quot;pytest documentation&quot; rel=&quot;nofollow&quot;&amp;gt;pytest documentation&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;&amp;lt;a href=&quot;http://doc.pytest.org/en/latest/changelog.html&quot; title=&quot;pytest Changelog&quot; rel=&quot;nofollow&quot;&amp;gt;pytest Changelog&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;&amp;lt;a href=&quot;http://doc.pytest.org/en/latest/reference.html#&quot; title=&quot;pytest API Reference&quot; rel=&quot;nofollow&quot;&amp;gt;pytest API Reference&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;&amp;lt;a href=&quot;https://docs.pytest.org/en/latest/sponsor.html&quot; title=&quot;sponsor pytest&quot; rel=&quot;nofollow&quot;&amp;gt;sponsor pytest&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;&amp;lt;a href=&quot;http://doc.pytest.org/en/latest/contributing.html&quot; title=&quot;getting started contributing to pytest&quot; rel=&quot;nofollow&quot;&amp;gt;getting started contributing to pytest&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;&amp;lt;a href=&quot;https://amzn.to/2QnzvUv&quot; title=&quot;the book: Python Testing with pytest&quot; rel=&quot;nofollow&quot;&amp;gt;the book: Python Testing with pytest&amp;lt;/a&amp;gt; &amp;amp;mdash; The fastest way to learn pytest&amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt;</content:encoded>
+	<dc:date>2019-07-31T07:15:00+00:00</dc:date>
+</item>
+<item rdf:about="https://kibiwebgeek.com/2019/07/31/use-pandas-data-frame-to-display-market-data/">
+	<title>IslandT: Use Pandas Data Frame to display market data</title>
+	<link>https://kibiwebgeek.com/2019/07/31/use-pandas-data-frame-to-display-market-data/</link>
+	<content:encoded>&lt;p&gt;In the previous article, we have used the Blockchain API to display the Bitcoin vs world major currencies exchange rate in our application. In this article, we will use the Pandas Data Frame object to create a beautiful table for our displaying data. I have already introduced the Pandas Data Frame object before in the previous chapter, therefore, I won&amp;#8217;t go through it again in this post. Let us go straight to the business.&lt;/p&gt;
+
+
+
+&lt;p&gt;We will not use the sell buy string to display the currency data from Blockchain as before but we will directly construct the data frame object to display the related data. &lt;/p&gt;
+
+
+
+&lt;div class=&quot;wp-block-image&quot;&gt;&lt;img src=&quot;https://kibiwebgeek.com/wp-content/uploads/2019/07/2019-07-31-at-14-00-28.png&quot; alt=&quot;&quot; class=&quot;wp-image-178&quot; /&gt;BTC vs World Currencies table&lt;/div&gt;
+
+
+
+&lt;p&gt;The index of this data frame table will be the world currencies symbol and the column will be the bitcoin symbol.&lt;/p&gt;
+
+
+
+&lt;p&gt; Import Pandas module. &lt;/p&gt;
+
+
+
+&lt;pre class=&quot;EnlighterJSRAW&quot;&gt;
+import pandas as pd
+&lt;/pre&gt;
+
+
+
+&lt;p&gt;Construct the data frame object within the get exchange rate function.&lt;/p&gt;
+
+
+
+&lt;pre class=&quot;EnlighterJSRAW&quot;&gt;
+# print the 15 min price for every bitcoin/currency
+    currency_exchange_rate = []
+    currency_index = []
+
+    for k in ticker:
+        #sell_buy += &amp;quot;BTC:&amp;quot; + str(k) + &amp;quot; &amp;quot; + str(ticker[k].p15min) + &amp;quot;\n&amp;quot;
+        currency_exchange_rate.append((ticker[k].p15min))
+        currency_index.append(str(k))
+
+    # construct the pandas data frame object
+    d = {&amp;#039;BTC&amp;#039;: currency_exchange_rate}
+    df = pd.DataFrame(data=d, index=currency_index)
+
+    text_widget.delete(&amp;#039;1.0&amp;#039;, END)  # clear all those previous text first
+    s.set(df)
+    text_widget.insert(INSERT, s.get())  # populate the text widget with new exchange rate data
+&lt;/pre&gt;
+
+
+
+&lt;p&gt;We have commented out the sell buy string because we will use the data frame object to display the market data instead.&lt;/p&gt;
+
+
+
+&lt;p&gt;I have started a new python channel, &lt;a href=&quot;https://discord.gg/HyU4934&quot;&gt;come and join in the discussion through this link.&lt;/a&gt;&lt;/p&gt;</content:encoded>
+	<dc:date>2019-07-31T06:13:01+00:00</dc:date>
+</item>
+<item rdf:about="http://blogs.python-gsoc.org/en/treamouss-blog/packaging-your-panda3d-game-for-ios/">
+	<title>PSF GSoC students blogs: Packaging your Panda3D game for iOS</title>
+	<link>http://blogs.python-gsoc.org/en/treamouss-blog/packaging-your-panda3d-game-for-ios/</link>
+	<content:encoded>&lt;p&gt;HI everyone,&lt;/p&gt;
+
+&lt;p&gt;I'd like to quickly detail how you can help test out the iOS port using your own game. I am making available a wheel that contains all of the files required to develop a Panda app on iOS. To build your game for iOS, there is a new command, `make_xcodeproj` that comes as an addition to the recently released deploy-ng system. There is no formal documentation available yet, but one should be able to surmise how it works based on the source code, located in direct/dist/commands.py. It is best if you get a build of your app using the build_apps command going first, since make_xcodeproj piggy-backs off of it in order to generate an Xcode project.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://treamous.com/files/panda3d-1.11.0-cp36-cp36m-ios_9_0_arm64.whl&quot;&gt;You can download the wheel here.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;See you later!&lt;/p&gt;</content:encoded>
+	<dc:date>2019-07-31T03:10:26+00:00</dc:date>
+</item>
+<item rdf:about="https://www.listendata.com/2019/07/how-to-use-datetime-in-python.html">
+	<title>ListenData: Python : Complete Guide to Date and Time Functions</title>
+	<link>https://www.listendata.com/2019/07/how-to-use-datetime-in-python.html</link>
+	<content:encoded>&lt;div dir=&quot;ltr&quot;&gt;In this tutorial, we will cover python datetime module and how it is used to handle date, time and datetime formatted columns (variables). It includes various practical examples which would help you to gain confidence in dealing dates and times with python functions. In general, Date types columns are not easy to manipulate as it comes with a lot of challenges like dealing with leap years, different number of days in a month, different date and time formats or if date values are stored in string (character) format etc.&lt;br /&gt;&lt;div id=&quot;toc&quot;&gt;&lt;span&gt;Table of Contents&lt;/span&gt;&lt;/div&gt;&lt;hr /&gt;&lt;div id=&quot;contents&quot;&gt;&lt;h2&gt;Introduction : datetime module&lt;/h2&gt;It is a python module which provides several functions for dealing with dates and time. It has four classes as follows which are explained in the latter part of this article how these classes work. &lt;ol&gt;&lt;li&gt;datetime&lt;/li&gt;&lt;li&gt;date&lt;/li&gt;&lt;li&gt;time&lt;/li&gt;&lt;li&gt;timedelta&lt;/li&gt;&lt;/ol&gt;&lt;div class=&quot;separator&quot;&gt;&lt;a href=&quot;https://3.bp.blogspot.com/-2X2Eo4aR8Rc/XTM6-_Aq-wI/AAAAAAAAH20/717IbOMJdhA8ZNZOlfbcwB5rrJjclf6RQCLcBGAs/s1600/datetime_python.PNG&quot;&gt;&lt;img alt=&quot;datetime python with examples&quot; border=&quot;0&quot; src=&quot;https://3.bp.blogspot.com/-2X2Eo4aR8Rc/XTM6-_Aq-wI/AAAAAAAAH20/717IbOMJdhA8ZNZOlfbcwB5rrJjclf6RQCLcBGAs/s1600/datetime_python.PNG&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;p&gt;People who have no experience of working with real-world datasets might have not encountered date columns. They might be under impression that working with dates is rarely used and not so important. To enlighten them, I have listed down real-world examples wherein using datetime module can be beneficial.&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Selecting all the saving account holders who were active on 30th June, 2018 and checking their status whether they are still active&lt;/li&gt;&lt;li&gt;Identifying insureds who filed more than 20 claims in the last 3 months&lt;/li&gt;&lt;li&gt;Identifying customers who made multiple transactions in the last 6 months&lt;/li&gt;&lt;li&gt;Extracting dates from timestamp values&lt;/li&gt;&lt;/ol&gt; &lt;div class=&quot;db2&quot;&gt;Import datetime module&lt;/div&gt;You can import or load datetime module by using the command below - &lt;pre&gt;import datetime&lt;/pre&gt;You don't need to install this module as it comes bundled with the installation of python software.  &lt;h2&gt;Dates&lt;/h2&gt;Here we are using &lt;code&gt;datetime.date&lt;/code&gt; class which is used to represent calendar date values. &lt;code&gt;today()&lt;/code&gt; method is used to fetch current date. &lt;pre&gt;datetime.date.today()&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Output&lt;/b&gt;&lt;br /&gt;datetime.date(2019, 7, 19)&lt;br /&gt;&lt;/pre&gt;In order to display it like a proper calendar date, we can wrap it within &lt;code&gt;print( )&lt;/code&gt; command. &lt;pre&gt;&lt;br /&gt;print(datetime.date.today())&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Output&lt;/b&gt;&lt;br /&gt;2019-07-19&lt;br /&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;https://www.listendata.com/2019/07/how-to-use-datetime-in-python.html#more&quot;&gt;READ MORE »&lt;/a&gt;</content:encoded>
+	<dc:date>2019-07-31T02:24:24+00:00</dc:date>
+</item>
+<item rdf:about="https://www.mattlayman.com/building-saas/static-assets-deployment/">
+	<title>Matt Layman: Add Static Assets to Deployment - Building SaaS #29</title>
+	<link>https://www.mattlayman.com/building-saas/static-assets-deployment/</link>
+	<content:encoded>In this episode, we pushed CI built static files to S3, then pulled those files into the Ansible deployment. This is part of the ongoing effort to simplify deployment by moving work to CI.
+Last time, we processed static files like JavaScript, CSS, and images using webpack on Circle CI. Once the files were processed, I used the tar command to create a tarball (i.e., a .tar.gz file) that contains all the static assets.</content:encoded>
+	<dc:date>2019-07-31T00:00:00+00:00</dc:date>
+</item>
+<item rdf:about="https://pythontips.com/2019/07/30/python-mind-teaser-make-the-function-return-true/">
+	<title>Yasoob Khalid: Python mind-teaser: Make the function return True</title>
+	<link>https://pythontips.com/2019/07/30/python-mind-teaser-make-the-function-return-true/</link>
+	<content:encoded>&lt;p&gt;Hi everyone! &lt;img src=&quot;https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/72x72/1f44b.png&quot; alt=&quot;👋&quot; class=&quot;wp-smiley&quot; /&gt; I was browsing &lt;a href=&quot;https://www.reddit.com/r/Python/&quot;&gt;/r/python&lt;/a&gt; and came across &lt;a href=&quot;https://www.reddit.com/r/Python/comments/cje5yh/short_python_challenge_make_this_return_true/&quot;&gt;this post&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img /&gt;&lt;/p&gt;
+&lt;p&gt;The challenge was easy. Provide such an input that if 1 is added to it, it is the instance of the same object but if 2 is added it is not.&lt;span id=&quot;more-1690&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Solution 1: Custom class&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The way I personally thought to solve this challenge was this:&lt;/p&gt;
+&lt;pre&gt;def check(x):
+    if x+1 is 1+x:
+        return False
+    if x+2 is not 2+x:
+        return False
+    return True
+
+class Test(int):
+    def __add__(self, v):
+        if v == 1:
+            return 0
+        else:
+            return v
+
+print(check(Test()))
+# output: True&lt;/pre&gt;
+&lt;p&gt;Let me explain how this works. In Python when we use the &lt;code&gt;+&lt;/code&gt; operator Python calls a different dunder method depending on which side of the operator our object is. If our object is on the left side of the operator then &lt;code&gt;__add__&lt;/code&gt; will be called, if it is on the right side then &lt;code&gt;__radd__&lt;/code&gt; will be called.&lt;/p&gt;
+&lt;p&gt;Our Test object will return &lt;code&gt;0&lt;/code&gt; if &lt;code&gt;Test() + 1&lt;/code&gt; is called and &lt;code&gt;1&lt;/code&gt; if &lt;code&gt;1 + Test()&lt;/code&gt; is called. The trick is that we are overloading only one dunder method and keeping the other one same. This will help us pass the first if condition. If you take a second look at it you will see that it helps us pass the second if check as well because we simply return the input if it is not 1 so &lt;code&gt;Test() + 2&lt;/code&gt; will always be similar to &lt;code&gt;2 + Test()&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;However, after reading the comments, I found another solution which did not require a custom class.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Solution 2: A unique integer&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;User &lt;a href=&quot;https://www.reddit.com/user/SethGecko11/&quot;&gt;/u/SethGecko11&lt;/a&gt; came up with this absurdly short answer:&lt;/p&gt;
+&lt;pre&gt;def check(x):
+    if x+1 is 1+x:
+        return False
+    if x+2 is not 2+x:
+        return False
+    return True
+
+print(check(-7))
+# output: True&lt;/pre&gt;
+&lt;p&gt;Only -7 works. Any other number will not return True. If you are confused as to why this works then you aren&amp;#8217;t alone. I had to read the comments to figure out the reasoning.&lt;/p&gt;
+&lt;p&gt;So apparently, in Python, integers from -5 to 256 are pre-allocated. When you do any operation and the result falls within that range, you get the pre-allocated object. These are singletons so the &lt;code&gt;is&lt;/code&gt; operator returns &lt;code&gt;True&lt;/code&gt;. However, if you try using integers which don&amp;#8217;t fall in this range, you get a new instance.&lt;/p&gt;
+&lt;p&gt;The memory requirement for pre-allocating these integers is not that high but apparently the performance gains are huge.&lt;/p&gt;
+&lt;p&gt;So when you use -7 as input, you get a new instance of -6 but the same instance when the answer is -5. This doesn&amp;#8217;t work with the upper bound (256) precisely because of the way if statements are constructed. 255 would work as an answer if the check function was implemented like this:&lt;/p&gt;
+&lt;pre&gt;def check(x):
+    if x+1 is not 1+x:
+        return False
+    if x+2 is 2+x:
+        return False
+    return True&lt;/pre&gt;
+&lt;p&gt;I hope you learned something new in this article. I don&amp;#8217;t think you would ever have to use this in any code-base ever but it is a really good mind-teaser which can catch even seasoned Python developers off-guard.&lt;/p&gt;
+&lt;p&gt;Happy programming! I will see you in the next article &lt;img src=&quot;https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/72x72/1f60a.png&quot; alt=&quot;😊&quot; class=&quot;wp-smiley&quot; /&gt;&lt;/p&gt;</content:encoded>
+	<dc:date>2019-07-30T22:43:54+00:00</dc:date>
+</item>
+<item rdf:about="http://blogs.python-gsoc.org/en/tommyli3318s-blog/google-summer-of-code-with-nuitka-5th-weekly-check-in/">
+	<title>PSF GSoC students blogs: Google Summer of Code with Nuitka 5th Weekly Check-in</title>
+	<link>http://blogs.python-gsoc.org/en/tommyli3318s-blog/google-summer-of-code-with-nuitka-5th-weekly-check-in/</link>
+	<content:encoded>&lt;p&gt;1. What did you do this week?&lt;br /&gt;
+This week, I continued to work on my script which automates the testing of nuitka-wheel pytest. Details can be found on my pull request: https://github.com/Nuitka/Nuitka/pull/440&lt;/p&gt;
+
+&lt;p&gt;The script automates the manual testing of comparing pytest results of a nuitka compiled wheel using `python setup.py bdist_nuitka` to the pytest results of an uncompiled wheel built using `python setup.py bdist_wheel` for the most popular PyPI packages. Testing is done to ensure that nuitka is building the wheel correctly. If the pytests pass/fail in the same way, that means Nuitka built the wheel properly. Else if the tests differ, then something is wrong. Virtualenv is used to create a clean environment with no outside pollution.&lt;/p&gt;
+
+&lt;p&gt;Testing has been improved and extended to many more PyPI packages.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+2. What is coming up next?&lt;br /&gt;
+Perfect the script in preparation for merging and work on documentations.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+3. Did you get stuck anywhere?&lt;br /&gt;
+Some PyPI packages are special and require special handling during automation. I skipped these for the sake of speed, but I will need to get back to them in the future.&lt;/p&gt;</content:encoded>
+	<dc:date>2019-07-30T20:47:43+00:00</dc:date>
+</item>
+<item rdf:about="https://tibonihoo.net/en/blog/2019/07/pourquoi-abandonner-wordpress/">
+	<title>Thibauld Nion: Why leave Wordpress behind for Nikola ?</title>
+	<link>https://tibonihoo.net/en/blog/2019/07/pourquoi-abandonner-wordpress/</link>
+	<content:encoded>&lt;div&gt;&lt;p&gt;In my previous post I announced my website's &lt;a class=&quot;reference external&quot; href=&quot;https://tibonihoo.net/en/blog/2019/07/migrations-de-wordpress-a-un-site-statique-avec-nikola&quot;&gt;migration from Wordpress
+to Nikola&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Still, with Wordpress having been my site's engine for so many years,
+I feel that I owe a few explanations to the community.&lt;/p&gt;
+&lt;p&gt;In this post I'll enumerate what stands out in my (very good !)
+experience with &lt;a class=&quot;reference external&quot; href=&quot;https://en.wordpress.org&quot;&gt;Wordpress&lt;/a&gt;, plus a few words about &lt;a class=&quot;reference external&quot; href=&quot;https://www.zenphoto.org/&quot;&gt;zenPhoto&lt;/a&gt; and what
+makes the difference between those two and Nikola.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://tibonihoo.net/en/blog/2019/07/pourquoi-abandonner-wordpress/&quot;&gt;Read more…&lt;/a&gt; (3 min remaining to read)&lt;/p&gt;&lt;/div&gt;</content:encoded>
+	<dc:date>2019-07-30T19:59:41+00:00</dc:date>
+</item>
+
+</rdf:RDF>

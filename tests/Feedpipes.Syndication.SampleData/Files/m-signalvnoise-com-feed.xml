@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+>
+
+<channel>
+	<title>Signal v. Noise</title>
+	<atom:link href="https://m.signalvnoise.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://m.signalvnoise.com</link>
+	<description>Strong opinions and shared thoughts on design, business, and tech. By the makers (and friends) of &#60;a href=&#34;https://www.basecamp.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&#62;Basecamp&#60;/a&#62;. Since 1999.</description>
+	<lastBuildDate>Thu, 01 Aug 2019 20:26:20 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+
+<image>
+	<url>https://i2.wp.com/m.signalvnoise.com/wp-content/uploads/2019/01/cropped-svn-icon.gif?fit=32%2C32&#038;ssl=1</url>
+	<title>Signal v. Noise</title>
+	<link>https://m.signalvnoise.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">156952158</site>	<item>
+		<title>The worst part of hiring</title>
+		<link>https://m.signalvnoise.com/the-worst-part-of-hiring/</link>
+				<comments>https://m.signalvnoise.com/the-worst-part-of-hiring/#comments</comments>
+				<pubDate>Wed, 31 Jul 2019 17:24:23 +0000</pubDate>
+		<dc:creator><![CDATA[DHH]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">https://m.signalvnoise.com/?p=11798</guid>
+				<description><![CDATA[We ask a lot of job applicants at Basecamp. First, they have to make it through a long, detailed description of the opening. Then we request a dedicated cover letter that’s unique to Basecamp. And then there’s the polishing of a CV. It can easily take hours to apply to a job at Basecamp. It&#8230; <a class="read-more" href="https://m.signalvnoise.com/the-worst-part-of-hiring/">keep reading</a>]]></description>
+								<content:encoded><![CDATA[
+<p>We ask a lot of job applicants at Basecamp. First, they have to make it through a <a href="https://m.signalvnoise.com/basecamp-is-hiring-a-senior-programmer/">long</a>, <a href="https://m.signalvnoise.com/basecamp-is-hiring-customer-support-representatives/">detailed</a> <a href="https://m.signalvnoise.com/basecamp-is-hiring-a-head-of-marketing/">description</a> of the opening. Then we request a dedicated cover letter that’s unique to Basecamp. And then there’s the polishing of a CV. It can easily take hours to apply to a job at Basecamp.</p>
+
+
+
+<p>It used to be even worse too! For programmers, for example, we’d ask everyone upfront to submit code samples as part of their first application. Finding a good piece of code, either through open source, learning apps, or whatever, takes time. (Thankfully we don’t do that any more. You have to make it to the second round for us to talk code.)</p>
+
+
+
+<p>So it’s not an unreasonable expectation to hope for some detailed feedback if the application isn’t successful. It’s entirely human to wish for feedback on “why didn’t I progress in process?”, “what could I have done better?”, “what else were y’all looking for?”.</p>
+
+
+
+<p>And yet the math simply makes that impossible for us. A recent opening for a senior programmer drew over 400 applications (for customer support, we’ve seen over 1,000 applications per opening!). For that programmer role, someone spending just 20 minutes giving diligent feedback per application would keep them busy for almost 7 weeks, if they worked on that for 4 hours per day, 5 days a week!</p>
+
+
+
+<p>That really sucks! It’s easily the worst part of hiring to reject hundreds of applicants who’ve put in a lot of their time with a generic “thank you for applying, but unfortunately we’ve moved forward with other candidates!”. Ugh.</p>
+
+
+
+<p>So the least we can do is to be honest that this is the process. And, evidenced by the feedback from several applicants in the last hiring thaw, we clearly failed at that. So apologies to everyone who had reasonable expectations of some actionable feedback, and were left cold with a generic rejection.</p>
+
+
+
+<p>Next time we’ll spell it out in the post. And applicants can make a more informed decision as to whether it’s worth their time given the risk that the sum of a response might well boil down to “thank you so much, but sorry!”.</p>
+
+
+
+<p>Hiring is hard.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://m.signalvnoise.com/the-worst-part-of-hiring/feed/</wfw:commentRss>
+		<slash:comments>30</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">11798</post-id>	</item>
+		<item>
+		<title>Shape Up Roundtable</title>
+		<link>https://m.signalvnoise.com/shape-up-roundtable/</link>
+				<comments>https://m.signalvnoise.com/shape-up-roundtable/#respond</comments>
+				<pubDate>Tue, 30 Jul 2019 16:05:58 +0000</pubDate>
+		<dc:creator><![CDATA[Wailin Wong]]></dc:creator>
+				<category><![CDATA[Rework Podcast]]></category>
+
+		<guid isPermaLink="false">https://m.signalvnoise.com/?p=11792</guid>
+				<description><![CDATA[Basecamp’s new book, Shape Up by Ryan Singer, explores the way designers and programmers at the company build and ship software. In the latest episode of the Rework podcast, Ryan, designer Conor Muirhead, and programmer Jeff Hardy go deep into Shape Up principles, talking about the parts of the process they find most useful and sharing real-life&#8230; <a class="read-more" href="https://m.signalvnoise.com/shape-up-roundtable/">keep reading</a>]]></description>
+								<content:encoded><![CDATA[
+<p>Basecamp’s new book, <a rel="noreferrer noopener" target="_blank" href="https://basecamp.com/shapeup">Shape Up</a> by Ryan Singer, explores the way designers and programmers at the company build and ship software. In the latest episode of <a rel="noreferrer noopener" aria-label="the Rework podcast (opens in a new tab)" href="https://rework.fm/shape-up-roundtable/" target="_blank">the Rework podcast</a>, Ryan, designer Conor Muirhead, and programmer Jeff Hardy go deep into Shape Up principles, talking about the parts of the process they find most useful and sharing real-life examples of both successes and setbacks.</p>
+
+
+
+<figure class="wp-block-embed-wordpress wp-block-embed is-type-wp-embed is-provider-art-19"><div class="wp-block-embed__wrapper">
+<iframe title="Shape Up Roundtable" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" src="https://art19.com/shows/rework/episodes/a4709a79-f826-4315-bfca-b691fcd7ae06/embed#?secret=GLysuycCVR" data-secret="GLysuycCVR" width="640" height="200" scrolling="no"></iframe>
+</div></figure>
+
+
+
+<p>(If you haven&#8217;t yet read Shape Up or listened to <a rel="noreferrer noopener" aria-label="last week's interview (opens in a new tab)" href="https://rework.fm/shape-up/" target="_blank">last week&#8217;s interview</a> with Ryan, it might be helpful to do that first. We&#8217;ve also linked to the relevant sections in Shape Up in the <a rel="noreferrer noopener" aria-label="show notes (opens in a new tab)" href="https://rework.fm/shape-up-roundtable/" target="_blank">show notes</a> for this episode if you&#8217;d like to follow along that way.)</p>
+]]></content:encoded>
+							<wfw:commentRss>https://m.signalvnoise.com/shape-up-roundtable/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">11792</post-id>	</item>
+		<item>
+		<title>How to onboard a new hire</title>
+		<link>https://m.signalvnoise.com/how-to-onboard-a-new-hire/</link>
+				<comments>https://m.signalvnoise.com/how-to-onboard-a-new-hire/#comments</comments>
+				<pubDate>Mon, 29 Jul 2019 16:16:43 +0000</pubDate>
+		<dc:creator><![CDATA[Claire Lew]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">https://m.signalvnoise.com/?p=11786</guid>
+				<description><![CDATA[Recently I hired someone new here at Know Your Team. Here’s exactly what I wrote on Day 1 and the 23 questions I asked as a part of our employee onboarding process. Something new happened recently: We hired a new employee at&#160;Know Your Team&#160;– and it caused me to rethink our entire employee onboarding process.&#8230; <a class="read-more" href="https://m.signalvnoise.com/how-to-onboard-a-new-hire/">keep reading</a>]]></description>
+								<content:encoded><![CDATA[
+<h4>Recently I hired someone new here at Know Your Team. Here’s exactly what I wrote on Day 1 and the 23 questions I asked as a part of our employee onboarding process.</h4>
+
+
+
+<figure class="wp-block-image"><img data-attachment-id="11787" data-permalink="https://m.signalvnoise.com/how-to-onboard-a-new-hire/how-to-onboard-1024x462/" data-orig-file="https://i1.wp.com/m.signalvnoise.com/wp-content/uploads/2019/07/how-to-onboard-1024x462.png?fit=1024%2C462&amp;ssl=1" data-orig-size="1024,462" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="how-to-onboard-1024&#215;462" data-image-description="" data-medium-file="https://i1.wp.com/m.signalvnoise.com/wp-content/uploads/2019/07/how-to-onboard-1024x462.png?fit=600%2C271&amp;ssl=1" data-large-file="https://i1.wp.com/m.signalvnoise.com/wp-content/uploads/2019/07/how-to-onboard-1024x462.png?fit=640%2C289&amp;ssl=1" src="https://i1.wp.com/m.signalvnoise.com/wp-content/uploads/2019/07/how-to-onboard-1024x462.png?resize=640%2C289&#038;ssl=1" alt="" class="wp-image-11787" srcset="https://i1.wp.com/m.signalvnoise.com/wp-content/uploads/2019/07/how-to-onboard-1024x462.png?resize=1024%2C462&amp;ssl=1 1024w, https://i1.wp.com/m.signalvnoise.com/wp-content/uploads/2019/07/how-to-onboard-1024x462.png?resize=600%2C271&amp;ssl=1 600w, https://i1.wp.com/m.signalvnoise.com/wp-content/uploads/2019/07/how-to-onboard-1024x462.png?resize=768%2C347&amp;ssl=1 768w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" /></figure>
+
+
+
+<p>Something new happened recently: We hired a new employee at&nbsp;<a href="https://knowyourteam.com/">Know Your Team</a>&nbsp;– and it caused me to rethink our entire employee onboarding process. As a small, profit-focused team, we don’t hire often. As a result, this time around, I wanted to be intentional about how to onboard a new hire.</p>
+
+
+
+<p>After all, the numbers on how likely it is for a new employee to leave within the first 90 days are astounding: 30% employees leave before their first 3 months are up, according to a&nbsp;<a href="https://www.jobvite.com/wp-content/uploads/2018/04/2018_Job_Seeker_Nation_Study.pdf">survey with 1,500 people.</a></p>
+
+
+
+<p><p>It got me reflecting deeply… How to onboard a new hire, and make sure that person feels welcomed, encouraged, and well-equipped to contribute to the team?</p><p><span id="more-11786"></span></p></p>
+
+
+
+<!--more-->
+
+
+
+<h3 id="what-1,000+-managers-recommend-for-employee-onboarding">What 1,000+ managers recommend for employee onboarding</h3>
+
+
+
+<p>From the insights of 1,000+ managers in our online leadership community,&nbsp;<a href="https://thewatercooler.io/">The Watercooler</a>, I noticed clear commonalities for what leaders view as best practices for how to onboard a new hire. Here were the most frequently cited elements of their employee onboarding processes:</p>
+
+
+
+<ul><li><strong>Mentorship</strong> – At many companies, new hires are usually paired with the lead as a mentor (or a more senior person). One company mentioned how the new hire sits right next to their mentor in the office.</li><li><strong>Weekly one-on-ones </strong>– During the first month, the new hire has weekly one-on-ones with the lead/mentor (and a couple with the CEO as well). After the first month, the one-on-ones slow down to a more moderate pace such as biweekly or once a month. (You can read my piece on <a href="https://knowyourteam.com/blog/2019/06/20/what-should-you-ask-in-a-new-employee-one-on-one-meeting/">the best questions to ask during your first one-on-one meeting with a new hire here</a>.)</li><li><strong>Nailing the basics</strong> – Many companies have a document that explains processes and details like getting their computer all configured. Other companies set up the new person’s desk with welcome notes, headphones, etc. and/or have an office seating chart with everybody’s name so they know who is who. (For our new hire at Know Your Team, I wrote “Welcome note” that I include in its entirety below.)</li><li><strong>A clear first project </strong>– One recommendation is to design what the first month of the new hire will look like project-wise. What will they be responsible for, and what’s the ideal outcome? You want to have something to help the person get acquainted with the company, but also have the feeling of accomplishment at the same time. (I also did this for our new hire.)</li></ul>
+
+
+
+<h3 id="what-i-did-for-our-employee-onboarding-process">What I did for our employee onboarding process</h3>
+
+
+
+<p>Given the consensus around these recommendations on how to onboard a new hire, I incorporated these elements into our own employee onboarding process.</p>
+
+
+
+<p>However, I also knew from our research through Know Your Team over the past 5 years with 15,000+ people, that as a leader, it would be crucial to provide our new hire with (1) as much&nbsp;<strong>context</strong>&nbsp;as possible about the business itself (2)&nbsp;<strong>direction</strong>&nbsp;as to what “success” looks like (3)&nbsp;<strong>encouragement</strong>&nbsp;in carrying out the role, and (4) a sense of&nbsp;<strong>rapport and trust&nbsp;</strong>so that we can work well together.</p>
+
+
+
+<p>As a result, on our new hire’s very first day at Know Your Team, I sent her an&nbsp;<a href="https://knowyourteam.com/m/features">Icebreaker through our software</a>&nbsp;(it’s a set of fun questions that help break the ice).</p>
+
+
+
+<p>I also wrote up a “Day 1 Welcome Note” and sent it to her. We’re a remote company, so we default to written, asynchronous communication – but I also wanted something in writing she could refer back to, if needed.</p>
+
+
+
+<p><strong>Here’s what the “Day 1 Welcome Note” included…</strong></p>
+
+
+
+<p><strong>Why we hired you</strong>&nbsp;– When you tell someone why you hired them, you’re essentially saying to them: “I believe in you.” Few forms of encouragement are better. You show your support for them on Day 1, and simultaneously set your expectations for the things you want them to continue doing. Not to mention, I’ve always found it strange when you join a new company, and you’re not exactly sure why they picked you.</p>
+
+
+
+<p><strong>Context write-ups</strong>&nbsp;– “What are all the things someone new has no clue about, but would love to know?” I asked myself that question, and then wrote up a series of documents that attempted to answer it as much as possible. The result was separate documents on our company’s history, our purpose + vision + values, how we work (communication, meetings, etc.), business context (market analysis, product vision, etc.), and the key milestones we’re looking to hit in the upcoming six to eighteen months.</p>
+
+
+
+<p><strong>Work preferences survey&nbsp;</strong>– Annoyances, pet peeves, proclivities, and communication tendencies… I wanted our new hire to have an opportunity to share all those things about how she prefers to work. And I wanted her to know what everyone else on the team’s work preferences were, too. And so I wrote up a survey with 23 questions: 😀</p>
+
+
+
+<ul><li>Where on the spectrum of extrovert to introvert would you place yourself?</li><li>What’s your preferred way to receive feedback, in terms of format?</li><li>What’s your preferred way to receive feedback, in terms of speed?</li><li>What’s your orientation toward conflict?</li><li>What time of day are you most productive?</li><li>How would you describe your communication style?</li><li>What motivates you the most?</li><li>Who is your hero? Why?</li><li>What do you value, more than anything else?</li><li>What do you consider your “super power”?</li><li>Who’s been the best coworker / team you’ve worked with? Why?</li><li>Who’s been the best boss / mentor you’ve ever had? Why?</li><li>When have you worked with someone and noticed it not going well?</li><li>How do you tend to organize your work day?</li><li>How do you tend to organize your week?</li><li>What do you think you’re more sensitive about, compared to others?</li><li>What do you tend to have a longer learning curve around, compared to others?</li><li>What do you tend to pick up very quickly, compared to others?</li><li>What’s your biggest work-related pet peeves (i.e., that thing other people do that totally annoys you when you work with them)?</li><li>What does “work life balance” mean to you?</li><li>What would others who’ve worked with you say are your greatest strengths?</li><li>What would others who’ve worked with you say are your greatest weaknesses?</li><li>Anything you’d like to share about what makes for your ideal work environment?</li></ul>
+
+
+
+<p>After she filled out the survey, I then shared with her everyone else’s responses – and I made sure when I filled it out that I didn’t look at her responses either, as a means to not be swayed in any way&nbsp;</p>
+
+
+
+<p><strong>Definition of success and potential projects&nbsp;</strong>– As suggested by the&nbsp;<a href="https://knowyourteam.com/">Watercooler</a> members on how to onboard a new hire, I outlined what a solid first project would be, along with potential projects for the next 6 months. I also took a first stab at defining what I saw was “success” for her role, with the intention of discussing and riffing on it with her during our first one-on-one meeting later that day.</p>
+
+
+
+<p><strong>My personal to-dos for onboarding you successfully&nbsp;</strong>– I wanted our new hire to know what I still had yet to do to make sure she was onboarded fully (e.g., making sure she had access to all our software tools, walking her through our back-end administrative system). That way, she’d be looped in the process, and not in the dark about when we’d get to a certain topic.</p>
+
+
+
+<h3 id="the-exact-&quot;day-1-welcome-note&quot;-i-sent-to-our-new-hire">The exact “Day 1 Welcome Note” I sent our new hire</h3>
+
+
+
+<p>What’d this end up looking like, all together? Here’s the exact welcome note I sent our most recent new hire, Mandy, our Operations Manager: ☀️</p>
+
+
+
+<blockquote class="wp-block-quote"><p><strong>&nbsp;Welcome to KYT, Mandy!</strong></p><p>Happy first day, Mandy.</p><p>We are over the moon to have you join us. Today marks the first day of a great adventure together. I’m so honored to get to work with you. ☺️</p><p>First things first, I wanted to share why we hired you…&nbsp;</p><p>In the most simple terms: I was impressed while working with you. Ever since we began working together on the podcast, it became obvious to me that you produce excellent work. We highly value the ability to just execute, and I noticed your ability to do that immediately. You have a keen eye for detail (so important in your role!), adjusting things based on feedback – and you very quickly grasped our brand. Those are not easy things to do, so that really stood out to me.</p><p>You also receive feedback wonderfully: Openly, objectively, and non-defensively. In fact, you communicate in a very level, clear way, which Daniel and I also highly value.</p><p>And, in all our conversations, you exhibit incredible perseverance and rigor. I see a builder in you: You’ve built something awesome with DevReps – and I know the potential for you to build even more is 100% there. And so, I jumped at the chance to bring you on full-time!</p><p>And now, we’re here – and I feel lucky. Working with someone of your caliber is what makes building KYT a meaningful journey for me, personally.</p><p>Alrighty, let’s get to the good stuff – getting you all situated in KYT!</p><p>To give you full business context, I’ve added you to all our Basecamp Projects. I recommend going through each one – reading some of the messages, poking around in the documents to get a sense of everything.</p><p>In particular, here are some documents to give you the most context of the business:</p><p>📜KYT History [LINK]</p><p>💫KYT Purpose, Vision, Values [LINK]</p><p>⚙️How We Work [LINK]&nbsp;&nbsp;</p><p>🧭KYT Business Context [LINK]</p><p>📍Key Milestones [LINK]</p><p>I definitely don’t expect you to absorb it all in a day – let alone in a single week (or even a month!). It takes a while to feel really comfortable with our brand, business problem, audience, etc.</p><p>I’d also love to get a sense of your work style + preferences. When you get a moment, could you fill out this little questionnaire here?&nbsp;&nbsp;[LINK]</p><p>Once you respond, I’ll share mine and Daniel’s answers too.</p><p>I also took the liberty of a first stab at potential objectives + projects for our first 6 months of working together (see below). This is 100% a draft that needs your input, heavily, so let’s discuss during our call later today.&nbsp;&nbsp;[LINK]</p><p>For reference, here’s a little to-do list for me of some of the more tactical stuff we need to cover + knock out during your onboarding.&nbsp;&nbsp;[LINK]</p><p>Last thing I want to mention: We want your fresh eyes. If there’s something you notice that’s weird, or you wonder why we do it that way – please tell us. It’s just been the two of us for the past two years, and so there’s likely many things that seem strange or things that can be a ton better. Your observations on those things will be so helpful.</p><p>Whew! Okay, I think that’s it for now. Please let me know what questions you have. Take your time going through it all – so looking forward to chatting later today. 💖</p><p>And, again, welcome.&nbsp;</p></blockquote>
+
+
+
+<p>I’m sure as we hire more folks, this process will change – and I look forward to getting feedback from Mandy herself, our newest hire, on what she thought could’ve been better.</p>
+
+
+
+<p>In the meantime, I hope pulling back the curtain how I’ve thought about how to onboard a new hire is helpful for you in thinking about&nbsp;<em>your</em>&nbsp;employee onboarding process.</p>
+
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<p><em><a href="https://twitter.com/clairejlew">Claire</a>&nbsp;is the CEO of&nbsp;<a href="https://knowyourteam.com/">Know Your Team</a>&nbsp;– software that helps you avoid becoming a bad boss. Her company was spun-out of Basecamp back in 2014. If you were interested, you can read more of Claire’s writing on leadership on the Know Your Team&nbsp;<a href="https://knowyourteam.com/blog">blog</a>.</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://m.signalvnoise.com/how-to-onboard-a-new-hire/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">11786</post-id>	</item>
+		<item>
+		<title>Shape Up with Ryan Singer</title>
+		<link>https://m.signalvnoise.com/shape-up-with-ryan-singer/</link>
+				<comments>https://m.signalvnoise.com/shape-up-with-ryan-singer/#comments</comments>
+				<pubDate>Tue, 23 Jul 2019 16:23:57 +0000</pubDate>
+		<dc:creator><![CDATA[Wailin Wong]]></dc:creator>
+				<category><![CDATA[Rework Podcast]]></category>
+
+		<guid isPermaLink="false">https://m.signalvnoise.com/?p=11780</guid>
+				<description><![CDATA[Earlier this month, Basecamp released a new book by Ryan Singer, the head of strategy. Shape Up: Stop Running in Circles and Ship Work that Matters is a &#8220;spiritual follow-up&#8221; to Getting Real, Jason and David&#8217;s 2006 guide to how product development happens at Basecamp. In Shape Up, Ryan goes deep into how small teams&#8230; <a class="read-more" href="https://m.signalvnoise.com/shape-up-with-ryan-singer/">keep reading</a>]]></description>
+								<content:encoded><![CDATA[
+<p>Earlier this month, Basecamp <a href="https://m.signalvnoise.com/announcing-shape-up-a-deep-dive-into-how-we-work/">released a new book</a> by Ryan Singer, the head of strategy. <em><a rel="noreferrer noopener" aria-label="Shape Up: Stop Running in Circles and Ship Work that Matters (opens in a new tab)" href="https://basecamp.com/shapeup" target="_blank">Shape Up: Stop Running in Circles and Ship Work that Matters</a></em> is a &#8220;spiritual follow-up&#8221; to <a rel="noreferrer noopener" aria-label="Gettiing Real (opens in a new tab)" href="https://basecamp.com/books/getting-real" target="_blank"><em>Getting Real</em></a>, Jason and David&#8217;s 2006 guide to how product development happens at Basecamp. In Shape Up, Ryan goes deep into how small teams get great work done in six-week cycles without sprints, Post-it Notes, stand-up meetings, backlogs, or long hours.</p>
+
+
+
+<p>Ryan sits down with the Rework podcast to talk about some of the major themes in <em>Shape Up </em>and how the book came together as its own product. </p>
+
+
+
+<figure class="wp-block-embed-wordpress wp-block-embed is-type-wp-embed is-provider-art-19"><div class="wp-block-embed__wrapper">
+<iframe title="Shape Up with Ryan Singer" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" src="https://art19.com/shows/rework/episodes/bebdddb0-a50d-4dce-9e28-dfe44a00b251/embed#?secret=E373b60g5O" data-secret="E373b60g5O" width="640" height="200" scrolling="no"></iframe>
+</div></figure>
+
+
+
+<p>Next week, we&#8217;ll bring you a roundtable discussion between Ryan, a designer, and a programmer at Basecamp to go deeper into the process described in <em>Shape Up</em>. Be sure to subscribe to <a href="https://rework.fm" target="_blank" rel="noreferrer noopener" aria-label="Rework (opens in a new tab)">Rework</a> in Spotify, Apple Podcasts, Google Play Music, or your favorite podcast app so that you get the episode as soon as it&#8217;s released!</p>
+]]></content:encoded>
+							<wfw:commentRss>https://m.signalvnoise.com/shape-up-with-ryan-singer/feed/</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">11780</post-id>	</item>
+		<item>
+		<title>What great managers do: Prune</title>
+		<link>https://m.signalvnoise.com/what-great-managers-do-prune/</link>
+				<comments>https://m.signalvnoise.com/what-great-managers-do-prune/#comments</comments>
+				<pubDate>Mon, 22 Jul 2019 15:03:46 +0000</pubDate>
+		<dc:creator><![CDATA[Claire Lew]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">https://m.signalvnoise.com/?p=11776</guid>
+				<description><![CDATA[Being a great manager and English gardening have more in common than you might imagine. If you want to improve your leadership skills, there no shortage of analogies that have been made about great managers. A great manager is a “coach,” a “captain of a ship,” or even a “human shield.” However, I heard a&#8230; <a class="read-more" href="https://m.signalvnoise.com/what-great-managers-do-prune/">keep reading</a>]]></description>
+								<content:encoded><![CDATA[
+<h4>Being a great manager and English gardening have more in common than you might imagine.</h4>
+
+
+
+<figure class="wp-block-image"><img data-attachment-id="11778" data-permalink="https://m.signalvnoise.com/what-great-managers-do-prune/prune/" data-orig-file="https://i0.wp.com/m.signalvnoise.com/wp-content/uploads/2019/07/prune.jpg?fit=1024%2C504&amp;ssl=1" data-orig-size="1024,504" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="prune" data-image-description="" data-medium-file="https://i0.wp.com/m.signalvnoise.com/wp-content/uploads/2019/07/prune.jpg?fit=600%2C295&amp;ssl=1" data-large-file="https://i0.wp.com/m.signalvnoise.com/wp-content/uploads/2019/07/prune.jpg?fit=640%2C315&amp;ssl=1" src="https://i0.wp.com/m.signalvnoise.com/wp-content/uploads/2019/07/prune.jpg?w=640&#038;ssl=1" alt="" class="wp-image-11778" srcset="https://i0.wp.com/m.signalvnoise.com/wp-content/uploads/2019/07/prune.jpg?w=1024&amp;ssl=1 1024w, https://i0.wp.com/m.signalvnoise.com/wp-content/uploads/2019/07/prune.jpg?resize=600%2C295&amp;ssl=1 600w, https://i0.wp.com/m.signalvnoise.com/wp-content/uploads/2019/07/prune.jpg?resize=768%2C378&amp;ssl=1 768w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" /></figure>
+
+
+
+<p>If you want to improve your leadership skills, there no shortage of analogies that have been made about great managers.</p>
+
+
+
+<p>A great manager is a “coach,” a “captain of a ship,” or even a “human shield.”</p>
+
+
+
+<p>However, I heard a more unlikely comparison about leadership made on our podcast,&nbsp;<a href="https://knowyourteam.com/blog/podcast">The Heartbeat</a>, when I&nbsp;<a href="https://knowyourteam.com/blog/podcast/episode-19-interview-with-david-cancel-ceo-of-drift/">interviewed</a>&nbsp;<a href="https://twitter.com/dcancel">David Cancel</a>, CEO of Drift. He told me:</p>
+
+
+
+<blockquote class="wp-block-quote"><p>“I kind of think about most of this stuff as English gardening. If you want an English garden most of the work is actually the pruning and the taking care of. It’s not the planting, it’s not the plant selection. It’s this constant pruning. The day that you stop pruning is the day that the garden is full of weeds and overrun.”</p></blockquote>
+
+
+
+<p>I found this to be a brilliant analogy on several levels.</p>
+
+
+
+<span id="more-11776"></span>
+
+
+
+<p>First of all, pruning is a small, seemingly minor activity. You’re not making big, sweeping moves of planting new shrubs or replanting a whole tree. This is also true of good leadership. We often believe great managers must take broad, bold actions. Strong decisions, rousing speeches, uncharted direction. But that’s not really what leadership is. It’s is not lavish, nor massive. It’s small, incremental action that engenders real progress in the long run. True leadership is genuinely saying “thank you” when a team member does a favor for you, or asking “How could’ve our last one-on-one meeting been better?” before you meet with a direct report.</p>
+
+
+
+<p>Second, when you prune, you clip away the dead leaves or diseased areas of a garden to encourage healthy growth. A great manager does this, as well. They focus on removing frustrating blockers for their team – be it changing an unrealistic deadline, or deciding to fire a rude customer. They figure out what parts of the team are in decay or lacking in resources. Great managers focus on paring back, and then getting out of their team’s way.</p>
+
+
+
+<p>Pruning is also done&nbsp;<em>periodically</em>, only when the season is fitting. If you prune all the time and you can accidentally over prune a plant and deprive it of nutrients. Leadership is similar. Harvard Business Review published&nbsp;<a href="https://hbr.org/2018/05/managers-cant-be-great-coaches-all-by-themselves">research</a>&nbsp;revealed on how managers who are “constantly coaching” overwhelm their team and exhaust them. After studying 7,300 managers, they discovered “employees coached by Always-on Managers performed worse than those coached by the other types.” Constant coaching, like constant pruning, is a bad thing.</p>
+
+
+
+<p>However, at the same time, fail to prune&nbsp;<em>consistently</em>&nbsp;over time, and, as David mentioned, your entire garden will be overrun. Weeds sprouting, stems rotting. As a manager, you must be mindful of this. You can’t expect that a single one-on-one meeting with your direct report, once a year, will be sufficient for understanding their thoughts on what could be better about the team. A regular, steady cadence of communication –&nbsp;<a href="https://knowyourteam.com/blog/2018/04/25/one-on-ones-101-with-whom-and-how-often/">especially for one-on-one meetings</a>&nbsp;– is critical if you’re to feel connected to your team as a leader. In both leadership and English gardening, “one and done” doesn’t work.</p>
+
+
+
+<p>Thank you, David, for making this analogy. Who knew pruning English gardens could be a source of inspiration for us as leaders.</p>
+
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<p><em><a href="https://twitter.com/clairejlew">Claire</a>&nbsp;is the CEO of&nbsp;<a href="https://knowyourteam.com/">Know Your Team</a>&nbsp;– software that helps you avoid becoming a bad boss. Her company was spun-out of Basecamp back in 2014. If you were interested, you can read more of Claire’s writing on leadership on the Know Your Team&nbsp;<a href="https://knowyourteam.com/blog">blog</a>.</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://m.signalvnoise.com/what-great-managers-do-prune/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">11776</post-id>	</item>
+		<item>
+		<title>Hire When It Hurts</title>
+		<link>https://m.signalvnoise.com/hire-when-it-hurts/</link>
+				<comments>https://m.signalvnoise.com/hire-when-it-hurts/#comments</comments>
+				<pubDate>Tue, 16 Jul 2019 15:30:50 +0000</pubDate>
+		<dc:creator><![CDATA[Wailin Wong]]></dc:creator>
+				<category><![CDATA[Rework Podcast]]></category>
+
+		<guid isPermaLink="false">https://m.signalvnoise.com/?p=11768</guid>
+				<description><![CDATA[You may have noticed that Basecamp is in the midst of what qualifies around here as a mini hiring boom: five open positions across customer support, programming, and ops, as well as a newly created marketing role. The company has received more than 4,000 applications and every single one is read by a human being.&#8230; <a class="read-more" href="https://m.signalvnoise.com/hire-when-it-hurts/">keep reading</a>]]></description>
+								<content:encoded><![CDATA[
+<p>You may have noticed that Basecamp is in the midst of what qualifies around here as a mini hiring boom: five open positions across customer support, programming, and ops, as well as a newly created marketing role. The company has received more than 4,000 applications and every single one is read by a human being. In the <a rel="noreferrer noopener" aria-label="latest episode of the Rework podcast (opens in a new tab)" href="https://rework.fm/hire-when-it-hurts/" target="_blank">latest episode of the Rework podcast</a>, hear about why Basecamp briefly lifted its hiring freeze, how job ads are written, and what the process is for evaluating candidates. </p>
+
+
+
+<figure class="wp-block-embed-wordpress wp-block-embed is-type-wp-embed is-provider-art-19"><div class="wp-block-embed__wrapper">
+<iframe title="Hire When It Hurts" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" src="https://art19.com/shows/rework/episodes/aff78edf-5185-4c92-b2af-ba6946b5c336/embed#?secret=dNiOS7CVLw" data-secret="dNiOS7CVLw" width="640" height="200" scrolling="no"></iframe>
+</div></figure>
+]]></content:encoded>
+							<wfw:commentRss>https://m.signalvnoise.com/hire-when-it-hurts/feed/</wfw:commentRss>
+		<slash:comments>9</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">11768</post-id>	</item>
+		<item>
+		<title>Am I micromanaging my team?</title>
+		<link>https://m.signalvnoise.com/am-i-micromanaging-my-team/</link>
+				<comments>https://m.signalvnoise.com/am-i-micromanaging-my-team/#comments</comments>
+				<pubDate>Mon, 15 Jul 2019 16:06:00 +0000</pubDate>
+		<dc:creator><![CDATA[Claire Lew]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">https://m.signalvnoise.com/?p=11762</guid>
+				<description><![CDATA[Here are the 5 most telling signs of micromanagement – and what you can do instead. I won’t tell anyone:&#160; You think you might be a micromanager. Argh. If there were scarlet letters for a bad manager to wear, “m-i-c-r-o-m-a-n-a-g-e-r” would be among them. But, how do you know if you’re a micromanager, for sure?&#160;&#8230; <a class="read-more" href="https://m.signalvnoise.com/am-i-micromanaging-my-team/">keep reading</a>]]></description>
+								<content:encoded><![CDATA[
+<h4><strong>Here are the 5 most telling signs of micromanagement – and what you can do instead.</strong></h4>
+
+
+
+<figure class="wp-block-image"><img data-attachment-id="11763" data-permalink="https://m.signalvnoise.com/am-i-micromanaging-my-team/signs_of_micromanagement-1024x429/" data-orig-file="https://i1.wp.com/m.signalvnoise.com/wp-content/uploads/2019/07/Signs_Of_Micromanagement-1024x429.jpg?fit=1024%2C429&amp;ssl=1" data-orig-size="1024,429" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Signs_Of_Micromanagement-1024&#215;429" data-image-description="" data-medium-file="https://i1.wp.com/m.signalvnoise.com/wp-content/uploads/2019/07/Signs_Of_Micromanagement-1024x429.jpg?fit=600%2C251&amp;ssl=1" data-large-file="https://i1.wp.com/m.signalvnoise.com/wp-content/uploads/2019/07/Signs_Of_Micromanagement-1024x429.jpg?fit=640%2C268&amp;ssl=1" src="https://i1.wp.com/m.signalvnoise.com/wp-content/uploads/2019/07/Signs_Of_Micromanagement-1024x429.jpg?resize=640%2C268&#038;ssl=1" alt="" class="wp-image-11763" srcset="https://i1.wp.com/m.signalvnoise.com/wp-content/uploads/2019/07/Signs_Of_Micromanagement-1024x429.jpg?resize=1024%2C429&amp;ssl=1 1024w, https://i1.wp.com/m.signalvnoise.com/wp-content/uploads/2019/07/Signs_Of_Micromanagement-1024x429.jpg?resize=600%2C251&amp;ssl=1 600w, https://i1.wp.com/m.signalvnoise.com/wp-content/uploads/2019/07/Signs_Of_Micromanagement-1024x429.jpg?resize=768%2C322&amp;ssl=1 768w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" /></figure>
+
+
+
+<p>I won’t tell anyone:&nbsp; You think you might be a micromanager. Argh. If there were scarlet letters for a bad manager to wear, “m-i-c-r-o-m-a-n-a-g-e-r” would be among them.</p>
+
+
+
+<p>But, how do you know if you’re a micromanager, for sure?&nbsp;</p>
+
+
+
+<p>Yes, you can directly ask your team members if they think you’re micromanaging them. If you have a direct report who has a penchant for shooting you straight, I highly recommend this. (In fact, when we asked through&nbsp;<a href="https://knowyourteam.com/">Know Your Team</a>&nbsp;to 606 employees across 61 companies, “Do you feel micromanaged?” 12% said “Yes.”)</p>
+
+
+
+<p>But it’s also probable that your direct report might not concede the truth. You are their boss, after all. And telling a boss they’re a micromanager is the equivalent of, well, slapping them in the face. 🙂</p>
+
+
+
+<span id="more-11762"></span>
+
+
+
+<p>Given that your team member does not want to slap you in the face… you can sort of do it yourself&nbsp;&nbsp;What I mean by this is that you can consider the behaviors most often exhibited by micromanagers, and honestly reflect: Do I do this?</p>
+
+
+
+<p>From the research and insights we’ve gathered through&nbsp;<a href="https://knowyourteam.com/">Know Your Team</a>&nbsp;and the interviews I’ve done with leaders on our&nbsp;<a href="https://knowyourteam.com/blog/podcast">podcast</a>, here are the 5 most-telling signs that your answer to “Am I micromanaging my team?” is “Drat, yes.”</p>
+
+
+
+<h3><strong>Sign #1:&nbsp; You have a habit of asking, “Just checking in on this?” before a project is due.</strong></h3>
+
+
+
+<p>The clock is ticking and you haven’t heard on how a project is coming along. Is it on time? Is it going well? So, you do what feels only natural:  You ask, “How’s it going?” or “What’s the latest?” or “Just checking in on this?” While seemingly harmless to you – and rather important to you that you have an answer – it’s death by a thousand paper cuts for your direct reports. You’re not giving them a chance to prove to you that it’s going well. You’re literally intruding and asking for a status update to appease your own anxiety about progress. Instead, make it clear <em>upfront</em> how you’d like progress to be communicated to you, instead of popping in and asking, “Just checking in on this?” on your own whim and schedule.</p>
+
+
+
+<h3><strong>Sign #2:&nbsp; You find yourself saying, “Here’s how I would do it,” before they ask, “How would you do it?”</strong></h3>
+
+
+
+<p>You want to be helpful. You’ve done the thing a million times yourself. You know the tricks, the nooks, the crannies… Wouldn’t your team want to know your opinion? They might. But when you assert your opinion before they ask for it, you can obligate a team member to do something&nbsp;<em>your</em>&nbsp;way. No one wants to offend their boss by not following their advice. It can feel constricting – not to mention distracting – to have suggestions heaped on them before they’ve even had an opportunity to wrestle with the problem themselves. Rather, try waiting for your direct report to ask, “How would you approach this?” instead of offering your advice immediately.&nbsp;</p>
+
+
+
+<h3><strong>Sign #3:&nbsp; You mentally log what time someone arrives or leaves the office (or appears online or offline).</strong></h3>
+
+
+
+<p>When you’ve got a crucial project on the line, it’s tempting to know that your team will produce the results you’re looking for. And, it’s easy to correlate the likelihood of an outcome with the number of hours spent in the office or online. However, that’s not how it works. The quality of results have nothing to do with the amount of time spent at the office or online. Remind yourself:&nbsp; What you care about are the results. So any energy you spend – even if it’s 30 seconds – gaging how often someone’s green “online” dot is ever-present in Slack is wasted energy. You’re only building up more frantic, unproductive energy within yourself.</p>
+
+
+
+<h3><strong>Sign #4:&nbsp; You say, “I can just do it…” or “Let me just do it…”</strong></h3>
+
+
+
+<p>A problem appears. A team member comes to you, asking for your help. Or perhaps it’s a mistake or issue you notice on your own accord. Someone has to fix it – so who better than you? You roll up your sleeves and get to work. This is the right move… right? Not quite. In my&nbsp;<a href="https://knowyourteam.com/blog/podcast">podcast</a>&nbsp;interview with Wade Foster, CEO of&nbsp;<a href="http://zapier.com/">Zapier</a>, he shared how solving&nbsp;<a href="https://knowyourteam.com/blog/2019/03/06/dont-solve-problems-if-you-want-to-be-a-great-manager/">problems</a>&nbsp;as a manager is a big sign you’re not doing your job well as a manager. When you’re the one saying “I can just do it” or “Let me just do it” you don’t give your team a chance to do it. Your team never learns, and thus, they can never get better. You stifle your team, and unknowingly to you, are micromanaging them.</p>
+
+
+
+<h3><strong>Sign #5:&nbsp; You ask: Can you “cc” me on that?</strong></h3>
+
+
+
+<p>You want to be in the loop. You need context to do your job well as a manager. As a result, you ask “Can you ‘cc’ me on that?” While appropriate in some cases, your reliance on this phrase can also reveal how much space you’re giving your team to do their best work. Are you asking to be cc-ed on things you don’t truly need to copied on? Is it “just in case,” to quell your own uncertainty? Consider that the more you use this phrase – and the greater triviality of the message you’re asking to be cc-ed on – the more you’re trying to micromanage your team.</p>
+
+
+
+<p>If one (or all) of these signs of micromanagement had you nodding begrudgingly – it’s okay. You don’t need to castigate yourself or hide in shame. There are some small, practical things you can do to avoid becoming a micromanager.</p>
+
+
+
+<p><strong>Instead of defaulting controlling tendencies, here are some questions you can ask to avoid micromanaging:</strong></p>
+
+
+
+<ul><li>How should we define success?</li><li>Is the definition of success clear?</li><li>What do you need from me to be successful?</li><li>What’s the best way to share progress about this project?</li><li>When would you prefer I check-in, if at all?</li><li>When is it most helpful for you to loop me in?</li><li>How much context would you like upfront before I hand-off a project or a task?</li><li>What are you most worried about getting “wrong” with the project?</li><li>Do you like new ideas and suggestions for ways to do things? Or do you prefer to be heads-down a bit before I interject and offer suggestions?</li><li>What’s the best way to define if something is “done” or high quality?</li></ul>
+
+
+
+<p>These questions give choice in how someone can do their work, instead of imposing your own way of working on them.&nbsp;</p>
+
+
+
+<p><strong>You can also use certain phrases to clarify expectations – without micromanaging your team. Here are a handful to try:</strong></p>
+
+
+
+<ul><li>If I have a tendency to do X please call me out on it.</li><li>You don’t need to ask for my permission about Y.</li><li>You don’t need to cc me about Z.</li><li>You don’t need to tell me about A.</li><li>I would prefer that you tell me about B, ask for permission about C, and cc me about D.</li><li>This is just my advice, take it or leave it.</li><li>You do not have to do E the way that I did it.</li><li>This is your decision to make.</li></ul>
+
+
+
+<p>While micromanaging your team can seem like the gravest of leadership sins, it is not unredeemable. The first – and perhaps most important – step is that you’re here, in the confessional booth, already. Now it’s up to you to act differently.</p>
+
+
+
+<p>You don’t have to be a micromanager if you don’t want to be.</p>
+
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<p><em><a href="https://twitter.com/clairejlew">Claire</a>&nbsp;is the CEO of&nbsp;<a href="https://knowyourteam.com/">Know Your Team</a>&nbsp;– software that helps you avoid becoming a bad boss. Her company was spun-out of Basecamp back in 2014. If you were interested, you can read more of Claire’s writing on leadership on the Know Your Team&nbsp;<a href="https://knowyourteam.com/blog">blog</a>.</em></p>
+]]></content:encoded>
+							<wfw:commentRss>https://m.signalvnoise.com/am-i-micromanaging-my-team/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">11762</post-id>	</item>
+		<item>
+		<title>Six Hours of Phone Calls</title>
+		<link>https://m.signalvnoise.com/six-hours-of-phone-calls/</link>
+				<comments>https://m.signalvnoise.com/six-hours-of-phone-calls/#comments</comments>
+				<pubDate>Thu, 11 Jul 2019 14:09:46 +0000</pubDate>
+		<dc:creator><![CDATA[Wailin Wong]]></dc:creator>
+				<category><![CDATA[Rework Podcast]]></category>
+
+		<guid isPermaLink="false">https://m.signalvnoise.com/?p=11758</guid>
+				<description><![CDATA[When Jason put out a call on Twitter for SEO consultants, he received dozens of responses. In order to choose someone to work with, Jason and Basecamp designer Adam Stoddard interviewed all of the candidates in one six-hour block of back-to-back phone calls. They sit down with Shaun in the latest episode of the Rework&#8230; <a class="read-more" href="https://m.signalvnoise.com/six-hours-of-phone-calls/">keep reading</a>]]></description>
+								<content:encoded><![CDATA[
+<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">
+<blockquote class="twitter-tweet" data-width="550" data-dnt="true"><p lang="en" dir="ltr">Been asking some close business friends for SEO consultant recommendations. Getting some back. Curious to see if there’s overlap with the broader audience. If you were going to hire an SEO consultant to audit + make recommendations, who’s the obvious go-to?</p>&mdash; Jason Fried (@jasonfried) <a href="https://twitter.com/jasonfried/status/1128035875814821888?ref_src=twsrc%5Etfw">May 13, 2019</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div></figure>
+
+
+
+<p>When Jason put out a call on Twitter for SEO consultants, he received dozens of responses. In order to choose someone to work with, Jason and Basecamp designer Adam Stoddard interviewed all of the candidates in one six-hour block of back-to-back phone calls. They sit down with Shaun in the <a rel="noreferrer noopener" aria-label="latest episode of the Rework podcast (opens in a new tab)" href="https://rework.fm/six-hours-of-phone-calls/" target="_blank">latest episode of the Rework podcast</a> to discuss why they&#8217;re looking for SEO expertise, how they conducted the interviews, and what it&#8217;s like to shop for something you know nothing about.</p>
+
+
+
+<figure class="wp-block-embed-wordpress wp-block-embed is-type-wp-embed is-provider-art-19"><div class="wp-block-embed__wrapper">
+<iframe title="Last Week with Jason Fried: Six Hours of Phone Calls" class="wp-embedded-content" sandbox="allow-scripts" security="restricted" src="https://art19.com/shows/rework/episodes/4d662718-0e1e-4cde-8669-f5fa5bb593c3/embed#?secret=s1GRKnOT3Z" data-secret="s1GRKnOT3Z" width="640" height="200" scrolling="no"></iframe>
+</div></figure>
+
+
+
+<p></p>
+]]></content:encoded>
+							<wfw:commentRss>https://m.signalvnoise.com/six-hours-of-phone-calls/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">11758</post-id>	</item>
+		<item>
+		<title>Leverage? No thank you.</title>
+		<link>https://m.signalvnoise.com/leverage-no-thank-you/</link>
+				<comments>https://m.signalvnoise.com/leverage-no-thank-you/#comments</comments>
+				<pubDate>Wed, 10 Jul 2019 18:52:35 +0000</pubDate>
+		<dc:creator><![CDATA[Jason Fried]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">https://m.signalvnoise.com/?p=11756</guid>
+				<description><![CDATA[Since we began including salaries in our job postings, a few people have asked if it affects the leverage we have over candidates. The suggestion is that if we tell people exactly what we pay for a specific position, and they would have accepted less, but we&#8217;re now on the hook to pay them more&#8230; <a class="read-more" href="https://m.signalvnoise.com/leverage-no-thank-you/">keep reading</a>]]></description>
+								<content:encoded><![CDATA[
+<p>Since we began including salaries in our <a href="https://basecamp.com/about/jobs">job postings</a>, a few people have asked if it affects the <em>leverage</em> we have over candidates.</p>
+
+
+
+<p>The suggestion is that if we tell people exactly what we pay for a specific position, and they would have accepted less, but we&#8217;re now on the hook to pay them more than we &#8220;needed&#8221; to, then they have a leg up on us rather than us on them.</p>
+
+
+
+<p>I find this line of thinking abhorrent.</p>
+
+
+
+<p>I have zero interest in having leverage over anyone in a hiring situation. Of course we get to choose who we hire &#8211; so, yes, there&#8217;s power inherent in the act of hiring &#8211;  but other than that necessity, leverage is the last thing I&#8217;m looking for.</p>
+
+
+
+<p>Remember, I&#8217;m looking to to hire someone to work <em>with</em>, not work against. Starting things out with &#8220;look what we got away with!&#8221; seems like a terrible start to what hopefully develops into a wonderful, long-term working relationship. Leverage need not apply.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://m.signalvnoise.com/leverage-no-thank-you/feed/</wfw:commentRss>
+		<slash:comments>10</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">11756</post-id>	</item>
+		<item>
+		<title>Announcing &#8220;Shape Up&#8221;, a deep dive into how we work</title>
+		<link>https://m.signalvnoise.com/announcing-shape-up-a-deep-dive-into-how-we-work/</link>
+				<comments>https://m.signalvnoise.com/announcing-shape-up-a-deep-dive-into-how-we-work/#comments</comments>
+				<pubDate>Wed, 10 Jul 2019 18:25:36 +0000</pubDate>
+		<dc:creator><![CDATA[Jason Fried]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">https://m.signalvnoise.com/?p=11751</guid>
+				<description><![CDATA[Back in 2006, we self-published Getting Real: The smarter, faster, easier way to build a successful web app. It was our first foray into broadly sharing how we work at book-scale. It struck a nerve, turned heads, and changed minds. It offered product people, designers, and developers a way out &#8211; an escape hatch. They&#8230; <a class="read-more" href="https://m.signalvnoise.com/announcing-shape-up-a-deep-dive-into-how-we-work/">keep reading</a>]]></description>
+								<content:encoded><![CDATA[
+<figure class="wp-block-image"><img data-attachment-id="11752" data-permalink="https://m.signalvnoise.com/announcing-shape-up-a-deep-dive-into-how-we-work/cover_summary-e9e01e28012e9df5a411d2eeb4643bd1f6e0630987aa801e132054694811f0a7/" data-orig-file="https://i2.wp.com/m.signalvnoise.com/wp-content/uploads/2019/07/cover_summary-e9e01e28012e9df5a411d2eeb4643bd1f6e0630987aa801e132054694811f0a7.jpg?fit=2162%2C546&amp;ssl=1" data-orig-size="2162,546" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="cover_summary-e9e01e28012e9df5a411d2eeb4643bd1f6e0630987aa801e132054694811f0a7" data-image-description="" data-medium-file="https://i2.wp.com/m.signalvnoise.com/wp-content/uploads/2019/07/cover_summary-e9e01e28012e9df5a411d2eeb4643bd1f6e0630987aa801e132054694811f0a7.jpg?fit=600%2C152&amp;ssl=1" data-large-file="https://i2.wp.com/m.signalvnoise.com/wp-content/uploads/2019/07/cover_summary-e9e01e28012e9df5a411d2eeb4643bd1f6e0630987aa801e132054694811f0a7.jpg?fit=640%2C162&amp;ssl=1" src="https://i2.wp.com/m.signalvnoise.com/wp-content/uploads/2019/07/cover_summary-e9e01e28012e9df5a411d2eeb4643bd1f6e0630987aa801e132054694811f0a7.jpg?fit=640%2C162&amp;ssl=1" alt="" class="wp-image-11752" srcset="https://i2.wp.com/m.signalvnoise.com/wp-content/uploads/2019/07/cover_summary-e9e01e28012e9df5a411d2eeb4643bd1f6e0630987aa801e132054694811f0a7.jpg?w=2162&amp;ssl=1 2162w, https://i2.wp.com/m.signalvnoise.com/wp-content/uploads/2019/07/cover_summary-e9e01e28012e9df5a411d2eeb4643bd1f6e0630987aa801e132054694811f0a7.jpg?resize=600%2C152&amp;ssl=1 600w, https://i2.wp.com/m.signalvnoise.com/wp-content/uploads/2019/07/cover_summary-e9e01e28012e9df5a411d2eeb4643bd1f6e0630987aa801e132054694811f0a7.jpg?resize=768%2C194&amp;ssl=1 768w, https://i2.wp.com/m.signalvnoise.com/wp-content/uploads/2019/07/cover_summary-e9e01e28012e9df5a411d2eeb4643bd1f6e0630987aa801e132054694811f0a7.jpg?w=1280&amp;ssl=1 1280w, https://i2.wp.com/m.signalvnoise.com/wp-content/uploads/2019/07/cover_summary-e9e01e28012e9df5a411d2eeb4643bd1f6e0630987aa801e132054694811f0a7.jpg?w=1920&amp;ssl=1 1920w" sizes="(max-width: 640px) 100vw, 640px" /></figure>
+
+
+
+<p>Back in 2006, we self-published <em><a href="https://basecamp.com/books/getting-real">Getting Real</a>: The smarter, faster, easier way to build a successful web app</em>. It was our first foray into broadly sharing how we work at book-scale. It struck a nerve, turned heads, and changed minds. It offered product people, designers, and developers a way out &#8211; an escape hatch. They could finally ditch their way of working that <em>wasn&#8217;t</em> working for a new way that <em>would</em>.</p>
+
+
+
+<p>Since then we&#8217;ve released a number of books, all focused on the business end of things. You could learn how to run a company from <em><a href="https://www.amazon.com/Rework-Jason-Fried/dp/0307463745">REWORK</a></em>, <em><a href="https://www.amazon.com/Remote-Office-Required-Jason-Fried/dp/0804137501">REMOTE</a></em>, and our latest mass-market release, <em><a href="https://www.amazon.com/Doesnt-Have-Be-Crazy-Work/dp/0062874780">It Doesn&#8217;t Have to Be Crazy at Work</a></em>.</p>
+
+
+
+<p>Today we return to our roots. Nearly 13 years after Getting Real was published, we offer the spiritual follow-up. <strong>Today we introduce</strong> <em><strong><a href="https://basecamp.com/shapeup">Shape Up: Stop Running in Circles and Ship Work that Matters</a></strong></em><strong><a href="https://basecamp.com/shapeup">.</a></strong> This web-based book explains how we work in replicable detail. It&#8217;s comprehensive, yet approachable. A recommended read for anyone involved in software development. And it&#8217;s 100% free to read online &#8211; we don&#8217;t even ask for your email address.</p>
+
+
+
+<p>—</p>
+
+
+
+<p>Why now?</p>
+
+
+
+<p>Over the last few years, there’s been a renewed, heightened curiosity about how we work at Basecamp. People often ask us how we get so much done so quickly at such a high level of quality with such a small team. And how we keep our teams together for years and years. We&#8217;ve written some <a href="https://m.signalvnoise.com/how-we-structure-our-work-and-teams-at-basecamp/">blog posts about it</a>, but the topic really demanded a book-length effort.</p>
+
+
+
+<p>For one, we’re not into waterfall or agile or scrum. For two, we don’t line walls with Post-it notes. For three, we don’t do daily stand ups, design sprints, development sprints, or anything remotely tied to a metaphor that includes being tired and worn out at the end. No backlogs, no Kanban, no velocity tracking, none of that.</p>
+
+
+
+<p>We have an entirely different approach. One developed in isolation over nearly 15 years of constant trial and error, taking note, iterating, honing in, and polishing up. We’ve shaped our own way. This book is for explorers, pioneers, those who don’t care what everyone else is doing. Those who want to work better than the rest.</p>
+
+
+
+<p>But ultimately, don’t think of this as a book. Think of it as a flashlight. You and your team have fumbled around in the dark long enough. Now you’ve got something bright and powerful to help you find a new way.</p>
+
+
+
+<p>We hope you find it interesting, enlightening, and, most of all, helpful.</p>
+
+
+
+<p><a href="https://basecamp.com/shapeup">Let&#8217;s read.</a></p>
+
+
+
+<p></p>
+]]></content:encoded>
+							<wfw:commentRss>https://m.signalvnoise.com/announcing-shape-up-a-deep-dive-into-how-we-work/feed/</wfw:commentRss>
+		<slash:comments>12</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">11751</post-id>	</item>
+	</channel>
+</rss>

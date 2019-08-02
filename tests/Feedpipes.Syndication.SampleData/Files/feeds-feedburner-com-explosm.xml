@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+  <channel>
+    
+    <title>Explosm.net</title>
+    <link>http://explosm.net</link>
+    <description>Flash Animations, Daily Comics and more!</description>
+    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/Explosm" /><feedburner:info uri="explosm" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><feedburner:browserFriendly>This is an XML content feed. It is intended to be viewed in a newsreader or syndicated to another site, subject to copyright and fair use.</feedburner:browserFriendly><item>
+      <title>Comic for 2019.07.31</title>
+      <link>http://explosm.net/comics/5312/</link>
+      <description>New Cyanide and Happiness Comic</description>
+      <category>Comics</category>
+      <guid>http://explosm.net/comics/5312/</guid>
+      <pubDate>Wed, 31 Jul 2019 00:00:00 -0500</pubDate>
+    </item>
+    <item>
+      <title>Comic for 2019.07.30</title>
+      <link>http://explosm.net/comics/5311/</link>
+      <description>New Cyanide and Happiness Comic</description>
+      <category>Comics</category>
+      <guid>http://explosm.net/comics/5311/</guid>
+      <pubDate>Tue, 30 Jul 2019 00:00:00 -0500</pubDate>
+    </item>
+    <item>
+      <title>Comic for 2019.07.29</title>
+      <link>http://explosm.net/comics/5297/</link>
+      <description>New Cyanide and Happiness Comic</description>
+      <category>Comics</category>
+      <guid>http://explosm.net/comics/5297/</guid>
+      <pubDate>Mon, 29 Jul 2019 00:00:00 -0500</pubDate>
+    </item>
+    <item>
+      <title>Comic for 2019.07.28</title>
+      <link>http://explosm.net/comics/5310/</link>
+      <description>New Cyanide and Happiness Comic</description>
+      <category>Comics</category>
+      <guid>http://explosm.net/comics/5310/</guid>
+      <pubDate>Sun, 28 Jul 2019 00:00:00 -0500</pubDate>
+    </item>
+    <item>
+      <title>Comic for 2019.07.27</title>
+      <link>http://explosm.net/comics/5309/</link>
+      <description>New Cyanide and Happiness Comic</description>
+      <category>Comics</category>
+      <guid>http://explosm.net/comics/5309/</guid>
+      <pubDate>Sat, 27 Jul 2019 00:00:00 -0500</pubDate>
+    </item>
+  </channel>
+</rss>

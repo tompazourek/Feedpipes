@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" version="2.0">
+
+<channel>
+	<title>MakeUseOf</title>
+	
+	<link>https://www.makeuseof.com</link>
+	<description>Cool Websites, Software and Internet Tips</description>
+	<lastBuildDate>
+	Thu, 01 Aug 2019 19:16:26 +0000	</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/Makeuseof" /><feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="makeuseof" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><xhtml:meta xmlns:xhtml="http://www.w3.org/1999/xhtml" name="robots" content="noindex" /><item>
+		<title>How to Easily Bypass YouTube’s Regional Filter</title>
+		<link>https://www.makeuseof.com/tag/easily-bypass-youtubes-regional-filter/</link>
+				<comments>https://www.makeuseof.com/tag/easily-bypass-youtubes-regional-filter/#comments</comments>
+				<pubDate>Thu, 01 Aug 2019 17:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[Ben Stegner]]></dc:creator>
+				<category><![CDATA[Entertainment]]></category>
+		<category><![CDATA[Internet]]></category>
+		<category><![CDATA[Internet Censorship]]></category>
+		<category><![CDATA[Internet Filters]]></category>
+		<category><![CDATA[Meta: Affiliate Links]]></category>
+		<category><![CDATA[noad]]></category>
+		<category><![CDATA[Online Video]]></category>
+		<category><![CDATA[Proxy]]></category>
+		<category><![CDATA[VPN]]></category>
+		<category><![CDATA[YouTube]]></category>
+
+		<guid isPermaLink="false">https://www.makeuseof.com/?p=323611</guid>
+				<description><![CDATA[<div><img width="670" height="335" src="https://static.makeuseof.com/wp-content/uploads/2014/03/regional-restriction-youtube-670x335.jpg" class="attachment-large size-large wp-post-image" alt="regional-restriction-youtube" /></div><p>It&#8217;s frustrating when you open a YouTube video and see a message saying The uploader has not made this video available in your country. Due to licensing issues, government censorship, and other regional restrictions, you might come across YouTube content that&#8217;s not accessible where you live. Thankfully, you have a few ways to unblock YouTube content like this. We&#8217;ll show you how to bypass YouTube country restrictions and watch whatever you like. For this guide, we used the below video, which is unavailable in the US, as a test: 1. Use a Proxy A proxy server is the most basic...</p><p class='appexclude'>Read the full article: <a href='https://www.makeuseof.com/tag/easily-bypass-youtubes-regional-filter/'>How to Easily Bypass YouTube&#8217;s Regional Filter</a></p>]]></description>
+								<content:encoded><![CDATA[<div><img width="1680" height="840" src="https://static.makeuseof.com/wp-content/uploads/2014/03/regional-restriction-youtube.jpg" class="attachment-featured size-featured wp-post-image" alt="regional-restriction-youtube" /></div><p>It&#8217;s frustrating when you open a YouTube video and see a message saying <strong>The uploader has not made this video available in your country</strong>. Due to licensing issues, government censorship, and other regional restrictions, you might come across YouTube content that&#8217;s not accessible where you live.</p>
+<p>Thankfully, you have a few ways to unblock YouTube content like this.</p>
+<p>We&#8217;ll show you how to bypass YouTube country restrictions and watch whatever you like. For this guide, we used the below video, which is unavailable in the US, as a test:</p>
+<p><iframe width="500" height="281" src="https://www.youtube.com/embed/7HldRlTZj_g?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<h2>1. Use a Proxy</h2>
+<p><img class="aligncenter size-full wp-image-887384 lazy-load" data-src="//static.makeuseof.com/wp-content/uploads/2019/07/HMA-Proxy-Bypass-YouTube-Blocking.png" alt="HMA Proxy Bypass YouTube Blocking" width="670" height="491" /></p>
+<p>A proxy server is the most basic way to watch YouTube content from out of your country. It&#8217;s a simple service that connects you to a server in another location as a middleman, which connects to the page you want to view. This makes it look like your traffic is coming from that region.</p>
+<p>We tested around a dozen different proxy sites for this purpose, but the majority of them didn&#8217;t work. This was often due to server overload errors; in some cases, the video came up as a black box or refused to play. Many still showed the &#8220;not available in your country&#8221; message.</p>
+<p>The <a href="https://www.hidemyass.com/en-us/proxy">HideMyAss! proxy</a> was the only one that let us play the video. To use it, enter the URL you want to access, then you can select a region by expanding the <strong>Random server</strong> box. You&#8217;ll find two US locations, as well as servers in London, Amsterdam, Frankfurt, and Prague.</p>
+<p>Thus, this is a suitable option for anyone who wants to access YouTube content only available in the US or Europe. You may be able to find another YouTube region bypass proxy that works for your needs, but we found pretty slim pickings in our search.</p>
+<h2>2. Browse With a VPN</h2>
+<p><img class="aligncenter size-full wp-image-887383 lazy-load" data-src="//static.makeuseof.com/wp-content/uploads/2019/07/NordVPN-Connect-UK.png" alt="NordVPN Connect UK" width="670" height="500" /></p>
+<p><a href="//www.makeuseof.com/tag/proxy-vs-vpn-difference/">VPNs provide more flexibility than proxy servers</a>. They encrypt your browsing data in a secure tunnel that connects to a remote server. Your connection is encrypted along the entire process, allowing you to browse freely without anyone snooping on you.</p>
+<p>Notably, obfuscating your browsing with a VPN protects all the connections on your computer. This means you don&#8217;t need to visit a proxy website every time you want to bypass country restrictions on YouTube.</p>
+<p>After connecting to a UK server using my VPN, I simply refreshed the above video and was able to watch it with no problem. This is a stark contrast to the inconvenient proxy websites, which required sorting through several to find one that worked.</p>
+<p>If you find yourself wanting to unblock country-restricted YouTube videos often, investing in a good VPN is definitely worth it. In addition to accessing region-blocked content, VPNs have many other uses, like protecting your privacy on otherwise insecure connections.</p>
+<p>While you&#8217;ll find many free VPNs around, we recommend avoiding them. Free VPNs have to make money somehow, which they often do by selling your data or showing ads. In addition, free VPNs typically have slower speeds and don&#8217;t offer servers in a variety of regions. Thus, a paid VPN beats free VPNs in every way.</p>
+<p>Take a look at <a href="//www.makeuseof.com/tag/best-vpn-services/">our recommended VPN services</a> to see which ones are worthwhile. For most people, we recommend <a href="https://www.linkev.com/order?offer=3monthsfree&amp;a_fid=makeuseof" rel="nofollow">ExpressVPN</a>; you can get three months free by using our link!</p>
+<h2>Methods That Don&#8217;t Bypass YouTube&#8217;s Region Locking</h2>
+<p>If you can&#8217;t get any proxy sites to work and don&#8217;t want to subscribe to a VPN, you&#8217;re probably looking for another viable option to skip YouTube region locks. Unfortunately, the situation isn&#8217;t ideal.</p>
+<p>You might see advice recommending that you <a href="//www.makeuseof.com/tag/18-free-ways-to-download-any-video-off-the-internet/">download YouTube videos</a> to watch them in your region. Unfortunately, this doesn&#8217;t work. We tested a variety of YouTube downloaders and they all produced errors when trying to download region-locked content. To download those videos, you&#8217;d need to be in the proper country.</p>
+<p>There&#8217;s also an old URL trick still floating around the web. This claims that you can replace the <strong>/watch?v=</strong> in a YouTube video URL with <strong>/v/</strong> to bypass YouTube filtering. However, this is also a dead end. When we tested this, it prompted download of a small SWF file that was useless.</p>
+<h2>YouTube Without Filtering? It&#8217;s Possible</h2>
+<p>As it turns out, your options for bypassing YouTube&#8217;s geoblocking are limited. If you only need to access an unavailable video occasionally, then using a proxy will probably work for you. But if you want to bypass YouTube country blocks regularly, investing in a good VPN is worth it.</p>
+<p>It&#8217;s not worth bothering with other methods. They won&#8217;t let you gain access to YouTube content in other regions as you&#8217;d like, unfortunately.</p>
+<p>For more on getting around censorship, see <a href="//www.makeuseof.com/tag/how-to-bypass-internet-censorship/">our guide to bypassing blocked sites</a>.</p>
+<p class='appexclude'>Read the full article: <a href='https://www.makeuseof.com/tag/easily-bypass-youtubes-regional-filter/'>How to Easily Bypass YouTube&#8217;s Regional Filter</a></p>]]></content:encoded>
+							<wfw:commentRss />
+		<slash:comments>32</slash:comments>
+							</item>
+		<item>
+		<title>10 Tips for Building an Audience for Your Live Streaming Channel</title>
+		<link>https://www.makeuseof.com/tag/solo-live-streaming/</link>
+				<comments>https://www.makeuseof.com/tag/solo-live-streaming/#comments</comments>
+				<pubDate>Thu, 01 Aug 2019 16:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[Megan Ellis]]></dc:creator>
+				<category><![CDATA[Entertainment]]></category>
+		<category><![CDATA[Game Streaming]]></category>
+		<category><![CDATA[Gaming Culture]]></category>
+		<category><![CDATA[Live Streaming]]></category>
+		<category><![CDATA[Meta: HAIL]]></category>
+		<category><![CDATA[Online Games]]></category>
+		<category><![CDATA[Twitch]]></category>
+
+		<guid isPermaLink="false">https://www.makeuseof.com/?p=302528</guid>
+				<description><![CDATA[<div><img width="670" height="335" src="https://static.makeuseof.com/wp-content/uploads/2013/09/live-stream-670x335.jpg" class="attachment-large size-large wp-post-image" alt="live-stream" /></div><p>With YouTube ads no longer providing the revenue they once did, many gamers have turned to live streaming. However, it can be tricky to build and retain a live streaming audience. With that in mind, here are some live streaming tips to help your channel succeed. 1. Find Games That Are Trending When choosing games to play on a live stream, you&#8217;ll want to opt for new and popular games that are currently attracting attention. Trending games are more likely to get the attention of viewers, helping them discover your channel. Check the best gaming sites and search engines to...</p><p class='appexclude'>Read the full article: <a href='https://www.makeuseof.com/tag/solo-live-streaming/'>10 Tips for Building an Audience for Your Live Streaming Channel</a></p>]]></description>
+								<content:encoded><![CDATA[<div><img width="1680" height="840" src="https://static.makeuseof.com/wp-content/uploads/2013/09/live-stream.jpg" class="attachment-featured size-featured wp-post-image" alt="live-stream" /></div><p>With YouTube ads no longer providing the revenue they once did, many gamers have turned to live streaming. However, it can be tricky to build and retain a live streaming audience. With that in mind, here are some live streaming tips to help your channel succeed.</p>
+<h2>1. Find Games That Are Trending</h2>
+<p><img class="aligncenter size-full wp-image-886208 lazy-load" data-src="//static.makeuseof.com/wp-content/uploads/2019/07/twitch-game-live-streaming-app.jpg" alt="twitch game live streaming app" width="670" height="446" /></p>
+<p>When choosing games to play on a live stream, you&#8217;ll want to opt for new and popular games that are currently attracting attention. Trending games are more likely to get the attention of viewers, helping them discover your channel.</p>
+<p>Check <a href="//www.makeuseof.com/tag/10-websites-latest-game-reviews-gaming-news/">the best gaming sites</a> and search engines to see which recent games are in the news and garnering praise from players. If you manage to get a pre-release copy of a certain popular game, that&#8217;s even better.</p>
+<p>The Twitch homepage also shows a list of popular games among viewers if you&#8217;re struggling to find ideas. But it&#8217;s always advisable to do your research if you really want to find out what the gaming community is currently focusing on.</p>
+<p>At the same time, you don&#8217;t want to choose games that already have oversaturated coverage. Some popular games will still have streamers covering them months or years after launch. It&#8217;s difficult to compete with heavily established streams that have covered particular games for a considerable time.</p>
+<p>Audiences of AAA titles with oversaturated coverage tend to stick to the streamers they know, as they&#8217;ve had ample time to discover who covers games in a way that they enjoy. Therefore, you may want to opt for new indie titles that are less mainstream, yet still popular.</p>
+<h2>2. Live Stream Games Consistently</h2>
+<p>As with any sort of content publishing, you need to keep a regular schedule when starting a streaming channel. You can adjust this schedule depending on your own time commitments, but consistency is key. You should keep a steady, regular output instead of streaming in bursts and then going silent for unpredictable periods of time.</p>
+<p>If you don&#8217;t have much time during the week, don&#8217;t try to stream daily. It&#8217;s better to stream once a week or only on weekends if this is the case. Audiences prefer consistency over erratic and irregular content schedules.</p>
+<h2>3. Keep the Conversation Going</h2>
+<p><img class="aligncenter lazy-load" data-src="//static.makeuseof.com/wp-content/uploads/2017/12/microphone-667x500.jpg" alt="use microphone streaming tips for audience" width="667" height="500" /></p>
+<p>If you just sit silently while playing your game on a live stream, there&#8217;s not much of a reason for others to watch you. Don&#8217;t worry: you won&#8217;t need to constantly talk, especially if your game requires focus. However, keeping a conversation flowing goes a long way in keeping your audience engaged.</p>
+<p>In a skill-intensive game or dungeon, explain your strategy and what you&#8217;re doing. When playing a casual game, comment on your first impressions.</p>
+<p>If you&#8217;ve already done this, talk to your viewers, who will likely post questions and comments in the chat section. It doesn&#8217;t all need to be related to the game&#8212;sometimes your audience just wants to get to know you.</p>
+<p>The type of conversations you have will also depend on your audience. For example, subscribers to the various Yogscast live streams typically enjoy their tangential humor. But an audience of hardcore gamers might want more guidance and tips when it comes to difficult games.</p>
+<h2>4. Thank New Subscribers on Your Stream</h2>
+<p>Subscribers on game streaming sites such as Twitch are your bread and butter, so you should thank them accordingly. Even a small contribution helps you make money from gaming, so make sure your audience knows that you appreciate it.</p>
+<p>This may be difficult to do when you&#8217;re trying to focus on a game, but you can use a streaming plugin to somewhat automate the process. You should note that this doesn&#8217;t replace the need to make a personal mention during your stream. But it does give them some recognition while you wait for a gap in your gameplay where you can shift your attention.</p>
+<h2>5. Take Game and Song Requests</h2>
+<p>This is another way to show your audience that you care about their input and opinions. During your stream, ask them which games they would like you to try for your next session.</p>
+<p>If you like to play songs during your stream, you can also take requests. The simple gesture of allowing audience members to select a song on your playlist goes a long way in fostering interaction.</p>
+<h2>6. Interact With Your Followers on Social Media</h2>
+<p><img class="aligncenter size-full wp-image-886213 lazy-load" data-src="//static.makeuseof.com/wp-content/uploads/2019/07/twitter-app-sign-up.jpg" alt="twitter app sign up account" width="670" height="446" /></p>
+<p>Speaking of interaction, some of your audience members will want to interact with you outside of stream chat. This is especially true if they can&#8217;t tune in every time. You should share your various public social media handles with your subscribers.</p>
+<p>No, you don&#8217;t have to become Facebook friends with each follower. But you can share your Twitter handle and any other social media pages that you want them to visit.</p>
+<p>Even if you&#8217;re not necessarily sharing gaming-related posts, many audience members will still be interested in what you have to say. You can even check out social networks that are specifically for gamers. The important idea is to engage your audience outside of streaming sessions.</p>
+<h2>7. Give the Audience Incentives to Return</h2>
+<p>Increasingly, audience members are willing to subscribe to or sponsor content creators who give them the right incentives. Live streaming, however, is slightly different from traditional content creation. So what can you do to incentivize your audience?</p>
+<p>One of the best ways to do this is using giveaways. Just make sure that you understand the rules around contests for the platform you are using, and the region you are running the competition in.</p>
+<p>Great ideas for giveaways are gift cards, game service subscriptions, and games. Items like these, which you can send keys for digitally, can save you shipping costs when you&#8217;re just starting out. Depending on your streaming platform, you may be able to incentivize subscriptions. For example, <a href="//www.makeuseof.com/tag/twitch-subscriber-only-streams/">Twitch offers subscriber-only streams</a>.</p>
+<p>As your channel grows, you can aim higher and even get sponsored prizes from certain companies. But if you&#8217;re still a newbie, you could perhaps find some gaming deals to give away.</p>
+<h2>8. Get a Sponsor for Your Live Stream</h2>
+<p>For this step, you will need to already have a bit of a following. However, getting a sponsor can actually help you grow your audience further.</p>
+<p>Getting a sponsor is often cited by streamers as a way of gaining a larger following. Some attribute this to the increased credibility that comes with being endorsed by a brand.</p>
+<p>If you are unable to find a sponsor just yet, you should aim for affiliate status on a platform like Twitch. This increases your credibility while giving you additional revenue streams. However, this takes considerable hard work and is not a quick solution to gaining a following.</p>
+<h2>9. Get Other Gamers Involved</h2>
+<p>While live streaming is mostly a solo venture, it&#8217;s great to get some other gamers involved in your streams. It doesn&#8217;t have to be a regular feature or an official partnership. However, the occasional variety can be a great addition to your channel.</p>
+<p>Try to find gamers with whom you have some chemistry. Banter is one of the most entertaining things for gaming audiences, especially in multiplayer games. You won&#8217;t necessarily need the gamer to appear in person. In fact, some great partnerships are formed between streamers who have never met offline.</p>
+<p>You can also appear on someone else&#8217;s stream, which will give you extra exposure to potential new audience members. <a href="//www.makeuseof.com/tag/squad-stream-twitch-streamers-broadcast-together/">Squad Stream lets Twitch streamers broadcast together</a>.</p>
+<h2>10. Use Decent Equipment</h2>
+<p>One major factor that affects your audience&#8217;s viewing experience is streaming quality. You don&#8217;t need to worry about establishing a flawless, 4K stream. But you need to make sure the quality is acceptable. Hissing microphones, serious packet loss, and highly pixelated visuals will chase most audiences away.</p>
+<p>Make sure to equip yourself with a decent microphone and a fast internet connection before you stream. If you want to put a face to your stream, invest in a decent webcam too. Also, don&#8217;t try to play games which are too intensive for your gaming rig.</p>
+<h2>More Live Streaming Tips</h2>
+<p>Now you know some of the main ways to attract and retain an audience for your live streaming channel. However, you should use these live streaming tips while also improving the quality of your channel overall.</p>
+<p>If you need more guidance, be sure to check out our guide listing <a href="//www.makeuseof.com/tag/professional-live-stream-tips/">live streaming tips to make your channel more professional</a>.</p>
+<p class='appexclude'>Read the full article: <a href='https://www.makeuseof.com/tag/solo-live-streaming/'>10 Tips for Building an Audience for Your Live Streaming Channel</a></p>]]></content:encoded>
+							<wfw:commentRss />
+		<slash:comments>2</slash:comments>
+							</item>
+		<item>
+		<title>The 5 Best Body Contest Sites: Win Money for Being Fit</title>
+		<link>https://www.makeuseof.com/tag/5-best-body-contest-sites-where-you-can-win-money-for-being-fit/</link>
+				<comments>https://www.makeuseof.com/tag/5-best-body-contest-sites-where-you-can-win-money-for-being-fit/#comments</comments>
+				<pubDate>Thu, 01 Aug 2019 15:00:11 +0000</pubDate>
+		<dc:creator><![CDATA[Emma Roth]]></dc:creator>
+				<category><![CDATA[Internet]]></category>
+		<category><![CDATA[Fitness]]></category>
+		<category><![CDATA[Health]]></category>
+
+		<guid isPermaLink="false">https://www.makeuseof.com/?p=147072</guid>
+				<description><![CDATA[<div><img width="670" height="335" src="https://static.makeuseof.com/wp-content/uploads/2013/05/fitness-workout-websites-get-rewarded-featured-670x335.jpg" class="attachment-large size-large wp-post-image" alt="" /></div><p>What better way to motivate yourself to get into shape than with cold, hard cash? We all need that extra nudge sometimes, and money is usually the best way to drive yourself towards success. If you know that meeting your fitness goals can result in cash, there&#8217;s no way that you wouldn&#8217;t want to work towards that. Thankfully, several legitimate websites offer cash in exchange for weight loss. Whether you rely on the classic Body for Life workout, or you came up with your own, you definitely have a shot at winning if you work hard enough. Check out these...</p><p class='appexclude'>Read the full article: <a href='https://www.makeuseof.com/tag/5-best-body-contest-sites-where-you-can-win-money-for-being-fit/'>The 5 Best Body Contest Sites: Win Money for Being Fit</a></p>]]></description>
+								<content:encoded><![CDATA[<div><img width="1680" height="840" src="https://static.makeuseof.com/wp-content/uploads/2013/05/fitness-workout-websites-get-rewarded-featured.jpg" class="attachment-featured size-featured wp-post-image" alt="" /></div><p>What better way to motivate yourself to get into shape than with cold, hard cash? We all need that extra nudge sometimes, and money is usually the best way to drive yourself towards success. If you know that meeting your fitness goals can result in cash, there&#8217;s no way that you wouldn&#8217;t want to work towards that.</p>
+<p>Thankfully, several legitimate websites offer cash in exchange for weight loss.</p>
+<p>Whether you rely on the classic Body for Life workout, or you came up with your own, you definitely have a shot at winning if you work hard enough. Check out these fitness contests and start earning money for your progress.</p>
+<h2>1. <a href="https://www.bodybuilding.com/fun/transformation-challenge.html">Bodybuilding.com All Access Challenge Series</a></h2>
+<p><img class="aligncenter size-full wp-image-886171 lazy-load" data-src="//static.makeuseof.com/wp-content/uploads/2019/07/all-access-challenge.png" alt="All Access Body Building Challenge" width="670" height="284" /></p>
+<p>You don&#8217;t have to look like a bodybuilder to win a Bodybuilding.com contest. The All Access Challenge Series pushes contestants to their limits as they try to achieve the most shocking transformations.</p>
+<p>The contest has two winners: one male and one female. Both winners get a whopping <strong>$50,000</strong> for becoming fitter than ever. In order to take home the grand prize, you have to show the most change from your before and after photo.</p>
+<p>Even if you don&#8217;t end up winning the entire contest, you&#8217;re still eligible to win smaller prizes throughout its duration. Bodybuilding.com announces weekly contests and mini challenges on its Instagram account. These challenges have hundreds of winners every week, making Bodybuilding.com one of the best bodybuilding websites for prizes.</p>
+<p>Any newbies to fitness should consider using <a href="//www.makeuseof.com/tag/random-exercise-workout-generators/">free exercise and workout generators</a>&#8212;these varied routines might increase your chances of winning!</p>
+<h2>2. <a href="https://www.beachbodychallenge.com/">Beachbody Challenge</a></h2>
+<p><img class="aligncenter size-full wp-image-886172 lazy-load" data-src="//static.makeuseof.com/wp-content/uploads/2019/07/beachbody-challenge.png" alt="Beachbody Challenge Weight Loss" width="670" height="335" /></p>
+<p>With the Beachbody Challenge, you can enter for a chance to win <strong>$100,000</strong> just for having an amazing beach body. Before you start the challenge, you&#8217;ll have to purchase one of Team Beachbody&#8217;s Challenge Packs. The Challenge Packs are fitness regimes that include a nutrition program, dietary supplements, as well as support from a fitness community.</p>
+<p>Make sure you take a picture of yourself before beginning the regime. By the time you complete the Challenge Pack, you&#8217;ll hopefully see stunning results.</p>
+<p>Submit both your before and after photos, along with your old and new measurements to the Beachbody Challenge for a chance to win. You&#8217;ll automatically receive a free T-shirt just for entering.</p>
+<p>When you scope out the Challenge&#8217;s homepage, you&#8217;ll see dozens of entrants of all ages transform from out-of-shape to super fit. Eat right and <a href="//www.makeuseof.com/tag/exercise-right-now-anywhere/">build an exercise program that you can do anywhere</a> to achieve the same results.</p>
+<h2>3. <a href="https://www.healthywage.com/">Healthy Wage</a></h2>
+<p><img class="aligncenter size-full wp-image-886173 lazy-load" data-src="//static.makeuseof.com/wp-content/uploads/2019/07/healthy-wage-challenge.png" alt="Healthy Wage Weight Loss Challenge" width="670" height="321" /></p>
+<p>With Healthy Wage, you can place a bet on yourself. To start, click<strong> Calculate Prize</strong> on the home page to see how much you can win. Healthy Wage will ask you to input how much weight you want to lose, the amount of time you need to lose the weight, and how much money you&#8217;re willing to bet on yourself.</p>
+<p>The more weight you want to lose, the higher your cash prize goes. You can also earn more money by placing a higher bet on yourself. Although you&#8217;ll have to pay to partake in this contest, it&#8217;s worth it if you manage to lose the weight. At the end of the challenge, you have to film a video of your final weigh-in to earn your prize.</p>
+<p>Healthy Wage also gives teams the option to lose weight together.</p>
+<p>In the <a href="https://www.healthywage.com/diet-contest/team-challenge/">Next Team Challenge</a>, teams of five can compete to lose the most weight. If you manage to keep your weight down after six months pass, Healthy Wage will return your entry fee.</p>
+<p>The Next Team Challenge requires you to pay $25 per month if you&#8217;re participating with a company, or $33 per month if you&#8217;re not associated with one&#8212;either way, your team can win a <strong>$10,000 prize</strong>.</p>
+<h2>4. <a href="https://www.dietbet.com/">DietBet</a></h2>
+<p><img class="aligncenter size-full wp-image-886174 lazy-load" data-src="//static.makeuseof.com/wp-content/uploads/2019/07/dietbet-challenge.png" alt="DietBet Weight Loss Challenge" width="670" height="309" /></p>
+<p>DietBet gives you the chance to split a pool of cash with other successful contestants. It&#8217;s just like gambling, except you&#8217;re betting on your own fitness. You must enter a bet into the pool each month to ensure that you won&#8217;t go off track and fail to meet your goals.</p>
+<p>In other words, you better get on a fitness program or download some <a href="//www.makeuseof.com/tag/gym-workout-apps/">free workout apps</a>, otherwise, you might lose some cash.</p>
+<p>You can choose from several different challenges on DietBet.</p>
+<p>You&#8217;ll see some games that have thousands of players, while others only have dozens. With more players, you&#8217;ll likely have a shot at winning more cash (just keep in mind that you&#8217;ll have to share it with other winners).</p>
+<p>Each game has different goals as well&#8212;some invite you to lose 4% of your weight in four weeks, and some encourage a larger amount.</p>
+<p>If you want to create a challenge among a group of friends and family, DietBet lets you do that too. Establish your own game and see who loses the most weight. Competing against your friends and family will only motivate you more.</p>
+<h2>5. <a href="https://www.burnthefatinnercircle.com/public/Burn-The-Fat-Contest-Calendar.cfm">Burn the Fat Challenge</a></h2>
+<p><img class="aligncenter size-full wp-image-886175 lazy-load" data-src="//static.makeuseof.com/wp-content/uploads/2019/07/burn-fat-challenge.png" alt="Burn the Fat Weight Loss Challenge" width="670" height="332" /></p>
+<p>Burn the Fat has several annual challenges. The challenges vary in duration&#8212;some occur over the span of seven weeks, while others run for just four weeks.</p>
+<p>You&#8217;ll notice that the challenges also have different conditions. For example, the Burn the Fat Love Your Body Challenge is based solely on the points you rack up for following your meal plan, completing challenges, and so on. If you finish the challenge, you&#8217;ll get entered in a draw to win prizes.</p>
+<p>The Burn the Fat Summer Challenge is based on the total transformation of your body. You have to submit photos of your body before and after the challenge, and also participate in weekly weigh-ins.</p>
+<p>This huge event offers some of the best prizes&#8212;<strong>you might win a trip to a tropical island if you succeed!</strong></p>
+<p>The Summer Challenge has several categories of winners, such as best male and female overall, most ripped, and even most fit over age 50. It&#8217;s both a fantastic fitness model competition, as well as a great way for the average person to lose weight.</p>
+<h2>Fitness Contests Pay Off in the End</h2>
+<p>Not only do fitness contests pay off physically, but they can pay off financially as well. Money is one of humanity&#8217;s greatest source of motivation, making cash-prize competitions the best way to motivate yourself to lose weight.</p>
+<p>Looking for more ways to get fit? Check out the <a href="//www.makeuseof.com/tag/best-workout-apps/">best workout apps to get into shape</a>.</p>
+<p class='appexclude'>Read the full article: <a href='https://www.makeuseof.com/tag/5-best-body-contest-sites-where-you-can-win-money-for-being-fit/'>The 5 Best Body Contest Sites: Win Money for Being Fit</a></p>]]></content:encoded>
+							<wfw:commentRss />
+		<slash:comments>1</slash:comments>
+							</item>
+		<item>
+		<title>6 Custom Planners You Can Easily Make With Google Drive</title>
+		<link>https://www.makeuseof.com/tag/6-custom-planners-can-easily-make-google-drive/</link>
+				<comments>https://www.makeuseof.com/tag/6-custom-planners-can-easily-make-google-drive/#comments</comments>
+				<pubDate>Thu, 01 Aug 2019 14:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[Akshata Shanbhag]]></dc:creator>
+				<category><![CDATA[Productivity]]></category>
+		<category><![CDATA[Google Docs]]></category>
+		<category><![CDATA[Google Drive]]></category>
+		<category><![CDATA[Planning Tool]]></category>
+		<category><![CDATA[Productivity Tricks]]></category>
+
+		<guid isPermaLink="false">https://www.makeuseof.com/?p=508811</guid>
+				<description><![CDATA[<div><img width="670" height="335" src="https://static.makeuseof.com/wp-content/uploads/2015/10/planner-google-drive-670x335.jpg" class="attachment-large size-large wp-post-image" alt="planner-google-drive" /></div><p>Are the sticky notes scattered all over your desk doing a poor job of recording what&#8217;s on your mind and tracking what&#8217;s on your plate? Why not ditch them for a Google Drive planner? Google Drive is free, cross-platform, versatile, user friendly, and flexible. These qualities make it the perfect tool to map your plans for every aspect of your life and, what&#8217;s more, to follow through on them! The following sample online planners featuring Google tools will demonstrate that. 1. Daily Planner An old-fashioned school timetable may be just what you need to identify and schedule your most important...</p><p class='appexclude'>Read the full article: <a href='https://www.makeuseof.com/tag/6-custom-planners-can-easily-make-google-drive/'>6 Custom Planners You Can Easily Make With Google Drive</a></p>]]></description>
+								<content:encoded><![CDATA[<div><img width="1680" height="840" src="https://static.makeuseof.com/wp-content/uploads/2015/10/planner-google-drive.jpg" class="attachment-featured size-featured wp-post-image" alt="planner-google-drive" /></div><p>Are the sticky notes scattered all over your desk doing a poor job of recording what&#8217;s on your mind and tracking what&#8217;s on your plate? Why not ditch them for a Google Drive planner?</p>
+<p>Google Drive is free, cross-platform, versatile, user friendly, and flexible. These qualities make it the perfect tool to map your plans for every aspect of your life and, what&#8217;s more, to follow through on them! The following sample online planners featuring Google tools will demonstrate that.</p>
+<h2>1. Daily Planner</h2>
+<p><img class="aligncenter lazy-load" data-src="//static.makeuseof.com/wp-content/uploads/2019/07/day-planner-in-google-docs.jpg" alt="day planner in Google Docs" width="670" height="380" /></p>
+<p>An old-fashioned school timetable may be just what you need to identify and schedule your most important tasks for the day. It&#8217;ll give you a framework to plan your entire work week and help you edge out the not-so-important tasks.</p>
+<p>Google Docs makes it easy to create a daily planner. All you have to do is set up a 5xX table and fill in your tasks. (Of course, you can go with a 7xX table if you want to include weekend days in your planner.)</p>
+<p>Click on <strong>Insert &gt; Table</strong> to begin.</p>
+<p>Schedule your tasks in a way that feels intuitive for you and your needs. You can go with half- or one-hour slots, 25-minute slots in keeping with <a href="https://francescocirillo.com/pages/pomodoro-technique">the Pomodoro technique</a>, or any other duration.</p>
+<p>If you want to divide your tasks by the time of the day, type of task, or its priority, go ahead. You might want to color-code certain elements in the planner and leave little notes and markers around to visualize your day better.</p>
+<p>With such a Google Docs planner, it&#8217;s easy to share your schedule with someone else&#8212;you don&#8217;t have to worry about the kind of calendar app they use! Of course, the planner may not be as polished as some of the dedicated day planners available online. But what it lacks in polish it makes up for in customizability and accessibility.</p>
+<h2>2. Route Planner</h2>
+<p><img class="aligncenter lazy-load" data-src="//static.makeuseof.com/wp-content/uploads/2019/07/route-planner-in-google-drive.jpg" alt="route planner in Google Drive" width="670" height="479" /></p>
+<p>Google Drive&#8217;s <strong>My Maps</strong> feature is ideal for creating a detailed route planner for your next trip. Such a planner can be so much more effective than any file folder or notebook. Having instant access to your travel plans and details when you&#8217;re en route is sure to go a long way to make your travel experience stress free.</p>
+<p>To start creating a route planner, click on <strong>New &gt; More &gt; Google My Maps</strong> in Google Drive.</p>
+<p>You can include key points such as hotels you&#8217;ve booked, restaurants you want to try, and unmissable sight-seeing spots along your route. It&#8217;s handy that you have the option to supplement the map with notes about hotel bookings, dinner reservations, and such.</p>
+<p>Your route planner can even take you on a quick, sweet trip down memory lane if you add a few of your best trip photos to the map after you&#8217;re back!</p>
+<p>Creating a route planner in Google Drive is just one of the unique ways to <a href="//www.makeuseof.com/tag/5-unique-ways-use-google-maps-google-tools/">use Google Maps with other Google tools</a>. Here are a few more below.</p>
+<h2>3. Interior Design Planner</h2>
+<p><img class="aligncenter lazy-load" data-src="//static.makeuseof.com/wp-content/uploads/2019/07/floorplanner-demo-version.jpg" alt="Floorplanner demo version" width="670" height="480" /></p>
+<p>Google Drive isn&#8217;t just for schedules and travel&#8212;you can also use it to plan &#8220;designy&#8221; aspects of your life with <a href="https://floorplanner.com/">Floorplanner</a>. This Google Drive add-on lets you sketch out design ideas for your home and office with 2D and 3D floor plans. It&#8217;s especially handy for interior designers.</p>
+<p>Have you forgotten the square footage of your entryway? Do you need to show a contractor the space that they&#8217;ll be working with?</p>
+<p>Stay prepared for such times with an up-to-date virtual representation of your house (or office) on Floorplanner. This ensures that you don&#8217;t have to guess the dimensions anytime. Whether you&#8217;re buying a new couch for your living room or mentally remodeling your kitchen, you&#8217;ll always have accurate measurements at hand.</p>
+<p>Try <a href="https://floorplanner.com/demo">Floorplanner&#8217;s demo version</a> to see the tool in action before signing up for an account.</p>
+<h2>4. Event Planner</h2>
+<p><img class="aligncenter lazy-load" data-src="//static.makeuseof.com/wp-content/uploads/2019/07/calendar-for-event-planning-in-google-docs.jpg" alt="Calendar for event planning in Google Docs" width="670" height="254" /></p>
+<p>Whether you&#8217;re organizing an intimate birthday dinner or a large wedding, Google Drive can double up as your event planner. You can:</p>
+<ul>
+<li>Highlight important dates with a personalized Google Docs calendar. (Click on <strong>Insert &gt; Table</strong> to start creating one.)</li>
+<li>Use Google Drive&#8217;s chat tool and real-time commenting system to keep everyone involved in planning the event on the same page at all times.</li>
+<li>Add a shared, editable to-do list to make everyone&#8217;s responsibilities clear.</li>
+<li>Maintain a Google Sheets budget sheet to keep everyone&#8217;s spending in check.</li>
+<li>Set up a Google Forms form for RSVPs to push attendees&#8217; names and details to a Google Sheets file automatically.</li>
+</ul>
+<p>If you have much to do and no idea where to begin, start off with a template that comes with pre-filled sections and suggestions. For example, if you&#8217;re planning a wedding, you can begin with the wedding template in our list of <a class="no-callout" href="//www.makeuseof.com/tag/24-google-docs-templates-will-make-life-easier/">useful Google Docs planner templates</a>.</p>
+<p>We must stress how important it is to minimize the number of files you use for event planning and collaboration. Otherwise, both your data and conversations will end up scattered and your planning effort messy.</p>
+<h2>5. Hobby Planner</h2>
+<p><img class="aligncenter lazy-load" data-src="//static.makeuseof.com/wp-content/uploads/2019/07/hobby-planner-template-in-google-docs.jpg" alt="Hobby planner template in Google Docs" width="670" height="240" /></p>
+<p>It might seem counter-intuitive to plan out a hobby. After all, hobbies are something you do to relax!</p>
+<p>But what if the said hobby involves developing a skill&#8212;think learning a language or a musical instrument? In such a case, having a proper plan ready to go is much better than winging it. You&#8217;ll level up faster and more effectively with the first route.</p>
+<p>Why choose a digital planner over a paper planner? You can make the former interactive, with links to the right learning resources online. Feel free to link to videos, images, articles, and even podcast episodes.</p>
+<p>For example, while allotting an hour for guitar practice on Tuesday, why not include a link to a useful YouTube video on strumming technique, too? You can even insert an image of the chords for a new song you want to learn.</p>
+<p>Want to get more use out of your hobby planner?</p>
+<p>Consider including a chart to map your progress against the timeline for your goal after each learning session. You could even add a &#8220;journal&#8221; section to reflect on your learning or <a class="no-callout" href="//www.makeuseof.com/tag/google-calendar-personal-journal/">set up a Google Calendar journal</a> to track your progress.</p>
+<h2>6. Lesson Planner</h2>
+<p><img class="aligncenter lazy-load" data-src="//static.makeuseof.com/wp-content/uploads/2019/07/lesson-plan-template-in-google-docs.jpg" alt="lesson plan template in Google Docs" width="670" height="480" /></p>
+<p>If you&#8217;re a teacher, you might want to get a free online lesson planner to help you prepare well for upcoming classes. How about creating one yourself in Google Drive? You don&#8217;t even have to start from scratch! Google Docs has a few lesson plan templates lined up for you.</p>
+<p>To use one of them as a jumping point, click on <strong>New &gt; Google Docs &gt; From a template</strong> and select a template you like.</p>
+<p>Divide content into sections to match your timeline for the session. Don&#8217;t hesitate to insert drawings to create flowcharts and diagrams to highlight ideas and for better recall. You can also link to special resources that you want to share with your students.</p>
+<p>Pair Google Drive with <a href="https://classroom.google.com">Google Classroom</a> to organize, simplify, and speed up your teaching work. With this combination, you can do everything from giving assignments to sharing feedback with your students.</p>
+<h2>The World of Planners Is Yours for the Taking</h2>
+<p>While we&#8217;ve shown you how to make a planner in Google Docs for various tasks, you don&#8217;t have to rely on this app only. Planners created in Google Sheets can be just as effective since both these Google Drive apps share a certain subset of tools.</p>
+<p>Sure, you can go with a dedicated planner app, but managing your planners from the same location as your other files&#8212;Google Drive&#8212;is easier. (That&#8217;s especially the case if you rely on your Google account for everything.)</p>
+<p>For example, in both Docs and Sheets, you can insert charts, images, and drawings, and also collaborate with others in real time.</p>
+<p>Google Drive is limitless in its potential, thanks to a robust set of features and a growing number of <a href="//www.makeuseof.com/tag/google-drive-tools-for-better-docs/">creative and practical Google Drive tools</a>.</p>
+<p class='appexclude'>Read the full article: <a href='https://www.makeuseof.com/tag/6-custom-planners-can-easily-make-google-drive/'>6 Custom Planners You Can Easily Make With Google Drive</a></p>]]></content:encoded>
+							<wfw:commentRss />
+		<slash:comments>7</slash:comments>
+							</item>
+		<item>
+		<title>How Much Is a Hoverboard and Should You Buy One?</title>
+		<link>https://www.makeuseof.com/tag/how-much-is-a-hoverboard/</link>
+				<comments>https://www.makeuseof.com/tag/how-much-is-a-hoverboard/#respond</comments>
+				<pubDate>Thu, 01 Aug 2019 13:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[Alice Kotlyarenko]]></dc:creator>
+				<category><![CDATA[Technology Explained]]></category>
+		<category><![CDATA[Buying Tips]]></category>
+		<category><![CDATA[Hoverboard]]></category>
+
+		<guid isPermaLink="false">https://www.makeuseof.com/?p=876503</guid>
+				<description><![CDATA[<div><img width="670" height="335" src="https://static.makeuseof.com/wp-content/uploads/2019/08/how-much-hoverboard-670x335.jpg" class="attachment-large size-large wp-post-image" alt="how-much-hoverboard" /></div><p>In 2015 a new fad was born: hoverboards. Since then they&#8217;ve been through internet obsession, celebrity endorsements, bad press, and downright bans. And even if the hoverboards&#8217; popularity is dwindling down, they&#8217;re still fun to ride and kids still love them. So if you&#8217;re thinking about getting one, here are the answers to your burning questions: how much is a hoverboard and is it worth it? What Exactly Is a Hoverboard? It would be the coolest thing in the world if you could pull a Marty McFly and actually hover above the ground on a board. But most of the...</p><p class='appexclude'>Read the full article: <a href='https://www.makeuseof.com/tag/how-much-is-a-hoverboard/'>How Much Is a Hoverboard and Should You Buy One?</a></p>]]></description>
+								<content:encoded><![CDATA[<div><img width="1680" height="840" src="https://static.makeuseof.com/wp-content/uploads/2019/08/how-much-hoverboard.jpg" class="attachment-featured size-featured wp-post-image" alt="how-much-hoverboard" /></div><p>In 2015 a new fad was born: hoverboards. Since then they&#8217;ve been through internet obsession, celebrity endorsements, bad press, and downright bans. And even if the hoverboards&#8217; popularity is dwindling down, they&#8217;re still fun to ride and kids still love them.</p>
+<p>So if you&#8217;re thinking about getting one, here are the answers to your burning questions: how much is a hoverboard and is it worth it?</p>
+<h2>What Exactly Is a Hoverboard?</h2>
+<p>It would be the coolest thing in the world if you could pull a Marty McFly and actually hover above the ground on a board. But most of the time when people say &#8220;hoverboard,&#8221; that&#8217;s not quite what they mean.</p>
+<p>The official name for the hoverboard you have in mind is &#8220;a self-balancing scooter.&#8221; It&#8217;s an hourglass-shaped frame on two wheels that uses a gyroscope and an electric motor to move.</p>
+<p>When you lean forward on a hoverboard, the gyroscope detects that and sends a signal to the logic board, which in turn tells the motor to spin. That means the stronger you lean forward, the faster you go. The system is uncomplicated, but getting your hoverboard legs may take some time.</p>
+<h2>How Much Does a Hoverboard Cost?</h2>
+<p>Hoverboards are fairly pricey, which may seem unjustified&#8212;it&#8217;s pretty much a toy. But since your health and safety are going to depend on the quality of your device, you may want to pass on the sketchy $12.99 model your Google search has yielded.</p>
+<p>We turned to Amazon for prices on legitimate hoverboards, and they varied <strong>from $105 to $775</strong> for a typical model. The real hoverboards that are more like those in Back to the Future II (look like a skateboard that almost hovers above the ground) can be as expensive as $1,999.</p>
+<h3>How Much Is the Cheapest Hoverboard on Amazon?</h3>
+<p>The cheapest hoverboards on Amazon are models by Cho Power Sports and Dartjet. The <a href="https://www.amazon.com/CHO-Original-Balancing-Hoverboard-Certified/dp/B07FHY69C7">Cho Electric Self Balancing Dual Motors Scooter Hoverboard</a> comes with a $105 price tag and free shipping.</p>
+<span class='link-callout amz-callout e0e5c9b33c69ca6093b99d0a88547105' style='display: block;' data-product='Cho Electric Self Balancing Dual Motors Scooter Hoverboard' data-upc=''>
+              <span class='link-callout-image' style='background-image:url(//static.makeuseof.com/wp-content/themes/makeuseof2016/components/icons/no-image.png)'><span class='link-callout-image-container' style='background-image:url("https://images-na.ssl-images-amazon.com/images/I/51o%2BDa8u38L._SL160_.jpg")'>
+                  <a href='https://www.amazon.com/Cho-Electric-Balancing-Scooter-Hoverboard/dp/B07FHY69C7?psc=1&SubscriptionId=AKIAIO22DD3AFUSKXUKQ&tag=makeusw-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07FHY69C7' rel='nofollow' target='_blank'>Cho Electric Self Balancing Dual Motors Scooter Hoverboard</a>
+              </span></span><span class='link-callout-info'>
+            <span class='link-callout-title'>
+              <a href='https://www.amazon.com/Cho-Electric-Balancing-Scooter-Hoverboard/dp/B07FHY69C7?psc=1&SubscriptionId=AKIAIO22DD3AFUSKXUKQ&tag=makeusw-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07FHY69C7'>Cho Electric Self Balancing Dual Motors Scooter Hoverboard</span></a><a href='https://www.amazon.com/Cho-Electric-Balancing-Scooter-Hoverboard/dp/B07FHY69C7?psc=1&SubscriptionId=AKIAIO22DD3AFUSKXUKQ&tag=makeusw-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07FHY69C7' class='link-callout-link' rel='nofollow' target='_blank'>
+            <svg><use xlink:href="#icon-amazon"></svg> Buy Now On Amazon </a><span class='link-callout-price'>$105.00</span></span></span>
+<p>The flashy <a href="https://www.amazon.com/Dartjet-Self-Balanced-Hoverboard-Certified-Illuminated/dp/B07HHMTGV9">Dartjet 6.5&#8243; Smart Self-Balanced Hoverboard</a> costs $107.99 with free shipping&#8212;the price is valid for the Chrome Gold and Chrome Rose color options.</p>
+<span class='link-callout amz-callout cfda74ff3e0c134ec7948357c38e83a0' style='display: block;' data-product='Dartjet 6.5 Smart Self-Balanced Hoverboard' data-upc='794568510223'>
+              <span class='link-callout-image' style='background-image:url(//static.makeuseof.com/wp-content/themes/makeuseof2016/components/icons/no-image.png)'><span class='link-callout-image-container' style='background-image:url("https://images-na.ssl-images-amazon.com/images/I/41VdudppZpL._SL160_.jpg")'>
+                  <a href='https://www.amazon.com/Dartjet-Self-Balanced-Hoverboard-Certified-Illuminated/dp/B07HHMTGV9?psc=1&SubscriptionId=AKIAIO22DD3AFUSKXUKQ&tag=makeusw-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07HHMTGV9' rel='nofollow' target='_blank'>Dartjet 6.5 Smart Self-Balanced Hoverboard</a>
+              </span></span><span class='link-callout-info'>
+            <span class='link-callout-title'>
+              <a href='https://www.amazon.com/Dartjet-Self-Balanced-Hoverboard-Certified-Illuminated/dp/B07HHMTGV9?psc=1&SubscriptionId=AKIAIO22DD3AFUSKXUKQ&tag=makeusw-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07HHMTGV9'>Dartjet 6.5 Smart Self-Balanced Hoverboard</span></a><a href='https://www.amazon.com/Dartjet-Self-Balanced-Hoverboard-Certified-Illuminated/dp/B07HHMTGV9?psc=1&SubscriptionId=AKIAIO22DD3AFUSKXUKQ&tag=makeusw-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07HHMTGV9' class='link-callout-link' rel='nofollow' target='_blank'>
+            <svg><use xlink:href="#icon-amazon"></svg> Buy Now On Amazon </a><span class='link-callout-price'>$119.99</span></span></span>
+<p>Both hoverboards are UL-2272 certified, which means they&#8217;re not deemed a fire hazard, and come with built-in Bluetooth speakers and LED lights.</p>
+<h3>What Is the Best Hoverboard for the Price?</h3>
+<p>If you want a decent hoverboard that doesn&#8217;t cost an arm and a leg, the <a href="https://www.amazon.com/TOMOLOO-Hoverboard-Bluetooth-Certified-Balancing/dp/B07RXW7D73">TOMOLOO Hoverboard w/ Bluetooth and LED Lights</a> is a great option for its $199.99. The unit has non-tacky design and glowing reviews, plus it looks sturdy and comes well-packaged.</p>
+<p>Most customers praise the hoverboard&#8217;s battery life and say it&#8217;s easy to ride on various surfaces thanks to larger wheels and higher clearance. And of course, it&#8217;s UL2272-certified.</p>
+<span class='link-callout amz-callout 5007697ee7616161842dc49680a86a70' style='display: block;' data-product='Dartjet 6.5' data-upc='796862942267'>
+              <span class='link-callout-image' style='background-image:url(//static.makeuseof.com/wp-content/themes/makeuseof2016/components/icons/no-image.png)'><span class='link-callout-image-container' style='background-image:url("https://images-na.ssl-images-amazon.com/images/I/41bH%2BAFHnIL._SL160_.jpg")'>
+                  <a href='https://www.amazon.com/TOMOLOO-Hoverboard-Bluetooth-Certified-Balancing/dp/B07RXW7D73?psc=1&SubscriptionId=AKIAIO22DD3AFUSKXUKQ&tag=makeusw-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07RXW7D73' rel='nofollow' target='_blank'>Dartjet 6.5</a>
+              </span></span><span class='link-callout-info'>
+            <span class='link-callout-title'>
+              <a href='https://www.amazon.com/TOMOLOO-Hoverboard-Bluetooth-Certified-Balancing/dp/B07RXW7D73?psc=1&SubscriptionId=AKIAIO22DD3AFUSKXUKQ&tag=makeusw-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07RXW7D73'>Dartjet 6.5</span></a><a href='https://www.amazon.com/TOMOLOO-Hoverboard-Bluetooth-Certified-Balancing/dp/B07RXW7D73?psc=1&SubscriptionId=AKIAIO22DD3AFUSKXUKQ&tag=makeusw-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07RXW7D73' class='link-callout-link' rel='nofollow' target='_blank'>
+            <svg><use xlink:href="#icon-amazon"></svg> Buy Now On Amazon </a><span class='link-callout-price'>$199.99</span></span></span>
+<h2>Things You Should Know Before Buying a Hoverboard</h2>
+<p>The price is not the only thing on your mind when you&#8217;re shopping for a hoverboard. There are definitely concerns associated with putting your 10-year-old (or yourself) on a self-balancing piece of plastic. Are hoverboards safe? How old should a child be to ride one?</p>
+<p>Here are the answers to the questions you likely have.</p>
+<h3>Are Hoverboards Safe to Ride?</h3>
+<p>Hoverboards have been given a bad name lately, so of course you&#8217;re wondering about their safety. Some models are known to catch on fire, because the lithium-ion batteries that power them overheat. And then there&#8217;s the risk of injury, because it&#8217;s so easy to fall off the self-balancing board.</p>
+<p>According to <a href="https://journals.sagepub.com/doi/pdf/10.1177/0009922816687327">a study published in Clinical Pediatrics</a>, &#8220;from November 2015 to January 2016, 2.3% of all fractures were related to hoverboards.&#8221; But while hoverboards are risky, they aren&#8217;t necessarily dangerous. In terms of injury, hoverboards are about as safe as roller skates and skateboards&#8212;provided they&#8217;re used responsibly.</p>
+<p>As far as fire safety is concerned, the US Consumer Product Safety Commission keeps a close eye on hoverboards and has recalled several models it deemed a fire hazard. The CPSC has also shared safety tips you should follow to reduce the risk of fire.</p>
+<p>Let&#8217;s go over those and other precautions to take when riding a hoverboard.</p>
+<h3>How to Make Sure a Hoverboard Is Safe</h3>
+<p>The thought of your new hoverboard catching fire is definitely not a comforting one. Here&#8217;s what you should do to make sure that doesn&#8217;t happen:</p>
+<ul>
+<li><strong>Check the list of <a href="https://www.cpsc.gov/Recalls?combine=hoverboard">hoverboards recalled by the CPSC</a>.</strong> If the CPSC has recalled the model you&#8217;re eyeing, you should definitely take your business elsewhere.</li>
+<li><strong>Make sure the hoverboard is compliant with the UL 2272 safety standard.</strong> The packaging or the product should have a certification mark for self-balancing scooters or a personal e-Mobility label. Make sure the whole unit is UL 2272-certified, not just the battery or the charger.</li>
+<li><strong>Buy from a reputable seller.</strong> If the hoverboard is significantly cheaper than similar ones, or the store looks questionable, the unit may not be safe to use. It&#8217;s important to understand that just because a hoverboard is on Amazon, that doesn&#8217;t mean the seller is Amazon itself.</li>
+<li><strong>Charge carefully.</strong> Only use the charger that came with the hoverboard, and keep an eye on the device when it&#8217;s charging.</li>
+</ul>
+<p>Now, if we&#8217;re talking about injuries, the study above shows that the most common ones are fractures, mainly of arms, fingers, and ankles. Their causes are either falling off the hoverboard or getting one&#8217;s fingers trapped between the wheel and the wheel well.</p>
+<p>Here&#8217;s how to make sure riding a hoverboard is safe for you and your child:</p>
+<ul>
+<li><strong>Wear protective gear</strong>, such as wrist guards, a helmet, elbow pads, and knee pads. It&#8217;s a default for roller skating, but people tend to ignore protection when riding a hoverboard. Wrist guards alone reduce the impact of falling on your hands by 50%, so wearing them can help you avoid broken wrists and forearms.</li>
+<li><strong>Don&#8217;t hold the hoverboard by the wheels or the wheel wells.</strong> Generally, keep your hands away from the moving parts of your hoverboard, even when it&#8217;s not moving.</li>
+<li><strong>Ride on even surfaces with ample space for maneuver.</strong> A bump on the road can cause you to lose balance and fall, while crashing into furniture in a cramped living room increases risk of fire. Also, keep in mind that many cities have banned the use of hoverboards in public spaces.</li>
+</ul>
+<h3>What Is the Minimum Age and Weight for a Hoverboard?</h3>
+<p>Hoverboards typically work for riders who weigh <strong>between 45 and 300 pounds</strong>. But do check the manufacturer&#8217;s website to see if the hoverboard you&#8217;ve been eyeing has a different weight requirement. If the rider&#8217;s weight is too low, the hoverboard might have trouble balancing.</p>
+<p>Most manufacturers say the minimum age to ride their hoverboards is eight years old; some don&#8217;t recommend their hoverboards for children under 13. But keep in mind that certain cities and states may restrict the rider&#8217;s age even further (for example, a California bill requires you to be at least 16 years old to ride a hoverboard).</p>
+<h3>How Long Does a Hoverboard Battery Last?</h3>
+<p>How far you can go on a hoverboard depends on just one thing: battery charge. And how long the hoverboard&#8217;s battery charge will last depends on the following:</p>
+<ul>
+<li>The brand of the hoverboard</li>
+<li>Your weight</li>
+<li>The steepness and smoothness of the terrain you&#8217;re riding</li>
+<li>The temperature outside (extreme heat and cold drain the battery faster)</li>
+<li>Whether you&#8217;re going at a steady speed or stopping from time to time</li>
+</ul>
+<p>If you look at the specs for different hoverboards, you&#8217;ll see the riding time doesn&#8217;t necessarily increase with the price. A cheaper hoverboard like the Cho model above can go for over an hour at maximum speed. And the more expensive <a href="https://www.amazon.com/Swagtron-Swagboard-App-Enabled-Hoverboard-Self-Balancing/dp/B07L6QLG1Q">Swagtron hoverboard</a> will perform roughly the same. It travels up to eight miles per charge at a maximum speed of 7.5 miles per hour.</p>
+<span class='link-callout amz-callout a398c5583dc387d747fb332b86e160fa' style='display: block;' data-product='Swagtron Swagboard App-Enabled Hoverboard' data-upc='854094008196'>
+              <span class='link-callout-image' style='background-image:url(//static.makeuseof.com/wp-content/themes/makeuseof2016/components/icons/no-image.png)'><span class='link-callout-image-container' style='background-image:url("https://images-na.ssl-images-amazon.com/images/I/41lq7jy8XUL._SL160_.jpg")'>
+                  <a href='https://www.amazon.com/Swagtron-Swagboard-App-Enabled-Hoverboard-Self-Balancing/dp/B07L6QLG1Q?psc=1&SubscriptionId=AKIAIO22DD3AFUSKXUKQ&tag=makeusw-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07L6QLG1Q' rel='nofollow' target='_blank'>Swagtron Swagboard App-Enabled Hoverboard</a>
+              </span></span><span class='link-callout-info'>
+            <span class='link-callout-title'>
+              <a href='https://www.amazon.com/Swagtron-Swagboard-App-Enabled-Hoverboard-Self-Balancing/dp/B07L6QLG1Q?psc=1&SubscriptionId=AKIAIO22DD3AFUSKXUKQ&tag=makeusw-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07L6QLG1Q'>Swagtron Swagboard App-Enabled Hoverboard</span></a><a href='https://www.amazon.com/Swagtron-Swagboard-App-Enabled-Hoverboard-Self-Balancing/dp/B07L6QLG1Q?psc=1&SubscriptionId=AKIAIO22DD3AFUSKXUKQ&tag=makeusw-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07L6QLG1Q' class='link-callout-link' rel='nofollow' target='_blank'>
+            <svg><use xlink:href="#icon-amazon"></svg> Buy Now On Amazon </a><span class='link-callout-price'>$774.04</span></span></span>
+<h2>Should You Buy a Hoverboard?</h2>
+<p>If you&#8217;re shopping for a hoverboard out of sci-fi nostalgia or simply because your kid won&#8217;t stop talking about it&#8212;by all means, buy it. Just follow the safety tips, and you&#8217;ll enjoy the ride.</p>
+<p>But if you&#8217;re looking for a sustainable way to get around, a hoverboard may not be your best option. With an average of 7-8 miles per charge, it won&#8217;t get you far enough to actually replace transport. There are more options to choose from, like some of <a href="//www.makeuseof.com/tag/best-hoverboards-rideables/">our favorite rideables</a>.</p>
+<p class='appexclude'>Read the full article: <a href='https://www.makeuseof.com/tag/how-much-is-a-hoverboard/'>How Much Is a Hoverboard and Should You Buy One?</a></p>]]></content:encoded>
+							<wfw:commentRss />
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>The 5 Best 100 Dollar Laptops in 2019</title>
+		<link>https://www.makeuseof.com/tag/100-dollar-laptops/</link>
+				<comments>https://www.makeuseof.com/tag/100-dollar-laptops/#comments</comments>
+				<pubDate>Thu, 01 Aug 2019 12:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[Simon Batt]]></dc:creator>
+				<category><![CDATA[Buying Guides]]></category>
+		<category><![CDATA[Back to School]]></category>
+		<category><![CDATA[Chrome OS]]></category>
+		<category><![CDATA[Chromebook]]></category>
+		<category><![CDATA[Laptop]]></category>
+		<category><![CDATA[Meta: Affiliate Links]]></category>
+
+		<guid isPermaLink="false">https://www.makeuseof.com/?p=863124</guid>
+				<description><![CDATA[<div><img width="670" height="335" src="https://static.makeuseof.com/wp-content/uploads/2019/08/best-laptops-under-100-670x335.jpg" class="attachment-large size-large wp-post-image" alt="best-laptops-under-100" /></div><p>If you&#8217;re looking for a laptop that won&#8217;t cost you too much, you may find what you&#8217;re looking for with laptops under $100. While there isn&#8217;t a whole load of options at this price point, they&#8217;re an inexpensive choice as lightweight workstations. Let&#8217;s look into what you&#8217;ll get in 100 dollar laptops, and what units are available right now. What Do You Get From 100 Dollar Laptops? Unfortunately, it&#8217;s very hard&#8212;if not impossible&#8212;to find good, cheap laptops that are brand new. To keep the price down, we need to look at the used and refurbished market. Used laptops are as...</p><p class='appexclude'>Read the full article: <a href='https://www.makeuseof.com/tag/100-dollar-laptops/'>The 5 Best 100 Dollar Laptops in 2019</a></p>]]></description>
+								<content:encoded><![CDATA[<div><img width="1680" height="840" src="https://static.makeuseof.com/wp-content/uploads/2019/08/best-laptops-under-100.jpg" class="attachment-featured size-featured wp-post-image" alt="best-laptops-under-100" /></div><p>If you&#8217;re looking for a laptop that won&#8217;t cost you too much, you may find what you&#8217;re looking for with laptops under $100. While there isn&#8217;t a whole load of options at this price point, they&#8217;re an inexpensive choice as lightweight workstations.</p>
+<p>Let&#8217;s look into what you&#8217;ll get in 100 dollar laptops, and what units are available right now.</p>
+<h2>What Do You Get From 100 Dollar Laptops?</h2>
+<p>Unfortunately, it&#8217;s very hard&#8212;if not impossible&#8212;to find good, cheap laptops that are brand new. To keep the price down, we need to look at the used and refurbished market.</p>
+<p>Used laptops are as you expect; they&#8217;re laptops that had a prior owner who is now selling them on. Used laptops under $100 tend to be older models, priced in a way that will shift them quickly. Due to the unpredictable nature of purchasing second-hand hardware, we decided to shy away from highlighting used products.</p>
+<p>Refurbished laptops are a little different. They, too, are older models of laptop, but certified engineers repair them so that they&#8217;re like new. A third party typically does this, so the repairs are not official and aren&#8217;t usually offered under warranty. However, it&#8217;s an excellent way to get a laptop that has a second lease on life with renovations and new components.</p>
+<p>If you&#8217;d like to know more about the differences between pre-owned devices, check out our guide to <a href="//www.makeuseof.com/tag/refurbished-vs-used-vs-certified-pre-owned/">which second-hand device types are best</a>.</p>
+<h2>How We Picked the Laptops</h2>
+<p>Picking out 100 dollar laptops can be tough, as there are a lot of dud products available that aren&#8217;t worth your time and money. As such, we only selected laptops that fit under the following criteria:</p>
+<ul>
+<li>They&#8217;re all sold under the Amazon Renewed plan. This plan means that every computer benefits from a 90-day guarantee by Amazon. If the laptop arrives and it&#8217;s evident that it hasn&#8217;t received the proper care it needed, you can claim your money back. This plan makes purchasing refurbished hardware less risky.</li>
+<li>If the laptop has reviews, the overall rating has to be three stars or above. Unfortunately, they may change over time, but these were checked and confirmed at time of writing.</li>
+<li>They have to be at or under $100.</li>
+<li>Generally, Chromebooks give the best performance for the price. As such, we focused on Chromebooks for this list.</li>
+</ul>
+<h2>Best Refurbished Laptops Under $100</h2>
+<h3>1. <a href="https://www.amazon.com/Lenovo-80SF0001US-Chromebook-Certified-Refurbished/dp/B073RPYFY3/">Lenovo N22</a></h3>
+<span class='link-callout amz-callout d6a39c5a617c5156b5f3c838d42c9329' style='display: block;' data-product='Lenovo N22' data-upc='025093556685'>
+              <span class='link-callout-image' style='background-image:url(//static.makeuseof.com/wp-content/themes/makeuseof2016/components/icons/no-image.png)'><span class='link-callout-image-container' style='background-image:url("https://images-na.ssl-images-amazon.com/images/I/51k5vbQK9gL._SL160_.jpg")'>
+                  <a href='https://www.amazon.com/Lenovo-80SF0001US-Chromebook-Certified-Refurbished/dp/B073RPYFY3?SubscriptionId=AKIAIO22DD3AFUSKXUKQ&tag=makeusw-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B073RPYFY3' rel='nofollow' target='_blank'>Lenovo N22</a>
+              </span></span><span class='link-callout-info'>
+            <span class='link-callout-title'>
+              <a href='https://www.amazon.com/Lenovo-80SF0001US-Chromebook-Certified-Refurbished/dp/B073RPYFY3?SubscriptionId=AKIAIO22DD3AFUSKXUKQ&tag=makeusw-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B073RPYFY3'>Lenovo N22</span></a><a href='https://www.amazon.com/Lenovo-80SF0001US-Chromebook-Certified-Refurbished/dp/B073RPYFY3?SubscriptionId=AKIAIO22DD3AFUSKXUKQ&tag=makeusw-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B073RPYFY3' class='link-callout-link' rel='nofollow' target='_blank'>
+            <svg><use xlink:href="#icon-amazon"></svg> Buy Now On Amazon </a><span class='link-callout-price'>$99.76</span></span></span>
+<p>The <a href="https://www.amazon.com/Lenovo-80SF0001US-Chromebook-Certified-Refurbished/dp/B073RPYFY3/">Lenovo N22</a> is a small device that can do a surprising amount. It is a Chromebook, so it does run Google&#8217;s Chrome OS&#8212;a modified version of the Chrome web browser. It has a 1.6GHz dual-core processor, 4GB of RAM, and an 11.6-inch display.</p>
+<p>While it won&#8217;t be winning any performance specification awards, it has a nice array of additional features. It has a meager 16GB of storage, but that is expandable with a microSD card. The laptop also supports Wi-Fi, Bluetooth, USB 3.0, and HDMI connections.</p>
+<h3>2. <a href="https://www.amazon.com/dp/B00M9K7L8S/">Samsung Chromebook XE303C12</a></h3>
+<span class='link-callout amz-callout c171044bb33c21d952f112049d4ae8db' style='display: block;' data-product='Samsung Chromebook XE303C12' data-upc='727908818666'>
+              <span class='link-callout-image' style='background-image:url(//static.makeuseof.com/wp-content/themes/makeuseof2016/components/icons/no-image.png)'><span class='link-callout-image-container' style='background-image:url("https://images-na.ssl-images-amazon.com/images/I/41vDDbUotBL._SL160_.jpg")'>
+                  <a href='https://www.amazon.com/Samsung-Chromebook-Wi-Fi-11-6-Inch-Renewed/dp/B00M9K7L8S?psc=1&SubscriptionId=AKIAIO22DD3AFUSKXUKQ&tag=makeusw-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00M9K7L8S' rel='nofollow' target='_blank'>Samsung Chromebook XE303C12</a>
+              </span></span><span class='link-callout-info'>
+            <span class='link-callout-title'>
+              <a href='https://www.amazon.com/Samsung-Chromebook-Wi-Fi-11-6-Inch-Renewed/dp/B00M9K7L8S?psc=1&SubscriptionId=AKIAIO22DD3AFUSKXUKQ&tag=makeusw-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00M9K7L8S'>Samsung Chromebook XE303C12</span></a><a href='https://www.amazon.com/Samsung-Chromebook-Wi-Fi-11-6-Inch-Renewed/dp/B00M9K7L8S?psc=1&SubscriptionId=AKIAIO22DD3AFUSKXUKQ&tag=makeusw-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00M9K7L8S' class='link-callout-link' rel='nofollow' target='_blank'>
+            <svg><use xlink:href="#icon-amazon"></svg> Buy Now On Amazon </a><span class='link-callout-price'>$91.94</span></span></span>
+<p>The <a href="https://www.amazon.com/dp/B00M9K7L8S/">Samsung Chromebook XE303C12</a> is another entry for Chromebooks in the 100 dollar laptop range. It has a dual-core 1.7GHz processor, 2GB of RAM, and an 11.6-inch display. As such, it&#8217;s mostly ideal for work use where you focus on a single app or program.</p>
+<p>It&#8217;s useful as a simple communications laptop, too; it comes equipped with a webcam and microphone, with sockets that allow you to plug in higher-quality mics. If you feel like paying a little extra, you can upgrade this laptop to a 12.1-inch model.</p>
+<p>The laptop is also compact and lightweight, weighing in at just 2.43lbs, making it easy to carry around. It makes for a handy homework laptop or something you can take with you to lectures to take notes on.</p>
+<h3>3. <a href="https://www.amazon.com/Acer-Chromebook-Processor-Certified-Refurbished/dp/B01F5PSKGA/">Acer C720</a></h3>
+<span class='link-callout amz-callout 9b36bec6e56d10985fe709cf534fb32e' style='display: block;' data-product='Acer C720' data-upc='841631111464'>
+              <span class='link-callout-image' style='background-image:url(//static.makeuseof.com/wp-content/themes/makeuseof2016/components/icons/no-image.png)'><span class='link-callout-image-container' style='background-image:url("https://images-na.ssl-images-amazon.com/images/I/51sp7mHlGpL._SL160_.jpg")'>
+                  <a href='https://www.amazon.com/Acer-Chromebook-Celeron-1-40GHz-Processor/dp/B01F5PSKGA?SubscriptionId=AKIAIO22DD3AFUSKXUKQ&tag=makeusw-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01F5PSKGA' rel='nofollow' target='_blank'>Acer C720</a>
+              </span></span><span class='link-callout-info'>
+            <span class='link-callout-title'>
+              <a href='https://www.amazon.com/Acer-Chromebook-Celeron-1-40GHz-Processor/dp/B01F5PSKGA?SubscriptionId=AKIAIO22DD3AFUSKXUKQ&tag=makeusw-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01F5PSKGA'>Acer C720</span></a><a href='https://www.amazon.com/Acer-Chromebook-Celeron-1-40GHz-Processor/dp/B01F5PSKGA?SubscriptionId=AKIAIO22DD3AFUSKXUKQ&tag=makeusw-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B01F5PSKGA' class='link-callout-link' rel='nofollow' target='_blank'>
+            <svg><use xlink:href="#icon-amazon"></svg> Buy Now On Amazon </a><span class='link-callout-price'>$75.00</span></span></span>
+<p>The <a href="https://www.amazon.com/Acer-Chromebook-Processor-Certified-Refurbished/dp/B01F5PSKGA/">Acer C720</a> is another computer to consider when looking for good cheap laptops. Its price is slightly over the $100 mark, but it&#8217;s a small enough margin to be acceptable for anyone with a $100 budget.</p>
+<p>The Acer C720 doesn&#8217;t make any big splashes in the hardware department; it has a single 1.4 GHz processor and 2GB of RAM. It does, however, have impressive eight-and-a-half hours of battery life, and boots up in seven seconds. These features make this laptop a good word processing computer for studies or reports.</p>
+<h3>4. <a href="https://www.amazon.com/Dell-ChromeBook-NoteBook-Certified-Refurbished/dp/B07781S5L5/">Dell Chromebook 11.6-Inch HD</a></h3>
+<span class='link-callout amz-callout 07d9d69b1356aac8650ee9f8dc8f6801' style='display: block;' data-product='Dell Chromebook 11.6-Inch HD' data-upc='045929590287'>
+              <span class='link-callout-image' style='background-image:url(//static.makeuseof.com/wp-content/themes/makeuseof2016/components/icons/no-image.png)'><span class='link-callout-image-container' style='background-image:url("https://images-na.ssl-images-amazon.com/images/I/41xsU0AVrqL._SL160_.jpg")'>
+                  <a href='https://www.amazon.com/Dell-ChromeBook-NoteBook-Celeron-Renewed/dp/B07781S5L5?SubscriptionId=AKIAIO22DD3AFUSKXUKQ&tag=makeusw-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07781S5L5' rel='nofollow' target='_blank'>Dell Chromebook 11.6-Inch HD</a>
+              </span></span><span class='link-callout-info'>
+            <span class='link-callout-title'>
+              <a href='https://www.amazon.com/Dell-ChromeBook-NoteBook-Celeron-Renewed/dp/B07781S5L5?SubscriptionId=AKIAIO22DD3AFUSKXUKQ&tag=makeusw-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07781S5L5'>Dell Chromebook 11.6-Inch HD</span></a><a href='https://www.amazon.com/Dell-ChromeBook-NoteBook-Celeron-Renewed/dp/B07781S5L5?SubscriptionId=AKIAIO22DD3AFUSKXUKQ&tag=makeusw-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B07781S5L5' class='link-callout-link' rel='nofollow' target='_blank'>
+            <svg><use xlink:href="#icon-amazon"></svg> Buy Now On Amazon </a><span class='link-callout-price'>$89.99</span></span></span>
+<p>This <a href="https://www.amazon.com/Dell-ChromeBook-NoteBook-Certified-Refurbished/dp/B07781S5L5/">Dell Chromebook</a> is the best cheap laptop in this list for sheer processing power. It has a 2.58GHz dual-core Intel Celeron N2840, which makes it a powerhouse compared to the previous entries. Much like other models, it sports 4GB of RAM and 16GB of SSD storage.</p>
+<p>It also has an excellent range of USB ports, with three USB 2.0 ports located around the unit. These ports make it useful for plugging in flash drives and external accessories, such as mice.</p>
+<h3>5. <a href="https://www.amazon.com/Dell-ChromeBook-Celeron-1366x768-Renewed/dp/B0742HZW9B/">Dell Chromebook 11-Inch</a></h3>
+<span class='link-callout amz-callout 7beafcbe2a1486ffe6e2e05caeda1e7f' style='display: block;' data-product='Dell Chromebook 11-Inch' data-upc=''>
+              <span class='link-callout-image' style='background-image:url(//static.makeuseof.com/wp-content/themes/makeuseof2016/components/icons/no-image.png)'><span class='link-callout-image-container' style='background-image:url("https://images-na.ssl-images-amazon.com/images/I/41WCFNVPnJL._SL160_.jpg")'>
+                  <a href='https://www.amazon.com/Dell-ChromeBook-Celeron-1366x768-Renewed/dp/B0742HZW9B?SubscriptionId=AKIAIO22DD3AFUSKXUKQ&tag=makeusw-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B0742HZW9B' rel='nofollow' target='_blank'>Dell Chromebook 11-Inch</a>
+              </span></span><span class='link-callout-info'>
+            <span class='link-callout-title'>
+              <a href='https://www.amazon.com/Dell-ChromeBook-Celeron-1366x768-Renewed/dp/B0742HZW9B?SubscriptionId=AKIAIO22DD3AFUSKXUKQ&tag=makeusw-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B0742HZW9B'>Dell Chromebook 11-Inch</span></a><a href='https://www.amazon.com/Dell-ChromeBook-Celeron-1366x768-Renewed/dp/B0742HZW9B?SubscriptionId=AKIAIO22DD3AFUSKXUKQ&tag=makeusw-20&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B0742HZW9B' class='link-callout-link' rel='nofollow' target='_blank'>
+            <svg><use xlink:href="#icon-amazon"></svg> Buy Now On Amazon </a><span class='link-callout-price'>$104.97</span></span></span>
+<p>This <a href="https://www.amazon.com/Dell-ChromeBook-Celeron-1366x768-Renewed/dp/B0742HZW9B/">11-Inch Dell Chromebook</a> has a good range of ports for additional accessories. It has one USB 3.0 port, two USB 2.0 ports, a headphone/microphone combo jack, and an HDMI port for external monitors. It also boots very quickly and does its tasks quietly without any loud fans.</p>
+<p>Unfortunately, its processor is on the weaker side, with only a single 2.1 GHz processor under the hood. While this laptop can&#8217;t achieve anything above <span>word processing and online browsing, the ports make it an excellent choice for someone with a lot of USB accessories.</span></p>
+<h2>Choosing the Best Inexpensive Laptop for You</h2>
+<p>You don&#8217;t need to break the bank when purchasing a laptop. There are plenty of ways to get cheaper models, which is excellent for both tight budgets and occasional work use. These refurbished Chromebooks should do the job for anyone who needs a lightweight laptop.</p>
+<p>After looking through the best 100 dollar laptops, you may decide another device would be better for you. If so, consider the <a href="//www.makeuseof.com/tag/best-cheap-tablets/">best cheap tablets</a> instead.</p>
+<p class='appexclude'>Read the full article: <a href='https://www.makeuseof.com/tag/100-dollar-laptops/'>The 5 Best 100 Dollar Laptops in 2019</a></p>]]></content:encoded>
+							<wfw:commentRss />
+		<slash:comments>1</slash:comments>
+							</item>
+		<item>
+		<title>The Best Free TV Shows to Watch on Crackle</title>
+		<link>https://www.makeuseof.com/tag/best-free-tv-shows-crackle/</link>
+				<comments>https://www.makeuseof.com/tag/best-free-tv-shows-crackle/#respond</comments>
+				<pubDate>Thu, 01 Aug 2019 11:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[Dan Price]]></dc:creator>
+				<category><![CDATA[Entertainment]]></category>
+		<category><![CDATA[Cord Cutting]]></category>
+		<category><![CDATA[Freebies]]></category>
+		<category><![CDATA[Media Streaming]]></category>
+		<category><![CDATA[Television]]></category>
+
+		<guid isPermaLink="false">https://www.makeuseof.com/?p=883871</guid>
+				<description><![CDATA[<div><img width="670" height="335" src="https://static.makeuseof.com/wp-content/uploads/2019/08/crackle-free-tv-shows-670x335.jpg" class="attachment-large size-large wp-post-image" alt="crackle-free-tv-shows" /></div><p>If you want to cord the cord but don&#8217;t fancy paying for a service like Netflix or Hulu, there are several free streaming apps you can use. One of the best free streaming services is Sony Crackle. But which free TV shows on Crackle are worth watching? Keep reading to find out. 1. Charlie&#8217;s Angels The original Charlie&#8217;s Angels&#8212;which was first broadcast on ABC in 1976&#8212;is available on Crackle. The crime drama tells the story of three female private investigators who, unhappy with their assigned roles after graduating from the police academy, decide to go and work for the Charles...</p><p class='appexclude'>Read the full article: <a href='https://www.makeuseof.com/tag/best-free-tv-shows-crackle/'>The Best Free TV Shows to Watch on Crackle</a></p>]]></description>
+								<content:encoded><![CDATA[<div><img width="1680" height="840" src="https://static.makeuseof.com/wp-content/uploads/2019/08/crackle-free-tv-shows.jpg" class="attachment-featured size-featured wp-post-image" alt="crackle-free-tv-shows" /></div><p>If you want to cord the cord but don&#8217;t fancy paying for a service like Netflix or Hulu, there are several free streaming apps you can use.</p>
+<p>One of the best free streaming services is Sony Crackle. But which free TV shows on Crackle are worth watching? Keep reading to find out.</p>
+<h2>1. <a href="https://www.sonycrackle.com/watch/343">Charlie&#8217;s Angels</a></h2>
+<p><iframe width="500" height="281" src="https://www.youtube.com/embed/OVtVru9KXao?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>The original Charlie&#8217;s Angels&#8212;which was first broadcast on ABC in 1976&#8212;is available on Crackle.</p>
+<p>The crime drama tells the story of three female private investigators who, unhappy with their assigned roles after graduating from the police academy, decide to go and work for the Charles Townsend Agency.</p>
+<p>A number of well-known celebrities played guest roles, including Tommy Lee Jones, Timothy Dalton, Kim Basinger, and Sally Kirkland.</p>
+<p>The show ran for five seasons, with the first two seasons widely regarded as being the most enjoyable.</p>
+<h2>2. <a href="https://www.sonycrackle.com/watch/2305">The Company</a></h2>
+<p><iframe width="500" height="281" src="https://www.youtube.com/embed/xOQOfRXtu_4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>The Company is a three-part miniseries which originally aired on TNT in 2007. The series chronicles the activities of the CIA over a 40-year period during the Cold War.</p>
+<p>The action kicks off in 1955 when the fictional Jack McAuliffe is posted to a CIA station in East Berlin. It goes on to touch on momentous points in history such as the Hungarian Revolution, the Bay of Pigs Invasion, the fall of the Berlin Wall, and the dissolution of the Soviet Union.</p>
+<p>Chris O&#8217;Donnell and Michael Keaton both play leading roles.</p>
+<h2>3. <a href="https://www.sonycrackle.com/watch/1489">Marvel Anime: Iron Man</a></h2>
+<p><iframe width="500" height="281" src="https://www.youtube.com/embed/h_ej7ZlS2oQ?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>Marvel Anime consists of four TV shows (Iron Man, Wolverine, X-Men, and Blade) and two feature-length films (Iron Man: Rise of Technovore and Avengers Confidential: Black Widow and Punisher).</p>
+<p>The Iron Man series was the first off the production line; it aired in Japan in 2010. The plot sees Tony Stark head to Japan to create a power station and to show off his new armor. Predictably, the situation quickly spirals out of control.</p>
+<p>Adrian Pasdar is the voice actor for Tony Stark in the English language version.</p>
+<h2>4. <a href="https://www.sonycrackle.com/watch/3218">Snatch</a></h2>
+<p><iframe width="500" height="281" src="https://www.youtube.com/embed/qiZpi99wC0w?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>Fans of British crime comedy will be well-aware of the movie, Snatch. Directed by Guy Ritchie and starring Brad Pitt and Jason Statham, the central plot revolves around the search for a stolen diamond.</p>
+<p>Perhaps less well-known is that Snatch was rebooted as a TV series in 2017. It&#8217;s a Crackle Original and hasn&#8217;t been on regular television channels.</p>
+<p>The storyline is different&#8212;a truck full of gold is central to the plot&#8212;but several themes from the original movie have carried over, including the penchant for a wide assortment of characters.</p>
+<p>Two seasons and 20 episodes are currently available to watch.</p>
+<h2>5. <a href="https://www.sonycrackle.com/watch/3835">Pan Am</a></h2>
+<p><iframe width="500" height="281" src="https://www.youtube.com/embed/EZeVxqRpWMo?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>Set in the early 1960s as the era of commercial plane travel began, Pan Am is a drama that tells the story of a company&#8217;s pilots and flight attendants.</p>
+<p>It was first shown on ABC in 2011 but was canceled after just one series. But don&#8217;t let the series&#8217; cancellation put you off. It won the Best Series award at Europe&#8217;s version of the Emmys, and Amazon almost picked it up for a second series before negotiations broke down.</p>
+<p>Margot Robbie and Christina Ricci play the lead roles.</p>
+<h2>6. <a href="https://www.sonycrackle.com/watch/153">NewsRadio</a></h2>
+<p><iframe width="500" height="375" src="https://www.youtube.com/embed/jsTty8n4SFA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>NewsRadio is a late-1990s American sitcom. After its launch in 1994, the show ran for five series and 97 episodes until its eventual conclusion.</p>
+<p>The series revolves around the goings-on at the fictional New York radio station, WNYX. It earned a cult following thanks to its heavy use of historical satire and obscure pop culture references.</p>
+<p>Some of the most notable actors in the series include Dave Foley as the news director and Joe Rogan as a handyman.</p>
+<h2>7. <a href="https://www.sonycrackle.com/watch/152">Dilbert</a></h2>
+<p><iframe width="500" height="375" src="https://www.youtube.com/embed/AHxJIKeoyRQ?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>Dilbert is one of the most popular comic strips in the world. After first appearing in April 1989, it has since been licensed to more than 2,000 newspapers in 65 countries around the world.</p>
+<p>The TV series of the same name dates back to 1999. It was first shown on Paramount and quickly became the network&#8217;s highest-rated comedy series. Only two seasons and 30 episodes were produced.</p>
+<p>Storylines revolve around white collar office humor. The first series follows the brainstorming, testing, and release of a new (ill-conceived) product. There&#8217;s no story arc in the second series.</p>
+<h2>8. <a href="https://www.sonycrackle.com/watch/3383">Hatfields and McCoys</a></h2>
+<p><iframe width="500" height="281" src="https://www.youtube.com/embed/8Hg9mvE1FA4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>Hatfields and McCoys is a three-part miniseries that was first broadcast on the History Channel in 2012. Each episode runs for two hours.</p>
+<p>The show tells the story of the bitter post-US Civil War feud between two families in the area of West Virginia and Kentucky. It went on to win several awards, including a Golden Globe, five Emmys, and a Screen Actors Guild Award.</p>
+<p>Kevin Costner plays the role of William Hatfield. Bill Paxton takes the part of Randolph McCoy.</p>
+<h2>9. <a href="https://www.sonycrackle.com/watch/1405">From the Basement</a></h2>
+<p><iframe width="500" height="281" src="https://www.youtube.com/embed/Xq_a8f24UJI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>It&#8217;s not very often that a music-based TV series is worth recommending, but From the Basement bucks the trend.</p>
+<p>The series began life as a podcast in which prominent musicians would play live performances without a host or audience. Following rave reviews, the UK&#8217;s Sky Arts network funded a TV show which went live in 2006.</p>
+<p>Only two series and 13 episodes were recorded, but for true music lovers, it&#8217;s a great watch. Some of the artists who performed include the White Stripes, Thom Yorke, Jarvis Cocker, Beck, Super Furry Animals, PJ Harvey, Damian Rice, Iggy Pop, and Queens of the Stone Age.</p>
+<h2>10. <a href="https://www.sonycrackle.com/watch/2992">StartUp</a></h2>
+<p><iframe width="500" height="281" src="https://www.youtube.com/embed/yCf_MpXAXK8?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>StartUp is the second Crackle Original on our list. Three seasons are currently available; the most recent having aired in November 2018. There&#8217;s no official word on a fourth season.</p>
+<p>The plot tells the story of GenCoin. It&#8217;s a new cryptocurrency which attracts multiple unsavory characters, including a Cuban-American hacker, a Haitian-American gang lord, and an out-of-control Wall Street banker.</p>
+<p>A corrupt FBI agent links the story together. He provided the seed money for the venture and is now fixated on bringing down the criminal group.</p>
+<p>Adam Brody and Martin Freeman take the two lead roles.</p>
+<h2>More TV Series You Should Watch</h2>
+<p>Crackle is a reliable source of free TV series that you can watch. But what should you do when you&#8217;ve worked through all of the shows we&#8217;ve recommended?</p>
+<p>Easy! Check out our articles recommending <a class="no-callout" href="//www.makeuseof.com/tag/original-web-series-totally-tv/">the best original web series not on TV</a> and <a href="//www.makeuseof.com/tag/the-best-tools-to-watch-tv-on-your-computer/">the best sites to watch TV on your computer</a> to find even more content to stream.</p>
+<p class='appexclude'>Read the full article: <a href='https://www.makeuseof.com/tag/best-free-tv-shows-crackle/'>The Best Free TV Shows to Watch on Crackle</a></p>]]></content:encoded>
+							<wfw:commentRss />
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>How Media File Jacking Impacts WhatsApp and Telegram on Android</title>
+		<link>https://www.makeuseof.com/tag/media-file-jacking-impacts-whatsapp-telegram-android/</link>
+				<comments>https://www.makeuseof.com/tag/media-file-jacking-impacts-whatsapp-telegram-android/#respond</comments>
+				<pubDate>Thu, 01 Aug 2019 10:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[Georgina Torbet]]></dc:creator>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Fake News]]></category>
+		<category><![CDATA[Media File Jacking]]></category>
+		<category><![CDATA[Smartphone Security]]></category>
+
+		<guid isPermaLink="false">https://www.makeuseof.com/?p=884888</guid>
+				<description><![CDATA[<div><img width="670" height="335" src="https://static.makeuseof.com/wp-content/uploads/2019/08/media-file-jacking-670x335.jpg" class="attachment-large size-large wp-post-image" alt="media-file-jacking" /></div><p>People use secure messaging services with end-to-end encryption like WhatsApp or Telegram because they believe they will keep their messages and devices more secure. While this is generally true, there are security issues with these apps that users need to be aware of. Recently, an exploit called media file jacking has been revealed on Android devices running WhatsApp and Telegram. If you use either of these apps, there are steps you need to take to protect yourself and your device. How Are Media Files a Security Risk? The security firm Symantec announced the vulnerability, which can be used to spread...</p><p class='appexclude'>Read the full article: <a href='https://www.makeuseof.com/tag/media-file-jacking-impacts-whatsapp-telegram-android/'>How Media File Jacking Impacts WhatsApp and Telegram on Android</a></p>]]></description>
+								<content:encoded><![CDATA[<div><img width="1680" height="840" src="https://static.makeuseof.com/wp-content/uploads/2019/08/media-file-jacking.jpg" class="attachment-featured size-featured wp-post-image" alt="media-file-jacking" /></div><p>People use secure messaging services with end-to-end encryption like WhatsApp or Telegram because they believe they will keep their messages and devices more secure. While this is generally true, there are security issues with these apps that users need to be aware of.</p>
+<p>Recently, an exploit called media file jacking has been revealed on Android devices running WhatsApp and Telegram. If you use either of these apps, there are steps you need to take to protect yourself and your device.</p>
+<h2>How Are Media Files a Security Risk?</h2>
+<p><img class="aligncenter lazy-load" data-src="//static.makeuseof.com/wp-content/uploads/2019/07/create-telegram-stickers-670x335.jpg" alt="Telegram - Media File Jacking" width="670" height="335" /></p>
+<p>The security firm Symantec announced the vulnerability, which can be used to spread fake news or trick users into sending payments to the wrong address. It works through the system which allows messaging apps to receive media files, such as when a friend sends you a photo or video using an app.</p>
+<p>In order to receive the file, your Android device needs to have what is called write to external storage permissions. This means that the app can take a file which is sent to you and save it onto your device&#8217;s SD card.</p>
+<p>Ideally, apps like Telegram or WhatsApp would only have permission to write to internal storage. That means the files can be viewed within the app but cannot be accessed by other apps. But that would mean that if someone sends you a photo, you can&#8217;t automatically see it in your camera gallery.</p>
+<p>WhatsApp saves files to external storage by default. Telegram saves files to the SD card if the &#8220;Save to gallery&#8221; option is enabled.</p>
+<h2>What Is Media File Jacking?</h2>
+<p>The attack works by intercepting the process by which a messaging app saves media files.</p>
+<p>First, a user downloads an innocent-seeming app such as a free game, but there is actually malware hidden inside which runs in the background of their device.</p>
+<p>Now, the user goes to their messaging app. If the app saves media files to external storage, the malicious app can target the files at the moment between the time at which they are saved to the hard drive and the time at which they are displayed in the app.</p>
+<p><center><img class="aligncenter lazy-load" data-src="//static.makeuseof.com/wp-content/uploads/2019/07/Picture1_01-469x500.png" alt="Media File Jacking diagram" width="469" height="500" /><br />
+Image Credit: <a href="https://www.symantec.com/blogs/expert-perspectives/symantec-mobile-threat-defense-attackers-can-manipulate-your-whatsapp-and-telegram-media" rel="nofollow">Symantec</a></center>This is similar to a <a href="//www.makeuseof.com/tag/man-middle-attack-security-jargon-explained/">man-in-the-middle attack</a>. The malicious app monitors your device for any changes to the external storage and steps in the moment it detects a change. Once a real file is saved to your device from your messaging app, the malicious app steps in and overwrites that file with its own file. Then the fake file is displayed in your messaging app.</p>
+<p>This works for images and audio files. It even swaps out the thumbnail in the messaging app, so users have no idea the file they are opening is not the file their contact sent to them.</p>
+<h2>What Kind of Information Could Be Manipulated?</h2>
+<p><iframe width="500" height="281" src="https://www.youtube.com/embed/FHvkGUh8S_c?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>An example of how this could be misused is a vendor who uses WhatsApp or Telegram to send an invoice to a client. If the client&#8217;s device has malware, it could swap out the real invoice for a fake one. The fake invoice has the scammer&#8217;s bank details instead of the vendor&#8217;s bank details.</p>
+<p>The client would then pay the sum of the invoice to the scammer. They would never be aware that they were being tricked. As far as the client would be aware, they would see a regular invoice from their vendor and have no reason not to trust it.</p>
+<p>Other personal and business documents could be at risk too. The exploit could manipulate personal photos or videos, voice memos, or business documents. This could be something small like swapping out photos sent through apps for inappropriate images. Or it could be something more sophisticated like a business executive who saves a voice memo to their phone and sends it to a secretary for transcription.</p>
+<p>The voice memo could be changed to say anything the attackers want, causing chaos.</p>
+<p>This situation is particularly worrying because people have come to trust that messages they send using services with end-to-end encryption are secure. Many people know that SMS messages or <a href="//www.makeuseof.com/tag/scammers-spoof-email-address/">emails can be faked</a>. So they are on the lookout for a scam even if a message appears to be from someone they know. But people trust in encrypted messaging. They aren&#8217;t so aware of the potential security threat that could be posed by these apps.</p>
+<h2>How Can Media File Jacking Spread Fake News?</h2>
+<p>One unexpected problem that this attack could cause is spreading fake news. Many people use a Telegram feature called channels. Channels are forums through which an admin can send messages to a large group of subscribers. Some people use this as a news feed, viewing daily news stories from a trusted channel within their Telegram app.</p>
+<p>The concern is that media file jacking could be used to interfere with news channels. A trusted news channel admin sends out a news-worthy image. Then that image is intercepted by a malicious app on the receiver&#8217;s phone. The real image is swapped for a fake news image. The admin would have no idea this had happened and the recipient would think that the image was a real news story.</p>
+<h2>How to Protect Your Devices From Media File Jacking</h2>
+<p>A true fix for this vulnerability will require developers to rethink the way they approach saving files to storage in Android. However, there is a quick fix for users in the meantime. You simply need to disable saving files to external storage.</p>
+<p>To do this on Telegram, open the menu by swiping from the left of the app and go to <strong>Settings</strong>. Then go to <strong>Chat Settings</strong>. Make sure the <strong>Save to Gallery</strong> toggle is set to <strong>off</strong>.</p>
+<p>To disable external file storage on WhatsApp, go to <strong>Settings</strong>, then to <strong>Chats</strong>. Make sure the <strong>Media Visibility</strong> toggle is set to <strong>off</strong>.</p>
+<p>Once you have changed this setting, your messaging app will be protected against media file jacking attacks.</p>
+<h2>Update WhatsApp and Telegram Settings to Avoid Media Jacking</h2>
+<p>Media file jacking is an example of the clever ways in which attackers can interfere with your device through a messaging app. It&#8217;s a good idea to change your settings to make sure your device isn&#8217;t vulnerable.</p>
+<p>While you&#8217;re learning about security and messaging apps, check out the <a href="//www.makeuseof.com/tag/4-security-threats-whatsapp-users-need-know/">WhatsApp security threats users need to know about</a>.</p>
+<p class='appexclude'>Read the full article: <a href='https://www.makeuseof.com/tag/media-file-jacking-impacts-whatsapp-telegram-android/'>How Media File Jacking Impacts WhatsApp and Telegram on Android</a></p>]]></content:encoded>
+							<wfw:commentRss />
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>Become a Master of Image Editing With This $19 Photoshop Training</title>
+		<link>https://www.makeuseof.com/tag/become-master-image-editing-19-photoshop-training/</link>
+				<comments>https://www.makeuseof.com/tag/become-master-image-editing-19-photoshop-training/#respond</comments>
+				<pubDate>Thu, 01 Aug 2019 05:30:00 +0000</pubDate>
+		<dc:creator><![CDATA[MakeUseOf Deals]]></dc:creator>
+				<category><![CDATA[Deals]]></category>
+		<category><![CDATA[StackCommerce]]></category>
+
+		<guid isPermaLink="false">https://www.makeuseof.com/?p=888454</guid>
+				<description><![CDATA[<div><img width="630" height="473" src="https://static.makeuseof.com/wp-content/uploads/2019/07/sale_20821_primary_image.jpg" class="attachment-large size-large wp-post-image" alt="" /></div><p>When it comes to editing images, Photoshop still leads the way. This powerful app has been around for decades, but it keeps getting better with age. If you want to become a pro photographer or simply improve your skills, the Adobe Photoshop CC Training Bundle can help you master the software. Through five courses, you learn how to add your style to any photo. Right now, the bundle is just $19 at MakeUseOf Deals. Photoshop Masterclass For a beginner, Photoshop CC can seem pretty daunting. The software has hundreds of great features — the trick is knowing how to use...</p><p class='appexclude'>Read the full article: <a href='https://www.makeuseof.com/tag/become-master-image-editing-19-photoshop-training/'>Become a Master of Image Editing With This $19 Photoshop Training</a></p>]]></description>
+								<content:encoded><![CDATA[<div><img width="630" height="473" src="https://static.makeuseof.com/wp-content/uploads/2019/07/sale_20821_primary_image.jpg" class="attachment-featured size-featured wp-post-image" alt="" /></div><p>When it comes to editing images, Photoshop still leads the way. This powerful app has been around for decades, but it keeps getting better with age. If you want to become a pro photographer or simply improve your skills, the <a href="https://deals.makeuseof.com/sales/adobe-photoshop-cc-training-bundle?utm_source=makeuseof.com&amp;utm_medium=referral&amp;utm_campaign=adobe-photoshop-cc-training-bundle&amp;utm_term=scsf-334275&amp;utm_content=a0x1P000004MStc&amp;scsonar=1" rel="nofollow">Adobe Photoshop CC Training Bundle</a> can help you master the software. Through five courses, you learn how to add your style to any photo. Right now, <a href="https://deals.makeuseof.com/sales/adobe-photoshop-cc-training-bundle?utm_source=makeuseof.com&amp;utm_medium=referral&amp;utm_campaign=adobe-photoshop-cc-training-bundle&amp;utm_term=scsf-334275&amp;utm_content=a0x1P000004MStc&amp;scsonar=1" rel="nofollow">the bundle is just $19</a> at MakeUseOf Deals.</p>
+<h2><strong>Photoshop Masterclass</strong></h2>
+<p>For a beginner, Photoshop CC can seem pretty daunting. The software has hundreds of great features — the trick is knowing how to use them. This bundle provides the perfect introduction, with five in-depth courses and over 50 lessons.</p>
+<p>Delivered by official Adobe instructors, the tutorials show you how to adjust exposure, use layers, select objects, and more. You also discover how to use Curves adjustments, create composite images, and design your own photographic filters. These skills are important for any aspiring photographer or designer.</p>
+<p>The bundle helps you acquire plenty of hands-on experience, and all the courses are beginner-friendly. With lifetime access included, you can also study at your own pace.</p>
+<h2><strong>Five Courses for $19</strong></h2>
+<p>They’re worth $145, but you can get these five courses now <a href="https://deals.makeuseof.com/sales/adobe-photoshop-cc-training-bundle?utm_source=makeuseof.com&amp;utm_medium=referral&amp;utm_campaign=adobe-photoshop-cc-training-bundle&amp;utm_term=scsf-334275&amp;utm_content=a0x1P000004MStc&amp;scsonar=1" rel="nofollow">for just $19 </a>with this bundle — that’s 86% off.</p>
+<p class='appexclude'>Read the full article: <a href='https://www.makeuseof.com/tag/become-master-image-editing-19-photoshop-training/'>Become a Master of Image Editing With This $19 Photoshop Training</a></p>]]></content:encoded>
+							<wfw:commentRss />
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>Google Chrome Now Helps You Beat Paywalls</title>
+		<link>https://www.makeuseof.com/tag/google-chrome-helps-beat-paywalls/</link>
+				<comments>https://www.makeuseof.com/tag/google-chrome-helps-beat-paywalls/#respond</comments>
+				<pubDate>Wed, 31 Jul 2019 21:30:14 +0000</pubDate>
+		<dc:creator><![CDATA[Dave Parrack]]></dc:creator>
+				<category><![CDATA[Browsers]]></category>
+		<category><![CDATA[Internet]]></category>
+		<category><![CDATA[Tech News]]></category>
+		<category><![CDATA[Adobe Flash]]></category>
+		<category><![CDATA[Google Chrome]]></category>
+		<category><![CDATA[Private Browsing]]></category>
+		<category><![CDATA[Short]]></category>
+
+		<guid isPermaLink="false">https://www.makeuseof.com/?p=889051</guid>
+				<description><![CDATA[<div><img width="670" height="335" src="https://static.makeuseof.com/wp-content/uploads/2019/07/brick-wall-with-hole-670x335.jpg" class="attachment-large size-large wp-post-image" alt="" /></div><p>Google has released Chrome 76 to the stable channel, pushing it out to everyone who uses the web browser. Alongside the usual litany of bug fixes come two changes that will affect users. One of which should help you circumvent soft paywalls. What Are Hard and Soft Paywalls? Paywalls are a growing trend, with major newspapers and other sites hiding their content behind them. Hard paywalls require payment before you can get anywhere close to the content, while other, softer paywalls let you read a number of articles for free every month. Happy Chrome 76 Eve! pic.twitter.com/774D4xqe4P &mdash; Blake Commagere...</p><p class='appexclude'>Read the full article: <a href='https://www.makeuseof.com/tag/google-chrome-helps-beat-paywalls/'>Google Chrome Now Helps You Beat Paywalls</a></p>]]></description>
+								<content:encoded><![CDATA[<div><img width="1680" height="840" src="https://static.makeuseof.com/wp-content/uploads/2019/07/brick-wall-with-hole.jpg" class="attachment-featured size-featured wp-post-image" alt="" /></div><p>Google has released Chrome 76 to the stable channel, pushing it out to everyone who uses the web browser. Alongside the usual litany of bug fixes come two changes that will affect users. One of which should help you circumvent soft paywalls.</p>
+<h2>What Are Hard and Soft Paywalls?</h2>
+<p>Paywalls are a growing trend, with major newspapers and other sites hiding their content behind them. Hard paywalls require payment before you can get anywhere close to the content, while other, softer paywalls let you read a number of articles for free every month.</p>
+<blockquote class="twitter-tweet" data-width="500" data-dnt="true">
+<p lang="en" dir="ltr">Happy Chrome 76 Eve! <a href="https://t.co/774D4xqe4P">pic.twitter.com/774D4xqe4P</a></p>
+<p>&mdash; Blake Commagere (@commagere) <a href="https://twitter.com/commagere/status/1155972733307457537?ref_src=twsrc%5Etfw">July 29, 2019</a></p></blockquote>
+<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p>While Chrome&#8217;s Incognito Mode should have prevented paywalled websites from knowing how many articles you have read, a loophole in Chrome’s FileSystem API allowed them to do just that. Now, Google is fixing that loophole to restore true private browsing.</p>
+<h2>How to Beat Paywalls Using Chrome</h2>
+<p>Google revealed it was fixing this loophole with the release of Chrome 76 in a post on <a href="https://blog.google/outreach-initiatives/google-news-initiative/protecting-private-browsing-chrome/">The Keyword</a>. Now, with Chrome 76 available, that loophole should have been closed, preventing websites with paywalls, as well as other sites, from tracking you.</p>
+<p>All you need to do is visit a website such as The New York Times and the Washington Post while browsing in Incognito Mode. That is unless and until those publishers take steps to prevent people accessing content. Which could see them hardening their paywalls.</p>
+<p>The other big change in Chrome 76 sees Flash being blocked by default. Google has been doing its utmost to kill Flash for several years, and in 2016, <a href="//www.makeuseof.com/tag/google-chrome-flash-html5-default/">Chrome started using HTML5 by default</a>. Now, with Chrome 76, Adobe Flash is blocked by default.</p>
+<p>This means that Google is one step closer to eradicating Flash from its browser, which is timely given that Adobe plans to kill Flash for good in 2020. In the meantime you can still enable Flash again by clicking the lock icon to the left of a website&#8217;s address.</p>
+<h2>Update Your Browser to Chrome 76 Now</h2>
+<p>With Google releasing new versions of Chrome so often it&#8217;s rare that there are features worth talking about. However, Chrome 76 is an exception thanks to its ability to help you beat you soft paywalls and a move that takes us one step closer to <a href="//www.makeuseof.com/tag/adobe-killing-flash-2020/">killing Adobe Flash</a>.</p>
+<p><small>Image Credit: Barta IV/<a rel="nofollow" href="https://www.flickr.com/photos/98640399@N08/21116138613/">Flickr</a></small></p>
+<p class='appexclude'>Read the full article: <a href='https://www.makeuseof.com/tag/google-chrome-helps-beat-paywalls/'>Google Chrome Now Helps You Beat Paywalls</a></p>]]></content:encoded>
+							<wfw:commentRss />
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

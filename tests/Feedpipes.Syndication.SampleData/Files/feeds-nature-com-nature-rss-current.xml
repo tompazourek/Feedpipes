@@ -1,0 +1,1305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss1full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.nature.com/~d/styles/itemcontent.css"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns="http://purl.org/rss/1.0/" xmlns:admin="http://webns.net/mvcb/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0">
+    <channel rdf:about="http://feeds.nature.com/nature/rss/current">
+        <title>Nature - Issue - nature.com science feeds</title>
+        <description>Nature is the international weekly journal of science: a magazine style journal that publishes full-length research papers in all disciplines of science, as well as News and Views, reviews, news, features, commentaries, web focuses and more, covering all branches of science and how science impacts upon all aspects of society and life.</description>
+        <link>http://feeds.nature.com/nature/rss/current</link>
+        <admin:generatorAgent rdf:resource="http://www.nature.com/" />
+        <admin:errorReportsTo rdf:resource="mailto:feedback@nature.com" />
+        <dc:publisher>Nature Publishing Group</dc:publisher>
+        <dc:language>en</dc:language>
+        <dc:rights>© 2019 Macmillan Publishers Limited, part of Springer Nature. All rights reserved.</dc:rights>
+        <prism:publicationName>Nature</prism:publicationName>
+        
+        
+        <prism:copyright>© 2019 Macmillan Publishers Limited, part of Springer Nature. All rights reserved.</prism:copyright>
+        <prism:rightsAgent>permissions@nature.com</prism:rightsAgent>
+        <image rdf:resource="https://www.nature.com/uploads/product/nature/rss.gif" />
+        <items>
+            <rdf:Seq>
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02373-2" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02345-6" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02364-3" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02365-2" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02353-6" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41586-019-1475-x" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41586-019-1423-9" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41586-019-1422-x" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41586-019-1459-x" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41586-019-1442-6" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02344-7" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41586-019-1438-2" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02351-8" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02288-y" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41586-019-1445-3" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02347-4" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02302-3" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41586-019-1433-7" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41586-019-1457-z" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02262-8" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41586-019-1417-7" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02305-0" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02319-8" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02234-y" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02338-5" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41586-019-1424-8" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02312-1" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41586-019-1431-9" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41586-019-1450-6" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02289-x" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02324-x" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41586-019-1415-9" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41586-019-1453-3" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02308-x" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41586-019-1460-4" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41586-019-1437-3" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41586-019-1456-0" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02287-z" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02322-z" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41586-019-1449-z" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02285-1" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41586-019-1451-5" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02306-z" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41586-019-1390-1" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41586-019-1416-8" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02309-w" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02316-x" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02328-7" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02307-y" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41586-019-1455-1" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02326-9" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02317-w" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02331-y" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02310-3" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02315-y" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02341-w" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02327-8" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02334-9" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02325-w" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02318-9" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02311-2" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02295-z" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02330-z" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02303-2" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02263-7" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/s41586-019-1435-5" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02275-3" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02230-2" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02099-1" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02320-1" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02254-8" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02304-1" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02286-0" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02274-4" />
+                
+                    <rdf:li rdf:resource="https://www.nature.com/articles/d41586-019-02298-w" />
+                
+            </rdf:Seq>
+        </items>
+    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rdf+xml" href="http://feeds.nature.com/nature/rss/current" /><feedburner:info uri="nature/rss/current" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /></channel>
+    <image rdf:about="https://www.nature.com/uploads/product/nature/rss.gif">
+        <title>Nature</title>
+        <url>https://www.nature.com/uploads/product/nature/rss.gif</url>
+        <link>http://feeds.nature.com/nature/rss/current</link>
+    </image>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02373-2">
+            <title><![CDATA[Daily briefing: UAE will be the first Arab nation on Mars]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/Wd6X5KPlaIE/d41586-019-02373-2</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 01 August 2019; <a href="https://www.nature.com/articles/d41586-019-02373-2">doi:10.1038/d41586-019-02373-2</a></p>The United Arab Emirates will launch a Mars mission. Plus: a promising new HIV vaccine and a placental microbiome plot twist.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/Wd6X5KPlaIE" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Daily briefing: UAE will be the first Arab nation on Mars]]></dc:title>
+            <dc:creator>Flora Graham</dc:creator>
+            <dc:identifier>doi:10.1038/d41586-019-02373-2</dc:identifier>
+            <dc:source>Nature, Published online: 2019-08-01; | doi:10.1038/d41586-019-02373-2</dc:source>
+            <dc:date>2019-08-01</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02373-2</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02373-2</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02373-2</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02345-6">
+            <title><![CDATA[To lift a crow’s mood, give it a toolkit]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/LZ5WHC020C4/d41586-019-02345-6</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 01 August 2019; <a href="https://www.nature.com/articles/d41586-019-02345-6">doi:10.1038/d41586-019-02345-6</a></p>Clever crows are more cheerful after wielding simple instruments.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/LZ5WHC020C4" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[To lift a crow’s mood, give it a toolkit]]></dc:title>
+            
+            <dc:identifier>doi:10.1038/d41586-019-02345-6</dc:identifier>
+            <dc:source>Nature, Published online: 2019-08-01; | doi:10.1038/d41586-019-02345-6</dc:source>
+            <dc:date>2019-08-01</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02345-6</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02345-6</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02345-6</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02364-3">
+            <title><![CDATA[Milky Way’s twisted spiral revealed in 3D]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/O27xoM3ZDdk/d41586-019-02364-3</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 01 August 2019; <a href="https://www.nature.com/articles/d41586-019-02364-3">doi:10.1038/d41586-019-02364-3</a></p>Map of ultra-bright stars called Cepheids shows galaxy’s warped disk.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/O27xoM3ZDdk" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Milky Way’s twisted spiral revealed in 3D]]></dc:title>
+            <dc:creator>Elizabeth Gibney</dc:creator>
+            <dc:identifier>doi:10.1038/d41586-019-02364-3</dc:identifier>
+            <dc:source>Nature, Published online: 2019-08-01; | doi:10.1038/d41586-019-02364-3</dc:source>
+            <dc:date>2019-08-01</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02364-3</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02364-3</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02364-3</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02365-2">
+            <title><![CDATA[Working Scientist podcast: Global career moves, and how to survive them]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/aUQtugfzKok/d41586-019-02365-2</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 01 August 2019; <a href="https://www.nature.com/articles/d41586-019-02365-2">doi:10.1038/d41586-019-02365-2</a></p>Moving abroad is a fact of life for many scientists. Astrophysicist Elizabeth Tasker offers some advice.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/aUQtugfzKok" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Working Scientist podcast: Global career moves, and how to survive them]]></dc:title>
+            <dc:creator>Julie Gould</dc:creator>
+            <dc:identifier>doi:10.1038/d41586-019-02365-2</dc:identifier>
+            <dc:source>Nature, Published online: 2019-08-01; | doi:10.1038/d41586-019-02365-2</dc:source>
+            <dc:date>2019-08-01</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02365-2</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02365-2</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02365-2</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02353-6">
+            <title><![CDATA[‘Tropical Trump’ sparks unprecedented crisis for Brazilian science]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/ZWqGYgNAYLg/d41586-019-02353-6</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 01 August 2019; <a href="https://www.nature.com/articles/d41586-019-02353-6">doi:10.1038/d41586-019-02353-6</a></p>Tensions are rising as Jair Bolsonaro’s administration questions the work of government scientists and institutes debilitating cuts to research funding.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/ZWqGYgNAYLg" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[‘Tropical Trump’ sparks unprecedented crisis for Brazilian science]]></dc:title>
+            <dc:creator>Jeff Tollefson</dc:creator>
+            <dc:identifier>doi:10.1038/d41586-019-02353-6</dc:identifier>
+            <dc:source>Nature, Published online: 2019-08-01; | doi:10.1038/d41586-019-02353-6</dc:source>
+            <dc:date>2019-08-01</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02353-6</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02353-6</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02353-6</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/s41586-019-1475-x">
+            <title><![CDATA[Publisher Correction: Absence of NKG2D ligands defines leukaemia stem cells and mediates their immune evasion]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/v0jSVuBygIM/s41586-019-1475-x</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 01 August 2019; <a href="https://www.nature.com/articles/s41586-019-1475-x">doi:10.1038/s41586-019-1475-x</a></p>Publisher Correction: Absence of NKG2D ligands defines leukaemia stem cells and mediates their immune evasion<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/v0jSVuBygIM" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Publisher Correction: Absence of NKG2D ligands defines leukaemia stem cells and mediates their immune evasion]]></dc:title>
+            <dc:creator>Anna M. Paczulla</dc:creator><dc:creator>Kathrin Rothfelder</dc:creator><dc:creator>Simon Raffel</dc:creator><dc:creator>Martina Konantz</dc:creator><dc:creator>Julia Steinbacher</dc:creator><dc:creator>Hui Wang</dc:creator><dc:creator>Claudia Tandler</dc:creator><dc:creator>Marcelle Mbarga</dc:creator><dc:creator>Thorsten Schaefer</dc:creator><dc:creator>Mattia Falcone</dc:creator><dc:creator>Eva Nievergall</dc:creator><dc:creator>Daniela Dörfel</dc:creator><dc:creator>Pauline Hanns</dc:creator><dc:creator>Jakob R. Passweg</dc:creator><dc:creator>Christoph Lutz</dc:creator><dc:creator>Juerg Schwaller</dc:creator><dc:creator>Robert Zeiser</dc:creator><dc:creator>Bruce R. Blazar</dc:creator><dc:creator>Michael A. Caligiuri</dc:creator><dc:creator>Stephan Dirnhofer</dc:creator><dc:creator>Pontus Lundberg</dc:creator><dc:creator>Lothar Kanz</dc:creator><dc:creator>Leticia Quintanilla-Martinez</dc:creator><dc:creator>Alexander Steinle</dc:creator><dc:creator>Andreas Trumpp</dc:creator><dc:creator>Helmut R. Salih</dc:creator><dc:creator>Claudia Lengerke</dc:creator>
+            <dc:identifier>doi:10.1038/s41586-019-1475-x</dc:identifier>
+            <dc:source>Nature, Published online: 2019-08-01; | doi:10.1038/s41586-019-1475-x</dc:source>
+            <dc:date>2019-08-01</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/s41586-019-1475-x</prism:doi>
+            <prism:url>https://www.nature.com/articles/s41586-019-1475-x</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/s41586-019-1475-x</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/s41586-019-1423-9">
+            <title><![CDATA[Weak average liquid-cloud-water response to anthropogenic aerosols]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/Em6aKHgsSdo/s41586-019-1423-9</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 31 July 2019; <a href="https://www.nature.com/articles/s41586-019-1423-9">doi:10.1038/s41586-019-1423-9</a></p>Satellite data for cloud tracks downwind of major pollution sources show a relatively small global average decrease in cloud water caused by anthropogenic aerosols, invalidating claims that aerosol-induced effects contribute substantially to climate cooling.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/Em6aKHgsSdo" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Weak average liquid-cloud-water response to anthropogenic aerosols]]></dc:title>
+            <dc:creator>Velle Toll</dc:creator><dc:creator>Matthew Christensen</dc:creator><dc:creator>Johannes Quaas</dc:creator><dc:creator>Nicolas Bellouin</dc:creator>
+            <dc:identifier>doi:10.1038/s41586-019-1423-9</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-31; | doi:10.1038/s41586-019-1423-9</dc:source>
+            <dc:date>2019-07-31</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/s41586-019-1423-9</prism:doi>
+            <prism:url>https://www.nature.com/articles/s41586-019-1423-9</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/s41586-019-1423-9</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/s41586-019-1422-x">
+            <title><![CDATA[Spectroscopic signatures of many-body correlations in magic-angle twisted bilayer graphene]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/eVXie5Y8Ugs/s41586-019-1422-x</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 31 July 2019; <a href="https://www.nature.com/articles/s41586-019-1422-x">doi:10.1038/s41586-019-1422-x</a></p>Scanning tunnelling spectroscopy and extended-Hubbard-model cluster calculations reveal that magic-angle twisted bilayer graphene is a strongly correlated electron system, similar to other unconventional superconductors.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/eVXie5Y8Ugs" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Spectroscopic signatures of many-body correlations in magic-angle twisted bilayer graphene]]></dc:title>
+            <dc:creator>Yonglong Xie</dc:creator><dc:creator>Biao Lian</dc:creator><dc:creator>Berthold Jäck</dc:creator><dc:creator>Xiaomeng Liu</dc:creator><dc:creator>Cheng-Li Chiu</dc:creator><dc:creator>Kenji Watanabe</dc:creator><dc:creator>Takashi Taniguchi</dc:creator><dc:creator>B. Andrei Bernevig</dc:creator><dc:creator>Ali Yazdani</dc:creator>
+            <dc:identifier>doi:10.1038/s41586-019-1422-x</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-31; | doi:10.1038/s41586-019-1422-x</dc:source>
+            <dc:date>2019-07-31</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/s41586-019-1422-x</prism:doi>
+            <prism:url>https://www.nature.com/articles/s41586-019-1422-x</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/s41586-019-1422-x</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/s41586-019-1459-x">
+            <title><![CDATA[Publisher Correction: The metabolite BH4 controls T cell proliferation in autoimmunity and cancer]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/GLz2LcMmhYM/s41586-019-1459-x</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 31 July 2019; <a href="https://www.nature.com/articles/s41586-019-1459-x">doi:10.1038/s41586-019-1459-x</a></p>Publisher Correction: The metabolite BH4 controls T cell proliferation in autoimmunity and cancer<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/GLz2LcMmhYM" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Publisher Correction: The metabolite BH4 controls T cell proliferation in autoimmunity and cancer]]></dc:title>
+            <dc:creator>Shane J. F. Cronin</dc:creator><dc:creator>Corey Seehus</dc:creator><dc:creator>Adelheid Weidinger</dc:creator><dc:creator>Sebastien Talbot</dc:creator><dc:creator>Sonja Reissig</dc:creator><dc:creator>Markus Seifert</dc:creator><dc:creator>Yann Pierson</dc:creator><dc:creator>Eileen McNeill</dc:creator><dc:creator>Maria Serena Longhi</dc:creator><dc:creator>Bruna Lenfers Turnes</dc:creator><dc:creator>Taras Kreslavsky</dc:creator><dc:creator>Melanie Kogler</dc:creator><dc:creator>David Hoffmann</dc:creator><dc:creator>Melita Ticevic</dc:creator><dc:creator>Débora da Luz Scheffer</dc:creator><dc:creator>Luigi Tortola</dc:creator><dc:creator>Domagoj Cikes</dc:creator><dc:creator>Alexander Jais</dc:creator><dc:creator>Manu Rangachari</dc:creator><dc:creator>Shuan Rao</dc:creator><dc:creator>Magdalena Paolino</dc:creator><dc:creator>Maria Novatchkova</dc:creator><dc:creator>Martin Aichinger</dc:creator><dc:creator>Lee Barrett</dc:creator><dc:creator>Alban Latremoliere</dc:creator><dc:creator>Gerald Wirnsberger</dc:creator><dc:creator>Guenther Lametschwandtner</dc:creator><dc:creator>Meinrad Busslinger</dc:creator><dc:creator>Stephen Zicha</dc:creator><dc:creator>Alexandra Latini</dc:creator><dc:creator>Simon C. Robson</dc:creator><dc:creator>Ari Waisman</dc:creator><dc:creator>Nick Andrews</dc:creator><dc:creator>Michael Costigan</dc:creator><dc:creator>Keith M. Channon</dc:creator><dc:creator>Guenter Weiss</dc:creator><dc:creator>Andrey V. Kozlov</dc:creator><dc:creator>Mark Tebbe</dc:creator><dc:creator>Kai Johnsson</dc:creator><dc:creator>Clifford J. Woolf</dc:creator><dc:creator>Josef M. Penninger</dc:creator>
+            <dc:identifier>doi:10.1038/s41586-019-1459-x</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-31; | doi:10.1038/s41586-019-1459-x</dc:source>
+            <dc:date>2019-07-31</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/s41586-019-1459-x</prism:doi>
+            <prism:url>https://www.nature.com/articles/s41586-019-1459-x</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/s41586-019-1459-x</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/s41586-019-1442-6">
+            <title><![CDATA[Lysine harvesting is an antioxidant strategy and triggers underground polyamine metabolism]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/qi3oJmtXNk0/s41586-019-1442-6</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 31 July 2019; <a href="https://www.nature.com/articles/s41586-019-1442-6">doi:10.1038/s41586-019-1442-6</a></p>The harvest of large quantities of lysine by yeast and other microbes triggers a reprogramming of redox metabolism, in which NADPH is channelled into glutathione metabolism to reduce levels of reactive oxygen species and increase tolerance to oxidative stress.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/qi3oJmtXNk0" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Lysine harvesting is an antioxidant strategy and triggers underground polyamine metabolism]]></dc:title>
+            <dc:creator>Viridiana Olin-Sandoval</dc:creator><dc:creator>Jason Shu Lim Yu</dc:creator><dc:creator>Leonor Miller-Fleming</dc:creator><dc:creator>Mohammad Tauqeer Alam</dc:creator><dc:creator>Stephan Kamrad</dc:creator><dc:creator>Clara Correia-Melo</dc:creator><dc:creator>Robert Haas</dc:creator><dc:creator>Joanna Segal</dc:creator><dc:creator>David Alejandro Peña Navarro</dc:creator><dc:creator>Lucia Herrera-Dominguez</dc:creator><dc:creator>Oscar Méndez-Lucio</dc:creator><dc:creator>Jakob Vowinckel</dc:creator><dc:creator>Michael Mülleder</dc:creator><dc:creator>Markus Ralser</dc:creator>
+            <dc:identifier>doi:10.1038/s41586-019-1442-6</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-31; | doi:10.1038/s41586-019-1442-6</dc:source>
+            <dc:date>2019-07-31</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/s41586-019-1442-6</prism:doi>
+            <prism:url>https://www.nature.com/articles/s41586-019-1442-6</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/s41586-019-1442-6</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02344-7">
+            <title><![CDATA[‘No one is immune’: Alaska’s scientists despair over plan to shrink state universities]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/4RIIj_Jmn1E/d41586-019-02344-7</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 31 July 2019; <a href="https://www.nature.com/articles/d41586-019-02344-7">doi:10.1038/d41586-019-02344-7</a></p>The University of Alaska’s governing board plans to consolidate campuses to cope with a 40% cut in state funding.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/4RIIj_Jmn1E" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[‘No one is immune’: Alaska’s scientists despair over plan to shrink state universities]]></dc:title>
+            <dc:creator>Jonathan Lambert</dc:creator>
+            <dc:identifier>doi:10.1038/d41586-019-02344-7</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-31; | doi:10.1038/d41586-019-02344-7</dc:source>
+            <dc:date>2019-07-31</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02344-7</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02344-7</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02344-7</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/s41586-019-1438-2">
+            <title><![CDATA[Structure and mechanism of the cation–chloride cotransporter NKCC1]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/y-mi1nAps4U/s41586-019-1438-2</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 31 July 2019; <a href="https://www.nature.com/articles/s41586-019-1438-2">doi:10.1038/s41586-019-1438-2</a></p>The cryo-EM structure of the zebrafish cation–chloride cotransporter NKCC1 reveals the domain organization, ion translocation pathway, ion-binding sites and key residues for binding activity, providing insights into the activity of this family of transporter proteins with key roles in physiology.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/y-mi1nAps4U" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Structure and mechanism of the cation–chloride cotransporter NKCC1]]></dc:title>
+            <dc:creator>Thomas A. Chew</dc:creator><dc:creator>Benjamin J. Orlando</dc:creator><dc:creator>Jinru Zhang</dc:creator><dc:creator>Naomi R. Latorraca</dc:creator><dc:creator>Amy Wang</dc:creator><dc:creator>Scott A. Hollingsworth</dc:creator><dc:creator>Dong-Hua Chen</dc:creator><dc:creator>Ron O. Dror</dc:creator><dc:creator>Maofu Liao</dc:creator><dc:creator>Liang Feng</dc:creator>
+            <dc:identifier>doi:10.1038/s41586-019-1438-2</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-31; | doi:10.1038/s41586-019-1438-2</dc:source>
+            <dc:date>2019-07-31</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/s41586-019-1438-2</prism:doi>
+            <prism:url>https://www.nature.com/articles/s41586-019-1438-2</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/s41586-019-1438-2</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02351-8">
+            <title><![CDATA[Daily briefing: Out of date before it’s published]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/meNgaEjNEhI/d41586-019-02351-8</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 31 July 2019; <a href="https://www.nature.com/articles/d41586-019-02351-8">doi:10.1038/d41586-019-02351-8</a></p>How “living systematic reviews” can get on top of fast-moving fields, a plan to test a geoengineering project gains momentum and a revolutionary technique getting people with spinal-cord injuries back on their feet.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/meNgaEjNEhI" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Daily briefing: Out of date before it’s published]]></dc:title>
+            <dc:creator>Flora Graham</dc:creator>
+            <dc:identifier>doi:10.1038/d41586-019-02351-8</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-31; | doi:10.1038/d41586-019-02351-8</dc:source>
+            <dc:date>2019-07-31</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02351-8</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02351-8</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02351-8</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02288-y">
+            <title><![CDATA[Yeast cells handle stress by reprogramming their metabolism]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/CveU_3TEC0c/d41586-019-02288-y</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 31 July 2019; <a href="https://www.nature.com/articles/d41586-019-02288-y">doi:10.1038/d41586-019-02288-y</a></p>Stressed yeast cells take up the amino acid lysine and reprogram their metabolism to free up supplies of a stress-relieving molecule. Lysine uptake therefore increases the tolerance of yeast cells to stress.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/CveU_3TEC0c" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Yeast cells handle stress by reprogramming their metabolism]]></dc:title>
+            <dc:creator>Jens Nielsen</dc:creator>
+            <dc:identifier>doi:10.1038/d41586-019-02288-y</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-31; | doi:10.1038/d41586-019-02288-y</dc:source>
+            <dc:date>2019-07-31</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02288-y</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02288-y</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02288-y</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/s41586-019-1445-3">
+            <title><![CDATA[Giant nonreciprocal second-harmonic generation from antiferromagnetic bilayer CrI<sub>3</sub>]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/aqOJX1pIVVY/s41586-019-1445-3</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 31 July 2019; <a href="https://www.nature.com/articles/s41586-019-1445-3">doi:10.1038/s41586-019-1445-3</a></p>Large second-harmonic generation is observed in antiferromagnetic bilayers of CrI3, providing information about the microscopic origin of layered antiferromagnetism and motivating the use of two-dimensional magnets in nonlinear optical devices.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/aqOJX1pIVVY" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Giant nonreciprocal second-harmonic generation from antiferromagnetic bilayer CrI<sub>3</sub>]]></dc:title>
+            <dc:creator>Zeyuan Sun</dc:creator><dc:creator>Yangfan Yi</dc:creator><dc:creator>Tiancheng Song</dc:creator><dc:creator>Genevieve Clark</dc:creator><dc:creator>Bevin Huang</dc:creator><dc:creator>Yuwei Shan</dc:creator><dc:creator>Shuang Wu</dc:creator><dc:creator>Di Huang</dc:creator><dc:creator>Chunlei Gao</dc:creator><dc:creator>Zhanghai Chen</dc:creator><dc:creator>Michael McGuire</dc:creator><dc:creator>Ting Cao</dc:creator><dc:creator>Di Xiao</dc:creator><dc:creator>Wei-Tao Liu</dc:creator><dc:creator>Wang Yao</dc:creator><dc:creator>Xiaodong Xu</dc:creator><dc:creator>Shiwei Wu</dc:creator>
+            <dc:identifier>doi:10.1038/s41586-019-1445-3</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-31; | doi:10.1038/s41586-019-1445-3</dc:source>
+            <dc:date>2019-07-31</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/s41586-019-1445-3</prism:doi>
+            <prism:url>https://www.nature.com/articles/s41586-019-1445-3</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/s41586-019-1445-3</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02347-4">
+            <title><![CDATA[Podcast: The placental microbiome, and advances in artificial intelligence]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/iy-8xp9vsmU/d41586-019-02347-4</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 31 July 2019; <a href="https://www.nature.com/articles/d41586-019-02347-4">doi:10.1038/d41586-019-02347-4</a></p>Tune into the latest from the world of science, with Nick Howe and Noah Baker.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/iy-8xp9vsmU" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Podcast: The placental microbiome, and advances in artificial intelligence]]></dc:title>
+            
+            <dc:identifier>doi:10.1038/d41586-019-02347-4</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-31; | doi:10.1038/d41586-019-02347-4</dc:source>
+            <dc:date>2019-07-31</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02347-4</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02347-4</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02347-4</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02302-3">
+            <title><![CDATA[Environmental racism, the world as it isn’t, and a guided tour of the planets: Books in brief]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/zm1WQO7KNXA/d41586-019-02302-3</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 31 July 2019; <a href="https://www.nature.com/articles/d41586-019-02302-3">doi:10.1038/d41586-019-02302-3</a></p>Barbara Kiser reviews five of the week’s best science picks.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/zm1WQO7KNXA" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Environmental racism, the world as it isn’t, and a guided tour of the planets: Books in brief]]></dc:title>
+            <dc:creator>Barbara Kiser</dc:creator>
+            <dc:identifier>doi:10.1038/d41586-019-02302-3</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-31; | doi:10.1038/d41586-019-02302-3</dc:source>
+            <dc:date>2019-07-31</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02302-3</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02302-3</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02302-3</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/s41586-019-1433-7">
+            <title><![CDATA[Memory editing from science fiction to clinical practice]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/ZyEE26zEdnY/s41586-019-1433-7</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 31 July 2019; <a href="https://www.nature.com/articles/s41586-019-1433-7">doi:10.1038/s41586-019-1433-7</a></p>A Review of advances in memory-editing techniques in humans suggests that these techniques are advancing beyond science fiction and could hold promise for translation into clinical practice.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/ZyEE26zEdnY" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Memory editing from science fiction to clinical practice]]></dc:title>
+            <dc:creator>Elizabeth A. Phelps</dc:creator><dc:creator>Stefan G. Hofmann</dc:creator>
+            <dc:identifier>doi:10.1038/s41586-019-1433-7</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-31; | doi:10.1038/s41586-019-1433-7</dc:source>
+            <dc:date>2019-07-31</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/s41586-019-1433-7</prism:doi>
+            <prism:url>https://www.nature.com/articles/s41586-019-1433-7</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/s41586-019-1433-7</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/s41586-019-1457-z">
+            <title><![CDATA[Exome sequencing of Finnish isolates enhances rare-variant association power]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/w5AHfxy9JiM/s41586-019-1457-z</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 31 July 2019; <a href="https://www.nature.com/articles/s41586-019-1457-z">doi:10.1038/s41586-019-1457-z</a></p>Exome-wide sequencing studies of populations in Finland identified 26 deleterious alleles associated with 64 quantitative traits that are clinically relevant to cardiovascular and metabolic diseases.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/w5AHfxy9JiM" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Exome sequencing of Finnish isolates enhances rare-variant association power]]></dc:title>
+            <dc:creator>Adam E. Locke</dc:creator><dc:creator>Karyn Meltz Steinberg</dc:creator><dc:creator>Charleston W. K. Chiang</dc:creator><dc:creator>Susan K. Service</dc:creator><dc:creator>Aki S. Havulinna</dc:creator><dc:creator>Laurel Stell</dc:creator><dc:creator>Matti Pirinen</dc:creator><dc:creator>Haley J. Abel</dc:creator><dc:creator>Colby C. Chiang</dc:creator><dc:creator>Robert S. Fulton</dc:creator><dc:creator>Anne U. Jackson</dc:creator><dc:creator>Chul Joo Kang</dc:creator><dc:creator>Krishna L. Kanchi</dc:creator><dc:creator>Daniel C. Koboldt</dc:creator><dc:creator>David E. Larson</dc:creator><dc:creator>Joanne Nelson</dc:creator><dc:creator>Thomas J. Nicholas</dc:creator><dc:creator>Arto Pietilä</dc:creator><dc:creator>Vasily Ramensky</dc:creator><dc:creator>Debashree Ray</dc:creator><dc:creator>Laura J. Scott</dc:creator><dc:creator>Heather M. Stringham</dc:creator><dc:creator>Jagadish Vangipurapu</dc:creator><dc:creator>Ryan Welch</dc:creator><dc:creator>Pranav Yajnik</dc:creator><dc:creator>Xianyong Yin</dc:creator><dc:creator>Johan G. Eriksson</dc:creator><dc:creator>Mika Ala-Korpela</dc:creator><dc:creator>Marjo-Riitta Järvelin</dc:creator><dc:creator>Minna Männikkö</dc:creator><dc:creator>Hannele Laivuori</dc:creator><dc:creator>Susan K. Dutcher</dc:creator><dc:creator>Nathan O. Stitziel</dc:creator><dc:creator>Richard K. Wilson</dc:creator><dc:creator>Ira M. Hall</dc:creator><dc:creator>Chiara Sabatti</dc:creator><dc:creator>Aarno Palotie</dc:creator><dc:creator>Veikko Salomaa</dc:creator><dc:creator>Markku Laakso</dc:creator><dc:creator>Samuli Ripatti</dc:creator><dc:creator>Michael Boehnke</dc:creator><dc:creator>Nelson B. Freimer</dc:creator>
+            <dc:identifier>doi:10.1038/s41586-019-1457-z</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-31; | doi:10.1038/s41586-019-1457-z</dc:source>
+            <dc:date>2019-07-31</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/s41586-019-1457-z</prism:doi>
+            <prism:url>https://www.nature.com/articles/s41586-019-1457-z</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/s41586-019-1457-z</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02262-8">
+            <title><![CDATA[No bacteria found in healthy placentas]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/8oFBO0b2UT8/d41586-019-02262-8</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 31 July 2019; <a href="https://www.nature.com/articles/d41586-019-02262-8">doi:10.1038/d41586-019-02262-8</a></p>Analysis of hundreds of placentas provides convincing evidence that this organ does not harbour microorganisms that can enter the fetal gut — a key finding for research into how the human microbiota is established.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/8oFBO0b2UT8" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[No bacteria found in healthy placentas]]></dc:title>
+            <dc:creator>Nicola Segata</dc:creator>
+            <dc:identifier>doi:10.1038/d41586-019-02262-8</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-31; | doi:10.1038/d41586-019-02262-8</dc:source>
+            <dc:date>2019-07-31</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02262-8</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02262-8</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02262-8</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/s41586-019-1417-7">
+            <title><![CDATA[Reply to: Do not discard <i>Staphylococcus aureus</i> WTA as a vaccine antigen]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/oaTrHEnb2gk/s41586-019-1417-7</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 31 July 2019; <a href="https://www.nature.com/articles/s41586-019-1417-7">doi:10.1038/s41586-019-1417-7</a></p>Reply to: Do not discard <i>Staphylococcus aureus</i> WTA as a vaccine antigen<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/oaTrHEnb2gk" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Reply to: Do not discard <i>Staphylococcus aureus</i> WTA as a vaccine antigen]]></dc:title>
+            <dc:creator>David Gerlach</dc:creator><dc:creator>Yinglan Guo</dc:creator><dc:creator>Thilo Stehle</dc:creator><dc:creator>Andreas Peschel</dc:creator>
+            <dc:identifier>doi:10.1038/s41586-019-1417-7</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-31; | doi:10.1038/s41586-019-1417-7</dc:source>
+            <dc:date>2019-07-31</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/s41586-019-1417-7</prism:doi>
+            <prism:url>https://www.nature.com/articles/s41586-019-1417-7</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/s41586-019-1417-7</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02305-0">
+            <title><![CDATA[Arctic wildfires, hybrid embryos and record-breaking heatwave]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/YPhzTY8THAY/d41586-019-02305-0</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 31 July 2019; <a href="https://www.nature.com/articles/d41586-019-02305-0">doi:10.1038/d41586-019-02305-0</a></p>The week in science: 26 July–1 August 2019.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/YPhzTY8THAY" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Arctic wildfires, hybrid embryos and record-breaking heatwave]]></dc:title>
+            
+            <dc:identifier>doi:10.1038/d41586-019-02305-0</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-31; | doi:10.1038/d41586-019-02305-0</dc:source>
+            <dc:date>2019-07-31</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02305-0</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02305-0</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02305-0</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02319-8">
+            <title><![CDATA[‘Mosaic’ HIV vaccine to be tested in thousands of people across the world]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/2g4BAhUMBjw/d41586-019-02319-8</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 31 July 2019; <a href="https://www.nature.com/articles/d41586-019-02319-8">doi:10.1038/d41586-019-02319-8</a></p>The experimental vaccine targets more strains of the virus than any other ― and seems to have longer lasting effects.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/2g4BAhUMBjw" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[‘Mosaic’ HIV vaccine to be tested in thousands of people across the world]]></dc:title>
+            <dc:creator>Emiliano Rodríguez Mega</dc:creator>
+            <dc:identifier>doi:10.1038/d41586-019-02319-8</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-31; | doi:10.1038/d41586-019-02319-8</dc:source>
+            <dc:date>2019-07-31</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02319-8</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02319-8</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02319-8</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02234-y">
+            <title><![CDATA[Genomic mechanisms for the evolution of flightlessness in steamer ducks]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/xqFnddQ5Wt0/d41586-019-02234-y</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 31 July 2019; <a href="https://www.nature.com/articles/d41586-019-02234-y">doi:10.1038/d41586-019-02234-y</a></p>The ability to fly has been lost in many groups of birds. A comparison of the wing structures and genomes of flighted and non-flighted species of steamer duck highlights a possible mechanism for the loss of flight.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/xqFnddQ5Wt0" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Genomic mechanisms for the evolution of flightlessness in steamer ducks]]></dc:title>
+            <dc:creator>Julia A. Clarke</dc:creator>
+            <dc:identifier>doi:10.1038/d41586-019-02234-y</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-31; | doi:10.1038/d41586-019-02234-y</dc:source>
+            <dc:date>2019-07-31</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02234-y</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02234-y</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02234-y</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02338-5">
+            <title><![CDATA[UAE Mars probe will be Arab world first]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/w2eXuYvQPek/d41586-019-02338-5</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 31 July 2019; <a href="https://www.nature.com/articles/d41586-019-02338-5">doi:10.1038/d41586-019-02338-5</a></p>The United Arab Emirates will send the Hope probe to the red planet next year.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/w2eXuYvQPek" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[UAE Mars probe will be Arab world first]]></dc:title>
+            <dc:creator>Ehsan Masood</dc:creator>
+            <dc:identifier>doi:10.1038/d41586-019-02338-5</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-31; | doi:10.1038/d41586-019-02338-5</dc:source>
+            <dc:date>2019-07-31</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02338-5</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02338-5</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02338-5</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/s41586-019-1424-8">
+            <title><![CDATA[Towards artificial general intelligence with hybrid Tianjic chip architecture]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/X2WjFtspMMA/s41586-019-1424-8</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 31 July 2019; <a href="https://www.nature.com/articles/s41586-019-1424-8">doi:10.1038/s41586-019-1424-8</a></p>The ‘Tianjic’ hybrid electronic chip combines neuroscience-oriented and computer-science-oriented approaches to artificial general intelligence, demonstrated by controlling an unmanned bicycle.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/X2WjFtspMMA" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Towards artificial general intelligence with hybrid Tianjic chip architecture]]></dc:title>
+            <dc:creator>Jing Pei</dc:creator><dc:creator>Lei Deng</dc:creator><dc:creator>Sen Song</dc:creator><dc:creator>Mingguo Zhao</dc:creator><dc:creator>Youhui Zhang</dc:creator><dc:creator>Shuang Wu</dc:creator><dc:creator>Guanrui Wang</dc:creator><dc:creator>Zhe Zou</dc:creator><dc:creator>Zhenzhi Wu</dc:creator><dc:creator>Wei He</dc:creator><dc:creator>Feng Chen</dc:creator><dc:creator>Ning Deng</dc:creator><dc:creator>Si Wu</dc:creator><dc:creator>Yu Wang</dc:creator><dc:creator>Yujie Wu</dc:creator><dc:creator>Zheyu Yang</dc:creator><dc:creator>Cheng Ma</dc:creator><dc:creator>Guoqi Li</dc:creator><dc:creator>Wentao Han</dc:creator><dc:creator>Huanglong Li</dc:creator><dc:creator>Huaqiang Wu</dc:creator><dc:creator>Rong Zhao</dc:creator><dc:creator>Yuan Xie</dc:creator><dc:creator>Luping Shi</dc:creator>
+            <dc:identifier>doi:10.1038/s41586-019-1424-8</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-31; | doi:10.1038/s41586-019-1424-8</dc:source>
+            <dc:date>2019-07-31</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/s41586-019-1424-8</prism:doi>
+            <prism:url>https://www.nature.com/articles/s41586-019-1424-8</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/s41586-019-1424-8</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02312-1">
+            <title><![CDATA[Proxima junk]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/TQZkBOULm8M/d41586-019-02312-1</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 31 July 2019; <a href="https://www.nature.com/articles/d41586-019-02312-1">doi:10.1038/d41586-019-02312-1</a></p>Welcome to the curiosity shop.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/TQZkBOULm8M" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Proxima junk]]></dc:title>
+            <dc:creator>Mark Vandersluis</dc:creator>
+            <dc:identifier>doi:10.1038/d41586-019-02312-1</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-31; | doi:10.1038/d41586-019-02312-1</dc:source>
+            <dc:date>2019-07-31</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02312-1</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02312-1</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02312-1</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/s41586-019-1431-9">
+            <title><![CDATA[Maximized electron interactions at the magic angle in twisted bilayer graphene]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/NHV_0eTTqp8/s41586-019-1431-9</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 31 July 2019; <a href="https://www.nature.com/articles/s41586-019-1431-9">doi:10.1038/s41586-019-1431-9</a></p>Scanning tunnelling spectroscopy is used to map the atomic-scale electronic structure of magic-angle twisted bilayer graphene, finding multiple signatures of electron correlations and thus providing insight into the sought-after mechanism behind superconductivity in graphene.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/NHV_0eTTqp8" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Maximized electron interactions at the magic angle in twisted bilayer graphene]]></dc:title>
+            <dc:creator>Alexander Kerelsky</dc:creator><dc:creator>Leo J. McGilly</dc:creator><dc:creator>Dante M. Kennes</dc:creator><dc:creator>Lede Xian</dc:creator><dc:creator>Matthew Yankowitz</dc:creator><dc:creator>Shaowen Chen</dc:creator><dc:creator>K. Watanabe</dc:creator><dc:creator>T. Taniguchi</dc:creator><dc:creator>James Hone</dc:creator><dc:creator>Cory Dean</dc:creator><dc:creator>Angel Rubio</dc:creator><dc:creator>Abhay N. Pasupathy</dc:creator>
+            <dc:identifier>doi:10.1038/s41586-019-1431-9</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-31; | doi:10.1038/s41586-019-1431-9</dc:source>
+            <dc:date>2019-07-31</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/s41586-019-1431-9</prism:doi>
+            <prism:url>https://www.nature.com/articles/s41586-019-1431-9</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/s41586-019-1431-9</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/s41586-019-1450-6">
+            <title><![CDATA[Loss of p53 triggers WNT-dependent systemic inflammation to drive breast cancer metastasis]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/DG5cPRlwUCY/s41586-019-1450-6</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 31 July 2019; <a href="https://www.nature.com/articles/s41586-019-1450-6">doi:10.1038/s41586-019-1450-6</a></p>Loss of p53 in mouse models of breast cancer leads to activation of WNT signalling, which promotes metastatic spread by inducing systemic neutrophilic inflammation.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/DG5cPRlwUCY" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Loss of p53 triggers WNT-dependent systemic inflammation to drive breast cancer metastasis]]></dc:title>
+            <dc:creator>Max D. Wellenstein</dc:creator><dc:creator>Seth B. Coffelt</dc:creator><dc:creator>Danique E. M. Duits</dc:creator><dc:creator>Martine H. van Miltenburg</dc:creator><dc:creator>Maarten Slagter</dc:creator><dc:creator>Iris de Rink</dc:creator><dc:creator>Linda Henneman</dc:creator><dc:creator>Sjors M. Kas</dc:creator><dc:creator>Stefan Prekovic</dc:creator><dc:creator>Cheei-Sing Hau</dc:creator><dc:creator>Kim Vrijland</dc:creator><dc:creator>Anne Paulien Drenth</dc:creator><dc:creator>Renske de Korte-Grimmerink</dc:creator><dc:creator>Eva Schut</dc:creator><dc:creator>Ingrid van der Heijden</dc:creator><dc:creator>Wilbert Zwart</dc:creator><dc:creator>Lodewyk F. A. Wessels</dc:creator><dc:creator>Ton N. Schumacher</dc:creator><dc:creator>Jos Jonkers</dc:creator><dc:creator>Karin E. de Visser</dc:creator>
+            <dc:identifier>doi:10.1038/s41586-019-1450-6</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-31; | doi:10.1038/s41586-019-1450-6</dc:source>
+            <dc:date>2019-07-31</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/s41586-019-1450-6</prism:doi>
+            <prism:url>https://www.nature.com/articles/s41586-019-1450-6</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/s41586-019-1450-6</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02289-x">
+            <title><![CDATA[How plants perceive salt]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/vZcRJP9LFxA/d41586-019-02289-x</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 31 July 2019; <a href="https://www.nature.com/articles/d41586-019-02289-x">doi:10.1038/d41586-019-02289-x</a></p>High salt levels in the soil harm plant growth and limit crop yields. A salt-binding membrane lipid has been identified as being essential for salt perception and for triggering calcium signals that lead to salt tolerance.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/vZcRJP9LFxA" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[How plants perceive salt]]></dc:title>
+            <dc:creator>Leonie Steinhorst</dc:creator><dc:creator>Jörg Kudla</dc:creator>
+            <dc:identifier>doi:10.1038/d41586-019-02289-x</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-31; | doi:10.1038/d41586-019-02289-x</dc:source>
+            <dc:date>2019-07-31</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02289-x</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02289-x</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02289-x</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02324-x">
+            <title><![CDATA[‘Chameleon’ crystals change colour under pressure]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/SvOt5woyXZg/d41586-019-02324-x</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 31 July 2019; <a href="https://www.nature.com/articles/d41586-019-02324-x">doi:10.1038/d41586-019-02324-x</a></p>Layered materials called perovskites give in to pressure by glowing red, orange and yellow.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/SvOt5woyXZg" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[‘Chameleon’ crystals change colour under pressure]]></dc:title>
+            
+            <dc:identifier>doi:10.1038/d41586-019-02324-x</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-31; | doi:10.1038/d41586-019-02324-x</dc:source>
+            <dc:date>2019-07-31</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02324-x</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02324-x</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02324-x</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/s41586-019-1415-9">
+            <title><![CDATA[Author Correction: Advanced maturation of human cardiac tissue grown from pluripotent stem cells]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/z0X9cpE6HiU/s41586-019-1415-9</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 31 July 2019; <a href="https://www.nature.com/articles/s41586-019-1415-9">doi:10.1038/s41586-019-1415-9</a></p>Author Correction: Advanced maturation of human cardiac tissue grown from pluripotent stem cells<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/z0X9cpE6HiU" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Author Correction: Advanced maturation of human cardiac tissue grown from pluripotent stem cells]]></dc:title>
+            <dc:creator>Kacey Ronaldson-Bouchard</dc:creator><dc:creator>Stephen P. Ma</dc:creator><dc:creator>Keith Yeager</dc:creator><dc:creator>Timothy Chen</dc:creator><dc:creator>LouJin Song</dc:creator><dc:creator>Dario Sirabella</dc:creator><dc:creator>Kumi Morikawa</dc:creator><dc:creator>Diogo Teles</dc:creator><dc:creator>Masayuki Yazawa</dc:creator><dc:creator>Gordana Vunjak-Novakovic</dc:creator>
+            <dc:identifier>doi:10.1038/s41586-019-1415-9</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-31; | doi:10.1038/s41586-019-1415-9</dc:source>
+            <dc:date>2019-07-31</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/s41586-019-1415-9</prism:doi>
+            <prism:url>https://www.nature.com/articles/s41586-019-1415-9</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/s41586-019-1415-9</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/s41586-019-1453-3">
+            <title><![CDATA[Cholera toxin promotes pathogen acquisition of host-derived nutrients]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/Yiny9YmP8Wg/s41586-019-1453-3</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 31 July 2019; <a href="https://www.nature.com/articles/s41586-019-1453-3">doi:10.1038/s41586-019-1453-3</a></p>Cholera toxin selectively promotes the growth of Vibrio cholerae through the acquisition of nutrients, including haem and fatty acids, from the host gut.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/Yiny9YmP8Wg" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Cholera toxin promotes pathogen acquisition of host-derived nutrients]]></dc:title>
+            <dc:creator>Fabian Rivera-Chávez</dc:creator><dc:creator>John J. Mekalanos</dc:creator>
+            <dc:identifier>doi:10.1038/s41586-019-1453-3</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-31; | doi:10.1038/s41586-019-1453-3</dc:source>
+            <dc:date>2019-07-31</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/s41586-019-1453-3</prism:doi>
+            <prism:url>https://www.nature.com/articles/s41586-019-1453-3</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/s41586-019-1453-3</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02308-x">
+            <title><![CDATA[Deep learning detects impending organ injury in the clinic]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/PDlE1k_Bbmw/d41586-019-02308-x</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 31 July 2019; <a href="https://www.nature.com/articles/d41586-019-02308-x">doi:10.1038/d41586-019-02308-x</a></p>Organ damage is often detected late, when treatment options are limited. The use of artificial intelligence to continuously monitor a patient’s medical data can identify people at risk of imminent kidney injury.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/PDlE1k_Bbmw" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Deep learning detects impending organ injury in the clinic]]></dc:title>
+            <dc:creator>Eric J. Topol</dc:creator>
+            <dc:identifier>doi:10.1038/d41586-019-02308-x</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-31; | doi:10.1038/d41586-019-02308-x</dc:source>
+            <dc:date>2019-07-31</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02308-x</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02308-x</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02308-x</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/s41586-019-1460-4">
+            <title><![CDATA[Charge-order and broken rotational symmetry in magic angle twisted bilayer graphene]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/VRuEASs8aOE/s41586-019-1460-4</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 31 July 2019; <a href="https://www.nature.com/articles/s41586-019-1460-4">doi:10.1038/s41586-019-1460-4</a></p>Charge-order and broken rotational symmetry in magic angle twisted bilayer graphene<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/VRuEASs8aOE" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Charge-order and broken rotational symmetry in magic angle twisted bilayer graphene]]></dc:title>
+            <dc:creator>Yuhang Jiang</dc:creator><dc:creator>Xinyuan Lai</dc:creator><dc:creator>Kenji Watanabe</dc:creator><dc:creator>Takashi Taniguchi</dc:creator><dc:creator>Kristjan Haule</dc:creator><dc:creator>Jinhai Mao</dc:creator><dc:creator>Eva Y. Andrei</dc:creator>
+            <dc:identifier>doi:10.1038/s41586-019-1460-4</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-31; | doi:10.1038/s41586-019-1460-4</dc:source>
+            <dc:date>2019-07-31</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/s41586-019-1460-4</prism:doi>
+            <prism:url>https://www.nature.com/articles/s41586-019-1460-4</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/s41586-019-1460-4</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/s41586-019-1437-3">
+            <title><![CDATA[Dietary methionine influences therapy in mouse cancer models and alters human metabolism]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/sAEfgYHCptY/s41586-019-1437-3</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 31 July 2019; <a href="https://www.nature.com/articles/s41586-019-1437-3">doi:10.1038/s41586-019-1437-3</a></p>In two patient-derived xenograft models of colorectal cancer and a mouse model of autochthonous soft-tissue sarcoma, dietary restriction of methionine influences the outcome of cancer and interacts with antimetabolite and radiation therapies, through effects on one-carbon metabolism.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/sAEfgYHCptY" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Dietary methionine influences therapy in mouse cancer models and alters human metabolism]]></dc:title>
+            <dc:creator>Xia Gao</dc:creator><dc:creator>Sydney M. Sanderson</dc:creator><dc:creator>Ziwei Dai</dc:creator><dc:creator>Michael A. Reid</dc:creator><dc:creator>Daniel E. Cooper</dc:creator><dc:creator>Min Lu</dc:creator><dc:creator>John P. Richie Jr</dc:creator><dc:creator>Amy Ciccarella</dc:creator><dc:creator>Ana Calcagnotto</dc:creator><dc:creator>Peter G. Mikhael</dc:creator><dc:creator>Samantha J. Mentch</dc:creator><dc:creator>Juan Liu</dc:creator><dc:creator>Gene Ables</dc:creator><dc:creator>David G. Kirsch</dc:creator><dc:creator>David S. Hsu</dc:creator><dc:creator>Sailendra N. Nichenametla</dc:creator><dc:creator>Jason W. Locasale</dc:creator>
+            <dc:identifier>doi:10.1038/s41586-019-1437-3</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-31; | doi:10.1038/s41586-019-1437-3</dc:source>
+            <dc:date>2019-07-31</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/s41586-019-1437-3</prism:doi>
+            <prism:url>https://www.nature.com/articles/s41586-019-1437-3</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/s41586-019-1437-3</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/s41586-019-1456-0">
+            <title><![CDATA[CD24 signalling through macrophage Siglec-10 is a target for cancer immunotherapy]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/cqkplx9TQ74/s41586-019-1456-0</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 31 July 2019; <a href="https://www.nature.com/articles/s41586-019-1456-0">doi:10.1038/s41586-019-1456-0</a></p>CD24 interacts with the tumour-associated-macrophage receptor Siglec-10 to inhibit the macrophage-mediated clearance of cancer cells, revealing a new ‘don’t eat me’ signal as a potential target for cancer immunotherapy.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/cqkplx9TQ74" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[CD24 signalling through macrophage Siglec-10 is a target for cancer immunotherapy]]></dc:title>
+            <dc:creator>Amira A. Barkal</dc:creator><dc:creator>Rachel E. Brewer</dc:creator><dc:creator>Maxim Markovic</dc:creator><dc:creator>Mark Kowarsky</dc:creator><dc:creator>Sammy A. Barkal</dc:creator><dc:creator>Balyn W. Zaro</dc:creator><dc:creator>Venkatesh Krishnan</dc:creator><dc:creator>Jason Hatakeyama</dc:creator><dc:creator>Oliver Dorigo</dc:creator><dc:creator>Layla J. Barkal</dc:creator><dc:creator>Irving L. Weissman</dc:creator>
+            <dc:identifier>doi:10.1038/s41586-019-1456-0</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-31; | doi:10.1038/s41586-019-1456-0</dc:source>
+            <dc:date>2019-07-31</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/s41586-019-1456-0</prism:doi>
+            <prism:url>https://www.nature.com/articles/s41586-019-1456-0</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/s41586-019-1456-0</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02287-z">
+            <title><![CDATA[Weak sensitivity of cloud water to aerosols]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/avsqWWknzlw/d41586-019-02287-z</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 31 July 2019; <a href="https://www.nature.com/articles/d41586-019-02287-z">doi:10.1038/d41586-019-02287-z</a></p>Human activities produce tiny airborne particles called aerosols. The discovery that the average impact of these aerosols on the water content of low-level clouds is minimal will lead to more-reliable models of future climate.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/avsqWWknzlw" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Weak sensitivity of cloud water to aerosols]]></dc:title>
+            <dc:creator>Anna Possner</dc:creator>
+            <dc:identifier>doi:10.1038/d41586-019-02287-z</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-31; | doi:10.1038/d41586-019-02287-z</dc:source>
+            <dc:date>2019-07-31</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02287-z</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02287-z</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02287-z</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02322-z">
+            <title><![CDATA[Time to discuss consent in digital-data studies]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/3gGJppIAtso/d41586-019-02322-z</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 31 July 2019; <a href="https://www.nature.com/articles/d41586-019-02322-z">doi:10.1038/d41586-019-02322-z</a></p>Anonymized data sets are growing and it is becoming easier to identify individuals. Research-consent procedures must be updated to protect people from being targeted.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/3gGJppIAtso" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Time to discuss consent in digital-data studies]]></dc:title>
+            
+            <dc:identifier>doi:10.1038/d41586-019-02322-z</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-31; | doi:10.1038/d41586-019-02322-z</dc:source>
+            <dc:date>2019-07-31</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02322-z</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02322-z</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02322-z</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/s41586-019-1449-z">
+            <title><![CDATA[Plant cell-surface GIPC sphingolipids sense salt to trigger Ca<sup>2+</sup> influx]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/cME7MhYe3_0/s41586-019-1449-z</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 31 July 2019; <a href="https://www.nature.com/articles/s41586-019-1449-z">doi:10.1038/s41586-019-1449-z</a></p>The sphingolipid GIPC in the plant cell plasma membrane binds to sodium and triggers calcium influx, thereby triggering responses to excess salt such as efflux of sodium ions from cells.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/cME7MhYe3_0" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Plant cell-surface GIPC sphingolipids sense salt to trigger Ca<sup>2+</sup> influx]]></dc:title>
+            <dc:creator>Zhonghao Jiang</dc:creator><dc:creator>Xiaoping Zhou</dc:creator><dc:creator>Ming Tao</dc:creator><dc:creator>Fang Yuan</dc:creator><dc:creator>Lulu Liu</dc:creator><dc:creator>Feihua Wu</dc:creator><dc:creator>Xiaomei Wu</dc:creator><dc:creator>Yun Xiang</dc:creator><dc:creator>Yue Niu</dc:creator><dc:creator>Feng Liu</dc:creator><dc:creator>Chijun Li</dc:creator><dc:creator>Rui Ye</dc:creator><dc:creator>Benjamin Byeon</dc:creator><dc:creator>Yan Xue</dc:creator><dc:creator>Hongyan Zhao</dc:creator><dc:creator>Hsin-Neng Wang</dc:creator><dc:creator>Bridget M. Crawford</dc:creator><dc:creator>Douglas M. Johnson</dc:creator><dc:creator>Chanxing Hu</dc:creator><dc:creator>Christopher Pei</dc:creator><dc:creator>Wenming Zhou</dc:creator><dc:creator>Gary B. Swift</dc:creator><dc:creator>Han Zhang</dc:creator><dc:creator>Tuan Vo-Dinh</dc:creator><dc:creator>Zhangli Hu</dc:creator><dc:creator>James N. Siedow</dc:creator><dc:creator>Zhen-Ming Pei</dc:creator>
+            <dc:identifier>doi:10.1038/s41586-019-1449-z</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-31; | doi:10.1038/s41586-019-1449-z</dc:source>
+            <dc:date>2019-07-31</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/s41586-019-1449-z</prism:doi>
+            <prism:url>https://www.nature.com/articles/s41586-019-1449-z</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/s41586-019-1449-z</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02285-1">
+            <title><![CDATA[Spectroscopy of graphene with a magic twist]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/cVFNjBQGLkk/d41586-019-02285-1</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 31 July 2019; <a href="https://www.nature.com/articles/d41586-019-02285-1">doi:10.1038/d41586-019-02285-1</a></p>When two graphene sheets are stacked so that there is a specific angle between them, fascinating properties reminiscent of high-temperature superconductors emerge. Spectroscopy now provides insights into this behaviour.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/cVFNjBQGLkk" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Spectroscopy of graphene with a magic twist]]></dc:title>
+            <dc:creator>Mathias S. Scheurer</dc:creator>
+            <dc:identifier>doi:10.1038/d41586-019-02285-1</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-31; | doi:10.1038/d41586-019-02285-1</dc:source>
+            <dc:date>2019-07-31</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02285-1</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02285-1</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02285-1</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/s41586-019-1451-5">
+            <title><![CDATA[Human placenta has no microbiome but can contain potential pathogens]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/gKdiyNufgyk/s41586-019-1451-5</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 31 July 2019; <a href="https://www.nature.com/articles/s41586-019-1451-5">doi:10.1038/s41586-019-1451-5</a></p>The human placenta does not have a microbiota, suggesting that bacterial infection of the placenta is not a common cause of adverse pregnancy outcome, but group B Streptococcus is found in approximately 5% of placental samples.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/gKdiyNufgyk" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Human placenta has no microbiome but can contain potential pathogens]]></dc:title>
+            <dc:creator>Marcus C. de Goffau</dc:creator><dc:creator>Susanne Lager</dc:creator><dc:creator>Ulla Sovio</dc:creator><dc:creator>Francesca Gaccioli</dc:creator><dc:creator>Emma Cook</dc:creator><dc:creator>Sharon J. Peacock</dc:creator><dc:creator>Julian Parkhill</dc:creator><dc:creator>D. Stephen Charnock-Jones</dc:creator><dc:creator>Gordon C. S. Smith</dc:creator>
+            <dc:identifier>doi:10.1038/s41586-019-1451-5</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-31; | doi:10.1038/s41586-019-1451-5</dc:source>
+            <dc:date>2019-07-31</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/s41586-019-1451-5</prism:doi>
+            <prism:url>https://www.nature.com/articles/s41586-019-1451-5</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/s41586-019-1451-5</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02306-z">
+            <title><![CDATA[How a revolutionary technique got people with spinal-cord injuries back on their feet]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/MLbXzphjbWE/d41586-019-02306-z</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 31 July 2019; <a href="https://www.nature.com/articles/d41586-019-02306-z">doi:10.1038/d41586-019-02306-z</a></p>Electrical stimulation has promised huge gains for people with paralysis. Now comes the hard part — getting beyond those first steps.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/MLbXzphjbWE" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[How a revolutionary technique got people with spinal-cord injuries back on their feet]]></dc:title>
+            <dc:creator>Cassandra Willyard</dc:creator>
+            <dc:identifier>doi:10.1038/d41586-019-02306-z</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-31; | doi:10.1038/d41586-019-02306-z</dc:source>
+            <dc:date>2019-07-31</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02306-z</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02306-z</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02306-z</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/s41586-019-1390-1">
+            <title><![CDATA[A clinically applicable approach to continuous prediction of future acute kidney injury]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/NwtRSxdc-iM/s41586-019-1390-1</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 31 July 2019; <a href="https://www.nature.com/articles/s41586-019-1390-1">doi:10.1038/s41586-019-1390-1</a></p>A deep learning approach that predicts the risk of acute kidney injury may help to identify patients at risk of health deterioration within a time window that enables early treatment.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/NwtRSxdc-iM" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[A clinically applicable approach to continuous prediction of future acute kidney injury]]></dc:title>
+            <dc:creator>Nenad Tomašev</dc:creator><dc:creator>Xavier Glorot</dc:creator><dc:creator>Jack W. Rae</dc:creator><dc:creator>Michal Zielinski</dc:creator><dc:creator>Harry Askham</dc:creator><dc:creator>Andre Saraiva</dc:creator><dc:creator>Anne Mottram</dc:creator><dc:creator>Clemens Meyer</dc:creator><dc:creator>Suman Ravuri</dc:creator><dc:creator>Ivan Protsyuk</dc:creator><dc:creator>Alistair Connell</dc:creator><dc:creator>Cían O. Hughes</dc:creator><dc:creator>Alan Karthikesalingam</dc:creator><dc:creator>Julien Cornebise</dc:creator><dc:creator>Hugh Montgomery</dc:creator><dc:creator>Geraint Rees</dc:creator><dc:creator>Chris Laing</dc:creator><dc:creator>Clifton R. Baker</dc:creator><dc:creator>Kelly Peterson</dc:creator><dc:creator>Ruth Reeves</dc:creator><dc:creator>Demis Hassabis</dc:creator><dc:creator>Dominic King</dc:creator><dc:creator>Mustafa Suleyman</dc:creator><dc:creator>Trevor Back</dc:creator><dc:creator>Christopher Nielson</dc:creator><dc:creator>Joseph R. Ledsam</dc:creator><dc:creator>Shakir Mohamed</dc:creator>
+            <dc:identifier>doi:10.1038/s41586-019-1390-1</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-31; | doi:10.1038/s41586-019-1390-1</dc:source>
+            <dc:date>2019-07-31</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/s41586-019-1390-1</prism:doi>
+            <prism:url>https://www.nature.com/articles/s41586-019-1390-1</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/s41586-019-1390-1</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/s41586-019-1416-8">
+            <title><![CDATA[Do not discard <i>Staphylococcus aureus</i> WTA as a vaccine antigen]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/L8BHHFHbzyY/s41586-019-1416-8</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 31 July 2019; <a href="https://www.nature.com/articles/s41586-019-1416-8">doi:10.1038/s41586-019-1416-8</a></p>Do not discard <i>Staphylococcus aureus</i> WTA as a vaccine antigen<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/L8BHHFHbzyY" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Do not discard <i>Staphylococcus aureus</i> WTA as a vaccine antigen]]></dc:title>
+            <dc:creator>Rob van Dalen</dc:creator><dc:creator>Michèle M. Molendijk</dc:creator><dc:creator>Sara Ali</dc:creator><dc:creator>Kok P. M. van Kessel</dc:creator><dc:creator>Piet Aerts</dc:creator><dc:creator>Jos A. G. van Strijp</dc:creator><dc:creator>Carla J. C. de Haas</dc:creator><dc:creator>Jeroen Codée</dc:creator><dc:creator>Nina M. van Sorge</dc:creator>
+            <dc:identifier>doi:10.1038/s41586-019-1416-8</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-31; | doi:10.1038/s41586-019-1416-8</dc:source>
+            <dc:date>2019-07-31</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/s41586-019-1416-8</prism:doi>
+            <prism:url>https://www.nature.com/articles/s41586-019-1416-8</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/s41586-019-1416-8</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02309-w">
+            <title><![CDATA[From the archive]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/yTbJKM83ZFI/d41586-019-02309-w</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 30 July 2019; <a href="https://www.nature.com/articles/d41586-019-02309-w">doi:10.1038/d41586-019-02309-w</a></p>How Nature reported plans to exploit Australia’s natural resources in 1919, and to develop computers as teaching aids in 1969.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/yTbJKM83ZFI" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[From the archive]]></dc:title>
+            
+            <dc:identifier>doi:10.1038/d41586-019-02309-w</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-30; | doi:10.1038/d41586-019-02309-w</dc:source>
+            <dc:date>2019-07-30</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02309-w</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02309-w</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02309-w</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02316-x">
+            <title><![CDATA[Alarming surge in drug-resistant HIV uncovered]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/5vrdPgQ0lQc/d41586-019-02316-x</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 30 July 2019; <a href="https://www.nature.com/articles/d41586-019-02316-x">doi:10.1038/d41586-019-02316-x</a></p>The drug-resistant form of the virus has been detected at unacceptable levels across Africa, Asia and the Americas.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/5vrdPgQ0lQc" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Alarming surge in drug-resistant HIV uncovered]]></dc:title>
+            <dc:creator>Emiliano Rodríguez Mega</dc:creator>
+            <dc:identifier>doi:10.1038/d41586-019-02316-x</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-30; | doi:10.1038/d41586-019-02316-x</dc:source>
+            <dc:date>2019-07-30</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02316-x</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02316-x</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02316-x</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02328-7">
+            <title><![CDATA[Look beyond the lab for collectors of reusable data]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/mtHOoKtZYM0/d41586-019-02328-7</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 30 July 2019; <a href="https://www.nature.com/articles/d41586-019-02328-7">doi:10.1038/d41586-019-02328-7</a></p>Look beyond the lab for collectors of reusable data<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/mtHOoKtZYM0" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Look beyond the lab for collectors of reusable data]]></dc:title>
+            <dc:creator>Kendrick Taylor</dc:creator>
+            <dc:identifier>doi:10.1038/d41586-019-02328-7</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-30; | doi:10.1038/d41586-019-02328-7</dc:source>
+            <dc:date>2019-07-30</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02328-7</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02328-7</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02328-7</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02307-y">
+            <title><![CDATA[Three pitfalls to avoid in machine learning]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/bcmUEIn9OoY/d41586-019-02307-y</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 30 July 2019; <a href="https://www.nature.com/articles/d41586-019-02307-y">doi:10.1038/d41586-019-02307-y</a></p>As scientists from myriad fields rush to perform algorithmic analyses, Google’s Patrick Riley calls for clear standards in research and reporting.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/bcmUEIn9OoY" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Three pitfalls to avoid in machine learning]]></dc:title>
+            <dc:creator>Patrick Riley</dc:creator>
+            <dc:identifier>doi:10.1038/d41586-019-02307-y</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-30; | doi:10.1038/d41586-019-02307-y</dc:source>
+            <dc:date>2019-07-30</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02307-y</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02307-y</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02307-y</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/s41586-019-1455-1">
+            <title><![CDATA[Author Correction: Epigenetic stress responses induce muscle stem-cell ageing by <i>Hoxa9</i> developmental signals]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/J2qT8TnrRAM/s41586-019-1455-1</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 30 July 2019; <a href="https://www.nature.com/articles/s41586-019-1455-1">doi:10.1038/s41586-019-1455-1</a></p>Author Correction: Epigenetic stress responses induce muscle stem-cell ageing by <i>Hoxa9</i> developmental signals<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/J2qT8TnrRAM" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Author Correction: Epigenetic stress responses induce muscle stem-cell ageing by <i>Hoxa9</i> developmental signals]]></dc:title>
+            <dc:creator>Simon Schwörer</dc:creator><dc:creator>Friedrich Becker</dc:creator><dc:creator>Christian Feller</dc:creator><dc:creator>Ali H. Baig</dc:creator><dc:creator>Ute Köber</dc:creator><dc:creator>Henriette Henze</dc:creator><dc:creator>Johann M. Kraus</dc:creator><dc:creator>Beibei Xin</dc:creator><dc:creator>André Lechel</dc:creator><dc:creator>Daniel B. Lipka</dc:creator><dc:creator>Christy S. Varghese</dc:creator><dc:creator>Manuel Schmidt</dc:creator><dc:creator>Remo Rohs</dc:creator><dc:creator>Ruedi Aebersold</dc:creator><dc:creator>Kay L. Medina</dc:creator><dc:creator>Hans A. Kestler</dc:creator><dc:creator>Francesco Neri</dc:creator><dc:creator>Julia von Maltzahn</dc:creator><dc:creator>Stefan Tümpel</dc:creator><dc:creator>K. Lenhard Rudolph</dc:creator>
+            <dc:identifier>doi:10.1038/s41586-019-1455-1</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-30; | doi:10.1038/s41586-019-1455-1</dc:source>
+            <dc:date>2019-07-30</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/s41586-019-1455-1</prism:doi>
+            <prism:url>https://www.nature.com/articles/s41586-019-1455-1</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/s41586-019-1455-1</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02326-9">
+            <title><![CDATA[Keeping up Africa’s science momentum]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/m5Wessw9H9E/d41586-019-02326-9</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 30 July 2019; <a href="https://www.nature.com/articles/d41586-019-02326-9">doi:10.1038/d41586-019-02326-9</a></p>Keeping up Africa’s science momentum<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/m5Wessw9H9E" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Keeping up Africa’s science momentum]]></dc:title>
+            <dc:creator>Robert B. Eiss</dc:creator><dc:creator>Francis S. Collins</dc:creator>
+            <dc:identifier>doi:10.1038/d41586-019-02326-9</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-30; | doi:10.1038/d41586-019-02326-9</dc:source>
+            <dc:date>2019-07-30</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02326-9</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02326-9</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02326-9</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02317-w">
+            <title><![CDATA[The Millennium Falcon look-alike that terrorized the ancient seas]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/CfQu6N_1WNA/d41586-019-02317-w</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 30 July 2019; <a href="https://www.nature.com/articles/d41586-019-02317-w">doi:10.1038/d41586-019-02317-w</a></p>A predator that loomed large in its day had a domed hull like that of the Star Wars spaceship.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/CfQu6N_1WNA" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[The Millennium Falcon look-alike that terrorized the ancient seas]]></dc:title>
+            
+            <dc:identifier>doi:10.1038/d41586-019-02317-w</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-30; | doi:10.1038/d41586-019-02317-w</dc:source>
+            <dc:date>2019-07-30</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02317-w</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02317-w</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02317-w</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02331-y">
+            <title><![CDATA[Harvard creates advisory panel to oversee solar geoengineering project]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/ranhRgjaK84/d41586-019-02331-y</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 30 July 2019; <a href="https://www.nature.com/articles/d41586-019-02331-y">doi:10.1038/d41586-019-02331-y</a></p>Scientists will inject particles of calcium carbonate into the atmosphere and study their effects on incoming sunlight.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/ranhRgjaK84" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Harvard creates advisory panel to oversee solar geoengineering project]]></dc:title>
+            <dc:creator>Jeff Tollefson</dc:creator>
+            <dc:identifier>doi:10.1038/d41586-019-02331-y</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-30; | doi:10.1038/d41586-019-02331-y</dc:source>
+            <dc:date>2019-07-30</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02331-y</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02331-y</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02331-y</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02310-3">
+            <title><![CDATA[Julia: come for the syntax, stay for the speed]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/Yngw2qkMAJk/d41586-019-02310-3</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 30 July 2019; <a href="https://www.nature.com/articles/d41586-019-02310-3">doi:10.1038/d41586-019-02310-3</a></p>Researchers often find themselves coding algorithms in one programming language, only to have to rewrite them in a faster one. An up-and-coming language could be the answer.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/Yngw2qkMAJk" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Julia: come for the syntax, stay for the speed]]></dc:title>
+            <dc:creator>Jeffrey M. Perkel</dc:creator>
+            <dc:identifier>doi:10.1038/d41586-019-02310-3</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-30; | doi:10.1038/d41586-019-02310-3</dc:source>
+            <dc:date>2019-07-30</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02310-3</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02310-3</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02310-3</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02315-y">
+            <title><![CDATA[A new World Heritage site for Aboriginal engineering]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/8-p5PhCqVwU/d41586-019-02315-y</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 30 July 2019; <a href="https://www.nature.com/articles/d41586-019-02315-y">doi:10.1038/d41586-019-02315-y</a></p>A new World Heritage site for Aboriginal engineering<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/8-p5PhCqVwU" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[A new World Heritage site for Aboriginal engineering]]></dc:title>
+            <dc:creator>Damein Bell</dc:creator><dc:creator>Lawrence Molloy</dc:creator><dc:creator>Juliana Prpic</dc:creator><dc:creator>Martin Tomko</dc:creator>
+            <dc:identifier>doi:10.1038/d41586-019-02315-y</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-30; | doi:10.1038/d41586-019-02315-y</dc:source>
+            <dc:date>2019-07-30</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02315-y</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02315-y</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02315-y</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02341-w">
+            <title><![CDATA[Daily briefing: A dying tectonic plate is ripping apart]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/xcTGhANeiok/d41586-019-02341-w</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 30 July 2019; <a href="https://www.nature.com/articles/d41586-019-02341-w">doi:10.1038/d41586-019-02341-w</a></p>A rip in the Juan de Fuca tectonic plate might be causing earthquakes and volcanoes, scientists using CRISPR gene editing to transform China’s food supply and an alarming surge in drug-resistant HIV.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/xcTGhANeiok" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Daily briefing: A dying tectonic plate is ripping apart]]></dc:title>
+            <dc:creator>Flora Graham</dc:creator>
+            <dc:identifier>doi:10.1038/d41586-019-02341-w</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-30; | doi:10.1038/d41586-019-02341-w</dc:source>
+            <dc:date>2019-07-30</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02341-w</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02341-w</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02341-w</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02327-8">
+            <title><![CDATA[In-depth approach to river restoration]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/VvdYU7E6Ozs/d41586-019-02327-8</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 30 July 2019; <a href="https://www.nature.com/articles/d41586-019-02327-8">doi:10.1038/d41586-019-02327-8</a></p>In-depth approach to river restoration<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/VvdYU7E6Ozs" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[In-depth approach to river restoration]]></dc:title>
+            <dc:creator>Sonja C. Jähnig</dc:creator><dc:creator>Michael T. Monaghan</dc:creator><dc:creator>Daniel Hering</dc:creator>
+            <dc:identifier>doi:10.1038/d41586-019-02327-8</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-30; | doi:10.1038/d41586-019-02327-8</dc:source>
+            <dc:date>2019-07-30</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02327-8</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02327-8</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02327-8</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02334-9">
+            <title><![CDATA[Meet the African researcher who is building a core of junior immunologists on the continent]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/SzMHw7m_nMM/d41586-019-02334-9</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 30 July 2019; <a href="https://www.nature.com/articles/d41586-019-02334-9">doi:10.1038/d41586-019-02334-9</a></p>Faith Osier discusses a bold plan to increase African representation in the global research community.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/SzMHw7m_nMM" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Meet the African researcher who is building a core of junior immunologists on the continent]]></dc:title>
+            <dc:creator>Virginia Gewin</dc:creator>
+            <dc:identifier>doi:10.1038/d41586-019-02334-9</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-30; | doi:10.1038/d41586-019-02334-9</dc:source>
+            <dc:date>2019-07-30</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02334-9</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02334-9</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02334-9</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02325-w">
+            <title><![CDATA[A notable centenary for international science ]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/IzCXF3pYaOA/d41586-019-02325-w</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 30 July 2019; <a href="https://www.nature.com/articles/d41586-019-02325-w">doi:10.1038/d41586-019-02325-w</a></p>A notable centenary for international science <img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/IzCXF3pYaOA" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[A notable centenary for international science ]]></dc:title>
+            <dc:creator>Daya Reddy</dc:creator><dc:creator>Alik Ismail-Zadeh</dc:creator>
+            <dc:identifier>doi:10.1038/d41586-019-02325-w</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-30; | doi:10.1038/d41586-019-02325-w</dc:source>
+            <dc:date>2019-07-30</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02325-w</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02325-w</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02325-w</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02318-9">
+            <title><![CDATA[Ocean fizz could have helped to kick-start life]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/40DXJdJc5Eg/d41586-019-02318-9</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 30 July 2019; <a href="https://www.nature.com/articles/d41586-019-02318-9">doi:10.1038/d41586-019-02318-9</a></p>Microscopic bubbles can bring together biomolecules such as DNA.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/40DXJdJc5Eg" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Ocean fizz could have helped to kick-start life]]></dc:title>
+            
+            <dc:identifier>doi:10.1038/d41586-019-02318-9</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-30; | doi:10.1038/d41586-019-02318-9</dc:source>
+            <dc:date>2019-07-30</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02318-9</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02318-9</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02318-9</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02311-2">
+            <title><![CDATA[Meeting the challenges of research across Africa]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/-BW_OnEz-G0/d41586-019-02311-2</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 29 July 2019; <a href="https://www.nature.com/articles/d41586-019-02311-2">doi:10.1038/d41586-019-02311-2</a></p>Seven researchers from African nations discuss the career implications of developing their research at home or abroad.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/-BW_OnEz-G0" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Meeting the challenges of research across Africa]]></dc:title>
+            <dc:creator>Chris Woolston</dc:creator>
+            <dc:identifier>doi:10.1038/d41586-019-02311-2</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-29; | doi:10.1038/d41586-019-02311-2</dc:source>
+            <dc:date>2019-07-29</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02311-2</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02311-2</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02311-2</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02295-z">
+            <title><![CDATA[The 11-step guide to running effective meetings]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/VBGyjsDpEY4/d41586-019-02295-z</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 29 July 2019; <a href="https://www.nature.com/articles/d41586-019-02295-z">doi:10.1038/d41586-019-02295-z</a></p>The quality and outcomes of meetings can improve drastically with a few simple steps.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/VBGyjsDpEY4" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[The 11-step guide to running effective meetings]]></dc:title>
+            <dc:creator>Nadine Sinclair</dc:creator>
+            <dc:identifier>doi:10.1038/d41586-019-02295-z</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-29; | doi:10.1038/d41586-019-02295-z</dc:source>
+            <dc:date>2019-07-29</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02295-z</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02295-z</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02295-z</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02330-z">
+            <title><![CDATA[Daily briefing: 11 steps to organizing the perfect meeting]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/fQpGcMX7kPY/d41586-019-02330-z</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 29 July 2019; <a href="https://www.nature.com/articles/d41586-019-02330-z">doi:10.1038/d41586-019-02330-z</a></p>A scientist’s guide to short, effective and fruitful meetings. Plus: meet the protein engineers building molecules from scratch and Japan has approved its first human–animal embryo experiments.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/fQpGcMX7kPY" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Daily briefing: 11 steps to organizing the perfect meeting]]></dc:title>
+            <dc:creator>Flora Graham</dc:creator>
+            <dc:identifier>doi:10.1038/d41586-019-02330-z</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-29; | doi:10.1038/d41586-019-02330-z</dc:source>
+            <dc:date>2019-07-29</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02330-z</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02330-z</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02330-z</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02303-2">
+            <title><![CDATA[The scientist-spy who spilt secrets of the bomb]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/BEi9lOC7SkE/d41586-019-02303-2</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 29 July 2019; <a href="https://www.nature.com/articles/d41586-019-02303-2">doi:10.1038/d41586-019-02303-2</a></p>Frank Close’s chronicle of atomic physicist Klaus Fuchs and his betrayal is a gem, finds Ann Finkbeiner.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/BEi9lOC7SkE" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[The scientist-spy who spilt secrets of the bomb]]></dc:title>
+            <dc:creator>Ann Finkbeiner</dc:creator>
+            <dc:identifier>doi:10.1038/d41586-019-02303-2</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-29; | doi:10.1038/d41586-019-02303-2</dc:source>
+            <dc:date>2019-07-29</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02303-2</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02303-2</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02303-2</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02263-7">
+            <title><![CDATA[Getting the measure of living biomaterials]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/JKouxr8yS6o/d41586-019-02263-7</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 29 July 2019; <a href="https://www.nature.com/articles/d41586-019-02263-7">doi:10.1038/d41586-019-02263-7</a></p>A goal of tissue engineers is to use 3D printers to assemble living filaments into tissues that then transform into more-mature forms through predictable shape changes. A study of single living filaments provides a basis for this approach.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/JKouxr8yS6o" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Getting the measure of living biomaterials]]></dc:title>
+            <dc:creator>Zev Gartner</dc:creator><dc:creator>Alex Hughes</dc:creator>
+            <dc:identifier>doi:10.1038/d41586-019-02263-7</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-29; | doi:10.1038/d41586-019-02263-7</dc:source>
+            <dc:date>2019-07-29</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02263-7</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02263-7</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02263-7</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/s41586-019-1435-5">
+            <title><![CDATA[High performance from extraordinarily thick organic light-emitting diodes]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/U3rfVqj4U8s/s41586-019-1435-5</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 29 July 2019; <a href="https://www.nature.com/articles/s41586-019-1435-5">doi:10.1038/s41586-019-1435-5</a></p>Extraordinarily thick organic light-emitting diodes can be fabricated using hybrid organic–inorganic perovskites as the transport layers, thus relaxing fabrication constraints without affecting their efficiency, voltage requirement or durability.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/U3rfVqj4U8s" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[High performance from extraordinarily thick organic light-emitting diodes]]></dc:title>
+            <dc:creator>Toshinori Matsushima</dc:creator><dc:creator>Fatima Bencheikh</dc:creator><dc:creator>Takeshi Komino</dc:creator><dc:creator>Matthew R. Leyden</dc:creator><dc:creator>Atula S. D. Sandanayaka</dc:creator><dc:creator>Chuanjiang Qin</dc:creator><dc:creator>Chihaya Adachi</dc:creator>
+            <dc:identifier>doi:10.1038/s41586-019-1435-5</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-29; | doi:10.1038/s41586-019-1435-5</dc:source>
+            <dc:date>2019-07-29</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/s41586-019-1435-5</prism:doi>
+            <prism:url>https://www.nature.com/articles/s41586-019-1435-5</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/s41586-019-1435-5</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02275-3">
+            <title><![CDATA[Japan approves first human-animal embryo experiments]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/awse_BgqV6Y/d41586-019-02275-3</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 26 July 2019; <a href="https://www.nature.com/articles/d41586-019-02275-3">doi:10.1038/d41586-019-02275-3</a></p>The research could eventually lead to new sources of organs for transplant, but ethical and technical hurdles need to be overcome.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/awse_BgqV6Y" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Japan approves first human-animal embryo experiments]]></dc:title>
+            <dc:creator>David Cyranoski</dc:creator>
+            <dc:identifier>doi:10.1038/d41586-019-02275-3</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-26; | doi:10.1038/d41586-019-02275-3</dc:source>
+            <dc:date>2019-07-26</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02275-3</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02275-3</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02275-3</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02230-2">
+            <title><![CDATA[A forest’s breath raises doubts about key carbon-cycle numbers ]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/gkwVjJ1zYys/d41586-019-02230-2</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 26 July 2019; <a href="https://www.nature.com/articles/d41586-019-02230-2">doi:10.1038/d41586-019-02230-2</a></p>Data from a Massachusetts wood suggest that landmasses might capture more carbon than previously thought.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/gkwVjJ1zYys" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[A forest’s breath raises doubts about key carbon-cycle numbers ]]></dc:title>
+            
+            <dc:identifier>doi:10.1038/d41586-019-02230-2</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-26; | doi:10.1038/d41586-019-02230-2</dc:source>
+            <dc:date>2019-07-26</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02230-2</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02230-2</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02230-2</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02099-1">
+            <title><![CDATA[PastCast: Secret science in World War 2]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/GYOPiKi_zyk/d41586-019-02099-1</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 26 July 2019; <a href="https://www.nature.com/articles/d41586-019-02099-1">doi:10.1038/d41586-019-02099-1</a></p>In the Nature PastCast series, we delve into the archives to tell the stories behind some of Nature’s biggest papers.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/GYOPiKi_zyk" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[PastCast: Secret science in World War 2]]></dc:title>
+            <dc:creator>Kerri Smith</dc:creator>
+            <dc:identifier>doi:10.1038/d41586-019-02099-1</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-26; | doi:10.1038/d41586-019-02099-1</dc:source>
+            <dc:date>2019-07-26</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02099-1</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02099-1</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02099-1</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02320-1">
+            <title><![CDATA[Daily briefing: Current global warming is unparalleled in 2,000 years]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/0S3AQkb5EC0/d41586-019-02320-1</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 26 July 2019; <a href="https://www.nature.com/articles/d41586-019-02320-1">doi:10.1038/d41586-019-02320-1</a></p>For more than 98% of the globe, the warmest period in 2,000 years has been in the past century. Plus, how virtual-reality mazes are unlocking brain mysteries and why opponents to a telescope in Hawaii are not anti-science.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/0S3AQkb5EC0" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Daily briefing: Current global warming is unparalleled in 2,000 years]]></dc:title>
+            <dc:creator>Flora Graham</dc:creator>
+            <dc:identifier>doi:10.1038/d41586-019-02320-1</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-26; | doi:10.1038/d41586-019-02320-1</dc:source>
+            <dc:date>2019-07-26</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02320-1</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02320-1</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02320-1</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02254-8">
+            <title><![CDATA[Biking through my PhD]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/wgLjEYgpbs8/d41586-019-02254-8</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 26 July 2019; <a href="https://www.nature.com/articles/d41586-019-02254-8">doi:10.1038/d41586-019-02254-8</a></p>Overcoming my initial struggles after leaving China to start my PhD has been like riding a bike.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/wgLjEYgpbs8" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Biking through my PhD]]></dc:title>
+            <dc:creator>Shuxuan Zheng</dc:creator>
+            <dc:identifier>doi:10.1038/d41586-019-02254-8</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-26; | doi:10.1038/d41586-019-02254-8</dc:source>
+            <dc:date>2019-07-26</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02254-8</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02254-8</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02254-8</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02304-1">
+            <title><![CDATA[Opponents of the Thirty Meter Telescope fight the process, not science]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/oOf09UJsTH4/d41586-019-02304-1</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 26 July 2019; <a href="https://www.nature.com/articles/d41586-019-02304-1">doi:10.1038/d41586-019-02304-1</a></p>Painting Native Hawaiian culture as against modern science is a false dichotomy, explains Rosie Alegado.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/oOf09UJsTH4" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Opponents of the Thirty Meter Telescope fight the process, not science]]></dc:title>
+            <dc:creator>Rosie Alegado</dc:creator>
+            <dc:identifier>doi:10.1038/d41586-019-02304-1</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-26; | doi:10.1038/d41586-019-02304-1</dc:source>
+            <dc:date>2019-07-26</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02304-1</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02304-1</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02304-1</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02286-0">
+            <title><![CDATA[Vanilla grown the old-fashioned way spices up plant life]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/BZeVBkQwwO4/d41586-019-02286-0</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 25 July 2019; <a href="https://www.nature.com/articles/d41586-019-02286-0">doi:10.1038/d41586-019-02286-0</a></p>Time-honoured methods of raising vanilla orchids are friendliest for native plants.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/BZeVBkQwwO4" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Vanilla grown the old-fashioned way spices up plant life]]></dc:title>
+            
+            <dc:identifier>doi:10.1038/d41586-019-02286-0</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-25; | doi:10.1038/d41586-019-02286-0</dc:source>
+            <dc:date>2019-07-25</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02286-0</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02286-0</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02286-0</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02274-4">
+            <title><![CDATA[Supermassive black hole puts Einstein’s theory to the test]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/M7_8OLPVjmA/d41586-019-02274-4</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 25 July 2019; <a href="https://www.nature.com/articles/d41586-019-02274-4">doi:10.1038/d41586-019-02274-4</a></p>Decades of data from the Milky Way’s black hole bear out predictions of general relativity.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/M7_8OLPVjmA" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Supermassive black hole puts Einstein’s theory to the test]]></dc:title>
+            
+            <dc:identifier>doi:10.1038/d41586-019-02274-4</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-25; | doi:10.1038/d41586-019-02274-4</dc:source>
+            <dc:date>2019-07-25</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02274-4</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02274-4</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02274-4</feedburner:origLink></item>
+    
+        <item rdf:about="https://www.nature.com/articles/d41586-019-02298-w">
+            <title><![CDATA[Former UK science minister returns as Brexit government assembles]]></title>
+            <link>http://feeds.nature.com/~r/nature/rss/current/~3/sbWKmUHVfXM/d41586-019-02298-w</link>
+            <content:encoded><![CDATA[
+                <p>Nature, Published online: 25 July 2019; <a href="https://www.nature.com/articles/d41586-019-02298-w">doi:10.1038/d41586-019-02298-w</a></p>Jo Johnson is back at the science ministry while hard-line Brexiters take leading roles.<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/sbWKmUHVfXM" height="1" width="1" alt=""/>]]></content:encoded>
+            <dc:title><![CDATA[Former UK science minister returns as Brexit government assembles]]></dc:title>
+            <dc:creator>Elizabeth Gibney</dc:creator>
+            <dc:identifier>doi:10.1038/d41586-019-02298-w</dc:identifier>
+            <dc:source>Nature, Published online: 2019-07-25; | doi:10.1038/d41586-019-02298-w</dc:source>
+            <dc:date>2019-07-25</dc:date>
+            <prism:publicationName>Nature</prism:publicationName>
+            <prism:doi>10.1038/d41586-019-02298-w</prism:doi>
+            <prism:url>https://www.nature.com/articles/d41586-019-02298-w</prism:url>
+        <feedburner:origLink>https://www.nature.com/articles/d41586-019-02298-w</feedburner:origLink></item>
+    
+</rdf:RDF>

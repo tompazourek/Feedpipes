@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://purl.org/rss/1.0/" xmlns:admin="http://webns.net/mvcb/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:syn="http://purl.org/rss/1.0/modules/syndication/" xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0">
+
+<channel rdf:about="https://slashdot.org/">
+<title>Slashdot</title>
+<link>https://slashdot.org/</link>
+<description>News for nerds, stuff that matters</description>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright 1997-2016, SlashdotMedia. All Rights Reserved.</dc:rights>
+<dc:date>2019-08-01T21:19:14+00:00</dc:date>
+<dc:publisher>Dice</dc:publisher>
+<dc:creator>help@slashdot.org</dc:creator>
+<dc:subject>Technology</dc:subject>
+<syn:updateBase>1970-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>hourly</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="https://science.slashdot.org/story/19/08/01/1826212/greenland-is-melting-away-before-our-eyes?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://yro.slashdot.org/story/19/08/01/1935242/ftc-antitrust-probe-of-facebook-scrutinizes-its-acquisitions?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://science.slashdot.org/story/19/08/01/189220/the-impossible-whopper-is-coming-to-every-burger-king-in-america-next-week?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://news.slashdot.org/story/19/08/01/1812206/edward-snowden-memoir-to-reveal-whistleblowers-secrets?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://tech.slashdot.org/story/19/08/01/1716251/google-is-testing-a-499-app-subscription-bundle?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://tech.slashdot.org/story/19/08/01/1714211/facebook-plans-on-backdooring-whatsapp?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://mobile.slashdot.org/story/19/08/01/169259/82-of-people-say-they-connect-to-any-free-wifi-thats-available-in-a-public-place-survey-finds?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://politics.slashdot.org/story/19/08/01/1541205/a-new-bill-aims-to-protect-us-voters-from-the-next-cambridge-analytica?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://news.slashdot.org/story/19/08/01/1522211/when-open-source-software-comes-with-a-few-catches?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://yro.slashdot.org/story/19/08/01/1421232/california-police-are-sharing-facial-recognition-databases-to-id-suspects?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://hardware.slashdot.org/story/19/08/01/143221/intel-reveals-10th-gen-core-lineup-for-laptops-and-2-in-1s?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://science.slashdot.org/story/19/07/31/2333243/the-law-isnt-ready-for-psychedelic-medicine?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://science.slashdot.org/story/19/07/31/2241217/lightsail-2-spacecraft-successfully-demonstrates-flight-by-light?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://tech.slashdot.org/story/19/07/31/2311222/how-sydney-destroyed-its-trams-for-love-of-the-car?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://hardware.slashdot.org/story/19/07/31/2250204/researchers-develop-speedy-soft-robot-thats-more-robust-than-a-cockroach?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="https://a.fsdn.com/sd/topics/topicslashdot.gif" />
+<textinput rdf:resource="https://slashdot.org/search.pl" />
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rdf+xml" href="http://rss.slashdot.org/Slashdot/slashdot" /><feedburner:info uri="slashdot/slashdot" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /></channel>
+<image rdf:about="https://a.fsdn.com/sd/topics/topicslashdot.gif">
+<title>Slashdot</title>
+<url>https://a.fsdn.com/sd/topics/topicslashdot.gif</url>
+<link>https://slashdot.org/</link>
+</image>
+<item rdf:about="https://science.slashdot.org/story/19/08/01/1826212/greenland-is-melting-away-before-our-eyes?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Greenland is Melting Away Before Our Eyes</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/Jz75TaEi_l8/greenland-is-melting-away-before-our-eyes</link>
+<description>Amid an ongoing heat wave, new data show the Greenland ice sheet is in the middle of its biggest melt season in recorded history. It's the latest worrying signal climate change is accelerating far beyond the worst fears of even climate scientists. From a report: The record-setting heat wave that sweltered northern Europe last week has moved north over the critically vulnerable Greenland ice sheet, triggering temperatures this week that are as much as 25 to 30 degrees Fahrenheit warmer than normal. Weather models indicate Tuesday's temperature may have surpassed 75 degrees Fahrenheit in some regions of Greenland, and a weather balloon launched near the capital Nuuk measured all-time record warmth just above the surface. That heat wave is still intensifying, and is expected to peak on Thursday with the biggest single-day melt ever recorded in Greenland. On August 1 alone, more than 12 billion tons of water will permanently melt away from the ice sheet and find its way down to the ocean, irreversibly raising sea levels globally. 
+
+[...] Even just a few decades ago, an event like this would have been unthinkable. Now, island-wide meltdown days like this are becoming increasingly routine. The ongoing melt event is the second time in seven years that virtually the entire ice sheet simultaneously experienced at least some melt. The last was in July 2012, where 97% of the ice sheet simultaneously melted. In the 1980s, wintertime snows in Greenland roughly balanced summertime melt from the ice sheet, and the conventional wisdom among scientists was that it might take thousands of years for the ice to completely melt under pressure from global warming. That's all changed now. With a decade or two of hindsight, scientists now believe Greenland passed an important tipping point around 2003, and since then its melt rate has more than quadrupled.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Greenland+is+Melting+Away+Before+Our+Eyes%3A+http%3A%2F%2Fbit.ly%2F2OxLBh7"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fscience.slashdot.org%2Fstory%2F19%2F08%2F01%2F1826212%2Fgreenland-is-melting-away-before-our-eyes%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=https://science.slashdot.org/story/19/08/01/1826212/greenland-is-melting-away-before-our-eyes?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="https://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://science.slashdot.org/story/19/08/01/1826212/greenland-is-melting-away-before-our-eyes?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=14488364&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/Jz75TaEi_l8" height="1" width="1" alt=""/&gt;</description>
+<dc:creator>msmash</dc:creator>
+<dc:date>2019-08-01T20:45:00+00:00</dc:date>
+<dc:subject>earth</dc:subject>
+<slash:department>closer-look</slash:department>
+<slash:section>science</slash:section>
+<slash:comments>40</slash:comments>
+<slash:hit_parade>40,38,15,13,2,1,0</slash:hit_parade>
+<feedburner:origLink>https://science.slashdot.org/story/19/08/01/1826212/greenland-is-melting-away-before-our-eyes?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="https://yro.slashdot.org/story/19/08/01/1935242/ftc-antitrust-probe-of-facebook-scrutinizes-its-acquisitions?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>FTC Antitrust Probe of Facebook Scrutinizes Its Acquisitions</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/ZVZ1MehZvGk/ftc-antitrust-probe-of-facebook-scrutinizes-its-acquisitions</link>
+<description>The Federal Trade Commission is examining Facebook's acquisitions as part of its antitrust investigation into the social-media giant -- to determine if they were part of a campaign to snap up potential rivals before they could become a threat [Editor's note: the link may be paywalled; alternative source], WSJ reported Thursday, citing people familiar with the matter. From the report: The company's acquisition practices are a central component of the FTC probe, the people said. Facebook disclosed the FTC's antitrust investigation in its earnings announcement last week, but provided few details. FTC investigators are looking for evidence on whether Facebook and founder Mark Zuckerberg purchased startup technology firms to keep them from challenging Facebook's empire, the people said. The FTC has begun reaching out to people who founded companies that Facebook purchased, some of the people said.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=FTC+Antitrust+Probe+of+Facebook+Scrutinizes+Its+Acquisitions%3A+http%3A%2F%2Fbit.ly%2F2YBW5jl"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fyro.slashdot.org%2Fstory%2F19%2F08%2F01%2F1935242%2Fftc-antitrust-probe-of-facebook-scrutinizes-its-acquisitions%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=https://yro.slashdot.org/story/19/08/01/1935242/ftc-antitrust-probe-of-facebook-scrutinizes-its-acquisitions?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="https://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://yro.slashdot.org/story/19/08/01/1935242/ftc-antitrust-probe-of-facebook-scrutinizes-its-acquisitions?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=14488538&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/ZVZ1MehZvGk" height="1" width="1" alt=""/&gt;</description>
+<dc:creator>msmash</dc:creator>
+<dc:date>2019-08-01T20:05:00+00:00</dc:date>
+<dc:subject>facebook</dc:subject>
+<slash:department>you-don't-say</slash:department>
+<slash:section>yro</slash:section>
+<slash:comments>13</slash:comments>
+<slash:hit_parade>13,12,1,1,0,0,0</slash:hit_parade>
+<feedburner:origLink>https://yro.slashdot.org/story/19/08/01/1935242/ftc-antitrust-probe-of-facebook-scrutinizes-its-acquisitions?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="https://science.slashdot.org/story/19/08/01/189220/the-impossible-whopper-is-coming-to-every-burger-king-in-america-next-week?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>The Impossible Whopper is Coming To Every Burger King in America Next Week</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/Q1_yfkdhihs/the-impossible-whopper-is-coming-to-every-burger-king-in-america-next-week</link>
+<description>Burger King will start selling its meatless Whopper across the United States on August 8, the biggest rollout for Impossible's plant-based product. From a report: The burger chain has been selling the Impossible Whopper, featuring a meatless patty made by Impossible Foods, in a few markets in the United States since April. It first tested the product in St. Louis before announcing in May that it would offer the Impossible Whopper nationally this year. Interest in plant-based protein has surged as many people try to reduce their meat intake for health or environmental reasons. US retail sales of plant-based foods have grown 11% in the past year, according to a July report from trade group Plant Based Foods Association and the Good Food Institute, a nonprofit that supports plant-based businesses. The Impossible Whopper has been performing well, Chris Finazzo, Burger King's president for the Americas, told CNN Business.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=The+Impossible+Whopper+is+Coming+To+Every+Burger+King+in+America+Next+Week%3A+http%3A%2F%2Fbit.ly%2F2OyhI0b"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fscience.slashdot.org%2Fstory%2F19%2F08%2F01%2F189220%2Fthe-impossible-whopper-is-coming-to-every-burger-king-in-america-next-week%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=https://science.slashdot.org/story/19/08/01/189220/the-impossible-whopper-is-coming-to-every-burger-king-in-america-next-week?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="https://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://science.slashdot.org/story/19/08/01/189220/the-impossible-whopper-is-coming-to-every-burger-king-in-america-next-week?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=14488308&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/Q1_yfkdhihs" height="1" width="1" alt=""/&gt;</description>
+<dc:creator>msmash</dc:creator>
+<dc:date>2019-08-01T19:25:00+00:00</dc:date>
+<dc:subject>science</dc:subject>
+<slash:department>how-about-that</slash:department>
+<slash:section>science</slash:section>
+<slash:comments>128</slash:comments>
+<slash:hit_parade>128,123,49,41,8,4,2</slash:hit_parade>
+<feedburner:origLink>https://science.slashdot.org/story/19/08/01/189220/the-impossible-whopper-is-coming-to-every-burger-king-in-america-next-week?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="https://news.slashdot.org/story/19/08/01/1812206/edward-snowden-memoir-to-reveal-whistleblowers-secrets?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Edward Snowden Memoir To Reveal Whistleblower's Secrets</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/YWIfbB1zM-A/edward-snowden-memoir-to-reveal-whistleblowers-secrets</link>
+<description>After multiple books and films about his decision to leak the biggest cache of top-secret documents in history, whistleblower Edward Snowden is set to tell his side of the story in a memoir, Permanent Record. From a report: Out on 17 September, the book will be published in more than 20 countries and will detail how and why the former CIA agent and NSA contractor decided to reveal the US government's plans for mass surveillance around the world and in the US -- which included monitoring phone calls, text messages and emails. UK publisher Macmillan said the book would see him "bringing the reader along as he helps to create this system of mass surveillance, and then experiences the crisis of conscience that led him to try to bring it down." Snowden's story has been already been tackled on film and in books. He was portrayed by actor Joseph Gordon-Levitt in the Oliver Stone film Snowden, which was adapted from Guardian journalist Luke Harding's book The Snowden Files. Journalist Glenn Greenwald, the source to whom he leaked his explosive story, recounted in his memoir No Place to Hide how he went to Hong Kong in 2013 to meet an anonymous source who claimed to have evidence of government spying. Snowden was also the subject of the 2014 documentary Citizenfour, directed by Laura Poitras, and the 2016 play Wild, a fictionalised take on his story.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Edward+Snowden+Memoir+To+Reveal+Whistleblower's+Secrets%3A+http%3A%2F%2Fbit.ly%2F2YzMwS6"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fnews.slashdot.org%2Fstory%2F19%2F08%2F01%2F1812206%2Fedward-snowden-memoir-to-reveal-whistleblowers-secrets%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=https://news.slashdot.org/story/19/08/01/1812206/edward-snowden-memoir-to-reveal-whistleblowers-secrets?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="https://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://news.slashdot.org/story/19/08/01/1812206/edward-snowden-memoir-to-reveal-whistleblowers-secrets?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=14488312&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/YWIfbB1zM-A" height="1" width="1" alt=""/&gt;</description>
+<dc:creator>msmash</dc:creator>
+<dc:date>2019-08-01T18:45:00+00:00</dc:date>
+<dc:subject>books</dc:subject>
+<slash:department>something-to-watch</slash:department>
+<slash:section>news</slash:section>
+<slash:comments>62</slash:comments>
+<slash:hit_parade>62,58,21,13,3,3,2</slash:hit_parade>
+<feedburner:origLink>https://news.slashdot.org/story/19/08/01/1812206/edward-snowden-memoir-to-reveal-whistleblowers-secrets?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="https://tech.slashdot.org/story/19/08/01/1716251/google-is-testing-a-499-app-subscription-bundle?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Google Is Testing a $4.99 App Subscription Bundle</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/5IXAjZANpQ0/google-is-testing-a-499-app-subscription-bundle</link>
+<description>Google has been testing a new app subscription bundle that gives users access to premium apps for one monthly price. From a report: Google Play Pass, as the subscription offering is being called, promises users "all play, no interruptions," according to a promotional graphic unearthed by Android Police. A Google spokesperson confirmed that the company is currently testing the subscription, but declined to comment further. Google Play Pass, at is it being tested right now, costs $4.99 per month, and promises access to "hundreds of premium apps and games without ads, download fees or in-app purchases."&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Google+Is+Testing+a+%244.99+App+Subscription+Bundle%3A+http%3A%2F%2Fbit.ly%2F2YDmugK"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Ftech.slashdot.org%2Fstory%2F19%2F08%2F01%2F1716251%2Fgoogle-is-testing-a-499-app-subscription-bundle%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=https://tech.slashdot.org/story/19/08/01/1716251/google-is-testing-a-499-app-subscription-bundle?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="https://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://tech.slashdot.org/story/19/08/01/1716251/google-is-testing-a-499-app-subscription-bundle?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=14488176&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/5IXAjZANpQ0" height="1" width="1" alt=""/&gt;</description>
+<dc:creator>msmash</dc:creator>
+<dc:date>2019-08-01T18:05:00+00:00</dc:date>
+<dc:subject>android</dc:subject>
+<slash:department>up-next</slash:department>
+<slash:section>technology</slash:section>
+<slash:comments>37</slash:comments>
+<slash:hit_parade>37,33,20,17,2,0,0</slash:hit_parade>
+<feedburner:origLink>https://tech.slashdot.org/story/19/08/01/1716251/google-is-testing-a-499-app-subscription-bundle?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="https://tech.slashdot.org/story/19/08/01/1714211/facebook-plans-on-backdooring-whatsapp?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Facebook Plans on Backdooring WhatsApp</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/EDuwqSWrvlE/facebook-plans-on-backdooring-whatsapp</link>
+<description>Bruce Schneier: This article points out that Facebook's planned content moderation scheme will result in an encryption backdoor into WhatsApp: "In Facebook's vision, the actual end-to-end encryption client itself such as WhatsApp will include embedded content moderation and blacklist filtering algorithms. These algorithms will be continually updated from a central cloud service, but will run locally on the user's device, scanning each cleartext message before it is sent and each encrypted message after it is decrypted. The company even noted. that when it detects violations it will need to quietly stream a copy of the formerly encrypted content back to its central servers to analyze further, even if the user objects, acting as true wiretapping service. Facebook's model entirely bypasses the encryption debate by globalizing the current practice of compromising devices by building those encryption bypasses directly into the communications clients themselves and deploying what amounts to machine-based wiretaps to billions of users at once." 
+
+Once this is in place, it's easy for the government to demand that Facebook add another filter -- one that searches for communications that they care about -- and alert them when it gets triggered. Of course alternatives like Signal will exist for those who don't want to be subject to Facebook's content moderation, but what happens when this filtering technology is built into operating systems? Separately The Guardian reports: British, American and other intelligence agencies from English-speaking countries have concluded a two-day meeting in London amid calls for spies and police officers to be given special, backdoor access to WhatsApp and other encrypted communications. The meeting of the "Five Eyes" nations -- the UK, US, Australia, Canada and New Zealand -- was hosted by new home secretary, Priti Patel, in an effort to coordinate efforts to combat terrorism and child abuse.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Facebook+Plans+on+Backdooring+WhatsApp%3A+http%3A%2F%2Fbit.ly%2F2YDm6Pk"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Ftech.slashdot.org%2Fstory%2F19%2F08%2F01%2F1714211%2Ffacebook-plans-on-backdooring-whatsapp%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=https://tech.slashdot.org/story/19/08/01/1714211/facebook-plans-on-backdooring-whatsapp?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="https://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://tech.slashdot.org/story/19/08/01/1714211/facebook-plans-on-backdooring-whatsapp?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=14488168&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/EDuwqSWrvlE" height="1" width="1" alt=""/&gt;</description>
+<dc:creator>msmash</dc:creator>
+<dc:date>2019-08-01T17:25:00+00:00</dc:date>
+<dc:subject>encryption</dc:subject>
+<slash:department>shape-of-things-to-come</slash:department>
+<slash:section>technology</slash:section>
+<slash:comments>94</slash:comments>
+<slash:hit_parade>94,92,48,39,12,7,6</slash:hit_parade>
+<feedburner:origLink>https://tech.slashdot.org/story/19/08/01/1714211/facebook-plans-on-backdooring-whatsapp?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="https://mobile.slashdot.org/story/19/08/01/169259/82-of-people-say-they-connect-to-any-free-wifi-thats-available-in-a-public-place-survey-finds?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>82% of People Say They Connect To Any Free WiFi That's Available in a Public Place, Survey Finds</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/naxOAHi_QTc/82-of-people-say-they-connect-to-any-free-wifi-thats-available-in-a-public-place-survey-finds</link>
+<description>Have you ever been in a public place and hopped onto a public WiFi network? From a report: We conducted a survey of 1,195 US residents over the past two weeks asking about internet connectivity and one interesting trend stood out. 82% of respondents (980 total) said they connect to any freely available network while out in public. When asked about the security implications of such a decision, the majority of the respondents said they didn't think about such things, and that it wasn't a concern for them.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=82%25+of+People+Say+They+Connect+To+Any+Free+WiFi+That's+Available+in+a+Public+Place%2C+Survey+Finds%3A+http%3A%2F%2Fbit.ly%2F2OxEB3O"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fmobile.slashdot.org%2Fstory%2F19%2F08%2F01%2F169259%2F82-of-people-say-they-connect-to-any-free-wifi-thats-available-in-a-public-place-survey-finds%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=https://mobile.slashdot.org/story/19/08/01/169259/82-of-people-say-they-connect-to-any-free-wifi-thats-available-in-a-public-place-survey-finds?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="https://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://mobile.slashdot.org/story/19/08/01/169259/82-of-people-say-they-connect-to-any-free-wifi-thats-available-in-a-public-place-survey-finds?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=14487952&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/naxOAHi_QTc" height="1" width="1" alt=""/&gt;</description>
+<dc:creator>msmash</dc:creator>
+<dc:date>2019-08-01T16:45:00+00:00</dc:date>
+<dc:subject>wireless</dc:subject>
+<slash:department>pretty-fly-for-a-wifi</slash:department>
+<slash:section>mobile</slash:section>
+<slash:comments>91</slash:comments>
+<slash:hit_parade>91,91,55,47,14,3,2</slash:hit_parade>
+<feedburner:origLink>https://mobile.slashdot.org/story/19/08/01/169259/82-of-people-say-they-connect-to-any-free-wifi-thats-available-in-a-public-place-survey-finds?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="https://politics.slashdot.org/story/19/08/01/1541205/a-new-bill-aims-to-protect-us-voters-from-the-next-cambridge-analytica?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>A New Bill Aims To Protect US Voters From the Next Cambridge Analytica</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/r4HD9yzouKI/a-new-bill-aims-to-protect-us-voters-from-the-next-cambridge-analytica</link>
+<description>As the 2020 campaign season accelerates, a US lawmaker introduced a bill on Thursday that would regulate how political parties use voters' data in federal elections. rrconan writes: Democratic senator Dianne Feinstein said the bill, the Voter Privacy Act, is the first to directly respond to Cambridge Analytica, which used Facebook to harvest the data of 87 million voters, often without permission, in hopes of influencing their behavior. In fact, this was just one of many data operations ongoing in the world of US elections. Massive collections of data: In 2017, the Republican National Committee accidentally exposed political data on more than 198 million US citizens. The incident highlighted the technical challenges of protecting sensitive data troves online, as well as the enormous collections of information the Republican Party has gathered in an effort to win the next vote. While legislators around the world have zeroed in on how industry uses personal data, there is no American law governing the collection and use of voter data in politics.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=A+New+Bill+Aims+To+Protect+US+Voters+From+the+Next+Cambridge+Analytica%3A+http%3A%2F%2Fbit.ly%2F2OP4Z9F"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fpolitics.slashdot.org%2Fstory%2F19%2F08%2F01%2F1541205%2Fa-new-bill-aims-to-protect-us-voters-from-the-next-cambridge-analytica%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=https://politics.slashdot.org/story/19/08/01/1541205/a-new-bill-aims-to-protect-us-voters-from-the-next-cambridge-analytica?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="https://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://politics.slashdot.org/story/19/08/01/1541205/a-new-bill-aims-to-protect-us-voters-from-the-next-cambridge-analytica?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=14487874&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/r4HD9yzouKI" height="1" width="1" alt=""/&gt;</description>
+<dc:creator>msmash</dc:creator>
+<dc:date>2019-08-01T16:05:00+00:00</dc:date>
+<dc:subject>privacy</dc:subject>
+<slash:department>for-what-it-is-worth</slash:department>
+<slash:section>politics</slash:section>
+<slash:comments>101</slash:comments>
+<slash:hit_parade>101,98,47,41,4,1,1</slash:hit_parade>
+<feedburner:origLink>https://politics.slashdot.org/story/19/08/01/1541205/a-new-bill-aims-to-protect-us-voters-from-the-next-cambridge-analytica?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="https://news.slashdot.org/story/19/08/01/1522211/when-open-source-software-comes-with-a-few-catches?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>When Open Source Software Comes With a Few Catches</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/EbJp_Q1X6oM/when-open-source-software-comes-with-a-few-catches</link>
+<description>As open source software grows more popular, and important, developers face an existential question: How to make money from something you give away for free? An anonymous reader shares a report: The Open Source Initiative standards body says an open source license must allow users to view the underlying source code, modify it, and share it as they see fit. Independent developers and large companies alike now routinely release software under these licenses. Many coders believe open collaboration results in better software. Some companies open their code for marketing purposes. Open source software now underpins much technology, from smartphone operating systems to government websites. 
+
+Companies that release software under open source licenses generate revenue in different ways. Some sell support, including Red Hat, which IBM acquired for $34 billion earlier this month. Others, like cloud automation company HashiCorp, sell proprietary software based on the open source components. But with the rise of cloud computing, developers see their open source code being bundled into services and sold by other companies. Amazon, for example, sells a cloud-hosted service based on the popular open source database Redis, which competes with a similar cloud-hosted service offered by Redis Labs, the sponsor of the open source project. To protect against such scenarios, companies behind popular open source projects are restricting how others can use their software. Redis Labs started the trend last year when it relicensed several add-ons for its core product under terms that essentially prohibit offering those add-ons as part of a commercial cloud computing service. 
+
+That way, Amazon and other cloud providers can't use those add-ons in their competing Redis services. Companies that want the functionality provided by those add-ons need to develop those features themselves, or get permission from Redis Labs. [...] Analytics company Confluent and database maker CockroachDB added similar terms to their licenses, preventing cloud computing companies from using some or all of their code to build competing services. Taking a slightly different tack, MongoDB relicensed its flagship database product last year under a new "Server Side Public License" (SSPL) that requires companies that sell the database system as a cloud service also release the source code of any additional software they include.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=When+Open+Source+Software+Comes+With+a+Few+Catches%3A+http%3A%2F%2Fbit.ly%2F2OyUHKE"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fnews.slashdot.org%2Fstory%2F19%2F08%2F01%2F1522211%2Fwhen-open-source-software-comes-with-a-few-catches%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=https://news.slashdot.org/story/19/08/01/1522211/when-open-source-software-comes-with-a-few-catches?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="https://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://news.slashdot.org/story/19/08/01/1522211/when-open-source-software-comes-with-a-few-catches?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=14487812&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/EbJp_Q1X6oM" height="1" width="1" alt=""/&gt;</description>
+<dc:creator>msmash</dc:creator>
+<dc:date>2019-08-01T15:23:00+00:00</dc:date>
+<dc:subject>opensource</dc:subject>
+<slash:department>tussle-continues</slash:department>
+<slash:section>news</slash:section>
+<slash:comments>95</slash:comments>
+<slash:hit_parade>95,95,56,47,16,13,5</slash:hit_parade>
+<feedburner:origLink>https://news.slashdot.org/story/19/08/01/1522211/when-open-source-software-comes-with-a-few-catches?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="https://yro.slashdot.org/story/19/08/01/1421232/california-police-are-sharing-facial-recognition-databases-to-id-suspects?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>California Police Are Sharing Facial Recognition Databases To ID Suspects</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/zeeiEwpEz7o/california-police-are-sharing-facial-recognition-databases-to-id-suspects</link>
+<description>Many of California's local law enforcement agencies have access to facial recognition software for identifying suspects who appear in crime scene footage, documents obtained through public records requests show. From a report: Three California counties also have the capability to run facial recognition searches on each others' mug shot databases, and others could join if they choose to opt into a network maintained by a private law enforcement software company. The network is called California Facial Recognition Interconnect, and it's a service offered by DataWorks Plus, a Greenville, South Carolina-based company with law enforcement contracts in Los Angeles, San Bernardino, San Diego, San Francisco, Sacramento, and Santa Barbara. Currently, the three adjacent counties of Los Angeles, Riverside, and San Bernardino are able to run facial recognition against mug shots in each other's databases. That means these police departments have access to about 11.7 million mug shots of people who have previously been arrested, a majority of which come from the Los Angeles system.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=California+Police+Are+Sharing+Facial+Recognition+Databases+To+ID+Suspects%3A+http%3A%2F%2Fbit.ly%2F2YxF6yB"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fyro.slashdot.org%2Fstory%2F19%2F08%2F01%2F1421232%2Fcalifornia-police-are-sharing-facial-recognition-databases-to-id-suspects%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=https://yro.slashdot.org/story/19/08/01/1421232/california-police-are-sharing-facial-recognition-databases-to-id-suspects?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="https://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://yro.slashdot.org/story/19/08/01/1421232/california-police-are-sharing-facial-recognition-databases-to-id-suspects?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=14487620&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/zeeiEwpEz7o" height="1" width="1" alt=""/&gt;</description>
+<dc:creator>msmash</dc:creator>
+<dc:date>2019-08-01T14:44:00+00:00</dc:date>
+<dc:subject>privacy</dc:subject>
+<slash:department>closer-look</slash:department>
+<slash:section>yro</slash:section>
+<slash:comments>47</slash:comments>
+<slash:hit_parade>47,42,16,13,3,2,1</slash:hit_parade>
+<feedburner:origLink>https://yro.slashdot.org/story/19/08/01/1421232/california-police-are-sharing-facial-recognition-databases-to-id-suspects?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="https://hardware.slashdot.org/story/19/08/01/143221/intel-reveals-10th-gen-core-lineup-for-laptops-and-2-in-1s?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Intel Reveals 10th Gen Core Lineup For Laptops and 2-in-1s</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/EPwd77UwAj4/intel-reveals-10th-gen-core-lineup-for-laptops-and-2-in-1s</link>
+<description>Intel's new generation of processors is nigh upon us, and it promises to be a doozy in several respects. VentureBeat: The Santa Clara chipmaker today launched 11 new 10-nanometer 10th Gen Intel Core processors (code-named Ice Lake) designed for slim laptops, 2-in-1s, and other high-end mobile form factors. In addition to capable new integrated graphics and enhanced connectivity courtesy Wi-Fi 6 and Thunderbolt 3, the chips feature tweaks intended to accelerate task-specific workloads like AI inference and photo editing, as well as gaming. Intel expects the first 35 or so systems sporting Ice Lake-U and Ice Lake-Y chips to ship for the holiday season. Several that passed the chipmaker's Project Athena certification were previewed at Computex in Taiwan, including the Acer Swift 5, Dell XPS 13-inch 2-in 1, HP Envy 13, and Lenovo S940. 
+
+No matter which processor in the 10th Gen portfolio your future PC sports, its four cores (eight logical cores) paired with a 6MB or 8MB cache will support up to 32 GB of LP4/x-3733 (or up to 64GB of DDR4-3200), and they'll sip 9W, 15W, or 28W of power while clocking up to 4.1GHz at maximum Turbo Boost frequency. Each chip has 16 PCIe 3.0 lanes for external use, and their memory controllers allow for idle power states for less intensive tasks. With respect to AI and machine learning, every laptop-bound 10th Gen processor -- whether Core i3, Core i5, and Core i7 -- boasts Sunny Cove cores with Intel AVX-512-Deep Learning Boost, a new instruction set that speeds up automatic image enhancements, photo indexing, media postprocessing, and other AI-driven tasks.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Intel+Reveals+10th+Gen+Core+Lineup+For+Laptops+and+2-in-1s%3A+http%3A%2F%2Fbit.ly%2F2OxBgSn"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fhardware.slashdot.org%2Fstory%2F19%2F08%2F01%2F143221%2Fintel-reveals-10th-gen-core-lineup-for-laptops-and-2-in-1s%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=https://hardware.slashdot.org/story/19/08/01/143221/intel-reveals-10th-gen-core-lineup-for-laptops-and-2-in-1s?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="https://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://hardware.slashdot.org/story/19/08/01/143221/intel-reveals-10th-gen-core-lineup-for-laptops-and-2-in-1s?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=14487544&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/EPwd77UwAj4" height="1" width="1" alt=""/&gt;</description>
+<dc:creator>msmash</dc:creator>
+<dc:date>2019-08-01T14:03:00+00:00</dc:date>
+<dc:subject>intel</dc:subject>
+<slash:department>new-offerings</slash:department>
+<slash:section>hardware</slash:section>
+<slash:comments>54</slash:comments>
+<slash:hit_parade>54,54,23,22,6,4,0</slash:hit_parade>
+<feedburner:origLink>https://hardware.slashdot.org/story/19/08/01/143221/intel-reveals-10th-gen-core-lineup-for-laptops-and-2-in-1s?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="https://science.slashdot.org/story/19/07/31/2333243/the-law-isnt-ready-for-psychedelic-medicine?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>The Law Isn't Ready For Psychedelic Medicine</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/AsISFeu6jRk/the-law-isnt-ready-for-psychedelic-medicine</link>
+<description>Matt Lamkin reports via Scientific American: In March, the Food and Drug Administration approved esketamine, a drug that produces psychedelic effects, to treat depression -- the first psychedelic ever to clear that bar. Meanwhile the FDA has granted "breakthrough therapy" status -- a designation that enables fast-tracked research -- to study MDMA (also called "ecstasy") as a treatment for post-traumatic stress disorder and psilocybin as a treatment for major depression. While these and other psychedelic drugs show promise as treatments for specific illnesses, FDA approval means doctors could also prescribe them for other, "off-label" purposes -- including enhancing the quality of life of people who do not suffer from any disorder. Hence if MDMA gains approval as a treatment for PTSD, psychiatrists could prescribe the drug for very different purposes.
+ 
+Yet while the FDA generally does not regulate physicians' prescribing practices, a federal law called the Controlled Substances Act bars them from writing prescriptions without a "legitimate medical purpose." Although this prohibition aims to prevent doctors from acting as drug traffickers, the law does not explain which purposes qualify as "legitimate," nor how to distinguish valid prescriptions from those that merely enable patients' illicit drug abuse. Would prescribing a psychedelic drug simply to promote empathy or increase "life satisfaction" fall within the scope of legitimate medicine -- or would these practices render the physician a drug dealer? To many the answer may seem obvious: to qualify as a "medical" use, a drug must be prescribed to treat an illness. But in fact, medical practice has always included interventions aimed at promoting the well-being of healthy individuals. "At a time when 'lifestyle drugs' are marketed as consumer products, it is increasingly difficult to draw a bright line that distinguishes legitimate medical practices from their illicit cousins," adds Lamkin. "If prescribing mind-altering drugs to help healthy people achieve desirable mental states falls within the bounds of legitimate medicine, what is left of the concept of recreational use?"&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=The+Law+Isn't+Ready+For+Psychedelic+Medicine%3A+http%3A%2F%2Fbit.ly%2F2YEfiAI"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fscience.slashdot.org%2Fstory%2F19%2F07%2F31%2F2333243%2Fthe-law-isnt-ready-for-psychedelic-medicine%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=https://science.slashdot.org/story/19/07/31/2333243/the-law-isnt-ready-for-psychedelic-medicine?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="https://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://science.slashdot.org/story/19/07/31/2333243/the-law-isnt-ready-for-psychedelic-medicine?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=14481124&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/AsISFeu6jRk" height="1" width="1" alt=""/&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2019-08-01T10:00:00+00:00</dc:date>
+<dc:subject>medicine</dc:subject>
+<slash:department>ready-or-not-here-it-comes</slash:department>
+<slash:section>science</slash:section>
+<slash:comments>163</slash:comments>
+<slash:hit_parade>163,160,97,86,31,13,8</slash:hit_parade>
+<feedburner:origLink>https://science.slashdot.org/story/19/07/31/2333243/the-law-isnt-ready-for-psychedelic-medicine?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="https://science.slashdot.org/story/19/07/31/2241217/lightsail-2-spacecraft-successfully-demonstrates-flight-by-light?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>LightSail 2 Spacecraft Successfully Demonstrates Flight By Light</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/tGDvBPAdhck/lightsail-2-spacecraft-successfully-demonstrates-flight-by-light</link>
+<description>According to The Planetary Society, LightSail 2 has successfully raised its orbit using solar sailing, making it the first small spacecraft to demonstrate the concept. From the report: Since unfurling the spacecraft's silver solar sail last week, mission managers have been optimizing the way the spacecraft orients itself during solar sailing. After a few tweaks, LightSail 2 began raising its orbit around the Earth. In the past 4 days, the spacecraft has raised its orbital high point, or apogee, by about 2 kilometers. The perigee, or low point of its orbit, has dropped by a similar amount, which is consistent with pre-flight expectations for the effects of atmospheric drag on the spacecraft. The mission team has confirmed the apogee increase can only be attributed to solar sailing, meaning LightSail 2 has successfully completed its primary goal of demonstrating flight by light for CubeSats.
+ 
+The milestone makes LightSail 2 the first spacecraft to use solar sailing for propulsion in Earth orbit, the first small spacecraft to demonstrate solar sailing, and just the second-ever solar sail spacecraft to successfully fly, following Japan's IKAROS, which launched in 2010. LightSail 2 is also the first crowdfunded spacecraft to successfully demonstrate a new form of propulsion. The mission team will continue raising LightSail 2's orbit for roughly a month, until the perigee decreases to the point where atmospheric drag overcomes the thrust from solar sailing. During the orbit-raising period, the team will continue optimizing the performance of the solar sail.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=LightSail+2+Spacecraft+Successfully+Demonstrates+Flight+By+Light%3A+http%3A%2F%2Fbit.ly%2F2YDR3mc"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fscience.slashdot.org%2Fstory%2F19%2F07%2F31%2F2241217%2Flightsail-2-spacecraft-successfully-demonstrates-flight-by-light%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=https://science.slashdot.org/story/19/07/31/2241217/lightsail-2-spacecraft-successfully-demonstrates-flight-by-light?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="https://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://science.slashdot.org/story/19/07/31/2241217/lightsail-2-spacecraft-successfully-demonstrates-flight-by-light?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=14481050&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/tGDvBPAdhck" height="1" width="1" alt=""/&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2019-08-01T07:00:00+00:00</dc:date>
+<dc:subject>space</dc:subject>
+<slash:department>rare-spaceflight-achievements</slash:department>
+<slash:section>science</slash:section>
+<slash:comments>82</slash:comments>
+<slash:hit_parade>82,78,48,42,17,8,6</slash:hit_parade>
+<feedburner:origLink>https://science.slashdot.org/story/19/07/31/2241217/lightsail-2-spacecraft-successfully-demonstrates-flight-by-light?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="https://tech.slashdot.org/story/19/07/31/2311222/how-sydney-destroyed-its-trams-for-love-of-the-car?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>How Sydney Destroyed Its Trams For Love of the Car</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/1HK6y5-ZZxs/how-sydney-destroyed-its-trams-for-love-of-the-car</link>
+<description>An anonymous reader shares a report from The Guardian about the questionable decision in the 1950s to get rid of Sydney's trams in favor of private cars. From the report: In the late 1950s Sydney ripped up its tram network, once one of the largest in the world. Nearly 1,000 trams -- some only a few years old -- were rolled to the workshops in the city's eastern suburbs and stripped of anything that could be sold, before being unceremoniously tipped on their sides, doused with sump oil and set ablaze. Barely a decade before its closure, Sydney's tram system had carried 400 million passenger journeys a year on a network of more than 250km, primarily serving the eastern, southern and inner-west suburbs, and stretching as far north as Narrabeen at its peak. But the explosion of car traffic in the postwar years persuaded the New South Wales government that urban freeways were the way of the future (the first in Australia, the Cahill Expressway, opened in 1958), and trams were an impediment to that vision.
+ 
+The destruction of the network from the mid-50s was swift and brutal. In 1958 the bizarre castellated Fort Macquarie depot at Circular Quay was demolished to make way for the Opera House, and the lines along George Street were torn up. The last Sydney tram ran on 25 February 1961 from Hunter Street to La Perouse (along much of the same route now being rebuilt), packed to the rafters and greeted by crowds of people, before it joined the dismal procession to "burning hill" at Randwick. Mathew Hounsell, a senior research consultant at the Institute for Sustainable Futures at the University of Technology, Sydney, has called the destruction of the network "the largest organized vandalism in our nation's history." He says the decisions made in the 50s had a disastrous long-term effect. "When the trams were removed from Sydney, mass transport patronage plummeted and private car usage soared. Our space-saving trams were replaced with ever-more space-hungry cars, causing ever-worsening traffic. That wasn't how the planners saw it at the time. They were strongly swayed by powerful international influences, which chimed with the unstoppable rise of private car ownership in Australia. The trams are slowly returning, as the city painfully rebuilds a tiny part of its old system. "The construction of 12.8km of light rail from Circular Quay to Randwick and Kingsford will cost $2.7 billion at the latest estimate, has caused untold misery to shops and other businesses in its path and will be almost a year overdue by the time even the first section is open," the report says.
+ 
+"The new line hardly represents a fundamental shift in Sydney's transport thinking, coming as it does alongside the vast 'congestion-busting' WestConnex freeway project, and further investment in metro rail (a separate light rail link is also under construction at Parramatta). But it is a reminder that the city might have looked very different today but for the decision taken in the 1950s -- and ruthlessly carried out -- to prioritize motor transport."&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=How+Sydney+Destroyed+Its+Trams+For+Love+of+the+Car%3A+http%3A%2F%2Fbit.ly%2F2OtrwIL"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Ftech.slashdot.org%2Fstory%2F19%2F07%2F31%2F2311222%2Fhow-sydney-destroyed-its-trams-for-love-of-the-car%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=https://tech.slashdot.org/story/19/07/31/2311222/how-sydney-destroyed-its-trams-for-love-of-the-car?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="https://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://tech.slashdot.org/story/19/07/31/2311222/how-sydney-destroyed-its-trams-for-love-of-the-car?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=14481070&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/1HK6y5-ZZxs" height="1" width="1" alt=""/&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2019-08-01T03:30:00+00:00</dc:date>
+<dc:subject>australia</dc:subject>
+<slash:department>history-lessons</slash:department>
+<slash:section>technology</slash:section>
+<slash:comments>274</slash:comments>
+<slash:hit_parade>274,266,148,116,40,28,18</slash:hit_parade>
+<feedburner:origLink>https://tech.slashdot.org/story/19/07/31/2311222/how-sydney-destroyed-its-trams-for-love-of-the-car?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="https://hardware.slashdot.org/story/19/07/31/2250204/researchers-develop-speedy-soft-robot-thats-more-robust-than-a-cockroach?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Researchers Develop Speedy Soft Robot That's More Robust Than a Cockroach</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/_BqqWudQe7U/researchers-develop-speedy-soft-robot-thats-more-robust-than-a-cockroach</link>
+<description>Researchers from Tsinghua University in China and University of California, Berkeley, have developed a new kind of soft robot that looks like a bent strip of paper, but is able to move at 20 body lengths per second and survive being stomped on. The robot has been presented in the current issue of Science Robotics. IEEE Spectrum reports: This prototype robot measures just 3 centimeters by 1.5 cm. It takes a scanning electron microscope to actually see what the robot is made of -- a thermoplastic layer is sandwiched by palladium-gold electrodes, bonded with adhesive silicone to a structural plastic at the bottom. When an AC voltage (as low as 8 volts but typically about 60 volts) is run through the electrodes, the thermoplastic extends and contracts, causing the robot's back to flex and the little "foot" to shuffle. A complete step cycle takes just 50 milliseconds, yielding a 200 hertz gait. And technically, the robot "runs," since it does have a brief aerial phase.
+ 
+The researchers also put together a prototype with two legs instead of one, which was able to demonstrate a potentially faster galloping gait by spending more time in the air. They suggest that robots like these could be used for "environmental exploration, structural inspection, information reconnaissance, and disaster relief," which are the sorts of things that you suggest that your robot could be used for when you really have no idea what it could be used for. But this work is certainly impressive, with speed and robustness that are largely unmatched by other soft robots. An untethered version seems possible due to the relatively low voltages required to drive the robot, and if they can put some peanut-sized sensors on there as well, practical applications might actually be forthcoming sometime soon.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Researchers+Develop+Speedy+Soft+Robot+That's+More+Robust+Than+a+Cockroach%3A+http%3A%2F%2Fbit.ly%2F2YB8h3K"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fhardware.slashdot.org%2Fstory%2F19%2F07%2F31%2F2250204%2Fresearchers-develop-speedy-soft-robot-thats-more-robust-than-a-cockroach%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=https://hardware.slashdot.org/story/19/07/31/2250204/researchers-develop-speedy-soft-robot-thats-more-robust-than-a-cockroach?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="https://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://hardware.slashdot.org/story/19/07/31/2250204/researchers-develop-speedy-soft-robot-thats-more-robust-than-a-cockroach?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=14481056&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/_BqqWudQe7U" height="1" width="1" alt=""/&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2019-08-01T02:02:00+00:00</dc:date>
+<dc:subject>robot</dc:subject>
+<slash:department>soft-robots</slash:department>
+<slash:section>hardware</slash:section>
+<slash:comments>50</slash:comments>
+<slash:hit_parade>50,46,15,12,2,1,0</slash:hit_parade>
+<feedburner:origLink>https://hardware.slashdot.org/story/19/07/31/2250204/researchers-develop-speedy-soft-robot-thats-more-robust-than-a-cockroach?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<textinput rdf:about="https://slashdot.org/search.pl">
+<title>Search Slashdot</title>
+<description>Search Slashdot stories</description>
+<name>query</name>
+<link>https://slashdot.org/search.pl</link>
+</textinput>
+</rdf:RDF>

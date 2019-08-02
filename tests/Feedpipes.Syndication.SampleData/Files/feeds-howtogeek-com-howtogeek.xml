@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.howtogeek.com/public/rss.xsl"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:feedstyle="https://www.howtogeek.com/ns/feedstyle" >
+	<channel>
+		<title>How-To Geek</title>
+		<atom:link href="https://feeds.howtogeek.com/HowToGeek" rel="self" type="application/rss+xml" />
+		<link>https://www.howtogeek.com</link>
+		<description>We Explain Technology</description>
+		<pubDate>Thu, 01 Aug 2019 20:11:09 +0000</pubDate>
+		<language>en-us</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+<feedstyle:reader name="Add to Feedly" url="https://feedly.com/i/subscription/feed%2Fhttp%3A%2F%2Ffeeds.howtogeek.com%2FHowToGeek"/><feedstyle:reader name="Add to Inoreader" url="http://www.inoreader.com/?add_feed=https%3A%2F%2Fwww.howtogeek.com%2Ffeed%2F"/><feedstyle:reader name="Add to NewsBlur" url="http://www.newsblur.com/?url=https%3A%2F%2Ffeeds.howtogeek.com%2FHowToGeek"/><feedstyle:button name="Like" url="https://www.facebook.com/sharer/sharer.php?u=%url%"/><feedstyle:button name="Tweet" url="https://twitter.com/intent/tweet?url=%url%"/><feedstyle:button name="Reddit" url="http://www.reddit.com/submit?url=%url%"/>		
+
+		<generator>https://wordpress.org/?v=4.9.5</generator>
+		
+			<item>
+				<title>Chrome Now Hides WWW and HTTPS:// in Addresses. Do You Care?</title>
+				<link>https://www.howtogeek.com/435728/chrome-now-hides-www-and-https-in-addresses.-do-you-care/</link>
+				<pubDate>Thu, 01 Aug 2019 17:55:16 +0000</pubDate>
+				<dc:creator>Chris Hoffman</dc:creator>
+				<guid isPermaLink="false">https://www.howtogeek.com/?p=435728</guid>
+				
+						<description><![CDATA[  ]]></description>
+						<content:encoded><![CDATA[<p><p><img class="alignnone wp-image-434816 size-full" src="https://www.howtogeek.com/wp-content/uploads/2019/07/stock-lede-google-chrome-variant.png" alt="Google Chrome logo close-up." width="650" height="300" /></p>
+<p><a href="https://www.howtogeek.com/434592/what%E2%80%99s-new-in-chrome-76-arriving-july-30th/">Google Chrome 76</a>, released a few days ago, has a surprising change: It hides the www. and https:// for website addresses in the omnibox, or address bar. This comes after an outcry when Google tried this back in Chrome 69.</p>
+<p>As spotted by <a href="https://www.bleepingcomputer.com/news/google/google-chrome-hides-www-and-https-in-the-address-bar-again/">Bleeping Computer</a>, the latest stable version of Chrome now hides these parts of URLs. So, if you go to &#8220;https://www.howtogeek.com&#8221;, Chrome&#8217;s address bar will just say &#8220;howtogeek.com&#8221;.</p>
+<p><img class="alignnone wp-image-435736 size-full" src="https://www.howtogeek.com/wp-content/uploads/2019/08/img_5d4325fa78acf.png" alt="Chrome's omnibox hiding https:// and www." width="650" height="125" /></p>
+<p>If you still want to see the full URL, you can. Simply double-click in Chrome&#8217;s omnibar (address box) to reveal it. If you have Google&#8217;s <a href="https://chrome.google.com/webstore/detail/suspicious-site-reporter/jknemblkbdhdcpllfgbfekkdciegfboi">Suspicious Site Reporter</a> extension installed, Chrome will always show the full address. There&#8217;s also a Chrome flag you can disable&#8212;just head to <code>chrome://flags/#omnibox-ui-hide-steady-state-url-scheme-and-subdomains</code></p>
+<blockquote class="twitter-tweet" data-width="550" data-dnt="true">
+<p lang="en" dir="ltr">Chrome now hides WWW. and HTTPS:// in its address bar. Do you care? <a href="https://t.co/JkRZzJYNYp">https://t.co/JkRZzJYNYp</a></p>
+<p>&mdash; How-To Geek (@howtogeek) <a href="https://twitter.com/howtogeek/status/1156986891847131138?ref_src=twsrc%5Etfw">August 1, 2019</a></p></blockquote>
+<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p>Google thinks these details aren&#8217;t important. You can still tell if you&#8217;re using an encrypted https:// address by looking for the lock next to the website&#8217;s name&#8212;or, more accurately, the absence of the <a href="https://www.howtogeek.com/359298/why-does-google-chrome-say-websites-are-%E2%80%9Cnot-secure%E2%80%9D/">&#8220;Not Secure&#8221; indicator</a> you see on unencrypted http:// addresses. Google already hid the &#8220;http://&#8221; from unencrypted websites.</p>
+<p>And, while addresses like &#8220;www.howtogeek.com&#8221; and &#8220;howtogeek.com&#8221; can technically point to different web pages, they almost never do.</p>
+<p><h3><a href='https://www.howtogeek.com/435728/chrome-now-hides-www-and-https-in-addresses.-do-you-care/'>Read the remaining 7 paragraphs</a></h3></p>]]></content:encoded>
+
+						
+							</item>
+		
+			<item>
+				<title>Some Windows 10 Users Are Trapped in S Mode</title>
+				<link>https://www.howtogeek.com/435715/some-windows-10-users-are-trapped-in-s-mode/</link>
+				<pubDate>Thu, 01 Aug 2019 17:16:59 +0000</pubDate>
+				<dc:creator>Chris Hoffman</dc:creator>
+				<guid isPermaLink="false">https://www.howtogeek.com/?p=435715</guid>
+				
+						<description><![CDATA[  ]]></description>
+						<content:encoded><![CDATA[<figure id="attachment_435720" style="width: 650px" class="wp-caption alignnone"><img class="wp-image-435720 size-full" src="https://www.howtogeek.com/wp-content/uploads/2019/08/img_5d431d4329c8f.jpg" alt="Surface Go device" width="650" height="300" data-crediturl="https://www.microsoft.com/en-us/p/surface-go/8v9dp4lnknsz" data-credittext="Microsoft" /><figcaption class="wp-caption-text"><span class="imagecredit"><a href="https://www.microsoft.com/en-us/p/surface-go/8v9dp4lnknsz">Microsoft</a></span></figcaption></figure>
+<p><a href="https://www.howtogeek.com/354057/what-is-windows-10-in-s-mode/">Windows 10&#8217;s S Mode</a> won&#8217;t let you install software from outside the Store or even change Edge&#8217;s default search engine. If you purchased a Surface Go this week, you&#8217;ve likely been trapped in S Mode.</p>
+<p>This problem affects people who purchase a Surface Go, Surface Laptop, or any of the other devices that come in S Mode. You&#8217;re supposed to be able to leave S Mode for free. Microsoft originally planned to charge $100 for leaving S Mode, however, so the option to leave S Mode is in the Store app.</p>
+<p>The Store app&#8217;s &#8220;<a href="https://www.howtogeek.com/360007/how-to-leave-windows-10s-s-mode/">leave S Mode</a>&#8221; feature has been broken for three days, however. As a thread on <a href="https://answers.microsoft.com/en-us/Surface/forum/x/y/fd4a09ed-b3cb-43bf-8e0e-1565cebb00d4">the Microsoft Answers forum</a> describes, users are seeing blank gray screens in the Store app when attempting to leave S Mode.</p>
+<figure id="attachment_435719" style="width: 650px" class="wp-caption alignnone"><img class="wp-image-435719 size-full" src="https://www.howtogeek.com/wp-content/uploads/2019/08/img_5d431cb9e0c34.png" alt="Gray screen when trying to leave S Mode in Windows 10's Store app" width="650" height="434" data-crediturl="https://answers.microsoft.com/en-us/Surface/forum/x/y/fd4a09ed-b3cb-43bf-8e0e-1565cebb00d4" data-credittext="KJohnsonBMD/Shutterstock.com" /><figcaption class="wp-caption-text"><span class="imagecredit"><a href="https://answers.microsoft.com/en-us/Surface/forum/x/y/fd4a09ed-b3cb-43bf-8e0e-1565cebb00d4">KJohnsonBMD/Shutterstock.com</a></span></figcaption></figure>
+<p>Obviously, this is pretty bad: People who purchased a Surface Go or another S Mode PC at the start of this week have been totally unable to leave S Mode and actually install the software they want to use on their device all week. As far as Windows bugs go, being trapped in S Mode is a pretty bad one that can make someone&#8217;s new hardware totally useless. How many Surface Gos have been returned to stores this week?</p>
+<p>There do seem to be some ways around this: One forum poster claims he spent two hours on the phone with Microsoft Support, who eventually fixed the problem. Some say that if you <a href="https://www.howtogeek.com/132428/everything-you-need-to-know-about-refreshing-and-resetting-your-windows-8-pc/">reset your PC</a> and quickly use the Store to leave S Mode, you can get out of it. But, if the Store app updates itself, the leave S Mode feature will break once again. Microsoft needs to fix the problem.</p>
+<p>Thanks to Woody Leonhard at <a href="https://www.askwoody.com/2019/complaints-cant-get-to-the-microsoft-store-when-switching-surface-go-out-of-s-mode/">AskWoody</a> and <a href="https://twitter.com/barbbowman/status/1156862825765265408">Barb Bowman</a> for spotting this.</p>
+<p><strong>RELATED:</strong> <a href='https://www.howtogeek.com/354057/what-is-windows-10-in-s-mode/'><strong><em>What is Windows 10 in S Mode?</em></strong></a></p>
+<p></p>
+]]></content:encoded>
+
+						
+							</item>
+		
+			<item>
+				<title>Daily News Roundup: 32 Million Patient Records Breached in Just Six Months</title>
+				<link>https://www.howtogeek.com/fyi/daily-news-roundup-32-million-patient-records-breached-in-just-six-months/</link>
+				<pubDate>Thu, 01 Aug 2019 15:32:19 +0000</pubDate>
+				<dc:creator>Josh Hendrickson</dc:creator>
+				<guid isPermaLink="false">https://www.howtogeek.com/?post_type=fyi&#038;p=435681</guid>
+				
+						<description><![CDATA[  ]]></description>
+						<content:encoded><![CDATA[<p><img class="alignnone size-full wp-image-408645" src="https://www.howtogeek.com/wp-content/uploads/2019/03/news-header-5.png" alt="" width="650" height="300" /></p>
+<p>Protenus, a healthcare analytics firm, says hackers and other bad actors breached 32 million patient records in the first six months of 2019. That&#8217;s double the total breaches for all of 2018.</p>
+<p>2019 is shaping up to be a bad year for personal information. With 32 million patient records stolen in just six months and no signs of slowing down, it seems like everybody is receiving notice to lock down their credit. And that&#8217;s to say nothing of breaches in other institutions.</p>
+<p>According to Protenus, hackers were responsible for 60 percent of the breaches in those six months and hospital insiders were responsible for a total of three million patient records stolen.</p>
+<p>In the single most significant breach, hackers targetted a medical collections agency and stole the patient records for 20 million people. That stolen data ended up for sale on the dark web.</p>
+<p>Unfortunately, there&#8217;s no way to prevent someone from stealing your data from a hospital or doctor&#8217;s office. Ultimately, it&#8217;s up to the institutions to implement better security.  The best thing you can do currently is to <a href="https://www.howtogeek.com/fyi/credit-freezes-will-be-free-soon-helping-you-stop-identity-thieves/">freeze your credit</a>. You may want to consider the freeze even if you&#8217;re the last person on Earth who hasn&#8217;t had their data stolen. <small>[<a href="https://www.engadget.com/2019/07/31/32-million-patient-records-breached-2019/">Engadget</a>]</small></p>
+<p><strong>RELATED:</strong> <a href='https://www.howtogeek.com/fyi/credit-freezes-will-be-free-soon-helping-you-stop-identity-thieves/'><strong><em>Credit Freezes Will Be Free Soon, Helping You Stop Identity Thieves</em></strong></a></p>
+<h2>In Other News:</h2>
+<ul>
+<li><strong>Lyft pulled 1,000 electric bikes from service after two fires:</strong> Two Lyft e-bikes caught fire while in its docks in San Francisco. Given the nightmare scenario of riding a bike that catches on fire, Lyft has wisely chosen to take its e-bikes out of service while it investigates what happened. <small>[<a href="https://gizmodo.com/lyft-yanks-1-000-electric-bikes-in-san-francisco-after-1836872020">Gizmodo</a>]</small></li>
+<li><strong>Google is actively testing a new Play Pass subscription service:</strong> Subscriptions for app stores are on the way. Apple is working on an <a href="https://www.howtogeek.com/408979/daily-news-roundup-the-one-about-apple-services-and-more/">Arcade subscription service</a> and Google is testing the waters with a Play Pass subscription. According to screenshots, $5 a month gives you access to hundreds of apps and games. <small>[<a href="https://www.androidpolice.com/2019/07/31/google-play-pass-testing/">Android Police</a>]</small></li>
+<li><strong>Alexa may answer more complicated questions in the future:</strong> Amazon is working on making Alexa more intelligent. That includes <a href="https://developer.amazon.com/blogs/alexa/post/dfcb764c-3191-433c-ab9c-400ec37c0f5e/teaching-computers-to-answer-complex-questions?tag=823814-20">complicated questions</a> such as, &#8220;Which Nolan films won an Oscar but missed a Golden Globe?&#8221; The process is complicated because Alexa needs to figure out you mean Christopher Nolan, find his awards for Oscars and Golden Globes, and then compare and contrast that information. But Amazon says it has the process figured out. Neat! <small>[<a href="https://techcrunch.com/2019/07/31/amazon-develops-a-new-way-to-help-alexa-answer-complex-questions/?tag=823814-20">TechCrunch</a>]</small></li>
+<li><strong>Apple is joining the Data Transfer Project:</strong> Last year, Google, Microsoft, Facebook, and Twitter launched the Data Transfer Project. The goal is to make it easy for you to transfer data from one service to another. Eventually, that would entail direct transfers with no download on your part. Apple joining adds another strong voice to the plan to give you greater control of your data. <small>[<a href="https://www.theverge.com/2019/7/30/20746868/apple-data-transfer-project-google-microsoft-twitter">The Verge</a>]</small></li>
+<li><strong>NanoLeaf&#8217;s smart lights will double as smart buttons for Homekit:</strong> If you have (or are interested in) <a href="https://nanoleaf.me/en/">NanoLeaf&#8217;s</a> beautiful modular smart light squares, the devices are picking up a new feature&#8212;touch controls. You&#8217;ll soon be able to touch the lights to control your smart home, at least if you have Homekit powered home. Hopefully, they expand to other ecosystems in the future. <small>[<a href="https://www.macrumors.com/2019/08/01/nanoleaf-touch-actions-homekit-scenes/">MacRumors</a>]</small></li>
+</ul>
+<p>The Solar Light Sail 2, currently cruising above the Earth, is raising its orbit. That may not seem impressive at first, but the spacecraft is using light for propulsion. The craft has a boxing ring sized sail designed to catch light particles. While light particles don&#8217;t have mass, they do have carry momentum. In this case, enough to give the spacecraft a push.</p>
+<p>The Solar Light Sail 2 is in an elliptical orbit, so eventually, it will come crashing down to Earth. Raising it&#8217;s orbit right now will only speed up that process. But the project proves that solar sails are viable means of propulsion for satellites too small to depend on traditional fuel engines. <small>[<a href="https://www.space.com/lightsail-2-solar-sail-mission-success.html">Space.com</a>]</small></p>
+<p></p>
+]]></content:encoded>
+
+						
+							</item>
+		
+			<item>
+				<title>How to Enter Zero Before a Number in Excel</title>
+				<link>https://www.howtogeek.com/434261/how-to-enter-zero-before-a-number-in-excel/</link>
+				<pubDate>Thu, 01 Aug 2019 15:23:41 +0000</pubDate>
+				<dc:creator>Alan Murray</dc:creator>
+				<guid isPermaLink="false">https://www.howtogeek.com/?p=434261</guid>
+				
+						<description><![CDATA[  ]]></description>
+						<content:encoded><![CDATA[<p><p><img class="alignnone size-full wp-image-435491" src="https://www.howtogeek.com/wp-content/uploads/2019/07/stock-lede-microsoft-office_excel-1.png" alt="excel logo" width="650" height="300" /></p>
+<p>When entering numbers into Excel, zeros at the beginning of the number are removed. This can be an issue when entering phone numbers and IDs. In this article, we will cover ways to solve this problem and keep the leading zeros.</p>
+<h2>Keep the Leading Zero as you Type</h2>
+<p>If you wanted to ensure that the leading zero is kept when typing, enter a single quote before you type the number.</p>
+<p><img class="alignnone size-full wp-image-434879" src="https://www.howtogeek.com/wp-content/uploads/2019/07/single-quote.png" alt="Sinlge quote before phone number" width="650" height="338" /></p>
+<p>This instructs Excel to store the value as text and not as a number.</p>
+<p>When you press &#8220;Enter&#8221; to confirm, a green triangle is shown in the top left corner of the cell. Excel is checking that you intended to do that or if you want to convert it to a number.</p>
+<p>Click the diamond icon to display a list of actions. Select &#8220;Ignore Error&#8217; to proceed and store the number as text.</p>
+<p><img class="alignnone size-full wp-image-434880" src="https://www.howtogeek.com/wp-content/uploads/2019/07/phone-number-as-text.png" alt="Phone number stored as text in Excel" width="604" height="443" /></p>
+<p>The green triangle should then disappear.</p>
+<h2>Apply Formatting to Keep the Zero</h2>
+<p><h3><a href='https://www.howtogeek.com/434261/how-to-enter-zero-before-a-number-in-excel/'>Read the remaining 17 paragraphs</a></h3></p>]]></content:encoded>
+
+						
+							</item>
+		
+			<item>
+				<title>How to Reset Your Apple AirPods</title>
+				<link>https://www.howtogeek.com/434747/how-to-reset-your-apple-airpods/</link>
+				<pubDate>Thu, 01 Aug 2019 14:24:34 +0000</pubDate>
+				<dc:creator>Justin Duino</dc:creator>
+				<guid isPermaLink="false">https://www.howtogeek.com/?p=434747</guid>
+				
+						<description><![CDATA[  ]]></description>
+						<content:encoded><![CDATA[<p><figure id="attachment_434765" style="width: 650px" class="wp-caption alignnone"><img class="wp-image-434765 size-full" src="https://www.howtogeek.com/wp-content/uploads/2019/07/apple-airpods-reset.jpg" alt="Apple AirPods Reset" width="650" height="366" data-credittext="Justin Duino" /><figcaption class="wp-caption-text"><span class="imagecredit">Justin Duino</span></figcaption></figure>
+<p>Apple AirPods can sometimes start acting up after a year of use. Whether you&#8217;re running into this problem or you bought AirPods used, the best solution is to reset the earbuds. Here&#8217;s how to make your AirPods perform like new.</p>
+<h2>Unpairing Your AirPods</h2>
+<p>Although unpairing your AirPods from your iPhone or iPad isn&#8217;t required to reset the headphones, Apple recommends this step to remove them from your account.</p>
+<p>You can also unpair your AirPods from Android smartphones, PCs, and other devices to ensure that the earbuds act as new. These instructions are primarily for iPhone and iPad users, but the steps can be similarly replicated on whatever hardware you own.</p>
+<p><strong>Note: </strong>If you&#8217;re buying AirPods secondhand and haven&#8217;t connected them to your devices, you can skip the unpairing process and move to the next section.</p>
+<p><strong>RELATED:</strong> <a href='https://www.howtogeek.com/405153/youll-have-to-replace-your-160-airpods-every-few-years/'><strong><em>You&#8217;ll Have to Replace Your $160 AirPods Every Few Years</em></strong></a></p>
+<p>Start by jumping into your phone&#8217;s or tablet&#8217;s Bluetooth settings. Access this menu by opening the &#8220;Settings&#8221; app and then select &#8220;Bluetooth.&#8221;</p>
+<p>Locate your AirPods from the list of paired devices. Tap on the &#8220;i&#8221; information icon next to the headphone&#8217;s name.</p>
+<p><img class="alignnone size-full wp-image-434773" src="https://www.howtogeek.com/wp-content/uploads/2019/07/apple-iphone-bluetooth-settings.jpg" alt="Apple iPhone Bluetooth Settings" width="533" height="650" /></p>
+<p>Next, select &#8220;Forget this device&#8221; to unpair the AirPods.</p>
+<p><h3><a href='https://www.howtogeek.com/434747/how-to-reset-your-apple-airpods/'>Read the remaining 11 paragraphs</a></h3></p>]]></content:encoded>
+
+						
+							</item>
+		
+			<item>
+				<title>Want a Quick Summary of a Complex Topic? Use Simple English Wikipedia</title>
+				<link>https://www.lifesavvy.com/6530/want-a-quick-summary-of-a-complex-topic-use-simple-english-wikipedia/</link>
+				<pubDate>Thu, 01 Aug 2019 09:30:39 +0000</pubDate>
+				<dc:creator>Jason Fitzpatrick</dc:creator>
+				<guid isPermaLink="false">https://www.lifesavvy.com/6530/want-a-quick-summary-of-a-complex-topic-use-simple-english-wikipedia/</guid>
+				
+						<description><![CDATA[  ]]></description>
+						<content:encoded><![CDATA[<p><img class="alignnone wp-image-6533 size-full" src="https://www.lifesavvy.com/p/uploads/2019/07/d99119ca-1.jpg" alt="The Simple English Wikipedia page for &quot;Blockchain.&quot;" width="960" height="540" /></p>
+<p>There&#8217;s a time and a place for in-depth, sustained reading. But sometimes, you just want to know what a term in the news means. And you want to know now. If you&#8217;re curious but short on time, Simple English Wikipedia is the answer.</p>
+<p>The premise behind Simple Wikipedia is, well, simple! Let&#8217;s say you want to learn more about &#8220;blockchains&#8221; because you keep hearing about them on the news. If you take a peek at <a href="https://en.wikipedia.org/wiki/Blockchain">the Wikipedia entry for &#8220;blockchain,&#8221;</a> it&#8217;s pretty technical and fairly long at around 3,800 words. And perhaps it&#8217;s worth reading if you&#8217;re <em>really</em> curious about blockchain technology. However, if you&#8217;re just trying to get a quick summary of a term you read in the newspaper, that&#8217;s where <a href="https://simple.wikipedia.org/wiki/Main_Page">Simple English Wikipedia</a> comes in.</p>
+<p>It&#8217;s a version of Wikipedia that offers articles formatted in two useful ways. First, it uses more simplified language (the writers do their best to avoid overly technical or complex vocabulary). Second, the entries are almost always shorter as a result. The <a href="https://simple.wikipedia.org/wiki/Blockchain">simplified version of the entry for &#8220;blockchain&#8221;</a> is only around 400 words and offers a very concise (albeit, not in-depth) summary of the topic. Not every article on the main Wikipedia site has a Simple English counterpart, but over 100,000 of them do.</p>
+<p>To access Simple English Wikipedia articles, you can start at <a href="https://simple.wikipedia.org/wiki/Main_Page">the main page</a> and use the search box, just as you would on the main Wikipedia site. If you followed a link to the main Wikipedia site from elsewhere and would prefer a summary, you can change the URL. Just change the subdomain in the URL from &#8220;en.wikipedia&#8221; to &#8220;simple.wikipedia&#8221; to redirect you like so:</p>
+<p>https://<strong>en</strong>.wikipedia.org/wiki/Blockchain <strong>&gt;</strong> https://<strong>simple</strong>.wikipedia.org/wiki/Blockchain</p>
+<p>This simple change puts a world of simple summaries at your fingertips!</p>
+<p></p>
+]]></content:encoded>
+
+						
+							</item>
+		
+			<item>
+				<title>How to Use the xargs Command on Linux</title>
+				<link>https://www.howtogeek.com/435164/how-to-use-the-xargs-command-on-linux/</link>
+				<pubDate>Thu, 01 Aug 2019 13:00:55 +0000</pubDate>
+				<dc:creator>Dave McKay</dc:creator>
+				<guid isPermaLink="false">https://www.howtogeek.com/?p=435164</guid>
+				
+						<description><![CDATA[  ]]></description>
+						<content:encoded><![CDATA[<p><figure id="attachment_408603" style="width: 650px" class="wp-caption alignnone"><img class="wp-image-408603 size-full" src="https://www.howtogeek.com/wp-content/uploads/2019/03/img_5c94224b1cfd7.png" alt="A Linux terminal prompt on a laptop" width="650" height="300" data-crediturl="https://www.shutterstock.com/image-vector/linux-interface-screen-notebook-world-map-321627716" data-credittext="Fatmawati Achmad Zaenuri/Shutterstock" /><figcaption class="wp-caption-text"><span class="imagecredit"><a href="https://www.shutterstock.com/image-vector/linux-interface-screen-notebook-world-map-321627716">Fatmawati Achmad Zaenuri/Shutterstock</a></span></figcaption></figure>
+<p>Need to string some Linux commands together, but one of them doesn&#8217;t accept piped input? <code>xargs</code> can take the output from one command and send it to another command as parameters.</p>
+<p>All of the standard Linux utilities have <a href="https://en.wikipedia.org/wiki/Standard_streams">three data streams</a> associated with them. They are the standard input stream (stdin), the standard output stream (stdout), and the standard error stream (stderr).</p>
+<p>These streams work with text. We send input (stdin) to a command using text, and the response (stdout) is written to the terminal window as text. Error messages are also written to the terminal window as text (stderr).</p>
+<p>One of the great features of Linux and <a href="https://www.howtogeek.com/182649/htg-explains-what-is-unix/">Unix-like operating systems</a> is the ability to pipe the stdout output from one command into the stdin input of a second command. The first command doesn&#8217;t care that its output is not going to a terminal window, and the second command doesn&#8217;t care that its input isn&#8217;t coming from a keyboard.</p>
+<p>Although all of the Linux commands have the three standard streams, not all of them accept another command&#8217;s stdout as input to their stdin. That means you can&#8217;t pipe input to them.</p>
+<p><code>xargs</code> is a command for building execution pipelines using the standard data streams. By using <code>xargs</code> we can make commands such as <code>echo</code>, <code>rm</code>, and <code>mkdir</code> accept standard input as arguments.</p>
+<h2>The xargs Command</h2>
+<p><code>xargs</code> will accept piped input. It can also accept input from a file. <code>xargs</code> uses that input as parameters for the commands we&#8217;ve told it to work with. If we do not tell <code>xargs</code> to work with a specific command it will default to use <code>echo</code>.</p>
+<p>We can use that to demonstrate how <code>xargs</code> will always generate a single line of output, even from multi-line input.</p>
+<p>If we use the <code>-1</code> (list one file per line) option with <code>ls</code>, we get a <a href="http://man7.org/linux/man-pages/man1/ls.1.html">single column of filenames</a>.</p>
+<pre>ls -1 ./*.sh</pre>
+<p><h3><a href='https://www.howtogeek.com/435164/how-to-use-the-xargs-command-on-linux/'>Read the remaining 71 paragraphs</a></h3></p>]]></content:encoded>
+
+						
+							</item>
+		
+			<item>
+				<title>The Best Interactive Cat Toys</title>
+				<link>https://www.reviewgeek.com/19525/the-best-interactive-cat-toys/</link>
+				<pubDate>Thu, 01 Aug 2019 08:00:49 +0000</pubDate>
+				<dc:creator>Andrew Heinzman</dc:creator>
+				<guid isPermaLink="false">https://www.reviewgeek.com/19525/the-best-interactive-cat-toys/</guid>
+				
+						<description><![CDATA[  ]]></description>
+						<content:encoded><![CDATA[<p><figure id="attachment_19562" style="width: 1920px" class="wp-caption alignnone"><img class="wp-image-19562 size-full" src="https://www.reviewgeek.com/p/uploads/2019/07/90ce5465-2.png" alt="A cute cat preparing to pounce on its prey." width="1920" height="1080" /><figcaption class="wp-caption-text"><span class="imagecredit"><a href="https://www.shutterstock.com/image-photo/cute-cat-playing-toy-home-1034640622?">alekso94/Shutterstock</a></span></figcaption></figure>
+<p>Cats are natural predators, and they need to experience the challenges of hunting every day. If you&#8217;re ready to give your cat its instinct-fulfilling playtime, all you need is a few interactive toys.</p>
+<h2>What&#8217;s Wrong With Non-Interactive Toys?</h2>
+<p>There&#8217;s nothing wrong with &#8220;non-interactive&#8221; toys. If your cat manages to get a ton of exercise from stuffed mice and plastic balls, that&#8217;s fine.</p>
+<p>The thing is, interactive toys are built to trigger your cat&#8217;s predatory senses. They make weird noises, they hide behind obstacles, and they can break free from death at a moment&#8217;s notice. Interactive toys feel like prey to your cat, and they&#8217;ll drive him <em>absolutely bonkers</em>.</p>
+<p>Here&#8217;s what you can expect from any of these interactive toys:</p>
+<ul>
+<li><strong>Your Cat Will Pant</strong>: The best play sessions will end with your cat panting like a dog. We&#8217;re not joking. It&#8217;s hilarious to see in person, and your cat loves it too.</li>
+<li><strong>You&#8217;ll Be Best Friends</strong>: Cats aren&#8217;t stupid. When you&#8217;re involved with their playtime, they understand that you&#8217;re giving them the ability to have fun. It&#8217;s like playing games with a kid; your cat will like you more for it.</li>
+<li><strong>Kitty Won&#8217;t Get Into Trouble</strong>: You can&#8217;t deny an animal its natural instinct. It will always find an outlet somewhere. If you don&#8217;t play with your cat, it may choose to unroll your toilet paper for fun. Or it may pee on your bed for attention.</li>
+</ul>
+<p>Interactive cat toys are great for exercising and building a relationship with your cat. So, let&#8217;s get right into it. Here are the best interactive toys for your best feline friend.</p>
+<h2>The Budget Pick: Cat Dancer 101</h2>
+<figure id="attachment_19563" style="width: 1920px" class="wp-caption alignnone"><img class="wp-image-19563 size-full" src="https://www.reviewgeek.com/p/uploads/2019/07/2cd767c0.png" alt="The Cat Dancer wire toy." width="1920" height="1080" /><figcaption class="wp-caption-text"><span class="imagecredit">Cat Dancer</span></figcaption></figure>
+<p>The <a href="https://www.amazon.com/Cat-Dancer-101-Interactive-Toy/dp/B0006N9I68?tag=reviewgeek-20">Cat Dancer</a> is just a wire and some cardboard. You wiggle it around, hide it behind obstacles, and run it along surfaces (cats love it on top of furniture). It&#8217;s super cheap, super simple, and your cat will go crazy for it.</p>
+<p>Yes, this sounds silly. But in our experience, every cat loves the Cat Dancer. Even if it sounds like something your cat wouldn&#8217;t like, it&#8217;s worth trying out for under $5.</p>
+<div class="product-share-links"><a href="https://www.amazon.com/Cat-Dancer-101-Interactive-Toy/dp/B0006N9I68?tag=reviewgeek-20" target="_blank">Buy on Amazon</a></div>
+<h2>The Premium Pick: Petronics Mousr</h2>
+<figure id="attachment_19572" style="width: 1920px" class="wp-caption alignnone"><img class="wp-image-19572 size-full" src="https://www.reviewgeek.com/p/uploads/2019/07/fb5c81ed-14.png" alt="The Petronics Mousr remote control mouse toy." width="1920" height="1080" /><figcaption class="wp-caption-text"><span class="imagecredit">Petronics</span></figcaption></figure>
+<p>The <a href="https://www.amazon.com/gp/product/B07HBC5M6Q/?tag=reviewgeek-20">Petronics Mousr</a> is an interesting little toy. It looks like an RC car because, well, that&#8217;s basically what it is. You can manually control it from your phone and laugh as your cat goes into an absolute frenzy. Or, you can set it to one of several automatic play modes, which are updated continuously by the Petronics developers.</p>
+<p>As you&#8217;d expect, the Mousr works on all floor surfaces, including carpet. It has an interchangeable tail, it can correct itself when its upside down, and it can play dead (or struggle) when it&#8217;s caught. The Mousr is also relatively easy to take apart and clean in case it gets tangled up in some hair or yarn.</p>
+<div class="product-share-links"><a href="https://www.amazon.com/gp/product/B07HBC5M6Q/?tag=reviewgeek-20" target="_blank">Buy on Amazon</a></div>
+<h2>The Must-Have Toy: Da Bird</h2>
+<figure id="attachment_19558" style="width: 1920px" class="wp-caption alignnone"><img class="wp-image-19558 size-full" src="https://www.reviewgeek.com/p/uploads/2019/07/10fb15c7-15.png" alt="The Da Bird feather string toy." width="1920" height="1080" /><figcaption class="wp-caption-text"><span class="imagecredit">GoCat</span></figcaption></figure>
+<p><h3><a href='https://www.reviewgeek.com/19525/the-best-interactive-cat-toys/'>Read the remaining 10 paragraphs</a></h3></p>]]></content:encoded>
+
+						
+							</item>
+		
+			<item>
+				<title>How to Secure Your Synology NAS from Ransomware</title>
+				<link>https://www.howtogeek.com/435452/how-to-secure-your-synology-nas-from-ransomware/</link>
+				<pubDate>Thu, 01 Aug 2019 12:00:45 +0000</pubDate>
+				<dc:creator>Josh Hendrickson</dc:creator>
+				<guid isPermaLink="false">https://www.howtogeek.com/?p=435452</guid>
+				
+						<description><![CDATA[  ]]></description>
+						<content:encoded><![CDATA[<p><figure id="attachment_435453" style="width: 650px" class="wp-caption alignnone"><img class="wp-image-435453 size-full" src="https://www.howtogeek.com/wp-content/uploads/2019/07/Synology-with-Drive-HTG.jpg" alt="A Synology NAS with one hard drive partially removed." width="650" height="300" data-credittext="Josh Hendrickson" /><figcaption class="wp-caption-text"><span class="imagecredit">Josh Hendrickson</span></figcaption></figure>
+<p>Recently, some Synology owners discovered that all the files on their NAS system were encrypted. Unfortunately, some ransomware had infected the NAS and demanded payment to restore the data. Here&#8217;s what you can do to secure your NAS.</p>
+<h2>How to Avoid the Ransomware Attack</h2>
+<p>Synology is <a href="https://www.synology.com/en-us/company/news/article/2019JulyRansomware/Synology%C2%AE%20Urges%20All%20Users%20to%20Take%20Immediate%20Action%20to%20Protect%20Data%20from%20Ransomware%20Attack">warning NAS owners</a> of several ransomware attacks that hit some users recently. The attackers use brute-force methods to guess the default password&#8212;essentially, they try every password possible until they get a match. Once they find the right password and gain access to the network-attached storage device, the hackers encrypt all the files and demand a ransom.</p>
+<p>You have several options to choose from to prevent attacks like this. You can disable remote access altogether, allowing only local connections. If you need remote access, you could set up a VPN to restrict access to your NAS. And if a VPN isn&#8217;t a good option (because of slow networks, for instance), you can harden your remote access options.</p>
+<h2>Option 1: Disable Remote Access</h2>
+<p><img class="alignnone wp-image-435502 size-full" src="https://www.howtogeek.com/wp-content/uploads/2019/07/Remote-connections-HTG.jpg" alt="Synology Control panel showing QuickConnect and External Access options." width="650" height="300" /></p>
+<p>The most secure option you can choose is disabling remote connection features entirely. If you can&#8217;t access your NAS remotely, then neither can a hacker. You will lose some on-the-go convenience, but if you only work with your NAS at home&#8212;to watch movies, for instance&#8212;then you may not miss the remote features at all.</p>
+<p>Most recent Synology NAS units include a <a href="https://www.howtogeek.com/346744/how-to-remotely-access-your-synology-nas-using-quickconnect/">QuickConnect feature</a>. QuickConnect takes care of the hard work for enabling remote features. With the feature turned on, you don&#8217;t have to set up router port forwarding.</p>
+<p>To remove remote access through QuickConnect log in to your NAS interface. Open the control panel and click on the &#8220;QuickConnect&#8221; option under Connectivity in the sidebar. Uncheck &#8220;Enable Quick Connect&#8221; then click apply.</p>
+<p><img class="alignnone wp-image-435501 size-full" src="https://www.howtogeek.com/wp-content/uploads/2019/07/Disable-Quick-Connect.jpg" alt="Synology Control panel with arrows pointing to QuickConnect, Enable QuickConnect, and Apply button." width="650" height="360" /></p>
+<p>If, however, you enabled port forwarding on your router to gain remote access, you will need to disable that port forwarding rule. To disable port forwarding, you should <a href="https://www.howtogeek.com/233952/how-to-find-your-routers-ip-address-on-any-computer-smartphone-or-tablet/">look up your router&#8217;s IP address and use it to log in</a>.</p>
+<p><h3><a href='https://www.howtogeek.com/435452/how-to-secure-your-synology-nas-from-ransomware/'>Read the remaining 20 paragraphs</a></h3></p>]]></content:encoded>
+
+						
+							</item>
+		
+			<item>
+				<title>Should You Pay Up If You Get Hit by Ransomware?</title>
+				<link>https://www.howtogeek.com/434676/should-you-pay-up-if-you-get-hit-by-ransomware/</link>
+				<pubDate>Thu, 01 Aug 2019 10:40:58 +0000</pubDate>
+				<dc:creator>Dave Johnson</dc:creator>
+				<guid isPermaLink="false">https://www.howtogeek.com/?p=434676</guid>
+				
+						<description><![CDATA[  ]]></description>
+						<content:encoded><![CDATA[<p><figure id="attachment_434818" style="width: 650px" class="wp-caption alignnone"><img class="wp-image-434818 size-full" src="https://www.howtogeek.com/wp-content/uploads/2019/07/img_5d3a0a8725b76.jpg" alt="Ransomware on a laptop with a locked hard drive." width="650" height="300" data-crediturl="https://www.shutterstock.com/image-photo/computer-screen-ransomware-attack-alert-red-640583167" data-credittext="Zephyr_p/Shutterstock" /><figcaption class="wp-caption-text"><span class="imagecredit"><a href="https://www.shutterstock.com/image-photo/computer-screen-ransomware-attack-alert-red-640583167">Zephyr_p/Shutterstock</a></span></figcaption></figure>
+<p>It might be your worst nightmare. You turn on your PC only to discover it’s been hijacked by ransomware that won’t decrypt your files unless you pay up. Should you? What are the pros and cons of paying off cyber-criminals?</p>
+<p>It’s a difficult problem, and one with many layers. To access your files, you might need to pay a hefty ransom. And then there’s the issue of cryptocurrency, which is ransomware’s preferred method of payment. Unless you&#8217;re already a crypto investor, you might have no idea how to begin the process of getting a Bitcoin account&#8212;and the clock is ticking.</p>
+<p>And don’t forget&#8212;if you pay, there’s a decent chance you won’t be able to reclaim access to your files, anyway. There are also ethical questions about paying off criminals. As any good economist will tell you, any behavior you reward, you’ll invariably get more of.</p>
+<h2>Taking the High Road</h2>
+<p>So, what should you do?</p>
+<p>&#8220;Oh, it’s really simple,&#8221; said Raj Samani, chief scientist, and McAfee Fellow. &#8220;Don’t pay.&#8221;</p>
+<p>That’s an easy perspective when they&#8217;re not your files being held at virtual gunpoint, but still, it’s probably the right call. There’s a reason the U.S. has an official policy not to negotiate with terrorists, and giving in to ransomware demands does appear to encourage criminals.</p>
+<p><img class="alignnone wp-image-434705 size-full" src="https://www.howtogeek.com/wp-content/uploads/2019/07/Ransomware-1.png" alt="The Wanna Cry ransomware." width="650" height="300" /></p>
+<p>Paying out &#8220;has given rise to Ransomware as a Service,&#8221; contends Sean Allan, a cybersecurity consultant who frequently writes about ransomware. In recent years, ransomware has become such a successful and lucrative business that hackers have packaged turnkey ransomware kits. These allow criminals with little (or no) technical experience to launch their own ransomware attacks with ease. And according to Symantec’s <a href="https://www.symantec.com/security-center/threat-report">2019 Internet Security Threat Report</a>, there was a 400 percent increase in the number of attacks from 2017 to 2018. Arguably, much of that growth is due to the number of people and organizations that have paid the ransom.</p>
+<p>Of course, not all experts take the high road. Todd Weller, chief security officer of Bandura Cyber, had this to say:</p>
+<blockquote><p><h3><a href='https://www.howtogeek.com/434676/should-you-pay-up-if-you-get-hit-by-ransomware/'>Read the remaining 22 paragraphs</a></h3></p>]]></content:encoded>
+
+						
+							</item>
+		
+			<item>
+				<title>On the Switch, Android Does What Nintendon&#8217;t</title>
+				<link>https://www.reviewgeek.com/19565/on-the-switch-android-does-what-nintendont/</link>
+				<pubDate>Thu, 01 Aug 2019 06:40:29 +0000</pubDate>
+				<dc:creator>Michael Crider</dc:creator>
+				<guid isPermaLink="false">https://www.reviewgeek.com/19565/on-the-switch-android-does-what-nintendont/</guid>
+				
+						<description><![CDATA[  ]]></description>
+						<content:encoded><![CDATA[<p><figure id="attachment_19601" style="width: 2000px" class="wp-caption alignnone"><img class="wp-image-19601 size-full" src="https://www.reviewgeek.com/p/uploads/2019/07/7386e33a.jpg" alt="The back of a Nintendo Switch." width="2000" height="1125" data-credittext="Michael Crider" /><figcaption class="wp-caption-text">Android can run on the Switch now. Here&#8217;s why you might want to do that. <span class="imagecredit">Michael Crider</span></figcaption></figure>
+<p>Nintendo and Android fans got a fun bit of convergence last week when Android ROM developers released a build of the mobile operating system <a href="https://www.engadget.com/2019/07/28/android-is-unofficially-available-for-the-nintendo-switch/" target="_blank" rel="noopener">running on the Switch console</a>. It&#8217;s weird, awkward, and lots of nerdy fun.</p>
+<p>This sort of modding never hits the mainstream of video game consoles&#8212;conventional users get uncomfortable when they hear words like &#8220;bootloader.&#8221; But the fact that so many people are excited for Android on the Switch&#8212;an unremarkable tablet in terms of pure hardware and capability&#8212;is telling.</p>
+<p>Why are more techy Switch owners excited about Android? It&#8217;s certainly not to turn the Switch into a conventional, iPad-style tablet. The six-inch plastic screen, 4 GB of RAM, and a respectable (but dated) NVIDIA Tegra chipset means it can&#8217;t even compare to a tablet that costs much less than the Switch&#8217;s $300 retail price. Nope! Android on the Switch is all about the games&#8212;games that players don&#8217;t have access to on the Switch&#8217;s official software.</p>
+<p><iframe width="640" height="360" src="https://www.youtube.com/embed/FINSGgFCc_o?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>The Switch&#8217;s surprisingly flexible design as a portable game machine is what&#8217;s attracting so much aftermarket interest. Those excellent Joy-Con controllers and its compact design&#8212;less cumbersome than an iPad and a separate Bluetooth controller&#8212;make it so easy to throw in a bag and go. But some players aren&#8217;t satisfied with just the Switch&#8217;s lineup of official games, as excellent as it is. They want more.</p>
+<p>You might think players want access to the <a href="https://play.google.com/store/apps">Google Play Store</a> and its thousands of mobile games. Not so much. Mobile games rarely appeal to console players, outside of ports like <em>Fortnite</em> (and like <em>Fortnite</em>, many of those games are already available on the Nintendo eShop). And the Switch&#8217;s design doesn&#8217;t lend itself to utilities like web browsers or email clients, as stated above. On top of all that, the Android ROM doesn&#8217;t even come with the Play Store built in. It requires another modified flash on top of the base software, for practical and legal reasons. To be blunt, there are better and less cumbersome ways to play almost any Android game.</p>
+<h2>It&#8217;s All About Emulation</h2>
+<p>What players are excited about is emulation. Long possible on Android phones, but rarely practical thanks to touch screen controls, classic console emulation is booming on Android and similarly open platforms. With an Android ROM on the Switch, emulation software from the NES up to the original PlayStation and N64 should be able to run at full power. Ditto for the Game Boy, Nintendo DS, and PlayStation Portable. On the NVIDIA SHIELD TV (which uses an almost identical but less battery-conscious version of the Switch&#8217;s chipset), players can get through slower GameCube and Wii games on the Dolphin emulator. That&#8217;s tens of thousands of titles, all available (if legally questionable) on a small portable gaming machine with fantastic controls. What&#8217;s not to love?</p>
+<figure id="attachment_19600" style="width: 1480px" class="wp-caption alignnone"><img class="wp-image-19600 size-full" src="https://www.reviewgeek.com/p/uploads/2019/07/28c7ac7f.jpg" alt="Pokemon Crystal running on a phone." width="1480" height="720" /><figcaption class="wp-caption-text">Pokemon Crystal (Game Boy Color) running on my phone. Switch Joy-Cons are so much better than touch screen controls.</figcaption></figure>
+<p>Indeed, Nintendo should probably take a few notes. Although the Switch Android hack is sure to attract only a fraction (or less, <a href="https://ismyswitchpatched.com/" target="_blank" rel="noopener">thanks to security patches</a>) of Switch owners, Nintendo promised almost the same thing with its Virtual Console service on the Wii, Nintendo 3DS, and Wii U. Why it skipped the Virtual Console on the Switch in favor of a <a href="https://www.reviewgeek.com/7643/nintendo-switch-online-review-if-it-werent-so-cheap-it-would-be-much-more-disappointing/" target="_blank" rel="noopener">scanty selection of NES titles tied to the $20-per-year online service</a>, is another article.</p>
+<p>But the fact that Android modders have had their eye on the Switch since its release shows there are plenty of gamers still hungry for those old titles.</p>
+<figure id="attachment_7653" style="width: 1280px" class="wp-caption alignnone"><img class="wp-image-7653 size-full" src="https://www.reviewgeek.com/p/uploads/2018/09/3487413d.jpg" alt="The Switch game-selection screen." width="1280" height="720" /><figcaption class="wp-caption-text">At the moment, most of the emulated games officially on the Switch are ancient NES titles.</figcaption></figure>
+<p><h3><a href='https://www.reviewgeek.com/19565/on-the-switch-android-does-what-nintendont/'>Read the remaining 5 paragraphs</a></h3></p>]]></content:encoded>
+
+						
+							</item>
+		
+			<item>
+				<title>Geek Trivia: A Clever 1960s Prank Convinced Swedes They Could Watch TV In Color With?</title>
+				<link>https://www.howtogeek.com/trivia/a-clever-1960s-prank-convinced-swedes-they-could-watch-tv-in-color-with/</link>
+				<pubDate>Thu, 01 Aug 2019 06:02:28 +0000</pubDate>
+				<dc:creator>Jason Fitzpatrick</dc:creator>
+				<guid isPermaLink="false">https://www.howtogeek.com/?post_type=trivia&#038;p=435585</guid>
+				
+						<description><![CDATA[  ]]></description>
+						<content:encoded><![CDATA[<p><img src="https://www.howtogeek.com/wp-content/uploads/gg/up/sshot542ef4d2a58a8.png" /></p><table width="650px" border="0"><tr><td><h2><a href="https://www.howtogeek.com/trivia/a-clever-1960s-prank-convinced-swedes-they-could-watch-tv-in-color-with/">A Clever 1960s Prank Convinced Swedes They Could Watch TV In Color With?</a></h2></td></tr><tr><td colspan="2" align="left" valign="top"><ol><li> Pantyhose</li><li> Wax Paper</li><li> Bacon Grease</li><li> Film Negatives</li></ol><p>Think you know the answer?</p></td></tr></table><em><p><a href="https://www.howtogeek.com/trivia/a-clever-1960s-prank-convinced-swedes-they-could-watch-tv-in-color-with/"><img src="https://www.howtogeek.com/geekers/up/readmore-button.png" border="0" /></a></p></em><p></p>
+]]></content:encoded>
+
+						
+							</item>
+		
+			<item>
+				<title>How to Mute Chrome&#8217;s Picture-in-Picture Videos</title>
+				<link>https://www.howtogeek.com/435166/how-to-mute-chromes-picture-in-picture-videos/</link>
+				<pubDate>Wed, 31 Jul 2019 15:23:16 +0000</pubDate>
+				<dc:creator>Brady Gavin</dc:creator>
+				<guid isPermaLink="false">https://www.howtogeek.com/?p=435166</guid>
+				
+						<description><![CDATA[  ]]></description>
+						<content:encoded><![CDATA[<p><p><img class="alignnone wp-image-434816 size-full" src="https://www.howtogeek.com/wp-content/uploads/2019/07/stock-lede-google-chrome-variant.png" alt="Chrome Header image" width="650" height="300" /></p>
+<p>If you&#8217;re using Google Chrome&#8217;s Picture-in-Picture (PiP) mode, an experimental flag can give you the ability to mute the video quickly. Here&#8217;s how to enable and use the mute feature for Picture-in-Picture mode.</p>
+<p>When you enable anything from <code>chrome://flags</code>, you’re using experimental features that haven’t been tested on all devices and could misbehave. You can potentially run into a few bugs along the way, so be careful when playing around with some of the available flags.</p>
+<p>The experimental flag works on both the <a href="https://www.howtogeek.com/fyi/chrome-70-has-picture-in-picture-now-here%e2%80%99s-how-it-works/">browser&#8217;s built-in feature</a> and the <a href="https://chrome.google.com/webstore/detail/picture-in-picture-extens/hkgfoiooedgoejojocmhlaklaeopbecg">Chrome extension</a>, but we&#8217;ll be using the extension in this guide for our examples.</p>
+<p><strong>RELATED:</strong> <a href='https://www.howtogeek.com/429136/how-to-enable-picture-in-picture-on-chrome/'><strong><em>How to Enable Picture-in-Picture on Chrome</em></strong></a></p>
+<p>Fire up Chrome, type <code>chrome://flags</code> into the Omnibox, hit Enter, and then type &#8220;Experimental web platform&#8221; into the search bar.</p>
+<p><img class="alignnone wp-image-435168 size-full" src="https://www.howtogeek.com/wp-content/uploads/2019/07/2019-07-29_13h29_28.png" alt="Go to the Flags page and type Experimental Web Platform into the search bar" width="650" height="219" /></p>
+<p>Alternatively, paste <code>chrome://flags/#enable-experimental-web-platform-features</code> into the Omnibox, and then hit Enter to go directly to the flag.</p>
+<p>Click the drop-down box next to &#8220;Experimental Wen Platform&#8221; flag and then click &#8220;Enabled.&#8221;</p>
+<p><h3><a href='https://www.howtogeek.com/435166/how-to-mute-chromes-picture-in-picture-videos/'>Read the remaining 10 paragraphs</a></h3></p>]]></content:encoded>
+
+						
+							</item>
+		
+			<item>
+				<title>Daily News Roundup: Google Discloses iOS &#8220;Interactionless&#8221; Vulnerabilities</title>
+				<link>https://www.howtogeek.com/fyi/daily-news-roundup-google-discloses-ios-interactionless-vulnerabilities/</link>
+				<pubDate>Wed, 31 Jul 2019 15:21:36 +0000</pubDate>
+				<dc:creator>Josh Hendrickson</dc:creator>
+				<guid isPermaLink="false">https://www.howtogeek.com/?post_type=fyi&#038;p=435560</guid>
+				
+						<description><![CDATA[  ]]></description>
+						<content:encoded><![CDATA[<p><img class="alignnone size-full wp-image-408645" src="https://www.howtogeek.com/wp-content/uploads/2019/03/news-header-5.png" alt="" width="650" height="300" /></p>
+<p>Google, through its Project Zero initiative, disclosed six vulnerabilities in iOS. In each case, a hacker could execute remote code on someone&#8217;s iPhone without any interaction by the user. Apple&#8217;s iOS 12.3 fixes five of the issues.</p>
+<p>Project Zero is Google&#8217;s initiative to discover zero-day vulnerabilities and disclose them to the appropriate manufacturer, followed by a public announcement of the problem.</p>
+<p>Recently, two members of the project team described six vulnerabilities in iOS. In each case, an attacker could send a malformed message through iMessage and the code would execute as soon as the victim opened and viewed the item. The announcement included proof-of-concept code and full details for five of the vulnerabilities.</p>
+<p>Apple fully patched those five issues in iOS 12.3, so if you haven&#8217;t fully updated your devices, you should. Google withheld details of the sixth vulnerability for now as Apple hasn&#8217;t fully patched that issue yet. <small>[<a href="https://www.zdnet.com/article/google-researchers-disclose-vulnerabilities-for-interactionless-ios-attacks/">ZDNet</a>]</small></p>
+<h2>In Other News:</h2>
+<ul>
+<li><strong>Samsung announces Galaxy Tab S6:</strong> The Galaxy S6 is official and the tablet has impressive specs to take on competitors. Boasting a Snapdragon 855 chipset, 6GB or 8GB of RAM, and 128GB or 256GB of storage, the tablet checks all the boxes to hit the high-end market. The Galaxy Tab S6 starts at $649 and includes an S-Pen. Samsung is also offering an optional keyboard and kickstand case for $179. <small>[<a href="https://news.samsung.com/global/introducing-the-samsung-galaxy-tab-s6-a-new-tablet-that-enhances-your-creativity">Samsung</a>]</small></li>
+<li><strong>Apple&#8217;s Credit Card launches in August: </strong>In March, Apple announced the Apple Card. The company said the credit card would come in both digital and physical forms, although the titanium card wouldn&#8217;t display any card numbers, CCV, or expiration date. Now, Apple says it will start accepting applications for the card in August. <small>[<a href="https://www.theverge.com/2019/7/30/20747618/apple-confirms-apple-card-august-launch">The Verge</a>]</small></li>
+<li><strong>Wyze will offer smart plugs at insanely cheap prices:</strong> You could describe the entire Wyze business model as &#8220;smart things for cheaper than dirt.&#8221; The company is continuing that trend with upcoming smart plugs. The plugs will cost $14.99 for a two-pack, more than half the price of <a href="https://www.reviewgeek.com/18308/iclever-smart-outlets-are-effective-but-tricky-to-set-up/">iClever plugs</a>. Pre-orders ship in September. <small>[<a href="https://www.wyze.com/wyze-plug/">Wyze</a>]<br />
+</small></li>
+<li><strong>Chrome 76 released yesterday with new features in tow:</strong> Google took the wraps off Chrome 76 yesterday. Once you receive this update, Chrom will block Flash by default, prevent websites from detecting incognito mode, and more. You should get the update automatically, but you can force it in Chrome&#8217;s &#8220;About&#8221; dialog. <small>[<a href="https://www.howtogeek.com/434592/what%E2%80%99s-new-in-chrome-76-arriving-july-30th/">How-To Geek</a>]<br />
+</small></li>
+</ul>
+<p>Facebook wants to read your mind, but not in the usual creepy way. A few years ago, the company announced an effort to create technology that can read brain patterns and interpret thoughts without using invasive technology, like implanted electrodes. Technology like that could enable someone to communicate who otherwise can&#8217;t speak or move their limbs.</p>
+<p>The company has been experimenting with patients with electrodes implanted in their brains and made new progress in the ultimate goal. Research subjects were asked to answer out loud a list of simple multiple-choice questions ordered randomly. During that process, by monitoring brain patterns, Facebook&#8217;s algorithms correctly detected what question the patient heard 75 percent of the time and what answer they chose 61 percent of the time.</p>
+<p>The company is still many years away from a non-invasive method, but these are significant first steps. <small>[<a href="https://spectrum.ieee.org/the-human-os/biomedical/devices/brain-implant-decodes-dialogue-from-neural-activity">IEEE Spectrum</a>]</small></p>
+<p></p>
+]]></content:encoded>
+
+						
+							</item>
+		
+			<item>
+				<title>How to View a Desktop Site on Mobile Safari</title>
+				<link>https://www.howtogeek.com/435173/how-to-view-a-desktop-site-on-mobile-safari/</link>
+				<pubDate>Wed, 31 Jul 2019 14:24:05 +0000</pubDate>
+				<dc:creator>Khamosh Pathak</dc:creator>
+				<guid isPermaLink="false">https://www.howtogeek.com/?p=435173</guid>
+				
+						<description><![CDATA[  ]]></description>
+						<content:encoded><![CDATA[<p><p><img class="alignnone size-full wp-image-435177" src="https://www.howtogeek.com/wp-content/uploads/2019/07/View-Desktop-Site-in-Mobile-Safari.png" alt="How to View Desktop Site in Mobile Safari" width="650" height="300" /></p>
+<p>Safari is fast and optimized for mobile devices. That&#8217;s usually a good thing. But there are still a few websites that refuse to adapt to mobile Safari or provide an inferior experience on their mobile site. In times like these, you can switch to the desktop version of the website.</p>
+<h2>How to View Desktop Site in Safari</h2>
+<p>Like many iOS features, especially ones for Safari, the Request Desktop Site feature is hidden. With iOS 13, Apple has changed the placement of this option, which makes it a bit easier to find. As iPadOS 13 automatically loads desktop websites, iPad users won&#8217;t need to look for this feature after updating.</p>
+<p>Here&#8217;s how this feature works on devices running iOS 12 and iOS 13.</p>
+<p><strong>RELATED:</strong> <a href='https://www.howtogeek.com/423446/ipados-will-almost-make-your-ipad-a-real-computer/'><strong><em>iPadOS Will Almost Make Your iPad a Real Computer</em></strong></a></p>
+<h3>iOS 12 and Below</h3>
+<p>Open the Safari app on your iPhone or iPad and load a website. Now, tap and hold on the &#8220;Refresh&#8221; button next to the URL bar.</p>
+<p><img class="alignnone size-full wp-image-435178" src="https://www.howtogeek.com/wp-content/uploads/2019/07/Tap-and-Hold-Refresh-Button.png" alt="Tap and Hold Refresh Button to get the Request Desktop Site popup" width="650" height="496" /></p>
+<p>You&#8217;ll see a popup at the bottom of the screen. From here, select &#8220;Request Desktop Site.&#8221;</p>
+<p><img class="alignnone size-full wp-image-435179" src="https://www.howtogeek.com/wp-content/uploads/2019/07/Tap-on-Request-Desktop-Site.png" alt="Tap on Request Desktop Site" width="650" height="409" /></p>
+<p><h3><a href='https://www.howtogeek.com/435173/how-to-view-a-desktop-site-on-mobile-safari/'>Read the remaining 8 paragraphs</a></h3></p>]]></content:encoded>
+
+						
+							</item>
+		
+			<item>
+				<title>How to Disable Windows 10&#8217;s Annoying Focus Assist Notifications</title>
+				<link>https://www.howtogeek.com/435349/how-to-disable-windows-10s-annoying-focus-assist-notifications/</link>
+				<pubDate>Wed, 31 Jul 2019 13:00:20 +0000</pubDate>
+				<dc:creator>Chris Hoffman</dc:creator>
+				<guid isPermaLink="false">https://www.howtogeek.com/?p=435349</guid>
+				
+						<description><![CDATA[  ]]></description>
+						<content:encoded><![CDATA[<p><p><img class="alignnone wp-image-435350 size-full" src="https://www.howtogeek.com/wp-content/uploads/2019/07/img_5d3f751653fab.png" alt="Cortana Focus Assist message in Action Center" width="650" height="300" /></p>
+<p>Windows 10&#8217;s Focus Assist feature automatically hides notifications while you&#8217;re playing games or using other full-screen applications. But Cortana loves to announce that it&#8217;s silencing notifications. Here&#8217;s how to turn off those annoying Focus Assist notifications.</p>
+<p><a href="https://www.howtogeek.com/349829/how-to-use-focus-assist-do-not-disturb-mode-on-windows-10/">Focus Assist is Windows 10&#8217;s Do Not Disturb mode</a>. When enabled, it will automatically hide incoming notifications, so they don&#8217;t pop up and distract you while you&#8217;re playing a game, giving a presentation, or using any full-screen applications. Focus Assist can automatically silence notifications during certain hours of the day, too. You&#8217;ll see the notifications when you leave Focus Assist mode. However, Cortana will loudly announce &#8220;I&#8217;ll field your notifications in Action Center&#8221; while you&#8217;re playing a game, in full-screen mode, or duplicating your display. Here&#8217;s how to silence those messages.</p>
+<p>To configure Focus Assist, head to Settings &gt; System &gt; Focus Assist. (You can quickly open the Settings window by pressing Windows+i.)</p>
+<p><img class="alignnone wp-image-435353 size-full" src="https://www.howtogeek.com/wp-content/uploads/2019/07/img_5d3f7b736059b.png" alt="Focus Assist options in Windows 10's Settings" width="650" height="373" /></p>
+<p>Under Automatic Rules, click the name of an automatic rule. For example, to disable Focus Assist notifications that appear when you&#8217;re playing a game, click &#8220;When I&#8217;m playing a game.&#8221;</p>
+<p><img class="alignnone wp-image-435355 size-full" src="https://www.howtogeek.com/wp-content/uploads/2019/07/img_5d3f7d4227464.png" alt="Viewing detailed automatic rule options for Focus Assist" width="650" height="442" /></p>
+<p>Uncheck the &#8220;Show a notification in action center when focus assist is turned on automatically&#8221; checkbox.</p>
+<p><img class="alignnone wp-image-435356 size-full" src="https://www.howtogeek.com/wp-content/uploads/2019/07/img_5d3f7d5e49aca.png" alt="Disabling Cortana's Focus Assist notifications" width="650" height="495" /></p>
+<p><h3><a href='https://www.howtogeek.com/435349/how-to-disable-windows-10s-annoying-focus-assist-notifications/'>Read the remaining 7 paragraphs</a></h3></p>]]></content:encoded>
+
+						
+							</item>
+		
+			<item>
+				<title>How to Factory Reset a Router</title>
+				<link>https://www.howtogeek.com/434350/how-to-factory-reset-a-router/</link>
+				<pubDate>Wed, 31 Jul 2019 12:00:24 +0000</pubDate>
+				<dc:creator>Josh Hendrickson</dc:creator>
+				<guid isPermaLink="false">https://www.howtogeek.com/?p=434350</guid>
+				
+						<description><![CDATA[  ]]></description>
+						<content:encoded><![CDATA[<p><figure id="attachment_434589" style="width: 650px" class="wp-caption alignnone"><img class="wp-image-434589 size-full" src="https://www.howtogeek.com/wp-content/uploads/2019/07/Router-HTG.jpg" alt="The back of a modern wireless router." width="650" height="300" data-credittext="Proxima Studio" data-crediturl="https://www.shutterstock.com/image-photo/modern-wireless-wifi-router-close-226918765?src=FOfYRfyo5p0LrrQFa2AIPw-1-6&amp;studio=1" /><figcaption class="wp-caption-text"><span class="imagecredit"><a href="https://www.shutterstock.com/image-photo/modern-wireless-wifi-router-close-226918765?src=FOfYRfyo5p0LrrQFa2AIPw-1-6&amp;studio=1">Proxima Studio</a></span></figcaption></figure>
+<p>A factory reset wipes your router&#8217;s custom settings and returns it to a like-new state. This is an important step when troubleshooting some network problems. Factory-resetting is relatively easy, but every router is a bit different.</p>
+<h2>What Is a Factory Reset, and When Should You Do It?</h2>
+<p>A reset isn&#8217;t the same as a <a href="https://www.howtogeek.com/428992/how-to-reboot-your-router-and-modem/">reboot</a>, which people sometimes mistakenly refer to as a &#8220;reset.&#8221; Just like a PC, a reboot shuts down your router and starts it back up. It&#8217;s a <a href="https://www.howtogeek.com/165110/do-i-really-have-to-unplug-my-cable-modem-for-at-least-10-seconds/">good troubleshooting step</a> if your router is acting strangely.</p>
+<p>A factory reset, on the other hand, wipes all your data from the router. This includes any passwords, Wi-Fi network details (like your <a href="https://www.howtogeek.com/334935/what-is-an-ssid-or-service-set-identifier/">network name (SSID)</a> and passphrase), and any other settings you&#8217;ve changed.</p>
+<p>Essentially, it&#8217;s like you just purchased the router from the factory, hence the name. And that&#8217;s the point. If your router is acting strangely and a reboot hasn&#8217;t helped&#8212;or you think it might have <a href="https://www.howtogeek.com/227384/how-to-check-your-router-for-malware/">router malware</a>&#8212;a factory reset might fix the problem. But there&#8217;s no going back, so this shouldn&#8217;t be your first troubleshooting step. At the very least, try a reboot first. It might also be a good idea to <a href="https://www.howtogeek.com/205299/how-to-ensure-your-home-router-has-the-latest-security-updates/">upgrade your router&#8217;s firmware</a> and see if that fixes the problem.</p>
+<p>A factory reset is a good idea if you&#8217;re selling or disposing of your router. This way, whoever gets your router next can start fresh, without seeing any of your personal information (like your Wi-Fi passphrase.)</p>
+<p><strong>RELATED:</strong> <a href='https://www.howtogeek.com/227384/how-to-check-your-router-for-malware/'><strong><em>How to Check Your Router for Malware</em></strong></a></p>
+<h2>How to Factory Reset a Router with a Button</h2>
+<figure id="attachment_434590" style="width: 650px" class="wp-caption alignnone"><img class="wp-image-434590 size-full" src="https://www.howtogeek.com/wp-content/uploads/2019/07/Sasmsung-Hub.jpg" alt="The back of a Samsung Smartthings wireless router with a paperclip sticking in the reset button." width="650" height="300" data-credittext="Josh Hendrickson" /><figcaption class="wp-caption-text"><span class="imagecredit">Josh Hendrickson</span></figcaption></figure>
+<p><strong>Warning</strong>: As we explained above, this erases all your router&#8217;s custom settings, including its Wi-Fi network passphrase! You&#8217;ll have to set it up again.</p>
+<p>Nearly every router uses a different admin interface, but that&#8217;s ok; you might be able to bypass it entirely. First, look closely at the router&#8212;most have a reset button on the back or bottom. You might need an unwound paperclip to press it.</p>
+<p>On many routers, if you hold in the button for 10 seconds, it factory resets your router. If that doesn&#8217;t work, try the 30-30-30 method:</p>
+<ul>
+<li><strong>Hold in the button for 30 seconds.</strong></li>
+<li><strong>Unplug the router for 30 seconds.</strong></li>
+<li><strong>Plug the router back in.</strong></li>
+<li><strong>Hold in the reset button for another 30 seconds.</strong></li>
+</ul>
+<h2>How to Factory Reset a Router via the Web Interface</h2>
+<p><h3><a href='https://www.howtogeek.com/434350/how-to-factory-reset-a-router/'>Read the remaining 13 paragraphs</a></h3></p>]]></content:encoded>
+
+						
+							</item>
+		
+			<item>
+				<title>The RAVPower FileHub: An All-In-One (Yet Oddly Niche) Wireless Storage Hub</title>
+				<link>https://www.reviewgeek.com/18926/the-ravpower-filehub-an-all-in-one-yet-oddly-niche-wireless-storage-hub/</link>
+				<pubDate>Wed, 31 Jul 2019 08:00:12 +0000</pubDate>
+				<dc:creator>Andrew Heinzman</dc:creator>
+				<guid isPermaLink="false">https://www.reviewgeek.com/18926/the-ravpower-filehub-an-all-in-one-yet-oddly-niche-wireless-storage-hub/</guid>
+				
+						<description><![CDATA[  ]]></description>
+						<content:encoded><![CDATA[<p><p><img class="alignnone wp-image-18993 size-full" src="https://www.reviewgeek.com/p/uploads/2019/07/f19c9085-2.png" alt="Man's hand holding the RAVPower FileHub." width="1920" height="1080" /></p>
+<p>Whether you&#8217;re a photographer, a writer, or garden-variety computer nerd, a wireless file hub can streamline your file transfer process. But for $60, the RAVPower FileHub aims to do so much more. Is it too good to be true?</p>
+<p>I wish I could give you a definite answer. The RAVPower FileHub is, at a fundamental level, a portable device for wireless data transfer. It has two ports for an SD card and a hard drive, and it&#8217;s built for on the go data transfer with your phone. It does this by outputting a unique Wi-Fi signal (you can choose between a 2.4 G band and a fast 5 G band), which your phone connects to for data transmission via the RAV FileHub app.</p>
+<p>But the FileHub also doubles as a casting device, a Wi-Fi bridge (it has an ethernet port), and a portable 6700 mAh battery. For a $60 device, this is a lot of features. If they all worked <em>perfectly</em>, then I&#8217;d recommend the FileHub to anyone, but that isn&#8217;t the case.</p>
+<p>While I enjoy the FileHub&#8217;s wireless file transfer capabilities, I think its &#8220;jack of all trades&#8221; approach leads to a lot of frustrating shortcomings.</p>
+<h2>The FileHub Is Well-Built, Its Instruction Manual Isn&#8217;t</h2>
+<p>The FIleHub looks great and has fantastic build quality. Its buttons are clicky, it has a nice (not flimsy) rubber cover for its USB and Ethernet ports, and even its SD card slot feels oddly secure.</p>
+<p>Really, the FileHub is a brick&#8212;and I mean that in the best way possible. But the FileHub&#8217;s ease of use? Its 46-page instruction manual? That&#8217;s a different story.</p>
+<figure id="attachment_18985" style="width: 1920px" class="wp-caption alignnone"><img class="wp-image-18985 size-full" src="https://www.reviewgeek.com/p/uploads/2019/07/fb5c81ed-8.png" alt="FileHub sitting on a table with its LEDs lit up." width="1920" height="1080" /><figcaption class="wp-caption-text">FileHub&#8217;s clear LEDs show its power and connection modes.</figcaption></figure>
+<p>The FileHub does a lot of different things, and yes, it has a learning curve. But the issue is, even if you follow the instruction manual, the FileHub finds a way to confuse you. I&#8217;ll mention some of its quirks throughout this review, but I&#8217;m going to start with something that&#8217;s frustrated me from day one.</p>
+<p>The FileHub&#8217;s power button is ridiculous. I&#8217;ve never had so much trouble turning on a device. While the instruction manual clearly states, &#8220;Power Button: Press to turn on/off the FileHub,&#8221; you have to hold the button for around five seconds&#8212;no more, no less. I manage to screw this up every time I use the FileHub.</p>
+<p><h3><a href='https://www.reviewgeek.com/18926/the-ravpower-filehub-an-all-in-one-yet-oddly-niche-wireless-storage-hub/'>Read the remaining 27 paragraphs</a></h3></p>]]></content:encoded>
+
+						
+							</item>
+		
+			<item>
+				<title>Are Printer Ink Plans a Rip-Off? Surprisingly, Not Always</title>
+				<link>https://www.reviewgeek.com/18963/printer-ink-is-expensive-but-these-ink-plans-might-save-you-money/</link>
+				<pubDate>Wed, 31 Jul 2019 06:40:48 +0000</pubDate>
+				<dc:creator>Ted Needleman</dc:creator>
+				<guid isPermaLink="false">https://www.reviewgeek.com/18963/printer-ink-is-expensive-but-these-ink-plans-might-save-you-money/</guid>
+				
+						<description><![CDATA[  ]]></description>
+						<content:encoded><![CDATA[<p><figure id="attachment_19481" style="width: 1600px" class="wp-caption alignnone"><img class="wp-image-19481 size-full" src="https://www.reviewgeek.com/p/uploads/2019/07/a94989a7.png" alt="Piggy bank next to a stack of printer ink cartridges." width="1600" height="900" data-credittext="Matt Kay/Shutterstock" data-crediturl="https://www.shutterstock.com/image-photo/cute-pink-piggy-bank-stack-generic-539137729?src=ZSaMmeOBDbaJw1XSWytDBg-1-37&amp;studio=1" /><figcaption class="wp-caption-text"><span class="imagecredit"><a href="https://www.shutterstock.com/image-photo/cute-pink-piggy-bank-stack-generic-539137729?src=ZSaMmeOBDbaJw1XSWytDBg-1-37&amp;studio=1">Matt Kay/Shutterstock</a></span></figcaption></figure>
+<p>Many inkjet printer vendors boast about how low their per-page print cost is, and it&#8217;s usually untrue. In response to growing customer concerns, printer vendors have <a href="https://www.howtogeek.com/403346/hps-ink-subscription-has-drm-that-disables-your-printer-cartridges/" target="_blank" rel="noopener">come up with ink purchase plans</a> they claim can save you money. Can they?</p>
+<h2>How Much Did That Page Cost?</h2>
+<p>Printer vendors are quick to quote an impressive per-page print and (on all-in-ones) copy cost. That figure is predicated on an &#8220;official&#8221; yield per cartridge, and the cost of any replacement cartridges. Yields are calculated using a test procedure developed by the International Standards Organization (ISO). In the U.S., the organization that distributes this protocol is the American National Standards Institute (ANSI).</p>
+<p>Published page yields&#8212;whether for ink or laser toner&#8212;only exist so you can compare printers. Just as your gas mileage varies depending on how you drive, your ink yields vary depending on the kinds of things you print.</p>
+<p>These days, an average page yield of 650-700 pages per cartridge just doesn&#8217;t cut it anymore. Vendors are changing their approach to make printing more pages more attractive.</p>
+<h2>Brother International INKvestment: Go Big or Go Home</h2>
+<figure id="attachment_19475" style="width: 1200px" class="wp-caption alignnone"><img class="wp-image-19475 size-full" src="https://www.reviewgeek.com/p/uploads/2019/07/eb630807-1.jpg" alt="Man's hands inserting a printer cartridge into a printer." width="1200" height="675" data-credittext="Brother" /><figcaption class="wp-caption-text">Bigger ink cartridges mean fewer refills. <span class="imagecredit">Brother</span></figcaption></figure>
+<p>While some vendors in this roundup have developed refillable ink tanks, Brother has taken the somewhat different path of supersizing its ink cartridges for specific models. The company&#8217;s <a href="https://www.brother-usa.com/products/mfcj995dw">INKvestment printers</a> and All-in-Ones present a silhouette that&#8217;s not much different from an ink tank model, with a slight bulge on the right side. That bulge accommodates slightly-wider-than-usual ink cartridges.</p>
+<p>While most inkjet printer vendors offer extra-large capacity cartridges as an option, the INKvestment cartridges are even larger than most. For the base capacity cartridges, the stated page yield is 1,500 for the color and 3,000 for the black. For the Ultra High-Yield, it&#8217;s 5,000 pages for the color cartridge and 6,000 for the black. If you purchase the 6,000 page-yield black cartridge, which costs about $56, the per-page cost drops to just under 1 cent for black-and-white and about 5 cents for color, which is a pretty good deal. It&#8217;s not, however, quite as economical as the refillable tank models from Canon and Epson.</p>
+<p>To make the offer even more enticing, Brother includes a set of cartridges in the box. The company claims these will give you up to a year&#8217;s worth of printing&#8212;that is if you print up to 150 pages per month (1,800 for the year). That&#8217;s a bit more than the basic INKvantage cartridge yield so, in essence, Brother&#8217;s giving you a set of their regular cartridges, rather than the low-yield starter set. Still, not having to change cartridges as often is nice, and the extra-large capacity ink cartridges provide a lower cost-per-page than standard capacity inks.</p>
+<div class="product-share-links"><a href="https://www.brother-usa.com/inkvestment-tank" target="_blank">Check out INKvestment at Brother</a></div>
+<h2>Epson EcoTank: Lots of Ink Means Lots of Prints</h2>
+<figure id="attachment_19477" style="width: 1200px" class="wp-caption alignnone"><img class="wp-image-19477 size-full" src="https://www.reviewgeek.com/p/uploads/2019/07/92a7d011-1.jpg" alt="Hand filling a printer with ink from a bottle." width="1200" height="675" data-credittext="Epson" /><figcaption class="wp-caption-text">Keyed bottles and tanks make it impossible to put the wrong ink in the wrong tank. <span class="imagecredit">Epson</span></figcaption></figure>
+<p>Epson was the first vendor to bring a refillable ink tank printer to the U.S. It&#8217;s now on the third generation of its <a href="https://epson.com/ecotank-ink-tank-printers?utm_medium=cpc&amp;utm_source=google&amp;utm_campaign=US+-+Brand+-+EcoTank&amp;utm_adgroup=EcoTank&amp;utm_term=Epson+Ecotank&amp;gclid=EAIaIQobChMIkOScq6_V4wIVA56fCh2y9ghIEAAYASAAEgIywfD_BwE">EcoTank</a> models. These printers and All-in-One models incorporate refillable ink tanks into the body of the machine. When the ink level drops to near empty, you twist off the cap of a bottle of ink, open the cap covering the ink tank, and then upend the bottle to refill the tank. The original iteration didn&#8217;t use keyed bottles, and it wasn&#8217;t always easy to judge how much ink you were topping off. That was solved a while ago, and today&#8217;s EcoTank Supertank models are as easy to use as printers that use cartridges.</p>
+<p>The real attraction is that one bottle of ink goes a long way. A set of bottles is included with the printer and should give you up to 4,500 black pages and 7,500 in color. And when you run out of the original ink, it gets even cheaper to print massive amounts of pages. Refill bottles sell for about $13 for color and $20 for black. These refills give you up to 7,500 black pages and 6,000 in color, so you won&#8217;t have to shop for more ink very frequently, if at all.</p>
+<div class="product-share-links"><a href="https://epson.com/ecotank-ink-tank-printers" target="_blank">Check out EcoTank at Epson</a></div>
+<h2>Canon MegaTank: Little Bottles, Lots of Pages</h2>
+<figure id="attachment_19327" style="width: 1900px" class="wp-caption alignnone"><img class="wp-image-19327 size-full" src="https://www.reviewgeek.com/p/uploads/2019/07/00d3f575.jpg" alt="A Canon all-in-one printer sitting on a desk next to color and black ink refill bottles." width="1900" height="877" data-credittext="Canon" /><figcaption class="wp-caption-text">Canon MegaTank All-in-One with ink refill bottles. <span class="imagecredit">Canon</span></figcaption></figure>
+<p><h3><a href='https://www.reviewgeek.com/18963/printer-ink-is-expensive-but-these-ink-plans-might-save-you-money/'>Read the remaining 10 paragraphs</a></h3></p>]]></content:encoded>
+
+						
+							</item>
+		
+			<item>
+				<title>How to Use a Mood Board to Reach Your Goals</title>
+				<link>https://www.lifesavvy.com/5662/how-to-use-a-mood-board-to-reach-your-goals/</link>
+				<pubDate>Wed, 31 Jul 2019 06:40:29 +0000</pubDate>
+				<dc:creator>Elyse Hauser</dc:creator>
+				<guid isPermaLink="false">https://www.lifesavvy.com/5662/how-to-use-a-mood-board-to-reach-your-goals/</guid>
+				
+						<description><![CDATA[  ]]></description>
+						<content:encoded><![CDATA[<p><figure id="attachment_6417" style="width: 1600px" class="wp-caption alignnone"><img class="wp-image-6417 size-full" src="https://www.lifesavvy.com/p/uploads/2019/07/a42a0c3e.jpg" alt="A wire grid mood board hanging above a desk." width="1600" height="900" data-credittext="Pixel-Shot/Shutterstock" data-crediturl="https://www.shutterstock.com/image-photo/workplace-mood-board-near-brick-wall-1439827808" /><figcaption class="wp-caption-text"><span class="imagecredit"><a href="https://www.shutterstock.com/image-photo/workplace-mood-board-near-brick-wall-1439827808">Pixel-Shot/Shutterstock</a></span></figcaption></figure>
+<p>Creative thinking isn&#8217;t just for people in traditionally &#8220;creative&#8221; industries. Here&#8217;s how you can incorporate mood board planning into your workflow and get a creative boost.</p>
+<p>Even the most stuffy and traditional industries sometimes require a moment of creative vision. But when you don’t usually get creative at work, it can be hard to tap into that side of yourself when the moment calls for it. Even if you work as a creative all day, every day, you might sometimes find yourself hitting a brick wall your inspiration just can’t seem to punch through.</p>
+<p>That’s where mood boards come in. Though they might sound like a middle school craft project, mood boards are a time-tested way to get things done. From fashion designers to tech CEOs, countless professionals can benefit from making a mood board.</p>
+<p>Wondering how mood boards work, and how you can use them to achieve your own goals? Let’s break it down.</p>
+<h2>What Is a Mood Board?</h2>
+<p>A mood board is a collage created with a specific purpose in mind. It’s a gathering of words, photos, fonts, drawings, textures, and colors, collected and presented either physically or digitally. The name &#8220;mood board&#8221; comes from the tradition of using foam board as the medium. But today, websites like Instagram and Pinterest make it easy to create online mood boards.</p>
+<p>The goal of a mood board is to pull together a concept visually. For example, a party planner might make a few mood boards to show clients some potential party themes. An entrepreneur might create one to get a clear idea of how to represent her brand. A traveler might use a mood board to plan what he wants to do on an upcoming vacation.</p>
+<p>Mood boards are used most often by photographers, interior designers, graphic designers, and fashion designers. But they can be useful for many other purposes. If you&#8217;re not a creative type, the idea of making a mood board might sound silly. But successful individuals in many industries have used them, so don’t dismiss the power of mood boarding.</p>
+<h2>Why Should You Make One?</h2>
+<p>What are the benefits of representing an idea, concept, or plan in this way? Here are some of the top reasons to give mood boarding a try:</p>
+<ul>
+<li><strong>To get your brain unstuck: </strong>Most of us have been there: we have a project to start, but just can’t seem to get the ideas flowing. The process of making a mood board can help you get your brain into that <a href="http://www.bbc.com/capital/story/20190204-how-to-find-your-flow-state-to-be-peak-creative" target="_blank" rel="noopener">relaxed, creative state</a> where your best work comes from. Instead of staring at a blank screen or page, you can spark the inspiration you need to move forward.</li>
+<li><strong>To communicate better with clients: </strong>If you need to present your work to clients, a mood board can help ensure they’re on board with the idea before you move forward. For example, if you design websites, you can use a mood board to show your client the concept before you design the website. If they don’t like it, you haven’t lost much time and energy, and you can easily make a few more mood boards until you hit the right concept.</li>
+<li><strong>To communicate better with coworkers: </strong>When you work with a team, there are often painful &#8220;lost in translation&#8221; moments when you try to explain your ideas. If you and your coworkers share your ideas with mood boards, though, it ensures you all see the same vision.</li>
+<li><strong>To refine your vision: </strong>If you think you have some good ideas for a project but aren’t quite sure how to pull them together, a mood board can help. Placing the different elements next to each other can help you see more clearly what works and what doesn’t. Plus, as you work through all the little challenges of pulling a big project together, a mood board can help you stay focused on the final goal.</li>
+<li><strong>To save time: </strong>At first, when you make a mood board, you might feel like you&#8217;re wasting precious &#8220;project&#8221; time. But if you collect and refine your thoughts in this way, and then share them with everyone else involved, it <em>saves</em> time by reducing mistakes and miscommunications.</li>
+<li><strong>To help you enjoy your work:</strong> When you work on a big project, it&#8217;s often exhausting. With a mood board, you can inject an element of creative fun into the process. It can remind you to take joy in what you do, and keep you moving forward, even when it gets hard.</li>
+</ul>
+<h2>How to Make a Mood Board</h2>
+<figure id="attachment_6418" style="width: 1600px" class="wp-caption alignnone"><img class="wp-image-6418 size-full" src="https://www.lifesavvy.com/p/uploads/2019/07/387b46fb.jpg" alt="A series of cork mood boards hanging on a wall." width="1600" height="900" data-credittext="Marie Linner/Shutterstock" data-crediturl="https://www.shutterstock.com/image-photo/stockholm-february-2017-mood-boards-on-747094129" /><figcaption class="wp-caption-text"><span class="imagecredit"><a href="https://www.shutterstock.com/image-photo/stockholm-february-2017-mood-boards-on-747094129">Marie Linner/Shutterstock</a></span></figcaption></figure>
+<p>Now, let’s look at how to harness this focus and create a mood board.</p>
+<p><h3><a href='https://www.lifesavvy.com/5662/how-to-use-a-mood-board-to-reach-your-goals/'>Read the remaining 18 paragraphs</a></h3></p>]]></content:encoded>
+
+						
+							</item>
+		
+			<item>
+				<title>Why Are Companies Still Storing Passwords In Plain Text?</title>
+				<link>https://www.howtogeek.com/434930/why-are-companies-still-storing-passwords-in-plain-text/</link>
+				<pubDate>Wed, 31 Jul 2019 10:40:12 +0000</pubDate>
+				<dc:creator>Josh Hendrickson</dc:creator>
+				<guid isPermaLink="false">https://www.howtogeek.com/?p=434930</guid>
+				
+						<description><![CDATA[  ]]></description>
+						<content:encoded><![CDATA[<p><figure id="attachment_435291" style="width: 650px" class="wp-caption alignnone"><img class="wp-image-435291 size-full" src="https://www.howtogeek.com/wp-content/uploads/2019/07/Password-Input-HTG.jpg" alt="A computer with a login screen and a password box filled in." width="650" height="300" data-credittext="mangpor2004/Shutterstock" data-crediturl="https://www.shutterstock.com/image-photo/hand-tying-laptop-computer-password-login-1069533455?src=1ubQZn7mhugPd9J3sBT2gA-1-7&amp;studio=1" /><figcaption class="wp-caption-text"><span class="imagecredit"><a href="https://www.shutterstock.com/image-photo/hand-tying-laptop-computer-password-login-1069533455?src=1ubQZn7mhugPd9J3sBT2gA-1-7&amp;studio=1">mangpor2004/Shutterstock</a></span></figcaption></figure>
+<p>Several companies have recently admitted to storing passwords in plain-text format. That&#8217;s like storing a password in Notepad and saving it as a .txt file. Passwords should be salted and hashed for security, so why isn&#8217;t that happening in 2019?</p>
+<h2>Why Passwords Shouldn&#8217;t Be Stored in Plain Text</h2>
+<p><img class="wp-image-435292 size-full" style="font-size: 15px;" src="https://www.howtogeek.com/wp-content/uploads/2019/07/Post-it-Note-HTG.jpg" alt="My Password123456 written on a post-it note and stuck to a computer." width="650" height="400" data-credittext="designer491/Shutterstock" data-crediturl="https://www.shutterstock.com/image-photo/easy-password-concept-my-123456-written-414545476?src=on5ZCv-ac9UhtFD7J8vibA-1-20&amp;studio=1" /><br />
+<span class="imagecredit"><a href="https://www.shutterstock.com/image-photo/easy-password-concept-my-123456-written-414545476?src=on5ZCv-ac9UhtFD7J8vibA-1-20&amp;studio=1">designer491/Shutterstock</a></span></p>
+<p>When a company stores passwords in plain text, anyone with the password database&#8212;or whatever other file the passwords are stored in&#8212;can read them. If a hacker gains access to the file, they can see all the passwords.</p>
+<p>Storing passwords in plain text is a terrible practice. Companies should be salting and hashing passwords, which is another way of saying &#8220;adding extra data to the password and then scrambling in a way that can&#8217;t be reversed.&#8221; Typically that means even if someone steals the passwords out of a database, they&#8217;re unusable. When you log in, the company can check that your password matches the stored scrambled version&#8212;but they can&#8217;t &#8220;work backward&#8221; from the database and determine your password.</p>
+<p>So why do companies store passwords in plaintext? Unfortunately, sometimes the companies don&#8217;t take security seriously. Or they choose to compromise security in the name of convenience. In other cases, the company does everything right when storing your password. But they might add overzealous logging capabilities, which record passwords in plain text.</p>
+<h2>Several Companies Have Improperly Stored Passwords</h2>
+<p>You may already be affected by poor practices because <a href="https://www.bleepingcomputer.com/news/security/robinhood-brokerage-firm-alerts-of-passwords-stored-in-clear-text/">Robinhood</a>, <a href="https://cloud.google.com/blog/products/g-suite/notifying-administrators-about-unhashed-password-storage">Google</a>, <a href="https://newsroom.fb.com/news/2019/03/keeping-passwords-secure/">Facebook</a>, GitHub, Twitter, and others stored passwords in plain text.</p>
+<p>In the case of Google, the company was adequately hashing and salting passwords for most users. But <a href="https://cloud.google.com/blog/products/g-suite/notifying-administrators-about-unhashed-password-storage">G Suite Enterprise account passwords</a> were stored in plain text. The company said this was left-over practice from when it gave domain administrators tools to recover passwords. Had Google properly stored the passwords, that wouldn&#8217;t have been possible. Only a password reset process works for recovery when passwords are correctly stored.</p>
+<p>When Facebook also <a href="https://newsroom.fb.com/news/2019/03/keeping-passwords-secure/">admitted to storing passwords</a> in plain text, it didn&#8217;t give the exact cause of the problem. But you can infer the issue from a later update:</p>
+<blockquote><p>&#8230;we discovered additional logs of Instagram passwords being stored in a readable format.</p></blockquote>
+<p><h3><a href='https://www.howtogeek.com/434930/why-are-companies-still-storing-passwords-in-plain-text/'>Read the remaining 29 paragraphs</a></h3></p>]]></content:encoded>
+
+						
+							</item>
+		
+			<item>
+				<title>Geek Trivia: Which State Has The Highest Density Of Tornado Touch Downs?</title>
+				<link>https://www.howtogeek.com/trivia/which-state-has-the-highest-density-of-tornado-touch-downs/</link>
+				<pubDate>Wed, 31 Jul 2019 06:02:00 +0000</pubDate>
+				<dc:creator>Jason Fitzpatrick</dc:creator>
+				<guid isPermaLink="false">http://www.howtogeek.com/?post_type=trivia&#038;p=187758</guid>
+				
+						<description><![CDATA[  ]]></description>
+						<content:encoded><![CDATA[<p><img src="https://www.howtogeek.com/wp-content/uploads/gg/up/sshot542ef4d2a58a8.png" /></p><table width="650px" border="0"><tr><td><h2><a href="https://www.howtogeek.com/trivia/which-state-has-the-highest-density-of-tornado-touch-downs/">Which State Has The Highest Density Of Tornado Touch Downs?</a></h2></td></tr><tr><td colspan="2" align="left" valign="top"><ol><li> Florida</li><li> Oklahoma</li><li> Kansas</li><li> Texas</li></ol><p>Think you know the answer?</p></td></tr></table><em><p><a href="https://www.howtogeek.com/trivia/which-state-has-the-highest-density-of-tornado-touch-downs/"><img src="https://www.howtogeek.com/geekers/up/readmore-button.png" border="0" /></a></p></em><p></p>
+]]></content:encoded>
+
+						
+							</item>
+		
+			<item>
+				<title>How to Change the Default Font in Google Docs</title>
+				<link>https://www.howtogeek.com/434380/how-to-change-the-default-font-in-google-docs/</link>
+				<pubDate>Tue, 30 Jul 2019 15:23:53 +0000</pubDate>
+				<dc:creator>Brady Gavin</dc:creator>
+				<guid isPermaLink="false">https://www.howtogeek.com/?p=434380</guid>
+				
+						<description><![CDATA[  ]]></description>
+						<content:encoded><![CDATA[<p><p><img class="alignnone wp-image-408813 size-full" src="https://www.howtogeek.com/wp-content/uploads/2019/03/google-docs.png" alt="Google docs logo." width="650" height="300" /></p>
+<p>Google Docs uses a standard font when you create a document. If you aren&#8217;t happy with its appearance, here&#8217;s how you can change the default font instead of manually adjusting it each time.</p>
+<p>Fire up your browser, open a <a href="https://docs.google.com/document">Google Docs</a> file, and then change the font. Click the drop-down box and make sure the Style is set to &#8220;Normal Text,&#8221; as well. This refers to the main text style (excluding titles or headings) used throughout your document.</p>
+<p><strong>RELATED:</strong> <a href='https://www.howtogeek.com/420971/the-beginners-guide-to-google-docs/'><strong><em>The Beginner&#8217;s Guide to Google Docs</em></strong></a></p>
+<p><img class="alignnone wp-image-434407 size-full" src="https://www.howtogeek.com/wp-content/uploads/2019/07/2019-07-23_16h55_19.png" alt="Click the drop-down box and make sure Normal Text is selected." width="452" height="268" /></p>
+<p><strong>Note: </strong>Certain formatting can also be applied to the default font, such as size, bold, underline, color, and highlight color.</p>
+<p>Type out a few words or lines in the font of your choice, and then highlight them with your mouse.</p>
+<p><img class="alignnone wp-image-434403 size-full" src="https://www.howtogeek.com/wp-content/uploads/2019/07/2019-07-23_16h36_16.png" alt="Use your mouse to highlight the text." width="650" height="266" /></p>
+<p>Next, click Format &gt; Paragraph Styles &gt; Normal Text, and then select &#8220;Update &#8216;Normal Text&#8217; to Match.&#8221;</p>
+<p><h3><a href='https://www.howtogeek.com/434380/how-to-change-the-default-font-in-google-docs/'>Read the remaining 13 paragraphs</a></h3></p>]]></content:encoded>
+
+						
+							</item>
+		
+			<item>
+				<title>Daily News Roundup: Capital One Was Hacked, Exposing 106 Million Customers</title>
+				<link>https://www.howtogeek.com/fyi/daily-news-roundup-capital-one-was-hacked-exposing-106-million-customers/</link>
+				<pubDate>Tue, 30 Jul 2019 15:01:45 +0000</pubDate>
+				<dc:creator>Josh Hendrickson</dc:creator>
+				<guid isPermaLink="false">https://www.howtogeek.com/?post_type=fyi&#038;p=435419</guid>
+				
+						<description><![CDATA[  ]]></description>
+						<content:encoded><![CDATA[<p><img class="alignnone size-full wp-image-408645" src="https://www.howtogeek.com/wp-content/uploads/2019/03/news-header-5.png" alt="" width="650" height="300" /></p>
+<p>If you applied for a Captial One credit card between 2005 and 2015, we have bad news for you. Capital One confirmed that an &#8220;outside individual&#8221; stole names, social security numbers, and other data of over 100 million credit card applicants.</p>
+<p>Unfortunately, the modern world seems like a place where we can no longer talk about &#8220;if&#8221; or &#8220;when&#8221; someone will steal our data in a hack. Instead, we&#8217;re left discussing how many times it already happened, and when the next hack will happen.</p>
+<p>In just the latest example, Captial One announced it detected an intrusion into its systems. Between March 22nd and March 23rd, the hacker managed to steal names, addresses, phone numbers, emails, dates of birth, and self-reported incomes of around 100 million Americans and 6 million Canadians.</p>
+<p>In a surprise twist, the FBI already made an arrest. The alleged hacker was caught bragging about the intrusion on a private Slack workspace and social media. When they sent a series of direct messages to another Twitter user with details about the hack, the recipient notified Capital One.</p>
+<p>The bank holding company is offering the usual band-aid of <a href="https://www.howtogeek.com/398368/will-credit-monitoring-services-protect-me-after-a-data-breach/">credit monitoring services</a> to anyone affected. It promises to reach out to everyone caught in the breech to provide those services. <small>[<a href="https://arstechnica.com/information-technology/2019/07/feds-former-cloud-worker-hacks-into-capital-one-and-takes-data-for-106-million-people/">Ars Technica</a>]</small></p>
+<p><strong>RELATED:</strong> <a href='https://www.howtogeek.com/398368/will-credit-monitoring-services-protect-me-after-a-data-breach/'><strong><em>Will Credit Monitoring Services Protect Me After a Data Breach?</em></strong></a></p>
+<h2>In Other News:</h2>
+<ul>
+<li><strong>Google announces new Pixel 4 features, no press event necessary:</strong> In a somewhat unusual move, Google released a blog post detailing new features for the Pixel 4. Those features include face unlock similar to Face ID on Apple&#8217;s mobile devices and motion gestures. No word yet when the Pixel 4 will release. <small>[<a href="https://www.blog.google/products/pixel/new-features-pixel4/">Google</a>]</small></li>
+<li><strong>The latest iPadOS 13 beta includes new app icon options:</strong> The iPad home screen can look sparse given its screen size and the number of apps you&#8217;re limited to displaying. The latest iPadOS 13 addresses that with new options. You can either show 20 smaller icons on the screen or 15 larger icons. Choice is good. <small>[<a href="https://www.theverge.com/2019/7/29/20746324/apple-iphone-ipad-ipados-ios-13-app-icon-resizing-beta-feature-reveal">The Verge</a>]</small></li>
+<li><strong>Microsoft says original HoloLens won&#8217;t receive further major OS upgrades:</strong> Microsoft is phasing out the original HoloLens, and that includes ending major OS updates. The company says the device will stay on Windows 10 October 2018 release for HoloLens, and it will reserve any future OS updates for HoloLens 2. Seems fair, it&#8217;s not like the Hololens is less than four years old and cost $3,000 out of the gate. Oh. Wait. <small>[<a href="https://www.thurrott.com/windows/windows-10/211241/microsofts-original-hololens-will-no-longer-receive-major-windows-10-updates">Thurott</a>]</small></li>
+<li><strong>Sony sold 100 million PS4 consoles:</strong> Shipments of the Playstation 4 are slowing as we reach market saturation and the early stages of the next generation of consoles. But that didn&#8217;t stop the PS4 from hitting the 100 million mark, colloquially known as a Metric ButtTonne of consoles. <small>[<a href="https://www.cnet.com/news/sonys-playstation-4-is-the-fastest-console-to-ship-100m-units/">CNET</a>]</small></li>
+</ul>
+<p>Scientists created contact lenses with a zoom feature. Better yet, you make them zoom in or out by blinking your eyes twice. The contact lenses detect and respond to electrical signals generated by eye movement. It&#8217;s still early in the development process, so you won&#8217;t be buying zoom lenses for your eyes tomorrow. But the prospect of easy-to-use contact lenses with a zoom capability is tantalizing. <small>[<a href="https://www.engadget.com/2019/07/30/scientists-create-contact-lenses-that-zoom-on-command/">Engadget</a>]</small></p>
+<p></p>
+]]></content:encoded>
+
+						
+							</item>
+		
+			<item>
+				<title>How to Get the Old Twitter Website Back</title>
+				<link>https://www.howtogeek.com/435267/how-to-get-the-old-twitter-website-back/</link>
+				<pubDate>Tue, 30 Jul 2019 14:24:20 +0000</pubDate>
+				<dc:creator>Chris Hoffman</dc:creator>
+				<guid isPermaLink="false">https://www.howtogeek.com/?p=435267</guid>
+				
+						<description><![CDATA[  ]]></description>
+						<content:encoded><![CDATA[<p><figure id="attachment_435286" style="width: 650px" class="wp-caption alignnone"><img class="wp-image-435286 size-full" src="https://www.howtogeek.com/wp-content/uploads/2019/07/img_5d3f45e00d09b.png" alt="Twitter logo" width="650" height="300" data-credittext="Twitter" /><figcaption class="wp-caption-text"><span class="imagecredit">Twitter</span></figcaption></figure>
+<p>Twitter.com was just updated with a new interface. Now a <a href="https://www.howtogeek.com/342121/what-are-progressive-web-apps/">progressive web app</a>, Twitter&#8217;s website is more similar to the mobile versions. But you don&#8217;t have to use the new one&#8212;you can get the classic Twitter website back in a few clicks.</p>
+<h2>The Easy Way: Install a Browser Extension</h2>
+<p>We recommend using the GoodTwitter extension&#8212;available for <a href="https://chrome.google.com/webstore/detail/goodtwitter/jbanhionoclikdjnjlcmefiofgjimgca">Google Chrome</a> or <a href="https://addons.mozilla.org/en-US/firefox/addon/goodtwitter/">Mozilla Firefox</a>&#8212;for this. Install the extension, refresh Twitter, and you&#8217;re done.</p>
+<p>This extension is open-source, so you can <a href="https://github.com/ZusorCode/GoodTwitterChrome/blob/master/background.js">see what it does on GitHub</a>. Whenever you access Twitter.com, it sends a user agent saying you&#8217;re using Internet Explorer 11. Twitter sends the old, classic web interface to users of this older browser.</p>
+<p><img class="alignnone wp-image-435285 size-full" src="https://www.howtogeek.com/wp-content/uploads/2019/07/img_5d3f450eeeee3.png" alt="Old Twitter website in Google Chrome" width="650" height="353" /></p>
+<h2>Skip the Browser Extension: Change Your User Agent</h2>
+<p>If you&#8217;d rather do this without the GoodTwitter extension, all you have to do is change your browser&#8217;s user agent to Internet Explorer 11 while it&#8217;s accessing Twitter.com. There are many ways to do this. The main thing is you don&#8217;t want to change your browser&#8217;s user agent all the time, or you&#8217;ll get all sorts of ancient web pages intended for Internet Explorer 11 across the web.</p>
+<p>For example, in Firefox, you can do this with an about:config preference&#8212;no browser extension required.</p>
+<p>To do so, type about:config into Firefox&#8217;s address bar and press Enter. Click &#8220;I Accept the Risk&#8221; to bypass the warning. As long as you&#8217;re careful about what you modify in about:config and follow the instructions here, you&#8217;ll be fine.</p>
+<p><img class="alignnone wp-image-435268 size-full" src="https://www.howtogeek.com/wp-content/uploads/2019/07/img_5d3f35cd6ce45.png" alt="about:config in Mozilla Firefox" width="650" height="363" /></p>
+<p>Right-click on the list of settings and select New &gt; String.</p>
+<p><h3><a href='https://www.howtogeek.com/435267/how-to-get-the-old-twitter-website-back/'>Read the remaining 7 paragraphs</a></h3></p>]]></content:encoded>
+
+						
+							</item>
+		
+			<item>
+				<title>The Best Baby Monitors for Checking on Your Kids</title>
+				<link>https://www.reviewgeek.com/19177/which-type-of-baby-monitor-should-you-get/</link>
+				<pubDate>Tue, 30 Jul 2019 08:00:38 +0000</pubDate>
+				<dc:creator>Kim Compton</dc:creator>
+				<guid isPermaLink="false">https://www.reviewgeek.com/19177/which-type-of-baby-monitor-should-you-get/</guid>
+				
+						<description><![CDATA[  ]]></description>
+						<content:encoded><![CDATA[<p><figure id="attachment_19387" style="width: 1600px" class="wp-caption alignnone"><img class="wp-image-19387 size-full" src="https://www.reviewgeek.com/p/uploads/2019/07/3c562520.png" alt="Man's hands holding a baby monitor over a sleeping baby." width="1600" height="900" data-credittext="Vladimir Badaev/Shutterstock" data-crediturl="https://www.shutterstock.com/image-photo/hand-holding-video-baby-monitor-security-611251226?studio=1" /><figcaption class="wp-caption-text"><span class="imagecredit"><a href="https://www.shutterstock.com/image-photo/hand-holding-video-baby-monitor-security-611251226?studio=1">Vladimir Badaev/Shutterstock</a></span></figcaption></figure>
+<p>Whether you&#8217;re gazing in adoration or staring in bewilderment, you’re going to spend a lot of time looking at your baby. With the right baby monitor, you can maintain that vigilance from the next room or even the next town.</p>
+<p>Baby monitors have evolved quite a bit from 1937&#8217;s <a href="http://www.vam.ac.uk/content/articles/r/isamu-noguchi-radio-nurse-baby-monitor/">Radio Nurse</a>, although radio frequency audio systems remain a great choice for parents who want a simple solution. Additional features, like video and vital sign tracking, can do wonders for a parent&#8217;s peace of mind. Before you pick a monitor, though, consider which type makes the most sense for your family&#8217;s needs:</p>
+<ul>
+<li><strong>Wi-Fi:</strong> A growing category of monitors use Wi-Fi to transmit a video feed to your smartphone. Apps can be glitchy, however, and you might need your phone screen and its battery for other things. Wi-Fi cameras, nevertheless, remain the only choice for parents and caretakers who want to see their child while farther away than the end of the driveway.</li>
+<li><strong>Radio frequency (RF):</strong> Baby monitors are a case in which simpler technology has its advantages. Babysitters and grandmothers might not want (or be able) to download a dedicated app. You can be more confident in someone’s ability to use a simple RF monitor. RF also circumvents any security concerns you might have about Wi-Fi cameras.</li>
+<li><strong>Audio-only:</strong> For you &#8220;Cool Hand Luke&#8217;s&#8221; of the parenting world, there’s this eminently affordable option. Maybe it’s your third kid, or perhaps it’s better if you can’t see your child waving his little fingers in front of his face to stave off sleep. The lower cost makes these a smart choice as a backup monitor if a high-tech one poops out, or a caretaker can&#8217;t use an app.</li>
+<li><strong>Physiological:</strong> These monitors use additional equipment track vitals, like heart rate and blood oxygen saturation. They also keep track of sleep/wake cycles. Some parents might find this level of monitoring nightmarish. Others might find the additional monitoring comforting (and parents of a newborn can often use all the comfort they can get). This is especially true for parents of premature babies&#8212;who have greater health risks&#8212;and chronically-ill children. It&#8217;s important to note, though, that the Journal of the American Medical Association says there&#8217;s <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5310844/">no evidence that these types of monitors are lifesaving</a>.</li>
+</ul>
+<h2>Best for Most People: Eufy SpaceView ($160)</h2>
+<figure id="attachment_19295" style="width: 1500px" class="wp-caption alignnone"><img class="wp-image-19295 size-full" src="https://www.reviewgeek.com/p/uploads/2019/07/281684a2.jpg" alt="The Eufy SpaceView baby monitor with a child being monitored on the video screen." width="1500" height="1215" data-credittext="Eufy" /><figcaption class="wp-caption-text"><span class="imagecredit">Eufy</span></figcaption></figure>
+<p>A relatively new entrant to the market, Eufy&#8217;s <a href="https://www.amazon.com/eufy-SpaceView-Pioneering-Generation-Wide-Angle/dp/B07GBP3GH9?th=1&#038;tag=reviewgeek-20">SpaceView</a> has, nevertheless, amassed a solid fan base for its quality hardware, dependability, and balance of features. The RF camera and monitor have a range of 460 feet. The monitor&#8217;s LCD screen is five inches with a 720p HD resolution. Controls on the monitor allow you to pan the camera 330 degrees from side-to-side, and 110 degrees up and down. Night vision ensures you can see your baby clearly in a pitch-black room, and a thermostat lets you keep track of the temperature. You can also speak through the camera, although small children aren&#8217;t always comforted by a disembodied voice. You can set an ambient noise level at which you want to be alerted, which allows you to mute soft stirrings or gentle baby talk. <a href="https://www.amazon.com/Monitor-eufy-Security-Resolution-Long-Lasting/dp/B07RXFV185?tag=reviewgeek-20">Additional cameras</a> are available for $100.00 each, and you can connect up to four.</p>
+<div class="product-share-links"><a href="https://www.amazon.com/eufy-SpaceView-Pioneering-Generation-Wide-Angle/dp/B07GBP3GH9?th=1&#038;tag=reviewgeek-20" target="_blank">Buy on Amazon</a></div>
+<h2>Best Budget Video Monitor: Wyze Cam Pan ($38)</h2>
+<figure id="attachment_19328" style="width: 1600px" class="wp-caption alignnone"><img class="wp-image-19328 size-full" src="https://www.reviewgeek.com/p/uploads/2019/07/1fa50786-3.jpg" alt="The Wyze Pan Cam." width="1600" height="950" data-credittext="Wyze" /><figcaption class="wp-caption-text"><span class="imagecredit">Wyze</span></figcaption></figure>
+<p>When it comes to Wi-Fi cameras, there&#8217;s no reason you have to go with a dedicated baby monitoring product. You can save quite a bit of money if you step outside the baby-industrial complex. For this purpose, we recommend the <a href="https://www.amazon.com/Wyze-1080p-Indoor-Camera-Vision/dp/B07DGR98VQ?creativeASIN=B07DGR98VQ&amp;linkCode=w61&amp;imprToken=tMnc-5bPV4pKFDWU1XuFrA&amp;slotNum=2&#038;tag=reviewgeek-20">Wyze Cam Pan</a>, a camera that scored an 8/10 in <a href="https://www.reviewgeek.com/14689/wyze-cam-pan-review-impossibly-cheap-improbably-good/">our review</a>. You can sync the app with multiple cameras, and they include night vision, 1080p image quality, and (as the name suggests) the ability to pan 360 degrees (more than even the rowdiest infant should require).</p>
+<div class="product-share-links"><a href="https://www.amazon.com/Wyze-1080p-Indoor-Camera-Vision/dp/B07DGR98VQ?creativeASIN=B07DGR98VQ&amp;linkCode=w61&amp;imprToken=tMnc-5bPV4pKFDWU1XuFrA&amp;slotNum=2&#038;tag=reviewgeek-20" target="_blank">Buy on Amazon</a></div>
+<h2>Best Premium Monitor: The Owlet Cam ($149)</h2>
+<figure id="attachment_19300" style="width: 1600px" class="wp-caption alignnone"><img class="wp-image-19300 size-full" src="https://www.reviewgeek.com/p/uploads/2019/07/c513e589.jpg" alt="The Owlet Cam sitting in front of a phone with the app open, showing a video of a baby in its crib." width="1600" height="972" data-credittext="Owlet" /><figcaption class="wp-caption-text"><span class="imagecredit">Owlet</span></figcaption></figure>
+<p>The <a href="https://owletcare.com/pages/owlet-cam">Owlet Cam</a> is a sleekly designed, 1080p camera that can stand on its own or attach via magnet to a wall-mounted base. You can adjust the camera manually, but you can&#8217;t pan through the app. A 130-degree wide-angle lens should be enough to cover the entire crib, however. The camera has HD night vision, two-way talk, and a temperature sensor. Owlet&#8217;s app also encrypts the stream to your phone. In addition to the in-app video stream, you can turn on a background audio stream. We picked the Owlet as a premium option not only because of its great camera but also because you can upgrade it with the Smart Sock, our pick for monitoring vital signs.</p>
+<div class="product-share-links"><a href="https://www.amazon.com/Owlet-Cam-Baby-Video-Monitor/dp/B07MFR6NZG?tag=reviewgeek-20" target="_blank">Buy from Amazon</a></div>
+<h2>Best Physiologic Monitor: The Owlet Smart Sock ($299)</h2>
+<figure id="attachment_19292" style="width: 1600px" class="wp-caption alignnone"><img class="wp-image-19292 size-full" src="https://www.reviewgeek.com/p/uploads/2019/07/b0db2996-1.jpg" alt="The Owlet Smart Sock and Base." width="1600" height="784" data-credittext="Owlet" /><figcaption class="wp-caption-text"><span class="imagecredit">Owlet</span></figcaption></figure>
+<p>The Owlet <a href="https://owletcare.com/products/owlet-smart-sock">Smart Sock</a> ($299) is the top-of-the-line for parents who want as much information as possible about their infants. The Velcro foot monitor tracks heart rate, blood oxygen saturation levels, and sleep data. A separate base glows green when readings are okay, but if heart rate or oxygen levels drop out of the preset range, the base uses light and sound alerts.</p>
+<p>Again, the American Academy of Pediatrics has stated <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5310844/#R4">there&#8217;s no evidence</a> these types of monitors reduce the risk of Sudden Infant Death Syndrome. But there&#8217;s value in anything that helps ease the tremendous anxiety of parenting a newborn. Owlet claims that &#8220;94 percent of parents report better sleep quality while using the Owlet Smart Sock.&#8221;</p>
+<p>&#8220;Ha-ha!&#8221; laughed parents of infants everywhere. Better is a relative term here, as no amount of technology is going to spare any of you from the sleep deprivation wrought by newborns. But, every little bit certainly helps.</p>
+<div class="product-share-links"><a href="https://www.amazon.com/Owlet-Smart-Monitor-Certified-Refurbished/dp/B07FDFRD9V?tag=reviewgeek-20" target="_blank">Buy from Amazon</a></div>
+<h2>Best Audio-only Monitor: VTech DM221 Audio Baby Monitor ($38)</h2>
+<figure id="attachment_19380" style="width: 1600px" class="wp-caption alignnone"><img class="wp-image-19380 size-full" src="https://www.reviewgeek.com/p/uploads/2019/07/a787b345-2.jpg" alt="The VTech DM221 baby monitor." width="1600" height="865" data-credittext="VTech" /><figcaption class="wp-caption-text"><span class="imagecredit">VTech</span></figcaption></figure>
+<p>VTech’s <a href="https://www.amazon.com/VTech-DM221-Vibrating-Sound-Alert-Intercom/dp/B007NG5UF4?tag=reviewgeek-20">DM221 Audio Baby Monitor</a> uses Digital Enhanced Cordless Telecommunications (<a href="https://en.wikipedia.org/wiki/Digital_Enhanced_Cordless_Telecommunications">DECT</a>) radio frequency to give you a clear audio feed. The handset, which can be looped on to a belt, holds an 18-hour charge or can take two, AA batteries. You can even set this to silent, and the handset will vibrate if noise is detected. The operating range goes up to 1,000 feet, although that drops depending on the number of walls it has to go through.</p>
+<p><h3><a href='https://www.reviewgeek.com/19177/which-type-of-baby-monitor-should-you-get/'>Read the remaining 3 paragraphs</a></h3></p>]]></content:encoded>
+
+						
+							</item>
+		
+			<item>
+				<title>Everything You Need to Convert Your VHS Tapes to Digital</title>
+				<link>https://www.reviewgeek.com/19146/everything-you-need-to-convert-your-vhs-tapes-to-digital/</link>
+				<pubDate>Tue, 30 Jul 2019 06:40:48 +0000</pubDate>
+				<dc:creator>Andrew Heinzman</dc:creator>
+				<guid isPermaLink="false">https://www.reviewgeek.com/19146/everything-you-need-to-convert-your-vhs-tapes-to-digital/</guid>
+				
+						<description><![CDATA[  ]]></description>
+						<content:encoded><![CDATA[<p><figure id="attachment_19247" style="width: 1920px" class="wp-caption alignnone"><img class="wp-image-19247 size-full" src="https://www.reviewgeek.com/p/uploads/2019/07/90ce5465-1.png" alt="A bunch of VHS tapes arranged in horizontal lines." width="1920" height="1080" data-credittext="Chutima Chaochaiya/Shutterstock" data-crediturl="https://www.shutterstock.com/image-photo/vhs-video-cassette-tapes-617530406" /><figcaption class="wp-caption-text"><span class="imagecredit"><a href="https://www.shutterstock.com/image-photo/vhs-video-cassette-tapes-617530406">Chutima Chaochaiya/Shutterstock</a></span></figcaption></figure>
+<p>Lots of people have stacks of old VHS tapes they want to convert to digital. The process is less overwhelming than you might expect. You just need your VHS tapes, a VCR, a computer, and a capture card.</p>
+<h2>Why Convert Your Tapes to Digital?</h2>
+<p>People convert their VHS tapes to digital for different reasons. Maybe you want to save some old family movies, or you hate the new <em>Star Wars</em> digital remasters. Either way, <a href="https://www.scancafe.com/image-preservation/videotape-decay">VHS tapes degrade over time</a>, so the best time to convert your tapes to digital is <em>right now</em>.</p>
+<p>But that seems a little overwhelming, right? Don&#8217;t you need some expensive hardware or a giant nerd brain to convert tapes to digital?</p>
+<p>No, not really. You just need some tapes, a VCR, and a capture card. Once you&#8217;ve got everything together, tape conversion is a breeze. And it shouldn&#8217;t cost you much more than $30 to complete this project ($15 if you already own a working VCR).</p>
+<p>Some companies, like Kodak, will convert your VHS tapes to digital for you, but they charge <a href="https://kodakdigitizing.com/products/vhs-conversion?gclid=EAIaIQobChMIu4fujcPa4wIVgobACh2AmwkTEAAYAiAAEgJozPD_BwE">about $30 per tape</a>. That option isn&#8217;t really worth it unless you only want to convert one tape to digital.</p>
+<h2>Preparing Your VCR</h2>
+<p><img class="alignnone wp-image-19244 size-full" src="https://www.reviewgeek.com/p/uploads/2019/07/fb5c81ed-11.png" alt="An Omnivision VCR." width="1920" height="1080" /></p>
+<p>You need a working VCR to convert tapes to digital files. For many people, this is the hardest part of the process. It&#8217;s not difficult to find a working VCR; it&#8217;s just a bit time consuming (you&#8217;ll have to buy one secondhand).</p>
+<p>Here&#8217;s the best way to buy a VCR and set it up for tape conversion:</p>
+<ul>
+<li><strong>Find a VCR and buy it: </strong>Goodwill is probably your best (and cheapest) bet. You could also ask to borrow a friend&#8217;s VCR or spend a little extra to buy one from Craigslist or eBay (watch out for those shipping fees).</li>
+<li><strong>Test the VCR</strong>: Once you&#8217;ve got a VCR, test it on a tape that you don&#8217;t care about&#8212;even if it was tested by someone else. Accidents happen, and you don&#8217;t want to risk losing your valuable footage.</li>
+<li><strong>Clean the VCR</strong>: Once you know the VCR is working, you&#8217;ll want to clean it. The 25 years of dust that&#8217;s accumulated on its tape heads can ruin the picture. To do this, run a cheap <a href="https://www.amazon.com/CleanDr-Video-Head-Cleaner-Technology/dp/B000GFK81K/?tag=reviewgeek-20">tape head cleaner</a> through the VCR once or twice.</li>
+</ul>
+<p>If you happen to buy a VCR that doesn&#8217;t work, don&#8217;t bother trying to fix it (unless you know how). Instead, see if you can return it and buy a new one.</p>
+<p><h3><a href='https://www.reviewgeek.com/19146/everything-you-need-to-convert-your-vhs-tapes-to-digital/'>Read the remaining 19 paragraphs</a></h3></p>]]></content:encoded>
+
+						
+							</item>
+		
+			<item>
+				<title>How to Enable Adobe Flash in Google Chrome 76+</title>
+				<link>https://www.howtogeek.com/434334/how-to-enable-adobe-flash-in-google-chrome-76/</link>
+				<pubDate>Tue, 30 Jul 2019 10:40:29 +0000</pubDate>
+				<dc:creator>Chris Hoffman</dc:creator>
+				<guid isPermaLink="false">https://www.howtogeek.com/?p=434334</guid>
+				
+						<description><![CDATA[  ]]></description>
+						<content:encoded><![CDATA[<p><figure id="attachment_434460" style="width: 650px" class="wp-caption alignnone"><img class="wp-image-434460 size-full" src="https://www.howtogeek.com/wp-content/uploads/2019/07/img_5d377809e81d3.png" alt="Flash logo inside a Google Chrome browser icon." width="650" height="300" data-credittext="Google, Adobe" /><figcaption class="wp-caption-text"><span class="imagecredit">Google, Adobe</span></figcaption></figure>
+<p>Adobe Flash is going away. Google drove another nail into its coffin with <a href="https://www.howtogeek.com/434592/what’s-new-in-chrome-76-arriving-july-30th/">Chrome 76</a>, which blocks all Flash content on websites by default. If you still use Flash, you can re-enable it for now&#8212;but Chrome makes it annoying.</p>
+<h2>Flash Is Going Away at the End of 2020</h2>
+<p><img class="alignnone wp-image-434462 size-full" src="https://www.howtogeek.com/wp-content/uploads/2019/07/img_5d37792fdf79d.png" alt="&quot;Flash Player will no longer be supported after December 2020&quot; banner message in Google Chrome." width="650" height="234" /></p>
+<p>Flash isn&#8217;t completely gone&#8212;yet. Instead, Chrome blocks Flash by default with the message &#8220;Flash was blocked on this page.&#8221; If you re-enable Flash in Chrome, you see a message that says, &#8220;Flash Player will no longer be supported after December 2020,&#8221; with a button to turn off Flash.</p>
+<p>As Google <a href="https://www.blog.google/products/chrome/saying-goodbye-flash-chrome/">explains</a>, when the ball drops on New Year&#8217;s Eve, 2020, the countdown will also be counting down to the end of Flash.</p>
+<p>This isn&#8217;t just a Google Chrome thing. <a href="https://blogs.adobe.com/conversations/2017/07/adobe-flash-update.html">Adobe</a> will also end support for Flash at the end of 2020. Mozilla is even more aggressive&#8212;it will <a href="https://developer.mozilla.org/en-US/docs/Plugins/Roadmap">remove Flash support</a> entirely in early 2020.</p>
+<p>If you use Flash, you still have nearly one and a half years until it&#8217;s gone. Chrome&#8217;s increasingly aggressive moves are supposed to encourage websites to move away from Flash while they still have plenty of time to do so.</p>
+<p><strong>RELATED:</strong> <a href='https://www.howtogeek.com/434592/what%e2%80%99s-new-in-chrome-76-arriving-july-30th/'><strong><em>What’s New in Chrome 76, Available Now</em></strong></a></p>
+<h2>How to Run Flash on a Website</h2>
+<p>When you visit a website that uses Flash, you see a &#8220;Plugin blocked&#8221; message at the right side of Chrome&#8217;s Omnibox or address bar.</p>
+<p><img class="alignnone wp-image-434449 size-full" src="https://www.howtogeek.com/wp-content/uploads/2019/07/img_5d37730929b28.png" alt="&quot;Plugin blocked&quot; message in Google Chrome." width="650" height="248" /></p>
+<p><h3><a href='https://www.howtogeek.com/434334/how-to-enable-adobe-flash-in-google-chrome-76/'>Read the remaining 21 paragraphs</a></h3></p>]]></content:encoded>
+
+						
+							</item>
+			</channel>
+</rss>

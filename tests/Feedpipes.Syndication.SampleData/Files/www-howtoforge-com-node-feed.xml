@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+	<title>Howtoforge Linux Howtos und Tutorials</title>
+	<link>https://www.howtoforge.com</link>
+	<description>Howtoforge Tutorials</description>
+	<pubDate>Thu, 01 Aug 2019 16:24:07 +0000</pubDate>
+	<webMaster>webmaster@howtoforge.com (Howtoforge Webmaster)</webMaster>
+	<atom:link href="https://www.howtoforge.com/feed.rss" rel="self" type="application/rss+xml" />
+	<generator>howtoforge</generator>
+	<ttl>60</ttl>
+	<item>
+		<title>How to migrate from Microsoft Exchange Server to ONLYOFFICE</title>
+		<link>https://www.howtoforge.com/how-to-migrate-from-microsoft-exchange-server-to-onlyoffice/</link>
+		<category>linux</category>
+		<description><![CDATA[ONLYOFFICE is an open-source solution that comprises online editors for text documents, spreadsheets, and presentations combined with the groupware platform: mail, projects, CRM, calendar, chat. In this tutorial, we’ll learn how to switch from MS Exchange and transfer users, mailboxes, and messages to ONLYOFFICE.]]></description>
+		<pubDate>Thu, 01 Aug 2019 16:24:07 +0000</pubDate>
+		<guid>https://www.howtoforge.com/how-to-migrate-from-microsoft-exchange-server-to-onlyoffice/</guid>
+	</item>
+	<item>
+		<title>Install Automad CMS with Nginx and Let's Encrypt SSL on Ubuntu 18.04</title>
+		<link>https://www.howtoforge.com/how-to-install-automad-cms-on-ubuntu-1804/</link>
+		<category>ubuntu</category>
+		<description><![CDATA[Automad is an open-source file-based content management system (CMS) and a template engine written in PHP. All content is stored in human-readable text files instead of a database.]]></description>
+		<pubDate>Wed, 31 Jul 2019 12:22:28 +0000</pubDate>
+		<guid>https://www.howtoforge.com/how-to-install-automad-cms-on-ubuntu-1804/</guid>
+	</item>
+	<item>
+		<title>Core components of a Kubernetes Cluster</title>
+		<link>https://www.howtoforge.com/core-components-of-a-kubernetes-cluster/</link>
+		<category>linux</category>
+		<description><![CDATA[Kubernetes is an open source platform for managing containerized workloads and services that facilitates declarative configuration and automation. In this article, we will be going through a 10,000-foot view of the main Kubernetes components, from what each container is composed of, to how a container in a pod is deployed and scheduled across each of the workers.]]></description>
+		<pubDate>Mon, 29 Jul 2019 13:06:06 +0000</pubDate>
+		<guid>https://www.howtoforge.com/core-components-of-a-kubernetes-cluster/</guid>
+	</item>
+	<item>
+		<title>Linux timeout Command Explained for Beginners (with Examples)</title>
+		<link>https://www.howtoforge.com/linux-timeout-command/</link>
+		<category>linux</category>
+		<description><![CDATA[Sometimes, when you execute a command in Linux, you might want to run it for a set amount of time. There exists a command line utility - timeout - that's specifically developed for this purpose.]]></description>
+		<pubDate>Mon, 29 Jul 2019 12:46:00 +0000</pubDate>
+		<guid>https://www.howtoforge.com/linux-timeout-command/</guid>
+	</item>
+	<item>
+		<title>How to Install  Memcached on Ubuntu 18.04 LTS</title>
+		<link>https://www.howtoforge.com/how-to-install-memcached-on-ubuntu-1804/</link>
+		<category>ubuntu</category>
+		<description><![CDATA[Memcached is a free and open-source memory object caching systems that can be used to speed up your applications by temporarily storing information in memory. In this tutorial, we will explain how to install Memcached on Ubuntu 18.04 server.]]></description>
+		<pubDate>Fri, 26 Jul 2019 16:38:53 +0000</pubDate>
+		<guid>https://www.howtoforge.com/how-to-install-memcached-on-ubuntu-1804/</guid>
+	</item>
+	<item>
+		<title>How to Install Kanboard Project Management Software on Debian 10</title>
+		<link>https://www.howtoforge.com/how-to-install-kanboard-on-debian-10/</link>
+		<category>debian</category>
+		<description><![CDATA[Kanboard is a free, open-source and self-hosted project management software that can be used to manage projects using Kanban methodology. You can visualize the work-flow, limiting work in progress and work efficiently from the Kanboard web interface.]]></description>
+		<pubDate>Thu, 25 Jul 2019 16:10:20 +0000</pubDate>
+		<guid>https://www.howtoforge.com/how-to-install-kanboard-on-debian-10/</guid>
+	</item>
+	<item>
+		<title>Setting up a JMeter Cluster for web server load testing</title>
+		<link>https://www.howtoforge.com/setting-up-jmeter-cluster-for-load-testing/</link>
+		<category>linux</category>
+		<description><![CDATA[This tutorial shows you how to set up a JMeter cluster for load tests. JMeter can be used to simulate a heavy load on a server, group of servers, network, or object, to test its strength, or to analyze overall performance under different load types.]]></description>
+		<pubDate>Wed, 24 Jul 2019 11:34:49 +0000</pubDate>
+		<guid>https://www.howtoforge.com/setting-up-jmeter-cluster-for-load-testing/</guid>
+	</item>
+	<item>
+		<title>How to Install Bludit CMS with NGINX on Fedora 30</title>
+		<link>https://www.howtoforge.com/how-to-install-bludit-cms-with-nginx-on-fedora-30/</link>
+		<category>fedora</category>
+		<description><![CDATA[Bludit is a simple, fast, secure, flat-file CMS that allows you to create your own website or blog in seconds. In this tutorial, we will go through the Bludit CMS installation and setup on Fedora 30 system by using NGINX as a web server.]]></description>
+		<pubDate>Tue, 23 Jul 2019 14:28:32 +0000</pubDate>
+		<guid>https://www.howtoforge.com/how-to-install-bludit-cms-with-nginx-on-fedora-30/</guid>
+	</item>
+	<item>
+		<title>How to Install Sentry Error Tracking System with Docker on Ubuntu 18.04 LTS</title>
+		<link>https://www.howtoforge.com/how-to-install-sentry-with-docker-on-ubuntu-1804/</link>
+		<category>ubuntu</category>
+		<description><![CDATA[Sentry is a free and open-source error tracking application that can be used to identify issues in real-time. In this tutorial, we will explain how to install Sentry with Docker on Ubuntu 18.04 server.]]></description>
+		<pubDate>Mon, 22 Jul 2019 13:19:17 +0000</pubDate>
+		<guid>https://www.howtoforge.com/how-to-install-sentry-with-docker-on-ubuntu-1804/</guid>
+	</item>
+	<item>
+		<title>How to Install and Configure OpenLiteSpeed Web Server on Debian 10</title>
+		<link>https://www.howtoforge.com/how-to-install-and-configure-openlitespeed-server-on-debian-10/</link>
+		<category>debian</category>
+		<description><![CDATA[OpenLiteSpeed is a free, open-source and lightweight HTTP server developed by LiteSpeed Technologies. In this tutorial, we will show you how to install OpenLiteSpeed with MariaDB and PHP on Debian 10 server.]]></description>
+		<pubDate>Fri, 19 Jul 2019 14:04:16 +0000</pubDate>
+		<guid>https://www.howtoforge.com/how-to-install-and-configure-openlitespeed-server-on-debian-10/</guid>
+	</item>
+</channel>
+</rss>

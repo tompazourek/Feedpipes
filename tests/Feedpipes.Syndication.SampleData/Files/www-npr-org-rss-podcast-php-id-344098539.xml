@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:npr="https://www.npr.org/rss/" xmlns:nprml="https://api.npr.org/nprml" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Wait Wait...Don't Tell Me!</title>
+    <link>http://www.npr.org/programs/wait-wait-dont-tell-me/</link>
+    <description><![CDATA[NPR's weekly current events quiz. Have a laugh and test your news knowledge while figuring out what's real and what we've made up.]]></description>
+    <copyright>Copyright 2014-2019 NPR - For Personal Use Only</copyright>
+    <generator>NPR API RSS Generator 0.94</generator>
+    <language>en</language>
+    <itunes:summary><![CDATA[NPR's weekly current events quiz. Have a laugh and test your news knowledge while figuring out what's real and what we've made up.]]></itunes:summary>
+    <itunes:author>NPR</itunes:author>
+    <itunes:block>no</itunes:block>
+    <itunes:owner>
+      <itunes:email/>
+      <itunes:name/>
+    </itunes:owner>
+    <itunes:category text="Comedy"/>
+    <itunes:category text="Leisure"/>
+    <itunes:category text="Other Games"/>
+    <itunes:image href="https://media.npr.org/assets/img/2019/05/23/screen-shot-2019-05-23-at-8.46.21-am_sq-7dcea391e7a87ca3569fe3d2047dda0144e5d86f.png?s=1400"/>
+    <image>
+      <url>https://media.npr.org/assets/img/2019/05/23/screen-shot-2019-05-23-at-8.46.21-am_sq-7dcea391e7a87ca3569fe3d2047dda0144e5d86f.png?s=1400</url>
+      <title>Wait Wait...Don't Tell Me!</title>
+      <link>http://www.npr.org/programs/wait-wait-dont-tell-me/</link>
+    </image>
+    <lastBuildDate>Sat, 27 Jul 2019 12:00:00 -0400</lastBuildDate>
+    <item>
+      <title>Marin Alsop</title>
+      <description><![CDATA[Marin Alsop, conductor of the Baltimore Symphony Orchestra, joins us along with panelists Adam Felber, Faith Salie, and Petey DeAbreu.]]></description>
+      <pubDate>Sat, 27 Jul 2019 12:00:00 -0400</pubDate>
+      <copyright>Copyright 2014-2019 NPR - For Personal Use Only</copyright>
+      <guid>f42c705b-ee54-4718-805d-4738c8c72924</guid>
+      <itunes:title>Marin Alsop</itunes:title>
+      <itunes:author>NPR</itunes:author>
+      <itunes:summary><![CDATA[Marin Alsop, conductor of the Baltimore Symphony Orchestra, joins us along with panelists Adam Felber, Faith Salie, and Petey DeAbreu.]]></itunes:summary>
+      <itunes:duration>2967</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <content:encoded><![CDATA[Marin Alsop, conductor of the Baltimore Symphony Orchestra, joins us along with panelists Adam Felber, Faith Salie, and Petey DeAbreu.]]></content:encoded>
+      <enclosure url="https://play.podtrac.com/npr-344098539/edge1.pod.npr.org/anon.npr-podcasts/podcast/npr/waitwait/2019/07/20190727_waitwait_wwdtmpodcast190727-90427788-8d5c-4c7b-8cff-a0ddb9b4fd2b.mp3?awCollectionId=344098539&amp;awEpisodeId=745785323&amp;orgId=1&amp;d=2967&amp;p=344098539&amp;story=745785323&amp;t=podcast&amp;e=745785323&amp;size=47371576&amp;ft=pod&amp;f=344098539" length="47371576" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Piper Kerman</title>
+      <description><![CDATA[Piper Kerman, author, joins us along with panelists Mo Rocca, Maeve Higgins, and Alonzo Bodden.]]></description>
+      <pubDate>Sat, 20 Jul 2019 12:00:00 -0400</pubDate>
+      <copyright>Copyright 2014-2019 NPR - For Personal Use Only</copyright>
+      <guid>5fe8dd92-170d-48e9-b57d-17d73caaa084</guid>
+      <itunes:title>Piper Kerman</itunes:title>
+      <itunes:author>NPR</itunes:author>
+      <itunes:summary><![CDATA[Piper Kerman, author, joins us along with panelists Mo Rocca, Maeve Higgins, and Alonzo Bodden.]]></itunes:summary>
+      <itunes:duration>3011</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <content:encoded><![CDATA[Piper Kerman, author, joins us along with panelists Mo Rocca, Maeve Higgins, and Alonzo Bodden.]]></content:encoded>
+      <enclosure url="https://play.podtrac.com/npr-344098539/edge1.pod.npr.org/anon.npr-podcasts/podcast/npr/waitwait/2019/07/20190720_waitwait_wwdtmpodcast190720-46114df6-c31c-41be-9c22-819ef514182d.mp3?awCollectionId=344098539&amp;awEpisodeId=743762143&amp;orgId=1&amp;d=3011&amp;p=344098539&amp;story=743762143&amp;t=podcast&amp;e=743762143&amp;size=48074221&amp;ft=pod&amp;f=344098539" length="48074221" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Tiera Fletcher</title>
+      <description><![CDATA[Tiera Fletcher, rocket scientist, joins us along with panelists Paula Poundstone, Roxanne Roberts, and Jordan Carlos.]]></description>
+      <pubDate>Sat, 13 Jul 2019 12:00:00 -0400</pubDate>
+      <copyright>Copyright 2014-2019 NPR - For Personal Use Only</copyright>
+      <guid>45f0ca0c-6cd6-4b6c-94b9-849f27919f2e</guid>
+      <itunes:title>Tiera Fletcher</itunes:title>
+      <itunes:author>NPR</itunes:author>
+      <itunes:summary><![CDATA[Tiera Fletcher, rocket scientist, joins us along with panelists Paula Poundstone, Roxanne Roberts, and Jordan Carlos.]]></itunes:summary>
+      <itunes:duration>3014</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <content:encoded><![CDATA[Tiera Fletcher, rocket scientist, joins us along with panelists Paula Poundstone, Roxanne Roberts, and Jordan Carlos.]]></content:encoded>
+      <enclosure url="https://play.podtrac.com/npr-344098539/edge1.pod.npr.org/anon.npr-podcasts/podcast/npr/waitwait/2019/07/20190713_waitwait_wwdtmpodcast190713-66564aee-9f0c-4717-9063-1c3fdb292b48.mp3?awCollectionId=344098539&amp;awEpisodeId=739910854&amp;orgId=1&amp;d=3014&amp;p=344098539&amp;story=739910854&amp;t=podcast&amp;e=739910854&amp;size=48119257&amp;ft=pod&amp;f=344098539" length="48119257" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Best of WWDTM</title>
+      <description><![CDATA[We feature Christine Legarde, Dan Rather, and Seth Meyers, along with some previously unaired material with our panelists.]]></description>
+      <pubDate>Sat, 06 Jul 2019 12:00:00 -0400</pubDate>
+      <copyright>Copyright 2014-2019 NPR - For Personal Use Only</copyright>
+      <guid>940b79a5-8d75-443d-bf15-ec8e81dfc3a9</guid>
+      <itunes:title>Best of WWDTM</itunes:title>
+      <itunes:author>NPR</itunes:author>
+      <itunes:summary><![CDATA[We feature Christine Legarde, Dan Rather, and Seth Meyers, along with some previously unaired material with our panelists.]]></itunes:summary>
+      <itunes:duration>2983</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <content:encoded><![CDATA[We feature Christine Legarde, Dan Rather, and Seth Meyers, along with some previously unaired material with our panelists.]]></content:encoded>
+      <enclosure url="https://play.podtrac.com/npr-344098539/edge1.pod.npr.org/anon.npr-podcasts/podcast/npr/waitwait/2019/07/20190706_waitwait_wwdtmpodcast190706-d20ccccb-0335-41aa-bf01-aac739e01a4a.mp3?awCollectionId=344098539&amp;awEpisodeId=739045868&amp;orgId=1&amp;d=2983&amp;p=344098539&amp;story=739045868&amp;t=podcast&amp;e=739045868&amp;size=47632201&amp;ft=pod&amp;f=344098539" length="47632201" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Jennifer Weiner</title>
+      <description><![CDATA[Jennifer Weiner, author, joins us along with panelists Paula Poundstone, Luke Burbank, and Faith Salie.]]></description>
+      <pubDate>Sat, 29 Jun 2019 12:00:00 -0400</pubDate>
+      <copyright>Copyright 2014-2019 NPR - For Personal Use Only</copyright>
+      <guid>2b111598-ee97-428e-a379-af01d1797c49</guid>
+      <itunes:title>Jennifer Weiner</itunes:title>
+      <itunes:author>NPR</itunes:author>
+      <itunes:summary><![CDATA[Jennifer Weiner, author, joins us along with panelists Paula Poundstone, Luke Burbank, and Faith Salie.]]></itunes:summary>
+      <itunes:duration>2973</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <content:encoded><![CDATA[Jennifer Weiner, author, joins us along with panelists Paula Poundstone, Luke Burbank, and Faith Salie.]]></content:encoded>
+      <enclosure url="https://play.podtrac.com/npr-344098539/edge1.pod.npr.org/anon.npr-podcasts/podcast/npr/waitwait/2019/06/20190629_waitwait_wwdtmpodcast190629-3a30f777-44b3-4773-ae2f-a6479d21fd8e.mp3?awCollectionId=344098539&amp;awEpisodeId=737235414&amp;orgId=1&amp;d=2973&amp;p=344098539&amp;story=737235414&amp;t=podcast&amp;e=737235414&amp;size=47475409&amp;ft=pod&amp;f=344098539" length="47475409" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Valerie Jarrett</title>
+      <description><![CDATA[Valerie Jarrett, who served as senior advisor to President Obama, joins us along with panelists Adam Felber, Roxanne Roberts, and Peter Grosz.]]></description>
+      <pubDate>Sat, 22 Jun 2019 12:00:00 -0400</pubDate>
+      <copyright>Copyright 2014-2019 NPR - For Personal Use Only</copyright>
+      <guid>bf9355d7-2da4-44c6-a29e-3d820f8092c7</guid>
+      <itunes:title>Valerie Jarrett</itunes:title>
+      <itunes:author>NPR</itunes:author>
+      <itunes:summary><![CDATA[Valerie Jarrett, who served as senior advisor to President Obama, joins us along with panelists Adam Felber, Roxanne Roberts, and Peter Grosz.]]></itunes:summary>
+      <itunes:duration>2976</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <content:encoded><![CDATA[Valerie Jarrett, who served as senior advisor to President Obama, joins us along with panelists Adam Felber, Roxanne Roberts, and Peter Grosz.]]></content:encoded>
+      <enclosure url="https://play.podtrac.com/npr-344098539/edge1.pod.npr.org/anon.npr-podcasts/podcast/npr/waitwait/2019/06/20190622_waitwait_wwdtmpodcast190622-95bec5e9-fb93-40f2-af6e-aa08c7512912.mp3?awCollectionId=344098539&amp;awEpisodeId=734948982&amp;orgId=1&amp;d=2976&amp;p=344098539&amp;story=734948982&amp;t=podcast&amp;e=734948982&amp;size=47515858&amp;ft=pod&amp;f=344098539" length="47515858" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Kristine Lilly</title>
+      <description><![CDATA[Kristine Lilly, US Women's soccer star, joins us along with panelists Helen Hong, Roy Blount, Jr., and Jordan Carlos.]]></description>
+      <pubDate>Sat, 15 Jun 2019 12:00:00 -0400</pubDate>
+      <copyright>Copyright 2014-2019 NPR - For Personal Use Only</copyright>
+      <guid>65a0d76d-a1de-4eda-99a8-ebae963fb445</guid>
+      <itunes:title>Kristine Lilly</itunes:title>
+      <itunes:author>NPR</itunes:author>
+      <itunes:summary><![CDATA[Kristine Lilly, US Women's soccer star, joins us along with panelists Helen Hong, Roy Blount, Jr., and Jordan Carlos.]]></itunes:summary>
+      <itunes:duration>3004</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <content:encoded><![CDATA[Kristine Lilly, US Women's soccer star, joins us along with panelists Helen Hong, Roy Blount, Jr., and Jordan Carlos.]]></content:encoded>
+      <enclosure url="https://play.podtrac.com/npr-344098539/edge1.pod.npr.org/anon.npr-podcasts/podcast/npr/waitwait/2019/06/20190615_waitwait_wwdtmpodcast190615-472fc7a6-372c-4ea7-a513-2373ba8320cc.mp3?awCollectionId=344098539&amp;awEpisodeId=732948224&amp;orgId=1&amp;d=3004&amp;p=344098539&amp;story=732948224&amp;t=podcast&amp;e=732948224&amp;size=47967052&amp;ft=pod&amp;f=344098539" length="47967052" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Olivia Wilde</title>
+      <description><![CDATA[Olivia Wilde, actor, joins us along with panelists Maz Jobrani, Aida Rodriguez, and Adam Burke.]]></description>
+      <pubDate>Sat, 08 Jun 2019 12:00:00 -0400</pubDate>
+      <copyright>Copyright 2014-2019 NPR - For Personal Use Only</copyright>
+      <guid>e159cf49-4bb5-4f0f-bb8d-d86f3fbd8ac3</guid>
+      <itunes:title>Olivia Wilde</itunes:title>
+      <itunes:author>NPR</itunes:author>
+      <itunes:summary><![CDATA[Olivia Wilde, actor, joins us along with panelists Maz Jobrani, Aida Rodriguez, and Adam Burke.]]></itunes:summary>
+      <itunes:duration>2996</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <content:encoded><![CDATA[Olivia Wilde, actor, joins us along with panelists Maz Jobrani, Aida Rodriguez, and Adam Burke.]]></content:encoded>
+      <enclosure url="https://play.podtrac.com/npr-344098539/edge1.pod.npr.org/anon.npr-podcasts/podcast/npr/waitwait/2019/06/20190610_waitwait_wwdtmpodcast190608-dfc81e41-34f5-487c-82b5-933b2c38c5d5.mp3?awCollectionId=344098539&amp;awEpisodeId=730842301&amp;orgId=1&amp;d=2996&amp;p=344098539&amp;story=730842301&amp;t=podcast&amp;e=730842301&amp;size=47831944&amp;ft=pod&amp;f=344098539" length="47831944" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>WWDTM Super Heros</title>
+      <description><![CDATA[We present our Not My Job super heros featuring Ruth E. Carter, Charles "Peanut" Tillman, Aidy Bryant, Aaron Sorkin, and Stacey Abrams.]]></description>
+      <pubDate>Sat, 01 Jun 2019 12:00:00 -0400</pubDate>
+      <copyright>Copyright 2014-2019 NPR - For Personal Use Only</copyright>
+      <guid>90ae36be-0dce-4d80-8214-7962b0ef53a5</guid>
+      <itunes:title>WWDTM Super Heros</itunes:title>
+      <itunes:author>NPR</itunes:author>
+      <itunes:summary><![CDATA[We present our Not My Job super heros featuring Ruth E. Carter, Charles "Peanut" Tillman, Aidy Bryant, Aaron Sorkin, and Stacey Abrams.]]></itunes:summary>
+      <itunes:duration>2987</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <content:encoded><![CDATA[We present our Not My Job super heros featuring Ruth E. Carter, Charles "Peanut" Tillman, Aidy Bryant, Aaron Sorkin, and Stacey Abrams.]]></content:encoded>
+      <enclosure url="https://play.podtrac.com/npr-344098539/edge1.pod.npr.org/anon.npr-podcasts/podcast/npr/waitwait/2019/06/20190601_waitwait_wwdtmpodcast190601-6b187294-3ff6-4937-bf70-978359b76044.mp3?awCollectionId=344098539&amp;awEpisodeId=728413194&amp;orgId=1&amp;d=2987&amp;p=344098539&amp;story=728413194&amp;t=podcast&amp;e=728413194&amp;size=47691832&amp;ft=pod&amp;f=344098539" length="47691832" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Kate Mulgrew</title>
+      <description><![CDATA[Kate Mulgrew, actor, joins us along with panelists Alonzo Bodden, Faith Salie, and Tom Papa.]]></description>
+      <pubDate>Sat, 25 May 2019 12:00:00 -0400</pubDate>
+      <copyright>Copyright 2014-2019 NPR - For Personal Use Only</copyright>
+      <guid>ef762e61-c8c6-4eb5-9a58-6b42e934e21c</guid>
+      <itunes:title>Kate Mulgrew</itunes:title>
+      <itunes:author>NPR</itunes:author>
+      <itunes:summary><![CDATA[Kate Mulgrew, actor, joins us along with panelists Alonzo Bodden, Faith Salie, and Tom Papa.]]></itunes:summary>
+      <itunes:duration>2956</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <content:encoded><![CDATA[Kate Mulgrew, actor, joins us along with panelists Alonzo Bodden, Faith Salie, and Tom Papa.]]></content:encoded>
+      <enclosure url="https://play.podtrac.com/npr-344098539/edge1.pod.npr.org/anon.npr-podcasts/podcast/npr/waitwait/2019/05/20190525_waitwait_wwdtmpodcast190525-9e64ccf6-1995-4b8d-9a55-f3496295de1e.mp3?awCollectionId=344098539&amp;awEpisodeId=726880037&amp;orgId=1&amp;d=2956&amp;p=344098539&amp;story=726880037&amp;t=podcast&amp;e=726880037&amp;size=47193100&amp;ft=pod&amp;f=344098539" length="47193100" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Lance Reddick</title>
+      <description><![CDATA[Lance Reddick, actor, joins us along with panelists Roy Blount, Jr., Helen Hong, and Adam Felber.]]></description>
+      <pubDate>Sat, 18 May 2019 12:00:00 -0400</pubDate>
+      <copyright>Copyright 2014-2019 NPR - For Personal Use Only</copyright>
+      <guid>1cb758c9-ee8b-4bc5-bc9c-b2dc7cd51506</guid>
+      <itunes:title>Lance Reddick</itunes:title>
+      <itunes:author>NPR</itunes:author>
+      <itunes:summary><![CDATA[Lance Reddick, actor, joins us along with panelists Roy Blount, Jr., Helen Hong, and Adam Felber.]]></itunes:summary>
+      <itunes:duration>3015</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <content:encoded><![CDATA[Lance Reddick, actor, joins us along with panelists Roy Blount, Jr., Helen Hong, and Adam Felber.]]></content:encoded>
+      <enclosure url="https://play.podtrac.com/npr-344098539/edge1.pod.npr.org/anon.npr-podcasts/podcast/npr/waitwait/2019/05/20190518_waitwait_wwdtmpodcast190518-12250614-84bc-4301-9c30-1515b4115ab5.mp3?awCollectionId=344098539&amp;awEpisodeId=724507069&amp;orgId=1&amp;d=3015&amp;p=344098539&amp;story=724507069&amp;t=podcast&amp;e=724507069&amp;size=48138022&amp;ft=pod&amp;f=344098539" length="48138022" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Ozzie Smith</title>
+      <description><![CDATA[Ozzie Smith, former Cardinals shortstop, joins us along with panelists Tom Bodett, Amy Dickingson, and Brian Babylon.]]></description>
+      <pubDate>Sat, 11 May 2019 12:00:00 -0400</pubDate>
+      <copyright>Copyright 2014-2019 NPR - For Personal Use Only</copyright>
+      <guid>284728fa-d48d-483f-9aab-872a682a088b</guid>
+      <itunes:title>Ozzie Smith</itunes:title>
+      <itunes:author>NPR</itunes:author>
+      <itunes:summary><![CDATA[Ozzie Smith, former Cardinals shortstop, joins us along with panelists Tom Bodett, Amy Dickingson, and Brian Babylon.]]></itunes:summary>
+      <itunes:duration>3032</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <content:encoded><![CDATA[Ozzie Smith, former Cardinals shortstop, joins us along with panelists Tom Bodett, Amy Dickingson, and Brian Babylon.]]></content:encoded>
+      <enclosure url="https://play.podtrac.com/npr-344098539/edge1.pod.npr.org/anon.npr-podcasts/podcast/npr/waitwait/2019/05/20190511_waitwait_wwdtmpodcast190511-d32ef02b-a996-4eb5-b21a-8db08702ab25.mp3?awCollectionId=344098539&amp;awEpisodeId=722426507&amp;orgId=1&amp;d=3032&amp;p=344098539&amp;story=722426507&amp;t=podcast&amp;e=722426507&amp;size=48408655&amp;ft=pod&amp;f=344098539" length="48408655" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Steve Ballmer</title>
+      <description><![CDATA[Steve Ballmer, owner of the LA Clippers, joins us along with panelists Roxanne Roberts, Peter Grosz, and Petey DeAbreu.]]></description>
+      <pubDate>Sat, 04 May 2019 12:00:00 -0400</pubDate>
+      <copyright>Copyright 2014-2019 NPR - For Personal Use Only</copyright>
+      <guid>81733296-cb29-4806-a77d-124e1d9cb521</guid>
+      <itunes:title>Steve Ballmer</itunes:title>
+      <itunes:author>NPR</itunes:author>
+      <itunes:summary><![CDATA[Steve Ballmer, owner of the LA Clippers, joins us along with panelists Roxanne Roberts, Peter Grosz, and Petey DeAbreu.]]></itunes:summary>
+      <itunes:duration>3101</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <content:encoded><![CDATA[Steve Ballmer, owner of the LA Clippers, joins us along with panelists Roxanne Roberts, Peter Grosz, and Petey DeAbreu.]]></content:encoded>
+      <enclosure url="https://play.podtrac.com/npr-344098539/edge1.pod.npr.org/anon.npr-podcasts/podcast/npr/waitwait/2019/05/20190506_waitwait_wwdtmpodcast190504-bd1c7c3b-2731-49a5-a050-be2f118e646c.mp3?awCollectionId=344098539&amp;awEpisodeId=720173292&amp;orgId=1&amp;d=3101&amp;p=344098539&amp;story=720173292&amp;t=podcast&amp;e=720173292&amp;size=49511203&amp;ft=pod&amp;f=344098539" length="49511203" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Laird Hamilton</title>
+      <description><![CDATA[Laird Hamilton, big wave surfer, joins us along with panelists Paula Poundstone, Luke Burbank, and Bobcat Goldthwait.]]></description>
+      <pubDate>Sat, 27 Apr 2019 12:00:00 -0400</pubDate>
+      <copyright>Copyright 2014-2019 NPR - For Personal Use Only</copyright>
+      <guid>19d447ee-0b25-459f-be2d-a362281e820e</guid>
+      <itunes:title>Laird Hamilton</itunes:title>
+      <itunes:author>NPR</itunes:author>
+      <itunes:summary><![CDATA[Laird Hamilton, big wave surfer, joins us along with panelists Paula Poundstone, Luke Burbank, and Bobcat Goldthwait.]]></itunes:summary>
+      <itunes:duration>2947</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <content:encoded><![CDATA[Laird Hamilton, big wave surfer, joins us along with panelists Paula Poundstone, Luke Burbank, and Bobcat Goldthwait.]]></content:encoded>
+      <enclosure url="https://play.podtrac.com/npr-344098539/edge1.pod.npr.org/anon.npr-podcasts/podcast/npr/waitwait/2019/04/20190427_waitwait_wwdtmpodcast190427-e93b3642-fd64-4c14-ac39-0960f6d95953.mp3?awCollectionId=344098539&amp;awEpisodeId=717687114&amp;orgId=1&amp;d=2947&amp;p=344098539&amp;story=717687114&amp;t=podcast&amp;e=717687114&amp;size=47486668&amp;ft=pod&amp;f=344098539" length="47486668" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Best of Not My Job</title>
+      <description><![CDATA[William Shatner, Candice Berger, Conan O'Brien, and Aaron Gordon are featured, along with some new material.]]></description>
+      <pubDate>Sat, 20 Apr 2019 12:00:00 -0400</pubDate>
+      <copyright>Copyright 2014-2019 NPR - For Personal Use Only</copyright>
+      <guid>fa6efbc5-a25d-4199-84bf-6b81273546dd</guid>
+      <itunes:title>Best of Not My Job</itunes:title>
+      <itunes:author>NPR</itunes:author>
+      <itunes:summary><![CDATA[William Shatner, Candice Berger, Conan O'Brien, and Aaron Gordon are featured, along with some new material.]]></itunes:summary>
+      <itunes:duration>2974</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <content:encoded><![CDATA[William Shatner, Candice Berger, Conan O'Brien, and Aaron Gordon are featured, along with some new material.]]></content:encoded>
+      <enclosure url="https://play.podtrac.com/npr-344098539/edge1.pod.npr.org/anon.npr-podcasts/podcast/npr/waitwait/2019/04/20190420_waitwait_wwdtmpodcast190420-0a44dd10-9f0e-48ba-98b6-8c557822581c-c5c7fbec-2436-46c3-a88d-7b31fed0bccf.mp3?awCollectionId=344098539&amp;awEpisodeId=715232579&amp;orgId=1&amp;d=2974&amp;p=344098539&amp;story=715232579&amp;t=podcast&amp;e=715232579&amp;size=47486668&amp;ft=pod&amp;f=344098539" length="47486668" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Dan Rather</title>
+      <description><![CDATA[Dan Rather, journalist, joins us along with panelists Maeve Higgins, Negin Farsad, and Alonzo Bodden.]]></description>
+      <pubDate>Sat, 13 Apr 2019 12:00:00 -0400</pubDate>
+      <copyright>Copyright 2014-2019 NPR - For Personal Use Only</copyright>
+      <guid>715df24e-054b-4702-878e-409805594ee3</guid>
+      <itunes:title>Dan Rather</itunes:title>
+      <itunes:author>NPR</itunes:author>
+      <itunes:summary><![CDATA[Dan Rather, journalist, joins us along with panelists Maeve Higgins, Negin Farsad, and Alonzo Bodden.]]></itunes:summary>
+      <itunes:duration>3022</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <content:encoded><![CDATA[Dan Rather, journalist, joins us along with panelists Maeve Higgins, Negin Farsad, and Alonzo Bodden.]]></content:encoded>
+      <enclosure url="https://play.podtrac.com/npr-344098539/edge1.pod.npr.org/anon.npr-podcasts/podcast/npr/waitwait/2019/04/20190416_waitwait_wwdtmpodcast190413-f7bfda9a-1f6f-46eb-b1bd-ca13beefde59.mp3?awCollectionId=344098539&amp;awEpisodeId=713037100&amp;orgId=1&amp;d=3022&amp;p=344098539&amp;story=713037100&amp;t=podcast&amp;e=713037100&amp;size=48250195&amp;ft=pod&amp;f=344098539" length="48250195" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Steve Earle</title>
+      <description><![CDATA[Steve Earle, singer/songwriter, joins us along with panelists Tom Bodett, Roxanne Roberts, and Peter Grosz.]]></description>
+      <pubDate>Sat, 06 Apr 2019 12:00:00 -0400</pubDate>
+      <copyright>Copyright 2014-2019 NPR - For Personal Use Only</copyright>
+      <guid>a62270d8-2f97-4297-8537-ba9238f13791</guid>
+      <itunes:title>Steve Earle</itunes:title>
+      <itunes:author>NPR</itunes:author>
+      <itunes:summary><![CDATA[Steve Earle, singer/songwriter, joins us along with panelists Tom Bodett, Roxanne Roberts, and Peter Grosz.]]></itunes:summary>
+      <itunes:duration>3082</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <content:encoded><![CDATA[Steve Earle, singer/songwriter, joins us along with panelists Tom Bodett, Roxanne Roberts, and Peter Grosz.]]></content:encoded>
+      <enclosure url="https://play.podtrac.com/npr-344098539/edge1.pod.npr.org/anon.npr-podcasts/podcast/npr/waitwait/2019/04/20190406_waitwait_wwdtmpodcast190406-7f826371-fc36-439c-814c-12c0f5b545ed.mp3?awCollectionId=344098539&amp;awEpisodeId=710496486&amp;orgId=1&amp;d=3082&amp;p=344098539&amp;story=710496486&amp;t=podcast&amp;e=710496486&amp;size=49199704&amp;ft=pod&amp;f=344098539" length="49199704" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Andrew Rannells</title>
+      <description><![CDATA[Broadway star and author Andrew Rannells joins us along with Paula Poundstone, Brian Babylon and Hari Kondabolu.]]></description>
+      <pubDate>Sat, 30 Mar 2019 12:08:00 -0400</pubDate>
+      <copyright>Copyright 2014-2019 NPR - For Personal Use Only</copyright>
+      <guid>2c95cb48-4350-4ed4-94db-97d4579115f9</guid>
+      <itunes:title>Andrew Rannells</itunes:title>
+      <itunes:author>NPR</itunes:author>
+      <itunes:summary><![CDATA[Broadway star and author Andrew Rannells joins us along with Paula Poundstone, Brian Babylon and Hari Kondabolu.]]></itunes:summary>
+      <itunes:duration>2936</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <content:encoded><![CDATA[Broadway star and author Andrew Rannells joins us along with Paula Poundstone, Brian Babylon and Hari Kondabolu.]]></content:encoded>
+      <enclosure url="https://play.podtrac.com/npr-344098539/edge1.pod.npr.org/anon.npr-podcasts/podcast/npr/waitwait/2019/03/20190330_waitwait_190330_podcast_mixdown-c3d4efd1-2c6f-46b9-a86b-23e9bf554edc.mp3?awCollectionId=344098539&amp;awEpisodeId=708258311&amp;orgId=1&amp;d=2936&amp;p=344098539&amp;story=708258311&amp;t=podcast&amp;e=708258311&amp;size=46871593&amp;ft=pod&amp;f=344098539" length="46871593" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Aidy Bryant</title>
+      <description><![CDATA[Aidy Bryant, comedian, joins us along with panelists Mo Rocca, Negin Farsad, and Adam Burke.]]></description>
+      <pubDate>Sat, 23 Mar 2019 12:00:00 -0400</pubDate>
+      <copyright>Copyright 2014-2019 NPR - For Personal Use Only</copyright>
+      <guid>b78ee9f2-f0ad-44a4-b9f7-deeef7a2f094</guid>
+      <itunes:title>Aidy Bryant</itunes:title>
+      <itunes:author>NPR</itunes:author>
+      <itunes:summary><![CDATA[Aidy Bryant, comedian, joins us along with panelists Mo Rocca, Negin Farsad, and Adam Burke.]]></itunes:summary>
+      <itunes:duration>2980</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <content:encoded><![CDATA[Aidy Bryant, comedian, joins us along with panelists Mo Rocca, Negin Farsad, and Adam Burke.]]></content:encoded>
+      <enclosure url="https://play.podtrac.com/npr-344098539/edge1.pod.npr.org/anon.npr-podcasts/podcast/npr/waitwait/2019/03/20190323_waitwait_wwdtmpodcast190323-1c5ea897-fa5f-4f3b-a492-b8f08db82959.mp3?awCollectionId=344098539&amp;awEpisodeId=706081189&amp;orgId=1&amp;d=2980&amp;p=344098539&amp;story=706081189&amp;t=podcast&amp;e=706081189&amp;size=47571736&amp;ft=pod&amp;f=344098539" length="47571736" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>Tony Hawk</title>
+      <description><![CDATA[Tony Hawk, professional skateboarder, joins us along with panelists Jessi Klein, Luke Burbank, and Helen Hong.]]></description>
+      <pubDate>Sat, 16 Mar 2019 12:52:00 -0400</pubDate>
+      <copyright>Copyright 2014-2019 NPR - For Personal Use Only</copyright>
+      <guid>1b1a452d-b061-41d2-b776-b1586c1d1f59</guid>
+      <itunes:title>Tony Hawk</itunes:title>
+      <itunes:author>NPR</itunes:author>
+      <itunes:summary><![CDATA[Tony Hawk, professional skateboarder, joins us along with panelists Jessi Klein, Luke Burbank, and Helen Hong.]]></itunes:summary>
+      <itunes:duration>3033</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <content:encoded><![CDATA[Tony Hawk, professional skateboarder, joins us along with panelists Jessi Klein, Luke Burbank, and Helen Hong.]]></content:encoded>
+      <enclosure url="https://play.podtrac.com/npr-344098539/edge1.pod.npr.org/anon.npr-podcasts/podcast/npr/waitwait/2019/03/20190316_waitwait_wwdtmpodcast190316-065e035e-6768-486e-b937-363a4359dc38.mp3?awCollectionId=344098539&amp;awEpisodeId=704088825&amp;orgId=1&amp;d=3033&amp;p=344098539&amp;story=704088825&amp;t=podcast&amp;e=704088825&amp;size=0&amp;ft=pod&amp;f=344098539" length="0" type="audio/mpeg"/>
+    </item>
+  </channel>
+</rss>

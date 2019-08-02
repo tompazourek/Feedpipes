@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://lambda-the-ultimate.org">
+<channel>
+ <title>Lambda the Ultimate - Programming Languages Weblog</title>
+ <link>http://lambda-the-ultimate.org</link>
+ <description>Programming languages news, articles and discussion</description>
+ <language>en</language>
+<item>
+ <title>Tensor Considered Harmful</title>
+ <link>http://lambda-the-ultimate.org/tensor-considered-harmful</link>
+ <description>&lt;p &gt;&lt;a href=&quot;http://nlp.seas.harvard.edu/NamedTensor&quot;&gt;Tensor Considered Harmful&lt;/a&gt;, by Alexander Rush&lt;/p&gt;
+&lt;blockquote &gt;&lt;p &gt;
+TL;DR: Despite its ubiquity in deep learning, Tensor is broken. It forces bad habits such as exposing private dimensions, broadcasting based on absolute position, and keeping type information in documentation. This post presents a proof-of-concept of an alternative approach, &lt;strong &gt;named tensors&lt;/strong&gt;, with named dimensions. This change eliminates the need for indexing, dim arguments, einsum- style unpacking, and documentation-based coding. The prototype &lt;strong &gt;PyTorch library&lt;/strong&gt; accompanying this blog post is available as &lt;a href=&quot;https://github.com/harvardnlp/NamedTensor&quot;&gt;namedtensor&lt;/a&gt;.
+&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p &gt;Thanks to Edward Z. Yang for pointing me to this &quot;Considered Harmful&quot; position paper.&lt;/p&gt;</description>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/4">Critiques</category>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/8">Implementation</category>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/18">Teaching &amp; Learning</category>
+ <pubDate>Thu, 27 Jun 2019 14:26:57 +0000</pubDate>
+</item>
+<item>
+ <title>Seven Sketches in Compositionality: An Invitation to Applied Category Theory</title>
+ <link>http://lambda-the-ultimate.org/node/5571</link>
+ <description>&lt;a href=&quot;http://xahlee.info/math/i/category_theory_brendan_fong_david_spivak_2018-03.pdf&quot;&gt;Seven Sketches in Compositionality: An Invitation to Applied Category Theory&lt;/a&gt;
+&lt;p &gt;2018 by Brendan Fong and David I. Spivak&lt;/p&gt;
+&lt;blockquote &gt;
+Category theory is becoming a central hub for all of pure mathematics. It is unmatched
+in its ability to organize and layer abstractions, to find commonalities between structures of all sorts, and to facilitate communication between different mathematical
+communities.
+But it has also been branching out into science, informatics, and industry. We believe
+that it has the potential to be a major cohesive force in the world, building rigorous
+bridges between disparate worlds, both theoretical and practical. The motto at MIT is
+mens et manus, Latin for mind and hand. We believe that category theory—and pure
+math in general—has stayed in the realm of mind for too long; it is ripe to be brought
+to hand.
+&lt;/blockquote&gt;
+A very approachable but useful introduction to category theory. It avoids the Scylla and Charybdis of becoming incomprehensible after page 2 (as many academic texts do), and barely scratching the surface (as many popular texts do).</description>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/22">Category Theory</category>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/18">Teaching &amp; Learning</category>
+ <pubDate>Sun, 28 Apr 2019 03:53:25 +0000</pubDate>
+</item>
+<item>
+ <title>&quot;Three Things I Wish I Knew When I Started Designing Languages&quot;</title>
+ <link>http://lambda-the-ultimate.org/node/5569</link>
+ <description>&lt;p &gt;&lt;a href=&quot;https://www.infoq.com/presentations/language-design-process&quot;&gt;The transcript of &lt;i &gt;Three Things I Wish I Knew When I Started Designing Languages&lt;/i&gt;&lt;/a&gt;, a talk given by Peter Alvaro somewhere or other, is up at Info Q.&lt;/p&gt;
+&lt;p &gt;Peter Alavaro&#039;s main research interest is in taming distributed systems. He starts his talk with the provocative thesis, &quot;In the future, all radical new languages will be domain-specific languages.&quot;  He talks of the evolution of his ideas about dealing with distributed systems:&lt;/p&gt;
+&lt;ol &gt;
+&lt;li &gt;Little interest by designers of programming-language designers in filling huge difficulty of debugging in context of distributed systems;
+&lt;li &gt;PLs often make handling of data somewhat implicit, even with functional programming, which he says is dangerous in distributed programming;
+&lt;li &gt;To talk about the flow of data properly, we need to talk about time;
+&lt;li &gt;Two things that influenced him as a grad student: Jeff Ullman&#039;s claim that encapsulation and declarativity are in tension, and &lt;a href=&quot;https://en.wikipedia.org/wiki/Fagin%27s_theorem&quot;&gt;Fagin&#039;s theorem&lt;/a&gt; (the existential fragment of second-order logic characterises NP);
+&lt;li &gt;Idea that distributed systems can be considered as protocols specified a bit like SQL or Datalog queries;
+&lt;li &gt;Triviality with query languages of characterising the idea of place in distributive systems: they are just another relation parameter;
+&lt;li &gt;Describing evolution of a system in time can be done with two other things: counters and negation, leading to Bertram Ludäscher&#039;s language Statelog.  But this way of doing things leads to the kind of low-level overexpressive modelling he was trying to avoid;
+&lt;li &gt;&quot;What is it about...protocols that they seem to require negation to express?”  Turns out that if you drop negation, you characterise the protocols that deliver messages deterministically.
+&lt;/ol&gt;
+&lt;p &gt;He summarises by saying the only good reason to design a programming language (I assume he means a radically novel language) is to shape your understanding of the problem.  No regrets of being the only user of his first language, Datalist, because the point is that it shaped all his later thought in his research.&lt;/p&gt;</description>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/16">Parallel/Distributed</category>
+ <pubDate>Tue, 19 Mar 2019 00:20:53 +0000</pubDate>
+</item>
+<item>
+ <title>Selective Functors</title>
+ <link>http://lambda-the-ultimate.org/story-selective-functors</link>
+ <description>&lt;p &gt;From Andrey Mokhov&#039;s twitter feed:&lt;/p&gt;
+&lt;blockquote &gt;&lt;p &gt;
+Is there any intermediate abstraction between applicative functors and monads? And if yes, what is it? In a new paper with @geo2A, @simonmar and @dimenix we explore &quot;selective functors&quot;, which are essentially applicative functors with branching: &lt;a href=&quot;https://www.staff.ncl.ac.uk/andrey.mokhov/selective-functors.pdf&quot;&gt;https://www.staff.ncl.ac.uk/andrey.mokhov/selective-functors.pdf&lt;/a&gt;&lt;/p&gt;
+&lt;p &gt;We&#039;ve implemented selective functors in Haskell: &lt;a href=&quot;https://github.com/snowleopard/selective&quot;&gt;https://github.com/snowleopard/selective&lt;/a&gt;, OCaml: &lt;a href=&quot;https://github.com/snowleopard/selective-ocaml&quot;&gt;https://github.com/snowleopard/selective-ocaml&lt;/a&gt;, and even Coq: &lt;a href=&quot;https://github.com/tuura/selective-theory-coq&quot;&gt;https://github.com/tuura/selective-theory-coq&lt;/a&gt; (the Coq repository contains some proofs of correctness that our selective instances are lawful). And there is also a PureScript fork!&lt;/p&gt;&lt;/blockquote&gt;</description>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/11">Functional</category>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/8">Implementation</category>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/15">Meta-Programming</category>
+ <pubDate>Tue, 05 Mar 2019 17:12:26 +0000</pubDate>
+</item>
+<item>
+ <title>The Little Typer</title>
+ <link>http://lambda-the-ultimate.org/node/5552</link>
+ <description>&lt;p &gt;A new introductory book about dependent types, involving some familiar names:&lt;/p&gt;
+&lt;p &gt;&lt;strong &gt;&lt;a href=&quot;https://mitpress.mit.edu/books/little-typer&quot;&gt;The Little Typer&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p &gt;by Daniel P. Friedman and David Thrane Christiansen.&lt;/p&gt;
+&lt;p &gt;Foreword by Robert Harper.&lt;/p&gt;
+&lt;p &gt;Afterword by Conor McBride.&lt;/p&gt;
+&lt;blockquote &gt;&lt;p &gt;
+&lt;strong &gt;An introduction to dependent types, demonstrating the most beautiful aspects, one step at a time.&lt;/strong&gt;&lt;/p&gt;
+&lt;p &gt;A program&#039;s type describes its behavior. Dependent types are a first-class part of a language, and are much more powerful than other kinds of types; using just one language for types and programs allows program descriptions to be as powerful as the programs they describe. The Little Typer explains dependent types, beginning with a very small language that looks very much like Scheme and extending it to cover both programming with dependent types and using dependent types for mathematical reasoning. Readers should be familiar with the basics of a Lisp-like programming language, as presented in the first four chapters of The Little Schemer.&lt;/p&gt;
+&lt;p &gt;The first five chapters of The Little Typer provide the needed tools to understand dependent types; the remaining chapters use these tools to build a bridge between mathematics and programming. Readers will learn that tools they know from programming—pairs, lists, functions, and recursion—can also capture patterns of reasoning. The Little Typer does not attempt to teach either practical programming skills or a fully rigorous approach to types. Instead, it demonstrates the most beautiful aspects as simply as possible, one step at a time.
+&lt;/p&gt;&lt;/blockquote&gt;</description>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/21">Type Theory</category>
+ <pubDate>Mon, 24 Sep 2018 04:29:49 +0000</pubDate>
+</item>
+<item>
+ <title>On compositionality</title>
+ <link>http://lambda-the-ultimate.org/node/5550</link>
+ <description>&lt;p &gt;Jules Hedges has written a thought-provoking blog post, &lt;a href=&quot;https://julesh.com/2017/04/22/on-compositionality/&quot;&gt;On compositionality&lt;/a&gt; where he connects the familiar idea of compositionality to the idea of emergent effects in nature, where systems can be understood as either having compositional properties or emergent properties.&lt;/p&gt;
+&lt;p &gt;The key point about emergent systems is that they are hard to understand, and this is as true for engineering as it is for science.  He goes on to say &quot;As a final thought, I claim that compositionality is extremely delicate, and that it is so powerful that it is worth going to extreme lengths to achieve it&quot;, so that avoiding emergent effects is a characteristic of good programming language design.&lt;/p&gt;
+&lt;p &gt;Some thoughts: &lt;/p&gt;
+&lt;ol &gt;
+&lt;li &gt;His examples of emergent systems are biology and game theory from an economic perspective.  I would add to this list physics: of &lt;a href=&quot;https://arxiv.org/abs/1502.04573v2&quot;&gt;his co-authored paper showing that the spectral gap is undecidable&lt;/a&gt;, David Pérez-García said &quot;For example, our results show that adding even a single particle to a lump of matter, however large, could in principle dramatically change its properties.&quot;
+&lt;li &gt;Spolsky&#039;s famous characterisation of interfaces built on shaky foundations as &lt;a href=&quot;https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/&quot;&gt;Leaky abstractions&lt;/a&gt; to me makes the distinction between compositional and emergent systems a little less than sharp.
+&lt;li &gt;We could talk endlessly about the list of what he regards as compositionality-breaking features of PLs.  The evils of global state are well-documented, but I find dmbarbour&#039;s argument that &lt;a href=&quot;https://awelonblue.wordpress.com/2012/10/21/local-state-is-poison/&quot;&gt;Local state is poison&lt;/a&gt; a very interesting alternative way to look at what properties do we want from code; more generally, what kind of compositionalty PLs offer is very much paradigm dependent.  Gotos are considered harmful, but the Linux kernel has little trouble with longjmp because of its mandated coding style: compositionality in engineering is a not just a matter of semantics but also of use.  He targets OO and Haskell&#039;s type classes - I think he is quite correct - note that within these paradigms one can regain compositionality by restricting to LSP or algebraic classes, and supporting his thesis we see that these ideas have spawned ideas for the design of new, cleaner PLs.
+&lt;/ol&gt;</description>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/6">General</category>
+ <pubDate>Fri, 07 Sep 2018 09:53:12 +0000</pubDate>
+</item>
+<item>
+ <title>History of Lisp</title>
+ <link>http://lambda-the-ultimate.org/node/5548</link>
+ <description>&lt;p &gt;&lt;a href=&quot;http://jmc.stanford.edu/articles/lisp/lisp.pdf&quot;&gt;History of Lisp&lt;/a&gt; &lt;em &gt;(The history of LISP according to McCarthy&#039;s memory in 1978, presented at the ACM SIGPLAN History of Programming Languages Conference.)&lt;/em&gt;&lt;/p&gt;
+&lt;p &gt;This is such a fun paper which I couldn&#039;t find on LtU. It&#039;s about the very early history of programming (1950s and &#039;60s), back when things we take for granted today didn&#039;t exist yet.&lt;/p&gt;
+&lt;p &gt;On taking apart complex data structures with functions like CAR and CDR:&lt;/p&gt;
+&lt;blockquote &gt;&lt;p &gt;It was immediately apparent that arbitrary subexpressions of symbolic expressions could be obtained by composing the functions that extract immediate subexpressions, and this seemed reason enough to go to an algebraic language.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p &gt;On creating new data, i.e. CONS:&lt;/p&gt;
+&lt;blockquote &gt;&lt;p &gt;At some point a cons(a,d,p,t) was defined, but it was regarded as a subroutine and not as a function with a value. ... Gelernter and Gerberich noticed that cons should be a function, not just a subroutine, and that its value should be the location of the word that had been taken from the free storage list. This permitted new expressions to be constructed out of subsubexpressions by composing occurrences of cons&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p &gt;On inventing IF:&lt;/p&gt;
+&lt;blockquote &gt;&lt;p &gt;This led to the invention of the true conditional expression which evaluates only one of N1 and N2 according to whether M is true or false and to a desire for a programming language that would allow its use.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p &gt;On how supreme laziness led to the invention of garbage collection:&lt;/p&gt;
+&lt;blockquote &gt;&lt;p &gt;Once we decided on garbage collection, its actual implementation could be postponed, because only toy examples were being done.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p &gt;You might have heard this before:&lt;/p&gt;
+&lt;blockquote &gt;&lt;p &gt;S.R. Russell noticed that eval could serve as an interpreter for LISP, promptly hand coded it, and we now had a programming language with an interpreter.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p &gt;And the rest is history...&lt;/p&gt;</description>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/5">Fun</category>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/7">History</category>
+ <pubDate>Sat, 25 Aug 2018 17:43:23 +0000</pubDate>
+</item>
+<item>
+ <title>Notes on notation and thought</title>
+ <link>http://lambda-the-ultimate.org/node/5542</link>
+ <description>&lt;small&gt;(via &lt;a href=&quot;https://news.ycombinator.com/item?id=17632850&quot;&gt;HN&lt;/a&gt;)&lt;/small&gt;&lt;p&gt;
+A &lt;a href=&quot;https://github.com/hypotext/notation&quot;&gt;nice collection&lt;/a&gt; of quotes on notation as a tool of thought. Mostly not programming related, which  actually makes them more interesting, offering a richer diversity of examples. 
+We used  to have quite a few discussions of notation in the early days (at least in part because I never accepted the prevailing dogma that syntax is not that interesting or important), which is a good reminder for folks to check the archives.</description>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/6">General</category>
+ <pubDate>Sat, 28 Jul 2018 20:46:31 +0000</pubDate>
+</item>
+<item>
+ <title>Safe Dynamic Memory Management in Ada and SPARK</title>
+ <link>http://lambda-the-ultimate.org/node/5541</link>
+ <description>&lt;p &gt;&lt;a href=&quot;https://www.adacore.com/papers/safe-dynamic-memory-management-in-ada-and-spark&quot;&gt;Safe Dynamic Memory Management in Ada and SPARK&lt;/a&gt; by Maroua Maalej, Tucker Taft, Yannick Moy:&lt;/p&gt;
+&lt;blockquote &gt;&lt;p &gt;Handling memory in a correct and efficient way is a step toward safer, less complex, and higher performing software-intensive systems. However, languages used for critical software development such as Ada, which supports formal verification with its SPARK subset, face challenges regarding any use of pointers due to potential pointer aliasing. In this work, we introduce an extension to the Ada language, and to its SPARK subset, to provide pointer types (“access types” in Ada) that provide provably safe, automatic storage management without any asynchronous garbage collection, and without explicit deallocation by the user. Because the mechanism for these safe pointers relies on strict control of aliasing, it can be used in the SPARK subset for formal verification, including both information flow analysis and proof of safety and correctness properties. In this paper, we present this proposal (which has been submitted for inclusion in the next version of Ada), and explain how we are able to incorporate these pointers into formal analyses&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p &gt;For the systems programmers among you, you might be interested in some new developments in Ada where they propose to add ownership types to Ada&#039;s pointer/access types, to improve the flexibility of the programs that can be written and whose safety can be automatically verified. The automated satisfiability of these safety properties is a key goal of the SPARK Ada subset.&lt;/p&gt;</description>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/8">Implementation</category>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/21">Type Theory</category>
+ <pubDate>Thu, 26 Jul 2018 19:42:01 +0000</pubDate>
+</item>
+<item>
+ <title> ICFP Programming Contest 2018</title>
+ <link>http://lambda-the-ultimate.org/node/5540</link>
+ <description>&lt;p &gt;Yep, it &lt;a href=&quot;https://icfpcontest2018.github.io/&quot;&gt;on&lt;/a&gt;!&lt;/p&gt;</description>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/5">Fun</category>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/11">Functional</category>
+ <pubDate>Sat, 21 Jul 2018 06:45:18 +0000</pubDate>
+</item>
+<item>
+ <title>Transfer of pywer</title>
+ <link>http://lambda-the-ultimate.org/node/5539</link>
+ <description>&lt;p &gt;Guido van Rossum is &lt;a href=&quot;https://mail.python.org/pipermail/python-committers/2018-July/005664.html&quot;&gt;&quot;resigning&quot;&lt;/a&gt; from being the Python BDFL: &quot;I&#039;m basically giving myself a permanent vacation from being BDFL, and you all will be on&lt;br &gt;
+your own.&quot; Apparently running a language can be tiring... It will be interesting to see what happens next.&lt;br &gt;</description>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/26">Python</category>
+ <pubDate>Thu, 12 Jul 2018 17:15:46 +0000</pubDate>
+</item>
+<item>
+ <title>Captcha </title>
+ <link>http://lambda-the-ultimate.org/node/5535</link>
+ <description>&lt;p &gt;Note to those who tried to sign up but couldn&#039;t get passed the broken captcha: we removed it, so please try again. Email me directly to activate the account, once you&#039;ve created it and got the automatic email.&lt;/p&gt;</description>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/3">Admin</category>
+ <pubDate>Sun, 08 Jul 2018 06:36:55 +0000</pubDate>
+</item>
+<item>
+ <title>&quot;C Is Not a Low-level Language&quot;</title>
+ <link>http://lambda-the-ultimate.org/node/5534</link>
+ <description>&lt;p &gt;&lt;b &gt;David Chisnall, &lt;a href=&quot;https://queue.acm.org/detail.cfm?id=3212479&quot;&gt;&quot;C Is Not a Low-level Language. Your computer is not a fast PDP-11.&quot;&lt;/a&gt;, ACM Queue, Volume 16, issue 2.&lt;/b&gt;&lt;/p&gt;
+&lt;blockquote &gt;&lt;p &gt;&quot;For a language to be &quot;close to the metal,&quot; it must provide an abstract machine that maps easily to the abstractions exposed by the target platform. It&#039;s easy to argue that C was a low-level language for the PDP-11.&lt;br &gt;
+...&lt;br &gt;
+it is possible to make C code run quickly but only by spending thousands of person-years building a sufficiently smart compiler—and even then, only if you violate some of the language rules. Compiler writers let C programmers pretend that they are writing code that is &quot;close to the metal&quot; but must then generate machine code that has very different behavior if they want C programmers to keep believing that they are using a fast language.&quot;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p &gt;Includes a discussion of various ways in which modern processors break the C abstract machine, as well as some interesting speculation on what a &quot;non-C processor&quot; might look like. The latter leads to thinking about what a low-level language for such a processor should look like.&lt;/p&gt;</description>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/7">History</category>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/8">Implementation</category>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/16">Parallel/Distributed</category>
+ <pubDate>Wed, 04 Jul 2018 03:09:16 +0000</pubDate>
+</item>
+<item>
+ <title>The Gentle Art of Levitation</title>
+ <link>http://lambda-the-ultimate.org/node/5526</link>
+ <description>&lt;a href=&quot;http://jmchapman.github.io/papers/levitation.pdf&quot;&gt;The Gentle Art of Levitation&lt;/a&gt;
+&lt;p &gt;2010 by James Chapman, Pierre-Evariste Dagand, Conor McBride, Peter Morrisy&lt;/p&gt;
+&lt;blockquote &gt;
+We present a closed dependent type theory whose inductive types
+are given not by a scheme for generative declarations, but by encoding
+in a universe. Each inductive datatype arises by interpreting its
+description—a first-class value in a datatype of descriptions. Moreover,
+the latter itself has a description. Datatype-generic programming
+thus becomes ordinary programming. We show some of the
+resulting generic operations and deploy them in particular, useful
+ways on the datatype of datatype descriptions itself. Surprisingly
+this apparently self-supporting setup is achievable without paradox
+or infinite regress.
+&lt;/blockquote&gt;
+It&#039;s datatype descriptions all the way down.</description>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/29">Semantics</category>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/21">Type Theory</category>
+ <pubDate>Fri, 11 May 2018 19:26:31 +0000</pubDate>
+</item>
+<item>
+ <title>Comprehending Ringads</title>
+ <link>http://lambda-the-ultimate.org/node/5525</link>
+ <description>&lt;a href=&quot;http://www.cs.ox.ac.uk/jeremy.gibbons/publications/ringads.pdf&quot;&gt;Comprehending Ringads&lt;/a&gt;
+&lt;p &gt;2016 by Jeremy Gibbons&lt;/p&gt;
+&lt;blockquote &gt;
+Ringad comprehensions represent a convenient notation for expressing
+database queries. The ringad structure alone does not provide
+a good explanation or an efficient implementation of relational joins;
+but by allowing heterogeneous comprehensions, involving both bag and
+indexed table ringads, we show how to accommodate these too.
+&lt;/blockquote&gt;
+Indexed/parametric/graded monads are the key (read the paper to understand the pun).</description>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/22">Category Theory</category>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/29">Semantics</category>
+ <category domain="http://lambda-the-ultimate.org/taxonomy/term/21">Type Theory</category>
+ <pubDate>Sat, 05 May 2018 02:59:11 +0000</pubDate>
+</item>
+</channel>
+</rss>

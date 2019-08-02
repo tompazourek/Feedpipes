@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+
+<channel>
+	<title>Optimistic Life</title>
+	
+	<link>http://www.oplife.org</link>
+	<description>Your guide to positive living.</description>
+	<lastBuildDate>Sat, 27 Apr 2019 06:14:09 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/OptimisticLifestyle" /><feedburner:info uri="optimisticlifestyle" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><creativeCommons:license>http://creativecommons.org/licenses/by-nc-nd/3.0/</creativeCommons:license><xhtml:meta xmlns:xhtml="http://www.w3.org/1999/xhtml" name="robots" content="noindex" /><feedburner:emailServiceId>OptimisticLifestyle</feedburner:emailServiceId><feedburner:feedburnerHostname>https://feedburner.google.com</feedburner:feedburnerHostname><feedburner:feedFlare href="https://add.my.yahoo.com/rss?url=http%3A%2F%2Ffeeds.feedburner.com%2FOptimisticLifestyle" src="http://us.i1.yimg.com/us.yimg.com/i/us/my/addtomyyahoo4.gif">Subscribe with My Yahoo!</feedburner:feedFlare><feedburner:feedFlare href="http://www.newsgator.com/ngs/subscriber/subext.aspx?url=http%3A%2F%2Ffeeds.feedburner.com%2FOptimisticLifestyle" src="http://www.newsgator.com/images/ngsub1.gif">Subscribe with NewsGator</feedburner:feedFlare><feedburner:feedFlare href="http://feeds.my.aol.com/add.jsp?url=http%3A%2F%2Ffeeds.feedburner.com%2FOptimisticLifestyle" src="http://o.aolcdn.com/favorites.my.aol.com/webmaster/ffclient/webroot/locale/en-US/images/myAOLButtonSmall.gif">Subscribe with My AOL</feedburner:feedFlare><feedburner:feedFlare href="http://www.bloglines.com/sub/http://feeds.feedburner.com/OptimisticLifestyle" src="http://www.bloglines.com/images/sub_modern11.gif">Subscribe with Bloglines</feedburner:feedFlare><feedburner:feedFlare href="http://www.netvibes.com/subscribe.php?url=http%3A%2F%2Ffeeds.feedburner.com%2FOptimisticLifestyle" src="//www.netvibes.com/img/add2netvibes.gif">Subscribe with Netvibes</feedburner:feedFlare><feedburner:feedFlare href="http://fusion.google.com/add?feedurl=http%3A%2F%2Ffeeds.feedburner.com%2FOptimisticLifestyle" src="http://buttons.googlesyndication.com/fusion/add.gif">Subscribe with Google</feedburner:feedFlare><feedburner:feedFlare href="http://www.pageflakes.com/subscribe.aspx?url=http%3A%2F%2Ffeeds.feedburner.com%2FOptimisticLifestyle" src="http://www.pageflakes.com/ImageFile.ashx?instanceId=Static_4&amp;fileName=ATP_blu_91x17.gif">Subscribe with Pageflakes</feedburner:feedFlare><feedburner:feedFlare href="http://www.plusmo.com/add?url=http%3A%2F%2Ffeeds.feedburner.com%2FOptimisticLifestyle" src="http://plusmo.com/res/graphics/fbplusmo.gif">Subscribe with Plusmo</feedburner:feedFlare><feedburner:feedFlare href="http://www.thefreedictionary.com/_/hp/AddRSS.aspx?http%3A%2F%2Ffeeds.feedburner.com%2FOptimisticLifestyle" src="http://img.tfd.com/hp/addToTheFreeDictionary.gif">Subscribe with The Free Dictionary</feedburner:feedFlare><feedburner:feedFlare href="http://www.bitty.com/manual/?contenttype=rssfeed&amp;contentvalue=http%3A%2F%2Ffeeds.feedburner.com%2FOptimisticLifestyle" src="http://www.bitty.com/img/bittychicklet_91x17.gif">Subscribe with Bitty Browser</feedburner:feedFlare><feedburner:feedFlare href="http://www.live.com/?add=http%3A%2F%2Ffeeds.feedburner.com%2FOptimisticLifestyle" src="http://tkfiles.storage.msn.com/x1piYkpqHC_35nIp1gLE68-wvzLZO8iXl_JMledmJQXP-XTBOLfmQv4zhj4MhcWEJh_GtoBIiAl1Mjh-ndp9k47If7hTaFno0mxW9_i3p_5qQw">Subscribe with Live.com</feedburner:feedFlare><feedburner:feedFlare href="http://mix.excite.eu/add?feedurl=http%3A%2F%2Ffeeds.feedburner.com%2FOptimisticLifestyle" src="http://image.excite.co.uk/mix/addtomix.gif">Subscribe with Excite MIX</feedburner:feedFlare><feedburner:feedFlare href="http://www.webwag.com/wwgthis.php?url=http%3A%2F%2Ffeeds.feedburner.com%2FOptimisticLifestyle" src="http://www.webwag.com/images/wwgthis.gif">Subscribe with Webwag</feedburner:feedFlare><feedburner:feedFlare href="http://www.podcastready.com/oneclick_bookmark.php?url=http%3A%2F%2Ffeeds.feedburner.com%2FOptimisticLifestyle" src="http://www.podcastready.com/images/podcastready_button.gif">Subscribe with Podcast Ready</feedburner:feedFlare><feedburner:feedFlare href="http://www.wikio.com/subscribe?url=http%3A%2F%2Ffeeds.feedburner.com%2FOptimisticLifestyle" src="http://www.wikio.com/shared/img/add2wikio.gif">Subscribe with Wikio</feedburner:feedFlare><feedburner:feedFlare href="http://www.dailyrotation.com/index.php?feed=http%3A%2F%2Ffeeds.feedburner.com%2FOptimisticLifestyle" src="http://www.dailyrotation.com/rss-dr2.gif">Subscribe with Daily Rotation</feedburner:feedFlare><item>
+		<title>Vitamin D3 – Sources, Benefits, and Importance</title>
+		<link>http://feedproxy.google.com/~r/OptimisticLifestyle/~3/hYcDY5rwAzM/</link>
+				<pubDate>Sat, 27 Apr 2019 06:14:09 +0000</pubDate>
+		<dc:creator><![CDATA[Joplin]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[vitamin d]]></category>
+		<category><![CDATA[vitamin d sources]]></category>
+		<category><![CDATA[vitamin d3]]></category>
+		<category><![CDATA[vitamin d3 benefits]]></category>
+
+		<guid isPermaLink="false">http://www.oplife.org/?p=9</guid>
+				<description><![CDATA[Vitamins are essential micronutrient that is not formed within the body but taken in the form of nutrients from food or other health products for the proper functioning of the body. It keeps the human body healthy when they are taken in a balanced way. Human organisms need sufficient quantity of vitamins to regulate their&#8230;]]></description>
+								<content:encoded><![CDATA[
+<p>Vitamins are essential micronutrient
+that is not formed within the body but taken in the form of nutrients from food
+or other health products for the proper functioning of the body. It keeps the human
+body healthy when they are taken in a balanced way. Human organisms need
+sufficient quantity of vitamins to regulate their routine functions. Vitamin D3
+is a fat-soluble vitamin and only soluble in fatty or oily products.</p>
+
+
+
+<h2>Vitamin D3</h2>
+
+
+
+<p><strong><a href="https://www.justpotent.com/vitamin-d3-supplement-500-softgels">Vitamin D3</a></strong> is the subcategory of vitamin D, and it is commonly known as the sunshine vitamin. It is called the sunshine vitamin because it is found in skin and naturally produced when sunlight exposes on it. Vitamin D3 reaches the bloodstream in the form of a hormone that is exposed within the body. Its essential function is to absorb the right amount of calcium and phosphorus from the blood that is circulated in bloodstreams and come from the digested food. Both elements have their benefits like calcium is used to strengthen the bones and teeth for the rapid development and growth of infants. As far as children remain in growing age, their body tissues absorb calcium according to the need.  99% vitamin D is used to circulate the calcium while 1% vitamin D is used to support the immune system and uphold the muscle strength.</p>
+
+
+
+<h2>Sources of Vitamin D3</h2>
+
+
+
+<p>Below are the
+sources that are considered as the root cause of its development</p>
+
+
+
+<h3>Sunlight </h3>
+
+
+
+<p>Vitamin D is
+connected to the sunlight and depends upon the four major and primary factors
+of its production.</p>
+
+
+
+<ul><li>First one is about the time of the year. At what time sun&#8217;s rays can leave their impacts on your body directly or indirectly and through which ways sunlight can become more productive and significant to produce a fair amount of Vitamin D.</li><li>The second factor is about the latitude of the earth. Closer to the equator means more sunlight will be directed to you for a prolonged time in a day or months in a year.</li><li>The third exciting factor is mountains or hills that may encounter obstacles which means that anything that can cover or create hinders in reaching the sunlight to the human body can decrease the production of <a href="https://express.google.com/u/0/product/Vitamin-D3-Supplement-by-Just-Potent-500-Softgels-2000-IU-Strong-Bones-Immune-Health-Full-Benefits-o/12920898694768505840_8475306116420430720_110141624">vitamin D</a>.</li><li>The last factor is about the altitude of the earth. Higher the person is less atmospheric conditions will cease the sunlight.</li></ul>
+
+
+
+<h3>Food</h3>
+
+
+
+<figure class="wp-block-image"><img src="https://www.oplife.org/wp-content/uploads/2019/04/10385741507931548389-1024x680.jpg" alt="Vitamin D3 Foods" class="wp-image-10" srcset="http://www.oplife.org/wp-content/uploads/2019/04/10385741507931548389-1024x680.jpg 1024w, http://www.oplife.org/wp-content/uploads/2019/04/10385741507931548389-300x199.jpg 300w, http://www.oplife.org/wp-content/uploads/2019/04/10385741507931548389-768x510.jpg 768w, http://www.oplife.org/wp-content/uploads/2019/04/10385741507931548389-800x532.jpg 800w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Vitamin D3 Foods</figcaption></figure>
+
+
+
+<p>Vitamin D is
+accessible via food elements like wild salmon, fatty fish, cod liver oil, beef
+liver, cheese, soybeans, yolks, mushrooms, and white beans, etc.</p>
+
+
+
+<h3>Health Supplements</h3>
+
+
+
+<p>Vitamin D is
+also accessible in tablet, powdered or capsule form in medical stores. Try to
+take them before discussing it with your doctors and then go ahead.<strong></strong></p>
+
+
+
+<h2>Benefits of Vitamin D3</h2>
+
+
+
+<p><a href="https://www.walmart.com/ip/Vitamin-D3-Softgels-by-Just-Potent-500-Softgels-5000-IU-500-Days-of-Uninterrupted-Supply/133034817">Vitamin D3</a> is healthy to maintain the bone structure and strengthen it for a longer time which ultimately alleviates the cancer chances due to which bone marrow remain healthy and sponge free.</p>
+
+
+
+<p>Vitamin D not
+only circulate or regulate the right amount of calcium and phosphorus in the human
+body but also used to carry out other significant functions. Infant’s growth,
+development and body’s cell maintenance require vitamin D in abundance.</p>
+
+
+
+<p>Below are certain benefits of vitamin
+D3.</p>
+
+
+
+<h3>Keep Bones Healthy</h3>
+
+
+
+<p>Vitamin D3 has a significant role in
+circulation or regulating the calcium or phosphorus to the specific organ of
+the body which needs it hard. Vitamin D3 absorbs calcium from the intestine
+where food digestion takes place. It takes care of teeth and bones and makes
+them durable than before. It is essential for children who are undergoing a
+development process. Children are suffering from fatal or
+life-devastating disease due to their deficiency. Rickets is one of the
+conditions in which children&#8217;s bones become softened and can be easily cracked.
+While in adults its lack causes osteoporosis and osteomalacia.</p>
+
+
+
+<h3>Prevent From Cancer</h3>
+
+
+
+<p>Vitamin D helps in the cell-division
+process which is essential to keep cell growth at its best. It can prove as a
+stopper of the cancer cells to other organs. Lack of vitamin D can lead a man
+towards asthma, hypertension, and cardiovascular diseases, etc.<strong></strong></p>
+
+
+
+<h3>Lower the Risk of Diabetes</h3>
+
+
+
+<p>Vitamin
+D deficiency can cause less secretion of insulin which will ultimately leave an
+impact on glucose tolerance. The scientist has done a lot of search on
+diabetes, and they reach on a conclusion that if infants take 2000 units of
+vitamin D daily according to the international standard, then that person had
+88% lower risk of diabetes till the age of 32.</p>
+
+
+
+<h3>Keep Infants Healthy And Sound</h3>
+
+
+
+<p>Taking 2000 international units of
+vitamin D3 keeps the infant&#8217;s arterial pressure, and after passing some time,
+it normalizes the blood pressure too as compared to those who take less amount
+of vitamin D3. The lower level of vitamin D can affect lad infants towards
+fatal and hazardous diseases like asthma, eczema and many more. It strengthens
+our immune system and also beneficial in the cell division process.</p>
+
+
+
+<h3>Keep Pregnant Women Healthy And Fit</h3>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img src="https://www.justpotent.com/image/cache/catalog/data/Vitamin%20D3%20500%20Softgels/vitamin-D3-front-side-700x1100px-600x800.jpg" alt=""/></figure></div>
+
+
+
+<p>If pregnant women don&#8217;t take enough amount of <a href="https://www.amazon.com/Vitamin-Supplement-Just-Potent-Uninterrupted/dp/B0179785OO">vitamin D3</a>, then they may get into the preëclampsia disease in which delivery isn&#8217;t possible except a c-section. Its increased or high amount can also prove dreadful as it increases the risk of food allergy in which a woman caught into red rashes or spots whenever a baby comes near to the food even in routine too after his birth.</p>
+
+
+
+<h3>How to Know About the Deficiency of Vitamin D?</h3>
+
+
+
+<p>To know about the insufficient amount
+of vitamin D, one can go to a nutritionist for a checkup. But we can also
+determine it from our daily routine symptoms. Symptoms are about fatigued, raw
+bones and back, mood swings, hair loss, muscle pain, and impaired wound
+healing. You may also get your gums bleed most of the time while doing brush.
+Hypertension, obesity, and depression is the root cause of insignificant
+vitamin D.</p>
+
+
+
+<p>As it is known that vitamins are the
+essential component for the human body which is necessary for us to consume in
+proper quantity daily. One of the major sources of vitamin D3 is sunlight, and
+it is present in various vegetable, fruits, etc.</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/OptimisticLifestyle?a=hYcDY5rwAzM:QJ83ZbyCzuc:I9og5sOYxJI"><img src="http://feeds.feedburner.com/~ff/OptimisticLifestyle?d=I9og5sOYxJI" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/OptimisticLifestyle?a=hYcDY5rwAzM:QJ83ZbyCzuc:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/OptimisticLifestyle?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/OptimisticLifestyle?a=hYcDY5rwAzM:QJ83ZbyCzuc:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/OptimisticLifestyle?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/OptimisticLifestyle?a=hYcDY5rwAzM:QJ83ZbyCzuc:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/OptimisticLifestyle?i=hYcDY5rwAzM:QJ83ZbyCzuc:F7zBnMyn0Lo" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/OptimisticLifestyle/~4/hYcDY5rwAzM" height="1" width="1" alt=""/>]]></content:encoded>
+										<feedburner:origLink>http://www.oplife.org/vitamin-d3-sources-benefits-and-importance/</feedburner:origLink></item>
+	</channel>
+</rss>

@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:nyt="http://www.nytimes.com/namespaces/rss/2.0" version="2.0">
+  <channel>
+    <title>NYT &gt; Arts &gt; Music</title>
+    <link>https://www.nytimes.com/section/arts/music?emc=rss&amp;partner=rss</link>
+    <atom:link href="https://rss.nytimes.com/services/xml/rss/nyt/Music.xml" rel="self" type="application/rss+xml"></atom:link>
+    <description></description>
+    <language>en-us</language>
+    <copyright>Copyright 2019 The New York Times Company</copyright>
+    <lastBuildDate>Thu, 01 Aug 2019 21:24:01 +0000</lastBuildDate>
+    <image>
+      <title>NYT &gt; Arts &gt; Music</title>
+      <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
+      <link>https://www.nytimes.com/section/arts/music?emc=rss&amp;partner=rss</link>
+    </image>
+    <item>
+      <title>The Disastrous Woodstock 50: What Went Wrong?</title>
+      <link>https://www.nytimes.com/2019/08/01/arts/music/woodstock-50.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/arts/music/woodstock-50.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/arts/music/woodstock-50.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>An announcement with no tickets. Four permit requests rejected by one small town. How the event celebrating the anniversary of a landmark rock festival crumbled.</description>
+      <dc:creator>Ben Sisario</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 20:51:58 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Pop and Rock Music</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Rap and Hip-Hop</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Woodstock Music Festivals</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Dentsu</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Watkins Glen International (Watkins Glen, NY)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Lang, Michael</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/01/arts/01woodstock-01/01woodstock-01-moth.jpg" width="151"></media:content>
+      <media:credit>Edward Harris/Observer-Dispatch, via Associated Press</media:credit>
+      <media:description>Michael Lang, right, at a board hearing in Vernon, N.Y., where he hoped to move Woodstock 50. </media:description>
+    </item>
+    <item>
+      <title>Sleater-Kinney Asked St. Vincent for a Creative Spark. The Trio Blew Up.</title>
+      <link>https://www.nytimes.com/2019/07/31/arts/music/sleater-kinney-st-vincent.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/31/arts/music/sleater-kinney-st-vincent.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/31/arts/music/sleater-kinney-st-vincent.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>After two and a half decades, the acclaimed band ventures into a different sound on its ninth album, “The Center Won’t Hold” — and moves onward without its longtime drummer.</description>
+      <dc:creator>Melena Ryzik</dc:creator>
+      <pubDate>Wed, 31 Jul 2019 17:05:23 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Pop and Rock Music</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Sleater-Kinney</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Brownstein, Carrie</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">St Vincent (1982- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Tucker, Corin</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Weiss, Janet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">The Center Won&#39;t Hold (Album)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/04/arts/04sleater-kinney-cover/04sleater-kinney-cover-moth.jpg" width="151"></media:content>
+      <media:credit>Rozette Rago for The New York Times</media:credit>
+      <media:description>Corin Tucker and Carrie Brownstein, Sleater-Kinney’s founding duo, on the cusp of releasing the band’s ninth album, “The Center Won’t Hold.”</media:description>
+    </item>
+    <item>
+      <title>Abdullah Ibrahim: A Lifetime of Dreams and Resistance at the Piano</title>
+      <link>https://www.nytimes.com/2019/07/31/arts/music/abdullah-ibrahim.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/31/arts/music/abdullah-ibrahim.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/31/arts/music/abdullah-ibrahim.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The South African musician formed the Jazz Epistles and got a boost from Duke Ellington. Now 84, he is a Jazz Master and still a vital force onstage.</description>
+      <dc:creator>Giovanni Russonello</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 10:55:38 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Jazz</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Ekaya (Music Group)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Ibrahim, Abdullah</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Blacks</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Jazz Standard</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">New York City</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/01/arts/31ibrahim/31ibrahim-moth.jpg" width="151"></media:content>
+      <media:credit>Laetitia Vancon for The New York Times</media:credit>
+      <media:description>The pianist Abdullah Ibrahim released &amp;ldquo;The Balance&amp;rdquo; earlier this year, featuring songs from his vast catalog.</media:description>
+    </item>
+    <item>
+      <title>Hundreds of New Concertos Bring the World to the Concert Hall</title>
+      <link>https://www.nytimes.com/2019/08/01/arts/music/lincoln-center-dai-fujikura-shamisen.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/arts/music/lincoln-center-dai-fujikura-shamisen.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/arts/music/lincoln-center-dai-fujikura-shamisen.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Dai Fujikura’s new work for shamisen, a three-stringed, fretless Japanese lute, premieres on Saturday.</description>
+      <dc:creator>Ryan Ebright</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 19:58:27 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Music</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Mostly Mozart Festival</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">International Contemporary Ensemble</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Fujikura, Dai</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Musical Instruments</category>
+    </item>
+    <item>
+      <title>ASAP Rocky Claims Self-Defense in Swedish Assault Trial</title>
+      <link>https://www.nytimes.com/2019/08/01/arts/music/asap-rocky-trial-court.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/arts/music/asap-rocky-trial-court.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/arts/music/asap-rocky-trial-court.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The rapper, whose case has drawn the attention of President Trump, said the man he threw and punched had started to attack his group.</description>
+      <dc:creator>Christina Anderson</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 21:11:20 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">ASAP Rocky</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Stockholm (Sweden)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Sweden</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/01/arts/01rocky-testimony-01/01rocky-testimony-01-moth.jpg" width="151"></media:content>
+      <media:credit>Michael Campanella/Getty Images</media:credit>
+      <media:description>Renee Black, ASAP Rocky’s mother, leaving the courthouse in Stockholm during a break in testimony on Thursday.</media:description>
+    </item>
+    <item>
+      <title>12 Pop, Rock and Jazz Concerts to Check Out in N.Y.C. This Weekend</title>
+      <link>https://www.nytimes.com/2019/08/01/arts/music/nyc-this-weekend-pop-rock-jazz.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/arts/music/nyc-this-weekend-pop-rock-jazz.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/arts/music/nyc-this-weekend-pop-rock-jazz.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Our guide to pop and rock shows and the best of live jazz happening this weekend and in the week ahead.</description>
+      <pubDate>Thu, 01 Aug 2019 21:00:05 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Pop and Rock Music</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Jazz</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">New York City</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/02/arts/02listings-pop/02listings-pop-moth.jpg" width="151"></media:content>
+      <media:credit>Eloy Lugo</media:credit>
+      <media:description>Florist, led by Emily Sprague, above, will be at Baby’s All Right on Saturday night.</media:description>
+    </item>
+    <item>
+      <title>Divorced. Beheaded. Broadway.</title>
+      <link>https://www.nytimes.com/2019/08/01/theater/six-musical-broadway.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/theater/six-musical-broadway.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/theater/six-musical-broadway.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>“Six,” a British pop musical about the guess-how-many wives of Henry VIII, will open early next year.</description>
+      <dc:creator>Michael Paulson</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 16:06:31 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Theater</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Six (Play)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Moss, Lucy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Marlow, Toby</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Women and Girls</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Pop and Rock Music</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Edinburgh Festival Fringe</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Atkinson Theater</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Armitage, Jamie</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/02/arts/00six-item1/00six-item1-moth.jpg" width="151"></media:content>
+      <media:credit>Liz Lauren</media:credit>
+      <media:description>The first North American production of &amp;ldquo;Six&amp;rdquo; is now running at the Chicago Shakespeare Theater, and will make stops in Massachusetts, Alberta and Minnesota before arriving on Broadway early next year.</media:description>
+    </item>
+    <item>
+      <title>Ras G, 40, Hip-Hop Producer and Force in L.A. Music Scene, Dies</title>
+      <link>https://www.nytimes.com/2019/07/31/arts/ras-g-dead.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/31/arts/ras-g-dead.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/31/arts/ras-g-dead.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The experimental, kaleidoscopic beats he made and called “ghetto sci-fi” channeled a wide spectrum of black musical history.</description>
+      <dc:creator>Giovanni Russonello</dc:creator>
+      <pubDate>Wed, 31 Jul 2019 21:33:13 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Ras G (1978-2019)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Rap and Hip-Hop</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Deaths (Obituaries)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Los Angeles (Calif)</category>
+    </item>
+    <item>
+      <title>Lebanese Band’s Concert Is Canceled After It’s Accused of Blasphemy</title>
+      <link>https://www.nytimes.com/2019/07/31/world/middleeast/lebanon-mashrou-leila-blasphemy.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/31/world/middleeast/lebanon-mashrou-leila-blasphemy.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/31/world/middleeast/lebanon-mashrou-leila-blasphemy.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Critics denounced Mashrou’ Leila, and a festival canceled an upcoming concert by the group, raising concerns about freedom of expression in the relatively moderate, multi-sectarian country.</description>
+      <dc:creator>Nada Rashwan</dc:creator>
+      <pubDate>Wed, 31 Jul 2019 20:48:43 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Music</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Lebanon</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Mashrou&#39; Leila (Music Group)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Human Rights and Human Rights Violations</category>
+    </item>
+    <item>
+      <title>Woodstock 50 Is Canceled: ‘We Just Ran Out of Time’</title>
+      <link>https://www.nytimes.com/2019/07/31/arts/music/woodstock-50-canceled.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/31/arts/music/woodstock-50-canceled.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/31/arts/music/woodstock-50-canceled.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The majority of the anniversary festival’s performers abandoned the event once its promoters tried to move it to Maryland.</description>
+      <dc:creator>Ben Sisario</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 05:23:28 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Woodstock Music Festivals</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Merriweather Post Pavilion</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Lang, Michael</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/31/arts/31woodstock/31woodstock-moth.jpg" width="151"></media:content>
+      <media:credit>Evan Agostini/Invision, via Associated Press</media:credit>
+      <media:description>Michael Lang, left, with John Fogerty at an event announcing Woodstock 50 in March.</media:description>
+    </item>
+    <item>
+      <title>Irish Band Channels the Spirit of Punk, and James Joyce</title>
+      <link>https://www.nytimes.com/2019/07/31/arts/music/fontaines-dc.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/31/arts/music/fontaines-dc.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/31/arts/music/fontaines-dc.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Fontaines D.C. is a breakout Irish rock act. The emphasis is on the Irish.</description>
+      <dc:creator>Amos Barshad</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 06:49:28 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Dublin (Ireland)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ireland</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Joyce, James</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Yeats, William Butler</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Fontaines DC (Music Group)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Chatten, Grian</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Dogrel (Album)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/31/arts/31fontaines1/31fontaines1-moth.jpg" width="151"></media:content>
+      <media:credit>Paulo Nunes dos Santos for The New York Times</media:credit>
+      <media:description>From left: Carlos O’Connell, Conor Curley, Conor Deegan, Grian Chatten and Tom Coll make up the Irish rock band Fontaines D.C.</media:description>
+    </item>
+    <item>
+      <title>Katy Perry’s Copyright Case May Sound Familiar to These Stars</title>
+      <link>https://www.nytimes.com/2019/07/31/arts/music/katy-perry-christian-rap-copyright.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/31/arts/music/katy-perry-christian-rap-copyright.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/31/arts/music/katy-perry-christian-rap-copyright.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The “Dark Horse” decision is the latest in a long line of disputes that have shaped the way copyright law is handled in the music industry.</description>
+      <dc:creator>Nancy Coleman</dc:creator>
+      <pubDate>Wed, 31 Jul 2019 17:05:22 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Copyrights and Copyright Violations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Music</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Decisions and Verdicts</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Perry, Katy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Flame (1981- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Harrison, George</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Orbison, Roy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Porter, Cole</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Gaye, Marvin</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Sheeran, Ed</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Thicke, Robin</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Williams, Pharrell</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Dark Horse (Song)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Blurred Lines (Song)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/30/arts/30song-copyright/30song-copyright-moth.jpg" width="151"></media:content>
+      <media:credit>Matt Sayles/Invision, via Associated Press</media:credit>
+      <media:description>Katy Perry performing “Dark Horse” at the 2014 Grammy Awards. On Monday, a federal jury said that the song improperly copied parts of a song by a Christian rap artist.</media:description>
+    </item>
+    <item>
+      <title>Elvis Presley Needed a Reboot in July 1969. So Did Las Vegas.</title>
+      <link>https://www.nytimes.com/2019/07/30/arts/music/elvis-presley-69-comeback-vegas.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/30/arts/music/elvis-presley-69-comeback-vegas.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/30/arts/music/elvis-presley-69-comeback-vegas.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Elvis’s bona fides were in question when he returned to the stage after more than eight years. His ’69 comeback show was a make-or-break gamble.</description>
+      <dc:creator>Richard Zoglin</dc:creator>
+      <pubDate>Wed, 31 Jul 2019 04:11:15 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Pop and Rock Music</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Presley, Elvis</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Las Vegas (Nev)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Nineteen Hundred Sixties</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/30/arts/30elvis-1/30elvis-1-moth.jpg" width="151"></media:content>
+      <media:credit>Bettman/Getty Images</media:credit>
+      <media:description>For his 1969 comeback show in Las Vegas, Elvis Presley was at his peak as a stage performer.</media:description>
+    </item>
+    <item>
+      <title>ASAP Rocky Trial Begins in Sweden, With a Special Envoy From America</title>
+      <link>https://www.nytimes.com/2019/07/30/arts/music/asap-rocky-sweden.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/30/arts/music/asap-rocky-sweden.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/30/arts/music/asap-rocky-sweden.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>President Trump, who has helped turn the rapper’s assault case into an international incident, sent a hostage-crisis diplomat to the courtroom.</description>
+      <dc:creator>Christina Anderson and Alex Marshall</dc:creator>
+      <pubDate>Wed, 31 Jul 2019 04:02:16 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Rap and Hip-Hop</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Music</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">ASAP Rocky</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Stockholm (Sweden)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">O&#39;Brien, Robert C</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/30/world/30asap-trial2/30asap-trial2-moth.jpg" width="151"></media:content>
+      <media:credit>Dimitrios Kambouris/Getty Images for Diamond Ball</media:credit>
+      <media:description>Rocky at a charity gala in New York in 2018. The rapper has been detained in Sweden since July 5.</media:description>
+    </item>
+    <item>
+      <title>What We Know as ASAP Rocky’s Trial Begins</title>
+      <link>https://www.nytimes.com/2019/07/30/arts/music/asap-rocky-assault-trial.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/30/arts/music/asap-rocky-assault-trial.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/30/arts/music/asap-rocky-assault-trial.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The rapper pleaded not guilty to an assault charge before a court in Sweden. The case has snowballed into an international incident.</description>
+      <dc:creator>Nancy Coleman</dc:creator>
+      <pubDate>Wed, 31 Jul 2019 12:48:43 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">ASAP Rocky</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Assaults</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Rap and Hip-Hop</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Sweden</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/30/arts/30asap-whatweknow-1/30asap-whatweknow-1-moth.jpg" width="151"></media:content>
+      <media:credit>Edward Berthelot/Getty Images</media:credit>
+      <media:description>ASAP Rocky, whose trial begins Tuesday.</media:description>
+    </item>
+    <item>
+      <title>Katy Perry Loses Copyright Battle Over ‘Dark Horse’</title>
+      <link>https://www.nytimes.com/2019/07/29/arts/music/katy-perry-dark-horse-copyright.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/29/arts/music/katy-perry-dark-horse-copyright.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/29/arts/music/katy-perry-dark-horse-copyright.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>A jury found that the singer’s 2013 hit copied elements of a 2008 Christian rap song called “Joyful Noise.”</description>
+      <dc:creator>Ben Sisario</dc:creator>
+      <pubDate>Wed, 31 Jul 2019 04:19:01 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Dark Horse (Movie)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Perry, Katy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Copyrights and Copyright Violations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Suits and Litigation (Civil)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Flame (1981- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Pop and Rock Music</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Gottwald, Lukasz (Dr Luke)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/29/arts/29darkhorse/29darkhorse-moth.jpg" width="151"></media:content>
+      <media:credit>Kevin Winter/Getty Images For Coachella</media:credit>
+      <media:description>A nine-person jury returned a unanimous verdict that Katy Perry’s “Dark Horse” had infringed the copyright of a song by the artist Flame.</media:description>
+    </item>
+    <item>
+      <title>Lil Nas X’s ‘Old Town Road’ Breaks Billboard’s Singles Record</title>
+      <link>https://www.nytimes.com/2019/07/29/arts/music/lil-nas-x-old-town-road-billboard-record.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/29/arts/music/lil-nas-x-old-town-road-billboard-record.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/29/arts/music/lil-nas-x-old-town-road-billboard-record.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The “country-trap” track notched a 17th week at the top of the Hot 100, becoming the chart’s longest-running No. 1 song.</description>
+      <dc:creator>Ben Sisario</dc:creator>
+      <pubDate>Tue, 30 Jul 2019 05:00:20 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Pop and Rock Music</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Rap and Hip-Hop</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Lil Nas X (Rapper)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Old Town Road (Song)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Billboard (Magazine)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/29/arts/29billboard/29billboard-moth.jpg" width="151"></media:content>
+      <media:credit>Scott Roth/Invision, via Associated Press</media:credit>
+      <media:description>Lil Nas X’s “Old Town Road” came to wide attention when it was removed from a Billboard country chart. Now it holds an all-time record on the all-genre chart.</media:description>
+    </item>
+    <item>
+      <title>Tyler, the Creator, Funkmaster Flex and the Wildest Interview of the Year</title>
+      <link>https://www.nytimes.com/2019/07/29/arts/music/tyler-the-creator-funkmaster-flex.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/29/arts/music/tyler-the-creator-funkmaster-flex.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/29/arts/music/tyler-the-creator-funkmaster-flex.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Two hip-hop figures from different scenes and generations find that they have much more in common than not.</description>
+      <dc:creator>Jon Caramanica</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 05:21:35 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Rap and Hip-Hop</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Radio</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Tyler, the Creator</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Funkmaster Flex</category>
+    </item>
+    <item>
+      <title>Chance the Rapper’s Odes to Joy</title>
+      <link>https://www.nytimes.com/2019/07/29/arts/music/chance-the-rapper-the-big-day-review.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/29/arts/music/chance-the-rapper-the-big-day-review.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/29/arts/music/chance-the-rapper-the-big-day-review.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>On “The Big Day,” the 26-year-old musician attempts to convey the jubilation of married life. It’s his least effective release to date.</description>
+      <dc:creator>Jon Caramanica</dc:creator>
+      <pubDate>Tue, 30 Jul 2019 10:59:50 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Rap and Hip-Hop</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Chance the Rapper</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">The Big Day (Album)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/30/arts/30chance-review/29chance-review-moth.jpg" width="151"></media:content>
+      <media:credit>Burak Cingi/Redferns, via Getty Images</media:credit>
+      <media:description>Chance the Rapper&amp;rsquo;s recent marriage provides the bulk of the lyrical inspiration on his fourth release, &amp;ldquo;The Big Day.&amp;rdquo;</media:description>
+    </item>
+    <item>
+      <title>Herbie Hancock Is Still Breaking Rules</title>
+      <link>https://www.nytimes.com/2019/07/29/arts/music/herbie-hancock-interview.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/29/arts/music/herbie-hancock-interview.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/29/arts/music/herbie-hancock-interview.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The 79-year-old pianist and composer talks about admiring Kendrick Lamar, making a new album, and calling jazz an international — not just an American — music.</description>
+      <dc:creator>Giovanni Russonello</dc:creator>
+      <pubDate>Tue, 30 Jul 2019 03:48:15 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Jazz</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">United Nations Educational, Scientific and Cultural Organization</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Hancock, Herbie</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Los Angeles (Calif)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Beacon Theater</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Bruner, Stephen (Thundercat) (1984- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Martin, Terrace</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/29/arts/29hancock-promo/29hancock-promo-moth.jpg" width="151"></media:content>
+      <media:credit>Philip Cheung for The New York Times</media:credit>
+    </item>
+    <item>
+      <title>M. Owen Lee (Father Lee to His Met Opera Radio Fans) Dies at 89</title>
+      <link>https://www.nytimes.com/2019/07/26/obituaries/father-owen-lee-dead.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/26/obituaries/father-owen-lee-dead.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/26/obituaries/father-owen-lee-dead.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>A Roman Catholic priest whose avocation for 23 years was offering commentaries and quiz answers in broadcasts during intermissions.</description>
+      <dc:creator>James Barron</dc:creator>
+      <pubDate>Fri, 26 Jul 2019 23:04:59 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Lee, M Owen (1930-2019)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Deaths (Obituaries)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Opera</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Radio</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Metropolitan Opera</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Roman Catholic Church</category>
+      <category domain="">Basilian Fathers</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/28/obituaries/28Lee01/26Lee01-moth.jpg" width="151"></media:content>
+      <media:credit>Keith Beaty/Toronto Star, via Getty Images</media:credit>
+      <media:description>The Rev. M. Owen Lee as he was heading to see a favorite movie in Toronto in 1979. He wrote more than 20 books, two of them on movies. Another is called &amp;ldquo;Father Lee&amp;rsquo;s Opera Quiz Book.&amp;rdquo;</media:description>
+    </item>
+    <item>
+      <title>‘Till’ Brings a Tragedy to Life</title>
+      <link>https://www.nytimes.com/2019/07/26/theater/new-york-musical-theater-festival-review.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/26/theater/new-york-musical-theater-festival-review.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/26/theater/new-york-musical-theater-festival-review.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The New York Music Festival production tells the story of the summer when Emmett Till was murdered.</description>
+      <dc:creator>Laura Collins-Hughes</dc:creator>
+      <pubDate>Sat, 27 Jul 2019 02:55:35 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Theater</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">New York Musical Festival</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Till (Play)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Leaving Eden (Play)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Flying Lessons (Play)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Black Hole Wedding (Play)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/27/arts/27NYMF-TILL/27NYMF-TILL-moth.jpg" width="151"></media:content>
+      <media:credit>Russ Rowland</media:credit>
+      <media:description>From left, Denielle Marie Gray, Tyla Collier, Taylor A. Blackman, Dwelvan David, Devin L. Roberts and Judith Franklin in &amp;ldquo;Till.&amp;rdquo;</media:description>
+    </item>
+    <item>
+      <title>Review: A New ‘Tannhäuser’ Brings Burger King to Bayreuth</title>
+      <link>https://www.nytimes.com/2019/07/26/arts/music/tannhauser-bayreuth-review.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/26/arts/music/tannhauser-bayreuth-review.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/26/arts/music/tannhauser-bayreuth-review.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>With a drag queen and lowbrow pop culture, a rambunctious production transports Wagner’s opera to the present.</description>
+      <dc:creator>Joshua Barone</dc:creator>
+      <pubDate>Sat, 27 Jul 2019 02:48:49 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Opera</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Tannhauser (Opera)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Bayreuth Wagner Festival</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Gergiev, Valery</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kratzer, Tobias</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Gould, Stephen (1962- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Davidsen, Lise</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Wagner, Richard</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/26/arts/26wagner1/26wagner1-moth.jpg" width="151"></media:content>
+      <media:credit>Enrico Nawrath</media:credit>
+      <media:description>Stephen Gould, left, as the title character in Wagner’s “Tannhäuser,” with Elena Zhidkova and Manni Laudenbach in a new production at the Bayreuth Festival.</media:description>
+    </item>
+    <item>
+      <title>The Playlist: The Unstoppable ‘Old Town Road,’ and 11 More New Songs</title>
+      <link>https://www.nytimes.com/2019/07/26/arts/music/playlist-rick-ross-drake-lil-nas-x-bts.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/26/arts/music/playlist-rick-ross-drake-lil-nas-x-bts.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/26/arts/music/playlist-rick-ross-drake-lil-nas-x-bts.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Hear tracks by King Princess, Rick Ross and Drake, Four Tet and others.</description>
+      <dc:creator>Jon Pareles, Jon Caramanica and Giovanni Russonello</dc:creator>
+      <pubDate>Fri, 26 Jul 2019 16:59:33 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Rap and Hip-Hop</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Pop and Rock Music</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Jazz</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Tank and the Bangas (Music Group)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Anderson .Paak</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">BJ the Chicago Kid</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Blueface (Rapper)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Drake (Rapper)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Jones, Norah</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Lil Nas X (Rapper)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Megan Thee Stallion (Rapper)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Ramsey, Mason (2006- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Ross, Rick (1976- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Whack, Tierra</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">YBN Cordae (Rapper)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">McFerrin, Taylor</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Wise, Anna (Singer)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Straus, Mikaela (King Princess)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Hebden, Kieran (Four Tet)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Black Country, New Road (Music Group)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/26/arts/26playlist/26playlist-moth.jpg" width="151"></media:content>
+      <media:credit>Noam Galai/Getty Images for Buzzfeed</media:credit>
+      <media:description>Yet another “Old Town Road” remix has arrived to help push Lil Nas X’s song past a Billboard chart record. </media:description>
+    </item>
+    <item>
+      <title>How Many Streams Is a T-Shirt Worth? Breaking Down Chart Dilemmas.</title>
+      <link>https://www.nytimes.com/2019/07/26/arts/music/popcast-charts.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/26/arts/music/popcast-charts.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/26/arts/music/popcast-charts.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>There’s more data about music consumption than ever before. That doesn’t mean we understand who’s the most popular.</description>
+      <pubDate>Fri, 26 Jul 2019 15:56:01 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Pop and Rock Music</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Billboard (Magazine)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">SoundCloud</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Rolling Stone</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/28/arts/26popcast/26popcast-moth.jpg" width="151"></media:content>
+      <media:credit>Evan Agostini/Invision, via Associated Press</media:credit>
+    </item>
+    <item>
+      <title>The Mostly Mozart Festival, Without Mozart</title>
+      <link>https://www.nytimes.com/2019/07/26/arts/music/mostly-mozart-lincoln-center.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/26/arts/music/mostly-mozart-lincoln-center.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/26/arts/music/mostly-mozart-lincoln-center.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Lincoln Center’s summer festival shows its newfound variety, with five programs in two days and no music by its headliner.</description>
+      <dc:creator>Anthony Tommasini</dc:creator>
+      <pubDate>Sat, 27 Jul 2019 02:54:35 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Mostly Mozart Festival</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Classical Music</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Lincoln Center for the Performing Arts</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Brown, Michael (Pianist)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/27/arts/26mozart1/26mozart1-moth.jpg" width="151"></media:content>
+      <media:credit>Michelle V. Agins/The New York Times</media:credit>
+      <media:description>The cellist Kian Soltani, who appeared with the pianist Julio Elizalde in a late-night concert as part of Lincoln Center&amp;rsquo;s Mostly Mozart Festival.</media:description>
+    </item>
+    <item>
+      <title>Blue Note Records at 80: Can a Symbol of Jazz’s Past Help Shape Its Future?</title>
+      <link>https://www.nytimes.com/2019/07/26/arts/music/blue-note-records-anniversary.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/26/arts/music/blue-note-records-anniversary.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/26/arts/music/blue-note-records-anniversary.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The genre is in a state of diffusion and streaming dominates listening habits. But Blue Note is still dedicated to influencing the music’s path forward.</description>
+      <dc:creator>Giovanni Russonello</dc:creator>
+      <pubDate>Sat, 27 Jul 2019 23:07:03 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Jazz</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Blue Note Records</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Van Gelder, Rudy (1924-2016)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Akinmusire, Ambrose</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Blanchard, Terence</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Jones, Norah</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Porter, Gregory</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Ross, Joel (Musician)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/28/arts/28Blue-Note-promo/28Blue-Note-promo-moth.jpg" width="151"></media:content>
+      <media:credit>Francis Wolff/Mosaic Images</media:credit>
+      <media:description>Some stars who defined Blue Note Records years ago, from left: Lee Morgan, Herbie Hancock, Art Blakey, John Coltrane and Wayne Shorter.</media:description>
+    </item>
+    <item>
+      <title>A History of Blue Note Records in 15 Albums</title>
+      <link>https://www.nytimes.com/2019/07/26/arts/music/blue-note-records-essential-albums.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/26/arts/music/blue-note-records-essential-albums.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/26/arts/music/blue-note-records-essential-albums.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The most storied label in jazz turns 80 this year. Hear the music that shaped its legacy.</description>
+      <dc:creator>Giovanni Russonello</dc:creator>
+      <pubDate>Fri, 26 Jul 2019 13:55:27 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Jazz</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Blue Note Records</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Akinmusire, Ambrose</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Allen, Geri</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Blakey, Art</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Byrd, Donald (1932-2013)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Coltrane, John</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Hancock, Herbie</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">McFerrin, Bobby</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Monk, Thelonious</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Moran, Jason (1975- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Powell, Bud</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Rollins, Sonny</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Shorter, Wayne</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Taylor, Cecil</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Jones, Norah</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/28/arts/28blue-sidebar-grid/28blue-sidebar-grid-moth.jpg" width="151"></media:content>
+      <media:description>Herbie Hancock, Bobbi Humphrey, Cecil Taylor and more: Blue Note Records has been celebrating its eight-decade history this year.</media:description>
+    </item>
+    <item>
+      <title>Meet the ‘Orchestra of the Street’ Bringing Classical Music to Rio’s Favelas</title>
+      <link>https://www.nytimes.com/2019/07/26/arts/rio-brazil-classical-music.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/26/arts/rio-brazil-classical-music.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/26/arts/rio-brazil-classical-music.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>In a city known for samba, “nobody expects a black, poor woman to play the violin.”</description>
+      <dc:creator>Walter Thompson-Hernández</dc:creator>
+      <pubDate>Sun, 28 Jul 2019 14:05:51 +0000</pubDate>
+      <category domain="">Surfacing 2019</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Classical Music</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Brazil</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Rio de Janeiro (Brazil)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/26/arts/26surfacing-brazil1/26surfacing-brazil1-moth.jpg" width="151"></media:content>
+      <media:credit>Walter Thompson-Hernández/The New York Times</media:credit>
+      <media:description>Orquestra de Rua in Rio de Janeiro.</media:description>
+    </item>
+    <item>
+      <title>Review: ‘Moulin Rouge! The Musical’ Offers a Party, and a Playlist, for the Ages</title>
+      <link>https://www.nytimes.com/2019/07/25/theater/moulin-rouge-review.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/25/theater/moulin-rouge-review.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/25/theater/moulin-rouge-review.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Forbidden pleasures abound in this spectacular musical, starring a dazzling Karen Olivo as a doomed Parisian chanteuse.</description>
+      <dc:creator>Ben Brantley</dc:creator>
+      <pubDate>Fri, 26 Jul 2019 10:38:01 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Theater</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Moulin Rouge!: The Musical (Play)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Olivo, Karen</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Tveit, Aaron</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Burstein, Danny</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Timbers, Alex</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/25/arts/25moulinrouge1/25moulinrouge1-moth.jpg" width="151"></media:content>
+      <media:credit>Sara Krulwich/The New York Times</media:credit>
+      <media:description>Aaron Tveit as Christian and Karen Olivo as Satine in “Moulin Rouge! The Musical” at the Al Hirschfeld Theater.</media:description>
+    </item>
+    <item>
+      <title>Ben Johnston, Who Made Microtonal Music Melodic, Dies at 93</title>
+      <link>https://www.nytimes.com/2019/07/25/arts/music/ben-johnston-dead.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/25/arts/music/ben-johnston-dead.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/25/arts/music/ben-johnston-dead.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Mr. Johnston’s compositions had complex theoretical underpinnings but were also, a former student said, “grounded in the real world.”</description>
+      <dc:creator>Allan Kozinn</dc:creator>
+      <pubDate>Thu, 25 Jul 2019 21:44:16 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Johnston, Ben</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Deaths (Obituaries)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Music</category>
+      <category domain="">Microtonal Music</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/27/obituaries/25Johnston/25Johnston-moth-v3.jpg" width="151"></media:content>
+      <media:credit>William Gedney, via David M. Rubenstein Rare Book &amp; Manuscript Library, Duke University</media:credit>
+      <media:description>The composer Ben Johnston at his home in Illinois in the 1960s. He created a large and varied catalog of chamber works, stage pieces and music for orchestra, choir, voice and solo piano.</media:description>
+    </item>
+  </channel>
+</rss>

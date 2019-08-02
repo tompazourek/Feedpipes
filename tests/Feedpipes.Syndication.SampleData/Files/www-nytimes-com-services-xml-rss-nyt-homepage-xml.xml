@@ -1,0 +1,832 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:nyt="http://www.nytimes.com/namespaces/rss/2.0" version="2.0">
+  <channel>
+    <title>NYT &gt; Top Stories</title>
+    <link>https://www.nytimes.com?emc=rss&amp;partner=rss</link>
+    <atom:link href="https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml" rel="self" type="application/rss+xml"></atom:link>
+    <description></description>
+    <language>en-us</language>
+    <copyright>Copyright 2019 The New York Times Company</copyright>
+    <lastBuildDate>Thu, 01 Aug 2019 21:24:56 +0000</lastBuildDate>
+    <image>
+      <title>NYT &gt; Top Stories</title>
+      <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
+      <link>https://www.nytimes.com?emc=rss&amp;partner=rss</link>
+    </image>
+    <item>
+      <title>Trump Says U.S. Will Hit China With More Tariffs</title>
+      <link>https://www.nytimes.com/2019/08/01/us/politics/trump-tariffs-china.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/us/politics/trump-tariffs-china.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/us/politics/trump-tariffs-china.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The additional 10 percent tariff on about $300 billion worth of goods means the United States will tax essentially all imports from China.</description>
+      <dc:creator>Alan Rappeport</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 20:37:36 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Trade and World Market</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Federal Taxes (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Customs (Tariff)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Taxation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/01/us/01dc-chinatrade-promo/merlin_158742555_7a4837f7-dcee-4b6c-bd1a-719e87d847cd-moth.jpg" width="151"></media:content>
+      <media:credit>Erin Schaff/The New York Times</media:credit>
+      <media:description>President Trump had a bilateral meeting with President Xi Jinping of China at the Group of 20 summit in June in Osaka, Japan.</media:description>
+    </item>
+    <item>
+      <title>Stocks Sink as New Tariff Threat Upends Market Rally</title>
+      <link>https://www.nytimes.com/2019/08/01/business/china-tariffs-donald-trump.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/business/china-tariffs-donald-trump.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/business/china-tariffs-donald-trump.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Stocks were heading higher before the president tweeted that he would be raising tariffs on $300 billion of Chinese imports.</description>
+      <dc:creator>Matt Phillips</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 20:55:23 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Trade and World Market</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/01/business/01Market-1/01Market-1-moth.png" width="151"></media:content>
+      <media:credit>The New York Times</media:credit>
+    </item>
+    <item>
+      <title>Support for Impeachment Inquiry Grows in the House</title>
+      <link>https://www.nytimes.com/2019/08/01/us/politics/impeachment-house-democrats-trump.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/us/politics/impeachment-house-democrats-trump.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/us/politics/impeachment-house-democrats-trump.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The trickle of Democrats backing an impeachment inquiry is threatening to turn into a flood, but there are few signs the rising tide will sway House Democratic leaders.</description>
+      <dc:creator>Nicholas Fandos</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 19:14:47 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Impeachment</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">House of Representatives</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Democratic Party</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Pelosi, Nancy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Engel, Eliot L</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/31/us/politics/31dc-impeach1-sub/31dc-impeach1-sub-moth.jpg" width="151"></media:content>
+      <media:credit>Erin Schaff for The New York Times</media:credit>
+      <media:description>Representative Nita M. Lowey, chairwoman of the House Appropriations Committee, added her voice in support of impeachment on Wednesday.</media:description>
+    </item>
+    <item>
+      <title>Biden Defends Obama Legacy After It Was Bruised in Democratic Debate</title>
+      <link>https://www.nytimes.com/2019/08/01/us/politics/biden-obama.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/us/politics/biden-obama.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/us/politics/biden-obama.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Mr. Biden has used his association with Barack Obama to burnish his candidacy, but in Wednesday’s debate that legacy drew some criticism from fellow Democrats.</description>
+      <dc:creator>Katie Glueck</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 19:25:02 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2020</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Patient Protection and Affordable Care Act (2010)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Debates (Political)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Democratic Party</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Biden, Joseph R Jr</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Obama, Barack</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/01/us/politics/01dems2020/01dems2020-moth.jpg" width="151"></media:content>
+      <media:credit>Brittany Greeson for The New York Times</media:credit>
+      <media:description>Joseph R. Biden Jr. spoke about criticism of President Barack Obama after greeting voters in Detroit on Thursday.</media:description>
+    </item>
+    <item>
+      <title>When Will the 2020 Democratic Field Start to Shrink?</title>
+      <link>https://www.nytimes.com/2019/08/01/us/politics/2020-democratic-presidential-candidates.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/us/politics/2020-democratic-presidential-candidates.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/us/politics/2020-democratic-presidential-candidates.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>After two rounds of debates, 24 Democratic candidates are still running for president. There’s little incentive to drop out right now, but August will be crucial.</description>
+      <dc:creator>Sydney Ember and Katie Glueck</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 21:11:19 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Debates (Political)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2020</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Democratic Party</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Campaign Finance</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Primaries and Caucuses</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Polls and Public Opinion</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/01/us/politics/01dems-shrinkage/01dems-shrinkage-moth.jpg" width="151"></media:content>
+      <media:credit>Maddie McGarvey for The New York Times</media:credit>
+      <media:description>Twenty candidates were spread over two nights during the Democratic presidential debates in Detroit this week.</media:description>
+    </item>
+    <item>
+      <title>Only 7 Candidates Have Qualified for the Next Democratic Debate</title>
+      <link>https://www.nytimes.com/2019/08/01/us/politics/next-democratic-debate.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/us/politics/next-democratic-debate.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/us/politics/next-democratic-debate.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>While 20 presidential candidates debated this past week, far fewer are assured the chance of doing so again in September.</description>
+      <dc:creator>Maggie Astor</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 20:55:23 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Debates (Political)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2020</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/30/us/politics/00debate-qualifications/00debate-qualifications-moth.jpg" width="151"></media:content>
+      <media:credit>Erin Schaff/The New York Times</media:credit>
+      <media:description>It will be twice as hard for the 2020 Democrats to qualify for the next debate. In addition to the seven who already have, three are within striking distance.</media:description>
+    </item>
+    <item>
+      <title>She Was Arrested at 14. Then Her Photo Went to a Facial Recognition Database.</title>
+      <link>https://www.nytimes.com/2019/08/01/nyregion/nypd-facial-recognition-children-teenagers.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/nyregion/nypd-facial-recognition-children-teenagers.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/nyregion/nypd-facial-recognition-children-teenagers.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>With little oversight, the N.Y.P.D. has been using powerful surveillance technology on photos of children and teenagers.</description>
+      <dc:creator>Joseph Goldstein and Ali Watkins</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 20:55:23 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Facial Recognition Software</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Surveillance of Citizens by Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Police</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Crime and Criminals</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Juvenile Delinquency</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Civil Rights and Liberties</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">New York City</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Children and Childhood</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Teenagers and Adolescence</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/01/nyregion/01nypd-juveniles-promo/01nypd-juveniles-promo-moth.jpg" width="151"></media:content>
+      <media:credit>Sarah Blesener for The New York Times</media:credit>
+    </item>
+    <item>
+      <title>Letters Show How Osama bin Laden Groomed Son for Al Qaeda</title>
+      <link>https://www.nytimes.com/2019/08/01/world/middleeast/hamza-bin-laden.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/world/middleeast/hamza-bin-laden.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/world/middleeast/hamza-bin-laden.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Osama bin Laden’s son was being groomed to lead Al Qaeda and was seen as crucial for luring younger recruits, who have flocked to ISIS instead.</description>
+      <dc:creator>Rukmini Callimachi</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 20:38:06 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Terrorism</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">September 11 (2001)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Afghanistan War (2001- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Al Qaeda</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">bin Laden, Hamza</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">bin Laden, Osama</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/01/world/01Hamza1/01Hamza1-moth.jpg" width="151"></media:content>
+      <media:credit>State Department, via Reuters</media:credit>
+      <media:description>A photograph circulated by the State Department announcing a $1 million reward for Hamza bin Laden, son of Osama.</media:description>
+    </item>
+    <item>
+      <title>Dying Gasp of One Local Newspaper</title>
+      <link>https://www.nytimes.com/2019/08/01/us/warroad-pioneer-news-desert.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/us/warroad-pioneer-news-desert.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/us/warroad-pioneer-news-desert.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The Warroad Pioneer, a pillar of its small Minnesota town, ended its 121-year run with bloody marys, bold type and gloom about the void it would leave behind.</description>
+      <dc:creator>Richard Fausset and Tim Gruber</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 09:00:25 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Newspapers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">News and News Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Minnesota</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Warroad (Minn)</category>
+      <category domain="">news desert</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/05/10/us/00finaledition-portrait02-promo/00finaledition-portrait02-moth.jpg" width="151"></media:content>
+      <media:credit>Tim Gruber for The New York Times</media:credit>
+      <media:description>Jack Neumiller, 51. “I know everyone I talk to is not happy that we don’t have a paper anymore. I think it’s devastating to lose a local paper.”</media:description>
+    </item>
+    <item>
+      <title>The Economy Is Booming. Or Is It?</title>
+      <link>https://www.nytimes.com/2019/08/01/podcasts/the-daily/economy-fed-interest-rate-cut.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/podcasts/the-daily/economy-fed-interest-rate-cut.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/podcasts/the-daily/economy-fed-interest-rate-cut.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The Federal Reserve cut interest rates for the first time since the financial crisis. We look at what that says about the health of the U.S. economy.</description>
+      <pubDate>Thu, 01 Aug 2019 16:07:51 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Interest Rates</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Federal Reserve System</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Economy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Trade and World Market</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Banking and Financial Institutions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Customs (Tariff)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Inflation (Economics)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Unemployment</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Labor and Jobs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/01/us/01thedaily/01thedaily-moth.jpg" width="151"></media:content>
+      <media:credit>Sarah Silbiger/Reuters</media:credit>
+      <media:description>Jerome Powell, the Federal Reserve chief, said on Wednesday that the rate cut was “intended to ensure against downside risks from weak global growth and trade tensions.” </media:description>
+    </item>
+    <item>
+      <title>One Thing You Can Do: Reduce Unwanted Mail</title>
+      <link>https://www.nytimes.com/2019/07/31/climate/nyt-climate-newsletter-mail.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/31/climate/nyt-climate-newsletter-mail.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/31/climate/nyt-climate-newsletter-mail.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Also this week, the high cost of the world’s natural disasters</description>
+      <dc:creator>Tik Root and Christopher Flavelle</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 16:07:52 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Global Warming</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Environment</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Greenhouse Gas Emissions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Recycling of Waste Materials</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Paper and Pulp</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Insurance</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Disasters and Emergencies</category>
+    </item>
+    <item>
+      <title>Is Impeachment Finally Happening?</title>
+      <link>https://www.nytimes.com/2019/08/01/opinion/the-argument-impeachment-trump.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/opinion/the-argument-impeachment-trump.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/opinion/the-argument-impeachment-trump.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>And the columnists answer your questions.</description>
+      <pubDate>Thu, 01 Aug 2019 16:07:52 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Impeachment</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Democratic Party</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">House Committee on the Judiciary</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">House of Representatives</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Interference in 2016 US Elections and Ties to Trump Associates</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Mueller, Robert S III</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Global Warming</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Colleges and Universities</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Student Loans</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Puerto Rico</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Hurricane Maria (2017)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Warren, Elizabeth</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/01/opinion/01argument-fortyone1/01argument-fortyone1-moth.jpg" width="151"></media:content>
+      <media:credit>Michael A. McCoy for The New York Times</media:credit>
+      <media:description>A protester at President Trump’s Fourth of July event on the National Mall in Washington.</media:description>
+    </item>
+    <item>
+      <title>Marianne Williamson Knows How to Beat Trump</title>
+      <link>https://www.nytimes.com/2019/08/01/opinion/debate-marianne-williamson.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/opinion/debate-marianne-williamson.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/opinion/debate-marianne-williamson.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>We need an uprising of decency.</description>
+      <dc:creator>David Brooks</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 21:12:39 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Democratic Party</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2020</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Williamson, Marianne</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/01/opinion/01brooks2/01brooks2-moth-v3.jpg" width="151"></media:content>
+      <media:credit>Maddie McGarvey for The New York Times</media:credit>
+      <media:description>Marianne Williamson may have some wacky ideas, but she also understands Donald Trump.</media:description>
+    </item>
+    <item>
+      <title>Why Not Cory Booker?</title>
+      <link>https://www.nytimes.com/2019/08/01/opinion/debate-cory-booker.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/opinion/debate-cory-booker.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/opinion/debate-cory-booker.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>He’s winning the debates and he’s great on paper. When will he catch on?</description>
+      <dc:creator>Michelle Goldberg</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 21:12:39 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Debates (Political)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Blacks</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Primaries and Caucuses</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2020</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Polls and Public Opinion</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Voting and Voters</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Liberalism (US Politics)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Democratic Party</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Biden, Joseph R Jr</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Booker, Cory A</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Buttigieg, Pete (1982- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">New Jersey</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Newark (NJ)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Mayors</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Senate</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/01/opinion/02goldberg-web/merlin_153162501_c61e4a1c-6423-4175-8478-91ab7ab056d2-moth.jpg" width="151"></media:content>
+      <media:credit>Elizabeth Frantz for The New York Times</media:credit>
+      <media:description>Posters for Senator Cory Booker at a house party in Amherst, N.H., in April. He won praise for his performance in the Democratic debate on Wednesday.</media:description>
+    </item>
+    <item>
+      <title>Joe Biden Is Learning That Liberals Eat Their Own</title>
+      <link>https://www.nytimes.com/2019/08/01/opinion/debate-joe-biden.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/opinion/debate-joe-biden.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/opinion/debate-joe-biden.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>It’s astonishing to see other Democratic candidates attack him for his role in their party’s historic successes.</description>
+      <dc:creator>David French</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 21:12:39 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Patient Protection and Affordable Care Act (2010)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Crime and Criminals</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Health Insurance and Managed Care</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Debates (Political)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Liberalism (US Politics)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Immigration and Emigration</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Deferred Action for Childhood Arrivals</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Deportation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Violence Against Women Act (1994)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Medicare</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Democratic Party</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Biden, Joseph R Jr</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Clinton, Bill</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Obama, Barack</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Sanders, Bernard</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/01/opinion/01Frence2/01Frence2-moth.jpg" width="151"></media:content>
+      <media:credit>Kathryn Gamble for The New York Times</media:credit>
+      <media:description>Joe Biden.</media:description>
+    </item>
+    <item>
+      <title>Of Course Americans Are Turning to Social Democracy</title>
+      <link>https://www.nytimes.com/2019/08/01/opinion/social-democracy.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/opinion/social-democracy.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/opinion/social-democracy.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>They can no longer afford the luxury of a smaller, less expensive welfare state.</description>
+      <dc:creator>Jorge G. Castañeda</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 21:12:39 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Regulation and Deregulation of Industry</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Democratic Party</category>
+      <category domain="">social democracy</category>
+      <category domain="">socialism</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/01/opinion/01Castaneda/01Castaneda-moth.jpg" width="151"></media:content>
+      <media:credit>Imagno/Getty Images</media:credit>
+      <media:description>A early-20th-century Social Democracy postcard calling for old-age insurance.</media:description>
+    </item>
+    <item>
+      <title>The Republican Exodus From Congress</title>
+      <link>https://www.nytimes.com/2019/07/31/opinion/republicans-congress.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/31/opinion/republicans-congress.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/31/opinion/republicans-congress.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Eight Republican House members have announced their retirement this year, with more predicted to follow. What’s going on?</description>
+      <dc:creator>Michelle Cottle</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 21:12:39 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Republican Party</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">House of Representatives</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Conaway, K Michael</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/31/opinion/31retirements/31retirements-moth.jpg" width="151"></media:content>
+      <media:credit>Illustration by Joan Wong; Photographs by The New York Times and The Associated Press</media:credit>
+    </item>
+    <item>
+      <title>Yearning for More Yang</title>
+      <link>https://www.nytimes.com/2019/08/01/opinion/2020-andrew-yang.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/opinion/2020-andrew-yang.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/opinion/2020-andrew-yang.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>He is a nonconformist — in the best way — to our political pageantry.</description>
+      <dc:creator>Charles M. Blow</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 21:12:38 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Yang, Andrew (1975- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Debates (Political)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/01/opinion/01blow/01blow-moth.jpg" width="151"></media:content>
+      <media:credit>Erin Schaff/The New York Times</media:credit>
+    </item>
+    <item>
+      <title>Democrats Are Not Up To Their Historic Responsibility</title>
+      <link>https://www.nytimes.com/2019/08/01/opinion/democratic-debate-2020-trump-republicans.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/opinion/democratic-debate-2020-trump-republicans.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/opinion/democratic-debate-2020-trump-republicans.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Defeating Trumpism means abandoning the politics of extremes.</description>
+      <dc:creator>Bret Stephens</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 21:12:40 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Democratic Party</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Hickenlooper, John W</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Buttigieg, Pete (1982- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Harris, Kamala D</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/31/opinion/31stephensWeb/31stephensWeb-moth.jpg" width="151"></media:content>
+      <media:credit>Erin Schaff/The New York Times</media:credit>
+      <media:description>Democrats on the stage in Detroit before their debate on Wednesday.</media:description>
+    </item>
+    <item>
+      <title>Videotape All Police Interrogations</title>
+      <link>https://www.nytimes.com/2019/08/01/opinion/police-interrogations-confessions-record.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/opinion/police-interrogations-confessions-record.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/opinion/police-interrogations-confessions-record.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Justice demands it.</description>
+      <dc:creator>Saul Kassin and David Thompson</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 21:12:41 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">False Arrests, Convictions and Imprisonments</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Interrogations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Video Recordings, Downloads and Streaming</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Psychology and Psychologists</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Central Park Jogger Case (1989)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Innocence Project</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">New York City</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/01/opinion/01kassinthomson/01kassinthomson-moth.jpg" width="151"></media:content>
+      <media:credit>James Heimer</media:credit>
+    </item>
+    <item>
+      <title>Debate Disappointment: I Wanted So Much More From Joe Biden</title>
+      <link>https://www.nytimes.com/2019/08/01/opinion/democratic-debate-biden-harris.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/opinion/democratic-debate-biden-harris.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/opinion/democratic-debate-biden-harris.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>And I find myself fretting that none of these Democrats can beat Donald Trump.</description>
+      <dc:creator>Frank Bruni</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 21:12:40 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Presidential Election of 2020</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Debates (Political)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Democratic Party</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Biden, Joseph R Jr</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Harris, Kamala D</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/01/opinion/01bruniWeb/01bruniWeb-moth-v4.jpg" width="151"></media:content>
+      <media:credit>Kathryn Gamble for The New York Times</media:credit>
+    </item>
+    <item>
+      <title>He Was the Face of a Bike-a-thon to Fight Cancer. He Was Also a Fake.</title>
+      <link>https://www.nytimes.com/2019/08/01/sports/cycling/pelotonia.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/sports/cycling/pelotonia.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/sports/cycling/pelotonia.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>After John Looker announced he had brain cancer, he became a star fund-raiser and the heart of Pelotonia, a charity event in Ohio that raises millions of dollars. But something wasn’t right.</description>
+      <dc:creator>Abby Ellin</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 18:45:33 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Looker, John</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Frauds and Swindling</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Philanthropy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Brain Cancer</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Bicycles and Bicycling</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Columbus (Ohio)</category>
+      <category domain="">Pelotonia</category>
+    </item>
+    <item>
+      <title>The Bralette Is Back. This Time Blouses Are Optional.</title>
+      <link>https://www.nytimes.com/2019/07/31/fashion/bralettes-bras-no-underwire.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/31/fashion/bralettes-bras-no-underwire.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/31/fashion/bralettes-bras-no-underwire.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>In an indignant time, a more relaxed style gains market share.</description>
+      <dc:creator>Linda Dyett</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 19:40:10 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Lingerie and Underwear</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fashion and Apparel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Women and Girls</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/01/fashion/31BRALETTES-4/31BRALETTES-4-moth-v2.jpg" width="151"></media:content>
+      <media:credit>Daniel Zuchnik/Getty Images</media:credit>
+      <media:description>Joy Corrigan outside the Nana Judy show during New York Fashion Week. Bralettes — mainly defined by their lack of underwire — have become more than just undergarments.</media:description>
+    </item>
+    <item>
+      <title>Despite Deficit Worries, Senate Gives Final Approval to Spending Increases</title>
+      <link>https://www.nytimes.com/2019/08/01/us/politics/senate-budget-deficit.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/us/politics/senate-budget-deficit.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/us/politics/senate-budget-deficit.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The Senate gave final approval to a two-year budget deal that would lift the federal debt limit and raise spending by hundreds of billions of dollars.</description>
+      <dc:creator>Emily Cochrane</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 16:26:11 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Federal Budget (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Law and Legislation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">National Debt (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Senate</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/31/us/politics/31dc-budget1/31dc-budget1-moth.jpg" width="151"></media:content>
+      <media:credit>Anna Moneymaker/The New York Times</media:credit>
+      <media:description>Senator Mitch McConnell of Kentucky, the majority leader, said the budget was “the right deal because it brings predictability and stability through 2020.”</media:description>
+    </item>
+    <item>
+      <title>Indictment Delayed for Father Who Left Twins in Hot Car</title>
+      <link>https://www.nytimes.com/2019/08/01/nyregion/twins-dead-car.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/nyregion/twins-dead-car.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/nyregion/twins-dead-car.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Prosecutors said the investigation into the children’s deaths was not complete, raising the possibility that the charges could be reduced or dropped.</description>
+      <dc:creator>Sharon Otterman and Andrea Salcedo</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 20:54:00 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Rodriguez, Juan (1980- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Rodriguez, Mariza (2018-19)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Rodriguez, Phoenix (2018-19)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Bronx (NYC)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Heatstroke</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Child Abuse and Neglect</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Parenting</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Murders, Attempted Murders and Homicides</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/01/nyregion/01twins/01twins-moth-v2.jpg" width="151"></media:content>
+      <media:credit>James Keivom for The New York Times</media:credit>
+      <media:description>Juan Rodriguez with his wife, Marissa, and his remaining children.</media:description>
+    </item>
+    <item>
+      <title>Video Shows Last Moments of Dallas Man, Restrained as Officers Joked</title>
+      <link>https://www.nytimes.com/2019/08/01/us/tony-timpa-dallas-police-body-cam.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/us/tony-timpa-dallas-police-body-cam.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/us/tony-timpa-dallas-police-body-cam.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>“You’re going to kill me,” the man, Tony Timpa, shouted repeatedly in newly released body-camera video footage. An autopsy classified his 2016 death as a homicide.</description>
+      <dc:creator>Karen Zraick</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 20:54:00 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Police Brutality, Misconduct and Shootings</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Video Recordings, Downloads and Streaming</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Dallas Morning News</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Police Department (Dallas, Tex)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Creuzot, John</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Dallas (Tex)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Timpa, Tony</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/01/multimedia/01xp-dallas/01xp-dallas-moth.jpg" width="151"></media:content>
+      <media:credit>Brian Maschino for The New York Times</media:credit>
+      <media:description>The Dallas Police Department.</media:description>
+    </item>
+    <item>
+      <title>White Supremacist Leader Captured After Escape From Arkansas Jail</title>
+      <link>https://www.nytimes.com/2019/07/31/us/new-aryan-empire-wesley-gullett.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/31/us/new-aryan-empire-wesley-gullett.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/31/us/new-aryan-empire-wesley-gullett.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Wesley Gullett, who is listed in court documents as the president of the New Aryan Empire, was taken into custody without incident on Thursday, the Dover Marshal’s Office said.</description>
+      <dc:creator>Neil Vigdor</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 20:54:00 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Prison Escapes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Drug Abuse and Traffic</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Whites</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fringe Groups and Movements</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Gangs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Murders, Attempted Murders and Homicides</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Racketeering and Racketeers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Aryan Brotherhood</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">New Aryan Empire</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">United States Marshals Service</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Arkansas</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Pine Bluff (Ark)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/31/us/31xp-escape/31xp-escape-moth.jpg" width="151"></media:content>
+      <media:credit>Jefferson County Sheriff&#39;s Office, via Associated Press</media:credit>
+      <media:description>Wesley Gullett, the leader of a white supremacist gang in Arkansas, was captured on Thursday after escaping from a jail in Pine Bluff, Ark., this week. Another inmate, Christopher Sanderson, remains at large.</media:description>
+    </item>
+    <item>
+      <title>Justice Dept. Declined to Prosecute Comey Over Memos About Trump</title>
+      <link>https://www.nytimes.com/2019/08/01/us/politics/comey-mueller.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/us/politics/comey-mueller.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/us/politics/comey-mueller.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The former F.B.I. director documented his interactions with the president in a series of memos that jolted Washington and helped prompt the appointment of the special counsel.</description>
+      <dc:creator>Adam Goldman and Katie Benner</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 19:50:50 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Russian Interference in 2016 US Elections and Ties to Trump Associates</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Classified Information and State Secrets</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Special Prosecutors (Independent Counsel)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Suits and Litigation (Civil)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Federal Bureau of Investigation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Justice Department</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Comey, James B</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Horowitz, Michael E</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Mueller, Robert S III</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/01/us/politics/01dc-comey/01dc-comey-moth.jpg" width="151"></media:content>
+      <media:credit>Al Drago/The New York Times</media:credit>
+      <media:description>James B. Comey, the former F.B.I. director, wrote contemporaneous memos of his interactions with President Trump.</media:description>
+    </item>
+    <item>
+      <title>Jeffrey Epstein Hoped to Seed Human Race With His DNA</title>
+      <link>https://www.nytimes.com/2019/07/31/business/jeffrey-epstein-eugenics.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/31/business/jeffrey-epstein-eugenics.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/31/business/jeffrey-epstein-eugenics.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Mr. Epstein, the accused sex trafficker, was fascinated by eugenics. He told scientists and others of his vision of using his New Mexico ranch to impregnate women.</description>
+      <dc:creator>James B. Stewart, Matthew Goldstein and Jessica Silver-Greenberg</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 19:58:56 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Epstein, Jeffrey E (1953- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Sex Crimes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Child Abuse and Neglect</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Human Trafficking</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Prostitution</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">DNA (Deoxyribonucleic Acid)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Genetics and Heredity</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/31/business/31epsteinbabyfarm2/31epsteinbabyfarm2-moth.jpg" width="151"></media:content>
+      <media:credit>Drone Base/Reuters</media:credit>
+      <media:description>Mr. Epstein’s ranch in New Mexico, which he confided to scientists and others he hoped to use as the site for seeding the human race with his DNA.</media:description>
+    </item>
+    <item>
+      <title>Wary of Trump’s Hard Line on Iran, Europeans Decline to Join Escorts in Gulf</title>
+      <link>https://www.nytimes.com/2019/08/01/world/europe/trump-iran-gulf-patrol.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/world/europe/trump-iran-gulf-patrol.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/world/europe/trump-iran-gulf-patrol.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The Europeans see risks of escalation in the conflict with Tehran, and they want to distance themselves from the U.S. policy of “maximum pressure.”</description>
+      <dc:creator>Steven Erlanger</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 13:45:41 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Defense and Military Forces</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Embargoes and Sanctions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Ships and Shipping</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Europe</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Persian Gulf</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/01/world/01iran-europe4/merlin_158118921_820918a5-219f-4cbe-9ef3-4cc0f11df8af-moth.jpg" width="151"></media:content>
+      <media:credit>Ahmed Jadallah/Reuters</media:credit>
+      <media:description>Fighter jets on the deck of the Abraham Lincoln near the Strait of Hormuz last month. European nations are reluctant to join the United States in patrolling the waterway.</media:description>
+    </item>
+    <item>
+      <title>Having Accused a Politician of Rape, She Feared for Her Life. Now, She’s Fighting for It.</title>
+      <link>https://www.nytimes.com/2019/07/31/world/asia/unnao-india-rape-case.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/31/world/asia/unnao-india-rape-case.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/31/world/asia/unnao-india-rape-case.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The woman who accused a powerful Indian lawmaker of rape was critically injured in a car crash. Her family suspects foul play.</description>
+      <dc:creator>Jeffrey Gettleman, Hari Kumar and Suhasini Raj</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 19:50:23 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">India</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Sex Crimes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Sengar, Kuldeep Singh</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Women and Girls</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Women&#39;s Rights</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Police Brutality, Misconduct and Shootings</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Murders, Attempted Murders and Homicides</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/31/world/31India-rape1-sub/31India-rape1-sub-moth.jpg" width="151"></media:content>
+      <media:credit>Danish Siddiqui/Reuters</media:credit>
+      <media:description>Protesters in New Delhi on Tuesday demanded an investigation after a woman who had accused a regional lawmaker of rape was severely injured in a road accident.</media:description>
+    </item>
+    <item>
+      <title>Scabby, the Giant Inflatable Union Protest Rat, Faces Extermination</title>
+      <link>https://www.nytimes.com/2019/07/31/nyregion/rat-balloon-union.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/31/nyregion/rat-balloon-union.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/31/nyregion/rat-balloon-union.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The glowering rodent, long a curbside fixture in New York and around the country, could soon be banned in labor demonstrations.</description>
+      <dc:creator>Michael Gold</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 20:42:12 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Organized Labor</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Rats</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Labor and Jobs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">National Labor Relations Board</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Robb, Peter B</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">New York City</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/30/nyregion/30ratballoons1/30ratballoons1-moth.jpg" width="151"></media:content>
+      <media:credit>Chester Higgins Jr./The New York Times</media:credit>
+    </item>
+    <item>
+      <title>How to Answer Tricky Personal Questions at a New Job</title>
+      <link>https://www.nytimes.com/2019/07/29/smarter-living/how-to-answer-tricky-personal-questions-at-a-new-job.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/29/smarter-living/how-to-answer-tricky-personal-questions-at-a-new-job.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/29/smarter-living/how-to-answer-tricky-personal-questions-at-a-new-job.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Navigating the gauntlet of questions from the new people in your life.</description>
+      <dc:creator>Allie Volpe</dc:creator>
+      <pubDate>Mon, 29 Jul 2019 08:11:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Read Anywhere This Summer</title>
+      <link>https://www.nytimes.com/2019/07/22/smarter-living/wirecutter/read-anywhere-this-summer.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/22/smarter-living/wirecutter/read-anywhere-this-summer.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/22/smarter-living/wirecutter/read-anywhere-this-summer.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Summer is the perfect time to rediscover the pleasures of reading. Here’s how scientists and librarians say you should get started.</description>
+      <dc:creator>Jackie Reeve</dc:creator>
+      <pubDate>Mon, 29 Jul 2019 08:11:14 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Reading and Writing Skills (Education)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Libraries and Librarians</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Audiobooks</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">your-feed-wirecutter</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/16/smarter-living/00wc_summerreading/00wc_summerreading-moth.jpg" width="151"></media:content>
+      <media:credit>Patrick Kyle</media:credit>
+    </item>
+    <item>
+      <title>Behind Basquiat’s ‘Defacement’: Reframing a Tragedy</title>
+      <link>https://www.nytimes.com/2019/07/30/arts/design/basquiat-defacement-guggenheim-curator.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/30/arts/design/basquiat-defacement-guggenheim-curator.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/30/arts/design/basquiat-defacement-guggenheim-curator.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>A curator’s time capsule of a violent moment and its repercussions brings fresh insights — and reveals stresses with a museum.</description>
+      <dc:creator>Siddhartha Mitter</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 17:09:47 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Art</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Blacks</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">LaBouvier, Chaedria</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Race and Ethnicity</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Stewart, Michael (1958-1983)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Police Brutality, Misconduct and Shootings</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Guggenheim, Solomon R, Museum</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Basquiat, Jean-Michel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Spector, Nancy</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/31/arts/28chaedria1-promo/28chaedria1-promo-moth-v3.jpg" width="151"></media:content>
+      <media:credit>Estate of Jean-Michel Basquiat, Licensed by Artestar; Mary Inhea Kang for The New York Times</media:credit>
+      <media:description>Chaédria LaBouvier, center, organized “Basquiat’s ‘Defacement’: The Untold Story” at the Guggenheim about the reaction of Jean-Michel Basquiat and the downtown community to the death of Michael Stewart. Top right, “Charles the First,” 1982, a Basquiat tribute to Charlie Parker that depicted him as a peer of King Charles I and Thor, the Norse god of thunder.</media:description>
+    </item>
+    <item>
+      <title>‘Abnormal, as Most Geniuses Are’: Celebrating 200 Years of Herman Melville</title>
+      <link>https://www.nytimes.com/2019/08/01/books/herman-melville-moby-dick.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/books/herman-melville-moby-dick.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/books/herman-melville-moby-dick.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The Times has not always given the writer his due. Here’s a look at how we covered him and his most famous novel, ‘Moby-Dick,’ over the past century or two.</description>
+      <dc:creator>Tina Jordan</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 17:09:46 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Melville, Herman</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Moby-Dick (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Writing and Writers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Newspapers</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/01/books/review/01Melville01/merlin_158623956_b749cfb3-46fa-418c-baec-a1badf1027e7-moth.jpg" width="151"></media:content>
+      <media:credit>Apic/Getty Images</media:credit>
+      <media:description>When Herman Melville died in 1891, The New York Times barely noted it, listing his obituary after a civil engineer, “the best known criminal lawyer in Connecticut” and “the oldest resident of the Oranges.”</media:description>
+    </item>
+    <item>
+      <title>The Frankies Partners Will Open a Slice Shop</title>
+      <link>https://www.nytimes.com/2019/08/01/dining/f-and-f-pizzeria-frankies-457-spuntino.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/dining/f-and-f-pizzeria-frankies-457-spuntino.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/dining/f-and-f-pizzeria-frankies-457-spuntino.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Frank Castronovo and Frank Falcinelli are expanding their Brooklyn campus of Italian-American food.</description>
+      <dc:creator>Amelia Nierenberg</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 17:09:47 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Pizza</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Restaurants</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Frankies Spuntino (Manhattan, NY, Restaurant)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Carroll Gardens (Brooklyn, NY)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/01/dining/01Frankies1/01Frankies1-moth.jpg" width="151"></media:content>
+      <media:credit>Daniel Krieger for The New York Times</media:credit>
+      <media:description>Frank Falcinelli, left, and Frank Castronovo, friends since childhood, are opening a new pizza slice shop in Carroll Gardens.</media:description>
+    </item>
+    <item>
+      <title>The Yankees’ Trade Deadline Haul? A 20-Year-Old Pitching Prospect</title>
+      <link>https://www.nytimes.com/2019/07/31/sports/baseball/yankees-trade-deadline.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/31/sports/baseball/yankees-trade-deadline.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/31/sports/baseball/yankees-trade-deadline.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Yankees management stated for weeks that the team was seeking a top starting pitcher, but it whiffed on its efforts to improve the roster on Wednesday.</description>
+      <dc:creator>James Wagner</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 17:09:47 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Baseball</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Trades (Sports)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">New York Yankees</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">New York Mets</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Cashman, Brian</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/31/sports/31yankeesweb-1/merlin_145043142_4f81f551-7a49-47fd-a123-263c2f4692fb-moth.jpg" width="151"></media:content>
+      <media:credit>Chang W. Lee/The New York Times</media:credit>
+      <media:description>Yankees General Manager Brian Cashman said this trade deadline “felt different.”</media:description>
+    </item>
+    <item>
+      <title>And Now, a Bicycle Built for None</title>
+      <link>https://www.nytimes.com/2019/07/31/science/bikes-robot-autonomous.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/31/science/bikes-robot-autonomous.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/31/science/bikes-robot-autonomous.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>It’s not the first self-driving bike. But equipped with an A.I. chip, it may be the nearest to thinking for itself.</description>
+      <dc:creator>Cade Metz</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 09:03:33 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computer Chips</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Artificial Intelligence</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Bicycles and Bicycling</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Robots and Robotics</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Driverless and Semiautonomous Vehicles</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Brain</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Facebook Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Google Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Intel Corporation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Microsoft Corp</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">International Business Machines Corporation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">OpenAI Labs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Tsinghua University</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">your-feed-science</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Dota 2 (Video Game)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/06/science/31ROBOBIKE1/31ROBOBIKE1-moth.jpg" width="151"></media:content>
+      <media:credit>Pei et al., Nature</media:credit>
+      <media:description>A frame taken from a video by researchers in China shows a self-driving bicycle, whose neuromorphic computer chip helps it understand certain commands.</media:description>
+    </item>
+    <item>
+      <title>Amazon Kindle Oasis Review: Now Is the Perfect Time to Buy an E-Reader</title>
+      <link>https://www.nytimes.com/2019/08/01/technology/personaltech/amazon-kindle-oasis-review-e-reader.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/technology/personaltech/amazon-kindle-oasis-review-e-reader.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/technology/personaltech/amazon-kindle-oasis-review-e-reader.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>In an era of smartphone addiction, a single-purpose device like an e-reader may help you unplug and focus on content that will bring you joy.</description>
+      <dc:creator>Brian X. Chen</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 14:39:46 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">E-Books and Readers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Handheld Computers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Amazon Kindle</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Smartphones</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Addiction (Psychology)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Social Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Computers and the Internet</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Amazon.com Inc</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/31/business/31techfix/31techfix-moth.jpg" width="151"></media:content>
+      <media:credit>Cayce Clifford for The New York Times</media:credit>
+      <media:description>Amazon&#39;s new Kindle Oasis has a seven-inch screen and an aluminum body, with an adjustable light to shift the screen’s color tone from cooler in the daytime to warmer at night.</media:description>
+    </item>
+    <item>
+      <title>LightSail-2 Mission Shows Solar Sailing’s Potential for Spaceflight</title>
+      <link>https://www.nytimes.com/2019/07/31/science/lightsail-solar-sail.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/31/science/lightsail-solar-sail.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/31/science/lightsail-solar-sail.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The spacecraft’s controllers on Earth succeeded in steering the spacecraft, demonstrating that mylar sails could be used for propulsion.</description>
+      <dc:creator>Kenneth Chang</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 09:03:33 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Planetary Society</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Rocket Science and Propulsion</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Sun</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Space and Astronomy</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/31/science/31LIGHTSAIL/31LIGHTSAIL-moth.jpg" width="151"></media:content>
+      <media:credit>The Planetary Society</media:credit>
+      <media:description>An image taken by one of LightSail-2’s onboard cameras, showing its unfurled solar panel sail.</media:description>
+    </item>
+    <item>
+      <title>Colorectal Cancer Rises Among Younger Adults</title>
+      <link>https://www.nytimes.com/2019/07/31/health/colon-cancer-young.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/31/health/colon-cancer-young.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/31/health/colon-cancer-young.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>These cancers are much more common in older patients. But new data from Canada and the U.S. show a sharp increase among adults in their 20s and 30s.</description>
+      <dc:creator>Knvul Sheikh</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 15:56:33 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Colon and Colorectal Cancer</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Obesity</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Diet and Nutrition</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Millennial Generation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">American Cancer Society</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Journal of the American Medical Assn</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">University of Calgary</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">your-feed-science</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cancer</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/31/science/31COLONCANCER/31COLONCANCER-moth.jpg" width="151"></media:content>
+      <media:credit>Steve Gschmeissner/Science Source</media:credit>
+      <media:description>A colored scanning electron micrograph of a dividing colorectal cancer cell.</media:description>
+    </item>
+    <item>
+      <title>All of Those Products Are Making Your Skin Worse</title>
+      <link>https://www.nytimes.com/2019/07/30/style/all-of-those-products-are-making-your-skin-worse.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/30/style/all-of-those-products-are-making-your-skin-worse.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/30/style/all-of-those-products-are-making-your-skin-worse.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>They’re breaking down the skin barrier and harming your acid mantle, and this is bad (even if you don’t know — yet — what that mantle is).</description>
+      <dc:creator>Courtney Rubin</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 18:11:03 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Skin</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/01/fashion/31SKIN/31SKIN-moth.gif" width="151"></media:content>
+      <media:credit>Andrea D&#39;Aquino</media:credit>
+    </item>
+    <item>
+      <title>Hunting for the Real Pasta all’Amatriciana</title>
+      <link>https://www.nytimes.com/2019/07/31/travel/pasta-alla-amatriciana-amatrice.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/31/travel/pasta-alla-amatriciana-amatrice.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/31/travel/pasta-alla-amatriciana-amatrice.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Start in Amatrice, Italy, and eat five versions of the dish in just four days. Then set aside your Marcella Hazan cookbook.</description>
+      <dc:creator>Stephen S. Hall</dc:creator>
+      <pubDate>Wed, 31 Jul 2019 09:00:15 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Travel and Vacations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Amatrice (Italy)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Pasta</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Earthquakes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Restaurants</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Rome (Italy)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/31/travel/31amatrice10/31amatrice10-moth-v2.jpg" width="151"></media:content>
+      <media:credit>Susan Wright for The New York Times</media:credit>
+      <media:description>At Ristorante Archimede in Rome, amatriciana is made with bucatini.</media:description>
+    </item>
+  </channel>
+</rss>

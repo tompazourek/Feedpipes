@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet title="XSL_formatting" type="text/xsl" href="/shared/bsp/xsl/rss/nolsol.xsl"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title><![CDATA[BBC News - Home]]></title>
+        <description><![CDATA[BBC News - Home]]></description>
+        <link>https://www.bbc.co.uk/news/</link>
+        <image>
+            <url>https://news.bbcimg.co.uk/nol/shared/img/bbc_news_120x60.gif</url>
+            <title>BBC News - Home</title>
+            <link>https://www.bbc.co.uk/news/</link>
+        </image>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Thu, 01 Aug 2019 21:18:32 GMT</lastBuildDate>
+        <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see http://news.bbc.co.uk/2/hi/help/rss/4498287.stm for terms and conditions of reuse.]]></copyright>
+        <language><![CDATA[en-gb]]></language>
+        <ttl>15</ttl>
+        <item>
+            <title><![CDATA[Trump to impose more tariffs on Chinese goods]]></title>
+            <description><![CDATA[The US president announces fresh tariffs of 10% on another $300bn of Chinese products from 1 September.]]></description>
+            <link>https://www.bbc.co.uk/news/business-49199559</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-49199559</guid>
+            <pubDate>Thu, 01 Aug 2019 20:19:15 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[North Korea launches third 'projectile' in eight days]]></title>
+            <description><![CDATA[The launches are seen as a reaction to planned military exercises between South Korea and the US.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-49199157</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-49199157</guid>
+            <pubDate>Thu, 01 Aug 2019 20:58:58 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Bionic arm for eight-year-old Mady Gardner]]></title>
+            <description><![CDATA[Eight-year-old Mady, the youngest recipient of a bionic arm in the US, requested it be bright pink.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-49200369</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-49200369</guid>
+            <pubDate>Thu, 01 Aug 2019 19:20:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Whaley Bridge dam collapse: Evacuation over Toddbrook Reservoir fears]]></title>
+            <description><![CDATA[Police tell Whaley Bridge's 6,500 residents to gather at a school amid fears a reservoir could burst.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-england-derbyshire-49189955</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-england-derbyshire-49189955</guid>
+            <pubDate>Thu, 01 Aug 2019 20:19:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Woman tells of six days trapped in crashed car]]></title>
+            <description><![CDATA[Corine Bastide spent six days trapped in her car, which crashed in the woods during the recent heatwave.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-49196745</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-49196745</guid>
+            <pubDate>Thu, 01 Aug 2019 16:11:59 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Milky Way galaxy is warped and twisted, not flat]]></title>
+            <description><![CDATA[New research shows our galaxy, the Milky Way, is twisted and warped - not flat as previously thought.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-49182184</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-49182184</guid>
+            <pubDate>Thu, 01 Aug 2019 20:26:55 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Pipeline explosion in Kentucky kills one worker]]></title>
+            <description><![CDATA[A pipeline explosion in the US has killed at least one worker and more are missing.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-49199345</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-49199345</guid>
+            <pubDate>Thu, 01 Aug 2019 16:55:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Alexandra Macesanu: Romanian girl’s 'calls for help released by family']]></title>
+            <description><![CDATA[The family of a kidnapped Romanian girl claim police were slow to respond to her emergency calls.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-49195906</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-49195906</guid>
+            <pubDate>Thu, 01 Aug 2019 20:39:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Yemen war: Houthi missile attack on military parade kills 32]]></title>
+            <description><![CDATA[Missiles and an armed drone target pro-government forces in the city of Aden.]]></description>
+            <link>https://www.bbc.co.uk/news/world-middle-east-49189241</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-middle-east-49189241</guid>
+            <pubDate>Thu, 01 Aug 2019 14:43:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Bank of England cuts UK growth forecast]]></title>
+            <description><![CDATA[The Bank holds interest rates steady, but warns about the impact of a no-deal Brexit.]]></description>
+            <link>https://www.bbc.co.uk/news/business-49189376</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-49189376</guid>
+            <pubDate>Thu, 01 Aug 2019 14:35:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[US Congress reaches deal to avert budget showdown]]></title>
+            <description><![CDATA[The US Senate follows the House of Representatives in approving big rises in federal spending.]]></description>
+            <link>https://www.bbc.co.uk/news/business-49199557</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-49199557</guid>
+            <pubDate>Thu, 01 Aug 2019 19:04:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Cambridge student who died in Madagascar 'opened plane door']]></title>
+            <description><![CDATA[Cambridge University student Alana Cutland fell to her death in July.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-england-beds-bucks-herts-49192865</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-england-beds-bucks-herts-49192865</guid>
+            <pubDate>Thu, 01 Aug 2019 17:51:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Ashes: Superb Smith century rescues Australia]]></title>
+            <description><![CDATA[Steve Smith makes 144 on his return to Test cricket after the ball-tampering scandal to halt England's charge on the opening day of the Ashes.]]></description>
+            <link>https://www.bbc.co.uk/sport/cricket/49199236</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/cricket/49199236</guid>
+            <pubDate>Thu, 01 Aug 2019 18:03:20 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[First disabled lawmakers join Japan’s parliament]]></title>
+            <description><![CDATA[The lawmakers won seats in Japan’s upper house, in a sign of changing attitudes to disabled people.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-49195905</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-49195905</guid>
+            <pubDate>Thu, 01 Aug 2019 13:12:01 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[In pictures: Russia's massive wildfires rage on]]></title>
+            <description><![CDATA[Images from Russia, where the army is helping to tackle wildfires in Siberia and other eastern regions.]]></description>
+            <link>https://www.bbc.co.uk/news/in-pictures-49197575</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/in-pictures-49197575</guid>
+            <pubDate>Thu, 01 Aug 2019 15:38:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[China army video seen as warning to HK protestors]]></title>
+            <description><![CDATA[It appears to include footage filmed in Hong Kong, showing troops carrying out "anti-riot" exercises.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-49197459</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-49197459</guid>
+            <pubDate>Thu, 01 Aug 2019 19:39:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Hong Kong protesters on storming of the Legislative Council]]></title>
+            <description><![CDATA[Three protesters talk about what they see as a turning point in the current political movement.]]></description>
+            <link>https://www.bbc.co.uk/news/stories-49157807</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/stories-49157807</guid>
+            <pubDate>Wed, 31 Jul 2019 23:48:44 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Are you in your 30s and facing 'the swerve'?]]></title>
+            <description><![CDATA[Rachel Syme was astounded by how many other women aged 33-38 felt at a crossroads in their lives.]]></description>
+            <link>https://www.bbc.co.uk/news/blogs-trending-49189565</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/blogs-trending-49189565</guid>
+            <pubDate>Thu, 01 Aug 2019 14:01:17 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Democratic debate: Kool Aid, Clorox and the best one-liners]]></title>
+            <description><![CDATA[From well-rehearsed zingers to off-the-cuff comebacks, the debate answers that provoked a reaction.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-49187518</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-49187518</guid>
+            <pubDate>Thu, 01 Aug 2019 03:31:39 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Bumi Thomas: British-born jazz artist faces deportation from the UK]]></title>
+            <description><![CDATA[Bumi Thomas, a jazz artist who thought she was a British citizen, is now facing deportation from the UK.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-49065905</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-49065905</guid>
+            <pubDate>Wed, 31 Jul 2019 23:05:54 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Rescuing animals from the streets of Kiev]]></title>
+            <description><![CDATA[Photographer Thomas Machowicz pictures the work of the Kiev Animal Rescue Group.]]></description>
+            <link>https://www.bbc.co.uk/news/in-pictures-48830430</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/in-pictures-48830430</guid>
+            <pubDate>Wed, 31 Jul 2019 23:57:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Ebola: One year on from Democratic Republic Congo outbreak]]></title>
+            <description><![CDATA[Myths and conflict are hampering efforts to stop the disease spreading through a mobile population.]]></description>
+            <link>https://www.bbc.co.uk/news/world-africa-49186147</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-africa-49186147</guid>
+            <pubDate>Wed, 31 Jul 2019 23:40:04 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Bluey: The Australian cartoon that's going global]]></title>
+            <description><![CDATA[A cartoon about a family of dogs and the games they play is Australia's most streamed TV show.]]></description>
+            <link>https://www.bbc.co.uk/news/world-australia-49175684</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-australia-49175684</guid>
+            <pubDate>Wed, 31 Jul 2019 23:02:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Syria air strike sisters photo: Behind the image that shocked the world]]></title>
+            <description><![CDATA[Journalist Bashar al-Sheikh on capturing a Syrian family's harrowing moment after an air strike hit Idlib.]]></description>
+            <link>https://www.bbc.co.uk/news/world-middle-east-49186145</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-middle-east-49186145</guid>
+            <pubDate>Wed, 31 Jul 2019 23:08:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Eco tents at festivals: Would you sleep in a cardboard box?]]></title>
+            <description><![CDATA[Plastic tents are often left behind, and each one is the equivalent of around 250 plastic cups.]]></description>
+            <link>https://www.bbc.co.uk/news/newsbeat-49183171</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/newsbeat-49183171</guid>
+            <pubDate>Wed, 31 Jul 2019 23:12:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Only 35 cancer doctors for nation of 40m people]]></title>
+            <description><![CDATA[Recent high-profile deaths draw attention to cancer in a country which has just 35 oncologists.]]></description>
+            <link>https://www.bbc.co.uk/news/world-africa-49191685</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-africa-49191685</guid>
+            <pubDate>Thu, 01 Aug 2019 14:04:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Yemen war: Has anything been achieved?]]></title>
+            <description><![CDATA[Four years of conflict have left tens of thousands dead and no sign of peace, writes the BBC's Frank Gardner.]]></description>
+            <link>https://www.bbc.co.uk/news/world-middle-east-49179146</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-middle-east-49179146</guid>
+            <pubDate>Thu, 01 Aug 2019 09:15:05 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Hamza Bin Laden: Is al-Qaeda still a threat?]]></title>
+            <description><![CDATA[Are forces loyal to al-Qaeda still active around the world?]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-48056433</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-48056433</guid>
+            <pubDate>Thu, 01 Aug 2019 15:36:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[US-China trade war: 'We're all paying for this']]></title>
+            <description><![CDATA[The US-China trade war is costing jobs and pushing up prices, say firms on both sides of the Pacific.]]></description>
+            <link>https://www.bbc.co.uk/news/business-49122849</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-49122849</guid>
+            <pubDate>Wed, 31 Jul 2019 23:00:07 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Fears stoke backlash against Venezuelans in Peru]]></title>
+            <description><![CDATA[Why some Peruvians fear that the recent influx of Venezuelans migrants poses a risk to their jobs.]]></description>
+            <link>https://www.bbc.co.uk/news/world-latin-america-49156814</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-latin-america-49156814</guid>
+            <pubDate>Wed, 31 Jul 2019 23:44:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[VG Siddhartha: The coffee king of India]]></title>
+            <description><![CDATA[The death of coffee chain owner VG Siddhartha has sent shockwaves through India's business community.]]></description>
+            <link>https://www.bbc.co.uk/news/business-49183321</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-49183321</guid>
+            <pubDate>Wed, 31 Jul 2019 23:00:02 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[England's Hull off to strong start at Women's British Open - highlights & report]]></title>
+            <description><![CDATA[England's Charley Hull has started strongly in her bid to win a first major title at the Women's British Open at Woburn.]]></description>
+            <link>https://www.bbc.co.uk/sport/golf/49194270</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/golf/49194270</guid>
+            <pubDate>Thu, 01 Aug 2019 19:07:20 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA['Distraught' Anderson says sorry to England bowlers after injury]]></title>
+            <description><![CDATA[James Anderson apologised to the England bowlers for bowling only four overs because of a calf injury on day one of the opening Ashes Test.]]></description>
+            <link>https://www.bbc.co.uk/sport/cricket/49195465</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/cricket/49195465</guid>
+            <pubDate>Thu, 01 Aug 2019 19:23:56 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Wolves ease to Europa League qualifier win over Crusaders]]></title>
+            <description><![CDATA[Wolves progress to the Europa League third qualifying round after a comfortable 4-1 victory over Crusaders secures a 6-1 aggregate win.]]></description>
+            <link>https://www.bbc.co.uk/sport/football/49183014</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/49183014</guid>
+            <pubDate>Thu, 01 Aug 2019 20:50:29 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Ashes: Steve Smith rescues Australia against England on day one at Edgbaston]]></title>
+            <description><![CDATA[Australia's Steve Smith stars with a superb 144 as the tourists fight back from 122-8 to post 284 all out on day one of the first Test at Edgbaston.]]></description>
+            <link>https://www.bbc.co.uk/sport/av/cricket/49200276</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/av/cricket/49200276</guid>
+            <pubDate>Thu, 01 Aug 2019 18:59:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Ashes: England's Stuart Broad dismisses Australia's David Warner]]></title>
+            <description><![CDATA[England's Stuart Broad dismisses Australia opener David Warner for just two as the hosts get a crucial breakthrough in the opening Test of the 2019 Ashes.]]></description>
+            <link>https://www.bbc.co.uk/sport/av/cricket/49192595</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/av/cricket/49192595</guid>
+            <pubDate>Thu, 01 Aug 2019 10:38:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Rampant Aberdeen book date with Rijeka in Europa League]]></title>
+            <description><![CDATA[Sam Cosgrove scored a hat-trick as rampant Aberdeen earned a Europa League third qualifying round date with Rijeka by easing past Chikhura of Georgia.]]></description>
+            <link>https://www.bbc.co.uk/sport/football/49183651</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/49183651</guid>
+            <pubDate>Thu, 01 Aug 2019 20:34:59 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Rangers into next round of Europa League after knocking out Progres]]></title>
+            <description><![CDATA[Rangers will play Danish side Midtjylland in the Europa League third qualifying round after completing a comfortable 2-0 aggregate win over Progres Niederkorn.]]></description>
+            <link>https://www.bbc.co.uk/sport/football/49183658</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/49183658</guid>
+            <pubDate>Thu, 01 Aug 2019 19:49:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Red Sea Diving Resort: The holiday village run by spies]]></title>
+            <description><![CDATA[An idyllic holiday resort on the banks of the Red Sea was a base for Israeli spies with a secret mission.]]></description>
+            <link>https://www.bbc.co.uk/news/stories-43702764</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/stories-43702764</guid>
+            <pubDate>Wed, 18 Apr 2018 23:25:32 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

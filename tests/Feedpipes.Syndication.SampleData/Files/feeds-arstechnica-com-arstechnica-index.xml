@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.arstechnica.com/~d/styles/itemcontent.css"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" version="2.0">
+
+<channel>
+	<title>Ars Technica</title>
+	
+	<link>https://arstechnica.com</link>
+	<description>Serving the Technologist for more than a decade. IT news, reviews, and analysis.</description>
+	<lastBuildDate>Thu, 01 Aug 2019 21:09:54 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.8.3</generator>
+
+<image>
+	<url>https://cdn.arstechnica.net/wp-content/uploads/2016/10/cropped-ars-logo-512_480-32x32.png</url>
+	<title>Ars Technica</title>
+	<link>https://arstechnica.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.arstechnica.com/arstechnica/index" /><feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="arstechnica/index" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><item>
+		<title>Aerosol emissions may not cool the planet as much as we thought</title>
+		<link>https://arstechnica.com/?p=1544669</link>
+		<pubDate>Thu, 01 Aug 2019 21:09:54 +0000</pubDate>
+		<dc:creator><![CDATA[Cathleen O'Grady]]></dc:creator>
+				<category><![CDATA[Science]]></category>
+		<category><![CDATA[climate change]]></category>
+		<category><![CDATA[Earth science]]></category>
+		<category><![CDATA[geoscience]]></category>
+
+		<guid isPermaLink="false">https://arstechnica.com/?p=1544669</guid>
+		<description><![CDATA[They lead to slightly less watery clouds, which means less cooling than suspected.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left"><img src="https://cdn.arstechnica.net/wp-content/uploads/2019/08/30098513638_074868e0c3_k-800x767.jpg" alt="Clouds as seen from above."><p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2019/08/30098513638_074868e0c3_k.jpg" class="enlarge-link" data-height="1963" data-width="2047">Enlarge</a> <span class="sep">/</span> Taken on August 2, 2018, by an astronaut on the International Space Station, this image shows a pyrocumulus cloud rising from the Ferguson fire near Yosemite National Park. (credit: <a rel="nofollow" class="caption-link" href="https://www.flickr.com/photos/gsfc/30098513638/in/photolist-dALk2z-MRGKuj-dyKsM2-29ppatm-dyYdHz-28AhTrM-bUARKU-28AhTnt-291wy6k-29i9DHy-29i9DUq-2dddRPp-29U2fCN-xjWRPh-2d8P8uW-KJXWxQ-bLh86V-YoXDGg-28CLG4s-29DQEnY-29DQDru-KYdaJT-KYd9Ne-2a4y4qb-MwtR19-2c7ee21-2gkPu6W-QR4Ewy-QR4E51-2cVYhZ1-2adjVJu">NASA / Flickr</a>)</p>  </figure><div><a name="page-1"></a></div>
+<p>While humans have been enthusiastically overheating our planet for the last couple of centuries, other forms of our pollution have been quietly <a href="https://arstechnica.com/science/2016/03/our-aerosol-emissions-are-blocking-a-third-of-the-climate-warming/">offsetting a bit of the damage</a>, helping to cool the climate by affecting cloud formation.</p>
+<p>But the extent of the cooling provided by aerosols isn't thoroughly understood, and getting an accurate picture of it is crucial for accurate models of climate change. A paper in Nature this week uses a vast database of cloud data to show that aerosol particles may not lead to as much cooling as we thought.</p>
+<h2>Aerosols cool the planet, but how much?</h2>
+<p>Aerosols are tiny atmospheric particles of sea spray, smoke, dust, and other substances. They can come from natural sources like sandstorms, as well as from human activities like fossil fuel combustion.</p>
+</div><p><a href="https://arstechnica.com/?p=1544669#p3">Read 12 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1544669&comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=JO_DGjFKNIw:OAbGO3BNVu4:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=JO_DGjFKNIw:OAbGO3BNVu4:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=JO_DGjFKNIw:OAbGO3BNVu4:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=JO_DGjFKNIw:OAbGO3BNVu4:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=JO_DGjFKNIw:OAbGO3BNVu4:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=JO_DGjFKNIw:OAbGO3BNVu4:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div>]]></content:encoded>
+			</item>
+		<item>
+		<title>FBI says “extremists” motivated by Pizzagate, QAnon are threats</title>
+		<link>https://arstechnica.com/?p=1544539</link>
+		<pubDate>Thu, 01 Aug 2019 20:32:33 +0000</pubDate>
+		<dc:creator><![CDATA[Kate Cox]]></dc:creator>
+				<category><![CDATA[Policy]]></category>
+		<category><![CDATA[conspiracy theories]]></category>
+		<category><![CDATA[fbi]]></category>
+		<category><![CDATA[pizzagate]]></category>
+		<category><![CDATA[qanan]]></category>
+
+		<guid isPermaLink="false">https://arstechnica.com/?p=1544539</guid>
+		<description><![CDATA[For extremists, the Internet's craziest conspiracies inspire deadly violence.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left"><img src="https://cdn.arstechnica.net/wp-content/uploads/2018/07/GettyImages-974960808-800x533.jpg" alt="FBI seal hangs on a wall."><p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2018/07/GettyImages-974960808.jpg" class="enlarge-link" data-height="3456" data-width="5184">Enlarge</a> <span class="sep">/</span> The seal of the Federal Bureau of Investigation (FBI) hangs on a wall before a news conference at the FBI headquarters in Washington, DC, on Thursday, June 14, 2018. (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/collections/bloomberg">Al Drago/Bloomberg | Getty</a>)</p>  </figure><div><a name="page-1"></a></div>
+<p>The modern era of the Internet has given us a seemingly never-ending bounty of farfetched conspiracy theories. Some of the loudest of those fringe movements have become pervasive enough and serious enough to qualify as domestic terror threats, the FBI says.</p>
+<p>Yahoo News today <a href="https://news.yahoo.com/fbi-documents-conspiracy-theories-terrorism-160000507.html">published an internal FBI document it obtained</a> warning of "conspiracy-theory-driven domestic extremists."</p>
+<p>The <a href="https://www.scribd.com/document/420379775/FBI-Conspiracy-Theory-Redacted">memo</a>, dated May 30, describes "anti-government, identity-based, and fringe political conspiracy theories" as likely to motivate extremists "to commit criminal or violent activity."</p>
+</div><p><a href="https://arstechnica.com/?p=1544539#p3">Read 16 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1544539&comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=5WhplrJ1yfQ:BzHpF7ii1Fw:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=5WhplrJ1yfQ:BzHpF7ii1Fw:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=5WhplrJ1yfQ:BzHpF7ii1Fw:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=5WhplrJ1yfQ:BzHpF7ii1Fw:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=5WhplrJ1yfQ:BzHpF7ii1Fw:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=5WhplrJ1yfQ:BzHpF7ii1Fw:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div>]]></content:encoded>
+			</item>
+		<item>
+		<title>Cisco pays $8.6 million for selling surveillance system it knew was vulnerable</title>
+		<link>https://arstechnica.com/?p=1544671</link>
+		<pubDate>Thu, 01 Aug 2019 19:42:33 +0000</pubDate>
+		<dc:creator><![CDATA[Dan Goodin]]></dc:creator>
+				<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Cisco]]></category>
+		<category><![CDATA[lawsuits]]></category>
+		<category><![CDATA[vulnerabilities]]></category>
+		<category><![CDATA[whistleblower]]></category>
+
+		<guid isPermaLink="false">https://arstechnica.com/?p=1544671</guid>
+		<description><![CDATA[Whistleblower said Cisco waited more than 4 years to fix serious flaw.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left"><img src="https://cdn.arstechnica.net/wp-content/uploads/2019/08/cisco-vsm-800x595.jpg" alt="Cisco pays $8.6 million for selling surveillance system it knew was vulnerable"><p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2019/08/cisco-vsm.jpg" class="enlarge-link" data-height="835" data-width="1122">Enlarge</a> (credit: Cisco)</p>  </figure><div><a name="page-1"></a></div>
+<p>Cisco is paying $8.6 million to settle claims that it sold a video-surveillance product the company knew made federal and state agencies vulnerable to serious hacking attacks. This is believed to be the first time a company has made a payout under a federal whistleblower lawsuit alleging failure to have adequate security protections.</p>
+<p>The settlement stems from a Video Surveillance Manager package Cisco sold, starting more than a decade ago, to a raft of government agencies. These agencies include the Department of Homeland Security, the Secret Service, the Department of Defense Biometrics Taskforce, the Federal Emergency Management Agency, NASA, the Army, the Navy, the Air Force, and the Marine Corps. Known as VSM, the surveillance package was also used by government agencies in at least 15 states, including New York and California.</p>
+<p>A 2011 lawsuit unsealed on Wednesday alleged that Cisco knowingly sold VSM to customers even after learning of a critical vulnerability. This vulnerability allowed hackers to spy on video footage in real time, turn cameras on or off, delete footage, and tamper with locks and other physical security systems connected on the same network. The lawsuit was filed under the False Claims Act in the US District Court for the Western District of New York. The act allows individuals with inside knowledge to bring suits on behalf of the government when they believe a contractor is committing fraud.</p>
+</div><p><a href="https://arstechnica.com/?p=1544671#p3">Read 5 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1544671&comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=l-JQ9Qh0kRg:hAi0KOmAsL0:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=l-JQ9Qh0kRg:hAi0KOmAsL0:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=l-JQ9Qh0kRg:hAi0KOmAsL0:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=l-JQ9Qh0kRg:hAi0KOmAsL0:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=l-JQ9Qh0kRg:hAi0KOmAsL0:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=l-JQ9Qh0kRg:hAi0KOmAsL0:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div>]]></content:encoded>
+			</item>
+		<item>
+		<title>Ninja’ed: Microsoft swipes top game-streamer from Amazon’s Twitch</title>
+		<link>https://arstechnica.com/?p=1544645</link>
+		<pubDate>Thu, 01 Aug 2019 19:01:37 +0000</pubDate>
+		<dc:creator><![CDATA[Sam Machkovech]]></dc:creator>
+				<category><![CDATA[Gaming & Culture]]></category>
+		<category><![CDATA[game streaming]]></category>
+		<category><![CDATA[mixer]]></category>
+		<category><![CDATA[Ninja]]></category>
+		<category><![CDATA[twitch]]></category>
+		<category><![CDATA[XBox]]></category>
+
+		<guid isPermaLink="false">https://arstechnica.com/?p=1544645</guid>
+		<description><![CDATA[Will "get back in touch with my roots," does not say how much those roots are worth.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<p></p>
+<div class="image shortcode-img left medium">
+<a href="https://cdn.arstechnica.net/wp-content/uploads/2019/08/ninja-mixer.png"><img alt="Tyler &quot;Ninja&quot; Blevins sends his love to Microsoft's Mixer." src="https://cdn.arstechnica.net/wp-content/uploads/2019/08/ninja-mixer-300x283.png" srcset="https://cdn.arstechnica.net/wp-content/uploads/2019/08/ninja-mixer.png 2x"></a><p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2019/08/ninja-mixer.png" class="caption-link" rel="nofollow">Tyler "Ninja" Blevins sends his love to Microsoft's Mixer.</a> (credit: Mixer / Ninja)</p>
+</div>Over the past three years, Microsoft has been relatively quiet about growing <a href="https://arstechnica.com/gaming/2016/08/microsoft-acquires-game-streaming-site-will-integrate-features-into-its-games/">Mixer, the game-streaming site it acquired in 2016</a>. All that changed on Thursday when the site announced a move that might finally turn the tide in its direction: the site's first major talent acquisition.
+<p>Effective immediately, Tyler "Ninja" Blevins—arguably the most "household" name in the game-streaming universe—will stream his gameplay of popular shooters like <em>Fortnite</em> <a href="https://mixer.com/Ninja">exclusively on Mixer</a>. That means Blevins has left the West's largest game-streaming service, Amazon's Twitch.tv, after more than eight years on that site.</p>
+<p>While at Twitch, Blevins racked up some of the site's biggest simultaneous viewership numbers. That includes an explosion of activity after he hosted a surprise streaming session in March 2018 with musicians such as hip-hop phenom Drake. His Twitch run ends with a "follower" count of over 14 million, along with a continued run in the site's top-20 ranks in terms of simultaneous viewers and number of viewer hours accrued. However, Ninja's prior reign as Twitch's number-one streamer has faded in recent months, all while he continues to rack up endorsement deals and <a href="https://www.forbes.com/sites/dbloom/2019/06/19/fortnite-star-streamer-ninja-gets-book-series-deal-with-ten-speed-press">promote a series of upcoming books</a>.</p>
+</div><p><a href="https://arstechnica.com/?p=1544645#p3">Read 5 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1544645&comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=VnIWPx84CQc:RCs3ydXsESY:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=VnIWPx84CQc:RCs3ydXsESY:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=VnIWPx84CQc:RCs3ydXsESY:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=VnIWPx84CQc:RCs3ydXsESY:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=VnIWPx84CQc:RCs3ydXsESY:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=VnIWPx84CQc:RCs3ydXsESY:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div>]]></content:encoded>
+			</item>
+		<item>
+		<title>Dealmaster: Save $60 on CalDigit’s TS3 Plus, our favorite Thunderbolt 3 dock</title>
+		<link>https://arstechnica.com/?p=1544041</link>
+		<pubDate>Thu, 01 Aug 2019 17:30:56 +0000</pubDate>
+		<dc:creator><![CDATA[Ars Staff]]></dc:creator>
+				<category><![CDATA[Staff]]></category>
+		<category><![CDATA[dealmaster]]></category>
+
+		<guid isPermaLink="false">https://arstechnica.com/?p=1544041</guid>
+		<description><![CDATA[Plus deals on Apple Watches, wireless chargers, portable SSDs, and more.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left"><img src="https://cdn.arstechnica.net/wp-content/uploads/2019/08/dealmaster080119-800x444.jpg" alt="Dealmaster: Save $60 on CalDigit’s TS3 Plus, our favorite Thunderbolt 3 dock"><p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2019/08/dealmaster080119.jpg" class="enlarge-link" data-height="1200" data-width="2160">Enlarge</a> (credit: Valentina Palladino)</p>  </figure><div><a name="page-1"></a></div>
+<p>Greetings, Arsians! The Dealmaster is back with more deals to share today. Topping our list this time is <a href="https://arstechnica.com/features/2019/01/guidemaster-how-to-navigate-the-tricky-world-of-thunderbolt-3-and-usb-c-docks/" target="_blank" rel="noopener">our favorite Thunderbolt 3 dock</a>, which is discounted on Apple's online store. Now you can get the <a href="http://apple.sjv.io/c/1305166/435031/7613?subId1=DealmastersOnsitevalentina_palladinodealmaster070419&amp;u=https%3A%2F%2Fwww.apple.com%2Fshop%2Fproduct%2FHMX12ZM%2FA%2Fcaldigit-ts3-plus-dock" target="_blank" rel="noopener">CalDigit TS3 Plus</a> for just $249.95, which is $60 less than its normal price of $310. Apple has had the TS3 Plus dock for $250 for a few weeks now, but it remains the lowest price we've seen on this versatile and powerful docking station. It's currently our favorite Thunderbolt 3 dock for many reasons: we love its unassuming yet professional metal design, its 15-port array, its 85W power delivery, and its fast performance.</p>
+
+<p>If you have a PC that primarily uses USB-C or Thunderbolt 3 ports for connectivity, chances are that you have accessories and peripherals that aren't compatible thanks to their older connections. CalDigit's dock fixes that problem by giving you basically any port you need—it has multiple Thunderbolt 3, USB-C, and USB-A ports, as well as a DisplayPort, an SD card reader, and various audio in and out ports. It can also support two external 4K displays running at 60Hz, or one 5K display running at 60Hz.</p>
+<p>While $250 may still seem steep for a dock, most other Thunderbolt 3 docks that are actually worth buying are around that price as well. To put it in perspective, <a href="https://amzn.to/2IeCHwp" target="_blank" rel="noopener">our runner-up Thunderbolt 3 dock from Cable Matters</a> typically costs $239. If you're willing to spend $250 on a dock like this, we recommend snagging CalDigit's TS3 Plus while Apple has it at this low price.</p>
+</div><p><a href="https://arstechnica.com/?p=1544041#p3">Read 4 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1544041&comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=OkF801bNqAg:avwZ125j0pU:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=OkF801bNqAg:avwZ125j0pU:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=OkF801bNqAg:avwZ125j0pU:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=OkF801bNqAg:avwZ125j0pU:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=OkF801bNqAg:avwZ125j0pU:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=OkF801bNqAg:avwZ125j0pU:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div>]]></content:encoded>
+			</item>
+		<item>
+		<title>FCC finally orders ISPs to say exactly where they offer broadband</title>
+		<link>https://arstechnica.com/?p=1544549</link>
+		<pubDate>Thu, 01 Aug 2019 17:24:50 +0000</pubDate>
+		<dc:creator><![CDATA[Jon Brodkin]]></dc:creator>
+				<category><![CDATA[Policy]]></category>
+		<category><![CDATA[ajit pai]]></category>
+		<category><![CDATA[broadband mapping]]></category>
+		<category><![CDATA[FCC]]></category>
+
+		<guid isPermaLink="false">https://arstechnica.com/?p=1544549</guid>
+		<description><![CDATA[ISPs will have to submit geospatial maps of broadband service areas.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left"><img src="https://cdn.arstechnica.net/wp-content/uploads/2018/01/getty-us-network-map-800x553.jpg" alt="A map of the United States with lines and dots to represent broadband networks."><p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2018/01/getty-us-network-map.jpg" class="enlarge-link" data-height="1152" data-width="1667">Enlarge</a> (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/editorial-images">Getty Images | Bonilla1879</a>)</p>  </figure><div><a name="page-1"></a></div>
+<p>The Federal Communications Commission <a href="https://www.fcc.gov/document/fcc-improves-broadband-mapping">voted today</a> to collect more accurate data about which parts of the US have broadband and which parts lack high-speed connectivity. From now on, home Internet providers will have to give the FCC geospatial maps of where they provide service instead of merely reporting which census blocks they offer service in.</p>
+<p>The FCC's current broadband mapping system has serious limitations. The <a href="https://www.fcc.gov/economics-analytics/industry-analysis-division/form-477-resources">Form 477</a> data-collection program that requires ISPs to report census-block coverage lets an ISP count an entire census block as served even if it can serve just one home in the block. There are millions of census blocks across the US, and each one generally contains between 600 and 3,000 people.</p>
+<p>Perhaps even worse, ISPs can count a census block as served in some cases where they <em>don't</em> provide any broadband in the block. That's because the FCC <a href="https://transition.fcc.gov/form477/477inst.pdf">tells ISPs</a> to report where they could offer service "without an extraordinary commitment of resources." An ISP could thus count a census block as served if it's near its network facilities, but in practice ISPs have <a href="https://arstechnica.com/information-technology/2015/08/want-fiber-internet-thatll-be-383500-isp-tells-farm-owner/">charged</a> homeowners <a href="https://arstechnica.com/information-technology/2015/03/new-homeowner-selling-house-because-he-cant-get-comcast-internet/">tens of thousands</a> of dollars for <a href="https://arstechnica.com/information-technology/2017/01/when-home-internet-service-costs-5000-or-even-15000/">line extensions</a>.</p>
+</div><p><a href="https://arstechnica.com/?p=1544549#p3">Read 22 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1544549&comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=OQv741tBLdo:CmlBLdrrl40:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=OQv741tBLdo:CmlBLdrrl40:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=OQv741tBLdo:CmlBLdrrl40:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=OQv741tBLdo:CmlBLdrrl40:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=OQv741tBLdo:CmlBLdrrl40:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=OQv741tBLdo:CmlBLdrrl40:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div>]]></content:encoded>
+			</item>
+		<item>
+		<title>900hp hybrids are coming for the 2022 IndyCar season</title>
+		<link>https://arstechnica.com/?p=1544471</link>
+		<pubDate>Thu, 01 Aug 2019 16:50:47 +0000</pubDate>
+		<dc:creator><![CDATA[Jonathan M. Gitlin]]></dc:creator>
+				<category><![CDATA[Cars]]></category>
+		<category><![CDATA[hybrid car]]></category>
+		<category><![CDATA[IndyCar]]></category>
+
+		<guid isPermaLink="false">https://arstechnica.com/?p=1544471</guid>
+		<description><![CDATA[But oval races like the Indy 500 will probably do without.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left"><img src="https://cdn.arstechnica.net/wp-content/uploads/2019/08/GettyImages-1143189938-800x533.jpg" alt="The #7 Honda IndyCar of Marcus Ericsson races on the track during the IndyCar race at the Acura Grand Prix of Long Beach in 2019."><p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2019/08/GettyImages-1143189938.jpg" class="enlarge-link" data-height="3103" data-width="4655">Enlarge</a> <span class="sep">/</span> The #7 Honda IndyCar of Marcus Ericsson races on the track during the IndyCar race at the Acura Grand Prix of Long Beach in 2019. (credit: Brian Cleary | Getty Images)</p>  </figure><div><a name="page-1"></a></div>
+<p>I can't tell you who's going to win the 2022 IndyCar championship. I can't tell you which team they'll be driving for. But I can tell you that they'll do it with hybrid power. On Thursday morning, IndyCar together with Honda and Chevrolet (who supply the sport with engines) announced that the next iteration of its race car will boast a hybrid system to go with new turbocharged V6 engines. The series is aiming for a combined output of around 900hp (670kW) for the next-generation open-wheel cars, with an electric motor-generator unit contributing about 50hp (37kW) to the party.</p>
+<p>"It's an exciting time for IndyCar with the forthcoming evolution of the cars and innovations like the hybrid powertrain being incorporated into the new engine," IndyCar President Jay Frye said. “As we move toward the future, we will remain true to our racing roots of being fast, loud and authentic, and simultaneously have the ability to add hybrid technology that is an important element for the series and our engine manufacturers.”</p>
+<p>IndyCar says this will consist of a multiphase motor-generator unit, an inverter, and an electrical storage system. A similar move is already in store for the <a href="https://arstechnica.com/cars/2019/06/americas-sports-car-racing-series-embraces-being-green-again/">next generation of IMSA prototypes</a>, which will also be introduced in 2022. However, unlike in Formula 1 or the <a href="https://arstechnica.com/cars/2016/09/getting-to-know-the-1000hp-hybrids-of-the-world-endurance-championship/">World Endurance Championship</a>, every team will use the same components to help control costs in these instances. This does somewhat undermine arguments about technology transfer and road-relevance, although that's not really the preserve of open-wheel racing in the first place.</p>
+</div><p><a href="https://arstechnica.com/?p=1544471#p3">Read 5 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1544471&comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=1CCUlji4rpg:d6Cj2-sZgFc:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=1CCUlji4rpg:d6Cj2-sZgFc:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=1CCUlji4rpg:d6Cj2-sZgFc:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=1CCUlji4rpg:d6Cj2-sZgFc:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=1CCUlji4rpg:d6Cj2-sZgFc:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=1CCUlji4rpg:d6Cj2-sZgFc:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div>]]></content:encoded>
+			</item>
+		<item>
+		<title>Why is Electronic Arts almost completely ignoring the Switch?</title>
+		<link>https://arstechnica.com/?p=1544455</link>
+		<pubDate>Thu, 01 Aug 2019 16:45:40 +0000</pubDate>
+		<dc:creator><![CDATA[Kyle Orland]]></dc:creator>
+				<category><![CDATA[Gaming & Culture]]></category>
+		<category><![CDATA[EA]]></category>
+		<category><![CDATA[FIFA]]></category>
+		<category><![CDATA[madden]]></category>
+		<category><![CDATA[Nintendo]]></category>
+		<category><![CDATA[Switch]]></category>
+
+		<guid isPermaLink="false">https://arstechnica.com/?p=1544455</guid>
+		<description><![CDATA[CEO says Switch owners often prefer to play on their other consoles.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left"><img src="https://cdn.arstechnica.net/wp-content/uploads/2019/08/58992_14_switch-very-difficult-ea-dev_full-800x450.jpg" alt="Over two years after EA said it was &quot;bullish&quot; on Switch, &lt;em&gt;FIFA&lt;/em&gt; remains company's only major franchise on the system."><p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2019/08/58992_14_switch-very-difficult-ea-dev_full.jpg" class="enlarge-link" data-height="675" data-width="1200">Enlarge</a> <span class="sep">/</span> Over two years after EA said it was "bullish" on Switch, <em>FIFA</em> remains company's only major franchise on the system. </p>  </figure><div><a name="page-1"></a></div>
+<p>Shortly after the Nintendo Switch's 2017 launch, we <a href="https://arstechnica.com/gaming/2017/07/where-are-all-the-nintendo-switch-game-ports/">started to wonder</a> why more games weren't being ported to the hot-selling system. Two years later, those concerns have grown largely moot as major titles from <a href="https://arstechnica.com/gaming/2017/11/dooms-switch-port-playable-but-a-distinct-visual-downgrade/"><em>Doom</em></a> (2016) and <a href="https://arstechnica.com/gaming/2018/09/diablo-3-untitled-goose-game-lead-pax-wests-nintendo-switch-lineup/"><em>Diablo 3,</em></a> to <a href="https://arstechnica.com/gaming/2018/01/dark-souls-donkey-kong-country-lead-a-wave-of-nintendo-switch-ports/"><em>Dark Souls</em></a> and <a href="https://arstechnica.com/gaming/2018/06/fortnite-among-the-switch-ports-reportedly-coming-to-e3/"><em>Fortnite,</em></a> to <a href="https://arstechnica.com/gaming/2018/07/nintendo-wants-two-to-three-times-as-many-indie-games-on-switch/?comments=1&amp;post=35636755"><em>Stardew Valley</em></a> and <a href="https://arstechnica.com/gaming/2017/05/minecraft-on-nintendo-switch-does-the-trick-hides-most-of-its-compromises/"><em>Minecraft</em></a>, and many, many more have found a happy home on Nintendo's hybrid system.</p>
+<p>One of the biggest exceptions to this trend, though, has been mega-publisher Electronic Arts. Of <a href="https://en.wikipedia.org/wiki/Category:Electronic_Arts_franchises">its many classic and continuing franchises</a>, only <em>FIFA</em> has been made available on the Switch thus far (alongside two indie games published under the EA Partners label). Classic and ongoing franchises like <em>Need for Speed</em>, <em>Mass Effect</em>, <em>Dead Space</em>, <em>Dragon Age</em>, <em>Battlefield</em>, <em>Madden</em>, and more have remained stubbornly inaccessible to Switch owners. That's especially surprising when you consider that EA CEO Andrew Wilson <a href="https://arstechnica.com/gaming/2017/05/ea-goes-from-cautious-to-bullish-on-nintendo-switch-support/">said shortly after the Switch's launch</a> that the company "continue[s] to be bullish on it and [is] looking at other titles that we might bring to the Switch."</p>
+<p>At least one analyst noticed this inconsistency and <a href="https://www.fool.com/earnings/call-transcripts/2019/07/31/electronic-arts-ea-q1-2020-earnings-call-transcrip.aspx">used an earnings call this week</a> to point out specifically that he thought EA's <em>Sims</em> franchise would be a natural fit for the Switch. "I'm curious how you guys determine which platforms to bring the game to or games to. And is there any reason why you wouldn't want to bring that one on there?" he asked.</p>
+</div><p><a href="https://arstechnica.com/?p=1544455#p3">Read 8 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1544455&comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=Uw6UyVNwRJ4:q3qdfewDKCM:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=Uw6UyVNwRJ4:q3qdfewDKCM:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=Uw6UyVNwRJ4:q3qdfewDKCM:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=Uw6UyVNwRJ4:q3qdfewDKCM:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=Uw6UyVNwRJ4:q3qdfewDKCM:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=Uw6UyVNwRJ4:q3qdfewDKCM:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div>]]></content:encoded>
+			</item>
+		<item>
+		<title>Brace for controversy: Edward Snowden has written a memoir</title>
+		<link>https://arstechnica.com/?p=1544411</link>
+		<pubDate>Thu, 01 Aug 2019 15:52:57 +0000</pubDate>
+		<dc:creator><![CDATA[Sean Gallagher]]></dc:creator>
+				<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Edward Snowden]]></category>
+
+		<guid isPermaLink="false">https://arstechnica.com/?p=1544411</guid>
+		<description><![CDATA[<em>Permanent Record</em> will go on sale in September.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left"><img src="https://cdn.arstechnica.net/wp-content/uploads/2019/08/snowenbookj-800x558.jpg" alt="This is going to go down on your permanent record."><p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2019/08/snowenbookj.jpg" class="enlarge-link" data-height="787" data-width="1129">Enlarge</a> <span class="sep">/</span> This is going to go down on your permanent record. (credit: McMillan Publishers)</p>  </figure><div><a name="page-1"></a></div>
+<p><a href="https://arstechnica.com/tech-policy/2018/11/the-snowden-legacy-part-one-whats-changed-really/">Edward Snowden</a>, the former CIA employee and National Security Agency contractor who spilled some of the deepest secrets of the US government's electronic surveillance operations, has written a memoir. <i>Permanent Record</i>, published by MacMillan Publishers' imprint Metropolitan Books, will go on sale on September 17, and it's now available for pre-orders—as Snowden himself <a href="https://twitter.com/Snowden/status/1156916530527035393">announced via his Twitter account</a> today.</p>
+<p>Snowden's memoir will be released simultaneously in more than 20 countries, and pre-orders are available in the US, the United Kingdom, and Germany. According to a Metropolitan spokesperson, "In <i>Permanent Record</i>, [Snowden] tells his story for the very first time, bringing the reader along as he helps to create [NSA's] system of mass surveillance, and then experiences the crisis of conscience that led him to try to bring it down."</p>
+<p>In a statement on the book, MacMillan CEO John Sargent said:</p>
+</div><p><a href="https://arstechnica.com/?p=1544411#p3">Read 5 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1544411&comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=7tumNkX0JeM:-aoulsvMljw:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=7tumNkX0JeM:-aoulsvMljw:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=7tumNkX0JeM:-aoulsvMljw:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=7tumNkX0JeM:-aoulsvMljw:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=7tumNkX0JeM:-aoulsvMljw:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=7tumNkX0JeM:-aoulsvMljw:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div>]]></content:encoded>
+			</item>
+		<item>
+		<title>The SLS rocket may have curbed development of on-orbit refueling for a decade</title>
+		<link>https://arstechnica.com/?p=1544259</link>
+		<pubDate>Thu, 01 Aug 2019 14:42:15 +0000</pubDate>
+		<dc:creator><![CDATA[Eric Berger]]></dc:creator>
+				<category><![CDATA[Science]]></category>
+
+		<guid isPermaLink="false">https://arstechnica.com/?p=1544259</guid>
+		<description><![CDATA["Boeing became furious and tried to get me fired."]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left"><img src="https://cdn.arstechnica.net/wp-content/uploads/2019/08/MAF_20190512_P_LOX-SQ-into-Cell-D-161_large-800x533.jpg" alt="The Space Launch System (SLS) rocket’s liquid oxygen tank structural test article was manufactured and stacked in June 2019 at NASA’s Michoud Assembly Facility in New Orleans. "><p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2019/08/MAF_20190512_P_LOX-SQ-into-Cell-D-161_large.jpg" class="enlarge-link" data-height="1280" data-width="1920">Enlarge</a> <span class="sep">/</span> The Space Launch System (SLS) rocket’s liquid oxygen tank structural test article was manufactured and stacked in June 2019 at NASA’s Michoud Assembly Facility in New Orleans.  (credit: NASA)</p>  </figure><div><a name="page-1"></a></div>
+<p>Nearly a decade ago, when Congress directed NASA to build a large rocket based upon space shuttle-era technology called the Space Launch System, the agency also quietly put on the back burner its work to develop in-space refueling technology.</p>
+<p>It has long been rumored within aerospace circles that funding for NASA's efforts to develop so-called propellant depots, and the capability to store and transfer cryogenic rocket fuels in orbit, was curbed due to the threat it posed to the SLS rocket and its prime contractor, Boeing.</p>
+
+<p>After all, if smaller, cheaper rockets could launch rocket fuel and stash it in low-Earth orbit for staged missions to the Moon or beyond, why should NASA spend $2 billion a year annually to develop <a href="https://arstechnica.com/science/2016/09/how-i-learned-to-stop-worrying-and-love-the-big-nasa-rocket/">the SLS rocket</a>? Why not just use that money to buy commercial launches, starting with the Delta IV Heavy and later the Falcon Heavy, and build an exploration program around existing capabilities? It would likely be quicker and cheaper.</p>
+</div><p><a href="https://arstechnica.com/?p=1544259#p3">Read 9 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1544259&comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=spXFLQGVE-k:A7jTduM6yu8:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=spXFLQGVE-k:A7jTduM6yu8:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=spXFLQGVE-k:A7jTduM6yu8:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=spXFLQGVE-k:A7jTduM6yu8:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=spXFLQGVE-k:A7jTduM6yu8:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=spXFLQGVE-k:A7jTduM6yu8:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div>]]></content:encoded>
+			</item>
+		<item>
+		<title>Ars reviews three cell signal boosters—and they actually work</title>
+		<link>https://arstechnica.com/?p=1533951</link>
+		<pubDate>Thu, 01 Aug 2019 13:00:20 +0000</pubDate>
+		<dc:creator><![CDATA[Jim Salter]]></dc:creator>
+				<category><![CDATA[Features]]></category>
+		<category><![CDATA[Tech]]></category>
+
+		<guid isPermaLink="false">https://arstechnica.com/?p=1533951</guid>
+		<description><![CDATA[Cellular signal boosters do work—but are they worth the cost?]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left"><img src="https://cdn.arstechnica.net/wp-content/uploads/2019/07/Cel-Fi-Pro-action-shot-retransmitter-800x600.jpg" alt="This Cel-Fi Pro coverage unit is in my downstairs den, receiving LTE signal from the network unit upstairs in my living room."><p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2019/07/Cel-Fi-Pro-action-shot-retransmitter.jpg" class="enlarge-link" data-height="3024" data-width="4032">Enlarge</a> <span class="sep">/</span> This Cel-Fi Pro coverage unit is in my downstairs den, receiving LTE signal from the network unit upstairs in my living room. (credit: Jim Salter)</p>  </figure><div><a name="page-1"></a></div>
+<p>I've spent a lot of time talking about <a href="https://arstechnica.com/information-technology/2017/03/802-eleventy-what-a-deep-dive-into-why-wi-fi-kind-of-sucks/">how Wi-Fi works</a> and reviewing various products aimed at <a href="https://arstechnica.com/features/2018/06/exclusive-plumes-new-superpod-hardware-is-here-and-its-fast/">fixing Wi-Fi</a> dead spots. But today, in our increasingly need-to-always-connect world, what do you do if you've got an LTE (cellular service) dead spot?</p>
+<p>Searching Amazon for cellular signal boosters feels like navigating a minefield. Prices range anywhere from $180 to $1,000 and up, and reviews tend to be all over the place for every device offered. Serendipitously, the owner of <a href="http://www.repeaterstore.com">www.repeaterstore.com</a> reached out to me while I was dithering, and the site offered to let me test a few of the signal boosters they carry. I described two problem areas to him as fertile grounds for testing—my partial basement floor, and my parents' rural house—and we picked out three products to test.</p>
+<p>Two of those products—<a href="https://www.repeaterstore.com/products/cel-fi-go-x?variant=46279672714">Cel-Fi Go X</a> ($899), and <a href="https://www.repeaterstore.com/products/surecall-fusion4home?variant=16856846599">SureCall Fusion4Home</a> ($499)—are products with outdoor Yagi antennas that should be roof or pole mounted and aimed directly at a nearby cell tower. From the outdoor Yagi, a leg of coax cabling needs to be routed indoors and fed to the signal booster, which then has an output port which connects to an indoor panel antenna via another coax run. Since the LTE signal is pretty poor everywhere in my parents' house, kits like these were their best bet.</p>
+</div><p><a href="https://arstechnica.com/?p=1533951#p3">Read 23 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1533951&comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=TVaXN91me78:Gecg1q54ppQ:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=TVaXN91me78:Gecg1q54ppQ:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=TVaXN91me78:Gecg1q54ppQ:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=TVaXN91me78:Gecg1q54ppQ:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=TVaXN91me78:Gecg1q54ppQ:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=TVaXN91me78:Gecg1q54ppQ:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div>]]></content:encoded>
+			</item>
+		<item>
+		<title>Apple’s AirDrop and password sharing features can leak iPhone numbers</title>
+		<link>https://arstechnica.com/?p=1544215</link>
+		<pubDate>Thu, 01 Aug 2019 11:11:32 +0000</pubDate>
+		<dc:creator><![CDATA[Dan Goodin]]></dc:creator>
+				<category><![CDATA[Biz & IT]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[bluetooth]]></category>
+		<category><![CDATA[iPhones]]></category>
+		<category><![CDATA[phone numbers]]></category>
+		<category><![CDATA[privacy]]></category>
+
+		<guid isPermaLink="false">https://arstechnica.com/?p=1544215</guid>
+		<description><![CDATA[Partial hashes broadcast in Bluetooth can be converted to phone numbers, researchers say.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left"><img src="https://cdn.arstechnica.net/wp-content/uploads/2019/02/iPhone-XR-front-screen-on-800x534-800x534.jpg" alt="Apple’s AirDrop and password sharing features can leak iPhone numbers"><p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2019/02/iPhone-XR-front-screen-on-800x534.jpg" class="enlarge-link" data-height="534" data-width="800">Enlarge</a> (credit: Valentina Palladino)</p>  </figure><div><a name="page-1"></a></div>
+<p>Apple makes it easy for people to <a href="https://arstechnica.com/information-technology/2019/06/the-clever-cryptography-behind-apples-find-my-feature/">locate lost iPhones</a>, <a href="https://support.apple.com/en-us/HT209368">share Wi-Fi passwords</a>, and use AirDrop to <a href="https://support.apple.com/en-us/HT204144">send files to other nearby devices</a>. A <a href="https://hexway.io/blog/apple-bleee/">recently published report</a> demonstrates how snoops can capitalize on these features to scoop up a wealth of potentially sensitive data that in some cases includes phone numbers.</p>
+<p>Simply having Bluetooth turned on broadcasts a host of device details, including its name, whether it's in use, if Wi-Fi is turned on, the OS version it’s running, and information about the battery. More concerning: using AirDrop or Wi-Fi password sharing broadcasts a partial cryptographic hash that can easily be converted into an iPhone’s complete phone number. The information—which in the case of a Mac also includes a static MAC address that can be used as a unique identifier—is sent in Bluetooth Low Energy packets.</p>
+<p>The information disclosed may not be a big deal in many settings, such as work places where everyone knows everyone anyway. The exposure may be creepier in public places, such as a subway, a bar, or a department store, where anyone with some low-cost hardware and a little know-how can collect the details of all Apple devices that have BLE turned on. The data could also be a boon to companies that <a href="https://arstechnica.com/tech-policy/2015/04/creepy-but-legal-phone-tracking-company-gets-wrist-slap-for-empty-privacy-promise/">track customers</a> as they move through retail outlets.</p>
+</div><p><a href="https://arstechnica.com/?p=1544215#p3">Read 6 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1544215&comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=vnYI-TTKrJE:SBZAY61j2QA:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=vnYI-TTKrJE:SBZAY61j2QA:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=vnYI-TTKrJE:SBZAY61j2QA:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=vnYI-TTKrJE:SBZAY61j2QA:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=vnYI-TTKrJE:SBZAY61j2QA:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=vnYI-TTKrJE:SBZAY61j2QA:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div>]]></content:encoded>
+			</item>
+		<item>
+		<title>No marshmallows here: Veronica Mars season 4 pulls no punches</title>
+		<link>https://arstechnica.com/?p=1543029</link>
+		<pubDate>Wed, 31 Jul 2019 23:28:13 +0000</pubDate>
+		<dc:creator><![CDATA[Samuel Axon]]></dc:creator>
+				<category><![CDATA[Gaming & Culture]]></category>
+		<category><![CDATA[culture]]></category>
+		<category><![CDATA[Hulu]]></category>
+		<category><![CDATA[Kristen Bell]]></category>
+		<category><![CDATA[Rob Thomas]]></category>
+		<category><![CDATA[TV]]></category>
+		<category><![CDATA[Veronica Mars]]></category>
+		<category><![CDATA[Veronica Mars season 4]]></category>
+
+		<guid isPermaLink="false">https://arstechnica.com/?p=1543029</guid>
+		<description><![CDATA[A pre-prestige show turns prestige TV, and it works. But it's also different.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left"><img src="https://cdn.arstechnica.net/wp-content/uploads/2019/06/veronica-mars-key-art.jpg" alt="Hulu's poster and key art for the new season. It's been surreal seeing public transit ads for this long-dead, personal favorite show around town."><p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2019/06/veronica-mars-key-art.jpg" class="enlarge-link" data-height="370" data-width="650">Enlarge</a> <span class="sep">/</span> Hulu's poster and key art for the new season. It's been surreal seeing public transit ads for this long-dead, personal favorite show around town. (credit: Hulu)</p>  </figure><div><a name="page-1"></a></div>
+<p><em>Cue Air's “<a href="https://www.youtube.com/watch?v=wLmfNFVDa_U">La femme d’argent</a>.”</em></p>
+<p><em>Ah, the optimism of youth. Sure, 2004 Veronica Mars, your best friend was murdered, your high school sweetheart dumped you, your family was publicly shamed, your father lost his job, your mother ran out on you, and your friends have all banished you from the inner circle forever—all before your first episode even began.</em></p>
+<p><em>But those rock-and-roll clothes, that air of earned cynicism and suspicion, and your don’t-mess-with-me attitude aren’t fooling anyone. Deep down, you’re a marshmallow, and you always rise above. And if you can focus on the fun and sweetness even amidst all that, maybe all of us watching can, too. It’s a big part of the appeal for your cult following.</em></p>
+</div><p><a href="https://arstechnica.com/?p=1543029#p3">Read 30 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1543029&comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=fu0FQVjlgk0:ZIivxDOdiaI:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=fu0FQVjlgk0:ZIivxDOdiaI:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=fu0FQVjlgk0:ZIivxDOdiaI:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=fu0FQVjlgk0:ZIivxDOdiaI:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=fu0FQVjlgk0:ZIivxDOdiaI:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=fu0FQVjlgk0:ZIivxDOdiaI:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div>]]></content:encoded>
+			</item>
+		<item>
+		<title>One chip to rule them all: It natively runs all types of AI software</title>
+		<link>https://arstechnica.com/?p=1544141</link>
+		<pubDate>Wed, 31 Jul 2019 22:10:33 +0000</pubDate>
+		<dc:creator><![CDATA[John Timmer]]></dc:creator>
+				<category><![CDATA[Science]]></category>
+		<category><![CDATA[AI]]></category>
+		<category><![CDATA[Computer science]]></category>
+		<category><![CDATA[processors]]></category>
+
+		<guid isPermaLink="false">https://arstechnica.com/?p=1544141</guid>
+		<description><![CDATA[Machine learning and artificial neurons right at home on new chip.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left"><img src="https://cdn.arstechnica.net/wp-content/uploads/2019/07/Screen-Shot-2019-07-31-at-4.46.05-PM-800x443.png" alt="Skynet lite? The Tianjic-controlled bike stalks one of its creators."><p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2019/07/Screen-Shot-2019-07-31-at-4.46.05-PM.png" class="enlarge-link" data-height="525" data-width="949">Enlarge</a> <span class="sep">/</span> Skynet lite? The Tianjic-controlled bike stalks one of its creators. (credit: <a rel="nofollow" class="caption-link" href="https://www.nature.com/articles/s41586-019-1424-8">Jing Pei et al.</a>)</p>  </figure><div><a name="page-1"></a></div>
+<p>We tend to think of AI as a monolithic entity, but it has actually developed along multiple branches. One of the main branches involves performing traditional calculations but feeding the results into another layer that takes input from multiple calculations and weighs them before performing its calculations and forwarding those on. Another branch involves mimicking the behavior of traditional neurons: many small units communicating in bursts of activity called spikes, and keeping track of the history of past activity.</p>
+<p>Each of these, in turn, has different branches based on the structure of its layers and communications networks, types of calculations performed, and so on. Rather than being able to act in a manner we would recognize as intelligent, many of these are very good at specialized problems, like pattern recognition or playing poker. And processors that are meant to accelerate the performance of the software can typically only improve a subset of them.</p>
+<p>That last division may have come to an end with the development of Tianjic by a large team of researchers primarily based in China. Tianjic is engineered so that its individual processing units can switch from spiking communications back to binary and perform a large range of calculations, in almost all cases faster and more efficiently than a GPU can. To demonstrate the chip's abilities, the researchers threw together a self-driving bicycle that ran three different AI algorithms on a single chip simultaneously.</p>
+</div><p><a href="https://arstechnica.com/?p=1544141#p3">Read 16 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1544141&comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=_bkkD_NGu54:KVwQwWBe1MU:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=_bkkD_NGu54:KVwQwWBe1MU:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=_bkkD_NGu54:KVwQwWBe1MU:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=_bkkD_NGu54:KVwQwWBe1MU:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=_bkkD_NGu54:KVwQwWBe1MU:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=_bkkD_NGu54:KVwQwWBe1MU:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div>]]></content:encoded>
+			</item>
+		<item>
+		<title>Gore-filled Little Monsters red band trailer is delightfully demented fun</title>
+		<link>https://arstechnica.com/?p=1544083</link>
+		<pubDate>Wed, 31 Jul 2019 20:24:13 +0000</pubDate>
+		<dc:creator><![CDATA[Jennifer Ouellette]]></dc:creator>
+				<category><![CDATA[Gaming & Culture]]></category>
+		<category><![CDATA[entertainment]]></category>
+		<category><![CDATA[film]]></category>
+		<category><![CDATA[Little Monsters]]></category>
+		<category><![CDATA[Trailers]]></category>
+		<category><![CDATA[zombies]]></category>
+
+		<guid isPermaLink="false">https://arstechnica.com/?p=1544083</guid>
+		<description><![CDATA[Let's sing "If You're Happy and You Know It" and pretend the zombies aren't real.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+
+
+
+
+
+<div><a name="page-1"></a></div>
+<div class="video">
+<div class="wrapper" style="display:block" type="text/html" width="980" height="550" src="https://www.youtube.com/embed/8d1KP-OhBP4?start=0&amp;wmode=transparent" frameborder="0" allowfullscreen></div>
+<p class="caption" style="font-size:0.8em">Lupita Nyong’o plays a kindergarten teacher protecting her kids from a zombie outbreak in <em>Little Monsters</em>. </p>
+</div>
+<p>It's turning out to be a very good year for zombie comedy. We had Jim Jarmusch's deadpan <a href="https://arstechnica.com/gaming/2019/06/review-director-jim-jarmusch-puts-his-deadpan-stamp-on-the-dead-dont-die/"><em>The Dead Don't Die</em></a> in June, and the long-awaited <em>Zombieland 2: Double Tap</em> is <a href="https://arstechnica.com/gaming/2019/07/zombies-have-evolved-to-be-harder-to-kill-in-zombieland-2-double-tap-trailer/">coming this fall.</a> And now we have the red band trailer for <em>Little Monsters</em>, Australian Director Abe Forsythe's <a href="https://arstechnica.com/gaming/2019/02/check-out-the-first-footage-from-zombie-black-comedy-little-monsters/">new black comedy</a> that debuted at the Sundance Film Festival earlier this year.</p>
+<p>Kindergarten teacher Miss Caroline (Lupita Nyong'o) takes her young charges on a school field trip to Pleasant Valley Farm. Tagging along as a chaperone is Dave (Alexander England), a failed musician whose nephew is in her class. Dave has a romantic interest in Miss Caroline and is chagrined to discover that he has a rival for her affections: a famous children's TV personality, Teddy McGiggle (Josh Gad), who also happens to be at the farm organizing all the planned activities.</p>
+<p>But something has gone terribly wrong at a nearby military base, and a zombie outbreak turns the innocent excursion into a bloody fight for survival. Miss Caroline, Dave, and Teddy join forces to make sure the kids don't get eaten—and hopefully aren't traumatized for life by the sight of the ravenous undead.</p>
+</div><p><a href="https://arstechnica.com/?p=1544083#p3">Read 3 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1544083&comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=gdBTozM3Jzw:kMxpwUlZb_k:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=gdBTozM3Jzw:kMxpwUlZb_k:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=gdBTozM3Jzw:kMxpwUlZb_k:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=gdBTozM3Jzw:kMxpwUlZb_k:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=gdBTozM3Jzw:kMxpwUlZb_k:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=gdBTozM3Jzw:kMxpwUlZb_k:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div>]]></content:encoded>
+			</item>
+		<item>
+		<title>TV networks sue nonprofit to kill free TV service</title>
+		<link>https://arstechnica.com/?p=1544045</link>
+		<pubDate>Wed, 31 Jul 2019 19:40:03 +0000</pubDate>
+		<dc:creator><![CDATA[Jon Brodkin]]></dc:creator>
+				<category><![CDATA[Policy]]></category>
+		<category><![CDATA[AT&T]]></category>
+		<category><![CDATA[DIRECTV]]></category>
+		<category><![CDATA[DISH]]></category>
+		<category><![CDATA[locast]]></category>
+
+		<guid isPermaLink="false">https://arstechnica.com/?p=1544045</guid>
+		<description><![CDATA[Locast, an AT&#38;T-funded nonprofit, retransmits local TV over the Internet.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left"><img src="https://cdn.arstechnica.net/wp-content/uploads/2019/07/getty-free-tv-800x564.jpg" alt="A TV set left on a sidewalk with a sign that says, " free working tv.><p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2019/07/getty-free-tv.jpg" class="enlarge-link" data-height="802" data-width="1137">Enlarge</a> (credit: Getty Images | Jacobo Zanella)</p>  </figure><div><a name="page-1"></a></div>
+<p>The major broadcast networks today sued the makers of <a href="https://www.locast.org/">Locast</a>, a nonprofit organization that provides free online access to broadcast TV stations. The <a href="https://www.courtlistener.com/recap/gov.uscourts.nysd.520217/gov.uscourts.nysd.520217.1.0_1.pdf">lawsuit</a> filed by ABC, CBS, Fox, and NBC seeks financial damages and a permanent injunction that would shut Locast down.</p>
+<p>Broadcast TV networks are available for free over the air with an antenna. But selling the rights to retransmit those signals in other ways is a big business. Broadcasters <a href="https://arstechnica.com/tech-policy/2019/07/tv-blackouts-hit-record-high-as-customers-get-screwed-by-industry-squabbles/">reportedly collected</a> $10.1 billion in 2018 via retransmission fees they charge cable and satellite TV companies.</p>
+<p>TV providers routinely pass this cost along to consumers in the form of "Broadcast TV" fees. Pay-TV providers use these fees to raise the actual cost of service above their advertised prices and to raise customers' prices even while they're <a href="https://arstechnica.com/tech-policy/2018/11/comcasts-controversial-tv-and-sports-fees-rise-again-hit-18-25-a-month/">under contract</a>.</p>
+</div><p><a href="https://arstechnica.com/?p=1544045#p3">Read 26 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1544045&comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=lSnorHi1igs:vGs90o-QHJo:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=lSnorHi1igs:vGs90o-QHJo:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=lSnorHi1igs:vGs90o-QHJo:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=lSnorHi1igs:vGs90o-QHJo:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=lSnorHi1igs:vGs90o-QHJo:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=lSnorHi1igs:vGs90o-QHJo:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div>]]></content:encoded>
+			</item>
+		<item>
+		<title>You’re probably not going to get your $125 from the Equifax settlement</title>
+		<link>https://arstechnica.com/?p=1544039</link>
+		<pubDate>Wed, 31 Jul 2019 19:30:49 +0000</pubDate>
+		<dc:creator><![CDATA[Kate Cox]]></dc:creator>
+				<category><![CDATA[Policy]]></category>
+		<category><![CDATA[Equifax]]></category>
+		<category><![CDATA[federal trade commission]]></category>
+		<category><![CDATA[FTC]]></category>
+		<category><![CDATA[settlements]]></category>
+
+		<guid isPermaLink="false">https://arstechnica.com/?p=1544039</guid>
+		<description><![CDATA[Equifax has somehow found a way to make the settlement <em>even more</em> disappointing.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left"><img src="https://cdn.arstechnica.net/wp-content/uploads/2017/09/GettyImages-847486100-800x533.jpg" alt="A monitor displays Equifax Inc. signage on the floor of the New York Stock Exchange (NYSE) in New York on Friday, September 15, 2017."><p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2017/09/GettyImages-847486100.jpg" class="enlarge-link" data-height="3840" data-width="5760">Enlarge</a> <span class="sep">/</span> A monitor displays Equifax Inc. signage on the floor of the New York Stock Exchange (NYSE) in New York on Friday, September 15, 2017. (credit: <a rel="nofollow" class="caption-link" href="http://www.gettyimages.com/collections/bloomberg">Michael Nagle/Bloomberg | Getty Images</a>)</p>  </figure><div><a name="page-1"></a></div>
+<p>If you haven't already filed a claim for <a href="https://arstechnica.com/tech-policy/2019/07/you-can-go-claim-at-least-125-from-the-equifax-settlement-right-now/">cash compensation</a> in response to the Equifax breach, you might be out of luck. The company is no longer offering payouts in lieu of credit monitoring.</p>
+<p>The <a href="https://www.ftc.gov/enforcement/cases-proceedings/refunds/equifax-data-breach-settlement">Federal Trade Commission page</a> devoted to the <a href="https://arstechnica.com/tech-policy/2019/07/equifax-to-pay-575m-for-data-breach-promises-to-protect-data-next-time/">settlement it announced with Equifax</a> last week was updated July 31 to say that any consumer affected can claim up to 10 years of free credit monitoring. "Previously, a cash payment was identified as an option," the site now adds, "but there are limited funds available."</p>
+<p>The FTC said in a statement that "public response to the settlement has been overwhelming." In a separate <a href="https://www.consumer.ftc.gov/blog/2019/07/equifax-data-breach-pick-free-credit-monitoring">blog post</a>, the commission said the "unexpected number of claims" would result in claimants not getting the money they thought.</p>
+</div><p><a href="https://arstechnica.com/?p=1544039#p3">Read 7 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1544039&comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=IKnzNfqor40:nxFnP-MTnNg:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=IKnzNfqor40:nxFnP-MTnNg:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=IKnzNfqor40:nxFnP-MTnNg:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=IKnzNfqor40:nxFnP-MTnNg:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=IKnzNfqor40:nxFnP-MTnNg:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=IKnzNfqor40:nxFnP-MTnNg:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div>]]></content:encoded>
+			</item>
+		<item>
+		<title>Samsung won’t let Android tablets die, announces the Galaxy Tab S6</title>
+		<link>https://arstechnica.com/?p=1543883</link>
+		<pubDate>Wed, 31 Jul 2019 18:19:31 +0000</pubDate>
+		<dc:creator><![CDATA[Ron Amadeo]]></dc:creator>
+				<category><![CDATA[Tech]]></category>
+
+		<guid isPermaLink="false">https://arstechnica.com/?p=1543883</guid>
+		<description><![CDATA[Would you believe Samsung is removing the headphone jack from tablets?]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+
+
+
+
+
+<div><a name="page-1"></a></div>
+      <ul class="gallery shortcode-gallery gallery-wide">
+<li>
+        <div class="gallery-item-content">  
+        <div class="gallery-image"><img src="https://cdn.arstechnica.net/wp-content/uploads/2019/07/Galaxy_TabS6_GreyTablet_FuchsiaFlower_2P_RGB-980x693.jpg" alt=""></div>
+        <p>
+          The Galaxy Tab S6 with keyboard case.                   </p>
+        </div>
+      </li>
+      </ul>
+<p>Samsung is still not giving up on the Android tablet market. Today the company <a href="https://news.samsung.com/us/samsung-galaxy-tab-s6-new-tablet-enhances-creativity-and-productivity/">announced</a> the Samsung Galaxy Tab S6, its latest high-end tablet, for $649.</p>
+<p>The Samsung Tab S6 features a 10.5-inch 2560×1600 OLED display, a 2.84GHz Snapdragon 855, and a 7040mAh battery. The base version has 6GB of RAM and 128GB of storage, with a higher tier of 8GB of RAM and 256GB of storage. For cameras, there's an 8MP front camera, while the rear gets a 13MP main camera and a 5MP wide-angle lens. The device is down to 5.7mm thick and weighs 420 grams. This is Samsung's first-ever tablet with an in-screen fingerprint reader. Interestingly, it's an optical reader instead of the ultrasonic tech that the Galaxy S10 uses.</p>
+<p>Somehow, on a 10-inch tablet, Samsung couldn't find room for a headphone jack. Even Apple, which ditched the headphone jack two years ago, still puts a headphone jack on iPads. Samsung is apparently declaring war on the headphone jack with this round of updates—the Galaxy Note 10, launching next week, is expected to dump the headphone jack, too.</p>
+</div><p><a href="https://arstechnica.com/?p=1543883#p3">Read 4 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1543883&comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=7vX5Lrs3yUQ:9SuaTEbUKRg:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=7vX5Lrs3yUQ:9SuaTEbUKRg:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=7vX5Lrs3yUQ:9SuaTEbUKRg:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=7vX5Lrs3yUQ:9SuaTEbUKRg:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=7vX5Lrs3yUQ:9SuaTEbUKRg:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=7vX5Lrs3yUQ:9SuaTEbUKRg:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div>]]></content:encoded>
+			</item>
+		<item>
+		<title>A 2,000-year-old stylus makes a point about ancient Roman humor</title>
+		<link>https://arstechnica.com/?p=1543709</link>
+		<pubDate>Wed, 31 Jul 2019 18:09:21 +0000</pubDate>
+		<dc:creator><![CDATA[Kiona N. Smith]]></dc:creator>
+				<category><![CDATA[Science]]></category>
+		<category><![CDATA[ancient britain]]></category>
+		<category><![CDATA[ancient europe]]></category>
+		<category><![CDATA[ancient graffiti]]></category>
+		<category><![CDATA[ancient people did stuff]]></category>
+		<category><![CDATA[ancient rome]]></category>
+		<category><![CDATA[Archaeology]]></category>
+		<category><![CDATA[roman empire]]></category>
+
+		<guid isPermaLink="false">https://arstechnica.com/?p=1543709</guid>
+		<description><![CDATA[Lost in ancient Londinium: "I went to Rome, and all I brought you was this pen."]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left"><img src="https://cdn.arstechnica.net/wp-content/uploads/2019/07/Stylus-800x382.jpg" alt="Photo of 4 sides of an iron stylus with text inscribed"><p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2019/07/Stylus.jpg" class="enlarge-link" data-height="382" data-width="800">Enlarge</a> <span class="sep">/</span> The text is inscribed on all four sides of the stylus. (credit: <a rel="nofollow" class="caption-link" href="https://www.mola.org.uk/blog/i-went-rome-and-all-i-got-you-was-stylus-rare-inscribed-roman-writing-implement-discovered">Museum of London Archaeology</a>)</p>  </figure><div><a name="page-1"></a></div>
+<p>"I have come from the City. I bring you a welcome gift with a sharp point that you may remember me,” reads the Latin inscription on the 2,000-year-old iron stylus. “I ask, if fortune allowed, that I might be able [to give] as generously as the way is long [and] as my purse is empty." The “City" almost certainly refers to Rome, and the souvenir stylus essentially boasts a more flowery version of today’s “I went to Rome, and all I brought you was this pen.”</p>
+<p>The stylus dates to around 70 CE—about 20 years after the founding of Roman Londinium, a decade after a Celtic uprising burned it to the ground and about 50 years before the first stones were laid for Hadrian’s Wall. It’s among 14,000 artifacts unearthed during the construction of Bloomberg’s European headquarters starting in 2013, and conservators are finally ready to put it on display.</p>
+<h2>Pre-Bloomberg</h2>
+<p>The site where the stylus was found stands on the banks of the ancient River Walbrook, a tributary of the Thames that now flows beneath the city’s streets. Before London officials culverted and covered the river during the 1400s, it flowed through the center of London, and before that, it bisected Roman Londinium.</p>
+</div><p><a href="https://arstechnica.com/?p=1543709#p3">Read 8 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1543709&comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=CFi1vDdlmqg:M5N7Xdr8R-4:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=CFi1vDdlmqg:M5N7Xdr8R-4:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=CFi1vDdlmqg:M5N7Xdr8R-4:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=CFi1vDdlmqg:M5N7Xdr8R-4:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=CFi1vDdlmqg:M5N7Xdr8R-4:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=CFi1vDdlmqg:M5N7Xdr8R-4:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div>]]></content:encoded>
+			</item>
+		<item>
+		<title>A second Ebola case in Goma—the first prompted an international emergency</title>
+		<link>https://arstechnica.com/?p=1543913</link>
+		<pubDate>Wed, 31 Jul 2019 16:22:08 +0000</pubDate>
+		<dc:creator><![CDATA[Beth Mole]]></dc:creator>
+				<category><![CDATA[Science]]></category>
+		<category><![CDATA[democratic republic of Congo]]></category>
+		<category><![CDATA[disease outbreak]]></category>
+		<category><![CDATA[ebola]]></category>
+		<category><![CDATA[Infectious disease]]></category>
+		<category><![CDATA[viral disease]]></category>
+		<category><![CDATA[WHO]]></category>
+
+		<guid isPermaLink="false">https://arstechnica.com/?p=1543913</guid>
+		<description><![CDATA[Risk of spread is high as virus returns to bustling border city of around 2 million.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<figure class="intro-image intro-left"><img src="https://cdn.arstechnica.net/wp-content/uploads/2019/07/GettyImages-1155904452-800x533.jpg" alt="A woman gets her temperature measured at an Ebola screening station as she enters Rwanda from the Democratic Republic of the Congo on July 16, 2019 in Goma. "><p class="caption" style="font-size:0.8em"><a href="https://cdn.arstechnica.net/wp-content/uploads/2019/07/GettyImages-1155904452.jpg" class="enlarge-link" data-height="2400" data-width="3600">Enlarge</a> <span class="sep">/</span> A woman gets her temperature measured at an Ebola screening station as she enters Rwanda from the Democratic Republic of the Congo on July 16, 2019 in Goma.  (credit: <a rel="nofollow" class="caption-link" href="https://www.gettyimages.com/detail/news-photo/woman-gets-her-temperature-measured-at-an-ebola-screening-news-photo/1155904452?adppopup=true">Getty | John Wessels</a>)</p>  </figure><div><a name="page-1"></a></div>
+<p>A second case of Ebola has been detected in the bustling border city of Goma, further stoking fears that the Democratic Republic of the Congo’s now year-long outbreak will continue to thrive and spread.</p>
+<p>Goma, a city of around two million people, sits on the border with Rwanda and acts as a busy transportation hub, running an international airport and overseeing around 15,000 border crossings each day.</p>
+<p>The first case of Ebola in Goma earlier this month quickly prompted the World Health Organization to declare the outbreak <a href="https://arstechnica.com/science/2019/07/international-emergency-declared-over-ebola-outbreak-in-drc/">a Public Health Emergency of International Concern (PHEIC)</a>. The organization says the risk of national and regional spread of the outbreak remains “very high.”</p>
+</div><p><a href="https://arstechnica.com/?p=1543913#p3">Read 8 remaining paragraphs</a> | <a href="https://arstechnica.com/?p=1543913&comments=1">Comments</a></p><div class="feedflare">
+<a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=yucsDzI8THk:Q1kVp0iBkgA:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=yucsDzI8THk:Q1kVp0iBkgA:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=yucsDzI8THk:Q1kVp0iBkgA:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?i=yucsDzI8THk:Q1kVp0iBkgA:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=yucsDzI8THk:Q1kVp0iBkgA:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.arstechnica.com/~ff/arstechnica/index?a=yucsDzI8THk:Q1kVp0iBkgA:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/arstechnica/index?d=yIl2AUoC8zA" border="0"></img></a>
+</div>]]></content:encoded>
+			</item>
+	</channel>
+</rss>

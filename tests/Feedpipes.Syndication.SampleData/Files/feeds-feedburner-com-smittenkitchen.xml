@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:media="http://search.yahoo.com/mrss/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+
+<channel>
+	<title>smitten kitchen</title>
+	
+	<link>https://smittenkitchen.com</link>
+	<description>Fearless cooking from a tiny NYC kitchen.</description>
+	<lastBuildDate>Fri, 26 Jul 2019 21:12:46 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>http://wordpress.com/</generator>
+
+<image>
+	<url>https://smittenkitchendotcom.files.wordpress.com/2017/09/cropped-smitten-kitchen-logo_no_text.jpg?w=32</url>
+	<title>smitten kitchen</title>
+	<link>https://smittenkitchen.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<cloud domain="smittenkitchen.com" port="80" path="/?rsscloud=notify" registerProcedure="" protocol="http-post" />
+<atom:link rel="search" type="application/opensearchdescription+xml" href="https://smittenkitchen.com/osd.xml" title="smitten kitchen" />
+	
+	<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/smittenkitchen" /><feedburner:info uri="smittenkitchen" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://smittenkitchen.com/?pushpress=hub" /><geo:lat>40.741012</geo:lat><geo:long>-74.000125</geo:long><item>
+		<title>zucchini quesadillas</title>
+		<link>http://feedproxy.google.com/~r/smittenkitchen/~3/V-FIxTjPrkw/</link>
+				<comments>https://smittenkitchen.com/2019/07/zucchini-quesadillas/#comments</comments>
+				<pubDate>Fri, 26 Jul 2019 15:55:50 +0000</pubDate>
+		<dc:creator><![CDATA[deb]]></dc:creator>
+				<category><![CDATA[Gluten-Free]]></category>
+		<category><![CDATA[Lunch]]></category>
+		<category><![CDATA[Summer]]></category>
+		<category><![CDATA[Summer Squash]]></category>
+		<category><![CDATA[Tex-Mex]]></category>
+		<category><![CDATA[Vegetarian]]></category>
+		<category><![CDATA[Zucchini]]></category>
+
+		<guid isPermaLink="false">http://smittenkitchen.com/?p=40296</guid>
+				<description>&lt;img width="640" height="427" src="https://smittenkitchendotcom.files.wordpress.com/2019/07/zucchini-quesadillas.jpg?w=640" class="attachment-large size-large wp-post-image" alt="" style="margin-bottom: 15px;" srcset="https://smittenkitchendotcom.files.wordpress.com/2019/07/zucchini-quesadillas.jpg?w=640 640w, https://smittenkitchendotcom.files.wordpress.com/2019/07/zucchini-quesadillas.jpg?w=1280 1280w, https://smittenkitchendotcom.files.wordpress.com/2019/07/zucchini-quesadillas.jpg?w=150 150w, https://smittenkitchendotcom.files.wordpress.com/2019/07/zucchini-quesadillas.jpg?w=300 300w, https://smittenkitchendotcom.files.wordpress.com/2019/07/zucchini-quesadillas.jpg?w=768 768w, https://smittenkitchendotcom.files.wordpress.com/2019/07/zucchini-quesadillas.jpg?w=1024 1024w" sizes="(max-width: 640px) 100vw, 640px" data-attachment-id="40297" data-permalink="https://smittenkitchen.com/2019/07/zucchini-quesadillas/zucchini-quesadillas/" data-orig-file="https://smittenkitchendotcom.files.wordpress.com/2019/07/zucchini-quesadillas.jpg" data-orig-size="3000,2000" data-comments-opened="1" data-image-meta="{&amp;quot;aperture&amp;quot;:&amp;quot;5&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;Canon EOS 5D Mark II&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;1563901508&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;50&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;500&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0.025&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;0&amp;quot;}" data-image-title="zucchini quesadillas" data-image-description="" data-medium-file="https://smittenkitchendotcom.files.wordpress.com/2019/07/zucchini-quesadillas.jpg?w=300" data-large-file="https://smittenkitchendotcom.files.wordpress.com/2019/07/zucchini-quesadillas.jpg?w=640" /&gt;&lt;p&gt;
+	&lt;div class="smittenkitchen-print-hide"&gt;
+			&lt;/div&gt;
+
+	Sure, it&amp;#8217;s only been one month since &lt;a href="https://food52.com/blog/24280-best-zucchini-pizza-smitten-kitchen"&gt;I wrote&lt;/a&gt; &amp;#8220;I don&amp;#8217;t find summer squash naturally loveable. Its flavor is not robust—fairly watery when fresh, slippery when cooked, and even when you do succeed in browning or crisping it, this textural triumph is short-lived.&amp;#8221; But I never meant that I avoid it. Just because it may not be the most popular vegetable at the party doesn&amp;#8217;t mean that it cannot flourish under the right conditions (salt, pepper, acidity, heat, herbs, and cheese &amp;#8212; please). Conveniently, I almost always have these conditions in stock. &lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.flickr.com/photos/smitten/48375595291/in/photostream" title="any zucchini you got"&gt;&lt;img src="https://live.staticflickr.com/65535/48375595291_6ab960766e_z.jpg" width="640" height="427" alt="any zucchini you got"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Lately, my favorite approach has been to cook it with garlic in it olive oil for about 15 minutes, at which point it becomes jammy &amp;#8212; fully tender with concentrated flavors and excellent seasoning. Once you have a skillet of this, zucchini is your oyster. Maybe you fold it into an omelet with goat cheese and herbs? Maybe you mix it with &lt;a href="https://www.bonappetit.com/recipe/summer-squash-and-basil-pasta"&gt;big pasta&lt;/a&gt;, parmesan, basil leaves, and lemon? But last week, I mixed it with grated Monterey jack cheese and cooked it between two white corn tortillas until they were browned and crisp and it turns out, this might be my favorite use of it yet. &lt;/p&gt;
+&lt;p&gt;&lt;a class="more-link" href="https://smittenkitchen.com/2019/07/zucchini-quesadillas/"&gt;Read more &lt;span&gt;&amp;raquo;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+								<content:encoded><![CDATA[<img width="640" height="427" src="https://smittenkitchendotcom.files.wordpress.com/2019/07/zucchini-quesadillas.jpg?w=640" class="attachment-large size-large wp-post-image" alt="" style="margin-bottom: 15px;" srcset="https://smittenkitchendotcom.files.wordpress.com/2019/07/zucchini-quesadillas.jpg?w=640 640w, https://smittenkitchendotcom.files.wordpress.com/2019/07/zucchini-quesadillas.jpg?w=1280 1280w, https://smittenkitchendotcom.files.wordpress.com/2019/07/zucchini-quesadillas.jpg?w=150 150w, https://smittenkitchendotcom.files.wordpress.com/2019/07/zucchini-quesadillas.jpg?w=300 300w, https://smittenkitchendotcom.files.wordpress.com/2019/07/zucchini-quesadillas.jpg?w=768 768w, https://smittenkitchendotcom.files.wordpress.com/2019/07/zucchini-quesadillas.jpg?w=1024 1024w" sizes="(max-width: 640px) 100vw, 640px" data-attachment-id="40297" data-permalink="https://smittenkitchen.com/2019/07/zucchini-quesadillas/zucchini-quesadillas/" data-orig-file="https://smittenkitchendotcom.files.wordpress.com/2019/07/zucchini-quesadillas.jpg" data-orig-size="3000,2000" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;5&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;Canon EOS 5D Mark II&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1563901508&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;50&quot;,&quot;iso&quot;:&quot;500&quot;,&quot;shutter_speed&quot;:&quot;0.025&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="zucchini quesadillas" data-image-description="" data-medium-file="https://smittenkitchendotcom.files.wordpress.com/2019/07/zucchini-quesadillas.jpg?w=300" data-large-file="https://smittenkitchendotcom.files.wordpress.com/2019/07/zucchini-quesadillas.jpg?w=640" /><p>
+	<div class="smittenkitchen-print-hide">
+			</div>
+
+	Sure, it&#8217;s only been one month since <a href="https://food52.com/blog/24280-best-zucchini-pizza-smitten-kitchen">I wrote</a> &#8220;I don&#8217;t find summer squash naturally loveable. Its flavor is not robust—fairly watery when fresh, slippery when cooked, and even when you do succeed in browning or crisping it, this textural triumph is short-lived.&#8221; But I never meant that I avoid it. Just because it may not be the most popular vegetable at the party doesn&#8217;t mean that it cannot flourish under the right conditions (salt, pepper, acidity, heat, herbs, and cheese &#8212; please). Conveniently, I almost always have these conditions in stock. </p>
+<p><a href="https://www.flickr.com/photos/smitten/48375595291/in/photostream" title="any zucchini you got"><img src="https://live.staticflickr.com/65535/48375595291_6ab960766e_z.jpg" width="640" height="427" alt="any zucchini you got"/></a></p>
+<p>Lately, my favorite approach has been to cook it with garlic in it olive oil for about 15 minutes, at which point it becomes jammy &#8212; fully tender with concentrated flavors and excellent seasoning. Once you have a skillet of this, zucchini is your oyster. Maybe you fold it into an omelet with goat cheese and herbs? Maybe you mix it with <a href="https://www.bonappetit.com/recipe/summer-squash-and-basil-pasta">big pasta</a>, parmesan, basil leaves, and lemon? But last week, I mixed it with grated Monterey jack cheese and cooked it between two white corn tortillas until they were browned and crisp and it turns out, this might be my favorite use of it yet. </p>
+<p><a class="more-link" href="https://smittenkitchen.com/2019/07/zucchini-quesadillas/">Read more <span>&raquo;</span></a></p>
+]]></content:encoded>
+							<wfw:commentRss>https://smittenkitchen.com/2019/07/zucchini-quesadillas/feed/</wfw:commentRss>
+		<slash:comments>78</slash:comments>
+						
+		<media:thumbnail url="https://smittenkitchendotcom.files.wordpress.com/2019/07/zucchini-quesadillas.jpg" />
+		<media:content url="https://smittenkitchendotcom.files.wordpress.com/2019/07/zucchini-quesadillas.jpg" medium="image">
+			<media:title type="html">zucchini quesadillas</media:title>
+		</media:content>
+
+		<media:content url="https://0.gravatar.com/avatar/93ed6e27828730fa6c4d1a38f4405721?s=96&amp;d=identicon&amp;r=G" medium="image">
+			<media:title type="html">deb</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48375595291_6ab960766e_z.jpg" medium="image">
+			<media:title type="html">any zucchini you got</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48375594936_582540cb91_n.jpg" medium="image">
+			<media:title type="html">thinly sliced</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48375733867_b9fabbb984_n.jpg" medium="image">
+			<media:title type="html">jammy zucchini</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48375593776_28ef6ea4c2_n.jpg" medium="image">
+			<media:title type="html">add the cheese</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48375733052_df47749a62_n.jpg" medium="image">
+			<media:title type="html">assembly line</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48375732302_c98c13851c_n.jpg" medium="image">
+			<media:title type="html">don't skimp on the crisp</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48375592461_c30f84d317_n.jpg" medium="image">
+			<media:title type="html">zucchini quesadillas</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48375731137_8ee7088c38_z.jpg" medium="image">
+			<media:title type="html">zucchini quesadillas</media:title>
+		</media:content>
+	<feedburner:origLink>https://smittenkitchen.com/2019/07/zucchini-quesadillas/</feedburner:origLink></item>
+		<item>
+		<title>frozen watermelon mojitos</title>
+		<link>http://feedproxy.google.com/~r/smittenkitchen/~3/1ecW75xIUO8/</link>
+				<comments>https://smittenkitchen.com/2019/07/frozen-watermelon-mojitos/#comments</comments>
+				<pubDate>Fri, 19 Jul 2019 16:03:56 +0000</pubDate>
+		<dc:creator><![CDATA[deb]]></dc:creator>
+				<category><![CDATA[Drinks]]></category>
+		<category><![CDATA[Summer]]></category>
+		<category><![CDATA[Watermelon]]></category>
+
+		<guid isPermaLink="false">http://smittenkitchen.com/?p=40241</guid>
+				<description>&lt;img width="640" height="427" src="https://smittenkitchendotcom.files.wordpress.com/2019/07/frozen-watermelon-mojito.jpg?w=640" class="attachment-large size-large wp-post-image" alt="" style="margin-bottom: 15px;" srcset="https://smittenkitchendotcom.files.wordpress.com/2019/07/frozen-watermelon-mojito.jpg?w=640 640w, https://smittenkitchendotcom.files.wordpress.com/2019/07/frozen-watermelon-mojito.jpg?w=1280 1280w, https://smittenkitchendotcom.files.wordpress.com/2019/07/frozen-watermelon-mojito.jpg?w=150 150w, https://smittenkitchendotcom.files.wordpress.com/2019/07/frozen-watermelon-mojito.jpg?w=300 300w, https://smittenkitchendotcom.files.wordpress.com/2019/07/frozen-watermelon-mojito.jpg?w=768 768w, https://smittenkitchendotcom.files.wordpress.com/2019/07/frozen-watermelon-mojito.jpg?w=1024 1024w" sizes="(max-width: 640px) 100vw, 640px" data-attachment-id="40242" data-permalink="https://smittenkitchen.com/2019/07/frozen-watermelon-mojitos/frozen-watermelon-mojito/" data-orig-file="https://smittenkitchendotcom.files.wordpress.com/2019/07/frozen-watermelon-mojito.jpg" data-orig-size="3000,2000" data-comments-opened="1" data-image-meta="{&amp;quot;aperture&amp;quot;:&amp;quot;5&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;Canon EOS 5D Mark II&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;1563467050&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;50&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;250&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0.02&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;0&amp;quot;}" data-image-title="frozen watermelon mojito" data-image-description="" data-medium-file="https://smittenkitchendotcom.files.wordpress.com/2019/07/frozen-watermelon-mojito.jpg?w=300" data-large-file="https://smittenkitchendotcom.files.wordpress.com/2019/07/frozen-watermelon-mojito.jpg?w=640" /&gt;&lt;p&gt;
+	&lt;div class="smittenkitchen-print-hide"&gt;
+			&lt;/div&gt;
+
+	There is no time like a heat wave to unlearn everything you thought you knew about watermelon. I don&amp;#8217;t need to tell you that a slice of fresh watermelon cold from the fridge is one of life&amp;#8217;s perfect things. But most of my attempts to bake with it or turn it into drinks, with this exception, have had limited success, because there is a mildness, a gentleness to watermelon that gets smothered under other things. &amp;#8220;So, just eat it fresh and be done with it,&amp;#8221; would be a reasonable, rational takeaway. The watermelon has spoken; it has told you its limits. But I don&amp;#8217;t want to be reasonable nor rational, and I&amp;#8217;ve been pining for a frozen watermelon mojito for a couple summers now and been stuck at the impasse of knowing once I added the requisite ice, simple syrup, or club soda, the watermelon-y impact would be all but diminished. I&amp;#8217;m not sure why it took me as long as it did to have my a-ha moment but the solution was, well, right next to the ice cubes in the freezer.&lt;/p&gt;
+&lt;p&gt;&lt;a class="more-link" href="https://smittenkitchen.com/2019/07/frozen-watermelon-mojitos/"&gt;Read more &lt;span&gt;&amp;raquo;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+								<content:encoded><![CDATA[<img width="640" height="427" src="https://smittenkitchendotcom.files.wordpress.com/2019/07/frozen-watermelon-mojito.jpg?w=640" class="attachment-large size-large wp-post-image" alt="" style="margin-bottom: 15px;" srcset="https://smittenkitchendotcom.files.wordpress.com/2019/07/frozen-watermelon-mojito.jpg?w=640 640w, https://smittenkitchendotcom.files.wordpress.com/2019/07/frozen-watermelon-mojito.jpg?w=1280 1280w, https://smittenkitchendotcom.files.wordpress.com/2019/07/frozen-watermelon-mojito.jpg?w=150 150w, https://smittenkitchendotcom.files.wordpress.com/2019/07/frozen-watermelon-mojito.jpg?w=300 300w, https://smittenkitchendotcom.files.wordpress.com/2019/07/frozen-watermelon-mojito.jpg?w=768 768w, https://smittenkitchendotcom.files.wordpress.com/2019/07/frozen-watermelon-mojito.jpg?w=1024 1024w" sizes="(max-width: 640px) 100vw, 640px" data-attachment-id="40242" data-permalink="https://smittenkitchen.com/2019/07/frozen-watermelon-mojitos/frozen-watermelon-mojito/" data-orig-file="https://smittenkitchendotcom.files.wordpress.com/2019/07/frozen-watermelon-mojito.jpg" data-orig-size="3000,2000" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;5&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;Canon EOS 5D Mark II&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1563467050&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;50&quot;,&quot;iso&quot;:&quot;250&quot;,&quot;shutter_speed&quot;:&quot;0.02&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="frozen watermelon mojito" data-image-description="" data-medium-file="https://smittenkitchendotcom.files.wordpress.com/2019/07/frozen-watermelon-mojito.jpg?w=300" data-large-file="https://smittenkitchendotcom.files.wordpress.com/2019/07/frozen-watermelon-mojito.jpg?w=640" /><p>
+	<div class="smittenkitchen-print-hide">
+			</div>
+
+	There is no time like a heat wave to unlearn everything you thought you knew about watermelon. I don&#8217;t need to tell you that a slice of fresh watermelon cold from the fridge is one of life&#8217;s perfect things. But most of my attempts to bake with it or turn it into drinks, with this exception, have had limited success, because there is a mildness, a gentleness to watermelon that gets smothered under other things. &#8220;So, just eat it fresh and be done with it,&#8221; would be a reasonable, rational takeaway. The watermelon has spoken; it has told you its limits. But I don&#8217;t want to be reasonable nor rational, and I&#8217;ve been pining for a frozen watermelon mojito for a couple summers now and been stuck at the impasse of knowing once I added the requisite ice, simple syrup, or club soda, the watermelon-y impact would be all but diminished. I&#8217;m not sure why it took me as long as it did to have my a-ha moment but the solution was, well, right next to the ice cubes in the freezer.</p>
+<p><a class="more-link" href="https://smittenkitchen.com/2019/07/frozen-watermelon-mojitos/">Read more <span>&raquo;</span></a></p>
+]]></content:encoded>
+							<wfw:commentRss>https://smittenkitchen.com/2019/07/frozen-watermelon-mojitos/feed/</wfw:commentRss>
+		<slash:comments>62</slash:comments>
+						
+		<media:thumbnail url="https://smittenkitchendotcom.files.wordpress.com/2019/07/frozen-watermelon-mojito.jpg" />
+		<media:content url="https://smittenkitchendotcom.files.wordpress.com/2019/07/frozen-watermelon-mojito.jpg" medium="image">
+			<media:title type="html">frozen watermelon mojito</media:title>
+		</media:content>
+
+		<media:content url="https://0.gravatar.com/avatar/93ed6e27828730fa6c4d1a38f4405721?s=96&amp;d=identicon&amp;r=G" medium="image">
+			<media:title type="html">deb</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48322285471_b60d752983_z.jpg" medium="image">
+			<media:title type="html">ready to freeze watermelon</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48322405667_49f8b8ac61_n.jpg" medium="image">
+			<media:title type="html">here we go</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48322288451_dbd395ee5e_n.jpg" medium="image">
+			<media:title type="html">fresh juice, please</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48322401667_5634c10843_n.jpg" medium="image">
+			<media:title type="html">lime juice</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48322287896_175263e254_n.jpg" medium="image">
+			<media:title type="html">blend it up</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48322403392_f347b0493a_z.jpg" medium="image">
+			<media:title type="html">frozen watermelon mojito</media:title>
+		</media:content>
+	<feedburner:origLink>https://smittenkitchen.com/2019/07/frozen-watermelon-mojitos/</feedburner:origLink></item>
+		<item>
+		<title>corn salad with chile and lime</title>
+		<link>http://feedproxy.google.com/~r/smittenkitchen/~3/ap2ENViuNc4/</link>
+				<comments>https://smittenkitchen.com/2019/07/corn-salad-with-chile-and-lime/#comments</comments>
+				<pubDate>Fri, 12 Jul 2019 16:25:01 +0000</pubDate>
+		<dc:creator><![CDATA[deb]]></dc:creator>
+				<category><![CDATA[Corn]]></category>
+		<category><![CDATA[Grilling]]></category>
+		<category><![CDATA[Recipes]]></category>
+		<category><![CDATA[Salad]]></category>
+		<category><![CDATA[Side Dish]]></category>
+		<category><![CDATA[Summer]]></category>
+		<category><![CDATA[Vegetarian]]></category>
+
+		<guid isPermaLink="false">http://smittenkitchen.com/?p=40157</guid>
+				<description>&lt;img width="640" height="427" src="https://smittenkitchendotcom.files.wordpress.com/2019/07/corn-salad-with-chile-lime.jpg?w=640" class="attachment-large size-large wp-post-image" alt="" style="margin-bottom: 15px;" srcset="https://smittenkitchendotcom.files.wordpress.com/2019/07/corn-salad-with-chile-lime.jpg?w=640 640w, https://smittenkitchendotcom.files.wordpress.com/2019/07/corn-salad-with-chile-lime.jpg?w=1280 1280w, https://smittenkitchendotcom.files.wordpress.com/2019/07/corn-salad-with-chile-lime.jpg?w=150 150w, https://smittenkitchendotcom.files.wordpress.com/2019/07/corn-salad-with-chile-lime.jpg?w=300 300w, https://smittenkitchendotcom.files.wordpress.com/2019/07/corn-salad-with-chile-lime.jpg?w=768 768w, https://smittenkitchendotcom.files.wordpress.com/2019/07/corn-salad-with-chile-lime.jpg?w=1024 1024w" sizes="(max-width: 640px) 100vw, 640px" data-attachment-id="40165" data-permalink="https://smittenkitchen.com/2019/07/corn-salad-with-chile-and-lime/corn-salad-with-chile-lime/" data-orig-file="https://smittenkitchendotcom.files.wordpress.com/2019/07/corn-salad-with-chile-lime.jpg" data-orig-size="3000,2000" data-comments-opened="1" data-image-meta="{&amp;quot;aperture&amp;quot;:&amp;quot;5&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;Canon EOS 5D Mark II&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;1562595633&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;50&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;160&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0.02&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;0&amp;quot;}" data-image-title="corn salad with chile lime" data-image-description="" data-medium-file="https://smittenkitchendotcom.files.wordpress.com/2019/07/corn-salad-with-chile-lime.jpg?w=300" data-large-file="https://smittenkitchendotcom.files.wordpress.com/2019/07/corn-salad-with-chile-lime.jpg?w=640" /&gt;&lt;p&gt;
+	&lt;div class="smittenkitchen-print-hide"&gt;
+			&lt;/div&gt;
+
+	For July 4th, we hosted a dozen people (no, we don&amp;#8217;t have space for this but why learn &lt;a href="https://www.flickr.com/photos/smitten/48265955371/in/photostream"&gt;now&lt;/a&gt;) and I prepared six racks of &lt;a href="https://smittenkitchen.com/2015/06/oven-ribs-even-better/"&gt;ribs&lt;/a&gt;, a double batch of &lt;a href="https://smittenkitchen.com/2009/05/broccoli-slaw/"&gt;broccoli slaw&lt;/a&gt;, a kind of ad-hoc-ed potato salad with a mustardy-caesary vinaigrette, a charred corn salad, a &lt;a href="https://smittenkitchen.com/2012/07/flag-cake/"&gt;flag cake&lt;/a&gt;, &lt;a href="https://smittenkitchen.com/2009/07/watermelon-lemonade/"&gt;lemonade&lt;/a&gt;, Aperol spritzes, &lt;a href="https://www.bonappetit.com/drinks/cocktails/article/what-is-suze"&gt;Suze&lt;/a&gt;-and-tonics, watermelon, and then we went up to the roof to light sparklers and watch the fireworks and approximately 95% of the people who slid into my DMs after seeing photos of all of this on Instagram only asked me about the corn. It&amp;#8217;s okay, my ribs&amp;#8217; feelings will eventually recover.&lt;/p&gt;
+&lt;p&gt;&lt;a class="more-link" href="https://smittenkitchen.com/2019/07/corn-salad-with-chile-and-lime/"&gt;Read more &lt;span&gt;&amp;raquo;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+								<content:encoded><![CDATA[<img width="640" height="427" src="https://smittenkitchendotcom.files.wordpress.com/2019/07/corn-salad-with-chile-lime.jpg?w=640" class="attachment-large size-large wp-post-image" alt="" style="margin-bottom: 15px;" srcset="https://smittenkitchendotcom.files.wordpress.com/2019/07/corn-salad-with-chile-lime.jpg?w=640 640w, https://smittenkitchendotcom.files.wordpress.com/2019/07/corn-salad-with-chile-lime.jpg?w=1280 1280w, https://smittenkitchendotcom.files.wordpress.com/2019/07/corn-salad-with-chile-lime.jpg?w=150 150w, https://smittenkitchendotcom.files.wordpress.com/2019/07/corn-salad-with-chile-lime.jpg?w=300 300w, https://smittenkitchendotcom.files.wordpress.com/2019/07/corn-salad-with-chile-lime.jpg?w=768 768w, https://smittenkitchendotcom.files.wordpress.com/2019/07/corn-salad-with-chile-lime.jpg?w=1024 1024w" sizes="(max-width: 640px) 100vw, 640px" data-attachment-id="40165" data-permalink="https://smittenkitchen.com/2019/07/corn-salad-with-chile-and-lime/corn-salad-with-chile-lime/" data-orig-file="https://smittenkitchendotcom.files.wordpress.com/2019/07/corn-salad-with-chile-lime.jpg" data-orig-size="3000,2000" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;5&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;Canon EOS 5D Mark II&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1562595633&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;50&quot;,&quot;iso&quot;:&quot;160&quot;,&quot;shutter_speed&quot;:&quot;0.02&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="corn salad with chile lime" data-image-description="" data-medium-file="https://smittenkitchendotcom.files.wordpress.com/2019/07/corn-salad-with-chile-lime.jpg?w=300" data-large-file="https://smittenkitchendotcom.files.wordpress.com/2019/07/corn-salad-with-chile-lime.jpg?w=640" /><p>
+	<div class="smittenkitchen-print-hide">
+			</div>
+
+	For July 4th, we hosted a dozen people (no, we don&#8217;t have space for this but why learn <a href="https://www.flickr.com/photos/smitten/48265955371/in/photostream">now</a>) and I prepared six racks of <a href="https://smittenkitchen.com/2015/06/oven-ribs-even-better/">ribs</a>, a double batch of <a href="https://smittenkitchen.com/2009/05/broccoli-slaw/">broccoli slaw</a>, a kind of ad-hoc-ed potato salad with a mustardy-caesary vinaigrette, a charred corn salad, a <a href="https://smittenkitchen.com/2012/07/flag-cake/">flag cake</a>, <a href="https://smittenkitchen.com/2009/07/watermelon-lemonade/">lemonade</a>, Aperol spritzes, <a href="https://www.bonappetit.com/drinks/cocktails/article/what-is-suze">Suze</a>-and-tonics, watermelon, and then we went up to the roof to light sparklers and watch the fireworks and approximately 95% of the people who slid into my DMs after seeing photos of all of this on Instagram only asked me about the corn. It&#8217;s okay, my ribs&#8217; feelings will eventually recover.</p>
+<p><a class="more-link" href="https://smittenkitchen.com/2019/07/corn-salad-with-chile-and-lime/">Read more <span>&raquo;</span></a></p>
+]]></content:encoded>
+							<wfw:commentRss>https://smittenkitchen.com/2019/07/corn-salad-with-chile-and-lime/feed/</wfw:commentRss>
+		<slash:comments>100</slash:comments>
+						
+		<media:thumbnail url="https://smittenkitchendotcom.files.wordpress.com/2019/07/corn-salad-with-chile-lime.jpg" />
+		<media:content url="https://smittenkitchendotcom.files.wordpress.com/2019/07/corn-salad-with-chile-lime.jpg" medium="image">
+			<media:title type="html">corn salad with chile lime</media:title>
+		</media:content>
+
+		<media:content url="https://0.gravatar.com/avatar/93ed6e27828730fa6c4d1a38f4405721?s=96&amp;d=identicon&amp;r=G" medium="image">
+			<media:title type="html">deb</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48265854656_27b933ea2c_z.jpg" medium="image">
+			<media:title type="html">first corn of the season</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48265856356_787160ee41_n.jpg" medium="image">
+			<media:title type="html">pickled red onions</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48265932257_fa806d0ffd_n.jpg" medium="image">
+			<media:title type="html">charred</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48265854956_f0598e4d8a_n.jpg" medium="image">
+			<media:title type="html">cut from the cob</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48265930937_0fb1df0198_n.jpg" medium="image">
+			<media:title type="html">mayo, sour cream, cotija</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48265932462_492d9ce276_z.jpg" medium="image">
+			<media:title type="html">corn salad with chile and lime</media:title>
+		</media:content>
+	<feedburner:origLink>https://smittenkitchen.com/2019/07/corn-salad-with-chile-and-lime/</feedburner:origLink></item>
+		<item>
+		<title>crispy oven pulled pork</title>
+		<link>http://feedproxy.google.com/~r/smittenkitchen/~3/HvPHzOB5kHc/</link>
+				<comments>https://smittenkitchen.com/2019/07/crispy-oven-pulled-pork/#comments</comments>
+				<pubDate>Mon, 01 Jul 2019 19:52:04 +0000</pubDate>
+		<dc:creator><![CDATA[deb]]></dc:creator>
+				<category><![CDATA[Pork]]></category>
+		<category><![CDATA[Recipes]]></category>
+		<category><![CDATA[Sandwich]]></category>
+		<category><![CDATA[Summer]]></category>
+
+		<guid isPermaLink="false">http://smittenkitchen.com/?p=40048</guid>
+				<description>&lt;img width="640" height="427" src="https://smittenkitchendotcom.files.wordpress.com/2019/07/crispy-oven-pulled-pork.jpg?w=640" class="attachment-large size-large wp-post-image" alt="" style="margin-bottom: 15px;" srcset="https://smittenkitchendotcom.files.wordpress.com/2019/07/crispy-oven-pulled-pork.jpg?w=640 640w, https://smittenkitchendotcom.files.wordpress.com/2019/07/crispy-oven-pulled-pork.jpg?w=1280 1280w, https://smittenkitchendotcom.files.wordpress.com/2019/07/crispy-oven-pulled-pork.jpg?w=150 150w, https://smittenkitchendotcom.files.wordpress.com/2019/07/crispy-oven-pulled-pork.jpg?w=300 300w, https://smittenkitchendotcom.files.wordpress.com/2019/07/crispy-oven-pulled-pork.jpg?w=768 768w, https://smittenkitchendotcom.files.wordpress.com/2019/07/crispy-oven-pulled-pork.jpg?w=1024 1024w" sizes="(max-width: 640px) 100vw, 640px" data-attachment-id="40049" data-permalink="https://smittenkitchen.com/2019/07/crispy-oven-pulled-pork/crispy-oven-pulled-pork/" data-orig-file="https://smittenkitchendotcom.files.wordpress.com/2019/07/crispy-oven-pulled-pork.jpg" data-orig-size="2048,1365" data-comments-opened="1" data-image-meta="{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;Canon EOS 5D Mark II&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;1561681517&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;50&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;400&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0.025&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;0&amp;quot;}" data-image-title="crispy oven pulled pork" data-image-description="" data-medium-file="https://smittenkitchendotcom.files.wordpress.com/2019/07/crispy-oven-pulled-pork.jpg?w=300" data-large-file="https://smittenkitchendotcom.files.wordpress.com/2019/07/crispy-oven-pulled-pork.jpg?w=640" /&gt;&lt;p&gt;
+	&lt;div class="smittenkitchen-print-hide"&gt;
+			&lt;/div&gt;
+
+	This site has been bereft of a giant pork roast for too long. This one, to us, has been worth the wait and it came from the most logical place. I&amp;#8217;ve been Bo Ssam-ing since &lt;a href="https://cooking.nytimes.com/recipes/12197-momofukus-bo-ssam"&gt;the David Chang recipe&lt;/a&gt; was published in the New York Times in 2012. For legions of fans, it quickly became a generation&amp;#8217;s go-to dinner party dish: a spectacularly low-effort, high-reward way to feed a crowd. The masterful thing about this slow-roast is the way the exterior takes on a dark, glossy, crisp, varnished edge that collapses easily under the tines of a fork, revealing pale, perfectly cooked pulls of pork within, and that you did almost nothing to make this happen. The ingredients couldn&amp;#8217;t be simpler (got salt? sugar?), and in just a small fraction of the time that you&amp;#8217;ve been liberated from any kitchen toiling while the pork slow-roasts and permeates your apartment with an unholy delicious aroma, you make the accompaniments. I wanted the pulled pork recipe on this site to have all of that, but designed with barbecue-style sandwiches in mind, no smoker required.&lt;/p&gt;
+&lt;p&gt;&lt;a class="more-link" href="https://smittenkitchen.com/2019/07/crispy-oven-pulled-pork/"&gt;Read more &lt;span&gt;&amp;raquo;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+								<content:encoded><![CDATA[<img width="640" height="427" src="https://smittenkitchendotcom.files.wordpress.com/2019/07/crispy-oven-pulled-pork.jpg?w=640" class="attachment-large size-large wp-post-image" alt="" style="margin-bottom: 15px;" srcset="https://smittenkitchendotcom.files.wordpress.com/2019/07/crispy-oven-pulled-pork.jpg?w=640 640w, https://smittenkitchendotcom.files.wordpress.com/2019/07/crispy-oven-pulled-pork.jpg?w=1280 1280w, https://smittenkitchendotcom.files.wordpress.com/2019/07/crispy-oven-pulled-pork.jpg?w=150 150w, https://smittenkitchendotcom.files.wordpress.com/2019/07/crispy-oven-pulled-pork.jpg?w=300 300w, https://smittenkitchendotcom.files.wordpress.com/2019/07/crispy-oven-pulled-pork.jpg?w=768 768w, https://smittenkitchendotcom.files.wordpress.com/2019/07/crispy-oven-pulled-pork.jpg?w=1024 1024w" sizes="(max-width: 640px) 100vw, 640px" data-attachment-id="40049" data-permalink="https://smittenkitchen.com/2019/07/crispy-oven-pulled-pork/crispy-oven-pulled-pork/" data-orig-file="https://smittenkitchendotcom.files.wordpress.com/2019/07/crispy-oven-pulled-pork.jpg" data-orig-size="2048,1365" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;Canon EOS 5D Mark II&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1561681517&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;50&quot;,&quot;iso&quot;:&quot;400&quot;,&quot;shutter_speed&quot;:&quot;0.025&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="crispy oven pulled pork" data-image-description="" data-medium-file="https://smittenkitchendotcom.files.wordpress.com/2019/07/crispy-oven-pulled-pork.jpg?w=300" data-large-file="https://smittenkitchendotcom.files.wordpress.com/2019/07/crispy-oven-pulled-pork.jpg?w=640" /><p>
+	<div class="smittenkitchen-print-hide">
+			</div>
+
+	This site has been bereft of a giant pork roast for too long. This one, to us, has been worth the wait and it came from the most logical place. I&#8217;ve been Bo Ssam-ing since <a href="https://cooking.nytimes.com/recipes/12197-momofukus-bo-ssam">the David Chang recipe</a> was published in the New York Times in 2012. For legions of fans, it quickly became a generation&#8217;s go-to dinner party dish: a spectacularly low-effort, high-reward way to feed a crowd. The masterful thing about this slow-roast is the way the exterior takes on a dark, glossy, crisp, varnished edge that collapses easily under the tines of a fork, revealing pale, perfectly cooked pulls of pork within, and that you did almost nothing to make this happen. The ingredients couldn&#8217;t be simpler (got salt? sugar?), and in just a small fraction of the time that you&#8217;ve been liberated from any kitchen toiling while the pork slow-roasts and permeates your apartment with an unholy delicious aroma, you make the accompaniments. I wanted the pulled pork recipe on this site to have all of that, but designed with barbecue-style sandwiches in mind, no smoker required.</p>
+<p><a class="more-link" href="https://smittenkitchen.com/2019/07/crispy-oven-pulled-pork/">Read more <span>&raquo;</span></a></p>
+]]></content:encoded>
+							<wfw:commentRss>https://smittenkitchen.com/2019/07/crispy-oven-pulled-pork/feed/</wfw:commentRss>
+		<slash:comments>188</slash:comments>
+						
+		<media:thumbnail url="https://smittenkitchendotcom.files.wordpress.com/2019/07/crispy-oven-pulled-pork.jpg" />
+		<media:content url="https://smittenkitchendotcom.files.wordpress.com/2019/07/crispy-oven-pulled-pork.jpg" medium="image">
+			<media:title type="html">crispy oven pulled pork</media:title>
+		</media:content>
+
+		<media:content url="https://0.gravatar.com/avatar/93ed6e27828730fa6c4d1a38f4405721?s=96&amp;d=identicon&amp;r=G" medium="image">
+			<media:title type="html">deb</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48148600532_97aabb2c57_n.jpg" medium="image">
+			<media:title type="html">thickly coated</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48148511576_cd2fc6ae40_n.jpg" medium="image">
+			<media:title type="html">scored the fat</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48148600282_788d1bafbb_n.jpg" medium="image">
+			<media:title type="html">one hour in</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48148600187_1a390644e1_n.jpg" medium="image">
+			<media:title type="html">a couple hours in</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48148510051_4c11a59a77_n.jpg" medium="image">
+			<media:title type="html">crisp and collapsed pork roast</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48148600062_479b70e771_n.jpg" medium="image">
+			<media:title type="html">made some buns, had the time</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48148600322_b0910d1334_n.jpg" medium="image">
+			<media:title type="html">a mop sauce</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48148599382_a5c8feb4c2_n.jpg" medium="image">
+			<media:title type="html">final slaw</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48148598857_252a53efce_z.jpg" medium="image">
+			<media:title type="html">crisp and collapsed pork roast</media:title>
+		</media:content>
+	<feedburner:origLink>https://smittenkitchen.com/2019/07/crispy-oven-pulled-pork/</feedburner:origLink></item>
+		<item>
+		<title>strawberry summer sheet cake</title>
+		<link>http://feedproxy.google.com/~r/smittenkitchen/~3/gnHQe-nSMA4/</link>
+				<comments>https://smittenkitchen.com/2019/06/strawberry-summer-sheet-cake/#comments</comments>
+				<pubDate>Thu, 27 Jun 2019 15:58:51 +0000</pubDate>
+		<dc:creator><![CDATA[deb]]></dc:creator>
+				<category><![CDATA[Cake]]></category>
+		<category><![CDATA[Everyday Cakes]]></category>
+		<category><![CDATA[Recipes]]></category>
+		<category><![CDATA[Strawberries]]></category>
+		<category><![CDATA[Summer]]></category>
+
+		<guid isPermaLink="false">http://smittenkitchen.com/?p=39992</guid>
+				<description>&lt;img width="640" height="427" src="https://smittenkitchendotcom.files.wordpress.com/2019/06/strawberry-summer-sheet-cake.jpg?w=640" class="attachment-large size-large wp-post-image" alt="" style="margin-bottom: 15px;" srcset="https://smittenkitchendotcom.files.wordpress.com/2019/06/strawberry-summer-sheet-cake.jpg?w=640 640w, https://smittenkitchendotcom.files.wordpress.com/2019/06/strawberry-summer-sheet-cake.jpg?w=1280 1280w, https://smittenkitchendotcom.files.wordpress.com/2019/06/strawberry-summer-sheet-cake.jpg?w=150 150w, https://smittenkitchendotcom.files.wordpress.com/2019/06/strawberry-summer-sheet-cake.jpg?w=300 300w, https://smittenkitchendotcom.files.wordpress.com/2019/06/strawberry-summer-sheet-cake.jpg?w=768 768w, https://smittenkitchendotcom.files.wordpress.com/2019/06/strawberry-summer-sheet-cake.jpg?w=1024 1024w" sizes="(max-width: 640px) 100vw, 640px" data-attachment-id="39997" data-permalink="https://smittenkitchen.com/2019/06/strawberry-summer-sheet-cake/strawberry-summer-sheet-cake/" data-orig-file="https://smittenkitchendotcom.files.wordpress.com/2019/06/strawberry-summer-sheet-cake.jpg" data-orig-size="3000,2000" data-comments-opened="1" data-image-meta="{&amp;quot;aperture&amp;quot;:&amp;quot;5&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;Canon EOS 5D Mark II&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;1529433375&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;50&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;640&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0.02&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;0&amp;quot;}" data-image-title="strawberry summer sheet cake" data-image-description="" data-medium-file="https://smittenkitchendotcom.files.wordpress.com/2019/06/strawberry-summer-sheet-cake.jpg?w=300" data-large-file="https://smittenkitchendotcom.files.wordpress.com/2019/06/strawberry-summer-sheet-cake.jpg?w=640" /&gt;&lt;p&gt;
+	&lt;div class="smittenkitchen-print-hide"&gt;
+			&lt;/div&gt;
+
+	&lt;a href="https://smittenkitchen.com/2011/05/strawberry-summer-cake/"&gt;Eight years ago&lt;/a&gt;, I wrote about a strawberry cake I&amp;#8217;d been making and tweaking from Martha Stewart since, apparently, 2005 that felt to me like the epitome of early summer. The batter is a simple cake &amp;#8212; butter, sugar, flour, eggs, milk. The berries are fresh, hulled and halved. There&amp;#8217;s seemingly nothing new or revolutionary but what differentiates it from other summer cakes is the sheer volume of strawberries. There&amp;#8217;s a full pound of berries placed on top before you bake the cake, more than easily fit. In the oven, the batter buckles around the berries, turning them into jammy puddles, especially if your strawberries are a touch overripe. The sunken berries dimple the top like a country quilt. The edges of the cake brown and become faintly crisp. If you can bear to wait half to a full day to eat it, and really let those baked berries marry with the cake, you might swear off all other summer desserts.&lt;/p&gt;
+&lt;p&gt;&lt;a class="more-link" href="https://smittenkitchen.com/2019/06/strawberry-summer-sheet-cake/"&gt;Read more &lt;span&gt;&amp;raquo;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+								<content:encoded><![CDATA[<img width="640" height="427" src="https://smittenkitchendotcom.files.wordpress.com/2019/06/strawberry-summer-sheet-cake.jpg?w=640" class="attachment-large size-large wp-post-image" alt="" style="margin-bottom: 15px;" srcset="https://smittenkitchendotcom.files.wordpress.com/2019/06/strawberry-summer-sheet-cake.jpg?w=640 640w, https://smittenkitchendotcom.files.wordpress.com/2019/06/strawberry-summer-sheet-cake.jpg?w=1280 1280w, https://smittenkitchendotcom.files.wordpress.com/2019/06/strawberry-summer-sheet-cake.jpg?w=150 150w, https://smittenkitchendotcom.files.wordpress.com/2019/06/strawberry-summer-sheet-cake.jpg?w=300 300w, https://smittenkitchendotcom.files.wordpress.com/2019/06/strawberry-summer-sheet-cake.jpg?w=768 768w, https://smittenkitchendotcom.files.wordpress.com/2019/06/strawberry-summer-sheet-cake.jpg?w=1024 1024w" sizes="(max-width: 640px) 100vw, 640px" data-attachment-id="39997" data-permalink="https://smittenkitchen.com/2019/06/strawberry-summer-sheet-cake/strawberry-summer-sheet-cake/" data-orig-file="https://smittenkitchendotcom.files.wordpress.com/2019/06/strawberry-summer-sheet-cake.jpg" data-orig-size="3000,2000" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;5&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;Canon EOS 5D Mark II&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1529433375&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;50&quot;,&quot;iso&quot;:&quot;640&quot;,&quot;shutter_speed&quot;:&quot;0.02&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="strawberry summer sheet cake" data-image-description="" data-medium-file="https://smittenkitchendotcom.files.wordpress.com/2019/06/strawberry-summer-sheet-cake.jpg?w=300" data-large-file="https://smittenkitchendotcom.files.wordpress.com/2019/06/strawberry-summer-sheet-cake.jpg?w=640" /><p>
+	<div class="smittenkitchen-print-hide">
+			</div>
+
+	<a href="https://smittenkitchen.com/2011/05/strawberry-summer-cake/">Eight years ago</a>, I wrote about a strawberry cake I&#8217;d been making and tweaking from Martha Stewart since, apparently, 2005 that felt to me like the epitome of early summer. The batter is a simple cake &#8212; butter, sugar, flour, eggs, milk. The berries are fresh, hulled and halved. There&#8217;s seemingly nothing new or revolutionary but what differentiates it from other summer cakes is the sheer volume of strawberries. There&#8217;s a full pound of berries placed on top before you bake the cake, more than easily fit. In the oven, the batter buckles around the berries, turning them into jammy puddles, especially if your strawberries are a touch overripe. The sunken berries dimple the top like a country quilt. The edges of the cake brown and become faintly crisp. If you can bear to wait half to a full day to eat it, and really let those baked berries marry with the cake, you might swear off all other summer desserts.</p>
+<p><a class="more-link" href="https://smittenkitchen.com/2019/06/strawberry-summer-sheet-cake/">Read more <span>&raquo;</span></a></p>
+]]></content:encoded>
+							<wfw:commentRss>https://smittenkitchen.com/2019/06/strawberry-summer-sheet-cake/feed/</wfw:commentRss>
+		<slash:comments>272</slash:comments>
+						
+		<media:thumbnail url="https://smittenkitchendotcom.files.wordpress.com/2019/06/strawberry-summer-sheet-cake.jpg" />
+		<media:content url="https://smittenkitchendotcom.files.wordpress.com/2019/06/strawberry-summer-sheet-cake.jpg" medium="image">
+			<media:title type="html">strawberry summer sheet cake</media:title>
+		</media:content>
+
+		<media:content url="https://0.gravatar.com/avatar/93ed6e27828730fa6c4d1a38f4405721?s=96&amp;d=identicon&amp;r=G" medium="image">
+			<media:title type="html">deb</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48129784986_e8b05ecb00_b.jpg" medium="image">
+			<media:title type="html">prepping strawberries</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48129811333_0846835663_o.jpg" medium="image">
+			<media:title type="html">ready</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48129870252_2934441918_o.jpg" medium="image">
+			<media:title type="html">one-bowl cake</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48129784691_527a833aa0_o.jpg" medium="image">
+			<media:title type="html">smooth the batter in the pan</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48129870107_9b356b633a_z.jpg" medium="image">
+			<media:title type="html">use every strawberry</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48129810878_b3e1fafd56_z.jpg" medium="image">
+			<media:title type="html">strawberry summer sheet cake, baked</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48138226028_ba7623c893_z.jpg" medium="image">
+			<media:title type="html">strawberry summer sheet cake</media:title>
+		</media:content>
+	<feedburner:origLink>https://smittenkitchen.com/2019/06/strawberry-summer-sheet-cake/</feedburner:origLink></item>
+		<item>
+		<title>simplest spaghetti al limone</title>
+		<link>http://feedproxy.google.com/~r/smittenkitchen/~3/ePJGVEGHT3o/</link>
+				<comments>https://smittenkitchen.com/2019/06/simplest-spaghetti-al-limone/#comments</comments>
+				<pubDate>Tue, 18 Jun 2019 20:04:09 +0000</pubDate>
+		<dc:creator><![CDATA[deb]]></dc:creator>
+				<category><![CDATA[5 Ingredients or Fewer]]></category>
+		<category><![CDATA[Budget]]></category>
+		<category><![CDATA[Italian]]></category>
+		<category><![CDATA[Lemon]]></category>
+		<category><![CDATA[Pasta]]></category>
+		<category><![CDATA[Quick]]></category>
+		<category><![CDATA[Recipes]]></category>
+		<category><![CDATA[Summer]]></category>
+		<category><![CDATA[Vegetarian]]></category>
+
+		<guid isPermaLink="false">http://smittenkitchen.com/?p=39927</guid>
+				<description>&lt;img width="640" height="427" src="https://smittenkitchendotcom.files.wordpress.com/2019/06/simplest-spaghetti-al-limone.jpg?w=640" class="attachment-large size-large wp-post-image" alt="" style="margin-bottom: 15px;" srcset="https://smittenkitchendotcom.files.wordpress.com/2019/06/simplest-spaghetti-al-limone.jpg?w=640 640w, https://smittenkitchendotcom.files.wordpress.com/2019/06/simplest-spaghetti-al-limone.jpg?w=1280 1280w, https://smittenkitchendotcom.files.wordpress.com/2019/06/simplest-spaghetti-al-limone.jpg?w=150 150w, https://smittenkitchendotcom.files.wordpress.com/2019/06/simplest-spaghetti-al-limone.jpg?w=300 300w, https://smittenkitchendotcom.files.wordpress.com/2019/06/simplest-spaghetti-al-limone.jpg?w=768 768w, https://smittenkitchendotcom.files.wordpress.com/2019/06/simplest-spaghetti-al-limone.jpg?w=1024 1024w" sizes="(max-width: 640px) 100vw, 640px" data-attachment-id="39930" data-permalink="https://smittenkitchen.com/2019/06/simplest-spaghetti-al-limone/simplest-spaghetti-al-limone/" data-orig-file="https://smittenkitchendotcom.files.wordpress.com/2019/06/simplest-spaghetti-al-limone.jpg" data-orig-size="3000,2000" data-comments-opened="1" data-image-meta="{&amp;quot;aperture&amp;quot;:&amp;quot;5&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;Canon EOS 5D Mark II&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;1530554231&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;50&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;250&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0.025&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;0&amp;quot;}" data-image-title="simplest spaghetti al limone" data-image-description="" data-medium-file="https://smittenkitchendotcom.files.wordpress.com/2019/06/simplest-spaghetti-al-limone.jpg?w=300" data-large-file="https://smittenkitchendotcom.files.wordpress.com/2019/06/simplest-spaghetti-al-limone.jpg?w=640" /&gt;&lt;p&gt;
+	&lt;div class="smittenkitchen-print-hide"&gt;
+			&lt;/div&gt;
+
+	In 2011, I &lt;a href="https://smittenkitchen.com/2010/02/spaghetti-cacio-e-pepe/"&gt;shared a recipe&lt;/a&gt; for spaghetti with cheese and black pepper (cacio e pepe) but it always bothered me that it contained extra ingredients and that the technique left a wide margin of error. In 2018, I finally cracked the code at home and &lt;a href="https://smittenkitchen.com/2018/09/foolproof-cacio-e-pepe/"&gt;ran to the internet to tell you about it&lt;/a&gt;. Today I&amp;#8217;m sharing what I hope will be a similar glow-up for spaghetti (or fettuccine) al limone, a classic pasta dish from, depending on who you are asking, Genoa, Amalfi, Sicily and further (the common thread is, no surprise, places where lemons are grown). In its simplest form, spaghetti al limone contains only lemons, olive oil, parmesan, salt, pepper, and a few leaves of fresh basil in an uncooked sauce. Versions abound, including &lt;a href="https://smittenkitchen.com/2011/02/spaghetti-with-lemon-and-olive-oil-al-limone/"&gt;mine from 2011&lt;/a&gt;, with cream, butter, wine, shallots, or more, usually simmered and reduced. Garlic, ricotta, and/or goat cheese are not uncommon. I suspect it&amp;#8217;s less due to a blasphemous streak or attempting to bait &lt;a href="https://twitter.com/italiancomments?lang=en"&gt;this parody account&lt;/a&gt;, but because they are all delicious. You should feel no obligation to choose.&lt;/p&gt;
+&lt;p&gt;&lt;a class="more-link" href="https://smittenkitchen.com/2019/06/simplest-spaghetti-al-limone/"&gt;Read more &lt;span&gt;&amp;raquo;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+								<content:encoded><![CDATA[<img width="640" height="427" src="https://smittenkitchendotcom.files.wordpress.com/2019/06/simplest-spaghetti-al-limone.jpg?w=640" class="attachment-large size-large wp-post-image" alt="" style="margin-bottom: 15px;" srcset="https://smittenkitchendotcom.files.wordpress.com/2019/06/simplest-spaghetti-al-limone.jpg?w=640 640w, https://smittenkitchendotcom.files.wordpress.com/2019/06/simplest-spaghetti-al-limone.jpg?w=1280 1280w, https://smittenkitchendotcom.files.wordpress.com/2019/06/simplest-spaghetti-al-limone.jpg?w=150 150w, https://smittenkitchendotcom.files.wordpress.com/2019/06/simplest-spaghetti-al-limone.jpg?w=300 300w, https://smittenkitchendotcom.files.wordpress.com/2019/06/simplest-spaghetti-al-limone.jpg?w=768 768w, https://smittenkitchendotcom.files.wordpress.com/2019/06/simplest-spaghetti-al-limone.jpg?w=1024 1024w" sizes="(max-width: 640px) 100vw, 640px" data-attachment-id="39930" data-permalink="https://smittenkitchen.com/2019/06/simplest-spaghetti-al-limone/simplest-spaghetti-al-limone/" data-orig-file="https://smittenkitchendotcom.files.wordpress.com/2019/06/simplest-spaghetti-al-limone.jpg" data-orig-size="3000,2000" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;5&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;Canon EOS 5D Mark II&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1530554231&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;50&quot;,&quot;iso&quot;:&quot;250&quot;,&quot;shutter_speed&quot;:&quot;0.025&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="simplest spaghetti al limone" data-image-description="" data-medium-file="https://smittenkitchendotcom.files.wordpress.com/2019/06/simplest-spaghetti-al-limone.jpg?w=300" data-large-file="https://smittenkitchendotcom.files.wordpress.com/2019/06/simplest-spaghetti-al-limone.jpg?w=640" /><p>
+	<div class="smittenkitchen-print-hide">
+			</div>
+
+	In 2011, I <a href="https://smittenkitchen.com/2010/02/spaghetti-cacio-e-pepe/">shared a recipe</a> for spaghetti with cheese and black pepper (cacio e pepe) but it always bothered me that it contained extra ingredients and that the technique left a wide margin of error. In 2018, I finally cracked the code at home and <a href="https://smittenkitchen.com/2018/09/foolproof-cacio-e-pepe/">ran to the internet to tell you about it</a>. Today I&#8217;m sharing what I hope will be a similar glow-up for spaghetti (or fettuccine) al limone, a classic pasta dish from, depending on who you are asking, Genoa, Amalfi, Sicily and further (the common thread is, no surprise, places where lemons are grown). In its simplest form, spaghetti al limone contains only lemons, olive oil, parmesan, salt, pepper, and a few leaves of fresh basil in an uncooked sauce. Versions abound, including <a href="https://smittenkitchen.com/2011/02/spaghetti-with-lemon-and-olive-oil-al-limone/">mine from 2011</a>, with cream, butter, wine, shallots, or more, usually simmered and reduced. Garlic, ricotta, and/or goat cheese are not uncommon. I suspect it&#8217;s less due to a blasphemous streak or attempting to bait <a href="https://twitter.com/italiancomments?lang=en">this parody account</a>, but because they are all delicious. You should feel no obligation to choose.</p>
+<p><a class="more-link" href="https://smittenkitchen.com/2019/06/simplest-spaghetti-al-limone/">Read more <span>&raquo;</span></a></p>
+]]></content:encoded>
+							<wfw:commentRss>https://smittenkitchen.com/2019/06/simplest-spaghetti-al-limone/feed/</wfw:commentRss>
+		<slash:comments>58</slash:comments>
+						
+		<media:thumbnail url="https://smittenkitchendotcom.files.wordpress.com/2019/06/simplest-spaghetti-al-limone.jpg" />
+		<media:content url="https://smittenkitchendotcom.files.wordpress.com/2019/06/simplest-spaghetti-al-limone.jpg" medium="image">
+			<media:title type="html">simplest spaghetti al limone</media:title>
+		</media:content>
+
+		<media:content url="https://0.gravatar.com/avatar/93ed6e27828730fa6c4d1a38f4405721?s=96&amp;d=identicon&amp;r=G" medium="image">
+			<media:title type="html">deb</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48083704852_46e3b82f85_z.jpg" medium="image">
+			<media:title type="html">what you'll need + olive oil</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48083704727_79784d9793_n.jpg" medium="image">
+			<media:title type="html">finely zest lemon</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48083643568_caed8d2f59_n.jpg" medium="image">
+			<media:title type="html">finely grated parmesan</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48083704507_5e37795852_n.jpg" medium="image">
+			<media:title type="html">make a thick sauce</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48083602951_60629b7238_n.jpg" medium="image">
+			<media:title type="html">drain fast</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48083602841_684b491482_n.jpg" medium="image">
+			<media:title type="html">toss toss toss</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48083704102_021a0a9683_n.jpg" medium="image">
+			<media:title type="html">evenly coated, plus some baby basil</media:title>
+		</media:content>
+	<feedburner:origLink>https://smittenkitchen.com/2019/06/simplest-spaghetti-al-limone/</feedburner:origLink></item>
+		<item>
+		<title>burrata with charred and raw sugar snap peas</title>
+		<link>http://feedproxy.google.com/~r/smittenkitchen/~3/u1M8uikS5Ow/</link>
+				<comments>https://smittenkitchen.com/2019/06/burrata-with-charred-and-raw-sugar-snap-peas/#comments</comments>
+				<pubDate>Fri, 14 Jun 2019 15:12:11 +0000</pubDate>
+		<dc:creator><![CDATA[deb]]></dc:creator>
+				<category><![CDATA[Grilling]]></category>
+		<category><![CDATA[Peas]]></category>
+		<category><![CDATA[Quick]]></category>
+		<category><![CDATA[Recipes]]></category>
+		<category><![CDATA[Salad]]></category>
+		<category><![CDATA[Side Dish]]></category>
+		<category><![CDATA[Summer]]></category>
+		<category><![CDATA[Vegetarian]]></category>
+
+		<guid isPermaLink="false">http://smittenkitchen.com/?p=39877</guid>
+				<description>&lt;img width="640" height="427" src="https://smittenkitchendotcom.files.wordpress.com/2019/06/burrata-with-charred-and-raw-sugar-snap-peas.jpg?w=640" class="attachment-large size-large wp-post-image" alt="" style="margin-bottom: 15px;" srcset="https://smittenkitchendotcom.files.wordpress.com/2019/06/burrata-with-charred-and-raw-sugar-snap-peas.jpg?w=640 640w, https://smittenkitchendotcom.files.wordpress.com/2019/06/burrata-with-charred-and-raw-sugar-snap-peas.jpg?w=1280 1280w, https://smittenkitchendotcom.files.wordpress.com/2019/06/burrata-with-charred-and-raw-sugar-snap-peas.jpg?w=150 150w, https://smittenkitchendotcom.files.wordpress.com/2019/06/burrata-with-charred-and-raw-sugar-snap-peas.jpg?w=300 300w, https://smittenkitchendotcom.files.wordpress.com/2019/06/burrata-with-charred-and-raw-sugar-snap-peas.jpg?w=768 768w, https://smittenkitchendotcom.files.wordpress.com/2019/06/burrata-with-charred-and-raw-sugar-snap-peas.jpg?w=1024 1024w" sizes="(max-width: 640px) 100vw, 640px" data-attachment-id="39880" data-permalink="https://smittenkitchen.com/2019/06/burrata-with-charred-and-raw-sugar-snap-peas/burrata-with-charred-and-raw-sugar-snap-peas/" data-orig-file="https://smittenkitchendotcom.files.wordpress.com/2019/06/burrata-with-charred-and-raw-sugar-snap-peas.jpg" data-orig-size="2048,1365" data-comments-opened="1" data-image-meta="{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;Canon EOS 5D Mark II&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;1560379463&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;50&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;500&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0.025&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;0&amp;quot;}" data-image-title="burrata with charred and raw sugar snap peas" data-image-description="" data-medium-file="https://smittenkitchendotcom.files.wordpress.com/2019/06/burrata-with-charred-and-raw-sugar-snap-peas.jpg?w=300" data-large-file="https://smittenkitchendotcom.files.wordpress.com/2019/06/burrata-with-charred-and-raw-sugar-snap-peas.jpg?w=640" /&gt;&lt;p&gt;
+	&lt;div class="smittenkitchen-print-hide"&gt;
+			&lt;/div&gt;
+
+	Mozzarella on the outside, lush ricotta on the inside, I could eat &lt;a href="https://en.wikipedia.org/wiki/Burrata"&gt;burrata&lt;/a&gt; with a fork and knife for dinner with every day of the summer and never grow tired of it. I mean, if money was no object. In reality, it&amp;#8217;s a bit too much of a luxury to pull off on a daily basis, so instead, I try to find ways to stretch burrata into a foundation for &lt;a href="https://smittenkitchen.com/2016/08/burrata-with-lentils-and-basil-vinaigrette/"&gt;larger dishes&lt;/a&gt;. This leads me to my favorite burrata move, the one that if you&amp;#8217;re not doing yet, I need you to start right now. We&amp;#8217;re basically going to butterfly it, or open it like a book. Cut the burrata down the middle, but stop halfway, turn your knife to the side, cut almost out to the edge of the ball, then flip this outward. Repeat on the second side. Nudge the ricotta center a little flatter. Drizzle it with olive oil and flaky sea salt and then let it hang out and warm up while you figure out what you&amp;#8217;re going to scatter on top. Burrata was meant to be eaten at room temperature, where its complex flavors and creaminess come through the loudest. There&amp;#8217;s an economy to it, too; instead of feeling like we never have enough, every bite on the plate gets its own &lt;a href="https://www.flickr.com/photos/smitten/48057538468/in/photostream"&gt;generous swoop&lt;/a&gt; of the best part. &lt;/p&gt;
+&lt;p&gt;&lt;a class="more-link" href="https://smittenkitchen.com/2019/06/burrata-with-charred-and-raw-sugar-snap-peas/"&gt;Read more &lt;span&gt;&amp;raquo;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+								<content:encoded><![CDATA[<img width="640" height="427" src="https://smittenkitchendotcom.files.wordpress.com/2019/06/burrata-with-charred-and-raw-sugar-snap-peas.jpg?w=640" class="attachment-large size-large wp-post-image" alt="" style="margin-bottom: 15px;" srcset="https://smittenkitchendotcom.files.wordpress.com/2019/06/burrata-with-charred-and-raw-sugar-snap-peas.jpg?w=640 640w, https://smittenkitchendotcom.files.wordpress.com/2019/06/burrata-with-charred-and-raw-sugar-snap-peas.jpg?w=1280 1280w, https://smittenkitchendotcom.files.wordpress.com/2019/06/burrata-with-charred-and-raw-sugar-snap-peas.jpg?w=150 150w, https://smittenkitchendotcom.files.wordpress.com/2019/06/burrata-with-charred-and-raw-sugar-snap-peas.jpg?w=300 300w, https://smittenkitchendotcom.files.wordpress.com/2019/06/burrata-with-charred-and-raw-sugar-snap-peas.jpg?w=768 768w, https://smittenkitchendotcom.files.wordpress.com/2019/06/burrata-with-charred-and-raw-sugar-snap-peas.jpg?w=1024 1024w" sizes="(max-width: 640px) 100vw, 640px" data-attachment-id="39880" data-permalink="https://smittenkitchen.com/2019/06/burrata-with-charred-and-raw-sugar-snap-peas/burrata-with-charred-and-raw-sugar-snap-peas/" data-orig-file="https://smittenkitchendotcom.files.wordpress.com/2019/06/burrata-with-charred-and-raw-sugar-snap-peas.jpg" data-orig-size="2048,1365" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;Canon EOS 5D Mark II&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1560379463&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;50&quot;,&quot;iso&quot;:&quot;500&quot;,&quot;shutter_speed&quot;:&quot;0.025&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="burrata with charred and raw sugar snap peas" data-image-description="" data-medium-file="https://smittenkitchendotcom.files.wordpress.com/2019/06/burrata-with-charred-and-raw-sugar-snap-peas.jpg?w=300" data-large-file="https://smittenkitchendotcom.files.wordpress.com/2019/06/burrata-with-charred-and-raw-sugar-snap-peas.jpg?w=640" /><p>
+	<div class="smittenkitchen-print-hide">
+			</div>
+
+	Mozzarella on the outside, lush ricotta on the inside, I could eat <a href="https://en.wikipedia.org/wiki/Burrata">burrata</a> with a fork and knife for dinner with every day of the summer and never grow tired of it. I mean, if money was no object. In reality, it&#8217;s a bit too much of a luxury to pull off on a daily basis, so instead, I try to find ways to stretch burrata into a foundation for <a href="https://smittenkitchen.com/2016/08/burrata-with-lentils-and-basil-vinaigrette/">larger dishes</a>. This leads me to my favorite burrata move, the one that if you&#8217;re not doing yet, I need you to start right now. We&#8217;re basically going to butterfly it, or open it like a book. Cut the burrata down the middle, but stop halfway, turn your knife to the side, cut almost out to the edge of the ball, then flip this outward. Repeat on the second side. Nudge the ricotta center a little flatter. Drizzle it with olive oil and flaky sea salt and then let it hang out and warm up while you figure out what you&#8217;re going to scatter on top. Burrata was meant to be eaten at room temperature, where its complex flavors and creaminess come through the loudest. There&#8217;s an economy to it, too; instead of feeling like we never have enough, every bite on the plate gets its own <a href="https://www.flickr.com/photos/smitten/48057538468/in/photostream">generous swoop</a> of the best part. </p>
+<p><a class="more-link" href="https://smittenkitchen.com/2019/06/burrata-with-charred-and-raw-sugar-snap-peas/">Read more <span>&raquo;</span></a></p>
+]]></content:encoded>
+							<wfw:commentRss>https://smittenkitchen.com/2019/06/burrata-with-charred-and-raw-sugar-snap-peas/feed/</wfw:commentRss>
+		<slash:comments>51</slash:comments>
+						
+		<media:thumbnail url="https://smittenkitchendotcom.files.wordpress.com/2019/06/burrata-with-charred-and-raw-sugar-snap-peas.jpg" />
+		<media:content url="https://smittenkitchendotcom.files.wordpress.com/2019/06/burrata-with-charred-and-raw-sugar-snap-peas.jpg" medium="image">
+			<media:title type="html">burrata with charred and raw sugar snap peas</media:title>
+		</media:content>
+
+		<media:content url="https://0.gravatar.com/avatar/93ed6e27828730fa6c4d1a38f4405721?s=96&amp;d=identicon&amp;r=G" medium="image">
+			<media:title type="html">deb</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48057588447_d8e56f9dfc_z.jpg" medium="image">
+			<media:title type="html">this is the best burrata move</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48057588697_4eb6d169fa_z.jpg" medium="image">
+			<media:title type="html">drizzled with oil, flaky salt, left to warm up</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48057492236_3cbd2cd239_n.jpg" medium="image">
+			<media:title type="html">grated or torn old bread</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48057539193_3355ce75dc_n.jpg" medium="image">
+			<media:title type="html">toasted until crisp</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48057588397_72091f8f46_n.jpg" medium="image">
+			<media:title type="html">de-string your sugar snap peas</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48057538998_80d75f4c95_n.jpg" medium="image">
+			<media:title type="html">grill half</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48057539078_fb5b2f9a8d_z.jpg" medium="image">
+			<media:title type="html">mix with ungrilled half</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48057538198_a188b287ab_z.jpg" medium="image">
+			<media:title type="html">grilled sugar snap peas and burrata</media:title>
+		</media:content>
+	<feedburner:origLink>https://smittenkitchen.com/2019/06/burrata-with-charred-and-raw-sugar-snap-peas/</feedburner:origLink></item>
+		<item>
+		<title>chocolate budino</title>
+		<link>http://feedproxy.google.com/~r/smittenkitchen/~3/2MkaPtDAhTQ/</link>
+				<comments>https://smittenkitchen.com/2019/06/chocolate-budino/#comments</comments>
+				<pubDate>Fri, 07 Jun 2019 16:18:03 +0000</pubDate>
+		<dc:creator><![CDATA[deb]]></dc:creator>
+				<category><![CDATA[Chocolate]]></category>
+		<category><![CDATA[Pudding]]></category>
+		<category><![CDATA[Recipes]]></category>
+
+		<guid isPermaLink="false">http://smittenkitchen.com/?p=39810</guid>
+				<description>&lt;img width="640" height="427" src="https://smittenkitchendotcom.files.wordpress.com/2019/06/chocolate-budino.jpg?w=640" class="attachment-large size-large wp-post-image" alt="" style="margin-bottom: 15px;" srcset="https://smittenkitchendotcom.files.wordpress.com/2019/06/chocolate-budino.jpg?w=640 640w, https://smittenkitchendotcom.files.wordpress.com/2019/06/chocolate-budino.jpg?w=1280 1280w, https://smittenkitchendotcom.files.wordpress.com/2019/06/chocolate-budino.jpg?w=150 150w, https://smittenkitchendotcom.files.wordpress.com/2019/06/chocolate-budino.jpg?w=300 300w, https://smittenkitchendotcom.files.wordpress.com/2019/06/chocolate-budino.jpg?w=768 768w, https://smittenkitchendotcom.files.wordpress.com/2019/06/chocolate-budino.jpg?w=1024 1024w" sizes="(max-width: 640px) 100vw, 640px" data-attachment-id="39819" data-permalink="https://smittenkitchen.com/2019/06/chocolate-budino/chocolate-budino/" data-orig-file="https://smittenkitchendotcom.files.wordpress.com/2019/06/chocolate-budino.jpg" data-orig-size="2048,1365" data-comments-opened="1" data-image-meta="{&amp;quot;aperture&amp;quot;:&amp;quot;0&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;Canon EOS 5D Mark II&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;1559258750&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;100&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;800&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0.01&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;0&amp;quot;}" data-image-title="chocolate budino" data-image-description="" data-medium-file="https://smittenkitchendotcom.files.wordpress.com/2019/06/chocolate-budino.jpg?w=300" data-large-file="https://smittenkitchendotcom.files.wordpress.com/2019/06/chocolate-budino.jpg?w=640" /&gt;&lt;p&gt;
+	&lt;div class="smittenkitchen-print-hide"&gt;
+			&lt;/div&gt;
+
+	&lt;a href="https://www.instagram.com/barbutonyc/"&gt;Barbuto&lt;/a&gt; is the restaurant that made me love &lt;a href="https://smittenkitchen.com/2013/08/kale-salad-with-pecorino-and-walnuts/"&gt;kale salads&lt;/a&gt;. It proved daily that toasted gnocchi &amp;gt; any other gnocchi. The &lt;a href="https://www.foodandwine.com/news/jonathan-waxman-definitive-guide-roasted-chicken"&gt;chicken&lt;/a&gt; is legendary, although we probably got the hangar steak more often, because it&amp;#8217;s also the restaurant that showed me how wonderful they can be. The crispy potato side is one of my favorite formats of potatoes on earth (I&amp;#8217;ll get to them, I promise). But little of this matters because they closed last week. We knew &lt;a href="https://ny.eater.com/2019/3/27/18283906/barbuto-closing-may-jonathan-waxman-west-village-nyc"&gt;it was coming&lt;/a&gt;. The building was sold over four years ago and I know because I got panicked emails from some of you about it. [&amp;#8220;What are you going to do??!&amp;#8221; I felt seen.] I assume it&amp;#8217;s just taken this long to get whatever teardown-and-rebuild plans [I&amp;#8217;m confident that it will be affordable housing, aren&amp;#8217;t you?] the new owners have for the spot in order. They&amp;#8217;ll probably find a new location eventually, but I am skeptical that will have the casual charm of an old auto garage with roll-up glass doors. This unfussy charm was our favorite thing about the restaurant. There was no bread on the table, no heavy sauces, no dots of reductions, no frippery, nothing exhausting. Pretty much everything was seasoned with olive oil, lemon juice or a light vinegar, salt, pepper, and pepper flakes. Variations on salsa verdes and gremolatas abounded. It was the kind of unshowy food you could eat daily, as if they were hoping you&amp;#8217;d notice and become regulars, and if that didn&amp;#8217;t convince you, in the summer there were five to six different rosés by the glass on the menu, so you&amp;#8217;d never get bored. I promise, I&amp;#8217;m getting somewhere with this.&lt;/p&gt;
+&lt;p&gt;&lt;a class="more-link" href="https://smittenkitchen.com/2019/06/chocolate-budino/"&gt;Read more &lt;span&gt;&amp;raquo;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+								<content:encoded><![CDATA[<img width="640" height="427" src="https://smittenkitchendotcom.files.wordpress.com/2019/06/chocolate-budino.jpg?w=640" class="attachment-large size-large wp-post-image" alt="" style="margin-bottom: 15px;" srcset="https://smittenkitchendotcom.files.wordpress.com/2019/06/chocolate-budino.jpg?w=640 640w, https://smittenkitchendotcom.files.wordpress.com/2019/06/chocolate-budino.jpg?w=1280 1280w, https://smittenkitchendotcom.files.wordpress.com/2019/06/chocolate-budino.jpg?w=150 150w, https://smittenkitchendotcom.files.wordpress.com/2019/06/chocolate-budino.jpg?w=300 300w, https://smittenkitchendotcom.files.wordpress.com/2019/06/chocolate-budino.jpg?w=768 768w, https://smittenkitchendotcom.files.wordpress.com/2019/06/chocolate-budino.jpg?w=1024 1024w" sizes="(max-width: 640px) 100vw, 640px" data-attachment-id="39819" data-permalink="https://smittenkitchen.com/2019/06/chocolate-budino/chocolate-budino/" data-orig-file="https://smittenkitchendotcom.files.wordpress.com/2019/06/chocolate-budino.jpg" data-orig-size="2048,1365" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;Canon EOS 5D Mark II&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1559258750&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;100&quot;,&quot;iso&quot;:&quot;800&quot;,&quot;shutter_speed&quot;:&quot;0.01&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="chocolate budino" data-image-description="" data-medium-file="https://smittenkitchendotcom.files.wordpress.com/2019/06/chocolate-budino.jpg?w=300" data-large-file="https://smittenkitchendotcom.files.wordpress.com/2019/06/chocolate-budino.jpg?w=640" /><p>
+	<div class="smittenkitchen-print-hide">
+			</div>
+
+	<a href="https://www.instagram.com/barbutonyc/">Barbuto</a> is the restaurant that made me love <a href="https://smittenkitchen.com/2013/08/kale-salad-with-pecorino-and-walnuts/">kale salads</a>. It proved daily that toasted gnocchi &gt; any other gnocchi. The <a href="https://www.foodandwine.com/news/jonathan-waxman-definitive-guide-roasted-chicken">chicken</a> is legendary, although we probably got the hangar steak more often, because it&#8217;s also the restaurant that showed me how wonderful they can be. The crispy potato side is one of my favorite formats of potatoes on earth (I&#8217;ll get to them, I promise). But little of this matters because they closed last week. We knew <a href="https://ny.eater.com/2019/3/27/18283906/barbuto-closing-may-jonathan-waxman-west-village-nyc">it was coming</a>. The building was sold over four years ago and I know because I got panicked emails from some of you about it. [&#8220;What are you going to do??!&#8221; I felt seen.] I assume it&#8217;s just taken this long to get whatever teardown-and-rebuild plans [I&#8217;m confident that it will be affordable housing, aren&#8217;t you?] the new owners have for the spot in order. They&#8217;ll probably find a new location eventually, but I am skeptical that will have the casual charm of an old auto garage with roll-up glass doors. This unfussy charm was our favorite thing about the restaurant. There was no bread on the table, no heavy sauces, no dots of reductions, no frippery, nothing exhausting. Pretty much everything was seasoned with olive oil, lemon juice or a light vinegar, salt, pepper, and pepper flakes. Variations on salsa verdes and gremolatas abounded. It was the kind of unshowy food you could eat daily, as if they were hoping you&#8217;d notice and become regulars, and if that didn&#8217;t convince you, in the summer there were five to six different rosés by the glass on the menu, so you&#8217;d never get bored. I promise, I&#8217;m getting somewhere with this.</p>
+<p><a class="more-link" href="https://smittenkitchen.com/2019/06/chocolate-budino/">Read more <span>&raquo;</span></a></p>
+]]></content:encoded>
+							<wfw:commentRss>https://smittenkitchen.com/2019/06/chocolate-budino/feed/</wfw:commentRss>
+		<slash:comments>92</slash:comments>
+						
+		<media:thumbnail url="https://smittenkitchendotcom.files.wordpress.com/2019/06/chocolate-budino.jpg" />
+		<media:content url="https://smittenkitchendotcom.files.wordpress.com/2019/06/chocolate-budino.jpg" medium="image">
+			<media:title type="html">chocolate budino</media:title>
+		</media:content>
+
+		<media:content url="https://0.gravatar.com/avatar/93ed6e27828730fa6c4d1a38f4405721?s=96&amp;d=identicon&amp;r=G" medium="image">
+			<media:title type="html">deb</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48019238201_ec1622eae0_o.jpg" medium="image">
+			<media:title type="html">barbuto's kale salad</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48019257688_bf84f4ff1f_o.jpg" medium="image">
+			<media:title type="html">barbuto's crispy potatoes</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48019238221_b4bc9623b4_o.jpg" medium="image">
+			<media:title type="html">always the rosé at barbuto</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48019334772_18cf7e223d_o.jpg" medium="image">
+			<media:title type="html">barbuto's chocolate budino</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48016371986_ea771a2852_n.jpg" medium="image">
+			<media:title type="html">meanwhile, chop chocolate</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48016371971_9b9b15bf50_n.jpg" medium="image">
+			<media:title type="html">whisk yolks and sugar</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48016457697_79f05a9a90_n.jpg" medium="image">
+			<media:title type="html">whisk in cream slowly</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48016457742_6c6758b18d_n.jpg" medium="image">
+			<media:title type="html">cook until it coats a spoon</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48016382363_2859467a74_n.jpg" medium="image">
+			<media:title type="html">strain custard over chocolate</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48016382398_6d71088bbb_n.jpg" medium="image">
+			<media:title type="html">stir to melt</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48016382288_c9687bb64a_z.jpg" medium="image">
+			<media:title type="html">pour into cups</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48016689823_b0f853b36c_z.jpg" medium="image">
+			<media:title type="html">chocolate budino, ready to chill</media:title>
+		</media:content>
+
+		<media:content url="https://live.staticflickr.com/65535/48016779152_e4a83bdd94_z.jpg" medium="image">
+			<media:title type="html">chocolate budino, barbuto-style</media:title>
+		</media:content>
+	<feedburner:origLink>https://smittenkitchen.com/2019/06/chocolate-budino/</feedburner:origLink></item>
+		<item>
+		<title>exceptional grilled chicken</title>
+		<link>http://feedproxy.google.com/~r/smittenkitchen/~3/rqkzxLmkWD8/</link>
+				<comments>https://smittenkitchen.com/2019/05/exceptional-grilled-chicken/#comments</comments>
+				<pubDate>Fri, 31 May 2019 16:46:40 +0000</pubDate>
+		<dc:creator><![CDATA[deb]]></dc:creator>
+				<category><![CDATA[Chicken]]></category>
+		<category><![CDATA[Grilling]]></category>
+		<category><![CDATA[Summer]]></category>
+
+		<guid isPermaLink="false">http://smittenkitchen.com/?p=39744</guid>
+				<description>&lt;img width="640" height="427" src="https://smittenkitchendotcom.files.wordpress.com/2019/05/img_0560.jpg?w=640" class="attachment-large size-large wp-post-image" alt="" style="margin-bottom: 15px;" srcset="https://smittenkitchendotcom.files.wordpress.com/2019/05/img_0560.jpg?w=640 640w, https://smittenkitchendotcom.files.wordpress.com/2019/05/img_0560.jpg?w=1280 1280w, https://smittenkitchendotcom.files.wordpress.com/2019/05/img_0560.jpg?w=150 150w, https://smittenkitchendotcom.files.wordpress.com/2019/05/img_0560.jpg?w=300 300w, https://smittenkitchendotcom.files.wordpress.com/2019/05/img_0560.jpg?w=768 768w, https://smittenkitchendotcom.files.wordpress.com/2019/05/img_0560.jpg?w=1024 1024w" sizes="(max-width: 640px) 100vw, 640px" data-attachment-id="39752" data-permalink="https://smittenkitchen.com/img_0560/" data-orig-file="https://smittenkitchendotcom.files.wordpress.com/2019/05/img_0560.jpg" data-orig-size="2621,1747" data-comments-opened="1" data-image-meta="{&amp;quot;aperture&amp;quot;:&amp;quot;5&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;Canon EOS 5D Mark II&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;1558375040&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;50&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;640&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0.025&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;1&amp;quot;}" data-image-title="exceptional grilled chicken" data-image-description="" data-medium-file="https://smittenkitchendotcom.files.wordpress.com/2019/05/img_0560.jpg?w=300" data-large-file="https://smittenkitchendotcom.files.wordpress.com/2019/05/img_0560.jpg?w=640" /&gt;&lt;p&gt;
+	&lt;div class="smittenkitchen-print-hide"&gt;
+			&lt;/div&gt;
+
+	I&amp;#8217;m sorry to disappoint you if you ever believed otherwise, but only a fraction of the recipes on this site come from a place of adoration &amp;#8212; i.e. I&amp;#8217;ve always loved this dish, thus we all need to make it at home. A far greater amount come from befuddlement that people are so into something I find so unspecial. Maybe it&amp;#8217;s not as bad as it sounds. I mean, would you rather get a recipe for a dish from someone who loved it to the moon and back and may not see its flaws or from a deep skeptic that had to be convinced by an exceptional version?  Or so I tell us as a long windup to the fact that there are probably few summer dishes I like less than grilled chicken. Let&amp;#8217;s take something that already leans dry and cook it for what is usually way too long and make it more dry! Here&amp;#8217;s a thick sweet sauce that almost guarantees there will be little texture or color on the outside. I&amp;#8217;m not saying that good grilled chicken doesn&amp;#8217;t exist (I like &lt;a href="https://smittenkitchen.com/2016/09/piri-piri-chicken/"&gt;this&lt;/a&gt; and &lt;a href="https://smittenkitchen.com/2016/05/chicken-gyro-salad/"&gt;that&lt;/a&gt; one, for example, and yours, yours is fantastic), it&amp;#8217;s just far less common than bad grilled chicken.&lt;/p&gt;
+&lt;p&gt;&lt;a class="more-link" href="https://smittenkitchen.com/2019/05/exceptional-grilled-chicken/"&gt;Read more &lt;span&gt;&amp;raquo;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+								<content:encoded><![CDATA[<img width="640" height="427" src="https://smittenkitchendotcom.files.wordpress.com/2019/05/img_0560.jpg?w=640" class="attachment-large size-large wp-post-image" alt="" style="margin-bottom: 15px;" srcset="https://smittenkitchendotcom.files.wordpress.com/2019/05/img_0560.jpg?w=640 640w, https://smittenkitchendotcom.files.wordpress.com/2019/05/img_0560.jpg?w=1280 1280w, https://smittenkitchendotcom.files.wordpress.com/2019/05/img_0560.jpg?w=150 150w, https://smittenkitchendotcom.files.wordpress.com/2019/05/img_0560.jpg?w=300 300w, https://smittenkitchendotcom.files.wordpress.com/2019/05/img_0560.jpg?w=768 768w, https://smittenkitchendotcom.files.wordpress.com/2019/05/img_0560.jpg?w=1024 1024w" sizes="(max-width: 640px) 100vw, 640px" data-attachment-id="39752" data-permalink="https://smittenkitchen.com/img_0560/" data-orig-file="https://smittenkitchendotcom.files.wordpress.com/2019/05/img_0560.jpg" data-orig-size="2621,1747" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;5&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;Canon EOS 5D Mark II&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1558375040&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;50&quot;,&quot;iso&quot;:&quot;640&quot;,&quot;shutter_speed&quot;:&quot;0.025&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="exceptional grilled chicken" data-image-description="" data-medium-file="https://smittenkitchendotcom.files.wordpress.com/2019/05/img_0560.jpg?w=300" data-large-file="https://smittenkitchendotcom.files.wordpress.com/2019/05/img_0560.jpg?w=640" /><p>
+	<div class="smittenkitchen-print-hide">
+			</div>
+
+	I&#8217;m sorry to disappoint you if you ever believed otherwise, but only a fraction of the recipes on this site come from a place of adoration &#8212; i.e. I&#8217;ve always loved this dish, thus we all need to make it at home. A far greater amount come from befuddlement that people are so into something I find so unspecial. Maybe it&#8217;s not as bad as it sounds. I mean, would you rather get a recipe for a dish from someone who loved it to the moon and back and may not see its flaws or from a deep skeptic that had to be convinced by an exceptional version?  Or so I tell us as a long windup to the fact that there are probably few summer dishes I like less than grilled chicken. Let&#8217;s take something that already leans dry and cook it for what is usually way too long and make it more dry! Here&#8217;s a thick sweet sauce that almost guarantees there will be little texture or color on the outside. I&#8217;m not saying that good grilled chicken doesn&#8217;t exist (I like <a href="https://smittenkitchen.com/2016/09/piri-piri-chicken/">this</a> and <a href="https://smittenkitchen.com/2016/05/chicken-gyro-salad/">that</a> one, for example, and yours, yours is fantastic), it&#8217;s just far less common than bad grilled chicken.</p>
+<p><a class="more-link" href="https://smittenkitchen.com/2019/05/exceptional-grilled-chicken/">Read more <span>&raquo;</span></a></p>
+]]></content:encoded>
+							<wfw:commentRss>https://smittenkitchen.com/2019/05/exceptional-grilled-chicken/feed/</wfw:commentRss>
+		<slash:comments>91</slash:comments>
+						
+		<media:thumbnail url="https://smittenkitchendotcom.files.wordpress.com/2019/05/img_0560.jpg" />
+		<media:content url="https://smittenkitchendotcom.files.wordpress.com/2019/05/img_0560.jpg" medium="image">
+			<media:title type="html">exceptional grilled chicken</media:title>
+		</media:content>
+
+		<media:content url="https://0.gravatar.com/avatar/93ed6e27828730fa6c4d1a38f4405721?s=96&amp;d=identicon&amp;r=G" medium="image">
+			<media:title type="html">deb</media:title>
+		</media:content>
+
+		<media:content url="https://smittenkitchendotcom.files.wordpress.com/2019/05/img_0514.jpg" medium="image">
+			<media:title type="html">brine it</media:title>
+		</media:content>
+
+		<media:content url="https://smittenkitchendotcom.files.wordpress.com/2019/05/img_0521.jpg" medium="image">
+			<media:title type="html">one vinaigrette</media:title>
+		</media:content>
+
+		<media:content url="https://smittenkitchendotcom.files.wordpress.com/2019/05/img_0532.jpg" medium="image">
+			<media:title type="html">grill high then moderate</media:title>
+		</media:content>
+
+		<media:content url="https://smittenkitchendotcom.files.wordpress.com/2019/05/img_0536.jpg" medium="image">
+			<media:title type="html">toss in vinaigrette</media:title>
+		</media:content>
+
+		<media:content url="https://smittenkitchendotcom.files.wordpress.com/2019/05/img_0540.jpg?w=640" medium="image">
+			<media:title type="html">exceptional grilled chicken</media:title>
+		</media:content>
+
+		<media:content url="https://smittenkitchendotcom.files.wordpress.com/2019/05/img_0583.jpg?w=640" medium="image">
+			<media:title type="html">exceptional grilled chicken + vinegar slaw with cucumbers and dill</media:title>
+		</media:content>
+	<feedburner:origLink>https://smittenkitchen.com/2019/05/exceptional-grilled-chicken/</feedburner:origLink></item>
+		<item>
+		<title>raspberry crumble tart bars</title>
+		<link>http://feedproxy.google.com/~r/smittenkitchen/~3/38IoEU0QLus/</link>
+				<comments>https://smittenkitchen.com/2019/05/raspberry-crumble-tart-bars/#comments</comments>
+				<pubDate>Fri, 24 May 2019 19:09:53 +0000</pubDate>
+		<dc:creator><![CDATA[deb]]></dc:creator>
+				<category><![CDATA[5 Ingredients or Fewer]]></category>
+		<category><![CDATA[Bars]]></category>
+		<category><![CDATA[Picnics]]></category>
+		<category><![CDATA[Raspberries]]></category>
+		<category><![CDATA[Summer]]></category>
+		<category><![CDATA[Tarts/Pies]]></category>
+
+		<guid isPermaLink="false">http://smittenkitchen.com/?p=39654</guid>
+				<description>&lt;img width="640" height="427" src="https://smittenkitchendotcom.files.wordpress.com/2019/05/raspberry-crumble-tart-bars.jpg?w=640" class="attachment-large size-large wp-post-image" alt="" style="margin-bottom: 15px;" srcset="https://smittenkitchendotcom.files.wordpress.com/2019/05/raspberry-crumble-tart-bars.jpg?w=640 640w, https://smittenkitchendotcom.files.wordpress.com/2019/05/raspberry-crumble-tart-bars.jpg?w=1280 1280w, https://smittenkitchendotcom.files.wordpress.com/2019/05/raspberry-crumble-tart-bars.jpg?w=150 150w, https://smittenkitchendotcom.files.wordpress.com/2019/05/raspberry-crumble-tart-bars.jpg?w=300 300w, https://smittenkitchendotcom.files.wordpress.com/2019/05/raspberry-crumble-tart-bars.jpg?w=768 768w, https://smittenkitchendotcom.files.wordpress.com/2019/05/raspberry-crumble-tart-bars.jpg?w=1024 1024w" sizes="(max-width: 640px) 100vw, 640px" data-attachment-id="39671" data-permalink="https://smittenkitchen.com/2019/05/raspberry-crumble-tart-bars/raspberry-crumble-tart-bars/" data-orig-file="https://smittenkitchendotcom.files.wordpress.com/2019/05/raspberry-crumble-tart-bars.jpg" data-orig-size="5616,3744" data-comments-opened="1" data-image-meta="{&amp;quot;aperture&amp;quot;:&amp;quot;5&amp;quot;,&amp;quot;credit&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;camera&amp;quot;:&amp;quot;Canon EOS 5D Mark II&amp;quot;,&amp;quot;caption&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;created_timestamp&amp;quot;:&amp;quot;1558630211&amp;quot;,&amp;quot;copyright&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;focal_length&amp;quot;:&amp;quot;50&amp;quot;,&amp;quot;iso&amp;quot;:&amp;quot;125&amp;quot;,&amp;quot;shutter_speed&amp;quot;:&amp;quot;0.02&amp;quot;,&amp;quot;title&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;orientation&amp;quot;:&amp;quot;1&amp;quot;}" data-image-title="raspberry crumble tart bars" data-image-description="" data-medium-file="https://smittenkitchendotcom.files.wordpress.com/2019/05/raspberry-crumble-tart-bars.jpg?w=300" data-large-file="https://smittenkitchendotcom.files.wordpress.com/2019/05/raspberry-crumble-tart-bars.jpg?w=640" /&gt;&lt;p&gt;
+	&lt;div class="smittenkitchen-print-hide"&gt;
+			&lt;/div&gt;
+
+	Last month, &lt;a href="https://en.wikipedia.org/wiki/Ruth_Reichl"&gt;Ruth Reichl&lt;/a&gt;, food writer extraordinaire and the last editor-in-chief of the now shuttered Gourmet magazine, rounded up her &lt;a href="https://www.epicurious.com/recipes-menus/ruth-reichl-favorite-gourmet-recipes-article"&gt;10 favorite recipes from her magazine years for Epicurious&lt;/a&gt;. It&amp;#8217;s possible I&amp;#8217;ve never clicked on a link faster. I adored the magazine; in my early years here, it really helped me crystalize a vision of what I love in cooking and do not. I cooked so many of the recipes &amp;#8212; and yet, almost none of these. A &lt;a href="https://www.epicurious.com/recipes/food/views/raspberry-crumble-tart-235495"&gt;raspberry crumble tart&lt;/a&gt; by Ruth Cousineau in August 2006 (just weeks before I launched SK) in particular jumped off the page. Reichl writes:&lt;/p&gt;
+&lt;p&gt;&lt;a class="more-link" href="https://smittenkitchen.com/2019/05/raspberry-crumble-tart-bars/"&gt;Read more &lt;span&gt;&amp;raquo;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;</description>
+								<content:encoded><![CDATA[<img width="640" height="427" src="https://smittenkitchendotcom.files.wordpress.com/2019/05/raspberry-crumble-tart-bars.jpg?w=640" class="attachment-large size-large wp-post-image" alt="" style="margin-bottom: 15px;" srcset="https://smittenkitchendotcom.files.wordpress.com/2019/05/raspberry-crumble-tart-bars.jpg?w=640 640w, https://smittenkitchendotcom.files.wordpress.com/2019/05/raspberry-crumble-tart-bars.jpg?w=1280 1280w, https://smittenkitchendotcom.files.wordpress.com/2019/05/raspberry-crumble-tart-bars.jpg?w=150 150w, https://smittenkitchendotcom.files.wordpress.com/2019/05/raspberry-crumble-tart-bars.jpg?w=300 300w, https://smittenkitchendotcom.files.wordpress.com/2019/05/raspberry-crumble-tart-bars.jpg?w=768 768w, https://smittenkitchendotcom.files.wordpress.com/2019/05/raspberry-crumble-tart-bars.jpg?w=1024 1024w" sizes="(max-width: 640px) 100vw, 640px" data-attachment-id="39671" data-permalink="https://smittenkitchen.com/2019/05/raspberry-crumble-tart-bars/raspberry-crumble-tart-bars/" data-orig-file="https://smittenkitchendotcom.files.wordpress.com/2019/05/raspberry-crumble-tart-bars.jpg" data-orig-size="5616,3744" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;5&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;Canon EOS 5D Mark II&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1558630211&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;50&quot;,&quot;iso&quot;:&quot;125&quot;,&quot;shutter_speed&quot;:&quot;0.02&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="raspberry crumble tart bars" data-image-description="" data-medium-file="https://smittenkitchendotcom.files.wordpress.com/2019/05/raspberry-crumble-tart-bars.jpg?w=300" data-large-file="https://smittenkitchendotcom.files.wordpress.com/2019/05/raspberry-crumble-tart-bars.jpg?w=640" /><p>
+	<div class="smittenkitchen-print-hide">
+			</div>
+
+	Last month, <a href="https://en.wikipedia.org/wiki/Ruth_Reichl">Ruth Reichl</a>, food writer extraordinaire and the last editor-in-chief of the now shuttered Gourmet magazine, rounded up her <a href="https://www.epicurious.com/recipes-menus/ruth-reichl-favorite-gourmet-recipes-article">10 favorite recipes from her magazine years for Epicurious</a>. It&#8217;s possible I&#8217;ve never clicked on a link faster. I adored the magazine; in my early years here, it really helped me crystalize a vision of what I love in cooking and do not. I cooked so many of the recipes &#8212; and yet, almost none of these. A <a href="https://www.epicurious.com/recipes/food/views/raspberry-crumble-tart-235495">raspberry crumble tart</a> by Ruth Cousineau in August 2006 (just weeks before I launched SK) in particular jumped off the page. Reichl writes:</p>
+<p><a class="more-link" href="https://smittenkitchen.com/2019/05/raspberry-crumble-tart-bars/">Read more <span>&raquo;</span></a></p>
+]]></content:encoded>
+							<wfw:commentRss>https://smittenkitchen.com/2019/05/raspberry-crumble-tart-bars/feed/</wfw:commentRss>
+		<slash:comments>133</slash:comments>
+						
+		<media:thumbnail url="https://smittenkitchendotcom.files.wordpress.com/2019/05/raspberry-crumble-tart-bars.jpg" />
+		<media:content url="https://smittenkitchendotcom.files.wordpress.com/2019/05/raspberry-crumble-tart-bars.jpg" medium="image">
+			<media:title type="html">raspberry crumble tart bars</media:title>
+		</media:content>
+
+		<media:content url="https://0.gravatar.com/avatar/93ed6e27828730fa6c4d1a38f4405721?s=96&amp;d=identicon&amp;r=G" medium="image">
+			<media:title type="html">deb</media:title>
+		</media:content>
+
+		<media:content url="https://smittenkitchendotcom.files.wordpress.com/2019/05/img_0591.jpg" medium="image">
+			<media:title type="html">pulse the flour and butter</media:title>
+		</media:content>
+
+		<media:content url="https://smittenkitchendotcom.files.wordpress.com/2019/05/img_0593.jpg" medium="image">
+			<media:title type="html">crumble topping</media:title>
+		</media:content>
+
+		<media:content url="https://smittenkitchendotcom.files.wordpress.com/2019/05/img_0595.jpg" medium="image">
+			<media:title type="html">crumble topping</media:title>
+		</media:content>
+
+		<media:content url="https://smittenkitchendotcom.files.wordpress.com/2019/05/img_0596.jpg" medium="image">
+			<media:title type="html">shaggy bottom dough</media:title>
+		</media:content>
+
+		<media:content url="https://smittenkitchendotcom.files.wordpress.com/2019/05/img_0599.jpg" medium="image">
+			<media:title type="html">ready to chill</media:title>
+		</media:content>
+
+		<media:content url="https://smittenkitchendotcom.files.wordpress.com/2019/05/img_0604.jpg" medium="image">
+			<media:title type="html">roll it squareish</media:title>
+		</media:content>
+
+		<media:content url="https://smittenkitchendotcom.files.wordpress.com/2019/05/img_0606.jpg" medium="image">
+			<media:title type="html">it's messy but it works</media:title>
+		</media:content>
+
+		<media:content url="https://smittenkitchendotcom.files.wordpress.com/2019/05/img_0595.jpg" medium="image">
+			<media:title type="html">crumble topping</media:title>
+		</media:content>
+
+		<media:content url="https://smittenkitchendotcom.files.wordpress.com/2019/05/img_0614.jpg" medium="image">
+			<media:title type="html">avalanche of crumble</media:title>
+		</media:content>
+
+		<media:content url="https://smittenkitchendotcom.files.wordpress.com/2019/05/img_0629.jpg" medium="image">
+			<media:title type="html">baked</media:title>
+		</media:content>
+
+		<media:content url="https://smittenkitchendotcom.files.wordpress.com/2019/05/img_0639.jpg" medium="image">
+			<media:title type="html">raspberry crumble tart bars</media:title>
+		</media:content>
+
+		<media:content url="https://smittenkitchendotcom.files.wordpress.com/2019/05/img_0669.jpg" medium="image">
+			<media:title type="html">tart and perfect</media:title>
+		</media:content>
+	<feedburner:origLink>https://smittenkitchen.com/2019/05/raspberry-crumble-tart-bars/</feedburner:origLink></item>
+	</channel>
+</rss>

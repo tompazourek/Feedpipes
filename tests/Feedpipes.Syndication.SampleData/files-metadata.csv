@@ -4,66 +4,214 @@ _rss10-sample01,,,,RSS 1.0 Spec
 _rss10-sample02,,,,RSS 1.0 Spec
 _rss20-sample01,,,,RSS 2.0 Spec
 _rss20-sample02,,,,Custom made
+9gagrss-com-feed,http://9gagrss.com/feed/,9GAG RSS feed,http://9gag.com/,Inoreader Fun
+abduzeedo-com-rss-xml,http://abduzeedo.com/rss.xml,Abduzeedo Design Inspiration - Design Inspiration & Tutorials,http://abduzeedo.com/,Inoreader Tutorials & Howtos
 adamsitnik-com-feed,https://adamsitnik.com/feed.xml,Adam Sitnik,https://adamsitnik.com/,Inoreader OPML
 ajaxian-com-index,http://ajaxian.com/index.xml,Ajaxian » Front Page,http://ajaxian.com/,Inoreader OPML
+andrewchen-co-feed,http://andrewchen.co/feed/,@andrewchen,http://andrewchen.co/,Inoreader Enterpreneurship
+atlasobscura-com-rss-xml,http://atlasobscura.com/rss.xml,Atlas Obscura,http://www.atlasobscura.com/places,Inoreader Travel
 awesomepeoplehangingouttogether-tumblr-com-rss,http://awesomepeoplehangingouttogether.tumblr.com/rss,awesome people hanging out together,http://awesomepeoplehangingouttogether.tumblr.com/,Inoreader OPML
 blog-dropbox-com-feed,https://blog.dropbox.com/feed/,The Dropbox Blog,https://blog.dropbox.com/,Inoreader OPML
+blog-flickr-net-en-feed,http://blog.flickr.net/en/feed/,Flickr Blog,http://blog.flickr.net/,Inoreader Photography
 blog-getbootstrap-com-feed,http://blog.getbootstrap.com/feed.xml,Bootstrap Blog,http://blog.getbootstrap.com/,Inoreader OPML
 blog-getseq-net-rss,http://blog.getseq.net/rss/,Seq Blog,http://blog.getseq.net/,Inoreader OPML
+blog-hubspot-com-marketing-rss-xml,https://blog.hubspot.com/marketing/rss.xml,Inbound Hub | Marketing,http://blog.hubspot.com/marketing,Inoreader Marketing
 blog-imgix-com-feed,https://blog.imgix.com/feed.xml,blog - imgix - Real-time image processing and image CDN,https://blog.imgix.com/,Inoreader OPML
 blog-marcgravell-com-feeds-posts-default,https://blog.marcgravell.com/feeds/posts/default,"Code, code and more code.",http://blog.marcgravell.com/,Inoreader OPML
 blog-medio-cz-feed,http://blog.medio.cz/feed,Medio Blog,http://blog.medio.cz/,Inoreader OPML
+blog-optimizely-com-feed,https://blog.optimizely.com/feed/,The Optimizely Blog,https://blog.optimizely.com/,Inoreader Marketing
 blog-ploeh-dk-syndicationservice-asmx-getrss,http://blog.ploeh.dk/SyndicationService.asmx/GetRss,ploeh blog,http://blog.ploeh.dk/,Inoreader OPML
 blog-productdisrupt-com-feed,https://blog.productdisrupt.com/feed,Product Disrupt Blog - Medium,https://blog.productdisrupt.com/?source=rss----be650246a394---4,Inoreader OPML
 blog-samaltman-com-posts-atom,http://blog.samaltman.com/posts.atom,Sam Altman,http://blog.samaltman.com/,Inoreader OPML
 blog-schema-org-feeds-posts-default,http://blog.schema.org/feeds/posts/default,schema blog,http://blog.schema.org/,Inoreader OPML
+blog-stackoverflow-com-feed,http://blog.stackoverflow.com/feed/,Blog - Stack Exchange,http://blog.stackoverflow.com/,Inoreader Software Engineering
+chocolateandzucchini-com-index-rdf,http://chocolateandzucchini.com/index.rdf,Chocolate & Zucchini,http://chocolateandzucchini.com/,Inoreader Food
+chrisguillebeau-com-3x5-feed,http://chrisguillebeau.com/3x5/feed/,The Art of Non-Conformity,http://chrisguillebeau.com/,Inoreader Health & Life
 christianfindlay-com-feed,https://christianfindlay.com/feed/,Christian Findlay's Software Development,https://christianfindlay.com/,Inoreader OPML
 codeforcode-com-blog-format-rss,http://codeforcode.com/blog?format=rss,Code for Code,http://codeforcode.com/,Inoreader OPML
 codepen-io-spark-feed,https://codepen.io/spark/feed/,CodePen Spark Feed,https://codepen.io/spark,Inoreader OPML
 coderproverbs-tumblr-com-rss,http://coderproverbs.tumblr.com/rss,"One wise coder once said,",http://coderproverbs.tumblr.com/,Inoreader OPML
 connect-zive-cz-rss-ashx,http://connect.zive.cz/rss.ashx,Connect.cz,http://connect.zive.cz/,Inoreader OPML
+content-nejm-org-rss-current-xml,http://content.nejm.org/rss/current.xml,Massachusetts Medical Society: New England Journal of Medicine: Table of Contents,http://www.nejm.org/,Inoreader Health & Life
+daringfireball-net-index-xml,http://daringfireball.net/index.xml,Daring Fireball,http://daringfireball.net/,Inoreader Tech News
+deadspin-com-rss,http://deadspin.com/rss,Deadspin,http://deadspin.com/,Inoreader Sports
 devopsreactions-tumblr-com-rss,http://devopsreactions.tumblr.com/rss,DevOps Reactions,http://devopsreactions.tumblr.com/,Inoreader OPML
 dominictarr-com-rss,http://dominictarr.com/rss,cyberhoboing with dominic tarr,http://dominictarr.com/,Inoreader OPML
 dontcodetired-com-blog-syndication-axd,http://dontcodetired.com/blog/syndication.axd,Don't Code Tired,http://dontcodetired.com/blog/,Inoreader OPML
+downloads-bbc-co-uk-podcasts-worldservice-globalnews-rss-xml,http://downloads.bbc.co.uk/podcasts/worldservice/globalnews/rss.xml,Global News,http://www.bbc.co.uk/news/world/,Inoreader Podcasts
+dribbble-hittter-com-feeds-dribbble-popular-rss,https://dribbble.hittter.com/feeds/dribbble/popular.rss,Dribbble RSS by Hittter / Popular,https://dribbble.hittter.com/,Inoreader Design & Inspiration
 facebook-github-io-react-feed,http://facebook.github.io/react/feed.xml,React,http://facebook.github.io/react,Inoreader OPML
+fb-indiewire-com-indiewirenews,http://fb.indiewire.com/indieWIRENews,Indiewire,http://www.indiewire.com/,Inoreader Movies
+feeds-101cookbooks-com-101cookbooks,http://feeds.101cookbooks.com/101cookbooks,101 Cookbooks,http://www.101cookbooks.com/,Inoreader Food
+feeds2-feedburner-com-bmwblog,http://feeds2.feedburner.com/BmwBlog,BMW BLOG,http://www.bmwblog.com/,Inoreader Auto
+feeds2-feedburner-com-coolthingoftheday,http://feeds2.feedburner.com/coolthingoftheday,Greg's Cool [Insert Clever Name] of the Day,http://coolthingoftheday.blogspot.com/,Inoreader OPML
+feeds2-feedburner-com-fluentin3months,http://feeds2.feedburner.com/fluentin3months,Fluent in 3 months - Language Hacking and Travel Tips,http://www.fluentin3months.com/,Inoreader Travel
+feeds2-feedburner-com-MarksDailyApple,http://feeds2.feedburner.com/MarksDailyApple/,Mark's Daily Apple,http://www.marksdailyapple.com/,Inoreader Health & Life
+feeds2-feedburner-com-robcottinghamcartoons,http://feeds2.feedburner.com/RobCottinghamCartoons,Noise to Signal,http://www.robcottingham.ca/cartoon,Inoreader OPML
+feeds2-feedburner-com-thenextweb,http://feeds2.feedburner.com/thenextweb,The Next Web,http://thenextweb.com/,Inoreader Tech News
+feeds2-feedburner-com-tympanus,http://feeds2.feedburner.com/tympanus,Codrops,http://tympanus.net/codrops,Inoreader OPML
+feeds-arstechnica-com-arstechnica-index,http://feeds.arstechnica.com/arstechnica/index,Ars Technica,http://arstechnica.com/,Inoreader Tech News
 feeds-baymard-com-baymard,http://feeds.baymard.com/baymard,Baymard Institute,http://baymard.com/,Inoreader OPML
+feeds-bbci-co-uk-news-science-and-environment-rss-xml,http://feeds.bbci.co.uk/news/science_and_environment/rss.xml?edition=uk,BBC News - Science & Environment,http://www.bbc.co.uk/news/science_and_environment/#sa-ns_mchannel=rss&ns_source=PublicRSS20-sa,Inoreader Science & Space
+feeds-boingboing-net-boingboing-ibag,http://feeds.boingboing.net/boingboing/iBag,Boing Boing,http://boingboing.net/,Inoreader Fun
+feeds-copyblogger-com-copyblogger,http://feeds.copyblogger.com/Copyblogger,Copyblogger,http://www.copyblogger.com/,Inoreader Marketing
+feeds-feedblitz-com-problogger,https://feeds.feedblitz.com/ProBlogger,@ProBlogger,http://www.problogger.net/,Inoreader Marketing
+feeds-feedblitz-com-sethsblog,http://feeds.feedblitz.com/SethsBlog,"Seth Godin's Blog on marketing, tribes and respect",http://sethgodin.typepad.com/seths_blog/,Inoreader Marketing
+feeds-feedburner-com-abduzeedo,http://feeds.feedburner.com/abduzeedo,Abduzeedo Design Inspiration - Design Inspiration & Tutorials,http://abduzeedo.com/frontpage/blog/1,Inoreader Design & Inspiration
+feeds-feedburner-com-apartmenttherapy-thekitchn,http://feeds.feedburner.com/apartmenttherapy/thekitchn,"The Kitchn | Inspiring cooks, nourishing homes",http://www.thekitchn.com/feedburnermain,Inoreader Food
+feeds-feedburner-com-Archdaily,http://feeds.feedburner.com/Archdaily,ArchDaily,http://www.archdaily.com/,Inoreader Architecture & Interior
+feeds-feedburner-com-atlanticscienceandtechnology,http://feeds.feedburner.com/AtlanticScienceAndTechnology,Technology : The Atlantic,http://www.theatlantic.com/technology/,Inoreader Tech News
+feeds-feedburner-com-atlanticsciencechannel,http://feeds.feedburner.com/AtlanticScienceChannel,Science | The Atlantic,http://www.theatlantic.com/api/1.0/articles/?format=atom&full_content=true&channel=science&user=atlantic&password=media,Inoreader Science & Space
+feeds-feedburner-com-bakerella,http://feeds.feedburner.com/Bakerella,bakerella.com,http://www.bakerella.com/,Inoreader Food
 feeds-feedburner-com-basketcasecomix,http://feeds.feedburner.com/BasketcaseComix,basketcase comix,http://www.basketcasecomix.com/,Inoreader OPML
+feeds-feedburner-com-bigthink-main,http://feeds.feedburner.com/bigthink/main,Big Think,http://bigthink.com/,Inoreader Thinkers
+feeds-feedburner-com-blogspot-dcni,http://feeds.feedburner.com/blogspot/Dcni,Google Developers Blog,http://googledevelopers.blogspot.com/,Inoreader Software Engineering
+feeds-feedburner-com-blogspot-hsdu,http://feeds.feedburner.com/blogspot/hsDu,Android Developers Blog,http://android-developers.blogspot.com/,Inoreader Software Engineering
+feeds-feedburner-com-bludice,http://feeds.feedburner.com/Bludice,David Walsh Blog,http://davidwalsh.name/,Inoreader Software Engineering
+feeds-feedburner-com-boredpanda,http://feeds.feedburner.com/BoredPanda,Bored Panda,http://www.boredpanda.com/,Inoreader Fun
+feeds-feedburner-com-brainpickings-rss,http://feeds.feedburner.com/brainpickings/rss,Brain Pickings,http://www.brainpickings.org/,Inoreader Books
+feeds-feedburner-com-breitbart,http://feeds.feedburner.com/breitbart,Breitbart,http://www.breitbart.com/,Inoreader News
+feeds-feedburner-com-cheapisthenewclassy,http://feeds.feedburner.com/CheapIsTheNewClassy,Cheap Is the New Classy,http://cheapisthenewclassy.com/,Inoreader Lifestyle
+feeds-feedburner-com-colossal,http://feeds.feedburner.com/colossal,Colossal,http://www.thisiscolossal.com/,Inoreader Design & Inspiration
+feeds-feedburner-com-comingsoonnet30,http://feeds.feedburner.com/comingsoonnet30,ComingSoon.net,http://www.comingsoon.net/,Inoreader Movies
+feeds-feedburner-com-contemporist,http://feeds.feedburner.com/contemporist,CONTEMPORIST,http://www.contemporist.com/,Inoreader Architecture & Interior
+feeds-feedburner-com-core77-blog,http://feeds.feedburner.com/core77/blog,Core77,http://www.core77.com/blog/,Inoreader Thinkers
+feeds-feedburner-com-crackedrss,http://feeds.feedburner.com/CrackedRSS,Cracked: All Posts,http://www.cracked.com/,Inoreader Fun
+feeds-feedburner-com-createdigitalmusic,http://feeds.feedburner.com/createdigitalmusic,Create Digital Music,http://createdigitalmusic.com/,Inoreader Music
+feeds-feedburner-com-cyanatrendland,http://feeds.feedburner.com/cyanatrendland,Trendland - Fashion & Trends Blogzine,http://trendland.com/,Inoreader Fashion
+feeds-feedburner-com-dappered,http://feeds.feedburner.com/Dappered,Dappered Style Mail,http://dappered.com/,Inoreader Fashion
+feeds-feedburner-com-design-milk,http://feeds.feedburner.com/design-milk,Design Milk,http://design-milk.com/,Inoreader Design & Inspiration
 feeds-feedburner-com-designmodo,http://feeds.feedburner.com/designmodo,DesignModo,http://designmodo.com/,Inoreader OPML
+feeds-feedburner-com-dezeen,http://feeds.feedburner.com/dezeen,Dezeen,http://www.dezeen.com/,Inoreader Design & Inspiration
+feeds-feedburner-com-digitalphotographyschool,http://feeds.feedburner.com/DigitalPhotographySchool,Digital Photography School,http://digital-photography-school.com/,Inoreader Photography
+feeds-feedburner-com-dilbertdailystrip,http://feeds.feedburner.com/DilbertDailyStrip,Dilbert Daily Strip,http://dilbert.com/,Inoreader Comics
+feeds-feedburner-com-doyouremember-ldsr,http://feeds.feedburner.com/doyouremember/lDSr,Do You Remember,http://doyouremember.com/,Inoreader Fun
+feeds-feedburner-com-dspn-everyone,http://feeds.feedburner.com/dspn/everyone/,Designspiration - Everything,http://designspiration.net/everything/feed.rss,Inoreader Design & Inspiration
+feeds-feedburner-com-dumblittleman,http://feeds.feedburner.com/DumbLittleMan,Dumb Little Man - Tips for Life,http://www.dumblittleman.com/,Inoreader DIY
+feeds-feedburner-com-elise-simplyrecipes,http://feeds.feedburner.com/elise/simplyrecipes,SimplyRecipes.com,http://www.simplyrecipes.com/,Inoreader Food
+feeds-feedburner-com-entrepreneur-latest,http://feeds.feedburner.com/entrepreneur/latest,Entrepreneur,http://www.entrepreneur.com/,Inoreader Enterpreneurship
+feeds-feedburner-com-explosm,http://feeds.feedburner.com/Explosm,Cyanide & Happiness,http://www.explosm.net/rss.php,Inoreader Comics
+feeds-feedburner-com-failblog,http://feeds.feedburner.com/failblog,FAIL Blog,http://failblog.cheezburger.com/,Inoreader Fun
+feeds-feedburner-com-featureshoot,http://feeds.feedburner.com/FeatureShoot,Feature Shoot,http://www.featureshoot.com/,Inoreader Photography
+feeds-feedburner-com-filmschoolrejects,http://feeds.feedburner.com/FilmSchoolRejects,Film School Rejects,http://filmschoolrejects.com/,Inoreader Movies
+feeds-feedburner-com-food52-theaandmblog,http://feeds.feedburner.com/food52-TheAandMBlog,Food52,http://food52.com/blog,Inoreader Food
+feeds-feedburner-com-freshinspirationforyourhome,http://feeds.feedburner.com/FreshInspirationForYourHome,Freshome.com - Interior Design & Architecture Magazine,http://freshome.com/,Inoreader Architecture & Interior
 feeds-feedburner-com-functioningform,http://feeds.feedburner.com/FunctioningForm,LukeW | Digital Product Design + Strategy,http://www.lukew.com/,Inoreader OPML
+feeds-feedburner-com-gamasutranews,http://feeds.feedburner.com/GamasutraNews,Gamasutra News,http://www.gamasutra.com/newswire,Inoreader Gaming
+feeds-feedburner-com-gentlemansgazette,http://feeds.feedburner.com/GentlemansGazette,Gentleman's Gazette,http://www.gentlemansgazette.com/,Inoreader Fashion
 feeds-feedburner-com-googleoperatingsystem,http://feeds.feedburner.com/GoogleOperatingSystem,Google Operating System,http://googlesystem.blogspot.com/,Inoreader OPML
 feeds-feedburner-com-hangfireio,http://feeds.feedburner.com/hangfireio,Hangfire,http://hangfire.io/,Inoreader OPML
+feeds-feedburner-com-hanselminutescompletemp3,http://feeds.feedburner.com/HanselminutesCompleteMP3,Hanselminutes,http://www.hanselminutes.com/,Inoreader Podcasts
+feeds-feedburner-com-highscalability,http://feeds.feedburner.com/HighScalability,High Scalability,http://highscalability.com/blog/,Inoreader Software Engineering
+feeds-feedburner-com-icanhascheezburger,http://feeds.feedburner.com/ICanHasCheezburger,I Can Has Cheezburger?,http://icanhas.cheezburger.com/,Inoreader Fun
+feeds-feedburner-com-ikeahacker,http://feeds.feedburner.com/Ikeahacker,IKEA Hackers,http://www.ikeahackers.net/,Inoreader DIY
+feeds-feedburner-com-informationisbeautiful,http://feeds.feedburner.com/InformationIsBeautiful,Information Is Beautiful,http://www.informationisbeautiful.net/,Inoreader Science & Space
+feeds-feedburner-com-inhabitat,http://feeds.feedburner.com/Inhabitat,INHABITAT,http://inhabitat.com/,Inoreader Architecture & Interior
+feeds-feedburner-com-kissmetrics,http://feeds.feedburner.com/KISSmetrics,The KISSmetrics Marketing Blog,https://blog.kissmetrics.com/,Inoreader Marketing
 feeds-feedburner-com-lefthandedtoons-awesome,http://feeds.feedburner.com/lefthandedtoons/awesome,Left-Handed Toons,http://www.lefthandedtoons.com/,Inoreader OPML
 feeds-feedburner-com-lukas-zeman,http://feeds.feedburner.com/lukas-zeman,Lukáš Zeman,http://blog.proteus.cz/,Inoreader OPML
+feeds-feedburner-com-makeuseof,http://feeds.feedburner.com/Makeuseof,MakeUseOf,http://www.makeuseof.com/,Inoreader Tech News
+feeds-feedburner-com-mattstravelsite,http://feeds.feedburner.com/MattsTravelSite,Nomadic Matt's Travel Site,http://www.nomadicmatt.com/,Inoreader Travel
+feeds-feedburner-com-mcsweeneys,http://feeds.feedburner.com/mcsweeneys,McSweeney’s,http://www.mcsweeneys.net/tendency,Inoreader Books
+feeds-feedburner-com-medgadget,http://feeds.feedburner.com/Medgadget,Medgadget,http://www.medgadget.com/,Inoreader Health & Life
 feeds-feedburner-com-miroslavholec,https://feeds.feedburner.com/miroslavholec,"Miroslav Holec - Blog (MVC, Web API, AZURE)",https://www.miroslavholec.cz/blog,Inoreader OPML
+feeds-feedburner-com-mlbtraderumors,http://feeds.feedburner.com/MlbTradeRumors,MLB Trade Rumors,http://www.mlbtraderumors.com/,Inoreader Sports
 feeds-feedburner-com-mrmoneymustache,https://feeds.feedburner.com/mrmoneymustache,Mr. Money Mustache,http://www.mrmoneymustache.com/,Inoreader OPML
+feeds-feedburner-com-nerdfitnessblog,http://feeds.feedburner.com/NerdFitnessBlog,Nerd Fitness » Blog,http://www.nerdfitness.com/,Inoreader Sports
 feeds-feedburner-com-nikhilk,http://feeds.feedburner.com/nikhilk,Nikhil Kothari's Blog,http://www.nikhilk.net/,Inoreader OPML
+feeds-feedburner-com-nybooks,http://feeds.feedburner.com/nybooks,The New York Review of Books,http://www.nybooks.com/,Inoreader Books
+feeds-feedburner-com-oatmealfeed,http://feeds.feedburner.com/oatmealfeed,"The Oatmeal - Comics, Quizzes, & Stories",http://theoatmeal.com/,Inoreader Comics
+feeds-feedburner-com-occamsrazorbyavinash,http://feeds.feedburner.com/OccamsRazorByAvinash,Occam's Razor by Avinash Kaushik,http://www.kaushik.net/avinash,Inoreader Marketing
 feeds-feedburner-com-odetocode,http://feeds.feedburner.com/OdeToCode,OdeToCode by K. Scott Allen,http://odetocode.com/,Inoreader OPML
+feeds-feedburner-com-onlinemarketingseoblog,http://feeds.feedburner.com/OnlineMarketingSEOBlog,Online Marketing Blog - TopRank®,http://www.toprankblog.com/,Inoreader Marketing
+feeds-feedburner-com-optimisticlifestyle,http://feeds.feedburner.com/OptimisticLifestyle,Optimistic Life,http://www.oplife.org/,Inoreader Health & Life
+feeds-feedburner-com-petapixel,http://feeds.feedburner.com/PetaPixel,PetaPixel,http://petapixel.com/,Inoreader Photography
 feeds-feedburner-com-poorlydrawnlines,http://feeds.feedburner.com/PoorlyDrawnLines,Poorly Drawn Lines,http://poorlydrawnlines.com/,Inoreader OPML
+feeds-feedburner-com-popsugar,http://feeds.feedburner.com/popsugar,POPSUGAR Celebrity,http://www.popsugar.com/celebrity,Inoreader Celebrities
 feeds-feedburner-com-profimagazin,http://feeds.feedburner.com/profimagazin,"Profi Magazín - webdesign, ikony, jquery, Textpattern",http://www.profimagazin.cz/,Inoreader OPML
+feeds-feedburner-com-quicksprout,http://feeds.feedburner.com/Quicksprout,Quick Sprout,http://www.quicksprout.com/,Inoreader Marketing
+feeds-feedburner-com-realmenrealstyle,http://feeds.feedburner.com/RealMenRealStyle,Real Men Real Style,http://www.realmenrealstyle.com/,Inoreader Fashion
 feeds-feedburner-com-reflectiveperspective,http://feeds.feedburner.com/ReflectivePerspective,The Morning Brew,http://blog.cwa.me.uk/,Inoreader OPML
+feeds-feedburner-com-rockpapershotgun,http://feeds.feedburner.com/RockPaperShotgun,"Rock, Paper, Shotgun",http://www.rockpapershotgun.com/,Inoreader Gaming
 feeds-feedburner-com-scotthanselman,http://feeds.feedburner.com/ScottHanselman,Scott Hanselman,http://www.hanselman.com/blog/,Inoreader OPML
+feeds-feedburner-com-seomoz,http://feeds.feedburner.com/seomoz,SEOmoz Blog,http://moz.com/blog,Inoreader Marketing
+feeds-feedburner-com-slashfilm,http://feeds.feedburner.com/slashfilm,/Film,http://www.slashfilm.com/,Inoreader Movies
+feeds-feedburner-com-smittenkitchen,http://feeds.feedburner.com/smittenkitchen,smitten kitchen,http://smittenkitchen.com/,Inoreader Food
+feeds-feedburner-com-stereogum-cbya,http://feeds.feedburner.com/stereogum/cBYa,Stereogum,http://www.stereogum.com/,Inoreader Music
+feeds-feedburner-com-techcrunch,http://feeds.feedburner.com/TechCrunch,TechCrunch,http://techcrunch.com/,Inoreader Tech News
+feeds-feedburner-com-the99percent,http://feeds.feedburner.com/The99Percent,99U,http://99u.com/,Inoreader Thinkers
+feeds-feedburner-com-theartofmanliness,http://feeds.feedburner.com/TheArtOfManliness,The Art of Manliness,http://www.artofmanliness.com/,Inoreader DIY
+feeds-feedburner-com-theatlantic,http://feeds.feedburner.com/TheAtlantic,Master Feed : The Atlantic,http://www.theatlantic.com/,Inoreader News
+feeds-feedburner-com-theatlantic-infocus,http://feeds.feedburner.com/theatlantic/infocus,In Focus,http://www.theatlantic.com/infocus/,Inoreader Photography
+feeds-feedburner-com-thedigitalreader,http://feeds.feedburner.com/TheDigitalReader,The Digital Reader,http://the-digital-reader.com/,Inoreader Books
+feeds-feedburner-com-theeffortlessgent,http://feeds.feedburner.com/TheEffortlessGent,Effortless Gent,http://effortlessgent.com/,Inoreader Fashion
+feeds-feedburner-com-thoughtcatalog,http://feeds.feedburner.com/ThoughtCatalog,Thought Catalog,http://thoughtcatalog.com/,Inoreader Lifestyle
+feeds-feedburner-com-timferriss,http://feeds.feedburner.com/TimFerriss,The Blog of Author Tim Ferriss » Blog,http://fourhourworkweek.com/,Inoreader Enterpreneurship
+feeds-feedburner-com-unclutterer,http://feeds.feedburner.com/unclutterer,Unclutterer,http://unclutterer.com/,Inoreader DIY
 feeds-feedburner-com-uxm,http://feeds.feedburner.com/UXM?,UX Magazine,http://uxmag.com/uxm.xml,Inoreader OPML
+feeds-feedburner-com-variety-headlines,http://feeds.feedburner.com/variety/headlines,Variety,http://variety.com/,Inoreader Movies
 feeds-feedburner-com-vsemiosmi,http://feeds.feedburner.com/vsemiosmi,Všemi osmi,http://vsemiosmi.blogspot.com/,Inoreader OPML
 feeds-feedburner-com-webdesignerwall,http://feeds.feedburner.com/WebDesignerWall,Web Designer Wall - Design Trends and Tutorials,http://webdesignerwall.com/,Inoreader OPML
+feeds-feedburner-com-weburbanist,http://feeds.feedburner.com/WebUrbanist,WebUrbanist,http://weburbanist.com/,Inoreader Architecture & Interior
+feeds-feedburner-com-wowebook,http://feeds.feedburner.com/wowebook,WOW! eBook,http://www.wowebook.org/,Inoreader Books
 feeds-feedburner-com-wulffmorgenthaler,http://feeds.feedburner.com/wulffmorgenthaler,wulffmorgenthaler,http://kindofnormal.com/wumo,Inoreader OPML
+feeds-feedburner-com-zenhabits,http://feeds.feedburner.com/zenhabits,zen habits,http://zenhabits.net/,Inoreader DIY
 feeds-feedburner-com-zenpencils,http://feeds.feedburner.com/zenpencils,ZEN PENCILS,http://zenpencils.com/,Inoreader OPML
+feeds-guardian-co-uk-theguardian-travel-rss,http://feeds.guardian.co.uk/theguardian/travel/rss,Travel | The Guardian,http://www.theguardian.com/travel,Inoreader Travel
+feeds-guardian-co-uk-theguardian-world-rss,http://feeds.guardian.co.uk/theguardian/world/rss,World news | The Guardian,http://www.theguardian.com/world,Inoreader News
 feeds-haacked-com-haacked,http://feeds.haacked.com/haacked/,you've been HAACKED,http://haacked.com/,Inoreader OPML
-feeds2-feedburner-com-coolthingoftheday,http://feeds2.feedburner.com/coolthingoftheday,Greg's Cool [Insert Clever Name] of the Day,http://coolthingoftheday.blogspot.com/,Inoreader OPML
-feeds2-feedburner-com-robcottinghamcartoons,http://feeds2.feedburner.com/RobCottinghamCartoons,Noise to Signal,http://www.robcottingham.ca/cartoon,Inoreader OPML
-feeds2-feedburner-com-tympanus,http://feeds2.feedburner.com/tympanus,Codrops,http://tympanus.net/codrops,Inoreader OPML
+feeds-harvardbusiness-org-harvardbusiness,http://feeds.harvardbusiness.org/harvardbusiness,HBR.org,https://hbrblogs.wordpress.com/,Inoreader Books
+feeds-howtogeek-com-howtogeek,http://feeds.howtogeek.com/HowToGeek,How-To Geek,http://www.howtogeek.com/,Inoreader DIY
+feeds-ign-com-ign-all,http://feeds.ign.com/ign/all,IGN All,http://www.ign.com/articles,Inoreader Gaming
+feeds-kottke-org-main,http://feeds.kottke.org/main,kottke.org,http://kottke.org/,Inoreader Thinkers
+feeds-laughingsquid-com-laughingsquid,http://feeds.laughingsquid.com/laughingsquid,Laughing Squid,http://laughingsquid.com/,Inoreader Fun
+feeds-macrumors-com-MacRumors-Front,http://feeds.macrumors.com/MacRumors-Front,MacRumors: Mac News and Rumors - Front Page,http://www.macrumors.com/,Inoreader Tech News
+feeds-mashable-com-mashable,http://feeds.mashable.com/Mashable,Mashable,http://mashable.com/stories/?utm_campaign=Mash-Prod-RSS-Feedburner-All-Partial&utm_cid=Mash-Prod-RSS-Feedburner-All-Partial&utm_medium=feed&utm_source=rss,Inoreader Tech News
+feeds-nature-com-nature-rss-current,http://feeds.nature.com/nature/rss/current,Nature - Issue - nature.com science feeds,http://www.nature.com/nature/current_issue/,Inoreader Science & Space
+feeds-penny-arcade-com-pa-mainsite,http://feeds.penny-arcade.com/pa-mainsite,Penny Arcade,http://penny-arcade.com/,Inoreader Gaming
+feeds-reuters-com-reuters-lifestyle,http://feeds.reuters.com/reuters/lifestyle,Reuters: Lifestyle,http://www.reuters.com/,Inoreader Lifestyle
+feeds-reuters-com-reuters-topnews,http://feeds.reuters.com/reuters/topNews,Reuters: Top News,http://www.reuters.com/,Inoreader News
+feeds-reuters-com-reuters-worldnews,http://feeds.reuters.com/Reuters/worldNews,Reuters: World News,http://www.reuters.com/,Inoreader News
+feeds-searchenginejournal-com-searchenginejournal,http://feeds.searchenginejournal.com/SearchEngineJournal,Search Engine Journal,http://www.searchenginejournal.com/,Inoreader Marketing
+feeds-searchengineland-com-searchengineland,http://feeds.searchengineland.com/searchengineland,"Search Engine Land: News & Info About SEO, PPC, SEM, Search Engines & Search Marketing",http://searchengineland.com/,Inoreader Marketing
+feeds-seriouseats-com-seriouseatsfeaturesvideos,http://feeds.seriouseats.com/seriouseatsfeaturesvideos,Serious Eats,http://www.seriouseats.com/,Inoreader Food
+feeds-the-ebook-reader-com-feedburner-cmwu,http://feeds.the-ebook-reader.com/feedburner/cmWU,The eBook Reader Blog,http://blog.the-ebook-reader.com/,Inoreader Books
+feeds-washingtonpost-com-rss-national,http://feeds.washingtonpost.com/rss/national,National: Breaking National News & Headlines - Washington Post,http://www.washingtonpost.com/2010/07/08/ABBw3vC_page.html?wprss=rss_national,Inoreader Books
+feeds-washingtonpost-com-rss-world,http://feeds.washingtonpost.com/rss/world,"Washington Post: Breaking News, World, US, DC News & Analysis",http://www.washingtonpost.com/?wprss=rss_homepage,Inoreader News
+feeds-wired-com-wired-index,http://feeds.wired.com/wired/index,WIRED,http://www.wired.com/,Inoreader Tech News
+feeds-wnyc-org-radiolab,http://feeds.wnyc.org/radiolab,Radiolab from WNYC,http://www.radiolab.org/series/podcasts/,Inoreader Podcasts
+feeds-wnyc-org-science-friday,http://feeds.wnyc.org/science-friday,Science Friday Audio Podcast,http://www.sciencefriday.com/,Inoreader Podcasts
+feed-thisamericanlife-org-talpodcast,http://feed.thisamericanlife.org/talpodcast,This American Life,http://www.thisamericanlife.org/,Inoreader Podcasts
+gizmodo-com-rss,http://gizmodo.com/rss,Gizmodo,http://gizmodo.com/,Inoreader Tech News
+hackaday-com-feed,http://hackaday.com/feed/,Hackaday,http://hackaday.com/,Inoreader DIY
+howaboutorange-blogspot-com-feeds-posts-default,http://howaboutorange.blogspot.com/feeds/posts/default,How About Orange,http://howaboutorange.blogspot.com/,Inoreader Tutorials & Howtos
+howtonode-org-feed-xml,http://howtonode.org/feed.xml,How To Node,http://howtonode.org/,Inoreader Tutorials & Howtos
 html456-blogspot-com-feeds-posts-default,http://html456.blogspot.com/feeds/posts/default,HTML 4 5 6...,http://html456.blogspot.com/,Inoreader OPML
+indiegamesplus-com-feed,https://indiegamesplus.com/feed,Indie Games Plus,https://indiegamesplus.com/,Inoreader Gaming
 j2kun-svbtle-com-feed,http://j2kun.svbtle.com/feed,Jeremy Kun,http://j2kun.svbtle.com/,Inoreader OPML
 jablickar-cz-feed,http://jablickar.cz/feed/,Jablíčkář.cz,http://jablickar.cz/,Inoreader OPML
 jvns-ca-atom,http://jvns.ca/atom.xml,Julia Evans,http://jvns.ca/,Inoreader OPML
 kahi-cz-blog-feed,http://kahi.cz/blog/feed,Kahi's mindprint,http://kahi.cz/blog,Inoreader OPML
+kotaku-com-rss,http://kotaku.com/rss,Kotaku,http://kotaku.com/,Inoreader Gaming
+lambda-the-ultimate-org-rss-xml,http://lambda-the-ultimate.org/rss.xml,Lambda the Ultimate - Programming Languages Weblog,http://lambda-the-ultimate.org/,Inoreader Software Engineering
+lifehacker-com-rss,http://lifehacker.com/rss,Lifehacker,http://lifehacker.com/,Inoreader Tech News
+lookbook-nu-rss,http://lookbook.nu/rss,Official LOOKBOOK RSS,http://lookbook.nu/,Inoreader Fashion
 lyricsquote-com-rss,http://lyricsquote.com/rss,Lyrics Quote,http://lyricsquote.com/,Inoreader OPML
+makezine-com-feed,http://makezine.com/feed/,MAKE,http://makezine.com/,Inoreader DIY
 mattwarren-org-atom,https://mattwarren.org/atom.xml,Performance is a Feature!,http://www.mattwarren.org/,Inoreader OPML
 medium-com-feed-@drboolean,https://medium.com/feed/@drboolean,Brian Lonsdorf on Medium,https://medium.com/@drboolean?source=rss-a3129fead82b------2,Inoreader OPML
 medium-com-feed-@jakubgarfield,https://medium.com/feed/@jakubgarfield,Stories by Jakub Chodounsky on Medium,https://medium.com/@jakubgarfield?source=rss-1c7c2d4e77f7------2,Inoreader OPML
 medium-com-feed-@jose-rosario,https://medium.com/feed/@jose.rosario,Stories by José Rosário on Medium,https://medium.com/@jose.rosario?source=rss-517e1070243c------2,Inoreader OPML
 medium-com-feed-stack-overflow-design,https://medium.com/feed/stack-overflow-design,Stack Overflow Design - Medium,https://medium.com/stack-overflow-design?source=rss----97551a86d458---4,Inoreader OPML
 michaelscodingspot-com-feed,https://michaelscodingspot.com/feed/,Michael's Coding Spot,https://michaelscodingspot.com/,Inoreader OPML
+mindhacks-com-feed-atom,https://mindhacks.com/feed/atom/,Mind Hacks,http://mindhacks.com/,Inoreader DIY
+motionographer-com-feed,http://motionographer.com/feed/,Motionographer,http://motionographer.com/,Inoreader Movies
+m-signalvnoise-com-feed,https://m.signalvnoise.com/feed,Signal v. Noise — Medium,https://m.signalvnoise.com/?source=rss----668e14b18fb1---4,Inoreader Marketing
 myego-cz-feed-rss2-blog-welldone,http://myego.cz/feed/rss2/blog/welldone,Radek Hulán - oficiální web,http://myego.cz/blog/welldone,Inoreader OPML
+nautil-us-rss-all,http://nautil.us/rss/all,Nautilus,http://nautil.us/rss/all,Inoreader Science & Space
+news-google-com-news-rss,https://news.google.com/news/rss/?gl=US&ned=us&hl=en,Top Stories - Google News,http://news.google.com/news?pz=1&ned=us&hl=en&topic=h&num=3,Inoreader News
+newsrss-bbc-co-uk-rss-newsonline-world-edition-front-page-rss-xml,http://newsrss.bbc.co.uk/rss/newsonline_world_edition/front_page/rss.xml,BBC News - Home,http://www.bbc.co.uk/news/#sa-ns_mchannel=rss&ns_source=PublicRSS20-sa,Inoreader News
+newsrss-bbc-co-uk-rss-sportonline-world-edition-front-page-rss-xml,http://newsrss.bbc.co.uk/rss/sportonline_world_edition/front_page/rss.xml,BBC Sport - Sport,http://www.bbc.co.uk/sport/0/,Inoreader Sports
 news-ycombinator-com-rss,http://news.ycombinator.com/rss,Hacker News,https://news.ycombinator.com/,Inoreader OPML
 nickcraver-com-blog-feed,https://nickcraver.com/blog/feed.xml,Nick Craver,http://nickcraver.com/blog,Inoreader OPML
 nodejsreactions-tumblr-com-rss,http://nodejsreactions.tumblr.com/rss,Node.js Reactions,http://nodejsreactions.tumblr.com/,Inoreader OPML
@@ -74,13 +222,39 @@ paulstraw-svbtle-com-feed,http://paulstraw.svbtle.com/feed,Paul Straw,http://pau
 pbfcomics-com-feed-feed,http://pbfcomics.com/feed/feed.xml,The Perry Bible Fellowship,http://pbfcomics.com/feed/feed.xml,Inoreader OPML
 phpfashion-com-feed-rss,https://phpfashion.com/feed/rss,phpFashion,http://phpfashion.com/,Inoreader OPML
 pixy-cz-pixynergia-feed,http://pixy.cz/pixynergia/feed/,Pixynergia,http://pixy.cz/pixynergia,Inoreader OPML
+plaintips-com-feed,http://plaintips.com/feed,Plain Tips,http://plaintips.com/,Inoreader Tutorials & Howtos
+planetpython-org-rss10-xml,https://planetpython.org/rss10.xml,Planet Python,http://planetpython.org/,Inoreader Software Engineering
 prigl-cz-feed,http://prigl.cz/feed/,Prigl,http://prigl.cz/,Inoreader OPML
 programovani-tumblr-com-rss,http://programovani.tumblr.com/rss,Programování,http://programovani.tumblr.com/,Inoreader OPML
+putthison-com-rss,http://putthison.com/rss,Put This On,http://putthison.com/,Inoreader Fashion
+readwrite-com-feed,https://readwrite.com/feed/,ReadWrite,http://readwrite.com/,Inoreader Tech News
 rebus-fm-feed,https://rebus.fm/feed/,rebus.fm,https://rebus.fm/,Inoreader OPML
+robbwolf-com-feed,http://robbwolf.com/feed/,"The Paleo Diet - Robb Wolf on Paleolithic nutrition, intermittent fasting, and fitness",http://robbwolf.com/,Inoreader Sports
+rss-cnn-com-rss-cnn-showbiz-rss,http://rss.cnn.com/rss/cnn_showbiz.rss,CNN.com - Entertainment,http://www.cnn.com/SHOWBIZ/index.html?eref=rss_showbiz,Inoreader Movies
+rss-cnn-com-rss-cnn-topstories-rss,http://rss.cnn.com/rss/cnn_topstories.rss,CNN.com - Top Stories,http://www.cnn.com/index.html?eref=rss_topstories,Inoreader News
+rss-cnn-com-rss-si-topstories-rss,http://rss.cnn.com/rss/si_topstories.rss,SI.com,http://sportsillustrated.cnn.com/?xid=si_topstories,Inoreader Sports
+rssfeeds-usatoday-com-usatoday-lifetopstories,http://rssfeeds.usatoday.com/usatoday-LifeTopStories,USATODAY - Life Top Stories,http://api-internal.usatoday.com.akadns.net/,Inoreader Lifestyle
+rssfeeds-webmd-com-rss-rss-aspx,http://rssfeeds.webmd.com/rss/rss.aspx?RSSSource=RSS_PUBLIC,WebMD Health,http://www.webmd.com/,Inoreader Health & Life
+rss-slashdot-org-slashdot-slashdot,http://rss.slashdot.org/Slashdot/slashdot,Slashdot,http://slashdot.org/,Inoreader Tech News
+rss-time-com-web-time-rss-top-index-xml,http://rss.time.com/web/time/rss/top/index.xml,TIME,http://time.com/,Inoreader News
+science-sciencemag-org-rss-current-xml,https://science.sciencemag.org/rss/current.xml,Science: Current Issue,http://www.sciencemag.org/,Inoreader Science & Space
 security-portal-cz-rss,http://security-portal.cz/rss.xml,Security-Portal.cz,http://security-portal.cz/,Inoreader OPML
+sivers-org-en-atom,http://sivers.org/en.atom,Derek Sivers,http://sivers.org/,Inoreader Music
+sports-espn-go-com-espn-rss-news,http://sports.espn.go.com/espn/rss/news,ESPN,http://espn.go.com/,Inoreader Sports
+stackoverflow-com-feeds,http://stackoverflow.com/feeds,Recent Questions - Stack Overflow,http://stackoverflow.com/questions,Inoreader Software Engineering
+steveblank-com-feed,http://steveblank.com/feed/,Steve Blank,http://steveblank.com/,Inoreader Enterpreneurship
+stratechery-com-feed,https://stratechery.com/feed/,Feed: » stratechery by Ben Thompson,https://stratechery.com/,Inoreader Enterpreneurship
+strobist-blogspot-com-feeds-posts-default,http://strobist.blogspot.com/feeds/posts/default,Strobist,http://strobist.blogspot.com/,Inoreader Photography
+syndication-thedailywtf-com-thedailywtf,http://syndication.thedailywtf.com/TheDailyWtf,The Daily WTF,http://thedailywtf.com/,Inoreader Software Engineering
+techblog-netflix-com-feeds-posts-default,http://techblog.netflix.com/feeds/posts/default,The Netflix Tech Blog,http://techblog.netflix.com/,Inoreader Software Engineering
+theawesomedaily-com-feed,http://theawesomedaily.com/feed,The Awesome Daily - Your daily dose of awesome,http://theawesomedaily.com/,Inoreader Fun
+thecuriousbrain-com,http://thecuriousbrain.com/?feed=rss2,The Curious Brain,http://thecuriousbrain.com/,Inoreader Art & Culture
 theoatmeal-com-feed-rss,http://theoatmeal.com/feed/rss,"The Oatmeal - Comics, Quizzes, & Stories",http://theoatmeal.com/,Inoreader OPML
+thinkprogress-org-feed,http://thinkprogress.org/feed/,ThinkProgress,http://thinkprogress.org/,Inoreader News
+thisisindexed-com-feed,http://thisisindexed.com/feed/,Indexed,http://thisisindexed.com/,Inoreader Comics
 tonsky-me-blog-atom,http://tonsky.me/blog/atom.xml,tonsky.me,http://tonsky.me/,Inoreader OPML
 tooslowexception-com-feed,http://tooslowexception.com/feed/,TooSlowException,http://tooslowexception.com/,Inoreader OPML
+toucharcade-com-feed,http://toucharcade.com/feed/,Touch Arcade,http://toucharcade.com/,Inoreader Gaming
 twitrss-me-mobile-twitter-to-rss-user-davidgrudl-replies-on,https://twitrss.me/mobile_twitter_to_rss/?user=davidgrudl&replies=on,Twitter Search / davidgrudl,https://twitter.com/davidgrudl,Inoreader OPML
 twitrss-me-mobile-twitter-to-rss-user-iamdevloper,https://twitrss.me/mobile_twitter_to_rss/?user=iamdevloper,Twitter Search / iamdevloper,https://twitter.com/iamdevloper,Inoreader OPML
 twitrss-me-mobile-twitter-to-rss-user-internetofshit,https://twitrss.me/mobile_twitter_to_rss/?user=internetofshit,Twitter Search / internetofshit,https://twitter.com/internetofshit,Inoreader OPML
@@ -90,22 +264,103 @@ viry-cz-rss-php,http://viry.cz/rss.php,VIRY.CZ - Igiho stránka o virech,http://
 waitbutwhy-com-feed,http://waitbutwhy.com/feed,Wait But Why,http://waitbutwhy.com/,Inoreader OPML
 weblogs-asp-net-scottgu-rss-aspx,http://weblogs.asp.net/scottgu/rss.aspx,ScottGu's Blog,http://weblogs.asp.net/scottgu/,Inoreader OPML
 what-if-xkcd-com-feed-atom,http://what-if.xkcd.com/feed.atom,What If?,http://what-if.xkcd.com/feed.atom,Inoreader OPML
+www-androidcentral-com-feed,https://www.androidcentral.com/feed,Android Central - Android Forums - News - Reviews - Help and Android Wallpapers,https://www.androidcentral.com/,Inoreader Tech News
+www-apartmenttherapy-com-main-rss,https://www.apartmenttherapy.com/main.rss,,https://www.apartmenttherapy.com/main.rss,Inoreader Architecture & Interior
+www-autosport-com-rss-f1news-xml,http://www.autosport.com/rss/f1news.xml,F1 news - AUTOSPORT.com,http://www.autosport.com/,Inoreader Auto
+www-behance-net-featuredprojects-xml,http://www.behance.net/featuredProjects.xml,Behance Featured Projects,http://www.behance.net/,Inoreader Design & Inspiration
+www-bodybuilding-com-rss-articles,http://www.bodybuilding.com/rss/articles,Bodybuilding.com Articles,http://www.bodybuilding.com/fun/bbinfoupdate.php?day=7,Inoreader Sports
+www-booooooom-com-feed,http://www.booooooom.com/feed,BOOOOOOOM!,http://www.booooooom.com/,Inoreader Art & Culture
+www-bostonglobe-com-rss-bigpicture,https://www.bostonglobe.com/rss/bigpicture,The Big Picture,http://www.bostonglobe.com/bigpicture/,Inoreader Photography
 www-bugemos-com-q-rss,http://www.bugemos.com/?q=rss.xml,Buridanův geneticky modifikovaný osel,http://www.bugemos.com/,Inoreader OPML
 www-businesscat-happyjar-com-feed,http://www.businesscat.happyjar.com/feed/,The Adventures of Business Cat,http://www.businesscat.happyjar.com/,Inoreader OPML
+www-codeproject-com-webservices-articlerss-aspx,http://www.codeproject.com/webservices/articlerss.aspx?cat=1,CodeProject Latest Articles,http://www.codeproject.com/,Inoreader Software Engineering
 www-commitstrip-com-en-feed,http://www.commitstrip.com/en/feed/,CommitStrip - Blog relating the daily life of web agencies developers,http://www.commitstrip.com/,Inoreader OPML
+www-cookingforengineers-com-atom-xml,http://www.cookingforengineers.com/atom.xml,Cooking For Engineers,http://www.cookingforengineers.com/,Inoreader Food
+www-designsponge-com-feed,http://www.designsponge.com/feed,Design*Sponge,http://www.designsponge.com/,Inoreader Architecture & Interior
+www-digitaltrends-com-feed,http://www.digitaltrends.com/feed/,Digital Trends,http://www.digitaltrends.com/,Inoreader Tech News
+www-dpreview-com-feeds-news-xml,http://www.dpreview.com/feeds/news.xml,Articles: Digital Photography Review (dpreview.com),http://www.dpreview.com/,Inoreader Photography
+www-economist-com-feeds-print-sections-74-international-xml,http://www.economist.com/feeds/print-sections/74/international.xml,The Economist: International,http://www.economist.com/,Inoreader News
+www-engadget-com-rss-xml,http://www.engadget.com/rss.xml,Engadget,http://www.engadget.com/,Inoreader Tech News
+www-engadget-com-tag-gaming-rss-xml,http://www.engadget.com/tag/@gaming/rss.xml,Joystiq RSS Feed,http://www.joystiq.com/,Inoreader Gaming
 www-fakturoid-cz-blog-rss,https://www.fakturoid.cz/blog/rss,Fakturoid blog,https://www.fakturoid.cz/blog,Inoreader OPML
+www-fastcodesign-com-rss-xml,http://www.fastcodesign.com/rss.xml,Co.Design,http://www.fastcodesign.com//www.fastcodesign.com,Inoreader Design & Inspiration
+www-ft-com-rss-home-uk,https://www.ft.com/rss/home/uk,Financial Times - UK Homepage,http://www.ft.com/home/uk,Inoreader News
+www-gamespot-com-rss-game-updates-php,http://www.gamespot.com/rss/game_updates.php,GameSpot,http://www.gamespot.com/feeds/mashup/,Inoreader Gaming
+www-geek-com-feed,http://www.geek.com/feed/,Geek.com,http://www.geek.com/,Inoreader Tech News
+www-giantitp-com-comics-oots-rss,http://www.giantitp.com/comics/oots.rss,Order of the Stick,http://www.giantitp.com/Comics.html,Inoreader Comics
+www-goodreads-com-blog-list-rss-xml,http://www.goodreads.com/blog/list_rss.xml,Goodreads,http://www.goodreads.com/,Inoreader Books
+www-grantland-com-feed,http://www.grantland.com/feed,Grantland » Features,http://grantland.com/,Inoreader Sports
+www-home-designing-com-feed,http://www.home-designing.com/feed,Interior Design Ideas,http://www.home-designing.com/,Inoreader Architecture & Interior
+www-howstuffworks-com-podcasts-brainstuff-rss,http://www.howstuffworks.com/podcasts/brainstuff.rss,BrainStuff,http://www.howstuffworks.com/,Inoreader Tutorials & Howtos
+www-howstuffworks-com-podcasts-stuff-mom-never-told-you-rss,http://www.howstuffworks.com/podcasts/stuff-mom-never-told-you.rss,Stuff Mom Never Told You,http://www.howstuffworks.com/,Inoreader Podcasts
+www-howstuffworks-com-podcasts-stuff-you-missed-in-history-class-rss,http://www.howstuffworks.com/podcasts/stuff-you-missed-in-history-class.rss,Stuff You Missed in History Class,http://www.howstuffworks.com/,Inoreader Tutorials & Howtos
+www-howstuffworks-com-podcasts-stuff-you-should-know-rss,http://www.howstuffworks.com/podcasts/stuff-you-should-know.rss,Stuff You Should Know,http://www.howstuffworks.com/,Inoreader Tutorials & Howtos
+www-howstuffworks-com-podcasts-techstuff-rss,http://www.howstuffworks.com/podcasts/techstuff.rss,TechStuff,http://www.howstuffworks.com/,Inoreader Podcasts
+www-howtoforge-com-node-feed,http://www.howtoforge.com/node/feed,HowtoForge - Linux Howtos and Tutorials -,http://www.howtoforge.com/,Inoreader Tutorials & Howtos
+www-inc-com-rss-homepage-xml,https://www.inc.com/rss/homepage.xml,Inc.com,http://www.inc.com/,Inoreader Enterpreneurship
+www-instructables-com-tag-type-id-featured-true-rss-xml,http://www.instructables.com/tag/type-id/featured-true/rss.xml,Instructables: exploring - featured,http://www.instructables.com/,Inoreader DIY
+www-javaworld-com-index-xml,http://www.javaworld.com/index.xml,JavaWorld,http://www.javaworld.com/,Inoreader Software Engineering
+www-joythebaker-com-blog-feed,http://www.joythebaker.com/blog/feed/,Joy the Baker,http://joythebaker.com/,Inoreader Food
+www-latartinegourmande-com-feed,http://www.latartinegourmande.com/feed/,La Tartine Gourmande,http://www.latartinegourmande.com/,Inoreader Food
+www-latimes-com-rss2-0-xml,http://www.latimes.com/rss2.0.xml,Los Angeles Times,http://www.latimes.com/?track=rss,Inoreader News
 www-latrine-cz-feed-rss,http://www.latrine.cz/feed/rss,La Trine,http://www.latrine.cz/,Inoreader OPML
+www-lifehack-org-feed,http://www.lifehack.org/feed/,Lifehack,http://www.lifehack.org/,Inoreader DIY
+www-linesandcolors-com-feed,http://www.linesandcolors.com/feed/,"Lines and Colors :: a blog about drawing, painting, illustration, comics, concept art and other visual arts",http://linesandcolors.com/,Inoreader Art & Culture
+www-lonelyplanet-com-blog-feed-atom,http://www.lonelyplanet.com/blog/feed/atom/,Lonely Planet blog,http://www.lonelyplanet.com/blog,Inoreader Travel
+www-lrb-co-uk-lrbrss-xml,http://www.lrb.co.uk/lrbrss.xml,London Review of Books,http://www.lrb.co.uk/,Inoreader Books
+www-manrepeller-com-feed,http://www.manrepeller.com/feed,Man Repeller,http://www.manrepeller.com/,Inoreader Fashion
 www-mediamonkey-com-news-feed,http://www.mediamonkey.com/news/feed/,MediaMonkey News,http://www.mediamonkey.com/news,Inoreader OPML
 www-michalspacek-cz-exporty-clanky,https://www.michalspacek.cz/exporty/clanky,Michal Špaček: Všechny články,https://www.michalspacek.cz/exporty/clanky,Inoreader OPML
+www-motortrend-com-widgetrss-motortrend-stories-xml,http://www.motortrend.com/widgetrss/motortrend-stories.xml,All Motor Trend Stories RSS,http://www.motortrend.com/,Inoreader Auto
+www-mysqlperformanceblog-com-feed-atom,http://www.mysqlperformanceblog.com/feed/atom/,MySQL Performance Blog,http://www.percona.com/blog,Inoreader Software Engineering
+www-newyorker-com-services-rss-feeds-everything-xml,http://www.newyorker.com/services/rss/feeds/everything.xml,The New Yorker,http://www.newyorker.com/mrss/feeds/everything.xml,Inoreader News
+www-npr-org-rss-podcast-php-id-344098539,https://www.npr.org/rss/podcast.php?id=344098539,NPR: Wait Wait... Don't Tell Me! Podcast,http://www.npr.org/programs/wait-wait-dont-tell-me/,Inoreader Podcasts
+www-npr-org-rss-rss-php,http://www.npr.org/rss/rss.php?id=1001,News,http://www.npr.org/templates/story/story.php?storyId=1001,Inoreader News
+www-nytimes-com-services-xml-rss-nyt-books-xml,http://www.nytimes.com/services/xml/rss/nyt/Books.xml,NYT > Books,http://www.nytimes.com/pages/books/index.html?partner=rss&emc=rss,Inoreader Books
+www-nytimes-com-services-xml-rss-nyt-homepage-xml,http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml,The New York Times,http://www.nytimes.com/pages/index.html?partner=rss&emc=rss,Inoreader News
+www-nytimes-com-services-xml-rss-nyt-movies-xml,http://www.nytimes.com/services/xml/rss/nyt/Movies.xml,NYT > Movies,http://www.nytimes.com/pages/movies/index.html?partner=rss&emc=rss,Inoreader Movies
+www-nytimes-com-services-xml-rss-nyt-music-xml,http://www.nytimes.com/services/xml/rss/nyt/Music.xml,NYT > Music,http://www.nytimes.com/pages/arts/music/index.html?partner=rss&emc=rss,Inoreader Music
+www-officedesigngallery-com-rss-xml,http://www.officedesigngallery.com/RSS.xml,Office Design Gallery - The best offices on the planet,http://www.officedesigngallery.com/,Inoreader Architecture & Interior
+www-overcomingbias-com-feed,http://www.overcomingbias.com/feed,Overcoming Bias,http://www.overcomingbias.com/,Inoreader Thinkers
+www-peopleofwalmart-com,http://www.peopleofwalmart.com/?feed=rss2,People Of Walmart,http://www.peopleofwalmart.com/,Inoreader Fun
+www-phdcomics-com-gradfeed-php,http://www.phdcomics.com/gradfeed.php,PHD Comics,http://www.phdcomics.com/,Inoreader Comics
+www-polygon-com-rss-index-xml,http://www.polygon.com/rss/index.xml,Polygon - All,http://www.polygon.com/,Inoreader Gaming
+www-psfk-com-feeds-psfk,https://www.psfk.com/feeds/psfk,PSFK,http://www.psfk.com/feeds/sailthru,Inoreader Lifestyle
+www-qdnow-com-grammar-xml,http://www.qdnow.com/grammar.xml,Grammar Girl Quick and Dirty Tips for Better Writing,http://www.qdnow.com/grammar-girl,Inoreader Podcasts
+www-questionablecontent-net-qcrss-xml,http://www.questionablecontent.net/QCRSS.xml,QC RSS,http://www.questionablecontent.net/,Inoreader Comics
 www-recombinantrecords-net-feed,http://www.recombinantrecords.net/feed/,Recombinant Records,http://www.recombinantrecords.net/,Inoreader OPML
+www-reddit-com-r-programming-rss,https://www.reddit.com/r/programming/.rss,programming,https://www.reddit.com/r/programming/,Inoreader Software Engineering
 www-reddit-com-rss-feed-4bf8806052eda8ac0389a137933bf2ce8e119ac5-user-tompazourek,https://www.reddit.com/.rss?feed=4bf8806052eda8ac0389a137933bf2ce8e119ac5&user=tompazourek,reddit (personal feed),https://www.reddit.com/,Inoreader OPML
+www-refinery29-com-index-xml,http://www.refinery29.com/index.xml,Refinery29,http://www.refinery29.com/rss.xml,Inoreader Fashion
+www-rollingstone-com-feed,https://www.rollingstone.com/feed/,RollingStone.com: Music,http://www.rollingstone.com/music?utm_source=yahoomusic&utm_medium=referral,Inoreader Music
 www-seoblog-cz-feed,http://www.seoblog.cz/feed/,SEO Blog,http://www.seoblog.cz/,Inoreader OPML
+www-smashingmagazine-com-feed,http://www.smashingmagazine.com/feed/,Smashing Magazine,http://www.smashingmagazine.com/,Inoreader Design & Inspiration
+www-smbc-comics-com-rss-php,http://www.smbc-comics.com/rss.php,Saturday Morning Breakfast Cereal (updated daily),http://www.smbc-comics.com/,Inoreader Comics
+www-socialmediaexaminer-com-feed,http://www.socialmediaexaminer.com/feed/,Social Media Examiner,http://www.socialmediaexaminer.com/,Inoreader Marketing
 www-soom-cz-rss-clanky,http://www.soom.cz/rss/clanky.xml,SOOM.cz - Články,http://www.soom.cz/,Inoreader OPML
 www-soom-cz-rss-newsreel,http://www.soom.cz/rss/newsreel.xml,SOOM.cz - Aktuality,http://www.soom.cz/,Inoreader OPML
+www-space-com-feeds-all,http://www.space.com/feeds/all,SPACE.com,http://www.space.com/,Inoreader Science & Space
+www-spin-com-feed,https://www.spin.com/feed/,"SPIN - Music News, Album Reviews, Concert Photos, MP3s, Videos and More",http://www.spin.com/rss.xml,Inoreader Music
+www-streetartutopia-com,http://www.streetartutopia.com/?feed=rss2,STREET ART UTOPIA,http://www.streetartutopia.com/,Inoreader Art & Culture
+www-stuckincustoms-com-feed,http://www.stuckincustoms.com/feed/,Stuck in Customs,http://www.stuckincustoms.com/,Inoreader Photography
 www-tabsoverspaces-com-feed,https://www.tabsoverspaces.com/feed.xml,tabs ↹ over ␣ ␣ ␣ spaces by Jiří {x2} Činčura,https://www.tabsoverspaces.com/,Inoreader OPML
+www-ted-com-feeds-talks-rss,https://www.ted.com/feeds/talks.rss,TEDTalks (video),http://www.ted.com/talks/list,Inoreader Science & Space
 www-theitcrowd-cz-rss-php,http://www.theitcrowd.cz/rss.php,The IT Crowd - Novinky,http://www.theitcrowd.cz/,Inoreader OPML
+www-thetruthaboutcars-com,http://www.thetruthaboutcars.com/?feed=rss2,The Truth About Cars,http://www.thetruthaboutcars.com/,Inoreader Auto
+www-theverge-com-rss-index-xml,http://www.theverge.com/rss/index.xml,The Verge,http://www.theverge.com/,Inoreader Tech News
+www-theverge-com-science-rss-index-xml,http://www.theverge.com/science/rss/index.xml,The Verge - Science Posts,http://www.theverge.com/science,Inoreader Science & Space
+www-tmz-com-rss-xml,http://www.tmz.com/rss.xml,TMZ.com,http://www.tmz.com/,Inoreader Celebrities
 www-typewolf-com-blog-feed,https://www.typewolf.com/blog/feed,Typewolf Blog,https://www.typewolf.com/blog,Inoreader OPML
+www-vanityfair-com-services-rss-feeds-everything-xml,http://www.vanityfair.com/services/rss/feeds/everything.xml,The Latest from VanityFair.com,http://www.vanityfair.com/,Inoreader Celebrities
+www-vogue-com-rss,http://www.vogue.com/rss,Vogue,http://www.vogue.com,Inoreader Fashion
+www-vox-com-rss-index-xml,http://www.vox.com/rss/index.xml,Vox - All,http://www.vox.com/,Inoreader News
+www-wikihow-com-feed-rss,http://www.wikihow.com/feed.rss,How to of the Day,http://www.wikihow.com/Main-Page,Inoreader DIY
+www-wired-com-feed-category-science-latest-rss,https://www.wired.com/feed/category/science/latest/rss,Science Latest,https://www.wired.com/category/science/latest,Inoreader Science & Space
 www-wug-cz-rss-zaznamy,https://www.wug.cz/rss/zaznamy,WUG Česká republika - Záznamy,http://www.wug.cz/,Inoreader OPML
+www-youtube-com-feeds-videos-xml-channel-id-uc3xtzvzahqed30rqbuvcttq,https://www.youtube.com/feeds/videos.xml?channel_id=UC3XTzVzaHQEd30rQbuvCtTQ,Last Week Tonight with John Oliver,http://www.youtube.com/user/LastWeekTonight,Inoreader YouTube Channels
+www-youtube-com-feeds-videos-xml-channel-id-ucauuunt6odekwe6v1ngqxug,http://www.youtube.com/feeds/videos.xml?channel_id=UCAuUUnT6oDeKwE6v1NGQxug,TED,http://www.youtube.com/channel/UCAuUUnT6oDeKwE6v1NGQxug/videos,Inoreader YouTube Channels
+www-youtube-com-feeds-videos-xml-channel-id-uchnyfmqirrg1u-2mssqlbxa,https://www.youtube.com/feeds/videos.xml?channel_id=UCHnyfMqiRRG1u-2MsSQLbXA,Veritasium,http://www.youtube.com/user/1veritasium,Inoreader YouTube Channels
+www-youtube-com-feeds-videos-xml-channel-id-ucpvm7bg6pxko1pr6k5kxg9a,http://www.youtube.com/feeds/videos.xml?channel_id=UCpVm7bg6pXKo1Pr6k5kxG9A,National Geographic,http://www.youtube.com/channel/UCpVm7bg6pXKo1Pr6k5kxG9A/videos,Inoreader YouTube Channels
 xkcd-com-rss,http://xkcd.com/rss.xml,xkcd.com,http://xkcd.com/,Inoreader OPML
 zdrojak-root-cz-rss-clanky,http://zdrojak.root.cz/rss/clanky/,Zdroják - články,http://www.zdrojak.cz/,Inoreader OPML
 zdrojak-root-cz-rss-zpravicky,http://zdrojak.root.cz/rss/zpravicky/,Zdroják - zprávičky,http://www.zdrojak.cz/,Inoreader OPML

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+>
+
+<channel>
+	<title>Hackaday</title>
+	<atom:link href="https://hackaday.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://hackaday.com</link>
+	<description>Fresh hacks every day</description>
+	<lastBuildDate>Thu, 01 Aug 2019 19:17:45 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">156670177</site>	<item>
+		<title>Boost Your WiFi Range With Cookware</title>
+		<link>https://hackaday.com/2019/08/01/boost-your-wifi-range-with-cookware/</link>
+				<comments>https://hackaday.com/2019/08/01/boost-your-wifi-range-with-cookware/#comments</comments>
+				<pubDate>Thu, 01 Aug 2019 20:00:24 +0000</pubDate>
+		<dc:creator><![CDATA[Lewin Day]]></dc:creator>
+				<category><![CDATA[Wireless Hacks]]></category>
+		<category><![CDATA[long range wifi]]></category>
+		<category><![CDATA[wifi]]></category>
+		<category><![CDATA[wireless networking]]></category>
+
+		<guid isPermaLink="false">https://hackaday.com/?p=369981</guid>
+				<description><![CDATA[<p>WiFi was the killer technology that made home networking <em>easy.</em> No more messing around with hubs and cables and drilling holes in walls, simply turn the devices on and hit connect. Over time the speed and range has increased, but those with larger houses or granny flats out back have  <a href="https://hackaday.com/2019/08/01/boost-your-wifi-range-with-cookware/" class="read_more">&#8230;read more</a></p>]]></description>
+								<content:encoded><![CDATA[<p>WiFi was the killer technology that made home networking <em>easy.</em> No more messing around with hubs and cables and drilling holes in walls, simply turn the devices on and hit connect. Over time the speed and range has increased, but those with larger houses or granny flats out back have suffered. There are tricks to boost range however, <a href="https://www.instructables.com/id/Uni-Directional-WIFI-Range-Extender/" target="_blank">and some of them involve cookware.</a></p>
+<p>The clever hack here is to use a metal strainer as a parabolic reflector, to capture signals and focus them onto the PCB antenna in a USB WiFi dongle. The strainer is drilled out, and a USB extension cable has its female end glued into the base. This allows the dongle to be positioned inside the strainer. For best results, the dongle should be positioned so that its antenna elements are sitting at the focal point of the parabola; this can be determined <a href="https://www-tc.pbs.org/wgbh/nova/teachers/activities/pdf/3406_solar_03.pdf" target="_blank">through mathematics</a> or simply by experimenting with positions to see what gives the best signal strength.</p>
+<p>It&#8217;s a design that is quite directional, and should help boost signals as well as block out those from unwanted stations. The build is simple, and can even be tripod mounted which helps with aiming and looks cool to boot.</p>
+<p>For many, WiFi antenna hacks are old school, but it&#8217;s always good to keep the techniques in mind as you never know when it will come in handy to solve a new problem. <a href="https://hackaday.com/2017/04/11/esp32-wifi-hits-10km-with-a-little-help/#more-252084">Some crazy things are possible with the right gear, too</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://hackaday.com/2019/08/01/boost-your-wifi-range-with-cookware/feed/</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">369981</post-id>	</item>
+		<item>
+		<title>CPAP Monitor Alerts Wearer To Malfunctions</title>
+		<link>https://hackaday.com/2019/08/01/cpap-monitor-alerts-wearer-to-malfunctions/</link>
+				<comments>https://hackaday.com/2019/08/01/cpap-monitor-alerts-wearer-to-malfunctions/#comments</comments>
+				<pubDate>Thu, 01 Aug 2019 18:30:00 +0000</pubDate>
+		<dc:creator><![CDATA[Lewin Day]]></dc:creator>
+				<category><![CDATA[Medical Hacks]]></category>
+		<category><![CDATA[The Hackaday Prize]]></category>
+		<category><![CDATA[2019 Hackaday Prize]]></category>
+		<category><![CDATA[CPAP]]></category>
+		<category><![CDATA[cpap machine]]></category>
+
+		<guid isPermaLink="false">https://hackaday.com/?p=368543</guid>
+				<description><![CDATA[<p>Continuous Positive Airway Pressure machines are a common treatment tool for sleep apnea and other respiratory issues. A common problem with their use is that the mask becomes dislodged during sleep, and thus fails to provide airway pressure to the patient. [Bin Sun] decided to take a stab at solving  <a href="https://hackaday.com/2019/08/01/cpap-monitor-alerts-wearer-to-malfunctions/" class="read_more">&#8230;read more</a></p>]]></description>
+								<content:encoded><![CDATA[<p>Continuous Positive Airway Pressure machines are a common treatment tool for sleep apnea and other respiratory issues. A common problem with their use is that the mask becomes dislodged during sleep, and thus fails to provide airway pressure to the patient. <a href="https://hackaday.io/project/166715-digital-manometercpap-machine-monitor" target="_blank">[Bin Sun] decided to take a stab at solving this problem</a>.</p>
+<p>The project consists of an Arduino fitted with a MPXV7002DP pressure sensor. The sensor is used to monitor the pressure in the CPAP pipes. If the pressure varies regularly, it is likely the system is working. If however, the pressure remains at a roughly constant level, that suggests the mask is no longer properly fitted to the wearer, or that there is another problem. In this event, the device sounds a buzzer to wake the wearer, alerting them to check the equipment.</p>
+<p>It&#8217;s a simple solution to the problem, and something we&#8217;re surprised isn&#8217;t built into most CPAP machines from the factory. It&#8217;s important to be careful before modifying any medical equipment, <a href="https://hackaday.com/2018/08/09/homebrew-pancreas-gets-30-minutes-of-fame/">though we see plenty of hackers taking the plunge to innovate in this area.</a></p>
+<div id="sidebar-mobile-1" class="widget widget_text amr_widget">			<div class="textwidget"><div style="text-align:center;font-size:24px;font-weight:300;margin-top:12px;">The <a href="https://prize.supplyframe.com" target="_blank" rel="noopener noreferrer" target="_blank"><span style="font-weight:bold;">Hackaday</span>Prize2019</a> is Sponsored by:</div>
+<div style="padding:15px;text-align:center;float:left;width:33%;"><a href="https://supplyframe.com/" target="_blank" rel="noopener noreferrer"><br />
+<img src="https://hackaday.com/wp-content/uploads/2018/03/sponsor-supplyframe.png?w=300" alt="Supplyframe" /><br />
+</a></div>
+<div style="padding:15px;text-align:center;float:left;width:33%;"><a href="https://hackaday.io/digikey" target="_blank" rel="noopener noreferrer"><br />
+<img src="https://hackaday.com/wp-content/uploads/2016/04/sponsor-2016-digikey21.png?w=300" alt="Digi-Key" /><br />
+</a></div>
+<div style="padding:15px;text-align:center;float:left;width:33%;"><a href="https://hackaday.io/microchip" target="_blank" rel="noopener noreferrer"><br />
+<img src="https://hackaday.com/wp-content/uploads/2018/07/sponsor-2016-microchip.png?w=300" alt="Microchip" /><br />
+</a></div>
+<div style="clear:both;"></div>
+</div>
+		</div>
+]]></content:encoded>
+							<wfw:commentRss>https://hackaday.com/2019/08/01/cpap-monitor-alerts-wearer-to-malfunctions/feed/</wfw:commentRss>
+		<slash:comments>7</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">368543</post-id>	</item>
+		<item>
+		<title>Abraham Wald&#8217;s Problem Solving Lesson is to Seek What&#8217;s Not There</title>
+		<link>https://hackaday.com/2019/08/01/abraham-walds-problem-solving-lesson-is-to-seek-whats-not-there/</link>
+				<comments>https://hackaday.com/2019/08/01/abraham-walds-problem-solving-lesson-is-to-seek-whats-not-there/#comments</comments>
+				<pubDate>Thu, 01 Aug 2019 17:01:03 +0000</pubDate>
+		<dc:creator><![CDATA[Al Williams]]></dc:creator>
+				<category><![CDATA[Biography]]></category>
+		<category><![CDATA[Hackaday Columns]]></category>
+		<category><![CDATA[Interest]]></category>
+		<category><![CDATA[statistics]]></category>
+		<category><![CDATA[wald]]></category>
+		<category><![CDATA[world war 2]]></category>
+		<category><![CDATA[world war II]]></category>
+
+		<guid isPermaLink="false">https://hackaday.com/?p=368608</guid>
+				<description><![CDATA[<p>You may not know the name Abraham Wald, but he has a very valuable lesson you can apply to problem solving, engineering, and many other parts of life. Wald worked for the Statistical Research Group (SRG) during World War II. This was part of a top secret organization in the  <a href="https://hackaday.com/2019/08/01/abraham-walds-problem-solving-lesson-is-to-seek-whats-not-there/" class="read_more">&#8230;read more</a></p>]]></description>
+								<content:encoded><![CDATA[<p>You may not know the name Abraham Wald, but he has a very valuable lesson you can apply to problem solving, engineering, and many other parts of life. Wald worked for the Statistical Research Group (SRG) during World War II. This was part of a top secret organization in the United States that applied elite mathematical talent to help the allies win the war. Near Columbia University, mathematicians and computers &#8212; the human kind &#8212; worked on problems ranging from how to keep an enemy plane under fire longer to optimal bombing patterns.</p>
+<p>One of Wald&#8217;s ways to approach problem was to look beyond the data in front of him. He was looking for things that weren&#8217;t there, using their absence as an additional data point. It is easy to critique things that are present but incorrect. It is harder to see things that are missing. But the end results of this technique were profound and present an object lesson we can still draw from today.</p>
+<p><span id="more-368608"></span></p>
+<h2>Are You Measuring the Wrong Samples?</h2>
+<p>A problem was posed to the SRG &#8212; too many planes weren&#8217;t returning from missions. War planes are, of course, the product of engineering trades. Given a certain engine, you can fly so much weight. You divide that weight among crew, equipment, armor, and ordnance. The more you add of one thing, the more you take away from other things. The problem was that Allied planes were being shot down and needed more armor. But more armor meant fewer bombs. The Statistical Research Group&#8217;s task was to figure out how to best protect the planes without unnecessarily impacting the other factors.</p>
+<p><img data-attachment-id="369854" data-permalink="https://hackaday.com/2019/08/01/abraham-walds-problem-solving-lesson-is-to-seek-whats-not-there/extra-armor-quote/" data-orig-file="https://hackaday.com/wp-content/uploads/2019/08/extra-armor-quote.jpg" data-orig-size="600,420" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="extra-armor-quote" data-image-description="" data-medium-file="https://hackaday.com/wp-content/uploads/2019/08/extra-armor-quote.jpg?w=400" data-large-file="https://hackaday.com/wp-content/uploads/2019/08/extra-armor-quote.jpg?w=600" class="alignright size-medium wp-image-369854" src="https://hackaday.com/wp-content/uploads/2019/08/extra-armor-quote.jpg?w=400" alt="" width="400" height="280" srcset="https://hackaday.com/wp-content/uploads/2019/08/extra-armor-quote.jpg 600w, https://hackaday.com/wp-content/uploads/2019/08/extra-armor-quote.jpg?resize=250,175 250w, https://hackaday.com/wp-content/uploads/2019/08/extra-armor-quote.jpg?resize=400,280 400w" sizes="(max-width: 400px) 100vw, 400px" />The Army Air Corps noticed that after a mission, bullet holes were not distributed uniformly across the aircraft. The fuselage took nearly 2 bullet holes per square foot on average, and the fuel system took almost as much. But the engines took just a bit more than one bullet per square foot. The Army wanted to know how much more armor to put on the parts of the plane that were taking the most bullets.</p>
+<p>Wald had a different point of view. Instead of putting armor on the fuselage, Wald wanted to add armor to the engines, even though they appeared to be taking fewer hits. Why? Because the samples the Army measured were from planes that returned. Wald surmised that the planes with many bullet holes to the engines were not coming home. The extra armor belonged not on the part of the plane that could survive a lot of bullets, but to the part of the plane that couldn&#8217;t.</p>
+<p>As a result, extra engine armor appeared on warplanes from that point forward. Once you understand the logic, Wald&#8217;s insight seems obvious. But it defies many people&#8217;s idea of common sense to protect the part of the plane taking the least damage.</p>
+<p>In science and engineering, you have to question your assumptions and the assumptions of others. Things that seem obvious are often wrong. Heavy objects don&#8217;t fall faster (with all other things being equal). The Earth isn&#8217;t flat despite casual observation from the ground. Continents really do move, but not on a time scale we notice.</p>
+<h2>Identify Your Assumptions</h2>
+<p>How often do assumptions bite us when working on hardware or software? All the time. The second hardest bugs to fix are the ones where we&#8217;ve made a wrong assumption. For example, you feel sure an input pin is pulled up internally, but it turns out it isn&#8217;t. Perhaps you are sure the compiler zeros variables for you and, but it turns out it doesn&#8217;t. The hardest false assumptions to spot, by the way, are the ones where our abstractions are broken. Finding when a compiler generates incorrect machine code, for example, is very hard. That&#8217;s because we&#8217;re looking at it from a different level, and everything up there looks just fine. The same happens when you get a black market IC that performs in a similar way, but doesn&#8217;t quite meet the specs of a real part.</p>
+<p>For software, hardware, and most other fields, it is much easier to look at what&#8217;s present and critique it than it is to decide what&#8217;s totally missing. In Wald&#8217;s case, everyone was looking at the hole densities without thinking why the density wasn&#8217;t uniform to start with</p>
+<h2>Abraham Wald&#8217;s Legacy</h2>
+<p>During his time with the SRG, Wald was not allowed to see the finished reports he contributed to. He was considered an enemy alien, having emigrated to the US from Austria during the war. He was the grandson of a rabbi, the son of a kosher baker, and fled Austria after its annexation by Nazi Germany. Despite not being able to acquire the security clearance, he was content to apply his considerable math expertise to help drive the Nazis out of Europe.</p>
+<p>Ironically, Wald and his wife died in a plane crash on an Air India flight. They were survived by their son Robert Wald who went on to become an accomplished theoretical physicist.</p>
+<p>There is some debate regarding the veracity of the story of Wald and the missing bullet holes. According to the <a href="http://www.ams.org/publicoutreach/feature-column/fc-2016-06" target="_blank">American Mathematical Society</a>, some parts of it are unverifiable. Wald did work for the SRG and is known for some fundamental techniques of operational research, and it is known that the team worked on aircraft vulnerability. Several people familiar with the work have credited Wald, so I like to think the story is mostly true.</p>
+<p>Wald may not have invented this technique, but his application of it was classic, and a lesson from which we can all learn.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://hackaday.com/2019/08/01/abraham-walds-problem-solving-lesson-is-to-seek-whats-not-there/feed/</wfw:commentRss>
+		<slash:comments>7</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">368608</post-id>	</item>
+		<item>
+		<title>Supercon CFP Extended by Two Weeks</title>
+		<link>https://hackaday.com/2019/08/01/supercon-cfp-extended-by-two-weeks/</link>
+				<comments>https://hackaday.com/2019/08/01/supercon-cfp-extended-by-two-weeks/#comments</comments>
+				<pubDate>Thu, 01 Aug 2019 16:01:05 +0000</pubDate>
+		<dc:creator><![CDATA[Mike Szczys]]></dc:creator>
+				<category><![CDATA[cons]]></category>
+		<category><![CDATA[Hackaday Columns]]></category>
+		<category><![CDATA[2019 Hackaday Superconference]]></category>
+		<category><![CDATA[Hackaday SuperConference]]></category>
+		<category><![CDATA[Supercon]]></category>
+
+		<guid isPermaLink="false">https://hackaday.com/?p=369878</guid>
+				<description><![CDATA[<p>Need a bit more time to submit your talk proposal for the 2019 Hackaday Superconference? Okay, but we can only do this once. You now have until August 16th to submit your proposal.</p>
+<p>Supercon is the ultimate hardware conference. Take all the best conversations you&#8217;ve had about electronics, firmware development,  <a href="https://hackaday.com/2019/08/01/supercon-cfp-extended-by-two-weeks/" class="read_more">&#8230;read more</a></p>]]></description>
+								<content:encoded><![CDATA[<p>Need a bit more time to <a href="https://www.jotform.com/form/83455932567165" target="_blank">submit your talk proposal for the 2019 Hackaday Superconference</a>? Okay, but we can only do this once. You now have until August 16th to submit your proposal.</p>
+<p>Supercon is the ultimate hardware conference. Take all the best conversations you&#8217;ve had about electronics, firmware development, industrial design, art, music, and culture and pack them into three incredible days in Pasadena. That&#8217;s the start of what you&#8217;ll find at this event. There is no substitute for experiencing it in person.</p>
+<p>What makes this so unique is the people who show up. We are forever on the search of people with clever, compelling, delightful, and bizarre stories about hardware creation&#8230; and that means you. Yes, you! Supercon is a great place to give your first-ever conference talk. Package up the details of your recent hardware adventures and <a href="https://www.jotform.com/form/83455932567165" target="_blank">send them in as a proposal</a>. The biggest mistake we see people make is assuming nobody wants to hear about what&#8217;s going on in their workshop or lab. Long talk or short talk, we want to hear <em>your</em> talk!</p>
+<p>Take the plunge, the water is warm the so are the soldering irons which run constantly in the Hacker Village that forms during Supercon. <a href="https://www.eventbrite.com/e/hackaday-superconference-2019-tickets-60129236164?aff=0801com" target="_blank">There are still tickets available</a>, but of course, speaker receive our undying gratitude and of course, free admission.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://hackaday.com/2019/08/01/supercon-cfp-extended-by-two-weeks/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">369878</post-id>	</item>
+		<item>
+		<title>A Look At The Basics of Building an Arduino Watch</title>
+		<link>https://hackaday.com/2019/08/01/a-look-at-the-basics-of-building-an-arduino-watch/</link>
+				<comments>https://hackaday.com/2019/08/01/a-look-at-the-basics-of-building-an-arduino-watch/#comments</comments>
+				<pubDate>Thu, 01 Aug 2019 15:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[Lewin Day]]></dc:creator>
+				<category><![CDATA[Arduino Hacks]]></category>
+		<category><![CDATA[arduino]]></category>
+		<category><![CDATA[smartwatch]]></category>
+		<category><![CDATA[watch]]></category>
+
+		<guid isPermaLink="false">https://hackaday.com/?p=369975</guid>
+				<description><![CDATA[<p>Miniaturization has made smart watches possible, even for the DIY maker to tinker with. For those just getting to grips with basic digital electronics, it can be daunting, however. For those just starting out, [陳亮] put together a handy guide to building the core of an Arduino-based watch.</p>
+<p>The writeup  <a href="https://hackaday.com/2019/08/01/a-look-at-the-basics-of-building-an-arduino-watch/" class="read_more">&#8230;read more</a></p>]]></description>
+								<content:encoded><![CDATA[<p>Miniaturization has made smart watches possible, even for the DIY maker to tinker with. For those just getting to grips with basic digital electronics, it can be daunting, however. For those just starting out, [陳亮] put together <a href="https://www.instructables.com/id/Arduino-Watch-Core/" target="_blank">a handy guide to building the core of an Arduino-based watch.</a></p>
+<p>The writeup starts at the beginning, going over the basic hardware requirements for a smart watch. This involves considering size, packaging and power draw, as well as the user interface. The build settles on an Arduino Pro Micro, as it uses the ATmega32U4 which eliminates secondary USB-to-serial chips, helping cut down on power consumption. A square IPS LCD display is used to display an analog-style watch face, and time is kept by a DS3231 real-time clock. A pair of small vibration sensors are used to wake the watch when the user moves their wrist to check the time.</p>
+<p>While it doesn&#8217;t cover the final assembly into a watch-like form factor, it&#8217;s a handy guide on what it takes to build a working watch for those who are still getting their feet wet with hardware. Once you&#8217;ve got that down, it&#8217;s time to contemplate how you&#8217;ll build the sleek exterior. <a href="https://hackaday.com/2019/05/01/scratch-built-smartwatch-looks-pretty-darn-sharp-with-3d-printed-case-and-round-lcd/">Naturally, a good maker has that covered, too.</a></p>
+]]></content:encoded>
+							<wfw:commentRss>https://hackaday.com/2019/08/01/a-look-at-the-basics-of-building-an-arduino-watch/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">369975</post-id>	</item>
+		<item>
+		<title>Automate the Freight: When the Freight is People</title>
+		<link>https://hackaday.com/2019/08/01/automate-the-freight-when-the-freight-is-people/</link>
+				<comments>https://hackaday.com/2019/08/01/automate-the-freight-when-the-freight-is-people/#comments</comments>
+				<pubDate>Thu, 01 Aug 2019 14:00:37 +0000</pubDate>
+		<dc:creator><![CDATA[Dan Maloney]]></dc:creator>
+				<category><![CDATA[car hacks]]></category>
+		<category><![CDATA[Featured]]></category>
+		<category><![CDATA[Interest]]></category>
+		<category><![CDATA[Original Art]]></category>
+		<category><![CDATA[Transportation Hacks]]></category>
+		<category><![CDATA[Automate the Freight]]></category>
+		<category><![CDATA[autonomous]]></category>
+		<category><![CDATA[bus]]></category>
+		<category><![CDATA[mass transit]]></category>
+		<category><![CDATA[motorcoach]]></category>
+		<category><![CDATA[self-driving]]></category>
+		<category><![CDATA[sleeper]]></category>
+
+		<guid isPermaLink="false">https://hackaday.com/?p=366952</guid>
+				<description><![CDATA[<p>Before I got a license and a car, getting to and from high school was an ordeal. The hour-long bus ride was awful, as one would expect when sixty adolescents are crammed together with minimal supervision. Avoiding the realities going on around me was a constant chore, aided by frequent  <a href="https://hackaday.com/2019/08/01/automate-the-freight-when-the-freight-is-people/" class="read_more">&#8230;read more</a></p>]]></description>
+								<content:encoded><![CDATA[<p>Before I got a license and a car, getting to and from high school was an ordeal. The hour-long bus ride was awful, as one would expect when sixty adolescents are crammed together with minimal supervision. Avoiding the realities going on around me was a constant chore, aided by frequent mental excursions. One such wandering led me to the conclusion that we high schoolers were nothing but cargo on a delivery truck designed for people. That was a cheery fact to face at the beginning of a school day.</p>
+<p>What&#8217;s true for a bus full of students is equally true for every city bus, trolley, subway, or long-haul motorcoach you see. People can be freight just as much as pallets of groceries in a semi or a bunch of smiling boxes and envelopes in a brown panel truck. And the same economic factors that we&#8217;ve been insisting will make it far more likely that autonomous vehicles will penetrate the freight delivery market before we see self-driving passenger vehicles are at work with people moving. This time on Automate the Freight: what happens when the freight is people?</p>
+<p><span id="more-366952"></span></p>
+<h2>Running Scared</h2>
+<p>There&#8217;s a saying in the investment game: the trend is your friend. Investors have a lot of sayings like that, mostly aimed at convincing themselves that they have the slightest clue about what&#8217;s going to happen with a given company&#8217;s stock, when it&#8217;s all pretty much up to chance in the absence of inside information. The trends in investing patterns can still be useful, though, because they tend to point out how people are thinking. That can be a handy tool for investors and non-investors alike.</p>
+<p>So it was with interest that I stumbled upon <a href="https://betterquestions.blog/why-the-autonomous-revolution-will-give-southwest-airlines-no-luv/" target="_blank">an article about the potential impact of self-driving cars on the airline industry</a>. On the face of it, you&#8217;d think that there would be no risk to airlines from cars, especially in the United States. But the article points out that US domestic carriers like Southwest depend on routes that average 757 miles (1218 km) and last about two hours. People gladly pay for these flights, enduring the indignities of modern air travel that begin hours before the flight and potentially end days after landing in the form of jet lag. And they do so precisely because the alternative is worse &#8211; to most people, at least; I for one vastly prefer long-distance driving to flying. I&#8217;m weird like that.</p>
+<p>But fast forward to a future where fully autonomous vehicles are an everyday thing, and battery capacities have increased enough that an electric vehicle can cover the same distance as the average Southwest flight. We&#8217;re actually not far from that now &#8211; <a href="https://www.theguardian.com/technology/2017/aug/07/tesla-drivers-claim-model-s-distance-record-of-670-miles-on-one-charge-elon-musk" target="_blank">a Tesla once did 670 miles on one charge</a>. Or, forget the batteries and consider an internal-combustion self-driver. Either way, a vehicle plying the roads is obviously not going to beat a jet airliner for speed, but it doesn&#8217;t have to because it can drive all through the night. And the passengers, unencumbered by the need to drive, can simply sleep the trip away, to arrive in the morning as if by magic, fresh and relatively unharried, at least compared to their TSA-probed counterparts at the airport.</p>
+<p>Not convinced that airline executives should be quaking in their wingtips at a self-driving future? Then take a look at this map:</p>
+<figure id="attachment_368653" aria-describedby="caption-attachment-368653" style="width: 768px" class="wp-caption aligncenter"><a href="https://hackaday.com/wp-content/uploads/2019/07/Screen-Shot-2019-07-04-at-3.08.08-PM.png" target="_blank"><img data-attachment-id="368653" data-permalink="https://hackaday.com/2019/08/01/automate-the-freight-when-the-freight-is-people/screen-shot-2019-07-04-at-3-08-08-pm/" data-orig-file="https://hackaday.com/wp-content/uploads/2019/07/Screen-Shot-2019-07-04-at-3.08.08-PM.png" data-orig-size="768,452" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Screen-Shot-2019-07-04-at-3.08.08-PM" data-image-description="" data-medium-file="https://hackaday.com/wp-content/uploads/2019/07/Screen-Shot-2019-07-04-at-3.08.08-PM.png?w=400" data-large-file="https://hackaday.com/wp-content/uploads/2019/07/Screen-Shot-2019-07-04-at-3.08.08-PM.png?w=768" class="wp-image-368653 size-full" src="https://hackaday.com/wp-content/uploads/2019/07/Screen-Shot-2019-07-04-at-3.08.08-PM.png" alt="" width="768" height="452" srcset="https://hackaday.com/wp-content/uploads/2019/07/Screen-Shot-2019-07-04-at-3.08.08-PM.png 768w, https://hackaday.com/wp-content/uploads/2019/07/Screen-Shot-2019-07-04-at-3.08.08-PM.png?resize=250,147 250w, https://hackaday.com/wp-content/uploads/2019/07/Screen-Shot-2019-07-04-at-3.08.08-PM.png?resize=400,235 400w" sizes="(max-width: 768px) 100vw, 768px" /></a><figcaption id="caption-attachment-368653" class="wp-caption-text">New York to Chicago, while you sleep: areas covered by a theoretical 12-hour overnight trip by a self-driving vehicle. Source: <a href="https://betterquestions.blog/why-the-autonomous-revolution-will-give-southwest-airlines-no-luv/" target="_blank">Towards Better Questions</a></figcaption></figure>
+<p>Each circle is about how far one can drive from San Francisco, Austin, or New York overnight &#8211; roughly 11-12 hours. Yes, it&#8217;s difficult to drive in the ocean, and these are straight-line distances that don&#8217;t take the location of highways into account. But still, it shows just how much of the country can be covered with a reasonable overnight drive. And the promise of having slept through it all without having been sealed in an aluminum tube full of unhappy people and their germs might just be a reason for panic in the corporate suites of regional air carriers.</p>
+<h2>The Night Bus</h2>
+<p>The idea of sleeping the night away while traveling might sound like it would need to wait for true autonomous vehicles, but it&#8217;s actually a service that&#8217;s already available. An overnight bus service called Cabin was launched in 2017, offering a premium overnight travel experience that whisked passengers between San Francisco and Los Angeles while they slept. The idea was to use traditional human-piloted motorcoaches outfitted with sleeping compartments falling somewhere between cozy and claustrophobic, depending on your leanings. You&#8217;d get on the bus late in the evening, zonk out in your rack, and hop off the bus as fresh as a daisy in the morning.</p>
+<p><iframe class='youtube-player' type='text/html' width='800' height='480' src='https://www.youtube.com/embed/WRTzEJ8znL0?version=3&#038;rel=1&#038;fs=1&#038;autohide=2&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;wmode=transparent' allowfullscreen='true' style='border:0;'></iframe></p>
+<p>As anyone who has experienced the marginally maintained roads of nearly every major city in the US can imagine, it didn&#8217;t quite pan out. The experience of jolting through the night to the roar of a mighty diesel was less than restful, and <a href="https://sf.streetsblog.org/2019/01/17/cabin-sleep-bus-is-in-hibernation/" target="_blank">Cabin was forced to shut down operations</a> to retool its fleet of sleep coaches. But the fact that they didn&#8217;t just fold completely shows there&#8217;s still demand for a lower-cost regional transportation option, and that offering an overnight trip is attractive to enough people to make the idea worth investing in.</p>
+<h2>People Moving on Demand</h2>
+<p>As for a future, fully autonomous version of Cabin, I&#8217;d say that self-driving motorcoaches carrying large numbers of passengers on regional routes are not likely to catch on, at least in the USA, for the same reason that bus lines and passenger rail have never caught on in here: lack of flexibility. Being stuck showing up at a bus depot at a specific time to take the sleepy bus isn&#8217;t much different than having to show up at the airport two hours before a 90-minute flight. If a plane offers a choice of departure and arrival times, chances are good that people will choose to fly rather than sleep-drive.</p>
+<p>But, imagine smaller self-driving vehicles, perhaps the size of a large van, with four or so bunks and a small comfortable seating area that could be booked for travel on demand. Businesses might jump at the chance to have teams taken safely to meetings overnight, or to use travel time for working. Families might love to have an autonomous van come up the driveway for a pajama-clad trip to Disneyworld. College students could team up for a cheap spring break trip, pool long rides home for the holidays, or just go on a road trip with consequence-free drinking and driving.</p>
+<p>All that said, from the point of view of the passengers, where the vehicle is driven by a computer or by a human matters not. All they know is that they&#8217;re not driving, and they&#8217;re free to nap or read or work while the miles peel away. But to the company providing the service, eliminating the costs associated with hiring large numbers of human drivers is probably a good argument for investing in autonomous vehicles. Providing the freedom of sleeping, working, or partying during the trip would just be a way to add value and attract the customers needed to justify the expense of automating the people-freight.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://hackaday.com/2019/08/01/automate-the-freight-when-the-freight-is-people/feed/</wfw:commentRss>
+		<slash:comments>12</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">366952</post-id>	</item>
+		<item>
+		<title>Driving P5 Panels With A Raspberry Pi</title>
+		<link>https://hackaday.com/2019/08/01/driving-p5-panels-with-a-raspberry-pi/</link>
+				<comments>https://hackaday.com/2019/08/01/driving-p5-panels-with-a-raspberry-pi/#comments</comments>
+				<pubDate>Thu, 01 Aug 2019 11:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[Lewin Day]]></dc:creator>
+				<category><![CDATA[LED Hacks]]></category>
+		<category><![CDATA[led]]></category>
+		<category><![CDATA[P5]]></category>
+		<category><![CDATA[p5 led]]></category>
+		<category><![CDATA[p5 panel]]></category>
+
+		<guid isPermaLink="false">https://hackaday.com/?p=369770</guid>
+				<description><![CDATA[<p>Building displays out of LEDs can be fun, but quickly becomes tedious as the pixel count increases. At this point, it&#8217;s worthwhile investing in off-the-shelf panels that have everything pre-soldered and ready to go. [Tom Hammond] wanted to run a P5 panel, and put a Raspberry Pi to work to  <a href="https://hackaday.com/2019/08/01/driving-p5-panels-with-a-raspberry-pi/" class="read_more">&#8230;read more</a></p>]]></description>
+								<content:encoded><![CDATA[<p>Building displays out of LEDs can be fun, but quickly becomes tedious as the pixel count increases. At this point, it&#8217;s worthwhile investing in off-the-shelf panels that have everything pre-soldered and ready to go. [Tom Hammond] wanted to run a P5 panel, <a href="https://www.instructables.com/id/P5-LED-Panel-With-Raspberry-Pi/" target="_blank">and put a Raspberry Pi to work to get it going.</a></p>
+<p>P5 panels are so-called for their 5 mm spacing between LEDs. The panels in question are built with RGB LEDs, allowing full-color graphics to be displayed. In this build, a 64 x 32 panel is used for a total of 2048 pixels. A Raspberry Pi Zero runs the display, using its GPIO to clock out pixel data. Software designed for Christmas light displays is used to program the light show, <a href="https://xlights.org/" target="_blank">with xLights being the choice in this case.</a> It&#8217;s all wrapped up in a tidy 3D printed frame, and the final product looks remarkably well put together.</p>
+<p>It&#8217;s a great way to get familiar with P5 panels, and an excellent starting point if you&#8217;re contemplating a larger build down the track. If you&#8217;re going all out, <a href="https://hackaday.com/2019/02/10/hidden-led-video-wall-at-the-oregon-museum-of-science/">consider how to make the most of your install from an architectural perspective</a>. Video after the break.</p>
+<p><span id="more-369770"></span>P5</p>
+<p><iframe class='youtube-player' type='text/html' width='800' height='480' src='https://www.youtube.com/embed/nVMQqtLSHkQ?version=3&#038;rel=1&#038;fs=1&#038;autohide=2&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;wmode=transparent' allowfullscreen='true' style='border:0;'></iframe></p>
+]]></content:encoded>
+							<wfw:commentRss>https://hackaday.com/2019/08/01/driving-p5-panels-with-a-raspberry-pi/feed/</wfw:commentRss>
+		<slash:comments>9</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">369770</post-id>	</item>
+	</channel>
+</rss>

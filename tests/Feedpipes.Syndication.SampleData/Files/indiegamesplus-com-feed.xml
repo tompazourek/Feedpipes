@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+>
+
+<channel>
+	<title>Indie Games Plus</title>
+	<atom:link href="https://indiegamesplus.com/feed" rel="self" type="application/rss+xml" />
+	<link>https://indiegamesplus.com</link>
+	<description>Creative, Personal, Passionate Digital Experiences</description>
+	<lastBuildDate>Sat, 27 Jul 2019 19:54:17 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+
+<image>
+	<url>https://i1.wp.com/indiegamesplus.com/wp-content/uploads/2018/08/Website-Fav-Icon.jpg?fit=32%2C26&#038;ssl=1</url>
+	<title>Indie Games Plus</title>
+	<link>https://indiegamesplus.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">150694774</site>	<item>
+		<title>&#8216;Chogue&#8217; Turns Chess Into a Roguelike Dungeon Crawler</title>
+		<link>https://indiegamesplus.com/2019/08/chogue-turns-chess-into-a-roguelike-dungeon-crawler</link>
+				<comments>https://indiegamesplus.com/2019/08/chogue-turns-chess-into-a-roguelike-dungeon-crawler#respond</comments>
+				<pubDate>Thu, 01 Aug 2019 17:00:48 +0000</pubDate>
+		<dc:creator><![CDATA[Joel Couture]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Android]]></category>
+		<category><![CDATA[Browser]]></category>
+		<category><![CDATA[Chogue]]></category>
+		<category><![CDATA[freeware]]></category>
+		<category><![CDATA[ios]]></category>
+		<category><![CDATA[jonathan lessard]]></category>
+		<category><![CDATA[Mac]]></category>
+		<category><![CDATA[pippin barr]]></category>
+		<category><![CDATA[roguelike]]></category>
+		<category><![CDATA[windows]]></category>
+
+		<guid isPermaLink="false">https://indiegamesplus.com/?p=26071</guid>
+				<description><![CDATA[<p>Chogue is a little bit Chess (for movement) and a little bit Rogue (for combat and dungeon layouts). Which can make for some nasty surprises for your vulnerable King. Chogue sends you...</p>
+<p>The post <a rel="nofollow" href="https://indiegamesplus.com/2019/08/chogue-turns-chess-into-a-roguelike-dungeon-crawler">&#8216;Chogue&#8217; Turns Chess Into a Roguelike Dungeon Crawler</a> appeared first on <a rel="nofollow" href="https://indiegamesplus.com">Indie Games Plus</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p><a href="https://www.pippinbarr.com/games/2018/07/12/chogue.html"><em>Chogue</em></a> is a little bit <em>Chess</em> (for movement) and a little bit <em>Rogue</em> (for combat and dungeon layouts). Which can make for some nasty surprises for your vulnerable King.</p>
+<p><span id="more-26071"></span></p>
+<p><em>Chogue</em> sends you down into some checkerboard labyrinths, with danger lying just out of your line of sight. Maybe you could send your Rook down a corridor to see what&#8217;s all the way down the end of that hallway? Or just have a Pawn slowly creep its way into the room so you don&#8217;t lose anyone valuable to the Bishop that could be waiting just out of sight (and at an angle to your entry). The pieces all move exactly as they do in <em>Chess</em>, except you have the added problem of not being able to see where your opponents might be lurking.</p>
+<p><img class="aligncenter size-full wp-image-26072" src="https://i0.wp.com/indiegamesplus.com/wp-content/uploads/2019/07/chogue-2.png?resize=640%2C400&#038;ssl=1" alt="" width="640" height="400" srcset="https://i0.wp.com/indiegamesplus.com/wp-content/uploads/2019/07/chogue-2.png?w=740&amp;ssl=1 740w, https://i0.wp.com/indiegamesplus.com/wp-content/uploads/2019/07/chogue-2.png?resize=150%2C94&amp;ssl=1 150w, https://i0.wp.com/indiegamesplus.com/wp-content/uploads/2019/07/chogue-2.png?resize=300%2C187&amp;ssl=1 300w, https://i0.wp.com/indiegamesplus.com/wp-content/uploads/2019/07/chogue-2.png?resize=666%2C416&amp;ssl=1 666w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" /></p>
+<p>This makes for a huge change to how <em>Chess</em> plays, resulting in a tense, stressful roguelike where you might put yourself in danger without knowing it. Not that I don&#8217;t do that to myself constantly when playing <em>Chess</em>, but I can at least see where the pieces are in that game. Here, you might blunder into a bunch of Knights all conveniently in an L-shape away from you. And every piece you lose brings you that much closer to doom.</p>
+<p><em>Chogue </em>makes for a clever mingling of the two games and their play styles, resulting in a puzzle game both stressful and satisfying. They seem to build on each other in oddly natural ways that you should definitely experience for yourself.</p>
+<p><iframe src="https://www.youtube.com/embed/-qyLLHzzJbY" width="740" height="416" frameborder="0" allowfullscreen="allowfullscreen"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span></iframe></p>
+<p><em>Chogue is available now on the <a href="https://apps.apple.com/app/chogue/id1464358271">App Store</a>, <a href="https://play.google.com/store/apps/details?id=com.BarrLessard.Chogue">Google Play</a>, and the <a href="https://www.pippinbarr.com/games/2018/07/12/chogue.html">developer&#8217;s site</a>.</em></p>
+<p>The post <a rel="nofollow" href="https://indiegamesplus.com/2019/08/chogue-turns-chess-into-a-roguelike-dungeon-crawler">&#8216;Chogue&#8217; Turns Chess Into a Roguelike Dungeon Crawler</a> appeared first on <a rel="nofollow" href="https://indiegamesplus.com">Indie Games Plus</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://indiegamesplus.com/2019/08/chogue-turns-chess-into-a-roguelike-dungeon-crawler/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">26071</post-id>	</item>
+		<item>
+		<title>&#8216;Lost in the Backrooms&#8217; Loses You in a Labyrinth of Creepy Corridors</title>
+		<link>https://indiegamesplus.com/2019/08/lost-in-the-backrooms-loses-you-in-a-labyrinth-of-creepy-corridors</link>
+				<comments>https://indiegamesplus.com/2019/08/lost-in-the-backrooms-loses-you-in-a-labyrinth-of-creepy-corridors#respond</comments>
+				<pubDate>Thu, 01 Aug 2019 11:00:07 +0000</pubDate>
+		<dc:creator><![CDATA[Joel Couture]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[freeware]]></category>
+		<category><![CDATA[haunted ps1 summer spooks jam]]></category>
+		<category><![CDATA[horror]]></category>
+		<category><![CDATA[jan malitschek]]></category>
+		<category><![CDATA[Lost in the Backrooms]]></category>
+		<category><![CDATA[windows]]></category>
+
+		<guid isPermaLink="false">https://indiegamesplus.com/?p=26060</guid>
+				<description><![CDATA[<p>You&#8217;ve found yourself in an unfortunate place of endless hallways, stairs, and doors, pulled ever forward by someone&#8217;s audio notes in Lost in the Backrooms. You open your eyes to a place...</p>
+<p>The post <a rel="nofollow" href="https://indiegamesplus.com/2019/08/lost-in-the-backrooms-loses-you-in-a-labyrinth-of-creepy-corridors">&#8216;Lost in the Backrooms&#8217; Loses You in a Labyrinth of Creepy Corridors</a> appeared first on <a rel="nofollow" href="https://indiegamesplus.com">Indie Games Plus</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p>You&#8217;ve found yourself in an unfortunate place of endless hallways, stairs, and doors, pulled ever forward by someone&#8217;s audio notes in <a href="https://jan-malitschek.itch.io/lost-in-the-backrooms"><em>Lost in the Backrooms</em></a>.</p>
+<p><span id="more-26060"></span></p>
+<p>You open your eyes to a place of constant connected hallways in this game. It never feels like it&#8217;s going to end, always taking you to another hall of doors or to stairways upon stairways. The silence seems to want to swallow you up, and the only thing that&#8217;s worse is when you DO hear something. The electronic hum of a tape deck somewhere nearby. A wind that doesn&#8217;t seem to have a source. It&#8217;s a place that weighs on the mind, always seeming about to unveil its horrible secrets to you.</p>
+<p><img class="aligncenter size-full wp-image-26061" src="https://i2.wp.com/indiegamesplus.com/wp-content/uploads/2019/07/lost-in-the-backrooms-2.png?resize=640%2C360&#038;ssl=1" alt="" width="640" height="360" srcset="https://i2.wp.com/indiegamesplus.com/wp-content/uploads/2019/07/lost-in-the-backrooms-2.png?w=740&amp;ssl=1 740w, https://i2.wp.com/indiegamesplus.com/wp-content/uploads/2019/07/lost-in-the-backrooms-2.png?resize=150%2C84&amp;ssl=1 150w, https://i2.wp.com/indiegamesplus.com/wp-content/uploads/2019/07/lost-in-the-backrooms-2.png?resize=300%2C169&amp;ssl=1 300w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" /></p>
+<p>These constant transitional spaces create an odd sensation as you explore the game. Stairs and hallways tend to be places between sections of importance in a game. They&#8217;re a moment of quiet before things of note happen. Spending so much time in them creates this sense of dread that something is going to happen to you soon &#8211; that you&#8217;re just waiting and waiting and waiting to reach a place and find the sinister force that controls this space. It&#8217;s loaded with atmosphere because of this. And because the meaningless hallways also speak to a reality that&#8217;s completely broken and filled with horrors we can barely understand.</p>
+<p><em>Lost in the Backrooms</em> is a short horror game (about twenty minutes), but packs a great deal of stressful fear within its winding confines. Maybe you&#8217;ll find a place of meaning within its walls if you can handle that atmosphere it slowly builds.</p>
+<p><img class="aligncenter size-full wp-image-26062" src="https://i2.wp.com/indiegamesplus.com/wp-content/uploads/2019/07/lost-in-the-backrooms-3.png?resize=640%2C360&#038;ssl=1" alt="" width="640" height="360" srcset="https://i2.wp.com/indiegamesplus.com/wp-content/uploads/2019/07/lost-in-the-backrooms-3.png?w=740&amp;ssl=1 740w, https://i2.wp.com/indiegamesplus.com/wp-content/uploads/2019/07/lost-in-the-backrooms-3.png?resize=150%2C84&amp;ssl=1 150w, https://i2.wp.com/indiegamesplus.com/wp-content/uploads/2019/07/lost-in-the-backrooms-3.png?resize=300%2C169&amp;ssl=1 300w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" /></p>
+<p><em>Lost in the Backrooms is available now on <a href="https://jan-malitschek.itch.io/lost-in-the-backrooms">Itch.io</a>.</em></p>
+<p>The post <a rel="nofollow" href="https://indiegamesplus.com/2019/08/lost-in-the-backrooms-loses-you-in-a-labyrinth-of-creepy-corridors">&#8216;Lost in the Backrooms&#8217; Loses You in a Labyrinth of Creepy Corridors</a> appeared first on <a rel="nofollow" href="https://indiegamesplus.com">Indie Games Plus</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://indiegamesplus.com/2019/08/lost-in-the-backrooms-loses-you-in-a-labyrinth-of-creepy-corridors/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">26060</post-id>	</item>
+		<item>
+		<title>Text Parser Mystery &#8216;The Crimson Diamond&#8217; Hides its Secrets Among a Varied Cast</title>
+		<link>https://indiegamesplus.com/2019/07/text-parser-mystery-the-crimson-diamond-hides-its-secrets-among-a-varied-cast</link>
+				<comments>https://indiegamesplus.com/2019/07/text-parser-mystery-the-crimson-diamond-hides-its-secrets-among-a-varied-cast#respond</comments>
+				<pubDate>Wed, 31 Jul 2019 23:00:19 +0000</pubDate>
+		<dc:creator><![CDATA[Joel Couture]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[adventure]]></category>
+		<category><![CDATA[Julia Minamata]]></category>
+		<category><![CDATA[The Crimson Diamond]]></category>
+		<category><![CDATA[windows]]></category>
+
+		<guid isPermaLink="false">https://indiegamesplus.com/?p=26055</guid>
+				<description><![CDATA[<p>Somebody at the Crimson Lodge knows something about this huge diamond that&#8217;s been found in town. You&#8217;ll just need to uncover their secrets to figure out who it is. Nancy, an amateur...</p>
+<p>The post <a rel="nofollow" href="https://indiegamesplus.com/2019/07/text-parser-mystery-the-crimson-diamond-hides-its-secrets-among-a-varied-cast">Text Parser Mystery &#8216;The Crimson Diamond&#8217; Hides its Secrets Among a Varied Cast</a> appeared first on <a rel="nofollow" href="https://indiegamesplus.com">Indie Games Plus</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p>Somebody at the Crimson Lodge knows something about this huge diamond that&#8217;s been found in town. You&#8217;ll just need to uncover their secrets to figure out who it is.</p>
+<p><span id="more-26055"></span></p>
+<p>Nancy, an amateur geologist, finds herself doing some unexpected detective work when she heads to Crimson, Ontario to look in on a huge diamond that&#8217;s been found. To figure out the truth behind this colossal gem, she&#8217;ll have to work over the cast of <a href="http://www.thecrimsondiamond.com/"><em>The Crimson Diamond</em></a>, listening in on conversations, taking notes about their interactions with one another, and interrogating them herself. All with you typing out the correct commands, that is.</p>
+<p><img class="aligncenter size-full wp-image-26056" src="https://i0.wp.com/indiegamesplus.com/wp-content/uploads/2019/07/the-crimson-diamond-2.jpg?resize=640%2C360&#038;ssl=1" alt="" width="640" height="360" srcset="https://i0.wp.com/indiegamesplus.com/wp-content/uploads/2019/07/the-crimson-diamond-2.jpg?w=740&amp;ssl=1 740w, https://i0.wp.com/indiegamesplus.com/wp-content/uploads/2019/07/the-crimson-diamond-2.jpg?resize=150%2C84&amp;ssl=1 150w, https://i0.wp.com/indiegamesplus.com/wp-content/uploads/2019/07/the-crimson-diamond-2.jpg?resize=300%2C169&amp;ssl=1 300w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" /></p>
+<p>That&#8217;s not the only mystery that&#8217;s afflicting this town, either. Depending on your sleuthing abilities, you might find the characters have a few more problems that you can solve. Doing this might take you to some secret areas around the lodge and town, revealing more information about the place and the characters inhabiting it. Or possibly put you in trouble with some of the more nefarious folks involved in this diamond mystery.</p>
+<p><em>The Crimson Diamond </em>looks to drag you into a complex mystery that involves everyone in a small town, wrapping you up in the relationships and personalities of its characters. Through figuring out their stories and secrets, you&#8217;ll hopefully be able to figure out what&#8217;s really going on with that gem. Before something unfortunate happens to you, too.</p>
+<p><iframe src="https://www.youtube.com/embed/VWEfmPgaqpE" width="740" height="416" frameborder="0" allowfullscreen="allowfullscreen"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span></iframe></p>
+<p><em>The Crimson Diamond is currently in development, but in the meantime, you can add it to your <a href="https://store.steampowered.com/app/1098770/The_Crimson_Diamond/">Steam Wishlist</a> (and grab the demo there as well).</em></p>
+<p>The post <a rel="nofollow" href="https://indiegamesplus.com/2019/07/text-parser-mystery-the-crimson-diamond-hides-its-secrets-among-a-varied-cast">Text Parser Mystery &#8216;The Crimson Diamond&#8217; Hides its Secrets Among a Varied Cast</a> appeared first on <a rel="nofollow" href="https://indiegamesplus.com">Indie Games Plus</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://indiegamesplus.com/2019/07/text-parser-mystery-the-crimson-diamond-hides-its-secrets-among-a-varied-cast/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">26055</post-id>	</item>
+		<item>
+		<title>&#8216;Garden Story&#8217; Restores a Village Filled With Friendly Veggie Folks</title>
+		<link>https://indiegamesplus.com/2019/07/garden-story-restores-a-village-filled-with-friendly-veggie-folks</link>
+				<comments>https://indiegamesplus.com/2019/07/garden-story-restores-a-village-filled-with-friendly-veggie-folks#respond</comments>
+				<pubDate>Wed, 31 Jul 2019 17:00:28 +0000</pubDate>
+		<dc:creator><![CDATA[Joel Couture]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[adventure]]></category>
+		<category><![CDATA[garden story]]></category>
+		<category><![CDATA[Mac]]></category>
+		<category><![CDATA[picogram]]></category>
+		<category><![CDATA[RPG]]></category>
+		<category><![CDATA[simulation]]></category>
+		<category><![CDATA[windows]]></category>
+
+		<guid isPermaLink="false">https://indiegamesplus.com/?p=26050</guid>
+				<description><![CDATA[<p>Rot has seeped onto an island, and you&#8217;ve got to purge it with adventure, friendship, and environmental care in this mixture of social simulation and RPG. Garden Story follows Concord, a new...</p>
+<p>The post <a rel="nofollow" href="https://indiegamesplus.com/2019/07/garden-story-restores-a-village-filled-with-friendly-veggie-folks">&#8216;Garden Story&#8217; Restores a Village Filled With Friendly Veggie Folks</a> appeared first on <a rel="nofollow" href="https://indiegamesplus.com">Indie Games Plus</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p>Rot has seeped onto an island, and you&#8217;ve got to purge it with adventure, friendship, and environmental care in this mixture of social simulation and RPG.</p>
+<p><span id="more-26050"></span></p>
+<p><a href="http://www.picogram.co/"><em>Garden Story</em></a> follows Concord, a new village guardian who has to find a cure for the Rot. Not that there isn&#8217;t a lot of other stuff to keep you busy (and that might help you in various ways). You can get to know the people of the island and help them with their problems, care for gardens to help grow healthy plants, and explore the island to find hidden places and secret information about the damaging poison that&#8217;s seeping onto the island.</p>
+<p><img class="aligncenter size-full wp-image-26051" src="https://i0.wp.com/indiegamesplus.com/wp-content/uploads/2019/07/garden-story-2.jpg?resize=640%2C360&#038;ssl=1" alt="" width="640" height="360" srcset="https://i0.wp.com/indiegamesplus.com/wp-content/uploads/2019/07/garden-story-2.jpg?w=740&amp;ssl=1 740w, https://i0.wp.com/indiegamesplus.com/wp-content/uploads/2019/07/garden-story-2.jpg?resize=150%2C84&amp;ssl=1 150w, https://i0.wp.com/indiegamesplus.com/wp-content/uploads/2019/07/garden-story-2.jpg?resize=300%2C169&amp;ssl=1 300w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" /></p>
+<p>Bringing positivity to this island will go a long way in helping it heal. Aiding townsfolk will find them helping you out in some surprising ways. Taking care of some plants may have unexpected effects for the dying vegetation. A calming walk might lead to a place that has many of the answers you seek. By encouraging you to offer a helping hand, the game aims to teach you about the healing powers you possess through caring for your home and its people.</p>
+<p><em>Garden Story</em> looks to have you help out a population in need, but it also aims to give you a place filled with silly neighbors and lush plants to grow, giving you a relaxing place to cultivate and explore. Not a bad little getaway.</p>
+<p><iframe src="https://www.youtube.com/embed/Ce6UZYaNBc8" width="740" height="416" frameborder="0" allowfullscreen="allowfullscreen"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span></iframe></p>
+<p><em>Garden Story is currently in development, but in the meantime, you can add it to your <a href="https://store.steampowered.com/app/1062140/Garden_Story/">Steam Wishlist</a>.</em></p>
+<p>The post <a rel="nofollow" href="https://indiegamesplus.com/2019/07/garden-story-restores-a-village-filled-with-friendly-veggie-folks">&#8216;Garden Story&#8217; Restores a Village Filled With Friendly Veggie Folks</a> appeared first on <a rel="nofollow" href="https://indiegamesplus.com">Indie Games Plus</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://indiegamesplus.com/2019/07/garden-story-restores-a-village-filled-with-friendly-veggie-folks/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">26050</post-id>	</item>
+		<item>
+		<title>&#8216;Elsinore&#8217; Seeks to Escape a Shakespearean Time Loop</title>
+		<link>https://indiegamesplus.com/2019/07/elsinore-seeks-to-escape-a-shakespearean-time-loop</link>
+				<comments>https://indiegamesplus.com/2019/07/elsinore-seeks-to-escape-a-shakespearean-time-loop#respond</comments>
+				<pubDate>Wed, 31 Jul 2019 11:00:52 +0000</pubDate>
+		<dc:creator><![CDATA[Joel Couture]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[adventure]]></category>
+		<category><![CDATA[Elsinore]]></category>
+		<category><![CDATA[golden glitch]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[Mac]]></category>
+		<category><![CDATA[windows]]></category>
+
+		<guid isPermaLink="false">https://indiegamesplus.com/?p=26045</guid>
+				<description><![CDATA[<p>In four days, everyone in Elsinore Castle will be dead. Unless Ophelia can make the right decisions and break a time loop through saving everyone. Elsinore has you joining with Ophelia after...</p>
+<p>The post <a rel="nofollow" href="https://indiegamesplus.com/2019/07/elsinore-seeks-to-escape-a-shakespearean-time-loop">&#8216;Elsinore&#8217; Seeks to Escape a Shakespearean Time Loop</a> appeared first on <a rel="nofollow" href="https://indiegamesplus.com">Indie Games Plus</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p>In four days, everyone in Elsinore Castle will be dead. Unless Ophelia can make the right decisions and break a time loop through saving everyone.</p>
+<p><span id="more-26045"></span></p>
+<p><a href="https://elsinore-game.com/"><em>Elsinore</em></a> has you joining with Ophelia after a grim vision of the deaths of everyone in the castle. You have four days to correct the course of events and save everyone, or else the loop repeats. No one is just going to sit around during those four days and wait for you to get it right, though. Every person in the castle has their own motivations and stuff to do, and you&#8217;ll need to learn all of the secrets and habits if you&#8217;re to stop imminent disaster.</p>
+<p><img class="aligncenter size-full wp-image-26046" src="https://i2.wp.com/indiegamesplus.com/wp-content/uploads/2019/07/elsinore-2.jpg?resize=640%2C360&#038;ssl=1" alt="" width="640" height="360" srcset="https://i2.wp.com/indiegamesplus.com/wp-content/uploads/2019/07/elsinore-2.jpg?w=740&amp;ssl=1 740w, https://i2.wp.com/indiegamesplus.com/wp-content/uploads/2019/07/elsinore-2.jpg?resize=150%2C84&amp;ssl=1 150w, https://i2.wp.com/indiegamesplus.com/wp-content/uploads/2019/07/elsinore-2.jpg?resize=300%2C169&amp;ssl=1 300w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" /></p>
+<p>How can you alter these events? You can talk, lie, gossip, befriend, and forgive characters, in doing so changing how they conduct themselves. Depending on what you choose to do, these characters will act differently, setting off chain reactions throughout the story. Not all of these may be helpful, either, and you&#8217;ll just have to watch and see how your actions change the story as you seek the one correct path through it. You still retain everything you learned on old runs when you fail, though, so you can put that knowledge to new use on your next try.</p>
+<p><em>Elsinore</em> offers a world of complex characters all going about their lives as they see fit, demanding you get to know them all in order to save them. Diverting calamity will require a keen eye for detail, but with your help, Ophelia can surely pull it off. Or you&#8217;ll at least have fun seeing how your smallest decision can ruin everything.</p>
+<p><iframe src="https://www.youtube.com/embed/vbWsmc1OhOg" width="740" height="416" frameborder="0" allowfullscreen="allowfullscreen"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span></iframe></p>
+<p><em>Elsinore is available now on <a href="https://goldenglitch.itch.io/elsinore">Itch.io</a> and <a href="https://store.steampowered.com/app/512890/Elsinore/">Steam</a>.</em></p>
+<p>The post <a rel="nofollow" href="https://indiegamesplus.com/2019/07/elsinore-seeks-to-escape-a-shakespearean-time-loop">&#8216;Elsinore&#8217; Seeks to Escape a Shakespearean Time Loop</a> appeared first on <a rel="nofollow" href="https://indiegamesplus.com">Indie Games Plus</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://indiegamesplus.com/2019/07/elsinore-seeks-to-escape-a-shakespearean-time-loop/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">26045</post-id>	</item>
+		<item>
+		<title>Trailer Tuesday &#8211; Solace of the Last Yolk</title>
+		<link>https://indiegamesplus.com/2019/07/trailer-tuesday-solace-of-the-last-yolk</link>
+				<comments>https://indiegamesplus.com/2019/07/trailer-tuesday-solace-of-the-last-yolk#respond</comments>
+				<pubDate>Tue, 30 Jul 2019 23:00:32 +0000</pubDate>
+		<dc:creator><![CDATA[Joel Couture]]></dc:creator>
+				<category><![CDATA[Features]]></category>
+		<category><![CDATA[Arcus Chroma]]></category>
+		<category><![CDATA[Gabbuchi]]></category>
+		<category><![CDATA[Hayfever]]></category>
+		<category><![CDATA[Hellsinker.]]></category>
+		<category><![CDATA[Last Labyrinth]]></category>
+		<category><![CDATA[Mochi Mochi Boy]]></category>
+		<category><![CDATA[papilio]]></category>
+		<category><![CDATA[recursed]]></category>
+		<category><![CDATA[stones of solace]]></category>
+		<category><![CDATA[trailer tuesday]]></category>
+		<category><![CDATA[YolkSpire]]></category>
+
+		<guid isPermaLink="false">https://indiegamesplus.com/?p=25997</guid>
+				<description><![CDATA[<p>This week, Trailer Tuesday puts allergies to handy use, chomps blocks for puzzle-solving delights, and finds rooms within items. &#160; YolkSpire ﻿ &#8220;YolkSpire is a short 2D platformer in which you the...</p>
+<p>The post <a rel="nofollow" href="https://indiegamesplus.com/2019/07/trailer-tuesday-solace-of-the-last-yolk">Trailer Tuesday &#8211; Solace of the Last Yolk</a> appeared first on <a rel="nofollow" href="https://indiegamesplus.com">Indie Games Plus</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p>This week, Trailer Tuesday puts allergies to handy use, chomps blocks for puzzle-solving delights, and finds rooms within items.</p>
+<p><span id="more-25997"></span></p>
+<p>&nbsp;</p>
+<p><em><strong>YolkSpire</strong></em></p>
+<p><iframe src="https://www.youtube.com/embed/1hte7-aOm7M" width="740" height="416" frameborder="0" allowfullscreen="allowfullscreen"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span></iframe></p>
+<p>&#8220;<em>YolkSpire</em> is a short 2D platformer in which you the player are challenged to compete in a exhilarating competition hosted by the magnificent Yolkchild! Be the first competitor to scale his towering skyscraper in hopes of being heir to a treasure &#8220;Beyond Imagination&#8221;.&#8221;</p>
+<p><em>YolkSpire is available now on <a href="https://jjjohnson.itch.io/yolkspire">Itch.io</a>.</em></p>
+<p>&nbsp;</p>
+<p><em><strong>Last Labyrinth</strong></em></p>
+<p><iframe src="https://www.youtube.com/embed/Vkxfi_sUR5k" width="740" height="416" frameborder="0" allowfullscreen="allowfullscreen"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span></iframe></p>
+<p>&#8220;<em>Last Labyrinth</em> is a VR Escape-the-Room adventure game, in which players must work to escape a mansion full of hidden dangers with a mysterious girl, Katia, that appears before them.&#8221;</p>
+<p><em>Last Labyrinth is projected to release in Fall 2019, but in the meantime, you can follow its development on the <a href="https://lastlabyrinth.jp/en/">game&#8217;s site</a>.</em></p>
+<p>&nbsp;</p>
+<p><em><strong>Hellsinker.</strong></em></p>
+<p><iframe src="https://www.youtube.com/embed/af8IxzAnGxY" width="740" height="416" frameborder="0" allowfullscreen="allowfullscreen"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span></iframe></p>
+<p>&#8220;A legendary SHMUP influential to the best makers in the genre, <em>Hellsinker</em> is now available on steam in its most advanced form! Gameplay, story, graphics, and even music all united into one cohesive and highly dimensional Shoot-em-up!&#8221;</p>
+<p><em>Hellsinker. is available now on <a href="https://store.steampowered.com/app/1067720/Hellsinker/">Steam</a>.</em></p>
+<p>&nbsp;</p>
+<p><em><strong>Hayfever</strong></em></p>
+<p><iframe src="https://www.youtube.com/embed/8_-wjgaLkmQ" width="740" height="416" frameborder="0" allowfullscreen="allowfullscreen"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span></iframe></p>
+<p>&#8220;<em>Hayfever</em> is a story about Thomas. An overworked mailman with allergies which he uses as his double-edged super powers. Allergies have never been more exciting!&#8221;</p>
+<p><em>Hayfever is projected to release in early 2020, but in the meantime, you can follow its creation on the <a href="http://www.pixadome.com/hayfever.html">game&#8217;s site</a>.</em></p>
+<p>&nbsp;</p>
+<p><em><strong>Gabbuchi</strong></em></p>
+<p><iframe src="https://www.youtube.com/embed/X0fmD0UMbiQ" width="740" height="416" frameborder="0" allowfullscreen="allowfullscreen"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span></iframe></p>
+<p>&#8220;Choose your snacks wisely in this tasty puzzle game. Gabbuchi loves gobbling blocks, but you’ll have to carefully choose which ones he eats so he can reach the end of each stage. Change colors, consume cubes, and reach the treasured heart cookie to advance.&#8221;</p>
+<p><em>Gabbuchi is available now on <a href="https://store.playstation.com/en-us/product/UP1024-CUSA16423_00-JWEVGVQNVXNNUBQC">PS4</a> and <a href="https://store.steampowered.com/app/1069970/Gabbuchi/">Steam</a>.</em></p>
+<p>&nbsp;</p>
+<p><em><strong>Mochi Mochi Boy</strong></em></p>
+<p><iframe src="https://www.youtube.com/embed/KjbO8vDq7R8" width="740" height="416" frameborder="0" allowfullscreen="allowfullscreen"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span></iframe></p>
+<p>&#8220;Mochi Mochi Boy has to rescue his friends from the Devil! In order to do this, you must be clever enough to outwit the devil by stretching, twisting, and warping over each tile past 130+ floors of his tower.&#8221;</p>
+<p><em>Mochi Mochi Boy is available now on the <a href="https://www.nintendo.com/games/detail/mochi-mochi-boy-switch/">Nintendo Switch</a>, <a href="https://store.playstation.com/en-us/product/UP0891-CUSA16357_00-RAGMOCHIMOCHIBOY">PS4</a>, <a href="https://www.microsoft.com/en-us/p/mochi-mochi-boy/9pbdt4pwmhft?activetab=pivot:overviewtab">Xbox One</a>, <a href="https://pixelteriyaki.itch.io/mochi-mochi-boy">Itch.io</a>, and <a href="https://store.steampowered.com/app/932290/Mochi_Mochi_Boy/">Steam</a>.</em></p>
+<p>&nbsp;</p>
+<p><em><strong>Recursed</strong></em></p>
+<p><iframe src="https://www.youtube.com/embed/_Q85y29uLlg" width="740" height="416" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p>&#8220;A puzzle game where the rooms are items and the items are rooms. Get to the goal by moving, rearranging and duplicating rooms and altering the structure of the world.&#8221;</p>
+<p><em>Recursed is available now on <a href="https://store.steampowered.com/app/497780/Recursed/">Steam</a>.</em></p>
+<p>&nbsp;</p>
+<p><em><strong>Arcus Chroma</strong></em></p>
+<p><iframe src="https://www.youtube.com/embed/KPvc1k1Nmqo" width="740" height="416" frameborder="0" allowfullscreen="allowfullscreen"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span></iframe></p>
+<p>&#8220;<em>Arcus Chroma</em> is a Fantasy 2D fighting game with a similar gameplay style to <em><a href="https://gxgrainson.itch.io/hyperhitboxing" target="_blank" rel="noopener noreferrer">Hyper Hitboxing</a></em> (my previous game). This game is built around a Juggle combo system and fast paced grounded combat, so no jumping involved.&#8221;</p>
+<p><em>Arcus Chroma is available (in an in-development state) on <a href="https://gxgrainson.itch.io/arcuschroma">Itch.io</a>.</em></p>
+<p>&nbsp;</p>
+<p><em><strong>Papilio</strong></em></p>
+<p><iframe src="https://www.youtube.com/embed/QaSwfiwIzlA" width="740" height="416" frameborder="0" allowfullscreen="allowfullscreen"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span></iframe></p>
+<p>&#8220;Take to the skies as a Naajira, a mystic warden with the power of magic-augmented flight and impressively devastating spells at your disposal, and engage in combat with fearsome creatures and mighty bosses as you pursue an opponent who seeks to unearth long-forgotten ancient magics and weapons for her own dark purposes.&#8221;</p>
+<p><em>Papilio is available now on <a href="https://s20-tbl.itch.io/papilio">Itch.io</a>.</em></p>
+<p>&nbsp;</p>
+<p><em><strong>Stones of Solace</strong></em></p>
+<p><iframe src="https://www.youtube.com/embed/N_ZukelygqQ" width="740" height="416" frameborder="0" allowfullscreen="allowfullscreen"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span></iframe></p>
+<p>&#8220;<em>Stones of Solace</em> is a minimalistic and contemplative ritual, offering you a quiet space for relaxation.<br />
+Find out what your idol is, and take some of your time to craft them a gift.&#8221;</p>
+<p><em>Stones of Solace is currently in development, but in the meantime, you can follow its creation on the <a href="https://dziff.itch.io/">developer&#8217;s site</a>.</em></p>
+<p>The post <a rel="nofollow" href="https://indiegamesplus.com/2019/07/trailer-tuesday-solace-of-the-last-yolk">Trailer Tuesday &#8211; Solace of the Last Yolk</a> appeared first on <a rel="nofollow" href="https://indiegamesplus.com">Indie Games Plus</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://indiegamesplus.com/2019/07/trailer-tuesday-solace-of-the-last-yolk/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">25997</post-id>	</item>
+		<item>
+		<title>&#8216;A Short Hike&#8217; Explores a Provincial Park through Flying, Walking, &#038; Chatting</title>
+		<link>https://indiegamesplus.com/2019/07/a-short-hike-explores-a-provincial-park-through-flying-walking-chatting</link>
+				<comments>https://indiegamesplus.com/2019/07/a-short-hike-explores-a-provincial-park-through-flying-walking-chatting#respond</comments>
+				<pubDate>Tue, 30 Jul 2019 17:00:28 +0000</pubDate>
+		<dc:creator><![CDATA[Joel Couture]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[A Short Hike]]></category>
+		<category><![CDATA[adamgryu]]></category>
+		<category><![CDATA[adventure]]></category>
+		<category><![CDATA[exploration]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[Mac]]></category>
+		<category><![CDATA[windows]]></category>
+
+		<guid isPermaLink="false">https://indiegamesplus.com/?p=26035</guid>
+				<description><![CDATA[<p>Claire is out to meet her aunt who lives and works in a park. That doesn&#8217;t mean there isn&#8217;t time to take a relaxing flight, walk and talk with friends, or stare...</p>
+<p>The post <a rel="nofollow" href="https://indiegamesplus.com/2019/07/a-short-hike-explores-a-provincial-park-through-flying-walking-chatting">&#8216;A Short Hike&#8217; Explores a Provincial Park through Flying, Walking, &#038; Chatting</a> appeared first on <a rel="nofollow" href="https://indiegamesplus.com">Indie Games Plus</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p>Claire is out to meet her aunt who lives and works in a park. That doesn&#8217;t mean there isn&#8217;t time to take a relaxing flight, walk and talk with friends, or stare into the quiet waters along the way.</p>
+<p><span id="more-26035"></span></p>
+<p><a href="http://ashorthike.com/"><em>A Short Hike</em></a> will have you guiding Claire through the wilderness as she tries to take her mind off some things. Luckily, there&#8217;s a lot you can get up to if you want to help distract the poor bird. You can climb cliffs and leap off, taking a quick flight around the treetops or tumble into the cool waters of a lake below. You can also dig out a fishing rod and see what you can catch within the blue pools, or just let the sound of the lapping waves wash your thoughts away.</p>
+<p><img class="aligncenter size-full wp-image-26036" src="https://i1.wp.com/indiegamesplus.com/wp-content/uploads/2019/07/A-Short-Hike-2.jpg?resize=640%2C360&#038;ssl=1" alt="" width="640" height="360" srcset="https://i1.wp.com/indiegamesplus.com/wp-content/uploads/2019/07/A-Short-Hike-2.jpg?w=740&amp;ssl=1 740w, https://i1.wp.com/indiegamesplus.com/wp-content/uploads/2019/07/A-Short-Hike-2.jpg?resize=150%2C84&amp;ssl=1 150w, https://i1.wp.com/indiegamesplus.com/wp-content/uploads/2019/07/A-Short-Hike-2.jpg?resize=300%2C169&amp;ssl=1 300w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" /></p>
+<p>You&#8217;re not purely working with natural distractions. This park is filled with different people you can meet and have a quick talk with. Some of them have their own issues they wouldn&#8217;t mind sharing with a stranger, and maybe helping them out might soothe your own mind. Or they might help guide you to some of the hidden treasures that are lying around the park awaiting discovery.</p>
+<p>This new release of <em>A Short Hike</em> (which was a Humble Original a while ago) adds some new mechanics and treats for new players. Fishing has been added to this version, and you can also expect to meet a few new characters as you wander some newly-refined areas of the park. Whether the grounds are familiar or not, there&#8217;s still lots of new things to discover as you help a bird forget their problems for a little while.</p>
+<p><iframe src="https://www.youtube.com/embed/qsA5p0MKdoM" width="740" height="416" frameborder="0" allowfullscreen="allowfullscreen"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span></iframe></p>
+<p><em>A Short Hike is available now on <a href="https://adamgryu.itch.io/a-short-hike">Itch.io</a> and <a href="https://store.steampowered.com/app/1055540/A_Short_Hike/">Steam</a>.</em></p>
+<p>The post <a rel="nofollow" href="https://indiegamesplus.com/2019/07/a-short-hike-explores-a-provincial-park-through-flying-walking-chatting">&#8216;A Short Hike&#8217; Explores a Provincial Park through Flying, Walking, &#038; Chatting</a> appeared first on <a rel="nofollow" href="https://indiegamesplus.com">Indie Games Plus</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://indiegamesplus.com/2019/07/a-short-hike-explores-a-provincial-park-through-flying-walking-chatting/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">26035</post-id>	</item>
+		<item>
+		<title>&#8216;Critters for Sale&#8217; &#8211; An Unsettling 1-Bit Adventure in Horrifying Folklore</title>
+		<link>https://indiegamesplus.com/2019/07/critters-for-sale-an-unsettling-1-bit-adventure-in-horrifying-folklore</link>
+				<comments>https://indiegamesplus.com/2019/07/critters-for-sale-an-unsettling-1-bit-adventure-in-horrifying-folklore#respond</comments>
+				<pubDate>Tue, 30 Jul 2019 11:00:29 +0000</pubDate>
+		<dc:creator><![CDATA[Joel Couture]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[adventure]]></category>
+		<category><![CDATA[Critters for Sale]]></category>
+		<category><![CDATA[horror]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[Mac]]></category>
+		<category><![CDATA[sonoshee]]></category>
+		<category><![CDATA[visual novel]]></category>
+		<category><![CDATA[windows]]></category>
+
+		<guid isPermaLink="false">https://indiegamesplus.com/?p=26040</guid>
+				<description><![CDATA[<p>Inspired by North African and Middle Eastern folktales, Critters for Sale takes you to some disturbing places through various short stories. Critters for Sale is slated to offer five different short stories...</p>
+<p>The post <a rel="nofollow" href="https://indiegamesplus.com/2019/07/critters-for-sale-an-unsettling-1-bit-adventure-in-horrifying-folklore">&#8216;Critters for Sale&#8217; &#8211; An Unsettling 1-Bit Adventure in Horrifying Folklore</a> appeared first on <a rel="nofollow" href="https://indiegamesplus.com">Indie Games Plus</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p>Inspired by North African and Middle Eastern folktales, <a href="https://store.steampowered.com/app/1078420/Critters_for_Sale/"><em>Critters for Sale</em></a> takes you to some disturbing places through various short stories.</p>
+<p><span id="more-26040"></span></p>
+<p><em>Critters for Sale</em> is slated to offer five different short stories (two are out now) that put you in the shoes of various characters. Whether on a journey through the Arabian desert or into the unending halls of a strange night club, you&#8217;ll find yourself drawn into the dark magic and strange realities of a modern folklore. It&#8217;s like wandering a dream &#8211; a dream where anything can happen, but most likely, you&#8217;ll find a gruesome end.</p>
+<p><img class="aligncenter size-full wp-image-26041" src="https://i2.wp.com/indiegamesplus.com/wp-content/uploads/2019/07/critters-for-sale-2.jpg?resize=640%2C360&#038;ssl=1" alt="" width="640" height="360" srcset="https://i2.wp.com/indiegamesplus.com/wp-content/uploads/2019/07/critters-for-sale-2.jpg?w=740&amp;ssl=1 740w, https://i2.wp.com/indiegamesplus.com/wp-content/uploads/2019/07/critters-for-sale-2.jpg?resize=150%2C84&amp;ssl=1 150w, https://i2.wp.com/indiegamesplus.com/wp-content/uploads/2019/07/critters-for-sale-2.jpg?resize=300%2C169&amp;ssl=1 300w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" /></p>
+<p>Each story will have you working your way through surreal events, struggling to survive them when you&#8217;re not even sure HOW to do so. Will taking a goat with you help? Should you follow a cat&#8217;s instructions in an endless night club? It sounds silly when put like that, but there is a chilling atmosphere in each place. Given that this game is inspired by the kind of folklore that &#8220;&#8230;one would think shouldn&#8217;t be told to children&#8230;&#8221; it only makes sense that it has this harshness to it. It&#8217;s cruel lessons told to those who might not be ready to understand the teachings, resulting in this sense of being lost and afraid, but unsure what of. It&#8217;s chilling in action.</p>
+<p>The 1-bit art style of <em>Critters for Sale</em> only strengthens this sensation. The most innocent or interactions and places are loaded with menace through the developer&#8217;s work with the style. The sun distorts, seeming like it wishes to scorch your flesh from your body. A friend&#8217;s smile seems meant to threaten, void of cheer. Each moment is fearful even if you can&#8217;t understand why, leaving you wondering how you&#8217;ll live through it all.</p>
+<p>I kinda need those next three episodes.</p>
+<p><iframe src="https://www.youtube.com/embed/K30TbreAWXE" width="740" height="416" frameborder="0" allowfullscreen="allowfullscreen"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span></iframe></p>
+<p><em>The first two episodes of Critters for Sale are available now on <a href="https://sonoshee.itch.io/critters-for-sale">Itch.io</a>. You can also add the full game to your <a href="https://store.steampowered.com/app/1078420/Critters_for_Sale/">Steam Wishlist</a>.</em></p>
+<p>The post <a rel="nofollow" href="https://indiegamesplus.com/2019/07/critters-for-sale-an-unsettling-1-bit-adventure-in-horrifying-folklore">&#8216;Critters for Sale&#8217; &#8211; An Unsettling 1-Bit Adventure in Horrifying Folklore</a> appeared first on <a rel="nofollow" href="https://indiegamesplus.com">Indie Games Plus</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://indiegamesplus.com/2019/07/critters-for-sale-an-unsettling-1-bit-adventure-in-horrifying-folklore/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">26040</post-id>	</item>
+		<item>
+		<title>&#8216;Fugl&#8217; Follows a Morphing Bird Into Soothing VR Places</title>
+		<link>https://indiegamesplus.com/2019/07/fugl-follows-a-morphing-bird-into-soothing-vr-places</link>
+				<comments>https://indiegamesplus.com/2019/07/fugl-follows-a-morphing-bird-into-soothing-vr-places#respond</comments>
+				<pubDate>Mon, 29 Jul 2019 23:00:43 +0000</pubDate>
+		<dc:creator><![CDATA[Joel Couture]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[exploration]]></category>
+		<category><![CDATA[fugl]]></category>
+		<category><![CDATA[Mac]]></category>
+		<category><![CDATA[oculus rift]]></category>
+		<category><![CDATA[team fugl]]></category>
+		<category><![CDATA[windows]]></category>
+
+		<guid isPermaLink="false">https://indiegamesplus.com/?p=26030</guid>
+				<description><![CDATA[<p>Soar through the skies, swim beneath the sea, and become any number of animal friends as you wander the lands of Fugl. Which you can now explore in VR! Fugl doesn&#8217;t need...</p>
+<p>The post <a rel="nofollow" href="https://indiegamesplus.com/2019/07/fugl-follows-a-morphing-bird-into-soothing-vr-places">&#8216;Fugl&#8217; Follows a Morphing Bird Into Soothing VR Places</a> appeared first on <a rel="nofollow" href="https://indiegamesplus.com">Indie Games Plus</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p>Soar through the skies, swim beneath the sea, and become any number of animal friends as you wander the lands of <a href="https://fuglgame.com/"><em>Fugl</em></a>. Which you can now explore in VR!</p>
+<p><span id="more-26030"></span></p>
+<p>Fugl doesn&#8217;t need you to fly through certain obstacles, collect feathers, or meet the right people to complete missions. It simply offers a variety of different biomes to freely explore, letting you swoop between treetops or feel the air&#8217;s rush between red canyon walls. You&#8217;re free to fly where you want, do what you like, and meet who you want, enjoying the natural world around you.</p>
+<p><img class="aligncenter size-full wp-image-26031" src="https://i2.wp.com/indiegamesplus.com/wp-content/uploads/2019/07/fugl-2.jpg?resize=640%2C360&#038;ssl=1" alt="" width="640" height="360" srcset="https://i2.wp.com/indiegamesplus.com/wp-content/uploads/2019/07/fugl-2.jpg?w=740&amp;ssl=1 740w, https://i2.wp.com/indiegamesplus.com/wp-content/uploads/2019/07/fugl-2.jpg?resize=150%2C84&amp;ssl=1 150w, https://i2.wp.com/indiegamesplus.com/wp-content/uploads/2019/07/fugl-2.jpg?resize=300%2C169&amp;ssl=1 300w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" /></p>
+<p><em>Fugl </em>focuses on allowing you to find your own adventures and experiences, letting whim guide you. Still, there are some things that might catch your eye. There are several different animals you can meet on your journeys, which you can then morph into, experiencing the game from their perspective. Each animal offers its own movement and mechanics, so it really changes things when you shift to a new form. There are even some legendary animals wandering the world if you are hoping to find something truly special as you fly around.</p>
+<p>The newly-released Oculus Rift version of the game takes the game&#8217;s calming exploration and lets you experience it in VR, allowing you to feel like you&#8217;re hurtling through valleys or roaming the colorful sea floor. It&#8217;s definitely a pleasant take on the dreams of flight that many of us have enjoyed. Except you get to be a colorful bird, too.</p>
+<p><iframe src="https://www.youtube.com/embed/Xq6gvzVW4AU" width="740" height="416" frameborder="0" allowfullscreen="allowfullscreen"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span></iframe></p>
+<p><em>Fugl is available now on the <a href="https://www.oculus.com/experiences/rift/1549570518416178/?locale=en_US">Oculus Store</a> and <a href="https://store.steampowered.com/app/643810/Fugl/">Steam Early Access</a>.</em></p>
+<p>The post <a rel="nofollow" href="https://indiegamesplus.com/2019/07/fugl-follows-a-morphing-bird-into-soothing-vr-places">&#8216;Fugl&#8217; Follows a Morphing Bird Into Soothing VR Places</a> appeared first on <a rel="nofollow" href="https://indiegamesplus.com">Indie Games Plus</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://indiegamesplus.com/2019/07/fugl-follows-a-morphing-bird-into-soothing-vr-places/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">26030</post-id>	</item>
+		<item>
+		<title>&#8216;From Head to Toe&#8217; Reminisces on a Familiar Childhood Road</title>
+		<link>https://indiegamesplus.com/2019/07/from-head-to-toe-reminisces-on-a-familiar-childhood-road</link>
+				<comments>https://indiegamesplus.com/2019/07/from-head-to-toe-reminisces-on-a-familiar-childhood-road#respond</comments>
+				<pubDate>Mon, 29 Jul 2019 17:00:16 +0000</pubDate>
+		<dc:creator><![CDATA[Joel Couture]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Android]]></category>
+		<category><![CDATA[freeware]]></category>
+		<category><![CDATA[From Head to Toe]]></category>
+		<category><![CDATA[interactive fiction]]></category>
+		<category><![CDATA[Mac]]></category>
+		<category><![CDATA[party for introverts]]></category>
+		<category><![CDATA[windows]]></category>
+
+		<guid isPermaLink="false">https://indiegamesplus.com/?p=26026</guid>
+				<description><![CDATA[<p>From Head to Toe takes Betty on a walk with her high school best friend Quentin, the pair exchanging memories as they march through the light snow. You&#8217;ll share old stories on...</p>
+<p>The post <a rel="nofollow" href="https://indiegamesplus.com/2019/07/from-head-to-toe-reminisces-on-a-familiar-childhood-road">&#8216;From Head to Toe&#8217; Reminisces on a Familiar Childhood Road</a> appeared first on <a rel="nofollow" href="https://indiegamesplus.com">Indie Games Plus</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p><a href="https://partyforintroverts.com/from-head-to-toe/"><em>From Head to Toe</em></a> takes Betty on a walk with her high school best friend Quentin, the pair exchanging memories as they march through the light snow.</p>
+<p><span id="more-26026"></span></p>
+<p>You&#8217;ll share old stories on this walk, chatting with an old friend as you reflect on the past and your actions. You have a few dialogue choices, but this isn&#8217;t a game about high-stakes replies or decisions to fret over. This is a relaxed talk with an old buddy, taken on a path you used to walk on when you were kids. Through this talk of old times, the game explores themes of nostalgia and longing for those lost times.</p>
+<p><img class="aligncenter size-full wp-image-26027" src="https://i0.wp.com/indiegamesplus.com/wp-content/uploads/2019/07/from-head-to-toe-2.jpg?resize=640%2C360&#038;ssl=1" alt="" width="640" height="360" srcset="https://i0.wp.com/indiegamesplus.com/wp-content/uploads/2019/07/from-head-to-toe-2.jpg?w=740&amp;ssl=1 740w, https://i0.wp.com/indiegamesplus.com/wp-content/uploads/2019/07/from-head-to-toe-2.jpg?resize=150%2C84&amp;ssl=1 150w, https://i0.wp.com/indiegamesplus.com/wp-content/uploads/2019/07/from-head-to-toe-2.jpg?resize=300%2C169&amp;ssl=1 300w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" /></p>
+<p><em>From Head to Toe </em>doesn&#8217;t just have Betty idly walk as you talk, though. You have to take each step to move her forward, as well as use unique controls to swing or playfully toss snowballs during your time together. The result is quite relaxing and engaging for the mind, but also reflects on how we have to choose to move forward, even if we want to linger in the moment. There&#8217;s a sense of purpose in the movement &#8211; of a choice we have a say in, and yet not. It adds an intriguing layer to the narrative, ruminating on our willingness to participate in moving forward and leaving things behind.</p>
+<p>The game is a soothing experience in the joys of exploring old memories, the pain of watching our childhood places fade away, and the feeling of those special kinds of rare, cherished, eternal childhood friendships.</p>
+<p><iframe src="https://www.youtube.com/embed/VCZFOvwum7U" width="740" height="416" frameborder="0" allowfullscreen="allowfullscreen"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span></iframe></p>
+<p><em>From Head to Toe is available now on <a href="https://pintroverts.itch.io/from-head-to-toe">Itch.io</a>, <a href="https://gamejolt.com/games/fromheadtotoe/424370">GameJolt</a>, <a href="https://store.steampowered.com/app/1104890/From_Head_to_Toe/">Steam</a>, and <a href="https://play.google.com/store/apps/details?id=com.PartyForIntroverts.FromHeadToToe">Google Play</a>.</em></p>
+<p>The post <a rel="nofollow" href="https://indiegamesplus.com/2019/07/from-head-to-toe-reminisces-on-a-familiar-childhood-road">&#8216;From Head to Toe&#8217; Reminisces on a Familiar Childhood Road</a> appeared first on <a rel="nofollow" href="https://indiegamesplus.com">Indie Games Plus</a>.</p>
+]]></content:encoded>
+							<wfw:commentRss>https://indiegamesplus.com/2019/07/from-head-to-toe-reminisces-on-a-familiar-childhood-road/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<post-id xmlns="com-wordpress:feed-additions:1">26026</post-id>	</item>
+	</channel>
+</rss>

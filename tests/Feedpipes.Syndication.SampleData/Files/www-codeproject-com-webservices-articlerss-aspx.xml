@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>CodeProject Latest Articles</title>
+    <link>https://www.codeproject.com</link>
+    <description>Latest Articles from CodeProject</description>
+    <language>en-us</language>
+    <image>
+      <title>CodeProject Latest Articles</title>
+      <url>https://www.codeproject.com/App_Themes/Std/Img/logo100x30.gif</url>
+      <link>https://www.codeproject.com</link>
+      <width>100</width>
+      <height>30</height>
+      <description>CodeProject</description>
+    </image>
+    <copyright>Copyright  CodeProject, 1999-2019</copyright>
+    <webMaster>Webmaster@codeproject.com (Webmaster)</webMaster>
+    <lastBuildDate>Thu, 01 Aug 2019 21:25:14 GMT</lastBuildDate>
+    <ttl>20</ttl>
+    <generator>C# Hand-coded goodness</generator>
+    <item>
+      <title>Tiny CMD</title>
+      <description>A Tiny Command Line Interface wrapped with a Graphic User Interface</description>
+      <author>Michael Haephrati</author>
+      <link>https://www.codeproject.com/Articles/5163375/Tiny-CMD</link>
+      <pubDate>Thu, 01 Aug 2019 12:17:00 GMT</pubDate>
+      <guid>https://www.codeproject.com/Articles/5163375/Tiny-CMD</guid>
+      <category>Win32</category>
+      <category>MFC</category>
+      <category>Shell</category>
+      <category>C++11</category>
+      <category>Desktop</category>
+      <category>cmd</category>
+      <subject />
+    </item>
+    <item>
+      <title>Compiling MuPDF DLL to Render and Edit PDF Documents</title>
+      <description>MuPDF is an open-sourced, high performance PDF rendering and editing engine written in C. This article describes how to compile its source code to a DLL for use in other programming languages.</description>
+      <author>wmjordan</author>
+      <link>https://www.codeproject.com/Articles/1190061/Compiling-MuPDF-DLL-to-Render-and-Edit-PDF-Documen</link>
+      <pubDate>Thu, 01 Aug 2019 01:25:00 GMT</pubDate>
+      <guid>https://www.codeproject.com/Articles/1190061/Compiling-MuPDF-DLL-to-Render-and-Edit-PDF-Documen</guid>
+      <category>C</category>
+      <category>C#</category>
+      <category>Windows</category>
+      <category>Beginner</category>
+      <category>Intermediate</category>
+      <category>Python</category>
+      <category>PDF</category>
+      <category>VS2013</category>
+      <category>VS2017</category>
+      <subject />
+    </item>
+  </channel>
+</rss>

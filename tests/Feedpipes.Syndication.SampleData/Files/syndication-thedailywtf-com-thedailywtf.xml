@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://syndication.thedailywtf.com/~d/styles/itemcontent.css"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" version="2.0"><channel><title>The Daily WTF</title><link>http://thedailywtf.com/</link><description>Curious Perversions in Information Technology</description><lastBuildDate>Thu, 01 Aug 2019 21:20:27 GMT</lastBuildDate><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://syndication.thedailywtf.com/TheDailyWtf" /><feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="thedailywtf" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><geo:lat>41.36995</geo:lat><geo:long>-81.862591</geo:long><item><dc:creator>Remy Porter</dc:creator><title>CodeSOD: Close to the Point</title><link>https://thedailywtf.com/articles/close-to-the-point</link><category>CodeSOD</category><pubDate>Thu, 01 Aug 2019 06:30:00 GMT</pubDate><guid>https://thedailywtf.com/articles/close-to-the-point</guid><description>&lt;p&gt;&lt;strong&gt;Lena&lt;/strong&gt; inherited some C++ code which had issues regarding a timeout. While skimming through the code, one block in particular leapt out. This was &lt;em&gt;production&lt;/em&gt; code which had been running in this state for some time.&lt;/p&gt;
+&lt;pre&gt;&lt;code class="cplusplus"&gt;if((pFile) &amp;amp;&amp;amp; (pFile != (FILE *)(0xcdcdcdcd))) {
+    fclose(pFile);
+    pFile = NULL;
+}&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The purpose of this code is, as you might gather from the call to &lt;code&gt;fclose&lt;/code&gt;, to close a file handle represented by &lt;code&gt;pFile&lt;/code&gt;, a pointer to the handle. This code &lt;em&gt;mostly&lt;/em&gt; is fine, but with one, big, glaring “hunh?” and it’s this bit here: &lt;code&gt;(pFile != (FILE *)(0xcdcdcdcd))&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;(FILE *)(0xcdcdcdcd)&lt;/code&gt; casts the number &lt;code&gt;0xcdcdcdcd&lt;/code&gt; to a file pointer- essentially it creates a pointer pointing at memory address 0xcdcdcdcd. If &lt;code&gt;pFile&lt;/code&gt; points to that address, we &lt;em&gt;won’t&lt;/em&gt; close &lt;code&gt;pFile&lt;/code&gt;. Is there a reason for this? Not that Lena could determine from the code. Did the &lt;code&gt;0xcdcdcdcd&lt;/code&gt; come from anywhere specific? &lt;em&gt;Probably&lt;/em&gt; a previous developer trying to track down a bug and dumping addresses from the debugger. How did it get into production code? How long had it been there? It was impossible to tell. It was also impossible to tell if it was secretly doing something important, so Lena made a note to dig into it later, but focused on solving the timeout bug which had started this endeavor.&lt;/p&gt;
+&lt;!-- Easy Reader Version: my co-worker was doing some debugging and committed some code which caused the program to quit after five minutes (it made sense for debugging reasons), and didn't realize a) he'd committed it, and b) that he'd pushed it, and then c) I pulled it and started freaking out when everything stopped working) --&gt;
+&lt;link rel="stylesheet" href="//thedailywtf.com/images/highlight/styles/github.css"/&gt;
+&lt;script src="//thedailywtf.com/images/highlight/highlight.pack.js"&gt;&lt;/script&gt;
+&lt;script&gt;hljs.initHighlightingOnLoad();&lt;/script&gt;&lt;div&gt;
+	&lt;img src="https://thedailywtf.com/images/inedo/buildmaster-icon.png" style="display:block; float: left; margin: 0 10px 10px 0;"/&gt; [Advertisement] 
+	&lt;a href="https://inedo.com/BuildMaster?utm_source=tdwtf&amp;amp;utm_medium=footerad&amp;amp;utm_term=2018&amp;amp;utm_content=Self_Service&amp;amp;utm_campaign=Buildmaster_Footer"&gt;BuildMaster&lt;/a&gt; allows you to create a self-service release management platform that allows different teams to manage their applications. &lt;a href="https://inedo.com/BuildMaster/download?utm_source=tdwtf&amp;amp;utm_medium=footerad&amp;amp;utm_term=2018&amp;amp;utm_content=Self_Service&amp;amp;utm_campaign=Buildmaster_Footer"&gt;Explore how!&lt;/a&gt; 
+&lt;/div&gt;
+&lt;div style="clear: left;"&gt; &lt;/div&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://syndication.thedailywtf.com/~ff/TheDailyWtf?a=1Sbo8MKW8Bs:7aHGl02VXcM:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TheDailyWtf?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/TheDailyWtf/~4/1Sbo8MKW8Bs" height="1" width="1" alt=""/&gt;</description><slash:comments>27</slash:comments><wfw:comment>https://thedailywtf.com/articles/comments/close-to-the-point</wfw:comment></item><item><dc:creator>Remy Porter</dc:creator><title>CodeSOD: What a Happy Date</title><link>https://thedailywtf.com/articles/what-a-happy-date</link><category>CodeSOD</category><pubDate>Wed, 31 Jul 2019 06:30:00 GMT</pubDate><guid>https://thedailywtf.com/articles/what-a-happy-date</guid><description>&lt;p&gt;As is the case with pretty much any language these days, Python comes with robust date handling functionality. If you want to know something like what the day of the month is? &lt;code&gt;datetime.now().day&lt;/code&gt; will tell you. Simple, easy, and of course, just an invitation for someone to invent their own.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Jan&lt;/strong&gt; was witness to a little date-time related office politics. This particular political battle started during a code review. Klaus had written some date mangling code, relying heavily on &lt;code&gt;strftime&lt;/code&gt; to parse dates out to strings and then parse them back in as integers. Richard, quite reasonably, pointed out that Klaus was taking the long way around, and maybe Klaus should possibly think about doing it in a simpler fashion.&lt;/p&gt;
+
+&lt;p&gt;“So, you don’t understand the code?” Klaus asked.&lt;/p&gt;
+
+&lt;p&gt;“No, I understand it,” Richard replied. “But it’s far too complicated. You’re doing a simple task- getting the day of the month! The code should be simple.”&lt;/p&gt;
+
+&lt;p&gt;“Ah, so it’s too complicated, so you can’t understand it.”&lt;/p&gt;
+
+&lt;p&gt;“Just… write it the simple way. Use the built-in accessor.”&lt;/p&gt;
+
+&lt;p&gt;So, Klaus made his revisions, and merged the revised code.&lt;/p&gt;
+&lt;pre&gt;&lt;code class="python"&gt;import datetime
+# ...
+now = datetime.datetime.now()  # Richard
+date = now.strftime(&amp;#34;%d&amp;#34;)  # Richard, this is a string over here
+date_int = int(date)  # day number, int(&amp;#34;08&amp;#34;) = 8, so no problem here
+hour = now.hour  # Richard :)))))
+hour_int = int(hour)  # int hour, e.g. if it&amp;#39;s 22:36 then hour = 22&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Richard did &lt;em&gt;not&lt;/em&gt; have a big &lt;code&gt;:)))))&lt;/code&gt; on his face when he saw that in the master branch.&lt;/p&gt;
+&lt;!-- Easy Reader Version: Protip: don't call out your co-workers in the code comments. That's what Slack is for, and you can do it in a public channel for the emoji reactions. --&gt;
+&lt;link rel="stylesheet" href="//thedailywtf.com/images/highlight/styles/github.css"/&gt;
+&lt;script src="//thedailywtf.com/images/highlight/highlight.pack.js"&gt;&lt;/script&gt;
+&lt;script&gt;hljs.initHighlightingOnLoad();&lt;/script&gt;&lt;div&gt;
+	&lt;img src="https://thedailywtf.com/images/inedo/proget-icon.png" style="display:block; float: left; margin: 0 10px 10px 0;"/&gt; [Advertisement] 
+	Ensure your software is built only once and then deployed consistently across environments, by packaging your applications and components. &lt;a href="https://inedo.com/proget?utm_source=tdwtf&amp;amp;utm_medium=footerad&amp;amp;utm_term=2018&amp;amp;utm_content=Consistently&amp;amp;utm_campaign=ProGet_Footer"&gt;Learn how&lt;/a&gt; today!
+&lt;/div&gt;
+&lt;div style="clear: left;"&gt; &lt;/div&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://syndication.thedailywtf.com/~ff/TheDailyWtf?a=57xRFmDBGK0:fYI3kD7dLFA:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TheDailyWtf?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/TheDailyWtf/~4/57xRFmDBGK0" height="1" width="1" alt=""/&gt;</description><slash:comments>31</slash:comments><wfw:comment>https://thedailywtf.com/articles/comments/what-a-happy-date</wfw:comment></item><item><dc:creator>Charles Robinson</dc:creator><title>This Process is Nuts</title><link>https://thedailywtf.com/articles/this-process-is-nuts</link><category>Feature Articles</category><pubDate>Tue, 30 Jul 2019 06:30:00 GMT</pubDate><guid>https://thedailywtf.com/articles/this-process-is-nuts</guid><description>&lt;p&gt;A great man once said &amp;#34;I used to be over by the window, and I could see the squirrels, and they were merry.&amp;#34; As pleasing of a sight as that was, what if the squirrels &lt;i&gt;weren&amp;#39;t&lt;/i&gt; merry?
+
+&lt;/p&gt;&lt;p&gt;
+
+&lt;b&gt;Grady&lt;/b&gt; had an unpleasant experience with bushy-tailed rodents at a former job. Before starting at the Fintech firm as a data scientist, he was assured the Business Intelligence department was very advanced and run by an expert. They needed Grady to manipulate large data sets and implement machine learning to help out Lenny, the resident BI &amp;#34;expert&amp;#34;. It quickly became apparent that Lenny didn&amp;#39;t put the &amp;#34;Intelligence&amp;#34;  in Business Intelligence.
+
+&lt;/p&gt;&lt;p&gt;
+
+Lenny was a long-term contractor who started the BI initiative from the ground-up. His previous work as a front-end developer led to his decision to use PHP for the ETL process. This one-of-a-kind monstrosity made it as unstable as a house of cards in a hurricane and the resultant data warehouse was more like a data cesspool.
+
+&lt;/p&gt;&lt;p&gt;
+
+&amp;#34;This here is the best piece of software in the whole company,&amp;#34; Lenny boasted. &amp;#34;They tell me you&amp;#39;re really smart, so you&amp;#39;ll figure out how it works on your own. My work is far too important and advanced for me to be bothered with questions!&amp;#34; Lenny told Grady sternly. 
+
+&lt;/p&gt;&lt;p&gt;
+
+Grady, left to fend for himself, spent weeks stumbling through code with very few comments and no existing documentation. He managed to deduce the main workflow for the ETL and warehouse process and it wasn&amp;#39;t pretty. The first part of the ETL process deleted the entire existing data warehouse, allowing for a &amp;#34;fresh start&amp;#34; each day. If an error occurred during the ETL, rather than fail gracefully, the whole process crashed without restoring the data warehouse that was wiped out. 
+
+&lt;/p&gt;&lt;p&gt;
+
+Grady found that the morning ETL run failed more often than not. Since Lenny never bothered to stroll in until 10 AM, the people that depended on data warehouse reports loudly complained to Grady. Having no clue how to fix it, he would tell them to be patient. Lenny would saunter in and start berating him &amp;#34;Seriously? Why haven&amp;#39;t you figured out how to fix this yet?!&amp;#34; Lenny would spend an hour doing damage control, then disappear for a 90 minute lunch break.
+&lt;/p&gt;&lt;p&gt;
+One day, an email arrived informing everyone that Lenny was no longer with the company after exercising an obscure opt-out clause in his contract. Grady suddenly became the senior-most BI developer and inherited Lenny&amp;#39;s trash pile. Determined to find the cause of the errors, he dug into parts of the code Lenny strictly forbade him to enter. Hoping to find any semblance of logging that might help, he scoured for hours. 
+&lt;/p&gt;&lt;p&gt;
+Grady finally started seeing commands called &amp;#34;WritetoSkype&amp;#34;. It sounded absurd, but it almost seemed like Lenny was logging to a Skype channel during the ETL run. Grady created a Skype account and subscribed to LennysETLLogging. All he found there was a bunch of dancing penguin emoticons, written one at a time.
+&lt;/p&gt;&lt;p&gt;
+Grady scrolled and scrolled and scrolled some more as thousands of dancing penguins written during the day&amp;#39;s run performed for him. He finally reached the bottom and found an emoticon of a squirrel eating an acorn. Looking back at the code, WritetoSkype sent (dancingpenguin) when a step succeeded and (heidy) when a step failed. It was far from useful logging, but Grady now had a clear mission - Exterminate all the squirrels.
+&lt;/p&gt;&lt;div&gt;
+	&lt;img src="https://thedailywtf.com/images/inedo/otter-icon.png" style="display:block; float: left; margin: 0 10px 10px 0;"/&gt; [Advertisement] 
+	&lt;a href="https://inedo.com/otter?utm_source=tdwtf&amp;amp;utm_medium=Footerad&amp;amp;utm_term=2018&amp;amp;utm_content=Provision&amp;amp;utm_campaign=Otter_Footer"&gt;Otter&lt;/a&gt; - Provision your servers automatically without ever needing to log-in to a command prompt. &lt;a href="https://inedo.com/otter/download?utm_source=tdwtf&amp;amp;utm_medium=Footerad&amp;amp;utm_term=2018&amp;amp;utm_content=Provision&amp;amp;utm_campaign=Otter_Footer"&gt;Get started today!&lt;/a&gt; 
+&lt;/div&gt;
+&lt;div style="clear: left;"&gt; &lt;/div&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://syndication.thedailywtf.com/~ff/TheDailyWtf?a=vk2NONK9PL0:XHtyvAIJRFo:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TheDailyWtf?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/TheDailyWtf/~4/vk2NONK9PL0" height="1" width="1" alt=""/&gt;</description><slash:comments>24</slash:comments><wfw:comment>https://thedailywtf.com/articles/comments/this-process-is-nuts</wfw:comment></item><item><dc:creator>Remy Porter</dc:creator><title>CodeSOD: Some Kind of Magic</title><link>https://thedailywtf.com/articles/some-kind-of-magic</link><category>CodeSOD</category><pubDate>Mon, 29 Jul 2019 06:30:00 GMT</pubDate><guid>https://thedailywtf.com/articles/some-kind-of-magic</guid><description>&lt;p&gt;We all have our little bits of sloppiness and our bad habits. Most of us have more than one. One place I&amp;#39;m likely to get lazy, especially as I&amp;#39;m feeling my way around a problem, is with magic numbers. I always mean to go back and replace them with a constant, but sometimes there&amp;#39;s another fire you need to put out and you just don&amp;#39;t get back to it till somebody calls it out in a code review.&lt;/p&gt;
+&lt;p&gt;Then, of course, there are the folks who go too far. I once got a note complaining that I shouldn&amp;#39;t have used &lt;code&gt;2*PI&lt;/code&gt;, but instead should have created a new constant, &lt;code&gt;TAU&lt;/code&gt;. I disavow the need for tau, but my critic said magic numbers, like two, were disallowed, so I said &amp;#34;ciao&amp;#34; and tau is there now. &lt;!-- No, I'm not going to apologize --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Angela A&lt;/strong&gt;, who&amp;#39;s &lt;a href="https://thedailywtf.com/articles/what-you-don-t-see"&gt;had some experience with bad constants before&lt;/a&gt;, has found a new one.&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-cplusplus"&gt;&lt;div&gt;// Decimal constant for value of 1
+static constant float THIRTY = 30.0f;
+&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The decimal constant for the value of 1 is THIRTY.&lt;/p&gt;
+&lt;!-- Easy Reader Version: It's the comment which makes this great --&gt;
+&lt;link rel="stylesheet" href="//thedailywtf.com/images/highlight/styles/github.css"/&gt;
+&lt;script src="//thedailywtf.com/images/highlight/highlight.pack.js"&gt;&lt;/script&gt;
+&lt;script&gt;hljs.initHighlightingOnLoad();&lt;/script&gt;&lt;div&gt;
+	&lt;img src="https://thedailywtf.com/images/footer/raygun50.png" style="display:block; float: left; margin: 0 10px 10px 0;"/&gt; [Advertisement] 
+	Forget logs. Next time you&amp;#39;re struggling to replicate error, crash and performance issues in your apps - Think &lt;a href="https://raygun.com/landing?utm_source=tdwtf&amp;amp;utm_medium=sponsored&amp;amp;utm_campaign=text-link"&gt;Raygun&lt;/a&gt;! Installs in minutes. &lt;a href="https://raygun.com/landing?utm_source=tdwtf&amp;amp;utm_medium=sponsored&amp;amp;utm_campaign=text-link"&gt;Learn more.&lt;/a&gt;
+&lt;/div&gt;
+&lt;div style="clear: left;"&gt; &lt;/div&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://syndication.thedailywtf.com/~ff/TheDailyWtf?a=WuOa4ors5jg:Z5mVmT57Qvw:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TheDailyWtf?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/TheDailyWtf/~4/WuOa4ors5jg" height="1" width="1" alt=""/&gt;</description><slash:comments>36</slash:comments><wfw:comment>https://thedailywtf.com/articles/comments/some-kind-of-magic</wfw:comment></item><item><dc:creator>Mark Bowytz</dc:creator><title>Error'd: Nice Day for Golf (in Hades)</title><link>https://thedailywtf.com/articles/nice-day-for-golf-in-hades</link><category>Error'd</category><pubDate>Fri, 26 Jul 2019 06:30:00 GMT</pubDate><guid>https://thedailywtf.com/articles/nice-day-for-golf-in-hades</guid><description>&lt;p&gt;&amp;#34;A coworker was looking up what the weather was going to be like for his tee time. He said he’s definitely wearing shorts,&amp;#34; writes &lt;strong&gt;Angela A.&lt;/strong&gt;
+&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;a href="#Pic-3"&gt;&lt;img itemprop="image" border="0" alt="" src="//thedailywtf.com/images/19/q3/e373/Pic-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&amp;#34;I guess whenever a company lists welding in their LinkedIn job posting you know that they&amp;#39;re REEAALLY serious about computer hardware,&amp;#34; &lt;strong&gt;Andrew I.&lt;/strong&gt; writes.
+&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;a href="#Pic-1"&gt;&lt;img border="0" alt="" src="//thedailywtf.com/images/19/q3/e373/Pic-1.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Chris A.&lt;/strong&gt; wrote, &amp;#34;It was game, set, and match, but unfortunately, someone struck out.&amp;#34;
+&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;a href="#Pic-2"&gt;&lt;img border="0" alt="" src="//thedailywtf.com/images/19/q3/e373/Pic-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Bruce C.&lt;/strong&gt; writes, &amp;#34;I&amp;#39;m not surprised that NULL is missing some deals....that &lt;i&gt;File Not Found&lt;/i&gt; person must be getting it all.&amp;#34;
+&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;a href="#Pic-4"&gt;&lt;img border="0" alt="" src="//thedailywtf.com/images/19/q3/e373/Pic-4.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&amp;#34;Learning to use Docker with the &amp;#39;Get Started&amp;#39; tutorials and had to wonder...is there some theme here?&amp;#34; &lt;strong&gt;Dave E.&lt;/strong&gt; wondered.
+&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;a href="#Pic-5"&gt;&lt;img border="0" alt="" src="//thedailywtf.com/images/19/q3/e373/Pic-5.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&amp;#34;Ever type up an email and hit &amp;#39;send&amp;#39; too early? Well...here&amp;#39;s an example,&amp;#34; writes &lt;strong&gt;Charlie&lt;/strong&gt;.
+&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;a href="#Pic-6"&gt;&lt;img border="0" alt="" src="//thedailywtf.com/images/19/q3/e373/Pic-6.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;/blockquote&gt;
+&lt;div&gt;
+	&lt;img src="https://thedailywtf.com/images/inedo/proget-icon.png" style="display:block; float: left; margin: 0 10px 10px 0;"/&gt; [Advertisement] 
+	Ensure your software is built only once and then deployed consistently across environments, by packaging your applications and components. &lt;a href="https://inedo.com/proget?utm_source=tdwtf&amp;amp;utm_medium=footerad&amp;amp;utm_term=2018&amp;amp;utm_content=Consistently&amp;amp;utm_campaign=ProGet_Footer"&gt;Learn how&lt;/a&gt; today!
+&lt;/div&gt;
+&lt;div style="clear: left;"&gt; &lt;/div&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://syndication.thedailywtf.com/~ff/TheDailyWtf?a=632kMhhKKGM:DeC8Y61H_CQ:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TheDailyWtf?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/TheDailyWtf/~4/632kMhhKKGM" height="1" width="1" alt=""/&gt;</description><slash:comments>7</slash:comments><wfw:comment>https://thedailywtf.com/articles/comments/nice-day-for-golf-in-hades</wfw:comment></item><item><dc:creator>Remy Porter</dc:creator><title>CodeSOD: Null Thought</title><link>https://thedailywtf.com/articles/null-thought</link><category>CodeSOD</category><pubDate>Thu, 25 Jul 2019 06:30:00 GMT</pubDate><guid>https://thedailywtf.com/articles/null-thought</guid><description>&lt;p&gt;These days, it almost seems like most of the developers writing code for the Java Virtual Machine aren’t doing it in Java. It’s honestly an interesting thing for programming language development, as more and more folks put together languages with fundamentally different principles from Java that still work on the JVM.&lt;/p&gt;
+
+&lt;p&gt;Like Kotlin. Kotlin blends functional programming styles with object-oriented principles and syntactic features built around writing more compact, concise code than equivalent Java. And it’s not even limited to Java- it can compile down into JavaScript or even target LLVM.&lt;/p&gt;
+
+&lt;p&gt;And since you can write bad code in any language, you can write bad code in Kotlin. &lt;strong&gt;Keith&lt;/strong&gt; inherited a Kotlin-developed Android app.&lt;/p&gt;
+
+&lt;p&gt;In Kotlin, if you wanted to execute some code specifically if a previous step failed, you might use a try/catch exception handler. It’s built into Kotlin. But maybe you want to do some sort of error handling in your pipeline of function calls. So maybe you want something which looks more like:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="kotlin"&gt;response.code
+    .wasSuccess()
+    .takeIf { false }
+    ?.run { doErrorThing(it) } &lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;code&gt;wasSuccess&lt;/code&gt; in this example returns a boolean. The &lt;code&gt;takeIf&lt;/code&gt; checks to see if the return value was &lt;code&gt;false&lt;/code&gt;- if it wasn’t, the &lt;code&gt;takeIf&lt;/code&gt; returns a null, and the &lt;code&gt;run&lt;/code&gt; call doesn’t execute (the question mark is our nullable operator).&lt;/p&gt;
+
+&lt;p&gt;Kotlin has a weird relationship with nulls, and unless you’re explicit about where you expect nulls, it is going to complain at you. Which is why Keith got annoyed at this block:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="kotlin"&gt;/**
+     * Handles error and returns NULL if an error was found, true if everything was good
+     */
+    inline fun Int.wasSuccessOrNull() : Boolean? {
+        return if (handleConnectionErrors(this))
+            null
+        else
+            true
+    }
+    /**
+     * Return true if any connection issues were found, false if everything okay
+     */
+    fun handleConnectionErrors(errorCode: Int) : Boolean {
+        return when (errorCode)
+        {
+            Error.EXPIRED_TOKEN -&amp;gt; { requiresSignIn.value = true;  true}
+            Error.NO_CONNECTION -&amp;gt; { connectionIssue.value = true; true}
+            Error.INACTIVE_ACCOUNT -&amp;gt; { inactiveAccountIssue.value = true; true}
+            Error.BAD_GATEWAY -&amp;gt; { badGatewayIssue.value = true;  true}
+            Error.SERVICE_UNAVAILABLE -&amp;gt; { badGatewayIssue.value = true;  true}
+            else -&amp;gt; {
+                if (badGatewayIssue.value == true) {
+                    badGatewayIssue.value = false
+                }
+                noErrors.value = true
+                false
+            }
+        }
+    }&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;code&gt;wasSuccessOrNull&lt;/code&gt; returns true, if the status code is successful, otherwise it returns… null? Why a &lt;em&gt;null&lt;/em&gt;? Just so that a nullable &lt;code&gt;?.run…&lt;/code&gt; call can be used? It’s a weird choice. If we’re just going to return non-true/false values from our boolean methods, there &lt;a href="https://thedailywtf.com/articles/What_Is_Truth_0x3f_"&gt;are other options&lt;/a&gt; we could use.&lt;/p&gt;
+
+&lt;p&gt;But honestly, &lt;code&gt;handleConnectionErrors&lt;/code&gt;, which it calls, is even more worrisome. If an error &lt;em&gt;did&lt;/em&gt; occur, this causes a side effect. Each error condition sets a variable outside of the scope of this function. Presumably these are class members, but who knows? It could just as easily be globals.&lt;/p&gt;
+
+&lt;p&gt;If the error code &lt;em&gt;isn’t&lt;/em&gt; an error, we explicitly clear the &lt;code&gt;badGatewayIssue&lt;/code&gt;, but we don’t clear any of the other errors. Presumably that does &lt;em&gt;happen&lt;/em&gt;, somewhere, but again, who knows? This is the kind of code where trying to guess at what works and what doesn’t is a bad idea.&lt;/p&gt;
+&lt;!-- Easy Reader Version: I honestly sat on this for a long time because I don't know Kotlin, but seriously, true or null? --&gt;
+&lt;link rel="stylesheet" href="//thedailywtf.com/images/highlight/styles/github.css"/&gt;
+&lt;script src="//thedailywtf.com/images/highlight/highlight.pack.js"&gt;&lt;/script&gt;
+&lt;script&gt;hljs.initHighlightingOnLoad();&lt;/script&gt;
+&lt;div&gt;
+	&lt;img src="https://thedailywtf.com/images/footer/raygun50.png" style="display:block; float: left; margin: 0 10px 10px 0;"/&gt; [Advertisement] 
+	Forget logs. Next time you&amp;#39;re struggling to replicate error, crash and performance issues in your apps - Think &lt;a href="https://raygun.com/landing?utm_source=tdwtf&amp;amp;utm_medium=sponsored&amp;amp;utm_campaign=text-link"&gt;Raygun&lt;/a&gt;! Installs in minutes. &lt;a href="https://raygun.com/landing?utm_source=tdwtf&amp;amp;utm_medium=sponsored&amp;amp;utm_campaign=text-link"&gt;Learn more.&lt;/a&gt;
+&lt;/div&gt;
+&lt;div style="clear: left;"&gt; &lt;/div&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://syndication.thedailywtf.com/~ff/TheDailyWtf?a=FRY0n3k2grg:AHVACOkT4tQ:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TheDailyWtf?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/TheDailyWtf/~4/FRY0n3k2grg" height="1" width="1" alt=""/&gt;</description><slash:comments>15</slash:comments><wfw:comment>https://thedailywtf.com/articles/comments/null-thought</wfw:comment></item><item><dc:creator>Remy Porter</dc:creator><title>CodeSOD: A Long Conversion</title><link>https://thedailywtf.com/articles/a-long-conversion</link><category>CodeSOD</category><pubDate>Wed, 24 Jul 2019 06:30:00 GMT</pubDate><guid>https://thedailywtf.com/articles/a-long-conversion</guid><description>&lt;p&gt;Let’s talk a little bit about .NET’s &lt;code&gt;TryParse&lt;/code&gt; method. Many types, especially the built in numerics, support it, alongside a &lt;code&gt;Parse&lt;/code&gt;. The key difference between &lt;code&gt;Parse&lt;/code&gt; and &lt;code&gt;TryParse&lt;/code&gt; is that &lt;code&gt;TryParse&lt;/code&gt; bakes the exception handling logic in it. Instead of using exceptions to tell you if it can parse or not, it returns a boolean value, instead.&lt;/p&gt;
+
+&lt;p&gt;If, for example, you wanted to take an input, and either store it as an integer in a database, or store a null, you might do something like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="csharp"&gt;int result;
+if (int.TryParse(data, out result)) {
+  rowData[column] = result;
+} else {
+  rowData[column] = DBNull.Value;
+}&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;There are certainly better, cleaner ways to handle this. &lt;strong&gt;Russell F.&lt;/strong&gt; has a co-worker that has a much uglier way to handle this.&lt;/p&gt;
+&lt;pre&gt;&lt;code class="csharp"&gt;private void BuildIntColumns(string data, DataRow rowData, int startIndex, int length, string columnName, FileInfo file, string tableName)
+{
+    if (data.Trim().Length &amp;gt; startIndex)
+    {
+        try
+        {
+            int resultOut;
+
+            if (data.Substring(startIndex, length).Trim() == &amp;#34;&amp;#34; || string.IsNullOrEmpty(data.Substring(startIndex, length).Trim()))
+            {
+                rowData[columnName] = DBNull.Value;
+            }
+            else if (int.TryParse(data.Substring(startIndex, length).Trim(), out resultOut) == false)
+            {
+                rowData[columnName] = DBNull.Value;
+            }
+            else
+            {
+                rowData[columnName] = Convert.ToInt32(data.Substring(startIndex, length).Trim());
+            }
+        }
+        catch (Exception e)
+        {
+            rowData[columnName] = DBNull.Value;
+            SaveErrorData(file, data, e.Message, tableName);
+        }
+    }
+}
+
+private void BuildLongColumns(string data, DataRow rowData, int startIndex, int length, string columnName, FileInfo file, string tableName)
+{
+    if (data.Trim().Length &amp;gt; startIndex)
+    {
+        try
+        {
+            int resultOut;
+
+            if (data.Substring(startIndex, length).Trim() == &amp;#34;&amp;#34; || string.IsNullOrEmpty(data.Substring(startIndex, length).Trim()))
+            {
+                rowData[columnName] = DBNull.Value;
+            }
+            else if (int.TryParse(data.Substring(startIndex, length).Trim(), out resultOut) == false)
+            {
+                rowData[columnName] = DBNull.Value;
+            }
+            else
+            {
+                rowData[columnName] = Convert.ToInt64(data.Substring(startIndex, length).Trim());
+            }
+        }
+        catch (Exception e)
+        {
+            rowData[columnName] = DBNull.Value;
+            SaveErrorData(file, data, e.Message, tableName);
+        }
+    }
+}&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Here’s a case where the developer knows that methods like &lt;code&gt;int.TryParse&lt;/code&gt; and &lt;code&gt;string.IsNullOrEmpty&lt;/code&gt; exist, but they don’t &lt;em&gt;understand&lt;/em&gt; them. More worrying, every operation has to be on a &lt;code&gt;Substring&lt;/code&gt; for some reason, which implies that they’re processing strings which contain multiple fields of data. Presumably that means there’s a mainframe with fixed-width records someplace in the backend, but certainly splitting while converting falls is a bad practice.&lt;/p&gt;
+
+&lt;p&gt;For bonus points, compare the &lt;code&gt;BuildIntColumns&lt;/code&gt; with &lt;code&gt;BuildLongColumns&lt;/code&gt;. There’s an extremely subtle bug in the &lt;code&gt;BuildLongColumns&lt;/code&gt;- specifically, they still do an &lt;code&gt;int.TryParse&lt;/code&gt;, but this isn’t an &lt;code&gt;int&lt;/code&gt;, it’s a &lt;code&gt;long&lt;/code&gt;. If you actually tried to feed it a long integer, it would consider it invalid.&lt;/p&gt;
+
+&lt;p&gt;Russell adds: “I found this in an old file – no clue who wrote it or how it came to exist (I guess I could go through the commit logs, but that sounds like a lot of work).”&lt;/p&gt;
+&lt;!-- Easy Reader Version: No matter how simple a framework makes data conversions, a developer will make it much, much harder. --&gt;
+&lt;link rel="stylesheet" href="//thedailywtf.com/images/highlight/styles/github.css"/&gt;
+&lt;script src="//thedailywtf.com/images/highlight/highlight.pack.js"&gt;&lt;/script&gt;
+&lt;script&gt;hljs.initHighlightingOnLoad();&lt;/script&gt;
+&lt;div&gt;
+	&lt;img src="https://thedailywtf.com/images/footer/raygun50.png" style="display:block; float: left; margin: 0 10px 10px 0;"/&gt; [Advertisement] 
+	Forget logs. Next time you&amp;#39;re struggling to replicate error, crash and performance issues in your apps - Think &lt;a href="https://raygun.com/landing?utm_source=tdwtf&amp;amp;utm_medium=sponsored&amp;amp;utm_campaign=text-link"&gt;Raygun&lt;/a&gt;! Installs in minutes. &lt;a href="https://raygun.com/landing?utm_source=tdwtf&amp;amp;utm_medium=sponsored&amp;amp;utm_campaign=text-link"&gt;Learn more.&lt;/a&gt;
+&lt;/div&gt;
+&lt;div style="clear: left;"&gt; &lt;/div&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://syndication.thedailywtf.com/~ff/TheDailyWtf?a=BYqXJUeC_VA:PdArhcum5gs:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TheDailyWtf?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/TheDailyWtf/~4/BYqXJUeC_VA" height="1" width="1" alt=""/&gt;</description><slash:comments>18</slash:comments><wfw:comment>https://thedailywtf.com/articles/comments/a-long-conversion</wfw:comment></item><item><dc:creator>Remy Porter</dc:creator><title>CodeSOD: Break my Validation</title><link>https://thedailywtf.com/articles/break-my-validation</link><category>CodeSOD</category><pubDate>Tue, 23 Jul 2019 06:30:00 GMT</pubDate><guid>https://thedailywtf.com/articles/break-my-validation</guid><description>&lt;p&gt;&lt;strong&gt;Linda&lt;/strong&gt; inherited an inner-platform front-end framework. It was the kind of UI framework with an average file size of 1,000 lines of code, and an average test coverage of 0%.&lt;/p&gt;
+
+&lt;p&gt;Like most UI frameworks, it had a system for doing client side validation. Like most inner-platform UI frameworks, the validation system was fragile, confusing, and impossible to understand.&lt;/p&gt;
+
+&lt;p&gt;This code illustrates some of the problems:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="javascript"&gt;/**
+ * Modify a validator key, e.g change minValue or disable required
+ *
+ * @param fieldName
+ * @param validatorKey - of the specific validator
+ * @param key - the key to change
+ * @param value - the value to set
+ */
+modifyValidatorValue: function (fieldName, validatorKey, key, value) {
+
+	if (!helper.isNullOrUndefined(fieldName)) {
+		// Iterate over fields
+		for (var i in this.fields) {
+			if (this.fields.hasOwnProperty(i)) {
+				var field = this.fields[i];
+				if (field.name === fieldName) {
+					if (!helper.isNullOrUndefined(validatorKey)) {
+						if (field.hasOwnProperty(&amp;#39;validators&amp;#39;)) {
+							// Iterate over validators
+							for (var j in field.validators) {
+								if (field.validators.hasOwnProperty(j)) {
+									var validator = field.validators[j];
+									if (validator.key === validatorKey) {
+										if (!helper.isNullOrUndefined(key) &amp;amp;&amp;amp; !helper.isNullOrUndefined(value)) {
+											if (validator.hasOwnProperty(key)) {
+												validator[key] = value;
+											}
+										}
+										break;
+									}
+								}
+							}
+						}
+					}
+					break;
+				}
+			}
+		}
+	}
+
+}&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;What this code needs to do is find the &lt;em&gt;field&lt;/em&gt; for a given name, check the list of &lt;em&gt;validators&lt;/em&gt; for that field, and update a value on that validator.&lt;/p&gt;
+
+&lt;p&gt;Normally, in JavaScript, you’d do this by using an object/dictionary and accessing things directly by their keys. This, instead, iterates across all the fields on the object and all the validators on that field.&lt;/p&gt;
+
+&lt;p&gt;It’s smart code, though, as the developer knew that once they found the fields in question, they could exit the loops, so they added a few &lt;code&gt;break&lt;/code&gt;s to exit. I think those &lt;code&gt;break&lt;/code&gt;s are in the right place. To be sure, I’d need to count curly braces, and I’m worried that I don’t have enough fingers and toes to count them all in this case.&lt;/p&gt;
+
+&lt;p&gt;According to the git log, this code was added in exactly this form, and hasn’t been touched since.&lt;/p&gt;
+&lt;!-- Easy Reader Version: I need some validation --&gt;
+&lt;link rel="stylesheet" href="//thedailywtf.com/images/highlight/styles/github.css"/&gt;
+&lt;script src="//thedailywtf.com/images/highlight/highlight.pack.js"&gt;&lt;/script&gt;
+&lt;script&gt;hljs.initHighlightingOnLoad();&lt;/script&gt;
+&lt;div&gt;
+	&lt;img src="https://thedailywtf.com/images/inedo/buildmaster-icon.png" style="display:block; float: left; margin: 0 10px 10px 0;"/&gt; [Advertisement] 
+	&lt;a href="https://inedo.com/BuildMaster?utm_source=tdwtf&amp;amp;utm_medium=footerad&amp;amp;utm_term=2018&amp;amp;utm_content=Confidence&amp;amp;utm_campaign=Buildmaster_Footer"&gt;Utilize BuildMaster&lt;/a&gt; to release your software with confidence, at the pace your business demands. &lt;a href="https://inedo.com/BuildMaster/download?utm_source=tdwtf&amp;amp;utm_medium=footerad&amp;amp;utm_term=2018&amp;amp;utm_content=Confidence&amp;amp;utm_campaign=Buildmaster_Footer"&gt;Download&lt;/a&gt; today!  
+&lt;/div&gt;
+&lt;div style="clear: left;"&gt; &lt;/div&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://syndication.thedailywtf.com/~ff/TheDailyWtf?a=LJnbKH3ANy0:oyHwCM4-pvo:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TheDailyWtf?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/TheDailyWtf/~4/LJnbKH3ANy0" height="1" width="1" alt=""/&gt;</description><slash:comments>21</slash:comments><wfw:comment>https://thedailywtf.com/articles/comments/break-my-validation</wfw:comment></item><item><dc:creator>Jane Bailey</dc:creator><title>An Indispensible Guru</title><link>https://thedailywtf.com/articles/an-indispensible-guru</link><category>Feature Articles</category><pubDate>Mon, 22 Jul 2019 06:30:00 GMT</pubDate><guid>https://thedailywtf.com/articles/an-indispensible-guru</guid><description>&lt;p style="float:right; padding-left:10px; padding-bottom:10px;"&gt;&lt;a title="Smallbones [CC0], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Simple_budgeting_spreadsheet_eg.jpg"&gt;&lt;img itemprop="image" width="300" alt="Simple budgeting spreadsheet eg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Simple_budgeting_spreadsheet_eg.jpg/512px-Simple_budgeting_spreadsheet_eg.jpg"/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Business Intelligence&lt;/b&gt; is the oxymoron that makes modern capitalism possible. In order for a company the size of a Fortune 500 to operate, key people have to know key numbers: how the finances are doing, what sales looks like, whether they&amp;#39;re trending on target to meet their business goals or above or below that mystical number.&lt;/p&gt;
+
+&lt;p&gt;Once upon a time, Initech had a single person in charge of their Business Intelligence reports. When that person left for greener pastures, the company had a problem. They had no idea how he&amp;#39;d done what he did, just that he&amp;#39;d gotten numbers to people who&amp;#39;d needed them on time every month. There was no documentation about how he&amp;#39;d generated the numbers, nothing to pass on to his successor. They were entirely in the dark.&lt;/p&gt;
+
+&lt;p&gt;Recognizing the weakness of having a single point of failure, they set up a small team to create and manage the BI reporting duties and to provide continuity in the event that somebody else were to leave. This new team consisted of four people: Charles, a senior engineer; Liam, his junior sidekick; and two business folks who could provide context around what numbers were needed where and when.&lt;/p&gt;
+
+&lt;p&gt;Charles knew Excel. Intimately. Charles could make Excel do frankly astonishing things. Our submitter has worked in IT for three decades, and yet has never seen the like: spreadsheets so chock-full with array formulae, vlookups, hlookups, database functions, macros, and all manner of cascading sheets that they were virtually unreadable. Granted, Charles also had Microsoft Access. However, to Charles, the only thing Access was useful for was the initial downloading of all the raw data from the IBM AS/400 mainframe. Everything else was done in Excel.&lt;/p&gt;
+
+&lt;p&gt;Nobody doubted the accuracy of Charles&amp;#39; reports. However, actually &lt;i&gt;running&lt;/i&gt; a report involved getting Excel primed and ready to go, hitting the &amp;#34;manual recalculate&amp;#34; button, then sitting back and waiting 45 minutes for the various formulae and macros to do all the things they did. On a good day, Charles could run five, maybe six reports. On a bad day? Three, at best.&lt;/p&gt;
+
+&lt;p&gt;By contrast, Liam was very much the &amp;#34;junior&amp;#34; role. He was younger, and did not have the experience that Charles did. That said, Liam was a smart cookie. He took one look at the spreadsheet monstrosity and knew it was a sledgehammer to crack a walnut. Unfortunately, he was the junior member of the engineering half of the team. His objections were taken as evidence of his inexperience, not his intelligence, and his suggestions were generally overlooked.&lt;/p&gt;
+
+&lt;p&gt;Eventually, Charles also left for bigger and brighter things, and Liam inherited all of his reports. Almost before the door had stopped swinging, Liam solicited our submitter&amp;#39;s assistance in recreating just one of Charles&amp;#39; reports in Access. This took a combined four days; it mostly consisted of the submitter asking &amp;#34;So, Sheet 1, cell A1 ... where does &lt;i&gt;that&lt;/i&gt; number come from?&amp;#34;, and Liam pointing out the six other sheets they needed to pivot, fold, spindle, and mutilate in order to calculate the number.  &amp;#34;Right, so, Sheet 1, cell A&lt;i&gt;2&lt;/i&gt; ... where does &lt;i&gt;that&lt;/i&gt; one come from?&amp;#34; ...&lt;/p&gt;
+
+&lt;p&gt;Finally, it was done, and the replacement was ready to test. They agreed to run the existing report alongside the new one, so they could determine that the new reports were producing the same output as the old ones. Liam pressed &amp;#34;manual recalculate&amp;#34; while our submitter did the honors of running the new Access report. Thirty seconds later, the Access report gave up and spat out numbers.&lt;/p&gt;
+
+&lt;p&gt;&amp;#34;Damn,&amp;#34; our submitter muttered. &amp;#34;Something&amp;#39;s wrong, it must have died or aborted or something.&amp;#34;&lt;/p&gt;
+
+&lt;p&gt;&amp;#34;I dunno,&amp;#34; replied Liam, &amp;#34;those numbers do look kinda right.&amp;#34;&lt;/p&gt;
+
+&lt;p&gt;Forty minutes later, when Excel finally finished running its version, lo and behold the outputs were identical. The new report was simply three orders of magnitude faster than the old one. &lt;/p&gt;
+
+&lt;p&gt;Enthused by this success, they not only converted all the other reports to run in Access, but also expanded them to run Region- and Area- level variants, essentially running the report about 54 times in the same time it took the original report to run once. They also set up an automatic distribution process so that the reports were emailed out to the appropriate department heads and sales managers.  Management was happy; business was happy; developers were happy.&lt;/p&gt;
+
+&lt;p&gt;&amp;#34;Why didn&amp;#39;t we do this sooner?&amp;#34; was the constant refrain from all involved.&lt;/p&gt;
+
+&lt;p&gt;Liam was able to give our submitter the real skinny: &amp;#34;Charles used the long run times to prove how complex the reports were, and therefore, how irreplaceable he was. &amp;#39;Job security,&amp;#39; he used to call it.&amp;#34;&lt;/p&gt;
+
+&lt;p&gt;To this day, Charles&amp;#39; LinkedIn profile shows that he was basically running Initech. Liam&amp;#39;s has a little more humility about the whole matter. Which just goes to show you shouldn&amp;#39;t undersell your achievements in your resume. On paper, Charles still looks like a genius who single-handedly solved all the BI issues in the whole company.&lt;/p&gt;&lt;div&gt;
+	&lt;img src="https://thedailywtf.com/images/footer/raygun50.png" style="display:block; float: left; margin: 0 10px 10px 0;"/&gt; [Advertisement] 
+	Forget logs. Next time you&amp;#39;re struggling to replicate error, crash and performance issues in your apps - Think &lt;a href="https://raygun.com/landing?utm_source=tdwtf&amp;amp;utm_medium=sponsored&amp;amp;utm_campaign=text-link"&gt;Raygun&lt;/a&gt;! Installs in minutes. &lt;a href="https://raygun.com/landing?utm_source=tdwtf&amp;amp;utm_medium=sponsored&amp;amp;utm_campaign=text-link"&gt;Learn more.&lt;/a&gt;
+&lt;/div&gt;
+&lt;div style="clear: left;"&gt; &lt;/div&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://syndication.thedailywtf.com/~ff/TheDailyWtf?a=B_kGzXcA9nA:V6UcU6M09I8:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TheDailyWtf?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/TheDailyWtf/~4/B_kGzXcA9nA" height="1" width="1" alt=""/&gt;</description><slash:comments>33</slash:comments><wfw:comment>https://thedailywtf.com/articles/comments/an-indispensible-guru</wfw:comment></item><item><dc:creator>Mark Bowytz</dc:creator><title>Error'd: The Parameter was NOT Set</title><link>https://thedailywtf.com/articles/the-parameter-was-not-set</link><category>Error'd</category><pubDate>Fri, 19 Jul 2019 06:30:00 GMT</pubDate><guid>https://thedailywtf.com/articles/the-parameter-was-not-set</guid><description>&lt;p&gt;&amp;#34;Spotted this in front of a retro-looking record player in an Italian tech shop. I don&amp;#39;t think anybody had any idea how to categorize it so they just left it up to the system,&amp;#34; &lt;strong&gt;Marco D.&lt;/strong&gt; writes.
+&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;a href="#Pic-1"&gt;&lt;img itemprop="image" border="0" alt="" src="//thedailywtf.com/images/19/q3/e372/Pic-1.jpg"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;George C.&lt;/strong&gt; wrote, &amp;#34;Never thought it would come to this, but it looks like LinkedIn can&amp;#39;t keep up with all of my connections!&amp;#34;
+&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;a href="#Pic-2"&gt;&lt;img border="0" alt="" src="//thedailywtf.com/images/19/q3/e372/Pic-2.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&amp;#34;Apparently opening a particular SharePoint link using anything else other than Internet Explorer made Excel absolutely lose its mind,&amp;#34; wrote &lt;strong&gt;Arno P.&lt;/strong&gt;
+&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;a href="#Pic-3"&gt;&lt;img border="0" alt="" src="//thedailywtf.com/images/19/q3/e372/Pic-3.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Dima R.&lt;/strong&gt; writes, &amp;#34;OH! My bad, Edge, I only tried to access a file:// URL while I was offline.&amp;#34;
+&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;a href="#Pic-4"&gt;&lt;img border="0" alt="" src="//thedailywtf.com/images/19/q3/e372/Pic-4.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&amp;#34;This display at the Vancouver airport doesn&amp;#39;t have a lot of fans,&amp;#34; &lt;strong&gt;Bruce R.&lt;/strong&gt; wrote.
+&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;a href="#Pic-5"&gt;&lt;img border="0" alt="" src="//thedailywtf.com/images/19/q3/e372/Pic-5.jpg"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&amp;#34;Woo hoo! This is what I&amp;#39;m talking about! A septillion percentage gain!!&amp;#34; &lt;strong&gt;John G.&lt;/strong&gt; writes.
+&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;a href="#Pic-6"&gt;&lt;img border="0" alt="" src="//thedailywtf.com/images/19/q3/e372/Pic-6.png"/&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt; &lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;div&gt;
+	&lt;img src="https://thedailywtf.com/images/inedo/proget-icon.png" style="display:block; float: left; margin: 0 10px 10px 0;"/&gt; [Advertisement] 
+	&lt;a href="https://inedo.com/proget?utm_source=tdwtf&amp;amp;utm_medium=footerad&amp;amp;utm_term=2018&amp;amp;utm_content=Docker&amp;amp;utm_campaign=ProGet_Footer"&gt;ProGet&lt;/a&gt; supports your applications, Docker containers, and third-party packages, allowing you to enforce quality standards across all components. &lt;a href="https://inedo.com/proget/download?utm_source=tdwtf&amp;amp;utm_medium=footerad&amp;amp;utm_term=2018&amp;amp;utm_content=Docker&amp;amp;utm_campaign=ProGet_Footer"&gt;Download&lt;/a&gt; and see how!
+&lt;/div&gt;
+&lt;div style="clear: left;"&gt; &lt;/div&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://syndication.thedailywtf.com/~ff/TheDailyWtf?a=Y8QA-kLF-Hc:P_BgKWnO5mU:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TheDailyWtf?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/TheDailyWtf/~4/Y8QA-kLF-Hc" height="1" width="1" alt=""/&gt;</description><slash:comments>15</slash:comments><wfw:comment>https://thedailywtf.com/articles/comments/the-parameter-was-not-set</wfw:comment></item><item><dc:creator>Ellis Morning</dc:creator><title>The Hardware Virus</title><link>https://thedailywtf.com/articles/the-hardware-virus</link><category>Feature Articles</category><pubDate>Thu, 18 Jul 2019 06:30:00 GMT</pubDate><guid>https://thedailywtf.com/articles/the-hardware-virus</guid><description>&lt;p style="float:right; padding-left:10px; padding-bottom:10px;"&gt;&lt;a title="Evan-Amos [Public domain], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Dvi-cable.jpg"&gt;&lt;img itemprop="image" width="300" alt="Dvi-cable" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Dvi-cable.jpg/512px-Dvi-cable.jpg"/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Jen&lt;/b&gt; was a few weeks into her new helpdesk job. Unlike past jobs, she started getting her own support tickets quickly—but a more veteran employee, Stanley, had been tasked with showing her the ropes. He also got notification of Jen&amp;#39;s tickets, and they worked on them together. A new ticket had just come in, asking for someone to replace the DVI cable that&amp;#39;d gone missing from Conference Room 3. Such cables were the means by which coworkers connected their laptops to projectors for presentations.&lt;/p&gt;
+
+&lt;p&gt;Easy enough. Jen left her cube to head for the hardware &amp;#34;closet&amp;#34;—really, more of a room crammed full of cables, peripherals, and computer parts. On a dusty shelf in a remote corner, she spotted what she was looking for. The coiled cable was a bit grimy with age, but looked serviceable. She picked it up and headed to Stanley&amp;#39;s cube, leaning against the threshold when she got there.&lt;/p&gt;
+
+&lt;p&gt;&amp;#34;That ticket that just came in? I found the cable they want. I&amp;#39;ll go walk it down.&amp;#34; Jen held it up and waggled it.&lt;/p&gt;
+
+&lt;p&gt;Stanley was seated, facing away from her at first. He swiveled to face her, eyed the cable, then went pale. &amp;#34;Where did you find that?&amp;#34;&lt;/p&gt;
+
+&lt;p&gt;&amp;#34;In the closet. What, is it—?&amp;#34;&lt;/p&gt;
+
+&lt;p&gt;&amp;#34;I thought they&amp;#39;d been purged.&amp;#34; Stanley beckoned her forward. &amp;#34;Get in here!&amp;#34;&lt;/p&gt;
+
+&lt;p&gt;Jen inched deeper into the cube. As soon as he could reach it, Stanley snatched the cable out of her hand, threw it into the trash can sitting on the floor beside him, and dumped out his full mug of coffee on it for good measure.&lt;/p&gt;
+
+&lt;p&gt;&amp;#34;What the hell are you doing?&amp;#34; Jen blurted.&lt;/p&gt;
+
+&lt;p&gt;Stanley looked up at her desperately. &amp;#34;Have you used it already?&amp;#34;&lt;/p&gt;
+
+&lt;p&gt;&amp;#34;Uh, no?&amp;#34;&lt;/p&gt;
+
+&lt;p&gt;&amp;#34;Thank the gods!&amp;#34; He collapsed back in his swivel chair with relief, then feebly kicked at the trash can. The contents sloshed around inside, but the bin remained upright.&lt;/p&gt;
+
+&lt;p&gt;&amp;#34;What&amp;#39;s this about?&amp;#34; Jen demanded. &amp;#34;What&amp;#39;s wrong with the cable?&amp;#34;&lt;/p&gt;
+
+&lt;p&gt;Under the harsh office lighting, Stanley seemed to have aged thirty years. He motioned for Jen to take the empty chair across from his. Once she&amp;#39;d sat down, he continued nervously and quietly. &amp;#34;I don&amp;#39;t know if you&amp;#39;ll believe me. The powers-that-be would be angry if word were to spread. But, you&amp;#39;ve seen it. You very nearly fell victim to it. I &lt;i&gt;must&lt;/i&gt; relate the tale, no matter how vile.&amp;#34;&lt;/p&gt;
+
+&lt;p&gt;Jen frowned. &amp;#34;Of what?&amp;#34;&lt;/p&gt;
+
+&lt;p&gt;Stanley hesitated. &amp;#34;I need more coffee.&amp;#34;&lt;/p&gt;
+
+&lt;p&gt;He picked up his mug and walked out, literally leaving Jen at the edge of her seat. She managed to sit back, but her mind was restless, wondering just what had her mentor so upset.&lt;/p&gt;
+
+&lt;p&gt;Eventually, Stanley returned with a fresh mug of coffee. Once he&amp;#39;d returned to his chair, he placed the mug on his desk and seemed to forget all about it. With clear reluctance, he focused on Jen. &amp;#34;I don&amp;#39;t know where to start. The beginning, I suppose. It fell upon us from out of nowhere. Some say it&amp;#39;s the spawn of a Sales meeting; others blame a code review gone horribly wrong. In the end, it matters little. It came alive and spread like fire, leaving destruction and chaos in its wake.&amp;#34;&lt;/p&gt;
+
+&lt;p&gt;Jen&amp;#39;s heart thumped with apprehension. &amp;#34;What? What came alive?&amp;#34;&lt;/p&gt;
+
+&lt;p&gt;Stanley&amp;#39;s voice dropped to a whisper. &amp;#34;The hardware virus.&amp;#34;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;&amp;#34;Hardware&lt;/i&gt; virus?&amp;#34; Jen repeated, eyes wide.&lt;/p&gt;
+
+&lt;p&gt;Stanley glared. &amp;#34;You&amp;#39;re going to tell me there&amp;#39;s no such thing, but I tell you, I&amp;#39;ve seen it! The DVI cables ...&amp;#34;&lt;/p&gt;
+
+&lt;p&gt;He trailed off helplessly, reclining in his chair. When he straightened and resumed, his demeanor was calmer, but weary.&lt;/p&gt;
+
+&lt;p&gt;&amp;#34;At some godforsaken point in space and time, a single pin on one of our DVI cables was irrevocably bent. This was the source of the contagion,&amp;#34; he explained. &amp;#34;Whenever the cable was plugged into a laptop, it cracked the plastic composing the laptop&amp;#39;s DVI port, contorting it in a way that resisted all mortal attempt at repair. Any time another DVI cable was plugged into that laptop, its pin was bent in just the same way as with the original cable.&lt;/p&gt;
+
+&lt;p&gt;&amp;#34;That was how it spread. Cable infected laptop, laptop infected cable, all with vicious speed. There was no hope for the infected. We ... we were forced to round up and replace every single victim. I was knee-deep in the carnage, Jen. I see it in my nightmares. The waste, the despair, the endless reimaging!&amp;#34;&lt;/p&gt;
+
+&lt;p&gt;Stanley buried his head in his hands. It was a while before he raised his haunted gaze again. &amp;#34;I don&amp;#39;t know how long it took, but it ran its course; the support tickets stopped coming in. Our superiors consider the matter resolved ... but I&amp;#39;ve never been able to let my guard down.&amp;#34; He glanced warily at the trash can, then made eye contact with Jen. &amp;#34;Take no chances with any DVI cables you find within this building. Buy your own, and keep them with you at all times. If you see any more of &lt;i&gt;those&lt;/i&gt;—&amp;#34; he pointed an accusing finger at the bin &amp;#34;—don&amp;#39;t go near them, don&amp;#39;t try taking a paperclip to them. There&amp;#39;s everything to lose, and nothing to gain. Do you understand?&amp;#34;&lt;/p&gt;
+
+&lt;p&gt;Unable to manage words, Jen nodded instead.&lt;/p&gt;
+
+&lt;p&gt;&amp;#34;Good.&amp;#34; The haunted expression vanished in favor of grim determination. Stanley stood, then rummaged through a desk drawer loaded with office supplies. He handed Jen a pair of scissors, and armed himself with a brassy letter opener.&lt;/p&gt;
+
+&lt;p&gt;&amp;#34;Our job now is to track down the missing cable that resulted in your support ticket,&amp;#34; he continued. &amp;#34;If we&amp;#39;re lucky, someone&amp;#39;s absent-mindedly walked off with it. If we&amp;#39;re not, we may find that this is step one in the virus&amp;#39; plan to re-invade. Off we go!&amp;#34;&lt;/p&gt;
+
+&lt;p&gt;Jen&amp;#39;s mind reeled, but she sprang to her feet and followed Stanley out of the cubicle, telling herself to be ready for anything.&lt;/p&gt;&lt;div&gt;
+	&lt;img src="https://thedailywtf.com/images/inedo/otter-icon.png" style="display:block; float: left; margin: 0 10px 10px 0;"/&gt; [Advertisement] 
+	&lt;a href="https://inedo.com/otter?utm_source=tdwtf&amp;amp;utm_medium=Footerad&amp;amp;utm_term=2018&amp;amp;utm_content=Provision&amp;amp;utm_campaign=Otter_Footer"&gt;Otter&lt;/a&gt; - Provision your servers automatically without ever needing to log-in to a command prompt. &lt;a href="https://inedo.com/otter/download?utm_source=tdwtf&amp;amp;utm_medium=Footerad&amp;amp;utm_term=2018&amp;amp;utm_content=Provision&amp;amp;utm_campaign=Otter_Footer"&gt;Get started today!&lt;/a&gt; 
+&lt;/div&gt;
+&lt;div style="clear: left;"&gt; &lt;/div&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://syndication.thedailywtf.com/~ff/TheDailyWtf?a=gLmO9lzmcjA:gtO9uoFnd2E:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TheDailyWtf?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/TheDailyWtf/~4/gLmO9lzmcjA" height="1" width="1" alt=""/&gt;</description><slash:comments>47</slash:comments><wfw:comment>https://thedailywtf.com/articles/comments/the-hardware-virus</wfw:comment></item><item><dc:creator>Michael Dowden</dc:creator><title>Announcements: Meetup in Kansas City: Dinner and a Pint after KCDC</title><link>https://thedailywtf.com/articles/meetup-in-kansas-city-dinner-and-a-pint-after-kcdc</link><category>Announcements</category><pubDate>Wed, 17 Jul 2019 13:00:00 GMT</pubDate><guid>https://thedailywtf.com/articles/meetup-in-kansas-city-dinner-and-a-pint-after-kcdc</guid><description>&lt;p&gt;
+The &lt;a href="https://www.kcdc.info/"&gt;Kansas City Developer Conference&lt;/a&gt; is this week, followed by &lt;a href="https://pubconf.io/"&gt;PubConf&lt;/a&gt;. Between these two events on Friday evening is plenty of time for a TDWTF dinner, and that&amp;#39;s exactly what we&amp;#39;re planning!
+&lt;/p&gt;
+
+&lt;p&gt;
+If you find yourself in Kansas City Missouri this Friday, for &lt;a href="https://www.kcdc.info/"&gt;KCDC&lt;/a&gt;, &lt;a href="https://pubconf.io/"&gt;PubConf&lt;/a&gt;, or perhaps because you live here, please come out to the &lt;a href="https://thedublinerkc.com/"&gt;Dubliner&lt;/a&gt; at 5:30 PM for dinner and a pint. I&amp;#39;ll be there along with &lt;a href="https://twitter.com/martine_dowden"&gt;Martine Dowden&lt;/a&gt; and some TDWTF swag to give away. We&amp;#39;ll talk software, discuss what we took away from the conference, and can head over to &lt;a href="https://pubconf.io/"&gt;PubConf&lt;/a&gt; together.
+&lt;/p&gt;
+
+&lt;p&gt;
+If you would like to join us at 5:30 PM CT on Friday, July 19 please contact me at &lt;a href="https://twitter.com/mrdowden"&gt;@mrdowden&lt;/a&gt; (Twitter) or drop me an email: Michael (at) Andromeda16.com
+&lt;/p&gt;&lt;div&gt;
+	&lt;img src="https://thedailywtf.com/images/inedo/proget-icon.png" style="display:block; float: left; margin: 0 10px 10px 0;"/&gt; [Advertisement] 
+	Ensure your software is built only once and then deployed consistently across environments, by packaging your applications and components. &lt;a href="https://inedo.com/proget?utm_source=tdwtf&amp;amp;utm_medium=footerad&amp;amp;utm_term=2018&amp;amp;utm_content=Consistently&amp;amp;utm_campaign=ProGet_Footer"&gt;Learn how&lt;/a&gt; today!
+&lt;/div&gt;
+&lt;div style="clear: left;"&gt; &lt;/div&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://syndication.thedailywtf.com/~ff/TheDailyWtf?a=y5ilAwMQgr0:cfsqFZPijJs:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TheDailyWtf?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/TheDailyWtf/~4/y5ilAwMQgr0" height="1" width="1" alt=""/&gt;</description><slash:comments>2</slash:comments><wfw:comment>https://thedailywtf.com/articles/comments/meetup-in-kansas-city-dinner-and-a-pint-after-kcdc</wfw:comment></item><item><dc:creator>Remy Porter</dc:creator><title>CodeSOD: Nothing Direct About directAddCartEntry</title><link>https://thedailywtf.com/articles/nothing-direct-about-directaddcartentry</link><category>CodeSOD</category><pubDate>Wed, 17 Jul 2019 06:30:00 GMT</pubDate><guid>https://thedailywtf.com/articles/nothing-direct-about-directaddcartentry</guid><description>&lt;p&gt;It’s old hat, but every function, every class, every code unit you write, should all have a single, well-defined purpose. “Do one thing, and do it well,” as it were.&lt;/p&gt;
+
+&lt;p&gt;Of course, sometimes, it’s easier said that done, and mindlessly following that advice can lead to premature abstraction, and then you’ll have quite a mess on your hands. Still, it’s good advice, and a great design goal, even if you don’t head straight there.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Marigold&lt;/strong&gt; found some code which, well, has a long way to go. A looooooong way to go.&lt;/p&gt;
+&lt;pre&gt;&lt;code class="javascript"&gt;directAddCartEntry = function (matnr, menge,updateByField,m,redu){
+ 
+    var that=this;
+    var produkt=new Object;
+    var target = document.getElementById(&amp;#39;content&amp;#39;);
+    spinner.spin(target);
+   
+    if (produkt.BACK_PREIS!=undefined &amp;amp;&amp;amp; produkt.BACK_PREIS!=&amp;#34;&amp;#34;){
+        produkt.PREIS = produkt.BACK_PREIS  
+    }  
+    var Kundennummer = app.getModel(&amp;#34;userData&amp;#34;).getData().KUNDENNR;
+    var Land  = app.getModel(&amp;#34;userData&amp;#34;).getData().LAND;       
+    var Euland = app.getModel(&amp;#34;userData&amp;#34;).getData().ISTEULAND;
+    var Kundennummer_u_Euland = Kundennummer+&amp;#34;|&amp;#34;+Euland+&amp;#34;|&amp;#34;+Land;
+    var verpackungseinheit = &amp;#34;&amp;#34;;
+    sap.ui.getCore().byId(&amp;#34;app&amp;#34;).getModel(&amp;#34;kategorie&amp;#34;).read(&amp;#34;/PRODUKT_SET(MATNR=&amp;#39;&amp;#34;+matnr+&amp;#34;&amp;#39;,VKORG=&amp;#39;&amp;#34;+VKORG+&amp;#34;&amp;#39;,SPRAS=&amp;#39;de&amp;#39;,KAMPAGNE=&amp;#39;&amp;#34;+Kundennummer_u_Euland+&amp;#34;&amp;#39;,VTWEG=&amp;#39;10&amp;#39;)?$expand=MERKMAL&amp;#34;,null,null,false,function(oData,response){
+        produkt=oData;     
+        var mindestbestellmenge = produkt.BOMRABATT;
+        verpackungseinheit =  produkt.VERPACKUNGSEINHEIT
+        if (mindestbestellmenge!=&amp;#34;0.000 &amp;#34;&amp;amp;&amp;amp; mindestbestellmenge!=&amp;#34;&amp;#34;  &amp;amp;&amp;amp;  mindestbestellmenge != undefined){        
+            mindestbestellmenge=mindestbestellmenge.split(&amp;#34;.&amp;#34;)[0]
+            var mindestbestellmenge = parseInt(mindestbestellmenge);
+            produkt.BOMRABATT=mindestbestellmenge          
+            if (menge != mindestbestellmenge &amp;amp;&amp;amp; vielfacher(menge,mindestbestellmenge)==false &amp;amp;&amp;amp; redu!=true){
+                var dialog = new sap.m.Dialog({
+                    showHeader: false,
+                    content: [
+                        new sap.ui.layout.HorizontalLayout({
+                            content: [
+                                new sap.m.Image({
+                                    src: &amp;#34;Image/helia_small.png&amp;#34;,
+                                }),
+                                new sap.m.Text({
+                                    //text: sap.ui.getCore().byId(&amp;#34;app&amp;#34;).getModel(&amp;#34;i18n&amp;#34;).getProperty(&amp;#34;dialogUsersonlyFooter&amp;#34;)
+                                }).addStyleClass(&amp;#39;dialog__usersonlySmall&amp;#39;),
+                            ]
+                        }).addStyleClass(&amp;#39;dialog__usersonlyHeader&amp;#39;),
+                   
+                        new sap.ui.layout.Grid({
+                            hSpacing: 1,
+                            vSpacing: 1,
+                            layoutData: new sap.ui.layout.GridData({
+                                span: &amp;#34;L12 M12 S12&amp;#34;,
+                            }),
+                            content: [
+                                new sap.ui.core.HTML({ 
+                                    layoutData: new sap.ui.layout.GridData({
+                                        span: &amp;#34;L12 M12 S12&amp;#34;,
+                                    }),
+                                    content: verpackungseinheit==&amp;#34;ZS&amp;#34; ? sap.ui.getCore().byId(&amp;#34;navContainer&amp;#34;).getModel(&amp;#34;i18n&amp;#34;).getProperty(&amp;#34;infozigarette&amp;#34;) : sap.ui.getCore().byId(&amp;#34;navContainer&amp;#34;).getModel(&amp;#34;i18n&amp;#34;).getResourceBundle().getText(&amp;#34;infonormal&amp;#34;, produkt.BOMRABATT)
+                                }).addStyleClass(&amp;#34;dialog__usersonlyTitle&amp;#34;),
+                               
+                                new sap.m.Select(&amp;#34;dialogSelect&amp;#34;,{
+                                    layoutData: new sap.ui.layout.GridData({
+                                        span: &amp;#34;L2 M2 S2&amp;#34;,
+                                    }),
+//                                  items: productListItems2(&amp;#34;zweier&amp;#34;,&amp;#34;&amp;#34;,&amp;#34;&amp;#34;,&amp;#34;&amp;#34;)
+                                    items: productListItems4(null,null,produkt.MAXMENGE,produkt.BOMRABATT)
+                                })/*.attachBrowserEvent(
+                    &amp;#34;click&amp;#34;,function(evt){
+                      var _numProductsSelected = parseInt( this.getSelectedKey() );
+                      var _i  = +_numProductsSelected;
+                      var plus=+_i;
+                      this.destroyItems();
+                      for (_i;_i&amp;lt;=999;_i=_i+plus){
+                        // XXX
+                        this.addItem(new sap.ui.core.ListItem({ text: _i,  key: _i }))                                  
+                      }
+                      this.setSelectedKey( _numProductsSelected );
+                    }
+                ).attachBrowserEvent(
+                    &amp;#34;tap&amp;#34;,function(evt){
+                      var _numProductsSelected = parseInt( this.getSelectedKey() );
+                      var _i  = +_numProductsSelected;
+                      var plus=+_i;
+                      this.destroyItems();
+                      for (_i;_i&amp;lt;=999;_i=_i+plus){
+                        // XXX
+                        this.addItem(new sap.ui.core.ListItem({ text: _i,  key: _i }))                                  
+                      }
+                      this.setSelectedKey( _numProductsSelected );
+                    }
+                )*/,
+                                new sap.m.Button({
+                                    text: &amp;#34;OK&amp;#34;,
+                                    press: function(oEvent) {
+                                        var new_menge=sap.ui.getCore().byId(&amp;#34;dialogSelect&amp;#34;).getSelectedItem().mProperties.text
+                                        dialog.destroy();
+                                        directAddCartEntry  (matnr, new_menge,updateByField,m)
+                                        simulateOrder()
+                                        directController.setPreiseundRabatte();                        
+                                    },
+                                    layoutData: new sap.ui.layout.GridData({
+                                        span: &amp;#34;L1 M1 S1&amp;#34;,
+                                    })
+                                }),                        
+                               
+                                new sap.m.Button({
+                                    text: app.getModel(&amp;#34;i18n&amp;#34;).getProperty(&amp;#34;pwdabort&amp;#34;),
+                                    press: function() {
+                                        dialog.destroy();
+                                    },
+                                    layoutData: new sap.ui.layout.GridData({
+                                        span: &amp;#34;L2 M2 S2&amp;#34;,
+                                    })
+                                }),
+                            ]
+                        }),
+                        //.addStyleClass(&amp;#39;dialog__usersonlyChoice&amp;#39;),
+ 
+                   
+                       
+                    ]
+                }).addStyleClass(&amp;#39;dialog__usersonlyChoice&amp;#39;);
+                dialog.open()
+                spinner.stop();
+                return;
+               
+            }
+            else{
+              if (istmindestmenge (oData,&amp;#34;&amp;#34;,&amp;#34;call&amp;#34;)==true &amp;amp;&amp;amp; redu!=true){
+//              var menge2=menge/2 
+                var menge2=menge/oData.BOMRABATT;
+                directAddCartEntry (matnr, menge2,updateByField,m,true)
+                return
+               
+              }
+              else{
+                produkt.MENGE = menge;
+              }
+             
+            }          
+           
+        }else{
+          if (istmindestmenge (oData,&amp;#34;&amp;#34;,&amp;#34;call&amp;#34;)==true &amp;amp;&amp;amp; redu!=true){
+//          var menge2=menge/2  
+            menge/oData.BOMRABATT;
+        directAddCartEntry (matnr, menge2,updateByField,m,true)
+            return
+      }
+      else{
+        produkt.MENGE = menge;
+      }
+        }          
+        var Preis;
+        var model = m;
+        var data = model.getData();
+        var POSITIONEN = data.WK_POSITIONEN;
+        var POSITION = null;
+        var POSITIONIndex = -1;
+        if (produkt.BACK_PREIS!=undefined &amp;amp;&amp;amp; produkt.BACK_PREIS!=&amp;#34;&amp;#34;){
+            produkt.PREIS = produkt.BACK_PREIS  
+        }
+        //Position suchen
+        for (var zxy = 0 ; zxy &amp;lt; POSITIONEN.length ; zxy ++) {
+            if (POSITIONEN[zxy].MATNR === produkt.MATNR) {
+                POSITION = POSITIONEN[zxy];
+                POSITIONIndex = zxy;
+                break;
+            }
+        }
+        //Wenn Position nicht gefunden, neu hinzuf?gen...
+        if (POSITION === null) {
+            produkt.PAKETPREIS = produkt.PREIS;
+            produkt.SPARPREIS = 0;
+           
+            //Aktionsstaffelpreise und Staffelpreise ber?cksichtigen           
+             var Preis = parseFloat(produkt.PREIS).toFixed(2);
+ 
+             if (produkt.STAFFELPREIS3!=&amp;#34;&amp;#34;){
+                if( (parseFloat(produkt.MENGE) &amp;gt;= parseFloat(produkt.STAFFELPREIS6)) &amp;amp;&amp;amp; ( parseFloat(produkt.STAFFELPREIS3) &amp;lt; parseFloat(produkt.PREIS) ) ) {
+                    produkt.PAKETPREIS  = produkt.STAFFELPREIS3;
+                    produkt.SPARPREIS = ( parseFloat(produkt.PREIS) - parseFloat(produkt.STAFFELPREIS3));
+                    var Preis = produkt.STAFFELPREIS3
+                }
+            }
+            if (produkt.AKTIONSPREIS3!=&amp;#34;&amp;#34;){
+                if( (parseFloat(produkt.MENGE) &amp;gt;= parseFloat(produkt.AKTIONSPREIS6)) &amp;amp;&amp;amp; ( parseFloat(produkt.AKTIONSPREIS3) &amp;lt; parseFloat(produkt.PREIS) ) ) {
+                    produkt.PAKETPREIS  = produkt.AKTIONSPREIS3;
+                    produkt.SPARPREIS = ( parseFloat(produkt.PREIS) - parseFloat(produkt.AKTIONSPREIS3));
+                    var Preis = produkt.AKTIONSPREIS3
+                }              
+            }
+            if (parseFloat(produkt.AKTIONSPREIS)&amp;lt; parseFloat(produkt.PREIS) &amp;amp;&amp;amp; produkt.AKTIONSPREIS!=&amp;#34;&amp;#34;){
+                 var Preis = parseFloat(produkt.AKTIONSPREIS).toFixed(2);              
+            }           // Vergleich Staffelpreis zu Aktionspreis, VRU 21.06.2016
+            if ( (parseFloat(produkt.MENGE) &amp;gt;= parseFloat(produkt.AKTIONSPREIS6)) &amp;amp;&amp;amp; (parseFloat(produkt.AKTIONSPREIS3)&amp;lt;parseFloat(produkt.STAFFELPREIS3)) &amp;amp;&amp;amp; produkt.AKTIONSPREIS3!=&amp;#34;&amp;#34;){
+                var Preis = parseFloat(produkt.AKTIONSPREIS3).toFixed(2);  
+            }
+           
+//          if( (produkt.MENGE &amp;gt;= 6) &amp;amp;&amp;amp; ( parseFloat(produkt.AKTIONSPREIS6) &amp;lt; parseFloat(produkt.PREIS) ) ) {
+//              produkt.PAKETPREIS  = produkt.AKTIONSPREIS6;
+//              produkt.SPARPREIS = ( parseFloat(produkt.PREIS) - parseFloat(produkt.AKTIONSPREIS6));
+//          }
+//          if( (produkt.MENGE &amp;gt;= 12) &amp;amp;&amp;amp; ( parseFloat(produkt.AKTIONSPREIS12) &amp;lt; parseFloat(produkt.PREIS) ) ) {
+//              produkt.PAKETPREIS  = produkt.AKTIONSPREIS12;
+//              produkt.SPARPREIS = ( parseFloat(produkt.PREIS) - parseFloat(produkt.AKTIONSPREIS12));
+//          }
+            produkt.GESAMTPREIS = parseFloat(Preis * menge).toFixed(2);
+//          produkt.GESAMTPREIS = parseFloat(produkt.PAKETPREIS * produkt.MENGE).toFixed(2);
+            produkt.GESAMTSPARPREIS = produkt.SPARPREIS * produkt.MENGE;
+       
+            produkt.MENGE=parseInt(produkt.MENGE);
+          if (redu==true){
+//        produkt.MENGE=produkt.MENGE*2
+        produkt.MENGE=produkt.MENGE*produkt.BOMRABATT
+      }
+            // create new entry
+            POSITION = {
+                    MATNR:produkt.MATNR,
+                    MAKTX:produkt.MAKTX,
+                    MENGE:produkt.MENGE,
+                    MAXMENGE:produkt.MAXMENGE,
+                    KATTEXTKURZ:produkt.KATTEXTKURZ,
+                    IMG_BIG:produkt.IMG_BIG.replace(locStatic,&amp;#34;&amp;#34;),
+                    IMG_THUMB:produkt.IMG_THUMB.replace(locStatic,&amp;#34;&amp;#34;),
+                    BACK_PREIS: produkt.PREIS,
+                    PREIS:Preis,
+                    GESAMTPREIS:parseFloat(produkt.GESAMTPREIS).toFixed(2),
+                    STAFFELPREIS:produkt.STAFFELPREIS,
+                    AKTIONSPREIS:produkt.AKTIONSPREIS,
+                    WAEHRUNG:produkt.WAEHRUNG,
+                    PAKETPREIS:produkt.PAKETPREIS,
+                    SPARPREIS:produkt.SPARPREIS,
+                    GESAMTSPARPREIS:produkt.GESAMTSPARPREIS,
+                    AKTIONSPREIS3 : produkt.AKTIONSPREIS3,
+                    AKTIONSPREIS6 : produkt.AKTIONSPREIS6,     
+                    STAFFELPREIS3 : produkt.STAFFELPREIS3,
+                    STAFFELPREIS6 : produkt.STAFFELPREIS6,
+                    BOMRABATT: produkt.BOMRABATT,
+                    VERPACKUNGSEINHEIT:produkt.VERPACKUNGSEINHEIT
+            };
+            data.WK_POSITIONEN[data.WK_POSITIONEN.length] = POSITION;
+        } else {
+        //...Ansonsten Menge aendern
+            if(updateByField){
+                POSITION.MENGE=parseInt(POSITION.MENGE) + parseInt(produkt.MENGE)
+                if (redu!=undefined &amp;amp;&amp;amp; redu ==true){
+                  POSITION.MENGE = POSITION.MENGE/2 + parseInt(produkt.MENGE)/2  
+                }
+                var Preis = parseFloat(produkt.PREIS).toFixed(2);              
+                if (produkt.STAFFELPREIS3!=&amp;#34;&amp;#34;){                    
+                    if( (parseFloat(POSITION.MENGE) &amp;gt;= parseFloat(produkt.STAFFELPREIS6)) &amp;amp;&amp;amp; ( parseFloat(produkt.STAFFELPREIS3) &amp;lt; parseFloat(produkt.PREIS) ) ) {
+                        POSITION.PAKETPREIS = produkt.STAFFELPREIS3;
+                        POSITION.SPARPREIS = ( parseFloat(produkt.PREIS) - parseFloat(produkt.STAFFELPREIS3));
+                        var Preis = produkt.STAFFELPREIS3
+                    }
+                }
+                if (produkt.AKTIONSPREIS3!=&amp;#34;&amp;#34;){                
+                    if( (parseFloat(POSITION.MENGE) &amp;gt;= parseFloat(produkt.AKTIONSPREIS6)) &amp;amp;&amp;amp; ( parseFloat(produkt.AKTIONSPREIS3) &amp;lt; parseFloat(produkt.PREIS) ) ) {
+                        POSITION.PAKETPREIS = produkt.AKTIONSPREIS3;
+                        POSITION.SPARPREIS = ( parseFloat(produkt.PREIS) - parseFloat(produkt.AKTIONSPREIS3));
+                        var Preis = produkt.AKTIONSPREIS3
+                    }              
+                }
+                if (parseFloat(produkt.AKTIONSPREIS)&amp;lt; parseFloat(produkt.PREIS) &amp;amp;&amp;amp; produkt.AKTIONSPREIS!=&amp;#34;&amp;#34;){
+                     var Preis = parseFloat(produkt.AKTIONSPREIS).toFixed(2);              
+                }
+                // Vergleich Staffelpreis zu Aktionspreis, VRU 21.06.2016
+                if ( (parseFloat(POSITION.MENGE) &amp;gt;= parseFloat(produkt.AKTIONSPREIS6)) &amp;amp;&amp;amp; (parseFloat(produkt.AKTIONSPREIS3)&amp;lt;parseFloat(produkt.STAFFELPREIS3)) &amp;amp;&amp;amp; produkt.AKTIONSPREIS3!=&amp;#34;&amp;#34;){
+                    var Preis = parseFloat(produkt.AKTIONSPREIS3).toFixed(2);  
+                }
+                POSITION.AKTIONSPREIS3 = produkt.AKTIONSPREIS3
+                POSITION.AKTIONSPREIS6 = produkt.AKTIONSPREIS6     
+                POSITION.STAFFELPREIS3 = produkt.STAFFELPREIS3
+                POSITION.STAFFELPREIS6 = produkt.STAFFELPREIS6             
+                POSITION.BACK_PREIS= produkt.PREIS,            
+                POSITION.PREIS = parseFloat(Preis).toFixed(2);
+                POSITION.AKTIONSPREIS6 = produkt.AKTIONSPREIS6;
+                POSITION.AKTIONSPREIS12 = produkt.AKTIONSPREIS12;
+                POSITION.PAKETPREIS = POSITION.PREIS;
+                POSITION.SPARPREIS = 0;
+//              if( (POSITION.MENGE &amp;gt;= 6) &amp;amp;&amp;amp; ( parseFloat(POSITION.AKTIONSPREIS6) &amp;lt; parseFloat(POSITION.PREIS) ) ) {
+//                  POSITION.PAKETPREIS = POSITION.AKTIONSPREIS6;  
+//                  POSITION.SPARPREIS = ( parseFloat(POSITION.PREIS) - parseFloat(POSITION.AKTIONSPREIS6));
+//              }
+//              if( (POSITION.MENGE &amp;gt;= 12) &amp;amp;&amp;amp; ( parseFloat(POSITION.AKTIONSPREIS12) &amp;lt; parseFloat(POSITION.PREIS) ) ) {
+//                  POSITION.PAKETPREIS = POSITION.AKTIONSPREIS12; 
+//                  POSITION.SPARPREIS = ( parseFloat(POSITION.PREIS) - parseFloat(POSITION.AKTIONSPREIS12));
+//              }
+                POSITION.GESAMTPREIS = parseFloat(POSITION.MENGE*POSITION.PAKETPREIS).toFixed(2);
+                POSITION.GESAMTSPARPREIS = POSITION.MENGE*POSITION.SPARPREIS;
+                POSITION.STAFFELPREIS = produkt.STAFFELPREIS;
+                POSITION.AKTIONSPREIS = produkt.AKTIONSPREIS;
+                POSITION.WAEHRUNG = produkt.WAEHRUNG;
+                if (redu!=undefined &amp;amp;&amp;amp; redu ==true){
+//          POSITION.MENGE = POSITION.MENGE*2  
+          POSITION.MENGE = POSITION.MENGE*POSITION.BOMRABATT
+        }
+               
+            }else{
+            }
+            POSITION.AKTIONSPREIS3 = produkt.AKTIONSPREIS3
+            POSITION.AKTIONSPREIS6 = produkt.AKTIONSPREIS6     
+            POSITION.STAFFELPREIS3 = produkt.STAFFELPREIS3
+            POSITION.STAFFELPREIS6 = produkt.STAFFELPREIS6
+            POSITION.BOMRABATT = produkt.BOMRABATT
+           
+            POSITION.BACK_PREIS= produkt.PREIS,
+            POSITION.PREIS = Preis;
+            POSITION.GESAMTPREIS= toFixed(POSITION.GESAMTPREIS,2);
+            POSITION.GESAMTSPARPREIS= toFixed(POSITION.GESAMTSPARPREIS,2);
+            POSITIONEN[POSITIONIndex] = POSITION;
+            data.WK_POSITIONEN = POSITIONEN;
+        }
+        // Gesamtpreis neu berechnen
+        data.GESAMTPREIS = 0;
+        data.GESAMTMENGE = 0;
+        data.ZWISCHENSUMME = 0;
+        data.GESAMTSPARPREIS = 0;      
+        for (var xxy = 0 ; xxy &amp;lt; data.WK_POSITIONEN.length ; xxy ++) {
+            data.GESAMTPREIS += parseFloat(data.WK_POSITIONEN[xxy].GESAMTPREIS);
+            if (istmindestmenge (data.WK_POSITIONEN[xxy],&amp;#34;&amp;#34;,&amp;#34;call&amp;#34;)==true &amp;amp;&amp;amp; redu==true){
+              data.GESAMTMENGE += parseInt(data.WK_POSITIONEN[xxy].MENGE);
+            }else{
+               data.GESAMTMENGE += parseInt(data.WK_POSITIONEN[xxy].MENGE);
+            }
+            //hier Gesamtmenge wieder erhoehen
+           
+           
+            data.ZWISCHENSUMME += parseFloat(data.WK_POSITIONEN[xxy].GESAMTPREIS);
+            data.GESAMTSPARPREIS += parseFloat(data.WK_POSITIONEN[xxy].GESAMTSPARPREIS);           
+        }
+        data.GESAMTPREIS = parseFloat(data.GESAMTPREIS).toFixed(2)
+        data.GESAMTSPARPREIS = parseFloat(data.GESAMTSPARPREIS).toFixed(2);
+//      data.INTERNETRABATT = parseFloat(menge) + parseFloat(menge)
+//      data.GESAMTPREIS= parseFloat(data.GESAMTPREIS).toFixed(2);
+        data.ENDPREIS=parseFloat(data.GESAMTPREIS).toFixed(2) - parseFloat(data.INTERNETRABATT).toFixed(2);
+        data.ZWISCHENSUMME= toFixed(data.ZWISCHENSUMME,2);
+        data.GESAMTSPARPREIS= toFixed(data.GESAMTSPARPREIS,2);
+        data.ERSATZLIEFERUNG = data.ERSATZLIEFERUNG;
+        data.LIEFERART=data.LIEFERART;
+        data.LIEFERDATUM = data.LIEFERDATUM;
+        data.KUNDENNACHRICHT=data.KUNDENNACHRICHT;
+//      if(parseFloat(oData.INTERNETRABATT)&amp;gt;0){
+//          //sap.ui.getCore().byId(&amp;#34;app&amp;#34;).getModel(&amp;#34;warenkorb&amp;#34;).setProperty(&amp;#34;/INTERNETRABATT&amp;#34;,parseFloat(oData.INTERNETRABATT).toFixed(2));
+//          sap.ui.getCore().byId(&amp;#34;app&amp;#34;).getModel(&amp;#34;warenkorb&amp;#34;).setProperty(&amp;#34;/ENDPREIS&amp;#34;,(parseFloat(sap.ui.getCore().byId(&amp;#34;app&amp;#34;).getModel(&amp;#34;warenkorb&amp;#34;).getProperty(&amp;#34;/GESAMTPREIS&amp;#34;)) - parseFloat(oData.INTERNETRABATT)).toFixed(2));
+//      }
+//      // Model updaten
+        model.setData(data,&amp;#34;warenkorb&amp;#34;);
+       
+        if($.cookie(&amp;#34;cookieUser&amp;#34;)!=undefined){
+            setBackendWK(sap.ui.getCore().byId(&amp;#34;app&amp;#34;).getModel(&amp;#34;kategorie&amp;#34;),sap.ui.getCore().byId(&amp;#34;app&amp;#34;).getModel(&amp;#34;userData&amp;#34;).oData.KUNDENNR);
+        }else{
+            setCookieCart(model);
+        }
+        if (redu==true){
+//        menge=menge*2;
+          menge=menge*produkt.BOMRABATT;
+        }
+        showToastMessage(menge,produkt.MAKTX,produkt.MERKMAL.results);
+        //Speichern des Warenkorbes in einen Cookie
+        simulateOrder();
+        spinner.stop();
+    },function(oError){
+        spinner.stop();
+        messageToast(app.getModel(&amp;#34;i18n&amp;#34;).getProperty(&amp;#34;keineWare&amp;#34;));
+    });
+};&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Marigold adds: “I have no words for this. Make something up. I don’t care.”&lt;/p&gt;
+
+&lt;p&gt;It isn’t about what this code &lt;em&gt;does&lt;/em&gt;, as much as the sheer mass of it, the weight of 350+ lines of code in one gigantic method which seems to do &lt;em&gt;everything&lt;/em&gt;, makes me want to do nothing but eat a box of “einen Cookies” in one sitting. &lt;!-- yes, I know German plurals don't work that way, thanks for noticing --&gt;&lt;/p&gt;
+&lt;!-- Easy Reader Version: It's a big big pile of code. --&gt;
+&lt;link rel="stylesheet" href="//thedailywtf.com/images/highlight/styles/github.css"/&gt;
+&lt;script src="//thedailywtf.com/images/highlight/highlight.pack.js"&gt;&lt;/script&gt;
+&lt;script&gt;hljs.initHighlightingOnLoad();&lt;/script&gt;
+&lt;div&gt;
+	&lt;img src="https://thedailywtf.com/images/inedo/proget-icon.png" style="display:block; float: left; margin: 0 10px 10px 0;"/&gt; [Advertisement] 
+	Ensure your software is built only once and then deployed consistently across environments, by packaging your applications and components. &lt;a href="https://inedo.com/proget?utm_source=tdwtf&amp;amp;utm_medium=footerad&amp;amp;utm_term=2018&amp;amp;utm_content=Consistently&amp;amp;utm_campaign=ProGet_Footer"&gt;Learn how&lt;/a&gt; today!
+&lt;/div&gt;
+&lt;div style="clear: left;"&gt; &lt;/div&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://syndication.thedailywtf.com/~ff/TheDailyWtf?a=_b60BhiIsRU:U2cJtYbFbpU:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TheDailyWtf?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/TheDailyWtf/~4/_b60BhiIsRU" height="1" width="1" alt=""/&gt;</description><slash:comments>27</slash:comments><wfw:comment>https://thedailywtf.com/articles/comments/nothing-direct-about-directaddcartentry</wfw:comment></item><item><dc:creator>Remy Porter</dc:creator><title>CodeSOD: Brütäl Glöbs</title><link>https://thedailywtf.com/articles/br-t-l-gl-bs</link><category>CodeSOD</category><pubDate>Tue, 16 Jul 2019 06:30:00 GMT</pubDate><guid>https://thedailywtf.com/articles/br-t-l-gl-bs</guid><description>&lt;p&gt;&lt;strong&gt;Noam&lt;/strong&gt; and a few friends decided it was time for them to launch their own product. They were young, optimistic about their career, and had some opinions about the best way to handle some basic network monitoring and scanning tasks. So they iterated on the idea a few times, until one day the program just started hanging. At first, Noam thought it was just a hang, but after walking away from the machine for a few minutes in frustration, he discovered that it was just running &lt;em&gt;really&lt;/em&gt; slow.&lt;/p&gt;
+
+&lt;p&gt;After a little investigation, he tracked down the problem to the function responsible for checking if an IP matched a filter. That filter could contain globs, which made things a bit tricky, but his partner had some ideas about how best to handle them.&lt;/p&gt;
+&lt;pre&gt;&lt;code class="python"&gt;def ip_check(ip, rule):
+    ret_value = False # Return Value
+    if ip == rule[&amp;#39;host&amp;#39;]: # Compare against rule
+        ret_value = True
+    elif &amp;#39;*&amp;#39; in rule[&amp;#39;host&amp;#39;]: # Handle wildcards
+        mask = rule[&amp;#39;host&amp;#39;].split(&amp;#39;.&amp;#39;)
+        length = mask.count(&amp;#39;*&amp;#39;)
+        final = []
+        for subset in itertools.permutations(range(256), length):
+            final.append(list(subset))
+        for item in final:
+            address = rule[&amp;#39;host&amp;#39;].split(&amp;#39;.&amp;#39;)
+            for index in range(length):
+                address[address.index(&amp;#39;*&amp;#39;)] = str(item[index])
+            address = &amp;#39;.&amp;#39;.join(address)
+            if address == ip:
+                ret_value = True
+    return ret_value&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This code takes a &lt;em&gt;long&lt;/em&gt; way around. &lt;/p&gt;
+
+&lt;p&gt;We start with &lt;code&gt;for subset in itertools.permutations(range(256), length):&lt;/code&gt;. &lt;code&gt;itertools.permutations&lt;/code&gt; does exactly what you think- in this case, it creates every possible permutation of the numbers in the range 0–255, taken &lt;code&gt;length&lt;/code&gt; at a time- where length is the number of wildcards. So, for example, &lt;code&gt;10.1.*.*&lt;/code&gt;, is a mere 65,280 entries. &lt;code&gt;*.*.*.*&lt;/code&gt;, which is what Noam was doing when testing, is &lt;em&gt;a lot more&lt;/em&gt;. 4,195,023,360 entries, to be exact.&lt;/p&gt;
+
+&lt;p&gt;Then we iterate across every possible combination to put them into the &lt;code&gt;final&lt;/code&gt; list. The &lt;code&gt;permutations&lt;/code&gt; method is smart, it lazily evaluates the permutations, calculating the next one when you need it. As you can see, Python &lt;em&gt;does&lt;/em&gt; allow you to iterate across it. So we don’t &lt;em&gt;need&lt;/em&gt; the &lt;code&gt;final&lt;/code&gt; variable at all, we could have simply done &lt;code&gt;for item in itertols.permutations(…)&lt;/code&gt; and that would have been fine. Well, not fine, none of this is fine.&lt;/p&gt;
+
+&lt;p&gt;So, we populate a list with every possible permutation, then we iterate across every permutation. We incorrectly slam the permuted values into the test string, and if that test string matches our IP, we set the &lt;code&gt;ret_value&lt;/code&gt; to &lt;code&gt;True&lt;/code&gt;. &lt;em&gt;And then we keep looping&lt;/em&gt;. This block doesn’t even take the simplest optimization of simply quitting when it finds what it’s looking for.&lt;/p&gt;
+
+&lt;p&gt;Noam rewrote this function, replacing it with a much simpler 3-line function using built-in methods. Then Noam went on to have a long conversation with his team about how something like this happened.&lt;/p&gt;
+&lt;!-- Easy Reader Version: Impressive use of brute force, if nothing else --&gt;
+&lt;link rel="stylesheet" href="//thedailywtf.com/images/highlight/styles/github.css"/&gt;
+&lt;script src="//thedailywtf.com/images/highlight/highlight.pack.js"&gt;&lt;/script&gt;
+&lt;script&gt;hljs.initHighlightingOnLoad();&lt;/script&gt;
+&lt;div&gt;
+	&lt;img src="https://thedailywtf.com/images/inedo/buildmaster-icon.png" style="display:block; float: left; margin: 0 10px 10px 0;"/&gt; [Advertisement] 
+	&lt;a href="https://inedo.com/BuildMaster?utm_source=tdwtf&amp;amp;utm_medium=footerad&amp;amp;utm_term=2018&amp;amp;utm_content=Self_Service&amp;amp;utm_campaign=Buildmaster_Footer"&gt;BuildMaster&lt;/a&gt; allows you to create a self-service release management platform that allows different teams to manage their applications. &lt;a href="https://inedo.com/BuildMaster/download?utm_source=tdwtf&amp;amp;utm_medium=footerad&amp;amp;utm_term=2018&amp;amp;utm_content=Self_Service&amp;amp;utm_campaign=Buildmaster_Footer"&gt;Explore how!&lt;/a&gt; 
+&lt;/div&gt;
+&lt;div style="clear: left;"&gt; &lt;/div&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://syndication.thedailywtf.com/~ff/TheDailyWtf?a=q1dYdfJxEFA:YMBwWx3nPp0:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TheDailyWtf?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/TheDailyWtf/~4/q1dYdfJxEFA" height="1" width="1" alt=""/&gt;</description><slash:comments>21</slash:comments><wfw:comment>https://thedailywtf.com/articles/comments/br-t-l-gl-bs</wfw:comment></item><item><dc:creator>Remy Porter</dc:creator><title>The Enterprise Backup Batch</title><link>https://thedailywtf.com/articles/the-enterprise-backup-batch</link><category>Feature Articles</category><pubDate>Mon, 15 Jul 2019 06:30:00 GMT</pubDate><guid>https://thedailywtf.com/articles/the-enterprise-backup-batch</guid><description>&lt;p&gt;If a piece of software is described in any way, shape or form as being &amp;#34;enterprise&amp;#34;, it&amp;#39;s a safe bet that you don&amp;#39;t actually want to use it. As a general rule, &amp;#34;enterprise&amp;#34; software packages mix the &lt;a href="//thedailywtf.com/articles/The_Inner-Platform_Effect"&gt;Inner-Platform Effect&lt;/a&gt; with trying to be all things to all customers, with thousands upon thousands of lines of legacy code that can&amp;#39;t be touched because at least one customer depends on those quirks. There doesn&amp;#39;t tend to be much competition in the &amp;#34;enterprise&amp;#34; space, so none of the vendors actually put any thought into making their products &lt;em&gt;good&lt;/em&gt;. That&amp;#39;s what salesbeasts and lawyers are for.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Kristoph M&lt;/strong&gt; supports a deployment of Initech&amp;#39;s data warehouse system. Since this system is a mix of stored procedures and &lt;a href="https://en.wikipedia.org/wiki/SQL_Server_Integration_Services"&gt;SSIS&lt;/a&gt; packages, Kristoph can actually read a good portion of the code which makes the product work. They just choose not to. And that&amp;#39;s usually a good choice.&lt;/p&gt;
+&lt;p&gt;But one day, while debugging, Kristoph decided that they needed a simple answer to a simple question: &amp;#34;For a SQLAgent Job, how do you create a backup of the database with the day appended to the filename?&amp;#34;&lt;/p&gt;
+&lt;p&gt;SQLAgent is SQL Server&amp;#39;s scheduling system, used for triggering tasks. SSIS is SQL Server&amp;#39;s &amp;#34;drag and drop&amp;#34; dataflow tool, designed to let users draw data pipelines to handle extract-transform-load tasks.&lt;/p&gt;
+&lt;p&gt;In this case, the SQLAgent job&amp;#39;s first step was to launch an SSIS package. Already, we&amp;#39;re in questionable territory. SSIS is, as stated, an ETL tool. Yes, you can use it to &lt;em&gt;extract&lt;/em&gt; data, it&amp;#39;s not really meant as a replacement for an &lt;em&gt;actual&lt;/em&gt; database backup.&lt;/p&gt;
+&lt;p&gt;The good news is that this SSIS package doesn&amp;#39;t actually do anything to backup the database. Instead, it contains a single task, and it isn&amp;#39;t a data flow task, it&amp;#39;s a &amp;#34;Visual Basic Script Task&amp;#34;. Yes, SSIS lets you run a stripped down Visual Basic dialect in its context. What does this task do?&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-vbscript"&gt;&lt;div&gt;    &lt;span class="hljs-keyword"&gt;Public&lt;/span&gt; &lt;span class="hljs-keyword"&gt;Sub&lt;/span&gt; Main()
+        &lt;span class="hljs-comment"&gt;&amp;#39;&lt;/span&gt;
+        &lt;span class="hljs-comment"&gt;&amp;#39; Add your code here&lt;/span&gt;
+        &lt;span class="hljs-comment"&gt;&amp;#39;&lt;/span&gt;
+        &lt;span class="hljs-keyword"&gt;Dim&lt;/span&gt; sToday As &lt;span class="hljs-built_in"&gt;Date&lt;/span&gt; = &lt;span class="hljs-built_in"&gt;Now&lt;/span&gt;
+
+        &lt;span class="hljs-keyword"&gt;Dim&lt;/span&gt; sDay As &lt;span class="hljs-built_in"&gt;String&lt;/span&gt; = sToday.&lt;span class="hljs-built_in"&gt;Day&lt;/span&gt;.ToString
+        &lt;span class="hljs-keyword"&gt;If&lt;/span&gt; &lt;span class="hljs-built_in"&gt;CInt&lt;/span&gt;(sDay) &amp;lt; &lt;span class="hljs-number"&gt;10&lt;/span&gt; &lt;span class="hljs-keyword"&gt;Then&lt;/span&gt; sDay = &lt;span class="hljs-string"&gt;&amp;#34;0&amp;#34;&lt;/span&gt; &amp;amp; sDay
+        &lt;span class="hljs-keyword"&gt;Dim&lt;/span&gt; sMonth As &lt;span class="hljs-built_in"&gt;String&lt;/span&gt; = &lt;span class="hljs-built_in"&gt;MonthName&lt;/span&gt;(&lt;span class="hljs-built_in"&gt;Month&lt;/span&gt;(sToday), &lt;span class="hljs-literal"&gt;True&lt;/span&gt;)
+        &lt;span class="hljs-keyword"&gt;Dim&lt;/span&gt; sYear As &lt;span class="hljs-built_in"&gt;String&lt;/span&gt; = &lt;span class="hljs-built_in"&gt;Year&lt;/span&gt;(sToday).ToString
+        &lt;span class="hljs-keyword"&gt;Dim&lt;/span&gt; sPara1 As &lt;span class="hljs-built_in"&gt;String&lt;/span&gt; = sDay &lt;span class="hljs-comment"&gt;&amp;#39;&amp;amp; sMonth &amp;amp; sYear&lt;/span&gt;
+
+        &lt;span class="hljs-keyword"&gt;Dim&lt;/span&gt; sPath As &lt;span class="hljs-built_in"&gt;String&lt;/span&gt; = &lt;span class="hljs-string"&gt;&amp;#34;D:\Initech\DailyProcess\&amp;#34;&lt;/span&gt;
+
+        Using fso As StreamWriter = &lt;span class="hljs-keyword"&gt;New&lt;/span&gt; StreamWriter(sPath &amp;amp; &lt;span class="hljs-string"&gt;&amp;#34;runBackupBatch.bat&amp;#34;&lt;/span&gt;)
+            fso.WriteLine(sPath &amp;amp; &lt;span class="hljs-string"&gt;&amp;#34;DailyExtractBackup.bat &amp;#34;&lt;/span&gt; &amp;amp; sPara1)
+            fso.Close()
+        &lt;span class="hljs-keyword"&gt;End&lt;/span&gt; Using
+        Dts.TaskResult = ScriptResults.Success
+    &lt;span class="hljs-keyword"&gt;End&lt;/span&gt; &lt;span class="hljs-keyword"&gt;Sub&lt;/span&gt;
+&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This figures out the current day, and then writes out a &lt;code&gt;runBackupBatch.bat&lt;/code&gt; file with contents like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;div&gt;D:\Initech\DailyProcess\DailyExtractBackup.bat 02
+&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Once &lt;em&gt;that&lt;/em&gt; step is completed, the SQLAgent job continues, and runs the &lt;code&gt;runBackupBatch.bat&lt;/code&gt;, which in turn runs &lt;code&gt;DailyExtractBackup.bat&lt;/code&gt;, which does this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;div&gt;D:\Initech\DailyProcess\DailyExtractBackup.bat
+@echo off
+@echo Dumping DailyExtract database...
+osql -E -Slocalhost -oD:\Initech\DailyProcess\DailyExtractDump.log -Q&amp;#34;backup database DailyExtract to DISK=&amp;#39;D:\Initech\MSSQL\Backup\DailyExtractDump%1.bak&amp;#39; with INIT&amp;#34;
+if errorlevel 1 goto dumperror
+
+REM Check for SQL Errors
+findstr &amp;#34;Msg&amp;#34; D:\Initech\DailyProcess\DailyExtractDump.log
+if not errorlevel 1 goto dumperror
+
+:OK
+@echo All Done!!
+exit 0
+
+:dumperror
+@echo Error dumping database.
+exit 1
+&lt;/div&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The &lt;code&gt;osql&lt;/code&gt; call is about the first reasonable step in this process. That actually does the backup using SQL server&amp;#39;s backup tools. Then again, the mechanism to see if there were any errors in the logfile is troubling. &lt;code&gt;&lt;a href="https://ss64.com/nt/findstr.html"&gt;findstr&lt;/a&gt;&lt;/code&gt; sets the &lt;code&gt;errorlevel&lt;/code&gt; to 1 if &lt;code&gt;Msg&lt;/code&gt; is &lt;em&gt;not&lt;/em&gt; found in the log file. So, if Msg is not not found in the logfile, we&amp;#39;ll go to &lt;code&gt;dumperror&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;After reading through this process, Kristoph decide it was best to take a step outside, get some air, and stop thinking about the other horrible things that might be lurking in Initech&amp;#39;s data warehouse product.&lt;/p&gt;
+&lt;!-- Easy Reader Version: This almost certainly is a case where a lone developer hacked this together because they needed a quick-and-dirty solution, and then some PHB was like, "our customer wants this. Ship it." --&gt;&lt;div&gt;
+	&lt;img src="https://thedailywtf.com/images/footer/raygun50.png" style="display:block; float: left; margin: 0 10px 10px 0;"/&gt; [Advertisement] 
+	Forget logs. Next time you&amp;#39;re struggling to replicate error, crash and performance issues in your apps - Think &lt;a href="https://raygun.com/landing?utm_source=tdwtf&amp;amp;utm_medium=sponsored&amp;amp;utm_campaign=text-link"&gt;Raygun&lt;/a&gt;! Installs in minutes. &lt;a href="https://raygun.com/landing?utm_source=tdwtf&amp;amp;utm_medium=sponsored&amp;amp;utm_campaign=text-link"&gt;Learn more.&lt;/a&gt;
+&lt;/div&gt;
+&lt;div style="clear: left;"&gt; &lt;/div&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://syndication.thedailywtf.com/~ff/TheDailyWtf?a=fJE4LLIhdGM:hZC4DTUZ4sQ:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/TheDailyWtf?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/TheDailyWtf/~4/fJE4LLIhdGM" height="1" width="1" alt=""/&gt;</description><slash:comments>16</slash:comments><wfw:comment>https://thedailywtf.com/articles/comments/the-enterprise-backup-batch</wfw:comment></item></channel></rss>

@@ -1,0 +1,1594 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Daring Fireball</title>
+<subtitle>By John Gruber</subtitle>
+<link rel="alternate" type="text/html" href="https://daringfireball.net/" />
+<link rel="self" type="application/atom+xml" href="https://daringfireball.net/feeds/main" />
+<id>https://daringfireball.net/feeds/main</id>
+
+
+<updated>2019-08-01T16:42:42Z</updated><rights>Copyright © 2019, John Gruber</rights><entry>
+	<title>The Talk Show: ‘Start a Bakin’ Timer’</title>
+	<link rel="alternate" type="text/html" href="https://daringfireball.net/thetalkshow/2019/07/31/ep-259" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/rqh" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2019/08/01/the-talk-show-259" />
+	<id>tag:daringfireball.net,2019:/linked//6.35945</id>
+	<published>2019-08-01T16:42:40Z</published>
+	<updated>2019-08-01T16:42:42Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Another new episode, with special guest Marco Arment. Topics include MacBook Pro rumors, breakfast cereal, Siri frustrations, and more.</p>
+
+<p>Sponsored by:</p>
+
+<ul>
+<li><a href="https://squarespace.com/talkshow">Squarespace</a>: Make your next move. Use code <strong>talkshow</strong> for 10% off your first order.</li>
+<li><a href="https://fracture.me/">Fracture</a>: Photos printed in vivid color directly on glass. Get 10% off your first order.</li>
+<li><a href="https://linode.com/thetalkshow">Linode</a>: Instantly deploy and manage an SSD server in the Linode Cloud. Get a server running in seconds with your choice of Linux distro, resources, and choice of 10 node locations.</li>
+</ul>
+
+<div>
+<a  title="Permanent link to ‘The Talk Show: ‘Start a Bakin’ Timer’’"  href="https://daringfireball.net/linked/2019/08/01/the-talk-show-259">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Damned If They Do, Damned If They Don’t</title>
+	<link rel="alternate" type="text/html" href="https://www.marketwatch.com/amp/story/guid/9704C6C2-B247-11E9-9BED-A63A5AE0DDB2" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/rqg" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2019/07/31/swartz-headline" />
+	<id>tag:daringfireball.net,2019:/linked//6.35944</id>
+	<published>2019-07-31T18:11:57Z</published>
+	<updated>2019-07-31T18:14:16Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Headline from Jon Swartz’s report for MarketWatch on Apple’s Q3 results: “The iPhone Just Did Something It Hasn’t Done in Nearly 7 Years, and It Isn’t Good for Apple”.</p>
+
+<p>What could it be? This:</p>
+
+<blockquote>
+  <p>Sales of signature smartphone are less than half of Apple’s
+quarterly revenue for the first time since 2012.</p>
+</blockquote>
+
+<p>So from 2013-2018, <a href="https://duckduckgo.com/?q=apple+too+dependent+on+iphone+revenue">the oft-repeated narrative</a> was that Apple was in trouble because they were too dependent on iPhone sales. Now they’re diversifying, particularly through services and wearables, and that’s “not good for Apple”. OK.</p>
+
+<div>
+<a  title="Permanent link to ‘Damned If They Do, Damned If They Don’t’"  href="https://daringfireball.net/linked/2019/07/31/swartz-headline">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>LG Updates Their 5K 27-Inch UltraFine Display</title>
+	<link rel="alternate" type="text/html" href="https://www.macrumors.com/2019/07/30/apple-online-store-new-5k-lg-ultrafine-display/" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/rqf" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2019/07/31/lg-5k-ultrafine-display" />
+	<id>tag:daringfireball.net,2019:/linked//6.35943</id>
+	<published>2019-07-31T17:30:00Z</published>
+	<updated>2019-07-31T17:39:55Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Juli Clover, writing for MacRumors:</p>
+
+<blockquote>
+  <p>Available for $1,299.95, the new LG UltraFine 5K Display offers
+the same 5120&#8201;&#215;&#8201;2880 resolution as the previous UltraFine 5K
+Display with 14.7 million pixels and P3 wide color gamut.</p>
+
+<p>The display connects to a Mac using a Thunderbolt 3 cable, and
+this version of the monitor can connect using USB-C, which means
+that it’s also compatible with the iPad Pro. There are three
+downstream USB-C ports with speeds up to 5Gb/s, and when used with
+a Mac notebook, charging over TB3 is supported with up to 94W of
+power available.</p>
+</blockquote>
+
+<p>When connected to an iPad Pro via USB-C, it’s limited to 4K resolution, but the old 5K UltraFine Display didn’t support iPad Pro at all. When the previous 5K UltraFine Display started disappearing from retailers — especially Apple’s own store — most of us assumed it was being discontinued, leaving Mac users with no good options for a 5K display. Good to know it was simply being updated.</p>
+
+<p>But I’ve been holding out hope that in addition to the <a href="https://www.macrumors.com/roundup/displays/">$5,000–7,000
+Pro Display XDR</a>, Apple might also release their own 6K (or even 5K) Pro Display <em>without</em> all of the advanced color and brightness capabilities, for pro users whose work doesn’t require those expensive features. This update to LG’s UltraFine Display makes me think that’s now less likely.</p>
+
+<div>
+<a  title="Permanent link to ‘LG Updates Their 5K 27-Inch UltraFine Display’"  href="https://daringfireball.net/linked/2019/07/31/lg-5k-ultrafine-display">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Apple Maps in iOS 13</title>
+	<link rel="alternate" type="text/html" href="https://www.macstories.net/stories/apple-maps-in-ios-13-sights-set-on-google/" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/rqe" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2019/07/31/apple-maps-ios-13" />
+	<id>tag:daringfireball.net,2019:/linked//6.35942</id>
+	<published>2019-07-31T17:00:00Z</published>
+	<updated>2019-07-31T17:37:35Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Ryan Christoffel, writing for MacStories:</p>
+
+<blockquote>
+  <p>Timed with the spread of its first-party mapping data, Apple is
+giving the Maps app a big upgrade in iOS 13 that represents the
+company’s biggest push yet to overtake Google Maps as the world’s
+most trusted, go-to mapping service. Apple Maps in iOS 13
+represents — if you’re in the US at least — Apple’s purest
+vision to date for a modern mapping service. Here’s everything
+that it brings.</p>
+</blockquote>
+
+<p>Comprehensive overview of what’s new, and where Apple Maps stands versus Google Maps.</p>
+
+<div>
+<a  title="Permanent link to ‘Apple Maps in iOS 13’"  href="https://daringfireball.net/linked/2019/07/31/apple-maps-ios-13">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	
+	<link rel="alternate" type="text/html" href="http://basecamp.com/shapeup/?ref=df" />
+	<link rel="shorturl" href="http://df4.us/rqb" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/feeds/sponsors/2019/07/shape_up_stop_running_in_circl_1" />
+	<id>tag:daringfireball.net,2019:/feeds/sponsors//11.35939</id>
+	<author><name>Daring Fireball Department of Commerce</name></author>
+	<published>2019-07-31T13:29:49-04:00</published>
+	<updated>2019-07-31T13:45:20-04:00</updated>
+	<content type="html" xml:base="https://daringfireball.net/feeds/sponsors/" xml:lang="en"><![CDATA[
+<p>If your team struggles to make progress on projects, it’s time to reconsider the way you work.</p>
+
+<p>There’s a whole new approach called Shape Up. It’s not agile, it’s not scrum, and your walls won’t be lined with Post-It Notes. There are no daily stand ups, design sprints, backlogs, velocity tracking, or busywork. None of that.</p>
+
+<p>Shape Up is an entirely different approach. One developed and honed over 15 years of building one of the world’s most popular collaboration tools. The method is unlike anything you’ve tried — and quite a bit better.</p>
+
+<p>Read up for free at <a href="http://basecamp.com/shapeup/?ref=df">basecamp.com/shapeup</a>.</p>
+
+<div>
+<a  title="Permanent link to ‘Shape Up: Stop Running in Circles and Ship Work That Matters’"  href="https://daringfireball.net/feeds/sponsors/2019/07/shape_up_stop_running_in_circl_1">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+	<title>[Sponsor] Shape Up: Stop Running in Circles and Ship Work That Matters</title></entry><entry>
+	<title>Apple Reports Third Quarter Results</title>
+	<link rel="alternate" type="text/html" href="https://www.apple.com/newsroom/2019/07/apple-reports-third-quarter-results/" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/rqd" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2019/07/30/aapl-q3-2019" />
+	<id>tag:daringfireball.net,2019:/linked//6.35941</id>
+	<published>2019-07-31T00:00:00Z</published>
+	<updated>2019-07-31T17:34:42Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Apple Newsroom:</p>
+
+<blockquote>
+  <p>Apple today announced financial results for its fiscal 2019 third
+quarter ended June 29, 2019. The Company posted quarterly revenue
+of $53.8 billion, an increase of 1 percent from the year-ago
+quarter, and quarterly earnings per diluted share of $2.18, down 7
+percent. International sales accounted for 59 percent of the
+quarter’s revenue.</p>
+
+<p>“This was our biggest June quarter ever — driven by all-time
+record revenue from Services, accelerating growth from Wearables,
+strong performance from iPad and Mac and significant improvement
+in iPhone trends,” said Tim Cook, Apple’s CEO. “These results are
+promising across all our geographic segments, and we’re confident
+about what’s ahead. The balance of calendar 2019 will be an
+exciting period, with major launches on all of our platforms, new
+services and several new products.”</p>
+</blockquote>
+
+<p>Solid quarter. As usual, <a href="https://sixcolors.com/post/2019/07/apple-third-quarter-2019-results-and-charts/">Jason Snell has a bunch of informative charts and graphs</a>.</p>
+
+<div>
+<a  title="Permanent link to ‘Apple Reports Third Quarter Results’"  href="https://daringfireball.net/linked/2019/07/30/aapl-q3-2019">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>The Talk Show: ‘Pousse-Café’</title>
+	<link rel="alternate" type="text/html" href="https://daringfireball.net/thetalkshow/2019/07/29/ep-258" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/rqc" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2019/07/29/the-talk-show-258" />
+	<id>tag:daringfireball.net,2019:/linked//6.35940</id>
+	<published>2019-07-29T22:00:00Z</published>
+	<updated>2019-07-31T17:33:23Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Special guest John Moltz returns to the show for a mid-summer Q&amp;A episode, answering actual questions from actual listeners.</p>
+
+<p>Brought to you by these fine sponsors:</p>
+
+<ul>
+<li><a href="https://jamf.com/thetalkshow">Jamf Now</a>: Set up and protect your Apple devices at work, from anywhere. First 3 devices are free.</li>
+<li><a href="https://eero.com/thetalkshow">Eero</a>: Save $100 off the ‘Eero base unit and 2 beacons package’, and 1 year of Eero Plus.</li>
+<li><a href="https://expressvpn.com/tts">ExpressVPN</a>: Rated #1 VPN service by TechRadar and comes with a 30-day money back guarantee.</li>
+</ul>
+
+<div>
+<a  title="Permanent link to ‘The Talk Show: ‘Pousse-Café’’"  href="https://daringfireball.net/linked/2019/07/29/the-talk-show-258">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>‘Fast Software, the Best Software’</title>
+	<link rel="alternate" type="text/html" href="https://craigmod.com/essays/fast_software/" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/rq5" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2019/07/26/mod-fast-software" />
+	<id>tag:daringfireball.net,2019:/linked//6.35933</id>
+	<published>2019-07-26T18:26:48Z</published>
+	<updated>2019-07-26T18:26:49Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Craig Mod:</p>
+
+<blockquote>
+  <p>I love <em>fast</em> software. That is, software speedy both in function
+and interface. Software with minimal to no lag between wanting to
+activate or manipulate something and the thing happening.
+Lightness.</p>
+
+<p>Software that’s speedy usually means it’s focused. Like a good
+tool, it often means that it’s simple, but that’s not
+necessarily true. Speed in software is probably the most
+valuable, least valued asset. To me, speedy software is the
+difference between an application smoothly integrating into your
+life, and one called upon with great reluctance. Fastness in
+software is like great margins in a book — makes you smile
+without necessarily knowing why.</p>
+</blockquote>
+
+<p>I love this essay so much I wish I could kiss it. One of the confounding aspects of software today is that our computers are literally hundreds — maybe even a thousand — times faster than the ones we used 20 years ago, but some simple tasks take longer now than they did then. Opening the Web Export dialog in Photoshop, for example.</p>
+
+<div>
+<a  title="Permanent link to ‘‘Fast Software, the Best Software’’"  href="https://daringfireball.net/linked/2019/07/26/mod-fast-software">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Renato Mariotti: ‘Actually, Robert Mueller Was Awesome’</title>
+	<link rel="alternate" type="text/html" href="https://www.politico.com/magazine/story/2019/07/25/robert-mueller-hearing-was-awesome-227478" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/rq4" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2019/07/26/mueller" />
+	<id>tag:daringfireball.net,2019:/linked//6.35932</id>
+	<published>2019-07-26T17:16:58Z</published>
+	<updated>2019-07-26T17:16:59Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Renato Mariotti, writing at Politico:</p>
+
+<blockquote>
+  <p>Tasked with overseeing the most high-profile investigation of our
+time, Mueller managed to complete the investigation without
+appearing to have a partisan agenda, with both sides embracing him
+at times. Even Trump said he acted “honorably” — before he turned
+on Mueller as “conflicted” and partisan — and touted “total
+exoneration” soon after Mueller concluded his work. Mueller’s
+down-the-middle, leak-free handling of the high-stakes
+investigation was an object lesson in professionalism.</p>
+
+<p>And Wednesday’s performance was no different.</p>
+</blockquote>
+
+<p>This jibes with my take almost perfectly.</p>
+
+<p><strong>See also:</strong> <a href="https://twitter.com/PreetBharara/status/1154238614127239168">Preet Bharara</a>:</p>
+
+<blockquote>
+  <p>Bob Mueller today was decent, honest, humble, measured, patriotic,
+apolitical and above the fray. He returned none of the bile the
+president and others have heaped on him. Whatever you thought of
+his performance, he is far better than his critics and remains an
+American hero.</p>
+</blockquote>
+
+<div>
+<a  title="Permanent link to ‘Renato Mariotti: ‘Actually, Robert Mueller Was Awesome’’"  href="https://daringfireball.net/linked/2019/07/26/mueller">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Apple to Acquire Majority of Intel’s Smartphone Modem Business</title>
+	<link rel="alternate" type="text/html" href="https://newsroom.intel.com/news-releases/intel-smartphone-modem-business/#gs.s24er8" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/rq3" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2019/07/25/apple-intel" />
+	<id>tag:daringfireball.net,2019:/linked//6.35931</id>
+	<published>2019-07-25T20:35:38Z</published>
+	<updated>2019-07-25T21:55:02Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Intel Newsroom:</p>
+
+<blockquote>
+  <p>Intel and Apple have signed an agreement for Apple to acquire the majority of Intel’s smartphone modem business. Approximately 2,200 Intel employees will join Apple, along with intellectual property, equipment and leases. The transaction, valued at $1 billion, is expected to close in the fourth quarter of 2019, subject to regulatory approvals and other customary conditions, including works council and other relevant consultations in certain jurisdictions.</p>
+</blockquote>
+
+<p>No surprise here. 2,200 new employees sounds like a lot, but they’re just going to keep working on what they were already working on: cellular modems. Remember this bit of <a href="https://fortune.com/2009/01/22/the-cook-doctrine-at-apple/">the Cook Doctrine</a>: “We believe that we need to own and control the primary technologies behind the products that we make.” If anything, Apple waited too long to take control of its modems the way it has its SoC’s.</p>
+
+<p><strong>Update:</strong> <a href="https://www.apple.com/newsroom/2019/07/apple-to-acquire-the-majority-of-intels-smartphone-modem-business/">Here’s Apple’s press release</a>. The big tell: their executive quote is from Johny Srouji.</p>
+
+<blockquote>
+  <p>“We’ve worked with Intel for many years and know this team shares Apple’s passion for designing technologies that deliver the world’s best experiences for our users,” said Johny Srouji, Apple’s senior vice president of Hardware Technologies. “Apple is excited to have so many excellent engineers join our growing cellular technologies group, and know they’ll thrive in Apple’s creative and dynamic environment. They, together with our significant acquisition of innovative IP, will help expedite our development on future products and allow Apple to further differentiate moving forward.”</p>
+</blockquote>
+
+<div>
+<a  title="Permanent link to ‘Apple to Acquire Majority of Intel’s Smartphone Modem Business’"  href="https://daringfireball.net/linked/2019/07/25/apple-intel">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Motherboard: ‘Amazon Requires Police to Shill Surveillance Cameras in Secret Agreement’</title>
+	<link rel="alternate" type="text/html" href="https://www.vice.com/en_us/article/mb88za/amazon-requires-police-to-shill-surveillance-cameras-in-secret-agreement?xyz" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/rq2" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2019/07/25/amazon-police-ring" />
+	<id>tag:daringfireball.net,2019:/linked//6.35930</id>
+	<published>2019-07-25T18:00:10Z</published>
+	<updated>2019-07-25T18:02:12Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Caroline Haskins, reporting for Motherboard:</p>
+
+<blockquote>
+  <p>Amazon’s home security company Ring has enlisted local police departments around the country to advertise its surveillance cameras in exchange for free Ring products and a “portal” that allows police to request footage from these cameras, a secret agreement obtained by Motherboard shows. The agreement also requires police to “keep the terms of this program confidential.”</p>
+</blockquote>
+
+<p>This is a bad look for both sides.</p>
+
+<div>
+<a  title="Permanent link to ‘Motherboard: ‘Amazon Requires Police to Shill Surveillance Cameras in Secret Agreement’’"  href="https://daringfireball.net/linked/2019/07/25/amazon-police-ring">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Joanna Stern on the Current State of 5G Across America</title>
+	<link rel="alternate" type="text/html" href="https://www.wsj.com/articles/all-the-reasons-not-to-buy-a-5g-phone-right-now-11563467389" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/rq1" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2019/07/24/stern-5g" />
+	<id>tag:daringfireball.net,2019:/linked//6.35929</id>
+	<published>2019-07-24T22:36:00Z</published>
+	<updated>2019-07-24T22:39:22Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Joanna Stern, writing for The Wall Street Journal:</p>
+
+<blockquote>
+  <p>Eager to test out a technology that’s been more hyped than flavored sparkling water, I embarked on a 5G expedition from Denver to Atlanta to Chicago to Manhattan’s Lower East Side. I mostly used the new, $1,300 Samsung Galaxy S10 5G, one of the first 5G phones and the only one available across all the carriers. I also tested the LG V50 ThinQ 5G on Sprint’s network; Verizon has a version but I didn’t test it.</p>
+
+<p>After nearly 120 tests, more than 12 city miles walked and a couple of big blisters, I can report that 5G is fasten-your-seat-belt fast… when you can find it. And you’re standing outdoors. And the temperature is just right.</p>
+</blockquote>
+
+<div>
+<a  title="Permanent link to ‘Joanna Stern on the Current State of 5G Across America’"  href="https://daringfireball.net/linked/2019/07/24/stern-5g">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>The Case of Al Franken</title>
+	<link rel="alternate" type="text/html" href="https://www.newyorker.com/magazine/2019/07/29/the-case-of-al-franken" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/rq0" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2019/07/24/the-case-of-al-franken" />
+	<id>tag:daringfireball.net,2019:/linked//6.35928</id>
+	<published>2019-07-24T21:13:03Z</published>
+	<updated>2019-07-24T21:27:40Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Jane Mayer, in a remarkably deeply researched piece for The New Yorker:</p>
+
+<blockquote>
+  <p>A remarkable number of Franken’s Senate colleagues have regrets about their own roles in his fall. Seven current and former U.S. senators who demanded Franken’s resignation in 2017 told me that they’d been wrong to do so. Such admissions are unusual in an institution whose members rarely concede mistakes. Patrick Leahy, the veteran Democrat from Vermont, said that his decision to seek Franken’s resignation without first getting all the facts was “one of the biggest mistakes I’ve made” in forty-five years in the Senate. Heidi Heitkamp, the former senator from North Dakota, told me, “If there’s one decision I’ve made that I would take back, it’s the decision to call for his resignation. It was made in the heat of the moment, without concern for exactly what this was.” Tammy Duckworth, the junior Democratic senator from Illinois, told me that the Senate Ethics Committee “should have been allowed to move forward.” She said it was important to acknowledge the trauma that Franken’s accusers had gone through, but added, “We needed more facts. That due process didn’t happen is not good for our democracy.” Angus King, the Independent senator from Maine, said that he’d “regretted it ever since” he joined the call for Franken’s resignation. “There’s no excuse for sexual assault,” he said. “But Al deserved more of a process. I don’t denigrate the allegations, but this was the political equivalent of capital punishment.” Senator Jeff Merkley, of Oregon, told me, “This was a rush to judgment that didn’t allow any of us to fully explore what this was about. I took the judgment of my peers rather than independently examining the circumstances. In my heart, I’ve not felt right about it.” Bill Nelson, the former Florida senator, said, “I realized almost right away I’d made a mistake. I felt terrible. I should have stood up for due process to render what it’s supposed to — the truth.” Tom Udall, the senior Democratic senator from New Mexico, said, “I made a mistake. I started having second thoughts shortly after he stepped down. He had the right to be heard by an independent investigative body. I’ve heard from people around my state, and around the country, saying that they think he got railroaded. It doesn’t seem fair. I’m a lawyer. I really believe in due process.”</p>
+</blockquote>
+
+<p>That’s quite a paragraph.</p>
+
+<p>First and foremost, I think Mayer makes an incredibly solid case that Franken was railroaded. When the scandal first broke, Franken himself immediately called for a Senate Ethics Committee investigation. That investigation should have been allowed to run its course, and it seems clear now, based on Mayer’s reporting, that his resignation was not called for.</p>
+
+<p>Second, the Democrats lost their single best television presence. It <em>shouldn’t</em> be this way but it is: being good at TV is very good for politics. However repugnant you think Donald Trump is as a man and as a president, there’s no denying that he is <em>very</em> good at being on TV — he hosted a prime time network TV show for over a dozen years, and likely would still be hosting it today if, you know, he hadn’t been elected president. Ronald Reagan was underestimated by the political class because he was “just an actor”, but that’s exactly why he should have been taken very seriously from the moment he entered politics: he was amazingly good at being on TV.</p>
+
+<p>Franken is very smart, very funny, and very good at being on TV — and he was great at making his questioning in Senate hearings work for TV. I’m not saying Democrats should have looked the other way at egregious behavior just because he was good on TV, but Franken’s importance to the party at a national level should have at least made them look twice at whether what he’d actually done was actually egregious.</p>
+
+<div>
+<a  title="Permanent link to ‘The Case of Al Franken’"  href="https://daringfireball.net/linked/2019/07/24/the-case-of-al-franken">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+    
+    <link rel="alternate" type="text/html" href="https://daringfireball.net/2019/07/superhuman_and_email_privacy" />
+	<link rel="shorturl" href="http://df4.us/rpy" />
+	<id>tag:daringfireball.net,2019://1.35926</id>
+	<published>2019-07-23T20:50:41Z</published>
+	<updated>2019-07-25T19:57:41Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<summary type="text">Read receipts should be under the control of the recipient, not the sender. Full stop.</summary>
+	<content type="html" xml:base="https://daringfireball.net/" xml:lang="en"><![CDATA[
+<p>Mike Davidson, “<a href="https://mikeindustries.com/blog/archive/2019/07/superhumans-superficial-privacy-fixes-do-not-prevent-it-from-spying-on-you">Superhuman’s Superficial Privacy Fixes Do Not Prevent It From Spying on You</a>”:</p>
+
+<blockquote>
+  <p>Last week was a good week for privacy. Or was it?</p>
+
+<p>It took <a href="https://mikeindustries.com/blog/archive/2019/06/superhuman-is-spying-on-you">an article I almost didn’t publish</a> and tens of
+thousands of people <a href="https://twitter.com/search?q=https%3A%2F%2Fmikeindustries.com%2Fblog%2Farchive%2F2019%2F06%2Fsuperhuman-is-spying-on-you&amp;src=typed_query">saying they were creeped out</a>, but
+Superhuman <a href="https://blog.superhuman.com/read-statuses-bdf0cc34b6a5">admitted they were wrong and reduced the danger that
+their surveillance pixels introduce</a>. Good on Rahul Vohra and
+team for that.</p>
+
+<p>I will say, however, that I’m a little surprised how quickly some
+people are rolling over and giving Superhuman credit for fixing a
+problem that they didn’t actually fix. From tech press articles
+implying that the company quickly closed all of its privacy
+issues, to friends sending me nice notes, I don’t think people are
+paying close enough attention here. This is not “<a href="https://en.wikipedia.org/wiki/Mission_Accomplished_speech">Mission
+Accomplished</a>” for ethical product design or privacy — at all.</p>
+</blockquote>
+
+<p>If you haven’t been following this saga from earlier this month, it’s well worth your time to read the whole thing, including <a href="https://mikeindustries.com/blog/archive/2019/06/superhuman-is-spying-on-you">Davidson’s original post</a> and Superhuman CEO Rahul Vohra’s genuinely thoughtful — but ultimately unsatisfying — <a href="https://blog.superhuman.com/read-statuses-bdf0cc34b6a5">response</a>.</p>
+
+<p>Basically, Superhuman is an invitation-only Gmail front-end whose users seem to genuinely love it. But they embed tracking pixels in emails by default, and use these pixels to show the sender when (and until last week, <em>where</em>, which is truly fucked up) the recipient views them. They call them “read receipts”, and functionally they do work like read receipts, insofar as they indicate when you read a message. But real email read receipts are under the <em>recipient’s</em> control, and they’re a simple binary flag, read or unread — they don’t tell the sender how many times or when you view a message.</p>
+
+<p>I know that mailing list software generally includes tracking pixels. I don’t think that’s ethical either. On a personal level, though, with Superhuman, tracking when and how many times a recipient views a message is simply absurdly wrong.</p>
+
+<p>It’s also something the vast, overwhelming majority of people don’t even realize is possible. I’ve told the basic Superhuman tracking story to a few people over the last few weeks, and asked whether they realized this was possible; all of them expressed shock and many of them outrage as well. Email should be private, <em>and most people assume, incorrectly, that it is</em>. You have to be a web developer of some sort to understand how this is possible. Email is supposed to be like paper mail — you send it, they get it, and you have no idea whether they read it or not. It bounces back to you if they never even receive it, say, because you addressed it incorrectly. The original conception of email is completely private.</p>
+
+<p>But also, the original conception of email is that messages are plain text. No fonts, no styles, just plain text, with optional attachments. But those attachments are embedded in the message, not pulled from a server when the message is viewed. </p>
+
+<p>Once we allowed email clients to act as de facto web browsers, loading remote content from servers when messages are viewed, we opened up not just a can of worms but an entire case of canned worms. Every privacy exploit for a web browser is now a privacy exploit for email. But it’s worse, because people naturally assume that email is completely private. </p>
+
+<p>Read receipts should be under the control of the recipient, not the sender. Full stop. The strength of email is that it is open and decentralized, but that’s email’s weakness too. No closed messaging platform that I’m aware of allows for read receipts that are controlled by the sender, not the recipient.</p>
+
+<p>I think Superhuman should be ashamed of themselves for building this feature in the first place — particularly the geo-tracking. But ultimately, <em>email clients should defend against this</em>. The fact that this nonconsensual tracking is even possible should be treated as a serious bug in all email clients. Apple Mail — both on Mac and iOS — allows you to disable loading of remote images as a preference, but that breaks most graphically rich emails. Mail clients should allow remote images but load them anonymously, through a proxy server perhaps. I’m sure it’s a tricky problem to solve, but I’m convinced it can be solved.</p>
+
+<p>Email should be every bit as private as people assume that it is.</p>
+
+
+
+    ]]></content>
+  <title>★ Superhuman and Email Privacy</title></entry><entry>
+	<title>Facebook Negotiated Its Rules</title>
+	<link rel="alternate" type="text/html" href="https://www.bloomberg.com/opinion/articles/2019-07-23/facebook-negotiated-its-rules" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/rpx" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2019/07/23/levine-facebook" />
+	<id>tag:daringfireball.net,2019:/linked//6.35925</id>
+	<published>2019-07-23T20:08:01Z</published>
+	<updated>2019-07-23T20:08:03Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Great column from Matt Levine, writing for Bloomberg:</p>
+
+<blockquote>
+  <p>But the process wouldn’t be a <em>one-on-one negotiation</em>. It’s not
+like Congress would say “we want to regulate your data collection
+practices” and Facebook would say “hmm no we’d rather you didn’t”
+and Congress would say “okay you have good lawyers we give up.”
+Facebook’s main leverage against the FTC — “we don’t think we did
+anything wrong and if you insist on restricting our data
+collection we will see you in court” — just wouldn’t work to stop
+Congress from making a <em>law</em>, because it is irrelevant. Congress
+can make a law about data privacy even if no one has broken any
+previous laws. In fact that’s the best reason to make a law!
+“There is a bad thing that is happening, and there is no law
+against it, so we should make a law against it”: That is a
+perfectly sensible line of reasoning!</p>
+</blockquote>
+
+<div>
+<a  title="Permanent link to ‘Facebook Negotiated Its Rules’"  href="https://daringfireball.net/linked/2019/07/23/levine-facebook">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	
+	<link rel="alternate" type="text/html" href="https://textexpander.com/df/" />
+	<link rel="shorturl" href="http://df4.us/rpz" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/feeds/sponsors/2019/07/textexpander" />
+	<id>tag:daringfireball.net,2019:/feeds/sponsors//11.35927</id>
+	<author><name>Daring Fireball Department of Commerce</name></author>
+	<published>2019-07-23T19:18:08-04:00</published>
+	<updated>2019-07-31T13:45:06-04:00</updated>
+	<content type="html" xml:base="https://daringfireball.net/feeds/sponsors/" xml:lang="en"><![CDATA[
+<p>TextExpander: Unlock Your Productivity. Easily insert text snippets in any application from a library of content created by you and your team. Available for Mac, Windows, iPhone and iPad, and Chrome. Start your free 30 day trial today!</p>
+
+<div>
+<a  title="Permanent link to ‘TextExpander’"  href="https://daringfireball.net/feeds/sponsors/2019/07/textexpander">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+	<title>[Sponsor] TextExpander</title></entry><entry>
+	<title>Stop-Motion Version of ‘The Shining’ Made With Lego</title>
+	<link rel="alternate" type="text/html" href="https://www.fastcompany.com/90379245/this-fan-made-stop-motion-the-shining-took-60-hours-and-10000-legos-to-create" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/rpw" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2019/07/23/lego-the-shining" />
+	<id>tag:daringfireball.net,2019:/linked//6.35924</id>
+	<published>2019-07-23T19:04:48Z</published>
+	<updated>2019-07-23T19:04:49Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Beautiful work by filmmaker and Lego enthusiast Wim Laroy.</p>
+
+<div>
+<a  title="Permanent link to ‘Stop-Motion Version of ‘The Shining’ Made With Lego’"  href="https://daringfireball.net/linked/2019/07/23/lego-the-shining">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>BMW to Charge $80 Annual Fee for Apple CarPlay</title>
+	<link rel="alternate" type="text/html" href="https://www.caranddriver.com/news/a15530125/bmw-to-treat-apple-carplay-as-a-subscription-service-and-charge-customers-an-annual-fee/" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/rpv" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2019/07/23/bmw-carplay" />
+	<id>tag:daringfireball.net,2019:/linked//6.35923</id>
+	<published>2019-07-23T18:25:33Z</published>
+	<updated>2019-07-23T20:26:17Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Greg Fink, reporting for Car and Driver:</p>
+
+<blockquote>
+  <p>BMW will turn Apple CarPlay into a subscription service beginning
+with its 2019-model-year vehicles.</p>
+
+<p>The German automaker currently charges a one-time $300 to add
+Apple CarPlay capability to navigation-equipped BMW models. Going
+forward, though, navigation-equipped BMWs will come with CarPlay
+at no charge for one year. Following that first year, customers
+will need to pay an annual fee of $80 to maintain the relationship
+between their Apple device and their BMW’s infotainment system.</p>
+</blockquote>
+
+<p>That is some serious next-level bullshit right there.</p>
+
+<p><strong>Update:</strong> Turns out this story is 18 months old — and <a href="https://daringfireball.net/linked/2018/01/19/bmw-shitheads">I linked to it then</a>, too! — but is somehow making the rounds again now (perhaps because this is the year when it took effect).</p>
+
+<div>
+<a  title="Permanent link to ‘BMW to Charge $80 Annual Fee for Apple CarPlay’"  href="https://daringfireball.net/linked/2019/07/23/bmw-carplay">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>How to Use a Zebra Ink Cartridge With Studio Neat’s Mark One Pen</title>
+	<link rel="alternate" type="text/html" href="http://www.thingiverse.com/thing:3757570" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/rpu" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2019/07/23/how-to-use-a-zebra-ink-cartridge-with-studio-neats-mark-one-pen" />
+	<id>tag:daringfireball.net,2019:/linked//6.35922</id>
+	<published>2019-07-23T18:23:36Z</published>
+	<updated>2019-07-23T21:25:51Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>When <a href="https://daringfireball.net/linked/2019/07/19/mark-one-apollo-edition">I linked to Studio Neat’s Mark One: Apollo Edition</a> <a href="https://www.kickstarter.com/projects/danprovost/mark-one-apollo-11-limited-edition-space-pen">Kickstarter campaign</a> the other day, I mentioned that I use a Mark One using Zebra ink refills, thanks to a 3D-printed converter. A few readers asked how to obtain this converter. I’m linking here to the model. I don’t own a 3D printer — the guys at Studio Neat made this for me as a favor — but if you have access to a 3D printer this should get you started.</p>
+
+<p>The refills you need are the JSB-04 (0.4mm, very fine) or the JSB-05 (0.5mm, fine), and, of course, <a href="https://www.jetpens.com/Zebra-JSB-Gel-Pen-Refills/ct/788">you can get them at JetPens</a>.</p>
+
+<div>
+<a  title="Permanent link to ‘How to Use a Zebra Ink Cartridge With Studio Neat’s Mark One Pen’"  href="https://daringfireball.net/linked/2019/07/23/how-to-use-a-zebra-ink-cartridge-with-studio-neats-mark-one-pen">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Sony’s Proto-Walkman That Went to the Moon</title>
+	<link rel="alternate" type="text/html" href="https://m.youtube.com/watch?v=oJXRVyszFbo&amp;feature=youtu.be" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/rpt" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2019/07/23/sony-proto-walkman" />
+	<id>tag:daringfireball.net,2019:/linked//6.35921</id>
+	<published>2019-07-23T16:35:33Z</published>
+	<updated>2019-07-23T16:37:32Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>A fascinating lesson in the power of iteration. You get to a breakthrough like the original iPhone one step at a time.</p>
+
+<div>
+<a  title="Permanent link to ‘Sony’s Proto-Walkman That Went to the Moon’"  href="https://daringfireball.net/linked/2019/07/23/sony-proto-walkman">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Morning Brew</title>
+	<link rel="alternate" type="text/html" href="https://www.morningbrew.com/?utm_source=daring&amp;utm_medium=rss&amp;utm_campaign=feed" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/rpr" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2019/07/20/morning-brew" />
+	<id>tag:daringfireball.net,2019:/linked//6.35919</id>
+	<published>2019-07-20T17:33:00Z</published>
+	<updated>2019-07-20T17:33:28Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>My thanks to Morning Brew for sponsoring this week at Daring Fireball. There’s a reason over 1 million people (including me) start their day with Morning Brew — the daily email that delivers the latest news from Wall Street to Silicon Valley. Business news doesn’t have to be dry and dense. Morning Brew is to the point and funny.</p>
+
+<p>Make your mornings more enjoyable, for free. <a href="https://www.morningbrew.com/?utm_source=daring&amp;utm_medium=rss&amp;utm_campaign=feed">Check it out</a>.</p>
+
+<div>
+<a  title="Permanent link to ‘Morning Brew’"  href="https://daringfireball.net/linked/2019/07/20/morning-brew">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Instagram ‘Tag Cleaners’ Are Fighting Against Digital Vandalism</title>
+	<link rel="alternate" type="text/html" href="https://www.theverge.com/2019/7/19/20698192/instagram-moderation-tag-cleaners-digital-vandalism-gore-harassment-images-bianca-devins" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/rps" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2019/07/20/instagram-tag-cleaners" />
+	<id>tag:daringfireball.net,2019:/linked//6.35920</id>
+	<published>2019-07-20T17:32:46Z</published>
+	<updated>2019-07-20T17:32:48Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Megan Farokhmanesh, writing for The Verge:</p>
+
+<blockquote>
+  <p>Tag cleaners, as they call themselves, drown out gore, harassment,
+and more by flooding a user’s tagged photos with pleasant images.
+It’s benevolent spam. The most prolific accounts are usually
+reposting the same images ad nauseam in quick bursts.
+Randomfloweracc, run by a 17-year-old named Lori, uses cartoons
+like Rilakkuma or Hello Kitty. Naomi, owner of cute.cleanup, is
+also partial to Sanrio characters and rainbows. […]</p>
+
+<p>Instagram appears to have removed all of the tagged photos of
+Devins’ death, but there’s little to stop abusers from creating
+new accounts and restarting the cycle again. In the days
+following her death, The Verge noticed waves of these photos,
+both originating from the same accounts constantly reposting, as
+well as multiple new accounts cropping up. Reports filed by The
+Verge usually resulted in photos being taken down in minutes; but
+in some cases, that’s all it takes for any user to see them to
+begin with.</p>
+</blockquote>
+
+<p>What these “tag cleaners” are doing is clearly good. It’s heartwarming that they spend so much time on this. But it’s heart<em>breaking</em> that they have to do this in the first place. If Facebook truly cared, they could stop this hateful trolling in its tracks.</p>
+
+<div>
+<a  title="Permanent link to ‘Instagram ‘Tag Cleaners’ Are Fighting Against Digital Vandalism’"  href="https://daringfireball.net/linked/2019/07/20/instagram-tag-cleaners">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Today’s Proceeds From the Apollo Reddit App Are Going to the SPCA</title>
+	<link rel="alternate" type="text/html" href="https://www.reddit.com/r/apple/comments/cfmlca/i_build_the_apollo_reddit_app_and_im_donating_100/" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/rpq" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2019/07/20/selig-apollo-spca" />
+	<id>tag:daringfireball.net,2019:/linked//6.35918</id>
+	<published>2019-07-20T16:12:14Z</published>
+	<updated>2019-07-20T16:12:16Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Christian Selig:</p>
+
+<blockquote>
+  <p>So yeah, <em>to try to help some today 100% of Apollo’s proceeds
+(every penny I make) will be donated to the local SPCA animal
+shelter</em>. Apollo’s free to download with a Pro version that adds
+some extra features, as well as an Ultra version that adds a few
+more, so if you unlock those today it’ll be completely going to
+the animals and you get a little treat as a thank you for being
+awesome!</p>
+
+<p>You might remember we did the same thing a year ago <a href="https://www.reddit.com/r/apple/comments/95ezsl/so_apollo_made_508723_yesterday_yeah_no_joke_just/">and raised
+$5,000 for the SPCA</a>. I really want to try to hit $10,000 this
+time, I really think we can do it!</p>
+</blockquote>
+
+<p>Fantastic app, great cause. Apollo isn’t just a truly nice native iOS app; it simply makes Reddit readable for me.</p>
+
+<div>
+<a  title="Permanent link to ‘Today’s Proceeds From the Apollo Reddit App Are Going to the SPCA’"  href="https://daringfireball.net/linked/2019/07/20/selig-apollo-spca">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Jony Ive Describes the 20th Anniversary Macintosh in 1997</title>
+	<link rel="alternate" type="text/html" href="https://www.youtube.com/watch?v=GIFdBp8rbtA&amp;feature=youtu.be" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/rpp" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2019/07/19/ive-20th-anniversary-mac" />
+	<id>tag:daringfireball.net,2019:/linked//6.35917</id>
+	<published>2019-07-19T23:20:25Z</published>
+	<updated>2019-07-19T23:20:26Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>This was so early in Ive’s career that he still had hair, and went by “Jon Ive”. <a href="https://en.wikipedia.org/wiki/Twentieth_Anniversary_Macintosh">The 20th Anniversary Mac</a> was a weird beast, starting with the fact it commemorated the 20th anniversary of the company, not the Mac (which was 11 years old at the time). The main thing is it was never meant to sell at scale — it started at $7,500 and according to Wikipedia Apple only ever made 12,000 of them. It was a shipping prototype, effectively.</p>
+
+<p>But the design clearly presaged what we now know as the modern iMac, which effectively is the modern desktop: all-in-one design, LCD display (this was truly radical in 1997), good built-in speakers, and an attempt to minimize the tangle of cables most PCs and Macs had in the back. All the hallmarks of Ive’s design sense are there.</p>
+
+<div>
+<a  title="Permanent link to ‘Jony Ive Describes the 20th Anniversary Macintosh in 1997’"  href="https://daringfireball.net/linked/2019/07/19/ive-20th-anniversary-mac">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Mark One: Apollo Edition</title>
+	<link rel="alternate" type="text/html" href="https://www.kickstarter.com/projects/danprovost/mark-one-apollo-11-limited-edition-space-pen" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/rpo" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2019/07/19/mark-one-apollo-edition" />
+	<id>tag:daringfireball.net,2019:/linked//6.35916</id>
+	<published>2019-07-19T17:39:43Z</published>
+	<updated>2019-07-19T18:37:08Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>I’m <a href="https://daringfireball.net/s/studio+neat">a big fan of Studio Neat</a>, the two-man design studio of Tom Gerhardt and Dan Provost. Their <a href="https://www.studioneat.com/products/glif">Glif</a> is an amazing iPhone tripod mount (works with any size iPhone, or any other phone for that matter), and their <a href="https://www.studioneat.com/products/canopy">Canopy</a> turns Apple’s Magic Keyboard into my favorite portable iPad keyboard.</p>
+
+<p>One of their most recent products is a pen: <a href="https://www.studioneat.com/products/markone">the Mark One</a>. I’m using one as my daily carry right now (with a custom 3D-printed converter that lets me use <a href="https://daringfireball.net/s/zebra+sarasa">my beloved Zebra Sarasa</a> 0.5mm ink cartridges<sup>*</sup>). It’s a very nice pen and a beautiful, functional object. To commemorate the 50th anniversary of the Apollo 11 mission, they’ve created a limited edition version, on sale in an 8-day Kickstarter campaign that coincides with the dates of the Apollo 11 mission. The project is already funded three times over — most likely, I suppose, from fans of the standard Mark One — and this is the only opportunity to buy this edition. I’m in.</p>
+
+<p>See also: <a href="https://www.relay.fm/tc/52">Gerhardt and Provost talk about the Apollo Edition on the latest edition of their podcast, Thoroughly Considered</a>.</p>
+
+<p><small>
+* For years, I swore by 0.4mm Sarasas. But now that I’m older and my eyesight is deteriorating, I can’t print as small as I used to, so I switched to 0.5mm a while back and now I can’t believe I ever used the 0.4mm pens for so long. A tenth of a millimeter sounds like a negligible difference, but in practice, it’s the difference between “very fine” and “fine”.
+</small></p>
+
+<div>
+<a  title="Permanent link to ‘Mark One: Apollo Edition’"  href="https://daringfireball.net/linked/2019/07/19/mark-one-apollo-edition">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Ken Rosenthal on Jayson Stark</title>
+	<link rel="alternate" type="text/html" href="https://theathletic.com/1083108/2019/07/19/rosenthal-appreciating-the-passion-and-ability-of-jayson-stark-the-2019-spink-award-winner/?source=dailyemail" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/rpn" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2019/07/19/jayson-stark" />
+	<id>tag:daringfireball.net,2019:/linked//6.35915</id>
+	<published>2019-07-19T16:37:39Z</published>
+	<updated>2019-07-19T16:37:41Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Ken Rosenthal, writing for The Athletic:</p>
+
+<blockquote>
+  <p>Sometimes, I wish I could think like Jayson — and sometimes, with
+all the stuff ping-ponging around his brain, I’m grateful I
+cannot. But always, I wish I could write like him. Jayson’s
+writing is conversational, entertaining and often laugh-out-loud
+funny. He doesn’t take himself seriously. But he takes his
+audience extremely seriously, and considers no detail too small in
+his service of the reader.</p>
+
+<p>Among his many attributes, Jayson has a knack for engaging
+relatively obscure veterans who are keen observers of the game,
+and then elevating them to oracles in his columns. After a long
+night of October baseball, 99 percent of us will gather in the
+clubhouse around the star of the game. Jayson will be off in the
+corner, talking to whoever he has identified as this year’s Corky
+Miller or Casey Candaele or Skip Schumaker or Mark DeRosa — and
+naturally, getting the best stuff.</p>
+</blockquote>
+
+<p>Stark was a longtime baseball columnist for The Inquirer here in Philly. Back in the ’90s, he got an entire two-page spread in the Sunday Inquirer all to himself. My roommates and I used to fight over who got to read it first. I like The Athletic a lot, but I’d subscribe <em>just</em> to read Jayson Stark.</p>
+
+<div>
+<a  title="Permanent link to ‘Ken Rosenthal on Jayson Stark’"  href="https://daringfireball.net/linked/2019/07/19/jayson-stark">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>An Oral History of David Cone’s Perfect Game, 20 Years Ago Today</title>
+	<link rel="alternate" type="text/html" href="https://www.mlb.com/news/oral-history-of-david-cone-s-perfect-game" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/rpm" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2019/07/18/cone-perfect-game" />
+	<id>tag:daringfireball.net,2019:/linked//6.35914</id>
+	<published>2019-07-18T17:17:34Z</published>
+	<updated>2019-07-18T17:35:39Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>One of the greatest days in baseball history. What are the odds that this could happen on a day when Don Larsen threw the ceremonial first pitch to Yogi Berra? One of the things I always loved about David Cone is that he didn’t have the best stuff — he pitched with his mind as much as he did his arm.</p>
+
+<div>
+<a  title="Permanent link to ‘An Oral History of David Cone’s Perfect Game, 20 Years Ago Today’"  href="https://daringfireball.net/linked/2019/07/18/cone-perfect-game">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Mark Ritson on Apple’s Long-Term Brand Positioning</title>
+	<link rel="alternate" type="text/html" href="https://m.youtube.com/watch?v=1iAEqKH8ebE" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/rpl" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2019/07/18/ritson-apple-brand" />
+	<id>tag:daringfireball.net,2019:/linked//6.35913</id>
+	<published>2019-07-18T16:33:15Z</published>
+	<updated>2019-07-19T14:34:17Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>I enjoyed this quite a bit, but the big thing Ritson misses is that the fundamental reason why Apple’s brand is differentiated from its competitors isn’t about its advertising — it’s about the products themselves. The products themselves are differentiated — only iPhones run iOS, only Macs run MacOS. That’s where it starts, and the advertising only serves to point out <em>how</em> the products are different and <em>why</em> they’re better. The “Think Different” campaign was an exception, but that’s because at the time, Apple’s fundamental problem was that its products were not differentiated enough. That’s the thing many people misunderstand about Apple’s “product marketing” team. They don’t come in at the end and figure out how to advertise finished products; they’re right there at the beginning, helping define what the products actually are.</p>
+
+<div>
+<a  title="Permanent link to ‘Mark Ritson on Apple’s Long-Term Brand Positioning’"  href="https://daringfireball.net/linked/2019/07/18/ritson-apple-brand">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>All 104 James Bond Movie Villains Ranked</title>
+	<link rel="alternate" type="text/html" href="https://www.esquire.com/entertainment/movies/g2496/best-james-bond-villains-ranked/" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/rpk" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2019/07/17/bond-villains" />
+	<id>tag:daringfireball.net,2019:/linked//6.35912</id>
+	<published>2019-07-17T20:23:48Z</published>
+	<updated>2019-07-17T20:45:05Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Jacob Hall, writing for Esquire:</p>
+
+<blockquote>
+  <p>They say a James Bond movie is only as good as its villain. That’s not always true—weak bad guys unwind fantastic Bond movies. Stellar villains elevate terrible installments. While England’s top spy has gone head-to-head against a variety of foes, you can’t deny that some have served as meatier adversaries as others. That’s why we have to do what any Bond fan must do: rank every single James Bond villain in a big list.</p>
+</blockquote>
+
+<p>Points to Hall for comprehensiveness — there are 24 Bond movies, with at least one boss and several henchmen in each film. I think he gets the order largely right, but there’s a lot to quibble with. (5th place isn’t shabby on a list of 104, but I’d rank Auric Goldfinger in the top 3, <em>at least</em> — he’s the quintessential Bond villain.)</p>
+
+<p>The other thing I disagree with is putting Blofeld down as a single character. He appears in 7 films but, in the films in which we see his face, was never played by the same actor twice (yet). Hall’s rankings include the actors’ performances — I’d say each actor’s Blofeld should be included separately — or at least we need a separate list of ranked Blofelds. I’d go with: Donald Pleasence, Christoph Waltz, Charles Gray, Telly Savalas, Max von Sydow — and I’d probably put Pleasence’s Blofeld in the top 3 overall. Like Goldfinger, he’s quintessential. And the goofy unnamed “Blofeld” whom Roger Moore’s Bond tosses out of a helicopter and into a chimney in the dreadfully awkward  opening scene of <em>For Your Eyes Only</em> ought to be dead last on the whole list.</p>
+
+<div>
+<a  title="Permanent link to ‘All 104 James Bond Movie Villains Ranked’"  href="https://daringfireball.net/linked/2019/07/17/bond-villains">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Supreme Court Justice John Paul Stevens, Who Led Liberal Wing, Dies at 99</title>
+	<link rel="alternate" type="text/html" href="https://www.nytimes.com/2019/07/16/us/john-paul-stevens-dead.html" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/rpj" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2019/07/17/john-paul-stevens-rip" />
+	<id>tag:daringfireball.net,2019:/linked//6.35911</id>
+	<published>2019-07-17T19:24:51Z</published>
+	<updated>2019-07-17T19:37:24Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Linda Greenstone’s obituary for The New York Times is utterly compelling. This anecdote says a lot:</p>
+
+<blockquote>
+  <p>Justice Stevens was known around the court for treating others with sensitivity and respect. One former law clerk, Christopher L. Eisgruber, described in a 1993 essay an incident at a party for new clerks: Before Justice Stevens arrived, an older male justice had instructed one of the few female clerks present to serve coffee. When Justice Stevens entered, he quickly grasped the situation, walked up to the young woman and said: “Thank you for taking your turn with the coffee. I think it’s my turn now.” He took over the job.</p>
+</blockquote>
+
+<div>
+<a  title="Permanent link to ‘Supreme Court Justice John Paul Stevens, Who Led Liberal Wing, Dies at 99’"  href="https://daringfireball.net/linked/2019/07/17/john-paul-stevens-rip">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>NYT: ‘Notre-Dame Came Far Closer to Collapsing Than People Knew’</title>
+	<link rel="alternate" type="text/html" href="https://www.nytimes.com/interactive/2019/07/16/world/europe/notre-dame.html?action=click&amp;auth=login-email&amp;login=email&amp;module=Top%20Stories&amp;pgtype=Homepage" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/rpi" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2019/07/17/nyt-notre-dame" />
+	<id>tag:daringfireball.net,2019:/linked//6.35910</id>
+	<published>2019-07-17T18:16:56Z</published>
+	<updated>2019-07-17T18:20:01Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>The New York Times:</p>
+
+<blockquote>
+  <p>The New York Times conducted scores of interviews and reviewed hundreds of documents to reconstruct the missteps — and the battle that saved Notre-Dame in the first four critical hours after the blaze began.</p>
+
+<p>What became clear is just how close the cathedral came to collapsing.</p>
+
+<p>The first hour was defined by that initial, critical mistake: the failure to identify the location of the fire, and by the delay that followed.</p>
+
+<p>The second hour was dominated by a sense of helplessness. As people raced to the building, waves of shock and mourning for one of the world’s most beloved and recognizable buildings, amplified over social media, rippled in real time across the globe.</p>
+
+<p>That Notre-Dame still stands is due solely to the enormous risks taken by firefighters in those third and fourth hours.</p>
+</blockquote>
+
+<p>Fascinating investigative journalism and excellently illustrated presentation on the web. Highly recommend reading on an iPad.</p>
+
+<div>
+<a  title="Permanent link to ‘NYT: ‘Notre-Dame Came Far Closer to Collapsing Than People Knew’’"  href="https://daringfireball.net/linked/2019/07/17/nyt-notre-dame">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+    
+    <link rel="alternate" type="text/html" href="https://daringfireball.net/2019/07/another_zoom_update" />
+	<link rel="shorturl" href="http://df4.us/rph" />
+	<id>tag:daringfireball.net,2019://1.35909</id>
+	<published>2019-07-17T03:59:40Z</published>
+	<updated>2019-07-23T20:22:40Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<summary type="text">I think Apple has struck a nearly perfect balance here, between doing what’s right for most users (installing these rare emergency updates automatically) and doing what’s right for power users who really do want to control when all updates — even essential ones — are installed.</summary>
+	<content type="html" xml:base="https://daringfireball.net/" xml:lang="en"><![CDATA[
+<p><a href="https://www.buzzfeednews.com/article/nicolenguyen/ringcentral-and-zhumu-customers-vulnerability">Nicole Nguyen, reporting for BuzzFeed News</a>:</p>
+
+<blockquote>
+  <p>The fallout from <a href="https://www.buzzfeednews.com/article/nicolenguyen/zoom-webcam-hacker-watching-you-vulnerability">Zoom’s massive webcam vulnerability</a>
+continues. In <a href="https://twitter.com/karanlyons/status/1150774640899317760">a report published today</a>, security researcher
+Karan Lyons shows that the same flaw — which gave attackers easy
+access to laptop cameras and microphones — affects RingCentral,
+which is used by over 350,000 businesses, as well as Zhumu,
+essentially the Chinese version of Zoom.</p>
+
+<p>On July 16, Apple confirmed that it had released another silent
+update to Macs patching the vulnerability affecting Zoom’s partner
+apps. The update, which went out this morning, requires no user
+action, but may take some time to roll out to all impacted Macs.
+Lyons tweeted that Apple’s latest update takes action on 11
+different apps, all vulnerable to the Zoom webcam flaw.</p>
+</blockquote>
+
+<p>So here’s an interesting question. I’ve <a href="https://daringfireball.net/linked/2019/07/10/nguyen-zoom">been</a> <a href="https://daringfireball.net/linked/2019/07/11/macos-zoom-update">using</a> the phrase “nonconsensual technology” to describe Zoom’s invisible web server that remained installed and running even after you deleted the Zoom app. But when Apple first issued a silent, emergency system update to remove Zoom’s software, a few DF readers emailed or <a href="https://twitter.com/braz/status/1149453237843582978">tweeted</a> <a href="https://twitter.com/mwa4/status/1149675707016105985">to ask</a>: <em>Isn’t this “nonconsensual technology” too?</em></p>
+
+<p>Clearly, the answer sounds like yes at first. Users get no indication of the update, and “requires no user action” makes it sound like it’s mandatory. But there <em>is</em> a setting to control this, allowing Mac users to disable the automatic installation of such updates. On MacOS 10.14 Mojave, it’s in System Prefs → Software Update → Advanced (<a href="/misc/2019/07/macos-10-14-system-prefs.png">screenshot</a>); on 10.13 High Sierra, it’s in System Prefs → App Store (<a href="/misc/2019/07/macos-10-13-system-prefs.png">screenshot</a>). In both versions, the checkbox is labeled “Install system data files and security updates”, and resides at the bottom of the section that controls what gets installed automatically.</p>
+
+<p>This option is enabled by default — even if you choose to install regular system updates manually — which is why the vast majority of Mac users are getting these “silent” updates automatically. But if you disable this option, even these silent updates won’t be installed automatically. I confirmed this with an Apple spokesperson, who emphasized that Apple only issues such updates “extremely judiciously”. Any pending security updates will be installed the next time you manually update software.</p>
+
+<p>I think Apple has struck a nearly perfect balance here, between doing what’s right for most users (installing these rare emergency updates automatically) and doing what’s right for power users who really do want to control when updates — even essential ones — are installed. I also think Apple is doing the right thing by going to the press and explaining when they issue such updates. If I could tweak anything, it would be to have these updates show up in the regular list of pending software updates <em>if</em> you have “Install system data files and security updates” turned off.</p>
+
+
+
+    ]]></content>
+  <title>★ Apple Is Sending Out Another Silent Update To Fix the Webcam Flaw in Zoom’s Partner Apps</title></entry><entry>
+	<title>Business Insider: ‘Google Is Trying to Convince Congress It Has Search Competition’</title>
+	<link rel="alternate" type="text/html" href="https://www.businessinsider.com/google-tries-convince-congress-search-competition-2019-7" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/rpg" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2019/07/16/google-search-monopoly" />
+	<id>tag:daringfireball.net,2019:/linked//6.35908</id>
+	<published>2019-07-16T21:53:47Z</published>
+	<updated>2019-07-16T21:53:48Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Nick Bastone, reporting for Business Insider:</p>
+
+<blockquote>
+  <p>“In our core search business, consumers can choose among a range
+of options: Bing, DuckDuckGo, Yahoo, and many more,” Cohen said.
+“Specialized search services are strong competitors, too,
+including companies like Amazon, eBay, Kayak, Travelocity, Yelp,
+and others.”</p>
+
+<p>But recent statistics paint a different picture. According to
+StatCounter, Google accounts for over 92% of the search engine
+market share worldwide as of this June.</p>
+
+<p>Its closest competitor, Bing, accounted for just over 2.5% of
+the market.</p>
+</blockquote>
+
+<p><em>Competition</em> isn’t the right word. Yes, there are competing search engines, clearly. The right word is <em>monopoly</em>, and it’s just as clear that Google has a very strong monopoly on the search engine market. Monopolies aren’t illegal — but monopoly holders are subject to regulations that non-monopoly competitors are not. That’s the issue. Google’s argument shouldn’t be to simply say that they have competition, it should be to say that they compete fairly.</p>
+
+<p>That might be a tough argument for them to make while under oath.</p>
+
+<div>
+<a  title="Permanent link to ‘Business Insider: ‘Google Is Trying to Convince Congress It Has Search Competition’’"  href="https://daringfireball.net/linked/2019/07/16/google-search-monopoly">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>The Omega Speedmaster: The Watch That Went to the Moon</title>
+	<link rel="alternate" type="text/html" href="https://www.theatlantic.com/science/archive/2019/07/omega-speedmaster-watch-went-moon/594052/" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/rpe" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2019/07/16/omega-speedmaster" />
+	<id>tag:daringfireball.net,2019:/linked//6.35906</id>
+	<published>2019-07-16T20:41:06Z</published>
+	<updated>2019-07-16T20:41:07Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Krishnadev Calamur, writing for The Atlantic:</p>
+
+<blockquote>
+  <p>In other words, the Speedmaster and watches like it provide a
+sense of permanence in an age with little of it. The Speedmaster
+available today is virtually the same as the one Aldrin wore on
+the moon, or indeed the one Omega introduced way back in 1957, as
+a tool for race-car drivers.</p>
+
+<p>It is unchanged because there’s nothing <em>to</em> change: The
+mechanical watch is, along with the bicycle, an arguably perfect
+invention. If wound every day and serviced regularly, it can run
+for perpetuity. There aren’t many things you can say that about in
+our era of fast fashion and biennial phone upgrades.</p>
+</blockquote>
+
+<p>This is, to me, exactly the appeal of mechanical watches.</p>
+
+<div>
+<a  title="Permanent link to ‘The Omega Speedmaster: The Watch That Went to the Moon’"  href="https://daringfireball.net/linked/2019/07/16/omega-speedmaster">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+    
+    <link rel="alternate" type="text/html" href="https://daringfireball.net/2019/07/gates_biggest_mistake" />
+	<link rel="shorturl" href="http://df4.us/rpd" />
+	<id>tag:daringfireball.net,2019://1.35905</id>
+	<published>2019-07-16T01:51:51Z</published>
+	<updated>2019-07-16T21:14:39Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<summary type="text">If losing the mobile market to Android was Gates’s biggest mistake, you can argue it started when he agreed to support Apple and the Mac in 1997.</summary>
+	<content type="html" xml:base="https://daringfireball.net/" xml:lang="en"><![CDATA[
+<p><a href="https://daringfireball.net/linked/2019/07/15/word-1-billion">Speaking of</a> Microsoft and mobile, <a href="https://www.theverge.com/2019/6/24/18715202/microsoft-bill-gates-android-biggest-mistake-interview">this story caught my eye a few weeks ago</a>:</p>
+
+<blockquote>
+  <p>Microsoft co-founder Bill Gates has been reflecting on his time at
+the company when crucial decisions were made over its mobile
+operating system. During a recent interview at Village Global, a
+venture capital firm, Gates revealed his “greatest mistake ever”
+was Microsoft missing the Android opportunity:</p>
+
+<p>“In the software world, particularly for platforms, these are
+winner-take-all markets. So the greatest mistake ever is whatever
+mismanagement I engaged in that caused Microsoft not to be what
+Android is. That is, Android is the standard non-Apple phone
+platform. That was a natural thing for Microsoft to win. It really
+is winner take all. If you’re there with half as many apps or 90
+percent as many apps, you’re on your way to complete doom. There’s
+room for exactly one non-Apple operating system and what’s that
+worth? $400 billion that would be transferred from company G to
+company M.”</p>
+</blockquote>
+
+<p>A lot of the response to this has focused — correctly — on the antitrust implications of Gates’s “winner takes all” acknowledgement. Nilay Patel had a strong take: “<a href="https://www.theverge.com/2019/6/24/18715702/bill-gates-regulate-platforms-network-effect-android-mistake-microsoft">Bill Gates Accidentally Makes the Case to Regulate the Hell Out of Platform Companies</a>”.<sup id="fnr1-2019-07-15"><a href="#fn1-2019-07-15">1</a></sup></p>
+
+<p>But I’m fascinated by the way he phrased the opportunity that Google seized with Android: to be “the standard non-Apple phone platform”. It’s just assumed in his thinking that the iPhone would have been the iPhone no matter what. Historically, that sounds bananas coming out of Bill Gates’s mouth.</p>
+
+<p>You can make a strong case, too, that Apple might not have survived its 1996-97 nadir without Microsoft’s support. I’ve always felt <a href="https://www.wired.com/2009/08/dayintech-0806/">the $150 million investment in Apple</a> that Microsoft made in 1997 was overrated. It just wasn’t <em>that</em> much money, even for Apple at that time.<sup id="fnr2-2019-07-15"><a href="#fn2-2019-07-15">2</a></sup> It was symbolic theater — and it worked. The value for Apple wasn’t the money itself but the public show of confidence from Microsoft — the message that Microsoft was supporting Apple, not trying to crush them.</p>
+
+<p>But the real benefit for Apple — the factor that I think truly helped save the company — was securing a promise that Microsoft would continue to work on Office for Mac for at least another five years. And it wasn’t just token “support” — <a href="https://en.wikipedia.org/wiki/Microsoft_Office_98_Macintosh_Edition">Office 98 for Mac</a> was a major update and <a href="https://blogs.msdn.microsoft.com/rick_schaut/2004/02/26/mac-word-6-0/">truly improved the Mac-like-ness of the apps</a>. Here we are 22 years later and the Office for Mac apps are chart-toppers in the App Store.</p>
+
+<p>I don’t think it’s hyperbole to argue that the Mac probably wouldn’t have survived without Office, and possibly without a <em>good</em> version of Office. And in 1997 Apple wouldn’t have survived if the Mac platform hadn’t made a resurgence. Apple’s own iWork suite — Pages, Numbers, Keynote — didn’t ship until 2005. Microsoft Office singlehandedly kept the Mac a credible platform for classic productivity apps for 8 years.</p>
+
+<p>There were other third-party developers that Apple was dependent upon back then. Adobe certainly comes to mind — Apple needed the graphic design and illustration market, and that required (and still does require) Adobe’s pro apps. But it was never in Adobe’s interest <em>not</em> to continue supporting the Mac. If anything, it was in Adobe’s own interest to see the Mac thrive so that Adobe wouldn’t be dependent solely upon Microsoft and Windows.</p>
+
+<p>Microsoft, of course, <a href="https://en.wikipedia.org/wiki/United_States_v._Microsoft_Corp.">had some serious antitrust problems in the ’90s</a>. If not for U.S. v. Microsoft, though, I wonder whether Gates would’ve chosen to drop Office for Mac and let Apple wither. I’m not saying anyone could have or should have predicted the iPhone and Apple’s dominance of mobile profits all the way back in 1997. Nobody really predicted what the iPhone would be in 2007, even. But if Microsoft had an inkling of what the iPhone would become, and where Android would come in and take over as, in Gates’s own words, “the standard non-Apple phone platform” by fast-following the iPhone’s basic all-display, all-multitouch design, maybe they’d have thought differently about helping Apple recover in 1997. With no Office 98, there might not have been an Apple to even make the iPhone in 2007. And <a href="https://www.technobuffalo.com/android-before-and-after-the-iphone">with no iPhone in 2007</a> it’s impossible to say what the mobile phone state of the art would look like today. Without the iPhone, I think there’s a chance the mobile market would have continued on the same course it was on before the iPhone: dominated by crap software and BlackBerry-style hardware, with the carriers calling the shots. In that world, Microsoft might’ve had a chance.</p>
+
+<p>If losing the mobile market to Android was Gates’s biggest mistake, you can argue it started when he agreed to support Apple and the Mac in 1997.</p>
+
+<div class="footnotes">
+<hr />
+<ol>
+
+<li id="fn1-2019-07-15">
+<p>I’d be curious to hear Gates’s take on the console market, where there are <em>two</em> longstanding platforms — PlayStation and Xbox — sharing the non-Nintendo segment of the market. (Clearly Nintendo is the Apple of gaming.) With better licensing terms (Android being free of charge and open source was a huge boon compared to Microsoft’s mobile licensing) and a faster follow on an iPhone-inspired design, I’m not convinced that Windows Phone could not have been Xbox to Android’s Playstation.&nbsp;<a href="#fnr1-2019-07-15"  class="footnoteBackLink"  title="Jump back to footnote 1 in the text.">&#x21A9;&#xFE0E;︎</a></p>
+</li>
+
+<li id="fn2-2019-07-15">
+<p>Microsoft sold its Apple shares in 2003. If they’d held onto them for another decade <a href="https://www.engadget.com/2014/05/20/what-ever-became-of-microsofts-150-million-investment-in-apple/">they would’ve made $20-30 billion</a>. Not that Microsoft has ever been strapped for cash.&nbsp;<a href="#fnr2-2019-07-15"  class="footnoteBackLink"  title="Jump back to footnote 2 in the text.">&#x21A9;&#xFE0E;</a></p>
+</li>
+
+</ol>
+</div>
+
+
+
+    ]]></content>
+  <title>★ On Bill Gates’s ‘Greatest Mistake Ever’</title></entry><entry>
+	<title>Chris Welch Reviews Sony’s WF-1000XM3 Noise-Canceling Earbuds</title>
+	<link rel="alternate" type="text/html" href="https://www.theverge.com/2019/7/5/20682334/sony-wf-1000xm3-wireless-earbuds-hands-on-preview-features" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/rpc" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2019/07/15/welch-sony-earbuds" />
+	<id>tag:daringfireball.net,2019:/linked//6.35904</id>
+	<published>2019-07-15T23:57:54Z</published>
+	<updated>2019-07-16T20:17:29Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>$230, but they have active noise cancellation and a bunch of different sizes for the rubber nubbins that go in your ear. I think they look very nice, and they definitely look very <em>Sony</em>. It’s good to see that Sony still has it. The biggest downside: they’re not water resistant. </p>
+
+<p>(Also a little frustrating that the company that came up with great names like Walkman, PlayStation, and Trinitron couldn’t come up with a better name than “WF-1000XM3”. Jiminy.)</p>
+
+<div>
+<a  title="Permanent link to ‘Chris Welch Reviews Sony’s WF-1000XM3 Noise-Canceling Earbuds’"  href="https://daringfireball.net/linked/2019/07/15/welch-sony-earbuds">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Microsoft Word Passes 1 Billion Installs on Google Play Store</title>
+	<link rel="alternate" type="text/html" href="https://www.androidpolice.com/2019/07/12/microsoft-word-1-billion/" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/rpb" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2019/07/15/word-1-billion" />
+	<id>tag:daringfireball.net,2019:/linked//6.35903</id>
+	<published>2019-07-15T20:49:48Z</published>
+	<updated>2019-07-15T23:34:20Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Corbin Davenport, writing for Android Police:</p>
+
+<blockquote>
+  <p>Even though cloud-based productivity suites like Google Docs are
+incredibly popular, many people (and large corporations) still
+operate on good ol’ Microsoft Office. The Word text processor was
+Microsoft’s first Android app to pass 500 million installs on the
+Play Store, and a little over a year later, it has now passed the
+1 billion mark.</p>
+
+<p>As with most apps that reach this many installations, the count
+isn’t made up entirely of downloads from the Play Store. Microsoft
+has agreements with Samsung and other manufacturers to pre-install
+Word (and several other apps) on phones and tablets, so there’s a
+good chance many of those billion installations come from devices
+where the app has never been opened.</p>
+</blockquote>
+
+<p>The Office apps are very popular on iOS too, of course. It makes sense that Microsoft put so much effort into trying get Windows Phone off the ground — they knew that mobile was going to be a huge part of the Office franchise. Turns out it just wasn’t on their own platform.</p>
+
+<div>
+<a  title="Permanent link to ‘Microsoft Word Passes 1 Billion Installs on Google Play Store’"  href="https://daringfireball.net/linked/2019/07/15/word-1-billion">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Peter Thiel Says FBI and CIA Should Probe Google</title>
+	<link rel="alternate" type="text/html" href="https://www.axios.com/peter-thiel-says-fbi-cia-should-probe-google-9846a042-e689-49bc-bdc7-595988ce5d8c.html" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/rpa" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2019/07/15/thiel-china" />
+	<id>tag:daringfireball.net,2019:/linked//6.35902</id>
+	<published>2019-07-15T20:43:14Z</published>
+	<updated>2019-07-16T00:50:18Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Peter Thiel, in a speech to the National Conservatism Conference:</p>
+
+<blockquote>
+  <p>Number one, how many foreign intelligence agencies have
+infiltrated your Manhattan Project for AI?</p>
+
+<p>Number two, does Google’s senior management consider itself to
+have been thoroughly infiltrated by Chinese intelligence?</p>
+
+<p>Number three, is it because they consider themselves to be so
+thoroughly infiltrated that they have engaged in the seemingly
+treasonous decision to work with the Chinese military and not with
+the US military… because they are making the sort of bad,
+short-term rationalistic [decision] that if the technology doesn’t
+go out the front door, it gets stolen out the backdoor anyway?</p>
+</blockquote>
+
+<p>I don’t know if there’s any merit to these accusations, but that’s a hell of a thing for Thiel to accuse Google of.</p>
+
+<div>
+<a  title="Permanent link to ‘Peter Thiel Says FBI and CIA Should Probe Google’"  href="https://daringfireball.net/linked/2019/07/15/thiel-china">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Washington Post: ‘Apple Preaches Privacy. Lawmakers Want the Talk to Turn to Action.’</title>
+	<link rel="alternate" type="text/html" href="https://www.washingtonpost.com/technology/2019/07/15/apple-preaches-privacy-lawmakers-want-talk-turn-action/" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/rp9" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2019/07/15/apple-privacy-legislation" />
+	<id>tag:daringfireball.net,2019:/linked//6.35901</id>
+	<published>2019-07-15T20:21:35Z</published>
+	<updated>2019-07-15T20:21:37Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Reed Albergotti and Tony Romm, reporting for The Washington Post:</p>
+
+<blockquote>
+  <p>While Apple formally supports the notion of a federal privacy law,
+the company has yet to formally back any bills proposed on the
+Hill — unlike Microsoft. “I would argue there’s a need for Apple
+to be a more vocal part of this debate,” said Sen. Mark R. Warner
+(D-Va.), a fierce critic of tech companies for their privacy
+violations. […]</p>
+
+<p>“If you are going to use the value of privacy in your marketing, I
+think you have an obligation to your consumers to tell us what
+that means,” said India McKinney, a legislative analyst for the
+Electronic Frontier Foundation, a civil liberties organization
+that advocates for Internet privacy and security.</p>
+
+<p>McKinney noted that Apple hasn’t signed on to privacy legislation
+that other companies, such as Web browser DuckDuckGo, have
+supported, including an amendment to the new California law that
+prevents consumer data collection by default and gives citizens
+the right to sue tech companies for violations. If Apple were to
+throw its weight behind strong privacy protections even at the
+state level, it would help counter pressure from other large tech
+companies to water down the legislation, she said. “That would
+make headlines. That would be really useful,” she said.</p>
+</blockquote>
+
+<p>Interesting dilemma on this one. I can see the argument that without backing specific legislation, Apple’s privacy stance is insular, guiding only its own products and services. But do we really want any private companies, even Apple, dictating the terms of public policy? Do Facebook and Google get a seat at the table?</p>
+
+<div>
+<a  title="Permanent link to ‘Washington Post: ‘Apple Preaches Privacy. Lawmakers Want the Talk to Turn to Action.’’"  href="https://daringfireball.net/linked/2019/07/15/apple-privacy-legislation">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Nilay Patel: ‘Facebook’s $5 Billion FTC Fine Is an Embarrassing Joke’</title>
+	<link rel="alternate" type="text/html" href="https://www.theverge.com/2019/7/12/20692524/facebook-five-billion-ftc-fine-embarrassing-joke" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/rp8" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2019/07/13/facebook-patel" />
+	<id>tag:daringfireball.net,2019:/linked//6.35900</id>
+	<published>2019-07-13T20:40:48Z</published>
+	<updated>2019-07-13T20:42:23Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Nilay Patel, writing for The Verge:</p>
+
+<blockquote>
+  <p>That, as The New York Times’ Mike Isaac points out, is the real story here: the United States government spent months coming up with a punishment for Facebook’s long list of privacy-related bad behavior, and the best it could do was so weak that Facebook’s stock price went up.[…]</p>
+
+<p>From some other perspectives, that $5 billion fine is a big deal, of course: it’s the biggest fine in FTC history, far bigger than the $22 million fine levied against Google in 2012. And $5 billion is a lot of money, to be sure. It’s just that like everything else that comes into contact with Facebook’s scale, it’s still entirely too small: Facebook had $15 billion in revenue last quarter alone, and $22 billion in <em>profit</em> last year.</p>
+</blockquote>
+
+<div>
+<a  title="Permanent link to ‘Nilay Patel: ‘Facebook’s $5 Billion FTC Fine Is an Embarrassing Joke’’"  href="https://daringfireball.net/linked/2019/07/13/facebook-patel">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Apple Brings Back Texas Hold’em</title>
+	<link rel="alternate" type="text/html" href="https://www.macstories.net/news/apple-brings-back-texas-holdem/" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/rp7" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2019/07/13/apple-holdem" />
+	<id>tag:daringfireball.net,2019:/linked//6.35899</id>
+	<published>2019-07-13T16:08:28Z</published>
+	<updated>2019-07-13T16:08:29Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>John Voorhees, writing for MacStories:</p>
+
+<blockquote>
+  <p>When the App Store opened for business in 2008, Apple released
+<a href="https://apps.apple.com/us/app/texas-holdem/id284602850">Texas Hold’em</a>, <a href="https://www.macstories.net/stories/game-on-a-decade-of-ios-gaming/">the company’s first and only iOS game</a> and successor
+to an iPod version that debuted in 2006. The game, which <a href="https://www.macstories.net/ios/some-of-apples-forgotten-ios-apps/">Stephen
+Hackett profiled for MacStories</a> last year was short-lived,
+disappearing from the App Store in 2011.</p>
+
+<p>In the eight years since the game’s release, Apple has left the
+iOS game market to third-party developers, with the exception of
+Warren Buffett’s Paper Wizard. Today, however, the company
+released an updated version, which was spotted by <a href="https://9to5mac.com/2019/07/08/apple-revives-classic-texas-hold-em-ios-game-to-mark-10-years-of-the-app-store/">an eagle-eyed
+9to5Mac reader</a>. Strangely, the game’s description says the
+release is meant to celebrate the App Store’s 10th Anniversary,
+which occurred last July 10th, not quite 11 years ago today.</p>
+</blockquote>
+
+<p>I find this so fascinating. First, I actually enjoy this game. I’m sure there are better poker games in the App Store now — or at least smarter ones — but the game mechanics of this one, in landscape mode, are just fun. But why bring it back now? Why say it’s to commemorate the App Store’s 10th anniversary after its 11th anniversary? Was this meant for last year but held up for a year for some reason?</p>
+
+<p>It’s also interesting what they’ve updated and what they haven’t. They’ve switched the font to San Francisco (but maybe that’s just because they were always specifying the system font), and it adapts to fit the iPhone X-class displays, but there’s still no iPad version and still no iCloud syncing across devices. For the most part, the game seems unchanged. Oh, and in a sign of the times, the price dropped from $4.99 to free.</p>
+
+<div>
+<a  title="Permanent link to ‘Apple Brings Back Texas Hold’em’"  href="https://daringfireball.net/linked/2019/07/13/apple-holdem">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>FTC Approves Roughly $5 Billion Facebook Settlement</title>
+	<link rel="alternate" type="text/html" href="https://www.wsj.com/articles/ftc-approves-roughly-5-billion-facebook-settlement-11562960538" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/rp6" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2019/07/12/ftc-facebook-fine" />
+	<id>tag:daringfireball.net,2019:/linked//6.35898</id>
+	<published>2019-07-12T23:58:58Z</published>
+	<updated>2019-07-12T23:59:00Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Emily Glazer, Ryan Tracy, and Jeff Horwitz, reporting for The Wall Street Journal:</p>
+
+<blockquote>
+  <p>The Federal Trade Commission has endorsed a roughly $5 billion
+settlement with Facebook Inc. over a long-running probe into the
+tech giant’s privacy missteps, according to people familiar with
+the matter.</p>
+
+<p>FTC commissioners this past week voted 3-2 in favor of the
+agreement, with the Republican majority backing the pact while
+Democratic commissioners objected, the people said. The matter has
+been moved to the Justice Department’s civil division and it is
+unclear how long it will take to finalize, one of the people said.
+Justice Department reviews are part of FTC procedure but typically
+don’t change the outcome of a decision by the commission.</p>
+</blockquote>
+
+<p>I’m <a href="https://daringfireball.net/linked/2019/04/26/swisher-another-zero">still with</a> Kara Swisher on this — <a href="https://www.nytimes.com/2019/04/25/opinion/facebook-fine.html">add a zero and we might have a fine that will change Facebook</a>. $5 billion is just the cost of doing business.</p>
+
+<div>
+<a  title="Permanent link to ‘FTC Approves Roughly $5 Billion Facebook Settlement’"  href="https://daringfireball.net/linked/2019/07/12/ftc-facebook-fine">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Where Are All the Bob Ross Paintings?</title>
+	<link rel="alternate" type="text/html" href="https://www.nytimes.com/2019/07/12/arts/bob-ross-paintings-mystery.html" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/rp5" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2019/07/12/ross-paintings" />
+	<id>tag:daringfireball.net,2019:/linked//6.35897</id>
+	<published>2019-07-12T23:41:38Z</published>
+	<updated>2019-07-12T23:55:17Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Who would’ve thought that it’s next to impossible to buy an original Bob Ross? Delightful video piece from a team at The New York Times — I recommend just opening the link and hitting play.</p>
+
+<div>
+<a  title="Permanent link to ‘Where Are All the Bob Ross Paintings?’"  href="https://daringfireball.net/linked/2019/07/12/ross-paintings">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>‘Robot Umpires’ Debuted in the Atlantic League All-Star Game</title>
+	<link rel="alternate" type="text/html" href="https://www.google.com/amp/s/sports.yahoo.com/amphtml/robot-umpires-debuted-in-the-atlantic-league-all-star-game-heres-what-happened-041511972.html" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/rp4" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2019/07/12/robot-umps" />
+	<id>tag:daringfireball.net,2019:/linked//6.35896</id>
+	<published>2019-07-12T21:29:21Z</published>
+	<updated>2019-07-12T21:33:29Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Johnny Flores Jr., reporting for Yahoo Sports:</p>
+
+<blockquote>
+  <p>On Wednesday, the independent Atlantic League, which is a partner of Major League Baseball, debuted the electronic strike zone during its All-Star game, making it the first American professional league to do so.</p>
+
+<p>Home plate umpire Brian deBrauwere wore an earpiece that was connected to an iPhone in his pocket. The earpiece relayed balls and strikes after receiving it from a TrackMan computer system utilizing a Doppler radar and deBrauwere called them as he received them.</p>
+</blockquote>
+
+<p>Sounds like they need to work on the latency, but this is probably the future for all professional baseball.</p>
+
+<div>
+<a  title="Permanent link to ‘‘Robot Umpires’ Debuted in the Atlantic League All-Star Game’"  href="https://daringfireball.net/linked/2019/07/12/robot-umps">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+	<title>Former Tesla Employee Admits Uploading Autopilot Source Code to iCloud</title>
+	<link rel="alternate" type="text/html" href="https://www.theverge.com/platform/amp/2019/7/10/20689468/tesla-autopilot-trade-secret-theft-guangzhi-cao-xpeng-xiaopeng-motors-lawsuit-filing" />
+	<link rel="shorturl" type="text/html" href="http://df4.us/rp3" />
+	<link rel="related" type="text/html" href="https://daringfireball.net/linked/2019/07/12/autopilot-source-code" />
+	<id>tag:daringfireball.net,2019:/linked//6.35895</id>
+	<published>2019-07-12T20:14:50Z</published>
+	<updated>2019-07-12T20:19:22Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<content type="html" xml:base="https://daringfireball.net/linked/" xml:lang="en"><![CDATA[
+<p>Sean O’Kane, writing for The Verge:</p>
+
+<blockquote>
+  <p>Cao denied stealing sensitive information from the automaker in the same filing. His legal team argued he “made extensive efforts to delete and/or remove any such Tesla files prior to his separation from Tesla.” Cao is now the “head of perception” at XPeng, where he is “[d]eveloping and delivering autonomous driving technologies for production cars,” according to his LinkedIn profile.</p>
+</blockquote>
+
+<p>Uploading very sensitive source code to your personal iCloud account, then going to work for a Chinese competitor — sure sure, nothing suspicious about that.</p>
+
+<blockquote>
+  <p>According to a joint filing from the two parties that was also filed this week, Tesla has subpoenaed documents from Apple. While Apple is not involved in this case, a former employee who worked on the tech company’s secretive autonomous car project was charged by the FBI with stealing trade secrets last July.</p>
+
+<p>That employee allegedly Air Dropped sensitive data to his wife’s laptop and was also caught on CCTV leaving Apple’s campus with a box of equipment. He had left his job at Apple to take a position at XPeng before being arrested.</p>
+</blockquote>
+
+<p>I’m starting to think this XPeng company isn’t on the up and up.</p>
+
+<div>
+<a  title="Permanent link to ‘Former Tesla Employee Admits Uploading Autopilot Source Code to iCloud’"  href="https://daringfireball.net/linked/2019/07/12/autopilot-source-code">&nbsp;★&nbsp;</a>
+</div>
+
+	]]></content>
+  </entry><entry>
+    
+    <link rel="alternate" type="text/html" href="https://daringfireball.net/2019/07/on_the_post-ive_future_of_design_at_apple" />
+	<link rel="shorturl" href="http://df4.us/roh" />
+	<id>tag:daringfireball.net,2019://1.35873</id>
+	<published>2019-07-04T00:31:12Z</published>
+	<updated>2019-07-06T15:17:03Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<summary type="text">Tim Cook didn’t move design under operations; he promoted Williams to a new position, effectively “chief product officer”.</summary>
+	<content type="html" xml:base="https://daringfireball.net/" xml:lang="en"><![CDATA[
+<p><a href="https://www.imore.com/after-jony-ive-whats-future-design-apple">I did a brief chat with Rene Ritchie for Vector, his YouTube show, over the weekend</a>. I thought it was a great little interview — far more condensed than <a href="https://daringfireball.net/thetalkshow/2019/06/30/ep-256">my own podcast</a>, and with a full transcript to boot.</p>
+
+<p>One key point that I missed <a href="https://daringfireball.net/2019/06/jony_ive_leaves_apple">in my first take on Ive’s departure</a> is that having design chiefs Evans Hankey (Industrial Design) and Alan Dye (Human Interface Design) report directly to COO Jeff Williams <em>does</em> make sense organizationally. What I had missed is that coincident with the announcement of Ive’s departure, <a href="https://www.apple.com/leadership/sabih-khan/">Apple promoted Sabih Khan to senior vice president of operations</a>. Apple hasn’t had an SVP of operations since Jeff Williams held the title, back when Tim Cook was COO under Steve Jobs. Back then Williams ran operations while Cook ran the company and Jobs devoted his remaining time to new products.</p>
+
+<p>Williams still holds the title COO, but titles don’t mean much at Apple. <em>Rank</em> matters, of course, and SVP is an elite level at Apple — <a href="https://www.apple.com/leadership/sabih-khan/">there are only 13 executives at that level</a>, and one of them is still Jony Ive. But the literal titles don’t necessarily describe what executives do. Eddy Cue’s title — senior vice president of internet software and services — comes to mind. I don’t know where one would begin crafting a succinct title that accurately describes Cue’s domain, but that’s not it. That just doesn’t matter at Apple.</p>
+
+<p>This means Sabih Khan is running operations now. Jeff Williams’s title hasn’t changed, but he’s effectively now running product development. He’s led the Apple Watch product team from its inception; now I think he’s overseeing product for everything. Cook and Williams <em>did</em> run operations while holding the COO title, but what “COO” really means at Apple is “second in command”. Tim Cook didn’t move design under operations; he promoted Williams to a new position, effectively “chief product officer”, and as such it makes sense that Hankey and Dye would report to him.</p>
+
+<p>Only time will tell if that’s a better structure than replacing Jony Ive with a new chief design officer. But I feel a lot better about it than I did last week when the news broke.</p>
+
+
+
+    ]]></content>
+  <title>★ On the Post-Ive Future of Design at Apple</title></entry><entry>
+    
+    <link rel="alternate" type="text/html" href="https://daringfireball.net/2019/06/jony_ive_leaves_apple" />
+	<link rel="shorturl" href="http://df4.us/rod" />
+	<id>tag:daringfireball.net,2019://1.35869</id>
+	<published>2019-06-27T22:27:22Z</published>
+	<updated>2019-07-02T03:39:13Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<summary type="text">I don’t worry that Apple is in trouble because Jony Ive is leaving; I worry that Apple is in trouble because he’s not being replaced.</summary>
+	<content type="html" xml:base="https://daringfireball.net/" xml:lang="en"><![CDATA[
+<p><a href="https://www.apple.com/newsroom/2019/06/jony-ive-to-form-independent-design-company-with-apple-as-client/">Apple Newsroom</a>:</p>
+
+<blockquote>
+  <p>Apple today announced that Sir Jony Ive, Apple’s chief design
+officer, will depart the company as an employee later this year to
+form an independent design company which will count Apple among
+its primary clients. While he pursues personal projects, Ive in
+his new company will continue to work closely and on a range of
+projects with Apple.</p>
+</blockquote>
+
+<p>First: <em>Wow</em>. There’ve been rumors for years that Ive had one foot out the door, that his last real interest at Apple was designing Apple Park, not Apple products. But it’s something else to see it. This angle that he’s still going to work with Apple as an independent design firm seems like pure spin. You’re either at Apple or you’re not. Ive is out. </p>
+
+<p>Second: This dropped like a bomb. As far as I can tell <em>no one</em> in the media got a heads up about this news. Ever since Steve Jobs died it’s seemed to me that Ive ran his own media interaction.</p>
+
+<p>Third: This may be <em>good</em> news. Ive is, to state the obvious, preternaturally talented. But in the post-Jobs era, with all of Apple design, hardware and software, under his control, we’ve seen the software design decline and the hardware go wonky. I don’t know the inside story, but it certainly seems like a good bet that the MacBook keyboard fiasco we’re still in the midst of is the direct result of Jony Ive’s obsession with device thinness and minimalism. Today’s MacBooks are worse computers but more beautiful devices than the ones they replaced. Is that directly attributable to Jony Ive? With these keyboards in particular, I believe the answer is yes.</p>
+
+<p>Fourth: Apple’s hardware and industrial design teams work so far out that, even if I’m right and Ive is now effectively out of Apple, we’ll still be seeing Ive-designed hardware 5 years from now. It is going to take a long time to evaluate his absence.</p>
+
+<p>Fifth: Fuck this “sir” shit. We don’t have titles in the United States.</p>
+
+<blockquote>
+  <p>“Jony is a singular figure in the design world and his role in
+Apple’s revival cannot be overstated, from 1998’s groundbreaking
+iMac to the iPhone and the unprecedented ambition of Apple Park,
+where recently he has been putting so much of his energy and
+care,” said Tim Cook, Apple’s CEO. “Apple will continue to benefit
+from Jony’s talents by working directly with him on exclusive
+projects, and through the ongoing work of the brilliant and
+passionate design team he has built. After so many years working
+closely together, I’m happy that our relationship continues to
+evolve and I look forward to working with Jony long into the
+future.”</p>
+</blockquote>
+
+<p>Translation: He’s gone.</p>
+
+<blockquote>
+  <p>Design team leaders Evans Hankey, vice president of Industrial
+Design, and Alan Dye, vice president of Human Interface Design,
+will report to Jeff Williams, Apple’s chief operating officer.</p>
+</blockquote>
+
+<p>This organizational structure makes no sense to me.</p>
+
+<p>I’ve never been an “Apple is doomed without Steve Jobs” person. But part of what made Apple the Apple we know in the post-1997 era is that when Jobs was at the helm, <em>all</em> design decisions were going through someone with great taste. Not perfect taste, but great taste. But the other part of what made Jobs such a great leader is that he could recognize bad decisions, sooner rather than later, and get them fixed.</p>
+
+<p>I think Tim Cook is a great CEO and Jeff Williams is a great COO. But who’s in charge of product design now? There is no new chief design officer, which, really, is what Steve Jobs always was. From a product standpoint, the post-Jobs era at Apple has been the Jony Ive era, not the Tim Cook era. That’s <em>not</em> a knock on Tim Cook. To his credit, Tim Cook has <em>never</em> pretended to be a product guy, which is exactly the hubris that John Sculley succumbed to back in the early ’90s, leading to the Newton being launched far before it was ready and the Macintosh platform languishing.</p>
+
+<p>My gut sense for years has been that Ive without Jobs has been like McCartney without Lennon. Or Lennon without McCartney — take whichever analogical pairing you prefer. My point here is only that the fruit of their collaborations were, seemingly magically, far greater than the sums of the duos’ talents and tastes.</p>
+
+<p>One thing I do know — which Cook alludes to in his statement above, and which I think was made crystal clear in <a href="https://www.newyorker.com/magazine/2015/02/23/shape-things-come">Ian Parker’s extraordinary 2015 profile of Ive in The New Yorker</a>, which is, in my opinion, the most insightful piece ever written about post-Jobs Apple — is that Jony Ive had moved beyond designing computers. And let’s be clear: the entire point of Apple has always been and should always remain designing computers. Everything they make is a computer. Their genius in recent years has been making things that don’t seem like computers but really are computers. Apple Watch is a computer. AirPods are computers. We’ve got computers — excellent computers — in our fucking ears. That’s Apple.</p>
+
+<p>But Ive’s attention turned more toward architecture. Apple Park is going to be a 100-year testimony to Jony Ive’s design. And it’s fascinating to me that Ive is leaving Apple with a single typeface — San Francisco — that the company now uses for <em>everything</em>. It’s the system font for every platform. It’s the only font they use for advertising and packaging. Type choices under Steve Jobs were excellent, but always a little ad hoc. Myriad for advertising and packaging, Lucida Grande for Mac OS X, Helvetica for the iPhone. I think it’s safe to say that Steve Jobs was far less rigorous than Jony Ive. The rigor necessary to develop a single type family that can work for everything from a digital watch face to a 100-foot billboard advertisement is extraordinary. And Ive has also brought that rigorous consistency to Apple’s architecture. Their new campus and their new retail stores are of the same design language — lighting, materials, furniture.</p>
+
+<p>But Apple doesn’t need a chief architect. They’re only going to build one Apple Park and it’s already been done.</p>
+
+<p>It makes me queasy to see that Apple’s chief designers are now reporting to operations. This makes no more sense to me than having them report to the LLVM compiler team in the Xcode group. Again, nothing against Jeff Williams, nothing against the LLVM team, but someone needs to be in charge of design for Apple to be Apple and I can’t see how that comes from operations. I don’t think that “chief design officer” should have been a one-off title created just for Jony Ive. Not just for Apple, <em>but especially at Apple</em>, it should be a permanent C-level title. I don’t think Ive ever should have been put in control of software design, but at least he is a designer.</p>
+
+<p>I don’t worry that Apple is in trouble because Jony Ive is leaving; I worry that Apple is in trouble because he’s not being replaced.</p>
+
+
+
+    ]]></content>
+  <title>★ Jony Ive Is Leaving Apple</title></entry><entry>
+    
+    <link rel="alternate" type="text/html" href="https://daringfireball.net/2019/06/the_talk_show_live_from_wwdc_2019" />
+	<link rel="shorturl" href="http://df4.us/rnh" />
+	<id>tag:daringfireball.net,2019://1.35837</id>
+	<published>2019-06-06T03:19:17Z</published>
+	<updated>2019-06-06T17:18:17Z</updated>
+	<author>
+		<name>John Gruber</name>
+		<uri>http://daringfireball.net/</uri>
+	</author>
+	<summary type="text">Recorded in front of a live audience at The California Theater in San Jose on Tuesday 4 June 2019, John Gruber is joined by Craig Federighi and Greg Joswiak to discuss the news from WWDC 2019.</summary>
+	<content type="html" xml:base="https://daringfireball.net/" xml:lang="en"><![CDATA[
+<p>Recorded in front of a live audience at The California Theater in San Jose on Tuesday, 4 June 2019, John Gruber is joined by Craig Federighi and Greg Joswiak to discuss the news from WWDC 2019.</p>
+
+<p><iframe width="480" height="270" src="https://www.youtube.com/embed/5ygYSdL42Zw" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+
+<p>Brought to you by:</p>
+
+<ul>
+<li><a href="https://macstadium.com/df">MacStadium</a>: Dedicated Mac hosting in world-class data centers.</li>
+<li><a href="https://omnifocus.com/df">OmniFocus for the Web</a>: Accomplish more every day.</li>
+<li><a href="https://slack.com/careers">Slack</a>: Hiring iOS developers who want to define the future of Slack for mobile.</li>
+</ul>
+
+
+
+    ]]></content>
+  <title>★ The Talk Show Live From WWDC 2019, With Craig Federighi and Greg Joswiak</title></entry></feed><!-- THE END -->

@@ -1,0 +1,1797 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:re="http://purl.org/atompub/rank/1.0">
+    <title type="text">Recent Questions - Stack Overflow</title>
+    <link rel="self" href="https://stackoverflow.com/feeds" type="application/atom+xml" />
+    <link rel="alternate" href="https://stackoverflow.com/questions" type="text/html" />
+    <subtitle>most recent 30 from stackoverflow.com</subtitle>
+    <updated>2019-08-01T21:20:51Z</updated>
+    <id>https://stackoverflow.com/feeds</id>
+    <creativeCommons:license>http://www.creativecommons.org/licenses/by-sa/3.0/rdf</creativeCommons:license> 
+    <entry>
+        <id>https://stackoverflow.com/q/57317134</id>
+        <re:rank scheme="https://stackoverflow.com">0</re:rank>
+        <title type="text">How to add a suffix to the &quot;Feed Item&quot; comments</title>
+            <category scheme="https://stackoverflow.com/tags" term="php" />
+            <category scheme="https://stackoverflow.com/tags" term="string" />
+            <category scheme="https://stackoverflow.com/tags" term="str-replace" />
+            <category scheme="https://stackoverflow.com/tags" term="feed" />
+        <author>
+            <name>Sammy</name>
+            <uri>https://stackoverflow.com/users/1310510</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/57317134/how-to-add-a-suffix-to-the-feed-item-comments" />
+        <published>2019-08-01T21:20:02Z</published>
+        <updated>2019-08-01T21:20:02Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I searched an could not find a way to do the following string edit. Any help would be appreciated.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Part 1&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Currently my Feed Aggregator outputs a single &lt;strong&gt;$content&lt;/strong&gt; variable&#39;s that contains the following HTML code:&lt;/p&gt;
+
+&lt;p&gt;This example shows just three feed items.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$content = &#39;
+
+&amp;lt;!-- ---------- Feed Item ---------- --&amp;gt;
+&amp;lt;div style=&quot;padding-top:5px; padding-bottom:10px;&quot;&amp;gt;
+Blah Blah, divs, h3, links, etc... Blah Blah
+&amp;lt;/div&amp;gt;
+
+&amp;lt;!-- ---------- Feed Item ---------- --&amp;gt;
+&amp;lt;div style=&quot;padding-top:5px; padding-bottom:10px;&quot;&amp;gt;
+Blah Blah, divs, h3, links, etc... Blah Blah
+&amp;lt;/div&amp;gt;
+
+&amp;lt;!-- ---------- Feed Item ---------- --&amp;gt;
+&amp;lt;div style=&quot;padding-top:5px; padding-bottom:10px;&quot;&amp;gt;
+Blah Blah, divs, h3, links, etc... Blah Blah
+&amp;lt;/div&amp;gt;
+
+&#39;;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I would like to echo the &lt;strong&gt;$content&lt;/strong&gt; variable to yield the following with sequence numbers added as a suffix to the &quot;Feed Item&quot; comments as shown below:&lt;/p&gt;
+
+&lt;p&gt;Keep in mind that there can be 100&#39;s of feed items.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;!-- ---------- Feed Item 1 ---------- --&amp;gt;
+&amp;lt;div style=&quot;padding-top:5px; padding-bottom:10px;&quot;&amp;gt;
+Blah Blah, divs, h3, links, etc... Blah Blah
+&amp;lt;/div&amp;gt;
+
+&amp;lt;!-- ---------- Feed Item 2 ---------- --&amp;gt;
+&amp;lt;div style=&quot;padding-top:5px; padding-bottom:10px;&quot;&amp;gt;
+Blah Blah, divs, h3, links, etc... Blah Blah
+&amp;lt;/div&amp;gt;
+
+&amp;lt;!-- ---------- Feed Item 3 ---------- --&amp;gt;
+&amp;lt;div style=&quot;padding-top:5px; padding-bottom:10px;&quot;&amp;gt;
+Blah Blah, divs, h3, links, etc... Blah Blah 
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Is there a simple way of doing this?
+I am assuming it would involve a loop some how...&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Part 2 (optional but eventual)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The next step would then insert some additional content such as &lt;code&gt;&amp;lt;div&amp;gt;Blah Blah Blah&amp;lt;/div&amp;gt;&lt;/code&gt; between two feed items like Feed Item 2 and Feed Item 3 as shown below.&lt;/p&gt;
+
+&lt;p&gt;In addition, I would like to be able to choose what feed items to insert the additional content between, i.e. items 7 and 8, or 10 and 11.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;!-- ---------- Feed Item 1 ---------- --&amp;gt;
+&amp;lt;div style=&quot;padding-top:5px; padding-bottom:10px;&quot;&amp;gt;
+Blah Blah, divs, h3, links, etc... Blah Blah
+&amp;lt;/div&amp;gt;
+
+&amp;lt;!-- ---------- Feed Item 2 ---------- --&amp;gt;
+&amp;lt;div style=&quot;padding-top:5px; padding-bottom:10px;&quot;&amp;gt;
+Blah Blah, divs, h3, links, etc... Blah Blah
+&amp;lt;/div&amp;gt;
+
+&amp;lt;div&amp;gt;Blah Blah Blah&amp;lt;/div&amp;gt;
+
+&amp;lt;!-- ---------- Feed Item 3 ---------- --&amp;gt;
+&amp;lt;div style=&quot;padding-top:5px; padding-bottom:10px;&quot;&amp;gt;
+Blah Blah, divs, h3, links, etc... Blah Blah 
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Thank you in advance.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/q/57317133</id>
+        <re:rank scheme="https://stackoverflow.com">0</re:rank>
+        <title type="text">Tensorflow estimator converted from tf.keras model doesn&#39;t train</title>
+            <category scheme="https://stackoverflow.com/tags" term="python" />
+            <category scheme="https://stackoverflow.com/tags" term="tensorflow" />
+            <category scheme="https://stackoverflow.com/tags" term="machine-learning" />
+            <category scheme="https://stackoverflow.com/tags" term="tensorflow-estimator" />
+            <category scheme="https://stackoverflow.com/tags" term="tf.keras" />
+        <author>
+            <name>Pieter</name>
+            <uri>https://stackoverflow.com/users/5500597</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/57317133/tensorflow-estimator-converted-from-tf-keras-model-doesnt-train" />
+        <published>2019-08-01T21:19:55Z</published>
+        <updated>2019-08-01T21:19:55Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I&#39;m trying to convert a tf.keras model to a tensorflow estimator using &lt;code&gt;tf.keras.estimator.model_to_estimator&lt;/code&gt;, but the resulting estimator doesn&#39;t appear to be trainable.&lt;/p&gt;
+
+&lt;p&gt;I&#39;ve tried modelling y = (x_1 + x_2)/2 using both sequential and functional tf.keras API&#39;s, and neither work after converting to estimators. Using a &lt;code&gt;tf.estimator.LinearRegressor&lt;/code&gt; with the same input functions does work, so I don&#39;t think the problem is with the input functions.&lt;/p&gt;
+
+&lt;p&gt;The code below trains the estimators for 10 steps, which should be enough to bring the loss down. Increasing the number of steps makes no difference, as far as I can tell.&lt;/p&gt;
+
+&lt;pre class=&quot;lang-py prettyprint-override&quot;&gt;&lt;code&gt;import numpy as np
+import matplotlib.pyplot as plt
+import tensorflow as tf
+from tensorflow import feature_column as fc
+import functools
+
+sample_size = 1000
+
+x_train = np.random.randn(sample_size,2).astype(np.float32)
+y_train = np.mean(x_train, axis=1).astype(np.float32) 
+
+x_test = np.random.randn(sample_size,2).astype(np.float32)
+y_test = np.mean(x_test, axis=1).astype(np.float32) 
+
+def keras_model_1():
+    inputs = tf.keras.layers.Input(shape=(2,), name=&#39;Input&#39;) 
+    outputs = tf.keras.layers.Dense(1, name=&#39;Prediction&#39;)(inputs)
+    return tf.keras.Model(inputs=inputs, outputs=outputs)
+
+def keras_model_2():
+    model = tf.keras.models.Sequential()
+    model.add(tf.keras.layers.Dense(1, input_shape=(2,), name=&quot;Prediction&quot;))
+    return model
+
+case = 1  # Functional; 2 - Sequential; 3 - LinearRegressor estimator
+
+feature_name = &quot;Input&quot;
+if case in [1,2]:
+    output_name = &quot;Prediction&quot;
+    if case == 1:
+        model = keras_model_1()
+    else:
+        model = keras_model_2()
+        feature_name = &quot;Prediction_input&quot;
+    adam = tf.keras.optimizers.Adam(lr=0.1)
+    model.compile(loss=&#39;MSE&#39;, optimizer=adam)
+    #model.fit(x=x_train, y=y_train, epochs=10, batch_size=64)
+    est = tf.keras.estimator.model_to_estimator(keras_model=model)
+else:
+    output_name = &quot;predictions&quot;
+    numerical_column = fc.numeric_column(feature_name, shape=2)
+    est  = tf.estimator.LinearRegressor(feature_columns=[numerical_column])
+
+def train_input_fn(batch_size):
+    dataset = tf.data.Dataset.from_tensor_slices(({feature_name: x_train}, y_train))
+    return dataset.shuffle(sample_size).batch(batch_size).repeat()
+
+def eval_input_fn(batch_size):
+    dataset = tf.data.Dataset.from_tensor_slices(({feature_name: x_test}, y_test))
+    return dataset.batch(batch_size)
+
+def predict_input_fn(batch_size):
+    dataset = tf.data.Dataset.from_tensor_slices({feature_name: x_test})
+    return dataset.batch(batch_size)
+
+est.train(input_fn=functools.partial(train_input_fn, 64), steps=10)
+
+eval_metrics = est.evaluate(input_fn=functools.partial(eval_input_fn, 1))
+print(&#39;Evaluation metrics:&#39;, eval_metrics)
+
+prediction = est.predict(input_fn=functools.partial(predict_input_fn, 1))
+pred = [p[output_name][0] for p in prediction]
+plt.plot(y_test, pred, &#39;o&#39;)
+plt.show()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;When I run this on tensorflow 1.5.0, I get a warning about calling &lt;code&gt;reduce_mean&lt;/code&gt; with &lt;code&gt;keep_dims&lt;/code&gt; being deprecated when the tf.keras models are compiled, but they train perfectly well as is.&lt;/p&gt;
+
+&lt;p&gt;Is this a bug, or am I missing something?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/q/57317132</id>
+        <re:rank scheme="https://stackoverflow.com">0</re:rank>
+        <title type="text">Caused by: com.jayway.jsonpath.PathNotFoundException Error</title>
+            <category scheme="https://stackoverflow.com/tags" term="java" />
+            <category scheme="https://stackoverflow.com/tags" term="json" />
+            <category scheme="https://stackoverflow.com/tags" term="spring-boot" />
+            <category scheme="https://stackoverflow.com/tags" term="jsonpath" />
+            <category scheme="https://stackoverflow.com/tags" term="mockmvc" />
+        <author>
+            <name>spartan123</name>
+            <uri>https://stackoverflow.com/users/11849696</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/57317132/caused-by-com-jayway-jsonpath-pathnotfoundexception-error" />
+        <published>2019-08-01T21:19:34Z</published>
+        <updated>2019-08-01T21:19:34Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I am writing test case for my controller. And, I am using .andExpect method to match jsonpath expression. Below is my code:&lt;/p&gt;
+
+&lt;pre class=&quot;lang-java prettyprint-override&quot;&gt;&lt;code&gt;    @Test
+    public void getALLEmails() throws Exception {
+
+        Email email = new Email();
+        email.setTicketID(&quot;123&quot;);
+
+         List&amp;lt;Email&amp;gt; emails = Collections.singletonList(new Email());
+
+        assertThat(this.emailService).isNotNull();
+        given(emailService.getEmails()).willReturn(emails);
+
+        mockMvc.perform(get(&quot;/emails&quot;))
+                .andExpect(status().isOk())
+                .andExpect(content().contentType(&quot;application/json;charset=UTF-8&quot;))
+                .andExpect(jsonPath(&quot;$&quot;, hasSize(1)))
+                .andExpect(jsonPath(&quot;$.ticketID&quot;, is(&quot;michael the merrit&quot;)));
+
+
+    }
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;However, I am getting the following error;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Error: java.lang.AssertionError: No value at JSON path &quot;$.ticketID&quot;
+      at org.springframework.test.util.JsonPathExpectationsHelper.evaluateJsonPath(JsonPathExpectationsHelper.java:295)
+      at org.springframework.test.util.JsonPathExpectationsHelper.assertValue(JsonPathExpectationsHelper.java:72)
+      at org.springframework.test.web.servlet.result.JsonPathResultMatchers.lambda$value$0(JsonPathResultMatchers.java:87)
+      at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:195)
+      at com.example.rstsdemo.controller.EmailControllerTest.getALLEmails(EmailControllerTest.java:67)
+      at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+      at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+      at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+      at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+      at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+      at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+      at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:74)
+      at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:84)
+      at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+      at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+      at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+      at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+      at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+      at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)
+      at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+      at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+      at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+      at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+      at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+      at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+      at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+      at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+      at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+      at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+      at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+      at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+      at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+      at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+      at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+  Caused by: com.jayway.jsonpath.PathNotFoundException: Expected to find an object with property [&#39;ticketID&#39;] in path $ but found &#39;net.minidev.json.JSONArray&#39;. This is not a json object according to the JsonProvider: &#39;com.jayway.jsonpath.spi.json.JsonSmartJsonProvider&#39;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Please, help me find the solution to it. I believe I am using correct java expression.&lt;/p&gt;
+
+&lt;p&gt;I have already tried using different jsonpath expressions such as:
+[0].ticketID, $.[0].ticketID and others. Thanks!&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/q/57317131</id>
+        <re:rank scheme="https://stackoverflow.com">0</re:rank>
+        <title type="text">How to change RUs in Cosmos DB according to time of the day?</title>
+            <category scheme="https://stackoverflow.com/tags" term="database" />
+            <category scheme="https://stackoverflow.com/tags" term="azure" />
+            <category scheme="https://stackoverflow.com/tags" term="cosmos" />
+        <author>
+            <name>Chetanya Ahuja</name>
+            <uri>https://stackoverflow.com/users/11871350</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/57317131/how-to-change-rus-in-cosmos-db-according-to-time-of-the-day" />
+        <published>2019-08-01T21:19:31Z</published>
+        <updated>2019-08-01T21:19:31Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;How to change RUs in Cosmos DB according to time of the day, for example higher RUs allowance in daytime and lower during the night?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/q/57317130</id>
+        <re:rank scheme="https://stackoverflow.com">0</re:rank>
+        <title type="text">Automatically format value before inserting into input with pattern</title>
+            <category scheme="https://stackoverflow.com/tags" term="javascript" />
+            <category scheme="https://stackoverflow.com/tags" term="jquery" />
+            <category scheme="https://stackoverflow.com/tags" term="html" />
+            <category scheme="https://stackoverflow.com/tags" term="jquery-mask" />
+        <author>
+            <name>Mateus W.</name>
+            <uri>https://stackoverflow.com/users/9629238</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/57317130/automatically-format-value-before-inserting-into-input-with-pattern" />
+        <published>2019-08-01T21:19:19Z</published>
+        <updated>2019-08-01T21:19:19Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I have a &#39;tel&#39; type Input with a telephone pattern (Brazilian number system):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;input class=&quot;form-control&quot; maxlength=&quot;15&quot; pattern=&quot;[\(]?[0-9]{2}[\)]?[ ]?[0-9]{4,5}[-]?[0-9]{4}&quot; type=&quot;tel&quot; value=&quot;&quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I&#39;m also using jQuery Mask Plugin to automatically add the characters I want while typing and retrieve the value without the special characters to store on db. This is my MaskBehavior and options (for the library):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var PhoneMaskBehavior = function (val) {
+    return val.replace(/\D/g, &#39;&#39;).length === 11 ? &#39;(00) 00000-0000&#39; : &#39;(00) 0000-00009&#39;;
+},
+    phoneOptions = {
+        selectOnFocus: true,
+        onKeyPress: function(val, e, field, options) {
+            field.mask(PhoneMaskBehavior.apply({}, arguments), options);
+        }
+};
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The problem is when I add a default value when loading the number from database. It fills without the special character and I the form doesn&#39;t allow submit, as the field is required and out of pattern.&lt;/p&gt;
+
+&lt;p&gt;This is what I get when loading a value from db directly in the input:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://i.stack.imgur.com/LEvOW.png&quot; rel=&quot;nofollow noreferrer&quot;&gt;&lt;img src=&quot;https://i.stack.imgur.com/LEvOW.png&quot; alt=&quot;sample1&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This is what I need to match the pattern (and what is inputed when I type the number manually, without loading with the input&#39;s &lt;code&gt;value&lt;/code&gt; attribute):&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://i.stack.imgur.com/Ntznx.png&quot; rel=&quot;nofollow noreferrer&quot;&gt;&lt;img src=&quot;https://i.stack.imgur.com/Ntznx.png&quot; alt=&quot;enter image description here&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Is there a way to automatically load a value and make it match the pattern by adding the special characters between the numbers, without parsing and treating the string?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/q/57317128</id>
+        <re:rank scheme="https://stackoverflow.com">-1</re:rank>
+        <title type="text">What is the IntrodecuVariableCodeRefactoringProvider Error in visual studio 2017</title>
+            <category scheme="https://stackoverflow.com/tags" term="c#" />
+            <category scheme="https://stackoverflow.com/tags" term="visual-studio" />
+        <author>
+            <name>Daniel</name>
+            <uri>https://stackoverflow.com/users/11595844</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/57317128/what-is-the-introdecuvariablecoderefactoringprovider-error-in-visual-studio-2017" />
+        <published>2019-08-01T21:19:15Z</published>
+        <updated>2019-08-01T21:19:15Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;IntrodecuVariableCodeRefactoringProvider has encountered a error and has been disabled&lt;/p&gt;
+
+&lt;p&gt;What is the reason I got this error when writing code?&lt;/p&gt;
+
+&lt;p&gt;Detail:&lt;/p&gt;
+
+&lt;p&gt;System.ArgumentOutOfRangeException : &#39;end&#39;, &#39;start&#39;tan az olmamalıdır
+Parametre adı: end
+   at Microsoft.CodeAnalysis.Text.TextSpan.FromBounds(Int32 start,Int32 end)
+   at Microsoft.CodeAnalysis.IntroduceVariable.AbstractIntroduceVariableService&lt;code&gt;6.State.GetExpressionUnderSpan(SyntaxTree tree,TextSpan textSpan,CancellationToken cancellationToken)
+   at Microsoft.CodeAnalysis.IntroduceVariable.AbstractIntroduceVariableService&lt;/code&gt;6.State.TryInitialize(TextSpan textSpan,CancellationToken cancellationToken)
+   at Microsoft.CodeAnalysis.IntroduceVariable.AbstractIntroduceVariableService&lt;code&gt;6.State.Generate(TService service,SemanticDocument document,TextSpan textSpan,CancellationToken cancellationToken)
+   at async Microsoft.CodeAnalysis.IntroduceVariable.AbstractIntroduceVariableService&lt;/code&gt;6.IntroduceVariableAsync[TService,TExpressionSyntax,TTypeSyntax,TTypeDeclarationSyntax,TQueryExpressionSyntax,TNameSyntax]()
+   at async Microsoft.CodeAnalysis.CodeRefactorings.IntroduceVariable.IntroduceVariableCodeRefactoringProvider.ComputeRefactoringsAsync()
+   at async Microsoft.CodeAnalysis.CodeRefactorings.CodeRefactoringService.GetRefactoringFromProviderAsync()
+   at Microsoft.VisualStudio.Telemetry.WindowsErrorReporting.WatsonReport.GetClrWatsonExceptionInfo(Exception exceptionObject)&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/q/57317125</id>
+        <re:rank scheme="https://stackoverflow.com">0</re:rank>
+        <title type="text">When I hit cancel to exit my program some error message shows up</title>
+            <category scheme="https://stackoverflow.com/tags" term="joptionpane" />
+        <author>
+            <name>Kolis</name>
+            <uri>https://stackoverflow.com/users/11437504</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/57317125/when-i-hit-cancel-to-exit-my-program-some-error-message-shows-up" />
+        <published>2019-08-01T21:19:09Z</published>
+        <updated>2019-08-01T21:19:09Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I created simple piece of software to put JOptionPane intro practice. I created a flow control check which responds very well to all of the options given by the software. Except when I hit cancel I get some error message that I&#39;ve been not able to find at any place. I need the correct debugging of this problem no Jerries. &lt;/p&gt;
+
+&lt;p&gt;I&#39;ve tried using:&lt;/p&gt;
+
+&lt;p&gt;while(variableName != null) , but it doesn&#39;t work.&lt;/p&gt;
+
+&lt;p&gt;import javax.swing.JOptionPane;&lt;/p&gt;
+
+&lt;p&gt;public class CheckRandom {&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;public static void main(String[] args) {
+
+    String input = JOptionPane.showInputDialog(&quot;Guess The Number\n From 1-100:&quot;);
+
+    if (!(input.isBlank() || input.isEmpty())) {
+        int userGuessNum = Integer.parseInt(input);
+        int randomNum = (int) (Math.random() * 99) + 1;
+
+        if (userGuessNum == randomNum) {
+
+            JOptionPane.showMessageDialog(null, &quot;Superb!! Your Answer Is Correct &quot; + randomNum, &quot;Correct&quot;,
+                    JOptionPane.PLAIN_MESSAGE);
+        }
+
+        JOptionPane.showMessageDialog(null,
+                &quot;My bad!! Your Answer Is Not Quite Correct &quot; + &quot;Correct Answer: &quot; + randomNum, &quot;Not This Time&quot;,
+                JOptionPane.PLAIN_MESSAGE);
+        main(args);
+
+    } else {
+
+        JOptionPane.showMessageDialog(null, &quot;Sorry But You Must Enter A Value&quot;, &quot;Error 5001&quot;,
+                JOptionPane.PLAIN_MESSAGE);
+        main(args);
+
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;}&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/q/57317123</id>
+        <re:rank scheme="https://stackoverflow.com">0</re:rank>
+        <title type="text">Compare arrays with BigQuery</title>
+            <category scheme="https://stackoverflow.com/tags" term="arrays" />
+            <category scheme="https://stackoverflow.com/tags" term="google-bigquery" />
+        <author>
+            <name>ongubsy</name>
+            <uri>https://stackoverflow.com/users/5601029</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/57317123/compare-arrays-with-bigquery" />
+        <published>2019-08-01T21:19:01Z</published>
+        <updated>2019-08-01T21:19:01Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I have some data like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;id                array1                                    array2
+------------------------------------------------------------------------------------
+1       [log-sdk, randomtext, log-aws]               [somepath/log-aws, anotherpath/anothertext]    
+
+2       [randomtext, log-dump]                       [nomatches/here, log-sdk-cli/onematchhere]
+
+3       [log-file-bak-0, randomtext]                 [path/log-file, path/anotherfile, randompath/something-log-aws]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The requirements:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Select any item from array1 that starts with &lt;code&gt;log-&lt;/code&gt;. With the id 1, for example, log-sdk and log-aws would be selected. This array won&#39;t have to change, though.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The items from array1 must be compared with ALL lines from array2 (a collection of paths). If any part of the path from array2 matches the item from array1, then it should be joined. With the id1, after joining with array2, we should have the resulting array:&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;code&gt;[somepath/log-aws, log-sdk-cli/onematchhere, randompath/something-log-aws]&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;I&#39;m struggling with the correct way of querying arrays, never done that with BigQuery/Standard SQL. &lt;/p&gt;
+
+&lt;p&gt;Any smart ways to do this? Should I use UNNEST instead of trying to work with both arrays directly?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/q/57317071</id>
+        <re:rank scheme="https://stackoverflow.com">0</re:rank>
+        <title type="text">How to create variable [&quot;textvariable&quot;] in while loop?</title>
+            <category scheme="https://stackoverflow.com/tags" term="python" />
+            <category scheme="https://stackoverflow.com/tags" term="tkinter" />
+        <author>
+            <name>massimo040</name>
+            <uri>https://stackoverflow.com/users/9570786</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/57317071/how-to-create-variable-textvariable-in-while-loop" />
+        <published>2019-08-01T21:14:00Z</published>
+        <updated>2019-08-01T21:19:55Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I am creating a tournament game and the matches need to go to infinity. So i created a while loop that makes the GUI, but it has all the same &lt;em&gt;[&quot;textvariable&quot;]&lt;/em&gt; (I need this because I need to read them later), all help is appreciated!&lt;/p&gt;
+
+&lt;p&gt;I searched the internet and the only think I could find was, to hard code it.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;while(n &amp;lt;= self.numberOfTeamsInt):
+    for i in range(n):
+        if (n != i+1):
+            self.A = tk.Entry(self.root4)
+            self.A[&quot;textvariable&quot;] = self.Home
+            self.A[&quot;width&quot;] = 2
+            self.A.grid(row=n, column=p)
+            p = p + 4
+    n = n + 1
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/q/57317068</id>
+        <re:rank scheme="https://stackoverflow.com">0</re:rank>
+        <title type="text">What is the most idiomatic way to unbound a reference in Rust?</title>
+            <category scheme="https://stackoverflow.com/tags" term="rust" />
+        <author>
+            <name>mrFoobles</name>
+            <uri>https://stackoverflow.com/users/9142706</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/57317068/what-is-the-most-idiomatic-way-to-unbound-a-reference-in-rust" />
+        <published>2019-08-01T21:13:36Z</published>
+        <updated>2019-08-01T21:20:06Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I need to return multiple mutable references to different elements of a data structure. Because the compiler can&#39;t check my logic that the references don&#39;t alias, I have to use unsafe code to unbound my references so that they can be cast to the correct return lifetime. &lt;/p&gt;
+
+&lt;p&gt;So far, the best solution I&#39;ve discovered is, in an &lt;code&gt;unsafe&lt;/code&gt; block:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Casting the reference to a raw pointer&lt;/li&gt;
+&lt;li&gt;Dereference the pointer and immediately take a mutable reference to the result.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;struct Node&amp;lt;T&amp;gt; {
+    item: T,
+    next: NodeRef&amp;lt;T&amp;gt;,
+}
+
+
+type NodeRef&amp;lt;T&amp;gt; = Option&amp;lt;Box&amp;lt;Node&amp;lt;T&amp;gt;&amp;gt;&amp;gt;;
+
+pub struct ListIterMut&amp;lt;&#39;a, T&amp;gt; {
+    cur: &amp;amp;&#39;a mut NodeRef&amp;lt;T&amp;gt;
+}
+
+impl&amp;lt;&#39;a, T&amp;gt; Iterator for ListIterMut&amp;lt;&#39;a, T&amp;gt; {
+    type Item = &amp;amp;&#39;a mut T;
+
+    fn next(&amp;amp;mut self) -&amp;gt; Option&amp;lt;Self::Item&amp;gt; {
+        let cur = unsafe {&amp;amp;mut *(self.cur as *mut NodeRef&amp;lt;T&amp;gt;)}; // Super ugly!
+        cur.as_mut().map(|node| {
+            self.cur = &amp;amp;mut node.next;
+            &amp;amp;mut node.item
+        })
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This is the most elegant result I could come up with, but it doesn&#39;t seem like the correct way to unbound the reference to &lt;code&gt;self.cur&lt;/code&gt;. Is there some standard library function, or otherwise more elegant way of casting the lifetime?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/q/57316997</id>
+        <re:rank scheme="https://stackoverflow.com">1</re:rank>
+        <title type="text">client denied by server configuration htaccess</title>
+            <category scheme="https://stackoverflow.com/tags" term="php" />
+            <category scheme="https://stackoverflow.com/tags" term="apache" />
+            <category scheme="https://stackoverflow.com/tags" term=".htaccess" />
+            <category scheme="https://stackoverflow.com/tags" term="vhosts" />
+        <author>
+            <name>user2255176</name>
+            <uri>https://stackoverflow.com/users/2255176</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/57316997/client-denied-by-server-configuration-htaccess" />
+        <published>2019-08-01T21:07:41Z</published>
+        <updated>2019-08-01T21:18:48Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I&#39;m setting up a new cake php site into my local.&lt;/p&gt;
+
+&lt;p&gt;In the index there is an .htaccess with some rules, it needs to be there, but once i trying to get into the page i only can see the directory list.&lt;/p&gt;
+
+&lt;p&gt;if i check my php erros i have:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;[Thu Aug 01 14:24:22.065471 2019] [authz_core:error] [pid 44232]
+  [client 127.0.0.1:50926] AH01630: client denied by server
+  configuration: /usr/local/var/www/cis/portal_remote/core/.htaccess&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I have this in my vhost file&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;VirtualHost *:80&amp;gt;
+      ServerAdmin webmaster@dummy-host2.example.com
+      DocumentRoot &quot;/usr/local/var/www/cis/portal_remote/core&quot;
+      ServerName cis-portal72.local
+      ErrorLog &quot;/usr/local/var/log/httpd/cis-portal.local-error_log&quot;
+      CustomLog &quot;/usr/local/var/log/httpd/cis-portal.local_access_log&quot; common
+      &amp;lt;Directory &quot;/usr/local/var/www/portal_remote/core&quot;&amp;gt;
+         AllowOverride FileInfo
+         Order allow,deny
+         Allow from all
+         #all New directive needed in Apache 2.4.3:
+         AllowOverride All
+         Require all granted
+     &amp;lt;/Directory&amp;gt;
+ &amp;lt;/VirtualHost&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I&#39;m using Mojave with apache &lt;/p&gt;
+
+&lt;p&gt;Server version: Apache/2.4.39 (Unix)
+Server built:   Apr 19 2019 17:53:55&lt;/p&gt;
+
+&lt;p&gt;The weird thing is that it works in remote using ubuntu and same vhost, but not locally with my mac.&lt;/p&gt;
+
+&lt;p&gt;.htaccess file&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;IfModule mod_rewrite.c&amp;gt;
+   RewriteEngine on
+
+   RewriteRule    ^$ app/webroot/    [L]
+   RewriteRule    (.*) app/webroot/$1 [L]
+    php_value session.cookie_lifetime 0
+    php_value session.gc_maxlifetime 3600
+    php_value session.gc_probability 1
+    php_value session.gc_divisor 1000
+    php_value post_max_size 128M
+
+    php_value max_input_vars 1000000
+&amp;lt;/IfModule&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/q/57316986</id>
+        <re:rank scheme="https://stackoverflow.com">0</re:rank>
+        <title type="text">`delete this` returns true despite not deleting the object reference</title>
+            <category scheme="https://stackoverflow.com/tags" term="javascript" />
+        <author>
+            <name>Simon Farshid</name>
+            <uri>https://stackoverflow.com/users/1778374</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/57316986/delete-this-returns-true-despite-not-deleting-the-object-reference" />
+        <published>2019-08-01T21:06:57Z</published>
+        <updated>2019-08-01T21:19:14Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I just opened chrome dev tools on stackoverflow.com and typed in the console the following&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;delete this;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Which returned true despite not deleting the reference. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Why does delete return true if it didn&#39;t delete anything?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://i.stack.imgur.com/n6irk.png&quot; rel=&quot;nofollow noreferrer&quot;&gt;&lt;img src=&quot;https://i.stack.imgur.com/n6irk.png&quot; alt=&quot;enter image description here&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/q/57316903</id>
+        <re:rank scheme="https://stackoverflow.com">-1</re:rank>
+        <title type="text">How do I use a boolean on my model that wraps a string value from the database?</title>
+            <category scheme="https://stackoverflow.com/tags" term="c#" />
+            <category scheme="https://stackoverflow.com/tags" term="mysql" />
+            <category scheme="https://stackoverflow.com/tags" term="entity-framework-core" />
+        <author>
+            <name>eerick</name>
+            <uri>https://stackoverflow.com/users/6353621</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/57316903/how-do-i-use-a-boolean-on-my-model-that-wraps-a-string-value-from-the-database" />
+        <published>2019-08-01T20:59:40Z</published>
+        <updated>2019-08-01T21:19:48Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;Weird question, and there may not be an answer... I inherited an old mysql database where unfortunately many of the &quot;boolean&quot; fields were set up as VARCHAR instead of the more appropriate TINYINT(1)...&lt;/p&gt;
+
+&lt;p&gt;I&#39;m now running Entity Framework Core on top of the database.  Since I don&#39;t know everywhere the boolean values are used, I can&#39;t update the database quite yet, but I would like to be able to actually work with the string values as booleans in EF... &lt;strong&gt;Is there a way to change the model types so the model wraps up everything neatly as bool but it still treats the fields as strings when I push it to the database?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Essentially, in my code, I want to be able to do this:
+    &lt;code&gt;object.IsGood = true;&lt;/code&gt;
+Instead of this: &lt;code&gt;object.IsGood = &quot;TRUE&quot;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;And my model would just discreetly handle the value conversion, something like this for writing to the database (and I&#39;d need another converter for reading the boolean values back from the database):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;string databaseValue = &quot;&quot;;
+if (object.IsGood)
+{
+  databaseValue = &quot;TRUE&quot;;
+}
+else
+{
+  databaseValue = &quot;FALSE&quot;;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Any way I can see of doing it, I&#39;d be actually changing the database when I change the model... I know I could wrap the model itself into another class, but that seems confusing. I&#39;d love to just update the database, but that could be a huge pain to unravel all the possible places that code touches these values... so I was hoping there was an intermediate solution.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/q/57316882</id>
+        <re:rank scheme="https://stackoverflow.com">1</re:rank>
+        <title type="text">How to call a class method from inside same class method?</title>
+            <category scheme="https://stackoverflow.com/tags" term="javascript" />
+            <category scheme="https://stackoverflow.com/tags" term="class" />
+            <category scheme="https://stackoverflow.com/tags" term="ecmascript-6" />
+        <author>
+            <name>James Bradley</name>
+            <uri>https://stackoverflow.com/users/4700550</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/57316882/how-to-call-a-class-method-from-inside-same-class-method" />
+        <published>2019-08-01T20:57:21Z</published>
+        <updated>2019-08-01T21:19:24Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I&#39;ve created a class and I&#39;m trying to call a method from inside that class from another method inside that same class.  I&#39;ve seen online that some people say use &#39;this&#39; keyword, but as you can see from the example, that doesn&#39;t work. Can someone please explain in simple terms how to call a class method from inside another method in that same class? Thanks!&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;class Form {
+  constructor() {
+  }
+  fn1 () {
+    console.log(&#39;fn1 calling fn2 now:&#39;)
+    this.fn2();
+  }
+
+  fn2 () {
+    console.log(&#39;fn1 called me&#39;)
+  }
+}
+
+let myForm = new Form();
+myForm.fn1();
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://codepen.io/hintonbradley/pen/PMKbxZ?editors=1111&quot; rel=&quot;nofollow noreferrer&quot;&gt;Example can be found here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The error I keep getting is this: Uncaught TypeError: this.fn2 is not a function&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/q/57316831</id>
+        <re:rank scheme="https://stackoverflow.com">0</re:rank>
+        <title type="text">Why does string.contains (&quot;text&quot;) not work with strings in swift 5?</title>
+            <category scheme="https://stackoverflow.com/tags" term="swift" />
+            <category scheme="https://stackoverflow.com/tags" term="string" />
+            <category scheme="https://stackoverflow.com/tags" term="contains" />
+        <author>
+            <name>Coffee inTime</name>
+            <uri>https://stackoverflow.com/users/11870293</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/57316831/why-does-string-contains-text-not-work-with-strings-in-swift-5" />
+        <published>2019-08-01T20:52:43Z</published>
+        <updated>2019-08-01T21:19:03Z</updated>
+        <summary type="html">
+            
+
+            &lt;pre&gt;&lt;code&gt;let string = &quot;hello Swift&quot;
+if string.contains(&quot;Swift&quot;) {
+    print(&quot;exists&quot;)
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Cannot convert value of type &#39;String&#39; to expected argument type &#39;String.Element&#39; (aka &#39;Character&#39;)&lt;/p&gt;
+
+&lt;p&gt;Why is version 5 such an error and what should I do?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/q/57316776</id>
+        <re:rank scheme="https://stackoverflow.com">-2</re:rank>
+        <title type="text">how to replace negative values from an n*m matrix given conditions (Python or R)</title>
+            <category scheme="https://stackoverflow.com/tags" term="python" />
+            <category scheme="https://stackoverflow.com/tags" term="r" />
+        <author>
+            <name>Jagger Ces</name>
+            <uri>https://stackoverflow.com/users/10707721</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/57316776/how-to-replace-negative-values-from-an-nm-matrix-given-conditions-python-or-r" />
+        <published>2019-08-01T20:48:14Z</published>
+        <updated>2019-08-01T21:19:52Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;you are working with a dataset with many invalid entries. every negative value is invalid and needs to be replaced or removed. assumed all other values are valid. create a function that will take in an input table in the form of a 2-D array filled with floats with some negative, and create an output through the following steps:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;remove all rows where at least half of the entries are negative&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;fill in the remaining negative values in each column with the average value for that column, excluding all invalid entries&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;return the mean of the resulting table, rounded to one decimal place&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre class=&quot;lang-python prettyprint-override&quot;&gt;&lt;code&gt;def impute(arr):
+    # Write your code here
+    arr_rows = int(input(3))
+    arr_colums = int(input(3))
+    arr = []
+    for i in range(arr_rows):
+        a = [1.0, -2.6, 3.9, -4.2, 5.5, 6.4, -7.8, 8.0, 9.1]
+        for j in range(arr_colums):
+            a.append(list(map(float(input(a)))))
+        arr.append(a)
+    for i in range(arr_rows):
+        for j in range(arr_colums):
+            print(arr[i][j], end=&quot; &quot;)
+    print(arr)
+
+    #condition 1
+    for num in range(arr_rows[i]):
+        neg_count = 0
+        pos_count = 0
+        if num &amp;lt; 0:
+            neg_count += 1
+            if neg_count == 2:
+                arr.remove(arr_rows[i])
+            else:
+                continue
+        else:
+            pos_count += 1
+            print(neg_count)
+    #condition 2
+    for num in range(arr_colums[j]):
+        if num &amp;lt; 0:
+            num = arr[num &amp;gt; 0].mean()
+        else:
+            continue
+    #condition 3
+    return arr == round(arr.mean(), 1)
+
+    print(impute(arr))
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/q/57316716</id>
+        <re:rank scheme="https://stackoverflow.com">0</re:rank>
+        <title type="text">Create column with value one year later for every group in pandas</title>
+            <category scheme="https://stackoverflow.com/tags" term="python" />
+            <category scheme="https://stackoverflow.com/tags" term="pandas" />
+            <category scheme="https://stackoverflow.com/tags" term="date" />
+        <author>
+            <name>Juan C</name>
+            <uri>https://stackoverflow.com/users/9462829</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/57316716/create-column-with-value-one-year-later-for-every-group-in-pandas" />
+        <published>2019-08-01T20:42:37Z</published>
+        <updated>2019-08-01T21:20:01Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I&#39;m working with a DataFrame with the following format:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;id    Period    value
+ 1    201308      A
+ 1    201309      A
+         .
+ 1    201408      C
+ 1    201409      D
+         .
+         .
+ 2    201308      B
+ 2    201309      C
+         .
+ 2    201408      A
+ 2    201409      B
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;And I want to create a column &lt;code&gt;value_t1&lt;/code&gt; that has the value a year later i.e. for &lt;code&gt;Period+100&lt;/code&gt;. I managed to do it, but in a very inefficient way:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;aux = df[[&#39;Period&#39;,&#39;value&#39;,&#39;id&#39;]].copy()
+aux.rename(columns={&#39;Period&#39;:&#39;Period_t1&#39;,&#39;value&#39;:&#39;value_t1&#39;}, inplace=True)
+df[&#39;Period_t1&#39;]=df.Period+100
+df = df.merge(aux, on=[&#39;Period_t1&#39;,&#39;id&#39;])
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Which brings:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;id    Period    value  Period_t1  value_t1
+ 1    201308      A     201408       C
+ 1    201309      A     201409       D
+         .
+         .
+ 2    201308      B     201408       A
+ 2    201309      C     201409       B
+         .
+         .
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Which is what I need (the column &lt;code&gt;Period_t1&lt;/code&gt; isn&#39;t needed). I feel there has to be a more efficient 1 or 2 liner, probably using &lt;code&gt;shift()&lt;/code&gt;. Do you have any ideas?&lt;/p&gt;
+
+&lt;p&gt;Thanks&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/q/57316660</id>
+        <re:rank scheme="https://stackoverflow.com">-1</re:rank>
+        <title type="text">Can I find price floors and ceilings with cuda</title>
+            <category scheme="https://stackoverflow.com/tags" term="cuda" />
+            <category scheme="https://stackoverflow.com/tags" term="thrust" />
+        <author>
+            <name>John Mansell</name>
+            <uri>https://stackoverflow.com/users/8133000</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/57316660/can-i-find-price-floors-and-ceilings-with-cuda" />
+        <published>2019-08-01T20:37:04Z</published>
+        <updated>2019-08-01T21:19:04Z</updated>
+        <summary type="html">
+            
+
+            &lt;h3&gt;Background&lt;/h3&gt;
+
+&lt;p&gt;I&#39;m trying to convert an algorithm from sequential to parallel, but I am stuck.&lt;/p&gt;
+
+&lt;h3&gt;Point and Figure Charts&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://i.stack.imgur.com/b8zp3.png&quot; rel=&quot;nofollow noreferrer&quot;&gt;&lt;img src=&quot;https://i.stack.imgur.com/b8zp3.png&quot; alt=&quot;Point and Figure Chart&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I am creating point and figure charts.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Decreasing&lt;/strong&gt;&lt;br&gt;
+While the stock is going down, add an O every time it breaks through the floor.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Increasing&lt;/strong&gt;&lt;br&gt;
+While the stock is going up, add an X every time it breaks through the ceiling.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Reversal&lt;/strong&gt;&lt;br&gt;
+If the stock reverses direction, but the change is less than a reversal threshold (3 units) do nothing. If the change is greater than the reversal threshold, start a new column (X or O)&lt;/p&gt;
+
+&lt;h3&gt;Sequential vs Parallel&lt;/h3&gt;
+
+&lt;p&gt;Sequentially, this is pretty straight forward. I keep a variable for the floor and ceiling. If the current price breaks through the floor or ceiling, or changes more than the reversal threshold, I can take the appropriate action.&lt;/p&gt;
+
+&lt;p&gt;My question is, is there a way to find these reversal point in parallel? I&#39;m fairly new to thinking in parallel, so I&#39;m sorry if this is trivial. I am trying to do this in CUDA, but I have been stuck for weeks. I have tried using the &lt;a href=&quot;https://devblogs.nvidia.com/finite-difference-methods-cuda-cc-part-1/&quot; rel=&quot;nofollow noreferrer&quot;&gt;finite difference&lt;/a&gt; algorithms from NVidia. These produce local max / min but not the reversal points. Small fluctuations produce numerous relative max / min, but most of them are trivial because the change is not greater than the reversal size. &lt;/p&gt;
+
+&lt;p&gt;Thanks in Advance
+- John&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/q/57316643</id>
+        <re:rank scheme="https://stackoverflow.com">0</re:rank>
+        <title type="text">How do I N-Level mongoose-deep-populate?</title>
+            <category scheme="https://stackoverflow.com/tags" term="javascript" />
+            <category scheme="https://stackoverflow.com/tags" term="mongoose" />
+        <author>
+            <name>MLissCetrus</name>
+            <uri>https://stackoverflow.com/users/7106933</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/57316643/how-do-i-n-level-mongoose-deep-populate" />
+        <published>2019-08-01T20:35:49Z</published>
+        <updated>2019-08-01T21:18:41Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I am trying to use mongoose-deep-populate (&lt;a href=&quot;https://www.npmjs.com/package/mongoose-deep-populate&quot; rel=&quot;nofollow noreferrer&quot;&gt;https://www.npmjs.com/package/mongoose-deep-populate&lt;/a&gt;) and when I hit the code that invokes it, it only populates one level down&lt;/p&gt;
+
+&lt;p&gt;I have done :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;npm install mongoose-deep-populate
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;npm reports back that it installed it:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;C:\Users\Documents\GitHub\npm i mongoose-deep-populate
+npm WARN uductions@0.0.1 No repository field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 
+(node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for     
+fsevents@1.2.9: wanted {&quot;os&quot;:&quot;darwin&quot;,&quot;arch&quot;:&quot;any&quot;} (current: 
+{&quot;os&quot;:&quot;win32&quot;,&quot;arch&quot;:&quot;x64&quot;})
+
++ mongoose-deep-populate@3.1.1
+updated 1 package and audited 2727 packages in 9.753s
+found 0 vulnerabilities
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;At the top of my API file, I have this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;const mongoose = require(&#39;mongoose&#39;);
+var deepPopulate = require(&#39;mongoose-deep-populate&#39;)(mongoose);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;here is where I am trying to use deep populate:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Event.findOne({&#39;_id&#39;:v.id}).deepPopulate(&#39;registration_REF registrations.incentives_REF&#39;)
+.then(p =&amp;gt;{
+    return res.json(p);
+})
+.catch(p_e =&amp;gt;{
+    return res.status(400).json({error: &#39;unable populate &#39; + p_e});
+})
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;SCHEMAS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Here is my Event schema (it is in it&#39;s respective file)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;const EventSchema = new Schema({
+    registration_REF: { type: Schema.Types.ObjectId, ref: &#39;registrations&#39; },
+})
+
+// this is required to get rid of exception 
+EventSchema.plugin(deepPopulate);
+
+module.exports = Event = mongoose.model(&#39;events&#39;, EventSchema)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;here is the registration schema: (it is in it&#39;s respective file)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;const RegistrationsSchema = new Schema({    
+    dateBeg: {type: Date, required: true},
+    dateEnd: {type: Date, required: true},
+    incentives_REF: [{ type: Schema.Types.ObjectId, ref: schemaNames.incentives, default: [] }],
+})
+
+module.exports = Registration = mongoose.model(&#39;registrations&#39;, RegistrationsSchema)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Here is incentives Schema: (it is in it&#39;s respective file)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;const IncentiveSchema = new Schema({
+    notificationDays: {type: Number, required: true},
+})
+
+module.exports = Incentive = mongoose.model(&#39;incentives&#39;, IncentiveSchema)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;OUTPUT&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This is what I get for output when I run the code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&quot;_id&quot;: &quot;5d40a40f93ba712bd43835c8&quot;,
+&quot;__v&quot;: 0,
+&quot;registration_REF&quot;: {
+    &quot;incentives_REF&quot;: [
+        &quot;5d406e9bc4a3d0110047dc82&quot;
+    ],
+    &quot;_id&quot;: &quot;5d406d237374b00aaca17fdc&quot;,
+    &quot;dateBeg&quot;: &quot;2018-11-29T00:00:00.000Z&quot;,
+    &quot;dateEnd&quot;: &quot;2019-11-29T00:00:00.000Z&quot;,
+    &quot;__v&quot;: 10
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/q/57316359</id>
+        <re:rank scheme="https://stackoverflow.com">0</re:rank>
+        <title type="text">What is the use of the following code. What is it supposed to do</title>
+            <category scheme="https://stackoverflow.com/tags" term="javascript" />
+            <category scheme="https://stackoverflow.com/tags" term="call" />
+            <category scheme="https://stackoverflow.com/tags" term="apply" />
+            <category scheme="https://stackoverflow.com/tags" term="bind" />
+        <author>
+            <name>Connor</name>
+            <uri>https://stackoverflow.com/users/5135630</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/57316359/what-is-the-use-of-the-following-code-what-is-it-supposed-to-do" />
+        <published>2019-08-01T20:11:44Z</published>
+        <updated>2019-08-01T21:19:34Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;What is the use of this following code and what is the expected behavior. &lt;/p&gt;
+
+&lt;p&gt;Using bind call and apply in a very complicated way&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;var test = Function.prototype.call.bind(Function.prototype.bind,Function.prototype.call)
+var mapGet = test(Function.prototype.apply);
+var arrayIndex = test(Array.prototype.slice);
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/q/57316321</id>
+        <re:rank scheme="https://stackoverflow.com">3</re:rank>
+        <title type="text">How to catch exception to backtrack in Prolog?</title>
+            <category scheme="https://stackoverflow.com/tags" term="prolog" />
+            <category scheme="https://stackoverflow.com/tags" term="swi-prolog" />
+        <author>
+            <name>yangdinglou</name>
+            <uri>https://stackoverflow.com/users/8290271</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/57316321/how-to-catch-exception-to-backtrack-in-prolog" />
+        <published>2019-08-01T20:09:01Z</published>
+        <updated>2019-08-01T21:18:34Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I&#39;m new to Prolog and trying to know some example for catch/3.&lt;/p&gt;
+
+&lt;p&gt;The code I want to run is here. (Using swi-prolog v8.0.3)&lt;/p&gt;
+
+&lt;p&gt;mylib.pl&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;mylib([1,2]).
+mylib(1).
+test(X):- mylib(X), length([1],X).
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;then consult it in swipl then run the following command.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;catch(test(X),error(Err,_Context),format(&#39;catch&#39;)).
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;So here I want to catch the &lt;code&gt;typeError exception&lt;/code&gt; and get &lt;code&gt;X = 1&lt;/code&gt;. But the result is catching the exception and nothing continues. So what should I do to reach my target?&lt;/p&gt;
+
+&lt;p&gt;Running messages here.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;catch
+Err = type_error(integer, [1, 2]),
+_Context = context(length/2, _12488).
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;UPDATE1:
+I have tried to modify the mylib.pl to the following:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;mylib([1,2]).
+mylib(1).
+test(X):- mylib(X),catch(length([1],X),error(Err,_Context),format(&#39;catch&#39;)).
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then run &lt;code&gt;test(X).&lt;/code&gt; command and got following result.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;?- test(X).
+catch
+X = [1, 2] ;
+X = 1.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;But what I want is skipping the &lt;code&gt;X = [1, 2]&lt;/code&gt;&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/q/57316212</id>
+        <re:rank scheme="https://stackoverflow.com">0</re:rank>
+        <title type="text">calculate an average based on groups</title>
+            <category scheme="https://stackoverflow.com/tags" term="powerbi" />
+            <category scheme="https://stackoverflow.com/tags" term="dax" />
+        <author>
+            <name>Fatima</name>
+            <uri>https://stackoverflow.com/users/10718214</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/57316212/calculate-an-average-based-on-groups" />
+        <published>2019-08-01T19:59:05Z</published>
+        <updated>2019-08-01T21:18:56Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I have data similar to this table&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;root    sub   questions         scores
+C       C.1     C.1.1              0
+C       C.1     C.1.2             30
+C       C.1     C.1.3             100
+C       C.1     C.1.4              0
+C       C.1     C.1.5              70
+C       C.2     C.2.1              0
+C       C.2     C.2.2              0
+C       C.2     C.2.3              90
+C       C.2     C.2.4              0
+C       C.3     C.3.1             100
+C       C.3     C.3.2              0
+C       C.3     C.3.3              40
+C       C.4     C.4.1               0
+C       C.4     C.4.2              59
+C       C.4     C.4.3              30
+C       C.4     C.4.4              90
+C       C.5     C.5.1              20
+C       C.5     C.5.2               0
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;and I used (zoomcharts advanced donut visual) chart to visualize the data with drill-down, and I found that the average of the root is calculated based on overall rows, not based on the group.&lt;/p&gt;
+
+&lt;p&gt;here is an example for more explain 
+the chart takes the average of root C like this&lt;/p&gt;
+
+&lt;p&gt;(0+30+100+0+70+0+0+90+0+100+40+0+59+30+90+20+0)/18= 34.94&lt;/p&gt;
+
+&lt;p&gt;and I want to take it by the groups first, and the result is different too&lt;/p&gt;
+
+&lt;p&gt;c.1=40 &lt;/p&gt;
+
+&lt;p&gt;c.2=22.5&lt;/p&gt;
+
+&lt;p&gt;c.3=46.66&lt;/p&gt;
+
+&lt;p&gt;c.4=44.75&lt;/p&gt;
+
+&lt;p&gt;c.5=10&lt;/p&gt;
+
+&lt;p&gt;(c.1+c.2+c3+c.4+c.5)/5=32.7
+and on the chart, C = 34.94 means it takes the average by overall
+is there any chart or way to make it take the average for the groups with drill down?&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/q/57316118</id>
+        <re:rank scheme="https://stackoverflow.com">0</re:rank>
+        <title type="text">SQL Gaps and Island problem with a twist -- reset a flag based on duration from previous flag</title>
+            <category scheme="https://stackoverflow.com/tags" term="sql" />
+            <category scheme="https://stackoverflow.com/tags" term="sql-server" />
+            <category scheme="https://stackoverflow.com/tags" term="window-functions" />
+            <category scheme="https://stackoverflow.com/tags" term="gaps-and-islands" />
+        <author>
+            <name>nikeshpraj</name>
+            <uri>https://stackoverflow.com/users/5842898</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/57316118/sql-gaps-and-island-problem-with-a-twist-reset-a-flag-based-on-duration-from" />
+        <published>2019-08-01T19:52:36Z</published>
+        <updated>2019-08-01T21:19:06Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I have a data set of calls with Call date from customers and the outcome of the call (Status). I would like to pay my sales rep for each sold call if the most recent previous paid call has been &gt;= 5 days.&lt;/p&gt;
+
+&lt;p&gt;Below is my sample data set with the table I have. Also, attached is the picture of the table with the columns I have and column I want. Colored records are sold calls; green records are ones I want to way and the red are ones I wouldn&#39;t want to pay even if it is a sold call.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.stack.imgur.com/CHNUW.png&quot; alt=&quot;Image of Data Table with Have and want columns&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;I have tried a few versions using window functions but haven&#39;t yet been successful. Any help is highly appreciated.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;DECLARE @have TABLE
+(
+    CallDate DATE,
+    Status VARCHAR(10)
+);
+
+INSERT INTO @have (CallDate, Status)
+values
+(&#39;2019-01-01&#39;, &#39;unsold&#39;),
+(&#39;2019-01-02&#39;, &#39;unsold&#39;),
+(&#39;2019-01-04&#39;, &#39;unsold&#39;),
+(&#39;2019-01-08&#39;, &#39;sold&#39;),
+(&#39;2019-01-09&#39;, &#39;sold&#39;),
+(&#39;2019-01-13&#39;, &#39;unsold&#39;),
+(&#39;2019-01-14&#39;, &#39;sold&#39;),
+(&#39;2019-01-19&#39;, &#39;unsold&#39;),
+(&#39;2019-01-21&#39;, &#39;unsold&#39;),
+(&#39;2019-01-22&#39;, &#39;sold&#39;),
+(&#39;2019-01-24&#39;, &#39;unsold&#39;),
+(&#39;2019-01-25&#39;, &#39;sold&#39;),
+(&#39;2019-01-29&#39;, &#39;sold&#39;),
+(&#39;2019-01-30&#39;, &#39;unsold&#39;),
+(&#39;2019-02-04&#39;, &#39;sold&#39;),
+(&#39;2019-02-05&#39;, &#39;sold&#39;),
+(&#39;2019-02-06&#39;, &#39;sold&#39;),
+(&#39;2019-02-11&#39;, &#39;sold&#39;),
+(&#39;2019-02-12&#39;, &#39;unsold&#39;),
+(&#39;2019-02-17&#39;, &#39;sold&#39;),
+(&#39;2019-02-18&#39;, &#39;unsold&#39;),
+(&#39;2019-02-19&#39;, &#39;unsold&#39;),
+(&#39;2019-02-20&#39;, &#39;sold&#39;)
+;
+
+
+DECLARE @want TABLE
+(
+    CallDate DATE,
+    Status VARCHAR(10),
+    PaidCall int, 
+    Days_Since_Last_Paid_Call int
+);
+
+INSERT INTO @want (CallDate, Status, PaidCall, Days_Since_Last_Paid_Call)
+values
+(&#39;2019-01-01&#39;, &#39;unsold&#39;, 0, NULL),
+(&#39;2019-01-02&#39;, &#39;unsold&#39;, 0, NULL),
+(&#39;2019-01-04&#39;, &#39;unsold&#39;, 0, NULL),
+(&#39;2019-01-08&#39;, &#39;sold&#39;, 1, NULL),
+(&#39;2019-01-09&#39;, &#39;sold&#39;, 0, 1),
+(&#39;2019-01-13&#39;, &#39;unsold&#39;, 0, NULL),
+(&#39;2019-01-14&#39;, &#39;sold&#39;, 1, 6),
+(&#39;2019-01-19&#39;, &#39;unsold&#39;, 0, NULL),
+(&#39;2019-01-21&#39;, &#39;unsold&#39;, 0, NULL),
+(&#39;2019-01-22&#39;, &#39;sold&#39;, 1, 8),
+(&#39;2019-01-24&#39;, &#39;unsold&#39;, 0, NULL),
+(&#39;2019-01-25&#39;, &#39;sold&#39;, 0, 3),
+(&#39;2019-01-29&#39;, &#39;sold&#39;, 1, 7),
+(&#39;2019-01-30&#39;, &#39;unsold&#39;, 0, NULL),
+(&#39;2019-02-04&#39;, &#39;sold&#39;, 1, 6),
+(&#39;2019-02-05&#39;, &#39;sold&#39;, 0, 1),
+(&#39;2019-02-06&#39;, &#39;sold&#39;, 0, 2),
+(&#39;2019-02-11&#39;, &#39;sold&#39;, 1, 7),
+(&#39;2019-02-12&#39;, &#39;unsold&#39;, 0, NULL),
+(&#39;2019-02-17&#39;, &#39;sold&#39;, 1, 6),
+(&#39;2019-02-18&#39;, &#39;unsold&#39;, 0, NULL),
+(&#39;2019-02-19&#39;, &#39;unsold&#39;, 0, NULL),
+(&#39;2019-02-20&#39;, &#39;sold&#39;, 0, 3)
+
+;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I would like to add the PaidCall flag in my table as shown in this table. Days_Since_Paid_Call is just for illustration purpose to explain how I am coming up with the PaidCall column.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/q/57316077</id>
+        <re:rank scheme="https://stackoverflow.com">0</re:rank>
+        <title type="text">Failed to execute goal org.apache.maven.plugins:maven-war-plugin:3.2.2:war (default-war) on project</title>
+            <category scheme="https://stackoverflow.com/tags" term="maven" />
+            <category scheme="https://stackoverflow.com/tags" term="swagger" />
+            <category scheme="https://stackoverflow.com/tags" term="jersey-2.0" />
+            <category scheme="https://stackoverflow.com/tags" term="maven-dependency-plugin" />
+        <author>
+            <name>Abhijot Mann</name>
+            <uri>https://stackoverflow.com/users/6150643</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/57316077/failed-to-execute-goal-org-apache-maven-pluginsmaven-war-plugin3-2-2war-defa" />
+        <published>2019-08-01T19:49:53Z</published>
+        <updated>2019-08-01T21:19:37Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I am trying to download Swagger UI webjar and add Swagger UI resources to the war file by adding plugins in my pom.xml file of my maven web project exactly as shown in &lt;a href=&quot;https:////medium.com/shark-bytes/co-hosting-swagger-ui-with-your-jersey-rest-api-using-maven-dependencies-44d88ae85bf8&quot; rel=&quot;nofollow noreferrer&quot;&gt;Co-hosting Swagger UI with your Jersey REST API using Maven dependencies&lt;/a&gt; pom.xml file. I have all the dependency and plugins in place. However, when I try to build my project I am getting error.&lt;/p&gt;
+
+&lt;p&gt;Failed to execute goal org.apache.maven.plugins:maven-war-plugin:3.2.2:war (default-war) on project biosp-subjectstore: Execution default-war of goal org.apache.maven.plugins:maven-war-plugin:3.2.2:war failed: basedir D:\DocAuth\modules\stem\target\swagger-ui\META-INF\resources\webjars\swagger-ui\3.17.0 does not exist.&lt;/p&gt;
+
+&lt;p&gt;Any help how to resolve this issue ?. And why the &quot;basedir&quot; do not exist, as per my understanding, it should be created during maven build itself.&lt;/p&gt;
+
+&lt;p&gt;I have also attached a picture of my console Error output below.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;artifactId&amp;gt;maven-dependency-plugin&amp;lt;/artifactId&amp;gt;
+
+                &amp;lt;version&amp;gt;3.1.1&amp;lt;/version&amp;gt;
+
+                &amp;lt;executions&amp;gt;
+
+                    &amp;lt;execution&amp;gt;
+
+                        &amp;lt;phase&amp;gt;package&amp;lt;/phase&amp;gt;
+
+                        &amp;lt;goals&amp;gt;
+
+                            &amp;lt;goal&amp;gt;unpack&amp;lt;/goal&amp;gt;
+
+                        &amp;lt;/goals&amp;gt;
+
+                        &amp;lt;configuration&amp;gt;
+
+                            &amp;lt;artifactItems&amp;gt;
+
+                                &amp;lt;artifactItem&amp;gt;
+
+                                    &amp;lt;groupId&amp;gt;org.webjars&amp;lt;/groupId&amp;gt;
+
+                                    &amp;lt;artifactId&amp;gt;swagger-ui&amp;lt;/artifactId&amp;gt;
+
+                                    &amp;lt;version&amp;gt;${swagger-ui.version}&amp;lt;/version&amp;gt;
+
+                                &amp;lt;/artifactItem&amp;gt;
+
+                            &amp;lt;/artifactItems&amp;gt;
+
+                            &amp;lt;outputDirectory&amp;gt;${project.build.directory}/swagger-ui&amp;lt;/outputDirectory&amp;gt;
+
+                        &amp;lt;/configuration&amp;gt;
+
+                    &amp;lt;/execution&amp;gt;
+
+                &amp;lt;/executions&amp;gt;
+
+            &amp;lt;/plugin&amp;gt;
+
+            &amp;lt;plugin&amp;gt; 
+            &amp;lt;!-- Add Swagger UI resources to the war file. --&amp;gt;
+
+                &amp;lt;groupId&amp;gt;org.apache.maven.plugins&amp;lt;/groupId&amp;gt;
+
+                &amp;lt;artifactId&amp;gt;maven-war-plugin&amp;lt;/artifactId&amp;gt;
+
+                &amp;lt;version&amp;gt;3.2.2&amp;lt;/version&amp;gt;
+
+                &amp;lt;configuration&amp;gt;
+
+                    &amp;lt;webResources combine.children=&quot;append&quot;&amp;gt;
+
+                        &amp;lt;resource&amp;gt;
+
+                            &amp;lt;directory&amp;gt;${project.build.directory}/swagger-ui/META-INF/resources/webjars/swagger-ui/${swagger-ui.version}&amp;lt;/directory&amp;gt;
+
+                            &amp;lt;includes&amp;gt;
+
+                                &amp;lt;include&amp;gt;**/*.*&amp;lt;/include&amp;gt;
+
+                            &amp;lt;/includes&amp;gt;
+
+                            &amp;lt;targetPath&amp;gt;swagger-ui&amp;lt;/targetPath&amp;gt;
+
+                        &amp;lt;/resource&amp;gt;
+
+                    &amp;lt;/webResources&amp;gt;
+
+                &amp;lt;/configuration&amp;gt;
+
+            &amp;lt;/plugin&amp;gt;
+
+            &amp;lt;plugin&amp;gt;
+
+                &amp;lt;!-- Replace the OpenAPI specification example URL with the local one. --&amp;gt;
+
+                &amp;lt;groupId&amp;gt;com.google.code.maven-replacer-plugin&amp;lt;/groupId&amp;gt;
+
+                &amp;lt;artifactId&amp;gt;replacer&amp;lt;/artifactId&amp;gt;
+
+                &amp;lt;version&amp;gt;1.5.3&amp;lt;/version&amp;gt;
+
+                &amp;lt;executions&amp;gt;
+
+                    &amp;lt;execution&amp;gt;
+
+                        &amp;lt;phase&amp;gt;&amp;lt;package&amp;lt;/phase&amp;gt;
+
+                        &amp;lt;goals&amp;gt;
+
+                            &amp;lt;goal&amp;gt;replace&amp;lt;/goal&amp;gt;
+
+                        &amp;lt;/goals&amp;gt;
+
+                    &amp;lt;/execution&amp;gt;
+
+                &amp;lt;/executions&amp;gt;
+
+                &amp;lt;configuration&amp;gt;
+
+                    &amp;lt;file&amp;gt;${project.build.directory}/swagger-ui/META-INF/resources/webjars/swagger-ui/${swagger-ui.version}/index.html&amp;lt;/file&amp;gt;
+
+                    &amp;lt;replacements&amp;gt;
+
+                        &amp;lt;replacement&amp;gt;
+
+                            &amp;lt;token&amp;gt;http://petstore.swagger.io/v2/swagger.json&amp;lt;/token&amp;gt;
+
+                            &amp;lt;value&amp;gt;/rest/openapi.json&amp;lt;/value&amp;gt;
+
+                        &amp;lt;/replacement&amp;gt;
+
+                    &amp;lt;/replacements&amp;gt;
+
+                &amp;lt;/configuration&amp;gt;
+
+            &amp;lt;/plugin&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://i.stack.imgur.com/9LOrq.png&quot; rel=&quot;nofollow noreferrer&quot;&gt;Console Error Picture&lt;/a&gt;&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/q/57315652</id>
+        <re:rank scheme="https://stackoverflow.com">0</re:rank>
+        <title type="text">Dialog test - Jasmine returns this.store$.pipe is not a function when I mock this.store$.pipe( select(...) ...).subscribe(..)</title>
+            <category scheme="https://stackoverflow.com/tags" term="angular" />
+            <category scheme="https://stackoverflow.com/tags" term="unit-testing" />
+            <category scheme="https://stackoverflow.com/tags" term="rxjs" />
+            <category scheme="https://stackoverflow.com/tags" term="jasmine" />
+            <category scheme="https://stackoverflow.com/tags" term="ngrx" />
+        <author>
+            <name>Sgryt87</name>
+            <uri>https://stackoverflow.com/users/8241992</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/57315652/dialog-test-jasmine-returns-this-store-pipe-is-not-a-function-when-i-mock-thi" />
+        <published>2019-08-01T19:12:47Z</published>
+        <updated>2019-08-01T21:18:50Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I&#39;m trying to unit test my component, but it immediately generates an error: 
+TypeError: this.store$.pipe is not a function&lt;/p&gt;
+
+&lt;p&gt;From my understanding, createSpyObj should mock the state. I different options  options but none of them worked. &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@Component({
+    selector: &#39;someSelector&#39;,
+.....
+})
+export class SomeComponent implements OnInit, OnDestroy {
+
+    public isCon: boolean;
+    public dropdown: string[];
+    private isComponentActive: boolean = true;
+
+    constructor(@Inject(MAT_DIALOG_DATA) public data: any, private store$: Store&amp;lt;State&amp;gt;) {
+        this.isCon = data.isCon;
+    }
+
+    ngOnInit(): void {
+        this.store$.pipe(
+            select(this.returnColumns()),
+            takeWhile((): boolean =&amp;gt; this.isComponentActive)
+        ).subscribe((dropdown: []): void =&amp;gt; this.setDropdown(dropdown));
+    }
+
+    private setDropdown(dropdown: []): void {
+        this.dropdown= filter(dropdown, (key): boolean =&amp;gt; !key.isTrue)
+            .map((m): string =&amp;gt; m.name);
+    }
+
+    private returnColumns() {
+        return this.isContractor ? getConCol : getEmpCol;
+    }
+
+    ngOnDestroy(): void {
+        this.isComponentActive = false;
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;my test: &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+describe(&#39;SomeComponent&#39;, () =&amp;gt; {
+    let component: SomeComponent;
+    let fixture: ComponentFixture&amp;lt;SomeComponent&amp;gt;;
+
+    const mockDialogData: object = {
+        isCon: true
+    };
+
+    const mockStoreData: ColumnDisplay[] = [&#39;someData&#39;]
+    ];
+    const testStore = jasmine.createSpyObj(&#39;Store&#39;, [&#39;select&#39;]);
+    beforeEach(async () =&amp;gt; {
+        TestBed.configureTestingModule({
+            declarations: [SomeComponent],
+            schemas: [NO_ERRORS_SCHEMA],
+            imports: [MatDialogModule],
+            providers: [
+                { provide: MAT_DIALOG_DATA, useValue: mockDialogData },
+                { provide: Store, useValue: testStore }
+            ]
+        }).compileComponents();
+    });
+
+    beforeEach(() =&amp;gt; {
+        fixture = TestBed.createComponent(SomeComponent);
+        component = fixture.componentInstance;
+        fixture.detectChanges();
+    });
+
+    it(&#39;should create&#39;, async () =&amp;gt; {
+        testStore.select.and.returnValue(from([]));
+        expect(component).toBeTruthy();
+    });
+
+    it(&#39;should display correct selection rows when dialog opened&#39;, () =&amp;gt; {
+        component.ngOnInit();
+        ... more assertions goes here
+    });
+});
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Expecting to get a mock data from the store to proceed with assertions.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/q/57315134</id>
+        <re:rank scheme="https://stackoverflow.com">0</re:rank>
+        <title type="text">adjust x axis dates to match start of the (&quot;fiscal&quot;) year</title>
+            <category scheme="https://stackoverflow.com/tags" term="r" />
+            <category scheme="https://stackoverflow.com/tags" term="ggplot2" />
+        <author>
+            <name>R.M.</name>
+            <uri>https://stackoverflow.com/users/5319229</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/57315134/adjust-x-axis-dates-to-match-start-of-the-fiscal-year" />
+        <published>2019-08-01T18:36:33Z</published>
+        <updated>2019-08-01T21:19:10Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;Is there any way to shift the dates of a seasonal graph so that they match an arbitrary fiscal year (for example MARCH/FEB instead of DEC/JAN)?&lt;/p&gt;
+
+&lt;p&gt;I have this of far: &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;startMonth = 3 # march
+startDate = as.Date(paste0(year(today()), &#39;-&#39;, startMonth, &#39;-1&#39;))
+
+
+dts = seq.Date(from = today() - 500, to = today(), by = &#39;day&#39;)
+dat = data.frame(date = dts, value = runif(n = length(dts), min = 1, max = 10))
+
+dat$month = month(dat$date)
+dat$year = year(dat$date)
+dat$yearPlot = ifelse(test = dat$month &amp;lt; startMonth, yes = (dat$year - 1), no = dat$year)
+dat$year = as.character(dat$year)
+
+dat$ydaydiff = yday(dat$date) - yday(startDate)
+dat$datePlot1 = ifelse(dat$ydaydiff &amp;lt; 0, dat$ydaydiff + 365, dat$ydaydiff)
+dat$datePlot1 = as.Date(&#39;0001-01-01&#39;) + days(dat$datePlot1)
+
+dat$yearPlot = as.character(dat$yearPlot)
+ggplot(dat) +
+  geom_path(aes(x = datePlot1, y = value, color = yearPlot)) +
+  scale_x_date(date_labels = &#39;%b&#39;, )
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Which makes this plot: 
+&lt;a href=&quot;https://i.stack.imgur.com/bKmPG.png&quot; rel=&quot;nofollow noreferrer&quot;&gt;&lt;img src=&quot;https://i.stack.imgur.com/bKmPG.png&quot; alt=&quot;enter image description here&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;However I&#39;d like the x-axis to start at March instead of Jan. Is there any way to adjust this? I thought of using the &lt;code&gt;month&lt;/code&gt; column in &lt;code&gt;dat&lt;/code&gt; but not sure how to implement. &lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/q/57312953</id>
+        <re:rank scheme="https://stackoverflow.com">2</re:rank>
+        <title type="text">Operation on numpy array in someone else code</title>
+            <category scheme="https://stackoverflow.com/tags" term="python" />
+            <category scheme="https://stackoverflow.com/tags" term="numpy" />
+        <author>
+            <name>Kiyosuke</name>
+            <uri>https://stackoverflow.com/users/11862897</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/57312953/operation-on-numpy-array-in-someone-else-code" />
+        <published>2019-08-01T16:01:53Z</published>
+        <updated>2019-08-01T21:19:16Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I was trying to understand a code written by someone else and i found this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;w &amp;amp;= (n == 2)  
+w |= (n == 3)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Where w and n are both numpy arrays.
+I have done some quick research on google but didn&#39;t find out what is it if some can tell me, I&#39;d really appreciate that.&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/q/57300412</id>
+        <re:rank scheme="https://stackoverflow.com">-1</re:rank>
+        <title type="text">when I execute a form on the same page it reloads and shows the top, how can I make it show where this form is?</title>
+            <category scheme="https://stackoverflow.com/tags" term="php" />
+            <category scheme="https://stackoverflow.com/tags" term="mysql" />
+            <category scheme="https://stackoverflow.com/tags" term="sql" />
+        <author>
+            <name>J. Villasmil</name>
+            <uri>https://stackoverflow.com/users/11805606</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/57300412/when-i-execute-a-form-on-the-same-page-it-reloads-and-shows-the-top-how-can-i-m" />
+        <published>2019-08-01T00:28:54Z</published>
+        <updated>2019-08-01T21:19:30Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;to see the form you have to scroll down, that&#39;s fine but if you fail the form the page goes back up and it&#39;s annoying to have to go down every time you&#39;re wrong.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;!-- This is how I send the form to the same page where it is located --&amp;gt;
+
+&amp;lt;form action=&quot;&amp;lt;?php echo htmlspecialchars($_SERVER[&#39;PHP_SELF&#39;]); ?&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/q/55155345</id>
+        <re:rank scheme="https://stackoverflow.com">1</re:rank>
+        <title type="text">&quot;SVG is not defined&quot; when using svg.js</title>
+            <category scheme="https://stackoverflow.com/tags" term="javascript" />
+            <category scheme="https://stackoverflow.com/tags" term="html" />
+            <category scheme="https://stackoverflow.com/tags" term="svg" />
+            <category scheme="https://stackoverflow.com/tags" term="web-frontend" />
+            <category scheme="https://stackoverflow.com/tags" term="svg.js" />
+        <author>
+            <name>Jack Allard</name>
+            <uri>https://stackoverflow.com/users/11200873</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/55155345/svg-is-not-defined-when-using-svg-js" />
+        <published>2019-03-14T05:11:02Z</published>
+        <updated>2019-08-01T21:19:27Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I am trying to make a basic rectangle inside of my webpage using svg.js. I have the library installed via npm and i have refrenced the source file in a script tag, but my SVG drawing will not show up.&lt;/p&gt;
+
+&lt;p&gt;The console provides the error, &quot;Uncaught ReferenceError: SVG is not defined&quot;,&lt;/p&gt;
+
+&lt;p&gt;Here is a snippet of my project&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&quot;snippet&quot; data-lang=&quot;js&quot; data-hide=&quot;false&quot; data-console=&quot;true&quot; data-babel=&quot;false&quot;&gt;
+&lt;div class=&quot;snippet-code&quot;&gt;
+&lt;pre class=&quot;snippet-code-js lang-js prettyprint-override&quot;&gt;&lt;code&gt;var draw = SVG(&#39;drawing&#39;).size(300, 300);
+var rect = draw.rect(100, 100).attr({
+  fill: &#39;#f06&#39;
+});&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&quot;snippet-code-html lang-html prettyprint-override&quot;&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html lang=&quot;en&quot;&amp;gt;
+
+&amp;lt;head&amp;gt;
+  &amp;lt;meta charset=&quot;UTF-8&quot;&amp;gt;
+  &amp;lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&amp;gt;
+  &amp;lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot;&amp;gt;
+  &amp;lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;main.css&quot;&amp;gt;
+
+  &amp;lt;title&amp;gt;Breathe&amp;lt;/title&amp;gt;
+&amp;lt;/head&amp;gt;
+
+&amp;lt;body&amp;gt;
+  &amp;lt;div class=&quot;container&quot;&amp;gt;
+    &amp;lt;div class=&quot;header-container&quot;&amp;gt;
+      &amp;lt;div class=&quot;title-container&quot;&amp;gt;
+        &amp;lt;div&amp;gt;Title&amp;lt;/div&amp;gt;
+        &amp;lt;div&amp;gt;&amp;lt;/div&amp;gt;
+        &amp;lt;div&amp;gt;&amp;lt;/div&amp;gt;
+      &amp;lt;/div&amp;gt;
+    &amp;lt;/div&amp;gt;
+    &amp;lt;div class=&quot;main-container&quot;&amp;gt;
+      &amp;lt;div id=&quot;drawing&quot;&amp;gt;&amp;lt;/div&amp;gt;
+    &amp;lt;/div&amp;gt;
+    &amp;lt;div class=&quot;footer-container&quot;&amp;gt;
+
+    &amp;lt;/div&amp;gt;
+
+  &amp;lt;/div&amp;gt;
+  &amp;lt;script src=&quot;main.js&quot; type=&quot;text/javascript&quot;&amp;gt;&amp;lt;/script&amp;gt;
+  &amp;lt;script src=&quot;node_modules\svg.js\dist\svg.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;/body&amp;gt;
+
+&amp;lt;/html&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+
+        </summary>
+    </entry>
+    <entry>
+        <id>https://stackoverflow.com/q/46503545</id>
+        <re:rank scheme="https://stackoverflow.com">0</re:rank>
+        <title type="text">Detect open application from deep link - Android</title>
+            <category scheme="https://stackoverflow.com/tags" term="android" />
+            <category scheme="https://stackoverflow.com/tags" term="android-activity" />
+            <category scheme="https://stackoverflow.com/tags" term="deep-linking" />
+        <author>
+            <name>user4813855</name>
+            <uri>https://stackoverflow.com/users/0</uri>
+        </author>
+        <link rel="alternate" href="https://stackoverflow.com/questions/46503545/detect-open-application-from-deep-link-android" />
+        <published>2017-09-30T14:16:18Z</published>
+        <updated>2019-08-01T21:20:10Z</updated>
+        <summary type="html">
+            
+
+            &lt;p&gt;I am using from &lt;code&gt;deep link&lt;/code&gt; to my app. How can I detect that my app opened form &lt;code&gt;deep link&lt;/code&gt; or from icon of application?&lt;/p&gt;
+
+        </summary>
+    </entry>
+</feed>

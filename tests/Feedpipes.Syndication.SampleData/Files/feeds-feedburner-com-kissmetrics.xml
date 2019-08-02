@@ -1,0 +1,1464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+
+<channel>
+	<title>Blog – Neil Patel</title>
+	
+	<link>https://neilpatel.com</link>
+	<description />
+	<lastBuildDate>Wed, 31 Jul 2019 13:40:00 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/KISSmetrics" /><feedburner:info uri="kissmetrics" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><xhtml:meta xmlns:xhtml="http://www.w3.org/1999/xhtml" name="robots" content="noindex" /><meta xmlns="http://pipes.yahoo.com" name="pipes" content="noprocess" /><feedburner:emailServiceId>KISSmetrics</feedburner:emailServiceId><feedburner:feedburnerHostname>https://feedburner.google.com</feedburner:feedburnerHostname><feedburner:feedFlare href="https://add.my.yahoo.com/rss?url=http%3A%2F%2Ffeeds.feedburner.com%2FKISSmetrics" src="http://us.i1.yimg.com/us.yimg.com/i/us/my/addtomyyahoo4.gif">Subscribe with My Yahoo!</feedburner:feedFlare><feedburner:feedFlare href="http://www.netvibes.com/subscribe.php?url=http%3A%2F%2Ffeeds.feedburner.com%2FKISSmetrics" src="//www.netvibes.com/img/add2netvibes.gif">Subscribe with Netvibes</feedburner:feedFlare><feedburner:feedFlare href="http://fusion.google.com/add?feedurl=http%3A%2F%2Ffeeds.feedburner.com%2FKISSmetrics" src="http://buttons.googlesyndication.com/fusion/add.gif">Subscribe with Google</feedburner:feedFlare><item>
+		<title>Advanced Hack: How to Improve Your SEO in Less Than 30 Minutes</title>
+		<link>http://feedproxy.google.com/~r/KISSmetrics/~3/_I8MTFVkt8Y/</link>
+				<comments>https://neilpatel.com/blog/faq-schema/#comments</comments>
+				<pubDate>Tue, 30 Jul 2019 13:00:40 +0000</pubDate>
+		<dc:creator><![CDATA[Neil Patel]]></dc:creator>
+				<category><![CDATA[SEO]]></category>
+
+		<guid isPermaLink="false">http://neilpatel.com/?p=85614</guid>
+				<description><![CDATA[<p>I’ve been testing a new SEO hack and it works no matter how old or how new your site is. Heck, you can have barely any links, and I’ve found it to work as well. Best of all, unlike most SEO changes, it doesn’t take months or years to see results from this… you can [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://neilpatel.com/blog/faq-schema/">Advanced Hack: How to Improve Your SEO in Less Than 30 Minutes</a> appeared first on <a rel="nofollow" href="https://neilpatel.com">Neil Patel</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p><img src="https://neilpatel.com/wp-content/uploads/2019/07/googledmrank.png" alt="digital marketing" /></p>
+<p>I’ve been testing a new SEO hack and it works no matter how old or how new your site is.</p>
+<p>Heck, you can have barely any links, and I’ve found it to work as well.</p>
+<p>Best of all, unlike most SEO changes, it doesn’t take months or years to see results from this… you can literally see results in less than 30 minutes.</p>
+<p>And here&#8217;s what’s crazy: I had my team crawl 10,000 sites to see how many people are leveraging this SEO technique and it was only 17.</p>
+<p><em>In other words, your competition doesn’t know about this yet!</em></p>
+<p>So what is this hack that I speak of?<span id="more-85614"></span></p>
+<h2><strong>Google’s ever-changing search results</strong></h2>
+<p>Not only is <a href="https://neilpatel.com/blog/the-ultimate-google-algorithm-cheat-sheet/">Google changing its algorithm</a> on a regular basis, but they also test out <a href="https://neilpatel.com/blog/googles-new-layout/">new design elements</a>.</p>
+<p>For example, if you search for &#8220;food near me&#8221;, you’ll not only see a list of restaurants but you also see their ratings.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/07/foodnear.png" alt="food near me" /></p>
+<p>And if you look up a person, Google may show you a picture of that person and a quick overview.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/07/elonmusk.png" alt="elon musk" /></p>
+<p>Over the years, Google has adapted its search results to give you the best experience. For example, if you search “2+2” Google will show you the answer of “4” so you don’t have to click through and head over to a webpage.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/07/22.png" alt="2 plus 2" /></p>
+<p>But you already know this.</p>
+<p>Now, what’s new that no one is really using are FAQ-rich results and Answer Cards.</p>
+<p>Here’s what I mean… if you search “digital marketing” you’ll see that I rank on Google. But my listing doesn’t look like most people’s…</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/07/whatisdigitalmarketing.png" alt="digital marketing" /></p>
+<p>As you can see from the image above, Google has pulled FAQ rich results from my site.</p>
+<p>And best of all, I was able to pull it off in less than 30 minutes. That&#8217;s how quickly Google picked it up and adjusted their SERP listing.</p>
+<p>Literally all within 30 minutes.</p>
+<p>And you can do the same thing through Answer Cards anytime you have pages related to question and answers.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/07/qa-example.png" alt="qa example" /></p>
+<p><em>So how can you do this?</em></p>
+<h2><strong>Picking the right markup</strong></h2>
+<p>Before we get this going with your site, you have to pick the right schema markup.</p>
+<p>FAQpage schema is used when you offer a Frequently Asked Question page or have a product page that contains frequently asked questions about the product itself. This will let you be eligible for a collapsible menu under your SERP with the question, that when clicked on, reveals the answer.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/07/FAQ-Rich-Result.png" alt="faq rich result" /></p>
+<p>It can also let you be eligible for <a href="https://developers.google.com/actions/content-actions/faq">FAQ Action that is shown on Google Assistant</a>. This can potentially help get you noticed by people using voice search to find out an answer!</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/07/Googles-Image-For-FAQ-Action.png" alt="faq action" /></p>
+<p>Q&amp;A schema is used when people are contributing different types of answers and can vote for which answer they think is the best. This will provide the rich result cards under your SERP and shows all the answers, with the top answer highlighted.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/07/QA-Rich-Result.png" alt="qa rich result" /></p>
+<p>After making sure you understand what these are used for, Google also has additional guidelines on when you can and can’t use these schema’s for:</p>
+<h2><strong>Google’s guidelines</strong></h2>
+<p>Google has a list of <a href="https://developers.google.com/search/docs/data-types/faqpage">FAQpage schema</a> guidelines.</p>
+<p>Only use FAQPage if your page has a list of questions with answers. If your page has a single question and users can submit alternative answers, use <a href="https://developers.google.com/search/docs/data-types/qapage">QAPage</a> instead. Here are some examples:</p>
+<p><strong>Valid use cases</strong>:</p>
+<ul>
+<li>An FAQ page was written by the site itself with no way for users to submit alternative answers</li>
+<li>A product support page that lists FAQs with no way for users to submit alternative answers<strong> </strong></li>
+</ul>
+<p><strong>Invalid use cases</strong>:</p>
+<ul>
+<li>A forum page where users can submit answers to a single question</li>
+<li>A product support page where users can submit answers to a single question</li>
+<li>A product page where users can submit multiple questions and answers on a single page</li>
+<li>Don’t use FAQPagefor advertising purposes</li>
+<li>Make sure each Question includes the entire text of the question and make sure each answer includes the entire text of the answer. The entire question text and answer text may be displayed.</li>
+<li>Question and answer content may not be displayed as a rich result if it contains any of the following types of content: obscene, profane, sexually explicit, graphically violent, promotion of dangerous or illegal activities, or hateful or harassing language.</li>
+<li>All FAQcontent must be visible to the user on the source page.</li>
+</ul>
+<p>And here are the guidelines for <a href="https://developers.google.com/search/docs/data-types/qapage">Q&amp;A schema</a>:</p>
+<p>Only use the QAPage markup if your page has information in a question and answer format, which is one question followed by its answers.</p>
+<p>Users must be able to submit answers to the question. Don&#8217;t use QAPage markup for content that has only one answer for a given question with no way for users to add alternative answers; instead, use <a href="https://developers.google.com/search/docs/data-types/faqpage">FAQPage</a>. Here are some examples:</p>
+<p><strong>Valid use cases</strong>:</p>
+<ul>
+<li>A forum page where users can submit answers to a single question</li>
+<li>A product support page where users can submit answers to a single question<strong> </strong></li>
+</ul>
+<p><strong>Invalid use cases</strong>:</p>
+<ul>
+<li>An FAQ page was written by the site itself with no way for users to submit alternative answers</li>
+<li>A product page where users can submit multiple questions and answers on a single page</li>
+<li>A how-to guide that answers a question</li>
+<li>A blog post that answers a question</li>
+<li>An essay that answers a question</li>
+<li>Don&#8217;t apply QAPagemarkup to all pages on a site or forum if not all the content is eligible. For example, a forum may have lots of questions posted, which are individually eligible for the markup. However, if the forum also has pages that are not questions, those pages are not eligible.</li>
+<li>Don&#8217;t use QAPagemarkup for FAQ pages or pages where there are multiple questions per page. QAPagemarkup is for pages where the focus of the page is a single question and its answers.</li>
+<li>Don’t use QAPagemarkup for advertising purposes.</li>
+<li>Make sure each Questionincludes the entire text of the question and make sure each Answer includes the entire text of the answer.</li>
+<li>Answermarkup is for answers to the question, not for comments on the question or comments on other answers. Don&#8217;t mark up non-answer comments as an answer.</li>
+<li>Question and answer content may not be displayed as a rich result if it contains any of the following types of content: obscene, profane, sexually explicit, graphically violent, promotion of dangerous or illegal activities, or hateful or harassing language.</li>
+</ul>
+<p>If your content meets these guidelines, the next step is to figure out how to implement the schema onto your website and which type to use.</p>
+<h2><strong>How do I implement Schema and which to use?</strong><strong> </strong></h2>
+<p>There are two ways to implement it&#8230; either through JSON-LD or Microdata.</p>
+<p>I recommend choosing one style and sticking to it throughout your webpage, and I also recommend not using both types on the same page.</p>
+<p><a href="https://developers.google.com/search/docs/guides/intro-structured-data#markup-formats-and-placement">JSON-LD is what Google recommends</a> wherever possible and Google has been in the process of adding support for markup-powered features. JSON-LD can be implemented into the header of your content and can take very little time to implement.</p>
+<p>The other option is Microdata, which involves coding elements into your website. This can be a challenging process for some odd reason, I prefer it. Below are examples of how each work.</p>
+<h3><strong>FAQpage Schema JSON-LD:</strong></h3>
+<p>&lt;html&gt;</p>
+<p>&lt;head&gt;</p>
+<p>&lt;title&gt;Digital Marketing Frequently Asked Questions (FAQ) – Neil Patel&lt;/title&gt;</p>
+<p>&lt;/head&gt;</p>
+<p>&lt;body&gt;</p>
+<p>&lt;script type=&#8221;application/ld+json&#8221;&gt;</p>
+<p>{</p>
+<p>&#8220;@context&#8221;: &#8220;https://schema.org&#8221;,</p>
+<p>&#8220;@type&#8221;: &#8220;FAQPage&#8221;,</p>
+<p>&#8220;mainEntity&#8221;: [</p>
+<p>{</p>
+<p>&#8220;@type&#8221;: &#8220;Question&#8221;,</p>
+<p>&#8220;name&#8221;: &#8220;What is digital marketing?&#8221;,</p>
+<p>&#8220;acceptedAnswer&#8221;: {</p>
+<p>&#8220;@type&#8221;: &#8220;Answer&#8221;,</p>
+<p>&#8220;text&#8221;:&#8221;Digital marketing is any form of marketing products or services that involves electronic device&#8221;}</p>
+<p>}]</p>
+<p>}</p>
+<p>&lt;/script&gt;</p>
+<p>&lt;/body&gt;</p>
+<p>&lt;/html&gt;</p>
+<h3><strong>FAQpage Schema Microdata:</strong></h3>
+<p>&lt;html itemscope itemtype=&#8221;https://schema.org/FAQPage&#8221;&gt;</p>
+<p>&lt;head&gt;</p>
+<p>&lt;title&gt;Digital Marketing Frequently Asked Questions (FAQ) &#8211; Neil Patel&lt;/title&gt;</p>
+<p>&lt;/head&gt;</p>
+<p>&lt;body&gt;</p>
+<p>&lt;div itemscope itemprop=&#8221;mainEntity&#8221; itemtype=&#8221;https://schema.org/Question&#8221;&gt;</p>
+<p>&lt;h3 itemprop=&#8221;name&#8221;&gt;What is digital marketing?&lt;/h3&gt;</p>
+<p>&lt;div itemscope itemprop=&#8221;acceptedAnswer&#8221; itemtype=&#8221;https://schema.org/Answer&#8221;&gt;</p>
+<p>&lt;div itemprop=&#8221;text&#8221;&gt;</p>
+<p>&lt;p&gt;Digital marketing is any form of marketing products or services that involves electronic device.&lt;/p&gt;</p>
+<p>&lt;/div&gt;</p>
+<p>&lt;/div&gt;</p>
+<p>&lt;/div&gt;</p>
+<p>&lt;/body&gt;</p>
+<p>&lt;/html&gt;</p>
+<h3><strong>Q&amp;A Schema JSON-LD:</strong></h3>
+<p>{</p>
+<p>&#8220;@context&#8221;: &#8220;https://schema.org&#8221;,</p>
+<p>&#8220;@type&#8221;: &#8220;QAPage&#8221;,</p>
+<p>&#8220;mainEntity&#8221;: {</p>
+<p>&#8220;@type&#8221;: &#8220;Question&#8221;,</p>
+<p>&#8220;name&#8221;: &#8220;Can I tie my shoe with one hand?&#8221;,</p>
+<p>&#8220;text&#8221;: &#8220;I currently have taken a hobby to do many actions with one hand and I&#8217;m currently stuck on how to tie a shoe with one hand. Is it possible to tie my shoe with one hand?&#8221;,</p>
+<p>&#8220;answerCount&#8221;: 2,</p>
+<p>&#8220;upvoteCount&#8221;: 20,</p>
+<p>&#8220;dateCreated&#8221;: &#8220;2019-07-23T21:11Z&#8221;,</p>
+<p>&#8220;author&#8221;: {</p>
+<p>&#8220;@type&#8221;: &#8220;Person&#8221;,</p>
+<p>&#8220;name&#8221;: &#8220;Expert at Shoes&#8221;</p>
+<p>},</p>
+<p>&#8220;acceptedAnswer&#8221;: {</p>
+<p>&#8220;@type&#8221;: &#8220;Answer&#8221;,</p>
+<p>&#8220;text&#8221;: &#8220;It is possible to tie your shoe with one hand by using your teeth to hold the other lace&#8221;,</p>
+<p>&#8220;dateCreated&#8221;: &#8220;2019-11-02T21:11Z&#8221;,</p>
+<p>&#8220;upvoteCount&#8221;: 9000,</p>
+<p>&#8220;url&#8221;: &#8220;https://example.com/question1#acceptedAnswer&#8221;,</p>
+<p>&#8220;author&#8221;: {</p>
+<p>&#8220;@type&#8221;: &#8220;Person&#8221;,</p>
+<p>&#8220;name&#8221;: &#8220;AnotherShoeMan&#8221;</p>
+<p>}</p>
+<p>},</p>
+<p>&#8220;suggestedAnswer&#8221;: [</p>
+<p>{</p>
+<p>&#8220;@type&#8221;: &#8220;Answer&#8221;,</p>
+<p>&#8220;text&#8221;: &#8220;It is not possible to tie your shoe with one hand&#8221;,</p>
+<p>&#8220;dateCreated&#8221;: &#8220;2019-11-02T21:11Z&#8221;,</p>
+<p>&#8220;upvoteCount&#8221;: 2,</p>
+<p>&#8220;url&#8221;: &#8220;https://example.com/question1#suggestedAnswer1&#8221;,</p>
+<p>&#8220;author&#8221;: {</p>
+<p>&#8220;@type&#8221;: &#8220;Person&#8221;,</p>
+<p>&#8220;name&#8221;: &#8220;Best Shoe Man&#8221;</p>
+<p>}</p>
+<p>}</p>
+<p>]</p>
+<p>}</p>
+<p>}</p>
+<h3><strong>Q&amp;A Schema Microdata:</strong></h3>
+<p>&lt;div itemprop=&#8221;mainEntity&#8221; itemscope itemtype=&#8221;https://schema.org/Question&#8221;&gt;</p>
+<p>&lt;h2 itemprop=&#8221;name&#8221;&gt;Can I tie my shoe with one hand?&lt;/h2&gt;</p>
+<p>&lt;div itemprop=&#8221;upvoteCount&#8221;&gt;20&lt;/div&gt;</p>
+<p>&lt;div itemprop=&#8221;text&#8221;&gt;I currently have taken a hobby to do many actions with one hand and I&#8217;m currently stuck on how to tie a shoe with one hand. Is it possible to tie my shoe with one hand?&lt;/div&gt;</p>
+<p>&lt;div&gt;asked &lt;time itemprop=&#8221;dateCreated&#8221; datetime=&#8221;2019-07-23T21:11Z&#8221;&gt;July 23&#8217;19 at 21:11&lt;/time&gt;&lt;/div&gt;</p>
+<p>&lt;div itemprop=&#8221;author&#8221; itemscope itemtype=&#8221;https://schema.org/Person&#8221;&gt;&lt;span</p>
+<p>itemprop=&#8221;name&#8221;&gt;Expert at Shoes&lt;/span&gt;&lt;/div&gt;</p>
+<p>&lt;div&gt;</p>
+<p>&lt;div&gt;&lt;span itemprop=&#8221;answerCount&#8221;&gt;2&lt;/span&gt; answers&lt;/div&gt;</p>
+<p>&lt;div&gt;&lt;span itemprop=&#8221;upvoteCount&#8221;&gt;20&lt;/span&gt; votes&lt;/div&gt;</p>
+<p>&lt;div itemprop=&#8221;acceptedAnswer&#8221; itemscope itemtype=&#8221;https://schema.org/Answer&#8221;&gt;</p>
+<p>&lt;div itemprop=&#8221;upvoteCount&#8221;&gt;9000&lt;/div&gt;</p>
+<p>&lt;div itemprop=&#8221;text&#8221;&gt;</p>
+<p>It is possible to tie your shoe with one hand by using your teeth to hold the other lace.</p>
+<p>&lt;/div&gt;</p>
+<p>&lt;a itemprop=&#8221;url&#8221; href=&#8221;https://example.com/question1#acceptedAnswer&#8221;&gt;Answer Link&lt;/a&gt;</p>
+<p>&lt;div&gt;answered &lt;time itemprop=&#8221;dateCreated&#8221; datetime=&#8221;2019-11-02T22:01Z&#8221;&gt;Nov 2 &#8217;19 at 22:01&lt;/time&gt;&lt;/div&gt;</p>
+<p>&lt;div itemprop=&#8221;author&#8221; itemscope itemtype=&#8221;https://schema.org/Person&#8221;&gt;&lt;span itemprop=&#8221;name&#8221;&gt;AnotherShoeMan&lt;/span&gt;&lt;/div&gt;</p>
+<p>&lt;/div&gt;</p>
+<p>&lt;div itemprop=&#8221;suggestedAnswer&#8221; itemscope itemtype=&#8221;https://schema.org/Answer&#8221;&gt;</p>
+<p>&lt;div itemprop=&#8221;upvoteCount&#8221;&gt;2&lt;/div&gt;</p>
+<p>&lt;div itemprop=&#8221;text&#8221;&gt;</p>
+<p>It is not possible to tie your shoe with one hand</p>
+<p>&lt;/div&gt;</p>
+<p>&lt;a itemprop=&#8221;url&#8221; href=&#8221;https://example.com/question1#suggestedAnswer1&#8243;&gt;Answer Link&lt;/a&gt;</p>
+<p>&lt;div&gt;answered &lt;time itemprop=&#8221;dateCreated&#8221;datetime=&#8221;2019-11-02T21:11Z&#8221;&gt;Nov 2 &#8217;19 at 21:11&lt;/time&gt;&lt;/div&gt;</p>
+<p>&lt;div itemprop=&#8221;author&#8221; itemscope itemtype=&#8221;https://schema.org/Person&#8221;&gt;&lt;span</p>
+<p>itemprop=&#8221;name&#8221;&gt;Best Shoe Man&lt;/span&gt;&lt;/div&gt;</p>
+<p>&lt;/div&gt;</p>
+<p>&lt;/div&gt;</p>
+<p>&lt;/div&gt;</p>
+<p>When you are implementing it on your website, feel free and just use the templates above and modify them with your content.</p>
+<p>If you are unsure if your code is correctly implemented or not, use <a href="https://search.google.com/structured-data/testing-tool/u/0/">Google’s Structured Data Testing Tool</a> and you can add your code snippet or the page that you implemented the schema on and it will tell you if you did it right or wrong.</p>
+<p>Plus it will give you feedback on if there are any errors or issues with your code.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/07/Google-Structured-Data-Testing.png" alt="google structure data testing" /></p>
+<p>You can also try <a href="https://search.google.com/test/rich-results">Google’s Rich Result Tester</a>. This will give you a brief look at how your structured data will look like in the results!</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/07/Google-Rich-Result-Tester.png" alt="google rich snippet" /></p>
+<h2><strong>Getting results in under 30 minutes</strong></h2>
+<p>Once you make the changes to any page that you think is a good fit, you’ll want to log into Google Search Console and enter the URL of the page you modified in the top search bar.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/07/addurl.png" alt="add url" /></p>
+<p>You’ll then want to have Google crawl that page so they can index the results. All you have to do is click &#8220;request indexing&#8221;.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/07/request-indexing.png" alt="request indexing" /></p>
+<p>And typically within 10 minutes, you’ll notice it kick in and when you perform a Google search you’ll see your updated listing.</p>
+<p>Now the key to making this work is to do this with pages and terms that already rank on page 1. That’s where I’ve seen the biggest improvement.</p>
+<h2><strong>Will Schema get me to rank for People Also Ask and Featured Snippets?</strong></h2>
+<p>Will this help with People Also Ask and Featured Snippets? So far, there has been no correlation between schema markup and People Also Ask or Featured Snippets and you do not need them to be featured in them.</p>
+<p>Optimizing your content for this will not hurt you though and can potentially improve your chances to be on here.</p>
+<p><a href="https://twitter.com/akhil1594/status/1022393493761622016">Google has been testing</a> out how they can show these types of Q&amp;A, FAQ, and How-To results and looking at structured data to help understand them.</p>
+<p>It’s better to be early to the game and help Google understand your pages, as well as possibly participating in any of Google’s experiments.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/07/PAA-Featured-Snippet.png" alt="snippet" /></p>
+<h2><strong>Will this get me on voice search?</strong></h2>
+<p>With more and more people using mobile devices to find answers to questions, this is a very relevant question!</p>
+<p>Especially considering that over half of the searches on Google will be from voice search in the near future.</p>
+<p>Answers from voice search get most of their answers from featured snippets.</p>
+<p>And adding structured data on your website increases the chances of getting you into featured snippets, which increases the chance of you getting featured on voice search.</p>
+<h2><strong>Conclusion</strong></h2>
+<p>This simple hack can potentially increase the visibility of your brand and help improve the authority of your website. It’s a simple solution that can take a single day to implement across your main question, product, or FAQ page.</p>
+<p>I’ve been using it heavily for the last week or so and as long as I pick keywords that I already rank on page 1 for, I am seeing great results.</p>
+<p>And as I mentioned above, when my team analyzed 10,000 sites we only found 17 to be using FAQ and QA schema. In other words, less than 1% of the sites are using this, which means you if you take advantage now, you’ll have the leg up on your competition.</p>
+<p><em>So what do you think about this tactic? Are you going to use it?</em></p>
+<p>The post <a rel="nofollow" href="https://neilpatel.com/blog/faq-schema/">Advanced Hack: How to Improve Your SEO in Less Than 30 Minutes</a> appeared first on <a rel="nofollow" href="https://neilpatel.com">Neil Patel</a>.</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=_I8MTFVkt8Y:RB-bpT-2x34:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=_I8MTFVkt8Y:RB-bpT-2x34:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?i=_I8MTFVkt8Y:RB-bpT-2x34:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=_I8MTFVkt8Y:RB-bpT-2x34:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?i=_I8MTFVkt8Y:RB-bpT-2x34:gIN9vFwOqvQ" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=_I8MTFVkt8Y:RB-bpT-2x34:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=_I8MTFVkt8Y:RB-bpT-2x34:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?i=_I8MTFVkt8Y:RB-bpT-2x34:D7DqB2pKExk" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/KISSmetrics/~4/_I8MTFVkt8Y" height="1" width="1" alt=""/>]]></content:encoded>
+							<wfw:commentRss>https://neilpatel.com/blog/faq-schema/feed/</wfw:commentRss>
+		<slash:comments>246</slash:comments>
+							<feedburner:origLink>https://neilpatel.com/blog/faq-schema/</feedburner:origLink></item>
+		<item>
+		<title>The Definitive Guide to Mobile Deep Linking</title>
+		<link>http://feedproxy.google.com/~r/KISSmetrics/~3/7OAYMg1xi3o/</link>
+				<comments>https://neilpatel.com/blog/mobile-deep-linking/#comments</comments>
+				<pubDate>Thu, 25 Jul 2019 14:00:08 +0000</pubDate>
+		<dc:creator><![CDATA[Neil Patel]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://neilpatel.com/?p=83597</guid>
+				<description><![CDATA[<p>The average consumer is spending five hours per day on their smartphones and this number is only going up. We do everything on our phones these days, from shopping to browsing social media and managing our businesses. This is why it’s more important than ever to optimize the user experience to keep people on your app [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://neilpatel.com/blog/mobile-deep-linking/">The Definitive Guide to Mobile Deep Linking</a> appeared first on <a rel="nofollow" href="https://neilpatel.com">Neil Patel</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p><img src="https://neilpatel.com/wp-content/uploads/2016/05/mobilefriendly.jpg" alt="mobile" /></p>
+<p><span style="font-weight: 400;">The average consumer is spending </span><a href="http://www.adweek.com/digital/why-mobile-and-consumers-are-the-focal-points-of-this-years-newfronts/"><span style="font-weight: 400;">five hours per day on their smartphones</span></a><span style="font-weight: 400;"> and this number is </span><i><span style="font-weight: 400;">only going up</span></i><span style="font-weight: 400;">.</span></p>
+<p><span style="font-weight: 400;">We do everything on our phones these days, from shopping to browsing social media and managing our businesses.</span></p>
+<p><span style="font-weight: 400;">This is why it’s more important than ever to optimize the user experience to keep people on your app for longer periods, enjoying it more, and sharing it with friends.</span></p>
+<p><span style="font-weight: 400;">If you’re trying to </span><a href="https://neilpatel.com/blog/how-to-market-your-mobile-app/"><span style="font-weight: 400;">optimize your mobile app</span></a><span style="font-weight: 400;">, I’m sure you’ve already tinkered with the layout, fonts, copy, and more, but there’s one thing you probably haven’t…</span></p>
+<p><i><span style="font-weight: 400;">Mobile deep linking</span></i><span style="font-weight: 400;">.</span></p>
+<p><span style="font-weight: 400;">It’s a small detail that can drastically enhance how users engage with your app but few are taking advantage of it.</span></p>
+<p><span style="font-weight: 400;">That’s why I’m going to be teaching you what mobile deep linking is, </span><i><span style="font-weight: 400;">why </span></i><span style="font-weight: 400;">you need it, and how you can implement it yourself.</span></p>
+<p><span style="font-weight: 400;">Let’s dive in.</span><span id="more-83597"></span></p>
+<h2><b>What is mobile deep linking, anyways?</b></h2>
+<p><a href="https://www.appsflyer.com/resources/everything-marketer-needs-to-know-deep-linking/deep-linking-basics/"><span style="font-weight: 400;">Mobile deep linking</span></a><span style="font-weight: 400;"> is the practice of funneling users deeper into your app through the use of a </span><i><span style="font-weight: 400;">uniform resource identifier</span></i><span style="font-weight: 400;"> or URI for short.</span></p>
+<p><span style="font-weight: 400;">This allows mobile app developers to push to a specific page within an application versus simply opening it.</span></p>
+<p><span style="font-weight: 400;">Think of it as a website URL.</span></p>
+<p><span style="font-weight: 400;">If you were trying to sell a product, would you want users landing on the homepage or being forwarded to a sales page found deeper in the website?</span></p>
+<p><span style="font-weight: 400;">The latter, of course.</span></p>
+<p><span style="font-weight: 400;">By helping users go to a certain page within an app, you’re making the customer journey easier by getting them closer to the end goal sooner.</span></p>
+<p><a href="https://blog.contus.com/mobile-app-deep-linking-in-contus-m-comm/"><span style="font-weight: 400;">Here’s a visual</span></a><span style="font-weight: 400;"> of what the process looks like:</span></p>
+<p><img class="alignnone wp-image-83598 size-full" src="https://neilpatel.com/wp-content/uploads/2019/07/Screen-Shot-2019-07-02-at-8.30.47-AM.png" alt="" width="1522" height="880" srcset="https://neilpatel.com/wp-content/uploads/2019/07/Screen-Shot-2019-07-02-at-8.30.47-AM.png 1522w, https://neilpatel.com/wp-content/uploads/2019/07/Screen-Shot-2019-07-02-at-8.30.47-AM-350x202.png 350w, https://neilpatel.com/wp-content/uploads/2019/07/Screen-Shot-2019-07-02-at-8.30.47-AM-768x444.png 768w, https://neilpatel.com/wp-content/uploads/2019/07/Screen-Shot-2019-07-02-at-8.30.47-AM-700x405.png 700w" sizes="(max-width: 1522px) 100vw, 1522px" /></p>
+<p><span style="font-weight: 400;">While it might seem simple, mobile linking comes in three different forms that you need to be aware of. They include the following:</span></p>
+<h3><b>Standard deep linking</b></h3>
+<p><span style="font-weight: 400;">This is the straightforward deep linking that forwards a user to a specific part of the app. It’s also known as universal linking.</span></p>
+<p><span style="font-weight: 400;">It only works if the customer already has the app installed.</span></p>
+<p><span style="font-weight: 400;">The problem is within traditional linking is that when a user clicks a link, it won’t open the mobile app, but rather directs them to the browser version.</span></p>
+<p><span style="font-weight: 400;">If someone is on a mobile device, the app version will always be more optimized and streamlined.</span></p>
+<p><span style="font-weight: 400;">Here’s what happens if you search for my Instagram on Google for example with the app installed.</span></p>
+<p><img class="alignnone size-full wp-image-83599" src="https://neilpatel.com/wp-content/uploads/2019/07/google-serp-results.png" alt="" width="540" height="909" srcset="https://neilpatel.com/wp-content/uploads/2019/07/google-serp-results.png 540w, https://neilpatel.com/wp-content/uploads/2019/07/google-serp-results-350x589.png 350w" sizes="(max-width: 540px) 100vw, 540px" /></p>
+<p><span style="font-weight: 400;">The results appear to be the exact same whether you have the Instagram app or not, but clicking it opens up the app seamlessly.</span></p>
+<p><img class="alignnone size-full wp-image-83600" src="https://neilpatel.com/wp-content/uploads/2019/07/neil-patel-instagram.png" alt="" width="540" height="918" srcset="https://neilpatel.com/wp-content/uploads/2019/07/neil-patel-instagram.png 540w, https://neilpatel.com/wp-content/uploads/2019/07/neil-patel-instagram-350x595.png 350w" sizes="(max-width: 540px) 100vw, 540px" /></p>
+<p><span style="font-weight: 400;">This is a good example of basic deep linking. </span></p>
+<p><span style="font-weight: 400;">Someone that doesn’t have the Instagram mobile application installed will be given an error or redirected to a fallback page.</span></p>
+<h3><b>Deferred deep linking</b></h3>
+<p><span style="font-weight: 400;">This form of deep linking works the same way as standard linking does with the exception that it will direct users without the app to the download location.</span></p>
+<p><span style="font-weight: 400;">This is beneficial because it can help app developers and companies acquire more customers.</span></p>
+<p><span style="font-weight: 400;">Once the app is installed, the user will be referred to where they were originally navigating.</span></p>
+<p><span style="font-weight: 400;">Check out the Skip The Dishes app to see what I mean.</span></p>
+<p><span style="font-weight: 400;">While a user is creating their order, they are able to download the mobile app for Android or iOS.</span></p>
+<p><img class="alignnone size-full wp-image-83601" src="https://neilpatel.com/wp-content/uploads/2019/07/Skip-the-dishes.png" alt="" width="540" height="833" srcset="https://neilpatel.com/wp-content/uploads/2019/07/Skip-the-dishes.png 540w, https://neilpatel.com/wp-content/uploads/2019/07/Skip-the-dishes-350x540.png 350w" sizes="(max-width: 540px) 100vw, 540px" /></p>
+<p><span style="font-weight: 400;">They are forwarded back to the exact step they were taking, except in the mobile app after downloading it.</span></p>
+<p><img class="alignnone size-full wp-image-83602" src="https://neilpatel.com/wp-content/uploads/2019/07/Skip-the-dishes-app.png" alt="" width="540" height="856" srcset="https://neilpatel.com/wp-content/uploads/2019/07/Skip-the-dishes-app.png 540w, https://neilpatel.com/wp-content/uploads/2019/07/Skip-the-dishes-app-350x555.png 350w" sizes="(max-width: 540px) 100vw, 540px" /></p>
+<p><span style="font-weight: 400;">This means that they don’t have to manually go through the entire process again to get back to where they were.</span></p>
+<h3><b>Contextual deep linking</b></h3>
+<p><span style="font-weight: 400;">Contextual deep linking, also known as </span><i><span style="font-weight: 400;">onboarding</span></i><span style="font-weight: 400;">, is commonly used for gathering information on customers to personalize the user experience of an app.</span></p>
+<p><span style="font-weight: 400;">Data such demographics, how users navigate to the app, and more is recorded.</span></p>
+<p><span style="font-weight: 400;">The app onboarding process can be different depending on if the user installed via the Google Play Store, </span><a href="https://neilpatel.com/blog/app-store-optimization/"><span style="font-weight: 400;">the Apple Store</span></a><span style="font-weight: 400;">, a Facebook campaign, or another source.</span></p>
+<p><span style="font-weight: 400;">A mobile app downloaded through a Facebook Ad might look different than when it’s downloaded through a Google Display Ad, for example.</span></p>
+<p><img class="alignnone wp-image-83603 size-full" src="https://neilpatel.com/wp-content/uploads/2019/07/mobile-app-linking.png" alt="" width="820" height="312" srcset="https://neilpatel.com/wp-content/uploads/2019/07/mobile-app-linking.png 820w, https://neilpatel.com/wp-content/uploads/2019/07/mobile-app-linking-350x133.png 350w, https://neilpatel.com/wp-content/uploads/2019/07/mobile-app-linking-768x292.png 768w, https://neilpatel.com/wp-content/uploads/2019/07/mobile-app-linking-700x266.png 700w" sizes="(max-width: 820px) 100vw, 820px" /></p>
+<p><span style="font-weight: 400;">The landing page is able to be customized through what is known as a </span><i><span style="font-weight: 400;">deep view </span></i><span style="font-weight: 400;">in mobile app development.</span></p>
+<p><span style="font-weight: 400;">Just as the deep link forwards users to a specific deeper page in the application, the deep view is the visual result they see that’s different than others.</span></p>
+<h3><b>URI schemes</b></h3>
+<p><span style="font-weight: 400;">Deep linking is only doable thanks to what is known as URI </span><i><span style="font-weight: 400;">schemes</span></i><span style="font-weight: 400;">. These schemes are similar to how a website </span><i><span style="font-weight: 400;">URL </span></i><span style="font-weight: 400;">can direct you to a specific page on a website.</span></p>
+<p><a href="https://searchengineland.com/google-search-console-adds-apps-data-to-search-analytics-fetch-as-google-221490"><span style="font-weight: 400;">They look something like this</span></a><span style="font-weight: 400;">:</span></p>
+<p><img class="alignnone wp-image-83604 size-full" src="https://neilpatel.com/wp-content/uploads/2019/07/App-URI-example.png" alt="" width="717" height="600" srcset="https://neilpatel.com/wp-content/uploads/2019/07/App-URI-example.png 717w, https://neilpatel.com/wp-content/uploads/2019/07/App-URI-example-350x293.png 350w, https://neilpatel.com/wp-content/uploads/2019/07/App-URI-example-700x586.png 700w" sizes="(max-width: 717px) 100vw, 717px" /></p>
+<p><span style="font-weight: 400;">See the fetched URI? Its format is </span><b>appname://path/to/location</b><span style="font-weight: 400;">.</span></p>
+<p><span style="font-weight: 400;">Custom URIs are simple to set up for developers (Often created by default) and present the opportunity to redirect users wherever you please.</span></p>
+<h2><b>The mobile customer journey and how it applies to deep linking</b></h2>
+<p><span style="font-weight: 400;">The mobile buyer&#8217;s journey is the individual&#8217;s steps a user takes to find, use, and share your application.</span></p>
+<p><span style="font-weight: 400;">It’s similar to the regular funnel a customer goes through when purchasing a product with some small differences you need to be aware of.</span></p>
+<p><span style="font-weight: 400;">Here’s how the various steps in the mobile buyer’s journey can be applied to mobile deep linking.</span></p>
+<h3><b>Discovery</b></h3>
+<p><span style="font-weight: 400;">The first step in the mobile customer journey is </span><i><span style="font-weight: 400;">discovering </span></i><span style="font-weight: 400;">your app in the first place.</span></p>
+<p><span style="font-weight: 400;">While this can be achieved through strategies like content marketing and SEO, deep linking gives you a nice boost to these tactics.</span></p>
+<p><span style="font-weight: 400;">Google indexes deep links from mobile apps, giving you more opportunities to rank and drive organic traffic.</span></p>
+<p><span style="font-weight: 400;">Users can click the search engine listing and open the link directly through the app instead of an internet browser.</span></p>
+<p><span style="font-weight: 400;">Look at this search for Google Analytics to see what I mean:</span></p>
+<p><img class="alignnone size-full wp-image-83606" src="https://neilpatel.com/wp-content/uploads/2019/07/google-analytics-search-result.png" alt="" width="540" height="960" srcset="https://neilpatel.com/wp-content/uploads/2019/07/google-analytics-search-result.png 540w, https://neilpatel.com/wp-content/uploads/2019/07/google-analytics-search-result-350x622.png 350w" sizes="(max-width: 540px) 100vw, 540px" /></p>
+<p><span style="font-weight: 400;">This helps businesses acquire more users and increase brand awareness versus having a single search engine listing.</span></p>
+<p><span style="font-weight: 400;">Check out my video on skyrocketing mobile app organic traffic, and pair it with deep linking for mind-blowing results.</span></p>
+<p><iframe title="5 Clever Hacks to SKYROCKET Your Mobile Organic Search Traffic" width="700" height="394" src="https://www.youtube.com/embed/pdBBG4aRldI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<h3><b>Compare</b></h3>
+<p><span style="font-weight: 400;">Once a user has narrowed down a few options, they’re naturally going to want to find the best app by comparing them.</span></p>
+<p><span style="font-weight: 400;">They’ll look at factors such as pricing, ease of use, and features. </span></p>
+<p><span style="font-weight: 400;">Deep linking enables you to push users to the best features of your app, reviews, or customize the experience to make your application better than competitors.</span></p>
+<p><span style="font-weight: 400;">By reducing the number of steps it takes to get to important functions of the app, you’re also decreasing the chance of users bouncing.</span></p>
+<h3><b>Decision</b></h3>
+<p><span style="font-weight: 400;">The third step in the mobile buyer&#8217;s journey is making a decision and commitment to a single app.</span></p>
+<p><span style="font-weight: 400;">Having a clear value proposition and refined user experience is crucial here. </span></p>
+<p><span style="font-weight: 400;">Better yet, contextual deep linking helps you collect data to make the application as tailored as possible to your buyer’s persona. </span></p>
+<p><a href="https://neilpatel.com/blog/mistakes-in-app-marketing/"><span style="font-weight: 400;">Marketing campaigns can also be optimized</span></a><span style="font-weight: 400;"> with this information to improve targeting and performance.</span></p>
+<h3><b>Retain</b></h3>
+<p><span style="font-weight: 400;">Once you begin acquiring more users, you need to </span><i><span style="font-weight: 400;">keep </span></i><span style="font-weight: 400;">them.</span></p>
+<p><span style="font-weight: 400;">Standard and deferred deep linking will help navigate users back to your app when they are on search engines, social media, and other platforms. </span></p>
+<p><span style="font-weight: 400;">This keeps them using your app more often.</span></p>
+<p><span style="font-weight: 400;">Data that can be collected as a result of deep links will assist you in understanding </span><i><span style="font-weight: 400;">why </span></i><span style="font-weight: 400;">and </span><i><span style="font-weight: 400;">how </span></i><span style="font-weight: 400;">they use your mobile application.</span></p>
+<p><span style="font-weight: 400;">Doubling down on these is what we call </span><a href="https://neilpatel.com/blog/pareto-keyword-research/"><span style="font-weight: 400;">Pareto’s Principle or the 80/20 rule</span></a><span style="font-weight: 400;">.</span></p>
+<p><span style="font-weight: 400;">This rule can be seen everywhere and defines that 80% of results come from 20% of actions.</span></p>
+<p><span style="font-weight: 400;">In the case of mobile app development, you might discover that users are only engaging with a few features and others are taking up space.</span></p>
+<p><span style="font-weight: 400;">You could hypothetically update the features and pages that are used the most, boosting engagement and retention.</span></p>
+<p><span style="font-weight: 400;">Businesses will miss out on discovers like this if they don’t use deep links to collect information.</span></p>
+<h2><b>Why mobile deep linking matters</b></h2>
+<p><span style="font-weight: 400;">I know what you’re thinking.</span></p>
+<p><span style="font-weight: 400;">“Why should I bother with mobile deep linking?”</span></p>
+<p><span style="font-weight: 400;">Let me explain.</span></p>
+<h3><b>It improves the user experience</b></h3>
+<p><span style="font-weight: 400;">If you can save the user from going through multiple steps instead of one, why wouldn’t you?</span></p>
+<p><span style="font-weight: 400;">That’s exactly what deep linking does, and improves UX because of it.</span></p>
+<p><span style="font-weight: 400;">You’re making the life of users easier by using deep linking to get them where they want to go </span><i><span style="font-weight: 400;">faster</span></i><span style="font-weight: 400;">.</span></p>
+<p><span style="font-weight: 400;">This gives them a better experience and impression with your app as a result.</span></p>
+<p><span style="font-weight: 400;">Here’s what the difference between not using mobile deep linking and taking advantage of it looks like:</span></p>
+<p><img class="alignnone wp-image-83607 size-full" src="https://neilpatel.com/wp-content/uploads/2019/07/Without-deep-linking.png" alt="" width="820" height="312" srcset="https://neilpatel.com/wp-content/uploads/2019/07/Without-deep-linking.png 820w, https://neilpatel.com/wp-content/uploads/2019/07/Without-deep-linking-350x133.png 350w, https://neilpatel.com/wp-content/uploads/2019/07/Without-deep-linking-768x292.png 768w, https://neilpatel.com/wp-content/uploads/2019/07/Without-deep-linking-700x266.png 700w" sizes="(max-width: 820px) 100vw, 820px" /></p>
+<p><span style="font-weight: 400;">Much simpler, right?</span></p>
+<p><span style="font-weight: 400;">This brings me to my next point.</span></p>
+<h3><b>It increases customer retention and engagement</b></h3>
+<p><span style="font-weight: 400;">Wouldn’t it be nice if every user that downloaded your app stay active all year round?</span></p>
+<p><span style="font-weight: 400;">Unfortunately, that’s not how it works.</span></p>
+<p><span style="font-weight: 400;">It’s been found that 55% of users will </span><a href="https://www.localytics.com/lp/cheat-sheet-overall-app-benchmarks-h1-2018/"><span style="font-weight: 400;">churn after the first month of use</span></a><span style="font-weight: 400;">. That means nearly half of the new downloads will be lost.</span></p>
+<p><img class="alignnone size-large wp-image-83608" src="https://neilpatel.com/wp-content/uploads/2019/07/Mobile-app-retention-stats-700x396.png" alt="" width="700" height="396" srcset="https://neilpatel.com/wp-content/uploads/2019/07/Mobile-app-retention-stats-700x396.png 700w, https://neilpatel.com/wp-content/uploads/2019/07/Mobile-app-retention-stats-350x198.png 350w, https://neilpatel.com/wp-content/uploads/2019/07/Mobile-app-retention-stats-768x435.png 768w, https://neilpatel.com/wp-content/uploads/2019/07/Mobile-app-retention-stats.png 906w" sizes="(max-width: 700px) 100vw, 700px" /></p>
+<p><span style="font-weight: 400;">Look at mobile app user retention the same way you approach a website.</span></p>
+<p><span style="font-weight: 400;">It’s common for nearly half of all visitors to leave a website and not take any action.</span></p>
+<p><span style="font-weight: 400;">Do you just sit there and do nothing about it? Of course not!</span></p>
+<p><span style="font-weight: 400;">You implement strategies like email options through popups and exclusive content to capture those users before they leave.</span></p>
+<p><span style="font-weight: 400;">This is precisely what deep linking can be used for but in the sense for a mobile app.</span></p>
+<p><span style="font-weight: 400;">Once a user has visited your app, you can retarget them and use a different style of deep linking to improve their experience.</span></p>
+<h3><b>It improves the onboarding of new users</b></h3>
+<p><span style="font-weight: 400;">When a mobile app uses a form of deep linking like the deferred approach, you are capable of acquiring more users.</span></p>
+<p><span style="font-weight: 400;">This is because as a user goes through the mobile browser version of your application, they will be given the option or automatically forwarded to the appropriate download location.</span></p>
+<p><span style="font-weight: 400;">The contextual linking technique can be used to onboard new users in different ways depending on where they originally download the app from.</span></p>
+<p><span style="font-weight: 400;">If you understand that users coming from a Facebook ad campaign regularly navigate to a certain product category, you can push them there automatically.</span></p>
+<p><span style="font-weight: 400;">Furthermore, perhaps users from Google like to learn more about your business first before purchasing.</span></p>
+<p><span style="font-weight: 400;">You can use contextual deep linking to direct those users to the page detailing your company’s history.</span></p>
+<p><b>You can re-engage users</b></p>
+<p><span style="font-weight: 400;">Once a user has used your app, you have a small window of opportunity to retarget them.</span></p>
+<p><span style="font-weight: 400;">Did you know that 46% of search engine marketers believe that </span><a href="https://www.invespcro.com/blog/ad-retargeting-2/"><span style="font-weight: 400;">retargeting is the most underused form of marketing</span></a><span style="font-weight: 400;"> right now?</span></p>
+<p><img class="alignnone size-full wp-image-84043" src="https://neilpatel.com/wp-content/uploads/2019/07/Retargeting-stats.png" alt="" width="558" height="375" srcset="https://neilpatel.com/wp-content/uploads/2019/07/Retargeting-stats.png 558w, https://neilpatel.com/wp-content/uploads/2019/07/Retargeting-stats-350x235.png 350w" sizes="(max-width: 558px) 100vw, 558px" /></p>
+<p><span style="font-weight: 400;">It’s a hidden gem that deep linking enhances.</span></p>
+<p><span style="font-weight: 400;">If a segment of users downloaded your app, viewed product pages, and bounced, you could retarget them in advertising campaigns and use deferred linking to forward them back to the high-interest product pages.</span></p>
+<h3><b>Strengthens your marketing</b></h3>
+<p><span style="font-weight: 400;">Personalization is key. Contextual deep linking allows you to customize the user experience, </span><a href="https://neilpatel.com/blog/master-mobile-marketing/"><span style="font-weight: 400;">which improves marketing results</span></a><span style="font-weight: 400;">.</span></p>
+<p><span style="font-weight: 400;">Take into consideration that 39% of consumers will </span><a href="http://go.kouponmedia.com/state-of-the-mobile-coupon-industry"><span style="font-weight: 400;">spend more money when given a mobile coupon</span></a><span style="font-weight: 400;">.</span></p>
+<p><span style="font-weight: 400;">You could collect data on users via contextual deep linking to discover what product categories they enjoy the most, then offer a discount for them to align with this behavior.</span></p>
+<p><span style="font-weight: 400;">Similarly, mobile deep linking has the potential to increase conversion rates.</span></p>
+<p><span style="font-weight: 400;">This is because you are pushing users through the sales funnel quicker. Normally this consists of:</span></p>
+<ol>
+<li style="font-weight: 400;"><span style="font-weight: 400;">The user lands on the homepage of your website.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">They navigate to a product page and add a line item to their cart.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">They visit the cart page to confirm their order.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Finally, they pay and check out.</span></li>
+</ol>
+<p><span style="font-weight: 400;">Mobile deep linking can effectively cut the sales funnel in half by helping customers go straight to sales pages.</span></p>
+<p><a href="https://www.marketingsherpa.com/article/case-study/deep-link-app-mobile-retargeting"><span style="font-weight: 400;">Take the ticket mobile app SeatGeek as an example</span></a><span style="font-weight: 400;">. They were able to increase revenue by 10.6% and app open rate by 8.8% with deep linking.</span></p>
+<p><span style="font-weight: 400;">Here’s how&#8230;</span></p>
+<p><span style="font-weight: 400;">Firstly, they struggled with reminding users to finish their purchases and buy tickets through the app.</span></p>
+<p><span style="font-weight: 400;">They resolved this issue by using deep linked mobile ads. These target ads based on past user activity would display relevant ads in other existing apps the customer used.</span></p>
+<p><span style="font-weight: 400;">SeatGeek noticed that they were getting thousands of new users per day and had to </span><i><span style="font-weight: 400;">keep them</span></i><span style="font-weight: 400;">.</span></p>
+<p><span style="font-weight: 400;">Their team began creating ads that would serve different audiences based on previous behavior.</span></p>
+<p><span style="font-weight: 400;">An example of this would be a user adding tickets to their favorite basketball team’s game to cart, but then abandoning before checking out.</span></p>
+<p><span style="font-weight: 400;">When this user was on another application that supported ads, </span><a href="https://content.marketingsherpa.com/heap/cs/seatgeek/1.htm"><span style="font-weight: 400;">they would see an advertisement</span></a><span style="font-weight: 400;"> for that </span><i><span style="font-weight: 400;">same </span></i><span style="font-weight: 400;">basketball game.</span></p>
+<p><img class="alignnone size-full wp-image-84044" src="https://neilpatel.com/wp-content/uploads/2019/07/SeatGeek-ad-example.png" alt="" width="509" height="745" srcset="https://neilpatel.com/wp-content/uploads/2019/07/SeatGeek-ad-example.png 509w, https://neilpatel.com/wp-content/uploads/2019/07/SeatGeek-ad-example-350x512.png 350w" sizes="(max-width: 509px) 100vw, 509px" /></p>
+<p><span style="font-weight: 400;">The ads were simple in nature, using a related image, and straight forward call to action.</span></p>
+<h3><b>Boosts app discoverability</b></h3>
+<p><span style="font-weight: 400;">Don’t you want to get discovered by more customers?</span></p>
+<p><span style="font-weight: 400;">Of course, you do!</span></p>
+<p><span style="font-weight: 400;">And that’s precisely why you need to implement more deep linking in your mobile app.</span></p>
+<p><span style="font-weight: 400;">Deep links are indexed on Google, giving you more opportunities to rank and drive traffic to your business.</span></p>
+<p><span style="font-weight: 400;">And seeing as </span><a href="https://www.seo.com/blog/23-search-engine-facts-and-stats-you-oughta-know/"><span style="font-weight: 400;">Google receives over four billion searches per day</span></a><span style="font-weight: 400;">, you don’t want to miss out on the free exposure.</span></p>
+<p><img class="alignnone size-large wp-image-84045" src="https://neilpatel.com/wp-content/uploads/2019/07/Searches-per-day-on-Google-700x257.png" alt="" width="700" height="257" srcset="https://neilpatel.com/wp-content/uploads/2019/07/Searches-per-day-on-Google-700x257.png 700w, https://neilpatel.com/wp-content/uploads/2019/07/Searches-per-day-on-Google-350x129.png 350w, https://neilpatel.com/wp-content/uploads/2019/07/Searches-per-day-on-Google-768x282.png 768w, https://neilpatel.com/wp-content/uploads/2019/07/Searches-per-day-on-Google.png 817w" sizes="(max-width: 700px) 100vw, 700px" /></p>
+<p><span style="font-weight: 400;">Think about how a website like mine ranks for thousands of pages, and not just the homepage.</span></p>
+<p><span style="font-weight: 400;">You can achieve that same performance but for your mobile app.</span></p>
+<p><span style="font-weight: 400;">Users on search engines like Google will be able to visit deeper functions and features versus landing on the welcome page.</span></p>
+<p><span style="font-weight: 400;">This creates the opportunity to optimize applications for SEO via keywords, meta descriptions, and title tags, as well.</span></p>
+<h3><b>Provides analytics and insight into campaigns</b></h3>
+<p><span style="font-weight: 400;">Mobile deep linking allows you to refine your buyer&#8217;s persona and better understand their behavior.</span></p>
+<p><span style="font-weight: 400;">This information can be used to improve the effectiveness of marketing campaigns and the overall experience of your app.</span></p>
+<p><span style="font-weight: 400;">You will also be able to discover which links are being clicked the most and by whom.</span></p>
+<p><span style="font-weight: 400;">Doing so creates the opportunity to double down on the best-performing links and optimizing who you target in advertising campaigns.</span></p>
+<p><span style="font-weight: 400;">Deep links also shine light in which parts of your app are used the most and which aren’t.</span></p>
+<p><a href="https://firebase.google.com"><span style="font-weight: 400;">Google offers its Firebase product</span></a><span style="font-weight: 400;"> to track deep linking in an easy to use platform.</span></p>
+<p><span style="font-weight: 400;">You can begin using it by selecting the Android, iOS, C++, web, or Unity options.</span></p>
+<p><img class="alignnone size-large wp-image-84046" src="https://neilpatel.com/wp-content/uploads/2019/07/Firebase-700x316.jpg" alt="" width="700" height="316" srcset="https://neilpatel.com/wp-content/uploads/2019/07/Firebase-700x316.jpg 700w, https://neilpatel.com/wp-content/uploads/2019/07/Firebase-350x158.jpg 350w, https://neilpatel.com/wp-content/uploads/2019/07/Firebase-768x347.jpg 768w, https://neilpatel.com/wp-content/uploads/2019/07/Firebase.jpg 1600w" sizes="(max-width: 700px) 100vw, 700px" /></p>
+<p><span style="font-weight: 400;">Using Android as an example, you will need to ensure that you meet the prerequisites Google outlines in their documentation.</span></p>
+<p><img class="alignnone size-large wp-image-84047" src="https://neilpatel.com/wp-content/uploads/2019/07/Firebase-install-700x322.jpg" alt="" width="700" height="322" srcset="https://neilpatel.com/wp-content/uploads/2019/07/Firebase-install-700x322.jpg 700w, https://neilpatel.com/wp-content/uploads/2019/07/Firebase-install-350x161.jpg 350w, https://neilpatel.com/wp-content/uploads/2019/07/Firebase-install-768x353.jpg 768w, https://neilpatel.com/wp-content/uploads/2019/07/Firebase-install.jpg 1600w" sizes="(max-width: 700px) 100vw, 700px" /></p>
+<p><span style="font-weight: 400;">Firebase’s SDK automatically captures various metrics, user properties, and allows you to create custom events if you wish to track a specific action.</span></p>
+<p><span style="font-weight: 400;">This data is then relayed through the Firebase dashboard which has a very familiar look and feel to other Google products.</span></p>
+<p><span style="font-weight: 400;">You will feel right at home if you’ve ever used Google Analytics.</span></p>
+<p><span style="font-weight: 400;">Which by the way can be connected to Firebase if you need to add events specific to your business like e-commerce purchases.</span></p>
+<h2><b>How to perform mobile deep linking</b></h2>
+<p><span style="font-weight: 400;">Now that you’re excited to get started using mobile deep links, here’s how to implement it yourself.</span></p>
+<h3><b>Deep linking on Android</b></h3>
+<p><span style="font-weight: 400;">Android devices will select one of three options when a URI is requested:</span></p>
+<ol>
+<li style="font-weight: 400;"><span style="font-weight: 400;">It opens a preselected app with the URI.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">It opens the only available app that can handle the URI.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">The user is prompted to choose an available app.</span></li>
+</ol>
+<p><span style="font-weight: 400;">To begin adding deep links to achieve this, you will need to navigate to the </span><b>AndroidManifest.xml</b><span style="font-weight: 400;"> file of your Android mobile app.</span></p>
+<p><span style="font-weight: 400;">You will then have to add the following elements to the file through an</span><i><span style="font-weight: 400;"> intent filter</span></i><span style="font-weight: 400;">:</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Specify the ACTION_VIEW attribute in the &lt;action&gt; element.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">&lt;data&gt; tags which include the URI scheme, host, and path.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">CATEGORY_DEFAULT and CATEGORY_BROWSABLE attributes to move users from a browser to your app.</span></li>
+</ul>
+<p><span style="font-weight: 400;">Here’s an example from </span><a href="https://developer.android.com/training/app-links/deep-linking"><span style="font-weight: 400;">Android’s official documentation on deep linking</span></a><span style="font-weight: 400;"> of what the code will look like:</span></p>
+<p><img class="alignnone size-large wp-image-84048" src="https://neilpatel.com/wp-content/uploads/2019/07/Android-code-700x406.png" alt="" width="700" height="406" srcset="https://neilpatel.com/wp-content/uploads/2019/07/Android-code-700x406.png 700w, https://neilpatel.com/wp-content/uploads/2019/07/Android-code-350x203.png 350w, https://neilpatel.com/wp-content/uploads/2019/07/Android-code-768x446.png 768w, https://neilpatel.com/wp-content/uploads/2019/07/Android-code.png 879w" sizes="(max-width: 700px) 100vw, 700px" /></p>
+<p><span style="font-weight: 400;">The second step is to ensure that your app can read data from the intent filter you created.</span></p>
+<p><span style="font-weight: 400;">This is achieved through adding getData() and getAction() methods like so:</span></p>
+<p><img class="alignnone size-large wp-image-84049" src="https://neilpatel.com/wp-content/uploads/2019/07/Java-code-700x237.png" alt="" width="700" height="237" srcset="https://neilpatel.com/wp-content/uploads/2019/07/Java-code-700x237.png 700w, https://neilpatel.com/wp-content/uploads/2019/07/Java-code-350x119.png 350w, https://neilpatel.com/wp-content/uploads/2019/07/Java-code-768x260.png 768w, https://neilpatel.com/wp-content/uploads/2019/07/Java-code.png 876w" sizes="(max-width: 700px) 100vw, 700px" /></p>
+<p><span style="font-weight: 400;">Deep links should not require users to log in or perform other actions to visit the desired content unless desired like in the case of promoting app downloads through deferred linking.</span></p>
+<h3><b>iOS</b></h3>
+<p><span style="font-weight: 400;">Adding deep links to iOS apps begins by enabling them through what is known as Associated Domains Entitlement.</span></p>
+<p><span style="font-weight: 400;">That’s a fancy way to say you’re letting search engines know what app belongs to what website.</span></p>
+<p><span style="font-weight: 400;">This way when a user clicks on your website, it activates the specified type of deep linking you choose.</span></p>
+<p><span style="font-weight: 400;">You will then have to add an Apple App Site Association file to your website to verify it.</span></p>
+<p><span style="font-weight: 400;">This association file needs to contain the following code, as you can see from </span><a href="https://developer.apple.com/documentation/uikit/inter-process_communication/allowing_apps_and_websites_to_link_to_your_content/enabling_universal_links"><span style="font-weight: 400;">Apple’s official documentation</span></a><span style="font-weight: 400;">:</span></p>
+<p><img class="alignnone size-large wp-image-84050" src="https://neilpatel.com/wp-content/uploads/2019/07/Applinks-700x346.png" alt="" width="700" height="346" srcset="https://neilpatel.com/wp-content/uploads/2019/07/Applinks-700x346.png 700w, https://neilpatel.com/wp-content/uploads/2019/07/Applinks-350x173.png 350w, https://neilpatel.com/wp-content/uploads/2019/07/Applinks.png 768w" sizes="(max-width: 700px) 100vw, 700px" /></p>
+<p><span style="font-weight: 400;">Similar to how Android apps have the manifest file, the </span><i><span style="font-weight: 400;">app delegate</span></i><span style="font-weight: 400;"> file acts as the root of iOS apps.</span></p>
+<p><span style="font-weight: 400;">This is why you will have to program your app delegate file to respond to deep links like Apple shows in this example:</span></p>
+<p><span style="font-weight: 400;">They are specifically handled through the NSUserActivity object and activityType value of NSUserActivityTypeBrowsingWeb.</span></p>
+<p><span style="font-weight: 400;">Your iOS app will be prepared to handle and accept users that navigate to it from browsers like Safari after you complete these steps.</span></p>
+<h2><b>Conclusion</b></h2>
+<p><span style="font-weight: 400;">Mobile deep linking is a powerful technique to improve the user experience, on-boarding, and marketing of applications.</span></p>
+<p><span style="font-weight: 400;">The three types of mobile deep linking are standard, deferred, and contextual. It’s important to understand each of these to know when to use them properly.</span></p>
+<p><span style="font-weight: 400;">Standard deep linking is used when customers already have an app installed. When they click on a mobile link, it will give them the option to open it in the app or automatically.</span></p>
+<p><span style="font-weight: 400;">Deferred deep linking works by forwarding users to the </span><a href="https://neilpatel.com/blog/everything-need-know-app-store-optimization/"><span style="font-weight: 400;">appropriate app store</span></a><span style="font-weight: 400;"> to download the app if they don’t have it, then pushing them to the originally intended page.</span></p>
+<p><span style="font-weight: 400;">Contextual linking is the most complicated but allows developers to collection information on users to customize the on-boarding and overall experience of the app.</span></p>
+<p><span style="font-weight: 400;">Mobile deep linking can be implemented in each step of the buyer&#8217;s journey to acquire and retain users, too.</span></p>
+<p><i><span style="font-weight: 400;">How do you use deep linking to improve mobile app performance?</span></i></p>
+<p>The post <a rel="nofollow" href="https://neilpatel.com/blog/mobile-deep-linking/">The Definitive Guide to Mobile Deep Linking</a> appeared first on <a rel="nofollow" href="https://neilpatel.com">Neil Patel</a>.</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=7OAYMg1xi3o:EuFbF_hz3wA:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=7OAYMg1xi3o:EuFbF_hz3wA:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?i=7OAYMg1xi3o:EuFbF_hz3wA:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=7OAYMg1xi3o:EuFbF_hz3wA:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?i=7OAYMg1xi3o:EuFbF_hz3wA:gIN9vFwOqvQ" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=7OAYMg1xi3o:EuFbF_hz3wA:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=7OAYMg1xi3o:EuFbF_hz3wA:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?i=7OAYMg1xi3o:EuFbF_hz3wA:D7DqB2pKExk" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/KISSmetrics/~4/7OAYMg1xi3o" height="1" width="1" alt=""/>]]></content:encoded>
+							<wfw:commentRss>https://neilpatel.com/blog/mobile-deep-linking/feed/</wfw:commentRss>
+		<slash:comments>13</slash:comments>
+							<feedburner:origLink>https://neilpatel.com/blog/mobile-deep-linking/</feedburner:origLink></item>
+		<item>
+		<title>How to Track and Improve Your Rankings Without Spending Money</title>
+		<link>http://feedproxy.google.com/~r/KISSmetrics/~3/esKfmzepaBE/</link>
+				<comments>https://neilpatel.com/blog/how-to-track-rankings/#comments</comments>
+				<pubDate>Tue, 23 Jul 2019 13:08:05 +0000</pubDate>
+		<dc:creator><![CDATA[Neil Patel]]></dc:creator>
+				<category><![CDATA[SEO]]></category>
+
+		<guid isPermaLink="false">http://neilpatel.com/?p=84832</guid>
+				<description><![CDATA[<p>Can you guess how most people improve their rankings? Well, they either hire an SEO firm, which is expensive, or they do it themselves, which is time-consuming. There must be a better solution, right? One that still gets results, doesn’t take as much time and doesn’t cost any money. Well, I’m about to make a [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://neilpatel.com/blog/how-to-track-rankings/">How to Track and Improve Your Rankings Without Spending Money</a> appeared first on <a rel="nofollow" href="https://neilpatel.com">Neil Patel</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p><img src="https://neilpatel.com/wp-content/uploads/2019/07/rankcheck.png" alt="rank check" /></p>
+<p>Can you guess how most people improve their rankings?</p>
+<p>Well, they either hire an SEO firm, which is expensive, or they do it themselves, which is time-consuming.</p>
+<p><em>There must be a better solution, right?</em></p>
+<p>One that still gets results, doesn’t take as much time and doesn’t cost any money.</p>
+<p>Well, I’m about to make a major upgrade to <a href="https://neilpatel.com/ubersuggest/">Ubersuggest</a> in the next 30 days that will help you do just this.</p>
+<p>And before I release it, I need your feedback… so let me know what you think.</p>
+<p>Here’s what I am thinking of doing to help you get better rankings in less time and without spending money.<span id="more-84832"></span></p>
+<h2><strong>SEO starts with good data</strong></h2>
+<p>The first thing I want to do is help you track your results so you can see what’s working and what isn&#8217;t.</p>
+<p>Currently, with Ubersuggest, there is no way to track your progress, but I am about to change that.</p>
+<p>First, I plan to create a dashboard that looks something like this:</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/07/dashboard.png" alt="dashboard" /></p>
+<p>You’ll be able to see your site, how much organic search traffic you get on a monthly basis, the keywords you rank for, <a href="https://neilpatel.com/backlinks/">how many backlinks you have</a>, and any website errors you need to fix.</p>
+<p>And on a weekly basis, we will automatically run your site through our <a href="https://neilpatel.com/seo-analyzer/">site audit report</a> to show you what’s wrong and if you are improving.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/05/seoanalyzernp.png" alt="seo analyzer" /></p>
+<p>This way, you don’t continually have to check your site or look for opportunities. Instead, you’ll be notified when you need to fix something.</p>
+<p>In addition to that, you’ll be able to start tracking your rankings for any keyword you want.</p>
+<h2><strong>Rank tracking</strong></h2>
+<p>From your dashboard, you can click on a profile and see where you rank for any given term on both mobile and desktop devices and in any country or city.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/07/ranktracking.png" alt="rank tracking" /></p>
+<p>If you have specific keywords that you want to track, you’ll be able to manually add them to do so. And if you aren’t sure which keywords to track, you’ll see a list of suggestions as well.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/07/keywords.png" alt="keywords" /></p>
+<p>And if you want to track those rankings in a specific city or country, you can also do that…</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/07/city.png" alt="city" /></p>
+<p>My favorite part about the report is that you can easily see your rankings over time. Not just from an overall site perspective but also from a keyword level.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/07/rankingsovertime.png" alt="rankings over time" /></p>
+<h2><strong>Conclusion</strong></h2>
+<p>Now, this is where I need your help.</p>
+<p>My goal is twofold… the first is to help you track how your SEO is doing and the second is to tell you what to fix.</p>
+<p>Here’s why I am trying to accomplish both of those things:</p>
+<ul>
+<li><strong>Track your progress for you</strong> – it’s too much work to track on a daily basis if your efforts are going in the right or wrong direction. The <a href="https://neilpatel.com/ubersuggest/">new Ubersuggest</a> will track your rankings for you on a daily basis. That way you don’t have to do it. And if Google updates their algorithm, you will see what’s happening in real-time.</li>
+<li><strong>Tell you what to fix</strong> – instead of you having to hunt down what you should fix, I will simply send you alerts and reports with step-by-step instructions on how to fix what needs improvements. And if you or someone on your team updates your site, no worries, because every week I will automatically recrawl your site and tell you if there are more errors you need to fix.</li>
+</ul>
+<p>Eventually, I want to even automate most of link building, but that isn’t ready yet.</p>
+<p><em>Is there anything else I can add to the reports to make your life easier? Is there anything I can change to make it easier for you to get higher rankings?</em></p>
+<p><strong>PS:</strong> If you haven&#8217;t checked out <a href="https://neilpatel.com/ubersuggest/">Ubersuggest</a> recently you should. We&#8217;ve made a lot of improvements to it over the last few months.</p>
+<p><strong>PPS:</strong> These features will be free of course. 😉</p>
+<p>The post <a rel="nofollow" href="https://neilpatel.com/blog/how-to-track-rankings/">How to Track and Improve Your Rankings Without Spending Money</a> appeared first on <a rel="nofollow" href="https://neilpatel.com">Neil Patel</a>.</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=esKfmzepaBE:UC3LYnEAR7A:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=esKfmzepaBE:UC3LYnEAR7A:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?i=esKfmzepaBE:UC3LYnEAR7A:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=esKfmzepaBE:UC3LYnEAR7A:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?i=esKfmzepaBE:UC3LYnEAR7A:gIN9vFwOqvQ" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=esKfmzepaBE:UC3LYnEAR7A:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=esKfmzepaBE:UC3LYnEAR7A:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?i=esKfmzepaBE:UC3LYnEAR7A:D7DqB2pKExk" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/KISSmetrics/~4/esKfmzepaBE" height="1" width="1" alt=""/>]]></content:encoded>
+							<wfw:commentRss>https://neilpatel.com/blog/how-to-track-rankings/feed/</wfw:commentRss>
+		<slash:comments>678</slash:comments>
+							<feedburner:origLink>https://neilpatel.com/blog/how-to-track-rankings/</feedburner:origLink></item>
+		<item>
+		<title>How to Rank Your Old, Outdated Content</title>
+		<link>http://feedproxy.google.com/~r/KISSmetrics/~3/f7UKkKrRgqI/</link>
+				<comments>https://neilpatel.com/blog/how-to-rank-old-content/#comments</comments>
+				<pubDate>Tue, 16 Jul 2019 13:32:12 +0000</pubDate>
+		<dc:creator><![CDATA[Neil Patel]]></dc:creator>
+				<category><![CDATA[SEO]]></category>
+
+		<guid isPermaLink="false">http://neilpatel.com/?p=84532</guid>
+				<description><![CDATA[<p>What percentage of your search traffic is driven by your top 10 pages? Chances are, it’s a large portion. Just look at the screenshot below. You’ll see that my top 10 pages drive 28.7% of my search traffic. That may not seem like a high number, but I have 5,441 blog posts. In other words, [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://neilpatel.com/blog/how-to-rank-old-content/">How to Rank Your Old, Outdated Content</a> appeared first on <a rel="nofollow" href="https://neilpatel.com">Neil Patel</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p><img src="https://neilpatel.com/wp-content/uploads/2019/07/realtime.png" alt="real time" /></p>
+<p>What percentage of your search traffic is driven by your top 10 pages?</p>
+<p>Chances are, it’s a large portion.</p>
+<p>Just look at the screenshot below. You’ll see that my top 10 pages drive 28.7% of my search traffic.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/07/toppagescurrent.png" alt="top pages current" /></p>
+<p>That may not seem like a high number, but I have 5,441 blog posts. In other words, <a href="https://neilpatel.com/what-is-seo/">0.1% of my pages make up 28.7% of my search traffic</a>.</p>
+<p>Typically, with smaller sites, the percentages are much higher in which the top 10 pages make up the majority of their search traffic.</p>
+<p><em>So, what does that tell you?</em></p>
+<p>You should just focus on your top 10 pages and ignore the rest? Or, even worse, <a href="https://neilpatel.com/blog/blogging-principles/">just focus on cranking out more new content</a>?<span id="more-84532"></span></p>
+<h2><strong>Quality over quantity</strong></h2>
+<p>I used to have the philosophy of &#8220;more is better.&#8221; I was cranking out dozens of articles each week. At one point, I was publishing 2 articles a day on this blog.</p>
+<p>And, over time, my traffic grew, but not by much.</p>
+<p>I was spending all of this time writing and realized that the majority of the content I was publishing never ranked.</p>
+<p><em>So, what did I do?</em></p>
+<p>I started focusing on my <a href="https://neilpatel.com/blog/update-old-content/">old, outdated content</a> to boost my traffic.</p>
+<p>Just think of it this way: Every week I publish one new piece of content, but my team, on average, is updating 23 older articles.</p>
+<p>When I used to write more frequently, my top 10 pages made up 33% of my search traffic.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/07/toppagesold.png" alt="top pages" /></p>
+<p>Since then, I have increased my search traffic by 107% and reduced my reliance on my top 10 pages by 13%.</p>
+<p><em>So how did I do this?</em> Well, as I mentioned, I have my team focus on updating my old, outdated content while I focus on creating new content.</p>
+<p>Here’s exactly what I have my team implement, step by step.</p>
+<h2><strong>Look for pages that were once loved</strong></h2>
+<p>With <a href="https://neilpatel.com/blog/google-search-console/">Google Search Console</a>, you have access to data for a much longer period of time. You can go back up to 16 months.</p>
+<p>So, I want you to compare this month’s results during the same period as last year.</p>
+<p>You can do this by clicking on “date” and then “compare.” Next, select your older date period first (should be roughly from a year ago) and then select today’s date period.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/07/daterange.png" alt="date range" /></p>
+<p>I’ve been doing this for a while, so I selected an older date range so you can see a better set of data before my team really focused on updating old content.</p>
+<p>You should then see a report that looks something like this:</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/07/compared.png" alt="compared" /></p>
+<p>What you’ll want to do is look for articles that used to get a ton of traffic and have less now. From the screenshot above, you can see that my article on Instagram used to perform really well, but no so much anymore.</p>
+<p>Keep in mind that I selected the older date range first. I did this to see which of my old pieces of content used to rank well so I can see if any of them have dropped over the last 12 months.</p>
+<p>This will show you old content that Google used to love, but no longer does.</p>
+<p>Now, let’s find content that Google never loved.</p>
+<h2><strong>Look for pages Google never loved</strong></h2>
+<p>Log back into Search Console and look for pages that have a high impression count but never got any real clicks.</p>
+<p>The easiest way to find these pages is to set your date range to the last 28 days and look at each page’s metrics from an impression, click, and CTR perspective.</p>
+<p>Sort the CTR column in ascending order (lowest percentage at the top, the highest percentage at the bottom).</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/07/searchctr.png" alt="search ctr" /></p>
+<p>Typically, the pages at the top of that list have the most potential. It means that Google is ranking you but you just aren’t getting too many clicks.</p>
+<p>It usually isn’t just related to your title tag and meta description. It typically has to do with the content on the page.</p>
+<p>Now it’s time to create a list of pages that have the greatest potential.</p>
+<h2><strong>It’s time to prioritize</strong></h2>
+<p>Typically, the pages that have the most potential are the ones that used to rank but no longer rank. Google used to rank and like them, which means if you give those pages a little tender loving care, you can easily get them loved by Google again.</p>
+<p>The second group of pages that have potential, but not as much as the first, are the ones with a high impression count but an extremely low CTR.</p>
+<p>These pages are harder to fix because they never really performed that well.</p>
+<h2><strong>How to update your old content</strong></h2>
+<p>Now that you have a list of pages to fix so you can boost your <a href="https://neilpatel.com/blog/improve-google-rankings-without-getting-penalized/">search engine rankings</a>, I want you to log in to Google Search Console, find that article, click on it, and then click on “queries.”</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/07/queries.png" alt="queries" /></p>
+<p>For the keywords that don’t rank in the top 5 or have a high impression volume, I want you to go to your ranking article and see if the article is relevant for that term.</p>
+<p>If not, adjust the article to at least include that term and cover that topic.</p>
+<p>For the terms you already rank for in the top 5 spots, head over to <a href="https://neilpatel.com/ubersuggest/">Ubersuggest</a> and type in those keywords and click on the keyword ideas report.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/07/customeracquasition.png" alt="customer acquasition" /></p>
+<p>You’ll then see a report with all of the long-tail variations of that keyword.</p>
+<p>If you adjust the article and include any of the long-tail phrases Ubersuggest gives you, you’ll see quick traffic gains.</p>
+<p>In other words, if you already rank for the head term, it’s not hard to rank for the long-tail variation of it as well.</p>
+<p>In addition to including the right keywords, you’ll want to update the post. Make sure all of the information is relevant, the pictures are up to date, and if you could include any multimedia (like embedding relevant <a href="https://neilpatel.com/blog/youtube-seo/">YouTube videos</a>) you&#8217;ll be able to increase the time on site of your visitors.</p>
+<p>Finally, when updating your content, make sure your article is more thorough than all of the other sites that rank for the terms you are trying to rank for.</p>
+<p>Remember that keyword ideas report I had you check out on Ubersuggest? On the right-hand side of that report, it shows you all of the sites that rank for that keyword.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/07/keywordrankings.png" alt="keyword rankings" /></p>
+<p>You can quickly see who’s currently ranking in each country, visit their web page, and make sure you create something better.</p>
+<h2><strong>User metrics</strong></h2>
+<p><a href="https://neilpatel.com/blog/the-advanced-guide-to-user-behavior-data-and-how-it-affects-search-rankings/">User behavior</a> is one of the biggest factors with Google’s algorithm.</p>
+<p>Once you update your old content, you’ll want to optimize for user signals as that’ll help boost rankings.</p>
+<p>A great example of user metrics is optimizing your <a href="https://neilpatel.com/blog/title-tags-seo/">title tags</a> and <a href="https://neilpatel.com/blog/how-to-write-meta-descriptions/">meta description</a>.</p>
+<p>For example, if everyone searched a keyword on Google and clicked on the second result instead of the first, it tells Google that the second result is more relevant and that it should be ranking in the first spot instead of the second.</p>
+<p>And Google eventually would make that change.</p>
+<p>If you can use persuasive copy and convince people to click on your search listing instead of the competition, eventually your rankings will climb. And you can do so by following these 2 articles:</p>
+<ol>
+<li><a href="https://neilpatel.com/blog/the-step-by-step-guide-to-writing-powerful-headlines/">How to Craft Amazing Headlines</a></li>
+<li><a href="https://neilpatel.com/blog/write-copy-like-apple/">How to Write Copy like Apple</a></li>
+</ol>
+<p>Over the years, I’ve done a lot of title tag and meta description tests and I’ve also found that these keywords help increase clicks:</p>
+<ul>
+<li>What is</li>
+<li>Best</li>
+<li>Amazing</li>
+<li>[lists]</li>
+<li>How to</li>
+<li>Free</li>
+<li>You</li>
+<li>Tips</li>
+<li>Why</li>
+<li>Tricks</li>
+<li>Great</li>
+</ul>
+<p>You can also use tools like <a href="https://www.clickflow.com/">Clickflow</a> to A/B test your meta tags.</p>
+<h2><strong>Don’t forget to promote (again)</strong></h2>
+<p>Now that your content is up to date and you’ve optimized your meta tags for clicks, it’s time for you to promote your content.</p>
+<p>I know what you are thinking… <em>why would you promote old content, right?</em></p>
+<p>Well, technically it isn’t old anymore.</p>
+<p>First of all, you should update the published date or last updated date within your WordPress.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/07/published.png" alt="published" /></p>
+<p>That way search engines know your content is changed, more relevant, and up to date.</p>
+<p>Secondly, you need to promote the article. <em>It’s new now, so why wouldn’t you share it with the world?</em></p>
+<p>The simplest thing you can do is share it on the social web. I typically share my content on Facebook, Twitter, and LinkedIn… but you can pick whatever social profiles you have.</p>
+<p><a href="https://neilpatel.com/blog/social-media-and-seo/">Although Google doesn’t really look at social signals</a>, Bing does. Plus, some people who visit your page from the social web may decide to link to your article, which does help rankings.</p>
+<p>And if you want to go above and beyond, check out <a href="https://meetedgar.com/">Meet Edgar</a>. It’s what I use to continually schedule my old content to be promoted on the social web. That way I don’t have to manually do it or set reminders.</p>
+<p>In addition to social shares, you should consider sending out a text-based email blast to your audience promoting your content.</p>
+<p>It’s a great way to get a quick boost of traffic and breathe life into your old content.</p>
+<p>Here’s an example of a text-based email blast that I send so you can copy my format.</p>
+<blockquote><p><strong>Subject:</strong> How to Generate 10K visitors from a Brand New Blog in Under 6 Months</p>
+<p>If I tell you to do 100 things to grow your traffic, I know you won’t do it.</p>
+<p>Heck, even I wouldn’t. It’s just too much work.</p>
+<p>In the spirit of simplicity, <a href="https://el2.convertkit-mail.com/c/preview/dpheh0hz/aHR0cHM6Ly9uZWlscGF0ZWwuY29tL2Jsb2cvI3AtODIxMzE=">just do this</a> and you’ll get to 10,000 visitors.</p>
+<p>I’ll even make a deal with you. If you follow it and don’t hit 10,000 visitors and you can show me you followed it, I will help you for free.</p>
+<p>That’s how confident I am that it works.</p>
+<p>Cheers,</p>
+<p>Neil Patel</p></blockquote>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/07/emailstats.png" alt="email stats" /></p>
+<p>As you can see, simple text-based emails are generating 30% open rates and 6% click rates for me. Not too shabby.</p>
+<p>You can also use tools like <a href="https://subscribers.com/">Subscribers</a> to send out a push notification. Every time I update a post I send out a push. Look at my stats… I can easily generate an extra 7,000 visitors from a single push.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/07/pushstats.png" alt="push stats" /></p>
+<h2><strong>And don’t forget to build links</strong></h2>
+<p>The last step you want to leverage is link building. You can use <a href="https://neilpatel.com/backlinks/">Backlinks</a> to see who is linking to competing articles:</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/07/backlinks.png" alt="backlinks" /></p>
+<p>All you have to do is put in a competing URL and select “URL” from the drop-down menu and you’ll see every site that links to that page.</p>
+<p>From there, you’ll want to reach out to each site and ask them to link to you.</p>
+<p>The easiest way to do this is to leverage the <a href="https://neilpatel.com/blog/how-to-create-content-that-outranks-your-competitors-content/">skyscraper technique and the steps in this article</a>.</p>
+<h2><strong>Conclusion</strong></h2>
+<p>Once you hit the 150 mark in the number of pages on your site, you should consider focusing the majority of your time to updating old content instead of creating new content.</p>
+<p>If you have over 1,000 pages, you should definitely spend 80-plus percent of your time updating old content instead of writing new content.</p>
+<p>The key to ranking your old, outdated content is to first focus on the content that used to rank but doesn’t anymore.</p>
+<p>Once you fix those pages, you should see results within a month or two. From there, you can then focus on pages that have a high impression count but a low click count.</p>
+<p><em>So, are you going to focus your time on ranking your old content or creating new content? </em></p>
+<p>The post <a rel="nofollow" href="https://neilpatel.com/blog/how-to-rank-old-content/">How to Rank Your Old, Outdated Content</a> appeared first on <a rel="nofollow" href="https://neilpatel.com">Neil Patel</a>.</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=f7UKkKrRgqI:xyujQLdo5C8:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=f7UKkKrRgqI:xyujQLdo5C8:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?i=f7UKkKrRgqI:xyujQLdo5C8:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=f7UKkKrRgqI:xyujQLdo5C8:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?i=f7UKkKrRgqI:xyujQLdo5C8:gIN9vFwOqvQ" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=f7UKkKrRgqI:xyujQLdo5C8:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=f7UKkKrRgqI:xyujQLdo5C8:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?i=f7UKkKrRgqI:xyujQLdo5C8:D7DqB2pKExk" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/KISSmetrics/~4/f7UKkKrRgqI" height="1" width="1" alt=""/>]]></content:encoded>
+							<wfw:commentRss>https://neilpatel.com/blog/how-to-rank-old-content/feed/</wfw:commentRss>
+		<slash:comments>80</slash:comments>
+							<feedburner:origLink>https://neilpatel.com/blog/how-to-rank-old-content/</feedburner:origLink></item>
+		<item>
+		<title>New Study: What 100 Social Media Followers Are Really Worth</title>
+		<link>http://feedproxy.google.com/~r/KISSmetrics/~3/7IbvCZxylqQ/</link>
+				<comments>https://neilpatel.com/blog/social-media-followers/#comments</comments>
+				<pubDate>Tue, 09 Jul 2019 13:34:44 +0000</pubDate>
+		<dc:creator><![CDATA[Neil Patel]]></dc:creator>
+				<category><![CDATA[Social Media]]></category>
+
+		<guid isPermaLink="false">http://neilpatel.com/?p=84220</guid>
+				<description><![CDATA[<p>The social web is huge. From Facebook to Pinterest, they all command billions of eyeballs per year. Which, of course, makes these channels too big to ignore. In other words, you have no choice but to participate in them or else you’ll miss out on traffic and revenue. But, how much time and money should [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://neilpatel.com/blog/social-media-followers/">New Study: What 100 Social Media Followers Are Really Worth</a> appeared first on <a rel="nofollow" href="https://neilpatel.com">Neil Patel</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p><img src="https://neilpatel.com/wp-content/uploads/2019/07/socialfollowers.png" alt="social followers" /></p>
+<p>The social web is huge. From Facebook to <a href="https://neilpatel.com/blog/get-free-traffic-pinterest-search/">Pinterest</a>, they all command billions of eyeballs per year.</p>
+<p>Which, of course, makes these channels too big to ignore. In other words, you have no choice but to participate in them or else you’ll miss out on traffic and revenue.</p>
+<p>But, how much time and money should you devote to each social network?</p>
+<p>Which ones produce the best ROI?</p>
+<p>How much are 100 social media followers really worth?</p>
+<p>To answer these questions and more, I polled 483 companies who are all leveraging Facebook, YouTube, Instagram, Twitter, LinkedIn, and Pinterest.</p>
+<p>Each company has been participating in all these social networks for at least 3 years and they have at least 100 social media followers on each platform.</p>
+<p>Of the 483 companies, 159 of them were in the B2B space and 324 were B2C companies. And their revenues varied from $10,000 a year to $250,000,000.</p>
+<p>Now before we dive into the data, keep in mind all of the stats are broken down based on 100 social followers.</p>
+<p>For example, if we looked at traffic, we looked at how many visitors they generate per 100 followers.</p>
+<p>And for the purpose of this blog post, we will focus only on organic social media traffic.</p>
+<p>So, let’s dive into what we learned:<span id="more-84220"></span></p>
+<h2><strong>Social media traffic over time</strong></h2>
+<p>Compared to when each social network originally came out, it’s become much harder to generate organic traffic from each of them.</p>
+<p>You can still generate organic visits, but of course, reach has died down. But how much has it died down?</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/07/organicsocialtrafficovertime.png" alt="social over time" /></p>
+<p>As you can see, it has drastically decreased.</p>
+<p>In 2015, you could generate a bit more than 3 visitors a month from the social web for every 100 followers you had, and now it’s dropped down to roughly 2 visitors per month.</p>
+<p>I know that data isn’t shocking, but think of it this way, that’s a 38.6% drop in organic social media traffic. And based on the chart, there are no signs of recovery.</p>
+<h2><strong>But what about traffic by social network?</strong></h2>
+<p>Sure, organic social media traffic might be dying as each network wants you to advertise, but which networks drive the most traffic per 100 followers?</p>
+<p>If you had to take a guess, which one do you think it would be?</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/07/trafficpernetwork.png" alt="traffic social media" /></p>
+<p>It’s definitely not a social network owned by Facebook. Both Facebook and Instagram drive the least amount of visitors per 100 followers.</p>
+<p>Instagram isn’t much of a shocker, though, as you can only drive traffic through bio links and asking people to swipe up in stories.</p>
+<p>But what was surprising is the amount of traffic Pinterest drives. Pinterest was the best performer, followed by LinkedIn and then YouTube.</p>
+<p>Here’s the thing to note about YouTube&#8230; although it drives a decent amount of visitors per 100 subscribers, most people using YouTube don’t experience much (if any) traffic because they don’t link out to their site within their videos.</p>
+<p>You can use <a href="https://neilpatel.com/blog/youtube-seo/">YouTube annotations to do this</a>.</p>
+<h2><strong>Does posting more often mean more social traffic?</strong></h2>
+<p>The first chart shows that organic social traffic is slowly dying down, but how about if you increase your posting frequency?</p>
+<p><em>That should increase your organic social media traffic, right?</em></p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/07/postingfrequency.png" alt="frequency social media" /></p>
+<p>In general, posting more often does lead to more traffic. But after 8 monthly posts on each social network, the data shows you’ll see diminishing returns.</p>
+<p><em>Why you may ask?</em></p>
+<p>The way most social media algorithms work is that the more people engage with your content, the more of them will see your content as you post it.</p>
+<p>So, your goal should be to only post content people love and want to engage with. The moment you start posting mediocre content, it hurts your overall traffic numbers because that means fewer people in the future will see your new content no matter how amazing it is.</p>
+<p>Speaking of engagement, which social networks tend to have the most engaged users?</p>
+<h2><strong>Engagement by social network</strong></h2>
+<p>I was shocked by the engagement stats because I assumed that Pinterest would have won in this battle as they are driving the most traffic per 100 followers to websites.</p>
+<p>But I was wrong.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/07/engagementsocial.png" alt="engagement" /></p>
+<p>Pinterest did perform really well, but LinkedIn won.</p>
+<p>Instagram also did extremely well, which I wasn’t shocked by as most of the people I know who use it do so as a “personal” social network instead of leveraging it for work.</p>
+<p>That&#8217;s why the engagement is so high on Instagram.</p>
+<p>One thing to note is that posts not containing a link, such as images or videos, tend to get the most engagement.</p>
+<p>This is also because social sites tend to promote content that keeps people on their social sites as opposed to driving their visitors off to your site.</p>
+<h2><strong>Which social networks prefer videos?</strong></h2>
+<p>If you aren’t producing videos, you should definitely consider starting. Even though videos don’t rank well on Google, they are the future.</p>
+<p>It’s <a href="https://neilpatel.com/blog/content-video-podcast/">why I create more video content</a> each week than text-based content.</p>
+<p>With video, there are 2 main types of videos… one that you just upload and ones that are live.</p>
+<p>Let’s see how the different video types stack up against each other.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/07/videossocial.png" alt="videos" /></p>
+<p>When you look at the chart above, it’s easy to say that Instagram produces the best results for videos. Then come LinkedIn and YouTube.</p>
+<p>But there is something that you have to keep in mind… Instagram auto-plays videos while YouTube is much pickier about what they count as a “video view.”</p>
+<p>None-the-less, if you&#8217;re going to create video content, you should post it on all of the social networks out there, but I would first focus the majority of your efforts on Instagram, LinkedIn, and YouTube.</p>
+<p>YouTube won’t provide amazing numbers in the first 24 hours of uploading a video, but through <a href="https://neilpatel.com/blog/youtube-marketing-guide/">YouTube SEO</a>, you can continually get views while you won’t see that happen on any of the other social networks.</p>
+<p>For live videos, the results are similar in which Instagram and YouTube lead the pack.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/07/livevideos.png" alt="live videos" /></p>
+<p>But what is interesting is that live videos don’t generate as many viewers as just posting and scheduling them.</p>
+<p>When we dug into why the main reason wasn’t that social sites don’t want live content, it’s that with non-live videos, businesses spend more time leveraging <a href="https://neilpatel.com/blog/keyword-research/">keyword research</a> and optimizing their videos for the maximum amount of views.</p>
+<p>While on the flip side it is a bit harder to do that with live videos.</p>
+<p>If you want to get the most views from your videos, use tools like <a href="https://neilpatel.com/ubersuggest/">Ubersuggest</a> to see what keywords are popular.</p>
+<p>Putting keywords in your title and descriptions isn’t enough, though. Social media sites are able to decipher the sound to see what your video is really about.</p>
+<p>Now let’s get into the best part… conversions and sales.</p>
+<h2><strong>The money is in the list</strong></h2>
+<p>Have you heard the saying, the money is in the list?</p>
+<p>If you aren’t <a href="https://neilpatel.com/blog/email-subscribers/">collecting emails</a>, you should start right away. Because once you have an email list, you can always market to people on your list and convince them to buy your products or services.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/07/emails.png" alt="emails" /></p>
+<p>LinkedIn has the best conversion rates from a visitor to an email subscriber. Pinterest and YouTube also perform really well.</p>
+<p>You may think that most of the people on LinkedIn only care about B2B but that is wrong. Remember everyone on LinkedIn is also a consumer. They buy everyday products just like you and me.</p>
+<p>What was interesting with the email collection numbers is that the majority of your social media followers won’t ever convert into email subscribers. But as you share and post content on the social web, the followers of your followers may also see your content, which then increases the likelihood of getting more traffic and email subscribers.</p>
+<h2><strong>What about revenue?</strong></h2>
+<p>Whether you love or hate social sites, they do drive revenue. And no you don’t have to spend money on ads to generate revenue.</p>
+<p>Ads do help, of course, but here is the percentage of revenue that each business generated from organic social media traffic.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/07/revenuegeneratedfromsocailtraffic.png" alt="revenue" /></p>
+<p>It’s been declining over the years, but the numbers are starting to flatten out.</p>
+<p>The decline isn’t just related to social media algorithms becoming tougher, though. It’s that businesses are also diversifying their marketing approach. They are taking an <a href="https://neilpatel.com/blog/multichannel-marketing/">omnichannel approach</a> which means they leverage more channels. Because of that, each one also makes up a smaller portion of their revenue.</p>
+<h2><strong>Conclusion</strong></h2>
+<p>Social media is still strong and kicking. You may only be able to generate 2 visitors a month for every 100 followers you have, but that scales as you grow your social following on every network.</p>
+<p>Plus, the brand effect you can get by doing things like uploading videos will also help significantly.</p>
+<p>Now before we wrap things up, I thought it would be interesting to see what percentage of social media traffic is generated from organic efforts versus paid:</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/07/paidvsorganicsocialtraffic.png" alt="paid versus organic" /></p>
+<p>There is a huge trend of companies spending more and more money on social media, which aligns with the stock price and financials of companies like Facebook, Pinterest, and Twitter.</p>
+<p>None-the-less, don’t be discouraged by your social media traffic dwindling down.</p>
+<p>If you <a href="https://neilpatel.com/blog/facebook-traffic-messenger/">get a bit creative and follow this</a>, you can spike your numbers.</p>
+<p><em>So, what are your social followers worth to you?</em></p>
+<p>The post <a rel="nofollow" href="https://neilpatel.com/blog/social-media-followers/">New Study: What 100 Social Media Followers Are Really Worth</a> appeared first on <a rel="nofollow" href="https://neilpatel.com">Neil Patel</a>.</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=7IbvCZxylqQ:Sk0PEYu2OTI:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=7IbvCZxylqQ:Sk0PEYu2OTI:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?i=7IbvCZxylqQ:Sk0PEYu2OTI:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=7IbvCZxylqQ:Sk0PEYu2OTI:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?i=7IbvCZxylqQ:Sk0PEYu2OTI:gIN9vFwOqvQ" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=7IbvCZxylqQ:Sk0PEYu2OTI:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=7IbvCZxylqQ:Sk0PEYu2OTI:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?i=7IbvCZxylqQ:Sk0PEYu2OTI:D7DqB2pKExk" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/KISSmetrics/~4/7IbvCZxylqQ" height="1" width="1" alt=""/>]]></content:encoded>
+							<wfw:commentRss>https://neilpatel.com/blog/social-media-followers/feed/</wfw:commentRss>
+		<slash:comments>119</slash:comments>
+							<feedburner:origLink>https://neilpatel.com/blog/social-media-followers/</feedburner:origLink></item>
+		<item>
+		<title>7 Google Analytics Reports That Show How Your Blog is Really Performing</title>
+		<link>http://feedproxy.google.com/~r/KISSmetrics/~3/_azGZI72Zbk/</link>
+				<comments>https://neilpatel.com/blog/google-analytics-for-bloggers/#comments</comments>
+				<pubDate>Tue, 02 Jul 2019 13:31:48 +0000</pubDate>
+		<dc:creator><![CDATA[Neil Patel]]></dc:creator>
+				<category><![CDATA[Content Marketing]]></category>
+
+		<guid isPermaLink="false">http://neilpatel.com/?p=83342</guid>
+				<description><![CDATA[<p>When you log into Google Analytics, what do you look at? Chances are you see something like the image above that shows you how many people are currently on your blog. Well, that was easy to guess because that’s the report Google Analytics gives you once you log in. 😉 But which reports do you [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://neilpatel.com/blog/google-analytics-for-bloggers/">7 Google Analytics Reports That Show How Your Blog is Really Performing</a> appeared first on <a rel="nofollow" href="https://neilpatel.com">Neil Patel</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/realtime.png" alt="real time" /></p>
+<p>When you log into <a href="https://neilpatel.com/blog/how-to-get-actionable-data-from-google-analytics-in-10-minutes/">Google Analytics</a>, what do you look at?</p>
+<p>Chances are you see something like the image above that shows you how many people are currently on your blog.</p>
+<p>Well, that was easy to guess because that’s the report Google Analytics gives you once you log in. 😉</p>
+<p><em>But which reports do you look at on a regular basis?</em></p>
+<p>I bet you look at two main reports…</p>
+<p>The “Audience Overview” report and the “Acquisition Overview” report.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/audienceoverview.png" alt="audience overview" /></p>
+<p>Sure, every once in a while, you may dive into your top pages or the specific organic keywords that drive your traffic. But even if you do that, what are you actually doing with the data?</p>
+<p>Nothing, <em>right?</em></p>
+<p>Don’t beat yourself up over it because most content marketers just look at reports and numbers and do little to nothing with the data.</p>
+<p>If you want to figure out how to grow your blog and, more importantly, your revenue from your blog, there are 7 reports that you need to start looking at on a regular basis.</p>
+<p>Here they are and here is how you use them&#8230;<span id="more-83342"></span></p>
+<h2><strong>Report #1: Cohort Analysis</strong></h2>
+<p>What do you think is easier to accomplish… <em>get new visitors to your blog or getting your visitors to come back?</em></p>
+<p>It’s easier to get people to come back to your blog, yet everyone focuses on new visitors.</p>
+<p>I bet less than 99% of your blog readers turn into customers or revenue, so why not focus on getting those people back and eventually converting them?</p>
+<p>Before we get into how to get people back to your blog, let’s look at how many people are returning to your blog.</p>
+<p>Within the Google Analytics navigation, click on “Audience” and then “Cohort Analysis”.</p>
+<p>Once you land on that report, you’ll see a graph that looks similar to this:</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/cohortgraph.png" alt="cohort graph" /></p>
+<p>Under the “Cohort Size” drop-down menu, select “by week”. Under “Date Range”, select “Last 12 weeks”.</p>
+<p>Once the data loads, you’ll see a table that looks something like this:</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/cohorttable.png" alt="cohort table" /></p>
+<p>What this table shows is the percentage of your visitors that come back each week.</p>
+<p>On the very left it will always show 100%. Then in the columns to the right, you’ll see week 1, week 2, week 3, etc.</p>
+<p>This shows the percentage of people who come back to your blog each and every week after their first visit.</p>
+<p>For example, if this week you had 100 people visit your blog and in the week 1 column, it shows 17%. That means of the initial 100 people, 17 came back. Under week 2 if you see 8%, that means of the initial 100 people, 8 people came back in week 2.</p>
+<p>Naturally, this number will keep getting smaller, but the goal is to get people back as often as possible. That increases trust, social shares, potential people linking to you, and it even increases the odds that the visitor will convert into a customer.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/03/numberofvisits.png" alt="number of visits" /></p>
+<p><a href="https://neilpatel.com/blog/content-marketing-future/">The average blog reader needs to come back 3.15 times before they turn into a customer</a>. That means that you need to retain readers.</p>
+<p>Just think of it this way: If you get thousands of new people to your blog each and every single day but none of them ever come back, what do you think is going to happen to your sales?</p>
+<p>Chances are, not much.</p>
+<p>You need to look at your Cohort Report and continually try to improve the numbers and get people coming back.</p>
+<p>So the real question is, how do you get people to come back?</p>
+<p>There are 2 simple ways you can do this:</p>
+<ol>
+<li><strong>Start collecting emails</strong> – through free tools like <a href="https://hellobar.com/">Hello Bar,</a> you can turn your blog readers into email subscribers. Then as you publish more content, you can send an email blast and get people back to your blog.</li>
+<li><strong>Push notifications</strong> – by using tools like <a href="https://subscribers.com/">Subscribers,</a> people can subscribe to your blog through their browser. Then every time you release a new blog post, you can send out a push and people will come back to your blog.</li>
+</ol>
+<p>These 2 strategies are simple and they work. Just look at how many people I continually get back to my blog through emails and push notifications.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/repeatvisits.png" alt="repeat visits" /></p>
+<h2><strong>Report #2: Benchmarking</strong></h2>
+<p>Ever wonder how you are doing compared to your competition?</p>
+<p>Sure, you can use tools like <a href="https://neilpatel.com/ubersuggest/">Ubersuggest</a>, type in your competitors URL, and see all of the search terms they are generating traffic from.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/ubersuggestneilpatel.png" alt="ubersuggest neil patel" /></p>
+<p>But what if you want more? Such as knowing what percentage of traffic your competitors are getting from each channel. What’s your bounce rate, average session duration, or even pageviews per channel?</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/benchmarking.png" alt="bench marketing" /></p>
+<p>Within Google Analytics navigation, click on “Audiences” then “Benchmarking” then “Channels”.</p>
+<p>Once you do that, you’ll see a report that looks like the one above.</p>
+<p>Although you won’t have specific data on a competing URL, Google Analytics will show you how you stack up to everyone else within your industry.</p>
+<p>I love this report because it shows you where to focus your time.</p>
+<p>If all of your competitors get way more social traffic or email traffic, it means that’s probably the lowest hanging fruit for you to go after.</p>
+<p>On the flipside, if you have 10 times more search traffic than your competition, you’ll want to focus your efforts on where you are losing as that is what’ll probably drive your biggest gains.</p>
+<p>The other reason you’ll want to look at the Benchmarking Report is that marketers tend to focus their efforts on channels that drive the most financial gain.</p>
+<p>So, if all of your competition is generating the majority of their traffic from a specific channel, you can bet that channel is probably responsible for a good portion of their revenue, which means you should focus on it too.</p>
+<h2><strong>Report #3: Location, location, location</strong></h2>
+<p>Have you noticed that my blog is available in a handful of languages?</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/languages.png" alt="languages" /></p>
+<p>Well, there is a reason for that.</p>
+<p>I continually look at the location report. To get to it, click on “Audience” then “Geo” and then “Location”.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/location.png" alt="location" /></p>
+<p>This report will tell you where the biggest growth opportunities are for your blog.</p>
+<p>Now with your blog, you’ll naturally see the most popular countries being the ones where their primary language is the one you use on your blog.</p>
+<p>For example, if you write in English, then countries like the United Kingdom and the United States will be some of your top countries.</p>
+<p>What I want you to do with this report is look at the countries that are growing in popularity but the majority of their population speak a different language than what you are blogging on.</p>
+<p>For me, Brazil was one of those countries. Eventually, I translated my content into Portuguese and now Brazil is the second most popular region where I get traffic from.</p>
+<p>This strategy has helped me get from 1 million visitors a month to over 4 million. If you want step-by-step instructions on how to expand your blog content internationally, <a href="https://neilpatel.com/blog/global-seo/">follow this guide</a>.</p>
+<h2><strong>Report #4: Assisted conversions</strong></h2>
+<p>Have you heard marketers talk about how blog readers don’t convert into customers?</p>
+<p>It’s actually the opposite.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/03/conversionrate.png" alt="conversions" /></p>
+<p><a href="https://neilpatel.com/blog/content-marketing-future/">Those visitors may not directly convert into a customer</a>, but over time they will.</p>
+<p>But hey, if you have a boss or you are spending your own money on content marketing, you’re not going to trust some stats and charts that you can read around the web. Especially if they only talk about long-term returns when you are spending money today.</p>
+<p>You want hard facts. In other words, if you can’t experience it yourself, you won’t believe it.</p>
+<p>That’s why I love the Assisted Conversions Report in Google Analytics.</p>
+<p>In the navigation bar click on “Conversions” then “Multi-Channel Funnels” and then “Assisted Conversions”.</p>
+<p>It’ll load up a report that looks like this:</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/assistedconversions.png" alt="assisted conversion" /></p>
+<p>This report shows you all of the channels that help drive conversions. They weren’t the final channel in which someone came from but they did visit your blog from one of these channels.</p>
+<p>In other words, if they didn’t visit or even find your blog from one of these sources, they may not have converted at all.</p>
+<p>Now when your boss asks you if content marketing is worth it, you can show the Assisted Conversions Report to show how much revenue your blog helps drive.</p>
+<p>The other beautiful part about this report is that it tells you where to focus your marketing efforts. You want to focus your efforts on all channels that drive conversions, both first and last touch.</p>
+<h2><strong>Report #5: Users flow</strong></h2>
+<p>What’s the number one action you want your blog readers to take?</p>
+<p>I learned this concept from Facebook. One of the ways they grew so fast is they figured out the most important action that they want people to take and then they focused most of their efforts on that.</p>
+<p>For you, it could be someone buying a product.</p>
+<p>For me, it’s collecting a lead and that starts with a URL.</p>
+<p>But I found that people interact with my blog differently based on the country they are coming from.</p>
+<p>In other words, if I show the same page to a United States visitor and from someone in India or even the United Kingdom, they interact differently.</p>
+<p>How did I figure that out?</p>
+<p>I ran some <a href="https://crazyegg.com/">heatmap tests</a>, but, beyond that, I used the Users Flow Report in Google Analytics.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/usersflow.png" alt="users flow" /></p>
+<p>In your navigation click on “Audience” and then “Users Flow”.</p>
+<p>Within the report, it will break down how people from each country interact with your blog and the flow they take.</p>
+<p>I then used it to adjust certain pages on my blog. For example, here is the homepage that people in the United States see:</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/ushomepage.png" alt="us home page" /></p>
+<p>And here is the homepage that people from the United Kingdom see:</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/ukhomepage.png" alt="uk home page" /></p>
+<p>The United Kingdom homepage is much shorter and doesn’t contain as much content and that’s helped me improve my conversions there.</p>
+<p>And of course, in the United States, my audience prefers something else, hence the homepages are different.</p>
+<p>The Users Flow Report is a great way to see how you should adjust your site based on each geographical region.</p>
+<h2><strong>Report #6: Device overlap</strong></h2>
+<p>Blog content can be read anywhere and on any device. From desktop devices to tablets to even mobile phones.</p>
+<p>The way you know you have a loyal audience isn’t just by seeing how many of your readers continually come back, but how often are they reading your blog from multiple devices.</p>
+<p>For example, you ideally want people to read your blog from their iPhone and laptop.</p>
+<p>The more ways you can get people to consume your content, the stronger brand loyalty you’ll build, which will increase conversion.</p>
+<p>Within the navigation, click on “Audience” then “Cross Device” and then “Device Overlap”.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/deviceoverlap.png" alt="device overlap" /></p>
+<p>I’m in the B2B sector so my mobile traffic isn’t as high as most industries but it is climbing over time.</p>
+<p>And what I’ve been doing is continually improving my mobile load times as well as my mobile experience to improve my adoption rates.</p>
+<p>I’m also working on a mobile app.</p>
+<p>By doing all of these things, people can consume content from NeilPatel.com anywhere, which builds stickiness, brand loyalty, and then causes more assisted conversions.</p>
+<p>A good rule of thumb is if you can get the overlap to be over 6%, you’ll have a very sticky audience that is much easier to convert.</p>
+<p>That’s at least what I can see with all of the Google Analytics accounts I have access to.</p>
+<h2><strong>Report #7: User Explorer</strong></h2>
+<p>To really understand what makes your blog readers tick, you need to get inside their mind and figure out what their goals are and how you can help them achieve each of those goals.</p>
+<p>A great way to do this is through the User Explorer Report.</p>
+<p>Click on “Audience” and then “User Explorer”. You’ll see a screen that looks like this:</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/userexplorer.png" alt="user explorer" /></p>
+<p>This shows you every user who visits your site and what they did. You can click on a client id to drill down and see what actions each user performed on your blog.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/userexplorer2.png" alt="user explorer" /></p>
+<p>From there, you can click on a time to see exactly what they did each time they visited:</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/userexplorer3.png" alt="user explorer" /></p>
+<p>What I like to do with this report is to see how the most popular users engage with my blog. What are they reading? What pages are they spending the majority of their time on? What makes them continually come back? How did they first learn about my blog?</p>
+<p>By comparing the most popular blog readers with the least popular, I am typically able to find patterns. For example, my most loyal blog readers typically find my site through organic traffic and then subscribe to my email list.</p>
+<p>Then they keep coming back, but the key is to get them to opt into my email list.</p>
+<p>That&#8217;s why I am so aggressive with my email captures. I know some people don’t like it, but I’ve found it to work well.</p>
+<p>So I focus a lot of my efforts on building up my organic traffic over referral traffic and then collecting emails.</p>
+<p>Look at the patterns that get your most popular users to keep coming back and then adjust your blog flow so that you can create that pattern more often.</p>
+<h2><strong>Conclusion</strong></h2>
+<p>Yes, you should look at your visitor count. But staring at that number doesn’t do much.</p>
+<p>The 7 reports I describe above, on the other hand, will help you boost your brand loyalty, your repeat visits, and your revenue.</p>
+<p>I know it can be overwhelming, so that’s why I tried to keep it to just 7 reports. And if you can continually improve your numbers in each of those reports, your blog will continually grow and eventually thrive.</p>
+<p><em>So what Google Analytics reports do you look at on a regular basis?</em></p>
+<p>The post <a rel="nofollow" href="https://neilpatel.com/blog/google-analytics-for-bloggers/">7 Google Analytics Reports That Show How Your Blog is Really Performing</a> appeared first on <a rel="nofollow" href="https://neilpatel.com">Neil Patel</a>.</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=_azGZI72Zbk:HPR7IxTB1P4:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=_azGZI72Zbk:HPR7IxTB1P4:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?i=_azGZI72Zbk:HPR7IxTB1P4:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=_azGZI72Zbk:HPR7IxTB1P4:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?i=_azGZI72Zbk:HPR7IxTB1P4:gIN9vFwOqvQ" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=_azGZI72Zbk:HPR7IxTB1P4:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=_azGZI72Zbk:HPR7IxTB1P4:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?i=_azGZI72Zbk:HPR7IxTB1P4:D7DqB2pKExk" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/KISSmetrics/~4/_azGZI72Zbk" height="1" width="1" alt=""/>]]></content:encoded>
+							<wfw:commentRss>https://neilpatel.com/blog/google-analytics-for-bloggers/feed/</wfw:commentRss>
+		<slash:comments>84</slash:comments>
+							<feedburner:origLink>https://neilpatel.com/blog/google-analytics-for-bloggers/</feedburner:origLink></item>
+		<item>
+		<title>How I Grew My Dying Facebook Traffic</title>
+		<link>http://feedproxy.google.com/~r/KISSmetrics/~3/2wSGeB-W5F4/</link>
+				<comments>https://neilpatel.com/blog/facebook-traffic-messenger/#comments</comments>
+				<pubDate>Tue, 25 Jun 2019 13:18:10 +0000</pubDate>
+		<dc:creator><![CDATA[Neil Patel]]></dc:creator>
+				<category><![CDATA[Social Media]]></category>
+
+		<guid isPermaLink="false">http://neilpatel.com/?p=82594</guid>
+				<description><![CDATA[<p>Is it me, or does Facebook just want to keep you on Facebook? Every time I post a link to my site, I get less and less traffic. And it&#8217;s been this way for years. In other words, my organic reach on Facebook was dying. And to make matters worse, they give you hope every [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://neilpatel.com/blog/facebook-traffic-messenger/">How I Grew My Dying Facebook Traffic</a> appeared first on <a rel="nofollow" href="https://neilpatel.com">Neil Patel</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/facebook.png" alt="facebook" /></p>
+<p>Is it me, or does Facebook just want to keep you on Facebook?</p>
+<p>Every time I post a link to my site, I get less and less traffic. And it&#8217;s been this way for years.</p>
+<p><em>In other words, my organic reach on Facebook was dying.</em></p>
+<p>And to make matters worse, they give you hope every time they launch a new feature.</p>
+<p>For example, when they launched <a href="https://neilpatel.com/blog/facebook-live-grow-brand/">Facebook Live</a>, you used to be able to get tons of views because they promoted it organically&#8230; <em>but </em><em>not really anymore</em>.</p>
+<p>The same goes with <a href="https://neilpatel.com/blog/facebook-watch-mean-for-marketers/">Facebook Watch</a>. I used to easily get 30,000 plus views per video when Facebook Watch came out&#8230; <em>again, not anymore</em>.</p>
+<p>Now I am lucky to get 10,000 views.</p>
+<p>But hey, I can&#8217;t really hate on Facebook. They are a business and they have to do what&#8217;s best for them. So instead of getting upset at Facebook, I decided to run some tests to see if I could find a way to get more organic traffic.</p>
+<p><em>Because there has to be a way, right?</em></p>
+<p>Well, there is. 🙂</p>
+<p>And here is my traffic from Facebook over the last 7 days:</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/facebook7days.png" alt="facebook traffic" /></p>
+<p>That may not seem like a big increase, but I generated 10,621 visitors the month before. In other words, I took my Facebook traffic from 10,621 visitors PER MONTH to 10,085 visitors PER WEEK.</p>
+<p>I am getting roughly the same amount of traffic I used to get in 30 days from Facebook, now in just 7 days.</p>
+<p><em>So how did I do this?</em></p>
+<h2><strong>Taking control of your own destiny</strong></h2>
+<p>As marketers, our faith typically relies on the big giants&#8230; you know, Google, Facebook, YouTube, Instagram&#8230;</p>
+<p>If they decide to change their algorithms your traffic could go up, down, or stay flat.</p>
+<p>For that reason, over the last few years, I&#8217;ve been building up marketing channels that aren&#8217;t as reliant on algorithms.</p>
+<p>For example, you may learn about new blog posts I publish through my email lists because every time I publish a new post, I usually send out an email blast.</p>
+<p>Or it could be through <a href="https://subscribers.com">browser notifications</a>.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/subscribers.png" alt="subscribers" /></p>
+<p>Every time I release a blog post or a video&#8230; again, I send a message out through push notifications.</p>
+<p><em>But why can&#8217;t we do the same with Facebook?</em></p>
+<p>Sure, you can post on your wall or page like everyone else, but if Facebook doesn&#8217;t want to show it to people they don&#8217;t have to.</p>
+<p>So, I decided to push really hard on Facebook Messenger, which gives you the same ability.</p>
+<p>In other words, you can send a direct message to everyone on Facebook through their chat feature and share a message or a link to your website.</p>
+<p>Something that isn&#8217;t too controlled by an algorithm&#8230; similar to text messaging or email marketing.</p>
+<p>I built this list of 129,560 <a href="https://neilpatel.com/blog/facebook-marketing-tools/">Facebook Messenger</a> contacts and leveraged them to continually generate traffic back to my blog.</p>
+<p>Now before I break down the exact steps I took to do this, the tactics here take execution and elbow grease. <em>It isn&#8217;t rocket science, it&#8217;s not hard to do, but it does take a bit of work.</em></p>
+<p>But first, let&#8217;s go over how Facebook Messenger marketing works.<span id="more-82594"></span></p>
+<h2><strong>Facebook Messenger</strong></h2>
+<p><img class="alignnone size-large wp-image-82595" src="https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-20-at-10.33.32-PM-700x365.png" alt="grow facebook messenger list" width="700" height="365" srcset="https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-20-at-10.33.32-PM-700x365.png 700w, https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-20-at-10.33.32-PM-350x183.png 350w, https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-20-at-10.33.32-PM-768x401.png 768w, https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-20-at-10.33.32-PM.png 864w" sizes="(max-width: 700px) 100vw, 700px" /></p>
+<p>First, let&#8217;s back up on <em>why</em> Facebook Messenger is working so well today.</p>
+<p><em>Facebook Messenger open rates are 50-80% click-through rates post elite stats.</em></p>
+<p>When you send an email campaign, you can expect a 20% open rate <em>on a really good day.</em> On average, I get 28 to 31% with my NeilPatel.com email list.</p>
+<p>In other words, if you send your email newsletter to 100 people, 20 people will open it. If you scrub your list and work really hard like me, roughly 30 people will open it, which still isn&#8217;t great.</p>
+<p>However, when you send a Messenger message to 100 people, <a href="https://neilpatel.com/blog/open-rates-facebook-messenger/"><em>88 people will open it and read it</em></a><em>.</em></p>
+<p>We’re talking about an 88% open rate on Messenger. That is crazy!!!!</p>
+<p>Now over time, you will notice that it will go down, but it is still substantially higher than email.</p>
+<p>But here is where it really gets interesting.</p>
+<p>With email marketing, you&#8217;ll typically see a 2% to a 4% click-through rate. So for every 100 emails you send, you will get 2 to 4 clicks back to your site.</p>
+<p>To give you a benchmark, again, I spend a lot of time fine-tuning my emails and I can get about 6 clicks for every 100 emails I send.</p>
+<p><em>Better than the 2 to 4 percent most people get, but still not life-changing.</em></p>
+<p>With Messenger? You can get 20% click rates<em>.</em></p>
+<p>Over time, you will see it go down, but it is still substantially higher than email marketing.</p>
+<p>And it is not just marketing, it works with pretty much any industry. Here&#8217;s an example of a <a href="https://mobilemonkey.com/blog/2019/02/real-estate-chatbots-guide">real estate company</a> that leverages Facebook Messenger:</p>
+<p><img class="alignnone size-large wp-image-82637" src="https://neilpatel.com/wp-content/uploads/2019/06/realestate-bot-700x1516.png" alt="" width="700" height="1516" srcset="https://neilpatel.com/wp-content/uploads/2019/06/realestate-bot-700x1516.png 700w, https://neilpatel.com/wp-content/uploads/2019/06/realestate-bot-350x758.png 350w, https://neilpatel.com/wp-content/uploads/2019/06/realestate-bot.png 739w" sizes="(max-width: 700px) 100vw, 700px" /></p>
+<p>As you can see from the screenshot above, Facebook Messenger works like how you would chat with a friend on Facebook or even email. You don&#8217;t always have to promote or link, you could just have a conversation with a friend.</p>
+<p>This is why their adoption rate is continually climbing in the United States.</p>
+<p><img class="alignnone size-full wp-image-82638" src="https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.46.55-PM.png" alt="" width="648" height="485" srcset="https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.46.55-PM.png 648w, https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.46.55-PM-350x262.png 350w" sizes="(max-width: 648px) 100vw, 648px" /></p>
+<p>That’s almost 140 <em>million </em>users that are projected to use Messenger.</p>
+<p>Messaging apps are also surpassing social networks in popularity. Just ask yourself&#8230; how many times do you use <a href="https://neilpatel.com/blog/6-social-media-trends-thatll-help-you-shape-your-marketing-strategy-in-2016/">WhatsApp</a> each week?</p>
+<p><img class="alignnone size-large wp-image-82639" src="https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.47.37-PM-700x532.png" alt="" width="700" height="532" srcset="https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.47.37-PM-700x532.png 700w, https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.47.37-PM-350x266.png 350w, https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.47.37-PM.png 748w" sizes="(max-width: 700px) 100vw, 700px" /></p>
+<p>But the key is to start now because it will become saturated just like every other marketing channel that works. So whoever builds the biggest list early on will have the best shot of doing well in the long run.</p>
+<p>If you are already leveraging Messenger, great, just skip to the tips below to start growing your Facebook traffic.</p>
+<p>If you aren&#8217;t, just like email marketing you are going to need software so you can send the messages on Facebook. You can start off with <a href="https://mobilemonkey.com/prices">this free software called MobileMonkey.</a></p>
+<p>Now let&#8217;s get into how you can build your Messenger list and get consistent Facebook traffic.</p>
+<h2><strong>Tactic #1: Website Messenger widget</strong></h2>
+<p>My own tests have shown that <a href="https://neilpatel.com/blog/live-chat/">chat on a website</a> can boost conversions 45%.</p>
+<p>So I wondered, what would happen if I installed a Messenger bot on a website?</p>
+<p>What&#8217;s great about adding this is that visitors get answers to their questions immediately, 24/7. Say goodbye to conversion bottlenecks.</p>
+<p>But also, everyone who starts a chat on the site becomes a new contact in my Messenger list.</p>
+<p><em>So how does this work?</em></p>
+<p>Add a Facebook Messenger bot to your website with a widget.</p>
+<p>Everyone who visits your website is invited to become a Messenger contact. Website traffic turns into Messenger contacts.</p>
+<p>Most users are already logged into Messenger on their desktop or device. So when they have questions or want info and see the Messenger widget, they tap it and <em>boom </em>— new Messenger contact.</p>
+<p><img class="alignnone size-large wp-image-82640" src="https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.48.29-PM-700x522.png" alt="" width="700" height="522" srcset="https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.48.29-PM-700x522.png 700w, https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.48.29-PM-350x261.png 350w, https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.48.29-PM-768x573.png 768w, https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.48.29-PM.png 782w" sizes="(max-width: 700px) 100vw, 700px" /></p>
+<p>If your site is on WordPress site like 34% of the world&#8217;s sites, a WordPress plugin called <a href="https://wordpress.org/plugins/wp-chatbot/">WP-Chatbot</a> is the quickest way to add Facebook Messenger chat to your site.</p>
+<p><img class="alignnone size-large wp-image-82641" src="https://neilpatel.com/wp-content/uploads/2019/06/mobilemonkey-wp-chatbot-700x708.jpg" alt="" width="700" height="708" srcset="https://neilpatel.com/wp-content/uploads/2019/06/mobilemonkey-wp-chatbot-700x708.jpg 700w, https://neilpatel.com/wp-content/uploads/2019/06/mobilemonkey-wp-chatbot-350x354.jpg 350w, https://neilpatel.com/wp-content/uploads/2019/06/mobilemonkey-wp-chatbot-768x776.jpg 768w, https://neilpatel.com/wp-content/uploads/2019/06/mobilemonkey-wp-chatbot.jpg 1177w" sizes="(max-width: 700px) 100vw, 700px" /></p>
+<p>Install the plugin on your WordPress site and you’ll have Messenger chat on your site in just a few minutes.</p>
+<p>This widget makes list building easy. An active website could get hundreds or thousands of new contacts from the visitors on the site who engage the chatbot every day.</p>
+<p><em>Think about yourself.</em></p>
+<p>Are you more likely to search for a contact form on a site, fill it out, and sit back and wait who knows how long for an answer to your question?</p>
+<p><em>Or are you more likely to pop open the chat window, ask your question, and get an immediate response?</em></p>
+<h2><strong>Tactic #2: Run Facebook click to Messenger ads</strong></h2>
+<p>You can do a lot without leveraging paid traffic, but if you really want to put some fuel on the fire, a few hundred dollars goes a long way.</p>
+<p>And for the purpose of this blog post, I spent $391.58 just so I would have some stats to share with you. 🙂</p>
+<p><a href="https://mobilemonkey.com/blog/2018/08/10/what-are-facebook-messenger-ads">Facebook Messenger ads</a> are a Facebook Ad format in which the user who clicks on the ad is immediately added to your Messenger contact list as opposed to going to a landing page where they may bounce or exit, anonymously.</p>
+<p>Everyone who clicks the button on the ad converts when they send the advertiser a message — becoming a permanent Messenger contact.</p>
+<p>The key part is&#8230; <em>they need to send the advertiser a message</em>. In other words, if you don&#8217;t get them to send you a message they won&#8217;t be added to your Messenger contact list so you won&#8217;t be able to send blasts to them.</p>
+<p>That&#8217;s why you want to use an autoresponder. If which you automatically start talking to each person to increase your chance that they will get added to your contact list.</p>
+<p>Here&#8217;s an example of an ad:</p>
+<p><img class="alignnone size-full wp-image-82642" src="https://neilpatel.com/wp-content/uploads/2019/06/click-to-messenger-ads.png" alt="" width="270" height="512" /></p>
+<p><em>How much will Facebook click-to-Messenger ads run you?</em></p>
+<p>I personally haven&#8217;t scaled a campaign too large yet, but with a $391.58 test budget, I&#8217;ve been able to generate leads for roughly 62% less than traditional Facebook ads.</p>
+<p>But again, the key with all of this is in the autoresponder. <em>Without that, your numbers won&#8217;t be too great.</em></p>
+<p>Within MobileMonkey, use the bot content builder to create the autoresponder to your Facebook Ad.</p>
+<p><img class="alignnone size-full wp-image-82643" src="https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.51.24-PM.png" alt="" width="553" height="453" srcset="https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.51.24-PM.png 553w, https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.51.24-PM-350x287.png 350w" sizes="(max-width: 553px) 100vw, 553px" /></p>
+<p>Then create a new Messenger ad in MobileMonkey to connect your autoresponder to your Facebook Ad.</p>
+<p><img class="alignnone size-large wp-image-82644" src="https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.52.15-PM-700x395.png" alt="" width="700" height="395" srcset="https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.52.15-PM-700x395.png 700w, https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.52.15-PM-350x198.png 350w, https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.52.15-PM-768x434.png 768w, https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.52.15-PM.png 914w" sizes="(max-width: 700px) 100vw, 700px" /></p>
+<p>Next, pick the autoresponder from a drop-down of all your bot dialogues and connect it to your Facebook Ads Manager account.</p>
+<p><img class="alignnone size-large wp-image-82645" src="https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.52.46-PM-700x304.png" alt="" width="700" height="304" srcset="https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.52.46-PM-700x304.png 700w, https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.52.46-PM-350x152.png 350w, https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.52.46-PM-768x333.png 768w, https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.52.46-PM.png 915w" sizes="(max-width: 700px) 100vw, 700px" /></p>
+<p>The result is a low-cost ad campaign that drives more contacts into your Messenger list.</p>
+<p>Facebook Messenger ads work time and again across industries, including <a href="https://neilpatel.com/blog/facebook-messenger-to-sell-products/">e-commerce</a> and service businesses.</p>
+<p>Now, if you are like me and you prefer to do things a bit more organically and save some money, here&#8217;s how you generate more contacts without spending money.</p>
+<h2><strong>Tactic #3: Use organic Facebook post autoresponders</strong></h2>
+<p>Growing your list with a little ad spend goes a long way, but this next list building power tactic is totally free.</p>
+<p>Anyone who comments on your Facebook Page posts instantly becomes your Messenger contact.</p>
+<p>A <a href="https://mobilemonkey.com/chatbots/facebook-post-autoresponder">Facebook post autoresponder</a> adds people to your Messenger contact list if they comment on any Facebook post.</p>
+<p>Here’s how it works.</p>
+<ol>
+<li>You post to your Facebook Business Page.</li>
+<li>Someone comments.</li>
+<li>A Messenger bot automatically responds and as soon as that person replies, they&#8217;ve become a contact in Messenger.</li>
+</ol>
+<p>You can see an example of this tactic in action here:</p>
+<p><img class="alignnone size-large wp-image-82646" src="https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.53.28-PM-700x440.png" alt="" width="700" height="440" srcset="https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.53.28-PM-700x440.png 700w, https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.53.28-PM-350x220.png 350w, https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.53.28-PM-768x483.png 768w, https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.53.28-PM.png 937w" sizes="(max-width: 700px) 100vw, 700px" /></p>
+<p>The more engaging your Facebook post, the more likely it will be that people will want to comment on it.</p>
+<p>These kinds of posts always get a ton of comments and contacts:</p>
+<ul>
+<li>Quizzes</li>
+<li>Contests</li>
+<li>Riddles</li>
+</ul>
+<p>You could ask fans to post a GIF in response to a question. “Describe your boss with a GIF.”</p>
+<p>Or ask them to tell a story or ask them a question like “What industry are most of your clients in?”</p>
+<p>Even just asking them “what do you do?” is super-engaging because people love to talk about themselves!</p>
+<p>This store asks fans to name how many duck species are in the photo. Comment with your guess and get a discount code in the autoresponder follow-up.</p>
+<p><img class="alignnone size-full wp-image-82647" src="https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.54.25-PM.png" alt="" width="543" height="590" srcset="https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.54.25-PM.png 543w, https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.54.25-PM-350x380.png 350w" sizes="(max-width: 543px) 100vw, 543px" /></p>
+<p>You can create the Messenger dialog for this technique in MobileMonkey with the &#8220;FB Comment Guard” tool.</p>
+<p><img class="alignnone size-large wp-image-82648" src="https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.55.32-PM-700x370.png" alt="" width="700" height="370" srcset="https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.55.32-PM-700x370.png 700w, https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.55.32-PM-350x185.png 350w, https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.55.32-PM-768x406.png 768w, https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.55.32-PM.png 828w" sizes="(max-width: 700px) 100vw, 700px" /></p>
+<p>That feature is what allows you to add the autoresponder to an organic post.</p>
+<p>I love this technique because it converts my hard-fought organic Facebook engagement into a list of contacts I can follow up with.</p>
+<h2><strong>Tactic #4: Convert page fans into Messenger contacts</strong></h2>
+<p>I’m a fan of cross-promoting, traffic-sharing, and allowing various marketing channels to build off each other.</p>
+<p>After all, if someone follows you on one channel, they may want your updates on a different channel as well. This increases your odds of connecting with them and amplifying your content reach at any given time.</p>
+<p>This tactic combines several methodologies for a boost to Messenger contacts.</p>
+<p>If you’ve gone to the effort of building a robust Facebook page, you will want to convert these fans into Messenger contacts. Fans are great, but Messenger contacts are better because Messenger is personalized, interactive, one-on-one, and has way more visibility than Facebook News Feed.<b></b></p>
+<p>Organic reach on Facebook is very low. Maybe 1%, of your fans on your Facebook Page will even see your post.</p>
+<p>Using Facebook Messenger changes this. Instead of a low organic reach, you’re getting high-powered interactions that are personalized.</p>
+<p>This is important because page fans aren&#8217;t automatically Messenger contacts. You have to invite them or connect with them in Messenger first.</p>
+<p>Here are three ways to convert your Page fans into Messenger contacts.</p>
+<p>First, and this one is pretty obvious, you can change the CTA button on your Facebook Page to &#8220;Send Message&#8221;.</p>
+<p>Right now your Facebook Page CTA button might be sending traffic to your site with a button like &#8220;Learn More&#8221;.</p>
+<p><img class="alignnone size-large wp-image-82649" src="https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.56.08-PM-700x274.png" alt="" width="700" height="274" srcset="https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.56.08-PM-700x274.png 700w, https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.56.08-PM-350x137.png 350w, https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.56.08-PM-768x301.png 768w, https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.56.08-PM.png 825w" sizes="(max-width: 700px) 100vw, 700px" /></p>
+<p>Hover over the button until you see “Edit Button.” Then choose the option to “Contact you” and “Send Message.”</p>
+<p><img class="alignnone size-full wp-image-82650" src="https://neilpatel.com/wp-content/uploads/2019/06/messenger-contacts.jpg" alt="" width="512" height="476" srcset="https://neilpatel.com/wp-content/uploads/2019/06/messenger-contacts.jpg 512w, https://neilpatel.com/wp-content/uploads/2019/06/messenger-contacts-350x325.jpg 350w" sizes="(max-width: 512px) 100vw, 512px" /></p>
+<p>Customize the message that people will see when they click that button in MobileMonkey.</p>
+<p><img class="alignnone size-large wp-image-82651" src="https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.57.27-PM-700x450.png" alt="" width="700" height="450" srcset="https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.57.27-PM-700x450.png 700w, https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.57.27-PM-350x225.png 350w, https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.57.27-PM.png 757w" sizes="(max-width: 700px) 100vw, 700px" /></p>
+<p>Boom. Now anyone who clicks the &#8220;Send Message&#8221; button from a Facebook Page will become a Messenger contact.</p>
+<p>Second, create a Facebook Post Autoresponder (see tip #3).</p>
+<p>This autoresponder was a simple invitation — <em>Stay in touch! Sign up for Messenger updates</em>.</p>
+<p>Third, you can then use Page fan audience targeting of a click-to-Messenger Facebook Ad campaign.</p>
+<p><img class="alignnone size-large wp-image-82652" src="https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.58.34-PM-700x448.png" alt="" width="700" height="448" srcset="https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.58.34-PM-700x448.png 700w, https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.58.34-PM-350x224.png 350w, https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.58.34-PM-768x491.png 768w, https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.58.34-PM.png 821w" sizes="(max-width: 700px) 100vw, 700px" /></p>
+<p>Remember, your existing Page fans are more likely to take another step into more interaction with a brand that they know and trust.</p>
+<h2><strong>Tactic #5: Turn your email subscribers into Messenger contacts</strong></h2>
+<p>Email marketing has a low engagement rate.</p>
+<p>Facebook Messenger has high engagement.</p>
+<p>Would you rather send your content to your subscribers in a channel with a 2% click-rate or 20% click-through rate?</p>
+<p><em>Ideally, you should do what I do and leverage them both.</em></p>
+<p>Send your email list an invitation to join your Facebook Messenger list. Those who choose to do so will become email subscribers <em>and </em>Messenger subscribers, but their engagement level (and therefore your reach) will increase using Messenger.</p>
+<p>One of the most effective marketing methods is to convert your existing contacts into more effective marketing channels.</p>
+<p>Using MobileMonkey’s chatbot builder, you can create an opt-in page consisting of a quick and simple <em>&#8220;Want to receive occasional updates?&#8221; </em>invitation.</p>
+<p>Link to that invitation anywhere you&#8217;d normally include a link.</p>
+<p>Link to that invitation in a button, like the examples below.</p>
+<p><img class="alignnone size-large wp-image-82653" src="https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.59.39-PM-700x572.png" alt="" width="700" height="572" srcset="https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.59.39-PM-700x572.png 700w, https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.59.39-PM-350x286.png 350w, https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.59.39-PM-768x628.png 768w, https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-8.59.39-PM.png 778w" sizes="(max-width: 700px) 100vw, 700px" /></p>
+<p>And here:</p>
+<p><img class="alignnone size-large wp-image-82654" src="https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-9.00.29-PM-700x526.png" alt="" width="700" height="526" srcset="https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-9.00.29-PM-700x526.png 700w, https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-9.00.29-PM-350x263.png 350w, https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-9.00.29-PM-768x577.png 768w, https://neilpatel.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-21-at-9.00.29-PM.png 771w" sizes="(max-width: 700px) 100vw, 700px" /></p>
+<p>Link to your Messenger experience in your:</p>
+<ul>
+<li>Email signature</li>
+<li>CTAs in blog posts</li>
+<li>Business card in QR codes</li>
+<li>Landing pages</li>
+<li>Newsletter subscription forms</li>
+</ul>
+<p>The list is as long as you are clever. And it works very well!</p>
+<h2><strong>Conclusion</strong></h2>
+<p>You are always going to deal with algorithms, but if you want more consistent traffic you need to take matters into your own hands.</p>
+<p>Just look at me, I leverage email marketing, push notifications, and even Facebook Messenger marketing.</p>
+<p>I&#8217;m now looking into leveraging text messaging too.</p>
+<p>Sure, I leverage SEO, content marketing, paid ads, social media marketing&#8230; and every other major channel out there.</p>
+<p>But I focus a large part of my efforts on controlling my own destiny and you can too.</p>
+<p>If you haven&#8217;t started, start with Facebook Messenger. It works so well right now and I expect it to last for a while. The key is getting in on the right time and time is right now.</p>
+<p><em>So what do you think about this strategy? Have you tried Facebook Messenger marketing yet?</em></p>
+<p>The post <a rel="nofollow" href="https://neilpatel.com/blog/facebook-traffic-messenger/">How I Grew My Dying Facebook Traffic</a> appeared first on <a rel="nofollow" href="https://neilpatel.com">Neil Patel</a>.</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=2wSGeB-W5F4:msMDreA-xf0:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=2wSGeB-W5F4:msMDreA-xf0:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?i=2wSGeB-W5F4:msMDreA-xf0:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=2wSGeB-W5F4:msMDreA-xf0:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?i=2wSGeB-W5F4:msMDreA-xf0:gIN9vFwOqvQ" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=2wSGeB-W5F4:msMDreA-xf0:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=2wSGeB-W5F4:msMDreA-xf0:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?i=2wSGeB-W5F4:msMDreA-xf0:D7DqB2pKExk" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/KISSmetrics/~4/2wSGeB-W5F4" height="1" width="1" alt=""/>]]></content:encoded>
+							<wfw:commentRss>https://neilpatel.com/blog/facebook-traffic-messenger/feed/</wfw:commentRss>
+		<slash:comments>151</slash:comments>
+							<feedburner:origLink>https://neilpatel.com/blog/facebook-traffic-messenger/</feedburner:origLink></item>
+		<item>
+		<title>What Type of Links Does Google Really Prefer?</title>
+		<link>http://feedproxy.google.com/~r/KISSmetrics/~3/igO-rstEEw4/</link>
+				<comments>https://neilpatel.com/blog/links-building-google/#comments</comments>
+				<pubDate>Tue, 18 Jun 2019 13:17:04 +0000</pubDate>
+		<dc:creator><![CDATA[Neil Patel]]></dc:creator>
+				<category><![CDATA[SEO]]></category>
+
+		<guid isPermaLink="false">http://neilpatel.com/?p=82114</guid>
+				<description><![CDATA[<p>We all know that links help rankings. And the more links you build the higher you’ll rank. But does it really work that way? Well, the short answer is links do help with rankings and I have the data to prove it. But, you already know that. The real question is what kind of links [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://neilpatel.com/blog/links-building-google/">What Type of Links Does Google Really Prefer?</a> appeared first on <a rel="nofollow" href="https://neilpatel.com">Neil Patel</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/backlinks.png" alt="links" /></p>
+<p>We all know that links help rankings. And the more links you build the higher you’ll rank.</p>
+<p><em>But does it really work that way?</em></p>
+<p>Well, the short answer is links do help with rankings and I have the data to prove it.</p>
+<p><em>But, you already know that.</em></p>
+<p>The real question is what kind of links do you need to boost your rankings?</p>
+<p>Is it rich anchor text links? Is it sitewide links? Or what happens when the same site links to you multiple times? Or when a site links to you and then decides to remove the link?</p>
+<p>Well, I decided to test all of this out and then some.</p>
+<p>Over the last 10 months, I decided to run an experiment with your help. The experiment took a bit longer than we wanted, but we all know link building isn’t easy, so the experiment took 6 months longer than was planned.</p>
+<p>Roughly 10 months ago, I emailed a portion of my list and asked if they wanted to participate in a link building experiment.</p>
+<p>The response was overwhelming… 3,919 people responded, but of course, it would be a bit too hard to build links to 3,919 sites.</p>
+<p>And when I say build, I’m talking about manual outreach, leveraging relationships… in essence, doing hard work that wouldn’t break Google’s guidelines.</p>
+<p>Now out of the 3,919 people who responded, we created a set of requirements to help us narrow down the number of sites to something more manageable:</p>
+<ol>
+<li><strong>Low domain score</strong> – we wanted to run an experiment on sites with low domain scores. If a site had a domain score of greater than 20, we removed it. When a site has too much authority, they naturally rank for terms and it is harder to see the impact that a few links can have. (If you want to know your domain score you can <a href="https://neilpatel.com/backlinks/">put in your website URL here</a>.)</li>
+<li><strong>Low backlink count</strong> – similar to the one above, we wanted to see what happens with sites with little to no backlinks. So, if a site had more than 20 backlinks, it was also removed from the experiment.</li>
+<li><strong>No subdomains</strong> – we wanted sites that weren’t a Tumblr.com or a WordPress.com site or subdomain. To be in this experiment, you had to have your own domain.</li>
+<li><strong>English only sites </strong>– Google in English is more competitive than Google in Spanish, or Portuguese or many other languages. For that reason, we only selected sites that had their main market as the United States and the site had to be in English. This way, if something worked in the United States, we knew it would work in other countries as they tend to be less competitive.</li>
+</ol>
+<p>We decided to cap the experiment to 200 sites. But eventually, many of the sites dropped off due to their busy schedule or they didn’t want to put in the work required. And as people dropped off, we replaced them with other sites who wanted to participate.<span id="more-82114"></span></p>
+<h2><strong>How the experiment worked</strong></h2>
+<p>Similar to the <a href="https://neilpatel.com/blog/rank-new-content/">on-page SEO experiment</a> that we ran, we had people write content between 1,800 and 2,000 words.</p>
+<p>Other than that we didn’t set any requirements. We just wanted there to be a minimum length as that way people naturally include keywords within their content. We did, however, include a maximum length as we didn’t want people to write 10,000-word blog posts as that would skew the data.</p>
+<p>Websites had 2 weeks to publish their content. And after 30 days of it being live, we looked up the URLs within <a href="https://neilpatel.com/ubersuggest/">Ubersuggest</a> to see how many keywords the article ranked for in the top 100, top 50 and top 10 spots.</p>
+<p>Keep in mind that Ubersuggest has 1,459,103,429 keywords in its database from all around the world and in different languages. Most of the keywords have low search volume, such as 10 a month.</p>
+<p>We then spent 3 months building links and then waited 2 months after the links were built to see what happened to the rankings.</p>
+<p>The URLs were then entered back into the Ubersuggest database to see how many keywords they ranked for.</p>
+<p>In addition to that, we performed this experiment in batches, we just didn’t have the manpower and time to do this for 200 sites all at once, hence it took roughly 10 months for this to complete.</p>
+<p>We broke the sites down into 10 different groups. That’s 20 sites per group. Each group only leveraged 1 link tactic as we wanted to see how it impacted rankings.</p>
+<p>Here’s each group:</p>
+<ol>
+<li><strong>Control</strong> – with this group we did nothing but write content. We needed a baseline to compare everything to.</li>
+<li><strong>Anchor text</strong> – the links built to the articles in this group contained rich anchor text but were from irrelevant pages. In other words, the link text contained a keyword, but the linking site wasn’t too relevant to the article. We built 3 anchor text links to each article.</li>
+<li><strong>Sitewide links</strong> – they say search engines don’t care for sitewide links, especially ones in a footer… <em>I wanted to test this out for myself</em>. We built one sitewide link to each article.</li>
+<li><strong>Content-based links</strong> – most links tend to happen within the content and that’s what we built here. We built 3 content-based links to each article.</li>
+<li><strong>Multiple links from the same site </strong>– these weren’t sitewide links but imagine one site linking to you multiple times within their content. Does it really help compared to having just 1 link from a site? We built 3 links from the same site to each article.</li>
+<li><strong>One link </strong>– in this scenario we built one link from a relevant site.</li>
+<li><strong>Sidebar links</strong> – we built 3 links from the sidebar of 3 different sites.</li>
+<li><strong>Nofollow links </strong>– does Google really ignore nofollow links? You are about to find out because we built 3 nofollow links to each article.</li>
+<li><strong>High authority link</strong> – we built 1 link with a domain score of 70 or higher.</li>
+<li><strong>Built and removed links</strong> – we built 3 links to articles in this group and then removed them 30 days after the links were picked up by Google.</li>
+</ol>
+<p>Now before I share what we learned, keep in mind that we didn’t build the links to the domain’s homepage. We built the links to the article that was published. That way we could track to see if the links helped.</p>
+<h2><strong>Control group</strong></h2>
+<p>Do you really need links to rank your content? Especially if your site has a low domain score?</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/controllinks.png" alt="control" /></p>
+<p>Based on the chart, the older your content gets, the higher you will rank. And based on the data even if you don’t do much, over a period of 6 months you can roughly rank for 5 times more keywords even without link building.</p>
+<p>As they say, SEO is a long game and the data shows it… especially if you don’t build any links.</p>
+<h2><strong>Anchor text</strong></h2>
+<p>They say anchor text links really help boost rankings. That makes sense because the link text has a keyword.</p>
+<p>But what if the anchor rich link comes from an irrelevant site. Does that help boost rankings?</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/anchortext.png" alt="anchor text" /></p>
+<p>It looks like anchor text plays a huge part in Google’s rankings, even if the linking site isn’t too relevant to your article.</p>
+<p>Now, I am not saying you should build spammy links and shove keywords in the link text, more so it’s worth keeping in mind anchor text matters.</p>
+<p>So if you already haven’t, go <a href="https://neilpatel.com/backlinks/">put in your domain here</a> to see who links to you. And look for all of the non-rich anchor text links and email each of those site owners.</p>
+<p>Ask them if they will adjust the link and switch it to something that contains a keyword.</p>
+<p>This strategy is much more effective when you ask people to switch backlinks that contain your brand name as the anchor text to something that is more keyword rich.</p>
+<h2><strong>Sitewide Links</strong></h2>
+<p>They say sitewide links are spammy… especially if they are shoved in the footer of a site.</p>
+<p>We built one sitewide footer link to each article to test this out.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/sitewidelinks.png" alt="sitewide links" /></p>
+<p>Although sites that leverage sitewide links showed more of an increase than the control group, the results weren’t amazing, especially for page 1 rankings.</p>
+<h2><strong>Content-based links</strong></h2>
+<p>Do relevance and the placement of the links impact rankings? We built 3 in-content links that were relevant to each article.</p>
+<p>Now the links were not rich in anchor text.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/contentbasedlinks.png" alt="content based links" /></p>
+<p>Compared to the baseline, rankings moved up to a similar rate as the sites who built rich anchor text links from irrelevant sites.</p>
+<h2><strong>Multiple site links</strong></h2>
+<p>I always hear SEOs telling me that if you build multiple links from the same site, it doesn’t do anything. They say that Google only counts one link.</p>
+<p>For that reason, I thought we would put this to the test.</p>
+<p>We built 3 links to each article, but we did something a bit different compared to the other groups. Each link came from the same site, although we did leverage 3 different web pages.</p>
+<p>For example, if 3 different editors from Forbes link to your article from different web pages on Forbes, in theory, you have picked up 3 links from the same site.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/samesitelinks.png" alt="samesite links" /></p>
+<p>Even if the same site links to you multiple times, it can help boost your rankings.</p>
+<h2><strong>One link </strong></h2>
+<p>Is more really better? How does one relevant link compare to 3 irrelevant links?</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/onelink.png" alt="one link" /></p>
+<p>It’s not as effective as building multiple links. Sure, it is better than building no links but the articles that built 3 relevant backlinks instead of 1 had roughly 75% more keyword placements in the top 100 positions of Google.</p>
+<p>So if you have a choice when it comes to link building, more is better.</p>
+<h2><strong>Sidebar links</strong></h2>
+<p>Similar to how we tested footer links, I was curious to see how much placement of a link impacts rankings.</p>
+<p>We looked at in-content links, footer links, and now sidebar links.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/sidebarlinks.png" alt="sidebar links" /></p>
+<p>Shockingly, they have a significant impact in rankings. Now in order of effectiveness, in-content links help the most, then sidebar links, and then sitewide footer when it comes to placement.</p>
+<p>I wish I tested creating 3 sitewide footer links to each article instead of 1 as that would have given me a more accurate conclusion for what placements Google prefers.</p>
+<p>Maybe I will be able to run that next time. 🙁</p>
+<h2><strong>Nofollow links</strong></h2>
+<p>Do nofollow links help with rankings?</p>
+<p>Is Google pulling our leg when they say they ignore them?</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/nofollowlinks.png" alt="nofollow" /></p>
+<p>From what it looks like, they tend to not count nofollow links. Based on the chart above, you can see that rankings did improve over time, but so did almost every other chart, including the control group.</p>
+<p>But here&#8217;s what’s funny: the control group had a bigger percentage gain in keyword rankings even though no links were built.</p>
+<p>Now, I am not saying that nofollow links hurt your rankings, instead, I am saying they have no impact.</p>
+<h2><strong>High authority link</strong></h2>
+<p>Which one do you think is better:</p>
+<p>Having one link from a high domain site (70 or higher)?</p>
+<p>OR</p>
+<p>Having 3 links from sites with an average or low domain score?</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/highauthority.png" alt="high authority" /></p>
+<p>Even though the link from the authority site wasn’t rich in anchor text and we only built 1 per site in this group… it still had a bigger impact than the sites in the other group.</p>
+<p>That means high authority links have more weight than irrelevant links that contain rich anchor text or even 3 links from sites with a low domain score.</p>
+<p>If you are going to spend time <a href="https://neilpatel.com/blog/how-to-build-links-when-no-one-will-link-to-you/">link building</a>, this is where your biggest ROI will be.</p>
+<h2><strong>Build and removed links</strong></h2>
+<p>This was the most interesting group, at least that is what the data showed.</p>
+<p>I always felt that if you built links and got decent rankings you wouldn’t have to worry too much when you lost links.</p>
+<p>After all, <a href="https://neilpatel.com/blog/the-advanced-guide-to-user-behavior-data-and-how-it-affects-search-rankings/">Google looks at user signals</a>, right?</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/removelinks.png" alt="remove links" /></p>
+<p>This one was shocking. At least for sites that have a low domain score, if you gain a few links and then lose them fairly quickly, your rankings can tank to lower than what they originally were.</p>
+<p>I didn’t expect this one and if I had to guess, maybe Google has something programmed in their algorithm that if a site loses a large portion of their links fast that people don’t find value in the site and that it shouldn’t rank.</p>
+<p>Or that the site purchased links and then stopped purchasing the links…</p>
+<p>Whatever it may be, you should consider tracking how many links you lose on a regular basis and focus on making sure the net number is increasing each month.</p>
+<h2><strong>Conclusion</strong></h2>
+<p>I wish I had put more people behind this experiment as that would have enabled me to increase the number of sites that I included in this experiment.</p>
+<p>My overall sample size for each group is a bit too small, which could skew the data. But I do believe it is directionally accurate, in which building links from high domain score sites have the biggest impact.</p>
+<p>Then shoot for rich anchor text links that are from relevant sites and are placed within the content.</p>
+<p>I wouldn’t have all of your link text rich in anchor text and if you are using white hat link building practices it naturally won’t be and you won’t have to worry much about this.</p>
+<p>But if you combine all of that together you should see a bigger impact in your rankings, especially if you are a new site.</p>
+<p><em>So, what do you think about the data? Has it helped you figure out what types of links Google prefers?</em></p>
+<p>The post <a rel="nofollow" href="https://neilpatel.com/blog/links-building-google/">What Type of Links Does Google Really Prefer?</a> appeared first on <a rel="nofollow" href="https://neilpatel.com">Neil Patel</a>.</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=igO-rstEEw4:kO9Nc1cgg7M:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=igO-rstEEw4:kO9Nc1cgg7M:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?i=igO-rstEEw4:kO9Nc1cgg7M:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=igO-rstEEw4:kO9Nc1cgg7M:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?i=igO-rstEEw4:kO9Nc1cgg7M:gIN9vFwOqvQ" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=igO-rstEEw4:kO9Nc1cgg7M:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=igO-rstEEw4:kO9Nc1cgg7M:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?i=igO-rstEEw4:kO9Nc1cgg7M:D7DqB2pKExk" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/KISSmetrics/~4/igO-rstEEw4" height="1" width="1" alt=""/>]]></content:encoded>
+							<wfw:commentRss>https://neilpatel.com/blog/links-building-google/feed/</wfw:commentRss>
+		<slash:comments>190</slash:comments>
+							<feedburner:origLink>https://neilpatel.com/blog/links-building-google/</feedburner:origLink></item>
+		<item>
+		<title>Ubersuggest 4.0: The Ultimate Content Marketing Tool</title>
+		<link>http://feedproxy.google.com/~r/KISSmetrics/~3/JCwWN7zqeis/</link>
+				<comments>https://neilpatel.com/blog/content-marketing-tool/#comments</comments>
+				<pubDate>Tue, 11 Jun 2019 12:11:44 +0000</pubDate>
+		<dc:creator><![CDATA[Neil Patel]]></dc:creator>
+				<category><![CDATA[Content Marketing]]></category>
+
+		<guid isPermaLink="false">http://neilpatel.com/?p=81751</guid>
+				<description><![CDATA[<p>Why do you do keyword research? It’s to find more lucrative keywords to rank for on Google, right? But once you find these keywords, you still have to figure out how to rank for them. For that reason, I decided to update Ubersuggest because I wanted to show you what kind of content to create [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://neilpatel.com/blog/content-marketing-tool/">Ubersuggest 4.0: The Ultimate Content Marketing Tool</a> appeared first on <a rel="nofollow" href="https://neilpatel.com">Neil Patel</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/contentideasubersuggest.png" alt="content ideas" /></p>
+<p>Why do you do keyword research?</p>
+<p>It’s to find more lucrative keywords to rank for on Google, <em>right?</em></p>
+<p>But once you find these keywords, you still have to figure out <em>how</em> to rank for them.</p>
+<p>For that reason, I decided to update <a href="https://neilpatel.com/ubersuggest/">Ubersuggest</a> because I wanted to show you what kind of content to create and even how to promote it.</p>
+<p>That way you can start ranking for these newly found keywords.</p>
+<p>Here’s what’s new…<span id="more-81751"></span></p>
+<h2><strong>Content ideas</strong></h2>
+<p>The way you rank for a keyword is by creating content around it. I know content isn’t king anymore and that’s because there are over 1 billion blogs on the web. That means Google can be really picky about what they decide to rank.</p>
+<p>So now, not only do you need to write amazing content, but you also have to promote it if you want to do well.</p>
+<p>To help you with this I created a Content Ideas report in <a href="https://neilpatel.com/ubersuggest/">Ubersuggest</a>. So whenever you do keyword research, you’ll see an overview that looks like this:</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/newoverview.png" alt="overview" /></p>
+<p>Just like before, you’ll see a graph at the top with the search volume over time, some keyword recommendations and, at the very bottom, a list of blog posts that performed exceptionally well for that keyword.</p>
+<p>When you click on “content ideas” in the navigational menu or you click on “view all content ideas,” you’ll then be taken to a page that looks something like this:</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/contentideasreport.png" alt="content ideas" /></p>
+<p>This page shows you all of the popular blog posts that have been written related to the keyword or phrase you searched.</p>
+<p>The list is ordered by social shares, so the posts with the highest social shares are at the top. At the bottom, you can keep clicking to see more results. Even if your screen only shows 1 or 2 pages, just keep clicking next and you’ll start to see results for pages 3, 4, 5, etc.</p>
+<p>We only show you 20 results per page, but each key phrase will typically have hundreds, if not thousands, of results as our database has over 500,000,000 blog posts from around the world.</p>
+<p>And because there are so many results, we’ve also created an easy to use filtering system so you can fine-tune your search by including certain keywords or excluding other ones and even putting minimum and maximum thresholds on social shares.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/filters.png" alt="filters" /></p>
+<h2><strong>My favorite part about the content ideas report</strong></h2>
+<p>I know you can do similar things with Buzzsumo and other tools, but this is why I created the Content Ideas report.</p>
+<p>As I mentioned earlier, content isn’t king. You not only have to write amazing content (that’s why I sort the content by social shares as more shares typically mean people love it), but you also have to promote it.</p>
+<p>You’ll notice that there are two other columns in this report that make the tool unique… one is “Estimated Visits” and the other is “Backlinks”.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/estvisits.png" alt="headings" /></p>
+<p>Estimated visits will show you how many visits the blog post generated from Google each month. Just click on “Keywords” and it will even show you the keywords that drive those visits and the position the article ranks for each of those terms.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/keywords.png" alt="keywords" /></p>
+<p><a href="https://neilpatel.com/backlinks/">Backlinks</a>, on the other hand, are all of the referring domains that point to each article. So if 12 unique domains link to that blog post, then you’ll see the number “12” in that column. All you have to do is click on “links” and you’ll see the full list of backlinks.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/links.png" alt="links" /></p>
+<p>Not only do I provide a thorough list of backlinks, but I also show you the overall page score, domain score, anchor text, and even the type of link.</p>
+<p>The reasons I made the Content Ideas report like this are:</p>
+<ol>
+<li>By creating content similar to posts that have a lot of social shares, it increases the chances that the content you are writing is going to do well as people have already shown interest in that topic and even shared it on the social web.</li>
+<li>By showing you the keywords a blog post ranks for, you’ll know what keywords to focus on when writing the content. This way your post can rank as well.</li>
+<li>By showing you who links to your competition, you can now <a href="https://neilpatel.com/blog/how-to-build-links-when-no-one-will-link-to-you/">hit up everyone who links to competing articles</a> and ask them to link to your piece of content.</li>
+</ol>
+<h2><strong>Less fluff and more data</strong></h2>
+<p>In addition to the Content Ideas report, you’ll now find that <a href="https://neilpatel.com/ubersuggest/">Ubersuggest</a> provides you with more data and less fluff when you perform a keyword query.</p>
+<p>For example, if you search for the term “dog food,” it will tell you that the average result that ranks in the top 10 has 72 backlinks and a domain score of 82.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/speechbubble.png" alt="speech bubble" /></p>
+<p>This way, if you want to rank for that term or any other term, you’ll have a rough idea of what you need from an authority and backlink standpoint to achieve a spot on page one.</p>
+<h2><strong>Conclusion</strong></h2>
+<p>If you are going to create content or write a blog post, you should check out the Content Ideas report each time before you write.</p>
+<p>The last thing you want to do is create content that people don’t care about reading. And this report will give you good feedback so that way you aren’t wasting your time creating content that doesn’t generate social shares, backlinks, or rankings.</p>
+<p>You’ll also notice that some posts do extremely well from a social sharing standpoint but terrible from a backlink and a search traffic perspective.</p>
+<p>Social shares will bring you more short-term traffic and search engines bring you less traffic upfront, but more consistent traffic over time.</p>
+<p>This report will help you find a balance so that you can get both short-term traffic and consistent traffic over the long-haul.</p>
+<p>So, head on over and <a href="https://neilpatel.com/ubersuggest/">try the new Content Ideas report</a>.</p>
+<p><em>What do you think about the content ideas report?</em></p>
+<p>The post <a rel="nofollow" href="https://neilpatel.com/blog/content-marketing-tool/">Ubersuggest 4.0: The Ultimate Content Marketing Tool</a> appeared first on <a rel="nofollow" href="https://neilpatel.com">Neil Patel</a>.</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=JCwWN7zqeis:Bd3lQeHd1Lo:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=JCwWN7zqeis:Bd3lQeHd1Lo:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?i=JCwWN7zqeis:Bd3lQeHd1Lo:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=JCwWN7zqeis:Bd3lQeHd1Lo:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?i=JCwWN7zqeis:Bd3lQeHd1Lo:gIN9vFwOqvQ" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=JCwWN7zqeis:Bd3lQeHd1Lo:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=JCwWN7zqeis:Bd3lQeHd1Lo:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?i=JCwWN7zqeis:Bd3lQeHd1Lo:D7DqB2pKExk" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/KISSmetrics/~4/JCwWN7zqeis" height="1" width="1" alt=""/>]]></content:encoded>
+							<wfw:commentRss>https://neilpatel.com/blog/content-marketing-tool/feed/</wfw:commentRss>
+		<slash:comments>313</slash:comments>
+							<feedburner:origLink>https://neilpatel.com/blog/content-marketing-tool/</feedburner:origLink></item>
+		<item>
+		<title>How to Rank New Content Faster</title>
+		<link>http://feedproxy.google.com/~r/KISSmetrics/~3/jLRMy1frXeg/</link>
+				<comments>https://neilpatel.com/blog/rank-new-content/#comments</comments>
+				<pubDate>Tue, 04 Jun 2019 10:53:32 +0000</pubDate>
+		<dc:creator><![CDATA[Neil Patel]]></dc:creator>
+				<category><![CDATA[SEO]]></category>
+
+		<guid isPermaLink="false">http://neilpatel.com/?p=81376</guid>
+				<description><![CDATA[<p>If I write a blog post on any topic, what do you think happens? It typically gets indexed by Google the same day I publish the content and within a week it tends to rank high on Google. Then again, I have a domain score of 94 and I have 633,791 backlinks. Just look at [&#8230;]</p>
+<p>The post <a rel="nofollow" href="https://neilpatel.com/blog/rank-new-content/">How to Rank New Content Faster</a> appeared first on <a rel="nofollow" href="https://neilpatel.com">Neil Patel</a>.</p>
+]]></description>
+								<content:encoded><![CDATA[<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/neilpateldomainscore.png" alt="domain score" /></p>
+<p>If I write a blog post on any topic, what do you think happens?</p>
+<p>It typically gets <a href="https://neilpatel.com/blog/google-index/">indexed by Google</a> the same day I publish the content and within a week it tends to rank high on Google.</p>
+<p>Then again, I have a domain score of 94 and I have 633,791 backlinks. <em>Just look at the image above.</em> (If you are curious what your link count or domain score is, <a href="https://neilpatel.com/backlinks/">put in your URL here</a>.)</p>
+<p>But if you have a lot fewer backlinks and a much lower domain score, what do you think would happen?</p>
+<p>Chances are your content won’t get indexed fast and it won’t rank as high as you want.</p>
+<p>But there has to be a way to change this, <em>right?</em> Especially without <a href="https://neilpatel.com/blog/how-to-build-links-when-no-one-will-link-to-you/">building more backlinks</a> because we all know that’s time-consuming and hard.</p>
+<p>To find the most ideal solution, I decided to run a little experiment.</p>
+<p>Around five months ago, I sent out an email to a portion of my mailing list asking people if they wanted to partake in an SEO experiment.</p>
+<p>As you could imagine, I had well over a thousand websites who were willing to participate. I had to narrow down the list because for this experiment to be effective, a website had to have a domain score of 30 or less and no more than 40 backlinks.</p>
+<p>That way it’s at least a challenge to figure out how to rank new content higher.</p>
+<p>In addition to that, the site couldn’t be a subdomain, such as domain.wordpress.com. It had to be a standalone site.</p>
+<p>Once I removed all of the outliers, I was left with 983 people who agreed to participate in the experiment. Of those, 347 stopped replying or backed out of the experiment due to time commitments, which means I was left with 636.<span id="more-81376"></span></p>
+<h2><strong>How did the SEO experiment work?</strong></h2>
+<p>For all of the sites, we had them write a piece of content. We didn’t make it a requirement that the content had to be about any specific topic or that it had to be written a certain way… we just had them write one piece of content that was between 1,800 and 2,000 words in length.</p>
+<p>We enforced the minimum and maximum length limit because we needed the post to be long enough to naturally include keywords, but if it was too long… such as 10,000 words, it would have a higher chance to rank on Google.</p>
+<p>Each site had 30 days to write the piece of content and publish it on their site. Within 30 days of the content being published, we looked up the URL in our Ubersuggest database to see how many keywords the post ranks for in the top 100, top 50, and top 10 spots.</p>
+<p>We also repeated this search 60 days after the article was published to see if there were any major differences.</p>
+<p>The Ubersuggest database currently contains information on 1,459,103,429 keywords from around the world in all languages (a lot of keywords have low search volume like 10 searches per month). But for this experiment, we focused on English speaking sites.</p>
+<p>We then split the sites up into 9 groups. Roughly 70 sites per group. Each group only leveraged 1 tactic to see if it helped with rankings.</p>
+<p>Here’s a breakdown of each group.</p>
+<ol>
+<li><strong>Control group</strong> – this group just published the article and didn’t leverage any promotional or SEO tactics. Having a control group allows us to compare how specific tactics affect rankings.</li>
+<li><strong>Sitemap</strong> – all this group leveraged was a sitemap. They added the article to their sitemap, and we made sure the sitemap was submitted to Google Search Console.</li>
+<li><strong>Internal linking </strong>– this group added 3 internal links from older pieces of content to the newly written article.</li>
+<li><strong>URL Inspection </strong>– within Google Search Console you can request that they Crawl and index a URL. That feature is called URL Inspection.</li>
+<li><strong>Social shares </strong>– Facebook, Twitter, LinkedIn, Pinterest and Reddit were the social sites that this group submitted and promoted their content on.</li>
+<li><strong>Google Chrome lookup</strong> – for each site in this group, we had 40 people type in the URL directly into their address bar and look up the site. This could have been done on either mobile or desktop versions of Chrome. I added this group in there because I was curious to see if people visiting your site from Chrome browsers affects your rankings.</li>
+<li><strong>Meta tags</strong> – my team optimized the title tag and meta description for everyone in this group. Based on the article, we crafted the optimal meta tags to not only include keywords but also to entice clicks.</li>
+<li><strong>URL </strong>– with this group we only optimized their article URL to include keywords and we tried to <a href="https://neilpatel.com/blog/seo-urls/">keep the length around 50 characters</a> as that is what they supposedly prefer.</li>
+<li><strong>Everything </strong>– this group combined all of the tactics above other than the control group as they didn’t do anything.</li>
+</ol>
+<p>Before I dive into the data, keep in mind that if someone was in one of the groups, we did our best to make sure that they weren’t leveraging any other tactic. For example, for everyone who wasn’t in the sitemap group, we had them remove their existing sitemaps for Google Search Console (other than the everything group).</p>
+<h2><strong>Control group</strong></h2>
+<p>So how many keywords does an average website with a domain score of 30 or less rank for in Google within a month and even two months?</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/control.png" alt="control" /></p>
+<p>I was shocked at how many keywords a site could rank for when it barely has any links and a low domain score.</p>
+<p>But what wasn’t as shocking is how a web page’s ranking can increase over time. The orange line shows the number of keywords that ranked within the first 30 days and the green line shows the number over the first 60 days.</p>
+<h2><strong>Sitemap group</strong></h2>
+<p>You know how people say you need an <a href="https://neilpatel.com/blog/xml-sitemap/">XML sitemap</a>, well it is even more important if you have a low domain score. At least, that is what the data shows.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/sitemap.png" alt="sitemap" /></p>
+<p>When your site has very few links and a low domain score, you’ll find that Google may not crawl your site as often as you want. But by leveraging a sitemap, you can speed up the indexing process, which helps decrease the time it takes for your site to start ranking for keywords.</p>
+<h2><strong>Internal linking group</strong></h2>
+<p>Links, links, and more links… it’s what every site needs to rank well. Ideally, those links would be from <a href="https://neilpatel.com/blog/how-to-build-links-when-no-one-will-link-to-you/">external sites</a>, but that&#8217;s hard to do. So, we tested how internal links impact rankings.</p>
+<p>When you add internal links from your old content to your newer articles, it helps them get indexed faster and it helps push them up in the rankings.</p>
+<p>Especially when these internal links come from relevant pages that have some decent rankings on Google.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/internallinks.png" alt="internal links" /></p>
+<p>Articles that leveraged 3 internal links had more page 1 rankings than sites that just used an XML sitemap.</p>
+<h2><strong>URL inspection group</strong></h2>
+<p>If you aren’t familiar with the URL inspection feature within <a href="https://neilpatel.com/blog/google-search-console/">Google Search Console</a>, it’s a quick way to getting your content index.</p>
+<p>Just log into Search Console and type in your article URL in the search bar at the top. You’ll see a screen that looks something like this:</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/urlinspectionsubmit.png" alt="url inspection" /></p>
+<p>All you have to do is click the “request indexing” link.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/urlinspection.png" alt="url inspection" /></p>
+<p>Leveraging this feature has a similar result to using the sitemap.</p>
+<h2><strong>Social shares group</strong></h2>
+<p>I’ve noticed a trend with my own website, in which if I create a piece of content that goes viral on the social web, my rankings for that new piece of content skyrocket to the top of Google… at least in the very short run.</p>
+<p>And after a few weeks, I notice that my rankings drop.</p>
+<p>Now, my site isn’t a large enough sample size and there are many reasons why my site ranks really well quickly.</p>
+<p>Nonetheless, it was interesting to see how much social shares impact rankings.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/socialshares.png" alt="social shares" /></p>
+<p>Getting social shares substantially performed better than the control group, but similar to my experience with NeilPatel.com, the rankings did slip a bit in month 2 instead of continually rising to the top.</p>
+<p>Social shares may not have a direct impact on rankings, but the more people who see your content the higher the chance you build backlinks, increase your brand queries, and build brand loyalty.</p>
+<h2><strong>Google Chrome lookup group</strong></h2>
+<p>Do you know how people are saying that Google is using data from Google Analytics and Chrome to determine how high your site should rank?</p>
+<p>Well, I wasn’t able to prove that from this experiment.</p>
+<p>I had 40 random people directly type in the URL of each new article into Google Chrome. I spread it out over a week, making sure they clicked around on the site and stayed for at least 2 minutes.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/googlechromelookup.png" alt="google chrome" /></p>
+<p>The ranking results were very similar to the control group.</p>
+<h2><strong>Meta tags group</strong></h2>
+<p>Now this group performed very similarly to the group that leveraged internal linking. And the month 2 results outperformed all other groups.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/metatags.png" alt="meta tags" /></p>
+<p>User metrics are a key part of Google’s algorithm. If you can create a compelling title tag and meta description, you’ll see a boost in your click-through rate and eventually, your rankings will climb.</p>
+<p>If you want to boost your rankings through your meta tags, it’s not just about adding in the right keywords, you’ll also want to boost your click-through rate. <a href="https://neilpatel.com/blog/seo-content-links/">Follow these steps</a> to do just that.</p>
+<h2><strong>URL group</strong></h2>
+<p>The 8<sup>th</sup> group tested if URL length impacts how high a new piece of content ranks on Google.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/url.png" alt="url" /></p>
+<p>Based on the graph above, you can see that it does. It didn’t have as much of an impact as internal linking or meta tags, but it did have an impact.</p>
+<p>The key to creating <a href="https://neilpatel.com/blog/seo-urls/">SEO friendly URLs</a> is to include a keyword or two and keep them short.</p>
+<p>If your URL is too long and descriptive, such as:</p>
+<blockquote><p>neilpatel.com/blog/how-to-optimize-your-meta-tags-for-search-engines</p></blockquote>
+<p>The article will rank for very <a href="https://neilpatel.com/blog/a-step-by-step-guide-to-integrating-long-tail-keywords-within-blog-posts/">long tail phrases</a> but will struggle to rank for more popular terms like “meta tags” compared to URLs like:</p>
+<blockquote><p>neilpatel.com/blog/meta-tags/</p></blockquote>
+<p>The beautiful part about the short URLs is that they rank well for head terms and long tail phrases.</p>
+<h2><strong>Conclusion</strong></h2>
+<p>The charts clearly show that little things like meta tags, URLs, internal linking, social shares, and even sitemaps help.</p>
+<p>But the key to doing well, especially if you want your new content to rank well is to not just do one of those things, but instead do them all.</p>
+<p><img src="https://neilpatel.com/wp-content/uploads/2019/06/everything.png" alt="everything" /></p>
+<p>As you can see from the chart, doing everything gives you the best results. Now sure, some of the things are redundant like using an XML sitemap and using the URL inspection feature, but you get the point.</p>
+<p>You’ll also notice that when you leverage everything together your results aren’t exponentially better… SEO is competitive and has turned into a game where every little thing adds up.</p>
+<p>If you want to do well and have your new AND old content rank faster and higher, you need to do everything.</p>
+<p>I know the tactics above aren’t anything revolutionary or new, but it’s interesting to look at the data and see how specific tactics affect rankings.</p>
+<p><em>So, what do you think?</em></p>
+<p>The post <a rel="nofollow" href="https://neilpatel.com/blog/rank-new-content/">How to Rank New Content Faster</a> appeared first on <a rel="nofollow" href="https://neilpatel.com">Neil Patel</a>.</p>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=jLRMy1frXeg:WKW-dCewk-g:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=jLRMy1frXeg:WKW-dCewk-g:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?i=jLRMy1frXeg:WKW-dCewk-g:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=jLRMy1frXeg:WKW-dCewk-g:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?i=jLRMy1frXeg:WKW-dCewk-g:gIN9vFwOqvQ" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=jLRMy1frXeg:WKW-dCewk-g:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/KISSmetrics?a=jLRMy1frXeg:WKW-dCewk-g:D7DqB2pKExk"><img src="http://feeds.feedburner.com/~ff/KISSmetrics?i=jLRMy1frXeg:WKW-dCewk-g:D7DqB2pKExk" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/KISSmetrics/~4/jLRMy1frXeg" height="1" width="1" alt=""/>]]></content:encoded>
+							<wfw:commentRss>https://neilpatel.com/blog/rank-new-content/feed/</wfw:commentRss>
+		<slash:comments>290</slash:comments>
+							<feedburner:origLink>https://neilpatel.com/blog/rank-new-content/</feedburner:origLink></item>
+	</channel>
+</rss>

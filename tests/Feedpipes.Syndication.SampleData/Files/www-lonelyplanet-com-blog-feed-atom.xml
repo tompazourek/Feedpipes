@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://lonelyplanet.com/blog/feed/atom</id>
+    <title>Unpacked - Lonely Planet&apos;s travel blog</title>
+    <updated>2019-08-01T21:25:38Z</updated>
+    <generator>Feed for Node.js</generator>
+    <link rel="alternate" href="https://lonelyplanet.com/blog/feed/atom"/>
+    <subtitle>Get a behind-the-scenes look at all things Lonely Planet on the Unpacked blog, where you&apos;ll find the stories behind the passport stamps. We share travel tips, tales and opinion pieces from our community, as well as competitions, quizzes, social media highlights and more!</subtitle>
+    <icon>https://www.lonelyplanet.com/favicon.ico</icon>
+    <rights>All rights reserved 2019, Lonely Planet</rights>
+    <entry>
+        <title type="html"><![CDATA[Insider knowledge: Professor G. Scott Hubbard on space tourism]]></title>
+        <id>42a0c23b-c7b2-5fe8-8cef-317c047c2d61</id>
+        <link href="https://www.lonelyplanet.com/blog/2019/05/21/insider-knowledge-professor-g-scott-hubbard-on-space-tourism">
+        </link>
+        <updated>2019-05-21T19:29:37Z</updated>
+        <content type="html"><![CDATA[<p><strong>In this guest post, Stanford University’s Professor G. Scott Hubbard – former Director of NASA’s Ames Research Center, founding editor-in-chief of the <em>New Space </em>journal, and author of <i>Exploring Mars: Chronicles from a Decade of Discover</i>y – looks at whether the travel industry is heading for the final frontier.</strong></p> 
+<p>Having been active in the US space program for 45 years, both with NASA and now Stanford, I’ve seen many proposals suggesting that personal space travel is right around the corner. While this topic has been discussed in science fiction for more than 60 years, making such an experience a reality has been hampered by significant obstacles, both technical and financial. However, during the last decade or two, the world has seen the emergence of wealthy space entrepreneurs who have hired top-notch engineers. Those teams may well now be <a href="https://www.lonelyplanet.com/blog/2019/05/21/wonderings-are-the-stars-our-destination">on the verge of creating space travel</a> for the (well-heeled) extreme adventurer.</p> 
+<figure> 
+ <a href="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2019/03/earthfromspace-545821ffdd68.jpg"><img src="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2019/03/earthfromspace-545821ffdd68.jpg" alt="View of the Earth from space" width="2000" height="1331"></a> Will you ever see this view from a spaceship's window? © Michael Hopkins / NASA
+</figure> 
+<h4>Where is outer space?</h4> 
+<p>The usual definition is that space begins at 100 kilometres/60 miles above the surface of the Earth where air is almost non-existent, and the clutch of gravity can be escaped. As a practical matter, NASA awards astronaut wings for any pilot that exceeds 50 miles even if he/she does not orbit Earth. (This is called a sub-orbital flight). For comparison, the US Space Shuttle flew at about 300 kilometres/188 miles); the International Space Station (ISS) orbits Earth at 250 miles; from the Earth to the Moon averages about 238,000 miles, and Mars is nearly 140 million miles away! All of these distances and destinations represent some form of space travel, but as you might imagine, the degree of difficulty increases radically the further one goes. As of this writing, over 500 people have been to space as defined above; the vast majority (355) on the Shuttle. But only 18 people have flown to the Moon. And of those, only 12 have walked on the lunar surface. No human has ever travelled to Mars.</p> 
+<h4>What is a space tourist?</h4> 
+<p>All of the people cited above had extensive training and were a member of some nation’s space program. Currently, only the US, Russia and China have the independent ability to launch someone into space. The notion of a private citizen with little or no special training going to space went from science fiction to fact with the trip by billionaire Dennis Tito to the ISS in 2001, aboard a Russian vehicle. A total of seven people have made this journey for a reported cost of USD$20m to $40m per trip. Clearly, this expense is out of the reach of all but the ultra-wealthy. So what about some less ambitious (and less expensive) trip to space – the travel to 50 to 60 miles in a so-called sub-orbital trajectory?</p> 
+<figure> 
+ <a href="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2019/03/virginspaceshiptwo-587cdd7ee6cc.jpg"><img src="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2019/03/virginspaceshiptwo-587cdd7ee6cc.jpg" alt="Virgin Galactic's SpaceshipTwo " width="2000" height="1500"></a> Virgin Galactic's SpaceShipTwo takes off for a suborbital test flight © GENE BLEVINS / Getty Images
+</figure> 
+<h4>Who’s in the game?</h4> 
+<p>Space tourism as a trip to the edge of space (50 to 60 miles) with immediate return received a major boost with the <a href="https://ansari.xprize.org/prizes/ansari">Ansari X-Prize</a>, which awarded $10m to any non-government group that could ‘build and launch a spacecraft capable of carrying three people to 100 kilometres above the Earth's surface, twice within two weeks’. The prize was won in 2004 by a team funded by billionaire Paul Allen (the co-founder of Microsoft) using a design by the iconoclastic engineer Burt Rutan. The team was joined by another billionaire – Richard Branson of Virgin Group fame. Shortly after winning, Branson announced that a new company, <a href="https://www.virgingalactic.com/">Virgin Galactic</a>, using the Rutan design, would soon begin offering sub-orbital flights for six people (and two pilots), providing four minutes of weightlessness. Another company, XCOR Aerospace, formed during the same period, began to develop a smaller vehicle that would carry one pilot and passenger. Finally, the world’s richest person, Jeff Bezos founder of Amazon, quietly created the company <a href="https://www.blueorigin.com/">Blue Origin</a> with similar goals in 2000. In the sparse public reports from Blue Origin, their first market is sub-orbital tourism, followed by orbital flight and trips to the Moon. Bezos has said he is spending about $1bn a year on Blue Origin.</p> 
+<h4>What’s the price point?</h4> 
+<p>Virgin Galactic has given a price of about $200,000 per person. XCOR Aerospace (which has since suspended operations) planned to provide a similar flight for reportedly $50,000. (Independent surveys have indicated that extreme adventure with a price tag of $50,000 would begin to attract a great deal of interest.) Blue Origin’s price tag is said to be $250,000. It is worth noting that the other high-profile space entrepreneur, Elon Musk and his company <a href="https://www.spacex.com/">SpaceX</a>, has not entered the sub-orbital business. However, in a public speech in 2016 (which you can read in New Space for free), Musk predicted he would be able to send individuals to Mars for about $140,000.</p> 
+<figure> 
+ <a href="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2019/03/spacexlaunch-956c07130885.jpg"><img src="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2019/03/spacexlaunch-956c07130885.jpg" alt="People watch as a SpaceX rocket takes off from Canaveral National Seashore" width="2000" height="1250"></a> People watch as a SpaceX rocket takes off from Canaveral National Seashore © Paul Hennessy / Getty Images
+</figure> 
+<h4>What are the risks?</h4> 
+<p>Travel to space is inherently risky, but then so is climbing Mt Everest. During the 135 flights of the Shuttle program, there were two major accidents with loss of crew and vehicle: Challenger in 1986 and Columbia in 2003. By that measure, the chance of dying in a trip to orbit is around 1 ½%. One would assume that a sub-orbital flight would be safer, but the initial flights of Branson’s Virgin Galactic SpaceShipTwo have already produced one test pilot fatality. High-speed rocketry with propulsion of controlled chemical explosions is still a challenge. In addition, there are the biomedical risks of subjecting a ‘normal’ population to some of the rigours of space travel: high accelerations up to eight times Earth’s gravity, weightlessness where some experience debilitating space sickness and greater than average radiation exposure. Fortunately, experiments by Dr James Vanderploeg from the University of Texas indicate that individuals of ages 18 to 85 with a variety of common issues (artificial joints, controlled hypertension, pacemaker implants, etc) can easily withstand simulated trips using ground centrifuges and parabolic aeroplane flights. This can also be read in <em>New Space</em>.</p> 
+<h4>When will this happen?</h4> 
+<p>The sub-orbital space tourism community has collectively been surprised that it is now almost 15 years since the X-Prize was won, yet there are no regular flights of SpaceShipTwo or the New Shephard of Blue Origin. The answer mostly lies in the realm of technical issues; in a way, it is ‘rocket science’. Virgin Galactic has struggled to find a propulsion system that will operate smoothly to propel the six passengers to at least 50 miles. However, a very recent successful test in February of 2019 gives an indication that Virgin Galactic may be almost ready. Blue Origin has been very secretive about their progress, but it appears from test flights that the New Shephard is also nearing operational status.</p> 
+<p>Barring another accident, I think 2019 will see the first tourist flights to the edge of space and back. All it will take is $200,000 and the willingness to sign an ‘informed consent’ document!</p> 
+<p><em>To find out more about space entrepreneurship and innovation, check out the <a href="https://home.liebertpub.com/publications/new-space/610/overview">New Space</a> journal. Professor Hubbard's book, Exploring Mars: Chronicles from a Decade of Discovery, is available from the <a href="http://www.uapress.arizona.edu/Books/bid2340.htm">University of Arizona Press</a>, as well as Amazon and Barnes &amp; Noble.</em></p>]]></content>
+        <author>
+            <name>Scott Hubbard</name>
+        </author>
+        <published>2019-05-21T19:29:37Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wonderings: are the stars our destination?]]></title>
+        <id>42a0c23b-c7b2-5fe8-8cef-317c047c2c86</id>
+        <link href="https://www.lonelyplanet.com/blog/2019/05/21/wonderings-are-the-stars-our-destination">
+        </link>
+        <updated>2019-05-21T19:29:25Z</updated>
+        <content type="html"><![CDATA[<figure> 
+ <a href="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2018/07/blogv7-14dd470b31d9.jpg"><img src="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2018/07/blogv7-14dd470b31d9.jpg" alt="Illustration of a traveller looking out of a train window at a lake with mountains and forest in the background " width="3183" height="2487"></a> Wonderings: rambles through and reflections on travel... this month, James Kay considers tourism's final frontier: space © Joe Davis / Lonely Planet
+</figure> 
+<p>Aside from a few forays to France, the furthest my maternal grandparents travelled was Pembrokeshire, Wales (repeat visits to a wind-buffeted static caravan in Croes-goch, if you must know). Just a generation later, my parents’ peregrinations had encompassed most of Western Europe.</p> 
+<p>As of writing, I’ve visited about 50 countries (I counted them up once, but have forgotten the total), most of them during two spells of backpacking – first across the US, then around the world – plus others as and when the opportunity arose.</p> 
+<p>My wife has been to twice that number of destinations, and I’d wager that a significant proportion of the people who comprise Lonely Planet’s extended community – staff and contributors, followers and fans – have led equally footloose lives.</p> 
+<p>The trend continues, too: my son, four, and daughter, one, have already visited many more places than my grandparents did in their entire lives. In fact, Harvey probably covered more miles <i>in utero</i> than they managed in total.</p> 
+<h4>Our expanding horizons</h4> 
+<p>You can visualise each generation’s expanding horizons as a series of concentric circles, like ripples spreading out from a stone dropped in a pond; assuming that trend doesn’t go into reverse (which is possible, of course, given variables like climate change), where will the edge of my children’s known universe lie? Just as I have explored the far side of this planet, might they explore the far side of another world?</p> 
+<p>It’s not as far-fetched as it sounds. As it often does, the stuff of science fiction has become the stuff of science fact: the race for space is more competitive now than it has been at any time since Neil Armstrong took that famous first step on the surface of the Moon, an epoch-defining moment that happened 50 years ago this July.</p> 
+<figure> 
+ <a href="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2019/03/GettyImages-103405631-36723d0d6688.jpg"><img src="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2019/03/GettyImages-103405631-36723d0d6688.jpg" alt="An astronaut walking on the Moon with the Earth rising in the background" width="2000" height="1333"></a> Neil Armstrong set foot on the Moon 50 years ago; what's the next 'giant leap for mankind'? © Caspar Benson / Getty Images
+</figure> 
+<h4>From moonshots to Mars</h4> 
+<p>The <a href="https://www.bbc.co.uk/news/science-environment-47721467">US government recently vowed to revisit our lonesome natural satellite within five years</a>, but the real action is arguably elsewhere as a trio of companies bankrolled by billionaires – Richard Branson’s Virgin Galactic, Jeff Bezos’ Blue Origin and Elon Musk’s SpaceX – compete to conquer the final frontier.</p> 
+<p>The obstacles are formidable; the progress is remarkable. Whether or not we witness commercial space travel take off in 2019 (in both senses of the phrase), <a href="https://www.lonelyplanet.com/blog/2019/05/21/insider-knowledge-professor-g-scott-hubbard-on-space-tourism">the expert analysis of Stanford University’s Professor G. Scott Hubbard</a> – a former director of NASA’s Ames Research Center – suggests that we stand on the threshold of a new era.</p> 
+<p>After the moonshot, the US wants to send astronauts to Mars. And then? Because we won’t stop there. Michael Collins, who piloted the Apollo 11 Command Module around the Moon as Armstrong and Buzz Aldrin bounded across its sterile surface, expressed this ever so well: ‘It’s human nature to stretch, to go, to see, to understand,’ he said. ‘Exploration is not a choice, really; it’s an imperative.’</p> 
+<p>Or as another Buzz might say: to infinity and beyond.</p> 
+<h4>The Grand Tour redux</h4> 
+<p>So will my children ever enjoy a Grand Tour of the Solar System, as envisaged in NASA’s charming <a href="https://www.jpl.nasa.gov/visions-of-the-future/">Visions of the Future</a> posters? (Do check them out.) Will they stand in the shadow of Mars’ Olympus Mons, which rears to more than twice the height of Everest? Will they gape at the raging auroras of Jupiter, hundreds of times more powerful than our own Northern Lights? Will they sail the methane lakes of Titan, Saturn’s most enigmatic moon?</p> 
+<p>Alas, no. If it comes to pass, such a journey would be the preserve of a privileged few for many generations; just as the original Grand Tour of Europe was restricted to the aristocracy, so a round-trip of our galactic neighbours would remain beyond the reach of all but a coterie of plutocrats for the foreseeable future.</p> 
+<p>There’s a fair chance, however, that my children’s generation <em>will</em> see the curvature of the Earth from a sub-orbital flight, and some of them might, just might, leave a footprint on the Moon (thanks to Wallace and Gromit, Harvey already spends a lot of time speculating about this possibility).</p> 
+<figure> 
+ <a href="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2019/03/GettyImages-690986205-9b7363c1b80d.jpg"><img src="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2019/03/GettyImages-690986205-9b7363c1b80d.jpg" alt="A young boy looks at the surface of a planet from the window of a spaceship" width="2000" height="1333"></a> Will our children's children evolve into a spacefaring species? © James Whitaker / Getty Images
+</figure> 
+<h4>A mote of dust</h4> 
+<p>In his exquisite book <i>Pale Blue Dot</i>, Carl Sagan predicts we will eventually evolve into a spacefaring species, exploring the Milky Way in much the same way as we once sailed this planet's uncharted seas. But there is nothing triumphalist about his vision; in fact, that dot – the Earth photographed from the Voyager 1 spacecraft; ‘a mote of dust suspended in a sunbeam’ as Sagan describes it – proves to be a profoundly humbling sight.</p> 
+<p>It’s a stance shared by the UK’s current Astronomer Royal, Martin Rees, who argues that we should avoid the term ‘space tourism’ altogether. According to Rees, that formula of words gives us an excuse to ignore the perilous predicament of our planet, misleadingly implying that we could start again elsewhere once this world has been utterly exploited and exhausted.</p> 
+<p>Space excites me; perhaps it excites you, too. I think that’s because, from <em>Star Trek</em> to <em>Star Wars</em>, our culture often depicts it in a way that fits neatly into a traveller’s conceptual model: it’s the realm of the new exotic, the absolute last word when it comes to getting off the beaten track we call… home.</p> 
+<p>You can no more suppress our species’ longing to reach the stars than prevent a curious child from exploring the boundaries of its world. Sooner or later, we will boldly go – and not just astronauts or the ultra-rich, but ordinary people like me and you. But when we do, amid all the excitement, let’s not forget our point of origin.</p> 
+<p>In the words of Sagan from 25 years ago, let’s remember that: ‘Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves … Like it or not, for the moment the Earth is where we make our stand.’</p> 
+<p>A lonely planet indeed.</p>]]></content>
+        <author>
+            <name>James Kay</name>
+        </author>
+        <published>2019-05-21T19:29:25Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Just back from: Taiwan]]></title>
+        <id>42a0c23b-c7b2-5fe8-8cef-317c047c2c19</id>
+        <link href="https://www.lonelyplanet.com/blog/2019/05/09/just-back-from-taiwan">
+        </link>
+        <updated>2019-05-09T09:38:53Z</updated>
+        <content type="html"><![CDATA[<figure> 
+ <a href="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2019/05/Louise_Taipei-fbb7c5a629db.jpg"><img src="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2019/05/Louise_Taipei-fbb7c5a629db.jpg" alt="Louise at the Longshan Temple in Taipei " width="2000" height="1500"></a> Louise at the Longshan Temple in Taipei © Louise Bastock
+</figure> 
+<p><em>Louise Bastock, Assistant Editor at Lonely Planet, recently returned from a trip to <a href="https://www.lonelyplanet.com/taiwan">Taiwan</a>.</em></p> 
+<p><b>Tell us more…</b> When I used to think about Taiwan, the dominant images in my mind would be of its capital city <a href="https://www.lonelyplanet.com/taiwan/taipei">Taipei</a>, specifically the skyscraper-studded skyline against a blue or lilac sunset, or the twinkly Tokyo-esque lights of its streets and lanes. But, beyond this vast metropolis, there is so much more to discover. Blasted up from the ocean by volcanic activity, Taiwan is a fertile ground for breathtaking natural landscapes. With that in mind, I set off for northeastern Taiwan to explore the island’s capital as well as its wild wonders, and expand the image in my mind’s eye of what this tiny island nation has to offer – spoiler alert: a lot!</p> 
+<figure> 
+ <a href="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2019/05/Taipei_Skyline-c369520901f5.jpg"><img src="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2019/05/Taipei_Skyline-c369520901f5.jpg" alt="Taipei's skyline snapped from the top of Elephant Mountain " width="2000" height="1500"></a> Taipei's skyline snapped from the top of Elephant Mountain © Louise Bastock
+</figure> 
+<p><b>Good grub? </b>The stand-out superstar of Taipei’s skyline is <a href="https://www.lonelyplanet.com/taiwan/taipei/attractions/taipei-101/a/poi-sig/375635/357551">Taipei 101</a>; formerly the world’s tallest building, it bursts through the high-rises like a futuristic bamboo shoot and was the perfect setting for dinner on our first night. Despite her humble origins, first operating from a Taipei back alley diner in 1977, the owner of Shin Yeh restaurant now commands the 85th floor of Taipei 101, serving up elegant, contemporary creations inspired by traditional Taiwanese home-style cooking.</p> 
+<figure> 
+ <a href="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2019/05/Dumplings_Din_Tai_Fung-3fee478a6ac0.jpg"><img src="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2019/05/Dumplings_Din_Tai_Fung-3fee478a6ac0.jpg" alt="Chefs making dumplings at Din Tai Fung, Taipei" width="2000" height="1500"></a> Delicate dumpling work at Din Tai Fung © Louise Bastock
+</figure> 
+<p>Though seemingly a far cry from the glamour of Taipei 101, my second favourite meal was, surprisingly, at a shopping mall, beneath the tower itself. Prepare to battle wayward queues and huge crowds of hungry people if you want to eat at <a href="https://www.lonelyplanet.com/taiwan/taipei/restaurants/din-tai-fung/a/poi-eat/375485/357551">Din Tai Fung</a>. This Michelin-starred restaurant (yes, you heard right, a Michelin-starred restaurant in a shopping mall) is famed for its <i>xiǎolóng bāo </i>(steamed pork dumplings), but, in all honesty, absolutely everything they brought to the table was insanely delicious. With windows looking into the kitchen, you can spend hours digesting your dumplings and watching the chefs meticulously craft these bite-sized beauties.</p> 
+<div></div> 
+<figure> 
+ <a href="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2019/05/Taroko_National_Park-38334382a2b8.jpg"><img src="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2019/05/Taroko_National_Park-38334382a2b8.jpg" alt="Northeastern Taiwan is a blanket of green forest" width="2000" height="1500"></a> Northeastern Taiwan is a blanket of green forest © Louise Bastock
+</figure> 
+<p><b>Quintessential experience…</b><span> With so much nature to see – from marble cliff faces to emerald oceans of forest – hiking is a quintessential experience in northeastern Taiwan. Our first taster was the 500-step slog up </span><a href="https://www.lonelyplanet.com/taiwan/taipei/activities/elephant-mountain/a/poi-act/1371260/357551">Elephant Mountain</a><span> in Taipei – totally worth it to watch the sunset over the city and get my own snaps of the skyline. We also hit the hiking trails that lace through </span><a href="https://www.lonelyplanet.com/taiwan/taroko-national-park">Taroko National Park</a><span> (roughly a three-hour drive from Taipei). The scenery is wilder here and even though it can get blustery on the peaks, the strong wind does help disperse some of the eggy smell from the region’s sulphuric vents – a small price to pay for hiking around hot spring territory.</span></p> 
+<figure> 
+ <a href="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2019/05/Hot_pool-f91944bf5d79.jpg"><img src="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2019/05/Hot_pool-f91944bf5d79.jpg" alt="Louise's private hot pool at the Gaia Hotel " width="3024" height="2268"></a> Louise's private hot pool at the Gaia Hotel © Louise Bastock
+</figure> 
+<p><b>Any incredible accommodation?</b> Speaking of hot springs: our last night was spent in the stunning <a href="https://www.lonelyplanet.com/taiwan/taipei/hotels/the-gaia-hotel-taipei/a/lod/9f011d0f-5001-45dc-80e0-4de336ab9392/357551">Gaia Hotel</a>, where each room came equipped with its own personal hot pool. After a long day of hiking and thigh-busting stair climbing (stairs are synonymous with hiking in Taiwan), it was a dream to be able to flop from bed to bath (grabbing a glass of wine en route) and recline in style in the comfort and privacy of my own room.</p> 
+<figure> 
+ <a href="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2019/05/River_Tracing-449037ccdd17.jpg"><img src="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2019/05/River_Tracing-449037ccdd17.jpg" alt="Louise jumping off a rock face into water" width="2000" height="1500"></a> Louise proving there is such a thing as TOO MUCH enthusiasm © Louise Bastock / Love Wilds Co., Ltd
+</figure> 
+<p><b>If you do one thing…</b> don a wetsuit and helmet and give river tracing a go. Known in other parts of the world as canyoning, this activity earns its more poetic moniker in Taiwan; without wishing to geek out too much, the landscapes here could easily have been plucked from the pages of Tolkein’s <i>The Lord of The Rings</i> (Rivendell, eat your heart out).</p> 
+<p>We spent a whole afternoon wading through the Sa Po Dang river in <a href="https://www.lonelyplanet.com/taiwan/east-coast/hualien">Hualien</a>, jumping off huge boulders, squeezing through tight crevices and scaling small waterfalls before stopping for tea, snacks and snorkelling around a secluded turquoise pool. It’s a fantastic way to not just view the landscapes from afar, but to get in amongst them and experience them up-close.</p> 
+<figure> 
+ <a href="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2019/05/Modenr_Toilet-113e2eb49ae6.jpg"><img src="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2019/05/Modenr_Toilet-113e2eb49ae6.jpg" alt="Louise eating at huge portion of chocolate ice cream at the Modern Toilet Cafe" width="2000" height="2790"></a> Shocked and a little squeamish, Louise was ultimately delighted at her dinner © Louise Bastock
+</figure> 
+<p><b>Bizarre encounter…</b> From fine dining in spellbinding landmarks, soaking in my private hot spring and revelling in Mother Nature’s gifts, I leave you with Taipei’s epic toilet cafe! Enlisting every faucet – oops, I mean facet – of bathroom decor, the <a href="https://www.lonelyplanet.com/taiwan/taipei/restaurants/modern-toilet-restaurant/a/poi-eat/1540685/357551">Modern Toilet Restaurant</a> is a veritable playground for anyone with a sense of humour – and, at times, a strong stomach. After excusing myself from the table to use the actual bathroom, I was crying with laughter on my return to find on my delicately chosen chocolate ice cream piled in huge swirls, sprinkled with all manner of brown biscuits goodies, came served in a yellow porcelain squat toilet. If, like me, you think this might just be the best place in the whole world, bag yourself a souvenir from their shop which sells all manner of poop-themed paraphernalia.</p> 
+<p><i>Louise Bastock travelled to Taiwan with support from the </i><a href="https://eng.taiwan.net.tw/"><i>Taiwan Tourism Bureau</i></a><i> and </i><a href="https://www.china-airlines.com/uk/en"><i>China Airlines</i></a><i>. Lonely Planet contributors do not accept freebies in exchange for positive coverage.</i></p>]]></content>
+        <author>
+            <name>Louise Bastock</name>
+        </author>
+        <published>2019-05-09T09:38:53Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pathfinder spotlight: Maria and Katerina, It’s all trip to me]]></title>
+        <id>42a0c23b-c7b2-5fe8-8cef-317c047c2d5f</id>
+        <link href="https://www.lonelyplanet.com/blog/2019/05/07/pathfinder-spotlight-maria-and-katerina-its-all-trip-to-me">
+        </link>
+        <updated>2019-05-07T09:00:25Z</updated>
+        <content type="html"><![CDATA[<figure> 
+ <a href="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2019/03/Athens_Greece-da626216a120.jpg"><img src="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2019/03/Athens_Greece-da626216a120.jpg" alt="Maria and Katerina exploring their home city of Athens " width="2000" height="1333"></a> Maria and Katerina exploring their home city of Athens © It's all trip to me
+</figure> 
+<p><i>While the life of a full-time traveller may seem like an idyllic existence, it’s not for everyone. Ties to home – from family responsibilities to a budding career – might keep us from committing to a nomadic way of living, but it certainly doesn’t mean travel is off the table. </i></p> 
+<p><i>We caught up with Pathfinders Maria and Katerina from </i><a href="https://www.itsalltriptome.com/"><i>It’s all trip to me</i></a><i> to talk upcoming adventures, all things travel blogging and how to fit your trips around a nine-to-five.</i></p> 
+<h3><b>Give us the low down on your blog...</b></h3> 
+<p>Myself and photographer Katerina both love to travel and have always been very fond of consulting travel blogs to plan our trips. To us, a travel blog always seemed like a brilliant way to record our travel memories and help others create their own at the same time. So we combined our passions for writing and photography and here we are now, hoping to inspire people with full-time jobs like ourselves to travel more and see the world one trip at a time.</p> 
+<h3><b>Describe your travel style in three words...</b></h3> 
+<p>Immersive, budget-splurge-balanced, short-term.</p> 
+<h3><b>Top three places you’ve visited?</b></h3> 
+<p>That’s a really hard one but we’ll give it a shot. <a href="https://www.lonelyplanet.com/italy/tuscany">Tuscany</a> in Italy, the Nile Valley in <a href="https://www.lonelyplanet.com/egypt">Egypt</a> and <a href="https://www.lonelyplanet.com/england/london">London</a> in the UK.</p> 
+<figure> 
+ <a href="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2019/03/London-8d49f8ff93cc.jpg"><img src="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2019/03/London-8d49f8ff93cc.jpg" alt="Catching the sunset in London " width="2000" height="1339"></a> Catching the sunset in London © It's all trip to me
+</figure> 
+<h3><b>What destinations are on your 2019 bucket list?</b></h3> 
+<p>We’ve already planned two separate trips to Poland (<a href="https://www.lonelyplanet.com/poland/warsaw">Warsaw</a> and <a href="https://www.lonelyplanet.com/poland/malopolska/krakow">Krakow</a>) as well as a trip to <a href="https://www.lonelyplanet.com/turkey/istanbul">Istanbul</a>, Turkey. We’ve just started planning our big 2019 trip: two weeks exploring the regions of <a href="https://www.lonelyplanet.com/italy/puglia">Puglia</a> and <a href="https://www.lonelyplanet.com/italy/basilicata">Basilicata</a> in Southern Italy. A couple of short trips to London and <a href="https://www.lonelyplanet.com/romania">Romania</a> are also on the table as well as at least two <a href="https://www.lonelyplanet.com/greece/greek-islands">Greek Islands</a> in the summer. And towards the end of 2019 we are planning our first ever trip to Southeast Asia, specifically <a href="https://www.lonelyplanet.com/thailand">Thailand</a>. It’s going to be an amazing year of travel magic!</p> 
+<h3><b>A lot of travel bloggers quit their jobs to hit the road; you do things a bit differently. How do you fit your travels around your nine-to-five?</b></h3> 
+<p>Who wouldn’t want to travel the world full-time? However, we can’t afford to do so – at least not at the moment. But we wouldn’t let our day jobs hinder neither our passion for travel nor our desire to blog about it. We make sure we spend all our vacation time (25 days per year), public holidays and as many weekends as possible travelling. We plan a two-week trip to someplace new once a year and a 10-day island vacation every August to recharge our batteries. Those aside, we also go on shorter trips either abroad or in <a href="https://www.lonelyplanet.com/greece">Greece</a> (where we’re based) throughout the year.</p> 
+<figure> 
+ <a href="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2019/03/Andros_Greece-3b7cdabe6f92.jpg"><img src="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2019/03/Andros_Greece-3b7cdabe6f92.jpg" alt="Andros in Greece is one of Maria and Katerina's top choices for an island escape " width="2000" height="1333"></a> Andros in Greece is one of Maria and Katerina's top choices for an island escape © It's all trip to me
+</figure> 
+<h3><b>What advice would you give someone who thinks they don't have enough time to travel?</b></h3> 
+<p>There is always time to travel! It all comes down to setting priorities and planning ahead. First of all, it’s important to save vacation time for travel. We know that sometimes life gets in the way and we may be tempted to use our vacation time to tend to unfinished business or simply stay at home and rest. We feel that vacation time is hard-earned and should be reserved for travel.</p> 
+<p>Secondly, when travelling on a tight schedule it’s very important to have pre-planned itineraries so as not to waste any valuable time during the trip itself. Lonely Planet guidebooks and travel blogs packed with tips and info are the best sources of inspiration and valuable tools for people with limited travel time.</p> 
+<p>And last but not least, travel requires adjusting to a new mentality and seeing things from a different perspective. It doesn’t have to take loads of money or time to travel. Start by playing tourist in your own hometown and discover all its hidden gems, the way we do in <a href="https://www.lonelyplanet.com/greece/athens">Athens</a>. Then go on and plan weekend breaks or three-day getaways. Soon you will realise that you actually have time to plan that longer trip you always dreamt of.</p> 
+<h3><b>Why do you love travel blogging?</b></h3> 
+<p>Through travel blogging we’ve learnt more about ourselves and discovered skills we never knew we had, which are constantly developing. Our favourite part of travel blogging though, is that it offers us many opportunities to meet like-minded people from all over the world. No gift is greater than having friends across the globe!</p> 
+<p><i>If you’re a member of our Pathfinders community and would like to share your story, drop us an email at pathfinders@lonelyplanet.com and tell us what exciting things you’re up to on your blog.</i></p>]]></content>
+        <author>
+            <name>Louise Bastock</name>
+        </author>
+        <published>2019-05-07T09:00:25Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lonely Planet’s Ultimate Travel Quiz]]></title>
+        <id>42a0c23b-c7b2-5fe8-8cef-317c047c2c04</id>
+        <link href="https://www.lonelyplanet.com/blog/2019/05/03/lonely-planets-ultimate-travel-quiz">
+        </link>
+        <updated>2019-05-03T14:58:28Z</updated>
+        <content type="html"><![CDATA[<figure> 
+ <a href="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2019/05/shutterstock_1278294409_22222222-fe52f9df43eb.jpg"><img src="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2019/05/shutterstock_1278294409_22222222-fe52f9df43eb.jpg" alt="Planet Earth photographed from space" width="2000" height="1183"></a> How well do you know our home planet? © Dima Zel / Shutterstock
+</figure> 
+<p>Do you know the name of the world’s third-highest mountain? Or in what year the euro was introduced as legal tender? Pit your wits against our toughest travel quiz to date – a thirty-question, all-encompassing behemoth of world trivia, with questions taken from <a href="https://shop.lonelyplanet.com/products/lonely-planets-ultimate-travel-quiz-book-1">Lonely Planet’s Ultimate Travel Quiz</a> – our new title containing over 100 fun travel-themed quizzes for all ages.</p> 
+<p>So strap yourself in and prepare to put your world knowledge to the test. There’s no way you’ll score full marks, but how close can you come?</p> 
+<p><strong>TAKE ON THE CHALLENGE</strong></p> 
+<div class="quizz-container" data-width="100%" data-iframe-title="QUIZ: Lonely Planet's Ultimate Travel Quiz" data-height="auto" data-quiz="470272"></div> 
+<p><script src="//dcc4iyjchzom0.cloudfront.net/widget/loader.js" async></script></p> 
+<p><em>Find more quiz questions just like this in our book <a href="https://shop.lonelyplanet.com/products/lonely-planets-ultimate-travel-quiz-book-1">Lonely Planet’s Ultimate Travel Quiz</a>, the perfect companion for any trip.</em></p>]]></content>
+        <author>
+            <name>Lonely Planet</name>
+        </author>
+        <published>2019-05-03T14:58:28Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pathfinder pics: wandering the waterfalls of Great Smoky Mountains National Park]]></title>
+        <id>42a0c23b-c7b2-5fe8-8cef-317c047c2cfc</id>
+        <link href="https://www.lonelyplanet.com/blog/2019/05/03/pathfinder-pics-wandering-the-waterfalls-of-great-smoky-mountains-national-park">
+        </link>
+        <updated>2019-05-03T11:59:07Z</updated>
+        <content type="html"><![CDATA[<figure> 
+ <img src="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2019/04/Nick-Alvarez-Header-Great-Smoky-Mountains-1b8dcbd52218.jpg" alt="Man stands in front of waterfall in The Great Smoky Mountains National Park" width="2000" height="1460"> The Great Smoky Mountains NP is a wonderful showcase of nature's power © Nick Alvarez
+</figure> 
+<p><em>Lonely Planet Pathfinder, Nick Alvarez of <a href="https://berealtravel.com/" target="_blank">Be Real Travel</a>, recently returned from a trip to <a href="https://www.lonelyplanet.com/usa/the-south/north-carolina/great-smoky-mountains-national-park" target="_blank">Great Smoky Mountains National Park</a> – <a href="https://www.lonelyplanet.com/best-in-travel/value" target="_blank">one of our best value destinations for 2019</a>. Armed with his camera and tripod, he embarked on a journey to capture the park’s numerous waterfalls in full flow.</em></p> 
+<p>As the most-visited national park in the <a href="https://www.lonelyplanet.com/usa" target="_blank">USA</a>, Great Smoky Mountains is packed with magnificent sights including majestic mountains, captivating wildlife, and historic buildings. However, for this particular trip, I had one focus – waterfalls. Thanks to high elevations and abundant rainfall, Great Smoky Mountains National Park is a waterfall chaser’s dream. Near the end of winter, despite temperatures often being below freezing, I set out to visit six of the park’s waterfalls, and to illustrate what makes each of them unique.</p> 
+<h4>Up-close-and-personal</h4> 
+<blockquote class="instagram-media" style="background: #FFF; border: 0; border-radius: 3px; box-shadow: 0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width: 540px; min-width: 326px; padding: 0; width: calc(100% - 2px);" data-instgrm-permalink="https://www.instagram.com/p/Bu330nRnEYQ/" data-instgrm-version="12"> 
+ <div style="padding: 16px;"> 
+  <div style="display: flex; flex-direction: row; align-items: center;"> 
+   <div style="background-color: #f4f4f4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> 
+   <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> 
+    <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> 
+    <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div> 
+   </div> 
+  </div> 
+  <div style="padding: 19% 0;"></div> 
+  <div style="display: block; height: 50px; margin: 0 auto 12px; width: 50px;"></div> 
+  <div style="padding-top: 8px;"> 
+   <div style="color: #3897f0; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: 550; line-height: 18px;">
+     View this post on Instagram 
+   </div> 
+  </div> 
+  <div style="padding: 12.5% 0;"></div> 
+  <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"> 
+   <div> 
+    <div style="background-color: #f4f4f4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> 
+    <div style="background-color: #f4f4f4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> 
+    <div style="background-color: #f4f4f4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div> 
+   </div> 
+   <div style="margin-left: 8px;"> 
+    <div style="background-color: #f4f4f4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> 
+    <div style="width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg);"></div> 
+   </div> 
+   <div style="margin-left: auto;"> 
+    <div style="width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> 
+    <div style="background-color: #f4f4f4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> 
+    <div style="width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div> 
+   </div> 
+  </div> 
+  <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> 
+   <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> 
+   <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div> 
+  </div> 
+  <p style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; line-height: 17px; margin-bottom: 0; margin-top: 8px; overflow: hidden; padding: 8px 0 7px; text-align: center; text-overflow: ellipsis; white-space: nowrap;"><a style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: normal; line-height: 17px; text-decoration: none;" href="https://www.instagram.com/p/Bu330nRnEYQ/" target="_blank">A post shared by Nick (@berealtravel)</a> on <time style="font-family: Arial,sans-serif; font-size: 14px; line-height: 17px;" datetime="2019-03-11T15:26:23+00:00">Mar 11, 2019 at 8:26am PDT</time></p> 
+ </div> 
+</blockquote> 
+<p><script async src="//www.instagram.com/embed.js"></script>On our first day in the park, my wife and I hiked to <a href="https://www.lonelyplanet.com/usa/great-smoky-mountains-national-park/activities/laurel-falls/a/poi-act/1482223/1327458" target="_blank">Laurel Falls</a>, one of the its most popular attractions. Upon reaching the waterfall, I immediately understood why it is so popular – water streams down multiple levels of rock to incredible effect. The cherry on top of the cake however, is a walkway located just a few feet from the base of the waterfall, which allowed us to appreciate the grandeur of the streams up close. Though much of the hike to this waterfall is uphill, it isn’t too difficult – if my pregnant wife can do it, so can you!</p> 
+<h4>Fast and furious</h4> 
+<blockquote class="instagram-media" style="background: #FFF; border: 0; border-radius: 3px; box-shadow: 0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width: 540px; min-width: 326px; padding: 0; width: calc(100% - 2px);" data-instgrm-permalink="https://www.instagram.com/p/Bu6c--ynHPU/" data-instgrm-version="12"> 
+ <div style="padding: 16px;"> 
+  <div style="display: flex; flex-direction: row; align-items: center;"> 
+   <div style="background-color: #f4f4f4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> 
+   <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> 
+    <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> 
+    <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div> 
+   </div> 
+  </div> 
+  <div style="padding: 19% 0;"></div> 
+  <div style="display: block; height: 50px; margin: 0 auto 12px; width: 50px;"></div> 
+  <div style="padding-top: 8px;"> 
+   <div style="color: #3897f0; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: 550; line-height: 18px;">
+     View this post on Instagram 
+   </div> 
+  </div> 
+  <div style="padding: 12.5% 0;"></div> 
+  <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"> 
+   <div> 
+    <div style="background-color: #f4f4f4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> 
+    <div style="background-color: #f4f4f4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> 
+    <div style="background-color: #f4f4f4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div> 
+   </div> 
+   <div style="margin-left: 8px;"> 
+    <div style="background-color: #f4f4f4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> 
+    <div style="width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg);"></div> 
+   </div> 
+   <div style="margin-left: auto;"> 
+    <div style="width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> 
+    <div style="background-color: #f4f4f4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> 
+    <div style="width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div> 
+   </div> 
+  </div> 
+  <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> 
+   <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> 
+   <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div> 
+  </div> 
+  <p style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; line-height: 17px; margin-bottom: 0; margin-top: 8px; overflow: hidden; padding: 8px 0 7px; text-align: center; text-overflow: ellipsis; white-space: nowrap;"><a style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: normal; line-height: 17px; text-decoration: none;" href="https://www.instagram.com/p/Bu6c--ynHPU/" target="_blank">A post shared by Nick (@berealtravel)</a> on <time style="font-family: Arial,sans-serif; font-size: 14px; line-height: 17px;" datetime="2019-03-12T15:29:36+00:00">Mar 12, 2019 at 8:29am PDT</time></p> 
+ </div> 
+</blockquote> 
+<p><script async src="//www.instagram.com/embed.js"></script>As the park is home to over a thousand black bears, I carried an air horn with me on all hikes, ready to defend myself in case of an encounter. Though I didn’t end up bumping into a bear, I did confront another beast: Abrams Falls. I was awestruck by the speed at which such a large volume of water raged down the waterfall. As I gazed at its raw power, I pondered, 'would an air horn actually scare a bear off?' I’m glad that I didn’t have to find out!</p> 
+<h4>Small, but perfectly formed</h4> 
+<blockquote class="instagram-media" style="background: #FFF; border: 0; border-radius: 3px; box-shadow: 0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width: 540px; min-width: 326px; padding: 0; width: calc(100% - 2px);" data-instgrm-permalink="https://www.instagram.com/p/Bu83sNyHqbx/" data-instgrm-version="12"> 
+ <div style="padding: 16px;"> 
+  <div style="display: flex; flex-direction: row; align-items: center;"> 
+   <div style="background-color: #f4f4f4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> 
+   <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> 
+    <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> 
+    <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div> 
+   </div> 
+  </div> 
+  <div style="padding: 19% 0;"></div> 
+  <div style="display: block; height: 50px; margin: 0 auto 12px; width: 50px;"></div> 
+  <div style="padding-top: 8px;"> 
+   <div style="color: #3897f0; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: 550; line-height: 18px;">
+     View this post on Instagram 
+   </div> 
+  </div> 
+  <div style="padding: 12.5% 0;"></div> 
+  <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"> 
+   <div> 
+    <div style="background-color: #f4f4f4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> 
+    <div style="background-color: #f4f4f4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> 
+    <div style="background-color: #f4f4f4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div> 
+   </div> 
+   <div style="margin-left: 8px;"> 
+    <div style="background-color: #f4f4f4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> 
+    <div style="width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg);"></div> 
+   </div> 
+   <div style="margin-left: auto;"> 
+    <div style="width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> 
+    <div style="background-color: #f4f4f4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> 
+    <div style="width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div> 
+   </div> 
+  </div> 
+  <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> 
+   <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> 
+   <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div> 
+  </div> 
+  <p style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; line-height: 17px; margin-bottom: 0; margin-top: 8px; overflow: hidden; padding: 8px 0 7px; text-align: center; text-overflow: ellipsis; white-space: nowrap;"><a style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: normal; line-height: 17px; text-decoration: none;" href="https://www.instagram.com/p/Bu83sNyHqbx/" target="_blank">A post shared by Nick (@berealtravel)</a> on <time style="font-family: Arial,sans-serif; font-size: 14px; line-height: 17px;" datetime="2019-03-13T14:01:26+00:00">Mar 13, 2019 at 7:01am PDT</time></p> 
+ </div> 
+</blockquote> 
+<p><script async src="//www.instagram.com/embed.js"></script>In addition to epic Instagram opportunities, there is another benefit to visiting a waterfall – it’s very therapeutic. Lynn Camp Prong Cascades is a great example of this, as the waterfall is set within a beautifully tranquil scene along a river. What this waterfall lacks in size, it makes up for in serenity. It was the perfect place to de-stress and relax, aided by the soothing sounds of trickling water.</p> 
+<h4>What a tease</h4> 
+<blockquote class="instagram-media" style="background: #FFF; border: 0; border-radius: 3px; box-shadow: 0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width: 540px; min-width: 326px; padding: 0; width: calc(100% - 2px);" data-instgrm-permalink="https://www.instagram.com/p/Bu_ac4sHrqw/" data-instgrm-version="12"> 
+ <div style="padding: 16px;"> 
+  <div style="display: flex; flex-direction: row; align-items: center;"> 
+   <div style="background-color: #f4f4f4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> 
+   <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> 
+    <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> 
+    <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div> 
+   </div> 
+  </div> 
+  <div style="padding: 19% 0;"></div> 
+  <div style="display: block; height: 50px; margin: 0 auto 12px; width: 50px;"></div> 
+  <div style="padding-top: 8px;"> 
+   <div style="color: #3897f0; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: 550; line-height: 18px;">
+     View this post on Instagram 
+   </div> 
+  </div> 
+  <div style="padding: 12.5% 0;"></div> 
+  <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"> 
+   <div> 
+    <div style="background-color: #f4f4f4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> 
+    <div style="background-color: #f4f4f4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> 
+    <div style="background-color: #f4f4f4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div> 
+   </div> 
+   <div style="margin-left: 8px;"> 
+    <div style="background-color: #f4f4f4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> 
+    <div style="width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg);"></div> 
+   </div> 
+   <div style="margin-left: auto;"> 
+    <div style="width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> 
+    <div style="background-color: #f4f4f4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> 
+    <div style="width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div> 
+   </div> 
+  </div> 
+  <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> 
+   <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> 
+   <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div> 
+  </div> 
+  <p style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; line-height: 17px; margin-bottom: 0; margin-top: 8px; overflow: hidden; padding: 8px 0 7px; text-align: center; text-overflow: ellipsis; white-space: nowrap;"><a style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: normal; line-height: 17px; text-decoration: none;" href="https://www.instagram.com/p/Bu_ac4sHrqw/" target="_blank">A post shared by Nick (@berealtravel)</a> on <time style="font-family: Arial,sans-serif; font-size: 14px; line-height: 17px;" datetime="2019-03-14T13:43:40+00:00">Mar 14, 2019 at 6:43am PDT</time></p> 
+ </div> 
+</blockquote> 
+<p><script async src="//www.instagram.com/embed.js"></script>Meigs Falls taunted me from behind the moat-like Little River, which we weren't able to cross due to heavy rain. Forced to admire the waterfall from afar, I revelled in the lush scenery that surrounded it that much more. Visible from the road, this waterfall is ideal for those that are unable to (or prefer not to) hike. I’m all for the sense of fulfillment that comes with completing a challenging hike, but if a waterfall requires minimal work for me to visit and enjoy, you won’t hear me complaining!</p> 
+<h4>Immersed in the action</h4> 
+<blockquote class="instagram-media" style="background: #FFF; border: 0; border-radius: 3px; box-shadow: 0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width: 540px; min-width: 326px; padding: 0; width: calc(100% - 2px);" data-instgrm-permalink="https://www.instagram.com/p/BvCNBMMHE8h/" data-instgrm-version="12"> 
+ <div style="padding: 16px;"> 
+  <div style="display: flex; flex-direction: row; align-items: center;"> 
+   <div style="background-color: #f4f4f4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> 
+   <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> 
+    <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> 
+    <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div> 
+   </div> 
+  </div> 
+  <div style="padding: 19% 0;"></div> 
+  <div style="display: block; height: 50px; margin: 0 auto 12px; width: 50px;"></div> 
+  <div style="padding-top: 8px;"> 
+   <div style="color: #3897f0; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: 550; line-height: 18px;">
+     View this post on Instagram 
+   </div> 
+  </div> 
+  <div style="padding: 12.5% 0;"></div> 
+  <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"> 
+   <div> 
+    <div style="background-color: #f4f4f4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> 
+    <div style="background-color: #f4f4f4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> 
+    <div style="background-color: #f4f4f4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div> 
+   </div> 
+   <div style="margin-left: 8px;"> 
+    <div style="background-color: #f4f4f4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> 
+    <div style="width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg);"></div> 
+   </div> 
+   <div style="margin-left: auto;"> 
+    <div style="width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> 
+    <div style="background-color: #f4f4f4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> 
+    <div style="width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div> 
+   </div> 
+  </div> 
+  <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> 
+   <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> 
+   <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div> 
+  </div> 
+  <p style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; line-height: 17px; margin-bottom: 0; margin-top: 8px; overflow: hidden; padding: 8px 0 7px; text-align: center; text-overflow: ellipsis; white-space: nowrap;"><a style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: normal; line-height: 17px; text-decoration: none;" href="https://www.instagram.com/p/BvCNBMMHE8h/" target="_blank">A post shared by Nick (@berealtravel)</a> on <time style="font-family: Arial,sans-serif; font-size: 14px; line-height: 17px;" datetime="2019-03-15T15:44:01+00:00">Mar 15, 2019 at 8:44am PDT</time></p> 
+ </div> 
+</blockquote> 
+<p><script async src="//www.instagram.com/embed.js"></script>While Mouse Creek Falls is an entrancing, multi-leveled waterfall, what makes it truly magical is the way in which it can be experienced. This waterfall exhibits two uncommon characteristics: first, unlike many waterfalls that flow along a river, this waterfall flows down into the side of a river. Second, rocks jut out from the riverbank opposite the waterfall, which allows you to step out into the middle of the action. With the river rushing on both sides of me and the waterfall crashing down in front of me, I wasn’t merely an onlooker, I was a part of the scene.</p> 
+<h4>A song of ice and snow</h4> 
+<blockquote class="instagram-media" style="background: #FFF; border: 0; border-radius: 3px; box-shadow: 0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width: 540px; min-width: 326px; padding: 0; width: calc(100% - 2px);" data-instgrm-permalink="https://www.instagram.com/p/Bu1f7elHVbJ/" data-instgrm-version="12"> 
+ <div style="padding: 16px;"> 
+  <div style="display: flex; flex-direction: row; align-items: center;"> 
+   <div style="background-color: #f4f4f4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> 
+   <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> 
+    <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> 
+    <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div> 
+   </div> 
+  </div> 
+  <div style="padding: 19% 0;"></div> 
+  <div style="display: block; height: 50px; margin: 0 auto 12px; width: 50px;"></div> 
+  <div style="padding-top: 8px;"> 
+   <div style="color: #3897f0; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: 550; line-height: 18px;">
+     View this post on Instagram 
+   </div> 
+  </div> 
+  <div style="padding: 12.5% 0;"></div> 
+  <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"> 
+   <div> 
+    <div style="background-color: #f4f4f4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> 
+    <div style="background-color: #f4f4f4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> 
+    <div style="background-color: #f4f4f4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div> 
+   </div> 
+   <div style="margin-left: 8px;"> 
+    <div style="background-color: #f4f4f4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> 
+    <div style="width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg);"></div> 
+   </div> 
+   <div style="margin-left: auto;"> 
+    <div style="width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> 
+    <div style="background-color: #f4f4f4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> 
+    <div style="width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div> 
+   </div> 
+  </div> 
+  <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> 
+   <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> 
+   <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div> 
+  </div> 
+  <p style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; line-height: 17px; margin-bottom: 0; margin-top: 8px; overflow: hidden; padding: 8px 0 7px; text-align: center; text-overflow: ellipsis; white-space: nowrap;"><a style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: normal; line-height: 17px; text-decoration: none;" href="https://www.instagram.com/p/Bu1f7elHVbJ/" target="_blank">A post shared by Nick (@berealtravel)</a> on <time style="font-family: Arial,sans-serif; font-size: 14px; line-height: 17px;" datetime="2019-03-10T17:19:08+00:00">Mar 10, 2019 at 10:19am PDT</time></p> 
+ </div> 
+</blockquote> 
+<p><script async src="//www.instagram.com/embed.js"></script>Hiking in below freezing temperatures can be a harsh endeavor, but through it all, I was inspired by the possibility of seeing a partially-frozen waterfall. My resilience was rewarded by <a href="https://www.lonelyplanet.com/usa/great-smoky-mountains-national-park/activities/ramsey-cascades/a/poi-act/1599155/1327458" target="_blank">Ramsey Cascades</a>, a towering behemoth lined with ice and snow. I marveled at humongous chunks of ice breaking off and crumbling down the waterfall. If there’s one thing that Great Smoky Mountains National Park taught me, it’s this: a waterfall isn’t just a sight, it’s an experience.</p> 
+<p><em>Do you love to write about your travels? Or perhaps Instagram is your thing? Find out more about our Pathfinders programme and how you can contribute to Lonely Planet <a href="https://www.lonelyplanet.com/about/contribute" target="_blank">here</a>.</em></p>]]></content>
+        <author>
+            <name>Emily Frost</name>
+        </author>
+        <published>2019-05-03T11:59:07Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pathfinder pics: exploring Panama – one of our top countries to visit in 2019]]></title>
+        <id>42a0c23b-c7b2-5fe8-8cef-317c047c2cea</id>
+        <link href="https://www.lonelyplanet.com/blog/2019/05/02/pathfinder-pics-exploring-panama-one-of-our-top-countries-to-visit-in-2019">
+        </link>
+        <updated>2019-05-02T16:13:46Z</updated>
+        <content type="html"><![CDATA[<figure> 
+ <a href="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2019/04/timpp-50fecc6deb7e.jpg"><img src="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2019/04/timpp-50fecc6deb7e.jpg" alt="" width="960" height="646"></a> Sunset in the breathtaking El Valle ©Timothy Cohen
+</figure> 
+<p><em>Lonely Planet Pathfinder, <a href="https://www.timothycohen.com/" target="_blank">Timothy Cohen</a>, is recently back from a whirlwind trip around <a href="https://www.lonelyplanet.com/panama" target="_blank">Panama</a> – one of our <a href="https://www.lonelyplanet.com/best-in-travel/countries" target="_blank">top countries to visit in 2019</a>. From deserted beaches to bustling, urban hubs, here's what he discovered... </em></p> 
+<p>Panama has always been a mystery to me. All I knew about the country was its world-famous canal. The closer I got to its border, the more fellow travellers I met who seemed dubious about my plan to explore the country for a whole month. It seemed that Panama is 'travelled through' rather than travelled itself. People do often transit there on their way to <a href="https://www.lonelyplanet.com/colombia" target="_blank">Colombia</a> or <a href="https://www.lonelyplanet.com/costa-rica" target="_blank">Costa Rica</a>, leaving behind them a country full of underrated gems. There are several ways to get into Panama from Colombia, but since entering by land is impossible due to the Darién Gap, I was left with three options – taking a flight, a five day boat trip from <a href="https://www.lonelyplanet.com/colombia/caribbean-coast/cartagena" target="_blank">Cartagena</a>, or a three day speedboat trip from <a href="https://www.lonelyplanet.com/colombia/capurgana-sapzurro" target="_blank">Capurganá</a>. I chose the latter – less popular and a little more adventurous...</p> 
+<h4>The San Blas Archipelago</h4> 
+<blockquote class="instagram-media" style="background: #FFF; border: 0; border-radius: 3px; box-shadow: 0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width: 540px; min-width: 326px; padding: 0; width: calc(100% - 2px);" data-instgrm-permalink="https://www.instagram.com/p/BtdqtHhAb91/" data-instgrm-version="12"> 
+ <div style="padding: 16px;"> 
+  <div style="display: flex; flex-direction: row; align-items: center;"> 
+   <div style="background-color: #f4f4f4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> 
+   <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> 
+    <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> 
+    <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div> 
+   </div> 
+  </div> 
+  <div style="padding: 19% 0;"></div> 
+  <div style="display: block; height: 50px; margin: 0 auto 12px; width: 50px;"></div> 
+  <div style="padding-top: 8px;"> 
+   <div style="color: #3897f0; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: 550; line-height: 18px;">
+     View this post on Instagram 
+   </div> 
+  </div> 
+  <div style="padding: 12.5% 0;"></div> 
+  <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"> 
+   <div> 
+    <div style="background-color: #f4f4f4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> 
+    <div style="background-color: #f4f4f4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> 
+    <div style="background-color: #f4f4f4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div> 
+   </div> 
+   <div style="margin-left: 8px;"> 
+    <div style="background-color: #f4f4f4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> 
+    <div style="width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg);"></div> 
+   </div> 
+   <div style="margin-left: auto;"> 
+    <div style="width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> 
+    <div style="background-color: #f4f4f4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> 
+    <div style="width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div> 
+   </div> 
+  </div> 
+  <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> 
+   <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> 
+   <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div> 
+  </div> 
+  <p style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; line-height: 17px; margin-bottom: 0; margin-top: 8px; overflow: hidden; padding: 8px 0 7px; text-align: center; text-overflow: ellipsis; white-space: nowrap;"><a style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: normal; line-height: 17px; text-decoration: none;" href="https://www.instagram.com/p/BtdqtHhAb91/" target="_blank">A post shared by Timothy Cohen (@timdavhen)</a> on <time style="font-family: Arial,sans-serif; font-size: 14px; line-height: 17px;" datetime="2019-02-04T14:40:07+00:00">Feb 4, 2019 at 6:40am PST</time></p> 
+ </div> 
+</blockquote> 
+<p><script async src="//www.instagram.com/embed.js"></script> My boat trip took me through the archipelago of <a href="https://www.lonelyplanet.com/mexico/central-pacific-coast/san-blas" target="_blank">San Blas</a>, inhabited by the Kuna people, an autonomous, indigenous group living on 49 of the 365 islands. I opted to use the services of a Kuna-based company, <a href="https://www.sanblasfrontera.com/" target="_blank">San Blas Frontera</a>, to be sure that my money would end up staying within the community.</p> 
+<p>During the journey through the archipelago, we stopped off at a few islands. Some were inhabited, some had a small number of houses dotted around, and others were completely deserted. As well as meeting the Kuna communities, I was also lucky enough to enjoy the beautiful, sandy beach with not a care in the world (other than getting sunburn). A different sunny island for each day of the year – definitely something I could get used to!</p> 
+<h4>Meeting the Kuna people</h4> 
+<blockquote class="instagram-media" style="background: #FFF; border: 0; border-radius: 3px; box-shadow: 0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width: 540px; min-width: 326px; padding: 0; width: calc(100% - 2px);" data-instgrm-permalink="https://www.instagram.com/p/BthByhhg38V/" data-instgrm-version="12"> 
+ <div style="padding: 16px;"> 
+  <div style="display: flex; flex-direction: row; align-items: center;"> 
+   <div style="background-color: #f4f4f4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> 
+   <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> 
+    <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> 
+    <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div> 
+   </div> 
+  </div> 
+  <div style="padding: 19% 0;"></div> 
+  <div style="display: block; height: 50px; margin: 0 auto 12px; width: 50px;"></div> 
+  <div style="padding-top: 8px;"> 
+   <div style="color: #3897f0; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: 550; line-height: 18px;">
+     View this post on Instagram 
+   </div> 
+  </div> 
+  <div style="padding: 12.5% 0;"></div> 
+  <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"> 
+   <div> 
+    <div style="background-color: #f4f4f4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> 
+    <div style="background-color: #f4f4f4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> 
+    <div style="background-color: #f4f4f4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div> 
+   </div> 
+   <div style="margin-left: 8px;"> 
+    <div style="background-color: #f4f4f4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> 
+    <div style="width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg);"></div> 
+   </div> 
+   <div style="margin-left: auto;"> 
+    <div style="width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> 
+    <div style="background-color: #f4f4f4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> 
+    <div style="width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div> 
+   </div> 
+  </div> 
+  <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> 
+   <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> 
+   <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div> 
+  </div> 
+  <p style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; line-height: 17px; margin-bottom: 0; margin-top: 8px; overflow: hidden; padding: 8px 0 7px; text-align: center; text-overflow: ellipsis; white-space: nowrap;"><a style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: normal; line-height: 17px; text-decoration: none;" href="https://www.instagram.com/p/BthByhhg38V/" target="_blank">A post shared by Timothy Cohen (@timdavhen)</a> on <time style="font-family: Arial,sans-serif; font-size: 14px; line-height: 17px;" datetime="2019-02-05T21:59:33+00:00">Feb 5, 2019 at 1:59pm PST</time></p> 
+ </div> 
+</blockquote> 
+<p><script async src="//www.instagram.com/embed.js"></script>On the second day of the boat trip through San Blas, we dropped anchor on the island of Naranjo Chico. This small piece of land is home to a Kuna village and a handful of 'cabañas', in which my new travel companions and I spent the night. In Naranjo Chico, I met Johnny, a young Kuna local living on the island. He immediately befriended me, and was pretty intrigued by my camera!</p> 
+<p>Fun fact: until the late 1990s, the coconut was the principal currency in this region. Nowadays, although the Kuna people do still use the coconut as a currency, it has been overtaken by the US Dollar and the Balboa. Currently, one coconut is valued at only $0.40, but the Kuna people still find it amusing to say that, in this region at least, money really does grow on trees!</p> 
+<h4>The Miami of Latin America</h4> 
+<blockquote class="instagram-media" style="background: #FFF; border: 0; border-radius: 3px; box-shadow: 0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width: 540px; min-width: 326px; padding: 0; width: calc(100% - 2px);" data-instgrm-permalink="https://www.instagram.com/p/Btts1b0HCOz/" data-instgrm-version="12"> 
+ <div style="padding: 16px;"> 
+  <div style="display: flex; flex-direction: row; align-items: center;"> 
+   <div style="background-color: #f4f4f4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> 
+   <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> 
+    <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> 
+    <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div> 
+   </div> 
+  </div> 
+  <div style="padding: 19% 0;"></div> 
+  <div style="display: block; height: 50px; margin: 0 auto 12px; width: 50px;"></div> 
+  <div style="padding-top: 8px;"> 
+   <div style="color: #3897f0; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: 550; line-height: 18px;">
+     View this post on Instagram 
+   </div> 
+  </div> 
+  <div style="padding: 12.5% 0;"></div> 
+  <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"> 
+   <div> 
+    <div style="background-color: #f4f4f4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> 
+    <div style="background-color: #f4f4f4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> 
+    <div style="background-color: #f4f4f4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div> 
+   </div> 
+   <div style="margin-left: 8px;"> 
+    <div style="background-color: #f4f4f4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> 
+    <div style="width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg);"></div> 
+   </div> 
+   <div style="margin-left: auto;"> 
+    <div style="width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> 
+    <div style="background-color: #f4f4f4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> 
+    <div style="width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div> 
+   </div> 
+  </div> 
+  <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> 
+   <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> 
+   <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div> 
+  </div> 
+  <p style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; line-height: 17px; margin-bottom: 0; margin-top: 8px; overflow: hidden; padding: 8px 0 7px; text-align: center; text-overflow: ellipsis; white-space: nowrap;"><a style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: normal; line-height: 17px; text-decoration: none;" href="https://www.instagram.com/p/Btts1b0HCOz/" target="_blank">A post shared by Timothy Cohen (@timdavhen)</a> on <time style="font-family: Arial,sans-serif; font-size: 14px; line-height: 17px;" datetime="2019-02-10T20:06:35+00:00">Feb 10, 2019 at 12:06pm PST</time></p> 
+ </div> 
+</blockquote> 
+<p><script async src="//www.instagram.com/embed.js"></script>After three unforgettable days in San Blas, I set off to reach the mainland, and arguably the most cosmopolitan city in <a href="https://www.lonelyplanet.com/central-america" target="_blank">Central America</a>. <a href="https://www.lonelyplanet.com/panama/panama-city" target="_blank">Panama City</a> is the country's capital, and a truly modern urban centre. Skyscrapers and huge malls are a common sight alongside the dazzling blue coastline. No wonder they call it the 'Miami of Latin America'. Many worlds coexist here – west and east meet in a explosive cultural mix.</p> 
+<p>The business neighbourhood's skyline, with its shimmering towers made of glass and steel, reflecting the azure of both the ocean and sky, could easily be mistaken for any north American megalopolis. As seen from the historical neighbourhood of <a href="https://www.lonelyplanet.com/panama/panama-city/in-location/sights/67cc907b-f0b6-4216-8f1d-2251b94bc463/a/nar/67cc907b-f0b6-4216-8f1d-2251b94bc463/358532" target="_blank">Casco Viejo</a>, with its crumbling convents, colonial architecture and cobble-stoned streets, the contrast with this skyline couldn't be more pronounced.</p> 
+<h4>Panama’s adventure town</h4> 
+<blockquote class="instagram-media" style="background: #FFF; border: 0; border-radius: 3px; box-shadow: 0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width: 540px; min-width: 326px; padding: 0; width: calc(100% - 2px);" data-instgrm-permalink="https://www.instagram.com/p/Bt9T9RcAhGn/" data-instgrm-version="12"> 
+ <div style="padding: 16px;"> 
+  <div style="display: flex; flex-direction: row; align-items: center;"> 
+   <div style="background-color: #f4f4f4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> 
+   <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> 
+    <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> 
+    <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div> 
+   </div> 
+  </div> 
+  <div style="padding: 19% 0;"></div> 
+  <div style="display: block; height: 50px; margin: 0 auto 12px; width: 50px;"></div> 
+  <div style="padding-top: 8px;"> 
+   <div style="color: #3897f0; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: 550; line-height: 18px;">
+     View this post on Instagram 
+   </div> 
+  </div> 
+  <div style="padding: 12.5% 0;"></div> 
+  <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"> 
+   <div> 
+    <div style="background-color: #f4f4f4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> 
+    <div style="background-color: #f4f4f4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> 
+    <div style="background-color: #f4f4f4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div> 
+   </div> 
+   <div style="margin-left: 8px;"> 
+    <div style="background-color: #f4f4f4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> 
+    <div style="width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg);"></div> 
+   </div> 
+   <div style="margin-left: auto;"> 
+    <div style="width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> 
+    <div style="background-color: #f4f4f4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> 
+    <div style="width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div> 
+   </div> 
+  </div> 
+  <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> 
+   <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> 
+   <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div> 
+  </div> 
+  <p style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; line-height: 17px; margin-bottom: 0; margin-top: 8px; overflow: hidden; padding: 8px 0 7px; text-align: center; text-overflow: ellipsis; white-space: nowrap;"><a style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: normal; line-height: 17px; text-decoration: none;" href="https://www.instagram.com/p/Bt9T9RcAhGn/" target="_blank">A post shared by Timothy Cohen (@timdavhen)</a> on <time style="font-family: Arial,sans-serif; font-size: 14px; line-height: 17px;" datetime="2019-02-16T21:37:03+00:00">Feb 16, 2019 at 1:37pm PST</time></p> 
+ </div> 
+</blockquote> 
+<p><script async src="//www.instagram.com/embed.js"></script>In a country like Panama, which is synonymous with beaches, surfing and sun, the city of <a href="https://www.lonelyplanet.com/panama/chiriqui-province/boquete" target="_blank">Boquete</a> will delight the adventurers and lovers of balmy temperatures. Although it is only located 1200m above sea level, it lies at the foot of Baru, Panama’s tallest mountain standing at 3475m, which happens to also be an active stratovolcano. A popular hiking route finishes with watching the sunrise from the top. I had other plans however...</p> 
+<p>The surrounding area is teeming with trails and waterfalls hidden within the lush jungle, waiting to be explored. One of them, known as 'The Lost Waterfalls', is a three-hour journey through a cloud forest, leading to three beautiful waterfalls. During the dry season, the waterfalls surrounding Boquete are not as powerful as they are during the rainy season, but the weather is much nicer and the light is jaw-dropping!</p> 
+<h4>The favourite</h4> 
+<blockquote class="instagram-media" style="background: #FFF; border: 0; border-radius: 3px; box-shadow: 0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width: 540px; min-width: 326px; padding: 0; width: calc(100% - 2px);" data-instgrm-permalink="https://www.instagram.com/p/BuE-IBNA9Jo/" data-instgrm-version="12"> 
+ <div style="padding: 16px;"> 
+  <div style="display: flex; flex-direction: row; align-items: center;"> 
+   <div style="background-color: #f4f4f4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> 
+   <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> 
+    <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> 
+    <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div> 
+   </div> 
+  </div> 
+  <div style="padding: 19% 0;"></div> 
+  <div style="display: block; height: 50px; margin: 0 auto 12px; width: 50px;"></div> 
+  <div style="padding-top: 8px;"> 
+   <div style="color: #3897f0; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: 550; line-height: 18px;">
+     View this post on Instagram 
+   </div> 
+  </div> 
+  <div style="padding: 12.5% 0;"></div> 
+  <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"> 
+   <div> 
+    <div style="background-color: #f4f4f4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> 
+    <div style="background-color: #f4f4f4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> 
+    <div style="background-color: #f4f4f4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div> 
+   </div> 
+   <div style="margin-left: 8px;"> 
+    <div style="background-color: #f4f4f4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> 
+    <div style="width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg);"></div> 
+   </div> 
+   <div style="margin-left: auto;"> 
+    <div style="width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> 
+    <div style="background-color: #f4f4f4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> 
+    <div style="width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div> 
+   </div> 
+  </div> 
+  <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> 
+   <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> 
+   <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div> 
+  </div> 
+  <p style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; line-height: 17px; margin-bottom: 0; margin-top: 8px; overflow: hidden; padding: 8px 0 7px; text-align: center; text-overflow: ellipsis; white-space: nowrap;"><a style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: normal; line-height: 17px; text-decoration: none;" href="https://www.instagram.com/p/BuE-IBNA9Jo/" target="_blank">A post shared by Timothy Cohen (@timdavhen)</a> on <time style="font-family: Arial,sans-serif; font-size: 14px; line-height: 17px;" datetime="2019-02-19T21:00:12+00:00">Feb 19, 2019 at 1:00pm PST</time></p> 
+ </div> 
+</blockquote> 
+<p><script async src="//www.instagram.com/embed.js"></script><a href="https://www.lonelyplanet.com/panama/bocas-del-toro" target="_blank">Bocas del Toro</a> is one of Panama’s most popular destinations – easily accessible and teeming with things to do, the archipelago will keep you busy for days and days! Snorkelling, diving, partying, hiking, surfing, or just lazing around on a beach, you name it! Panama’s best parties can be found on the busy <a href="https://www.lonelyplanet.com/panama/bocas-del-toro/isla-colon" target="_blank">Isla Colon</a>, while nature lovers may prefer to stay on <a href="https://www.lonelyplanet.com/panama/bocas-del-toro/isla-bastimentos" target="_blank">Isla Bastimentos</a>,where the eponymous national park can be found. I, of course, decided to stay on the latter.</p> 
+<p>The languorous Caribbean vibe emanating from the small town of Old Bank on Bastimentos’ shore is tangible. There are no roads, just a wide, concrete footpath lined on both sides with colourful wooden houses and plants. This particular footpath will lead you to the highest hill on the island, where the 360-degree view of the surrounding islands is outstanding. The icing on the cake is undoubtedly the organic cocoa farm nearby, perfect for taking a break while enjoying the natural surrounds.</p> 
+<h4>Chasing sunlight</h4> 
+<blockquote class="instagram-media" style="background: #FFF; border: 0; border-radius: 3px; box-shadow: 0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width: 540px; min-width: 326px; padding: 0; width: calc(100% - 2px);" data-instgrm-permalink="https://www.instagram.com/p/BuKFNRsg42l/" data-instgrm-version="12"> 
+ <div style="padding: 16px;"> 
+  <div style="display: flex; flex-direction: row; align-items: center;"> 
+   <div style="background-color: #f4f4f4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> 
+   <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> 
+    <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> 
+    <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div> 
+   </div> 
+  </div> 
+  <div style="padding: 19% 0;"></div> 
+  <div style="display: block; height: 50px; margin: 0 auto 12px; width: 50px;"></div> 
+  <div style="padding-top: 8px;"> 
+   <div style="color: #3897f0; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: 550; line-height: 18px;">
+     View this post on Instagram 
+   </div> 
+  </div> 
+  <div style="padding: 12.5% 0;"></div> 
+  <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"> 
+   <div> 
+    <div style="background-color: #f4f4f4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> 
+    <div style="background-color: #f4f4f4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> 
+    <div style="background-color: #f4f4f4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div> 
+   </div> 
+   <div style="margin-left: 8px;"> 
+    <div style="background-color: #f4f4f4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> 
+    <div style="width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg);"></div> 
+   </div> 
+   <div style="margin-left: auto;"> 
+    <div style="width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> 
+    <div style="background-color: #f4f4f4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> 
+    <div style="width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div> 
+   </div> 
+  </div> 
+  <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> 
+   <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> 
+   <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div> 
+  </div> 
+  <p style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; line-height: 17px; margin-bottom: 0; margin-top: 8px; overflow: hidden; padding: 8px 0 7px; text-align: center; text-overflow: ellipsis; white-space: nowrap;"><a style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: normal; line-height: 17px; text-decoration: none;" href="https://www.instagram.com/p/BuKFNRsg42l/" target="_blank">A post shared by Timothy Cohen (@timdavhen)</a> on <time style="font-family: Arial,sans-serif; font-size: 14px; line-height: 17px;" datetime="2019-02-21T20:38:17+00:00">Feb 21, 2019 at 12:38pm PST</time></p> 
+ </div> 
+</blockquote> 
+<p><script async src="//www.instagram.com/embed.js"></script><a href="https://www.lonelyplanet.com/panama/the-interior/el-valle" target="_blank">El Valle de Anton</a>, more commonly known as 'El Valle', is a mountain town nestled in the crater of an extinct volcano. During my time here, I was truly chasing sunlight, sunsets in particular! On my first day, I decided to climb the mountain 'Cara Iguana' two hours before dusk, even though the peak was lost in the clouds. I've learned many times that weather changes extremely fast in the mountains, so I gave it a shot. Just as I was reaching the peak, it started to rain, and I couldn't see anything at all, but then the wind slowed and suddenly the landscape appeared before my eyes, a big ray of sunlight breaking through the dark clouds and illuminating the hillside. I was in awe.</p> 
+<p>Even after so many years travelling, I am still constantly amazed by the world surrounding us. Gustave Flaubert once said that 'travel makes one modest – you see what a tiny place you occupy in the world', and I can't help but think how right he was!</p> 
+<p><em>Do you love to write about your travels? Or perhaps Instagram is your thing? Find out more about how you can contribute to Lonely Planet <a href="https://www.lonelyplanet.com/about/contribute" target="_blank">here</a>.</em></p>]]></content>
+        <author>
+            <name>Timothy Cohen</name>
+        </author>
+        <published>2019-05-02T16:13:46Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wonderings: have you felt a disturbance in the Force?]]></title>
+        <id>42a0c23b-c7b2-5fe8-8cef-317c047c2cc4</id>
+        <link href="https://www.lonelyplanet.com/blog/2019/04/29/wonderings-have-you-felt-a-disturbance-in-the-force">
+        </link>
+        <updated>2019-04-29T09:00:29Z</updated>
+        <content type="html"><![CDATA[<figure> 
+ <a href="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2018/07/blogv7-14dd470b31d9.jpg"><img src="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2018/07/blogv7-14dd470b31d9.jpg" alt="Illustration of a traveller looking out of a train window at a lake with mountains and forest in the background © Joe Davis / Lonely Planet" width="3183" height="2487"></a> Wonderings: rambles through and reflections on travel... this month, James Kay travels to the parallel universe of the theme park © Joe Davis / Lonely Planet
+</figure> 
+<p>It’s a special week for the <a href="https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/migrationwithintheuk/articles/whatisyourreligion/2015-01-15">177,000-odd people in England and Wales</a>, and many more around the world, who define their religion as Jedi: Saturday is Star Wars Day (May the Fourth, geddit?), the annual grassroots celebration of all things related to that galaxy far, far away.</p> 
+<p>Each year, fans of the franchise don robes, put lightsabers on charge and raise a glass of Bantha-blood fizz to the likes of Luke Skywalker, Princess Leia and Han Solo – or, if you bat for the Dark Side, Darth Vader and various lesser Darths. (Note to the Ewok-in-chief: no one, but no one, celebrates <a href="https://www.nme.com/news/film/george-lucas-sparks-controversy-by-naming-his-favourite-star-wars-character-2477974">Jar Jar Binks</a>, George.)</p> 
+<p>From <a href="https://www.bbc.co.uk/news/blogs-trending-47961354">uber-fans who livestream their reactions on YouTube as they watch trailers for forthcoming movies</a> right down to closet-dwelling admirers of this rich fictional world like me, the creative juggernaut that first rolled into cinemas back in 1977 shows no sign of running out of road.</p> 
+<h4>An expanding universe</h4> 
+<p>Just like the real one, the Star Wars universe just keeps on expanding, an inflationary cultural phenomenon that has long outgrown its original medium, spawning countless spin-offs – books, games and enough merch to fill the hangar bay of a Star Destroyer (<a href="https://www.statista.com/statistics/519093/leading-movies-based-on-merchandise-sales/">USD$32 billion of it</a>, to be precise).</p> 
+<p>A few weeks ago, for example, I invested a chunk of cash in a Lego model of Luke’s X-Wing Starfighter (this age-inappropriate toy is now safely stowed in the eaves, but I’m confident that the kids will want to lead a Rebel raid on a half-built, papier mâché Death Star when the time is right – no, I <em>defo</em> didn’t buy it for myself).</p> 
+<p>And later this month, there will be a novel way to live this most protean of brands as never before: on the last day of May, Disneyland in California will lift the veil on <a href="https://www.lonelyplanet.com/news/2019/04/03/disneyland-jobs-star-wars/">the first phase of <i>Star Wars</i>: Galaxy’s Edge</a>, a gazillion-dollar extension of the theme park that will, purportedly, transport guests to the remote planet of Batuu.</p> 
+<p>Once there, they can rub shoulders with shifty inter-galactic smugglers, pledge their undying allegiance to the Resistance or throw their lot in with the bad guys; they’ll even be able to take control of ‘the fastest hunk of junk in the galaxy’, aka the <i>Millennium Falcon</i>, thus fulfilling the ultimate fantasy of many a middle-aged geek.</p> 
+<figure> 
+ <a href="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2019/04/SWGE_Millennium_Falcon-1ba82c834233.jpg"><img src="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2019/04/SWGE_Millennium_Falcon-1ba82c834233.jpg" alt="" width="2000" height="1019"></a> Visitors to Star Wars: Galaxy's Edge can take the controls of the fastest ship in the galaxy, aka the storied Millennium Falcon © Disney Parks
+</figure> 
+<p>That’s just for starters, too: a second, even shinier phase of this mega project will open later this year, as will a separate Star Wars-themed land at Walt Disney World in Florida. <a href="https://www.lonelyplanet.com/news/2019/01/09/disneyland-star-wars-attraction/">Price hikes notwithstanding</a>, so popular are these attractions likely to be that Disney has made special arrangements to regulate the flow of visitors.</p> 
+<p>Putting any cynicism aside, there is much to admire about the ambition of all this. Given its storytelling skill and commercial nous, Disney is perhaps the perfect custodian of Star Wars; here was the ideal opportunity for its famed imagineers to dream the dreams of a billion fans and make them ‘real’ (note, pedants: there is no way to calculate the actual number of fans, but bearing in mind that <a href="https://www.statista.com/topics/4362/star-wars/">the films alone have grossed nearly USD$10 billion</a>, we can safely say there are… <em>a lot</em>).</p> 
+<p>Ever since Walt Disney opened his first resort in 1955, the company has pioneered a form of travel experience like no other. It’s not for everyone, of course – but from what I can see, it’s an experience in growing demand as theme parks proliferate around the world, perhaps supplanting other points of interest, whether natural or cultural, on our mental maps.</p> 
+<h4>Escape and enlightenment?</h4> 
+<p>The big boys – Disney itself, plus fellow industry titans like Merlin and Universal, and even lesser lights – are ceaselessly expanding their portfolios of parks, rides and hotels to cater for that demand, particularly in Asia where an emerging middle class’s thirst for entertainment is the engine of development.</p> 
+<p><a href="https://www.bbc.co.uk/news/uk-38368526">Jediism never made it as an official religion</a>. But one can make a case that theme parks are fast becoming to the 21st century what the great icons of religious architecture were to the 20th: places of pilgrimage where we seek escape and enlightenment. Okay, perhaps that’s not so true of Tyra Banks’ <a href="https://www.lonelyplanet.com/news/2019/02/08/tyra-banks-modelland/">Modelland</a>, but you catch my drift.</p> 
+<p>Meanwhile, in a strange twist, there is the curious case of Venice, a place that has become ever more theme park-like in its struggle to cope with a relentlessly rising tide of summer visitors. Attempts to install turnstiles on the Piazzale Roma might have foundered, but the mayor still plans to <a href="https://www.lonelyplanet.com/news/2019/02/11/venice-booking-system/">introduce a booking system for tourists in 2022</a>, forcing visitors to reserve access to the city in much the same way as they might for, say, <i>Star Wars</i>: Galaxy’s Edge...</p>]]></content>
+        <author>
+            <name>James Kay</name>
+        </author>
+        <published>2019-04-29T09:00:29Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pathfinders: best blogs, Instagram shots and videos from March 2019]]></title>
+        <id>42a0c23b-c7b2-5fe8-8cef-317c047c2cbd</id>
+        <link href="https://www.lonelyplanet.com/blog/2019/04/24/pathfinders-best-blogs-instagram-shots-and-videos-from-march-2019">
+        </link>
+        <updated>2019-04-24T15:44:20Z</updated>
+        <content type="html"><![CDATA[<figure> 
+ <a href="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2019/04/Lake_Baikal-3bebf1412ff5.jpg"><img src="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2019/04/Lake_Baikal-3bebf1412ff5.jpg" alt="Man feet in boots on the Baikal ice" width="2000" height="1333"></a> Where will our Pathfinders take you this month? © Alexander Ippolitov / Shutterstock
+</figure> 
+<p>From New York’s stunning street art scene to Siberia’s wild winter wonderlands, our Pathfinders have been jet-setting across the globe and have returned with ever more inspiring tales of their adventures. Check out March’s round-up of our favourite blogs, Instagrams and videos.</p> 
+<h3><b>Best of the blogs</b></h3> 
+<p><a href="https://wayfaringviews.com/street-art-new-york-city-hotspots/"><b>Street art in New York city: a guide to the best hotspots</b></a><b> – Carol Guttery</b></p> 
+<figure> 
+ <a href="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2019/04/New_York-ac64275c1fd2.jpg"><img src="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2019/04/New_York-ac64275c1fd2.jpg" alt="Taxis driving through Times Square, New York City" width="2000" height="1334"></a> Dive into the colour and chaos of New York City © Luciano Mortula - LGM / Shutterstock
+</figure> 
+<p><b>Why we like it: </b>Many cities now attract tourists with their thriving street art scenes, but it’s New York – back in the 1970s – where it all began. In this post Carol curates a tour of the Big Apple’s best street art spots, leading visitors to historic murals and lesser-known – but equally impressive – modern works. Striking imagery, an embedded map tool and an intro section detailing the interesting history of the art form (and its link with the city) enhance the post’s appeal further.</p> 
+<p><i>Carol’s blog aims to encourage travellers to go beyond the headline sights and find alternative and offbeat adventures. Learn more at </i><a href="https://wayfaringviews.com/"><i>wayfaringviews.com</i></a><i>.</i></p> 
+<p><a href="https://adventures.javilorbada.com/48h-of-banks-peninsula"><b>Landing in New Zealand</b></a><b> – Javi Lorbada</b></p> 
+<figure> 
+ <a href="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2019/04/New_Zealand-e43720e51920.jpg"><img src="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2019/04/New_Zealand-e43720e51920.jpg" alt="Akaroa village on Banks Peninsula New Zealand" width="2000" height="1334"></a> Akaroa was made for road-tripping © KarlosXII / Shutterstock
+</figure> 
+<p><b>Why we like it:</b> Javi is a wizard when it comes to landscape photography, so a blog post about his first experiences of New Zealand was always likely to result in a mesmerising read. In this photoessay, Javi focuses on the Banks Peninsula, driving a rented campervan from Christchurch to Akaroa (stopping at a few scenic vantage points of course). With the pictures of the camper set against a star-strewn sky, we challenge anyone to read this and not be inspired to hit the open road themselves.</p> 
+<p><i>Born in Madrid, Javi travels far and wide in search of the perfect shot. Keep tabs on his latest work at </i><a href="https://adventures.javilorbada.com/"><i>javilorbada.com</i></a><i>.</i></p> 
+<h3><b>Top Instagram shots</b></h3> 
+<p><a href="https://www.instagram.com/p/BvNrN46ly4o/"><b>Mexico City, Mexico</b></a><b> – Axel Alvarado</b></p> 
+<blockquote class="instagram-media" style="background: #FFF; border: 0; border-radius: 3px; box-shadow: 0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width: 540px; min-width: 326px; padding: 0; width: calc(100% - 2px);" data-instgrm-permalink="https://www.instagram.com/p/BvNrN46ly4o/?utm_source=ig_embed&amp;utm_medium=loading" data-instgrm-version="12"> 
+ <div style="padding: 16px;"> 
+  <div style="display: flex; flex-direction: row; align-items: center;"> 
+   <div style="background-color: #f4f4f4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> 
+   <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> 
+    <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> 
+    <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div> 
+   </div> 
+  </div> 
+  <div style="padding: 19% 0;"></div> 
+  <div style="display: block; height: 50px; margin: 0 auto 12px; width: 50px;"></div> 
+  <div style="padding-top: 8px;"> 
+   <div style="color: #3897f0; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: 550; line-height: 18px;">
+     View this post on Instagram 
+   </div> 
+  </div> 
+  <div style="padding: 12.5% 0;"></div> 
+  <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"> 
+   <div> 
+    <div style="background-color: #f4f4f4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> 
+    <div style="background-color: #f4f4f4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> 
+    <div style="background-color: #f4f4f4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div> 
+   </div> 
+   <div style="margin-left: 8px;"> 
+    <div style="background-color: #f4f4f4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> 
+    <div style="width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg);"></div> 
+   </div> 
+   <div style="margin-left: auto;"> 
+    <div style="width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> 
+    <div style="background-color: #f4f4f4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> 
+    <div style="width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div> 
+   </div> 
+  </div> 
+  <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> 
+   <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> 
+   <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div> 
+  </div> 
+  <p style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; line-height: 17px; margin-bottom: 0; margin-top: 8px; overflow: hidden; padding: 8px 0 7px; text-align: center; text-overflow: ellipsis; white-space: nowrap;"><a style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: normal; line-height: 17px; text-decoration: none;" href="https://www.instagram.com/p/BvNrN46ly4o/?utm_source=ig_embed&amp;utm_medium=loading" target="_blank">A post shared by Axel Alvarado (@axel.ach)</a> on <time style="font-family: Arial,sans-serif; font-size: 14px; line-height: 17px;" datetime="2019-03-20T02:39:32+00:00">Mar 19, 2019 at 7:39pm PDT</time></p> 
+ </div> 
+</blockquote> 
+<p><script async src="//www.instagram.com/embed.js"></script></p> 
+<p><b>Why we like it:</b> In his brilliantly styled shot of one of Mexico City’s many Metro entrances, Axel uses the ornate, iron structure to frame blooming purple blossoms, creating the perfect central focus. The colour palette, which comprises muted pink hues and vivid violets set against the utility green of the foreground, works especially well when crowned by the dreamy blue sky, and the still-dimly-lit street lamps complete the overall effect with their warm, golden glow.</p> 
+<p><i>Axel is a keen travel photographer who loves nothing more than shooting the myriad charms of his home country, Mexico. Follow him on Instagram </i><a href="https://www.instagram.com/axel.ach/"><i>@axel.ach</i></a><i>.</i></p> 
+<p><a href="https://www.instagram.com/p/BvQZfeGnTdG/"><b>Siberia, Russia</b></a><b> – Yan-Kei Clare</b></p> 
+<blockquote class="instagram-media" style="background: #FFF; border: 0; border-radius: 3px; box-shadow: 0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width: 540px; min-width: 326px; padding: 0; width: calc(100% - 2px);" data-instgrm-permalink="https://www.instagram.com/p/BvQZfeGnTdG/?utm_source=ig_embed&amp;utm_medium=loading" data-instgrm-version="12"> 
+ <div style="padding: 16px;"> 
+  <div style="display: flex; flex-direction: row; align-items: center;"> 
+   <div style="background-color: #f4f4f4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> 
+   <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> 
+    <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> 
+    <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div> 
+   </div> 
+  </div> 
+  <div style="padding: 19% 0;"></div> 
+  <div style="display: block; height: 50px; margin: 0 auto 12px; width: 50px;"></div> 
+  <div style="padding-top: 8px;"> 
+   <div style="color: #3897f0; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: 550; line-height: 18px;">
+     View this post on Instagram 
+   </div> 
+  </div> 
+  <div style="padding: 12.5% 0;"></div> 
+  <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"> 
+   <div> 
+    <div style="background-color: #f4f4f4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> 
+    <div style="background-color: #f4f4f4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> 
+    <div style="background-color: #f4f4f4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div> 
+   </div> 
+   <div style="margin-left: 8px;"> 
+    <div style="background-color: #f4f4f4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> 
+    <div style="width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg);"></div> 
+   </div> 
+   <div style="margin-left: auto;"> 
+    <div style="width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> 
+    <div style="background-color: #f4f4f4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> 
+    <div style="width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div> 
+   </div> 
+  </div> 
+  <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> 
+   <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> 
+   <div style="background-color: #f4f4f4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div> 
+  </div> 
+  <p style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; line-height: 17px; margin-bottom: 0; margin-top: 8px; overflow: hidden; padding: 8px 0 7px; text-align: center; text-overflow: ellipsis; white-space: nowrap;"><a style="color: #c9c8cd; font-family: Arial,sans-serif; font-size: 14px; font-style: normal; font-weight: normal; line-height: 17px; text-decoration: none;" href="https://www.instagram.com/p/BvQZfeGnTdG/?utm_source=ig_embed&amp;utm_medium=loading" target="_blank">A post shared by Yan-Kei Explores 👀🌏 (@yan_keiclare)</a> on <time style="font-family: Arial,sans-serif; font-size: 14px; line-height: 17px;" datetime="2019-03-21T04:02:22+00:00">Mar 20, 2019 at 9:02pm PDT</time></p> 
+ </div> 
+</blockquote> 
+<p><script async src="//www.instagram.com/embed.js"></script></p> 
+<p><b>Why we like it:</b> From the tangled network of ice cracks slicing through its lower half, to the central figures being dwarfed by the towering, craggy rock formation, this expert frame of Siberia’s Lake Baikal is full of drama. The glistening solid ice draws the eye towards the vivid white of the snow at the rock’s base, which appears all the more monolithic when acting as a backdrop for the image’s brightly clad (but miniscule) explorers. This is a cleverly crafted shot of nature at its most panoramic.</p> 
+<p><i>Yan-Kei is a globe-hopping travel blogger with restless feet and endless wanderlust. Follow her on Instagram </i><a href="https://www.instagram.com/yan_keiclare/"><i>@yan_keiclare</i></a><i>.</i></p> 
+<h3>Our favourite footage</h3> 
+<p><a href="https://www.youtube.com/watch?v=USGgKTzj50Q"><b>Things to do in Tuscany</b></a><b> – A Lovely Planet</b></p> 
+<p><iframe src="https://www.youtube.com/embed/USGgKTzj50Q" width="560" height="315" frameborder="0" allowfullscreen></iframe></p> 
+<p><b>Why we like it: </b>Pacey, lively and compelling, this short film featuring Tuscany’s top attractions is a great showcase for the region’s many charms. Fusing sweeping, aerial views across rooftops and fields with up-close, on-the-ground footage of everything from church tower climbing to truffle foraging, this is a dynamic and fresh snapshot of one of Italy’s most popular regions.</p> 
+<p><i>Hayley and Enrico are a globetrotting travel team, exploring and capturing new experiences in every corner of the globe on camera, and through their blog </i><a href="https://www.alovelyplanet.com/"><i>A Lovely Planet</i></a><i>. </i></p> 
+<p><i>Find out what else the Lonely Planet Pathfinders are up to by checking out the Pathfinders forum on </i><a href="https://www.lonelyplanet.com/thorntree/forums/travel-bloggers-your-stories"><i>Thorn Tree</i></a><i>.</i></p>]]></content>
+        <author>
+            <name>Louise Bastock</name>
+        </author>
+        <published>2019-04-24T15:44:20Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wonderings: Notre Dame will rise from the ashes even greater than before]]></title>
+        <id>42a0c23b-c7b2-5fe8-8cef-317c047c2cb3</id>
+        <link href="https://www.lonelyplanet.com/blog/2019/04/16/wonderings-notre-dame-will-rise-from-the-ashes-even-greater-than-before">
+        </link>
+        <updated>2019-04-16T15:07:08Z</updated>
+        <content type="html"><![CDATA[<figure> 
+ <a href="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2018/07/blogv7-14dd470b31d9.jpg"><img src="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2018/07/blogv7-14dd470b31d9.jpg" alt="Illustration of a traveller looking out of a train window at a lake with mountains and forest in the background © Joe Davis / Lonely Planet" width="3183" height="2487"></a> Wonderings: rambles through and reflections on travel... this month, James Kay says that Notre Dame will emerge from the recent fire as an even greater monument © Joe Davis / Lonely Planet
+</figure> 
+<p>Many years ago, I climbed the spiral staircase that winds its way up to the balcony connecting the two towers of the Cathédrale Notre Dame de Paris’ western facade. From there, you can see many of the city’s greatest landmarks: the Eiffel Tower, the Basilique du Sacré-Cœur, the Arc de Triomphe, the River Seine flowing past Île de la Cité.</p> 
+<p>A close inspection of the gargoyles and chimeras festooning the towers is just as engrossing as that far-reaching, wide-angle view. Jutting out from the walls, the gargoyles’ long necks channel water away from the ancient stone; the chimeras – horned, winged, taloned, feathered; beasts that never were – are there to ward off evil.</p> 
+<p>But none of them could protect the 12th-century building from the fury of a different element yesterday. Mercifully, the towers still stand, but <a href="https://www.bbc.co.uk/news/world-europe-47941794">the fire</a> which began in the afternoon and raged through the night consumed the roof and toppled the spire.</p> 
+<h4>Fire in the heart</h4> 
+<p>I feel for the Parisians who lined the banks of the Seine to witness the conflagration, those vaulting flames mirrored in their tears. So do millions of other well-wishers around the world, for this is a building etched into the collective consciousness, a Unesco World Heritage site visited by millions of people a year.</p> 
+<p>Hyperbole aside, its destruction is a true tragedy. Notre Dame is the heart not just of Paris, but also of France, and not in a merely abstract sense: the brass plate set into the ground outside the western facade marks the city centre and the point from which the distance from Paris to all destinations is measured.</p> 
+<p>But, as we mourn, let’s remember that this heart will beat again.</p> 
+<figure> 
+ <a href="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2019/04/notre_dame-aee452053ba9.jpg"><img src="https://stable.web.blog-backend.production.lonelyplanet.com/wp-content/uploads/2019/04/notre_dame-aee452053ba9.jpg" alt="Firefights battling the blaze yesterday as it spread across the roof of Cathédrale Notre Dame de Paris" width="2000" height="1333"></a> Firefights battling the blaze yesterday as it spread across the roof of Cathédrale Notre Dame de Paris © Pierre Suu / Getty Images
+</figure> 
+<p>If you look north from our office in London, you can see across the River Thames to the towers of St Paul’s Cathedral’s west front. The cathedral – a place of comparable cultural clout to Notre Dame – is now in its fourth incarnation. Sir Christopher Wren’s masterpiece was built in the late 17th century after its predecessor was destroyed… by the Great Fire of London.</p> 
+<p>Contemporary accounts describe molten lead pouring from the roof of Old St Paul’s into the warren of streets below, causing the pavements to glow like flows of lava. So intense was the inferno that witnesses a furlong away – about 200 metres – could not face the flames.</p> 
+<h4>Symbols of resilience</h4> 
+<p>It took 35 years for the St Paul’s we know today to rise from the ashes – but rise it did, an irrepressible phoenix, just as it had from previous fires in 962, 1087 and 1561.</p> 
+<p>Furthermore, I’d argue that with each rebuild, just as the physical cathedral became a little bigger, so did its psychogeographical scale – that is, the amount of space it occupies in our minds. Along with all the other things for which it stands, St Paul’s became a potent symbol of the city’s resilience.</p> 
+<p>While I don't speak for them, I’d wager that the residents of Utrecht, Barcelona and Cologne feel much the same way about St Martin’s, Santa Maria Del Mar and Cologne Cathedral respectively, all of which were ravaged by, and reborn from, fire at one time or another in their long histories.</p> 
+<p>It won’t take 35 years to restore Notre Dame, which has survived revolutions and wars, and hosted the crowning of kings and the coronation of emperors. French president Emmanuel Macron has already launched an international campaign and <a href="https://www.lonelyplanet.com/news/2019/04/16/fundarising-campaign-notre-dame/">hundreds of millions of euros are pouring into the reconstruction fund</a>.</p> 
+<p>And whenever this storied structure does reopen to the public, its hold on our imaginations will have grown, not diminished. So let’s look forward to the day when the bells of Our Lady ring out over the rooftops of Paris once more.</p>]]></content>
+        <author>
+            <name>James Kay</name>
+        </author>
+        <published>2019-04-16T15:07:08Z</published>
+    </entry>
+</feed>

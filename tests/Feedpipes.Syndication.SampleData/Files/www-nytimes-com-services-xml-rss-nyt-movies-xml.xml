@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:nyt="http://www.nytimes.com/namespaces/rss/2.0" version="2.0">
+  <channel>
+    <title>NYT &gt; Movies</title>
+    <link>https://www.nytimes.com/section/movies?emc=rss&amp;partner=rss</link>
+    <atom:link href="https://rss.nytimes.com/services/xml/rss/nyt/Movies.xml" rel="self" type="application/rss+xml"></atom:link>
+    <description></description>
+    <language>en-us</language>
+    <copyright>Copyright 2019 The New York Times Company</copyright>
+    <lastBuildDate>Thu, 01 Aug 2019 21:28:30 +0000</lastBuildDate>
+    <image>
+      <title>NYT &gt; Movies</title>
+      <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
+      <link>https://www.nytimes.com/section/movies?emc=rss&amp;partner=rss</link>
+    </image>
+    <item>
+      <title>A Pop-Culture Glossary for ‘Once Upon a Time … in Hollywood’</title>
+      <link>https://www.nytimes.com/2019/07/30/movies/once-upon-a-time-in-hollywood-glossary.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/30/movies/once-upon-a-time-in-hollywood-glossary.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/30/movies/once-upon-a-time-in-hollywood-glossary.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Quentin Tarantino’s film is filled with references to TV shows, movies and other totems of midcentury Los Angeles. We explain who’s who and what’s what.</description>
+      <dc:creator>Bruce Fretts</dc:creator>
+      <pubDate>Wed, 31 Jul 2019 23:00:46 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Television</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Tarantino, Quentin</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Tate, Sharon</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Once Upon a Time in Hollywood (Movie)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/29/arts/29tarantino-explainer-promo/29tarantino-explainer-promo-moth.jpg" width="151"></media:content>
+      <media:credit>Andrew Cooper/Sony Pictures</media:credit>
+      <media:description>From left, Brad Pitt, Leonardo DiCaprio and Al Pacino meet at Musso &amp; Frank Grill in the movie.</media:description>
+    </item>
+    <item>
+      <title>‘The Blair Witch Project’ at 20: Why It Can’t Be Replicated</title>
+      <link>https://www.nytimes.com/2019/07/30/movies/blair-witch-project-1999.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/30/movies/blair-witch-project-1999.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/30/movies/blair-witch-project-1999.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>When it came out, the documentary-style horror movie terrified some audiences who weren’t so sure it was fiction. Here’s a look at its special alchemy and legacy.</description>
+      <dc:creator>Jake Kring-Schreifels</dc:creator>
+      <pubDate>Tue, 30 Jul 2019 22:38:49 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Myrick, Daniel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Sanchez, Eduardo</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Peli, Oren</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">The Blair Witch Project (Movie)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Paranormal Activity (Movie)</category>
+    </item>
+    <item>
+      <title>What America Gets Wrong About Tracy Flick</title>
+      <link>https://www.nytimes.com/2019/08/01/movies/tracy-flick-reese-witherspoon.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/movies/tracy-flick-reese-witherspoon.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/movies/tracy-flick-reese-witherspoon.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>In “Election,” she’s preyed upon by a teacher and almost cheated out of her rightful victory. But somehow she’s the villain.</description>
+      <dc:creator>A.O. Scott</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 09:00:10 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Payne, Alexander</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Witherspoon, Reese</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Broderick, Matthew</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Election (Movie)</category>
+    </item>
+    <item>
+      <title>‘The Nightingale’ Review: A Song of Violence and Vengeance</title>
+      <link>https://www.nytimes.com/2019/08/01/movies/nightingale-review.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/movies/nightingale-review.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/movies/nightingale-review.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Jennifer Kent follows “The Babadook” with a harrowing, politically charged tale of sexual and racial brutality in 19th-century Tasmania.</description>
+      <dc:creator>A.O. Scott</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 16:02:21 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">The Nightingale (Movie)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kent, Jennifer</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Claflin, Sam</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Franciosi, Aisling</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/02/arts/02NIGHTINGALE-1/02NIGHTINGALE-1-moth.jpg" width="151"></media:content>
+      <media:credit>Matt Nettheim/IFC Films</media:credit>
+      <media:description>Aisling Franciosi as an Irish convict seeking revenge in &amp;ldquo;The Nightingale.&amp;rdquo;</media:description>
+    </item>
+    <item>
+      <title>‘Once Upon a Time … in Hollywood’ Has a Wild Ending. Let’s Talk.</title>
+      <link>https://www.nytimes.com/2019/07/28/movies/once-upon-a-time-in-hollywood-ending.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/28/movies/once-upon-a-time-in-hollywood-ending.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/28/movies/once-upon-a-time-in-hollywood-ending.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Quentin Tarantino’s new film doesn’t quite wrap up the way you might expect.</description>
+      <dc:creator>Kyle Buchanan</dc:creator>
+      <pubDate>Mon, 29 Jul 2019 12:18:50 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Once Upon a Time in Hollywood (Movie)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Tarantino, Quentin</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Pitt, Brad</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">DiCaprio, Leonardo</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Sony Pictures Entertainment</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/28/arts/28tarantino-ending/28tarantino-ending-moth-v2.jpg" width="151"></media:content>
+      <media:credit>Andrew Cooper/Sony Pictures</media:credit>
+      <media:description>Brad Pitt as the stuntman Cliff Booth with his dog, Brandy, in Quentin Tarantino’s “Once Upon a Time … in Hollywood.”</media:description>
+    </item>
+    <item>
+      <title>‘Luce’ Review: A Star Student Tests His Teacher’s Limits</title>
+      <link>https://www.nytimes.com/2019/08/01/movies/luce-review.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/movies/luce-review.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/movies/luce-review.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>To say that this feature unfolds like a play is both accurate and undersells just how gorgeously it has been rendered for the screen.</description>
+      <dc:creator>Ben Kenigsberg</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 11:00:05 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Lee, J C</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Onah, Julius</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Luce (Movie)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/02/arts/luce1/merlin_158440197_b7136c19-1157-41ee-bf7e-7978027d2a06-moth.jpg" width="151"></media:content>
+      <media:credit>Jon Pack/NEON + topic</media:credit>
+      <media:description>From left, Octavia Spencer, Kelvin Harrison Jr. and Naomi Watts in “Luce.”</media:description>
+    </item>
+    <item>
+      <title>‘The Irishman’ Trailer: De Niro, Pacino and Scorsese at Work</title>
+      <link>https://www.nytimes.com/2019/07/31/movies/the-irishman-de-niro-pacino-scorsese.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/31/movies/the-irishman-de-niro-pacino-scorsese.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/31/movies/the-irishman-de-niro-pacino-scorsese.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>It’s the first time the three have been on the same movie. This drama, from Netflix, involves the disappearance of the union leader Jimmy Hoffa.</description>
+      <dc:creator>Bruce Fretts</dc:creator>
+      <pubDate>Wed, 31 Jul 2019 16:36:44 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">De Niro, Robert</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Pacino, Al</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Scorsese, Martin</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Pesci, Joe</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Netflix (Movie)</category>
+    </item>
+    <item>
+      <title>Have You Seen ‘Once Upon a Time … in Hollywood’? Here’s What to Read</title>
+      <link>https://www.nytimes.com/2019/07/29/books/charles-manson-books-once-upon-time-hollywood.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/29/books/charles-manson-books-once-upon-time-hollywood.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/29/books/charles-manson-books-once-upon-time-hollywood.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Five books about or inspired by Charles Manson give insight into one of the 20th century’s most notorious crime sprees.</description>
+      <dc:creator>Concepción de León</dc:creator>
+      <pubDate>Mon, 29 Jul 2019 22:44:58 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Manson, Charles</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Serial Murders</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Cline, Emma</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">The Girls (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">The Family: The Story of Charles Manson&#39;s Dune Buggy Attack Battalion (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Sanders, Edward (1939- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Helter Skelter (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Bugliosi, Vincent</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Manson: The Life and Times of Charles Manson (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">O&#39;Neill, Tom (Journalist)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Guinn, Jeff</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Chaos: Charles Manson, the C.I.A. and the Secret History of the Sixties (Book)</category>
+    </item>
+    <item>
+      <title>‘The Operative’ Review: High on Espionage, Low on Surprise</title>
+      <link>https://www.nytimes.com/2019/08/01/movies/the-operative-review.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/movies/the-operative-review.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/movies/the-operative-review.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>A bit of suspense and a good Diane Kruger performance notwithstanding, this thriller doesn’t have much new to offer.</description>
+      <dc:creator>Ben Kenigsberg</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 11:00:16 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kruger, Diane</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Freeman, Martin (1971- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">The Operative (Movie)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Adler, Yuval</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/30/arts/operative2/operative2-moth.jpg" width="151"></media:content>
+      <media:credit>Kolja Brandt/Vertical Entertainment</media:credit>
+      <media:description>Diane Kruger in “The Operative.”</media:description>
+    </item>
+    <item>
+      <title>5 Film Series to Catch in N.Y.C. This Weekend</title>
+      <link>https://www.nytimes.com/2019/08/01/movies/nyc-this-weekend-film-series.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/movies/nyc-this-weekend-film-series.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/movies/nyc-this-weekend-film-series.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Our guide to film series and special screenings.</description>
+      <dc:creator>Ben Kenigsberg</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 21:00:03 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">New York City</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/02/arts/02listings-movies/02listings-movies-moth.jpg" width="151"></media:content>
+      <media:credit>MGM</media:credit>
+      <media:description>A scene from Michelangelo Antonioni’s “Zabriskie Point,” which will screen on Saturday and Sunday as part of Film at Lincoln Center’s Another Country: Outsider Visions of America.</media:description>
+    </item>
+    <item>
+      <title>‘Hobbs &amp; Shaw’ Review: Rock-em-Sock-em Bromance</title>
+      <link>https://www.nytimes.com/2019/08/01/movies/fast-and-furious-presents-hobbs-and-shaw-review.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/movies/fast-and-furious-presents-hobbs-and-shaw-review.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/movies/fast-and-furious-presents-hobbs-and-shaw-review.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>This “Fast &amp; Furious” spinoff featuring Dwayne Johnson and Jason Statham veers awfully close to rom-com territory.</description>
+      <dc:creator>Wesley Morris</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 20:23:54 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Johnson, Dwayne (1972- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Leitch, David (Film Director)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Statham, Jason</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Fast &amp; Furious presents: Hobbs &amp; Shaw (Movie)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/02/arts/02Hobbs-Shaw1/02Hobbs-Shaw1-moth.jpg" width="151"></media:content>
+      <media:credit>Frank Masi/Universal Pictures</media:credit>
+      <media:description>Dwayne Johnson, left, and Jason Statham as teamed-up rivals &amp;mdash; or are they?</media:description>
+    </item>
+    <item>
+      <title>‘La Flor’ Review: Four Women in Search of a Movie</title>
+      <link>https://www.nytimes.com/2019/08/01/movies/la-flor-review.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/movies/la-flor-review.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/movies/la-flor-review.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Mariano Llinás’s 13-hour cinematic puzzle is a labor of love and obsession.</description>
+      <dc:creator>A.O. Scott</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 17:47:02 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">La Flor (Movie)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Llinas, Mariano</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/02/arts/02laflor1/laflor1-moth.jpg" width="151"></media:content>
+      <media:credit>Grasshopper Film</media:credit>
+      <media:description>From left, Santiago Gobernori, Laura Paredes and Elisa Carricajo in &amp;ldquo;La Flor.&amp;rdquo;</media:description>
+    </item>
+    <item>
+      <title>‘The Son’ Review: She’s Having a Baby (Without You)</title>
+      <link>https://www.nytimes.com/2019/08/01/movies/the-son-review-netflix.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/movies/the-son-review-netflix.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/movies/the-son-review-netflix.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Where “Rosemary’s Baby” preyed on a mother’s loss of agency over her child, this Argentine thriller toys with a father’s utter superfluousness.</description>
+      <dc:creator>Scott Tobias</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 17:05:02 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">The Son (TV Program)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Netflix Inc</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/01/arts/01theson/01theson-moth.jpg" width="151"></media:content>
+      <media:credit>Netflix</media:credit>
+      <media:description>Joaquín Furriel in the Argentine film “The Son,” directed by Sebastián Schindel.</media:description>
+    </item>
+    <item>
+      <title>‘Tel Aviv on Fire’ Review: Mideast Conflict as Soap Opera and Farce</title>
+      <link>https://www.nytimes.com/2019/08/01/movies/tel-aviv-on-fire-review.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/movies/tel-aviv-on-fire-review.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/movies/tel-aviv-on-fire-review.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Sameh Zoabi’s new film is less incendiary, and quite a bit funnier, than its title might suggest.</description>
+      <dc:creator>A.O. Scott</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 15:59:17 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Tel Aviv on Fire (Movie)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Zoabi, Sameh</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Jerusalem (Israel)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Ramallah (West Bank)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/01/arts/01telaviv1/01telaviv1-moth.jpg" width="151"></media:content>
+      <media:credit>Patricia Peribáñez/Cohen Media Group</media:credit>
+      <media:description>Kais Nashif as Salam, a Palestinian man who works for the show within the show in “Tel Aviv on Fire.”</media:description>
+    </item>
+    <item>
+      <title>One Night. One Chance. One Liza (With a ‘Z’).</title>
+      <link>https://www.nytimes.com/2019/08/01/arts/dance/liza-with-a-z-lincoln-center-out-of-doors.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/arts/dance/liza-with-a-z-lincoln-center-out-of-doors.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/arts/dance/liza-with-a-z-lincoln-center-out-of-doors.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Bob Fosse’s 1972 film of Liza Minnelli at the Lyceum Theater remains a spellbinding document of the art of performance.</description>
+      <dc:creator>Gia Kourlas</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 15:38:10 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Liza with a Z (Movie)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Minnelli, Liza</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Theater</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Fosse, Bob</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Lincoln Center for the Performing Arts</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Damrosch Park (Manhattan, NY)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/02/arts/01LIZAWITH-3/01LIZAWITH-3-moth.jpg" width="151"></media:content>
+      <media:credit>NBC/NBCU Photo Bank via Getty Images</media:credit>
+      <media:description>&amp;ldquo;I Gotcha&amp;rdquo;: Ms. Minnelli lights up the stage in Halston (he designed all of her clothes for the show) in &amp;ldquo;Liza With a &amp;lsquo;Z.&amp;rsquo;&amp;rdquo;</media:description>
+    </item>
+    <item>
+      <title>‘Piranhas’ Review: Junior Mafia</title>
+      <link>https://www.nytimes.com/2019/08/01/movies/piranhas-review.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/movies/piranhas-review.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/movies/piranhas-review.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>It’s tough turf in the towns around Naples, Italy, and one teen aspires to take them over and become a crime kingpin in this drama.</description>
+      <dc:creator>Glenn Kenny</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 11:00:15 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Saviano, Roberto</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Piranhas (Movie)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Giovannesi, Claudio</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/01/arts/01piranhas1/01piranhas1-moth.jpg" width="151"></media:content>
+      <media:credit>Music Box Films</media:credit>
+      <media:description>Luca Nacarlo, left, and Francesco Di Napoli in “Piranhas.”</media:description>
+    </item>
+    <item>
+      <title>‘Ladyworld’ Review: Fresh Talents Prove Themselves in a Twist on ‘Lord of the Flies’</title>
+      <link>https://www.nytimes.com/2019/08/01/movies/ladyworld-review.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/movies/ladyworld-review.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/movies/ladyworld-review.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Teenage girls, trapped and left to fend for themselves, establish a small, precarious society in Amanda Kramer’s film.</description>
+      <dc:creator>Teo Bugbee</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 11:00:04 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kramer, Amanda (Film Director)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Ladyworld (Movie)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/02/arts/01ladyworld1/01ladyworld1-moth-v3.jpg" width="151"></media:content>
+      <media:credit>Cleopatra Entertainment</media:credit>
+      <media:description>Kramer uses tableaus to convey the group&amp;rsquo;s shifting dynamics.</media:description>
+    </item>
+    <item>
+      <title>‘Them That Follow’ Review: Hiss of Death</title>
+      <link>https://www.nytimes.com/2019/08/01/movies/them-that-follow-review.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/movies/them-that-follow-review.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/movies/them-that-follow-review.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>A snake-handling Pentecostal pastor’s daughter faces a familiar romantic predicament in this dreary Appalachian tragedy.</description>
+      <dc:creator>Jeannette Catsoulis</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 11:00:02 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Them That Follow (Movie)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Englert, Alice</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Poulton, Britt</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Savage, Dan Madison</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/08/02/arts/follow1/follow1-moth.jpg" width="151"></media:content>
+      <media:credit>1091 Media</media:credit>
+      <media:description>Alice Englert in &amp;ldquo;Them That Follow.&amp;rdquo;</media:description>
+    </item>
+    <item>
+      <title>‘A Score to Settle’ Review: Vengeance Is Fine</title>
+      <link>https://www.nytimes.com/2019/08/01/movies/a-score-to-settle-review.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/08/01/movies/a-score-to-settle-review.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/08/01/movies/a-score-to-settle-review.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>As a dying mobster of dubious mental clarity, Nicolas Cage could not be more perfect for Shawn Ku’s loopy revenge thriller.</description>
+      <dc:creator>Jeannette Catsoulis</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 11:00:01 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Cage, Nicolas</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Ku, Shawn</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">A Score to Settle (Movie)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/30/arts/score1/score1-moth.jpg" width="151"></media:content>
+      <media:credit>RLJE Films</media:credit>
+      <media:description>Nicolas Cage has, and stars in, “A Score to Settle.”&lt;br /&gt;&lt;br /&gt;</media:description>
+    </item>
+    <item>
+      <title>‘Jay Myself’ Review: A Photographer Parts With His SoHo Paradise</title>
+      <link>https://www.nytimes.com/2019/07/30/movies/jay-myself-review.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/30/movies/jay-myself-review.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/30/movies/jay-myself-review.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>This documentary about Jay Maisel shows how a six-story building became his nest and a space for his hoardings.</description>
+      <dc:creator>Glenn Kenny</dc:creator>
+      <pubDate>Wed, 31 Jul 2019 04:05:06 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Documentary Films and Programs</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Jay Myself (Movie)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Wilkes, Stephen</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Maisel, Jay</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Photography</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Hoarding</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">SoHo (Manhattan, NY)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/31/arts/30jay/30jay-moth.jpg" width="151"></media:content>
+      <media:credit>Stephen Wilkes/Oscilloscope Laboratories</media:credit>
+      <media:description>The artist Jay Maisel, in his palace of curiosities, in &amp;ldquo;Jay Myself.&amp;rdquo;</media:description>
+    </item>
+    <item>
+      <title>‘The Lighthouse’ Trailer: Robert Pattinson and Willem Dafoe Get Spooky</title>
+      <link>https://www.nytimes.com/2019/07/30/movies/the-lighthouse-trailer.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/30/movies/the-lighthouse-trailer.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/30/movies/the-lighthouse-trailer.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The 19th-century tale comes from the director Robert Eggers, who was responsible for “The Witch.”</description>
+      <dc:creator>Bruce Fretts</dc:creator>
+      <pubDate>Wed, 31 Jul 2019 15:38:46 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">The Lighthouse (Movie)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Pattinson, Robert</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Eggers, Robert (Filmmaker)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Dafoe, Willem</category>
+    </item>
+    <item>
+      <title>Martin Scorsese’s ‘The Irishman’ Will Open the New York Film Festival</title>
+      <link>https://www.nytimes.com/2019/07/29/movies/irishman-new-york-film-festival-martin-scorsese.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/29/movies/irishman-new-york-film-festival-martin-scorsese.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/29/movies/irishman-new-york-film-festival-martin-scorsese.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The director’s big-budget Netflix film stars Robert De Niro, Al Pacino and Joe Pesci in a crime drama that features “de-aging” special effects.</description>
+      <dc:creator>Mekado Murphy</dc:creator>
+      <pubDate>Tue, 30 Jul 2019 03:47:32 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">The Irishman (Movie)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Scorsese, Martin</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">New York Film Festival</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/29/arts/nyff1/nyff1-moth.jpg" width="151"></media:content>
+      <media:credit>Niko Tavernise/Netflix</media:credit>
+      <media:description>Joe Pesci and Robert De Niro in “The Irishman.”</media:description>
+    </item>
+    <item>
+      <title>Korngold’s Rarely Heard Opera Hints at His Future in Hollywood</title>
+      <link>https://www.nytimes.com/2019/07/29/arts/music/korngold-bard-music-festival.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/29/arts/music/korngold-bard-music-festival.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/29/arts/music/korngold-bard-music-festival.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Bard SummerScape is offering the belated American premiere of “Das Wunder der Heliane” as part of a deep dive into Erich Wolfgang Korngold’s work.</description>
+      <dc:creator>Seth Colter Walls</dc:creator>
+      <pubDate>Tue, 30 Jul 2019 03:51:45 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Bard SummerScape Festival</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Opera</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">American Symphony Orchestra</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Botstein, Leon</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Korngold, Erich Wolfgang</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Das Wunder der Heliane (Opera)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/30/arts/30korngold/29korngold-moth.jpg" width="151"></media:content>
+      <media:credit>Stephanie Berger</media:credit>
+      <media:description>Erich Wolfgang Korngold’s “Das Wunder der Heliane” is having its American premiere, nearly 100 years after it was written, at the Bard SummerScape festival.</media:description>
+    </item>
+    <item>
+      <title>‘Once Upon a Time … in Hollywood’ Is a Box-Office Hit for Tarantino</title>
+      <link>https://www.nytimes.com/2019/07/28/movies/once-upon-a-time-in-hollywood-box-office.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/28/movies/once-upon-a-time-in-hollywood-box-office.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/28/movies/once-upon-a-time-in-hollywood-box-office.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Leonardo DiCaprio and Brad Pitt helped the director score one of the biggest opening weekends of his career.</description>
+      <dc:creator>Gabe Cohn</dc:creator>
+      <pubDate>Thu, 01 Aug 2019 14:39:45 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Once Upon a Time in Hollywood (Movie)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Tarantino, Quentin</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">The Lion King (Movie)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Favreau, Jon (1966- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">The Farewell (Movie)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/28/arts/28box/merlin_158308080_cfecb4cb-5016-458c-8036-4e443ed2938e-moth.jpg" width="151"></media:content>
+      <media:credit>Andrew Cooper/Sony Pictures</media:credit>
+      <media:description>Brad Pitt, left, and Leonardo DiCaprio in “Once Upon a Time … in Hollywood.” The film opened to about $40.4 million in domestic ticket sales.</media:description>
+    </item>
+    <item>
+      <title>Before Making Features, These Filmmakers Cut Their Movies Down to Size</title>
+      <link>https://www.nytimes.com/2019/07/28/arts/skin-movie.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/28/arts/skin-movie.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/28/arts/skin-movie.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The feature version of the Oscar-winning short “Skin” is not simply an expansion, but, in the director’s view, its opposite.</description>
+      <dc:creator>Ben Kenigsberg</dc:creator>
+      <pubDate>Tue, 30 Jul 2019 10:59:49 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Skin (Movie)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Academy Awards (Oscars)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Bell, Jamie</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Tucker, Jonathan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Nattiv, Guy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">The Babadook (Movie)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kent, Jennifer</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/28/arts/26skin-feature1/26skin-feature1-moth-v2.jpg" width="151"></media:content>
+      <media:credit>A24</media:credit>
+      <media:description>Jamie Bell in “Skin,” directed by Guy Nattiv.</media:description>
+    </item>
+    <item>
+      <title>Denise Richards, the Un-Housewife</title>
+      <link>https://www.nytimes.com/2019/07/27/style/denise-richards-real-housewives-beverly-hills.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/27/style/denise-richards-real-housewives-beverly-hills.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/27/style/denise-richards-real-housewives-beverly-hills.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The actress has brought a refreshing and occasionally disarming dose of reality to “The Real Housewives of Beverly Hills.”</description>
+      <dc:creator>Ilana Kaplan</dc:creator>
+      <pubDate>Mon, 29 Jul 2019 00:41:14 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Richards, Denise</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Actors and Actresses</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Reality Television</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">The Real Housewives of Beverly Hills (TV Program)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Phypers, Aaron</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Sheen, Charlie</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/28/fashion/27richards1/27richards1-moth-v2.jpg" width="151"></media:content>
+      <media:credit>Gisela Schober/Getty Images</media:credit>
+      <media:description>Denise Richards joined the cast of “The Real Housewives of Beverly Hills” this season, bringing to the show a casual attitude and frank discussions about sex and love.</media:description>
+    </item>
+    <item>
+      <title>Sharon Tate and ‘Once Upon a Time … in Hollywood’: What Actually Happened?</title>
+      <link>https://www.nytimes.com/2019/07/26/movies/sharon-tate-bio-facts-once-upon-a-time.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/26/movies/sharon-tate-bio-facts-once-upon-a-time.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/26/movies/sharon-tate-bio-facts-once-upon-a-time.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>The up-and-coming actress, who was murdered at age 26 by Manson family members, was in “Valley of the Dolls” and “The Wrecking Crew.”</description>
+      <dc:creator>Nancy Coleman</dc:creator>
+      <pubDate>Wed, 31 Jul 2019 15:49:47 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Actors and Actresses</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Religious Cults</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Tate, Sharon</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Manson, Charles</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Tarantino, Quentin</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Once Upon a Time in Hollywood (Movie)</category>
+      <category domain="">Manson Family</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/26/arts/26sharontate-5/26sharontate-5-moth.jpg" width="151"></media:content>
+      <media:credit>Getty Images</media:credit>
+      <media:description>The actress Sharon Tate on the set of “The Wrecking Crew.” Her role in the movie made its way into Quentin Tarantino’s “Once Upon a Time … in Hollywood.”</media:description>
+    </item>
+    <item>
+      <title>Solace and Salvation in the Marvel Universe, at 12 Cents a Comic Book</title>
+      <link>https://www.nytimes.com/2019/07/26/arts/marvel-universe-comics.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/26/arts/marvel-universe-comics.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/26/arts/marvel-universe-comics.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>How Jack Kirby, Steve Ditko and Stan Lee shaped one boy’s life at a time when his family was in deep distress.</description>
+      <dc:creator>Dana Jennings</dc:creator>
+      <pubDate>Fri, 26 Jul 2019 22:58:11 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Comic Books and Strips</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Marvel Comics</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Spider-Man (Fictional Character)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Children and Childhood</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Ditko, Steve</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kirby, Jack</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Lee, Stan</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/28/arts/28marvel-notebook-copy/28marvel-notebook-copy-moth.jpg" width="151"></media:content>
+      <media:credit>Armando Veve</media:credit>
+    </item>
+    <item>
+      <title>Angela Bassett Proves Who’s Queen in ‘Otherhood’</title>
+      <link>https://www.nytimes.com/2019/07/26/arts/angela-bassett-otherhood-911-black-panther.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/26/arts/angela-bassett-otherhood-911-black-panther.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/26/arts/angela-bassett-otherhood-911-black-panther.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>She talks about her new Netflix movie — and the recent travails of her co-star, Felicity Huffman.</description>
+      <dc:creator>Kathryn Shattuck</dc:creator>
+      <pubDate>Mon, 29 Jul 2019 11:06:53 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Bassett, Angela</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Actors and Actresses</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org">Netflix Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Otherhood (Movie)</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/28/arts/28snapshot-1/28snapshot-1-moth.jpg" width="151"></media:content>
+      <media:credit>Rozette Rago for The New York Times</media:credit>
+      <media:description>When Angela Bassett read the script for “Otherhood,” she said, “I just thought it was hysterical — I was falling over.”</media:description>
+    </item>
+    <item>
+      <title>How Thor Transforms in ‘Avengers: Endgame’</title>
+      <link>https://www.nytimes.com/2019/07/26/movies/avengers-endgame-clip.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/26/movies/avengers-endgame-clip.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/26/movies/avengers-endgame-clip.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Ahead of the film’s digital release, the directors Anthony and Joe Russo discuss a scene with Chris Hemsworth as a lackadaisical, beer-guzzling Thor.</description>
+      <dc:creator>Mekado Murphy</dc:creator>
+      <pubDate>Sat, 27 Jul 2019 23:07:06 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Russo, Anthony</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Russo, Joe</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Hemsworth, Chris</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Avengers: Endgame (Movie)</category>
+    </item>
+    <item>
+      <title>‘Avengers: Endgame’ | Anatomy of a Scene</title>
+      <link>https://www.nytimes.com/video/movies/100000006630166/avengers-endgame-scene.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/video/movies/100000006630166/avengers-endgame-scene.html</guid>
+      <atom:link href="https://www.nytimes.com/video/movies/100000006630166/avengers-endgame-scene.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Anthony and Joe Russo narrate a sequence from their film featuring Chris Hemsworth.</description>
+      <dc:creator>Mekado Murphy</dc:creator>
+      <pubDate>Sat, 27 Jul 2019 23:07:02 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Russo, Anthony</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Russo, Joe</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Avengers: Endgame (Movie)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Hemsworth, Chris</category>
+    </item>
+    <item>
+      <title>Review: ‘Moulin Rouge! The Musical’ Offers a Party, and a Playlist, for the Ages</title>
+      <link>https://www.nytimes.com/2019/07/25/theater/moulin-rouge-review.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/25/theater/moulin-rouge-review.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/25/theater/moulin-rouge-review.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>Forbidden pleasures abound in this spectacular musical, starring a dazzling Karen Olivo as a doomed Parisian chanteuse.</description>
+      <dc:creator>Ben Brantley</dc:creator>
+      <pubDate>Fri, 26 Jul 2019 10:38:01 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Theater</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Moulin Rouge!: The Musical (Play)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Olivo, Karen</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Tveit, Aaron</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Burstein, Danny</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Timbers, Alex</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/25/arts/25moulinrouge1/25moulinrouge1-moth.jpg" width="151"></media:content>
+      <media:credit>Sara Krulwich/The New York Times</media:credit>
+      <media:description>Aaron Tveit as Christian and Karen Olivo as Satine in “Moulin Rouge! The Musical” at the Al Hirschfeld Theater.</media:description>
+    </item>
+    <item>
+      <title>‘Boi’ Review: Being Driven to Distraction</title>
+      <link>https://www.nytimes.com/2019/07/25/movies/boi-review-being-driven-to-distraction.html?emc=rss&amp;partner=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2019/07/25/movies/boi-review-being-driven-to-distraction.html</guid>
+      <atom:link href="https://www.nytimes.com/2019/07/25/movies/boi-review-being-driven-to-distraction.html?emc=rss&amp;partner=rss" rel="standout"></atom:link>
+      <description>A would-be novelist roams Barcelona as a chauffeur who is the captive of his own overactive imagination in this film by Jorge M. Fontana.</description>
+      <dc:creator>Helen T. Verongos</dc:creator>
+      <pubDate>Fri, 26 Jul 2019 02:44:42 +0000</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Boi (Movie)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Fontana, Jorge M</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Quintana, Bernat</category>
+      <media:content height="151" medium="image" url="https://static01.nyt.com/images/2019/07/26/arts/26BOI/26BOI-moth.jpg" width="151"></media:content>
+      <media:credit>Netflix</media:credit>
+      <media:description>Miranda Gas and Bernat Quintana in the Spanish-language film “Boi,” from Jorge M. Fontana.</media:description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Digital Trends</title>
+	<atom:link href="https://www.digitaltrends.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.digitaltrends.com</link>
+	<description>Digital Trends is your home for technology news, CE product reviews, mobile app reviews and daily videos.</description>
+	<lastBuildDate>Thu, 01 Aug 2019 21:02:06 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+<image>
+	<url>https://icdn2.digitaltrends.com/image/file-ad4ef47dc6ad2c38adab03f161aa11ae-32x32.png</url>
+	<title>Digital Trends</title>
+	<link>https://www.digitaltrends.com</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Google Home, Mini, Max, or Hub: Which Should You Choose?</title>
+		<link>https://www.digitaltrends.com/home/google-home-vs-google-home-mini-vs-google-home-max/</link>
+				<comments>https://www.digitaltrends.com/home/google-home-vs-google-home-mini-vs-google-home-max/#respond</comments>
+				<pubDate>Thu, 01 Aug 2019 21:00:44 +0000</pubDate>
+		<dc:creator><![CDATA[Erika Rawes]]></dc:creator>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Home Theater]]></category>
+		<category><![CDATA[Smart Home]]></category>
+		<category><![CDATA[Google Assistant]]></category>
+		<category><![CDATA[Google Home]]></category>
+		<category><![CDATA[Google Home Mini]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=1253553</guid>
+				<description><![CDATA[The Google Home, Google Home Mini, Google Home Max, Nest Hub Max and Google Nest Hub, which one is best for you? We do a comparison of the smart assistant devices when it comes to looks, price, and sound.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/home/google-home-vs-google-home-mini-vs-google-home-max/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/google-home-hub-review-1-2-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>Secure your home as Amazon drops up to a $56 discount on August smart locks</title>
+		<link>https://www.digitaltrends.com/dtdeals/august-smart-locks-3rd-generation-amazon-deal/</link>
+				<comments>https://www.digitaltrends.com/dtdeals/august-smart-locks-3rd-generation-amazon-deal/#respond</comments>
+				<pubDate>Thu, 01 Aug 2019 20:59:47 +0000</pubDate>
+		<dc:creator><![CDATA[Jufer Cooper]]></dc:creator>
+				<category><![CDATA[Deals]]></category>
+		<category><![CDATA[Smart Home]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2368312</guid>
+				<description><![CDATA[We’ve found Amazon’s current best deals for August smart locks and put them all here. Whether you’re just starting out or simply looking to add extra security to your home, these deals can help you save up to $56.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/dtdeals/august-smart-locks-3rd-generation-amazon-deal/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/august-smart-lock-third-generation-review-bike-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>The Google Files app now has a dark mode and better offline playback controls</title>
+		<link>https://www.digitaltrends.com/mobile/google-files-app-dark-mode/</link>
+				<comments>https://www.digitaltrends.com/mobile/google-files-app-dark-mode/#respond</comments>
+				<pubDate>Thu, 01 Aug 2019 20:41:50 +0000</pubDate>
+		<dc:creator><![CDATA[Christian de Looper]]></dc:creator>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[files]]></category>
+		<category><![CDATA[Google]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2368602</guid>
+				<description><![CDATA[Google has launched an update to the Files app, finally bringing a dark mode that should help save battery life and reduce eye strain. On top of that, the new app now also offers better offline playback controls.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/mobile/google-files-app-dark-mode/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/files-go-storage-2-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>Top-load vs. front-load washer: Which should you buy?</title>
+		<link>https://www.digitaltrends.com/home/front-load-vs-top-load-washer/</link>
+				<comments>https://www.digitaltrends.com/home/front-load-vs-top-load-washer/#respond</comments>
+				<pubDate>Thu, 01 Aug 2019 20:40:42 +0000</pubDate>
+		<dc:creator><![CDATA[Erika Rawes]]></dc:creator>
+				<category><![CDATA[Smart Home]]></category>
+		<category><![CDATA[Front-loading washing machine]]></category>
+		<category><![CDATA[top-loading washing machines]]></category>
+		<category><![CDATA[washing machine]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=1342188</guid>
+				<description><![CDATA[There's more to the top-load versus front-load washer debate than how it opens. The two types of machines clean very differently and have pretty drastic differences in terms of cleaning power, price, and efficiency.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/home/front-load-vs-top-load-washer/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/electrolux_compact_washer__front_load_compact_dryer_with_iq-touch_-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>The FTC wants to know exactly why Facebook bought Instagram and WhatsApp</title>
+		<link>https://www.digitaltrends.com/news/ftc-investigating-facebook-acquisition-of-instagram-and-whatsapp/</link>
+				<comments>https://www.digitaltrends.com/news/ftc-investigating-facebook-acquisition-of-instagram-and-whatsapp/#respond</comments>
+				<pubDate>Thu, 01 Aug 2019 20:27:10 +0000</pubDate>
+		<dc:creator><![CDATA[Allison Matyus]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Social Media]]></category>
+		<category><![CDATA[antitrust]]></category>
+		<category><![CDATA[Facebook]]></category>
+		<category><![CDATA[facebook investigation]]></category>
+		<category><![CDATA[facebook settlement]]></category>
+		<category><![CDATA[FTC]]></category>
+		<category><![CDATA[FTC settlement]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2368609</guid>
+				<description><![CDATA[The Federal Trade Commission's antitrust investigation into Facebook will focus in on its acquisition of Instagram and WhatsApp. The FTC wants to know if Facebook tried to acquire its social media rivals before they would become a threat]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/news/ftc-investigating-facebook-acquisition-of-instagram-and-whatsapp/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/facebook-fine-not-enough-header-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>Amazon discounts 2019 MacBook Pros by up to $299 off, their lowest prices yet</title>
+		<link>https://www.digitaltrends.com/dtdeals/amazon-macbook-pro-sale/</link>
+				<comments>https://www.digitaltrends.com/dtdeals/amazon-macbook-pro-sale/#respond</comments>
+				<pubDate>Thu, 01 Aug 2019 20:15:45 +0000</pubDate>
+		<dc:creator><![CDATA[Ed Oswald]]></dc:creator>
+				<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Computing]]></category>
+		<category><![CDATA[Deals]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2368547</guid>
+				<description><![CDATA[Retailers are discounting the newest MacBook Pros, and Amazon's sale prices on higher-end models have caught our eye. The retailer has sliced $299 off the 15-inch, 2.3GHz Intel 8-core i9 512GB model, bringing it to its lowest price yet.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/dtdeals/amazon-macbook-pro-sale/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/macbook-pro-edited-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>You&#8217;re not paranoid. Everyone is tracking you wherever you go, even Netflix</title>
+		<link>https://www.digitaltrends.com/home-theater/netflix-tracking-android-activity-data/</link>
+				<comments>https://www.digitaltrends.com/home-theater/netflix-tracking-android-activity-data/#respond</comments>
+				<pubDate>Thu, 01 Aug 2019 20:06:23 +0000</pubDate>
+		<dc:creator><![CDATA[Chris Gates]]></dc:creator>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Home Theater]]></category>
+		<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[Netflix]]></category>
+		<category><![CDATA[privacy]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2368606</guid>
+				<description><![CDATA[Add Netflix to the list of apps to watch out for: A security researcher has discovered that Netflix is using a new Android Q feature to track the physical activity data for select Android phone users.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/home-theater/netflix-tracking-android-activity-data/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn6.digitaltrends.com/image/text-walking-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>Don&#8217;t miss these incredible Dell discounts on LG, Vizio and Samsung 4K TVs</title>
+		<link>https://www.digitaltrends.com/dtdeals/dell-4k-tv-sale-samsung-vizio-lg-oled/</link>
+				<comments>https://www.digitaltrends.com/dtdeals/dell-4k-tv-sale-samsung-vizio-lg-oled/#respond</comments>
+				<pubDate>Thu, 01 Aug 2019 19:58:42 +0000</pubDate>
+		<dc:creator><![CDATA[Josh Levenson]]></dc:creator>
+				<category><![CDATA[Deals]]></category>
+		<category><![CDATA[Home Theater]]></category>
+		<category><![CDATA[4K OLED TV]]></category>
+		<category><![CDATA[4K TV]]></category>
+		<category><![CDATA[4K TV deals]]></category>
+		<category><![CDATA[LG OLED TV]]></category>
+		<category><![CDATA[oled tv]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2368367</guid>
+				<description><![CDATA[Amazon Prime Day 2019 is long gone, but the discounted 4K TV mill that is Dell's online store is showing no signs of slowing down. The retailer has slashed the price of several must-have 4K Ultra HD TVs.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/dtdeals/dell-4k-tv-sale-samsung-vizio-lg-oled/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/58-inch-samsung-4k-tv-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>WarnerMedia&#8217;s HBO Max streaming service: Everything we know about it so far</title>
+		<link>https://www.digitaltrends.com/home-theater/what-is-hbo-max/</link>
+				<comments>https://www.digitaltrends.com/home-theater/what-is-hbo-max/#respond</comments>
+				<pubDate>Thu, 01 Aug 2019 19:47:55 +0000</pubDate>
+		<dc:creator><![CDATA[Chris Gates]]></dc:creator>
+				<category><![CDATA[Home Theater]]></category>
+		<category><![CDATA[Movies & TV]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[AT&T]]></category>
+		<category><![CDATA[DC Universe]]></category>
+		<category><![CDATA[HBO]]></category>
+		<category><![CDATA[Warner Bros]]></category>
+		<category><![CDATA[WarnerMedia]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2342814</guid>
+				<description><![CDATA[AT&#038;T's WarnerMedia is joining the streaming video environment with HBO Max, a service that will bundle HBO, WarnerMedia cable channels, and Warner Bros.' feature films on a single platform. Here's everything we know about it so far.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/home-theater/what-is-hbo-max/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/wonder-woman-1984-wb-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>The Replacements: How Mighty Thor shows superhero swaps are the MCU&#8217;s future</title>
+		<link>https://www.digitaltrends.com/movies/mighty-thor-shows-legacy-characters-are-marvels-future/</link>
+				<comments>https://www.digitaltrends.com/movies/mighty-thor-shows-legacy-characters-are-marvels-future/#respond</comments>
+				<pubDate>Thu, 01 Aug 2019 19:41:21 +0000</pubDate>
+		<dc:creator><![CDATA[Chris Gates]]></dc:creator>
+				<category><![CDATA[Movies & TV]]></category>
+		<category><![CDATA[Opinion]]></category>
+		<category><![CDATA[Disney]]></category>
+		<category><![CDATA[Marvel]]></category>
+		<category><![CDATA[MCU]]></category>
+		<category><![CDATA[Mighty Thor]]></category>
+		<category><![CDATA[Thor]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2368073</guid>
+				<description><![CDATA[Chris Evans, Robert Downey Jr., and others are finished with Marvel, but there's no reason why Captain America, Iron Man, and the rest can't live on. Here's how Mighty Thor proves superhero swaps are key to the MCU's future.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/movies/mighty-thor-shows-legacy-characters-are-marvels-future/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/thor-movie-images-426-12-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>Digital Trends Live: Galaxy Note 10 loses headphone jack, and more</title>
+		<link>https://www.digitaltrends.com/digital-trends-live/episode-184/</link>
+				<comments>https://www.digitaltrends.com/digital-trends-live/episode-184/#respond</comments>
+				<pubDate>Thu, 01 Aug 2019 19:33:32 +0000</pubDate>
+		<dc:creator><![CDATA[Todd Werkhoven]]></dc:creator>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Digital Trends Live]]></category>
+		<category><![CDATA[Drones]]></category>
+		<category><![CDATA[dt live]]></category>
+		<category><![CDATA[galaxy note 10]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2368562</guid>
+				<description><![CDATA[On this episode of Digital Trends Live, we dig into the biggest trending stories in tech, including leaked images of the Galaxy Note 10 showing no headphone jack, a malfunctioning postal drone crash, and tires that generate electricity.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/digital-trends-live/episode-184/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/maxresdefault-71-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>Save hundreds with Dell XPS 13 and XPS 15 2-in-1 laptop deals through Friday</title>
+		<link>https://www.digitaltrends.com/dtdeals/dell-xps-13-laptops-and-xps15-2-in-1s-get-deep-discounts/</link>
+				<comments>https://www.digitaltrends.com/dtdeals/dell-xps-13-laptops-and-xps15-2-in-1s-get-deep-discounts/#respond</comments>
+				<pubDate>Thu, 01 Aug 2019 19:05:44 +0000</pubDate>
+		<dc:creator><![CDATA[William Hank]]></dc:creator>
+				<category><![CDATA[Computing]]></category>
+		<category><![CDATA[Deals]]></category>
+		<category><![CDATA[13-inch laptops]]></category>
+		<category><![CDATA[15-inch laptop]]></category>
+		<category><![CDATA[2-in-1 laptops]]></category>
+		<category><![CDATA[Dell]]></category>
+		<category><![CDATA[Dell XPS 13]]></category>
+		<category><![CDATA[Dell XPS 15 2-in-1]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2368377</guid>
+				<description><![CDATA[August is an advantageous time to invest in a new laptop, and now just in time for back-to-school season, you can get a Dell XPS 13 laptop for just $1,000, or a Dell XPS 15 2-in-1 laptop for just $1,400.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/dtdeals/dell-xps-13-laptops-and-xps15-2-in-1s-get-deep-discounts/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/2019-dell-xps-13-review-6-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>Intel Cascade Lake X CPUs: Everything we know so far</title>
+		<link>https://www.digitaltrends.com/computing/intel-cascade-lake-x-news-rumor-specs-price-release-date/</link>
+				<comments>https://www.digitaltrends.com/computing/intel-cascade-lake-x-news-rumor-specs-price-release-date/#respond</comments>
+				<pubDate>Thu, 01 Aug 2019 19:00:14 +0000</pubDate>
+		<dc:creator><![CDATA[Jon Martindale]]></dc:creator>
+				<category><![CDATA[Computing]]></category>
+		<category><![CDATA[Cascade Lake]]></category>
+		<category><![CDATA[CPU]]></category>
+		<category><![CDATA[Intel]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2367672</guid>
+				<description><![CDATA[Intel's Cascade Lake X might be what's needed to combat AMD's upcoming third-generation Threadripper CPUs, but the question is, just how fast will these monster processors actually be?]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/computing/intel-cascade-lake-x-news-rumor-specs-price-release-date/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/intel-9th-gen-core-2-2-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>Ninja leaves Twitch for Mixer, says he&#8217;s getting back in touch with his roots</title>
+		<link>https://www.digitaltrends.com/gaming/ninja-leaves-twitch-for-mixer/</link>
+				<comments>https://www.digitaltrends.com/gaming/ninja-leaves-twitch-for-mixer/#respond</comments>
+				<pubDate>Thu, 01 Aug 2019 18:54:04 +0000</pubDate>
+		<dc:creator><![CDATA[Gabe Gurwin]]></dc:creator>
+				<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[fortnite]]></category>
+		<category><![CDATA[Microsoft]]></category>
+		<category><![CDATA[mixer]]></category>
+		<category><![CDATA[ninja]]></category>
+		<category><![CDATA[Twitch]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2368517</guid>
+				<description><![CDATA[Tyler "Ninja" Blevins has partnered with Mixer to stream exclusively on the platform. He was previously the biggest user on Twitch, largely playing Fortnite for millions of viewers.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/gaming/ninja-leaves-twitch-for-mixer/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/fortnite-ninja-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>Get ready for college with the Asus C523 Chromebook, now $118 less on Amazon</title>
+		<link>https://www.digitaltrends.com/dtdeals/asus-chromebook-c523-amazon-deals/</link>
+				<comments>https://www.digitaltrends.com/dtdeals/asus-chromebook-c523-amazon-deals/#respond</comments>
+				<pubDate>Thu, 01 Aug 2019 18:51:48 +0000</pubDate>
+		<dc:creator><![CDATA[Jufer Cooper]]></dc:creator>
+				<category><![CDATA[Computing]]></category>
+		<category><![CDATA[Deals]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2368240</guid>
+				<description><![CDATA[Just in time for the new school year, the Asus C523 15.6-Inch Chromebook is currently discounted by 30% at Amazon. You can get it today for only $282 instead of $400, so you'll save $118.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/dtdeals/asus-chromebook-c523-amazon-deals/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/asus-chromebook-c523-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>Amazon takes 75% off this Wi-Fi enabled smart garage door controller with camera</title>
+		<link>https://www.digitaltrends.com/dtdeals/momentum-niro-wifi-garage-door-controller-with-camera-deal/</link>
+				<comments>https://www.digitaltrends.com/dtdeals/momentum-niro-wifi-garage-door-controller-with-camera-deal/#respond</comments>
+				<pubDate>Thu, 01 Aug 2019 18:47:12 +0000</pubDate>
+		<dc:creator><![CDATA[Drake Hawkins]]></dc:creator>
+				<category><![CDATA[Deals]]></category>
+		<category><![CDATA[Smart Home]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2368282</guid>
+				<description><![CDATA[Make sure your garage door is closed every time you drive out with the Momentum Niro Wi-Fi Garage Door Controller with Built-In Camera today. This device is available for a steal at only $50 on Amazon.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/dtdeals/momentum-niro-wifi-garage-door-controller-with-camera-deal/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/momentum-niro-wi-fi-garage-door-controller-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>The best gaming tablets for 2019</title>
+		<link>https://www.digitaltrends.com/mobile/best-gaming-tablets/</link>
+				<comments>https://www.digitaltrends.com/mobile/best-gaming-tablets/#respond</comments>
+				<pubDate>Thu, 01 Aug 2019 18:30:21 +0000</pubDate>
+		<dc:creator><![CDATA[Simon Hill]]></dc:creator>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[Android gaming]]></category>
+		<category><![CDATA[best tablets]]></category>
+		<category><![CDATA[gaming tablet]]></category>
+		<category><![CDATA[iPad Games]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2365570</guid>
+				<description><![CDATA[If you love to game on the go, but your smartphone isn't quite cutting it, then perhaps you need to invest in one of the best gaming tablets. We run through all your top options here and discuss the pros and cons of each to help you pick.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/mobile/best-gaming-tablets/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/ipad-mini-2019-11b-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>Comcast lowers shared data prices on Xfinity Mobile based on how much you buy</title>
+		<link>https://www.digitaltrends.com/mobile/xfinity-mobile-shared-data-price/</link>
+				<comments>https://www.digitaltrends.com/mobile/xfinity-mobile-shared-data-price/#respond</comments>
+				<pubDate>Thu, 01 Aug 2019 18:22:30 +0000</pubDate>
+		<dc:creator><![CDATA[Christian de Looper]]></dc:creator>
+				<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[Comcast]]></category>
+		<category><![CDATA[Xfinity Mobile]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2368513</guid>
+				<description><![CDATA[Comcast has announced a few changes to the price of Xfinity Mobile. Namely, shared data on the company's By the Gig plan will now cost a little less, depending on how much data you buy.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/mobile/xfinity-mobile-shared-data-price/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/fcc-slaps-comcast-with-2-3-million-fine-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>How to download movies from Netflix for offline viewing</title>
+		<link>https://www.digitaltrends.com/home-theater/how-to-download-movies-and-tv-shows-from-netflix/</link>
+				<comments>https://www.digitaltrends.com/home-theater/how-to-download-movies-and-tv-shows-from-netflix/#respond</comments>
+				<pubDate>Thu, 01 Aug 2019 18:18:23 +0000</pubDate>
+		<dc:creator><![CDATA[Josh Levenson]]></dc:creator>
+				<category><![CDATA[Home Theater]]></category>
+		<category><![CDATA[How-To]]></category>
+		<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[Movies & TV]]></category>
+		<category><![CDATA[Android]]></category>
+		<category><![CDATA[iOS]]></category>
+		<category><![CDATA[Netflix]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=1088136</guid>
+				<description><![CDATA[If you want to watch your favorite Netflix films and TV shows but don't have a data connection, you need to download them to view offline. Here, we show you how to download movies and TV series from Netflix in iOS, Android, or Windows 10.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/home-theater/how-to-download-movies-and-tv-shows-from-netflix/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/laptop-plane-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>Amazon drops huge 76% discount on Sengled smart bulb with built-in JBL speaker</title>
+		<link>https://www.digitaltrends.com/dtdeals/sengled-pulse-led-smart-bulb-with-jbl-speaker-amazon-deal/</link>
+				<comments>https://www.digitaltrends.com/dtdeals/sengled-pulse-led-smart-bulb-with-jbl-speaker-amazon-deal/#respond</comments>
+				<pubDate>Thu, 01 Aug 2019 18:15:37 +0000</pubDate>
+		<dc:creator><![CDATA[Drake Hawkins]]></dc:creator>
+				<category><![CDATA[Deals]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2368336</guid>
+				<description><![CDATA[Set the mood in any room with the Sengled Pulse LED smart bulb with JBL Bluetooth speaker. Order the starter kit from Amazon today at up to 76% off. You can also get each additional satellite bulbs at 71% less.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/dtdeals/sengled-pulse-led-smart-bulb-with-jbl-speaker-amazon-deal/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/sengled-pulse-link-0007-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>Biologists recovered RNA from a frozen prehistoric wolf. Don&#8217;t freak out, though</title>
+		<link>https://www.digitaltrends.com/cool-tech/sequence-rna-ancient-wolf/</link>
+				<comments>https://www.digitaltrends.com/cool-tech/sequence-rna-ancient-wolf/#respond</comments>
+				<pubDate>Thu, 01 Aug 2019 18:15:15 +0000</pubDate>
+		<dc:creator><![CDATA[Luke Dormehl]]></dc:creator>
+				<category><![CDATA[Emerging Tech]]></category>
+		<category><![CDATA[News]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2368321</guid>
+				<description><![CDATA[Researchers in Copenhagen have sequenced the RNA genetic information of a 14,300-year-old mummified wolf. Try and tell us this doesn't sound like the first act of a great horror movie!]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/cool-tech/sequence-rna-ancient-wolf/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/wolf-snarling-in-snow-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>Ticwatch smartwatches get an awesome price cut of up to 30% on Amazon</title>
+		<link>https://www.digitaltrends.com/dtdeals/ticwatch-smartwatches-amazon-price-cut/</link>
+				<comments>https://www.digitaltrends.com/dtdeals/ticwatch-smartwatches-amazon-price-cut/#respond</comments>
+				<pubDate>Thu, 01 Aug 2019 18:12:58 +0000</pubDate>
+		<dc:creator><![CDATA[Jufer Cooper]]></dc:creator>
+				<category><![CDATA[Deals]]></category>
+		<category><![CDATA[Wearables]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2368233</guid>
+				<description><![CDATA[If you are still searching for the best smartwatch, you’re in luck. Amazon has stripped up to 30% away from the Ticwatch smartwatches. Now you can get your very own at an affordable price.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/dtdeals/ticwatch-smartwatches-amazon-price-cut/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/ticwatch-pro-4g_lte-running-2-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>OnePlus 7 Pro vs. Pixel 3a vs. ZenFone 6 vs. Samsung Galaxy A50: Camera shootout</title>
+		<link>https://www.digitaltrends.com/photography/oneplus-7-pro-pixel-3a-zenfone-6-galaxy-a50-midrange-camera-shootout/</link>
+				<comments>https://www.digitaltrends.com/photography/oneplus-7-pro-pixel-3a-zenfone-6-galaxy-a50-midrange-camera-shootout/#respond</comments>
+				<pubDate>Thu, 01 Aug 2019 18:03:41 +0000</pubDate>
+		<dc:creator><![CDATA[Julian Chokkattu]]></dc:creator>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[Photography]]></category>
+		<category><![CDATA[camera shootout]]></category>
+		<category><![CDATA[Google Pixel]]></category>
+		<category><![CDATA[oneplus]]></category>
+		<category><![CDATA[Phones]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2364905</guid>
+				<description><![CDATA[You don't need to spend a ton of money to get a good camera phone. We take a look at some of our favorite midrange phones, ranging from the $350 Samsung Galaxy A50 to the $669 OnePlus 7 Pro, to find the best camera in this category.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/photography/oneplus-7-pro-pixel-3a-zenfone-6-galaxy-a50-midrange-camera-shootout/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/oneplus7pixel3azengeeshwhy_4-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>Fortnite adds mechs to Battle Royale, and competitive players are not happy</title>
+		<link>https://www.digitaltrends.com/gaming/fortnite-season-10-adds-mechs-competitive-players-not-happy/</link>
+				<comments>https://www.digitaltrends.com/gaming/fortnite-season-10-adds-mechs-competitive-players-not-happy/#respond</comments>
+				<pubDate>Thu, 01 Aug 2019 17:54:50 +0000</pubDate>
+		<dc:creator><![CDATA[Gabe Gurwin]]></dc:creator>
+				<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[battle royale]]></category>
+		<category><![CDATA[Epic Games]]></category>
+		<category><![CDATA[fortnite]]></category>
+		<category><![CDATA[Fortnite News]]></category>
+		<category><![CDATA[Season X]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2368446</guid>
+				<description><![CDATA[Fortnite's 10th season, called Season X, has arrived. The season introduces the previously -teased mech vehicle called the B.R.U.T.E., as well as new phenomena that could change the island itself.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/gaming/fortnite-season-10-adds-mechs-competitive-players-not-happy/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/fortnitebrute-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>Score the bestselling Instant Pot Lux60 for only $49 on Amazon</title>
+		<link>https://www.digitaltrends.com/dtdeals/instant-pot-lux60-amazon-price-cut/</link>
+				<comments>https://www.digitaltrends.com/dtdeals/instant-pot-lux60-amazon-price-cut/#respond</comments>
+				<pubDate>Thu, 01 Aug 2019 17:50:53 +0000</pubDate>
+		<dc:creator><![CDATA[Erica Katherina]]></dc:creator>
+				<category><![CDATA[Deals]]></category>
+		<category><![CDATA[Smart Home]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2368230</guid>
+				<description><![CDATA[If you’re trying out an Instant Pot for the first time and don’t want to spend a fortune on the high-end models, check out the Instant Pot Lux60. Amazon has a deal on the 6-quart version that lets you have it for only $49.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/dtdeals/instant-pot-lux60-amazon-price-cut/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/instant-pot-lux60-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>Amazon slashes $50 off the adorable Vector toy robot with built-in Alexa</title>
+		<link>https://www.digitaltrends.com/dtdeals/vector-toy-robot-amazon-deal/</link>
+				<comments>https://www.digitaltrends.com/dtdeals/vector-toy-robot-amazon-deal/#respond</comments>
+				<pubDate>Thu, 01 Aug 2019 17:44:36 +0000</pubDate>
+		<dc:creator><![CDATA[Timothy Taylor]]></dc:creator>
+				<category><![CDATA[Deals]]></category>
+		<category><![CDATA[toy robot]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2367612</guid>
+				<description><![CDATA[An adorable toy robot called Vector can hang out with you, be a helpful assistant, and do a few tricks. Vector is currently available on Amazon for 20% off. Get this Alexa-compatible robot for $199 instead of its normal retail price of $250.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/dtdeals/vector-toy-robot-amazon-deal/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/awesome-tech-8-12-vector-robot-mem4-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>Facebook just deleted a horde of fake accounts from the Middle East</title>
+		<link>https://www.digitaltrends.com/news/facebook-removes-fake-accounts-from-middle-east/</link>
+				<comments>https://www.digitaltrends.com/news/facebook-removes-fake-accounts-from-middle-east/#respond</comments>
+				<pubDate>Thu, 01 Aug 2019 17:27:01 +0000</pubDate>
+		<dc:creator><![CDATA[Allison Matyus]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Social Media]]></category>
+		<category><![CDATA[Facebook]]></category>
+		<category><![CDATA[facebook fake accounts]]></category>
+		<category><![CDATA[fake accounts]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2368503</guid>
+				<description><![CDATA[Facebook removed fake accounts from UAE, Egypt and Saudi Arabia because of coordinated inauthentic behavior. The social network announced in a blog post the removal of pages, groups, and accounts that originated in these countries.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/news/facebook-removes-fake-accounts-from-middle-east/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn5.digitaltrends.com/image/facebook-login-smartphone-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>These Canon wireless all-in-one printers get massive price cuts on Amazon</title>
+		<link>https://www.digitaltrends.com/dtdeals/canon-wireless-all-in-one-printers-amazon-deal/</link>
+				<comments>https://www.digitaltrends.com/dtdeals/canon-wireless-all-in-one-printers-amazon-deal/#respond</comments>
+				<pubDate>Thu, 01 Aug 2019 17:15:50 +0000</pubDate>
+		<dc:creator><![CDATA[Erica Katherina]]></dc:creator>
+				<category><![CDATA[Computing]]></category>
+		<category><![CDATA[Deals]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2368274</guid>
+				<description><![CDATA[Wireless printers provide the convenience of printing directly from handheld devices, saving you from the hassle and potential hazards that come with cables. Check out these Canon wireless printers that are on sale on Amazon.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/dtdeals/canon-wireless-all-in-one-printers-amazon-deal/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/canon-ts8120-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>Here&#8217;s how to cancel your Netflix subscription when it&#8217;s time to stop bingeing</title>
+		<link>https://www.digitaltrends.com/home-theater/how-to-cancel-netflix/</link>
+				<comments>https://www.digitaltrends.com/home-theater/how-to-cancel-netflix/#respond</comments>
+				<pubDate>Thu, 01 Aug 2019 17:10:49 +0000</pubDate>
+		<dc:creator><![CDATA[Simon Cohen]]></dc:creator>
+				<category><![CDATA[Home Theater]]></category>
+		<category><![CDATA[Amazon Prime Video]]></category>
+		<category><![CDATA[How-To]]></category>
+		<category><![CDATA[Hulu]]></category>
+		<category><![CDATA[Netflix]]></category>
+		<category><![CDATA[on-demand video]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=2368390</guid>
+				<description><![CDATA[Looking to save some money on your bills? Or perhaps all of that bingeing is taking a toll on your work and social life? Canceling your Netflix account can help. But how do you do it, and what if you change your mind? We have the answers.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/home-theater/how-to-cancel-netflix/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/wr-6-8-17-netflix-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+		<item>
+		<title>What is Apple Music? The streaming music service fully explained</title>
+		<link>https://www.digitaltrends.com/music/what-is-apple-music/</link>
+				<comments>https://www.digitaltrends.com/music/what-is-apple-music/#respond</comments>
+				<pubDate>Thu, 01 Aug 2019 17:09:08 +0000</pubDate>
+		<dc:creator><![CDATA[Simon Cohen]]></dc:creator>
+				<category><![CDATA[Apple]]></category>
+		<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[Music]]></category>
+		<category><![CDATA[Apple Music]]></category>
+		<category><![CDATA[music service]]></category>
+
+		<guid isPermaLink="false">https://www.digitaltrends.com/?p=791203</guid>
+				<description><![CDATA[Ever since its debut, Apple Music has been gaining on market leader Spotify. But what accounts for Apple Music's popularity? How do you sign up and listen? All of this and more in our Apple Music explainer.]]></description>
+						<wfw:commentRss>https://www.digitaltrends.com/music/what-is-apple-music/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+						<enclosure url="https://icdn2.digitaltrends.com/image/ios12-ipad-pro-11-iphone-x-android-apple-music-for-you-hero-440x292-c.jpg" length="0" type="image/png" />
+	</item>
+	</channel>
+</rss>

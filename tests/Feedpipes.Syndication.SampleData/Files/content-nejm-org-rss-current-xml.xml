@@ -1,0 +1,1499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns="http://purl.org/rss/1.0/"
+         xmlns:cc="http://web.resource.org/cc/"
+         xmlns:content="http://purl.org/rss/1.0/modules/content/"
+         xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/"
+         xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <channel>
+      <title>massmed: New England Journal of Medicine: Table of Contents</title>
+      <description>Table of Contents for New England Journal of Medicine. List of articles from both the latest and ahead of print issues.</description>
+      <dc:title>massmed: New England Journal of Medicine: Table of Contents</dc:title>
+      <dc:publisher>massmed</dc:publisher>
+      <dc:language>en-US</dc:language>
+      <prism:publicationName>New England Journal of Medicine</prism:publicationName>
+      <items>
+         <rdf:Seq>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMp1906733?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMp1904482?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMp1902650?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMp1902177?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMoa1900105?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMoa1900100?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMoa1817073?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMoa1710430?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMra1706910?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMicm1816147?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMicm1815973?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMcps1900774?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMe1908869?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMcibr1906340?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMms1817674?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMc1905039?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMc1907524?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMc1907673?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMc1907800?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMx190022?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMp1908839?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMe1908978?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMe1909363?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMoa1813599?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMoa1901713?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMoa1902824?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMoa1904340?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMp1908843?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMp1909643?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMc1908155?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMoa1905230?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMp1906593?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMp1906207?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMsa1816660?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMp1908305?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMp1905589?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMp1906972?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMsr1901772?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMe1906771?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMoa1903212?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMoa1901118?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMe1907458?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMoa1902226?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMe1906815?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMoa1900906?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMoa1904059?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMoa1905287?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMoa1905248?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMoa1900866?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMoa1903822?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMoa1708120?af=R&amp;rss=currentIssue"/>
+            <rdf:li rdf:resource="https://www.nejm.org/doi/full/10.1056/NEJMoa1604037?af=R&amp;rss=currentIssue"/>
+         </rdf:Seq>
+      </items>
+   </channel>
+   <image rdf:about="http://www.atypon.com/images/atypon_logo_small.gif">
+      <title>New England Journal of Medicine</title>
+      <url>http://www.atypon.com/images/atypon_logo_small.gif</url>
+      <link>https://www.nejm.org/</link>
+   </image>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMp1906733?af=R&amp;rss=currentIssue">
+      <title>Population and the Environment — Time for Another Contraception Revolution</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMp1906733?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, &lt;a href="https://www.nejm.org/toc/nejm/381/5"&gt;Volume 381, Issue 5&lt;/a&gt;, Page 397-399, August 2019. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Volume 381, Issue 5, Page 397-399, August 2019. &lt;br/&gt;</description>
+      <dc:title>Population and the Environment — Time for Another Contraception Revolution</dc:title>
+      <dc:identifier>doi:10.1056/NEJMp1906733</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-07-31T09:00:27Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <dc:creator>Deborah J. Anderson</dc:creator>
+      <prism:publicationName>Population and the Environment — Time for Another Contraception Revolution</prism:publicationName>
+      <prism:volume>381</prism:volume>
+      <prism:number>5</prism:number>
+      <prism:startingPage>397</prism:startingPage>
+      <prism:endingPage>399</prism:endingPage>
+      <prism:coverDate>2019-08-01T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2019-08-01T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1056/NEJMp1906733</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMp1906733?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMp1904482?af=R&amp;rss=currentIssue">
+      <title>Saving the Endangered Physician-Scientist — A Plan for Accelerating Medical Breakthroughs</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMp1904482?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, &lt;a href="https://www.nejm.org/toc/nejm/381/5"&gt;Volume 381, Issue 5&lt;/a&gt;, Page 399-402, August 2019. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Volume 381, Issue 5, Page 399-402, August 2019. &lt;br/&gt;</description>
+      <dc:title>Saving the Endangered Physician-Scientist — A Plan for Accelerating Medical Breakthroughs</dc:title>
+      <dc:identifier>doi:10.1056/NEJMp1904482</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-07-31T09:00:04Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <dc:creator>Mukesh K. Jain</dc:creator>
+      <dc:creator>Vivian G. Cheung</dc:creator>
+      <dc:creator>Paul J. Utz</dc:creator>
+      <dc:creator>Brian K. Kobilka</dc:creator>
+      <dc:creator>Tadataka Yamada</dc:creator>
+      <dc:creator>Robert Lefkowitz</dc:creator>
+      <prism:publicationName>Saving the Endangered Physician-Scientist — A Plan for Accelerating Medical Breakthroughs</prism:publicationName>
+      <prism:volume>381</prism:volume>
+      <prism:number>5</prism:number>
+      <prism:startingPage>399</prism:startingPage>
+      <prism:endingPage>402</prism:endingPage>
+      <prism:coverDate>2019-08-01T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2019-08-01T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1056/NEJMp1904482</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMp1904482?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMp1902650?af=R&amp;rss=currentIssue">
+      <title>Ghosts of Our Collective Subconscious — What Blackface in a Yearbook Photo Means for Medical Education</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMp1902650?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, &lt;a href="https://www.nejm.org/toc/nejm/381/5"&gt;Volume 381, Issue 5&lt;/a&gt;, Page 402-403, August 2019. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Volume 381, Issue 5, Page 402-403, August 2019. &lt;br/&gt;</description>
+      <dc:title>Ghosts of Our Collective Subconscious — What Blackface in a Yearbook Photo Means for Medical Education</dc:title>
+      <dc:identifier>doi:10.1056/NEJMp1902650</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-07-31T09:00:27Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <dc:creator>Dereck W. Paul</dc:creator>
+      <prism:publicationName>Ghosts of Our Collective Subconscious — What Blackface in a Yearbook Photo Means for Medical Education</prism:publicationName>
+      <prism:volume>381</prism:volume>
+      <prism:number>5</prism:number>
+      <prism:startingPage>402</prism:startingPage>
+      <prism:endingPage>403</prism:endingPage>
+      <prism:coverDate>2019-08-01T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2019-08-01T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1056/NEJMp1902650</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMp1902650?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMp1902177?af=R&amp;rss=currentIssue">
+      <title>“Browner” — Creating Narratives of Race</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMp1902177?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, &lt;a href="https://www.nejm.org/toc/nejm/381/5"&gt;Volume 381, Issue 5&lt;/a&gt;, Page 404-405, August 2019. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Volume 381, Issue 5, Page 404-405, August 2019. &lt;br/&gt;</description>
+      <dc:title>“Browner” — Creating Narratives of Race</dc:title>
+      <dc:identifier>doi:10.1056/NEJMp1902177</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-07-31T09:00:28Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <dc:creator>Tara Vijayan</dc:creator>
+      <prism:publicationName>“Browner” — Creating Narratives of Race</prism:publicationName>
+      <prism:volume>381</prism:volume>
+      <prism:number>5</prism:number>
+      <prism:startingPage>404</prism:startingPage>
+      <prism:endingPage>405</prism:endingPage>
+      <prism:coverDate>2019-08-01T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2019-08-01T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1056/NEJMp1902177</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMp1902177?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMoa1900105?af=R&amp;rss=currentIssue">
+      <title>Immediate Transfusion in African Children with Uncomplicated Severe Anemia</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMoa1900105?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, &lt;a href="https://www.nejm.org/toc/nejm/381/5"&gt;Volume 381, Issue 5&lt;/a&gt;, Page 407-419, August 2019. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Volume 381, Issue 5, Page 407-419, August 2019. &lt;br/&gt;</description>
+      <dc:title>Immediate Transfusion in African Children with Uncomplicated Severe Anemia</dc:title>
+      <dc:identifier>doi:10.1056/NEJMoa1900105</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-07-31T09:00:17Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <dc:creator>Kathryn Maitland</dc:creator>
+      <dc:creator>Sarah Kiguli</dc:creator>
+      <dc:creator>Peter Olupot-Olupot</dc:creator>
+      <dc:creator>Charles Engoru</dc:creator>
+      <dc:creator>Macpherson Mallewa</dc:creator>
+      <dc:creator>Pedro Saramago Goncalves</dc:creator>
+      <dc:creator>Robert O. Opoka</dc:creator>
+      <dc:creator>Ayub Mpoya</dc:creator>
+      <dc:creator>Florence Alaroker</dc:creator>
+      <dc:creator>Julius Nteziyaremye</dc:creator>
+      <dc:creator>George Chagaluka</dc:creator>
+      <dc:creator>Neil Kennedy</dc:creator>
+      <dc:creator>Eva Nabawanuka</dc:creator>
+      <dc:creator>Margaret Nakuya</dc:creator>
+      <dc:creator>Cate Namayanja</dc:creator>
+      <dc:creator>Sophie Uyoga</dc:creator>
+      <dc:creator>Dorothy Kyeyune Byabazaire</dc:creator>
+      <dc:creator>Bridon M’baya</dc:creator>
+      <dc:creator>Benjamin Wabwire</dc:creator>
+      <dc:creator>Gary Frost</dc:creator>
+      <dc:creator>Imelda Bates</dc:creator>
+      <dc:creator>Jennifer A. Evans</dc:creator>
+      <dc:creator>Thomas N. Williams</dc:creator>
+      <dc:creator>Elizabeth C. George</dc:creator>
+      <dc:creator>Diana M. Gibb</dc:creator>
+      <dc:creator>A. Sarah Walker</dc:creator>
+      <prism:publicationName>Immediate Transfusion in African Children with Uncomplicated Severe Anemia</prism:publicationName>
+      <prism:volume>381</prism:volume>
+      <prism:number>5</prism:number>
+      <prism:startingPage>407</prism:startingPage>
+      <prism:endingPage>419</prism:endingPage>
+      <prism:coverDate>2019-08-01T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2019-08-01T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1056/NEJMoa1900105</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMoa1900105?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMoa1900100?af=R&amp;rss=currentIssue">
+      <title>Transfusion Volume for Children with Severe Anemia in Africa</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMoa1900100?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, &lt;a href="https://www.nejm.org/toc/nejm/381/5"&gt;Volume 381, Issue 5&lt;/a&gt;, Page 420-431, August 2019. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Volume 381, Issue 5, Page 420-431, August 2019. &lt;br/&gt;</description>
+      <dc:title>Transfusion Volume for Children with Severe Anemia in Africa</dc:title>
+      <dc:identifier>doi:10.1056/NEJMoa1900100</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-07-31T09:00:06Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <dc:creator>Kathryn Maitland</dc:creator>
+      <dc:creator>Peter Olupot-Olupot</dc:creator>
+      <dc:creator>Sarah Kiguli</dc:creator>
+      <dc:creator>George Chagaluka</dc:creator>
+      <dc:creator>Florence Alaroker</dc:creator>
+      <dc:creator>Robert O. Opoka</dc:creator>
+      <dc:creator>Ayub Mpoya</dc:creator>
+      <dc:creator>Charles Engoru</dc:creator>
+      <dc:creator>Julius Nteziyaremye</dc:creator>
+      <dc:creator>Macpherson Mallewa</dc:creator>
+      <dc:creator>Neil Kennedy</dc:creator>
+      <dc:creator>Margaret Nakuya</dc:creator>
+      <dc:creator>Cate Namayanja</dc:creator>
+      <dc:creator>Julianna Kayaga</dc:creator>
+      <dc:creator>Sophie Uyoga</dc:creator>
+      <dc:creator>Dorothy Kyeyune Byabazaire</dc:creator>
+      <dc:creator>Bridon M’baya</dc:creator>
+      <dc:creator>Benjamin Wabwire</dc:creator>
+      <dc:creator>Gary Frost</dc:creator>
+      <dc:creator>Imelda Bates</dc:creator>
+      <dc:creator>Jennifer A. Evans</dc:creator>
+      <dc:creator>Thomas N. Williams</dc:creator>
+      <dc:creator>Pedro Saramago Goncalves</dc:creator>
+      <dc:creator>Elizabeth C. George</dc:creator>
+      <dc:creator>Diana M. Gibb</dc:creator>
+      <dc:creator>A. Sarah Walker</dc:creator>
+      <prism:publicationName>Transfusion Volume for Children with Severe Anemia in Africa</prism:publicationName>
+      <prism:volume>381</prism:volume>
+      <prism:number>5</prism:number>
+      <prism:startingPage>420</prism:startingPage>
+      <prism:endingPage>431</prism:endingPage>
+      <prism:coverDate>2019-08-01T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2019-08-01T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1056/NEJMoa1900100</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMoa1900100?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMoa1817073?af=R&amp;rss=currentIssue">
+      <title>Ibrutinib–Rituximab or Chemoimmunotherapy for Chronic Lymphocytic Leukemia</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMoa1817073?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, &lt;a href="https://www.nejm.org/toc/nejm/381/5"&gt;Volume 381, Issue 5&lt;/a&gt;, Page 432-443, August 2019. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Volume 381, Issue 5, Page 432-443, August 2019. &lt;br/&gt;</description>
+      <dc:title>Ibrutinib–Rituximab or Chemoimmunotherapy for Chronic Lymphocytic Leukemia</dc:title>
+      <dc:identifier>doi:10.1056/NEJMoa1817073</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-07-31T09:00:06Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <dc:creator>Tait D. Shanafelt</dc:creator>
+      <dc:creator>Xin V. Wang</dc:creator>
+      <dc:creator>Neil E. Kay</dc:creator>
+      <dc:creator>Curtis A. Hanson</dc:creator>
+      <dc:creator>Susan O’Brien</dc:creator>
+      <dc:creator>Jacqueline Barrientos</dc:creator>
+      <dc:creator>Diane F. Jelinek</dc:creator>
+      <dc:creator>Esteban Braggio</dc:creator>
+      <dc:creator>Jose F. Leis</dc:creator>
+      <dc:creator>Cong C. Zhang</dc:creator>
+      <dc:creator>Steven E. Coutre</dc:creator>
+      <dc:creator>Paul M. Barr</dc:creator>
+      <dc:creator>Amanda F. Cashen</dc:creator>
+      <dc:creator>Anthony R. Mato</dc:creator>
+      <dc:creator>Avina K. Singh</dc:creator>
+      <dc:creator>Michael P. Mullane</dc:creator>
+      <dc:creator>Richard F. Little</dc:creator>
+      <dc:creator>Harry Erba</dc:creator>
+      <dc:creator>Richard M. Stone</dc:creator>
+      <dc:creator>Mark Litzow</dc:creator>
+      <dc:creator>Martin Tallman</dc:creator>
+      <prism:publicationName>Ibrutinib–Rituximab or Chemoimmunotherapy for Chronic Lymphocytic Leukemia</prism:publicationName>
+      <prism:volume>381</prism:volume>
+      <prism:number>5</prism:number>
+      <prism:startingPage>432</prism:startingPage>
+      <prism:endingPage>443</prism:endingPage>
+      <prism:coverDate>2019-08-01T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2019-08-01T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1056/NEJMoa1817073</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMoa1817073?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMoa1710430?af=R&amp;rss=currentIssue">
+      <title>Immunogenicity of Fractional-Dose Vaccine during a Yellow Fever Outbreak — Final Report</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMoa1710430?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, &lt;a href="https://www.nejm.org/toc/nejm/381/5"&gt;Volume 381, Issue 5&lt;/a&gt;, Page 444-454, August 2019. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Volume 381, Issue 5, Page 444-454, August 2019. &lt;br/&gt;</description>
+      <dc:title>Immunogenicity of Fractional-Dose Vaccine during a Yellow Fever Outbreak — Final Report</dc:title>
+      <dc:identifier>doi:10.1056/NEJMoa1710430</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2018-02-14T10:00:02Z</dc:date>
+      <dc:rights>Copyright © 2018 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <dc:creator>Rebecca M. Casey</dc:creator>
+      <dc:creator>Jennifer B. Harris</dc:creator>
+      <dc:creator>Steve Ahuka-Mundeke</dc:creator>
+      <dc:creator>Meredith G. Dixon</dc:creator>
+      <dc:creator>Gabriel M. Kizito</dc:creator>
+      <dc:creator>Pierre M. Nsele</dc:creator>
+      <dc:creator>Grace Umutesi</dc:creator>
+      <dc:creator>Janeen Laven</dc:creator>
+      <dc:creator>Olga Kosoy</dc:creator>
+      <dc:creator>Gilson Paluku</dc:creator>
+      <dc:creator>Abdou S. Gueye</dc:creator>
+      <dc:creator>Terri B. Hyde</dc:creator>
+      <dc:creator>Raimi Ewetola</dc:creator>
+      <dc:creator>Guylain K.M. Sheria</dc:creator>
+      <dc:creator>Jean-Jacques Muyembe-Tamfum</dc:creator>
+      <dc:creator>J. Erin Staples</dc:creator>
+      <prism:publicationName>Immunogenicity of Fractional-Dose Vaccine during a Yellow Fever Outbreak — Final Report</prism:publicationName>
+      <prism:volume>381</prism:volume>
+      <prism:number>5</prism:number>
+      <prism:startingPage>444</prism:startingPage>
+      <prism:endingPage>454</prism:endingPage>
+      <prism:coverDate>2019-08-01T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2019-08-01T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1056/NEJMoa1710430</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMoa1710430?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2018 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMra1706910?af=R&amp;rss=currentIssue">
+      <title>Gene Therapy</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMra1706910?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, &lt;a href="https://www.nejm.org/toc/nejm/381/5"&gt;Volume 381, Issue 5&lt;/a&gt;, Page 455-464, August 2019. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Volume 381, Issue 5, Page 455-464, August 2019. &lt;br/&gt;</description>
+      <dc:title>Gene Therapy</dc:title>
+      <dc:identifier>doi:10.1056/NEJMra1706910</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-07-31T09:00:19Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <dc:creator>Katherine A. High</dc:creator>
+      <dc:creator>Maria G. Roncarolo</dc:creator>
+      <prism:publicationName>Gene Therapy</prism:publicationName>
+      <prism:volume>381</prism:volume>
+      <prism:number>5</prism:number>
+      <prism:startingPage>455</prism:startingPage>
+      <prism:endingPage>464</prism:endingPage>
+      <prism:coverDate>2019-08-01T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2019-08-01T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1056/NEJMra1706910</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMra1706910?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMicm1816147?af=R&amp;rss=currentIssue">
+      <title>Cutaneous Ulcerations in Anti-MDA5 Dermatomyositis</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMicm1816147?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, &lt;a href="https://www.nejm.org/toc/nejm/381/5"&gt;Volume 381, Issue 5&lt;/a&gt;, Page 465-465, August 2019. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Volume 381, Issue 5, Page 465-465, August 2019. &lt;br/&gt;</description>
+      <dc:title>Cutaneous Ulcerations in Anti-MDA5 Dermatomyositis</dc:title>
+      <dc:identifier>doi:10.1056/NEJMicm1816147</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-07-31T09:00:27Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <dc:creator>Alexandra Charrow</dc:creator>
+      <dc:creator>Ruth Ann Vleugels</dc:creator>
+      <prism:publicationName>Cutaneous Ulcerations in Anti-MDA5 Dermatomyositis</prism:publicationName>
+      <prism:volume>381</prism:volume>
+      <prism:number>5</prism:number>
+      <prism:startingPage>465</prism:startingPage>
+      <prism:endingPage>465</prism:endingPage>
+      <prism:coverDate>2019-08-01T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2019-08-01T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1056/NEJMicm1816147</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMicm1816147?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMicm1815973?af=R&amp;rss=currentIssue">
+      <title>Obstructive Hydrocephalus</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMicm1815973?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, &lt;a href="https://www.nejm.org/toc/nejm/381/5"&gt;Volume 381, Issue 5&lt;/a&gt;, August 2019. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Volume 381, Issue 5, August 2019. &lt;br/&gt;</description>
+      <dc:title>Obstructive Hydrocephalus</dc:title>
+      <dc:identifier>doi:10.1056/NEJMicm1815973</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-07-31T09:00:16Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <dc:creator>David R. Santiago-Dieppa</dc:creator>
+      <dc:creator>Michael L. Levy</dc:creator>
+      <prism:publicationName>Obstructive Hydrocephalus</prism:publicationName>
+      <prism:volume>381</prism:volume>
+      <prism:number>5</prism:number>
+      <prism:coverDate>2019-08-01T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2019-08-01T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1056/NEJMicm1815973</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMicm1815973?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMcps1900774?af=R&amp;rss=currentIssue">
+      <title>A Diagnosis to Chew On</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMcps1900774?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, &lt;a href="https://www.nejm.org/toc/nejm/381/5"&gt;Volume 381, Issue 5&lt;/a&gt;, Page 466-473, August 2019. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Volume 381, Issue 5, Page 466-473, August 2019. &lt;br/&gt;</description>
+      <dc:title>A Diagnosis to Chew On</dc:title>
+      <dc:identifier>doi:10.1056/NEJMcps1900774</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-07-31T09:00:03Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <dc:creator>Rose H. Goldman</dc:creator>
+      <dc:creator>Lisa Weissmann</dc:creator>
+      <prism:publicationName>A Diagnosis to Chew On</prism:publicationName>
+      <prism:volume>381</prism:volume>
+      <prism:number>5</prism:number>
+      <prism:startingPage>466</prism:startingPage>
+      <prism:endingPage>473</prism:endingPage>
+      <prism:coverDate>2019-08-01T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2019-08-01T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1056/NEJMcps1900774</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMcps1900774?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMe1908869?af=R&amp;rss=currentIssue">
+      <title>Immediate Transfusion and Transfusion Volume in African Children with Severe Anemia</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMe1908869?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, &lt;a href="https://www.nejm.org/toc/nejm/381/5"&gt;Volume 381, Issue 5&lt;/a&gt;, Page 475-476, August 2019. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Volume 381, Issue 5, Page 475-476, August 2019. &lt;br/&gt;</description>
+      <dc:title>Immediate Transfusion and Transfusion Volume in African Children with Severe Anemia</dc:title>
+      <dc:identifier>doi:10.1056/NEJMe1908869</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-07-31T09:00:15Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <dc:creator>Julie R. Ingelfinger</dc:creator>
+      <prism:publicationName>Immediate Transfusion and Transfusion Volume in African Children with Severe Anemia</prism:publicationName>
+      <prism:volume>381</prism:volume>
+      <prism:number>5</prism:number>
+      <prism:startingPage>475</prism:startingPage>
+      <prism:endingPage>476</prism:endingPage>
+      <prism:coverDate>2019-08-01T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2019-08-01T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1056/NEJMe1908869</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMe1908869?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMcibr1906340?af=R&amp;rss=currentIssue">
+      <title>Predicting Tumor Response to PD-1 Blockade</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMcibr1906340?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, &lt;a href="https://www.nejm.org/toc/nejm/381/5"&gt;Volume 381, Issue 5&lt;/a&gt;, Page 477-479, August 2019. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Volume 381, Issue 5, Page 477-479, August 2019. &lt;br/&gt;</description>
+      <dc:title>Predicting Tumor Response to PD-1 Blockade</dc:title>
+      <dc:identifier>doi:10.1056/NEJMcibr1906340</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-07-31T09:00:18Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <dc:creator>Li Ding</dc:creator>
+      <dc:creator>Feng Chen</dc:creator>
+      <prism:publicationName>Predicting Tumor Response to PD-1 Blockade</prism:publicationName>
+      <prism:volume>381</prism:volume>
+      <prism:number>5</prism:number>
+      <prism:startingPage>477</prism:startingPage>
+      <prism:endingPage>479</prism:endingPage>
+      <prism:coverDate>2019-08-01T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2019-08-01T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1056/NEJMcibr1906340</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMcibr1906340?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMms1817674?af=R&amp;rss=currentIssue">
+      <title>Digital Futures Past — The Long Arc of Big Data in Medicine</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMms1817674?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, &lt;a href="https://www.nejm.org/toc/nejm/381/5"&gt;Volume 381, Issue 5&lt;/a&gt;, Page 480-485, August 2019. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Volume 381, Issue 5, Page 480-485, August 2019. &lt;br/&gt;</description>
+      <dc:title>Digital Futures Past — The Long Arc of Big Data in Medicine</dc:title>
+      <dc:identifier>doi:10.1056/NEJMms1817674</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-07-31T09:00:04Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <dc:creator>Jeremy A. Greene</dc:creator>
+      <dc:creator>Andrew S. Lea</dc:creator>
+      <prism:publicationName>Digital Futures Past — The Long Arc of Big Data in Medicine</prism:publicationName>
+      <prism:volume>381</prism:volume>
+      <prism:number>5</prism:number>
+      <prism:startingPage>480</prism:startingPage>
+      <prism:endingPage>485</prism:endingPage>
+      <prism:coverDate>2019-08-01T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2019-08-01T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1056/NEJMms1817674</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMms1817674?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMc1905039?af=R&amp;rss=currentIssue">
+      <title>Phenotype in an Infant with SOD1 Homozygous Truncating Mutation</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMc1905039?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, &lt;a href="https://www.nejm.org/toc/nejm/381/5"&gt;Volume 381, Issue 5&lt;/a&gt;, Page 486-488, August 2019. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Volume 381, Issue 5, Page 486-488, August 2019. &lt;br/&gt;</description>
+      <dc:title>Phenotype in an Infant with SOD1 Homozygous Truncating Mutation</dc:title>
+      <dc:identifier>doi:10.1056/NEJMc1905039</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-07-17T09:00:31Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <dc:creator>Peter M. Andersen</dc:creator>
+      <dc:creator>Ulrika Nordström</dc:creator>
+      <dc:creator>Konstantinos Tsiakas</dc:creator>
+      <dc:creator>Jessika Johannsen</dc:creator>
+      <dc:creator>Alexander E. Volk</dc:creator>
+      <dc:creator>Tatjana Bierhals</dc:creator>
+      <dc:creator>Per Zetterström</dc:creator>
+      <dc:creator>Stefan L. Marklund</dc:creator>
+      <dc:creator>Maja Hempel</dc:creator>
+      <dc:creator>René Santer</dc:creator>
+      <prism:publicationName>Phenotype in an Infant with SOD1 Homozygous Truncating Mutation</prism:publicationName>
+      <prism:volume>381</prism:volume>
+      <prism:number>5</prism:number>
+      <prism:startingPage>486</prism:startingPage>
+      <prism:endingPage>488</prism:endingPage>
+      <prism:coverDate>2019-08-01T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2019-08-01T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1056/NEJMc1905039</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMc1905039?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMc1907524?af=R&amp;rss=currentIssue">
+      <title>Thrombolysis up to 9 Hours after Onset of Stroke</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMc1907524?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, &lt;a href="https://www.nejm.org/toc/nejm/381/5"&gt;Volume 381, Issue 5&lt;/a&gt;, Page 488-489, August 2019. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Volume 381, Issue 5, Page 488-489, August 2019. &lt;br/&gt;</description>
+      <dc:title>Thrombolysis up to 9 Hours after Onset of Stroke</dc:title>
+      <dc:identifier>doi:10.1056/NEJMc1907524</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-07-31T09:00:28Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <prism:publicationName>Thrombolysis up to 9 Hours after Onset of Stroke</prism:publicationName>
+      <prism:volume>381</prism:volume>
+      <prism:number>5</prism:number>
+      <prism:startingPage>488</prism:startingPage>
+      <prism:endingPage>489</prism:endingPage>
+      <prism:coverDate>2019-08-01T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2019-08-01T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1056/NEJMc1907524</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMc1907524?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMc1907673?af=R&amp;rss=currentIssue">
+      <title>Magnetically Levitated Left Ventricular Assist Device</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMc1907673?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, &lt;a href="https://www.nejm.org/toc/nejm/381/5"&gt;Volume 381, Issue 5&lt;/a&gt;, Page 489-490, August 2019. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Volume 381, Issue 5, Page 489-490, August 2019. &lt;br/&gt;</description>
+      <dc:title>Magnetically Levitated Left Ventricular Assist Device</dc:title>
+      <dc:identifier>doi:10.1056/NEJMc1907673</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-07-31T09:00:07Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <prism:publicationName>Magnetically Levitated Left Ventricular Assist Device</prism:publicationName>
+      <prism:volume>381</prism:volume>
+      <prism:number>5</prism:number>
+      <prism:startingPage>489</prism:startingPage>
+      <prism:endingPage>490</prism:endingPage>
+      <prism:coverDate>2019-08-01T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2019-08-01T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1056/NEJMc1907673</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMc1907673?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMc1907800?af=R&amp;rss=currentIssue">
+      <title>How to Perform an Elliptical Excision of the Skin</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMc1907800?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, &lt;a href="https://www.nejm.org/toc/nejm/381/5"&gt;Volume 381, Issue 5&lt;/a&gt;, Page 490-493, August 2019. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Volume 381, Issue 5, Page 490-493, August 2019. &lt;br/&gt;</description>
+      <dc:title>How to Perform an Elliptical Excision of the Skin</dc:title>
+      <dc:identifier>doi:10.1056/NEJMc1907800</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-07-31T09:00:03Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <prism:publicationName>How to Perform an Elliptical Excision of the Skin</prism:publicationName>
+      <prism:volume>381</prism:volume>
+      <prism:number>5</prism:number>
+      <prism:startingPage>490</prism:startingPage>
+      <prism:endingPage>493</prism:endingPage>
+      <prism:coverDate>2019-08-01T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2019-08-01T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1056/NEJMc1907800</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMc1907800?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMx190022?af=R&amp;rss=currentIssue">
+      <title>Physician Participation in Lethal Injection</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMx190022?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, &lt;a href="https://www.nejm.org/toc/nejm/381/5"&gt;Volume 381, Issue 5&lt;/a&gt;, Page 493-493, August 2019. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Volume 381, Issue 5, Page 493-493, August 2019. &lt;br/&gt;</description>
+      <dc:title>Physician Participation in Lethal Injection</dc:title>
+      <dc:identifier>doi:10.1056/NEJMx190022</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-07-31T09:00:27Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <prism:publicationName>Physician Participation in Lethal Injection</prism:publicationName>
+      <prism:volume>381</prism:volume>
+      <prism:number>5</prism:number>
+      <prism:startingPage>493</prism:startingPage>
+      <prism:endingPage>493</prism:endingPage>
+      <prism:coverDate>2019-08-01T07:00:00Z</prism:coverDate>
+      <prism:coverDisplayDate>2019-08-01T07:00:00Z</prism:coverDisplayDate>
+      <prism:doi>10.1056/NEJMx190022</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMx190022?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMp1908839?af=R&amp;rss=currentIssue">
+      <title>Toppling the Ethical Balance — Health Care Refusal and the Trump Administration</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMp1908839?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</description>
+      <dc:title>Toppling the Ethical Balance — Health Care Refusal and the Trump Administration</dc:title>
+      <dc:identifier>doi:10.1056/NEJMp1908839</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-07-31T09:00:02Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <dc:creator>Elizabeth Sepper</dc:creator>
+      <prism:publicationName>Toppling the Ethical Balance — Health Care Refusal and the Trump Administration</prism:publicationName>
+      <prism:doi>10.1056/NEJMp1908839</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMp1908839?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMe1908978?af=R&amp;rss=currentIssue">
+      <title>Roxadustat and Anemia of Chronic Kidney Disease</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMe1908978?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</description>
+      <dc:title>Roxadustat and Anemia of Chronic Kidney Disease</dc:title>
+      <dc:identifier>doi:10.1056/NEJMe1908978</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-07-24T09:01:01Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <dc:creator>Joshua Kaplan</dc:creator>
+      <prism:publicationName>Roxadustat and Anemia of Chronic Kidney Disease</prism:publicationName>
+      <prism:doi>10.1056/NEJMe1908978</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMe1908978?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMe1909363?af=R&amp;rss=currentIssue">
+      <title>Global HIV Treatment — Turning Headwinds to Tailwinds</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMe1909363?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</description>
+      <dc:title>Global HIV Treatment — Turning Headwinds to Tailwinds</dc:title>
+      <dc:identifier>doi:10.1056/NEJMe1909363</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-07-24T03:10:11Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <dc:creator>Diane V. Havlir</dc:creator>
+      <dc:creator>Meg C. Doherty</dc:creator>
+      <prism:publicationName>Global HIV Treatment — Turning Headwinds to Tailwinds</prism:publicationName>
+      <prism:doi>10.1056/NEJMe1909363</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMe1909363?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMoa1813599?af=R&amp;rss=currentIssue">
+      <title>Roxadustat for Anemia in Patients with Kidney Disease Not Receiving Dialysis</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMoa1813599?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</description>
+      <dc:title>Roxadustat for Anemia in Patients with Kidney Disease Not Receiving Dialysis</dc:title>
+      <dc:identifier>doi:10.1056/NEJMoa1813599</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-07-24T09:01:01Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <dc:creator>Nan Chen</dc:creator>
+      <dc:creator>Chuanming Hao</dc:creator>
+      <dc:creator>Xiaomei Peng</dc:creator>
+      <dc:creator>Hongli Lin</dc:creator>
+      <dc:creator>Aiping Yin</dc:creator>
+      <dc:creator>Li Hao</dc:creator>
+      <dc:creator>Ye Tao</dc:creator>
+      <dc:creator>Xinling Liang</dc:creator>
+      <dc:creator>Zhengrong Liu</dc:creator>
+      <dc:creator>Changying Xing</dc:creator>
+      <dc:creator>Jianghua Chen</dc:creator>
+      <dc:creator>Laimin Luo</dc:creator>
+      <dc:creator>Li Zuo</dc:creator>
+      <dc:creator>Yunhua Liao</dc:creator>
+      <dc:creator>Bi-Cheng Liu</dc:creator>
+      <dc:creator>Robert Leong</dc:creator>
+      <dc:creator>Chunrong Wang</dc:creator>
+      <dc:creator>Cameron Liu</dc:creator>
+      <dc:creator>Thomas Neff</dc:creator>
+      <dc:creator>Lynda Szczech</dc:creator>
+      <dc:creator>Kin-Hung P. Yu</dc:creator>
+      <prism:publicationName>Roxadustat for Anemia in Patients with Kidney Disease Not Receiving Dialysis</prism:publicationName>
+      <prism:doi>10.1056/NEJMoa1813599</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMoa1813599?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMoa1901713?af=R&amp;rss=currentIssue">
+      <title>Roxadustat Treatment for Anemia in Patients Undergoing Long-Term Dialysis</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMoa1901713?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</description>
+      <dc:title>Roxadustat Treatment for Anemia in Patients Undergoing Long-Term Dialysis</dc:title>
+      <dc:identifier>doi:10.1056/NEJMoa1901713</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-07-24T09:01:03Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <dc:creator>Nan Chen</dc:creator>
+      <dc:creator>Chuanming Hao</dc:creator>
+      <dc:creator>Bi-Cheng Liu</dc:creator>
+      <dc:creator>Hongli Lin</dc:creator>
+      <dc:creator>Caili Wang</dc:creator>
+      <dc:creator>Changying Xing</dc:creator>
+      <dc:creator>Xinling Liang</dc:creator>
+      <dc:creator>Gengru Jiang</dc:creator>
+      <dc:creator>Zhengrong Liu</dc:creator>
+      <dc:creator>Xuemei Li</dc:creator>
+      <dc:creator>Li Zuo</dc:creator>
+      <dc:creator>Laimin Luo</dc:creator>
+      <dc:creator>Jianqin Wang</dc:creator>
+      <dc:creator>Ming-hui Zhao</dc:creator>
+      <dc:creator>Zhihong Liu</dc:creator>
+      <dc:creator>Guang-Yan Cai</dc:creator>
+      <dc:creator>Li Hao</dc:creator>
+      <dc:creator>Robert Leong</dc:creator>
+      <dc:creator>Chunrong Wang</dc:creator>
+      <dc:creator>Cameron Liu</dc:creator>
+      <dc:creator>Thomas Neff</dc:creator>
+      <dc:creator>Lynda Szczech</dc:creator>
+      <dc:creator>Kin-Hung P. Yu</dc:creator>
+      <prism:publicationName>Roxadustat Treatment for Anemia in Patients Undergoing Long-Term Dialysis</prism:publicationName>
+      <prism:doi>10.1056/NEJMoa1901713</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMoa1901713?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMoa1902824?af=R&amp;rss=currentIssue">
+      <title>Dolutegravir plus Two Different Prodrugs of Tenofovir to Treat HIV</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMoa1902824?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</description>
+      <dc:title>Dolutegravir plus Two Different Prodrugs of Tenofovir to Treat HIV</dc:title>
+      <dc:identifier>doi:10.1056/NEJMoa1902824</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-07-24T03:00:11Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <dc:creator>Willem D.F. Venter</dc:creator>
+      <dc:creator>Michelle Moorhouse</dc:creator>
+      <dc:creator>Simiso Sokhela</dc:creator>
+      <dc:creator>Lee Fairlie</dc:creator>
+      <dc:creator>Nkuli Mashabane</dc:creator>
+      <dc:creator>Masebole Masenya</dc:creator>
+      <dc:creator>Celicia Serenata</dc:creator>
+      <dc:creator>Godspower Akpomiemie</dc:creator>
+      <dc:creator>Ambar Qavi</dc:creator>
+      <dc:creator>Nomathemba Chandiwana</dc:creator>
+      <dc:creator>Shane Norris</dc:creator>
+      <dc:creator>Matthew Chersich</dc:creator>
+      <dc:creator>Polly Clayden</dc:creator>
+      <dc:creator>Elaine Abrams</dc:creator>
+      <dc:creator>Natasha Arulappan</dc:creator>
+      <dc:creator>Alinda Vos</dc:creator>
+      <dc:creator>Kaitlyn McCann</dc:creator>
+      <dc:creator>Bryony Simmons</dc:creator>
+      <dc:creator>Andrew Hill</dc:creator>
+      <prism:publicationName>Dolutegravir plus Two Different Prodrugs of Tenofovir to Treat HIV</prism:publicationName>
+      <prism:doi>10.1056/NEJMoa1902824</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMoa1902824?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMoa1904340?af=R&amp;rss=currentIssue">
+      <title>Dolutegravir-Based or Low-Dose Efavirenz–Based Regimen for the Treatment of HIV-1</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMoa1904340?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</description>
+      <dc:title>Dolutegravir-Based or Low-Dose Efavirenz–Based Regimen for the Treatment of HIV-1</dc:title>
+      <dc:identifier>doi:10.1056/NEJMoa1904340</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-07-24T03:12:45Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <prism:publicationName>Dolutegravir-Based or Low-Dose Efavirenz–Based Regimen for the Treatment of HIV-1</prism:publicationName>
+      <prism:doi>10.1056/NEJMoa1904340</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMoa1904340?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMp1908843?af=R&amp;rss=currentIssue">
+      <title>Health Care Autonomy of Women Living with HIV</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMp1908843?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</description>
+      <dc:title>Health Care Autonomy of Women Living with HIV</dc:title>
+      <dc:identifier>doi:10.1056/NEJMp1908843</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-07-24T03:13:04Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <dc:creator>Robert R. Redfield</dc:creator>
+      <dc:creator>Surbhi Modi</dc:creator>
+      <dc:creator>Cynthia A. Moore</dc:creator>
+      <dc:creator>Augustina Delaney</dc:creator>
+      <dc:creator>Margaret A. Honein</dc:creator>
+      <dc:creator>Hank L. Tomlinson</dc:creator>
+      <prism:publicationName>Health Care Autonomy of Women Living with HIV</prism:publicationName>
+      <prism:doi>10.1056/NEJMp1908843</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMp1908843?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMp1909643?af=R&amp;rss=currentIssue">
+      <title>Combating EPA Rollbacks — Health Care’s Response to a Retreat on Climate</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMp1909643?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</description>
+      <dc:title>Combating EPA Rollbacks — Health Care’s Response to a Retreat on Climate</dc:title>
+      <dc:identifier>doi:10.1056/NEJMp1909643</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-07-24T09:00:01Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <dc:creator>Gina McCarthy</dc:creator>
+      <dc:creator>Aaron Bernstein</dc:creator>
+      <prism:publicationName>Combating EPA Rollbacks — Health Care’s Response to a Retreat on Climate</prism:publicationName>
+      <prism:doi>10.1056/NEJMp1909643</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMp1909643?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMc1908155?af=R&amp;rss=currentIssue">
+      <title>Dolutegravir Use at Conception — Additional Surveillance Data from Botswana</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMc1908155?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</description>
+      <dc:title>Dolutegravir Use at Conception — Additional Surveillance Data from Botswana</dc:title>
+      <dc:identifier>doi:10.1056/NEJMc1908155</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-07-22T03:00:03Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <dc:creator>Mmakgomo M. Raesima</dc:creator>
+      <dc:creator>Chibuike M. Ogbuabo</dc:creator>
+      <dc:creator>Vasavi Thomas</dc:creator>
+      <dc:creator>Sara E. Forhan</dc:creator>
+      <dc:creator>Gadzikanani Gokatweng</dc:creator>
+      <dc:creator>Eldah Dintwa</dc:creator>
+      <dc:creator>Chipo Petlo</dc:creator>
+      <dc:creator>Catherine Motswere-Chirwa</dc:creator>
+      <dc:creator>Elizabeth M. Rabold</dc:creator>
+      <dc:creator>Sarah C. Tinker</dc:creator>
+      <dc:creator>Shifawu Odunsi</dc:creator>
+      <dc:creator>Sifelani Malima</dc:creator>
+      <dc:creator>Omphemetse Mmunyane</dc:creator>
+      <dc:creator>Thusoetsile Modise</dc:creator>
+      <dc:creator>Kelame Kefitlhile</dc:creator>
+      <dc:creator>Kunle Dare</dc:creator>
+      <dc:creator>Mpho Letebele</dc:creator>
+      <dc:creator>Michelle E. Roland</dc:creator>
+      <dc:creator>Cynthia A. Moore</dc:creator>
+      <dc:creator>Surbhi Modi</dc:creator>
+      <dc:creator>Dhelia M. Williamson</dc:creator>
+      <prism:publicationName>Dolutegravir Use at Conception — Additional Surveillance Data from Botswana</prism:publicationName>
+      <prism:doi>10.1056/NEJMc1908155</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMc1908155?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMoa1905230?af=R&amp;rss=currentIssue">
+      <title>Neural-Tube Defects and Antiretroviral Treatment Regimens in Botswana</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMoa1905230?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</description>
+      <dc:title>Neural-Tube Defects and Antiretroviral Treatment Regimens in Botswana</dc:title>
+      <dc:identifier>doi:10.1056/NEJMoa1905230</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-07-22T03:08:55Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <dc:creator>Rebecca Zash</dc:creator>
+      <dc:creator>Lewis Holmes</dc:creator>
+      <dc:creator>Modiegi Diseko</dc:creator>
+      <dc:creator>Denise L. Jacobson</dc:creator>
+      <dc:creator>Sean Brummel</dc:creator>
+      <dc:creator>Gloria Mayondi</dc:creator>
+      <dc:creator>Arielle Isaacson</dc:creator>
+      <dc:creator>Sonya Davey</dc:creator>
+      <dc:creator>Judith Mabuta</dc:creator>
+      <dc:creator>Mompati Mmalane</dc:creator>
+      <dc:creator>Tendani Gaolathe</dc:creator>
+      <dc:creator>M. Essex</dc:creator>
+      <dc:creator>Shahin Lockman</dc:creator>
+      <dc:creator>Joseph Makhema</dc:creator>
+      <dc:creator>Roger L. Shapiro</dc:creator>
+      <prism:publicationName>Neural-Tube Defects and Antiretroviral Treatment Regimens in Botswana</prism:publicationName>
+      <prism:doi>10.1056/NEJMoa1905230</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMoa1905230?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMp1906593?af=R&amp;rss=currentIssue">
+      <title>Primary Care First — Is It a Step Back?</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMp1906593?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</description>
+      <dc:title>Primary Care First — Is It a Step Back?</dc:title>
+      <dc:identifier>doi:10.1056/NEJMp1906593</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-07-17T09:00:03Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <dc:creator>Laura L. Sessums</dc:creator>
+      <dc:creator>Sanjay Basu</dc:creator>
+      <dc:creator>Bruce E. Landon</dc:creator>
+      <prism:publicationName>Primary Care First — Is It a Step Back?</prism:publicationName>
+      <prism:doi>10.1056/NEJMp1906593</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMp1906593?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMp1906207?af=R&amp;rss=currentIssue">
+      <title>A Most Reckless Proposal — A Plan to Continue Asbestos Use in the United States</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMp1906207?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</description>
+      <dc:title>A Most Reckless Proposal — A Plan to Continue Asbestos Use in the United States</dc:title>
+      <dc:identifier>doi:10.1056/NEJMp1906207</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-07-10T09:00:02Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <dc:creator>Philip J. Landrigan</dc:creator>
+      <dc:creator>Richard A. Lemen</dc:creator>
+      <prism:publicationName>A Most Reckless Proposal — A Plan to Continue Asbestos Use in the United States</prism:publicationName>
+      <prism:doi>10.1056/NEJMp1906207</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMp1906207?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMsa1816660?af=R&amp;rss=currentIssue">
+      <title>Early Effects of an Accountable Care Organization Model for Underserved Areas</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMsa1816660?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</description>
+      <dc:title>Early Effects of an Accountable Care Organization Model for Underserved Areas</dc:title>
+      <dc:identifier>doi:10.1056/NEJMsa1816660</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-07-10T09:00:01Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <dc:creator>Matthew J. Trombley</dc:creator>
+      <dc:creator>Betty Fout</dc:creator>
+      <dc:creator>Sasha Brodsky</dc:creator>
+      <dc:creator>J. Michael McWilliams</dc:creator>
+      <dc:creator>David J. Nyweide</dc:creator>
+      <dc:creator>Brant Morefield</dc:creator>
+      <prism:publicationName>Early Effects of an Accountable Care Organization Model for Underserved Areas</prism:publicationName>
+      <prism:doi>10.1056/NEJMsa1816660</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMsa1816660?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMp1908305?af=R&amp;rss=currentIssue">
+      <title>Time to Reevaluate U.S. Mifepristone Restrictions</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMp1908305?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</description>
+      <dc:title>Time to Reevaluate U.S. Mifepristone Restrictions</dc:title>
+      <dc:identifier>doi:10.1056/NEJMp1908305</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-06-26T09:00:31Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <dc:creator>Jane E. Henney</dc:creator>
+      <dc:creator>Helene D. Gayle</dc:creator>
+      <prism:publicationName>Time to Reevaluate U.S. Mifepristone Restrictions</prism:publicationName>
+      <prism:doi>10.1056/NEJMp1908305</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMp1908305?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMp1905589?af=R&amp;rss=currentIssue">
+      <title>Sustainable Discovery and Development of Antibiotics — Is a Nonprofit Approach the Future?</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMp1905589?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</description>
+      <dc:title>Sustainable Discovery and Development of Antibiotics — Is a Nonprofit Approach the Future?</dc:title>
+      <dc:identifier>doi:10.1056/NEJMp1905589</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-06-19T09:00:31Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <dc:creator>Travis B. Nielsen</dc:creator>
+      <dc:creator>Eric P. Brass</dc:creator>
+      <dc:creator>David N. Gilbert</dc:creator>
+      <dc:creator>John G. Bartlett</dc:creator>
+      <dc:creator>Brad Spellberg</dc:creator>
+      <prism:publicationName>Sustainable Discovery and Development of Antibiotics — Is a Nonprofit Approach the Future?</prism:publicationName>
+      <prism:doi>10.1056/NEJMp1905589</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMp1905589?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMp1906972?af=R&amp;rss=currentIssue">
+      <title>Abortion Rights in Peril — What Clinicians Need to Know</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMp1906972?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</description>
+      <dc:title>Abortion Rights in Peril — What Clinicians Need to Know</dc:title>
+      <dc:identifier>doi:10.1056/NEJMp1906972</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-06-19T09:00:01Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <dc:creator>Elizabeth Nash</dc:creator>
+      <prism:publicationName>Abortion Rights in Peril — What Clinicians Need to Know</prism:publicationName>
+      <prism:doi>10.1056/NEJMp1906972</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMp1906972?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMsr1901772?af=R&amp;rss=currentIssue">
+      <title>Medicaid Work Requirements — Results from the First Year in Arkansas</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMsr1901772?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</description>
+      <dc:title>Medicaid Work Requirements — Results from the First Year in Arkansas</dc:title>
+      <dc:identifier>doi:10.1056/NEJMsr1901772</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-06-19T09:01:01Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <dc:creator>Benjamin D. Sommers</dc:creator>
+      <dc:creator>Anna L. Goldman</dc:creator>
+      <dc:creator>Robert J. Blendon</dc:creator>
+      <dc:creator>E. John Orav</dc:creator>
+      <dc:creator>Arnold M. Epstein</dc:creator>
+      <prism:publicationName>Medicaid Work Requirements — Results from the First Year in Arkansas</prism:publicationName>
+      <prism:doi>10.1056/NEJMsr1901772</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMsr1901772?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMe1906771?af=R&amp;rss=currentIssue">
+      <title>A Targeted Agent for Sickle Cell Disease — Changing the Protein but Not the Gene</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMe1906771?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</description>
+      <dc:title>A Targeted Agent for Sickle Cell Disease — Changing the Protein but Not the Gene</dc:title>
+      <dc:identifier>doi:10.1056/NEJMe1906771</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-06-14T06:30:01Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <dc:creator>Alexis Thompson</dc:creator>
+      <prism:publicationName>A Targeted Agent for Sickle Cell Disease — Changing the Protein but Not the Gene</prism:publicationName>
+      <prism:doi>10.1056/NEJMe1906771</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMe1906771?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMoa1903212?af=R&amp;rss=currentIssue">
+      <title>A Phase 3 Randomized Trial of Voxelotor in Sickle Cell Disease</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMoa1903212?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</description>
+      <dc:title>A Phase 3 Randomized Trial of Voxelotor in Sickle Cell Disease</dc:title>
+      <dc:identifier>doi:10.1056/NEJMoa1903212</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-06-14T06:30:31Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <dc:creator>Elliott Vichinsky</dc:creator>
+      <dc:creator>Carolyn C. Hoppe</dc:creator>
+      <dc:creator>Kenneth I. Ataga</dc:creator>
+      <dc:creator>Russell E. Ware</dc:creator>
+      <dc:creator>Videlis Nduba</dc:creator>
+      <dc:creator>Amal El-Beshlawy</dc:creator>
+      <dc:creator>Hoda Hassab</dc:creator>
+      <dc:creator>Maureen M. Achebe</dc:creator>
+      <dc:creator>Salam Alkindi</dc:creator>
+      <dc:creator>R. Clark Brown</dc:creator>
+      <dc:creator>David L. Diuguid</dc:creator>
+      <dc:creator>Paul Telfer</dc:creator>
+      <dc:creator>Dimitris A. Tsitsikas</dc:creator>
+      <dc:creator>Ashraf Elghandour</dc:creator>
+      <dc:creator>Victor R. Gordeuk</dc:creator>
+      <dc:creator>Julie Kanter</dc:creator>
+      <dc:creator>Miguel R. Abboud</dc:creator>
+      <dc:creator>Joshua Lehrer-Graiwer</dc:creator>
+      <dc:creator>Margaret Tonda</dc:creator>
+      <dc:creator>Allison Intondi</dc:creator>
+      <dc:creator>Barbara Tong</dc:creator>
+      <dc:creator>Jo Howard</dc:creator>
+      <prism:publicationName>A Phase 3 Randomized Trial of Voxelotor in Sickle Cell Disease</prism:publicationName>
+      <prism:doi>10.1056/NEJMoa1903212</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMoa1903212?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMoa1901118?af=R&amp;rss=currentIssue">
+      <title>Oral Semaglutide and Cardiovascular Outcomes in Patients with Type 2 Diabetes</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMoa1901118?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</description>
+      <dc:title>Oral Semaglutide and Cardiovascular Outcomes in Patients with Type 2 Diabetes</dc:title>
+      <dc:identifier>doi:10.1056/NEJMoa1901118</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-06-11T06:45:02Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <dc:creator>Mansoor Husain</dc:creator>
+      <dc:creator>Andreas L. Birkenfeld</dc:creator>
+      <dc:creator>Morten Donsmark</dc:creator>
+      <dc:creator>Kathleen Dungan</dc:creator>
+      <dc:creator>Freddy G. Eliaschewitz</dc:creator>
+      <dc:creator>Denise R. Franco</dc:creator>
+      <dc:creator>Ole K. Jeppesen</dc:creator>
+      <dc:creator>Ildiko Lingvay</dc:creator>
+      <dc:creator>Ofri Mosenzon</dc:creator>
+      <dc:creator>Sue D. Pedersen</dc:creator>
+      <dc:creator>Cees J. Tack</dc:creator>
+      <dc:creator>Mette Thomsen</dc:creator>
+      <dc:creator>Tina Vilsbøll</dc:creator>
+      <dc:creator>Mark L. Warren</dc:creator>
+      <dc:creator>Stephen C. Bain</dc:creator>
+      <prism:publicationName>Oral Semaglutide and Cardiovascular Outcomes in Patients with Type 2 Diabetes</prism:publicationName>
+      <prism:doi>10.1056/NEJMoa1901118</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMoa1901118?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMe1907458?af=R&amp;rss=currentIssue">
+      <title>Traveling down the Long Road to Type 1 Diabetes Mellitus Prevention</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMe1907458?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</description>
+      <dc:title>Traveling down the Long Road to Type 1 Diabetes Mellitus Prevention</dc:title>
+      <dc:identifier>doi:10.1056/NEJMe1907458</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-06-09T05:00:31Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <dc:creator>Clifford J. Rosen</dc:creator>
+      <dc:creator>Julie R. Ingelfinger</dc:creator>
+      <prism:publicationName>Traveling down the Long Road to Type 1 Diabetes Mellitus Prevention</prism:publicationName>
+      <prism:doi>10.1056/NEJMe1907458</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMe1907458?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMoa1902226?af=R&amp;rss=currentIssue">
+      <title>An Anti-CD3 Antibody, Teplizumab, in Relatives at Risk for Type 1 Diabetes</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMoa1902226?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</description>
+      <dc:title>An Anti-CD3 Antibody, Teplizumab, in Relatives at Risk for Type 1 Diabetes</dc:title>
+      <dc:identifier>doi:10.1056/NEJMoa1902226</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-06-09T05:00:02Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <dc:creator>Kevan C. Herold</dc:creator>
+      <dc:creator>Brian N. Bundy</dc:creator>
+      <dc:creator>S. Alice Long</dc:creator>
+      <dc:creator>Jeffrey A. Bluestone</dc:creator>
+      <dc:creator>Linda A. DiMeglio</dc:creator>
+      <dc:creator>Matthew J. Dufort</dc:creator>
+      <dc:creator>Stephen E. Gitelman</dc:creator>
+      <dc:creator>Peter A. Gottlieb</dc:creator>
+      <dc:creator>Jeffrey P. Krischer</dc:creator>
+      <dc:creator>Peter S. Linsley</dc:creator>
+      <dc:creator>Jennifer B. Marks</dc:creator>
+      <dc:creator>Wayne Moore</dc:creator>
+      <dc:creator>Antoinette Moran</dc:creator>
+      <dc:creator>Henry Rodriguez</dc:creator>
+      <dc:creator>William E. Russell</dc:creator>
+      <dc:creator>Desmond Schatz</dc:creator>
+      <dc:creator>Jay S. Skyler</dc:creator>
+      <dc:creator>Eva Tsalikian</dc:creator>
+      <dc:creator>Diane K. Wherrett</dc:creator>
+      <dc:creator>Anette-Gabriele Ziegler</dc:creator>
+      <dc:creator>Carla J. Greenbaum</dc:creator>
+      <prism:publicationName>An Anti-CD3 Antibody, Teplizumab, in Relatives at Risk for Type 1 Diabetes</prism:publicationName>
+      <prism:doi>10.1056/NEJMoa1902226</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMoa1902226?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMe1906815?af=R&amp;rss=currentIssue">
+      <title>D2d — No Defense against Diabetes</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMe1906815?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</description>
+      <dc:title>D2d — No Defense against Diabetes</dc:title>
+      <dc:identifier>doi:10.1056/NEJMe1906815</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-06-07T07:30:01Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <dc:creator>Deborah J. Wexler</dc:creator>
+      <prism:publicationName>D2d — No Defense against Diabetes</prism:publicationName>
+      <prism:doi>10.1056/NEJMe1906815</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMe1906815?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMoa1900906?af=R&amp;rss=currentIssue">
+      <title>Vitamin D Supplementation and Prevention of Type 2 Diabetes</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMoa1900906?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</description>
+      <dc:title>Vitamin D Supplementation and Prevention of Type 2 Diabetes</dc:title>
+      <dc:identifier>doi:10.1056/NEJMoa1900906</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-06-07T07:30:03Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <dc:creator>Anastassios G. Pittas</dc:creator>
+      <dc:creator>Bess Dawson-Hughes</dc:creator>
+      <dc:creator>Patricia Sheehan</dc:creator>
+      <dc:creator>James H. Ware</dc:creator>
+      <dc:creator>William C. Knowler</dc:creator>
+      <dc:creator>Vanita R. Aroda</dc:creator>
+      <dc:creator>Irwin Brodsky</dc:creator>
+      <dc:creator>Lisa Ceglia</dc:creator>
+      <dc:creator>Chhavi Chadha</dc:creator>
+      <dc:creator>Ranee Chatterjee</dc:creator>
+      <dc:creator>Cyrus Desouza</dc:creator>
+      <dc:creator>Rowena Dolor</dc:creator>
+      <dc:creator>John Foreyt</dc:creator>
+      <dc:creator>Paul Fuss</dc:creator>
+      <dc:creator>Adline Ghazi</dc:creator>
+      <dc:creator>Daniel S. Hsia</dc:creator>
+      <dc:creator>Karen C. Johnson</dc:creator>
+      <dc:creator>Sangeeta R. Kashyap</dc:creator>
+      <dc:creator>Sun Kim</dc:creator>
+      <dc:creator>Erin S. LeBlanc</dc:creator>
+      <dc:creator>Michael R. Lewis</dc:creator>
+      <dc:creator>Emilia Liao</dc:creator>
+      <dc:creator>Lisa M. Neff</dc:creator>
+      <dc:creator>Jason Nelson</dc:creator>
+      <dc:creator>Patrick O’Neil</dc:creator>
+      <dc:creator>Jean Park</dc:creator>
+      <dc:creator>Anne Peters</dc:creator>
+      <dc:creator>Lawrence S. Phillips</dc:creator>
+      <dc:creator>Richard Pratley</dc:creator>
+      <dc:creator>Philip Raskin</dc:creator>
+      <dc:creator>Neda Rasouli</dc:creator>
+      <dc:creator>David Robbins</dc:creator>
+      <dc:creator>Clifford Rosen</dc:creator>
+      <dc:creator>Ellen M. Vickery</dc:creator>
+      <dc:creator>Myrlene Staten</dc:creator>
+      <prism:publicationName>Vitamin D Supplementation and Prevention of Type 2 Diabetes</prism:publicationName>
+      <prism:doi>10.1056/NEJMoa1900906</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMoa1900906?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMoa1904059?af=R&amp;rss=currentIssue">
+      <title>Five-Year Outcomes with Dabrafenib plus Trametinib in Metastatic Melanoma</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMoa1904059?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</description>
+      <dc:title>Five-Year Outcomes with Dabrafenib plus Trametinib in Metastatic Melanoma</dc:title>
+      <dc:identifier>doi:10.1056/NEJMoa1904059</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-06-04T04:57:01Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <dc:creator>Caroline Robert</dc:creator>
+      <dc:creator>Jean J. Grob</dc:creator>
+      <dc:creator>Daniil Stroyakovskiy</dc:creator>
+      <dc:creator>Boguslawa Karaszewska</dc:creator>
+      <dc:creator>Axel Hauschild</dc:creator>
+      <dc:creator>Evgeny Levchenko</dc:creator>
+      <dc:creator>Vanna Chiarion Sileni</dc:creator>
+      <dc:creator>Jacob Schachter</dc:creator>
+      <dc:creator>Claus Garbe</dc:creator>
+      <dc:creator>Igor Bondarenko</dc:creator>
+      <dc:creator>Helen Gogas</dc:creator>
+      <dc:creator>Mario Mandalá</dc:creator>
+      <dc:creator>John B.A.G. Haanen</dc:creator>
+      <dc:creator>Celeste Lebbé</dc:creator>
+      <dc:creator>Andrzej Mackiewicz</dc:creator>
+      <dc:creator>Piotr Rutkowski</dc:creator>
+      <dc:creator>Paul D. Nathan</dc:creator>
+      <dc:creator>Antoni Ribas</dc:creator>
+      <dc:creator>Michael A. Davies</dc:creator>
+      <dc:creator>Keith T. Flaherty</dc:creator>
+      <dc:creator>Paul Burgess</dc:creator>
+      <dc:creator>Monique Tan</dc:creator>
+      <dc:creator>Eduard Gasal</dc:creator>
+      <dc:creator>Maurizio Voi</dc:creator>
+      <dc:creator>Dirk Schadendorf</dc:creator>
+      <dc:creator>Georgina V. Long</dc:creator>
+      <prism:publicationName>Five-Year Outcomes with Dabrafenib plus Trametinib in Metastatic Melanoma</prism:publicationName>
+      <prism:doi>10.1056/NEJMoa1904059</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMoa1904059?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMoa1905287?af=R&amp;rss=currentIssue">
+      <title>Gemcitabine and Cisplatin Induction Chemotherapy in Nasopharyngeal Carcinoma</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMoa1905287?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</description>
+      <dc:title>Gemcitabine and Cisplatin Induction Chemotherapy in Nasopharyngeal Carcinoma</dc:title>
+      <dc:identifier>doi:10.1056/NEJMoa1905287</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-05-31T08:45:00Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <dc:creator>Yuan Zhang</dc:creator>
+      <dc:creator>Lei Chen</dc:creator>
+      <dc:creator>Guo-Qing Hu</dc:creator>
+      <dc:creator>Ning Zhang</dc:creator>
+      <dc:creator>Xiao-Dong Zhu</dc:creator>
+      <dc:creator>Kun-Yu Yang</dc:creator>
+      <dc:creator>Feng Jin</dc:creator>
+      <dc:creator>Mei Shi</dc:creator>
+      <dc:creator>Yu-Pei Chen</dc:creator>
+      <dc:creator>Wei-Han Hu</dc:creator>
+      <dc:creator>Zhi-Bin Cheng</dc:creator>
+      <dc:creator>Si-Yang Wang</dc:creator>
+      <dc:creator>Ye Tian</dc:creator>
+      <dc:creator>Xi-Cheng Wang</dc:creator>
+      <dc:creator>Yan Sun</dc:creator>
+      <dc:creator>Jin-Gao Li</dc:creator>
+      <dc:creator>Wen-Fei Li</dc:creator>
+      <dc:creator>Yu-Hong Li</dc:creator>
+      <dc:creator>Ling-Long Tang</dc:creator>
+      <dc:creator>Yan-Ping Mao</dc:creator>
+      <dc:creator>Guan-Qun Zhou</dc:creator>
+      <dc:creator>Rui Sun</dc:creator>
+      <dc:creator>Xu Liu</dc:creator>
+      <dc:creator>Rui Guo</dc:creator>
+      <dc:creator>Guo-Xian Long</dc:creator>
+      <dc:creator>Shao-Qiang Liang</dc:creator>
+      <dc:creator>Ling Li</dc:creator>
+      <dc:creator>Jing Huang</dc:creator>
+      <dc:creator>Jin-Hua Long</dc:creator>
+      <dc:creator>Jian Zang</dc:creator>
+      <dc:creator>Qiao-Dan Liu</dc:creator>
+      <dc:creator>Li Zou</dc:creator>
+      <dc:creator>Qiong-Fei Su</dc:creator>
+      <dc:creator>Bao-Min Zheng</dc:creator>
+      <dc:creator>Yun Xiao</dc:creator>
+      <dc:creator>Ying Guo</dc:creator>
+      <dc:creator>Fei Han</dc:creator>
+      <dc:creator>Hao-Yuan Mo</dc:creator>
+      <dc:creator>Jia-Wei Lv</dc:creator>
+      <dc:creator>Xiao-Jing Du</dc:creator>
+      <dc:creator>Cheng Xu</dc:creator>
+      <dc:creator>Na Liu</dc:creator>
+      <dc:creator>Ying-Qin Li</dc:creator>
+      <dc:creator>Melvin L. K. Chua</dc:creator>
+      <dc:creator>Fang-Yun Xie</dc:creator>
+      <dc:creator>Ying Sun</dc:creator>
+      <dc:creator>Jun Ma</dc:creator>
+      <prism:publicationName>Gemcitabine and Cisplatin Induction Chemotherapy in Nasopharyngeal Carcinoma</prism:publicationName>
+      <prism:doi>10.1056/NEJMoa1905287</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMoa1905287?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMoa1905248?af=R&amp;rss=currentIssue">
+      <title>Benralizumab for the Prevention of COPD Exacerbations</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMoa1905248?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</description>
+      <dc:title>Benralizumab for the Prevention of COPD Exacerbations</dc:title>
+      <dc:identifier>doi:10.1056/NEJMoa1905248</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-05-20T03:30:01Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <dc:creator>Gerard J. Criner</dc:creator>
+      <dc:creator>Bartolome R. Celli</dc:creator>
+      <dc:creator>Christopher E. Brightling</dc:creator>
+      <dc:creator>Alvar Agusti</dc:creator>
+      <dc:creator>Alberto Papi</dc:creator>
+      <dc:creator>Dave Singh</dc:creator>
+      <dc:creator>Don D. Sin</dc:creator>
+      <dc:creator>Claus F. Vogelmeier</dc:creator>
+      <dc:creator>Frank C. Sciurba</dc:creator>
+      <dc:creator>Mona Bafadhel</dc:creator>
+      <dc:creator>Vibeke Backer</dc:creator>
+      <dc:creator>Motokazu Kato</dc:creator>
+      <dc:creator>Alejandra Ramírez-Venegas</dc:creator>
+      <dc:creator>Yu-Feng Wei</dc:creator>
+      <dc:creator>Leif Bjermer</dc:creator>
+      <dc:creator>Vivian H. Shih</dc:creator>
+      <dc:creator>Maria Jison</dc:creator>
+      <dc:creator>Sean O’Quinn</dc:creator>
+      <dc:creator>Natalya Makulova</dc:creator>
+      <dc:creator>Paul Newbold</dc:creator>
+      <dc:creator>Mitchell Goldman</dc:creator>
+      <dc:creator>Ubaldo J. Martin</dc:creator>
+      <prism:publicationName>Benralizumab for the Prevention of COPD Exacerbations</prism:publicationName>
+      <prism:doi>10.1056/NEJMoa1905248</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMoa1905248?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMoa1900866?af=R&amp;rss=currentIssue">
+      <title>Eculizumab in Aquaporin-4–Positive Neuromyelitis Optica Spectrum Disorder</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMoa1900866?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</description>
+      <dc:title>Eculizumab in Aquaporin-4–Positive Neuromyelitis Optica Spectrum Disorder</dc:title>
+      <dc:identifier>doi:10.1056/NEJMoa1900866</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-05-03T04:01:01Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <dc:creator>Sean J. Pittock</dc:creator>
+      <dc:creator>Achim Berthele</dc:creator>
+      <dc:creator>Kazuo Fujihara</dc:creator>
+      <dc:creator>Ho Jin Kim</dc:creator>
+      <dc:creator>Michael Levy</dc:creator>
+      <dc:creator>Jacqueline Palace</dc:creator>
+      <dc:creator>Ichiro Nakashima</dc:creator>
+      <dc:creator>Murat Terzi</dc:creator>
+      <dc:creator>Natalia Totolyan</dc:creator>
+      <dc:creator>Shanthi Viswanathan</dc:creator>
+      <dc:creator>Kai-Chen Wang</dc:creator>
+      <dc:creator>Amy Pace</dc:creator>
+      <dc:creator>Kenji P. Fujita</dc:creator>
+      <dc:creator>Róisín Armstrong</dc:creator>
+      <dc:creator>Dean M. Wingerchuk</dc:creator>
+      <prism:publicationName>Eculizumab in Aquaporin-4–Positive Neuromyelitis Optica Spectrum Disorder</prism:publicationName>
+      <prism:doi>10.1056/NEJMoa1900866</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMoa1900866?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMoa1903822?af=R&amp;rss=currentIssue">
+      <title>Liraglutide in Children and Adolescents with Type 2 Diabetes</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMoa1903822?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</description>
+      <dc:title>Liraglutide in Children and Adolescents with Type 2 Diabetes</dc:title>
+      <dc:identifier>doi:10.1056/NEJMoa1903822</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2019-04-28T09:45:01Z</dc:date>
+      <dc:rights>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <dc:creator>William V. Tamborlane</dc:creator>
+      <dc:creator>Margarita Barrientos-Pérez</dc:creator>
+      <dc:creator>Udi Fainberg</dc:creator>
+      <dc:creator>Helle Frimer-Larsen</dc:creator>
+      <dc:creator>Mona Hafez</dc:creator>
+      <dc:creator>Paula M. Hale</dc:creator>
+      <dc:creator>Muhammad Y. Jalaludin</dc:creator>
+      <dc:creator>Margarita Kovarenko</dc:creator>
+      <dc:creator>Ingrid Libman</dc:creator>
+      <dc:creator>Jane L. Lynch</dc:creator>
+      <dc:creator>Paturi Rao</dc:creator>
+      <dc:creator>Naim Shehadeh</dc:creator>
+      <dc:creator>Serap Turan</dc:creator>
+      <dc:creator>Daniel Weghuber</dc:creator>
+      <dc:creator>Timothy Barrett</dc:creator>
+      <prism:publicationName>Liraglutide in Children and Adolescents with Type 2 Diabetes</prism:publicationName>
+      <prism:doi>10.1056/NEJMoa1903822</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMoa1903822?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2019 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMoa1708120?af=R&amp;rss=currentIssue">
+      <title>Safety and Immunogenicity of an Anti–Zika Virus DNA Vaccine — Preliminary Report</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMoa1708120?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</description>
+      <dc:title>Safety and Immunogenicity of an Anti–Zika Virus DNA Vaccine — Preliminary Report</dc:title>
+      <dc:identifier>doi:10.1056/NEJMoa1708120</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2017-10-04T09:00:31Z</dc:date>
+      <dc:rights>Copyright © 2017 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <dc:creator>Pablo Tebas</dc:creator>
+      <dc:creator>Christine C. Roberts</dc:creator>
+      <dc:creator>Kar Muthumani</dc:creator>
+      <dc:creator>Emma L. Reuschel</dc:creator>
+      <dc:creator>Sagar B. Kudchodkar</dc:creator>
+      <dc:creator>Faraz I. Zaidi</dc:creator>
+      <dc:creator>Scott White</dc:creator>
+      <dc:creator>Amir S. Khan</dc:creator>
+      <dc:creator>Trina Racine</dc:creator>
+      <dc:creator>Hyeree Choi</dc:creator>
+      <dc:creator>Jean Boyer</dc:creator>
+      <dc:creator>Young K. Park</dc:creator>
+      <dc:creator>Sylvie Trottier</dc:creator>
+      <dc:creator>Celine Remigio</dc:creator>
+      <dc:creator>Diane Krieger</dc:creator>
+      <dc:creator>Susan E. Spruill</dc:creator>
+      <dc:creator>Mark Bagarazzi</dc:creator>
+      <dc:creator>Gary P. Kobinger</dc:creator>
+      <dc:creator>David B. Weiner</dc:creator>
+      <dc:creator>Joel N. Maslow</dc:creator>
+      <prism:publicationName>Safety and Immunogenicity of an Anti–Zika Virus DNA Vaccine — Preliminary Report</prism:publicationName>
+      <prism:doi>10.1056/NEJMoa1708120</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMoa1708120?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2017 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+   <item rdf:about="https://www.nejm.org/doi/full/10.1056/NEJMoa1604037?af=R&amp;rss=currentIssue">
+      <title>Zika Virus Disease in Colombia — Preliminary Report</title>
+      <link>https://www.nejm.org/doi/full/10.1056/NEJMoa1604037?af=R&amp;rss=currentIssue</link>
+      <content:encoded>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</content:encoded>
+      <description>New England Journal of Medicine, Ahead of Print. &lt;br/&gt;</description>
+      <dc:title>Zika Virus Disease in Colombia — Preliminary Report</dc:title>
+      <dc:identifier>doi:10.1056/NEJMoa1604037</dc:identifier>
+      <dc:source>New England Journal of Medicine</dc:source>
+      <dc:date>2016-06-15T09:00:31Z</dc:date>
+      <dc:rights>Copyright © 2016 Massachusetts Medical Society. All rights reserved.</dc:rights>
+      <dc:creator>Oscar Pacheco</dc:creator>
+      <dc:creator>Mauricio Beltrán</dc:creator>
+      <dc:creator>Christina A. Nelson</dc:creator>
+      <dc:creator>Diana Valencia</dc:creator>
+      <dc:creator>Natalia Tolosa</dc:creator>
+      <dc:creator>Sherry L. Farr</dc:creator>
+      <dc:creator>Ana V. Padilla</dc:creator>
+      <dc:creator>Van T. Tong</dc:creator>
+      <dc:creator>Esther L. Cuevas</dc:creator>
+      <dc:creator>Andrés Espinosa-Bode</dc:creator>
+      <dc:creator>Lissethe Pardo</dc:creator>
+      <dc:creator>Angélica Rico</dc:creator>
+      <dc:creator>Jennita Reefhuis</dc:creator>
+      <dc:creator>Maritza González</dc:creator>
+      <dc:creator>Marcela Mercado</dc:creator>
+      <dc:creator>Pablo Chaparro</dc:creator>
+      <dc:creator>Mancel Martínez Duran</dc:creator>
+      <dc:creator>Carol Y. Rao</dc:creator>
+      <dc:creator>María M. Muñoz</dc:creator>
+      <dc:creator>Ann M. Powers</dc:creator>
+      <dc:creator>Claudia Cuéllar</dc:creator>
+      <dc:creator>Rita Helfand</dc:creator>
+      <dc:creator>Claudia Huguett</dc:creator>
+      <dc:creator>Denise J. Jamieson</dc:creator>
+      <dc:creator>Margaret A. Honein</dc:creator>
+      <dc:creator>Martha L. Ospina Martínez</dc:creator>
+      <prism:publicationName>Zika Virus Disease in Colombia — Preliminary Report</prism:publicationName>
+      <prism:doi>10.1056/NEJMoa1604037</prism:doi>
+      <prism:url>https://www.nejm.org/doi/full/10.1056/NEJMoa1604037?af=R&amp;rss=currentIssue</prism:url>
+      <prism:copyright>Copyright © 2016 Massachusetts Medical Society. All rights reserved.</prism:copyright>
+   </item>
+</rdf:RDF>

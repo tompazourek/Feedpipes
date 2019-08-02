@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+
+<channel>
+	<title>Medgadget</title>
+	
+	<link>https://www.medgadget.com</link>
+	<description>Medical Technology News</description>
+	<lastBuildDate>Thu, 01 Aug 2019 18:35:18 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.2</generator>
+	<feedburner:info uri="medgadget" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://www.medgadget.com/index.xml" /><feedburner:browserFriendly>This is an XML content feed for Medgadget. It is intended to be viewed in a newsreader or syndicated to another site.</feedburner:browserFriendly><item>
+		<title>System Corrects for Chromatic Aberration to Improve Imaging of Eye</title>
+		<link>http://feedproxy.google.com/~r/Medgadget/~3/L-exGYpW0Rs/system-corrects-for-chromatic-aberration-to-improve-imaging-of-eye.html</link>
+		<pubDate>Thu, 01 Aug 2019 18:35:18 +0000</pubDate>
+		<dc:creator><![CDATA[Medgadget Editors]]></dc:creator>
+				<category><![CDATA[Ophthalmology]]></category>
+
+		<guid isPermaLink="false">https://www.medgadget.com/?p=1467591</guid>
+		<description><![CDATA[Our eyes are an imperfect window into the world. Individual and unique aberrations of every eye make it challenging to study how people perceive the world, but also create an impediment to imaging the eye accurately for signs of disease. Since eye imaging equipment has to peer through the imperfect lenses of our eyes, the [&#8230;]]]></description>
+				<content:encoded><![CDATA[
+<figure class="wp-block-image"><img src="https://www.medgadget.com/wp-content/uploads/2019/08/chromatic-aberration-mesurement.jpg" alt="" class="wp-image-1467593" srcset="https://www.medgadget.com/wp-content/uploads/2019/08/chromatic-aberration-mesurement.jpg 770w, https://www.medgadget.com/wp-content/uploads/2019/08/chromatic-aberration-mesurement-300x219.jpg 300w, https://www.medgadget.com/wp-content/uploads/2019/08/chromatic-aberration-mesurement-768x561.jpg 768w" sizes="(max-width: 770px) 100vw, 770px" /></figure>
+
+
+
+<p>Our eyes are an imperfect window into the world. Individual and unique aberrations of every eye make it challenging to study how people perceive the world, but also create an impediment to imaging the eye accurately for signs of disease. Since eye imaging equipment has to peer through the imperfect lenses of our eyes, the resulting images end up imperfect as well.</p>
+
+
+
+<p>Most existing ophthalmology equipment already features technology to correct for monochromatic aberrations, which don&#8217;t depend on color. Chromatic aberrations, though, which change depending on the wavelength of light being used, are still not accounted for and create an impediment for many studies of the eye.</p>
+
+
+
+<div class="wp-block-image"><figure class="alignright"><img src="https://www.medgadget.com/wp-content/uploads/2019/08/chromatic-aberration.jpg" alt="" class="wp-image-1467592" srcset="https://www.medgadget.com/wp-content/uploads/2019/08/chromatic-aberration.jpg 466w, https://www.medgadget.com/wp-content/uploads/2019/08/chromatic-aberration-300x213.jpg 300w" sizes="(max-width: 466px) 100vw, 466px" /><figcaption>Images of the smallest cone photoreceptors in the retina, approximately 2 microns wide. Coloration was added to represent the different wavelengths of light used to capture the images after compensating for chromatic aberration.<br> Credit: Xiaoyun Jiang, Ramkumar Sabesan, University of Washington </figcaption></figure></div>
+
+
+
+<p>Now, researchers at University of Washington have developed a system that compensates for chromatic optical aberrations of every eye and provides unprecedented imaging that will help scientists to study how we perceive colors while improving the ability of clinicians to diagnose and monitor disease. Moreover, the same technology has allowed for imaging of light-sensitive cells within the eye at different light wavelengths, which results in accurate assessments of longitudinal chromatic aberrations, a poorly studied topic.</p>
+
+
+
+<p>The researchers have already integrated their technology into two existing ophthalmic instruments and tried them on human volunteers, demonstrating significant improvements in imaging quality.</p>
+
+
+
+<p>Here&#8217;s a bit about the underlying technology, according to The Optical Society:</p>
+
+
+
+<blockquote class="wp-block-quote"><p>&#8230;the researchers used a device known as a Badal optometer, which consists of a pair of lenses that are a certain distance apart. Changing the distance between the two lenses changes the focus without altering the size of an image viewed through the lenses.</p><p>The researchers modified this simple Badal optometer by adding two  filters that transmit longer wavelengths of light while reflecting shorter ones. These filters were kept stationary within a traditional Badal optometer, such that now, when the distance between the lenses is  changed, the transmitted and reflected wavelength bands have subtly  different levels of focus sufficient to compensate for the eye’s native  chromatic aberration for the two wavelength bands. </p><p>By finely tuning the selection of filters, distances between the lenses and multiple color illumination, this setup can be used collectively to measure and compensate for chromatic aberration in a customized  fashion. </p></blockquote>
+
+
+
+<p>Study in journal <em>Optica</em>: <a href="https://www.osapublishing.org/optica/abstract.cfm?uri=optica-6-8-981">Measuring and compensating for ocular longitudinal chromatic aberration</a> </p>
+
+
+
+<p>Via: <a href="https://www.osa.org/en-us/about_osa/newsroom/news_releases/2019/system_to_image_the_human_eye_corrects_for_chromat/">The Optical Society</a> </p>
+<!--TrendMD v2.4.6--><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Medgadget?a=L-exGYpW0Rs:0eRCFpGB4ek:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Medgadget?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Medgadget?a=L-exGYpW0Rs:0eRCFpGB4ek:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Medgadget?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Medgadget?a=L-exGYpW0Rs:0eRCFpGB4ek:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/Medgadget?i=L-exGYpW0Rs:0eRCFpGB4ek:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Medgadget/~4/L-exGYpW0Rs" height="1" width="1" alt=""/>]]></content:encoded>
+			<feedburner:origLink>https://www.medgadget.com/2019/08/system-corrects-for-chromatic-aberration-to-improve-imaging-of-eye.html</feedburner:origLink></item>
+		<item>
+		<title>New Device Helps Deliver Accurate Chest Compressions</title>
+		<link>http://feedproxy.google.com/~r/Medgadget/~3/KXRwKRNeCsA/new-device-helps-deliver-accurate-chest-compressions.html</link>
+		<pubDate>Thu, 01 Aug 2019 16:07:07 +0000</pubDate>
+		<dc:creator><![CDATA[Medgadget Editors]]></dc:creator>
+				<category><![CDATA[Cardiology]]></category>
+		<category><![CDATA[Emergency Medicine]]></category>
+
+		<guid isPermaLink="false">https://www.medgadget.com/?p=1467582</guid>
+		<description><![CDATA[Chest compressions, if performed properly, can save people from cardiac arrest. Most bystanders faced with an individual requiring resuscitation fail at this task, in many cases because their compressions are too weak and are not delivered correctly. Now, researchers from the Fraunhofer Institute for Silicate Research and University of Applied Sciences, both in Germany, have [&#8230;]]]></description>
+				<content:encoded><![CDATA[
+<figure class="wp-block-image"><img src="https://www.medgadget.com/wp-content/uploads/2019/08/resuscitation-bot.jpg" alt="" class="wp-image-1467585" srcset="https://www.medgadget.com/wp-content/uploads/2019/08/resuscitation-bot.jpg 770w, https://www.medgadget.com/wp-content/uploads/2019/08/resuscitation-bot-300x200.jpg 300w, https://www.medgadget.com/wp-content/uploads/2019/08/resuscitation-bot-768x513.jpg 768w" sizes="(max-width: 770px) 100vw, 770px" /></figure>
+
+
+
+<p>Chest compressions, if performed properly, can save people from cardiac arrest. Most bystanders faced with an individual requiring resuscitation fail at this task, in many cases because their compressions are too weak and are not delivered correctly. Now, researchers from the Fraunhofer Institute for Silicate Research and University of Applied Sciences, both in Germany, have developed a device, called Rescue Aid, that helps first responders to make sure the chest compressions they administer are at just the right strength and frequency.</p>
+
+
+
+<p>“People are scared of making a mistake, and as a result either do nothing or administer the chest compressions too gently to be effective,” said Dr. Holger Böse, Scientific and Technical Manager of the Fraunhofer Institute for Silicate Research, who was involved in the study. “If performed correctly, chest compressions significantly improve the victim’s chances of survival. Rescue Aid is a way to simplify the resuscitation process.”</p>
+
+
+
+<p>The device, which is in the form of a soft and flexible pad with LED indicators on top, is placed over the chest of the patient. Silicone deformation sensors within it can detect how deep each compression is, with the LEDs on top lighting up accordingly to guide the first responder on each push.</p>
+
+
+
+<p>To guarantee a proper rate of compressions, instead of playing &#8220;Staying Alive&#8221; by the Bee Gees, an internal metronome clicks away at the correct frequency.</p>
+
+
+
+<p>The device has already been tested on dummies, with further research still required to bring the technology to market.</p>
+
+
+
+<p>Via: <a href="https://www.fraunhofer.de/en/press/research-news/2019/august/resuscitation-mat-simplifies-cardiac-massage.html">Fraunhofer Institute for Silicate Research</a> </p>
+<!--TrendMD v2.4.6--><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Medgadget?a=KXRwKRNeCsA:S-RMnaLuGFo:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Medgadget?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Medgadget?a=KXRwKRNeCsA:S-RMnaLuGFo:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Medgadget?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Medgadget?a=KXRwKRNeCsA:S-RMnaLuGFo:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/Medgadget?i=KXRwKRNeCsA:S-RMnaLuGFo:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Medgadget/~4/KXRwKRNeCsA" height="1" width="1" alt=""/>]]></content:encoded>
+			<feedburner:origLink>https://www.medgadget.com/2019/08/new-device-helps-deliver-accurate-chest-compressions.html</feedburner:origLink></item>
+		<item>
+		<title>Implanted Electrodes Improve Powered Prosthetic Arms</title>
+		<link>http://feedproxy.google.com/~r/Medgadget/~3/sG0CHPYScXI/implanted-electrodes-improve-powered-prosthetic-arms.html</link>
+		<pubDate>Thu, 01 Aug 2019 15:17:18 +0000</pubDate>
+		<dc:creator><![CDATA[Medgadget Editors]]></dc:creator>
+				<category><![CDATA[Neurology]]></category>
+		<category><![CDATA[Neurosurgery]]></category>
+		<category><![CDATA[Rehab]]></category>
+
+		<guid isPermaLink="false">https://www.medgadget.com/?p=1467563</guid>
+		<description><![CDATA[Today&#8217;s conventional powered prosthetic arms usually have a few built-in electrodes that make contact with patient skin. These are good enough to open and close a simple claw, but for more nuanced control of prostheses with multiple degrees of freedom and individual fingers, a better approach is required. Implantable electrodes can gather a great deal [&#8230;]]]></description>
+				<content:encoded><![CDATA[
+<figure class="wp-block-image"><img src="https://www.medgadget.com/wp-content/uploads/2019/08/imperial-prosthetic.jpg" alt="" class="wp-image-1467565" srcset="https://www.medgadget.com/wp-content/uploads/2019/08/imperial-prosthetic.jpg 770w, https://www.medgadget.com/wp-content/uploads/2019/08/imperial-prosthetic-300x228.jpg 300w, https://www.medgadget.com/wp-content/uploads/2019/08/imperial-prosthetic-768x582.jpg 768w" sizes="(max-width: 770px) 100vw, 770px" /></figure>
+
+
+
+<p>Today&#8217;s conventional powered prosthetic arms usually have a few built-in electrodes that make contact with patient skin. These are good enough to open and close a simple claw, but for more nuanced control of prostheses with multiple degrees of freedom and individual fingers, a better approach is required. Implantable electrodes can gather a great deal more data from the electrical signals around the stump, but they require cables that protrude through the skin, a major limitation.</p>
+
+
+
+<div class="wp-block-image"><figure class="alignright"><img src="https://www.medgadget.com/wp-content/uploads/2019/08/imperial-prosthetic-graphic.jpg" alt="" class="wp-image-1467566" srcset="https://www.medgadget.com/wp-content/uploads/2019/08/imperial-prosthetic-graphic.jpg 466w, https://www.medgadget.com/wp-content/uploads/2019/08/imperial-prosthetic-graphic-259x300.jpg 259w" sizes="(max-width: 466px) 100vw, 466px" /></figure></div>
+
+
+
+<p>Now, researchers at Medical University of Vienna, Otto Bock Healthcare Products, Alfred Mann Foundation, and Imperial College London have come together to develop an implantable wireless system that allowed three amputees to use robotic arms in ways that are impossible using external electrodes.</p>
+
+
+
+<p>The researchers implanted electrodes close to important nerves and muscles within the stumps of the three volunteers, which let them gather much stronger signals and interpret them appropriately. After following the amputees for more than two years, the researchers noted a much improved ability to use powered prosthetic arms and to do so with greater intuition. Moreover, rehab was easier and quicker compared with existing solutions because there&#8217;s no need to place and align electrodes nor as much work to adjust to the system. Fitting sockets was also easier since there is no need to consider electrodes and sweat did not affect the quality of the signals obtained.</p>
+
+
+
+<p>All three of the amputees loved the new system and wanted to continue using it, which is very promising since most existing powered prostheses are generally still lacking in many aspects.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter"><img src="https://www.medgadget.com/wp-content/uploads/2019/08/imperial-prosthetic-implants.jpg" alt="" class="wp-image-1467567" srcset="https://www.medgadget.com/wp-content/uploads/2019/08/imperial-prosthetic-implants.jpg 700w, https://www.medgadget.com/wp-content/uploads/2019/08/imperial-prosthetic-implants-300x207.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></figure></div>
+
+
+
+<p>Study in journal <em>Science Robotics</em>: <a href="https://robotics.sciencemag.org/content/4/32/eaaw6306">Long-term implant of intramuscular sensors and nerve transfers for wireless control of robotic arms in above-elbow amputees</a> </p>
+
+
+
+<p>Via: <a href="https://www.meduniwien.ac.at/web/en/about-us/news/detailsite/2019/news-im-juli-2019/prosthetics-for-the-first-time-sensors-have-been-implanted-for-wireless-control-of-muscle-signal-transmission-following-nerve-transfers/">MedUni Vienna</a> and <a href="https://www.imperial.ac.uk/news/192209/electrodes-remaining-arms-give-amputees-better/">Imperial College London</a> </p>
+<!--TrendMD v2.4.6--><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Medgadget?a=sG0CHPYScXI:LOuhexs_Zz0:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Medgadget?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Medgadget?a=sG0CHPYScXI:LOuhexs_Zz0:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Medgadget?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Medgadget?a=sG0CHPYScXI:LOuhexs_Zz0:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/Medgadget?i=sG0CHPYScXI:LOuhexs_Zz0:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Medgadget/~4/sG0CHPYScXI" height="1" width="1" alt=""/>]]></content:encoded>
+			<feedburner:origLink>https://www.medgadget.com/2019/08/implanted-electrodes-improve-powered-prosthetic-arms.html</feedburner:origLink></item>
+		<item>
+		<title>Flexible Body Monitor Measures ECG, Breathing, Heart Rate Continuously for Weeks</title>
+		<link>http://feedproxy.google.com/~r/Medgadget/~3/1Va0V5SiksQ/flexible-body-monitor-measures-ecg-breathing-heart-rate-continuously-for-weeks.html</link>
+		<pubDate>Thu, 01 Aug 2019 13:11:32 +0000</pubDate>
+		<dc:creator><![CDATA[Medgadget Editors]]></dc:creator>
+				<category><![CDATA[Cardiology]]></category>
+		<category><![CDATA[Diagnostics]]></category>
+		<category><![CDATA[Geriatrics]]></category>
+		<category><![CDATA[Pediatrics]]></category>
+		<category><![CDATA[Sports Medicine]]></category>
+		<category><![CDATA[Telemedicine]]></category>
+
+		<guid isPermaLink="false">https://www.medgadget.com/?p=1467520</guid>
+		<description><![CDATA[Continuous, long-term monitoring of physiological activity can provide doctors, caretakers, and scientists with nuanced information about someone&#8217;s health. Children, the frail and elderly, and people with all sorts of conditions often have difficulty wearing and using existing body-worn sensors. Now, researchers at Georgia Tech have designed a remarkable device that can be worn on the [&#8230;]]]></description>
+				<content:encoded><![CDATA[
+<figure class="wp-block-image"><img src="https://www.medgadget.com/wp-content/uploads/2019/07/flexible-health-monitor.jpg" alt="" class="wp-image-1467523" srcset="https://www.medgadget.com/wp-content/uploads/2019/07/flexible-health-monitor.jpg 770w, https://www.medgadget.com/wp-content/uploads/2019/07/flexible-health-monitor-300x195.jpg 300w, https://www.medgadget.com/wp-content/uploads/2019/07/flexible-health-monitor-768x500.jpg 768w" sizes="(max-width: 770px) 100vw, 770px" /></figure>
+
+
+
+<p>Continuous, long-term monitoring of physiological activity can provide doctors, caretakers, and scientists with nuanced information about someone&#8217;s health. Children, the frail and elderly, and people with all sorts of conditions often have difficulty wearing and using existing body-worn sensors. Now, researchers at Georgia Tech have designed a remarkable device that can be worn on the skin for a long time to measure a variety of physiological signals.</p>
+
+
+
+<p>The device consists of a stretchable substrate with flexible built-in electrodes and appropriate electronics, including a small rechargeable battery, on top. It provides electrocardiography (ECG), heart rate, respiratory rate, as well as movement data from an accelerometer that&#8217;s just like that found inside wrist-based activity trackers.</p>
+
+
+
+<p>It transmits its readings to a nearby tablet or smartphone, allowing for continuous downloading and monitoring of patient data.</p>
+
+
+
+<p>The device has already been tested on animals and humans, demonstrating close correlation with existing monitoring devices, but it can also take readings while the user is walking and climbing stairs, for example. Moreover, it doesn&#8217;t require any gels to accurately pick up ECG readings, which is itself an impressive achievement.</p>
+
+
+
+<p>&#8220;The generation of continuous data from the respiratory and  cardiovascular systems could allow for the application of advanced  diagnostics to detect changes in clinical status, response to therapies and implementation of early intervention,&#8221; said Kevin Maher, a pediatric cardiologist who partnered with Georgia Tech on the project. &#8220;A device to literally follow every breath a child takes could allow for early recognition and intervention prior to a more severe presentation of a disease.&#8221; </p>
+
+
+
+<p>The researchers are already working on a smaller, more advanced version of the monitor and are hoping to begin planning clinical studies and commercialization in the coming future.</p>
+
+
+
+<p>Here&#8217;s a video from Georgia Tech about the device:</p>
+
+
+
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="Georgia Tech engineers make wireless wearable health monitor" width="500" height="281" src="https://www.youtube.com/embed/xFATL0IqfN0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>Study in journal <em>Advanced Science</em>: <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/advs.201900939">All‐in‐One, Wireless, Stretchable Hybrid Electronics for Smart, Connected, and Ambulatory Physiological Monitoring</a> </p>
+
+
+
+<p>Via: <a href="https://www.sciencedaily.com/releases/2019/07/190730182428.htm">Georgia Tech</a> </p>
+<!--TrendMD v2.4.6--><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Medgadget?a=1Va0V5SiksQ:OgKeBw_E4FQ:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Medgadget?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Medgadget?a=1Va0V5SiksQ:OgKeBw_E4FQ:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Medgadget?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Medgadget?a=1Va0V5SiksQ:OgKeBw_E4FQ:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/Medgadget?i=1Va0V5SiksQ:OgKeBw_E4FQ:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Medgadget/~4/1Va0V5SiksQ" height="1" width="1" alt=""/>]]></content:encoded>
+			<feedburner:origLink>https://www.medgadget.com/2019/08/flexible-body-monitor-measures-ecg-breathing-heart-rate-continuously-for-weeks.html</feedburner:origLink></item>
+		<item>
+		<title>Self-Healing Bacteriophage Hydrogel to Target Infections, Cancer</title>
+		<link>http://feedproxy.google.com/~r/Medgadget/~3/q5cmzVnM4rM/self-healing-bacteriophage-hydrogel-to-target-infections-cancer.html</link>
+		<pubDate>Wed, 31 Jul 2019 16:46:08 +0000</pubDate>
+		<dc:creator><![CDATA[Medgadget Editors]]></dc:creator>
+				<category><![CDATA[Critical Care]]></category>
+		<category><![CDATA[Materials]]></category>
+		<category><![CDATA[Pathology]]></category>
+		<category><![CDATA[Public Health]]></category>
+		<category><![CDATA[Surgery]]></category>
+
+		<guid isPermaLink="false">https://www.medgadget.com/?p=1467509</guid>
+		<description><![CDATA[Antibiotics are the predominant tool when fighting bacterial infections, but bacteriophages could potentially be a lot more effective. Bacteriophages are viruses that attack bacteria and because they avoid injuring human cells they are a promising therapeutic tool, if used correctly. Moreover, they can be used alongside antibiotics, since the two don&#8217;t affect each other. At [&#8230;]]]></description>
+				<content:encoded><![CDATA[
+<figure class="wp-block-image"><img src="https://www.medgadget.com/wp-content/uploads/2019/07/bacteriaphage-gel.jpg" alt="" class="wp-image-1467511" srcset="https://www.medgadget.com/wp-content/uploads/2019/07/bacteriaphage-gel.jpg 770w, https://www.medgadget.com/wp-content/uploads/2019/07/bacteriaphage-gel-300x169.jpg 300w, https://www.medgadget.com/wp-content/uploads/2019/07/bacteriaphage-gel-768x432.jpg 768w" sizes="(max-width: 770px) 100vw, 770px" /></figure>
+
+
+
+<p>Antibiotics are the predominant tool when fighting bacterial infections, but bacteriophages could potentially be a lot more effective. Bacteriophages are viruses that attack bacteria and because they avoid injuring human cells they are a promising therapeutic tool, if used correctly. Moreover, they can be used alongside antibiotics, since the two don&#8217;t affect each other.</p>
+
+
+
+<p>At McMaster University in Canada researchers have developed a hydrogel loaded with an enormous amount of bacteriophage viruses that can overwhelm any bacterial defenses. Because the hydrogel has such a high concentration of bacteriophages, they end up joining together to create a self-healing material that reassembles after being cut.</p>
+
+
+
+<p>One millimeter of the gel holds over 300 trillion of the bacteriophage viruses, and if these are made to target specific bacterial infections, or even cancer through DNA modification, the gel may have impressive therapeutic effects.</p>
+
+
+
+<p>Conveniently, because the gel is naturally fluorescent, it lends itself to scientific studies, allowing it to be tracked within the body.</p>
+
+
+
+<p>Here&#8217;s a video from McMaster University with the researchers that invented the new gel:</p>
+
+
+
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="Healing gel" width="500" height="281" src="https://www.youtube.com/embed/lhIC-H7qzSw?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>Study in journal <em>Chemistry of Materials</em>: <a href="https://pubs.acs.org/doi/10.1021/acs.chemmater.9b00720">Hierarchically Structured, Self-Healing, Fluorescent, Bioactive Hydrogels with Self-Organizing Bundles of Phage Nanofilaments</a> </p>
+
+
+
+<p>Via: <a href="https://brighterworld.mcmaster.ca/articles/mcmaster-researchers-use-friendly-viruses-to-make-a-gel-that-can-heal-itself-and-you/">McMaster University</a> </p>
+<!--TrendMD v2.4.6--><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Medgadget?a=q5cmzVnM4rM:nE68iCmnbNw:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Medgadget?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Medgadget?a=q5cmzVnM4rM:nE68iCmnbNw:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Medgadget?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Medgadget?a=q5cmzVnM4rM:nE68iCmnbNw:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/Medgadget?i=q5cmzVnM4rM:nE68iCmnbNw:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Medgadget/~4/q5cmzVnM4rM" height="1" width="1" alt=""/>]]></content:encoded>
+			<feedburner:origLink>https://www.medgadget.com/2019/07/self-healing-bacteriophage-hydrogel-to-target-infections-cancer.html</feedburner:origLink></item>
+		<item>
+		<title>Tiny Robots Aim to Work Inside Our Bodies</title>
+		<link>http://feedproxy.google.com/~r/Medgadget/~3/D5C96m77g_0/tiny-robots-aim-to-work-inside-our-bodies.html</link>
+		<pubDate>Wed, 31 Jul 2019 15:58:44 +0000</pubDate>
+		<dc:creator><![CDATA[Medgadget Editors]]></dc:creator>
+				<category><![CDATA[Diagnostics]]></category>
+		<category><![CDATA[Materials]]></category>
+		<category><![CDATA[Medicine]]></category>
+		<category><![CDATA[Surgery]]></category>
+		<category><![CDATA[Vascular Surgery]]></category>
+
+		<guid isPermaLink="false">https://www.medgadget.com/?p=1467502</guid>
+		<description><![CDATA[If we&#8217;re to have robots that work inside our bodies to find and cure diseases, they must be very small. To help make the dreams of futurists a reality, researchers at Georgia Tech have now created a robot that weighs only five milligrams and is no taller than the side of a US penny. The [&#8230;]]]></description>
+				<content:encoded><![CDATA[
+<figure class="wp-block-image"><img src="https://www.medgadget.com/wp-content/uploads/2019/07/bristle-bot-011.jpg" alt="" class="wp-image-1467506" srcset="https://www.medgadget.com/wp-content/uploads/2019/07/bristle-bot-011.jpg 740w, https://www.medgadget.com/wp-content/uploads/2019/07/bristle-bot-011-300x186.jpg 300w" sizes="(max-width: 740px) 100vw, 740px" /></figure>
+
+
+
+<p>If we&#8217;re to have robots that work inside our bodies to find and cure diseases, they must be very small. To help make the dreams of futurists a reality, researchers at Georgia Tech have now created a robot that weighs only five milligrams and is no taller than the side of a US penny.</p>
+
+
+
+<div class="wp-block-image"><figure class="alignright"><img src="https://www.medgadget.com/wp-content/uploads/2019/07/robot-and-penny.jpg" alt="" class="wp-image-1467505" srcset="https://www.medgadget.com/wp-content/uploads/2019/07/robot-and-penny.jpg 466w, https://www.medgadget.com/wp-content/uploads/2019/07/robot-and-penny-237x300.jpg 237w" sizes="(max-width: 466px) 100vw, 466px" /></figure></div>
+
+
+
+<p>The device is a variation of a &#8220;bristle-bot&#8221; that features a vibrating motor and bristles for legs. The bristles are angled so that they stay straight and resist motion in one direction, while bending when pushed in the other. As the motor vibrates back and forth, the robot ends up moving in only one direction. “As the micro-bristle-bots move up and down, the vertical motion is translated into a directional movement by optimizing the design of the  legs, which look like bristles,” said Azadeh Ansari, one of the leads on the research. “The legs of the micro-robot are designed with specific angles that allow them to bend and move in one direction in resonant response to the vibration.” </p>
+
+
+
+<p>Georgia Tech&#8217;s &#8220;micro-bristle-bot&#8221; has a piezoelectric actuator on top of a polymer core that is 3D printed using a technique called two-photon polymerization lithography. The actuator can be powered externally and, if desired, the surface on which the robot sits can be vibrated to make the robot walk.</p>
+
+
+
+<p>By changing the length, shape, and size of the robot&#8217;s legs, it can be made to walk at different rates with the same vibrational frequency. This can allow multiple robots to be controlled together, with each having its own independent path. Each robot can also have a different number of legs, and since these legs can be made to vibrate and generate electricity, they can also potentially power on-board sensors and other devices.</p>
+
+
+
+<p>The possibilities are enticing and we hope this technology will soon translate into the medical world.</p>
+
+
+
+<p>Here&#8217;s a Georgia Tech video abut the new robot:</p>
+
+
+
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="This Tiny Robot made at Georgia Tech is Barely Visible" width="500" height="281" src="https://www.youtube.com/embed/JgEnX7kADNE?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>Study in <em>Journal Micromechanics and Microengineering</em>: <a href="https://iopscience.iop.org/article/10.1088/1361-6439/ab309b">A 5mg micro-bristle-bot fabricated by two-photon lithography</a> </p>
+
+
+
+<p>Via: <a href="https://www.news.gatech.edu/2019/07/16/tiny-vibration-powered-robots-are-size-worlds-smallest-ant">Georgia Tech</a> </p>
+<!--TrendMD v2.4.6--><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Medgadget?a=D5C96m77g_0:b7Advkxy0e4:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Medgadget?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Medgadget?a=D5C96m77g_0:b7Advkxy0e4:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Medgadget?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Medgadget?a=D5C96m77g_0:b7Advkxy0e4:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/Medgadget?i=D5C96m77g_0:b7Advkxy0e4:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Medgadget/~4/D5C96m77g_0" height="1" width="1" alt=""/>]]></content:encoded>
+			<feedburner:origLink>https://www.medgadget.com/2019/07/tiny-robots-aim-to-work-inside-our-bodies.html</feedburner:origLink></item>
+		<item>
+		<title>Computational Simulations to Guide Cancer Therapy</title>
+		<link>http://feedproxy.google.com/~r/Medgadget/~3/GJSkIsDpEAA/computational-simulations-to-guide-cancer-therapy.html</link>
+		<pubDate>Wed, 31 Jul 2019 12:41:17 +0000</pubDate>
+		<dc:creator><![CDATA[Siavash Parkhideh]]></dc:creator>
+				<category><![CDATA[Informatics]]></category>
+		<category><![CDATA[Oncology]]></category>
+
+		<guid isPermaLink="false">https://www.medgadget.com/?p=1467476</guid>
+		<description><![CDATA[Researchers from Argonne National Laboratory and University of Chicago have developed a new supercomputer-based tool to model tumor progression and destruction by the immune system. Their work demonstrates that computational simulations of immune-tumor interactions can infer whether or not a given tumor can be destroyed with immunotherapy. This exciting development may one day curate personalized [&#8230;]]]></description>
+				<content:encoded><![CDATA[
+<figure class="wp-block-image"><img src="https://www.medgadget.com/wp-content/uploads/2019/07/computer-simulation-cancer-therapy.jpg" alt="" class="wp-image-1467486" srcset="https://www.medgadget.com/wp-content/uploads/2019/07/computer-simulation-cancer-therapy.jpg 770w, https://www.medgadget.com/wp-content/uploads/2019/07/computer-simulation-cancer-therapy-300x169.jpg 300w, https://www.medgadget.com/wp-content/uploads/2019/07/computer-simulation-cancer-therapy-768x432.jpg 768w" sizes="(max-width: 770px) 100vw, 770px" /></figure>
+
+
+
+<p>Researchers from Argonne National Laboratory and University of Chicago have developed a new supercomputer-based tool to model tumor progression and destruction by the immune system. Their work demonstrates that computational simulations of  immune-tumor interactions can infer whether or not a given tumor can be destroyed with immunotherapy. This exciting development may one day curate personalized therapies for cancer based on a patient’s individual biology. </p>
+
+
+
+<p>Cancer immunotherapies are able to significantly improve survival
+in various cancer types, however, immunotherapies do not benefit all patients
+equally: Only 10-20% of patients experience durable, partial, or complete
+response. Despite continued research, scientists have not been able to reliably
+determine whether or not a given patient will benefit from immunotherapy. To
+address this need, the authors of the study applied a computational model to
+study how cancer and immune cells interact, and how changing various aspects of
+the model, mimicking the effects of immunotherapy, can lead to cancer
+regression. </p>
+
+
+
+<div class="wp-block-image"><figure class="alignright"><img src="https://www.medgadget.com/wp-content/uploads/2019/07/cancer-therapy-simulation.jpg" alt="" class="wp-image-1467487" srcset="https://www.medgadget.com/wp-content/uploads/2019/07/cancer-therapy-simulation.jpg 466w, https://www.medgadget.com/wp-content/uploads/2019/07/cancer-therapy-simulation-300x203.jpg 300w" sizes="(max-width: 466px) 100vw, 466px" /></figure></div>
+
+
+
+<p>The researchers began with a cell simulator, which incorporates realistic growth, death, and heterogeneity of cells. Then, they modelled immune and cancer cell populations. In the model they varied six different variables, including immune cell kill rate, immune cell attachment rate, and immune cell migration. At the end of each simulation they would quantify how many tumor cells remained, and compared this across changes in different variables.</p>
+
+
+
+<p>The researchers performed the simulations on the Argonne National Laboratory supercomputer cluster, generating over 500,000 different results by testing various combinations of the parameters. They found that in 80% of cases the immune cells were unable to stop cancer progression, whereas in 2% of cases immune cells could kill 99% of tumor cells. However, they also found that within many different possible scenarios, changing one or more variables could improve cancer cell killing, demonstrating a potential path to therapy based on individual patient biology. </p>
+
+
+
+<p>“With this new approach, researchers can use agent-based modeling in more scientifically robust ways,” said Nicholson Collier, computational scientist at Argonne and the University of Chicago that was involved in the study.</p>
+
+
+
+<p>Here&#8217;s an example of a simulation performed by the researchers:</p>
+
+
+
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="Successful and unsuccessful cancer immunotherapy designs" width="500" height="375" src="https://www.youtube.com/embed/6GPXZvlNJBg?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>The study in journal <em>Molecular Systems Design and Engineering:</em> <a href="https://pubs.rsc.org/en/content/articlehtml/2019/me/c9me00036d">Learning-accelerated discovery of immune-tumour interactions</a> </p>
+
+
+
+<p>Via: <a href="https://www.anl.gov/article/expanding-the-limits-of-personalized-medicine-with-highperformance-computing">Argonne
+National Laboratory</a></p>
+<!--TrendMD v2.4.6--><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Medgadget?a=GJSkIsDpEAA:BXfEyZidpw4:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Medgadget?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Medgadget?a=GJSkIsDpEAA:BXfEyZidpw4:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Medgadget?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Medgadget?a=GJSkIsDpEAA:BXfEyZidpw4:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/Medgadget?i=GJSkIsDpEAA:BXfEyZidpw4:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Medgadget/~4/GJSkIsDpEAA" height="1" width="1" alt=""/>]]></content:encoded>
+			<feedburner:origLink>https://www.medgadget.com/2019/07/computational-simulations-to-guide-cancer-therapy.html</feedburner:origLink></item>
+		<item>
+		<title>Artificial Protein Switch for Smart Cell Therapies</title>
+		<link>http://feedproxy.google.com/~r/Medgadget/~3/hEPV2pyg9Hw/artificial-protein-switch-for-smart-cell-therapies.html</link>
+		<pubDate>Tue, 30 Jul 2019 16:58:36 +0000</pubDate>
+		<dc:creator><![CDATA[Siavash Parkhideh]]></dc:creator>
+				<category><![CDATA[Genetics]]></category>
+		<category><![CDATA[Materials]]></category>
+		<category><![CDATA[Medicine]]></category>
+		<category><![CDATA[Nanomedicine]]></category>
+
+		<guid isPermaLink="false">https://www.medgadget.com/?p=1467383</guid>
+		<description><![CDATA[Researchers from University of California, San Francisco and the University of Washington have developed a new artificial protein switch, dubbed LOCKR. Their work demonstrates that the new switch can be used to control many intracellular processes, including mediating molecular traffic inside a cell, degrading specific proteins, and causing a cell to self-destruct. This exciting development [&#8230;]]]></description>
+				<content:encoded><![CDATA[
+<figure class="wp-block-image"><img src="https://www.medgadget.com/wp-content/uploads/2019/07/LOCKR.jpg" alt="" class="wp-image-1467441" srcset="https://www.medgadget.com/wp-content/uploads/2019/07/LOCKR.jpg 770w, https://www.medgadget.com/wp-content/uploads/2019/07/LOCKR-300x169.jpg 300w, https://www.medgadget.com/wp-content/uploads/2019/07/LOCKR-768x432.jpg 768w" sizes="(max-width: 770px) 100vw, 770px" /></figure>
+
+
+
+<p>Researchers from University of California, San Francisco and the University of Washington have developed a new artificial protein switch, dubbed LOCKR. Their work demonstrates that the new switch can be used to control many intracellular processes, including mediating molecular traffic inside a cell, degrading specific proteins, and causing a cell to self-destruct. This exciting development can be used in next generation cell therapies, such as CAR-T cell therapy for cancer.</p>
+
+
+
+<p>Medicine often faces a Goldilocks problem: too much of a drug can be lethal while too little has no therapeutic effect. In the case of CAR-T cell therapy, some patients suffer organ failure due to overactivity of the transfused cells. Others see limited effectiveness due to inadequate activity. To address these limitations, the UCSF researchers developed a new artificial protein switch, which can serve as a switchboard to control various cellular activities.</p>
+
+
+
+<p>LOCKR is a protein that takes the form of a barrel. When opened, it reveals a molecular arm that can control many cellular processes. The barrel can only be opened with a unique key, so the researchers can control the opening and downstream events. </p>
+
+
+
+<p>The team used LOCKR in many scenarios, including directing molecular traffic inside a cell, degrading specific proteins, and initiating the cell’s self-destruct process. They also developed a version of the tool called degronLOCKR which can be used to degrade a specific protein of interest. They implemented degronLOCKR to dynamically regulate cellular activity in response to intracellular and extracellular cues. This exciting development may one day be used in living cell therapies, to make them smarter, more controlled, and more personalized.</p>
+
+
+
+<p>“In the same way that integrated circuits enabled the
+explosion of the computer chip industry, these versatile and dynamic biological
+switches could soon unlock precise control over the behavior of living cells
+and, ultimately, our health,” said El-Samad, who is also a Chan Zuckerberg
+Biohub Investigator.</p>
+
+
+
+<p>Image caption: LOCKR in its closed (background) and open (foreground) states. A ‘key’ (black) unlocks a ‘cage’ (grey), revealing a bioactive peptide (yellow) which can interact with other molecules in the cell. Credit: Ian Haydon / Institute for Protein Design at UW.</p>
+
+
+
+<p>Related studies:  <a href="https://www.nature.com/articles/s41586-019-1425-7">Modular and tunable biological feedback control using a de novo protein switch</a>; <a href="https://www.nature.com/articles/s41586-019-1432-8"><em>De novo</em> design of bioactive protein switches</a>;</p>
+
+
+
+<p>Via: <a href="https://www.ucsf.edu/news/2019/07/415031/limitless-potential-artificial-protein-ushers-new-era-smart-cell-therapies">UCSF</a></p>
+<!--TrendMD v2.4.6--><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Medgadget?a=hEPV2pyg9Hw:tSG3KvOaI5g:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Medgadget?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Medgadget?a=hEPV2pyg9Hw:tSG3KvOaI5g:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Medgadget?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Medgadget?a=hEPV2pyg9Hw:tSG3KvOaI5g:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/Medgadget?i=hEPV2pyg9Hw:tSG3KvOaI5g:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Medgadget/~4/hEPV2pyg9Hw" height="1" width="1" alt=""/>]]></content:encoded>
+			<feedburner:origLink>https://www.medgadget.com/2019/07/artificial-protein-switch-for-smart-cell-therapies.html</feedburner:origLink></item>
+		<item>
+		<title>Smart Contact Lens Zooms On Demand</title>
+		<link>http://feedproxy.google.com/~r/Medgadget/~3/Lzp--AQ9sEU/smart-contact-lens-zooms-on-demand.html</link>
+		<pubDate>Tue, 30 Jul 2019 15:18:59 +0000</pubDate>
+		<dc:creator><![CDATA[Medgadget Editors]]></dc:creator>
+				<category><![CDATA[Neurology]]></category>
+		<category><![CDATA[Ophthalmology]]></category>
+		<category><![CDATA[Rehab]]></category>
+
+		<guid isPermaLink="false">https://www.medgadget.com/?p=1467401</guid>
+		<description><![CDATA[Though bifocal and progressive contact lenses are now widely available, they&#8217;re still &#8220;dumb&#8221; devices that require the user to adjust to them. Researchers at the University of California San Diego and the Harbin Institute of Technology in China have now developed a biomimetic soft contact lens that can be made to zoom in and out [&#8230;]]]></description>
+				<content:encoded><![CDATA[
+<figure class="wp-block-image"><img src="https://www.medgadget.com/wp-content/uploads/2019/07/zoom-lens-2.jpg" alt="" class="wp-image-1467402" srcset="https://www.medgadget.com/wp-content/uploads/2019/07/zoom-lens-2.jpg 770w, https://www.medgadget.com/wp-content/uploads/2019/07/zoom-lens-2-300x204.jpg 300w, https://www.medgadget.com/wp-content/uploads/2019/07/zoom-lens-2-768x523.jpg 768w" sizes="(max-width: 770px) 100vw, 770px" /></figure>
+
+
+
+<p>Though bifocal and progressive contact lenses are now widely available, they&#8217;re still &#8220;dumb&#8221; devices that require the user to adjust to them. Researchers at the University of California San Diego and the Harbin Institute of Technology in China have now developed a biomimetic soft contact lens that can be made to zoom in and out by the user simply blinking.</p>
+
+
+
+<div class="wp-block-image"><figure class="alignright"><img src="https://www.medgadget.com/wp-content/uploads/2019/07/device-diagram.jpg" alt="" class="wp-image-1467405" srcset="https://www.medgadget.com/wp-content/uploads/2019/07/device-diagram.jpg 466w, https://www.medgadget.com/wp-content/uploads/2019/07/device-diagram-259x300.jpg 259w" sizes="(max-width: 466px) 100vw, 466px" /></figure></div>
+
+
+
+<p>The lens itself has not yet been tried directly on the human eye. It is still contained within a pretty large electromagnetic system that&#8217;s used to change its shape. But, it was tried quite successfully by people wearing electrodes stuck to the skin around the eye that measured the electrooculographic signals coming from within. </p>
+
+
+
+<p>These signals served as triggers for the user to change the focal point of the lens, so as the individual wearing the electrodes blinked a certain number of times, the lens automatically changed its shape to that desired zoom factor.</p>
+
+
+
+<p>The researchers hope that in the not too distant future they&#8217;ll be able to miniaturize their proof-of-concept prototype so that it can be positioned over the eye.</p>
+
+
+
+<p>Here&#8217;s a set of photos the researches made that show the lens changing its focus depending on the user&#8217;s intentions:</p>
+
+
+
+<figure class="wp-block-image"><img src="https://www.medgadget.com/wp-content/uploads/2019/07/zooming-lens.jpg" alt="" class="wp-image-1467403" srcset="https://www.medgadget.com/wp-content/uploads/2019/07/zooming-lens.jpg 770w, https://www.medgadget.com/wp-content/uploads/2019/07/zooming-lens-300x227.jpg 300w, https://www.medgadget.com/wp-content/uploads/2019/07/zooming-lens-768x580.jpg 768w" sizes="(max-width: 770px) 100vw, 770px" /></figure>
+
+
+
+<p>Flashbacks: <a href="https://www.medgadget.com/2013/06/telescopic-contact-lens-system-for-amd-allows-switching-between-normal-zoom-modes.html">Telescopic Contact Lens System for AMD Allows Switching Between Normal, Zoom Modes</a>; <a href="https://www.medgadget.com/2015/02/contact-lenses-with-zoom-feature-controlled-by-smart-wink-detecting-glasses.html">Contact Lenses that Magnify, Controlled by Smart Wink Detecting Glasses</a> </p>
+
+
+
+<p>Study in <em>Advanced Functional Materials</em>: <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/adfm.201903762">A Biomimetic Soft Lens Controlled by Electrooculographic Signal</a></p>
+<!--TrendMD v2.4.6--><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Medgadget?a=Lzp--AQ9sEU:C01znrtGHdc:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Medgadget?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Medgadget?a=Lzp--AQ9sEU:C01znrtGHdc:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Medgadget?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Medgadget?a=Lzp--AQ9sEU:C01znrtGHdc:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/Medgadget?i=Lzp--AQ9sEU:C01znrtGHdc:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Medgadget/~4/Lzp--AQ9sEU" height="1" width="1" alt=""/>]]></content:encoded>
+			<feedburner:origLink>https://www.medgadget.com/2019/07/smart-contact-lens-zooms-on-demand.html</feedburner:origLink></item>
+		<item>
+		<title>Low-Cost DIY Pump for Microfluidics Made from Balloons and Nylon Stockings</title>
+		<link>http://feedproxy.google.com/~r/Medgadget/~3/qggLoTlxuLw/low-cost-diy-pump-for-microfluidics-made-from-balloons-and-nylon-stockings.html</link>
+		<pubDate>Tue, 30 Jul 2019 14:57:13 +0000</pubDate>
+		<dc:creator><![CDATA[Conn Hastings]]></dc:creator>
+				<category><![CDATA[Diagnostics]]></category>
+		<category><![CDATA[News]]></category>
+
+		<guid isPermaLink="false">https://www.medgadget.com/?p=1467427</guid>
+		<description><![CDATA[A collaboration between researchers at RMIT University and the Walter and Eliza Hall Institute of Medical Research, both in Melbourne Australia, has resulted in an inexpensive and easily manufactured pressure pump. The simple device, which consists of a latex balloon and nylon stockings, can pump biological samples around microfluidic devices, and is much smaller and [&#8230;]]]></description>
+				<content:encoded><![CDATA[
+<figure class="wp-block-image"><img src="https://www.medgadget.com/wp-content/uploads/2019/07/the-pump.jpg" alt="" class="wp-image-1467431" srcset="https://www.medgadget.com/wp-content/uploads/2019/07/the-pump.jpg 770w, https://www.medgadget.com/wp-content/uploads/2019/07/the-pump-300x222.jpg 300w, https://www.medgadget.com/wp-content/uploads/2019/07/the-pump-768x570.jpg 768w" sizes="(max-width: 770px) 100vw, 770px" /></figure>
+
+
+
+<p>A
+collaboration between researchers at RMIT University and the Walter and Eliza
+Hall Institute of Medical Research, both in Melbourne Australia, has resulted
+in an inexpensive and easily manufactured pressure pump. The simple device,
+which consists of a latex balloon and nylon stockings, can pump biological
+samples around microfluidic devices, and is much smaller and cheaper than
+larger lab-based alternatives. The researchers hope that the pump could make
+microfluidics-based healthcare applications, such as point-of-care diagnostics,
+more accessible around the world. &nbsp;&nbsp;</p>
+
+
+
+<p>Microfluidic devices have the potential to provide miniaturized diagnostic and analytical tools to clinicians that can be used instead of bulky and expensive laboratory equipment. Researchers are constantly working to make them less expensive and more suited for work in remote or low-resource regions. </p>
+
+
+
+<p>“Parasitic
+micro-organisms have a major impact in impoverished communities in tropical and
+subtropical regions globally, but also in developed countries including
+Australia,” said Aaron Jex, a researcher involved in the study. “In order to
+address this there is an urgent need for field-based, low-cost diagnostic tools
+that work in challenging, sometimes remote and often complex environments very
+different from a pristine laboratory.” </p>
+
+
+
+<figure class="wp-block-image"><img src="https://www.medgadget.com/wp-content/uploads/2019/07/the-pump-2.jpg" alt="" class="wp-image-1467432" srcset="https://www.medgadget.com/wp-content/uploads/2019/07/the-pump-2.jpg 770w, https://www.medgadget.com/wp-content/uploads/2019/07/the-pump-2-300x241.jpg 300w, https://www.medgadget.com/wp-content/uploads/2019/07/the-pump-2-768x617.jpg 768w, https://www.medgadget.com/wp-content/uploads/2019/07/the-pump-2-100x80.jpg 100w" sizes="(max-width: 770px) 100vw, 770px" /></figure>
+
+
+
+<p>Frequently, such devices require a pump to move samples around the microfluidic instrument. The Australian researchers turned to footballs for inspiration, as they can handle significant amounts of pressure thanks to their reinforced structure.</p>
+
+
+
+<p>“We started
+with basic latex balloons, then realized that regular stockings made from nylon
+and elastane could be a perfect match to reinforce them, allowing them to hold
+significantly higher pressure and function as pumps,” said Peter Thurgood,
+another researcher involved in the study. “By simply wrapping three layers of
+stockings around the latex balloon we were able to increase its internal
+pressure by a factor of 10 – enough to run many water or blood analyses that
+would usually require large, expensive pumps.”</p>
+
+
+
+<p>The device costs as little as $2 and can run microfluidic instruments for several hours with no significant pressure loss. To date, the researchers have successfully tested the device as a component of a microfluidic setup designed to detect cancer cells in liquid samples.</p>
+
+
+
+<p>See a video about the device below:</p>
+
+
+
+<figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="DIY Pressure Pump | RMIT University" width="500" height="281" src="https://www.youtube.com/embed/9yJCYGpWWjA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>Study in <em>Lab
+on a Chip</em>: <a href="https://pubs.rsc.org/en/content/articlelanding/2019/LC/C9LC00618D#!divAbstract">Self-sufficient,
+low-cost microfluidic pumps utilising reinforced balloons</a></p>
+
+
+
+<p>Via: <a href="https://www.rmit.edu.au/news/all-news/2019/jul/balloon-pump">RMIT University</a></p>
+<!--TrendMD v2.4.6--><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Medgadget?a=qggLoTlxuLw:SWx0HJanGoU:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Medgadget?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Medgadget?a=qggLoTlxuLw:SWx0HJanGoU:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Medgadget?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Medgadget?a=qggLoTlxuLw:SWx0HJanGoU:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/Medgadget?i=qggLoTlxuLw:SWx0HJanGoU:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Medgadget/~4/qggLoTlxuLw" height="1" width="1" alt=""/>]]></content:encoded>
+			<feedburner:origLink>https://www.medgadget.com/2019/07/low-cost-diy-pump-for-microfluidics-made-from-balloons-and-nylon-stockings.html</feedburner:origLink></item>
+		<item>
+		<title>New Technology for Multiple Sclerosis Diagnosis and Management</title>
+		<link>http://feedproxy.google.com/~r/Medgadget/~3/Z2acW4Nnv8g/new-technology-for-multiple-sclerosis-diagnosis-and-management.html</link>
+		<pubDate>Tue, 30 Jul 2019 14:15:40 +0000</pubDate>
+		<dc:creator><![CDATA[Siavash Parkhideh]]></dc:creator>
+				<category><![CDATA[Medicine]]></category>
+		<category><![CDATA[Neurology]]></category>
+
+		<guid isPermaLink="false">https://www.medgadget.com/?p=1467315</guid>
+		<description><![CDATA[Researchers from the University of Texas at Dallas have developed a novel technology for diagnosing multiple sclerosis (MS). Their work can be used to determine which damaged regions of a patient’s brain have the potential to heal themselves, and which do not. This is an exciting development for Americans at risk and already suffering from [&#8230;]]]></description>
+				<content:encoded><![CDATA[
+<figure class="wp-block-image"><img src="https://www.medgadget.com/wp-content/uploads/2019/07/3d-brain-maps.png" alt="" class="wp-image-1467421" srcset="https://www.medgadget.com/wp-content/uploads/2019/07/3d-brain-maps.png 770w, https://www.medgadget.com/wp-content/uploads/2019/07/3d-brain-maps-300x186.png 300w, https://www.medgadget.com/wp-content/uploads/2019/07/3d-brain-maps-768x477.png 768w" sizes="(max-width: 770px) 100vw, 770px" /></figure>
+
+
+
+<p>Researchers from the University of Texas at Dallas have developed a novel technology for diagnosing multiple sclerosis (MS). Their work can be used to determine which damaged regions of a patient’s brain have the potential to heal themselves, and which do not. This is an exciting development for Americans at risk and already suffering from MS.</p>
+
+
+
+<p>Currently, physicians use 2D slices of MRI images to identify lesions and develop MS diagnoses. Yet, this type of analysis does not indicate how a given lesion will behave over time, an important aspect for disease management. To address this challenge, the researchers used a computational tool to infer whether lesions are metabolically active or inactive based on 3D imaging data.</p>
+
+
+
+<p>When the UT Dallas team studied lesion phenotypes, they focused on various biomarkers, including cerebral blood flow, blood oxygen level dependent signal (BOLD, and cerebral metabolic rate (CMRO2). They analyzed these biomarkers within lesions and in the surrounding tissues and identified a non-invasive marker, the blood oxygen level dependent (BOLD) signal, that may provide insights about the condition of a given brain lesion. BOLD compares the oxygen at the injury site to its surroundings, so by studying the slope of this signal, the researchers were able to determine whether or not a lesion was metabolically active, and thus, could potentially heal on its own.</p>
+
+
+
+<p>They examined MRI images from 23 patients and 109 different lesions, and using their 3D approach they were able to notice that metabolically active lesions were more spherical with a rough surface, whereas metabolically inactive lesions are irregular in shape and have a smooth surface. One day, these metrics could be used to quickly and more effectively diagnose and manage multiple sclerosis.</p>
+
+
+
+<p>“This diagnostic method represents a significant advance in our field, considering the new MS drugs being developed to heal damaged areas of the brain,” said Dinesh Sivakolundu, the study’s lead author. “Using our new technology, we could potentially determine which patients would benefit from such new drugs and which patients would not.”</p>
+
+
+
+<p>Image: Brain lesion resulting from multiple sclerosis (red) along with  concentric rings surrounding the lesion exact to the external shape of the lesion. Courtesy of researchers.</p>
+
+
+
+<p>The publication in <em>Journal of Neuroimaging: </em><a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/jon.12633">Three‐Dimensional
+Lesion Phenotyping and Physiologic Characterization Inform Remyelination
+Ability in Multiple Sclerosis</a></p>
+
+
+
+<p>Via: <a href="https://brainhealth.utdallas.edu/center-for-brainhealth-researchers-develop-new-technology-for-multiple-sclerosis-diagnosis-and-treatment/">UT
+Dallas</a></p>
+<!--TrendMD v2.4.6--><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/Medgadget?a=Z2acW4Nnv8g:q4aJku52Y7U:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/Medgadget?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Medgadget?a=Z2acW4Nnv8g:q4aJku52Y7U:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/Medgadget?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/Medgadget?a=Z2acW4Nnv8g:q4aJku52Y7U:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/Medgadget?i=Z2acW4Nnv8g:q4aJku52Y7U:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/Medgadget/~4/Z2acW4Nnv8g" height="1" width="1" alt=""/>]]></content:encoded>
+			<feedburner:origLink>https://www.medgadget.com/2019/07/new-technology-for-multiple-sclerosis-diagnosis-and-management.html</feedburner:origLink></item>
+	</channel>
+</rss>
