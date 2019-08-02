@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Feedpipes.Syndication.Base;
 using Feedpipes.Syndication.Extensions.CreativeCommons.Entities;
 using Feedpipes.Syndication.Extensions.DublinCore.Entities;
 using Feedpipes.Syndication.Extensions.Rss10Syndication.Entities;
@@ -6,7 +7,7 @@ using Feedpipes.Syndication.Extensions.RssAtom10.Entities;
 
 namespace Feedpipes.Syndication.Rss10.Entities
 {
-    public class Rss10Channel
+    public class Rss10Channel : IRssChannel, IFeed
     {
         /// <summary>
         /// Required "rdf:about" attribute.
@@ -57,24 +58,10 @@ namespace Feedpipes.Syndication.Rss10.Entities
         /// </summary>
         public IList<Rss10Item> Items { get; set; } = new List<Rss10Item>();
 
-        /// <summary>
-        /// Optional "sy:*" extended information.
-        /// </summary>
         public Rss10SyndicationChannelExtension SyndicationExtension { get; set; }
-
-        /// <summary>
-        /// Optional "dc:*" extended information.
-        /// </summary>
         public DublinCoreElementExtension DublinCoreExtension { get; set; }
-
-        /// <summary>
-        /// Optional "atom:*" extended information.
-        /// </summary>
-        public RssAtom10ElementExtension RssAtom10Extension { get; set; }
-        
-        /// <summary>
-        /// Optional "cc:*" extended information.
-        /// </summary>
         public CreativeCommonsElementExtension CreativeCommonsExtension { get; set; }
+
+        public RssAtom10ElementExtension AtomExtension { get; set; }
     }
 }

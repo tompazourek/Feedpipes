@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using Feedpipes.Syndication.Base;
 using Feedpipes.Syndication.Extensions.CreativeCommons.Entities;
 using Feedpipes.Syndication.Extensions.DublinCore.Entities;
 using Feedpipes.Syndication.Extensions.Rss10Syndication.Entities;
 
 namespace Feedpipes.Syndication.Atom10.Entities
 {
-    public class Atom10Feed
+    public class Atom10Feed : IFeed
     {
         /// <summary>
         /// Corresponds to the "xml:lang" attribute.
@@ -119,20 +120,9 @@ namespace Feedpipes.Syndication.Atom10.Entities
         /// An example of an entry would be a single post on a weblog.
         /// </summary>
         public IList<Atom10Entry> Entries { get; set; } = new List<Atom10Entry>();
-        
-        /// <summary>
-        /// Optional "sy:*" extended information.
-        /// </summary>
-        public Rss10SyndicationChannelExtension SyndicationExtension { get; set; }
 
-        /// <summary>
-        /// Optional "dc:*" extended information.
-        /// </summary>
+        public Rss10SyndicationChannelExtension SyndicationExtension { get; set; }
         public DublinCoreElementExtension DublinCoreExtension { get; set; }
-        
-        /// <summary>
-        /// Optional "cc:*" extended information.
-        /// </summary>
         public CreativeCommonsElementExtension CreativeCommonsExtension { get; set; }
     }
 }

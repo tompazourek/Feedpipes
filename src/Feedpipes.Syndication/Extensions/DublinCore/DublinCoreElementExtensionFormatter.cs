@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Xml.Linq;
 using Feedpipes.Syndication.Extensions.DublinCore.Entities;
 using Feedpipes.Syndication.Timestamps.Rfc3339;
@@ -97,6 +98,9 @@ namespace Feedpipes.Syndication.Extensions.DublinCore
             {
                 elements.Add(modifiedElement);
             }
+
+            if (!elements.Any())
+                return false;
 
             return true;
         }

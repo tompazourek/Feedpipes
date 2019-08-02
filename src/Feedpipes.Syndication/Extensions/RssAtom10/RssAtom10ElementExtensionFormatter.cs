@@ -39,6 +39,9 @@ namespace Feedpipes.Syndication.Extensions.RssAtom10
                 }
             }
 
+            if (!elements.Any())
+                return false;
+
             return true;
         }
 

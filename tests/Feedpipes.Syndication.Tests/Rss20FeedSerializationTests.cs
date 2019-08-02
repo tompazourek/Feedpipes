@@ -68,14 +68,10 @@ namespace Feedpipes.Syndication.Tests
             // assert
             Assert.True(tryParseResult);
         }
-        
+
         public class ParseWithoutCrashingData : SampleFeedTestsClassDataBase
         {
-            public override bool CustomFilter(SampleFeed x)
-            {
-                // skip feeds without <rss> root
-                return x.Document?.Root?.Name == "rss";
-            }
+            public override bool CustomFilter(SampleFeed x) => x.Document?.Root?.Name == "rss";
         }
 
         [Fact]
@@ -161,7 +157,7 @@ namespace Feedpipes.Syndication.Tests
                 Assert.NotEmpty(xmlString);
             }
         }
-        
+
         [Fact]
         public void FormatSampleFeedEmpty()
         {

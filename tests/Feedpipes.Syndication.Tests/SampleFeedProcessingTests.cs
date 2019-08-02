@@ -13,16 +13,34 @@ namespace Feedpipes.Syndication.Tests
 {
     public class SampleFeedProcessingTests
     {
-        [Fact]
-        public void DebugRootNodes()
+        [Fact(Skip = "Only helper to download tests, fill in the target path before use.")]
+        public async Task DebugDownloadSampleFeedXml()
         {
             var sampleFeeds = SampleFeedDirectory.GetSampleFeeds();
+            foreach (var sampleFeed in sampleFeeds)
+            {
+                var file = @"C:\SOLUTION_PATH\tests\Feedpipes.Syndication.SampleData\Files\" + sampleFeed.FileName + ".xml";
+                if (File.Exists(file))
+                    continue;
 
-            var feedsByRoot = sampleFeeds
-                .GroupBy(feed => feed.Document.Root?.Name.LocalName)
-                .ToDictionary(x => x.Key, x => x.ToList());
+                try
+                {
+                    using (var client = new HttpClient())
+                    {
+                        var response = await client.GetAsync(sampleFeed.FeedUrl);
+                        response.EnsureSuccessStatusCode();
 
-            Debugger.Break(); // take a look at "feedsByRoot"
+                        using (var fileStream = File.OpenWrite(file))
+                        {
+                            await response.Content.CopyToAsync(fileStream);
+                        }
+                    }
+                }
+                catch (Exception)
+                {
+                    Debugger.Break();
+                }
+            }
         }
 
         [Fact]
@@ -39,25 +57,6 @@ namespace Feedpipes.Syndication.Tests
         }
 
         [Fact]
-        public void DebugRssGenerators()
-        {
-            var sampleFeeds = SampleFeedDirectory.GetSampleFeeds();
-
-            var feedsByGenerator = sampleFeeds
-                .Select(x =>
-                {
-                    var tryParseResult = Rss20FeedParser.TryParseRss20Feed(x.Document, out var rss20Feed);
-                    return (feed: x, rss20Feed: rss20Feed, tryParseResult: tryParseResult);
-                })
-                .Where(x => x.tryParseResult)
-                .Select(x => (feed: x.feed, generator: x.rss20Feed.Channel?.Generator))
-                .GroupBy(x => x.generator ?? string.Empty, x => x.feed)
-                .ToDictionary(x => x.Key, x => x.ToList());
-
-            Debugger.Break(); // take a look at "feedsByGenerator"
-        }
-
-        [Fact]
         public void DebugPossibleNamespaceDeclarations()
         {
             var sampleFeeds = SampleFeedDirectory.GetSampleFeeds();
@@ -67,7 +66,7 @@ namespace Feedpipes.Syndication.Tests
             {
                 var documentRoot = feed.Document.Root;
 
-                if (documentRoot == null) 
+                if (documentRoot == null)
                     continue;
 
                 var namespaceDeclarations = documentRoot
@@ -90,34 +89,35 @@ namespace Feedpipes.Syndication.Tests
             Debugger.Break(); // take a look at "namespaceSet"
         }
 
-        [Fact(Skip = "Only helper to download tests, fill in the target path before use.")]
-        public async Task DebugDownloadSampleFeedXml()
+        [Fact]
+        public void DebugRootNodes()
         {
             var sampleFeeds = SampleFeedDirectory.GetSampleFeeds();
-            foreach (var sampleFeed in sampleFeeds)
-            {
-                var file = @"C:\SOLUTION_PATH\tests\Feedpipes.Syndication.SampleData\Files\" + sampleFeed.FileName + ".xml";
-                if (File.Exists(file)) 
-                    continue;
 
-                try
-                {
-                    using (var client = new HttpClient())
-                    {
-                        var response = await client.GetAsync(sampleFeed.FeedUrl);
-                        response.EnsureSuccessStatusCode();
+            var feedsByRoot = sampleFeeds
+                .GroupBy(feed => feed.Document.Root?.Name.LocalName)
+                .ToDictionary(x => x.Key, x => x.ToList());
 
-                        using (var fileStream = File.OpenWrite(file))
-                        {
-                            await response.Content.CopyToAsync(fileStream);
-                        }
-                    }
-                }
-                catch (Exception)
+            Debugger.Break(); // take a look at "feedsByRoot"
+        }
+
+        [Fact]
+        public void DebugRssGenerators()
+        {
+            var sampleFeeds = SampleFeedDirectory.GetSampleFeeds();
+
+            var feedsByGenerator = sampleFeeds
+                .Select(x =>
                 {
-                    Debugger.Break();
-                }
-            }
+                    var tryParseResult = Rss20FeedParser.TryParseRss20Feed(x.Document, out var rss20Feed);
+                    return (feed: x, rss20Feed: rss20Feed, tryParseResult: tryParseResult);
+                })
+                .Where(x => x.tryParseResult)
+                .Select(x => (feed: x.feed, generator: x.rss20Feed.Channel?.Generator))
+                .GroupBy(x => x.generator ?? string.Empty, x => x.feed)
+                .ToDictionary(x => x.Key, x => x.ToList());
+
+            Debugger.Break(); // take a look at "feedsByGenerator"
         }
     }
 }

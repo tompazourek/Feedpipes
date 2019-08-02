@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Feedpipes.Syndication.Base;
 using Feedpipes.Syndication.Extensions.CreativeCommons.Entities;
 using Feedpipes.Syndication.Extensions.DublinCore.Entities;
 using Feedpipes.Syndication.Extensions.Rss10Content.Entities;
@@ -12,7 +13,7 @@ namespace Feedpipes.Syndication.Atom10.Entities
     /// Corresponds to the "entry" element.
     /// An example of an entry would be a single post on a weblog.
     /// </summary>
-    public class Atom10Entry
+    public class Atom10Entry : IFeedItem
     {
         /// <summary>
         /// Required "id" element.
@@ -114,30 +115,11 @@ namespace Feedpipes.Syndication.Atom10.Entities
         /// Contains metadata from the source feed if this entry is a copy.
         /// </summary>
         public Atom10Source Source { get; set; }
-        
-        /// <summary>
-        /// Optional "dc:*" extended information.
-        /// </summary>
+
         public DublinCoreElementExtension DublinCoreExtension { get; set; }
-        
-        /// <summary>
-        /// Optional "content:*" extended information.
-        /// </summary>
         public Rss10ContentItemExtension ContentExtension { get; set; }
-
-        /// <summary>
-        /// Optional "wfw:*" extended information.
-        /// </summary>
         public WfwItemExtension WfwExtension { get; set; }
-
-        /// <summary>
-        /// Optional "slash:*" extended information.
-        /// </summary>
         public Rss10SlashItemExtension SlashExtension { get; set; }
-        
-        /// <summary>
-        /// Optional "cc:*" extended information.
-        /// </summary>
         public CreativeCommonsElementExtension CreativeCommonsExtension { get; set; }
     }
 }

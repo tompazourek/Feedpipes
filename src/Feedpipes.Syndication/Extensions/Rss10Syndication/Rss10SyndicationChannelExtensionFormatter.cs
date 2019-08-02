@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
+using System.Linq;
 using System.Xml.Linq;
 using Feedpipes.Syndication.Extensions.Rss10Syndication.Entities;
 using Feedpipes.Syndication.Timestamps.Rfc3339;
@@ -33,6 +34,9 @@ namespace Feedpipes.Syndication.Extensions.Rss10Syndication
             {
                 elements.Add(updateBaseElement);
             }
+
+            if (!elements.Any())
+                return false;
 
             return true;
         }

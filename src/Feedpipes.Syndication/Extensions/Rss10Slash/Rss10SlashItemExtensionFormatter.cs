@@ -38,6 +38,9 @@ namespace Feedpipes.Syndication.Extensions.Rss10Slash
                 elements.Add(hitParadeElement);
             }
 
+            if (!elements.Any())
+                return false;
+
             return true;
         }
 

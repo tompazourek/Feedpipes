@@ -121,7 +121,7 @@ namespace Feedpipes.Syndication.Atom10
             {
                 parsedFeed.DublinCoreExtension = parsedDublinCoreExtension;
             }
-            
+
             if (CreativeCommonsElementExtensionParser.TryParseCreativeCommonsElementExtension(feedElement, out var parsedCreativeCommonsExtension))
             {
                 parsedFeed.CreativeCommonsExtension = parsedCreativeCommonsExtension;
@@ -207,7 +207,7 @@ namespace Feedpipes.Syndication.Atom10
             {
                 parsedEntry.Source = parsedSource;
             }
-            
+
             // extensions
             if (Rss10ContentItemExtensionParser.TryParseRss10ContentItemExtension(entryElement, out var parsedContentExtension))
             {

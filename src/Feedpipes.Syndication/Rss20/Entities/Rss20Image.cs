@@ -1,11 +1,12 @@
-﻿using Feedpipes.Syndication.Extensions.DublinCore.Entities;
+﻿using Feedpipes.Syndication.Base;
+using Feedpipes.Syndication.Extensions.DublinCore.Entities;
 
 namespace Feedpipes.Syndication.Rss20.Entities
 {
     /// <summary>
     /// Specifies a GIF, JPEG or PNG image that can be displayed with the channel.
     /// </summary>
-    public class Rss20Image
+    public class Rss20Image : IRssImage
     {
         /// <summary>
         /// URL of a GIF, JPEG or PNG image that represents the channel.
@@ -37,9 +38,6 @@ namespace Feedpipes.Syndication.Rss20.Entities
         /// </summary>
         public int? Height { get; set; }
 
-        /// <summary>
-        /// Optional "dc:*" extended information.
-        /// </summary>
         public DublinCoreElementExtension DublinCoreExtension { get; set; }
     }
 }

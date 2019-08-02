@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using System.Xml.Linq;
 using Feedpipes.Syndication.Extensions.CreativeCommons.Entities;
 using Feedpipes.Syndication.Xml;
@@ -23,6 +24,9 @@ namespace Feedpipes.Syndication.Extensions.CreativeCommons
                     elements.Add(licenseElement);
                 }
             }
+
+            if (!elements.Any())
+                return false;
 
             return true;
         }

@@ -1,4 +1,5 @@
-﻿using Feedpipes.Syndication.Extensions.DublinCore.Entities;
+﻿using Feedpipes.Syndication.Base;
+using Feedpipes.Syndication.Extensions.DublinCore.Entities;
 
 namespace Feedpipes.Syndication.Rss10.Entities
 {
@@ -7,7 +8,7 @@ namespace Feedpipes.Syndication.Rss10.Entities
     /// supported by the majority of Web browsers. While the later 0.91 specification allowed for a width
     /// of 1-144 and height of 1-400, convention (and the 0.9 specification) dictate 88x31.
     /// </summary>
-    public class Rss10Image
+    public class Rss10Image : IRssImage
     {
         /// <summary>
         /// Required "rdf:about" attribute.
@@ -37,9 +38,6 @@ namespace Feedpipes.Syndication.Rss10.Entities
         /// </summary>
         public string Link { get; set; }
 
-        /// <summary>
-        /// Optional "dc:*" extended information.
-        /// </summary>
         public DublinCoreElementExtension DublinCoreExtension { get; set; }
     }
 }

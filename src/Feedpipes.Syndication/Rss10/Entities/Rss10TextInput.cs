@@ -1,4 +1,5 @@
-﻿using Feedpipes.Syndication.Extensions.DublinCore.Entities;
+﻿using Feedpipes.Syndication.Base;
+using Feedpipes.Syndication.Extensions.DublinCore.Entities;
 
 namespace Feedpipes.Syndication.Rss10.Entities
 {
@@ -14,7 +15,7 @@ namespace Feedpipes.Syndication.Rss10.Entities
     /// a URI which identifies the textinput. {textinput_uri} should be identical to the value of the "link"
     /// sub-element of the "textinput" element, if possible.
     /// </summary>
-    public class Rss10TextInput
+    public class Rss10TextInput : IRssTextInput
     {
         /// <summary>
         /// Required "rdf:about" attribute.
@@ -51,9 +52,6 @@ namespace Feedpipes.Syndication.Rss10.Entities
         /// </summary>
         public string Link { get; set; }
 
-        /// <summary>
-        /// Optional "dc:*" extended information.
-        /// </summary>
         public DublinCoreElementExtension DublinCoreExtension { get; set; }
     }
 }

@@ -9,8 +9,8 @@ namespace Feedpipes.Syndication.Extensions.RssAtom10
     /// </remarks>
     internal static class RssAtom10Constants
     {
-        public static string NamespaceAlias => "atom";
         public static readonly XNamespace Namespace = Atom10Constants.Namespace;
         public static readonly XNamespace[] RecognizedNamespaces = Atom10Constants.RecognizedNamespaces;
+        public static string NamespaceAlias => "atom";
     }
 }

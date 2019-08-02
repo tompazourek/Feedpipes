@@ -2,7 +2,6 @@
 using System.IO;
 using System.Text;
 using System.Xml;
-using Feedpipes.Syndication.Extensions.Rss10Slash;
 using Feedpipes.Syndication.Rss10;
 using Feedpipes.Syndication.Rss10.Entities;
 using Feedpipes.Syndication.SampleData;
@@ -68,7 +67,7 @@ namespace Feedpipes.Syndication.Tests
             // assert
             Assert.True(tryParseResult);
         }
-        
+
         public class ParseWithoutCrashingData : SampleFeedTestsClassDataBase
         {
             public override bool CustomFilter(SampleFeed x)
@@ -96,7 +95,7 @@ namespace Feedpipes.Syndication.Tests
                     {
                         Name = "TextInput",
                         Title = "My text input",
-                        Description = "Description of my text input", 
+                        Description = "Description of my text input",
                         Link = "https://example.org/my-text-input",
                         About = "https://example.org/my-text-input",
                     },
@@ -143,7 +142,7 @@ namespace Feedpipes.Syndication.Tests
                 Assert.NotEmpty(xmlString);
             }
         }
-        
+
         [Fact]
         public void FormatSampleFeedEmpty()
         {

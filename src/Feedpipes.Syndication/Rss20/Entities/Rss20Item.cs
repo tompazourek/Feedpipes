@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Feedpipes.Syndication.Base;
 using Feedpipes.Syndication.Extensions.CreativeCommons.Entities;
 using Feedpipes.Syndication.Extensions.DublinCore.Entities;
 using Feedpipes.Syndication.Extensions.Rss10Content.Entities;
@@ -17,7 +18,7 @@ namespace Feedpipes.Syndication.Rss20.Entities
     /// and the link and title may be omitted. All elements of an item are optional, however at least one of
     /// title or description must be present.
     /// </summary>
-    public class Rss20Item
+    public class Rss20Item : IRssItem, IFeedItem
     {
         /// <summary>
         /// Optional "title" element.
@@ -108,34 +109,12 @@ namespace Feedpipes.Syndication.Rss20.Entities
         /// </summary>
         public Rss20Source Source { get; set; }
 
-        /// <summary>
-        /// Optional "content:*" extended information.
-        /// </summary>
         public Rss10ContentItemExtension ContentExtension { get; set; }
-
-        /// <summary>
-        /// Optional "wfw:*" extended information.
-        /// </summary>
         public WfwItemExtension WfwExtension { get; set; }
-
-        /// <summary>
-        /// Optional "slash:*" extended information.
-        /// </summary>
         public Rss10SlashItemExtension SlashExtension { get; set; }
-
-        /// <summary>
-        /// Optional "dc:*" extended information.
-        /// </summary>
         public DublinCoreElementExtension DublinCoreExtension { get; set; }
-        
-        /// <summary>
-        /// Optional "atom:*" extended information.
-        /// </summary>
-        public RssAtom10ElementExtension RssAtom10Extension { get; set; }
-        
-        /// <summary>
-        /// Optional "cc:*" extended information.
-        /// </summary>
         public CreativeCommonsElementExtension CreativeCommonsExtension { get; set; }
+
+        public RssAtom10ElementExtension AtomExtension { get; set; }
     }
 }

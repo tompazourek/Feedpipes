@@ -1,11 +1,12 @@
-﻿using Feedpipes.Syndication.Extensions.DublinCore.Entities;
+﻿using Feedpipes.Syndication.Base;
+using Feedpipes.Syndication.Extensions.DublinCore.Entities;
 
 namespace Feedpipes.Syndication.Rss20.Entities
 {
     /// <summary>
     /// Specifies a text input box that can be displayed with the channel.
     /// </summary>
-    public class Rss20TextInput
+    public class Rss20TextInput : IRssTextInput
     {
         /// <summary>
         /// The label of the Submit button in the text input area.
@@ -27,9 +28,6 @@ namespace Feedpipes.Syndication.Rss20.Entities
         /// </summary>
         public string Link { get; set; }
 
-        /// <summary>
-        /// Optional "dc:*" extended information.
-        /// </summary>
         public DublinCoreElementExtension DublinCoreExtension { get; set; }
     }
 }

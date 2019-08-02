@@ -1,12 +1,6 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 using System.Xml.Linq;
-using Feedpipes.Syndication.Extensions.CreativeCommons;
-using Feedpipes.Syndication.Extensions.DublinCore;
-using Feedpipes.Syndication.Extensions.Rss10Content;
-using Feedpipes.Syndication.Extensions.Rss10Slash;
-using Feedpipes.Syndication.Extensions.Rss10Syndication;
-using Feedpipes.Syndication.Extensions.RssAtom10;
-using Feedpipes.Syndication.Extensions.WellFormedWeb;
+using Feedpipes.Syndication.Extensions;
 using Feedpipes.Syndication.Rss10.Entities;
 
 namespace Feedpipes.Syndication.Rss10
@@ -77,25 +71,7 @@ namespace Feedpipes.Syndication.Rss10
             parsedChannel.Description = channelElement.Element(rss + "description")?.Value.Trim();
 
             // extensions
-            if (Rss10SyndicationChannelExtensionParser.TryParseRss10SyndicationChannelExtension(channelElement, out var parsedSyndicationExtension))
-            {
-                parsedChannel.SyndicationExtension = parsedSyndicationExtension;
-            }
-
-            if (DublinCoreElementExtensionParser.TryParseDublinCoreElementExtension(channelElement, out var parsedDublinCoreExtension))
-            {
-                parsedChannel.DublinCoreExtension = parsedDublinCoreExtension;
-            }
-            
-            if (RssAtom10ElementExtensionParser.TryParseRssAtom10ElementExtension(channelElement, out var parsedRssAtom10Extension))
-            {
-                parsedChannel.RssAtom10Extension = parsedRssAtom10Extension;
-            }
-
-            if (CreativeCommonsElementExtensionParser.TryParseCreativeCommonsElementExtension(channelElement, out var parsedCreativeCommonsExtension))
-            {
-                parsedChannel.CreativeCommonsExtension = parsedCreativeCommonsExtension;
-            }
+            ExtensibleEntityParser.ParseExtensibleEntity(channelElement, parsedChannel);
 
             return true;
         }
@@ -114,10 +90,7 @@ namespace Feedpipes.Syndication.Rss10
             parsedImage.Link = imageElement.Element(rss + "link")?.Value.Trim();
 
             // extensions
-            if (DublinCoreElementExtensionParser.TryParseDublinCoreElementExtension(imageElement, out var parsedDublinCoreExtension))
-            {
-                parsedImage.DublinCoreExtension = parsedDublinCoreExtension;
-            }
+            ExtensibleEntityParser.ParseExtensibleEntity(imageElement, parsedImage);
 
             return true;
         }
@@ -137,10 +110,7 @@ namespace Feedpipes.Syndication.Rss10
             parsedTextInput.Link = textInputElement.Element(rss + "link")?.Value.Trim();
 
             // extensions
-            if (DublinCoreElementExtensionParser.TryParseDublinCoreElementExtension(textInputElement, out var parsedDublinCoreExtension))
-            {
-                parsedTextInput.DublinCoreExtension = parsedDublinCoreExtension;
-            }
+            ExtensibleEntityParser.ParseExtensibleEntity(textInputElement, parsedTextInput);
 
             return true;
         }
@@ -159,35 +129,7 @@ namespace Feedpipes.Syndication.Rss10
             parsedItem.Description = itemElement.Element(rss + "description")?.Value.Trim();
 
             // extensions
-            if (Rss10ContentItemExtensionParser.TryParseRss10ContentItemExtension(itemElement, out var parsedContentExtension))
-            {
-                parsedItem.ContentExtension = parsedContentExtension;
-            }
-
-            if (Rss10SlashItemExtensionParser.TryParseRss10SlashItemExtension(itemElement, out var parsedSlashExtension))
-            {
-                parsedItem.SlashExtension = parsedSlashExtension;
-            }
-
-            if (WfwItemExtensionParser.TryParseWfwItemExtension(itemElement, out var parsedWfwExtension))
-            {
-                parsedItem.WfwExtension = parsedWfwExtension;
-            }
-
-            if (DublinCoreElementExtensionParser.TryParseDublinCoreElementExtension(itemElement, out var parsedDublinCoreExtension))
-            {
-                parsedItem.DublinCoreExtension = parsedDublinCoreExtension;
-            }
-            
-            if (RssAtom10ElementExtensionParser.TryParseRssAtom10ElementExtension(itemElement, out var parsedRssAtom10Extension))
-            {
-                parsedItem.RssAtom10Extension = parsedRssAtom10Extension;
-            }
-
-            if (CreativeCommonsElementExtensionParser.TryParseCreativeCommonsElementExtension(itemElement, out var parsedCreativeCommonsExtension))
-            {
-                parsedItem.CreativeCommonsExtension = parsedCreativeCommonsExtension;
-            }
+            ExtensibleEntityParser.ParseExtensibleEntity(itemElement, parsedItem);
 
             return true;
         }

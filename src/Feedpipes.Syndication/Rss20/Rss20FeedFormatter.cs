@@ -3,13 +3,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Xml.Linq;
-using Feedpipes.Syndication.Extensions.CreativeCommons;
-using Feedpipes.Syndication.Extensions.DublinCore;
-using Feedpipes.Syndication.Extensions.Rss10Content;
-using Feedpipes.Syndication.Extensions.Rss10Slash;
-using Feedpipes.Syndication.Extensions.Rss10Syndication;
-using Feedpipes.Syndication.Extensions.RssAtom10;
-using Feedpipes.Syndication.Extensions.WellFormedWeb;
+using Feedpipes.Syndication.Extensions;
 using Feedpipes.Syndication.Rss20.Entities;
 using Feedpipes.Syndication.Timestamps.Rfc822;
 using Feedpipes.Syndication.Xml;
@@ -136,24 +130,9 @@ namespace Feedpipes.Syndication.Rss20
             }
 
             // extensions
-            if (Rss10SyndicationChannelExtensionFormatter.TryFormatRss10SyndicationChannelExtension(channelToFormat.SyndicationExtension, namespaceAliases, out var syndicationExtensionElements))
+            if (ExtensibleEntityFormatter.TryFormatExtensibleEntity(channelToFormat, namespaceAliases, out var extensionElements))
             {
-                channelElement.AddRange(syndicationExtensionElements);
-            }
-
-            if (DublinCoreElementExtensionFormatter.TryFormatDublinCoreElementExtension(channelToFormat.DublinCoreExtension, namespaceAliases, out var dublinCoreExtensionElements))
-            {
-                channelElement.AddRange(dublinCoreExtensionElements);
-            }
-            
-            if (RssAtom10ElementExtensionFormatter.TryFormatRssAtom10ElementExtension(channelToFormat.RssAtom10Extension, namespaceAliases, out var rssAtom10ExtensionElements))
-            {
-                channelElement.AddRange(rssAtom10ExtensionElements);
-            }
-
-            if (CreativeCommonsElementExtensionFormatter.TryFormatCreativeCommonsElementExtension(channelToFormat.CreativeCommonsExtension, namespaceAliases, out var creativeCommonsExtensionElements))
-            {
-                channelElement.AddRange(creativeCommonsExtensionElements);
+                channelElement.AddRange(extensionElements);
             }
 
             // items
@@ -234,34 +213,9 @@ namespace Feedpipes.Syndication.Rss20
             }
 
             // extensions
-            if (Rss10ContentItemExtensionFormatter.TryFormatRss10ContentItemExtension(itemToFormat.ContentExtension, namespaceAliases, out var contentExtensionElements))
+            if (ExtensibleEntityFormatter.TryFormatExtensibleEntity(itemToFormat, namespaceAliases, out var extensionElements))
             {
-                itemElement.AddRange(contentExtensionElements);
-            }
-
-            if (Rss10SlashItemExtensionFormatter.TryFormatRss10SlashItemExtension(itemToFormat.SlashExtension, namespaceAliases, out var slashExtensionElements))
-            {
-                itemElement.AddRange(slashExtensionElements);
-            }
-
-            if (WfwItemExtensionFormatter.TryFormatWfwItemExtension(itemToFormat.WfwExtension, namespaceAliases, out var wfwExtensionElements))
-            {
-                itemElement.AddRange(wfwExtensionElements);
-            }
-
-            if (DublinCoreElementExtensionFormatter.TryFormatDublinCoreElementExtension(itemToFormat.DublinCoreExtension, namespaceAliases, out var dublinCoreExtensionElements))
-            {
-                itemElement.AddRange(dublinCoreExtensionElements);
-            }
-            
-            if (RssAtom10ElementExtensionFormatter.TryFormatRssAtom10ElementExtension(itemToFormat.RssAtom10Extension, namespaceAliases, out var rssAtom10ExtensionElements))
-            {
-                itemElement.AddRange(rssAtom10ExtensionElements);
-            }
-
-            if (CreativeCommonsElementExtensionFormatter.TryFormatCreativeCommonsElementExtension(itemToFormat.CreativeCommonsExtension, namespaceAliases, out var creativeCommonsExtensionElements))
-            {
-                itemElement.AddRange(creativeCommonsExtensionElements);
+                itemElement.AddRange(extensionElements);
             }
 
             return true;
@@ -404,9 +358,9 @@ namespace Feedpipes.Syndication.Rss20
             textInputElement.Add(new XElement("link") { Value = textInputToFormat.Link ?? "" });
 
             // extensions
-            if (DublinCoreElementExtensionFormatter.TryFormatDublinCoreElementExtension(textInputToFormat.DublinCoreExtension, namespaceAliases, out var dublinCoreExtensionElements))
+            if (ExtensibleEntityFormatter.TryFormatExtensibleEntity(textInputToFormat, namespaceAliases, out var extensionElements))
             {
-                textInputElement.AddRange(dublinCoreExtensionElements);
+                textInputElement.AddRange(extensionElements);
             }
 
             return true;
@@ -443,9 +397,9 @@ namespace Feedpipes.Syndication.Rss20
             }
 
             // extensions
-            if (DublinCoreElementExtensionFormatter.TryFormatDublinCoreElementExtension(imageToFormat.DublinCoreExtension, namespaceAliases, out var dublinCoreExtensionElements))
+            if (ExtensibleEntityFormatter.TryFormatExtensibleEntity(imageToFormat, namespaceAliases, out var extensionElements))
             {
-                imageElement.AddRange(dublinCoreExtensionElements);
+                imageElement.AddRange(extensionElements);
             }
 
             return true;

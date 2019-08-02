@@ -3,12 +3,7 @@ using System.Globalization;
 using System.Linq;
 using System.Xml.Linq;
 using Feedpipes.Syndication.Atom10.Entities;
-using Feedpipes.Syndication.Extensions.CreativeCommons;
-using Feedpipes.Syndication.Extensions.DublinCore;
-using Feedpipes.Syndication.Extensions.Rss10Content;
-using Feedpipes.Syndication.Extensions.Rss10Slash;
-using Feedpipes.Syndication.Extensions.Rss10Syndication;
-using Feedpipes.Syndication.Extensions.WellFormedWeb;
+using Feedpipes.Syndication.Extensions;
 using Feedpipes.Syndication.Timestamps.Rfc3339;
 using Feedpipes.Syndication.Xml;
 
@@ -117,19 +112,9 @@ namespace Feedpipes.Syndication.Atom10
             }
 
             // extensions
-            if (Rss10SyndicationChannelExtensionFormatter.TryFormatRss10SyndicationChannelExtension(feed.SyndicationExtension, namespaceAliases, out var syndicationExtensionElements))
+            if (ExtensibleEntityFormatter.TryFormatExtensibleEntity(feed, namespaceAliases, out var extensionElements))
             {
-                feedElement.AddRange(syndicationExtensionElements);
-            }
-
-            if (DublinCoreElementExtensionFormatter.TryFormatDublinCoreElementExtension(feed.DublinCoreExtension, namespaceAliases, out var dublinCoreExtensionElements))
-            {
-                feedElement.AddRange(dublinCoreExtensionElements);
-            }
-            
-            if (CreativeCommonsElementExtensionFormatter.TryFormatCreativeCommonsElementExtension(feed.CreativeCommonsExtension, namespaceAliases, out var creativeCommonsExtensionElements))
-            {
-                feedElement.AddRange(creativeCommonsExtensionElements);
+                feedElement.AddRange(extensionElements);
             }
 
             // entries
@@ -231,29 +216,9 @@ namespace Feedpipes.Syndication.Atom10
             }
 
             // extensions
-            if (Rss10ContentItemExtensionFormatter.TryFormatRss10ContentItemExtension(entryToFormat.ContentExtension, namespaceAliases, out var contentExtensionElements))
+            if (ExtensibleEntityFormatter.TryFormatExtensibleEntity(entryToFormat, namespaceAliases, out var extensionElements))
             {
-                entryElement.AddRange(contentExtensionElements);
-            }
-
-            if (Rss10SlashItemExtensionFormatter.TryFormatRss10SlashItemExtension(entryToFormat.SlashExtension, namespaceAliases, out var slashExtensionElements))
-            {
-                entryElement.AddRange(slashExtensionElements);
-            }
-
-            if (WfwItemExtensionFormatter.TryFormatWfwItemExtension(entryToFormat.WfwExtension, namespaceAliases, out var wfwExtensionElements))
-            {
-                entryElement.AddRange(wfwExtensionElements);
-            }
-
-            if (DublinCoreElementExtensionFormatter.TryFormatDublinCoreElementExtension(entryToFormat.DublinCoreExtension, namespaceAliases, out var dublinCoreExtensionElements))
-            {
-                entryElement.AddRange(dublinCoreExtensionElements);
-            }
-
-            if (CreativeCommonsElementExtensionFormatter.TryFormatCreativeCommonsElementExtension(entryToFormat.CreativeCommonsExtension, namespaceAliases, out var creativeCommonsExtensionElements))
-            {
-                entryElement.AddRange(creativeCommonsExtensionElements);
+                entryElement.AddRange(extensionElements);
             }
 
             return true;

@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using System.Xml.Linq;
 using Feedpipes.Syndication.Extensions.Rss10Content.Entities;
 using Feedpipes.Syndication.Xml;
@@ -20,6 +21,9 @@ namespace Feedpipes.Syndication.Extensions.Rss10Content
             {
                 elements.Add(encodedElement);
             }
+
+            if (!elements.Any())
+                return false;
 
             return true;
         }

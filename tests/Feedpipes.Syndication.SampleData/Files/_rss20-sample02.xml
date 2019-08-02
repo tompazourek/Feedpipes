@@ -48,13 +48,13 @@
             <day>Friday</day>
             <day>Monday</day>
         </skipDays>
-        <sy:updatePeriod>hourly</sy:updatePeriod>
-        <sy:updateFrequency>2</sy:updateFrequency>
-        <sy:updateBase>2000-01-01T12:00:00Z</sy:updateBase>
         <dc:creator>Rael Dornfest (mailto:rael@oreilly.com)</dc:creator>
         <dc:publisher>The O'Reilly Network</dc:publisher>
         <dc:rights>Copyright © 2000 O'Reilly &amp; Associates, Inc.</dc:rights>
         <dc:date>2000-01-01T12:00:00Z</dc:date>
+        <sy:updatePeriod>hourly</sy:updatePeriod>
+        <sy:updateFrequency>2</sy:updateFrequency>
+        <sy:updateBase>2000-01-01T12:00:00Z</sy:updateBase>
         <atom:link href="https://example.org/thisfeed.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title>My awesome article</title>
@@ -67,6 +67,11 @@
             <pubDate>Tue, 01 Jan 2019 05:30:00 GMT</pubDate>
             <source url="https://example.org/article-source-x">Article source X</source>
             <guid isPermaLink="true">https://example.org/article-permalink</guid>
+            <dc:creator>Simon St.Laurent (mailto:simonstl@simonstl.com)</dc:creator>
+            <dc:subject>XML</dc:subject>
+            <dc:description>XML is placing increasingly heavy loads on the existing technical infrastructure of the Internet.</dc:description>
+            <dc:publisher>The O'Reilly Network</dc:publisher>
+            <dc:rights>Copyright © 2000 O'Reilly &amp; Associates, Inc.</dc:rights>
             <content:encoded><![CDATA[<p>My <strong>awesome</strong> article description...</p>]]></content:encoded>
             <slash:section>articles</slash:section>
             <slash:department>not-an-ocean-unless-there-are-lobsters</slash:department>
@@ -74,11 +79,6 @@
             <slash:hit_parade>177,155,105,33,6,3,0</slash:hit_parade>
             <wfw:comment>https://example.org/wfw-comment</wfw:comment>
             <wfw:commentRss>https://example.org/wfw-comment-rss</wfw:commentRss>
-            <dc:creator>Simon St.Laurent (mailto:simonstl@simonstl.com)</dc:creator>
-            <dc:subject>XML</dc:subject>
-            <dc:description>XML is placing increasingly heavy loads on the existing technical infrastructure of the Internet.</dc:description>
-            <dc:publisher>The O'Reilly Network</dc:publisher>
-            <dc:rights>Copyright © 2000 O'Reilly &amp; Associates, Inc.</dc:rights>
         </item>
     </channel>
 </rss>

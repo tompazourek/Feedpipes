@@ -1,4 +1,5 @@
-﻿using Feedpipes.Syndication.Extensions.CreativeCommons.Entities;
+﻿using Feedpipes.Syndication.Base;
+using Feedpipes.Syndication.Extensions.CreativeCommons.Entities;
 using Feedpipes.Syndication.Extensions.DublinCore.Entities;
 using Feedpipes.Syndication.Extensions.Rss10Content.Entities;
 using Feedpipes.Syndication.Extensions.Rss10Slash.Entities;
@@ -16,7 +17,7 @@ namespace Feedpipes.Syndication.Rss10.Entities
     /// which identifies the item. {item_uri} should be identical to the value of the "link" sub-element of
     /// the "item" element, if possible.
     /// </summary>
-    public class Rss10Item
+    public class Rss10Item : IRssItem, IFeedItem
     {
         /// <summary>
         /// Required "rdf:about" attribute.
@@ -45,34 +46,12 @@ namespace Feedpipes.Syndication.Rss10.Entities
         /// </summary>
         public string Description { get; set; }
 
-        /// <summary>
-        /// Optional "content:*" extended information.
-        /// </summary>
         public Rss10ContentItemExtension ContentExtension { get; set; }
-
-        /// <summary>
-        /// Optional "wfw:*" extended information.
-        /// </summary>
         public WfwItemExtension WfwExtension { get; set; }
-
-        /// <summary>
-        /// Optional "slash:*" extended information.
-        /// </summary>
         public Rss10SlashItemExtension SlashExtension { get; set; }
-
-        /// <summary>
-        /// Optional "dc:*" extended information.
-        /// </summary>
         public DublinCoreElementExtension DublinCoreExtension { get; set; }
-        
-        /// <summary>
-        /// Optional "atom:*" extended information.
-        /// </summary>
-        public RssAtom10ElementExtension RssAtom10Extension { get; set; }
-        
-        /// <summary>
-        /// Optional "cc:*" extended information.
-        /// </summary>
         public CreativeCommonsElementExtension CreativeCommonsExtension { get; set; }
+
+        public RssAtom10ElementExtension AtomExtension { get; set; }
     }
 }
