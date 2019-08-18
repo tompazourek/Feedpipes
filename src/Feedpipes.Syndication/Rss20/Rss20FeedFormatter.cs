@@ -189,12 +189,9 @@ namespace Feedpipes.Syndication.Rss20
                 }
             }
 
-            foreach (var enclosureToFormat in itemToFormat.Enclosures)
+            if (TryFormatRss20Enclosure(itemToFormat.Enclosure, out var enclosureElement))
             {
-                if (TryFormatRss20Enclosure(enclosureToFormat, out var enclosureElement))
-                {
-                    itemElement.Add(enclosureElement);
-                }
+                itemElement.Add(enclosureElement);
             }
 
             if (TryFormatRss20Timestamp(itemToFormat.PubDate, "pubDate", out var pubDateElement))

@@ -316,12 +316,9 @@ namespace Feedpipes.Syndication.Rss20
                 }
             }
 
-            foreach (var enclosureElement in itemElement.Elements("enclosure"))
+            if (TryParseRss20Enclosure(itemElement.Element("enclosure"), out var parsedEnclosure))
             {
-                if (TryParseRss20Enclosure(enclosureElement, out var parsedEnclosure))
-                {
-                    parsedItem.Enclosures.Add(parsedEnclosure);
-                }
+                parsedItem.Enclosure = parsedEnclosure;
             }
 
             if (TryParseRss20Timestamp(itemElement.Element("pubDate"), out var parsedPubDate))
