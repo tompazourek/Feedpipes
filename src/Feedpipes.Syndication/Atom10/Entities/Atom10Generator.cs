@@ -1,11 +1,21 @@
-﻿namespace Feedpipes.Syndication.Atom10.Entities
+﻿using System.Diagnostics;
+using Feedpipes.Syndication.Utils;
+
+namespace Feedpipes.Syndication.Atom10.Entities
 {
     /// <summary>
     /// Corresponds to the "generator" element.
     /// Identifies the software used to generate the feed, for debugging and other purposes.
     /// </summary>
+    [DebuggerDisplay("{" + nameof(DebuggerDisplay) + ",nq}")]
     public class Atom10Generator
     {
+        [DebuggerBrowsable(DebuggerBrowsableState.Never)]
+        internal string DebuggerDisplay => DebuggerDisplayBuilder.Create(this)
+            .Append(x => x.Value)
+            .Append(x => x.Version)
+            .Append(x => x.Uri);
+
         /// <summary>
         /// Optional "uri" attribute.
         /// </summary>

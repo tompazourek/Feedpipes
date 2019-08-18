@@ -1,13 +1,25 @@
-﻿using Feedpipes.Syndication.Base;
+﻿using System.Diagnostics;
+using Feedpipes.Syndication.Base;
 using Feedpipes.Syndication.Extensions.DublinCore.Entities;
+using Feedpipes.Syndication.Utils;
 
 namespace Feedpipes.Syndication.Rss20.Entities
 {
     /// <summary>
     /// Specifies a GIF, JPEG or PNG image that can be displayed with the channel.
     /// </summary>
+    [DebuggerDisplay("{" + nameof(DebuggerDisplay) + ",nq}")]
     public class Rss20Image : IRssImage
     {
+        [DebuggerBrowsable(DebuggerBrowsableState.Never)]
+        internal string DebuggerDisplay => DebuggerDisplayBuilder.Create(this)
+            .Append(x => x.Url)
+            .Append(x => x.Title)
+            .Append(x => x.Link)
+            .Append(x => x.Description)
+            .Append(x => x.Width)
+            .Append(x => x.Height);
+
         /// <summary>
         /// URL of a GIF, JPEG or PNG image that represents the channel.
         /// </summary>

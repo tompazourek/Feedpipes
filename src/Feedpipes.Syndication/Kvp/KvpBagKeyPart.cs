@@ -1,10 +1,17 @@
 ﻿using System;
+using System.Diagnostics;
 using JetBrains.Annotations;
 
 namespace Feedpipes.Syndication.Kvp
 {
+    [DebuggerDisplay("{" + nameof(DebuggerDisplay) + ",nq}")]
     public class KvpBagKeyPart : IEquatable<KvpBagKeyPart>
     {
+        [DebuggerBrowsable(DebuggerBrowsableState.Never)]
+        internal string DebuggerDisplay => KvpBagStringPairFormatter.TryFormatKvpKeyPart(this, out var result) ? result : null;
+
+        public override string ToString() => DebuggerDisplay;
+
         public KvpBagKeyPart([NotNull] string namespaceIdentifier, [NotNull] string propertyName, int? collectionIndex = null)
         {
             if (string.IsNullOrWhiteSpace(namespaceIdentifier))

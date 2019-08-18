@@ -1,10 +1,12 @@
-﻿using Feedpipes.Syndication.Base;
+﻿using System.Diagnostics;
+using Feedpipes.Syndication.Base;
 using Feedpipes.Syndication.Extensions.CreativeCommons.Entities;
 using Feedpipes.Syndication.Extensions.DublinCore.Entities;
 using Feedpipes.Syndication.Extensions.Rss10Content.Entities;
 using Feedpipes.Syndication.Extensions.Rss10Slash.Entities;
 using Feedpipes.Syndication.Extensions.RssAtom10.Entities;
 using Feedpipes.Syndication.Extensions.WellFormedWeb.Entities;
+using Feedpipes.Syndication.Utils;
 
 namespace Feedpipes.Syndication.Rss10.Entities
 {
@@ -17,8 +19,14 @@ namespace Feedpipes.Syndication.Rss10.Entities
     /// which identifies the item. {item_uri} should be identical to the value of the "link" sub-element of
     /// the "item" element, if possible.
     /// </summary>
+    [DebuggerDisplay("{" + nameof(DebuggerDisplay) + ",nq}")]
     public class Rss10Item : IRssItem, IFeedItem
     {
+        [DebuggerBrowsable(DebuggerBrowsableState.Never)]
+        internal string DebuggerDisplay => DebuggerDisplayBuilder.Create(this)
+            .Append(x => x.Title)
+            .Append(x => x.Link);
+
         /// <summary>
         /// Required "rdf:about" attribute.
         /// Usually the same as the link.

@@ -1,4 +1,7 @@
-﻿namespace Feedpipes.Syndication.Atom10.Entities
+﻿using System.Diagnostics;
+using Feedpipes.Syndication.Utils;
+
+namespace Feedpipes.Syndication.Atom10.Entities
 {
     /// <summary>
     /// "content" either contains, or links to, the complete content of the entry.
@@ -9,8 +12,15 @@
     /// Otherwise, if the type attribute starts with text, then an escaped document of this type is contained inline.
     /// Otherwise, a base64 encoded document of the indicated media type is contained inline.
     /// </summary>
+    [DebuggerDisplay("{" + nameof(DebuggerDisplay) + ",nq}")]
     public class Atom10Content
     {
+        [DebuggerBrowsable(DebuggerBrowsableState.Never)]
+        internal string DebuggerDisplay => DebuggerDisplayBuilder.Create(this)
+            .Append(x => x.Type)
+            .Append(x => x.Src)
+            .Append(x => x.Value);
+
         /// <summary>
         /// Corresponds to the "type" attribute.
         /// By default, "text", "html"/"xhtml" otherwise. It can also be a mime type.

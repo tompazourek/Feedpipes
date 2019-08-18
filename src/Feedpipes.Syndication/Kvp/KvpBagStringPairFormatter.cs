@@ -24,7 +24,7 @@ namespace Feedpipes.Syndication.Kvp
             return true;
         }
 
-        private static bool TryFormatKvpKey(KvpBagKey kvpBagKey, out string formattedKey)
+        internal static bool TryFormatKvpKey(KvpBagKey kvpBagKey, out string formattedKey)
         {
             formattedKey = default;
 
@@ -51,7 +51,7 @@ namespace Feedpipes.Syndication.Kvp
             return true;
         }
 
-        private static bool TryFormatKvpKeyPart(KvpBagKeyPart kvpBagKeyPart, out string formattedPart, string parentNamespaceIdentifier = null)
+        internal static bool TryFormatKvpKeyPart(KvpBagKeyPart kvpBagKeyPart, out string formattedPart, string parentNamespaceIdentifier = null)
         {
             var resultBuilder = new StringBuilder();
 

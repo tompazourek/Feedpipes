@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Diagnostics;
+using Feedpipes.Syndication.Utils;
 
 namespace Feedpipes.Syndication.Atom10.Entities
 {
@@ -6,8 +8,15 @@ namespace Feedpipes.Syndication.Atom10.Entities
     /// Corresponds to the "source" element.
     /// Contains metadata from the source feed if this entry is a copy.
     /// </summary>
+    [DebuggerDisplay("{" + nameof(DebuggerDisplay) + ",nq}")]
     public class Atom10Source
     {
+        [DebuggerBrowsable(DebuggerBrowsableState.Never)]
+        internal string DebuggerDisplay => DebuggerDisplayBuilder.Create(this)
+            .Append(x => x.Id)
+            .Append(x => x.Title, x => x.DebuggerDisplay)
+            .Append(x => x.Updated);
+
         /// <summary>
         /// Corresponds to the "id" element.
         /// </summary>

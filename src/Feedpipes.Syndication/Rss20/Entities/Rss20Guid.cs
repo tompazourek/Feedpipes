@@ -1,4 +1,7 @@
-﻿namespace Feedpipes.Syndication.Rss20.Entities
+﻿using System.Diagnostics;
+using Feedpipes.Syndication.Utils;
+
+namespace Feedpipes.Syndication.Rss20.Entities
 {
     /// <summary>
     /// "guid" element of items.
@@ -7,8 +10,14 @@
     /// There are no rules for the syntax of a guid. Aggregators must view them as a string.
     /// It's up to the source of the feed to establish the uniqueness of the string.
     /// </summary>
+    [DebuggerDisplay("{" + nameof(DebuggerDisplay) + ",nq}")]
     public class Rss20Guid
     {
+        [DebuggerBrowsable(DebuggerBrowsableState.Never)]
+        internal string DebuggerDisplay => DebuggerDisplayBuilder.Create(this)
+            .Append(x => x.Value)
+            .Append(x => x.IsPermaLink);
+
         /// <summary>
         /// Value of the guid.
         /// </summary>

@@ -1,10 +1,19 @@
-﻿namespace Feedpipes.Syndication.Rss20.Entities
+﻿using System.Diagnostics;
+using Feedpipes.Syndication.Utils;
+
+namespace Feedpipes.Syndication.Rss20.Entities
 {
     /// <summary>
     /// Feed or item category.
     /// </summary>
+    [DebuggerDisplay("{" + nameof(DebuggerDisplay) + ",nq}")]
     public class Rss20Category
     {
+        [DebuggerBrowsable(DebuggerBrowsableState.Never)]
+        internal string DebuggerDisplay => DebuggerDisplayBuilder.Create(this)
+            .Append(x => x.Name)
+            .Append(x => x.Domain);
+
         /// <summary>
         /// The value of the element is a forward-slash-separated string that identifies
         /// a hierarchic location in the indicated taxonomy. Processors may establish conventions

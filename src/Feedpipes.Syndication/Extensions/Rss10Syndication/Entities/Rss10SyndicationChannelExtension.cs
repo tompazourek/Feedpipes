@@ -1,9 +1,18 @@
 ﻿using System;
+using System.Diagnostics;
+using Feedpipes.Syndication.Utils;
 
 namespace Feedpipes.Syndication.Extensions.Rss10Syndication.Entities
 {
+    [DebuggerDisplay("{" + nameof(DebuggerDisplay) + ",nq}")]
     public class Rss10SyndicationChannelExtension
     {
+        [DebuggerBrowsable(DebuggerBrowsableState.Never)]
+        internal string DebuggerDisplay => DebuggerDisplayBuilder.Create(this)
+            .Append(x => x.UpdateBase)
+            .Append(x => x.UpdateFrequency)
+            .Append(x => x.UpdatePeriod);
+
         /// <summary>
         /// Corresponds to "sy:updateBase".
         /// Defines a base date to be used in concert with updatePeriod and updateFrequency to calculate the publishing schedule.

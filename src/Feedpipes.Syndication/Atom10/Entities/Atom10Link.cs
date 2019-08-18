@@ -1,11 +1,24 @@
-﻿namespace Feedpipes.Syndication.Atom10.Entities
+﻿using System.Diagnostics;
+using Feedpipes.Syndication.Utils;
+
+namespace Feedpipes.Syndication.Atom10.Entities
 {
     /// <summary>
     /// "link" is patterned after html's link element. It has one required attribute, href, and five optional attributes:
     /// rel, type, hreflang, title, and length.
     /// </summary>
+    [DebuggerDisplay("{" + nameof(DebuggerDisplay) + ",nq}")]
     public class Atom10Link
     {
+        [DebuggerBrowsable(DebuggerBrowsableState.Never)]
+        internal string DebuggerDisplay => DebuggerDisplayBuilder.Create(this)
+            .Append(x => x.Rel)
+            .Append(x => x.Href)
+            .Append(x => x.Type)
+            .Append(x => x.Hreflang)
+            .Append(x => x.Title)
+            .Append(x => x.Length);
+
         /// <summary>
         /// Required "href" attribute.
         /// href is the URI of the referenced resource (typically a Web page).

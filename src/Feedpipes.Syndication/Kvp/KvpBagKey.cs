@@ -1,12 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using JetBrains.Annotations;
 
 namespace Feedpipes.Syndication.Kvp
 {
+    [DebuggerDisplay("{" + nameof(DebuggerDisplay) + ",nq}")]
     public class KvpBagKey : IEquatable<KvpBagKey>
     {
+        [DebuggerBrowsable(DebuggerBrowsableState.Never)]
+        internal string DebuggerDisplay => KvpBagStringPairFormatter.TryFormatKvpKey(this, out var result) ? result : null;
+
+        public override string ToString() => DebuggerDisplay;
+
         public KvpBagKey([ItemNotNull] IList<KvpBagKeyPart> parts)
         {
             Parts = parts?.ToList() ?? throw new ArgumentNullException(nameof(parts));

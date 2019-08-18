@@ -1,14 +1,23 @@
 ﻿using System.Collections.Generic;
+using System.Diagnostics;
 using Feedpipes.Syndication.Base;
 using Feedpipes.Syndication.Extensions.CreativeCommons.Entities;
 using Feedpipes.Syndication.Extensions.DublinCore.Entities;
 using Feedpipes.Syndication.Extensions.Rss10Syndication.Entities;
 using Feedpipes.Syndication.Extensions.RssAtom10.Entities;
+using Feedpipes.Syndication.Utils;
 
 namespace Feedpipes.Syndication.Rss10.Entities
 {
+    [DebuggerDisplay("{" + nameof(DebuggerDisplay) + ",nq}")]
     public class Rss10Channel : IRssChannel, IFeed
     {
+        [DebuggerBrowsable(DebuggerBrowsableState.Never)]
+        internal string DebuggerDisplay => DebuggerDisplayBuilder.Create(this)
+            .Append(x => x.Title)
+            .Append(x => x.Link)
+            .Append(x => x.Items);
+
         /// <summary>
         /// Required "rdf:about" attribute.
         /// The {resource} URL of the channel element's rdf:about attribute must be unique with respect to any other

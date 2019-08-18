@@ -1,11 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using Feedpipes.Syndication.Atom10.Entities;
+using Feedpipes.Syndication.Utils;
 
 namespace Feedpipes.Syndication.Extensions.RssAtom10.Entities
 {
+    [DebuggerDisplay("{" + nameof(DebuggerDisplay) + ",nq}")]
     public class RssAtom10ElementExtension
     {
+        [DebuggerBrowsable(DebuggerBrowsableState.Never)]
+        internal string DebuggerDisplay => DebuggerDisplayBuilder.Create(this)
+            .Append(x => x.Id)
+            .Append(x => x.Updated)
+            .Append(x => x.Links);
+
         /// <summary>
         /// Optional "id" element.
         /// Identifies the feed using a universally unique and permanent URI. If you have a long-term,

@@ -1,15 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using Feedpipes.Syndication.Base;
 using Feedpipes.Syndication.Extensions.CreativeCommons.Entities;
 using Feedpipes.Syndication.Extensions.DublinCore.Entities;
 using Feedpipes.Syndication.Extensions.Rss10Syndication.Entities;
 using Feedpipes.Syndication.Extensions.RssAtom10.Entities;
+using Feedpipes.Syndication.Utils;
 
 namespace Feedpipes.Syndication.Rss20.Entities
 {
+    [DebuggerDisplay("{" + nameof(DebuggerDisplay) + ",nq}")]
     public class Rss20Channel : IRssChannel, IFeed
     {
+        [DebuggerBrowsable(DebuggerBrowsableState.Never)]
+        internal string DebuggerDisplay => DebuggerDisplayBuilder.Create(this)
+            .Append(x => x.Title)
+            .Append(x => x.Link)
+            .Append(x => x.PubDate)
+            .Append(x => x.Items);
+
         /// <summary>
         /// Required "title" element.
         /// The name of the channel. It's how people refer to your service. If you have an HTML website that contains

@@ -1,10 +1,20 @@
-﻿namespace Feedpipes.Syndication.Atom10.Entities
+﻿using System.Diagnostics;
+using Feedpipes.Syndication.Utils;
+
+namespace Feedpipes.Syndication.Atom10.Entities
 {
     /// <summary>
     /// Corresponds to the "category" element.
     /// </summary>
+    [DebuggerDisplay("{" + nameof(DebuggerDisplay) + ",nq}")]
     public class Atom10Category
     {
+        [DebuggerBrowsable(DebuggerBrowsableState.Never)]
+        internal string DebuggerDisplay => DebuggerDisplayBuilder.Create(this)
+            .Append(x => x.Term)
+            .Append(x => x.Scheme)
+            .Append(x => x.Label);
+
         /// <summary>
         /// Required "term" attribute.
         /// term identifies the category.

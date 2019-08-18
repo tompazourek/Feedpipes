@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace Feedpipes.Syndication.Kvp
 {
+    [DebuggerDisplay("{" + nameof(Value) + "}")]
     public class KvpBagValue
     {
         public KvpBagValue(string value)
@@ -13,6 +15,8 @@ namespace Feedpipes.Syndication.Kvp
         }
 
         public string Value { get; }
+
+        public override string ToString() => Value;
 
         public void Deconstruct(out string value) => value = Value;
         public static implicit operator KvpBagValue(string input) => new KvpBagValue(input);

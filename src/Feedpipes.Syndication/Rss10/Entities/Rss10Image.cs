@@ -1,5 +1,7 @@
-﻿using Feedpipes.Syndication.Base;
+﻿using System.Diagnostics;
+using Feedpipes.Syndication.Base;
 using Feedpipes.Syndication.Extensions.DublinCore.Entities;
+using Feedpipes.Syndication.Utils;
 
 namespace Feedpipes.Syndication.Rss10.Entities
 {
@@ -8,8 +10,15 @@ namespace Feedpipes.Syndication.Rss10.Entities
     /// supported by the majority of Web browsers. While the later 0.91 specification allowed for a width
     /// of 1-144 and height of 1-400, convention (and the 0.9 specification) dictate 88x31.
     /// </summary>
+    [DebuggerDisplay("{" + nameof(DebuggerDisplay) + ",nq}")]
     public class Rss10Image : IRssImage
     {
+        [DebuggerBrowsable(DebuggerBrowsableState.Never)]
+        internal string DebuggerDisplay => DebuggerDisplayBuilder.Create(this)
+            .Append(x => x.Url)
+            .Append(x => x.Title)
+            .Append(x => x.Link);
+
         /// <summary>
         /// Required "rdf:about" attribute.
         /// It's usually the same as the URL.

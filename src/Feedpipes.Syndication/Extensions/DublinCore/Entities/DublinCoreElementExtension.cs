@@ -1,12 +1,34 @@
 ﻿using System;
+using System.Diagnostics;
+using Feedpipes.Syndication.Utils;
 
 namespace Feedpipes.Syndication.Extensions.DublinCore.Entities
 {
     /// <summary>
     /// Applies to multiple elements (channel, item, image, textinput)
     /// </summary>
+    [DebuggerDisplay("{" + nameof(DebuggerDisplay) + ",nq}")]
     public class DublinCoreElementExtension
     {
+        [DebuggerBrowsable(DebuggerBrowsableState.Never)]
+        internal string DebuggerDisplay => DebuggerDisplayBuilder.Create(this)
+            .Append(x => x.Title)
+            .Append(x => x.Creator)
+            .Append(x => x.Subject)
+            .Append(x => x.Description)
+            .Append(x => x.Publisher)
+            .Append(x => x.Contributor)
+            .Append(x => x.Date)
+            .Append(x => x.Modified)
+            .Append(x => x.Type)
+            .Append(x => x.Format)
+            .Append(x => x.Identifier)
+            .Append(x => x.Source)
+            .Append(x => x.Language)
+            .Append(x => x.Relation)
+            .Append(x => x.Coverage)
+            .Append(x => x.Rights);
+
         /// <summary>
         /// Corresponds to "dc:title" element.
         /// </summary>

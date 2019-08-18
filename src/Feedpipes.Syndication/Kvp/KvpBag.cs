@@ -2,11 +2,19 @@
 using System.Collections;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
+using System.Diagnostics;
+using Feedpipes.Syndication.Utils;
 
 namespace Feedpipes.Syndication.Kvp
 {
+    [DebuggerDisplay("{" + nameof(DebuggerDisplay) + ",nq}")]
     public class KvpBag : IDictionary<KvpBagKey, KvpBagValue>
     {
+        [DebuggerBrowsable(DebuggerBrowsableState.Never)]
+        internal string DebuggerDisplay => DebuggerDisplayBuilder.Create(this)
+            .Append(x => x.Count);
+
+        [DebuggerBrowsable(DebuggerBrowsableState.RootHidden)]
         private readonly IDictionary<KvpBagKey, KvpBagValue> _innerDictionary = new ConcurrentDictionary<KvpBagKey, KvpBagValue>();
 
         #region Delegated interface

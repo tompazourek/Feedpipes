@@ -1,14 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using Feedpipes.Syndication.Base;
 using Feedpipes.Syndication.Extensions.CreativeCommons.Entities;
 using Feedpipes.Syndication.Extensions.DublinCore.Entities;
 using Feedpipes.Syndication.Extensions.Rss10Syndication.Entities;
+using Feedpipes.Syndication.Utils;
 
 namespace Feedpipes.Syndication.Atom10.Entities
 {
+    [DebuggerDisplay("{" + nameof(DebuggerDisplay) + ",nq}")]
     public class Atom10Feed : IFeed
     {
+        [DebuggerBrowsable(DebuggerBrowsableState.Never)]
+        internal string DebuggerDisplay => DebuggerDisplayBuilder.Create(this)
+            .Append(x => x.Id)
+            .Append(x => x.Title)
+            .Append(x => x.Updated)
+            .Append(x => x.Entries);
+
         /// <summary>
         /// Corresponds to the "xml:lang" attribute.
         /// xml:lang may be used to identify the language of any human readable text.

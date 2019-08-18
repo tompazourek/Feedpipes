@@ -1,11 +1,23 @@
-﻿namespace Feedpipes.Syndication.Rss20.Entities
+﻿using System.Diagnostics;
+using Feedpipes.Syndication.Utils;
+
+namespace Feedpipes.Syndication.Rss20.Entities
 {
     /// <summary>
     /// Allows processes to register with a cloud to be notified of updates to the channel, implementing a lightweight
     /// publish-subscribe protocol for RSS feeds.
     /// </summary>
+    [DebuggerDisplay("{" + nameof(DebuggerDisplay) + ",nq}")]
     public class Rss20Cloud
     {
+        [DebuggerBrowsable(DebuggerBrowsableState.Never)]
+        internal string DebuggerDisplay => DebuggerDisplayBuilder.Create(this)
+            .Append(x => x.Domain)
+            .Append(x => x.Port)
+            .Append(x => x.Path)
+            .Append(x => x.RegisterProcedure)
+            .Append(x => x.Protocol);
+
         public string Domain { get; set; }
         public string Port { get; set; }
         public string Path { get; set; }

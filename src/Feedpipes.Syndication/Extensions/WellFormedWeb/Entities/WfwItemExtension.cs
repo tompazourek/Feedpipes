@@ -1,7 +1,16 @@
-﻿namespace Feedpipes.Syndication.Extensions.WellFormedWeb.Entities
+﻿using System.Diagnostics;
+using Feedpipes.Syndication.Utils;
+
+namespace Feedpipes.Syndication.Extensions.WellFormedWeb.Entities
 {
+    [DebuggerDisplay("{" + nameof(DebuggerDisplay) + ",nq}")]
     public class WfwItemExtension
     {
+        [DebuggerBrowsable(DebuggerBrowsableState.Never)]
+        internal string DebuggerDisplay => DebuggerDisplayBuilder.Create(this)
+            .Append(x => x.Comment)
+            .Append(x => x.CommentRss);
+
         /// <summary>
         /// Corresponds to "wfw:comment".
         /// This element appears in RSS feeds and contains the URI that comment entries are to be POSTed to.
