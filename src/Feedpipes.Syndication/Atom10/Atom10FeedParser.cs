@@ -17,7 +17,6 @@ namespace Feedpipes.Syndication.Atom10
     public static class Atom10FeedParser
     {
         private static readonly XNamespace _xml = XNamespace.Xml;
-        private static readonly XNamespace _xhtml = Atom10Constants.XhtmlNamespace;
 
         public static bool TryParseAtom10Feed(XDocument document, out Atom10Feed parsedFeed)
         {
@@ -289,11 +288,18 @@ namespace Feedpipes.Syndication.Atom10
             switch (type)
             {
                 case "xhtml":
-                    parsedValue = element
-                        .Element(_xhtml + "div")
-                        ?.ToString(SaveOptions.DisableFormatting | SaveOptions.OmitDuplicateNamespaces);
+                    foreach (var xhtml in Atom10Constants.RecognizedXhtmlNamespaces)
+                    {
+                        parsedValue = element
+                            .Element(xhtml + "div")
+                            ?.ToString(SaveOptions.DisableFormatting | SaveOptions.OmitDuplicateNamespaces);
 
-                    return true;
+                        if (parsedValue != null)
+                            return true;
+                    }
+
+                    parsedValue = null;
+                    return false;
                 default:
                     parsedValue = element.Value.Trim();
                     return true;

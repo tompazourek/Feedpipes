@@ -10,6 +10,12 @@ namespace Feedpipes.Syndication.Atom10
         public static readonly XNamespace Namespace = "http://www.w3.org/2005/Atom";
         public static readonly XNamespace XhtmlNamespace = "http://www.w3.org/1999/xhtml";
 
+        public static readonly XNamespace[] RecognizedXhtmlNamespaces =
+        {
+            "http://www.w3.org/1999/xhtml",
+            "https://www.w3.org/1999/xhtml",
+        };
+
         public static readonly XNamespace[] RecognizedNamespaces =
         {
             "http://www.w3.org/2005/Atom",
