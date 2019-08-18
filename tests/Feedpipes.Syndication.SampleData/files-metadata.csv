@@ -1,6 +1,10 @@
 ﻿FileName,FeedUrl,Title,WebUrl,Source
 _atom10-sample01,,,,Atom 1.0 Spec
 _atom10-sample02,,,,Custom made
+_rss090-sample,,,,RSS 0.90 Spec
+_rss091-netscape-sample,,,,RSS 0.91 Netscape Spec
+_rss091-userland-sample,,,,RSS 0.91 Userland Spec
+_rss092-sample,,,,RSS 0.92 Spec
 _rss10-sample01,,,,RSS 1.0 Spec
 _rss10-sample02,,,,RSS 1.0 Spec
 _rss20-sample01,,,,RSS 2.0 Spec

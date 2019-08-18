@@ -15,6 +15,10 @@ namespace Feedpipes.Syndication.Rss10
         {
             "http://purl.org/rss/1.0/",
             "https://purl.org/rss/1.0/",
+
+            // support previous RDF branch versions
+            "http://channel.netscape.com/rdf/simple/0.9/",
+            "https://channel.netscape.com/rdf/simple/0.9/",
         };
     }
 }

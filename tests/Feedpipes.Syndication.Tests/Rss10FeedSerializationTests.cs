@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Text;
 using System.Xml;
 using Feedpipes.Syndication.Rss10;
@@ -75,7 +76,9 @@ namespace Feedpipes.Syndication.Tests
                 if (x.Document?.Root?.Name != Rss10Constants.RdfNamespace + "RDF")
                     return false;
 
-                if (x.Document?.Root?.Attribute("xmlns")?.Value != Rss10Constants.Namespace.NamespaceName)
+                var recognizedNamespaceNames = Rss10Constants.RecognizedNamespaces.Select(y => y.NamespaceName).ToHashSet();
+
+                if (!recognizedNamespaceNames.Contains(x.Document?.Root?.Attribute("xmlns")?.Value))
                     return false;
 
                 return true;

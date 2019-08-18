@@ -4,6 +4,7 @@ using System.Globalization;
 using System.Linq;
 using System.Xml.Linq;
 using Feedpipes.Syndication.Extensions;
+using Feedpipes.Syndication.Rss10;
 using Feedpipes.Syndication.Rss20.Entities;
 using Feedpipes.Syndication.Timestamps.Rfc822;
 using Feedpipes.Syndication.Xml;
@@ -21,7 +22,7 @@ namespace Feedpipes.Syndication.Rss20
 
             document = new XDocument();
 
-            var rssElement = new XElement("rss", new XAttribute("version", "2.0"));
+            var rssElement = new XElement("rss", new XAttribute("version", Rss20Constants.Version));
             document.Add(rssElement);
 
             var namespaceAliases = new XNamespaceAliasSet();

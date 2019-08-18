@@ -5,6 +5,7 @@ using System.Globalization;
 using System.Linq;
 using System.Xml.Linq;
 using Feedpipes.Syndication.Extensions;
+using Feedpipes.Syndication.Rss10;
 using Feedpipes.Syndication.Rss20.Entities;
 using Feedpipes.Syndication.Timestamps.Relaxed;
 
@@ -22,7 +23,7 @@ namespace Feedpipes.Syndication.Rss20
                 return false;
 
             var rssVersion = rssElement.Attribute("version")?.Value;
-            if (rssVersion != "2.0")
+            if (!Rss20Constants.RecognizedVersions.Contains(rssVersion))
                 return false;
 
             if (!TryParseRss20Channel(rssElement.Element("channel"), out var parsedChannel))
