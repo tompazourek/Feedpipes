@@ -130,7 +130,7 @@ namespace Feedpipes.Syndication.Tests
                             Comments = "https://example.org/comments",
                             Guid = new Rss20Guid { Value = "https://example.org/article-permalink", IsPermaLink = true, },
                             Source = new Rss20Source { Name = "Article source X", Url = "https://example.org/article-source-x", },
-                            Enclosure = new Rss20Enclosure { Url = "https://example.org/enclosure-video.mp4", Length = "3000", Type = "video/mp4", },
+                            Enclosures = new List<Rss20Enclosure> { new Rss20Enclosure { Url = "https://example.org/enclosure-video.mp4", Length = "3000", Type = "video/mp4", }, },
                         },
                     },
                 },

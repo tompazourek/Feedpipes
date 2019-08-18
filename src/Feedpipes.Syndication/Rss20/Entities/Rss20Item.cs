@@ -98,10 +98,10 @@ namespace Feedpipes.Syndication.Rss20.Entities
         public IList<Rss20Category> Categories { get; set; } = new List<Rss20Category>();
 
         /// <summary>
-        /// Optional "enclosure" element.
+        /// Optional "enclosure" elements.
         /// Describes a media object that is attached to the item.
         /// </summary>
-        public Rss20Enclosure Enclosure { get; set; }
+        public IList<Rss20Enclosure> Enclosures { get; set; } = new List<Rss20Enclosure>();
 
         /// <summary>
         /// Optional "pubDate" element.
