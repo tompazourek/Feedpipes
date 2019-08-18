@@ -41,7 +41,7 @@
         </author>
         <content type="html">My &lt;strong&gt;HTML&lt;/strong&gt; content.</content>
         <link href="https://example.org/article-alternate?hl=cs" rel="alternate" hreflang="cs-CZ" />
-        <summary>My awesome article summary...</summary>
+        <summary type="xhtml" xml:lang="en" xml:base="https://example.org/"><div xmlns="http://www.w3.org/1999/xhtml">My awesome article summary...</div></summary>
         <category term="delta" label="Delta" scheme="https://example.org/categories" />
         <contributor>
             <name>Sarah</name>

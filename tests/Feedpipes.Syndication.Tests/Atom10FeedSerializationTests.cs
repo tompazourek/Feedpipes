@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Text;
 using System.Xml;
@@ -176,7 +177,7 @@ namespace Feedpipes.Syndication.Tests
                             Value = "My <strong>HTML</strong> content.",
                             Type = "html",
                         },
-                        Summary = new Atom10Text { Value = "My awesome article summary..." },
+                        Summary = new Atom10Text { Value = "<div xmlns=\"http://www.w3.org/1999/xhtml\">My awesome article summary...</div>", Type = "xhtml" },
                         Rights = new Atom10Text { Value = "All rights reserved again." },
                         Links = new List<Atom10Link>
                         {

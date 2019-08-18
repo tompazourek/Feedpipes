@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Globalization;
 using System.Linq;
+using System.Xml;
 using System.Xml.Linq;
 using Feedpipes.Syndication.Atom10.Entities;
 using Feedpipes.Syndication.Extensions;
@@ -257,11 +258,26 @@ namespace Feedpipes.Syndication.Atom10
 
         private static bool TryFormatAtom10TextRequired(Atom10Text textToFormat, XName name, out XElement textElement)
         {
-            textElement = new XElement(name, textToFormat?.Value ?? "");
+            textElement = new XElement(name);
+
+            if (TryFormatValueByType(textToFormat?.Type, textToFormat?.Value, out var contentObject))
+            {
+                textElement.Add(contentObject);
+            }
 
             if (TryFormatAtom10Type(textToFormat?.Type, skipTypeText: true, out var typeAttribute))
             {
                 textElement.Add(typeAttribute);
+            }
+            
+            if (TryFormatAtom10OptionalTextAttribute(textToFormat?.Lang, _xml + "lang", out var langAttribute))
+            {
+                textElement.Add(langAttribute);
+            }
+
+            if (TryFormatAtom10OptionalTextAttribute(textToFormat?.Base, _xml + "base", out var baseAttribute))
+            {
+                textElement.Add(baseAttribute);
             }
 
             return true;
@@ -274,11 +290,26 @@ namespace Feedpipes.Syndication.Atom10
             if (string.IsNullOrEmpty(textToFormat?.Value))
                 return false;
 
-            textElement = new XElement(name, textToFormat.Value ?? "");
+            textElement = new XElement(name);
+            
+            if (TryFormatValueByType(textToFormat.Type, textToFormat.Value, out var contentObject))
+            {
+                textElement.Add(contentObject);
+            }
 
             if (TryFormatAtom10Type(textToFormat.Type, skipTypeText: true, out var typeAttribute))
             {
                 textElement.Add(typeAttribute);
+            }
+            
+            if (TryFormatAtom10OptionalTextAttribute(textToFormat.Lang, _xml + "lang", out var langAttribute))
+            {
+                textElement.Add(langAttribute);
+            }
+
+            if (TryFormatAtom10OptionalTextAttribute(textToFormat.Base, _xml + "base", out var baseAttribute))
+            {
+                textElement.Add(baseAttribute);
             }
 
             return true;
@@ -372,7 +403,12 @@ namespace Feedpipes.Syndication.Atom10
             if (string.IsNullOrEmpty(contentToFormat?.Value))
                 return false;
 
-            contentElement = new XElement(_atom + "content", contentToFormat.Value);
+            contentElement = new XElement(_atom + "content");
+
+            if (TryFormatValueByType(contentToFormat.Type, contentToFormat.Value, out var contentObject))
+            {
+                contentElement.Add(contentObject);
+            }
 
             if (TryFormatAtom10Type(contentToFormat.Type, skipTypeText: false, out var typeAttribute))
             {
@@ -383,8 +419,43 @@ namespace Feedpipes.Syndication.Atom10
             {
                 contentElement.Add(srcAttribute);
             }
+            
+            if (TryFormatAtom10OptionalTextAttribute(contentToFormat.Lang, _xml + "lang", out var langAttribute))
+            {
+                contentElement.Add(langAttribute);
+            }
+
+            if (TryFormatAtom10OptionalTextAttribute(contentToFormat.Base, _xml + "base", out var baseAttribute))
+            {
+                contentElement.Add(baseAttribute);
+            }
 
             return true;
+        }
+        
+        private static bool TryFormatValueByType(string type, string valueToFormat, out object content)
+        {
+            content = default;
+            
+            if (string.IsNullOrEmpty(valueToFormat))
+                return false;
+
+            switch (type)
+            {
+                case "xhtml":
+                    try
+                    {
+                        content = XElement.Parse(valueToFormat);
+                        return true;
+                    }
+                    catch (XmlException)
+                    {
+                        return false;
+                    }
+                default:
+                    content = valueToFormat;
+                    return true;
+            }
         }
 
         private static bool TryFormatAtom10Generator(Atom10Generator generatorToFormat, out XElement generatorElement)

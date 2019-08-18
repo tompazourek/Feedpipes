@@ -13,7 +13,9 @@ namespace Feedpipes.Syndication.Atom10.Entities
         [DebuggerBrowsable(DebuggerBrowsableState.Never)]
         internal string DebuggerDisplay => DebuggerDisplayBuilder.Create(this)
             .Append(x => x.Type)
-            .Append(x => x.Value);
+            .Append(x => x.Value)
+            .Append(x => x.Lang)
+            .Append(x => x.Base);
 
         /// <summary>
         /// Corresponds to the "type" attribute.
@@ -25,5 +27,17 @@ namespace Feedpipes.Syndication.Atom10.Entities
         /// Value of the element.
         /// </summary>
         public string Value { get; set; }
+        
+        /// <summary>
+        /// Corresponds to the "xml:lang" attribute.
+        /// xml:lang may be used to identify the language of any human readable text.
+        /// </summary>
+        public string Lang { get; set; }
+
+        /// <summary>
+        /// Corresponds to the "xml:base" attribute.
+        /// xml:base may be used to control how relative URIs are resolved.
+        /// </summary>
+        public string Base { get; set; }
     }
 }

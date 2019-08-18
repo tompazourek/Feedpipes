@@ -17,6 +17,7 @@ namespace Feedpipes.Syndication.Atom10
     public static class Atom10FeedParser
     {
         private static readonly XNamespace _xml = XNamespace.Xml;
+        private static readonly XNamespace _xhtml = Atom10Constants.XhtmlNamespace;
 
         public static bool TryParseAtom10Feed(XDocument document, out Atom10Feed parsedFeed)
         {
@@ -272,9 +273,31 @@ namespace Feedpipes.Syndication.Atom10
 
             parsedContent.Type = contentElement.Attribute("type")?.Value ?? "text";
             parsedContent.Src = contentElement.Attribute("src")?.Value;
-            parsedContent.Value = contentElement.Value.Trim();
+
+            if (!TryParseValueByType(parsedContent.Type, contentElement, out var parsedValue))
+                return false;
+
+            parsedContent.Value = parsedValue;
+            parsedContent.Lang = contentElement.Attribute(_xml + "lang")?.Value;
+            parsedContent.Base = contentElement.Attribute(_xml + "base")?.Value;
 
             return true;
+        }
+
+        private static bool TryParseValueByType(string type, XElement element, out string parsedValue)
+        {
+            switch (type)
+            {
+                case "xhtml":
+                    parsedValue = element
+                        .Element(_xhtml + "div")
+                        ?.ToString(SaveOptions.DisableFormatting | SaveOptions.OmitDuplicateNamespaces);
+
+                    return true;
+                default:
+                    parsedValue = element.Value.Trim();
+                    return true;
+            }
         }
 
         private static bool TryParseAtom10Generator(XElement generatorElement, out Atom10Generator parsedGenerator)
@@ -372,7 +395,13 @@ namespace Feedpipes.Syndication.Atom10
             parsedText = new Atom10Text();
 
             parsedText.Type = textElement.Attribute("type")?.Value ?? "text";
-            parsedText.Value = textElement.Value.Trim();
+            
+            if (!TryParseValueByType(parsedText.Type, textElement, out var parsedValue))
+                return false;
+
+            parsedText.Value = parsedValue;
+            parsedText.Lang = textElement.Attribute(_xml + "lang")?.Value;
+            parsedText.Base = textElement.Attribute(_xml + "base")?.Value;
 
             return true;
         }

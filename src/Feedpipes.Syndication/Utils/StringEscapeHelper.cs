@@ -8,8 +8,8 @@ namespace Feedpipes.Syndication.Utils
     {
         private static readonly IReadOnlyDictionary<string, string> _escapeMapping = new Dictionary<string, string>
         {
-            {"\"", @"\\\"""},
-            {"\\\\", @"\\"},
+            {"\\\\", "\\"},
+            {"\"", "\\\""},
             {"\a", @"\a"},
             {"\b", @"\b"},
             {"\f", @"\f"},
