@@ -14,7 +14,7 @@ namespace Feedpipes.Syndication.Utils.Json
             if (property == null)
                 return false;
 
-            if (property.Type != JTokenType.Object)
+            if (property.Value?.Type != JTokenType.Object)
                 return false;
 
             parsedValue = (JObject) property.Value;
@@ -87,7 +87,7 @@ namespace Feedpipes.Syndication.Utils.Json
             if (property == null)
                 return false;
 
-            if (property.Value?.Type != JTokenType.String)
+            if (property.Value?.Type != JTokenType.String && property.Value?.Type != JTokenType.Date)
                 return false;
 
             parsedValue = property.Value.Value<string>();

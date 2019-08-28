@@ -51,8 +51,8 @@ namespace Feedpipes.Syndication.Tests
             var feed = sampleFeeds
                 .First(x => x.FileName == "feeds-feedburner-com-seomoz.xml");
 
+            // ReSharper disable once UnusedVariable
             var doc = feed.XDocument;
-
             Debugger.Break();
         }
 
@@ -64,7 +64,7 @@ namespace Feedpipes.Syndication.Tests
 
             foreach (var feed in sampleFeeds)
             {
-                var documentRoot = feed.XDocument.Root;
+                var documentRoot = feed.XDocument?.Root;
 
                 if (documentRoot == null)
                     continue;
@@ -94,7 +94,9 @@ namespace Feedpipes.Syndication.Tests
         {
             var sampleFeeds = SampleFeedDirectory.GetSampleFeeds();
 
+            // ReSharper disable once UnusedVariable
             var feedsByRoot = sampleFeeds
+                .Where(x => x.XDocument != null)
                 .GroupBy(feed => feed.XDocument.Root?.Name.LocalName)
                 .ToDictionary(x => x.Key, x => x.ToList());
 
@@ -106,7 +108,9 @@ namespace Feedpipes.Syndication.Tests
         {
             var sampleFeeds = SampleFeedDirectory.GetSampleFeeds();
 
+            // ReSharper disable once UnusedVariable
             var feedsByGenerator = sampleFeeds
+                .Where(x => x.XDocument != null)
                 .Select(x =>
                 {
                     var tryParseResult = Rss20FeedParser.TryParseRss20Feed(x.XDocument, out var rss20Feed);

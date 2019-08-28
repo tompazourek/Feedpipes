@@ -1,0 +1,61 @@
+﻿ {
+    "version": "https://jsonfeed.org/version/1",
+    "title": "This is my feed title",
+    "home_page_url": "https://example.org/homepage",
+    "feed_url": "https://example.org/feed.json",
+    "description": "This is my feed description",
+    "user_comment": "This is a user comment",
+    "next_url": "https://example.org/feed.json?offset=1",
+    "icon": "https://example.org/icon.png",
+    "favicon": "https://example.org/favicon.ico",
+    "author": {
+        "name": "John Doe",
+        "url": "mailto:john.doe@example.org",
+        "avatar": "https://example.org/john-doe/avatar.png"
+    },
+    "expired": false,
+    "hubs": [
+        {
+            "type": "rssCloud",
+            "url": "https://example.org/rss-cloud-hub"
+        },
+        {
+            "type": "WebSub",
+            "url": "https://example.org/web-sub-hub"
+        }
+    ],
+    "items": [
+        {
+            "id": "1",
+            "url": "https://example.org/article",
+            "external_url": "https://example.org/article-external",
+            "title": "My awesome article",
+            "content_html": "This is a \u003cstrong\u003eHTML\u003c/strong\u003e content",
+            "content_text": "This is a text content",
+            "summary": "This is a summary of the article",
+            "image": "https://example.org/article-image.png",
+            "banner_image": "https://example.org/article-banner-image.png",
+            "date_published": "2019-01-01T05:30:00Z",
+            "date_modified": "2019-01-02T05:30:00Z",
+            "author": {
+                "name": "Jane Doe",
+                "url": "mailto:jane.doe@example.org",
+                "avatar": "https://example.org/jane-doe/avatar.png"
+            },
+            "tags": [
+                "alpha",
+                "beta",
+                "gama"
+            ],
+            "attachments": [
+                {
+                    "url": "https://example.org/video.mp4",
+                    "mime_type": "video/mp4",
+                    "title": "Video attachment",
+                    "size_in_bytes": 3000,
+                    "duration_in_seconds": 16
+                }
+            ]
+        }
+    ]
+}

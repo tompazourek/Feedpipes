@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
-namespace Feedpipes.Syndication.JsonFeed
+namespace Feedpipes.Syndication.JsonFeedFormat
 {
     /// <remarks>
     /// More info: https://jsonfeed.org/version/1

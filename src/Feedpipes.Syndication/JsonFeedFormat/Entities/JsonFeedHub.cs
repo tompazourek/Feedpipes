@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
 using Feedpipes.Syndication.Utils;
 
-namespace Feedpipes.Syndication.JsonFeed.Entities
+namespace Feedpipes.Syndication.JsonFeedFormat.Entities
 {
     /// <summary>
     /// hubs (very optional, array of objects) describes endpoints that can be used to subscribe to real-time notifications

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using Feedpipes.Syndication.Utils;
 
-namespace Feedpipes.Syndication.JsonFeed.Entities
+namespace Feedpipes.Syndication.JsonFeedFormat.Entities
 {
     /// <summary>
     /// items is an array, and is required.

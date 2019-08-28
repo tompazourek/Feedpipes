@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using Feedpipes.Syndication.Utils;
 
-namespace Feedpipes.Syndication.JsonFeed.Entities
+namespace Feedpipes.Syndication.JsonFeedFormat.Entities
 {
     /// <summary>
     /// JSON Feed
@@ -16,12 +16,6 @@ namespace Feedpipes.Syndication.JsonFeed.Entities
             .Append(x => x.HomePageUrl)
             .Append(x => x.FeedUrl)
             .Append(x => x.Items);
-
-        /// <summary>
-        /// version (required, string) is the URL of the version of the format the feed uses.
-        /// This should appear at the very top, though we recognize that not all JSON generators allow for ordering.
-        /// </summary>
-        public string Version { get; set; } = JsonFeedConstants.Version;
 
         /// <summary>
         /// title (required, string) is the name of the feed, which will often correspond
