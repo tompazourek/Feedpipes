@@ -9,7 +9,7 @@ using Feedpipes.Syndication.Extensions.Rss10Slash;
 using Feedpipes.Syndication.Extensions.Rss10Syndication;
 using Feedpipes.Syndication.Extensions.RssAtom10;
 using Feedpipes.Syndication.Extensions.WellFormedWeb;
-using Feedpipes.Syndication.Xml;
+using Feedpipes.Syndication.Utils.Xml;
 
 namespace Feedpipes.Syndication.Extensions
 {

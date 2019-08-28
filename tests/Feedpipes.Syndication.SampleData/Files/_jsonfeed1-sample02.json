@@ -1,0 +1,25 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "My Example Feed",
+    "home_page_url": "https://example.org/",
+    "feed_url": "https://example.org/feed.json",
+    "items": [
+        {
+            "id": "2",
+            "content_text": "This is a second item.",
+            "url": "https://example.org/second-item"
+        },
+        {
+            "id": "1",
+            "content_html": "<p>Hello, world!</p>",
+            "url": "https://example.org/initial-post"
+        }
+    ],
+    "_blue_shed": {
+        "about": "https://blueshed-podcasts.com/json-feed-extension-docs",
+        "explicit": false,
+        "copyright": "1948 by George Orwell",
+        "owner": "Big Brother and the Holding Company",
+        "subtitle": "All shouting, all the time. Double. Plus. Good."
+    }
+}

@@ -2,9 +2,13 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Reflection;
+using System.Text.Json;
 using System.Xml;
+using System.Xml.Linq;
 using Csv;
-using Feedpipes.Syndication.Xml;
+using Feedpipes.Syndication.Utils.Xml;
+
+#pragma warning disable 168
 
 namespace Feedpipes.Syndication.SampleData
 {
@@ -40,25 +44,59 @@ namespace Feedpipes.Syndication.SampleData
                         Source = line["Source"],
                     };
 
-                    feed.SetDocumentFactory(() =>
+                    if (feed.FileName.EndsWith(".xml"))
                     {
-                        var streamName = $"{_manifestResourceStreamPrefix}Files.{feed.FileName}.xml";
-                        using (var feedStream = _currentAssembly.GetManifestResourceStream(streamName))
+                        feed.LazyXDocument = new Lazy<XDocument>(() =>
                         {
-                            if (feedStream == null)
-                                throw new ArgumentNullException($"Couldn't find manifest resource stream '{streamName}'.");
+                            var streamName = $"{_manifestResourceStreamPrefix}Files.{feed.FileName}";
+                            using (var feedStream = _currentAssembly.GetManifestResourceStream(streamName))
+                            {
+                                if (feedStream == null)
+                                    throw new ArgumentNullException($"Couldn't find manifest resource stream '{streamName}'.");
 
-                            try
-                            {
-                                return RelaxedXDocumentLoader.LoadFromStream(feedStream);
+                                try
+                                {
+                                    return RelaxedXDocumentLoader.LoadFromStream(feedStream);
+                                }
+
+                                catch (XmlException ex)
+                                {
+                                    Debugger.Break();
+                                    throw;
+                                }
                             }
-                            catch (XmlException ex)
+                        });
+                    }
+                    else if (feed.FileName.EndsWith(".json"))
+                    {
+                        feed.LazyJsonDocument = new Lazy<JsonDocument>(() =>
+                        {
+                            var streamName = $"{_manifestResourceStreamPrefix}Files.{feed.FileName}";
+                            using (var feedStream = _currentAssembly.GetManifestResourceStream(streamName))
                             {
-                                Debugger.Break();
-                                throw;
+                                if (feedStream == null)
+                                    throw new ArgumentNullException($"Couldn't find manifest resource stream '{streamName}'.");
+
+                                try
+                                {
+                                    return JsonDocument.Parse(feedStream, new JsonDocumentOptions
+                                    {
+                                        AllowTrailingCommas = true,
+                                        CommentHandling = JsonCommentHandling.Skip,
+                                    });
+                                }
+                                catch (JsonException ex)
+                                {
+                                    Debugger.Break();
+                                    throw;
+                                }
                             }
-                        }
-                    });
+                        });
+                    }
+                    else
+                    {
+                        throw new Exception($"Cannot parse file '{feed.FileName}'.");
+                    }
 
                     yield return feed;
                 }

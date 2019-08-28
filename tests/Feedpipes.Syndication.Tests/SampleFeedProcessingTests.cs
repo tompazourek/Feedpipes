@@ -6,7 +6,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using Feedpipes.Syndication.Rss20;
 using Feedpipes.Syndication.SampleData;
-using Feedpipes.Syndication.Xml;
+using Feedpipes.Syndication.Utils.Xml;
 using Xunit;
 
 namespace Feedpipes.Syndication.Tests
@@ -19,7 +19,7 @@ namespace Feedpipes.Syndication.Tests
             var sampleFeeds = SampleFeedDirectory.GetSampleFeeds();
             foreach (var sampleFeed in sampleFeeds)
             {
-                var file = @"C:\SOLUTION_PATH\tests\Feedpipes.Syndication.SampleData\Files\" + sampleFeed.FileName + ".xml";
+                var file = @"C:\SOLUTION_PATH\tests\Feedpipes.Syndication.SampleData\Files\" + sampleFeed.FileName;
                 if (File.Exists(file))
                     continue;
 
@@ -49,9 +49,9 @@ namespace Feedpipes.Syndication.Tests
             var sampleFeeds = SampleFeedDirectory.GetSampleFeeds();
 
             var feed = sampleFeeds
-                .First(x => x.FileName == "feeds-feedburner-com-seomoz");
+                .First(x => x.FileName == "feeds-feedburner-com-seomoz.xml");
 
-            var doc = feed.Document;
+            var doc = feed.XDocument;
 
             Debugger.Break();
         }
@@ -64,7 +64,7 @@ namespace Feedpipes.Syndication.Tests
 
             foreach (var feed in sampleFeeds)
             {
-                var documentRoot = feed.Document.Root;
+                var documentRoot = feed.XDocument.Root;
 
                 if (documentRoot == null)
                     continue;
@@ -95,7 +95,7 @@ namespace Feedpipes.Syndication.Tests
             var sampleFeeds = SampleFeedDirectory.GetSampleFeeds();
 
             var feedsByRoot = sampleFeeds
-                .GroupBy(feed => feed.Document.Root?.Name.LocalName)
+                .GroupBy(feed => feed.XDocument.Root?.Name.LocalName)
                 .ToDictionary(x => x.Key, x => x.ToList());
 
             Debugger.Break(); // take a look at "feedsByRoot"
@@ -109,7 +109,7 @@ namespace Feedpipes.Syndication.Tests
             var feedsByGenerator = sampleFeeds
                 .Select(x =>
                 {
-                    var tryParseResult = Rss20FeedParser.TryParseRss20Feed(x.Document, out var rss20Feed);
+                    var tryParseResult = Rss20FeedParser.TryParseRss20Feed(x.XDocument, out var rss20Feed);
                     return (feed: x, rss20Feed: rss20Feed, tryParseResult: tryParseResult);
                 })
                 .Where(x => x.tryParseResult)

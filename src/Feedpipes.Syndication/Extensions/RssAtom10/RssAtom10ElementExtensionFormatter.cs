@@ -6,7 +6,7 @@ using System.Xml.Linq;
 using Feedpipes.Syndication.Atom10.Entities;
 using Feedpipes.Syndication.Extensions.RssAtom10.Entities;
 using Feedpipes.Syndication.Timestamps.Rfc3339;
-using Feedpipes.Syndication.Xml;
+using Feedpipes.Syndication.Utils.Xml;
 
 namespace Feedpipes.Syndication.Extensions.RssAtom10
 {

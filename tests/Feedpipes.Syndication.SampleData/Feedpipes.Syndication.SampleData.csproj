@@ -2,14 +2,17 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
+      <LangVersion>latest</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="Files\*.xml" />
+    <None Remove="Files\*.json" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="Files\*.xml" />
+    <EmbeddedResource Include="Files\*.json" />
   </ItemGroup>
 
   <ItemGroup>
@@ -22,6 +25,7 @@
 
   <ItemGroup>
     <PackageReference Include="Csv" Version="1.0.40" />
+    <PackageReference Include="System.Text.Json" Version="4.6.0-preview8.19405.3" />
   </ItemGroup>
 
   <ItemGroup>

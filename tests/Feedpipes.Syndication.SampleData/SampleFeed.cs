@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text.Json;
 using System.Xml.Linq;
 
 namespace Feedpipes.Syndication.SampleData
@@ -10,16 +11,13 @@ namespace Feedpipes.Syndication.SampleData
         public string Title { get; set; }
         public string WebUrl { get; set; }
         public string Source { get; set; }
-
-        public XDocument Document => _lazyDocument.Value;
-
-        private Lazy<XDocument> _lazyDocument;
-
-        public void SetDocumentFactory(Func<XDocument> documentFactory)
-        {
-            _lazyDocument = new Lazy<XDocument>(documentFactory);
-        }
-
+        
         public override string ToString() => FileName;
+
+        public XDocument XDocument => LazyXDocument?.Value;
+        internal Lazy<XDocument> LazyXDocument { get; set; }
+
+        public JsonDocument JsonDocument => LazyJsonDocument?.Value;
+        internal Lazy<JsonDocument> LazyJsonDocument { get; set; }
     }
 }

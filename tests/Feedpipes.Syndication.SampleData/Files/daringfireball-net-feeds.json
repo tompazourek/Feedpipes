@@ -1,0 +1,584 @@
+{
+   "version" : "https://jsonfeed.org/version/1",
+   "title" : "Daring Fireball",
+   "home_page_url" : "https://daringfireball.net/",
+   "feed_url" : "https://daringfireball.net/feeds/json",
+   "author" : {
+      "url" : "https://twitter.com/gruber",
+      "name" : "John Gruber"
+   },
+   "icon" : "https://daringfireball.net/graphics/apple-touch-icon.png",
+   "favicon" : "https://daringfireball.net/graphics/favicon-64.png",
+   "items" : [
+      {
+         "title" : "iOS 13.1 Developer Beta 1 Is Already Out",
+         "date_published" : "2019-08-27T21:53:22Z",
+         "date_modified" : "2019-08-27T22:02:28Z",
+         "id" : "https://daringfireball.net/linked/2019/08/27/ios-13-beta-1",
+         "url" : "https://daringfireball.net/linked/2019/08/27/ios-13-beta-1",
+         "external_url" : "https://www.macrumors.com/2019/08/27/everything-new-in-ios-13-1-beta-1/",
+         "author" : {
+            "name" : "John Gruber"
+         },
+         "content_html" : "\n<p>This is new — iOS 13.0 won’t be out until next month, but Apple is already seeding a developer beta for iOS 13.1. Given how buggy iOS 13 betas have been this summer, this is good news. Better to push some features back than ship them in too  buggy a state. Basically, I think we need to get used to WWDC announcements being a roadmap for the next year of OS releases, not a list of what’s going to ship in the initial dot-zero release in the fall.</p>\n\n<p>It’s a solid bet that Apple’s top priority has been getting iOS 13.0 into good enough shape for the new iPhones to be announced, reviewed, and shipped on schedule. Everything else slated for iOS 13 could be pushed to a 13.1 update in late October (when I expect the new iPads to be announced).</p>\n\n<p style=\"padding-top: 1.5em;\"><em>Link: <strong><a href=\"https://www.macrumors.com/2019/08/27/everything-new-in-ios-13-1-beta-1/\">macrumors.com/2019/08/27/everything-new-in-ios-13-1-beta-1/</a></strong></em></p>\n"
+      },
+      {
+         "title" : "‘Apple Car(d)’",
+         "date_published" : "2019-08-26T23:04:45Z",
+         "date_modified" : "2019-08-26T23:06:07Z",
+         "id" : "https://daringfireball.net/linked/2019/08/26/dediu-apple-card",
+         "url" : "https://daringfireball.net/linked/2019/08/26/dediu-apple-card",
+         "external_url" : "http://www.asymco.com/2019/08/27/apple-card/",
+         "author" : {
+            "name" : "John Gruber"
+         },
+         "content_html" : "\n<p>Horace Dediu: </p>\n\n<blockquote>\n  <p>The old cliche is that we were promised flying cars but ended up with x where x is something trivial or mundane. Perhaps the best “x” is “140 characters”. This statement is meant to de-value the technologies developed in the last few decades. Instead of building grand things, we build trivialities. The irony is that x is often wildly popular and ubiquitous. x also generates a lot of profits and is likely to change behavior. Indeed, the flying car alternatives are almost always better ideas.</p>\n</blockquote>\n\n<p style=\"padding-top: 1.5em;\"><em>Link: <strong><a href=\"http://www.asymco.com/2019/08/27/apple-card/\">asymco.com/2019/08/27/apple-card/</a></strong></em></p>\n"
+      },
+      {
+         "title" : "Woman Wins 50K Ultra Marathon Outright, Trophy Snafu for Male Winner Follows",
+         "date_published" : "2019-08-26T22:52:41Z",
+         "date_modified" : "2019-08-26T22:54:26Z",
+         "id" : "https://daringfireball.net/linked/2019/08/26/woman-wins-50k",
+         "url" : "https://daringfireball.net/linked/2019/08/26/woman-wins-50k",
+         "external_url" : "https://www.runnersworld.com/news/a28688233/ellie-pell-wins-green-lakes-endurance-run-50k/",
+         "author" : {
+            "name" : "John Gruber"
+         },
+         "content_html" : "\n<p>Runner’s World:</p>\n\n<blockquote>\n  <p>When Ellie Pell took first overall, the surprised race organizers realized they had no trophy for the first place male.</p>\n</blockquote>\n\n<p>What a great story.</p>\n\n<p style=\"padding-top: 1.5em;\"><em>Link: <strong><a href=\"https://www.runnersworld.com/news/a28688233/ellie-pell-wins-green-lakes-endurance-run-50k/\">runnersworld.com/news/a28688233/ellie-pell-wins-green-lakes…</a></strong></em></p>\n"
+      },
+      {
+         "title" : "Location Tracking Running Amok",
+         "date_published" : "2019-08-26T22:47:51Z",
+         "date_modified" : "2019-08-26T22:52:02Z",
+         "id" : "https://daringfireball.net/linked/2019/08/26/location-tracking-running-amok",
+         "url" : "https://daringfireball.net/linked/2019/08/26/location-tracking-running-amok",
+         "external_url" : "https://www.dallasnews.com/business/restaurants/2019/08/23/chick-fil-customers-go-sundays-d-fw-company-answer-not-popeyes",
+         "author" : {
+            "name" : "John Gruber"
+         },
+         "content_html" : "\n<p>Dom DiFurio, writing for The Dallas Morning News:</p>\n\n<blockquote>\n  <p>Analysis from Fort Worth-based Buxton Live Mobile Insights sheds light on where Chick-Fil-A customers go on Sunday when the restaurant is closed. The company tracked location data from the mobile devices of customers on Chick-fil-A properties Monday through Saturday, and then studied where those same customers ate on Sundays.</p>\n\n<p>Buxton told The Dallas Morning News it “purchases and analyzes consumer location data from multiple data aggregators where the data is collected from mobile devices which have pre-opted in to location services tracking.”</p>\n</blockquote>\n\n<p>The story is ostensibly about fried chicken, but the fact that a marketing firm is tracking people like this is so fucked up. Whatever these people opted into, I’ll bet most of them have no idea how closely they’re being tracked. This is dystopian.</p>\n\n<p style=\"padding-top: 1.5em;\"><em>Link: <strong><a href=\"https://www.dallasnews.com/business/restaurants/2019/08/23/chick-fil-customers-go-sundays-d-fw-company-answer-not-popeyes\">dallasnews.com/business/restaurants/2019/08/23/chick-fil…</a></strong></em></p>\n"
+      },
+      {
+         "title" : "[Sponsor] Atoms — Ideal Everyday Shoes",
+         "date_published" : "2019-08-26T20:37:29-04:00",
+         "date_modified" : "2019-08-26T20:47:46-04:00",
+         "id" : "https://daringfireball.net/feeds/sponsors/2019/08/atoms_ideal_everyday_shoes_3",
+         "url" : "https://daringfireball.net/feeds/sponsors/2019/08/atoms_ideal_everyday_shoes_3",
+         "external_url" : "https://atoms.com/df",
+         "author" : {
+            "name" : "Daring Fireball Department of Commerce"
+         },
+         "content_html" : "\n<p>Chances are your shoes don’t fit right. Most people’s feet are in between a whole and a half size. To solve that problem, Atoms are the world’s first shoes to come in quarter sizes. Atoms even lets you choose a different size for your left and right foot so you can find the perfect fit. With proprietary foam cushioning and stretch laces, the result is a whole new level of comfort. Experience it for yourself. <a href=\"http://atoms.com/df\">Shop Now</a>.</p>\n\n<p style=\"padding-top: 1.5em;\"><em>Link: <strong><a href=\"https://atoms.com/df\">atoms.com/df</a></strong></em></p>\n"
+      },
+      {
+         "title" : "Facebook’s ‘Clear History’ Tool Is, of Course, Bullshit",
+         "date_published" : "2019-08-26T16:32:19Z",
+         "date_modified" : "2019-08-26T16:32:21Z",
+         "id" : "https://daringfireball.net/linked/2019/08/26/facebook-clear-history",
+         "url" : "https://daringfireball.net/linked/2019/08/26/facebook-clear-history",
+         "external_url" : "https://www.washingtonpost.com/technology/2019/08/20/facebook-unveils-long-promised-tool-remove-data-it-receives-third-party-apps-websites/",
+         "author" : {
+            "name" : "John Gruber"
+         },
+         "content_html" : "\n<p>Tony Romm, reporting for The Washington Post:</p>\n\n<blockquote>\n  <p>The feature comes more than a year after Facebook chief executive\nMark Zuckerberg first pledged to build a <a href=\"https://www.washingtonpost.com/technology/2019/04/30/facebook-is-getting-facelift-mark-zuckerberg-is-still-debating-rest/\">function called “Clear\nHistory”</a> that he said would work much the same way a browser\nallows people to see and delete information about the sites they\nvisited. The goal had been to empower users to “flush your\nhistory whenever you want,” he <a href=\"https://www.facebook.com/zuck/posts/10104899855107881\">said in May 2018</a>, admitting\nthe company hadn’t been clear about all the ways it learns about\nits users.</p>\n\n<p>But the implementation of those controls doesn’t exactly flush\ndata, as Zuckerberg had promised. Instead, it disconnects\ninformation from being identified to a specific user, and it isn’t\ndeleted outright.</p>\n</blockquote>\n\n<p>Absolutely shocking. Get me to the fainting couch.</p>\n\n<blockquote>\n  <p>Facebook officials <a href=\"https://newsroom.fb.com/news/2018/05/clear-history-2/\">previously said users could</a> “delete this\ninformation from your account,” a pledge that might have led users\nto believe Facebook would remove it entirely.</p>\n</blockquote>\n\n<p>Who would have thought “delete” meant “delete”?</p>\n\n<p style=\"padding-top: 1.5em;\"><em>Link: <strong><a href=\"https://www.washingtonpost.com/technology/2019/08/20/facebook-unveils-long-promised-tool-remove-data-it-receives-third-party-apps-websites/\">washingtonpost.com/technology/2019/08/20/facebook-unveils…</a></strong></em></p>\n"
+      },
+      {
+         "title" : "Morning Brew",
+         "date_published" : "2019-08-25T21:11:07Z",
+         "date_modified" : "2019-08-25T21:11:08Z",
+         "id" : "https://daringfireball.net/linked/2019/08/25/morning-brew",
+         "url" : "https://daringfireball.net/linked/2019/08/25/morning-brew",
+         "external_url" : "https://www.morningbrew.com/?utm_source=daring&utm_medium=rss&utm_campaign=feed",
+         "author" : {
+            "name" : "John Gruber"
+         },
+         "content_html" : "\n<p>My thanks to Morning Brew for once again sponsoring last week at DF. There’s a reason over 1 million people start their day with Morning Brew — the daily email that delivers the latest news from Wall Street to Silicon Valley. I subscribed months ago when they first sponsored DF, and I’ve stayed subscribed. Not because they’re a sponsor but because I genuinely enjoy their daily briefing.</p>\n\n<p>Business news doesn’t have to be dry and dense. Make your mornings more enjoyable, for free. <a href=\"https://www.morningbrew.com/?utm_source=daring&amp;utm_medium=rss&amp;utm_campaign=feed\">Check it out</a>.</p>\n\n<p style=\"padding-top: 1.5em;\"><em>Link: <strong><a href=\"https://www.morningbrew.com/?utm_source=daring&utm_medium=rss&utm_campaign=feed\">morningbrew.com/?utm_source=daring&utm_medium=rss&utm…</a></strong></em></p>\n"
+      },
+      {
+         "title" : "Deconstructing Google’s Excuses on Tracking Protection",
+         "date_published" : "2019-08-23T18:56:18Z",
+         "date_modified" : "2019-08-23T19:04:26Z",
+         "id" : "https://daringfireball.net/linked/2019/08/23/google-privacy-excuses",
+         "url" : "https://daringfireball.net/linked/2019/08/23/google-privacy-excuses",
+         "external_url" : "https://freedom-to-tinker.com/2019/08/23/deconstructing-googles-excuses-on-tracking-protection/",
+         "author" : {
+            "name" : "John Gruber"
+         },
+         "content_html" : "\n<p>Jonathan Mayer and Arvind Narayanan, writing at Freedom to Tinker:</p>\n\n<blockquote>\n  <p>Blocking cookies is <em>bad</em> for privacy. That’s the new disingenuous <a href=\"https://www.blog.google/products/chrome/building-a-more-private-web/\">argument</a> from Google, trying to justify why Chrome is so far behind Safari and Firefox in offering privacy protections. As researchers who have spent over a decade studying web tracking and online advertising, we want to set the record straight. […]</p>\n\n<p>Google is trying to thread a needle here, implying that some level of tracking is consistent with both the original design intent for web technology and user privacy expectations. Neither is true.</p>\n\n<p>If the benchmark is original design intent, let’s be clear: cookies were not supposed to enable third-party tracking, and browsers were supposed to block third-party cookies. We know this because the authors of the original cookie technical specification said so (<a href=\"https://tools.ietf.org/html/rfc2109\">RFC 2109</a>, Section 4.3.5). </p>\n\n<p>Similarly, if the benchmark is user privacy expectations, let’s be clear: <a href=\"https://repository.upenn.edu/cgi/viewcontent.cgi?article=1138&amp;context=asc_papers\">study</a> <a href=\"https://www.cylab.cmu.edu/_files/pdfs/tech_reports/CMUCyLab12007.pdf\">after</a> <a href=\"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2152135\">study</a> has demonstrated that users don’t understand and don’t want the pervasive web tracking that occurs today.</p>\n</blockquote>\n\n<p>A bad look for Google.</p>\n\n<p style=\"padding-top: 1.5em;\"><em>Link: <strong><a href=\"https://freedom-to-tinker.com/2019/08/23/deconstructing-googles-excuses-on-tracking-protection/\">freedom-to-tinker.com/2019/08/23/deconstructing-googles…</a></strong></em></p>\n"
+      },
+      {
+         "title" : "News Corp Readies News App to Address Publishers’ Concerns About Google and Facebook",
+         "date_published" : "2019-08-23T02:22:12Z",
+         "date_modified" : "2019-08-23T02:25:08Z",
+         "id" : "https://daringfireball.net/linked/2019/08/22/no-knews-is-good-knews",
+         "url" : "https://daringfireball.net/linked/2019/08/22/no-knews-is-good-knews",
+         "external_url" : "https://www.wsj.com/articles/news-corp-readies-news-app-to-address-publishers-concerns-about-google-and-facebook-11566497094",
+         "author" : {
+            "name" : "John Gruber"
+         },
+         "content_html" : "\n<p>Jeffrey A. Trachtenberg and Lillian Rizzo, reporting for The Wall Street Journal:</p>\n\n<blockquote>\n  <p>News Corp is developing a news-aggregation service meant to address concerns that Alphabet Inc.’s Google News and other digital platforms don’t reward publishers’ work adequately and play down articles from certain types of sites, according to people familiar with the plans.</p>\n\n<p>The service, currently called Knewz.com, is expected to be a website and a mobile app.</p>\n</blockquote>\n\n<p>No gnews is good gnews with Gary Gnu.</p>\n\n<p style=\"padding-top: 1.5em;\"><em>Link: <strong><a href=\"https://www.wsj.com/articles/news-corp-readies-news-app-to-address-publishers-concerns-about-google-and-facebook-11566497094\">wsj.com/articles/news-corp-readies-news-app-to-address…</a></strong></em></p>\n"
+      },
+      {
+         "title" : "EFF: ‘Apple’s New WebKit Policy Takes a Hard Line for User Privacy’",
+         "date_published" : "2019-08-22T23:49:25Z",
+         "date_modified" : "2019-08-22T23:51:35Z",
+         "id" : "https://daringfireball.net/linked/2019/08/22/eff-webkit-tracking-policy",
+         "url" : "https://daringfireball.net/linked/2019/08/22/eff-webkit-tracking-policy",
+         "external_url" : "https://www.eff.org/deeplinks/2019/08/apples-new-webkit-policy-takes-hard-line-user-privacy",
+         "author" : {
+            "name" : "John Gruber"
+         },
+         "content_html" : "\n<p>Bill Budington, writing for the EFF:</p>\n\n<blockquote>\n  <p>The policy ends with the clause</p>\n\n<blockquote>\n  <p>We want to see a healthy web ecosystem, with privacy by design.</p>\n</blockquote>\n\n<p>We couldn’t agree more. We sincerely hope more browsers, such as Google’s Chrome, adopt the tenet of “privacy by design” as well.</p>\n</blockquote>\n\n<p style=\"padding-top: 1.5em;\"><em>Link: <strong><a href=\"https://www.eff.org/deeplinks/2019/08/apples-new-webkit-policy-takes-hard-line-user-privacy\">eff.org/deeplinks/2019/08/apples-new-webkit-policy-takes…</a></strong></em></p>\n"
+      },
+      {
+         "title" : "MLB Warns Sexual Enhancers May Include PEDs",
+         "date_published" : "2019-08-22T18:10:04Z",
+         "date_modified" : "2019-08-22T18:10:06Z",
+         "id" : "https://daringfireball.net/linked/2019/08/22/gas-station-boner-pills",
+         "url" : "https://daringfireball.net/linked/2019/08/22/gas-station-boner-pills",
+         "external_url" : "https://www.espn.com/mlb/story/_/id/27433531/mlb-warns-sexual-enhancers-include-peds",
+         "author" : {
+            "name" : "John Gruber"
+         },
+         "content_html" : "\n<p>Jeff Passan, reporting for MLB:</p>\n\n<blockquote>\n  <p>Major League Baseball in a memo warned about the “very real\nrisk” of over-the-counter sexual-enhancement pills after at\nleast two players this year were suspended for\nperformance-enhancing drugs and said the banned substances found\nin their urine came from the unregulated products, sources\nfamiliar with the situation told ESPN.</p>\n\n<p>The use of over-the-counter pills, which are often sold at gas\nstations, is prevalent among baseball players, according to\nmultiple sources. It prompted the league to send out a memo on\nMonday that outlines the risk of consuming non-NSF-certified\nsupplements.</p>\n</blockquote>\n\n<p><a href=\"https://twitter.com/RealMichaelKay/status/1164240816522444800\">Michael Kay</a>:</p>\n\n<blockquote>\n  <p>You can’t make it up. Millions of dollars at risk and you pop a\ncouple of pills you buy at a gas station. Mind boggling.</p>\n</blockquote>\n\n<p>“Gas Station Boner Pills” would be a good name for a band.</p>\n\n<p style=\"padding-top: 1.5em;\"><em>Link: <strong><a href=\"https://www.espn.com/mlb/story/_/id/27433531/mlb-warns-sexual-enhancers-include-peds\">espn.com/mlb/story/_/id/27433531/mlb-warns-sexual-enhancers…</a></strong></em></p>\n"
+      },
+      {
+         "title" : "Apple Support: ‘How to Clean Your Apple Card’",
+         "date_published" : "2019-08-22T16:23:41Z",
+         "date_modified" : "2019-08-22T16:26:37Z",
+         "id" : "https://daringfireball.net/linked/2019/08/22/watch-the-leather",
+         "url" : "https://daringfireball.net/linked/2019/08/22/watch-the-leather",
+         "external_url" : "https://support.apple.com/en-us/HT210399",
+         "author" : {
+            "name" : "John Gruber"
+         },
+         "content_html" : "\n<p>Apple Support:</p>\n\n<blockquote>\n  <p>Some fabrics, like leather and denim, might cause permanent\ndiscoloration that will not wash off. […]</p>\n\n<p>Place your card in a slot in your wallet or billfold without\ntouching another credit card. If two credit cards are placed in\nthe same slot your card could become scratched.</p>\n</blockquote>\n\n<p>My first instinct was to make fun of this: <em>This is no big deal, because it’s not like anyone uses a leather wallet or wears denim jeans.</em> I mean, who cleans a credit card? But after thinking about it, I feel like this really is no big deal because all of the credit cards I’ve ever owned get used-looking over time. If Apple Card gets genuinely sloppy-looking after carrying it like you would any other card — if it’s atypically prone to staining or scratching — that’s a problem. But I suspect these are instructions for obsessives who want to keep their cards in mint condition.</p>\n\n<p style=\"padding-top: 1.5em;\"><em>Link: <strong><a href=\"https://support.apple.com/en-us/HT210399\">support.apple.com/en-us/HT210399</a></strong></em></p>\n"
+      },
+      {
+         "title" : "Steven Sinofsky on Steve Jobs’s ‘Bicycle for the Mind’ Metaphor for Personal Computers",
+         "date_published" : "2019-08-21T23:05:58Z",
+         "date_modified" : "2019-08-21T23:13:27Z",
+         "id" : "https://daringfireball.net/linked/2019/08/21/sinofsky-bicycle-for-the-mind",
+         "url" : "https://daringfireball.net/linked/2019/08/21/sinofsky-bicycle-for-the-mind",
+         "external_url" : "https://medium.learningbyshipping.com/bicycle-121262546097",
+         "author" : {
+            "name" : "John Gruber"
+         },
+         "content_html" : "\n<p>It’s a Twitter thread collected in a Medium post, so the narrative doesn’t read perfectly straight through, but it’s worth your time. Jobs’s 1981 appearance on Nightline is worth it alone. I hadn’t seen this before, and both Jobs (on the potential of personal computers, and their inevitable ubiquity — at a time when only 1 in 1,000 U.S. households owned one) and his counterpart David Burnham (who, even then, was deeply concerned about the privacy implications of computing) are remarkably prescient.</p>\n\n<p style=\"padding-top: 1.5em;\"><em>Link: <strong><a href=\"https://medium.learningbyshipping.com/bicycle-121262546097\">medium.learningbyshipping.com/bicycle-121262546097</a></strong></em></p>\n"
+      },
+      {
+         "title" : "WebKit Tracking Prevention Policy",
+         "date_published" : "2019-08-21T21:35:38Z",
+         "date_modified" : "2019-08-21T21:40:18Z",
+         "id" : "https://daringfireball.net/linked/2019/08/21/webkit-tracking-prevention-policy",
+         "url" : "https://daringfireball.net/linked/2019/08/21/webkit-tracking-prevention-policy",
+         "external_url" : "https://webkit.org/tracking-prevention-policy/",
+         "author" : {
+            "name" : "John Gruber"
+         },
+         "content_html" : "\n<p><em>Major</em> new policy from WebKit, with inspiration credit given <a href=\"https://wiki.mozilla.org/Security/Anti_tracking_policy\">to Mozilla</a>:</p>\n\n<blockquote>\n  <p>We treat circumvention of shipping anti-tracking measures with the\nsame seriousness as exploitation of security vulnerabilities.</p>\n\n<p>If a party attempts to circumvent our tracking prevention methods,\nwe may add additional restrictions without prior notice. These\nrestrictions may apply universally; to algorithmically classified\ntargets; or to specific parties engaging in circumvention.</p>\n\n<p><strong>No Exceptions</strong></p>\n\n<p>We do not grant exceptions to our tracking prevention technologies\nto specific parties. Some parties might have valid uses for\ntechniques that are also used for tracking. But WebKit often has\nno technical means to distinguish valid uses from tracking, and\ndoesn’t know what the parties involved will do with the collected\ndata, either now or in the future.</p>\n\n<p><strong>Unintended Impact</strong></p>\n\n<p>There are practices on the web that we do not intend to disrupt,\nbut which may be inadvertently affected because they rely on\ntechniques that can also be used for tracking. We consider this to\nbe unintended impact.</p>\n</blockquote>\n\n<p>Equating tracking with malware and security exploits is a major policy change, and absolutely correct. Notably, they are not respecting commercial interests <em>at all</em>. The user’s privacy comes first, and if there is commercial collateral damage from that, fuck it:</p>\n\n<blockquote>\n  <p>WebKit will do its best to <em>prevent</em> all covert tracking, and all\ncross-site tracking (even when it’s not covert). These goals apply\nto all types of tracking listed above, as well as tracking\ntechniques currently unknown to us.</p>\n\n<p>If a particular tracking technique cannot be completely prevented\nwithout undue user harm, WebKit will <em>limit the capability</em> of\nusing the technique. For example, limiting the time window for\ntracking or reducing the available bits of entropy — unique data\npoints that may be used to identify a user or a user’s behavior.</p>\n</blockquote>\n\n<p>Hopefully, this will help close <a href=\"https://daringfireball.net/2019/07/superhuman_and_email_privacy\">the email tracking-pixel loophole as well</a>.</p>\n\n<p>The ball is now in Chrome’s court to follow suit. I think Google could aggressively close these same privacy-invasive loopholes without losing their ability to serve targeted ads — they’d simply be limited to serving targeted ads to users who sign into Chrome with their Google accounts.</p>\n\n<p style=\"padding-top: 1.5em;\"><em>Link: <strong><a href=\"https://webkit.org/tracking-prevention-policy/\">webkit.org/tracking-prevention-policy/</a></strong></em></p>\n"
+      },
+      {
+         "title" : "Google DeepMind Co-Founder Mustafa Suleyman Placed on Leave",
+         "date_published" : "2019-08-21T20:33:59Z",
+         "date_modified" : "2019-08-21T20:34:01Z",
+         "id" : "https://daringfireball.net/linked/2019/08/21/suleyman-uh-oh",
+         "url" : "https://daringfireball.net/linked/2019/08/21/suleyman-uh-oh",
+         "external_url" : "https://www.bloomberg.com/news/articles/2019-08-21/google-deepmind-co-founder-placed-on-leave-from-ai-lab",
+         "author" : {
+            "name" : "John Gruber"
+         },
+         "content_html" : "\n<p>Giles Turner and Mark Bergen, reporting for Bloomberg<sup>*</sup>:</p>\n\n<blockquote>\n  <p>The co-founder of DeepMind, the high-profile artificial\nintelligence lab owned by Google, has been placed on leave after\ncontroversy over some of the projects he led.</p>\n\n<p>Mustafa Suleyman runs DeepMind’s “applied” division, which seeks\npractical uses for the lab’s research in health, energy and other\nfields. Suleyman is also a key public face for DeepMind, speaking\nto officials and at events about the promise of AI and the ethical\nguardrails needed to limit malicious use of the technology.</p>\n\n<p>“Mustafa is taking time out right now after 10 hectic years,” a\nDeepMind spokeswoman said. She didn’t say why he was put on leave.</p>\n</blockquote>\n\n<p>Probably not a good sign.</p>\n\n<p><small>* Bloomberg, of course, is the publication that published “<a href=\"https://daringfireball.net/2018/10/bloomberg_the_big_hack\">The Big Hack</a>” last October — a sensational story alleging that data centers of Apple, Amazon, and dozens of other companies were compromised by China’s intelligence services. The story presented no confirmable evidence at all, was <a href=\"https://www.apple.com/newsroom/2018/10/what-businessweek-got-wrong-about-apple/\">vehemently denied</a> by <a href=\"https://aws.amazon.com/blogs/security/setting-the-record-straight-on-bloomberg-businessweeks-erroneous-article/\">all companies</a> involved, <a href=\"https://www.washingtonpost.com/blogs/erik-wemple/wp/2018/10/22/your-move-bloomberg/?utm_term=.30e1ef835198\">has not been confirmed by a single other publication</a> (despite much effort to do so), and has been <a href=\"https://daringfireball.net/linked/2018/10/09/big-hack-doubts\">largely discredited by one of Bloomberg’s own sources</a>. By all appearances “The Big Hack” was complete bullshit. Yet Bloomberg has issued no correction or retraction, and seemingly hopes we’ll all just forget about it. I say we do not just forget about it. Bloomberg’s institutional credibility is severely damaged, and everything they publish should be treated with skepticism until they retract the story or provide evidence that it was true.</small></p>\n\n<p style=\"padding-top: 1.5em;\"><em>Link: <strong><a href=\"https://www.bloomberg.com/news/articles/2019-08-21/google-deepmind-co-founder-placed-on-leave-from-ai-lab\">bloomberg.com/news/articles/2019-08-21/google-deepmind-co…</a></strong></em></p>\n"
+      },
+      {
+         "title" : "‘No Time to Die’",
+         "date_published" : "2019-08-20T21:25:03Z",
+         "date_modified" : "2019-08-20T21:37:09Z",
+         "id" : "https://daringfireball.net/linked/2019/08/20/no-time-to-die",
+         "url" : "https://daringfireball.net/linked/2019/08/20/no-time-to-die",
+         "external_url" : "https://twitter.com/007/status/1163843400644403200",
+         "author" : {
+            "name" : "John Gruber"
+         },
+         "content_html" : "\n<p>Good title, I say, and the brief black-and-white teaser hearkens back to the opening of <em>Casino Royale</em>, before Bond earned 00 status. The most exciting thing about the movie remains the fact that it’s directed by Cary Joji Fukunaga — so much potential with his talent.</p>\n\n<p>As the years pass, Sam Mendes’s <em>Skyfall</em> and (especially) <em>Spectre</em> age worse and worse. Neither film’s story makes a lick of sense. My feeling remains that Daniel Craig has had a very good run as Bond, but that’s held up almost entirely by how spectacularly good <em>Casino Royale</em> was.</p>\n\n<p><a href=\"https://www.bbc.com/news/entertainment-arts-49410251\">Interesting tidbit from the BBC</a>:</p>\n\n<blockquote>\n  <p>007 fans may be aware that famed Bond producer Cubby Broccoli was also behind a 1958 prisoner of war film called No Time To Die (which was also known as Tank Force). That film was directed by Terence Young, who also worked on the Bond movies <em>Dr No</em>, <em>From Russia With Love</em>, and <em>Thunderball</em>.</p>\n</blockquote>\n\n<p style=\"padding-top: 1.5em;\"><em>Link: <strong><a href=\"https://twitter.com/007/status/1163843400644403200\">twitter.com/007/status/1163843400644403200</a></strong></em></p>\n"
+      },
+      {
+         "title" : "If You Get an Apple Card, Opt Out of Arbitration",
+         "date_published" : "2019-08-20T19:51:14Z",
+         "date_modified" : "2019-08-20T19:51:15Z",
+         "id" : "https://daringfireball.net/linked/2019/08/20/apple-card-arbitration-opt-out",
+         "url" : "https://daringfireball.net/linked/2019/08/20/apple-card-arbitration-opt-out",
+         "external_url" : "https://twitter.com/Moltz/status/1163875682885050369",
+         "author" : {
+            "name" : "John Gruber"
+         },
+         "content_html" : "\n<p>John Moltz:</p>\n\n<blockquote>\n  <p>If you get an Apple Card today, remember to reject arbitration!\nIt’s crazy easy. Go to the card in Wallet, tap the ellipsis and\nthen Message. Then just text that you want to reject arbitration\nand they’ll connect you with the poor sap at Goldman Sachs who’s\ndoing all these.</p>\n</blockquote>\n\n<p><strong>See also:</strong> Barbara Krasnoff at The Verge: “<a href=\"https://www.theverge.com/2019/8/20/20813800/apple-card-pay-arbitration-clause-goldman-sachs-credit-how-to-opt-out\">You Should Opt Out of the Apple Card’s Arbitration Clause — Here’s How</a>”.</p>\n\n<p style=\"padding-top: 1.5em;\"><em>Link: <strong><a href=\"https://twitter.com/Moltz/status/1163875682885050369\">twitter.com/Moltz/status/1163875682885050369</a></strong></em></p>\n"
+      },
+      {
+         "title" : "Apple Card Account Information Is Only Accessible Via iOS Wallet App",
+         "date_published" : "2019-08-20T17:10:57Z",
+         "date_modified" : "2019-08-20T19:48:12Z",
+         "id" : "https://daringfireball.net/linked/2019/08/20/apple-card-ios-only",
+         "url" : "https://daringfireball.net/linked/2019/08/20/apple-card-ios-only",
+         "external_url" : "https://www.buzzfeednews.com/amphtml/nicolenguyen/apple-card-with-lost-misplaced-or-stolen-iphone",
+         "author" : {
+            "name" : "John Gruber"
+         },
+         "content_html" : "\n<p>Nicole Nguyen, writing for Buzzfeed News:</p>\n\n<blockquote>\n  <p>Apple Card is a new cash-rewards credit card that — Apple\npurports — is designed to be simple and transparent. But it’s\nalso aimed at keeping you locked into your iPhone.</p>\n\n<p>There are no paper statements with the digital-first Apple Card.\nUnlike a traditional credit card, everything is accessed through\nthe Wallet app on the iPhone, including transaction histories,\ntotal balances, previous statements, and payments. There’s no\nwebsite to view the latest transactions made on the card or make a\npayment if you lose access to that Wallet app.</p>\n</blockquote>\n\n<p>I don’t think the reason for this is to keep you locked to your iPhone, although that’s certainly a side effect. I think this simply reflects Apple’s internal culture. Apple’s culture is to make native apps for everything as a first priority, with web interfaces as a much lower priority. And in recent years, that’s shifted from native apps for iOS and Mac to just native apps for iOS. (E.g. the craptacular Catalyst apps for Stocks, News, Voice Memos, and most <a href=\"https://twitter.com/gruber/status/1163601954360242178\">especially</a> <a href=\"https://twitter.com/gruber/status/1163691403186249728\">Home</a>.) It feels ridiculous that you can’t access your Apple Card account from a Mac, whether from a native Mac app or from a website.</p>\n\n<p>In some ways making the iOS Wallet app the primary interface to your Apple Card probably makes for a great experience. (I haven’t signed up for one — yet? — so I can’t say firsthand.) But not having access from a desktop computer is severely limiting in ways. Nguyen focuses on the scenario of what happens if you only have access to one iOS device and lose it (or it breaks). That’s a legitimate scenario. But what about being able to, say, export your monthly and annual statements? Or being able to search?</p>\n\n<p>My hope is that Apple Card is only accessible via the iOS Wallet app <em>for now</em>, and that <a href=\"https://wallet.apple.com/\">wallet.apple.com</a> will eventually be a full-featured interface to your card account.</p>\n\n<p style=\"padding-top: 1.5em;\"><em>Link: <strong><a href=\"https://www.buzzfeednews.com/amphtml/nicolenguyen/apple-card-with-lost-misplaced-or-stolen-iphone\">buzzfeednews.com/amphtml/nicolenguyen/apple-card-with-lost…</a></strong></em></p>\n"
+      },
+      {
+         "title" : "Automattic CEO Matt Mullenweg on What’s Next for Tumblr",
+         "date_published" : "2019-08-20T15:44:48Z",
+         "date_modified" : "2019-08-20T16:15:58Z",
+         "id" : "https://daringfireball.net/linked/2019/08/20/mullenweg-tumblr-interview",
+         "url" : "https://daringfireball.net/linked/2019/08/20/mullenweg-tumblr-interview",
+         "external_url" : "https://www.theverge.com/2019/8/14/20804894/tumblr-acquisition-matt-mullenweg-ceo-automattic-wordpress-verizon-changes-vergecast",
+         "author" : {
+            "name" : "John Gruber"
+         },
+         "content_html" : "\n<p>Great interview by Nilay Patel and Julia Alexander from The Verge with Matt Mullenweg, on Automattic’s acquisition of Tumblr from Verizon.</p>\n\n<p>A lot of people are making hay over the price — <a href=\"https://www.reuters.com/article/us-tumblr-yahoo-idUSBRE94I0C120130520\">Yahoo paid $1.1 billion for Tumblr</a> six years ago, and Verizon apparently sold it to Automattic (best known as the parent company of WordPress) <a href=\"https://mobile.twitter.com/danprimack/status/1161038705295089664\">for just $3 <em>million</em></a>. But it seems clear that Verizon wasn’t looking for the best price — they were looking for the best <em>home</em>. Might be hard to believe because we’re talking about Verizon here, but there’s no other explanation than that they wanted to do what was best for Tumblr — both its employees and its users. Admirable.</p>\n\n<p>Mullenweg’s remarks on the influence of app stores — and I think it’s pretty clear he was largely talking about Apple’s, and that he talked about them in the general lowercase sense so as not to come across as impolitic — was rather eye-opening. Automattic pretty much embodies the ideal of a for-profit company that fully embraces the open web. Their core product, WordPress, is and always has been fully open source. But apps are so important today — and so important for Tumblr users, apparently — that app store policies have significant influence on Automattic’s decisions on content policies.</p>\n\n<p style=\"padding-top: 1.5em;\"><em>Link: <strong><a href=\"https://www.theverge.com/2019/8/14/20804894/tumblr-acquisition-matt-mullenweg-ceo-automattic-wordpress-verizon-changes-vergecast\">theverge.com/2019/8/14/20804894/tumblr-acquisition-matt…</a></strong></em></p>\n"
+      },
+      {
+         "title" : "Counterfeit George Orwell Books on Amazon",
+         "date_published" : "2019-08-20T00:22:38Z",
+         "date_modified" : "2019-08-20T00:22:40Z",
+         "id" : "https://daringfireball.net/linked/2019/08/19/counterfeit-orwell",
+         "url" : "https://daringfireball.net/linked/2019/08/19/counterfeit-orwell",
+         "external_url" : "https://www.nytimes.com/2019/08/19/technology/amazon-orwell-1984.html",
+         "author" : {
+            "name" : "John Gruber"
+         },
+         "content_html" : "\n<p>David Streitfeld, writing for The New York Times:</p>\n\n<blockquote>\n  <p>In George Orwell’s “1984,” the classics of literature are\nrewritten into Newspeak, a revision and reduction of the\nlanguage meant to make bad thoughts literally unthinkable.\n“It’s a beautiful thing, the destruction of words,” one true\nbeliever exults.</p>\n\n<p>Now some of the writer’s own words are getting reworked in\nAmazon’s vast virtual bookstore, a place where copyright laws hold\nremarkably little sway. Orwell’s reputation may be secure, but his\nsentences are not.</p>\n\n<p>Over the last few weeks I got a close-up view of this process when\nI bought a dozen fake and illegitimate Orwell books from Amazon.\nSome of them were printed in India, where the writer is in the\npublic domain, and sold to me in the United States, where he is\nunder copyright.</p>\n</blockquote>\n\n<p>Amazon’s credibility problem with counterfeit products is as bad as ever, but it’s particularly rich when it comes to bastardized versions of Orwell’s oeuvre.</p>\n\n<p style=\"padding-top: 1.5em;\"><em>Link: <strong><a href=\"https://www.nytimes.com/2019/08/19/technology/amazon-orwell-1984.html\">nytimes.com/2019/08/19/technology/amazon-orwell-1984.html</a></strong></em></p>\n"
+      },
+      {
+         "title" : "[Sponsor] Morning Brew",
+         "date_published" : "2019-08-19T20:13:40-04:00",
+         "date_modified" : "2019-08-19T20:13:42-04:00",
+         "id" : "https://daringfireball.net/feeds/sponsors/2019/08/morning_brew_2",
+         "url" : "https://daringfireball.net/feeds/sponsors/2019/08/morning_brew_2",
+         "external_url" : "https://www.morningbrew.com/?utm_source=daring&utm_medium=rss&utm_campaign=feed",
+         "author" : {
+            "name" : "Daring Fireball Department of Commerce"
+         },
+         "content_html" : "\n<p>There’s a reason over 1 million people start their day with Morning Brew — the daily email that delivers the latest news from Wall Street to Silicon Valley. Business news doesn’t have to be dry and dense… make your mornings more enjoyable, for free. <a href=\"https://www.morningbrew.com/?utm_source=daring&amp;utm_medium=rss&amp;utm_campaign=feed\">Check it out</a>.</p>\n\n<p style=\"padding-top: 1.5em;\"><em>Link: <strong><a href=\"https://www.morningbrew.com/?utm_source=daring&utm_medium=rss&utm_campaign=feed\">morningbrew.com/?utm_source=daring&utm_medium=rss&utm…</a></strong></em></p>\n"
+      },
+      {
+         "title" : "Rambo: Apple Arcade to Cost $5/Month",
+         "date_published" : "2019-08-19T17:42:10Z",
+         "date_modified" : "2019-08-19T18:13:18Z",
+         "id" : "https://daringfireball.net/linked/2019/08/19/rambo-arcade",
+         "url" : "https://daringfireball.net/linked/2019/08/19/rambo-arcade",
+         "external_url" : "https://9to5mac.com/2019/08/19/apple-arcade-subscription-price/",
+         "author" : {
+            "name" : "John Gruber"
+         },
+         "content_html" : "\n<p>Guilherme Rambo, writing at 9to5Mac:</p>\n\n<blockquote>\n  <p>Today, I was able to get information about the price of an Apple Arcade subscription to customers. This information is available in one of the APIs used by the App Store app. According to a promotional message found in the service, the price for Apple Arcade will be $4.99 / month, including a one-month free trial. As Apple previously announced, the service will allow access to all members in a Family Sharing account.</p>\n</blockquote>\n\n<p>That’s a very appealing price, especially considering that it includes family sharing. And from what I hear, Apple is aggressively recruiting developers to create exclusive games for Arcade. I not only think this will be very successful for Apple and participating developers, but I think it could disrupt the whole mobile gaming industry. Pay-to-win games could see a big decline.</p>\n\n<p style=\"padding-top: 1.5em;\"><em>Link: <strong><a href=\"https://9to5mac.com/2019/08/19/apple-arcade-subscription-price/\">9to5mac.com/2019/08/19/apple-arcade-subscription-price/</a></strong></em></p>\n"
+      },
+      {
+         "title" : "Jamf Now",
+         "date_published" : "2019-08-18T16:02:02Z",
+         "date_modified" : "2019-08-18T16:02:03Z",
+         "id" : "https://daringfireball.net/linked/2019/08/18/jamf-now",
+         "url" : "https://daringfireball.net/linked/2019/08/18/jamf-now",
+         "external_url" : "https://www.jamf.com/lp/daringfireball-jamf-now/?utm_source=daringfireball&utm_medium=text&utm_campaign=2019-33",
+         "author" : {
+            "name" : "John Gruber"
+         },
+         "content_html" : "\n<p>My thanks to Jamf for sponsoring last week at Daring Fireball to promote Jamf Now. For many people, IT is a task and not a career. Now you can support your users without help from IT.</p>\n\n<p>Jamf Now is a simple, cloud-based solution designed to help anyone set up, manage, and protect Apple devices at work. Easily configure company email and Wi-Fi networks, distribute apps to your team, and protect sensitive data without locking down devices.</p>\n\n<p><a href=\"https://www.jamf.com/lp/daringfireball-jamf-now/?utm_source=daringfireball&amp;utm_medium=text&amp;utm_campaign=2019-33\">Daring Fireball readers can create an account and manage three devices for free</a>. Each additional device starts at just $2 per month. <a href=\"https://www.jamf.com/lp/daringfireball-jamf-now/?utm_source=daringfireball&amp;utm_medium=text&amp;utm_campaign=2019-33\">Create your free account today</a>.</p>\n\n<p style=\"padding-top: 1.5em;\"><em>Link: <strong><a href=\"https://www.jamf.com/lp/daringfireball-jamf-now/?utm_source=daringfireball&utm_medium=text&utm_campaign=2019-33\">jamf.com/lp/daringfireball-jamf-now/?utm_source…</a></strong></em></p>\n"
+      },
+      {
+         "title" : "Yankees Clinch 27th Straight Winning Season",
+         "date_published" : "2019-08-17T18:26:30Z",
+         "date_modified" : "2019-08-17T18:58:38Z",
+         "id" : "https://daringfireball.net/linked/2019/08/17/yankees-27",
+         "url" : "https://daringfireball.net/linked/2019/08/17/yankees-27",
+         "external_url" : "https://www.mlb.com/news/masahiro-tanaka-leads-yankees-vs-indians",
+         "author" : {
+            "name" : "John Gruber"
+         },
+         "content_html" : "\n<p>Bryan Hoch, MLB:</p>\n\n<blockquote>\n  <p>Securing their 27th consecutive season with a winning record, a streak that dates to 1993 and is second in Major League history only to their 39-season run from 1926-64, the Yankees peppered rookie starter Aaron Civale for three runs and eight hits over six innings.</p>\n</blockquote>\n\n<p>What a streak. Next best in MLB are the Cardinals with 11.</p>\n\n<p style=\"padding-top: 1.5em;\"><em>Link: <strong><a href=\"https://www.mlb.com/news/masahiro-tanaka-leads-yankees-vs-indians\">mlb.com/news/masahiro-tanaka-leads-yankees-vs-indians</a></strong></em></p>\n"
+      },
+      {
+         "title" : "Trump’s Large Union Crowd at Shell Was Given the Option of Not Showing Up — and Not Getting Paid",
+         "date_published" : "2019-08-17T16:34:41Z",
+         "date_modified" : "2019-08-17T16:40:09Z",
+         "id" : "https://daringfireball.net/linked/2019/08/17/trump-shell",
+         "url" : "https://daringfireball.net/linked/2019/08/17/trump-shell",
+         "external_url" : "https://www.post-gazette.com/business/powersource/2019/08/16/Trump-speech-union-crowd-Shell-ethane-plant-natural-gas-beaver-county-pennsylvania-attendance-pay-overtime/stories/201908160113",
+         "author" : {
+            "name" : "John Gruber"
+         },
+         "content_html" : "\n<p>Anya Litvak, reporting for The Pittsburgh Post-Gazette:</p>\n\n<blockquote>\n  <p>The choice for thousands of union workers at Royal Dutch Shell’s petrochemical plant in Beaver County was clear Tuesday: Either stand in a giant hall waiting for President Donald Trump to speak or take the day off with no pay.</p>\n\n<p>“Your attendance is not mandatory,” said the rules that one contractor relayed to employees, summarizing points from a memo that Shell sent to union leaders a day ahead of the visit to the $6 billion construction site. But only those who showed up at 7 a.m., scanned their ID cards, and prepared to stand for hours — through lunch but without lunch — would be paid.</p>\n\n<p>“NO SCAN, NO PAY,” a supervisor for that contractor wrote.</p>\n</blockquote>\n\n<p>Easy call to boycott all Shell products — forcing your employees to serve as paid supporters is authoritarian bullshit. And this is why Trump accuses protestors of being paid stooges — pure projection.</p>\n\n<p style=\"padding-top: 1.5em;\"><em>Link: <strong><a href=\"https://www.post-gazette.com/business/powersource/2019/08/16/Trump-speech-union-crowd-Shell-ethane-plant-natural-gas-beaver-county-pennsylvania-attendance-pay-overtime/stories/201908160113\">post-gazette.com/business/powersource/2019/08/16/Trump…</a></strong></em></p>\n"
+      },
+      {
+         "title" : "WatchOS 6 Beta Suggests New Series 5 Watches in Titanium and Ceramic",
+         "date_published" : "2019-08-17T15:13:07Z",
+         "date_modified" : "2019-08-17T15:23:28Z",
+         "id" : "https://daringfireball.net/linked/2019/08/17/apple-watch-titanium-and-ceramic",
+         "url" : "https://daringfireball.net/linked/2019/08/17/apple-watch-titanium-and-ceramic",
+         "external_url" : "https://ihelpbr.com/apple-watch-2019-ceramica-titanio/",
+         "author" : {
+            "name" : "John Gruber"
+         },
+         "content_html" : "\n<p>Nice scoop from iHelpBR. <a href=\"https://twitter.com/marcoarment/status/1162702834674126848\">Marco Arment’s take</a>:</p>\n\n<blockquote>\n  <p>Two fantastic watch materials. Titanium in watches can be made to look like steel but slightly darker and much lighter-weight, and the previous white-ceramic Editions were really cool.</p>\n</blockquote>\n\n<p>Agreed. Watch-grade titanium is a very different beast than the titanium in the original PowerBook G4 models. The fact that it’s much lighter should make haptics better than in the stainless steel models.</p>\n\n<p style=\"padding-top: 1.5em;\"><em>Link: <strong><a href=\"https://ihelpbr.com/apple-watch-2019-ceramica-titanio/\">ihelpbr.com/apple-watch-2019-ceramica-titanio/</a></strong></em></p>\n"
+      },
+      {
+         "title" : "★ Siri, Privacy, and Trust",
+         "date_published" : "2019-08-16T22:46:38Z",
+         "date_modified" : "2019-08-16T23:07:39Z",
+         "id" : "https://daringfireball.net/2019/08/siri_privacy_trust",
+         "url" : "https://daringfireball.net/2019/08/siri_privacy_trust",
+         "author" : {
+            "name" : "John Gruber"
+         },
+         "content_html" : "\n<p>Three weeks ago, writing for The Guardian, <a href=\"https://www.theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings\">Alex Hern reported</a>:</p>\n\n<blockquote>\n  <p>Apple contractors regularly hear confidential medical information,\ndrug deals, and recordings of couples having sex, as part of their\njob providing quality control, or “grading”, the company’s Siri\nvoice assistant, the Guardian has learned.</p>\n\n<p>Although Apple does not explicitly disclose it in its\nconsumer-facing privacy documentation, a small proportion of Siri\nrecordings are passed on to contractors working for the company\naround the world. They are tasked with grading the responses on a\nvariety of factors, including whether the activation of the voice\nassistant was deliberate or accidental, whether the query was\nsomething Siri could be expected to help with and whether Siri’s\nresponse was appropriate.</p>\n\n<p>Apple says the data “is used to help Siri and dictation …\nunderstand you better and recognise what you say”.</p>\n\n<p>But the company does not explicitly state that that work is\nundertaken by humans who listen to the pseudonymised recordings.</p>\n</blockquote>\n\n<p>I pooh-poohed this story at first, mostly on the grounds that I thought we knew about this, and that the recordings were only saved from users who had consented to it. I was mistaken. This is a privacy fiasco, and a betrayal of Siri users’ trust.</p>\n\n<p>A week later, Apple issued statements to TechCrunch and The Verge stating that it was suspending this “grading” program. <a href=\"https://techcrunch.com/2019/08/01/apple-suspends-siri-response-grading-in-response-to-privacy-concerns/\">From Matthew Panzarino’s report at TechCrunch</a>:</p>\n\n<blockquote>\n  <p>Apple says it will review the process that it uses, called\ngrading, to determine whether Siri is hearing queries correctly,\nor being invoked by mistake.</p>\n\n<p>In addition, it will be issuing a software update in the future\nthat will let Siri users choose whether they participate in the\ngrading process or not.</p>\n</blockquote>\n\n<p>My reading of this is that until last week, if you used Siri in any way, your recordings might be used in this “grading” process. If I graded Apple on the privacy and trust implications of this, I’d give them an F. I don’t think it’s debatable whether users of <em>any</em> voice assistant should have their recordings listened to or even reviewed (in text form) by human employees without their express consent. But especially users of Siri, given Apple’s prominent position as a privacy focused company. <a href=\"https://9to5mac.com/2019/01/05/apple-privacy-billboard-vegas-ces/\">Apple literally advertises on the basis of its user-focused privacy policies</a> — but apparently the billboards should have read “What happens on your iPhone stays on your iPhone, except for some of your Siri recordings, which we listen to.”</p>\n\n<p><a href=\"https://www.theverge.com/2019/8/2/20751270/apple-stops-contractors-siri-voice-recordings-privacy-opt-out\">From Sam Byford’s report for The Verge</a>:</p>\n\n<blockquote>\n  <p>Apple did not comment on whether, in addition to pausing the\nprogram where contractors listen to Siri voice recordings, it\nwould also stop actually saving those recordings on its servers.\nCurrently the company says it keeps recordings for six months\nbefore removing identifying information from a copy that it could\nkeep for two years or more.</p>\n</blockquote>\n\n<p>Until the opt-in process is crystal clear, Apple should delete all existing recordings and confirm that it is no longer saving them. I don’t even know where to start with the fact that until this story broke, they were keeping copies <em>with identifying information</em> for six months. This defies everyone’s expectations of privacy for a voice assistant.</p>\n\n<p>We should expect Apple to lead the industry on this front, but in fact, they’re far behind. <a href=\"https://www.amazon.com/gp/help/customer/display.html/ref=kinw_myk_alxa_faq_us?ie=UTF8&amp;nodeId=201602230&amp;pop-up=1\">Amazon has a FAQ</a> written in plain language that explains how Alexa works, and how to view your voice recordings from Alexa-powered devices. You can review them in the Alexa app in Settings: Alexa Privacy (a pretty obvious location) or <a href=\"https://www.amazon.com/alexaprivacysettings\">on the web</a>. That settings page also has an option: “Use Voice Recordings to Improve Amazon Services and to Develop New Features”. I think Amazon should make clear that with this turned on, some of your recordings may be listened to by Amazon employees, but it’s not too hard to surmise that’s what’s going on.</p>\n\n<p>Apple offers no such setting, and offers absolutely no way to know which, if any, of our Siri recordings have been saved for review by employees. This is something we should have explicit, precise control over, but instead it’s a completely black box we have no control over or insight into whatsoever.</p>\n\n<p>From a privacy perspective, there are two fundamental types of Siri interactions: purposeful and accidental. Purposeful interactions are when you press the side button or say “Hey Siri” with the intention of invoking Siri. Accidental interactions occur when the button is pressed too long accidentally, or when a device incorrectly hears “Hey Siri” even though you said no such thing. All recorded Siri interactions should be treated by Apple with extraordinary care, but accidental invocations, when identified, should be deleted immediately unless the user has expressly agreed to allow it — <em>each and every time</em>. Having Apple contractors listen to random conversations or audio is the nightmare scenario for an always-listening voice assistant.</p>\n\n<p>Compare and contrast with iOS’s transcript feature for voicemail. At the bottom of each transcription, iOS asks whether the transcription was “useful” or “not useful”. Tap on either of those and you get a very explicit prompt:</p>\n\n<blockquote>\n  <p>Help Improve Transcriptions?</p>\n\n<p>Would you like to submit this voicemail to Apple to improve\ntranscription accuracy?</p>\n\n<p>Recordings will only be used to improve the quality of speech\nrecognition in Apple products.</p>\n\n<p>Do not submit recordings if you believe the speaker would be\nuncomfortable with you submitting the content to Apple.</p>\n</blockquote>\n\n<p>The two buttons at the bottom of the prompt: Cancel and Submit. You must address this same prompt every single time you flag a transcription as useful or not useful. Every time. That’s how you do it.</p>\n\n<p>In addition to being correctly respectful of privacy, the voicemail transcription feature also puts the user in control. So when a voicemail is transcribed poorly, you can flag it and submit it to Apple. That would be a great feature for Siri — when an interaction goes poorly, and we know the interaction was innocuous in terms of revealing anything private, we should be able to flag it and submit it to Apple. I firmly believe that Siri has gotten far more useful and far more accurate in the last few years, but clearly it’s <a href=\"https://twitter.com/danielpunkass/status/1073723442179031041\">still very far from perfect</a>. I’d be happy to help Apple by submitting failed interactions <em>on a per-interaction basis</em>. Apple needs to stop pretending Siri is perfect.</p>\n\n<p>I’ll give the final word to Steve Jobs, <a href=\"https://www.wsj.com/video/d8-steve-jobs-onstage-full-length-video/70F7CC1D-FFBF-4BE0-BFF1-08C300E31E11.html\">speaking about privacy back in 2010 at Kara Swisher and Walt Mossberg’s D8 conference</a>:</p>\n\n<blockquote>\n  <p>“Privacy means people know what they’re signing up for, in plain\nEnglish and repeatedly. I believe people are smart and some people\nwant to share more data than other people do. Ask them. Ask them\nevery time. Make them tell you to stop asking them if they get\ntired of your asking them. Let them know precisely what you’re\ngoing to do with their data.”</p>\n</blockquote>\n\n<p>I can’t say it any better than that.</p>\n\n\n\n    "
+      },
+      {
+         "title" : "‘Performance Matters‘",
+         "date_published" : "2019-08-16T18:20:46Z",
+         "date_modified" : "2019-08-16T21:41:54Z",
+         "id" : "https://daringfireball.net/linked/2019/08/16/wayne-performance-matters",
+         "url" : "https://daringfireball.net/linked/2019/08/16/wayne-performance-matters",
+         "external_url" : "https://www.hillelwayne.com/post/performance-matters/#fn:data",
+         "author" : {
+            "name" : "John Gruber"
+         },
+         "content_html" : "\n<p>Hillel Wayne:</p>\n\n<blockquote>\n  <p>Many ambulances now have electronic PCRs, which fix a lot of these\nproblems. The report is automatically filed with the hospital. The\nsoftware can enter timestamps and fill in necessary boilerplate.\nBy spellchecking known medications it saves time at the hospital.\nNobody has to guess whether you scrawled “100mg” or “160mg”.</p>\n\n<p>The ambulance I shadowed had an ePCR. Nobody used it. I talked to\nthe EMTs about this, and they said nobody they knew used it\neither. Lack of training? «No, we all got trained.» Crippling\nbugs? No, it worked fine. Paper was good enough? No, the ePCR was\nmuch better than paper PCRs in almost every way. It just had one\nproblem: it was too slow.</p>\n\n<p>It wasn’t even <em>that</em> slow. Something like a quarter-second lag\nwhen you opened a dropdown or clicked a button. But it made things\nso unpleasant that nobody wanted to touch it. Paper was slow and\nannoying and easy to screw up, but at least it wasn’t <em>that</em>.</p>\n\n<p>I think about that a lot.</p>\n</blockquote>\n\n<p>I think the difference between UI design and UX design often gets lost in a lot of highfalutin jargon. But at a basic level there is a clear difference: the <em>interface</em> might be well designed and clear, but if it is slow and laggy, the <em>experience</em> of using it will be unpleasant, and people will go out of their way to avoid using whatever it is.</p>\n\n<p>I repeat this point often, but it’s a moral obligation for designers to keep in mind what users <em>will</em> do, not what they “<em>should</em>” do. These EMTs perhaps <em>should</em> use the ePCRs because doing so might reduce errors; but in practice they stick with paper and pen because the ePCR machines are slow.</p>\n\n<p><strong>See also:</strong> <a href=\"https://craigmod.com/essays/fast_software/\">Craig Mod’s “Fast Software, the Best Software”</a> essay, which <a href=\"https://daringfireball.net/linked/2019/07/26/mod-fast-software\">I linked to a few weeks ago</a>.</p>\n\n<p style=\"padding-top: 1.5em;\"><em>Link: <strong><a href=\"https://www.hillelwayne.com/post/performance-matters/#fn:data\">hillelwayne.com/post/performance-matters/#fn:data</a></strong></em></p>\n"
+      },
+      {
+         "title" : "‘WeWork Isn’t a Tech Company; It’s a Soap Opera’",
+         "date_published" : "2019-08-16T17:48:39Z",
+         "date_modified" : "2019-08-16T18:13:48Z",
+         "id" : "https://daringfireball.net/linked/2019/08/16/wework-lopatto",
+         "url" : "https://daringfireball.net/linked/2019/08/16/wework-lopatto",
+         "external_url" : "https://www.theverge.com/2019/8/15/20806366/we-company-wework-ipo-adam-neumann",
+         "author" : {
+            "name" : "John Gruber"
+         },
+         "content_html" : "\n<p>Elizabeth Lopatto, writing for The Verge:</p>\n\n<blockquote>\n  <p>On August 14th, The We Company (the company formerly known as\nWeWork) filed its mandatory S-1 paperwork to go public, and\n<a href=\"https://www.sec.gov/Archives/edgar/data/1533523/000119312519220499/d781982ds1.htm\">it’s worth reading in full</a>. I mean, forget the serious\nstuff for a moment. The thing begins with an epigram: “We\ndedicate this to the energy of we — greater than any one of us,\nbut inside all of us.”</p>\n\n<p>The energy of we. I get it from a branding perspective — they’re\nliterally calling themselves The We Company — but, you know,\nnormal people would just say “our energy.” I tease Silicon\nValley’s tech companies a lot, but New York easily matches them in\nego. Look at these kids, literally bending the English language to\ntheir will!</p>\n\n<p>Anyway, please join me on an annotated trip through my favorite\nparts of the mandatory filing.</p>\n</blockquote>\n\n<p>Lopatto’s piece is a truly joyful look at a wacky company. Anyone who thinks The We Company should be valued at $50 billion is nuts — they’re more like a cult than a tech startup.</p>\n\n<p style=\"padding-top: 1.5em;\"><em>Link: <strong><a href=\"https://www.theverge.com/2019/8/15/20806366/we-company-wework-ipo-adam-neumann\">theverge.com/2019/8/15/20806366/we-company-wework-ipo-adam…</a></strong></em></p>\n"
+      },
+      {
+         "title" : "Version Museum: A Visual History of Your Favorite Technology",
+         "date_published" : "2019-08-16T17:32:33Z",
+         "date_modified" : "2019-08-16T17:32:34Z",
+         "id" : "https://daringfireball.net/linked/2019/08/16/version-museum",
+         "url" : "https://daringfireball.net/linked/2019/08/16/version-museum",
+         "external_url" : "https://www.versionmuseum.com/",
+         "author" : {
+            "name" : "John Gruber"
+         },
+         "content_html" : "\n<p>Neat project from an anonymous (?) father and son team:</p>\n\n<blockquote>\n  <p>Version Museum showcases the visual history of popular websites,\noperating systems, applications, and games that have shaped our\nlives. Much like walking through a real-life museum, this site\nfocuses on the design changes of historic versions of technology,\nrather than just the written history behind it.</p>\n</blockquote>\n\n<p>(<a href=\"https://kottke.org/19/08/the-version-museum\">Via Kottke</a>.)</p>\n\n<p style=\"padding-top: 1.5em;\"><em>Link: <strong><a href=\"https://www.versionmuseum.com/\">versionmuseum.com/</a></strong></em></p>\n"
+      },
+      {
+         "title" : "App Store Editorial Stories Are Now Available on the Web",
+         "date_published" : "2019-08-15T21:09:45Z",
+         "date_modified" : "2019-08-16T17:30:00Z",
+         "id" : "https://daringfireball.net/linked/2019/08/15/app-store-stories",
+         "url" : "https://daringfireball.net/linked/2019/08/15/app-store-stories",
+         "external_url" : "https://9to5mac.com/2019/08/15/app-store-today-web-browser/",
+         "author" : {
+            "name" : "John Gruber"
+         },
+         "content_html" : "\n<p>Benjamin Mayo, writing for 9to5Mac:</p>\n\n<blockquote>\n  <p>Apple has recently updated its App Store Preview pages for stories\nto allow users to view the full content of stories from inside\ntheir desktop web browser. App Store stories have always been\nshareable as links, but the web version was just a title and a\nnavigation link to ‘open this story in the App Store’.</p>\n\n<p>Between August 9th and August 11th, Apple has upgraded the\nexperience and now includes full imagery, app lists and paragraphs\ncopy in the web version. This means you can access the same\ncontent online as you would be ale to find in the native App Store\nexperience.</p>\n</blockquote>\n\n<p>Apple has put together a great editorial staff for the App Store, and works with many talented freelance writers and artists, so it’s great that their work can now be seen on the regular web. I have many times decided against linking to App Store articles simply because the stories weren’t on the web — prior to this, the only way to read them was using a recent version of iOS or MacOS. I get that these stories are intended to drive engagement with the App Store, but it just seemed spiteful not to put them on the open web.</p>\n\n<p>Here, for example, <a href=\"https://apps.apple.com/us/story/id1467837404\">is a nice write-up about Yoink</a>, one of my very favorite Mac utilities.</p>\n\n<p><strong>Update:</strong> Mayo, on Twitter, <a href=\"https://twitter.com/bzamayo/status/1162145524868374529\">points to one significant shortcoming</a> of these articles on the web — they don’t include video.</p>\n\n<p style=\"padding-top: 1.5em;\"><em>Link: <strong><a href=\"https://9to5mac.com/2019/08/15/app-store-today-web-browser/\">9to5mac.com/2019/08/15/app-store-today-web-browser/</a></strong></em></p>\n"
+      },
+      {
+         "title" : "Ugly Gerry",
+         "date_published" : "2019-08-15T19:42:32Z",
+         "date_modified" : "2019-08-15T19:44:48Z",
+         "id" : "https://daringfireball.net/linked/2019/08/15/ugly-gerry",
+         "url" : "https://daringfireball.net/linked/2019/08/15/ugly-gerry",
+         "external_url" : "https://uglygerry.com/",
+         "author" : {
+            "name" : "John Gruber"
+         },
+         "content_html" : "\n<p>Type design as political activism — very clever.</p>\n\n<p style=\"padding-top: 1.5em;\"><em>Link: <strong><a href=\"https://uglygerry.com/\">uglygerry.com/</a></strong></em></p>\n"
+      },
+      {
+         "title" : "Trump’s Horrific Photo With El Paso Victim",
+         "date_published" : "2019-08-12T22:31:15Z",
+         "date_modified" : "2019-08-12T22:31:17Z",
+         "id" : "https://daringfireball.net/linked/2019/08/12/trump-baby-picture",
+         "url" : "https://daringfireball.net/linked/2019/08/12/trump-baby-picture",
+         "external_url" : "https://www.thecut.com/2019/08/trump-baby-photo-el-paso-shooting.html",
+         "author" : {
+            "name" : "John Gruber"
+         },
+         "content_html" : "\n<p>Rhonda Garelick, writing at The Cut:</p>\n\n<blockquote>\n  <p>Imagine this: A shooter has entered a public place, where you are\nwalking with your family. You have but a minute to realize you\ncan save your 2-month-old by using your own body to shield him\nfrom the bullets raining down around you. Mere days later, your\nbaby, the youngest survivor of the El Paso massacre, will appear\non television with the very man who inspired the terrorist who\nkilled both you and your husband. A photograph is taken, for\nposterity. […]</p>\n\n<p>Neither the president nor Melania so much as glances at Baby Paul.\nOblivious (as ever) to the solemnity of their occasion, they smile\nbroadly, matching veneers on full beam. Your husband came from a\nfamily of Trump supporters. Perhaps, in a different world, you\nmight even have wanted to meet Donald Trump, or take a photo with\nhim as he gave one of his signature thumbs-up gestures —\neverything is A-OK here.</p>\n</blockquote>\n\n<p>This photo isn’t emblematic of what’s truly wrong with Trump’s kakistocratic administration, but it is emblematic of the fact that he is clearly mentally unwell, so deeply in the grips of narcissistic personality disorder that he can smile and thumbs-up his way through a profoundly tragic moment. His supporters and shoulder-shruggers might look at this photo today and chalk it up to Trump being Trump, but the rest of us see what history will judge: he’s a sociopath with no capacity for empathy.</p>\n\n<p style=\"padding-top: 1.5em;\"><em>Link: <strong><a href=\"https://www.thecut.com/2019/08/trump-baby-photo-el-paso-shooting.html\">thecut.com/2019/08/trump-baby-photo-el-paso-shooting.html</a></strong></em></p>\n"
+      },
+      {
+         "title" : "Trump Administration Weakens Protections for Endangered Species",
+         "date_published" : "2019-08-12T15:35:50Z",
+         "date_modified" : "2019-08-12T15:37:26Z",
+         "id" : "https://daringfireball.net/linked/2019/08/12/endangered-species",
+         "url" : "https://daringfireball.net/linked/2019/08/12/endangered-species",
+         "external_url" : "https://www.nytimes.com/2019/08/12/climate/endangered-species-act-changes.html",
+         "author" : {
+            "name" : "John Gruber"
+         },
+         "content_html" : "\n<p>Lisa Friedman, reporting for The New York Times:</p>\n\n<blockquote>\n  <p>The Trump administration on Monday announced that it would change the way the Endangered Species Act is applied, significantly weakening the nation’s bedrock conservation law credited with rescuing the bald eagle, the grizzly bear and the American alligator from extinction.</p>\n</blockquote>\n\n<p>Why in the world would they do this?</p>\n\n<blockquote>\n  <p>The changes could clear the way for new mining, oil and gas drilling, and development in areas where protected species live.</p>\n</blockquote>\n\n<p>Oh, that’s why.</p>\n\n<p style=\"padding-top: 1.5em;\"><em>Link: <strong><a href=\"https://www.nytimes.com/2019/08/12/climate/endangered-species-act-changes.html\">nytimes.com/2019/08/12/climate/endangered-species-act…</a></strong></em></p>\n"
+      },
+      {
+         "title" : "Tim Cook Meets With U.S. Coast Guard Commandant Admiral Karl Schultz at Apple Park",
+         "date_published" : "2019-08-10T19:46:08Z",
+         "date_modified" : "2019-08-10T19:50:27Z",
+         "id" : "https://daringfireball.net/linked/2019/08/10/cook-jobs-navy-pirates",
+         "url" : "https://daringfireball.net/linked/2019/08/10/cook-jobs-navy-pirates",
+         "external_url" : "https://twitter.com/ComdtUSCG/status/1159464482860650498",
+         "author" : {
+            "name" : "John Gruber"
+         },
+         "content_html" : "\n<p><a href=\"https://www.folklore.org/StoryView.py?story=Pirate_Flag.txt\">Steve Jobs, 1983</a>: “It’s better to be a pirate than join the navy.”</p>\n\n<p style=\"padding-top: 1.5em;\"><em>Link: <strong><a href=\"https://twitter.com/ComdtUSCG/status/1159464482860650498\">twitter.com/ComdtUSCG/status/1159464482860650498</a></strong></em></p>\n"
+      },
+      {
+         "title" : "The Talk Show: ‘A Clear Eyed Look at Dishwashers’",
+         "date_published" : "2019-08-10T19:03:15Z",
+         "date_modified" : "2019-08-10T19:03:17Z",
+         "id" : "https://daringfireball.net/linked/2019/08/10/the-talk-show-260",
+         "url" : "https://daringfireball.net/linked/2019/08/10/the-talk-show-260",
+         "external_url" : "https://daringfireball.net/thetalkshow/2019/08/10/ep-260",
+         "author" : {
+            "name" : "John Gruber"
+         },
+         "content_html" : "\n<p>Special guest John Siracusa finally returns to the show. Topics include the Siri voice recording fiasco, Siracusa’s epic Mac OS X reviews, and making good ice.</p>\n\n<p>Brought to you by these fine sponsors:</p>\n\n<ul>\n<li><a href=\"https://awaytravel.com/talkshow20\">Away</a>: Because this season, everyone wants to get Away.</li>\n<li><a href=\"https://eero.com/thetalkshow\">Eero</a>: Use promo code <strong>thetalkshow</strong> at checkout to get <em>free</em> overnight shipping with your order.</li>\n<li><a href=\"https://squarespace.com/talkshow\">Squarespace</a>: Make your next move. Use code <strong>talkshow</strong> for 10% off your first order.</li>\n</ul>\n\n<p style=\"padding-top: 1.5em;\"><em>Link: <strong><a href=\"https://daringfireball.net/thetalkshow/2019/08/10/ep-260\">daringfireball.net/thetalkshow/2019/08/10/ep-260</a></strong></em></p>\n"
+      },
+      {
+         "title" : "iOS 13 Will Let You Delete Apps Right From the App Store Update List",
+         "date_published" : "2019-08-10T13:18:09Z",
+         "date_modified" : "2019-08-10T13:22:24Z",
+         "id" : "https://daringfireball.net/linked/2019/08/10/ios-13-update-list",
+         "url" : "https://daringfireball.net/linked/2019/08/10/ios-13-update-list",
+         "external_url" : "https://www.macrumors.com/2019/06/07/ios-13-delete-apps-update-list/?utm_source=dlvr.it&utm_medium=twitter",
+         "author" : {
+            "name" : "John Gruber"
+         },
+         "content_html" : "\n<p>Old news from WWDC two months ago, but this is a feature <a href=\"https://twitter.com/gruber/status/1063077628654039045\">I’ve long been wishing for</a>.</p>\n\n<p style=\"padding-top: 1.5em;\"><em>Link: <strong><a href=\"https://www.macrumors.com/2019/06/07/ios-13-delete-apps-update-list/?utm_source=dlvr.it&utm_medium=twitter\">macrumors.com/2019/06/07/ios-13-delete-apps-update-list/…</a></strong></em></p>\n"
+      },
+      {
+         "title" : "Mud Maker: The Man Behind MLB’s Essential Secret Sauce",
+         "date_published" : "2019-08-09T00:32:43Z",
+         "date_modified" : "2019-08-09T00:32:45Z",
+         "id" : "https://daringfireball.net/linked/2019/08/08/mud-maker",
+         "url" : "https://daringfireball.net/linked/2019/08/08/mud-maker",
+         "external_url" : "https://www.si.com/mlb/2019/08/07/baseball-mud-rawlings",
+         "author" : {
+            "name" : "John Gruber"
+         },
+         "content_html" : "\n<p>Emma Baccellieri, writing for Sports Illustrated:</p>\n\n<blockquote>\n  <p>This always does the trick. It prevents anyone from exploring what\nhe’s actually doing, which is what he’s done for decades, what his\nfather did before him, and his grandfather before <em>him</em>: Bintliff\nis collecting the mud that is used to treat every single\nregulation major league baseball, roughly 240,000 per season.</p>\n\n<p>Mud is a family business; it has been for more than half a\ncentury. For decades, baseball’s official rule book has required\nthat every ball be rubbed before being used in a game. Bintliff’s\nmud is the only substance allowed. Originally marketed as “magic,”\nit’s just a little thicker than chocolate pudding — a tiny dab is\nenough to remove the factory gloss from a new ball without mucking\nup the seams or getting the cover too filthy. Equipment managers\nrub it on before every game, allowing pitchers to get a dependable\ngrip. The mud is found only along a short stretch of that\ntributary of the Delaware, with the precise location kept secret\nfrom everyone, including MLB.</p>\n</blockquote>\n\n<p>I’ve long known that baseballs are treated with mud, but I had no idea it all comes from the same source. And it’s crazy that even MLB doesn’t know the exact location.</p>\n\n<p style=\"padding-top: 1.5em;\"><em>Link: <strong><a href=\"https://www.si.com/mlb/2019/08/07/baseball-mud-rawlings\">si.com/mlb/2019/08/07/baseball-mud-rawlings</a></strong></em></p>\n"
+      },
+      {
+         "title" : "The History of Clarus the Dogcow",
+         "date_published" : "2019-08-09T00:32:00Z",
+         "date_modified" : "2019-08-09T00:32:01Z",
+         "id" : "https://daringfireball.net/linked/2019/08/08/clarus",
+         "url" : "https://daringfireball.net/linked/2019/08/08/clarus",
+         "external_url" : "https://512pixels.net/dogcow/",
+         "author" : {
+            "name" : "John Gruber"
+         },
+         "content_html" : "\n<p>With FileMaker <a href=\"https://daringfireball.net/linked/2019/08/08/claris-filemaker\">changing its name back to Claris</a> — with an <em>i</em> — it’s worth revisiting Stephen Hackett’s history of Clarus — with a <em>u</em> — the dogcow.</p>\n\n<p style=\"padding-top: 1.5em;\"><em>Link: <strong><a href=\"https://512pixels.net/dogcow/\">512pixels.net/dogcow/</a></strong></em></p>\n"
+      },
+      {
+         "title" : "FileMaker Goes Back to ‘Claris’",
+         "date_published" : "2019-08-08T22:23:39Z",
+         "date_modified" : "2019-08-08T22:23:40Z",
+         "id" : "https://daringfireball.net/linked/2019/08/08/claris-filemaker",
+         "url" : "https://daringfireball.net/linked/2019/08/08/claris-filemaker",
+         "external_url" : "https://www.filemaker.com/blog/2019/filemaker-reborn-as-claris",
+         "author" : {
+            "name" : "John Gruber"
+         },
+         "content_html" : "\n<p>Claris:</p>\n\n<blockquote>\n  <p>“Claris stems from the Latin root ‘clarus,’ which means ‘clear,\nbright and shining,’” said Brad Freitag, Claris CEO. “Nothing\nbetter encapsulates the company’s mission: to empower the\nproblem-solver with smart solutions that work for their business.\nBy extending the reach of our platform as a modern, multi-faceted,\nand powerful merger of on-premises custom apps and third-party\nservices, our customers can streamline their business processes\nacross the cloud services that they use every day.”</p>\n</blockquote>\n\n<p>If this name change doesn’t bring a nostalgic smile to your face, you probably weren’t a Mac user in the 1990s. FileMaker is still going strong, but back in the day, Claris had a slew of great Mac productivity apps.</p>\n\n<p style=\"padding-top: 1.5em;\"><em>Link: <strong><a href=\"https://www.filemaker.com/blog/2019/filemaker-reborn-as-claris\">filemaker.com/blog/2019/filemaker-reborn-as-claris</a></strong></em></p>\n"
+      },
+      {
+         "title" : "Uber Posts $5.2 Billion Loss and Slowest Ever Growth Rate",
+         "date_published" : "2019-08-08T22:10:48Z",
+         "date_modified" : "2019-08-08T22:10:50Z",
+         "id" : "https://daringfireball.net/linked/2019/08/08/uber-loss",
+         "url" : "https://daringfireball.net/linked/2019/08/08/uber-loss",
+         "external_url" : "https://www.nytimes.com/2019/08/08/technology/uber-earnings.html?smid=nytcore-ios-share",
+         "author" : {
+            "name" : "John Gruber"
+         },
+         "content_html" : "\n<p>Kate Conger, reporting for The New York Times:</p>\n\n<blockquote>\n  <p>Uber set two dubious quarterly records on Thursday as it reported\nits results: its largest-ever loss, exceeding $5 billion, and its\nslowest-ever revenue growth.</p>\n\n<p>The double whammy immediately renewed questions about the\nprospects for the company, the world’s biggest ride-hailing\nbusiness. Uber has been dogged by concerns about sluggish sales\nand whether it can make money, worries that were compounded by a\ndisappointing initial public offering in May.</p>\n</blockquote>\n\n<p>Is there any evidence to suggest that Uber will ever turn a profit? I just don’t see it.</p>\n\n<p style=\"padding-top: 1.5em;\"><em>Link: <strong><a href=\"https://www.nytimes.com/2019/08/08/technology/uber-earnings.html?smid=nytcore-ios-share\">nytimes.com/2019/08/08/technology/uber-earnings.html?smid…</a></strong></em></p>\n"
+      },
+      {
+         "title" : "Samsung Galaxy Note 10",
+         "date_published" : "2019-08-08T20:53:43Z",
+         "date_modified" : "2019-08-08T21:01:40Z",
+         "id" : "https://daringfireball.net/linked/2019/08/08/bohn-note-10",
+         "url" : "https://daringfireball.net/linked/2019/08/08/bohn-note-10",
+         "external_url" : "https://www.theverge.com/2019/8/7/20754566/samsung-galaxy-note-10-plus-2-size-price-release-date-s-pen-dex-laptop-unpacked-event",
+         "author" : {
+            "name" : "John Gruber"
+         },
+         "content_html" : "\n<p>Dieter Bohn, writing for The Verge:</p>\n\n<blockquote>\n  <p>The Note 10 starts at $949 and comes in just one configuration:\n8GB of RAM and 256GB of storage. The Note 10 Plus starts at $1,099\nwith 12GB RAM / 256GB storage and you can spend $100 more to get\n512GB of storage. Both are available for preorder today and will\nship on August 23rd.</p>\n</blockquote>\n\n<p>Kind of interesting to ship the regular Note with just one storage configuration. Also: Samsung’s first flagship phones without headphone jacks.</p>\n\n<p>The Note 10 Plus 5G — temporarily exclusive to Verizon in the U.S. — will cost $1,300. I don’t think that’s crazy — for most people, their phone is both their most-used, most-important computer <em>and</em> their main camera.</p>\n\n<p style=\"padding-top: 1.5em;\"><em>Link: <strong><a href=\"https://www.theverge.com/2019/8/7/20754566/samsung-galaxy-note-10-plus-2-size-price-release-date-s-pen-dex-laptop-unpacked-event\">theverge.com/2019/8/7/20754566/samsung-galaxy-note-10-plus…</a></strong></em></p>\n"
+      },
+      {
+         "title" : "Shape Up",
+         "date_published" : "2019-08-05T01:09:50Z",
+         "date_modified" : "2019-08-05T01:09:51Z",
+         "id" : "https://daringfireball.net/linked/2019/08/04/shape-up",
+         "url" : "https://daringfireball.net/linked/2019/08/04/shape-up",
+         "external_url" : "http://basecamp.com/shapeup/?ref=df",
+         "author" : {
+            "name" : "John Gruber"
+         },
+         "content_html" : "\n<p>My thanks to Basecamp for sponsoring DF last week to promote <em>Shape Up</em>. If your team struggles to make progress on projects, it’s time to reconsider the way you work.</p>\n\n<p>There’s a whole new approach called <em>Shape Up</em>. It’s not agile, it’s not scrum, and your walls won’t be lined with Post-It Notes. There are no daily stand ups, design sprints, backlogs, velocity tracking, or busywork. None of that.</p>\n\n<p><em>Shape Up</em> is an entirely different approach. One developed and honed over 15 years of building one of the world’s most popular collaboration tools. The method is unlike anything you’ve tried — and quite a bit better.</p>\n\n<p>I’ve been friends with and following the team from Basecamp for as long as DF has existed and I’ve always been inspired by their willingness to share everything they know. Read up for free at <a href=\"http://basecamp.com/shapeup/?ref=df\">basecamp.com/shapeup</a>.</p>\n\n<p style=\"padding-top: 1.5em;\"><em>Link: <strong><a href=\"http://basecamp.com/shapeup/?ref=df\">basecamp.com/shapeup/?ref=df</a></strong></em></p>\n"
+      },
+      {
+         "title" : "★ Superhuman and Email Privacy",
+         "date_published" : "2019-07-23T20:50:41Z",
+         "date_modified" : "2019-07-25T19:57:41Z",
+         "id" : "https://daringfireball.net/2019/07/superhuman_and_email_privacy",
+         "url" : "https://daringfireball.net/2019/07/superhuman_and_email_privacy",
+         "author" : {
+            "name" : "John Gruber"
+         },
+         "content_html" : "\n<p>Mike Davidson, “<a href=\"https://mikeindustries.com/blog/archive/2019/07/superhumans-superficial-privacy-fixes-do-not-prevent-it-from-spying-on-you\">Superhuman’s Superficial Privacy Fixes Do Not Prevent It From Spying on You</a>”:</p>\n\n<blockquote>\n  <p>Last week was a good week for privacy. Or was it?</p>\n\n<p>It took <a href=\"https://mikeindustries.com/blog/archive/2019/06/superhuman-is-spying-on-you\">an article I almost didn’t publish</a> and tens of\nthousands of people <a href=\"https://twitter.com/search?q=https%3A%2F%2Fmikeindustries.com%2Fblog%2Farchive%2F2019%2F06%2Fsuperhuman-is-spying-on-you&amp;src=typed_query\">saying they were creeped out</a>, but\nSuperhuman <a href=\"https://blog.superhuman.com/read-statuses-bdf0cc34b6a5\">admitted they were wrong and reduced the danger that\ntheir surveillance pixels introduce</a>. Good on Rahul Vohra and\nteam for that.</p>\n\n<p>I will say, however, that I’m a little surprised how quickly some\npeople are rolling over and giving Superhuman credit for fixing a\nproblem that they didn’t actually fix. From tech press articles\nimplying that the company quickly closed all of its privacy\nissues, to friends sending me nice notes, I don’t think people are\npaying close enough attention here. This is not “<a href=\"https://en.wikipedia.org/wiki/Mission_Accomplished_speech\">Mission\nAccomplished</a>” for ethical product design or privacy — at all.</p>\n</blockquote>\n\n<p>If you haven’t been following this saga from earlier this month, it’s well worth your time to read the whole thing, including <a href=\"https://mikeindustries.com/blog/archive/2019/06/superhuman-is-spying-on-you\">Davidson’s original post</a> and Superhuman CEO Rahul Vohra’s genuinely thoughtful — but ultimately unsatisfying — <a href=\"https://blog.superhuman.com/read-statuses-bdf0cc34b6a5\">response</a>.</p>\n\n<p>Basically, Superhuman is an invitation-only Gmail front-end whose users seem to genuinely love it. But they embed tracking pixels in emails by default, and use these pixels to show the sender when (and until last week, <em>where</em>, which is truly fucked up) the recipient views them. They call them “read receipts”, and functionally they do work like read receipts, insofar as they indicate when you read a message. But real email read receipts are under the <em>recipient’s</em> control, and they’re a simple binary flag, read or unread — they don’t tell the sender how many times or when you view a message.</p>\n\n<p>I know that mailing list software generally includes tracking pixels. I don’t think that’s ethical either. On a personal level, though, with Superhuman, tracking when and how many times a recipient views a message is simply absurdly wrong.</p>\n\n<p>It’s also something the vast, overwhelming majority of people don’t even realize is possible. I’ve told the basic Superhuman tracking story to a few people over the last few weeks, and asked whether they realized this was possible; all of them expressed shock and many of them outrage as well. Email should be private, <em>and most people assume, incorrectly, that it is</em>. You have to be a web developer of some sort to understand how this is possible. Email is supposed to be like paper mail — you send it, they get it, and you have no idea whether they read it or not. It bounces back to you if they never even receive it, say, because you addressed it incorrectly. The original conception of email is completely private.</p>\n\n<p>But also, the original conception of email is that messages are plain text. No fonts, no styles, just plain text, with optional attachments. But those attachments are embedded in the message, not pulled from a server when the message is viewed. </p>\n\n<p>Once we allowed email clients to act as de facto web browsers, loading remote content from servers when messages are viewed, we opened up not just a can of worms but an entire case of canned worms. Every privacy exploit for a web browser is now a privacy exploit for email. But it’s worse, because people naturally assume that email is completely private. </p>\n\n<p>Read receipts should be under the control of the recipient, not the sender. Full stop. The strength of email is that it is open and decentralized, but that’s email’s weakness too. No closed messaging platform that I’m aware of allows for read receipts that are controlled by the sender, not the recipient.</p>\n\n<p>I think Superhuman should be ashamed of themselves for building this feature in the first place — particularly the geo-tracking. But ultimately, <em>email clients should defend against this</em>. The fact that this nonconsensual tracking is even possible should be treated as a serious bug in all email clients. Apple Mail — both on Mac and iOS — allows you to disable loading of remote images as a preference, but that breaks most graphically rich emails. Mail clients should allow remote images but load them anonymously, through a proxy server perhaps. I’m sure it’s a tricky problem to solve, but I’m convinced it can be solved.</p>\n\n<p>Email should be every bit as private as people assume that it is.</p>\n\n\n\n    "
+      },
+      {
+         "title" : "★ Apple Is Sending Out Another Silent Update To Fix the Webcam Flaw in Zoom’s Partner Apps",
+         "date_published" : "2019-07-17T03:59:40Z",
+         "date_modified" : "2019-07-23T20:22:40Z",
+         "id" : "https://daringfireball.net/2019/07/another_zoom_update",
+         "url" : "https://daringfireball.net/2019/07/another_zoom_update",
+         "author" : {
+            "name" : "John Gruber"
+         },
+         "content_html" : "\n<p><a href=\"https://www.buzzfeednews.com/article/nicolenguyen/ringcentral-and-zhumu-customers-vulnerability\">Nicole Nguyen, reporting for BuzzFeed News</a>:</p>\n\n<blockquote>\n  <p>The fallout from <a href=\"https://www.buzzfeednews.com/article/nicolenguyen/zoom-webcam-hacker-watching-you-vulnerability\">Zoom’s massive webcam vulnerability</a>\ncontinues. In <a href=\"https://twitter.com/karanlyons/status/1150774640899317760\">a report published today</a>, security researcher\nKaran Lyons shows that the same flaw — which gave attackers easy\naccess to laptop cameras and microphones — affects RingCentral,\nwhich is used by over 350,000 businesses, as well as Zhumu,\nessentially the Chinese version of Zoom.</p>\n\n<p>On July 16, Apple confirmed that it had released another silent\nupdate to Macs patching the vulnerability affecting Zoom’s partner\napps. The update, which went out this morning, requires no user\naction, but may take some time to roll out to all impacted Macs.\nLyons tweeted that Apple’s latest update takes action on 11\ndifferent apps, all vulnerable to the Zoom webcam flaw.</p>\n</blockquote>\n\n<p>So here’s an interesting question. I’ve <a href=\"https://daringfireball.net/linked/2019/07/10/nguyen-zoom\">been</a> <a href=\"https://daringfireball.net/linked/2019/07/11/macos-zoom-update\">using</a> the phrase “nonconsensual technology” to describe Zoom’s invisible web server that remained installed and running even after you deleted the Zoom app. But when Apple first issued a silent, emergency system update to remove Zoom’s software, a few DF readers emailed or <a href=\"https://twitter.com/braz/status/1149453237843582978\">tweeted</a> <a href=\"https://twitter.com/mwa4/status/1149675707016105985\">to ask</a>: <em>Isn’t this “nonconsensual technology” too?</em></p>\n\n<p>Clearly, the answer sounds like yes at first. Users get no indication of the update, and “requires no user action” makes it sound like it’s mandatory. But there <em>is</em> a setting to control this, allowing Mac users to disable the automatic installation of such updates. On MacOS 10.14 Mojave, it’s in System Prefs → Software Update → Advanced (<a href=\"/misc/2019/07/macos-10-14-system-prefs.png\">screenshot</a>); on 10.13 High Sierra, it’s in System Prefs → App Store (<a href=\"/misc/2019/07/macos-10-13-system-prefs.png\">screenshot</a>). In both versions, the checkbox is labeled “Install system data files and security updates”, and resides at the bottom of the section that controls what gets installed automatically.</p>\n\n<p>This option is enabled by default — even if you choose to install regular system updates manually — which is why the vast majority of Mac users are getting these “silent” updates automatically. But if you disable this option, even these silent updates won’t be installed automatically. I confirmed this with an Apple spokesperson, who emphasized that Apple only issues such updates “extremely judiciously”. Any pending security updates will be installed the next time you manually update software.</p>\n\n<p>I think Apple has struck a nearly perfect balance here, between doing what’s right for most users (installing these rare emergency updates automatically) and doing what’s right for power users who really do want to control when updates — even essential ones — are installed. I also think Apple is doing the right thing by going to the press and explaining when they issue such updates. If I could tweak anything, it would be to have these updates show up in the regular list of pending software updates <em>if</em> you have “Install system data files and security updates” turned off.</p>\n\n\n\n    "
+      },
+      {
+         "title" : "★ On Bill Gates’s ‘Greatest Mistake Ever’",
+         "date_published" : "2019-07-16T01:51:51Z",
+         "date_modified" : "2019-07-16T21:14:39Z",
+         "id" : "https://daringfireball.net/2019/07/gates_biggest_mistake",
+         "url" : "https://daringfireball.net/2019/07/gates_biggest_mistake",
+         "author" : {
+            "name" : "John Gruber"
+         },
+         "content_html" : "\n<p><a href=\"https://daringfireball.net/linked/2019/07/15/word-1-billion\">Speaking of</a> Microsoft and mobile, <a href=\"https://www.theverge.com/2019/6/24/18715202/microsoft-bill-gates-android-biggest-mistake-interview\">this story caught my eye a few weeks ago</a>:</p>\n\n<blockquote>\n  <p>Microsoft co-founder Bill Gates has been reflecting on his time at\nthe company when crucial decisions were made over its mobile\noperating system. During a recent interview at Village Global, a\nventure capital firm, Gates revealed his “greatest mistake ever”\nwas Microsoft missing the Android opportunity:</p>\n\n<p>“In the software world, particularly for platforms, these are\nwinner-take-all markets. So the greatest mistake ever is whatever\nmismanagement I engaged in that caused Microsoft not to be what\nAndroid is. That is, Android is the standard non-Apple phone\nplatform. That was a natural thing for Microsoft to win. It really\nis winner take all. If you’re there with half as many apps or 90\npercent as many apps, you’re on your way to complete doom. There’s\nroom for exactly one non-Apple operating system and what’s that\nworth? $400 billion that would be transferred from company G to\ncompany M.”</p>\n</blockquote>\n\n<p>A lot of the response to this has focused — correctly — on the antitrust implications of Gates’s “winner takes all” acknowledgement. Nilay Patel had a strong take: “<a href=\"https://www.theverge.com/2019/6/24/18715702/bill-gates-regulate-platforms-network-effect-android-mistake-microsoft\">Bill Gates Accidentally Makes the Case to Regulate the Hell Out of Platform Companies</a>”.<sup id=\"fnr1-2019-07-15\"><a href=\"#fn1-2019-07-15\">1</a></sup></p>\n\n<p>But I’m fascinated by the way he phrased the opportunity that Google seized with Android: to be “the standard non-Apple phone platform”. It’s just assumed in his thinking that the iPhone would have been the iPhone no matter what. Historically, that sounds bananas coming out of Bill Gates’s mouth.</p>\n\n<p>You can make a strong case, too, that Apple might not have survived its 1996-97 nadir without Microsoft’s support. I’ve always felt <a href=\"https://www.wired.com/2009/08/dayintech-0806/\">the $150 million investment in Apple</a> that Microsoft made in 1997 was overrated. It just wasn’t <em>that</em> much money, even for Apple at that time.<sup id=\"fnr2-2019-07-15\"><a href=\"#fn2-2019-07-15\">2</a></sup> It was symbolic theater — and it worked. The value for Apple wasn’t the money itself but the public show of confidence from Microsoft — the message that Microsoft was supporting Apple, not trying to crush them.</p>\n\n<p>But the real benefit for Apple — the factor that I think truly helped save the company — was securing a promise that Microsoft would continue to work on Office for Mac for at least another five years. And it wasn’t just token “support” — <a href=\"https://en.wikipedia.org/wiki/Microsoft_Office_98_Macintosh_Edition\">Office 98 for Mac</a> was a major update and <a href=\"https://blogs.msdn.microsoft.com/rick_schaut/2004/02/26/mac-word-6-0/\">truly improved the Mac-like-ness of the apps</a>. Here we are 22 years later and the Office for Mac apps are chart-toppers in the App Store.</p>\n\n<p>I don’t think it’s hyperbole to argue that the Mac probably wouldn’t have survived without Office, and possibly without a <em>good</em> version of Office. And in 1997 Apple wouldn’t have survived if the Mac platform hadn’t made a resurgence. Apple’s own iWork suite — Pages, Numbers, Keynote — didn’t ship until 2005. Microsoft Office singlehandedly kept the Mac a credible platform for classic productivity apps for 8 years.</p>\n\n<p>There were other third-party developers that Apple was dependent upon back then. Adobe certainly comes to mind — Apple needed the graphic design and illustration market, and that required (and still does require) Adobe’s pro apps. But it was never in Adobe’s interest <em>not</em> to continue supporting the Mac. If anything, it was in Adobe’s own interest to see the Mac thrive so that Adobe wouldn’t be dependent solely upon Microsoft and Windows.</p>\n\n<p>Microsoft, of course, <a href=\"https://en.wikipedia.org/wiki/United_States_v._Microsoft_Corp.\">had some serious antitrust problems in the ’90s</a>. If not for U.S. v. Microsoft, though, I wonder whether Gates would’ve chosen to drop Office for Mac and let Apple wither. I’m not saying anyone could have or should have predicted the iPhone and Apple’s dominance of mobile profits all the way back in 1997. Nobody really predicted what the iPhone would be in 2007, even. But if Microsoft had an inkling of what the iPhone would become, and where Android would come in and take over as, in Gates’s own words, “the standard non-Apple phone platform” by fast-following the iPhone’s basic all-display, all-multitouch design, maybe they’d have thought differently about helping Apple recover in 1997. With no Office 98, there might not have been an Apple to even make the iPhone in 2007. And <a href=\"https://www.technobuffalo.com/android-before-and-after-the-iphone\">with no iPhone in 2007</a> it’s impossible to say what the mobile phone state of the art would look like today. Without the iPhone, I think there’s a chance the mobile market would have continued on the same course it was on before the iPhone: dominated by crap software and BlackBerry-style hardware, with the carriers calling the shots. In that world, Microsoft might’ve had a chance.</p>\n\n<p>If losing the mobile market to Android was Gates’s biggest mistake, you can argue it started when he agreed to support Apple and the Mac in 1997.</p>\n\n<div class=\"footnotes\">\n<hr />\n<ol>\n\n<li id=\"fn1-2019-07-15\">\n<p>I’d be curious to hear Gates’s take on the console market, where there are <em>two</em> longstanding platforms — PlayStation and Xbox — sharing the non-Nintendo segment of the market. (Clearly Nintendo is the Apple of gaming.) With better licensing terms (Android being free of charge and open source was a huge boon compared to Microsoft’s mobile licensing) and a faster follow on an iPhone-inspired design, I’m not convinced that Windows Phone could not have been Xbox to Android’s Playstation.&nbsp;<a href=\"#fnr1-2019-07-15\"  class=\"footnoteBackLink\"  title=\"Jump back to footnote 1 in the text.\">&#x21A9;&#xFE0E;︎</a></p>\n</li>\n\n<li id=\"fn2-2019-07-15\">\n<p>Microsoft sold its Apple shares in 2003. If they’d held onto them for another decade <a href=\"https://www.engadget.com/2014/05/20/what-ever-became-of-microsofts-150-million-investment-in-apple/\">they would’ve made $20-30 billion</a>. Not that Microsoft has ever been strapped for cash.&nbsp;<a href=\"#fnr2-2019-07-15\"  class=\"footnoteBackLink\"  title=\"Jump back to footnote 2 in the text.\">&#x21A9;&#xFE0E;</a></p>\n</li>\n\n</ol>\n</div>\n\n\n\n    "
+      },
+      {
+         "title" : "★ On the Post-Ive Future of Design at Apple",
+         "date_published" : "2019-07-04T00:31:12Z",
+         "date_modified" : "2019-07-06T15:17:03Z",
+         "id" : "https://daringfireball.net/2019/07/on_the_post-ive_future_of_design_at_apple",
+         "url" : "https://daringfireball.net/2019/07/on_the_post-ive_future_of_design_at_apple",
+         "author" : {
+            "name" : "John Gruber"
+         },
+         "content_html" : "\n<p><a href=\"https://www.imore.com/after-jony-ive-whats-future-design-apple\">I did a brief chat with Rene Ritchie for Vector, his YouTube show, over the weekend</a>. I thought it was a great little interview — far more condensed than <a href=\"https://daringfireball.net/thetalkshow/2019/06/30/ep-256\">my own podcast</a>, and with a full transcript to boot.</p>\n\n<p>One key point that I missed <a href=\"https://daringfireball.net/2019/06/jony_ive_leaves_apple\">in my first take on Ive’s departure</a> is that having design chiefs Evans Hankey (Industrial Design) and Alan Dye (Human Interface Design) report directly to COO Jeff Williams <em>does</em> make sense organizationally. What I had missed is that coincident with the announcement of Ive’s departure, <a href=\"https://www.apple.com/leadership/sabih-khan/\">Apple promoted Sabih Khan to senior vice president of operations</a>. Apple hasn’t had an SVP of operations since Jeff Williams held the title, back when Tim Cook was COO under Steve Jobs. Back then Williams ran operations while Cook ran the company and Jobs devoted his remaining time to new products.</p>\n\n<p>Williams still holds the title COO, but titles don’t mean much at Apple. <em>Rank</em> matters, of course, and SVP is an elite level at Apple — <a href=\"https://www.apple.com/leadership/sabih-khan/\">there are only 13 executives at that level</a>, and one of them is still Jony Ive. But the literal titles don’t necessarily describe what executives do. Eddy Cue’s title — senior vice president of internet software and services — comes to mind. I don’t know where one would begin crafting a succinct title that accurately describes Cue’s domain, but that’s not it. That just doesn’t matter at Apple.</p>\n\n<p>This means Sabih Khan is running operations now. Jeff Williams’s title hasn’t changed, but he’s effectively now running product development. He’s led the Apple Watch product team from its inception; now I think he’s overseeing product for everything. Cook and Williams <em>did</em> run operations while holding the COO title, but what “COO” really means at Apple is “second in command”. Tim Cook didn’t move design under operations; he promoted Williams to a new position, effectively “chief product officer”, and as such it makes sense that Hankey and Dye would report to him.</p>\n\n<p>Only time will tell if that’s a better structure than replacing Jony Ive with a new chief design officer. But I feel a lot better about it than I did last week when the news broke.</p>\n\n\n\n    "
+      },
+      {
+         "title" : "★ Jony Ive Is Leaving Apple",
+         "date_published" : "2019-06-27T22:27:22Z",
+         "date_modified" : "2019-07-02T03:39:13Z",
+         "id" : "https://daringfireball.net/2019/06/jony_ive_leaves_apple",
+         "url" : "https://daringfireball.net/2019/06/jony_ive_leaves_apple",
+         "author" : {
+            "name" : "John Gruber"
+         },
+         "content_html" : "\n<p><a href=\"https://www.apple.com/newsroom/2019/06/jony-ive-to-form-independent-design-company-with-apple-as-client/\">Apple Newsroom</a>:</p>\n\n<blockquote>\n  <p>Apple today announced that Sir Jony Ive, Apple’s chief design\nofficer, will depart the company as an employee later this year to\nform an independent design company which will count Apple among\nits primary clients. While he pursues personal projects, Ive in\nhis new company will continue to work closely and on a range of\nprojects with Apple.</p>\n</blockquote>\n\n<p>First: <em>Wow</em>. There’ve been rumors for years that Ive had one foot out the door, that his last real interest at Apple was designing Apple Park, not Apple products. But it’s something else to see it. This angle that he’s still going to work with Apple as an independent design firm seems like pure spin. You’re either at Apple or you’re not. Ive is out. </p>\n\n<p>Second: This dropped like a bomb. As far as I can tell <em>no one</em> in the media got a heads up about this news. Ever since Steve Jobs died it’s seemed to me that Ive ran his own media interaction.</p>\n\n<p>Third: This may be <em>good</em> news. Ive is, to state the obvious, preternaturally talented. But in the post-Jobs era, with all of Apple design, hardware and software, under his control, we’ve seen the software design decline and the hardware go wonky. I don’t know the inside story, but it certainly seems like a good bet that the MacBook keyboard fiasco we’re still in the midst of is the direct result of Jony Ive’s obsession with device thinness and minimalism. Today’s MacBooks are worse computers but more beautiful devices than the ones they replaced. Is that directly attributable to Jony Ive? With these keyboards in particular, I believe the answer is yes.</p>\n\n<p>Fourth: Apple’s hardware and industrial design teams work so far out that, even if I’m right and Ive is now effectively out of Apple, we’ll still be seeing Ive-designed hardware 5 years from now. It is going to take a long time to evaluate his absence.</p>\n\n<p>Fifth: Fuck this “sir” shit. We don’t have titles in the United States.</p>\n\n<blockquote>\n  <p>“Jony is a singular figure in the design world and his role in\nApple’s revival cannot be overstated, from 1998’s groundbreaking\niMac to the iPhone and the unprecedented ambition of Apple Park,\nwhere recently he has been putting so much of his energy and\ncare,” said Tim Cook, Apple’s CEO. “Apple will continue to benefit\nfrom Jony’s talents by working directly with him on exclusive\nprojects, and through the ongoing work of the brilliant and\npassionate design team he has built. After so many years working\nclosely together, I’m happy that our relationship continues to\nevolve and I look forward to working with Jony long into the\nfuture.”</p>\n</blockquote>\n\n<p>Translation: He’s gone.</p>\n\n<blockquote>\n  <p>Design team leaders Evans Hankey, vice president of Industrial\nDesign, and Alan Dye, vice president of Human Interface Design,\nwill report to Jeff Williams, Apple’s chief operating officer.</p>\n</blockquote>\n\n<p>This organizational structure makes no sense to me.</p>\n\n<p>I’ve never been an “Apple is doomed without Steve Jobs” person. But part of what made Apple the Apple we know in the post-1997 era is that when Jobs was at the helm, <em>all</em> design decisions were going through someone with great taste. Not perfect taste, but great taste. But the other part of what made Jobs such a great leader is that he could recognize bad decisions, sooner rather than later, and get them fixed.</p>\n\n<p>I think Tim Cook is a great CEO and Jeff Williams is a great COO. But who’s in charge of product design now? There is no new chief design officer, which, really, is what Steve Jobs always was. From a product standpoint, the post-Jobs era at Apple has been the Jony Ive era, not the Tim Cook era. That’s <em>not</em> a knock on Tim Cook. To his credit, Tim Cook has <em>never</em> pretended to be a product guy, which is exactly the hubris that John Sculley succumbed to back in the early ’90s, leading to the Newton being launched far before it was ready and the Macintosh platform languishing.</p>\n\n<p>My gut sense for years has been that Ive without Jobs has been like McCartney without Lennon. Or Lennon without McCartney — take whichever analogical pairing you prefer. My point here is only that the fruit of their collaborations were, seemingly magically, far greater than the sums of the duos’ talents and tastes.</p>\n\n<p>One thing I do know — which Cook alludes to in his statement above, and which I think was made crystal clear in <a href=\"https://www.newyorker.com/magazine/2015/02/23/shape-things-come\">Ian Parker’s extraordinary 2015 profile of Ive in The New Yorker</a>, which is, in my opinion, the most insightful piece ever written about post-Jobs Apple — is that Jony Ive had moved beyond designing computers. And let’s be clear: the entire point of Apple has always been and should always remain designing computers. Everything they make is a computer. Their genius in recent years has been making things that don’t seem like computers but really are computers. Apple Watch is a computer. AirPods are computers. We’ve got computers — excellent computers — in our fucking ears. That’s Apple.</p>\n\n<p>But Ive’s attention turned more toward architecture. Apple Park is going to be a 100-year testimony to Jony Ive’s design. And it’s fascinating to me that Ive is leaving Apple with a single typeface — San Francisco — that the company now uses for <em>everything</em>. It’s the system font for every platform. It’s the only font they use for advertising and packaging. Type choices under Steve Jobs were excellent, but always a little ad hoc. Myriad for advertising and packaging, Lucida Grande for Mac OS X, Helvetica for the iPhone. I think it’s safe to say that Steve Jobs was far less rigorous than Jony Ive. The rigor necessary to develop a single type family that can work for everything from a digital watch face to a 100-foot billboard advertisement is extraordinary. And Ive has also brought that rigorous consistency to Apple’s architecture. Their new campus and their new retail stores are of the same design language — lighting, materials, furniture.</p>\n\n<p>But Apple doesn’t need a chief architect. They’re only going to build one Apple Park and it’s already been done.</p>\n\n<p>It makes me queasy to see that Apple’s chief designers are now reporting to operations. This makes no more sense to me than having them report to the LLVM compiler team in the Xcode group. Again, nothing against Jeff Williams, nothing against the LLVM team, but someone needs to be in charge of design for Apple to be Apple and I can’t see how that comes from operations. I don’t think that “chief design officer” should have been a one-off title created just for Jony Ive. Not just for Apple, <em>but especially at Apple</em>, it should be a permanent C-level title. I don’t think Ive ever should have been put in control of software design, but at least he is a designer.</p>\n\n<p>I don’t worry that Apple is in trouble because Jony Ive is leaving; I worry that Apple is in trouble because he’s not being replaced.</p>\n\n\n\n    "
+      }
+   ]
+}

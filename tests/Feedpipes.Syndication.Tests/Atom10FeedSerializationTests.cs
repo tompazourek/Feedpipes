@@ -18,7 +18,7 @@ namespace Feedpipes.Syndication.Tests
         public void ParseAndFormat(SampleFeed embeddedDocument)
         {
             // arrange
-            var document1 = embeddedDocument.Document;
+            var document1 = embeddedDocument.XDocument;
 
             // action
             var tryParseResult = Atom10FeedParser.TryParseAtom10Feed(document1, out var feed);
@@ -48,10 +48,10 @@ namespace Feedpipes.Syndication.Tests
 
         public class ParseAndFormatData : SampleFeedTestsClassDataBase
         {
-            public override IEnumerable<string> XmlFileNames => new[]
+            public override IEnumerable<string> FileNames => new[]
             {
-                "_atom10-sample01",
-                "_atom10-sample02",
+                "_atom10-sample01.xml",
+                "_atom10-sample02.xml",
             };
         }
 
@@ -60,7 +60,7 @@ namespace Feedpipes.Syndication.Tests
         public void ParseWithoutCrashing(SampleFeed embeddedDocument)
         {
             // arrange
-            var document = embeddedDocument.Document;
+            var document = embeddedDocument.XDocument;
 
             // action
             // ReSharper disable once UnusedVariable
@@ -72,7 +72,7 @@ namespace Feedpipes.Syndication.Tests
 
         public class ParseWithoutCrashingData : SampleFeedTestsClassDataBase
         {
-            public override bool CustomFilter(SampleFeed x) => x.Document?.Root?.Name.LocalName == "feed";
+            public override bool CustomFilter(SampleFeed x) => x.XDocument?.Root?.Name.LocalName == "feed";
         }
 
         [Fact]

@@ -7,7 +7,7 @@ using Feedpipes.Syndication.Extensions;
 using Feedpipes.Syndication.Rss10;
 using Feedpipes.Syndication.Rss20.Entities;
 using Feedpipes.Syndication.Timestamps.Rfc822;
-using Feedpipes.Syndication.Xml;
+using Feedpipes.Syndication.Utils.Xml;
 
 namespace Feedpipes.Syndication.Rss20
 {

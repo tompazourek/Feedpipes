@@ -4,7 +4,7 @@ using System.Linq;
 using System.Xml.Linq;
 using Feedpipes.Syndication.Extensions.DublinCore.Entities;
 using Feedpipes.Syndication.Timestamps.Rfc3339;
-using Feedpipes.Syndication.Xml;
+using Feedpipes.Syndication.Utils.Xml;
 
 namespace Feedpipes.Syndication.Extensions.DublinCore
 {

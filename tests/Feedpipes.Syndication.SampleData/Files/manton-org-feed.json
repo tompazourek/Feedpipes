@@ -1,0 +1,184 @@
+{
+	"version": "https://jsonfeed.org/version/1",
+	"title": "Manton Reece",
+	"icon": "https://micro.blog/manton/avatar.jpg",
+	"home_page_url": "https://www.manton.org/",
+	"feed_url": "https://www.manton.org/feed.json",
+	"items": [
+			{
+				"id": "http://manton.micro.blog/2019/08/27/thanks-to-wp.html",
+				
+				"content_html": "<p><a href=\"https://wptavern.com/micro-blog-adds-tumblr-cross-posting\">Thanks to WP Tavern</a> for writing about Micro.blog and our Tumblr features! Great summary of the role of Tumblr, other social networks, and MarsEdit.</p>\n",
+				"date_published": "2019-08-27T08:41:40-05:00",
+				"url": "https://www.manton.org/2019/08/27/thanks-to-wp.html"
+			},
+			{
+				"id": "http://manton.micro.blog/2019/08/26/heres-my-blog.html",
+				
+				"content_html": "<p>Here&rsquo;s <a href=\"https://www.manton.org/2002/09/26/moving-to-netnewswire.html\">my blog post from 2002</a> (!) about moving to NetNewsWire. Feels a little like history repeating itself, but in a good way. Let&rsquo;s move the open web forward again.</p>\n",
+				"date_published": "2019-08-26T17:09:20-05:00",
+				"url": "https://www.manton.org/2019/08/26/heres-my-blog.html"
+			},
+			{
+				"id": "http://manton.micro.blog/2019/08/26/netnewswire.html",
+				"title": "NetNewsWire 5.0",
+				"content_html": "<p>Congratulations to Brent Simmons and all the contributors of NetNewsWire for shipping version 5.0 today. <a href=\"https://inessential.com/2019/08/26/netnewswire_5_0_now_available\">Here&rsquo;s Brent</a> with the announcement:</p>\n\n<blockquote>\n<p>This release took five years to make, and for four of those years it wasn’t even called NetNewsWire. It was just a year ago that I <a href=\"https://inessential.com/2018/08/31/netnewswire_comes_home\">got the name NetNewsWire back from Black Pixel</a> — and I thank them again for their wonderful generosity.</p>\n</blockquote>\n\n<p>Each major new version of an app is an opportunity to refocus, and NetNewsWire 5.0 prioritizes all the right things: it&rsquo;s fast, embraces the open web, and feels at home on the Mac. NetNewsWire 5.0 takes everything Brent learned from previous versions, but rebuilt from scratch with modern features like Feedbin syncing, Dark Mode, and JSON Feed support.</p>\n\n<p>And for folks on Micro.blog, NetNewsWire 5.0 also includes a sharing option to start a new microblog post right from an article you&rsquo;re reading in NetNewsWire. It&rsquo;s a great way to quickly share links on your microblog.</p>\n",
+				"date_published": "2019-08-26T11:16:13-05:00",
+				"url": "https://www.manton.org/2019/08/26/netnewswire.html"
+			},
+			{
+				"id": "http://manton.micro.blog/2019/08/26/downloaded-my-foursquare.html",
+				
+				"content_html": "<p>Downloaded my Foursquare archive (about 2500 check-ins over 8 years), thinking I might make it public and import it into my microblog. Micro.blog will always default to never storing any location information, but maybe a per-post option? Feedback welcome.</p>\n",
+				"date_published": "2019-08-26T10:51:42-05:00",
+				"url": "https://www.manton.org/2019/08/26/downloaded-my-foursquare.html"
+			},
+			{
+				"id": "http://manton.micro.blog/2019/08/26/some-days-i.html",
+				
+				"content_html": "<p>Some days I just want to view The New York Times home page <em>without</em> any stories that mention Trump in the headline. Maybe a Safari extension like <a href=\"https://micro.blog/chockenberry\">@chockenberry</a>&rsquo;s <a href=\"https://twitter.com/chockenberry/status/1162440345830846464\">Fixerrific</a>, which hides Twitter trends?</p>\n",
+				"date_published": "2019-08-26T07:50:05-05:00",
+				"url": "https://www.manton.org/2019/08/26/some-days-i.html"
+			},
+			{
+				"id": "http://manton.micro.blog/2019/08/25/adding-more-emoji.html",
+				
+				"content_html": "<p>Adding more emoji to Discover in Micro.blog. It&rsquo;ll take a little while to update with all the posts, but now we&rsquo;ve got art 🎨🖌, camping 🏕⛺️, beer 🍺🍻, and wine 🍷… plus a new &ldquo;Show More&rdquo; popup menu item on the web and in the iOS beta.</p>\n",
+				"date_published": "2019-08-25T18:29:39-05:00",
+				"url": "https://www.manton.org/2019/08/25/adding-more-emoji.html"
+			},
+			{
+				"id": "http://manton.micro.blog/2019/08/25/posted-a-new.html",
+				
+				"content_html": "<p>Posted a new Micro.blog iOS beta for TestFlight today with a bunch of Dark Mode improvements. You can <a href=\"https://testflight.apple.com/join/ZiEDiuUK\">join the beta here</a>.</p>\n",
+				"date_published": "2019-08-25T15:02:18-05:00",
+				"url": "https://www.manton.org/2019/08/25/posted-a-new.html"
+			},
+			{
+				"id": "http://manton.micro.blog/2019/08/24/last-night-we.html",
+				
+				"content_html": "<p>Last night we posted <a href=\"https://coreint.org/2019/08/episode-385-have-some-faith-in-myself/\">episode 385 of Core Intuition</a>. <a href=\"https://micro.blog/danielpunkass\">@danielpunkass</a> and I talk about whether we should try to &ldquo;revolutionize&rdquo; our market, more on Tumblr&rsquo;s future, and the ambition to compete with bigger companies.</p>\n",
+				"date_published": "2019-08-24T09:05:25-05:00",
+				"url": "https://www.manton.org/2019/08/24/last-night-we.html"
+			},
+			{
+				"id": "http://manton.micro.blog/2019/08/23/fixed-a-couple.html",
+				
+				"content_html": "<p>Fixed a couple issues with <a href=\"https://www.manton.org/2019/08/23/tumblr-crossposting.html\">today&rsquo;s Tumblr-related features</a>. Large file uploads should also now work from Chrome. (I really shouldn&rsquo;t only test in Safari.)</p>\n",
+				"date_published": "2019-08-23T16:03:40-05:00",
+				"url": "https://www.manton.org/2019/08/23/fixed-a-couple.html"
+			},
+			{
+				"id": "http://manton.micro.blog/2019/08/23/tumblr-crossposting.html",
+				"title": "Tumblr cross-posting",
+				"content_html": "<p>I&rsquo;ve decided to add Tumblr as a cross-posting service in Micro.blog. This means Micro.blog can take your blog posts and automatically copy them to a Tumblr blog.</p>\n\n<p>I usually avoid adding <em>blog hosting</em> services to Micro.blog&rsquo;s available cross-posting destinations. After all, if it&rsquo;s a good blog host that I could recommend as your primary blog, why not just post everything there instead of using Micro.blog&rsquo;s own blog hosting? But the more I&rsquo;ve used Tumblr in the last couple of weeks, the more I think about Tumblr as a community first and a blog host second.</p>\n\n<p>To add a Tumblr blog in Micro.blog, on the web click Account → &ldquo;Edit Feeds &amp; Cross-posting&rdquo; → &ldquo;Add Tumblr&rdquo;.</p>\n\n<p><img src=\"https://www.manton.org/uploads/2019/260e758169.png\" width=\"500\" height=\"219\" alt=\"Micro.blog screenshot\" /></p>\n\n<p>In related news, I&rsquo;ve removed the upload file size limit when importing a Tumblr blog archive to use Micro.blog hosting. If you have a Tumblr, Medium, or WordPress blog that you&rsquo;d like to migrate to Micro.blog, click Posts → Import.</p>\n",
+				"date_published": "2019-08-23T10:47:44-05:00",
+				"url": "https://www.manton.org/2019/08/23/tumblr-crossposting.html"
+			},
+			{
+				"id": "http://manton.micro.blog/2019/08/23/sometimes-as-i.html",
+				
+				"content_html": "<p>Sometimes as I work on new features using a test blog, I fool myself into thinking I&rsquo;m actually blogging and kind of neglect my real blog. Might try to catch up writing about a few topics this weekend.</p>\n",
+				"date_published": "2019-08-23T10:13:02-05:00",
+				"url": "https://www.manton.org/2019/08/23/sometimes-as-i.html"
+			},
+			{
+				"id": "http://manton.micro.blog/2019/08/20/it-only-took.html",
+				
+				"content_html": "<p>It only took buying 4 packs of LEGO minifigures to get Mickey from Steamboat Willie.</p>\n\n<p><img src=\"https://www.manton.org/uploads/2019/6bed7a6c48.jpg\" width=\"600\" height=\"600\" alt=\"\" /></p>\n",
+				"date_published": "2019-08-20T17:38:34-05:00",
+				"url": "https://www.manton.org/2019/08/20/it-only-took.html"
+			},
+			{
+				"id": "http://manton.micro.blog/2019/08/20/ive-switched-on.html",
+				
+				"content_html": "<p>I&rsquo;ve switched on <code>robots.txt</code> files for all Micro.blog-hosted blogs, by default allowing full indexing. It&rsquo;ll appear the next time your blog updates. <a href=\"https://help.micro.blog/2019/robots/\">I also wrote a help page</a> with how to disable or customize the file.</p>\n",
+				"date_published": "2019-08-20T16:33:59-05:00",
+				"url": "https://www.manton.org/2019/08/20/ive-switched-on.html"
+			},
+			{
+				"id": "http://manton.micro.blog/2019/08/20/hong-kong-and.html",
+				"title": "Hong Kong and trending misinformation",
+				"content_html": "<p><a href=\"https://blog.twitter.com/en_us/topics/company/2019/information_operations_directed_at_Hong_Kong.html\">Twitter announced in a blog post</a> that they have removed over 900 fake accounts spreading misinformation about the protests in Hong Kong:</p>\n\n<blockquote>\n<p>This disclosure consists of 936 accounts originating from within the People’s Republic of China (PRC). Overall, these accounts were deliberately and specifically attempting to sow political discord in Hong Kong, including undermining the legitimacy and political positions of the protest movement on the ground. Based on our intensive investigations, we have reliable evidence to support that this is a coordinated state-backed operation.</p>\n</blockquote>\n\n<p>I like that Twitter is being proactive and transparent about this. It&rsquo;s especially remarkable that they notified a competitor, Facebook, about similar fake accounts on Facebook&rsquo;s platform.</p>\n\n<p>Unfortunately there&rsquo;s a deeper problem here. It&rsquo;s not just the fake accounts and misinformation, but the way that Twitter&rsquo;s design can be exploited. It is too easy to piggyback on trending hashtags to gain exposure.</p>\n\n<p>Maciej Cegłowski of Pinboard <a href=\"https://twitter.com/Pinboard/status/1162711159000055808\">called attention to the promoted tweets</a>:</p>\n\n<blockquote>\n<p>Every day I go out and see stuff with my own eyes, and then I go to report it on Twitter and see promoted tweets saying the opposite of what I saw. Twitter is taking money from Chinese propaganda outfits and running these promoted tweets against the top Hong Kong protest hashtags</p>\n</blockquote>\n\n<p>I wrote about this <a href=\"https://manton.org/2018/01/09/books-on-microblog.html\">in 2018</a> when introducing Micro.blog&rsquo;s emoji feature:</p>\n\n<blockquote>\n<p>Hashtags and Twitter trends go together. They can be a powerful way to organize people and topics together across followers. But they can also be gamed, with troublemakers using popular hashtags to hijack your search results for their own promotion or unrelated ranting.</p>\n</blockquote>\n\n<p>We&rsquo;ve expanded search and discovery in Micro.blog slowly for this reason. While Micro.blog is certainly too small to attract the attention of state-run propaganda, there has been spam going through Micro.blog that no one else sees. I&rsquo;m convinced that limited search, no trends, and active curation are the right foundation so we don&rsquo;t end up with a design that creates problems when Micro.blog does get bigger.</p>\n",
+				"date_published": "2019-08-20T15:33:10-05:00",
+				"url": "https://www.manton.org/2019/08/20/hong-kong-and.html"
+			},
+			{
+				"id": "http://manton.micro.blog/2019/08/20/i-dont-love.html",
+				
+				"content_html": "<p>I don&rsquo;t love that today&rsquo;s <a href=\"https://www.apple.com/newsroom/2019/08/apple-card-launches-today-for-all-us-customers/\">Apple Card press release</a> is also an ad for Uber. Is Uber really the best company that Apple could choose to exclusively promote today?</p>\n",
+				"date_published": "2019-08-20T08:49:29-05:00",
+				"url": "https://www.manton.org/2019/08/20/i-dont-love.html"
+			},
+			{
+				"id": "http://manton.micro.blog/2019/08/19/i-added-a.html",
+				
+				"content_html": "<p>I added a <a href=\"http://bit.ly/2TKkVIS\">new grid of featured photos</a> on Micro.blog today. This matches the photos collection in Discover, but with thumbnails and scrolling back through more posts.</p>\n",
+				"date_published": "2019-08-19T14:54:17-05:00",
+				"url": "https://www.manton.org/2019/08/19/i-added-a.html"
+			},
+			{
+				"id": "http://manton.micro.blog/2019/08/16/tumblr-wasnt-the.html",
+				
+				"content_html": "<p>Tumblr wasn&rsquo;t the only big news in blogging land this week. <a href=\"https://ranchero.com/netnewswire/\">NetNewsWire 5</a> is now in beta! Share to Micro.blog, sync with Feedbin, and more&hellip; I love that NetNewsWire is back.</p>\n",
+				"date_published": "2019-08-16T16:44:35-05:00",
+				"url": "https://www.manton.org/2019/08/16/tumblr-wasnt-the.html"
+			},
+			{
+				"id": "http://manton.micro.blog/2019/08/16/reminder-if-you.html",
+				
+				"content_html": "<p>Reminder if you want to save a little on your Micro.blog subscription, you can pay for a full year instead of monthly. I added <a href=\"https://help.micro.blog/2019/yearly/\">a help page here</a>.</p>\n",
+				"date_published": "2019-08-16T15:25:05-05:00",
+				"url": "https://www.manton.org/2019/08/16/reminder-if-you.html"
+			},
+			{
+				"id": "http://manton.micro.blog/2019/08/16/dark-mode-preview.html",
+				"title": "Dark mode preview for iOS 13",
+				"content_html": "<p>In all the Mac and iOS software I&rsquo;ve worked on over the years, I don&rsquo;t think I&rsquo;ve ever had a new release ready as soon as Apple shipped their major updates to macOS or iOS. The timing just never works out, so I update a couple of weeks or months later. For iOS 13, I&rsquo;m finally ahead of the game.</p>\n\n<p>I just updated the beta of Micro.blog for iOS with a couple fixes, especially for dark mode on iOS 13. There&rsquo;s more to do, but I feel really good about being able to have this ready.</p>\n\n<p><img src=\"https://www.manton.org/uploads/2019/ac3cdc06a5.jpg\" alt=\"Micro.blog dark mode\" border=\"0\" width=\"500\" height=\"331\" /></p>\n\n<p>If you&rsquo;re running the beta of iOS 13, you can <a href=\"https://testflight.apple.com/join/ZiEDiuUK\">sign up for the Micro.blog beta here</a>. Thanks for testing!</p>\n",
+				"date_published": "2019-08-16T13:54:20-05:00",
+				"url": "https://www.manton.org/2019/08/16/dark-mode-preview.html"
+			},
+			{
+				"id": "http://manton.micro.blog/2019/08/15/tumblr-integration-with.html",
+				"title": "Tumblr integration with Micro.blog",
+				"content_html": "<p>I&rsquo;m excited to see where Automattic takes Tumblr, but even today there are already several Tumblr-related features built in to Micro.blog. Here are a few ways that Micro.blog can integrate with Tumblr.</p>\n\n<p><strong>Follow Tumblr users on Micro.blog:</strong> Micro.blog tries to play nicely with the rest of the web, so you aren&rsquo;t limited to just following Micro.blog users. To follow someone&rsquo;s Tumblr blog, on Micro.blog click Discover, then click the search icon, and enter their Tumblr domain name:</p>\n\n<p><img src=\"https://www.manton.org/uploads/2019/e5a65fcc64.png\" alt=\"Tumblr follow\" border=\"0\" width=\"314\" height=\"119\" style=\"width: 314px;\" /></p>\n\n<p>Click on the Tumblr user to preview their posts and follow them. Now when they post to their blog, those posts from Tumblr will appear in the Micro.blog timeline. Short posts, photo posts, and art from Tumblr look great in Micro.blog.</p>\n\n<p><strong>Add your Tumblr feed to Micro.blog:</strong> If you actively post to Tumblr and also have a Micro.blog account, you can add your Tumblr RSS feed to Micro.blog so that when someone follows you on Micro.blog, they see posts from both your main microblog and your Tumblr blog.</p>\n\n<p>Click Account → Edit Feeds &amp; Cross-posting, then paste in your Tumblr RSS feed:</p>\n\n<p><img src=\"https://www.manton.org/uploads/2019/4c645b39b7.png\" alt=\"Tumblr feed\" border=\"0\" width=\"564\" height=\"111\" /></p>\n\n<p><strong>Import your Tumblr blog to Micro.blog:</strong> Maybe you no longer maintain your Tumblr blog and want to move your old posts over to Micro.blog. First, export your posts from the Tumblr dashboard. That will give you a .zip file you can import into Micro.blog under Posts → Import.</p>\n",
+				"date_published": "2019-08-15T14:20:08-05:00",
+				"url": "https://www.manton.org/2019/08/15/tumblr-integration-with.html"
+			},
+			{
+				"id": "http://manton.micro.blog/2019/08/15/the-latest-core.html",
+				
+				"content_html": "<p><a href=\"https://coreint.org/2019/08/episode-384-a-much-bigger-megaphone/\">The latest Core Intuition</a> is all about Tumblr! <a href=\"https://micro.blog/danielpunkass\">@danielpunkass</a> and I talk about what the acquisition by Automattic means for Micro.blog, MarsEdit, and general optimism for the open web.</p>\n",
+				"date_published": "2019-08-15T11:07:52-05:00",
+				"url": "https://www.manton.org/2019/08/15/the-latest-core.html"
+			},
+			{
+				"id": "http://manton.micro.blog/2019/08/13/looking-at-the.html",
+				
+				"content_html": "<p>Looking at the NBA schedule, Spurs are clearly underestimated again. ESPN and TNT only covering 5 games for the whole season. 🏀</p>\n",
+				"date_published": "2019-08-13T13:24:13-05:00",
+				"url": "https://www.manton.org/2019/08/13/looking-at-the.html"
+			},
+			{
+				"id": "http://manton.micro.blog/2019/08/13/tumblr-and-appnet.html",
+				"title": "Tumblr and… App.net",
+				"content_html": "<p>Thanks to the &ldquo;on this day&rdquo; feature <a href=\"https://github.com/cleverdevil/micromemories\">that Jonathan LaCour built</a> for Micro.blog-hosted blogs, I noticed that 7 years ago yesterday <a href=\"https://www.manton.org/2012/08/12/appnets-great-start.html\">I blogged about App.net reaching their funding goal</a>. I still get asked about App.net sometimes. It is easy to look back on something that didn&rsquo;t last and pick it apart. I&rsquo;d rather look at the good things that came out of App.net.</p>\n\n<p>When it was shutting down, I blogged <a href=\"https://www.manton.org/2017/01/06/thank-you-to.html\">my thanks to the App.net community</a>:</p>\n\n<blockquote>\n<p><a href=\"http://www.manton.org/2013/08/waiting_for_appnets.html\">I wrote in 2013</a> that it was not just a Twitter clone but an <em>amplifier</em> for applications that couldn’t be built before. It came along at the right time, took off, and then faded. The App.net founders deserve significant credit and thanks for trying something risky and succeeding to grow a community that lasted so long.</p>\n</blockquote>\n\n<p>There is a guiding principle in Micro.blog that differentiates it from nearly every other platform. It&rsquo;s not only about creating an alternative social network. The foundation is around blogs and IndieWeb standards because that&rsquo;s <a href=\"https://manton.org/2018/09/07/the-way-out.html\">part of unrolling the damage caused by massive silos</a>.</p>\n\n<p>Micro.blog is also designed around blogs because it gives immediate value to the platform, insulating it against the network effect that drives the success or failure of most other social networks: not all your friends are there yet. Unlike ad-supported platforms, Micro.blog aligns its business model with customer needs. Subscriptions for blog hosting let us deliver the best features we can, and also help support the rest of the platform.</p>\n\n<p>Brent Simmons really <a href=\"https://inessential.com/2018/02/01/why_micro_blog_is_not_another_app_net\">said it best</a>:</p>\n\n<blockquote>\n<p>Micro.blog is not an alternative silo: instead, it’s what you build when you believe that <em>the web itself</em> is the great social network.</p>\n</blockquote>\n\n<p>I often look back at this quote to help guide me as I evaluate the direction of Micro.blog. I believe that Micro.blog is the first platform of its kind. The closest competition might be Tumblr, <a href=\"https://photomatt.tumblr.com/post/186964618222/automattic-tumblr\">acquired yesterday by Automattic</a>.</p>\n\n<p>Of course it was coincidence that Automattic acquired Tumblr pretty much exactly 7 years after App.net was funded. No one is paying attention to those dates. And yet, now that I&rsquo;ve noticed it, there&rsquo;s a kind of symbolism to it. Tumblr is effectively being re-funded.</p>\n\n<p>Like Micro.blog, Tumblr is about making blogging easier. Like Micro.blog, Tumblr allows custom domain names for your blog, something no other major social network allows. Unlike Micro.blog, however, Tumblr&rsquo;s community is only Tumblr blogs. Micro.blog&rsquo;s community brings together not just Micro.blog-hosted blogs, but people using WordPress, Mastodon, or home-grown IndieWeb solutions.</p>\n\n<p>Matt Mullenweg and the Automattic team have a bunch of work ahead of them to integrate Tumblr into the WordPress ecosystem. I don&rsquo;t know how that&rsquo;s going to play out, but I know that preserving all the Tumblr blogs and giving them new life <em>is a good thing</em>.</p>\n\n<p>I wonder if Micro.blog and Automattic are on parallel tracks. Two companies wildly different in size and scope, but we can all learn from platforms that have come and gone, finding our own path to a shared vision of the future that embraces content ownership, supports healthy communities, and deemphasizes massive social networks. I&rsquo;m wishing the team at Automattic the best.</p>\n",
+				"date_published": "2019-08-13T10:16:06-05:00",
+				"url": "https://www.manton.org/2019/08/13/tumblr-and-appnet.html"
+			},
+			{
+				"id": "http://manton.micro.blog/2019/08/12/photo-challenge-for.html",
+				
+				"content_html": "<p>Photo challenge for yesterday, day 7: relief. Making it all the way through IKEA without buying everything.</p>\n\n<p><img src=\"https://www.manton.org/uploads/2019/13310ecc07.jpg\" width=\"600\" height=\"600\" alt=\"\" /></p>\n",
+				"date_published": "2019-08-12T22:11:04-05:00",
+				"url": "https://www.manton.org/2019/08/12/photo-challenge-for.html"
+			},
+			{
+				"id": "http://manton.micro.blog/2019/08/12/podcast-download-stats.html",
+				"title": "Podcast download stats",
+				"content_html": "<p>Micro.blog is not a popularity contest. We don&rsquo;t have follower counts or public likes because we think those numbers have overshadowed more important aspects of blogging, like the quality of writing and engagement within the community. But we do hear from podcasters using Micro.blog who hope to one day have sponsors for their podcast, and so they do need to know approximately how many listeners they have.</p>\n\n<p>Today we&rsquo;ve added a setting to enable basic MP3 download counts if you&rsquo;re <a href=\"https://micro.blog/new/audio\">hosting your podcast on Micro.blog</a>. It is off by default. It&rsquo;s likely that most podcasts — especially podcasts that are just getting started — do not have many listeners, and that&rsquo;s fine! If you don&rsquo;t plan to have sponsors for your podcast, you can ignore this setting.</p>\n\n<p>It takes time to build an audience. Don&rsquo;t get discouraged. There&rsquo;s value in telling your story whether it reaches 5 people or 500. I love recording my microcast <a href=\"http://timetable.fm/\">Timetable</a> because it helps me think through things I&rsquo;m working on and share that process with anyone who is interested in Micro.blog.</p>\n\n<p>There aren&rsquo;t any fancy graphs for this feature. Just a download number for each episode under Posts on the web, next to the &ldquo;Edit&rdquo; and &ldquo;Delete&rdquo; buttons. You can enable it with a checkbox from Posts → Design. Micro.blog is not tracking the downloads until you enable it, and it doesn&rsquo;t count you viewing your own podcast, so initially there won&rsquo;t be anything to see until your podcast feed is refreshed and your MP3s are downloaded again.</p>\n\n<p><img src=\"https://www.manton.org/uploads/2019/0083c70856.png\" alt=\"Micro.blog stats screenshot\" border=\"0\" width=\"472\" height=\"54\" /></p>\n\n<p>With this setting enabled, Micro.blog modifies your podcast feed to use different MP3 download URLs. It may take some time before the new URLs make it to all your listeners.</p>\n\n<p>Micro.blog&rsquo;s download tracking does not closely follow the <a href=\"https://www.iab.com/guidelines/podcast-measurement-guidelines/\">IAB guidelines</a> yet. It is intended as a rough estimate. I&rsquo;ll be working toward IAB compliance in the future.</p>\n\n<p>Happy podcasting! Let me know if you have any feedback.</p>\n",
+				"date_published": "2019-08-12T13:09:16-05:00",
+				"url": "https://www.manton.org/2019/08/12/podcast-download-stats.html"
+			}
+	]
+}

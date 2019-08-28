@@ -17,7 +17,7 @@ namespace Feedpipes.Syndication.Tests
         public void ParseAndFormat(SampleFeed embeddedDocument)
         {
             // arrange
-            var document1 = embeddedDocument.Document;
+            var document1 = embeddedDocument.XDocument;
 
             // action
             var tryParseResult = Rss10FeedParser.TryParseRss10Feed(document1, out var feed);
@@ -47,10 +47,10 @@ namespace Feedpipes.Syndication.Tests
 
         public class ParseAndFormatData : SampleFeedTestsClassDataBase
         {
-            public override IEnumerable<string> XmlFileNames => new[]
+            public override IEnumerable<string> FileNames => new[]
             {
-                "_rss10-sample01",
-                "_rss10-sample02",
+                "_rss10-sample01.xml",
+                "_rss10-sample02.xml",
             };
         }
 
@@ -59,7 +59,7 @@ namespace Feedpipes.Syndication.Tests
         public void ParseWithoutCrashing(SampleFeed embeddedDocument)
         {
             // arrange
-            var document = embeddedDocument.Document;
+            var document = embeddedDocument.XDocument;
 
             // action
             // ReSharper disable once UnusedVariable
@@ -73,12 +73,12 @@ namespace Feedpipes.Syndication.Tests
         {
             public override bool CustomFilter(SampleFeed x)
             {
-                if (x.Document?.Root?.Name != Rss10Constants.RdfNamespace + "RDF")
+                if (x.XDocument?.Root?.Name != Rss10Constants.RdfNamespace + "RDF")
                     return false;
 
                 var recognizedNamespaceNames = Rss10Constants.RecognizedNamespaces.Select(y => y.NamespaceName).ToHashSet();
 
-                if (!recognizedNamespaceNames.Contains(x.Document?.Root?.Attribute("xmlns")?.Value))
+                if (!recognizedNamespaceNames.Contains(x.XDocument?.Root?.Attribute("xmlns")?.Value))
                     return false;
 
                 return true;

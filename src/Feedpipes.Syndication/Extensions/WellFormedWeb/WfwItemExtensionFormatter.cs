@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Xml.Linq;
 using Feedpipes.Syndication.Extensions.WellFormedWeb.Entities;
-using Feedpipes.Syndication.Xml;
+using Feedpipes.Syndication.Utils.Xml;
 
 namespace Feedpipes.Syndication.Extensions.WellFormedWeb
 {

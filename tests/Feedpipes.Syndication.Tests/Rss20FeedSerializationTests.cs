@@ -17,7 +17,7 @@ namespace Feedpipes.Syndication.Tests
         public void ParseAndFormat(SampleFeed embeddedDocument)
         {
             // arrange
-            var document1 = embeddedDocument.Document;
+            var document1 = embeddedDocument.XDocument;
 
             // action
             var tryParseResult = Rss20FeedParser.TryParseRss20Feed(document1, out var feed);
@@ -47,10 +47,10 @@ namespace Feedpipes.Syndication.Tests
 
         public class ParseAndFormatData : SampleFeedTestsClassDataBase
         {
-            public override IEnumerable<string> XmlFileNames => new[]
+            public override IEnumerable<string> FileNames => new[]
             {
-                "_rss20-sample01",
-                "_rss20-sample02",
+                "_rss20-sample01.xml",
+                "_rss20-sample02.xml",
             };
         }
 
@@ -59,7 +59,7 @@ namespace Feedpipes.Syndication.Tests
         public void ParseWithoutCrashing(SampleFeed embeddedDocument)
         {
             // arrange
-            var document = embeddedDocument.Document;
+            var document = embeddedDocument.XDocument;
 
             // action
             // ReSharper disable once UnusedVariable
@@ -71,7 +71,7 @@ namespace Feedpipes.Syndication.Tests
 
         public class ParseWithoutCrashingData : SampleFeedTestsClassDataBase
         {
-            public override bool CustomFilter(SampleFeed x) => x.Document?.Root?.Name == "rss";
+            public override bool CustomFilter(SampleFeed x) => x.XDocument?.Root?.Name == "rss";
         }
 
         [Fact]

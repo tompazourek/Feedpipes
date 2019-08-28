@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Xml.Linq;
 
-namespace Feedpipes.Syndication.Xml
+namespace Feedpipes.Syndication.Utils.Xml
 {
     /// <summary>
     /// Helper for maintaining namespace aliases.

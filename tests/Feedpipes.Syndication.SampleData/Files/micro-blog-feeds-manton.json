@@ -1,0 +1,559 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Micro.blog - manton timeline",
+  "home_page_url": "https://micro.blog/",
+  "feed_url": "https://micro.blog/feeds/manton.json",
+  "icon": "https://micro.blog/images/icons/favicon_256.png",
+  "favicon": "https://micro.blog/images/icons/favicon_32.png",
+  "_microblog": {
+    "about": "https://micro.blog/about/api"
+  },
+  "items": [
+    {
+      "id": "5250327",
+      "content_html": "<p><a href=\"https://micro.blog/jsanchez\">@jsanchez</a> thanks, I’m just going to do one more check with Xcode and making sure all the command line tools are in and if I still hit the errors on configure I’ll go to homebrew</p>\n",
+      "url": "https://micro.blog/adamprocter/5250327",
+      "date_published": "2019-08-28T09:06:32+00:00",
+      "author": {
+        "name": "Adam Procter",
+        "url": "https://discursive.adamprocter.co.uk",
+        "avatar": "https://micro.blog/adamprocter/avatar.jpg",
+        "_microblog": {
+          "username": "adamprocter"
+        }
+      }
+    },
+    {
+      "id": "5250321",
+      "content_html": "<p><a href=\"https://micro.blog/adamprocter\">@adamprocter</a> You can totally install it via XCode or at least you were able to in the past, with homebrew is easier to maintain those packages I find.</p>\n",
+      "url": "https://micro.blog/jsanchez/5250321",
+      "date_published": "2019-08-28T09:03:58+00:00",
+      "author": {
+        "name": "Javier Sánchez",
+        "url": "https://javi.pro",
+        "avatar": "https://micro.blog/jsanchez/avatar.jpg",
+        "_microblog": {
+          "username": "jsanchez"
+        }
+      }
+    },
+    {
+      "id": "5250288",
+      "content_html": "<p>Whoever invented orange juice: You’re awesome.</p>\n\n<p>Let me know if you come up with anything else, I’m sure it’ll rock.</p>\n",
+      "url": "https://microblog.ulik.at/2019/08/28/whoever-invented-orange.html",
+      "date_published": "2019-08-28T08:59:56+00:00",
+      "author": {
+        "name": "Witness of TeachText",
+        "url": "http://stacksmith.org",
+        "avatar": "https://www.gravatar.com/avatar/7b7e97f47b6b43285a8e825c28fa6a3f?s=96&d=https%3A%2F%2Fmicro.blog%2Fimages%2Fblank_avatar.png",
+        "_microblog": {
+          "username": "uliwitness"
+        }
+      }
+    },
+    {
+      "id": "5250320",
+      "content_html": "<p>Urgghhh, had enough faffing around with Windows and Visual Studio for a few client code projects. Rather just drop them and not use Windows ever again. It’s really bad.</p>",
+      "url": "https://vincentritter.com/2019/08/28/10-59-34",
+      "date_published": "2019-08-28T08:59:00+00:00",
+      "author": {
+        "name": "Vincent Ritter",
+        "url": "https://vincentritter.com",
+        "avatar": "https://www.gravatar.com/avatar/23f62438077ebc6ac91eed73d883381c?s=96&d=https%3A%2F%2Fmicro.blog%2Fimages%2Fblank_avatar.png",
+        "_microblog": {
+          "username": "vincent"
+        }
+      }
+    },
+    {
+      "id": "5250286",
+      "content_html": "<p>Hmm I wonder if Steve Dale owner of the now expelled Football club was hoping for a quick win in selling the club will now move to a phase of trying to sell the ground and arrange some kind of property development. Not good ⚽️ Someone needs to get the club out of his hands ASAP</p>\n",
+      "url": "https://discursive.adamprocter.co.uk/2019/08/28/hmm-i-wonder.html",
+      "date_published": "2019-08-28T08:41:23+00:00",
+      "author": {
+        "name": "Adam Procter",
+        "url": "https://discursive.adamprocter.co.uk",
+        "avatar": "https://micro.blog/adamprocter/avatar.jpg",
+        "_microblog": {
+          "username": "adamprocter"
+        }
+      }
+    },
+    {
+      "id": "5250050",
+      "content_html": "<p>If someone can tell me how Steve Dale passed any fit a proper test by the English Football league to own Bury FC? BBC Radio 5 interview <a href=\"https://twitter.com/bbc5live/status/1164956024106889217?s=20\">Twitter</a> Should never have been let near the Club. ⚽️ A very sad day as Bury FC are removed from league one.</p>\n",
+      "url": "https://discursive.adamprocter.co.uk/2019/08/28/if-someone-can.html",
+      "date_published": "2019-08-28T08:04:06+00:00",
+      "author": {
+        "name": "Adam Procter",
+        "url": "https://discursive.adamprocter.co.uk",
+        "avatar": "https://micro.blog/adamprocter/avatar.jpg",
+        "_microblog": {
+          "username": "adamprocter"
+        }
+      }
+    },
+    {
+      "id": "5249947",
+      "content_html": "<p><a href=\"https://micro.blog/jsanchez\">@jsanchez</a> I was trying to not install anything more than I needed so when I read I could just install wget as I had Xcode I thought great but maybe I should use homebrew as that wasn’t working out for me</p>\n",
+      "url": "https://micro.blog/adamprocter/5249947",
+      "date_published": "2019-08-28T07:39:17+00:00",
+      "author": {
+        "name": "Adam Procter",
+        "url": "https://discursive.adamprocter.co.uk",
+        "avatar": "https://micro.blog/adamprocter/avatar.jpg",
+        "_microblog": {
+          "username": "adamprocter"
+        }
+      }
+    },
+    {
+      "id": "5249942",
+      "content_html": "<p><a href=\"https://micro.blog/adamprocter\">@adamprocter</a> trying to install wget on Mac? Use homebrew.</p>\n",
+      "url": "https://micro.blog/jsanchez/5249942",
+      "date_published": "2019-08-28T07:34:38+00:00",
+      "author": {
+        "name": "Javier Sánchez",
+        "url": "https://javi.pro",
+        "avatar": "https://micro.blog/jsanchez/avatar.jpg",
+        "_microblog": {
+          "username": "jsanchez"
+        }
+      }
+    },
+    {
+      "id": "5249845",
+      "content_html": "<p><a href=\"https://micro.blog/Miraz\">@Miraz</a> Nice.</p>\n",
+      "url": "https://micro.blog/smokey/5249845",
+      "date_published": "2019-08-28T07:06:32+00:00",
+      "author": {
+        "name": "Smokey Ardisson",
+        "url": "https://www.ardisson.org/",
+        "avatar": "https://micro.blog/smokey/avatar.jpg",
+        "_microblog": {
+          "username": "smokey"
+        }
+      }
+    },
+    {
+      "id": "5249841",
+      "content_html": "<p>I was weeding today, at our rental property in Ōtaki, when this worm came along. It scrunched itself up when it saw me. Even so, it was about the length of my middle finger. Most of the other worms I saw, and I’m glad to say there were plenty, were much smaller.</p>\n\n<p><img src=\"https://miraz.me/uploads/2019/24b3c452d1.jpg\" width=\"600\" height=\"450\" alt=\"Worm on gravel. \"></p>\n",
+      "url": "https://miraz.me/2019/08/28/i-was-weeding.html",
+      "date_published": "2019-08-28T07:01:23+00:00",
+      "author": {
+        "name": "Miraz Jordan",
+        "url": "https://miraz.me",
+        "avatar": "https://micro.blog/Miraz/avatar.jpg",
+        "_microblog": {
+          "username": "Miraz"
+        }
+      }
+    },
+    {
+      "id": "5249837",
+      "content_html": "<p><a href=\"https://micro.blog/schuth\">@schuth</a> I’d never heard of that dish before. Your presentation is, as always, outstanding and made me hungry (although I have found that I do not really care for chickpeas unless they are pureed with tahini, garlic, and lemon juice 😉).</p>\n",
+      "url": "https://micro.blog/smokey/5249837",
+      "date_published": "2019-08-28T07:00:30+00:00",
+      "author": {
+        "name": "Smokey Ardisson",
+        "url": "https://www.ardisson.org/",
+        "avatar": "https://micro.blog/smokey/avatar.jpg",
+        "_microblog": {
+          "username": "smokey"
+        }
+      }
+    },
+    {
+      "id": "5249817",
+      "content_html": "Firsts <a href=\"https://blog.blankbaby.com/2019/08/firsts.html\">blog.blankbaby.com</a>",
+      "url": "https://blog.blankbaby.com/2019/08/firsts.html",
+      "date_published": "2019-08-28T06:51:56+00:00",
+      "author": {
+        "name": "Scott McNulty",
+        "url": "http://blog.blankbaby.com",
+        "avatar": "https://micro.blog/blankbaby/avatar.jpg",
+        "_microblog": {
+          "username": "blankbaby"
+        }
+      }
+    },
+    {
+      "id": "5249805",
+      "content_html": "<p><a href=\"https://micro.blog/hollyhoneychurch\">@hollyhoneychurch</a> This was, what do the kids say, trippy? I thought at first they were real people bent over the wall, with flowers on their backs! A forgotten form of medieval punishment! 😂</p>\n",
+      "url": "https://micro.blog/smokey/5249805",
+      "date_published": "2019-08-28T06:46:46+00:00",
+      "author": {
+        "name": "Smokey Ardisson",
+        "url": "https://www.ardisson.org/",
+        "avatar": "https://micro.blog/smokey/avatar.jpg",
+        "_microblog": {
+          "username": "smokey"
+        }
+      }
+    },
+    {
+      "id": "5249796",
+      "content_html": "<p><a href=\"https://micro.blog/cdevroe\">@cdevroe</a> Congratulations!</p>\n",
+      "url": "https://micro.blog/smokey/5249796",
+      "date_published": "2019-08-28T06:41:35+00:00",
+      "author": {
+        "name": "Smokey Ardisson",
+        "url": "https://www.ardisson.org/",
+        "avatar": "https://micro.blog/smokey/avatar.jpg",
+        "_microblog": {
+          "username": "smokey"
+        }
+      }
+    },
+    {
+      "id": "5249793",
+      "content_html": "<p><a href=\"https://micro.blog/bitdepth\">@bitdepth</a> Lovely!</p>\n",
+      "url": "https://micro.blog/smokey/5249793",
+      "date_published": "2019-08-28T06:40:16+00:00",
+      "author": {
+        "name": "Smokey Ardisson",
+        "url": "https://www.ardisson.org/",
+        "avatar": "https://micro.blog/smokey/avatar.jpg",
+        "_microblog": {
+          "username": "smokey"
+        }
+      }
+    },
+    {
+      "id": "5249690",
+      "content_html": "<p><a href=\"https://micro.blog/bradenslen\">@bradenslen</a> Glad we were able to be there for you in those lean years :-) </p>\n\n<p>It’s funny your reaction to MacIE; it was very highly regarded as a Mac browser for a long time—but I think that it probably lost something in the transition to Mac OS X and became somewhat clunky (and also fell victim to MS’s ceasing browser development after winning the first browser war), which provided opportunity and breathing room for the development of other browsers.</p>\n\n<p>Also, I can <em>never</em> keep track of the exact timeline of Opera on the Mac ;-) I know they came, several versions into their history (Opera 4, maybe?), to the classic Mac OS and then left again shortly thereafter, before coming back at some point under Mac OS X, in that golden era of Mac browser choice.</p>\n",
+      "url": "https://micro.blog/smokey/5249690",
+      "date_published": "2019-08-28T06:22:42+00:00",
+      "author": {
+        "name": "Smokey Ardisson",
+        "url": "https://www.ardisson.org/",
+        "avatar": "https://micro.blog/smokey/avatar.jpg",
+        "_microblog": {
+          "username": "smokey"
+        }
+      }
+    },
+    {
+      "id": "5249650",
+      "content_html": "<p><a href=\"https://micro.blog/vasta\">@vasta</a> <a href=\"https://micro.blog/adamprocter\">@adamprocter</a> Thank you both :-) I hope the return of NetNewsWire is a sign of the beginning of a renaissance that builds on all of the good things from 2002.</p>\n",
+      "url": "https://micro.blog/smokey/5249650",
+      "date_published": "2019-08-28T06:08:26+00:00",
+      "author": {
+        "name": "Smokey Ardisson",
+        "url": "https://www.ardisson.org/",
+        "avatar": "https://micro.blog/smokey/avatar.jpg",
+        "_microblog": {
+          "username": "smokey"
+        }
+      }
+    },
+    {
+      "id": "5249645",
+      "content_html": "<p><a href=\"https://micro.blog/manton\">@manton</a> <a href=\"https://micro.blog/walter\">@walter</a> I think there’s a danger that anything <em>built into the platform</em> that’s sufficently “close enough” to a “Like” will eventually become indistinguishable from a “Like”.</p>\n\n<p>An <em>easy-to-click</em> 👍 reactmoji, even if it doesn’t have a count associated with it, is going to either overwhelm or displace existing conversational replies, as people are conditioned to perpetuate the “Like” behavior by mental-muscle-memory. (This is likely to be particularly true for newcomers who haven’t yet <a href=\"https://micro.blog/smokey/3271318#post_div_3271318\">retrained</a> <a href=\"https://micro.blog/smokey/5001985#post_div_5001985\">their brains</a> and <a href=\"https://micro.blog/dori/797328#post_div_797328\">learned the culture and norms of this community</a>.)</p>\n\n<p>I personally am fine with someone manually using some sort of “quick” emoji reply from time to time as a quick signal or when words fail—I do it myself, and we even have the <a href=\"https://micro.blog/jw/562114#post_div_562114\">💙 Empathy Heart</a> as part of our <a href=\"https://m.b.wiki.eli.li/doku.php/culture\">community culture</a>—because manually inserting 👍 or 💙 or whatever emoji seems appropriate is still very <em>intentional</em>; there’s enough friction in going through the emoji picker or even copying and pasting that you’re not just giving in to the rodent brain and clicking on the cheese because it’s there. (Intentional usage <em>is</em> what I percieved Walter to have in mind; he just wanted to know which emoji or text strings to use.)</p>\n\n<p>(Sometimes, though, a brief, one-or-two word reply is faster and still gets the message across 😉)</p>\n",
+      "url": "https://micro.blog/smokey/5249645",
+      "date_published": "2019-08-28T06:03:54+00:00",
+      "author": {
+        "name": "Smokey Ardisson",
+        "url": "https://www.ardisson.org/",
+        "avatar": "https://micro.blog/smokey/avatar.jpg",
+        "_microblog": {
+          "username": "smokey"
+        }
+      }
+    },
+    {
+      "id": "5249601",
+      "content_html": "<p>The “Practice random acts of gardening” bumper sticker has to be the stupidest I’ve seen in August.</p>\n",
+      "url": "https://PBones.micro.blog/2019/08/28/the-practice-random.html",
+      "date_published": "2019-08-28T05:41:02+00:00",
+      "author": {
+        "name": "Paul Kafasis",
+        "url": "https://pbones.com",
+        "avatar": "https://micro.blog/PBones/avatar.jpg",
+        "_microblog": {
+          "username": "PBones"
+        }
+      }
+    },
+    {
+      "id": "5249574",
+      "content_html": "<p><a href=\"https://micro.blog/Mikehendley\">@Mikehendley</a> <a href=\"https://micro.blog/rohdesign\">@rohdesign</a> Finally caught up with this episode. Really enjoyed it, and hearing you talk about the “progression” of your drawing from your youths reminded me that I actually used to do a bit of drawing when I was young, which I had entirely forgotten….</p>\n",
+      "url": "https://micro.blog/smokey/5249574",
+      "date_published": "2019-08-28T05:24:28+00:00",
+      "author": {
+        "name": "Smokey Ardisson",
+        "url": "https://www.ardisson.org/",
+        "avatar": "https://micro.blog/smokey/avatar.jpg",
+        "_microblog": {
+          "username": "smokey"
+        }
+      }
+    },
+    {
+      "id": "5249500",
+      "content_html": "<p>🔖 <a href=\"http://filmmakermode.org\">Filmmaker mode</a>: Stop the over saturation insanity.</p>\n",
+      "url": "https://microblog.galumph.com/2019/08/28/filmmaker-mode-stop.html",
+      "date_published": "2019-08-28T05:01:28+00:00",
+      "author": {
+        "name": "Elliot Shank",
+        "url": "http://galumph.com",
+        "avatar": "https://micro.blog/clonezone/avatar.jpg",
+        "_microblog": {
+          "username": "clonezone"
+        }
+      }
+    },
+    {
+      "id": "5249467",
+      "content_html": "<p>Jean hasn’t posted in well over a week and one of her last comments was about how the pain in her knee had gotten worse. Have you heard from her <a href=\"https://micro.blog/manton\">@manton</a>? I hope she’s okay. 🏥</p>\n",
+      "url": "https://www.ronchester.org/2019/08/27/jean-hasnt-posted.html",
+      "date_published": "2019-08-28T04:50:34+00:00",
+      "author": {
+        "name": "Ron Chester",
+        "url": "http://dogsrunfree.posthaven.com/chang-phuak-gate",
+        "avatar": "https://www.gravatar.com/avatar/e9712dafe1b61cf013b59ea756f9b3ed?s=96&d=https%3A%2F%2Fmicro.blog%2Fimages%2Fblank_avatar.png",
+        "_microblog": {
+          "username": "Ron"
+        }
+      }
+    },
+    {
+      "id": "5249311",
+      "content_html": "<p><strong>Natural Log – August 27, 2019</strong></p>\n<p>Another grey, damp, cool day—occasional break of sun. Rain &amp; cooler temps much needed, but I’m ready for a little drying &amp; sun. Hummingbird in the garden again, at cucumbers, tomatoes, &amp; zinnias. Cooler weather = mom canned 10 more jars of tomatoes.</p>\n<p><span class=\"imglink\"><a href=\"http://www.ardisson.org/afkar/wp-content/uploads/2019/08/12130d5944034605befd10aece524e82.jpg\"><img class=\"linked\" src=\"http://www.ardisson.org/afkar/wp-content/uploads/2019/08/12130d5944034605befd10aece524e82-1024x1024.jpg\" width=\"600\" height=\"600\" alt=\"Green hummingbird sitting on tomato cage, in the midst of green tomato plants.\"></a></span><span class=\"imglink\"><a href=\"http://www.ardisson.org/afkar/wp-content/uploads/2019/08/b29bbddf850b40a3a46cfdbd00b2970b.jpg\"><img class=\"linked\" src=\"http://www.ardisson.org/afkar/wp-content/uploads/2019/08/b29bbddf850b40a3a46cfdbd00b2970b-1024x1024.jpg\" width=\"600\" height=\"600\" alt=\"Ten jars of canned tomatoes cooling on the counter.\"></a></span></p>",
+      "url": "https://www.ardisson.org/afkar/2019/08/28/natural-log-august-27-2019/",
+      "date_published": "2019-08-28T04:15:16+00:00",
+      "author": {
+        "name": "Smokey Ardisson",
+        "url": "https://www.ardisson.org/",
+        "avatar": "https://micro.blog/smokey/avatar.jpg",
+        "_microblog": {
+          "username": "smokey"
+        }
+      }
+    },
+    {
+      "id": "5249292",
+      "content_html": "<p>🎙 <a href=\"http://most-important-meal.com/episodes/33\">Most Important Meal 33: We Live In a Coffee Society</a> ☕️</p>\n",
+      "url": "https://microblog.galumph.com/2019/08/27/most-important-meal.html",
+      "date_published": "2019-08-28T04:09:53+00:00",
+      "author": {
+        "name": "Elliot Shank",
+        "url": "http://galumph.com",
+        "avatar": "https://micro.blog/clonezone/avatar.jpg",
+        "_microblog": {
+          "username": "clonezone"
+        }
+      }
+    },
+    {
+      "id": "5249235",
+      "content_html": "<p><em>A Melbourne moment…</em> hearing someone yell on the street, ‘I’ll add you on LinkedIn!’.</p>\n",
+      "url": "https://feldnotes.com/2019/08/28/a-melbourne-moment.html",
+      "date_published": "2019-08-28T04:01:02+00:00",
+      "author": {
+        "name": "Martin Feld",
+        "url": "http://feldnotes.com",
+        "avatar": "https://micro.blog/martinfeld/avatar.jpg",
+        "_microblog": {
+          "username": "martinfeld"
+        }
+      }
+    },
+    {
+      "id": "5249145",
+      "content_html": "<p><a href=\"https://twitter.com/IGN/status/1166523560090853377\">IGN</a>:</p>\n\n<blockquote>\n<p>The Mega Man Zero/ZX Legacy Collection combines every Mega Man Zero and ZX game in one package, and it’s coming to consoles and PC next year.<a href=\"https://t.co/WLCsRpkhkP\">https://t.co/WLCsRpkhkP</a> pic.twitter.com/ug0GG9WkKB</p>\n</blockquote>\n\n<p>I want! 😁</p>\n\n<p><img src=\"https://gabz.me/uploads/2019/de0ae0faf5.jpg\" width=\"600\" height=\"320\" alt=\"\"></p>\n",
+      "url": "https://gabz.me/2019/08/27/ign-the-mega.html",
+      "date_published": "2019-08-28T03:36:28+00:00",
+      "author": {
+        "name": "Gabriel Santiago",
+        "url": "http://gabz.me/",
+        "avatar": "https://micro.blog/Gabz/avatar.jpg",
+        "_microblog": {
+          "username": "Gabz"
+        }
+      }
+    },
+    {
+      "id": "5249122",
+      "content_html": "<p>It would really be great to use a Mac for my day job.</p>\n",
+      "url": "https://dodi.micro.blog/2019/08/28/it-would-really.html",
+      "date_published": "2019-08-28T03:31:11+00:00",
+      "author": {
+        "name": "David Liongson",
+        "url": "http://dodi.micro.blog",
+        "avatar": "https://micro.blog/dodi/avatar.jpg",
+        "_microblog": {
+          "username": "dodi"
+        }
+      }
+    },
+    {
+      "id": "5249119",
+      "content_html": "<p>I’m in Melbourne for work today and whenever I visit, I feel like it’s a bizarro version of Sydney where the streets make sense and the footpaths have space for more than two people at a time. It’s good fun to observe the hustle and bustle of the place.</p>\n\n<p><img src=\"https://feldnotes.com/uploads/2019/4e017dd74a.jpg\" width=\"600\" height=\"450\" alt=\"\"></p>\n",
+      "url": "https://feldnotes.com/2019/08/28/im-in-melbourne.html",
+      "date_published": "2019-08-28T03:28:01+00:00",
+      "author": {
+        "name": "Martin Feld",
+        "url": "http://feldnotes.com",
+        "avatar": "https://micro.blog/martinfeld/avatar.jpg",
+        "_microblog": {
+          "username": "martinfeld"
+        }
+      }
+    },
+    {
+      "id": "5249118",
+      "content_html": "<p>Control is crazy cool, like Fringe meets Quantum Break. It’s got everything you’d expect from a game by Remedy and a couple new surprises along the way. Though I’m not super deep into it yet, I still highly recommend giving it a look.</p>\n",
+      "url": "https://mikehaynes.blog/2019/08/27/control-is-crazy.html",
+      "date_published": "2019-08-28T03:23:00+00:00",
+      "author": {
+        "name": "Mike Haynes",
+        "url": "https://mikehaynes.blog/",
+        "avatar": "https://micro.blog/mikehaynes/avatar.jpg",
+        "_microblog": {
+          "username": "mikehaynes"
+        }
+      }
+    },
+    {
+      "id": "5249093",
+      "content_html": "<p>Easy Tiger is 🔥</p>\n\n<p><img src=\"https://www.brucegodin.ca/uploads/2019/653e63e8c9.jpg\" width=\"450\" height=\"600\" alt=\"\"></p>\n",
+      "url": "https://www.brucegodin.ca/2019/08/27/easy-tiger-is.html",
+      "date_published": "2019-08-28T03:05:24+00:00",
+      "author": {
+        "name": "Bruce Godin",
+        "url": "http://www.brucegodin.ca ",
+        "avatar": "https://micro.blog/brucegodin/avatar.jpg",
+        "_microblog": {
+          "username": "brucegodin"
+        }
+      }
+    },
+    {
+      "id": "5249092",
+      "content_html": "<blockquote>\n<p>Great news, your Peak Design order is on the way!</p>\n</blockquote>\n\n<p>(doing the Futterwacken) 😁</p>\n",
+      "url": "https://gabz.me/2019/08/27/great-news-your.html",
+      "date_published": "2019-08-28T03:05:15+00:00",
+      "author": {
+        "name": "Gabriel Santiago",
+        "url": "http://gabz.me/",
+        "avatar": "https://micro.blog/Gabz/avatar.jpg",
+        "_microblog": {
+          "username": "Gabz"
+        }
+      }
+    },
+    {
+      "id": "5249087",
+      "content_html": "<p><a href=\"https://micro.blog/eli\">@eli</a> My experience after seeing a lot of people having to learn how to code in React is that people with less experience in general understand it a lot faster than people with a lot of experience. </p>\n\n<p>The good thing about React from a beginner perspective is that it doesn&#39;t have a lot of stuff. And because of libraries and not frameworks, you can kind of add things and learn them as you need them. </p>\n\n<p>I think the both of us are bad choices for decding what are inclusive technology and not because we&#39;re both experienced with development. But I can talk about what I have seen from people who are not. And I usually see people struggle with big frameworks like Rails, Django .NET etc where you have to do a lot of &quot;stuff&quot; before you see anyhting visual. </p>\n\n<p>But with things like React / Create React App or Express you can add a line of code and see it on the screen straight away. </p>\n",
+      "url": "https://micro.blog/hjertnes/5249087",
+      "date_published": "2019-08-28T03:02:49+00:00",
+      "author": {
+        "name": "Eivind Hjertnes",
+        "url": "https://hjertnes.blog",
+        "avatar": "https://micro.blog/hjertnes/avatar.jpg",
+        "_microblog": {
+          "username": "hjertnes"
+        }
+      }
+    },
+    {
+      "id": "5249069",
+      "content_html": "<p>This → Beere Brewing Company - IPAs for DAYS. Summers almost over, so it’s time to buckle down and toss some of these IPA cans in your face - <a href=\"https://www.instagram.com/p/B1o2oBrB0U6/\">Beere</a></p>\n",
+      "url": "https://www.brucegodin.ca/2019/08/27/this-beere-brewing.html",
+      "date_published": "2019-08-28T03:01:05+00:00",
+      "author": {
+        "name": "Bruce Godin",
+        "url": "http://www.brucegodin.ca ",
+        "avatar": "https://micro.blog/brucegodin/avatar.jpg",
+        "_microblog": {
+          "username": "brucegodin"
+        }
+      }
+    },
+    {
+      "id": "5249068",
+      "content_html": "<p>Yes please → BACKCOUNTRY BREWING Limited Release🍺 -Careful Man, There’s A Beverage Here IPA IBU : 25 ABV : 6.7% - <a href=\"https://www.instagram.com/p/B1fPxEDB-Iq/\">Backcountry</a></p>\n",
+      "url": "https://www.brucegodin.ca/2019/08/27/yes-please-backcountry.html",
+      "date_published": "2019-08-28T02:58:19+00:00",
+      "author": {
+        "name": "Bruce Godin",
+        "url": "http://www.brucegodin.ca ",
+        "avatar": "https://micro.blog/brucegodin/avatar.jpg",
+        "_microblog": {
+          "username": "brucegodin"
+        }
+      }
+    },
+    {
+      "id": "5249060",
+      "content_html": "<p>Based on this <a href=\"https://music.apple.com/us/playlist/rock-hits-1986/pl.8aa7eeb763a740e2b0e7c6ecea2b26ee\">Apple Music playlist</a>, I am thinking 1986 might be the overall greatest (pop) rock year ever.</p>\n",
+      "url": "https://pgor.micro.blog/2019/08/27/based-on-this.html",
+      "date_published": "2019-08-28T02:48:06+00:00",
+      "author": {
+        "name": "Paul Goracke",
+        "url": "https://corporationunknown.com/",
+        "avatar": "https://www.gravatar.com/avatar/c5c07d140400464a93b4039d278ee128?s=96&d=https%3A%2F%2Fmicro.blog%2Fimages%2Fblank_avatar.png",
+        "_microblog": {
+          "username": "pgor"
+        }
+      }
+    },
+    {
+      "id": "5248989",
+      "content_html": "<p>🎙 <a href=\"http://thememorypalace.us/2015/08/notes-on-an-imagined-plaque/\">Notes on an Imagined Plaque to be Added to the Statue of General Nathan Bedford Forrest, Upon Hearing that the Memphis City Counci has Voted to Move it and the Exhumed Remains … from their Current Location in a Park Downtown, to the Nearby Elmwood Cemetery</a></p>\n\n<p>Brilliant.</p>\n",
+      "url": "https://microblog.galumph.com/2019/08/27/notes-on-an.html",
+      "date_published": "2019-08-28T02:33:19+00:00",
+      "author": {
+        "name": "Elliot Shank",
+        "url": "http://galumph.com",
+        "avatar": "https://micro.blog/clonezone/avatar.jpg",
+        "_microblog": {
+          "username": "clonezone"
+        }
+      }
+    },
+    {
+      "id": "5248912",
+      "content_html": "Day Two. <a href=\"https://gabz.me/2019/08/27/day-two.html\">gabz.me</a>",
+      "url": "https://gabz.me/2019/08/27/day-two.html",
+      "date_published": "2019-08-28T02:06:46+00:00",
+      "author": {
+        "name": "Gabriel Santiago",
+        "url": "http://gabz.me/",
+        "avatar": "https://micro.blog/Gabz/avatar.jpg",
+        "_microblog": {
+          "username": "Gabz"
+        }
+      }
+    },
+    {
+      "id": "5248869",
+      "content_html": "<p>Remember when you only had 2 kids and scoffed at the idea of an au pair when doing Dad  alone with the kids night? Remember when you added two puppies and are ready for the au pair?</p>\n",
+      "url": "https://chrishandy.blog/2019/08/27/remember-when-you.html",
+      "date_published": "2019-08-28T01:56:59+00:00",
+      "author": {
+        "name": "Chris Handy",
+        "url": "https://chrishandy.blog/",
+        "avatar": "https://micro.blog/handy/avatar.jpg",
+        "_microblog": {
+          "username": "handy"
+        }
+      }
+    },
+    {
+      "id": "5248871",
+      "content_html": "When designing developer tools, does one have to choose between making programming easier for programmers vs. making programming more accessible and inclusive to a larger group of folks?\nWhenever I work with React I feel like it is an example of a tool that makes programming easier for ... <a href=\"https://eli.li/2019/08/27/when-designing-developer-tools-does-one-have-to-choose-between-making-programming-easier-for\">eli.li</a>",
+      "url": "https://eli.li/2019/08/27/when-designing-developer-tools-does-one-have-to-choose-between-making-programming-easier-for",
+      "date_published": "2019-08-28T01:54:43+00:00",
+      "author": {
+        "name": "Eli Mellen",
+        "url": "https://eli.li/",
+        "avatar": "https://micro.blog/eli/avatar.jpg",
+        "_microblog": {
+          "username": "eli"
+        }
+      }
+    }
+  ]
+}

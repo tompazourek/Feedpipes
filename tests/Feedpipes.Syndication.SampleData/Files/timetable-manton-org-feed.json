@@ -1,0 +1,184 @@
+{
+	"version": "https://jsonfeed.org/version/1",
+	"title": "Timetable",
+	"icon": "https://micro.blog/timetable/avatar.jpg",
+	"home_page_url": "https://timetable.manton.org/",
+	"feed_url": "https://timetable.manton.org/feed.json",
+	"items": [
+			{
+				"id": "http://timetable.micro.blog/2019/06/25/episode-major-distraction.html",
+				"title": "Episode 124: Major distraction",
+				"content_html": "<p>A quick recap of last night&rsquo;s longer-than-expected server upgrade. I also talk about progress on the Indie Microblogging book, and Ghost import.</p>\n\n<p><audio src=\"https://micro.blog/pages/downloads/4100/900016/177959.mp3\" controls=\"controls\" preload=\"metadata\" /></p>\n",
+				"date_published": "2019-06-25T12:00:00-05:00",
+				"url": "https://timetable.manton.org/2019/06/25/episode-major-distraction.html"
+			},
+			{
+				"id": "http://timetable.micro.blog/2019/06/24/episode-newsletter-prep.html",
+				"title": "Episode 123: Newsletter prep",
+				"content_html": "<p>Today I&rsquo;m getting the 3rd email newsletter ready, plus talking about server downtime and learning how to communicate mistakes, with AirPower as an example.</p>\n\n<p><audio src=\"https://micro.blog/pages/downloads/4100/899377/177426.mp3\" controls=\"controls\" preload=\"metadata\" /></p>\n",
+				"date_published": "2019-06-24T13:58:00-05:00",
+				"url": "https://timetable.manton.org/2019/06/24/episode-newsletter-prep.html"
+			},
+			{
+				"id": "http://timetable.micro.blog/2019/04/09/episode-video-hosting.html",
+				"title": "Episode 122: Video hosting",
+				"content_html": "<p>Rolling out video upload and hosting for Micro.blog-hosted sites, why it&rsquo;s priced the way it is, and more improvements to work on.</p>\n\n<p><audio src=\"https://micro.blog/pages/downloads/4100/872438/159727.mp3\" controls=\"controls\" preload=\"none\" /></p>\n",
+				"date_published": "2019-04-09T15:11:00-05:00",
+				"url": "https://timetable.manton.org/2019/04/09/episode-video-hosting.html"
+			},
+			{
+				"id": "http://timetable.micro.blog/2019/03/27/episode-saved-drafts.html",
+				"title": "Episode 121: Saved drafts",
+				"content_html": "<p>About the new features in Micro.blog for saving post drafts and the updated Mac app.</p>\n\n<p><audio src=\"https://micro.blog/pages/downloads/4100/864598/153800.mp3\" controls=\"controls\" preload=\"none\" /></p>\n",
+				"date_published": "2019-03-27T16:10:00-05:00",
+				"url": "https://timetable.manton.org/2019/03/27/episode-saved-drafts.html"
+			},
+			{
+				"id": "http://timetable.micro.blog/2019/03/25/episode-shipping-tomorrow.html",
+				"title": "Episode 120: Shipping tomorrow",
+				"content_html": "<p>Taking a break today to watch the Apple services-related event. Preparing new Micro.blog features to release tomorrow.</p>\n\n<p><audio src=\"https://micro.blog/pages/downloads/4100/861244/152271.mp3\" controls=\"controls\" preload=\"none\" /></p>\n",
+				"date_published": "2019-03-25T17:26:00-05:00",
+				"url": "https://timetable.manton.org/2019/03/25/episode-shipping-tomorrow.html"
+			},
+			{
+				"id": "http://timetable.micro.blog/2019/03/19/episode-finally-stickers.html",
+				"title": "Episode 119: Finally stickers",
+				"content_html": "<p>Micro.blog stickers for Kickstarter backers are arriving this week! Also: Sunlit 2.4 is approved and will be released soon.</p>\n\n<p><audio controls=\"controls\" preload=\"none\" src=\"https://micro.blog/pages/downloads/4100/858899/150683.mp3\" /></p>\n",
+				"date_published": "2019-03-19T15:25:00-05:00",
+				"url": "https://timetable.manton.org/2019/03/19/episode-finally-stickers.html"
+			},
+			{
+				"id": "http://timetable.micro.blog/2018/12/04/episode-moment-of.html",
+				"title": "Episode 118: Moment of panic",
+				"content_html": "<p>Troubleshooting server problems.</p>\n\n<p><audio controls=\"controls\" preload=\"none\" src=\"https://timetable.manton.org/uploads/2018/35b12a41c7.mp3\" /></p>\n",
+				"date_published": "2018-12-04T15:33:15-05:00",
+				"url": "https://timetable.manton.org/2018/12/04/episode-moment-of.html"
+			},
+			{
+				"id": "http://timetable.micro.blog/2018/11/28/episode-no-downtime.html",
+				"title": "Episode 117: No downtime",
+				"content_html": "<p>Some of the work this week including fixing the Sunlit crashing bug, updating the Micro.blog help site, and whether I should take the servers down for an upgrade.</p>\n\n<p><audio controls=\"controls\" preload=\"none\" src=\"https://timetable.manton.org/uploads/2018/e93b3fe8c1.mp3\" /></p>\n",
+				"date_published": "2018-11-28T17:47:00-05:00",
+				"url": "https://timetable.manton.org/2018/11/28/episode-no-downtime.html"
+			},
+			{
+				"id": "http://timetable.micro.blog/2018/11/15/episode-breaking-up.html",
+				"title": "Episode 116: Breaking up Facebook",
+				"content_html": "<p>This is an expanded audio version of <a href=\"https://manton.org/2018/11/15/breaking-up-facebook.html\">my blog post today about Facebook and Instagram</a>.</p>\n\n<p><audio controls=\"controls\" src=\"https://timetable.manton.org/uploads/2018/0098d93f13.mp3\" /></p>\n",
+				"date_published": "2018-11-15T16:56:59-05:00",
+				"url": "https://timetable.manton.org/2018/11/15/episode-breaking-up.html"
+			},
+			{
+				"id": "http://timetable.micro.blog/2018/11/14/episode-parsing-usernames.html",
+				"title": "Episode 115: Parsing usernames",
+				"content_html": "<p>More recent work in Micro.blog for ActivityPub and domain name improvements.</p>\n\n<p><audio controls=\"controls\" preload=\"none\" src=\"https://timetable.manton.org/uploads/2018/65e7e3e0ba.mp3\" /></p>\n",
+				"date_published": "2018-11-14T11:01:53-05:00",
+				"url": "https://timetable.manton.org/2018/11/14/episode-parsing-usernames.html"
+			},
+			{
+				"id": "http://timetable.micro.blog/2018/11/12/episode-migrated-podcast.html",
+				"title": "Episode 114: Migrated podcast",
+				"content_html": "<p>Moving this podcast over to Micro.blog hosting, and thoughts on the Mastodon support we just launched.</p>\n\n<p><audio controls=\"controls\" preload=\"none\" src=\"https://http://timetable.manton.org/uploads/2018/a77f7e20d5.mp3\" /></p>\n",
+				"date_published": "2018-11-12T13:03:07-05:00",
+				"url": "https://timetable.manton.org/2018/11/12/episode-migrated-podcast.html"
+			},
+			{
+				"id": "http://timetable.micro.blog/2018/08/08/episode-focus-on.html",
+				"title": "Episode 113: Focus on smaller networks",
+				"content_html": "<p>An update on microcasting improvements, then thoughts on how the recent articles about Alex Jones and the problems with big social networks always stop short of any solutions. Intro music from Aaron Parecki&#8217;s <a href=\"https://100.aaronparecki.com/\">100 days of music</a>.</p>\n\n<p><audio controls=\"controls\" src=\"https://timetable.micro.blog/uploads/2018/b010dc9164.mp3\n\" /></p>\n",
+				"date_published": "2018-08-08T10:15:59-05:00",
+				"url": "https://timetable.manton.org/2018/08/08/episode-focus-on.html"
+			},
+			{
+				"id": "http://timetable.micro.blog/2018/08/06/episode-todo-list.html",
+				"title": "Episode 112: To-do list for podcasting",
+				"content_html": "<p>Upcoming improvements to podcasting and some more thoughts on Anchor after listening to <a href=\"https://castro.fm/podcast/19d759ce-5a6b-43ef-b7b2-39469df85f47\">episode 35 of the Supertop podcast</a>. Also, I misspoke the IndieWeb URL on this episode. The <a href=\"https://indieweb.org/site-deaths\">site deaths page is here</a>.</p>\n\n<p><audio controls=\"controls\" src=\"https://timetable.micro.blog/uploads/2018/344beac309.mp3\n\" /></p>\n",
+				"date_published": "2018-08-06T10:48:04-05:00",
+				"url": "https://timetable.manton.org/2018/08/06/episode-todo-list.html"
+			},
+			{
+				"id": "http://timetable.micro.blog/2018/08/02/episode-kicking-off.html",
+				"title": "Episode 111: Kicking off Homebrew Website Club",
+				"content_html": "<p>Following up on the Facebook API submission and last night&#8217;s Homebrew Website Club. The meetup is the first Wednesday of each month at Mozart&#8217;s Coffee.</p>\n\n<p><audio controls=\"controls\" src=\"https://timetable.micro.blog/uploads/2018/82d516f5b8.mp3\n\" /></p>\n",
+				"date_published": "2018-08-02T15:25:51-05:00",
+				"url": "https://timetable.manton.org/2018/08/02/episode-kicking-off.html"
+			},
+			{
+				"id": "http://timetable.micro.blog/2018/07/30/episode-maybe-a.html",
+				"title": "Episode 110: Maybe a bullet journal",
+				"content_html": "<p>I just sent off the Facebook pages cross-posting for Facebook to hopefully approve, plus wondering if I should try a bullet journal to get more organized.</p>\n\n<p><audio controls=\"controls\" src=\"https://timetable.micro.blog/uploads/2018/bb168bd32b.mp3\n\" /></p>\n",
+				"date_published": "2018-07-30T16:28:42-05:00",
+				"url": "https://timetable.manton.org/2018/07/30/episode-maybe-a.html"
+			},
+			{
+				"id": "http://timetable.micro.blog/2018/07/26/episode-first-to.html",
+				"title": "Episode 109: First to 30 episodes",
+				"content_html": "<p>How competition changes when you stick with something, with a few clips from <a href=\"http://nbaarenatour.com/\">the NBA Arena Tour podcast</a>.</p>\n\n<p><audio controls=\"controls\" src=\"https://timetable.micro.blog/uploads/2018/b696ff3934.mp3\n\" /></p>\n",
+				"date_published": "2018-07-26T18:01:43-05:00",
+				"url": "https://timetable.manton.org/2018/07/26/episode-first-to.html"
+			},
+			{
+				"id": "http://timetable.micro.blog/2018/07/25/episode-facebook-changes.html",
+				"title": "Episode 108: Facebook changes",
+				"content_html": "<p>I start by talking about microcasts, then go into the big job this week: adapting Micro.blog for Facebook&#8217;s API changes, plus thoughts on Twitter&#8217;s upcoming API changes too.</p>\n\n<p><audio controls=\"controls\" src=\"https://timetable.micro.blog/uploads/2018/c3af5f999e.mp3\n\" /></p>\n",
+				"date_published": "2018-07-25T11:47:06-05:00",
+				"url": "https://timetable.manton.org/2018/07/25/episode-facebook-changes.html"
+			},
+			{
+				"id": "http://timetable.micro.blog/2018/07/23/episode-more-of.html",
+				"title": "Episode 107: More of the YouTube model",
+				"content_html": "<p>I talk about the new performance improvement to Micro.blog posting, then take a detour into centralized podcasting hosts like Anchor and why I like Micro.blog&#8217;s business model better.</p>\n\n<p><audio controls=\"controls\" src=\"https://timetable.micro.blog/uploads/2018/452365a526.mp3\n\" /></p>\n",
+				"date_published": "2018-07-23T14:55:41-05:00",
+				"url": "https://timetable.manton.org/2018/07/23/episode-more-of.html"
+			},
+			{
+				"id": "http://timetable.micro.blog/2018/07/19/episode-dramatically-faster.html",
+				"title": "Episode 106: Dramatically faster",
+				"content_html": "<p>While out running a couple errands, I recorded this episode about an upcoming performance improvement to Micro.blog posting, with a follow-up on the recent new sign-up change.</p>\n\n<p><audio controls=\"controls\" src=\"https://timetable.micro.blog/uploads/2018/57fbc9608e.mp3\n\" /></p>\n",
+				"date_published": "2018-07-18T20:09:26-05:00",
+				"url": "https://timetable.manton.org/2018/07/18/episode-dramatically-faster.html"
+			},
+			{
+				"id": "http://timetable.micro.blog/2018/07/16/episode-users-without.html",
+				"title": "Episode 105: Users without a blog",
+				"content_html": "<p>To start off the week, I talk about a bug that led to many users not creating a microblog after registering an account on Micro.blog.</p>\n\n<p><audio controls=\"controls\" src=\"https://timetable.micro.blog/uploads/2018/c98615bbc9.mp3\n\" /></p>\n",
+				"date_published": "2018-07-16T09:28:01-05:00",
+				"url": "https://timetable.manton.org/2018/07/16/episode-users-without.html"
+			},
+			{
+				"id": "http://timetable.micro.blog/2018/07/13/episode-freshman-orientation.html",
+				"title": "Episode 104: Freshman orientation",
+				"content_html": "<p>Colleges often have a 2-day orientation to get students and parents ready for the school year to start. Micro.blog needs something like that.</p>\n\n<p><audio controls=\"controls\" src=\"https://timetable.micro.blog/uploads/2018/a13eaa42a3.mp3\n\" /></p>\n",
+				"date_published": "2018-07-13T11:14:21-05:00",
+				"url": "https://timetable.manton.org/2018/07/13/episode-freshman-orientation.html"
+			},
+			{
+				"id": "http://timetable.micro.blog/2018/07/03/episode-indieweb-summit.html",
+				"title": "Episode 103: IndieWeb Summit",
+				"content_html": "<p>I&#8217;m back from Portland and rolling out new features for Micro.blog.</p>\n\n<p><audio controls=\"controls\" src=\"https://timetable.micro.blog/uploads/2018/b327677bab.mp3\n\" /></p>\n",
+				"date_published": "2018-07-03T12:13:42-05:00",
+				"url": "https://timetable.manton.org/2018/07/03/episode-indieweb-summit.html"
+			},
+			{
+				"id": "http://timetable.micro.blog/2018/05/15/episode-momentum.html",
+				"title": "Episode 102: Momentum",
+				"content_html": "<p>I talk about the just-released beta of Dialog, an Android app for Micro.blog, and the ability to delete accounts.</p>\n\n<p><audio controls=\"controls\" src=\"https://timetable.micro.blog/uploads/2018/ae5d9b12c7.mp3\n\" /></p>\n",
+				"date_published": "2018-05-15T15:19:37-05:00",
+				"url": "https://timetable.manton.org/2018/05/15/episode-momentum.html"
+			},
+			{
+				"id": "http://timetable.micro.blog/2018/05/08/episode-while-waiting.html",
+				"title": "Episode 101: While waiting",
+				"content_html": "<p>I talk about the upcoming Icro release and what to do while waiting on things like the App Store that are outside our control.</p>\n\n<p><audio controls=\"controls\" src=\"https://timetable.micro.blog/uploads/2018/a64c6682db.mp3\n\" /></p>\n",
+				"date_published": "2018-05-08T14:25:26-05:00",
+				"url": "https://timetable.manton.org/2018/05/08/episode-while-waiting.html"
+			},
+			{
+				"id": "http://timetable.micro.blog/2018/05/04/episode-one-year.html",
+				"title": "Episode 100: One year",
+				"content_html": "<p>I record a microcast in the rain and talk about the new Micro.blog for Mac app and the fact that we&#8217;re a year in to Micro.blog.</p>\n\n<p><audio controls=\"controls\" src=\"https://timetable.micro.blog/uploads/2018/c3609d1789.mp3\n\" /></p>\n",
+				"date_published": "2018-05-04T11:58:39-05:00",
+				"url": "https://timetable.manton.org/2018/05/04/episode-one-year.html"
+			}
+	]
+}
