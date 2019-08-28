@@ -1,4 +1,5 @@
 ﻿using System;
+using Feedpipes.Syndication.Extensions;
 using Feedpipes.Syndication.JsonFeedFormat.Entities;
 using Feedpipes.Syndication.Timestamps.Relaxed;
 using Feedpipes.Syndication.Utils.Json;
@@ -8,7 +9,7 @@ namespace Feedpipes.Syndication.JsonFeedFormat
 {
     public static class JsonFeedParser
     {
-        public static bool TryParseJsonFeed(in JObject feedObject, out JsonFeed parsedFeed)
+        public static bool TryParseJsonFeed(in JObject feedObject, out JsonFeed parsedFeed, ExtensionManifestDirectory extensionManifestDirectory = null)
         {
             parsedFeed = default;
 
@@ -17,6 +18,11 @@ namespace Feedpipes.Syndication.JsonFeedFormat
 
             if (!JsonFeedConstants.RecognizedVersions.Contains(parsedVersion))
                 return false;
+
+            if (extensionManifestDirectory == null)
+            {
+                extensionManifestDirectory = ExtensionManifestDirectory.DefaultForJsonFeed;
+            }
 
             parsedFeed = new JsonFeed();
 
@@ -85,17 +91,20 @@ namespace Feedpipes.Syndication.JsonFeedFormat
             {
                 foreach (var itemObject in itemObjects)
                 {
-                    if (TryParseJsonFeedItemElement(itemObject, out var parsedItem))
+                    if (TryParseJsonFeedItemElement(itemObject, extensionManifestDirectory, out var parsedItem))
                     {
                         parsedFeed.Items.Add(parsedItem);
                     }
                 }
             }
+            
+            // extensions
+            ExtensibleEntityParser.ParseXElementExtensions(feedObject, extensionManifestDirectory, parsedFeed);
 
             return true;
         }
 
-        private static bool TryParseJsonFeedItemElement(in JObject itemObject, out JsonFeedItem parsedItem)
+        private static bool TryParseJsonFeedItemElement(in JObject itemObject, ExtensionManifestDirectory extensionManifestDirectory, out JsonFeedItem parsedItem)
         {
             parsedItem = null;
 
@@ -192,9 +201,12 @@ namespace Feedpipes.Syndication.JsonFeedFormat
                     }
                 }
             }
-
+            
             if (parsedItem == null)
                 return false;
+
+            // extensions
+            ExtensibleEntityParser.ParseXElementExtensions(itemObject, extensionManifestDirectory, parsedItem);
 
             return true;
         }

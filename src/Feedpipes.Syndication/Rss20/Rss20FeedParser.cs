@@ -105,7 +105,7 @@ namespace Feedpipes.Syndication.Rss20
             }
 
             // extensions
-            ExtensibleEntityParser.ParseExtensibleEntityExtensions(channelElement, extensionManifestDirectory, parsedChannel);
+            ExtensibleEntityParser.ParseXElementExtensions(channelElement, extensionManifestDirectory, parsedChannel);
 
             // items
             foreach (var itemElement in channelElement.Elements("item"))
@@ -187,7 +187,7 @@ namespace Feedpipes.Syndication.Rss20
             }
 
             // extensions
-            ExtensibleEntityParser.ParseExtensibleEntityExtensions(imageElement, extensionManifestDirectory, parsedImage);
+            ExtensibleEntityParser.ParseXElementExtensions(imageElement, extensionManifestDirectory, parsedImage);
 
             return true;
         }
@@ -206,7 +206,7 @@ namespace Feedpipes.Syndication.Rss20
             parsedTextInput.Link = textInputElement.Element("link")?.Value.Trim();
 
             // extensions
-            ExtensibleEntityParser.ParseExtensibleEntityExtensions(textInputElement, extensionManifestDirectory, parsedTextInput);
+            ExtensibleEntityParser.ParseXElementExtensions(textInputElement, extensionManifestDirectory, parsedTextInput);
 
             return true;
         }
@@ -345,7 +345,7 @@ namespace Feedpipes.Syndication.Rss20
             }
 
             // extensions
-            ExtensibleEntityParser.ParseExtensibleEntityExtensions(itemElement, extensionManifestDirectory, parsedItem);
+            ExtensibleEntityParser.ParseXElementExtensions(itemElement, extensionManifestDirectory, parsedItem);
 
             return true;
         }

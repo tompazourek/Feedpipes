@@ -6,6 +6,14 @@ namespace Feedpipes.Syndication.Utils.Json
 {
     internal static class JObjectExtensions
     {
+        public static void AddRange(this JObject obj, IEnumerable<JToken> tokens)
+        {
+            foreach (var token in tokens)
+            {
+                obj.Add(token);
+            }
+        }
+
         public static bool TryGetJObjectProperty(this JObject parentElement, string propertyName, out JObject parsedValue)
         {
             parsedValue = default;

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using Feedpipes.Syndication.Extensions;
 using Feedpipes.Syndication.Utils;
 
 namespace Feedpipes.Syndication.JsonFeedFormat.Entities
@@ -9,7 +10,7 @@ namespace Feedpipes.Syndication.JsonFeedFormat.Entities
     /// items is an array, and is required.
     /// </summary>
     [DebuggerDisplay("{" + nameof(DebuggerDisplay) + ",nq}")]
-    public class JsonFeedItem
+    public class JsonFeedItem : IExtensibleEntity
     {
         [DebuggerBrowsable(DebuggerBrowsableState.Never)]
         internal string DebuggerDisplay => DebuggerDisplayBuilder.Create(this)
@@ -111,5 +112,10 @@ namespace Feedpipes.Syndication.JsonFeedFormat.Entities
         /// that’s an audio or video file.
         /// </summary>
         public IList<JsonFeedAttachment> Attachments { get; set; } = new List<JsonFeedAttachment>();
+        
+        /// <summary>
+        /// Extenssions
+        /// </summary>
+        public IList<IExtensionEntity> Extensions { get; } = new List<IExtensionEntity>();
     }
 }

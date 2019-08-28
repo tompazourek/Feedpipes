@@ -1,15 +1,13 @@
 ﻿using System;
-using System.Diagnostics.CodeAnalysis;
 using System.Xml.Linq;
 using JetBrains.Annotations;
+using Newtonsoft.Json.Linq;
 
 namespace Feedpipes.Syndication.Extensions
 {
     internal static class ExtensibleEntityParser
     {
-        [SuppressMessage("ReSharper", "ConstantNullCoalescingCondition")]
-        [SuppressMessage("ReSharper", "InvertIf")]
-        public static void ParseExtensibleEntityExtensions<T>([NotNull] XElement parentElement, [NotNull] ExtensionManifestDirectory extensionManifestDirectory, [NotNull] T entityToExtend)
+        public static void ParseXElementExtensions<T>([NotNull] XElement parentElement, [NotNull] ExtensionManifestDirectory extensionManifestDirectory, [NotNull] T entityToExtend)
             where T : IExtensibleEntity
         {
             if (parentElement == null) throw new ArgumentNullException(nameof(parentElement));
@@ -19,6 +17,22 @@ namespace Feedpipes.Syndication.Extensions
             foreach (var extensionManifest in extensionManifestDirectory)
             {
                 if (extensionManifest.TryParseXElementExtension(parentElement, out var extension))
+                {
+                    entityToExtend.Extensions.Add(extension);
+                }
+            }
+        }
+
+        public static void ParseXElementExtensions<T>([NotNull] JObject parentObject, [NotNull] ExtensionManifestDirectory extensionManifestDirectory, [NotNull] T entityToExtend)
+            where T : IExtensibleEntity
+        {
+            if (parentObject == null) throw new ArgumentNullException(nameof(parentObject));
+            if (extensionManifestDirectory == null) throw new ArgumentNullException(nameof(extensionManifestDirectory));
+            if (entityToExtend == null) throw new ArgumentNullException(nameof(entityToExtend));
+
+            foreach (var extensionManifest in extensionManifestDirectory)
+            {
+                if (extensionManifest.TryParseJObjectExtension(parentObject, out var extension))
                 {
                     entityToExtend.Extensions.Add(extension);
                 }

@@ -1,12 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Text;
+using Feedpipes.Syndication.Extensions;
 using Feedpipes.Syndication.JsonFeedFormat;
 using Feedpipes.Syndication.JsonFeedFormat.Entities;
 using Feedpipes.Syndication.SampleData;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using Xunit;
+
+// ReSharper disable UseObjectOrCollectionInitializer
 
 namespace Feedpipes.Syndication.Tests
 {
@@ -79,6 +84,88 @@ namespace Feedpipes.Syndication.Tests
             {
                 "_jsonfeed1-sample05.json",
             };
+        }
+
+        public class BlueShedSampleExtensionManifest : ExtensionManifest<BlueShedSampleExtension>
+        {
+            protected override bool TryParseJObjectExtension(JObject parentObject, out BlueShedSampleExtension extension)
+            {
+                extension = default;
+
+                var property = parentObject.Property("_blue_shed");
+                if (property == null)
+                    return false;
+
+                if (property.Value?.Type != JTokenType.Object)
+                    return false;
+
+                return TryParseBlueShedSampleExtensionObject((JObject) property.Value, out extension);
+            }
+
+            protected override bool TryFormatJObjectExtension(BlueShedSampleExtension extensionToFormat, out IList<JToken> tokens)
+            {
+                tokens = default;
+
+                if (!TryFormatBlueShedSampleExtensionObject(extensionToFormat, out var extensionObject))
+                    return false;
+
+                tokens = new JToken[] { new JProperty("_blue_shed", extensionObject) };
+                return true;
+            }
+
+
+            private static bool TryParseBlueShedSampleExtensionObject(JObject extensionObject, out BlueShedSampleExtension parsedExtension)
+            {
+                parsedExtension = default;
+
+                if (extensionObject == null)
+                    return false;
+
+                parsedExtension = new BlueShedSampleExtension();
+                parsedExtension.About = extensionObject.Property("about")?.Value?.Value<string>();
+                parsedExtension.Explicit = extensionObject.Property("explicit")?.Value?.Value<bool>();
+                parsedExtension.Copyright = extensionObject.Property("copyright")?.Value?.Value<string>();
+                parsedExtension.Owner = extensionObject.Property("owner")?.Value?.Value<string>();
+                parsedExtension.Subtitle = extensionObject.Property("subtitle")?.Value?.Value<string>();
+
+                return true;
+            }
+
+            private static bool TryFormatBlueShedSampleExtensionObject(BlueShedSampleExtension extensionToFormat, out JObject extensionObject)
+            {
+                extensionObject = default;
+
+                if (extensionToFormat == null)
+                    return false;
+
+                extensionObject = new JObject();
+
+                extensionObject.Add("about", extensionToFormat.About);
+
+                if (extensionToFormat.Explicit != null)
+                {
+                    extensionObject.Add("explicit", extensionToFormat.Explicit.Value);
+                }
+
+                extensionObject.Add("copyright", extensionToFormat.Copyright);
+                extensionObject.Add("owner", extensionToFormat.Owner);
+                extensionObject.Add("subtitle", extensionToFormat.Subtitle);
+
+                return true;
+            }
+        }
+
+        /// <summary>
+        /// Sample JSON Feed extension.
+        /// See "_blue_shed" in JSON Feed Spec (https://jsonfeed.org/version/1)
+        /// </summary>
+        public class BlueShedSampleExtension : IExtensionEntity
+        {
+            public string About { get; set; }
+            public bool? Explicit { get; set; }
+            public string Copyright { get; set; }
+            public string Owner { get; set; }
+            public string Subtitle { get; set; }
         }
 
         [Fact]
@@ -202,6 +289,76 @@ namespace Feedpipes.Syndication.Tests
                 var jsonString = targetEncoding.GetString(memoryStream.ToArray());
                 Assert.NotEmpty(jsonString);
             }
+        }
+
+        [Fact]
+        public void FormatSampleFeedWithBlueShedSampleExtension()
+        {
+            var feed = new JsonFeed
+            {
+                Items = new List<JsonFeedItem>
+                {
+                    new JsonFeedItem { Id = "abc" },
+                },
+                Extensions =
+                {
+                    new BlueShedSampleExtension
+                    {
+                        About = "https://blueshed-podcasts.com/json-feed-extension-docs",
+                        Explicit = false,
+                        Copyright = "1948 by George Orwell",
+                        Owner = "Big Brother and the Holding Company",
+                        Subtitle = "All shouting, all the time. Double. Plus. Good.",
+                    }
+                }
+            };
+
+            var tryFormatResult = JsonFeedFormatter.TryFormatJsonFeed(feed, out var document, new ExtensionManifestDirectory { new BlueShedSampleExtensionManifest() });
+            Assert.True(tryFormatResult);
+
+            var targetEncoding = Encoding.UTF8;
+            using (var memoryStream = new MemoryStream())
+            using (var streamWriter = new StreamWriter(memoryStream, targetEncoding))
+            using (var jsonWriter = new JsonTextWriter(streamWriter)
+            {
+                Formatting = Formatting.Indented,
+                StringEscapeHandling = StringEscapeHandling.EscapeHtml,
+                Indentation = 4,
+            })
+            {
+                document.WriteTo(jsonWriter);
+                jsonWriter.Flush();
+
+                var jsonString = targetEncoding.GetString(memoryStream.ToArray());
+                Assert.Contains("_blue_shed", jsonString);
+                Assert.NotEmpty(jsonString);
+            }
+        }
+        
+        [Theory]
+        [ClassData(typeof(ParseSampleFeedWithBlueShedSampleExtensionData))]
+        public void ParseSampleFeedWithBlueShedSampleExtension(SampleFeed embeddedDocument)
+        {
+            // arrange
+            var document1 = embeddedDocument.JsonDocument;
+
+            // action
+            var tryParseResult = JsonFeedParser.TryParseJsonFeed(document1, out var feed, new ExtensionManifestDirectory { new BlueShedSampleExtensionManifest() });
+            Assert.True(tryParseResult);
+
+            // assert
+            Assert.Equal(1, feed.Extensions.Count);
+            var blueShedExtension = (BlueShedSampleExtension)feed.Extensions.SingleOrDefault(x => x is BlueShedSampleExtension);
+            Assert.NotNull(blueShedExtension);
+            Assert.Equal("https://blueshed-podcasts.com/json-feed-extension-docs", blueShedExtension.About);
+        }
+        
+        public class ParseSampleFeedWithBlueShedSampleExtensionData : SampleFeedTestsClassDataBase
+        {
+            public override IEnumerable<string> FileNames => new[]
+            {
+                "_jsonfeed1-sample02.json",
+            };
         }
     }
 }

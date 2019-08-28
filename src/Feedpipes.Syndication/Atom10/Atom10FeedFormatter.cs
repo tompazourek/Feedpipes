@@ -118,7 +118,7 @@ namespace Feedpipes.Syndication.Atom10
             }
 
             // extensions
-            if (ExtensibleEntityFormatter.TryFormatExtensibleEntityExtensions(feed, namespaceAliases, extensionManifestDirectory, out var extensionElements))
+            if (ExtensibleEntityFormatter.TryFormatXElementExtensions(feed, namespaceAliases, extensionManifestDirectory, out var extensionElements))
             {
                 feedElement.AddRange(extensionElements);
             }
@@ -222,7 +222,7 @@ namespace Feedpipes.Syndication.Atom10
             }
 
             // extensions
-            if (ExtensibleEntityFormatter.TryFormatExtensibleEntityExtensions(entryToFormat, namespaceAliases, extensionManifestDirectory, out var extensionElements))
+            if (ExtensibleEntityFormatter.TryFormatXElementExtensions(entryToFormat, namespaceAliases, extensionManifestDirectory, out var extensionElements))
             {
                 entryElement.AddRange(extensionElements);
             }

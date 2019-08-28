@@ -76,7 +76,7 @@ namespace Feedpipes.Syndication.Rss10
             parsedChannel.Description = channelElement.Element(rss + "description")?.Value.Trim();
 
             // extensions
-            ExtensibleEntityParser.ParseExtensibleEntityExtensions(channelElement, extensionManifestDirectory, parsedChannel);
+            ExtensibleEntityParser.ParseXElementExtensions(channelElement, extensionManifestDirectory, parsedChannel);
 
             return true;
         }
@@ -95,7 +95,7 @@ namespace Feedpipes.Syndication.Rss10
             parsedImage.Link = imageElement.Element(rss + "link")?.Value.Trim();
 
             // extensions
-            ExtensibleEntityParser.ParseExtensibleEntityExtensions(imageElement, extensionManifestDirectory, parsedImage);
+            ExtensibleEntityParser.ParseXElementExtensions(imageElement, extensionManifestDirectory, parsedImage);
 
             return true;
         }
@@ -115,7 +115,7 @@ namespace Feedpipes.Syndication.Rss10
             parsedTextInput.Link = textInputElement.Element(rss + "link")?.Value.Trim();
 
             // extensions
-            ExtensibleEntityParser.ParseExtensibleEntityExtensions(textInputElement, extensionManifestDirectory, parsedTextInput);
+            ExtensibleEntityParser.ParseXElementExtensions(textInputElement, extensionManifestDirectory, parsedTextInput);
 
             return true;
         }
@@ -134,7 +134,7 @@ namespace Feedpipes.Syndication.Rss10
             parsedItem.Description = itemElement.Element(rss + "description")?.Value.Trim();
 
             // extensions
-            ExtensibleEntityParser.ParseExtensibleEntityExtensions(itemElement, extensionManifestDirectory, parsedItem);
+            ExtensibleEntityParser.ParseXElementExtensions(itemElement, extensionManifestDirectory, parsedItem);
 
             return true;
         }

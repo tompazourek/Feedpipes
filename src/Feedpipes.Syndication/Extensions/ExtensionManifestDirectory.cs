@@ -16,7 +16,7 @@ namespace Feedpipes.Syndication.Extensions
     {
         #region Defaults
 
-        private static readonly IList<ExtensionManifest> DefaultShared = new List<ExtensionManifest>
+        private static readonly IList<ExtensionManifest> DefaultXmlBased = new List<ExtensionManifest>
         {
             new CreativeCommonsExtensionManifest(),
             new DublinCoreExtensionManifest(),
@@ -26,12 +26,14 @@ namespace Feedpipes.Syndication.Extensions
             new WellFormedWebExtensionManifest(),
         };
 
-        public static ExtensionManifestDirectory DefaultForRss { get; set; } = new ExtensionManifestDirectory(DefaultShared)
+        public static ExtensionManifestDirectory DefaultForRss { get; set; } = new ExtensionManifestDirectory(DefaultXmlBased)
         {
             new RssAtom10ExtensionManifest(),
         };
 
-        public static ExtensionManifestDirectory DefaultForAtom { get; set; } = new ExtensionManifestDirectory(DefaultShared);
+        public static ExtensionManifestDirectory DefaultForAtom { get; set; } = new ExtensionManifestDirectory(DefaultXmlBased);
+
+        public static ExtensionManifestDirectory DefaultForJsonFeed { get; set; } = new ExtensionManifestDirectory();
 
         #endregion
 

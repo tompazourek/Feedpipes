@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Diagnostics;
+using Feedpipes.Syndication.Extensions;
 using Feedpipes.Syndication.Utils;
 
 namespace Feedpipes.Syndication.JsonFeedFormat.Entities
@@ -8,7 +9,7 @@ namespace Feedpipes.Syndication.JsonFeedFormat.Entities
     /// JSON Feed
     /// </summary>
     [DebuggerDisplay("{" + nameof(DebuggerDisplay) + ",nq}")]
-    public class JsonFeed
+    public class JsonFeed : IExtensibleEntity
     {
         [DebuggerBrowsable(DebuggerBrowsableState.Never)]
         internal string DebuggerDisplay => DebuggerDisplayBuilder.Create(this)
@@ -97,5 +98,10 @@ namespace Feedpipes.Syndication.JsonFeedFormat.Entities
         /// items is an array, and is required.
         /// </summary>
         public IList<JsonFeedItem> Items { get; set; } = new List<JsonFeedItem>();
+        
+        /// <summary>
+        /// Extenssions
+        /// </summary>
+        public IList<IExtensionEntity> Extensions { get; } = new List<IExtensionEntity>();
     }
 }

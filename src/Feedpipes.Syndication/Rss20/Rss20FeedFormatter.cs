@@ -135,7 +135,7 @@ namespace Feedpipes.Syndication.Rss20
             }
 
             // extensions
-            if (ExtensibleEntityFormatter.TryFormatExtensibleEntityExtensions(channelToFormat, namespaceAliases, extensionManifestDirectory, out var extensionElements))
+            if (ExtensibleEntityFormatter.TryFormatXElementExtensions(channelToFormat, namespaceAliases, extensionManifestDirectory, out var extensionElements))
             {
                 channelElement.AddRange(extensionElements);
             }
@@ -218,7 +218,7 @@ namespace Feedpipes.Syndication.Rss20
             }
 
             // extensions
-            if (ExtensibleEntityFormatter.TryFormatExtensibleEntityExtensions(itemToFormat, namespaceAliases, extensionManifestDirectory, out var extensionElements))
+            if (ExtensibleEntityFormatter.TryFormatXElementExtensions(itemToFormat, namespaceAliases, extensionManifestDirectory, out var extensionElements))
             {
                 itemElement.AddRange(extensionElements);
             }
@@ -363,7 +363,7 @@ namespace Feedpipes.Syndication.Rss20
             textInputElement.Add(new XElement("link") { Value = textInputToFormat.Link ?? "" });
 
             // extensions
-            if (ExtensibleEntityFormatter.TryFormatExtensibleEntityExtensions(textInputToFormat, namespaceAliases, extensionManifestDirectory, out var extensionElements))
+            if (ExtensibleEntityFormatter.TryFormatXElementExtensions(textInputToFormat, namespaceAliases, extensionManifestDirectory, out var extensionElements))
             {
                 textInputElement.AddRange(extensionElements);
             }
@@ -402,7 +402,7 @@ namespace Feedpipes.Syndication.Rss20
             }
 
             // extensions
-            if (ExtensibleEntityFormatter.TryFormatExtensibleEntityExtensions(imageToFormat, namespaceAliases, extensionManifestDirectory, out var extensionElements))
+            if (ExtensibleEntityFormatter.TryFormatXElementExtensions(imageToFormat, namespaceAliases, extensionManifestDirectory, out var extensionElements))
             {
                 imageElement.AddRange(extensionElements);
             }

@@ -112,7 +112,7 @@ namespace Feedpipes.Syndication.Atom10
             }
 
             // extensions
-            ExtensibleEntityParser.ParseExtensibleEntityExtensions(feedElement, extensionManifestDirectory, parsedFeed);
+            ExtensibleEntityParser.ParseXElementExtensions(feedElement, extensionManifestDirectory, parsedFeed);
 
             return true;
         }
@@ -196,7 +196,7 @@ namespace Feedpipes.Syndication.Atom10
             }
 
             // extensions
-            ExtensibleEntityParser.ParseExtensibleEntityExtensions(entryElement, extensionManifestDirectory, parsedEntry);
+            ExtensibleEntityParser.ParseXElementExtensions(entryElement, extensionManifestDirectory, parsedEntry);
 
             return true;
         }

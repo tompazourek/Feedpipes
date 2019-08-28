@@ -1,15 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Feedpipes.Syndication.Extensions;
 using Feedpipes.Syndication.JsonFeedFormat.Entities;
 using Feedpipes.Syndication.Timestamps.Rfc3339;
+using Feedpipes.Syndication.Utils.Json;
 using Newtonsoft.Json.Linq;
 
 namespace Feedpipes.Syndication.JsonFeedFormat
 {
     public static class JsonFeedFormatter
     {
-        public static bool TryFormatJsonFeed(JsonFeed feedToFormat, out JObject feedObject)
+        public static bool TryFormatJsonFeed(JsonFeed feedToFormat, out JObject feedObject, ExtensionManifestDirectory extensionManifestDirectory = null)
         {
             feedObject = default;
 
@@ -20,6 +22,11 @@ namespace Feedpipes.Syndication.JsonFeedFormat
             {
                 new JProperty("version", new JValue(JsonFeedConstants.Version)),
             };
+
+            if (extensionManifestDirectory == null)
+            {
+                extensionManifestDirectory = ExtensionManifestDirectory.DefaultForJsonFeed;
+            }
 
             if (TryFormatJsonFeedRequiredStringProperty("title", feedToFormat.Title, out var titleProperty))
             {
@@ -76,15 +83,21 @@ namespace Feedpipes.Syndication.JsonFeedFormat
                 feedObject.Add(hubsProperty);
             }
 
-            if (TryFormatJsonFeedItemsProperty("items", feedToFormat.Items, out var itemsProperty))
+            if (TryFormatJsonFeedItemsProperty("items", feedToFormat.Items, extensionManifestDirectory, out var itemsProperty))
             {
                 feedObject.Add(itemsProperty);
+            }
+
+            // extensions
+            if (ExtensibleEntityFormatter.TryFormatJObjectExtensions(feedToFormat, extensionManifestDirectory, out var extensionTokens))
+            {
+                feedObject.AddRange(extensionTokens);
             }
 
             return true;
         }
 
-        private static bool TryFormatJsonFeedItemsProperty(string propertyName, IList<JsonFeedItem> itemsToFormat, out JProperty itemsProperty)
+        private static bool TryFormatJsonFeedItemsProperty(string propertyName, IList<JsonFeedItem> itemsToFormat, ExtensionManifestDirectory extensionManifestDirectory, out JProperty itemsProperty)
         {
             var itemsArray = new JArray();
 
@@ -92,7 +105,7 @@ namespace Feedpipes.Syndication.JsonFeedFormat
             {
                 foreach (var itemToFormat in itemsToFormat)
                 {
-                    if (!TryFormatJsonFeedItemObject(itemToFormat, out var itemObject))
+                    if (!TryFormatJsonFeedItemObject(itemToFormat, extensionManifestDirectory, out var itemObject))
                         continue;
 
                     itemsArray.Add(itemObject);
@@ -103,7 +116,7 @@ namespace Feedpipes.Syndication.JsonFeedFormat
             return true;
         }
 
-        private static bool TryFormatJsonFeedItemObject(JsonFeedItem itemToFormat, out JObject itemObject)
+        private static bool TryFormatJsonFeedItemObject(JsonFeedItem itemToFormat, ExtensionManifestDirectory extensionManifestDirectory, out JObject itemObject)
         {
             itemObject = default;
 
@@ -180,6 +193,12 @@ namespace Feedpipes.Syndication.JsonFeedFormat
             if (TryFormatJsonFeedAttachmentsProperty("attachments", itemToFormat.Attachments, out var attachmentsProperty))
             {
                 itemObject.Add(attachmentsProperty);
+            }
+            
+            // extensions
+            if (ExtensibleEntityFormatter.TryFormatJObjectExtensions(itemToFormat, extensionManifestDirectory, out var extensionTokens))
+            {
+                itemObject.AddRange(extensionTokens);
             }
 
             return true;
