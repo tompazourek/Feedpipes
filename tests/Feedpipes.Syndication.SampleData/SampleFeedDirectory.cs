@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO;
 using System.Reflection;
-using System.Text.Json;
 using System.Xml;
 using System.Xml.Linq;
 using Csv;
 using Feedpipes.Syndication.Utils.Xml;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 #pragma warning disable 168
 
@@ -69,7 +71,7 @@ namespace Feedpipes.Syndication.SampleData
                     }
                     else if (feed.FileName.EndsWith(".json"))
                     {
-                        feed.LazyJsonDocument = new Lazy<JsonDocument>(() =>
+                        feed.LazyJsonDocument = new Lazy<JObject>(() =>
                         {
                             var streamName = $"{_manifestResourceStreamPrefix}Files.{feed.FileName}";
                             using (var feedStream = _currentAssembly.GetManifestResourceStream(streamName))
@@ -79,11 +81,17 @@ namespace Feedpipes.Syndication.SampleData
 
                                 try
                                 {
-                                    return JsonDocument.Parse(feedStream, new JsonDocumentOptions
+                                    using (var streamReader = new StreamReader(feedStream))
+                                    using (var jsonReader = new JsonTextReader(streamReader))
                                     {
-                                        AllowTrailingCommas = true,
-                                        CommentHandling = JsonCommentHandling.Skip,
-                                    });
+                                        var jsonDocument = JObject.Load(jsonReader, new JsonLoadSettings
+                                        {
+                                            CommentHandling = CommentHandling.Ignore,
+                                            DuplicatePropertyNameHandling = DuplicatePropertyNameHandling.Replace,
+                                            LineInfoHandling = LineInfoHandling.Load,
+                                        });
+                                        return jsonDocument;
+                                    }
                                 }
                                 catch (JsonException ex)
                                 {

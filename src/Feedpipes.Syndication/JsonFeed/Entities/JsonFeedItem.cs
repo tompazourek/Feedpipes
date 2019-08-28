@@ -15,6 +15,7 @@ namespace Feedpipes.Syndication.JsonFeed.Entities
         internal string DebuggerDisplay => DebuggerDisplayBuilder.Create(this)
             .Append(x => x.Id)
             .Append(x => x.Title)
+            .Append(x => x.Url)
             .Append(x => x.DatePublished);
 
         /// <summary>

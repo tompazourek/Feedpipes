@@ -1,22 +1,18 @@
 ﻿using System;
-using System.Text.Json;
 using Feedpipes.Syndication.JsonFeed.Entities;
 using Feedpipes.Syndication.Timestamps.Relaxed;
 using Feedpipes.Syndication.Utils.Json;
+using Newtonsoft.Json.Linq;
 
 namespace Feedpipes.Syndication.JsonFeed
 {
     public static class JsonFeedParser
     {
-        public static bool TryParseJsonFeed(in JsonDocument document, out Entities.JsonFeed parsedFeed)
+        public static bool TryParseJsonFeed(in JObject feedElement, out Entities.JsonFeed parsedFeed)
         {
             parsedFeed = default;
 
-            var feedElement = document.RootElement;
-            if (!feedElement.TryGetProperty("version", out var versionElement))
-                return false;
-
-            if (!versionElement.TryGetString(out var parsedVersion))
+            if (!TryParseJsonFeedStringElement(feedElement, "version", out var parsedVersion))
                 return false;
 
             if (!JsonFeedConstants.RecognizedVersions.Contains(parsedVersion))
@@ -64,7 +60,7 @@ namespace Feedpipes.Syndication.JsonFeed
                 parsedFeed.Favicon = parsedFavicon;
             }
 
-            if (feedElement.TryGetProperty("author", out var authorElement) && TryParseJsonFeedAuthor(authorElement, out var parsedAuthor))
+            if (feedElement.TryGetJObjectProperty("author", out var authorElement) && TryParseJsonFeedAuthor(authorElement, out var parsedAuthor))
             {
                 parsedFeed.Author = parsedAuthor;
             }
@@ -74,7 +70,7 @@ namespace Feedpipes.Syndication.JsonFeed
                 parsedFeed.Expired = parsedExpired;
             }
 
-            if (feedElement.TryGetProperty("hubs", out var hubsElement) && hubsElement.TryGetArray(out var hubElements))
+            if (feedElement.TryGetJObjectArrayProperty("hubs", out var hubElements))
             {
                 foreach (var hubElement in hubElements)
                 {
@@ -85,7 +81,7 @@ namespace Feedpipes.Syndication.JsonFeed
                 }
             }
 
-            if (feedElement.TryGetProperty("items", out var itemsElement) && itemsElement.TryGetArray(out var itemElements))
+            if (feedElement.TryGetJObjectArrayProperty("items", out var itemElements))
             {
                 foreach (var itemElement in itemElements)
                 {
@@ -99,7 +95,7 @@ namespace Feedpipes.Syndication.JsonFeed
             return true;
         }
 
-        private static bool TryParseJsonFeedItemElement(in JsonElement itemElement, out JsonFeedItem parsedItem)
+        private static bool TryParseJsonFeedItemElement(in JObject itemElement, out JsonFeedItem parsedItem)
         {
             parsedItem = null;
 
@@ -170,25 +166,22 @@ namespace Feedpipes.Syndication.JsonFeed
                 parsedItem.DateModified = parsedDateModified;
             }
 
-            if (itemElement.TryGetProperty("author", out var authorElement) && TryParseJsonFeedAuthor(authorElement, out var parsedAuthor))
+            if (itemElement.TryGetJObjectProperty("author", out var authorElement) && TryParseJsonFeedAuthor(authorElement, out var parsedAuthor))
             {
                 parsedItem = parsedItem ?? new JsonFeedItem();
                 parsedItem.Author = parsedAuthor;
             }
 
-            if (itemElement.TryGetProperty("tags", out var tagsElement) && tagsElement.TryGetArray(out var tagElements))
+            if (itemElement.TryGetStringArrayProperty("tags", out var parsedTags))
             {
-                foreach (var tagElement in tagElements)
+                foreach (var parsedTag in parsedTags)
                 {
-                    if (tagElement.TryGetString(out var parsedTag))
-                    {
-                        parsedItem = parsedItem ?? new JsonFeedItem();
-                        parsedItem.Tags.Add(parsedTag);
-                    }
+                    parsedItem = parsedItem ?? new JsonFeedItem();
+                    parsedItem.Tags.Add(parsedTag);
                 }
             }
 
-            if (itemElement.TryGetProperty("attachments", out var attachmentsElement) && attachmentsElement.TryGetArray(out var attachmentElements))
+            if (itemElement.TryGetJObjectArrayProperty("attachments", out var attachmentElements))
             {
                 foreach (var attachmentElement in attachmentElements)
                 {
@@ -206,7 +199,7 @@ namespace Feedpipes.Syndication.JsonFeed
             return true;
         }
 
-        private static bool TryParseJsonFeedAttachment(in JsonElement attachmentElement, out JsonFeedAttachment parsedAttachment)
+        private static bool TryParseJsonFeedAttachment(in JObject attachmentElement, out JsonFeedAttachment parsedAttachment)
         {
             parsedAttachment = null;
 
@@ -247,14 +240,11 @@ namespace Feedpipes.Syndication.JsonFeed
             return true;
         }
 
-        private static bool TryParseJsonFeedTimestampElement(in JsonElement parentElement, string propertyName, out DateTimeOffset parsedTimestamp)
+        private static bool TryParseJsonFeedTimestampElement(in JObject parentElement, string propertyName, out DateTimeOffset parsedTimestamp)
         {
             parsedTimestamp = default;
 
-            if (!parentElement.TryGetProperty(propertyName, out var propertyElement))
-                return false;
-
-            if (!propertyElement.TryGetString(out var parsedString))
+            if (!parentElement.TryGetStringProperty(propertyName, out var parsedString))
                 return false;
 
             if (!RelaxedTimestampParser.TryParseTimestampFromString(parsedString, out parsedTimestamp))
@@ -263,7 +253,7 @@ namespace Feedpipes.Syndication.JsonFeed
             return true;
         }
 
-        private static bool TryParseJsonFeedHub(in JsonElement hubElement, out JsonFeedHub parsedHub)
+        private static bool TryParseJsonFeedHub(in JObject hubElement, out JsonFeedHub parsedHub)
         {
             parsedHub = null;
 
@@ -286,7 +276,7 @@ namespace Feedpipes.Syndication.JsonFeed
             return true;
         }
 
-        private static bool TryParseJsonFeedAuthor(in JsonElement authorElement, out JsonFeedAuthor parsedAuthor)
+        private static bool TryParseJsonFeedAuthor(in JObject authorElement, out JsonFeedAuthor parsedAuthor)
         {
             parsedAuthor = null;
 
@@ -315,51 +305,36 @@ namespace Feedpipes.Syndication.JsonFeed
             return true;
         }
 
-        private static bool TryParseJsonFeedStringElement(in JsonElement parentElement, string propertyName, out string parsedValue)
+        private static bool TryParseJsonFeedStringElement(in JObject parentElement, string propertyName, out string parsedValue)
         {
             parsedValue = default;
 
-            if (!parentElement.TryGetProperty(propertyName, out var propertyElement))
-                return false;
-
-            if (!propertyElement.TryGetString(out parsedValue))
+            if (!parentElement.TryGetStringProperty(propertyName, out parsedValue))
                 return false;
 
             return true;
         }
 
-        private static bool TryParseJsonFeedBoolElement(in JsonElement parentElement, string propertyName, out bool parsedValue)
+        private static bool TryParseJsonFeedBoolElement(in JObject parentElement, string propertyName, out bool parsedValue)
         {
             parsedValue = default;
 
-            if (!parentElement.TryGetProperty(propertyName, out var propertyElement))
-                return false;
-
-            if (!propertyElement.TryGetBool(out parsedValue))
+            if (!parentElement.TryGetBoolProperty(propertyName, out parsedValue))
                 return false;
 
             return true;
         }
 
-        private static bool TryParseJsonFeedNumberElement(in JsonElement parentElement, string propertyName, out int parsedValue)
+        private static bool TryParseJsonFeedNumberElement(in JObject parentElement, string propertyName, out int parsedValue)
         {
             parsedValue = default;
 
-            if (!parentElement.TryGetProperty(propertyName, out var propertyElement))
-                return false;
-
-            if (propertyElement.TryGetInt32(out parsedValue))
+            if (parentElement.TryGetIntegerProperty(propertyName, out parsedValue))
                 return true;
 
-            if (propertyElement.TryGetDouble(out var parsedDouble))
+            if (parentElement.TryGetDoubleProperty(propertyName, out var parsedDouble))
             {
                 parsedValue = (int) parsedDouble;
-                return true;
-            }
-
-            if (propertyElement.TryGetDecimal(out var parsedDecimal))
-            {
-                parsedValue = (int) parsedDecimal;
                 return true;
             }
 

@@ -1,6 +1,6 @@
 ﻿using System;
-using System.Text.Json;
 using System.Xml.Linq;
+using Newtonsoft.Json.Linq;
 
 namespace Feedpipes.Syndication.SampleData
 {
@@ -17,7 +17,7 @@ namespace Feedpipes.Syndication.SampleData
         public XDocument XDocument => LazyXDocument?.Value;
         internal Lazy<XDocument> LazyXDocument { get; set; }
 
-        public JsonDocument JsonDocument => LazyJsonDocument?.Value;
-        internal Lazy<JsonDocument> LazyJsonDocument { get; set; }
+        public JObject JsonDocument => LazyJsonDocument?.Value;
+        internal Lazy<JObject> LazyJsonDocument { get; set; }
     }
 }
