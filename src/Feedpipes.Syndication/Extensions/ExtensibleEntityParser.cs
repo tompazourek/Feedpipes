@@ -1,12 +1,7 @@
-﻿using System.Diagnostics.CodeAnalysis;
+﻿using System;
+using System.Diagnostics.CodeAnalysis;
 using System.Xml.Linq;
-using Feedpipes.Syndication.Extensions.CreativeCommons;
-using Feedpipes.Syndication.Extensions.DublinCore;
-using Feedpipes.Syndication.Extensions.Rss10Content;
-using Feedpipes.Syndication.Extensions.Rss10Slash;
-using Feedpipes.Syndication.Extensions.Rss10Syndication;
-using Feedpipes.Syndication.Extensions.RssAtom10;
-using Feedpipes.Syndication.Extensions.WellFormedWeb;
+using JetBrains.Annotations;
 
 namespace Feedpipes.Syndication.Extensions
 {
@@ -14,61 +9,18 @@ namespace Feedpipes.Syndication.Extensions
     {
         [SuppressMessage("ReSharper", "ConstantNullCoalescingCondition")]
         [SuppressMessage("ReSharper", "InvertIf")]
-        public static void ParseExtensibleEntity<T>(XElement parentElement, T entityToExtend)
+        public static void ParseExtensibleEntityExtensions<T>([NotNull] XElement parentElement, [NotNull] ExtensionManifestDirectory extensionManifestDirectory, [NotNull] T entityToExtend)
+            where T : IExtensibleEntity
         {
-            if (entityToExtend is IExtensibleWithCreativeCommons extensibleWithCreativeCommons)
-            {
-                if (CreativeCommonsElementExtensionParser.TryParseCreativeCommonsElementExtension(parentElement, out var creativeCommonsExtension))
-                {
-                    extensibleWithCreativeCommons.CreativeCommonsExtension = creativeCommonsExtension;
-                }
-            }
+            if (parentElement == null) throw new ArgumentNullException(nameof(parentElement));
+            if (extensionManifestDirectory == null) throw new ArgumentNullException(nameof(extensionManifestDirectory));
+            if (entityToExtend == null) throw new ArgumentNullException(nameof(entityToExtend));
 
-            if (entityToExtend is IExtensibleWithDublinCore extensibleWithDublinCore)
+            foreach (var extensionManifest in extensionManifestDirectory)
             {
-                if (DublinCoreElementExtensionParser.TryParseDublinCoreElementExtension(parentElement, out var dublinCoreExtension))
+                if (extensionManifest.TryParseXElementExtension(parentElement, out var extension))
                 {
-                    extensibleWithDublinCore.DublinCoreExtension = dublinCoreExtension;
-                }
-            }
-
-            if (entityToExtend is IExtensibleWithRss10Content extensibleWithRss10Content)
-            {
-                if (Rss10ContentItemExtensionParser.TryParseRss10ContentItemExtension(parentElement, out var contentExtension))
-                {
-                    extensibleWithRss10Content.ContentExtension = contentExtension;
-                }
-            }
-
-            if (entityToExtend is IExtensibleWithRss10Slash extensibleWithRss10Slash)
-            {
-                if (Rss10SlashItemExtensionParser.TryParseRss10SlashItemExtension(parentElement, out var slashExtension))
-                {
-                    extensibleWithRss10Slash.SlashExtension = slashExtension;
-                }
-            }
-
-            if (entityToExtend is IExtensibleWithRss10Syndication extensibleWithRss10Syndication)
-            {
-                if (Rss10SyndicationChannelExtensionParser.TryParseRss10SyndicationChannelExtension(parentElement, out var syndicationExtension))
-                {
-                    extensibleWithRss10Syndication.SyndicationExtension = syndicationExtension;
-                }
-            }
-
-            if (entityToExtend is IExtensibleWithRssAtom10 extensibleWithRssAtom10)
-            {
-                if (RssAtom10ElementExtensionParser.TryParseRssAtom10ElementExtension(parentElement, out var atomExtension))
-                {
-                    extensibleWithRssAtom10.AtomExtension = atomExtension;
-                }
-            }
-
-            if (entityToExtend is IExtensibleWithWfw extensibleWithWfw)
-            {
-                if (WfwItemExtensionParser.TryParseWfwItemExtension(parentElement, out var wfwExtension))
-                {
-                    extensibleWithWfw.WfwExtension = wfwExtension;
+                    entityToExtend.Extensions.Add(extension);
                 }
             }
         }

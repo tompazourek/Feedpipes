@@ -12,7 +12,7 @@ namespace Feedpipes.Syndication.Rss20
 {
     public static class Rss20FeedFormatter
     {
-        public static bool TryFormatRss20Feed(Rss20Feed feed, out XDocument document)
+        public static bool TryFormatRss20Feed(Rss20Feed feed, out XDocument document, ExtensionManifestDirectory extensionManifestDirectory = null)
         {
             document = default;
 
@@ -24,8 +24,13 @@ namespace Feedpipes.Syndication.Rss20
             var rssElement = new XElement("rss", new XAttribute("version", Rss20Constants.Version));
             document.Add(rssElement);
 
+            if (extensionManifestDirectory == null)
+            {
+                extensionManifestDirectory = ExtensionManifestDirectory.DefaultForRss;
+            }
+
             var namespaceAliases = new XNamespaceAliasSet();
-            if (!TryFormatRss20Channel(feed.Channel, namespaceAliases, out var channelElement))
+            if (!TryFormatRss20Channel(feed.Channel, namespaceAliases, extensionManifestDirectory, out var channelElement))
                 return false;
 
             rssElement.Add(channelElement);
@@ -38,7 +43,7 @@ namespace Feedpipes.Syndication.Rss20
             return true;
         }
 
-        private static bool TryFormatRss20Channel(Rss20Channel channelToFormat, XNamespaceAliasSet namespaceAliases, out XElement channelElement)
+        private static bool TryFormatRss20Channel(Rss20Channel channelToFormat, XNamespaceAliasSet namespaceAliases, ExtensionManifestDirectory extensionManifestDirectory, out XElement channelElement)
         {
             channelElement = default;
 
@@ -109,12 +114,12 @@ namespace Feedpipes.Syndication.Rss20
                 channelElement.Add(ttlElement);
             }
 
-            if (TryFormatRss20Image(channelToFormat.Image, namespaceAliases, out var imageElement))
+            if (TryFormatRss20Image(channelToFormat.Image, namespaceAliases, extensionManifestDirectory, out var imageElement))
             {
                 channelElement.Add(imageElement);
             }
 
-            if (TryFormatRss20TextInput(channelToFormat.TextInput, namespaceAliases, out var textInputElement))
+            if (TryFormatRss20TextInput(channelToFormat.TextInput, namespaceAliases, extensionManifestDirectory, out var textInputElement))
             {
                 channelElement.Add(textInputElement);
             }
@@ -130,7 +135,7 @@ namespace Feedpipes.Syndication.Rss20
             }
 
             // extensions
-            if (ExtensibleEntityFormatter.TryFormatExtensibleEntity(channelToFormat, namespaceAliases, out var extensionElements))
+            if (ExtensibleEntityFormatter.TryFormatExtensibleEntityExtensions(channelToFormat, namespaceAliases, extensionManifestDirectory, out var extensionElements))
             {
                 channelElement.AddRange(extensionElements);
             }
@@ -138,7 +143,7 @@ namespace Feedpipes.Syndication.Rss20
             // items
             foreach (var itemToFormat in channelToFormat.Items)
             {
-                if (TryFormatRss20Item(itemToFormat, namespaceAliases, out var itemElement))
+                if (TryFormatRss20Item(itemToFormat, namespaceAliases, extensionManifestDirectory, out var itemElement))
                 {
                     channelElement.Add(itemElement);
                 }
@@ -147,7 +152,7 @@ namespace Feedpipes.Syndication.Rss20
             return true;
         }
 
-        private static bool TryFormatRss20Item(Rss20Item itemToFormat, XNamespaceAliasSet namespaceAliases, out XElement itemElement)
+        private static bool TryFormatRss20Item(Rss20Item itemToFormat, XNamespaceAliasSet namespaceAliases, ExtensionManifestDirectory extensionManifestDirectory, out XElement itemElement)
         {
             itemElement = default;
 
@@ -213,7 +218,7 @@ namespace Feedpipes.Syndication.Rss20
             }
 
             // extensions
-            if (ExtensibleEntityFormatter.TryFormatExtensibleEntity(itemToFormat, namespaceAliases, out var extensionElements))
+            if (ExtensibleEntityFormatter.TryFormatExtensibleEntityExtensions(itemToFormat, namespaceAliases, extensionManifestDirectory, out var extensionElements))
             {
                 itemElement.AddRange(extensionElements);
             }
@@ -343,7 +348,7 @@ namespace Feedpipes.Syndication.Rss20
             return true;
         }
 
-        private static bool TryFormatRss20TextInput(Rss20TextInput textInputToFormat, XNamespaceAliasSet namespaceAliases, out XElement textInputElement)
+        private static bool TryFormatRss20TextInput(Rss20TextInput textInputToFormat, XNamespaceAliasSet namespaceAliases, ExtensionManifestDirectory extensionManifestDirectory, out XElement textInputElement)
         {
             textInputElement = default;
 
@@ -358,7 +363,7 @@ namespace Feedpipes.Syndication.Rss20
             textInputElement.Add(new XElement("link") { Value = textInputToFormat.Link ?? "" });
 
             // extensions
-            if (ExtensibleEntityFormatter.TryFormatExtensibleEntity(textInputToFormat, namespaceAliases, out var extensionElements))
+            if (ExtensibleEntityFormatter.TryFormatExtensibleEntityExtensions(textInputToFormat, namespaceAliases, extensionManifestDirectory, out var extensionElements))
             {
                 textInputElement.AddRange(extensionElements);
             }
@@ -366,7 +371,7 @@ namespace Feedpipes.Syndication.Rss20
             return true;
         }
 
-        private static bool TryFormatRss20Image(Rss20Image imageToFormat, XNamespaceAliasSet namespaceAliases, out XElement imageElement)
+        private static bool TryFormatRss20Image(Rss20Image imageToFormat, XNamespaceAliasSet namespaceAliases, ExtensionManifestDirectory extensionManifestDirectory, out XElement imageElement)
         {
             imageElement = default;
 
@@ -397,7 +402,7 @@ namespace Feedpipes.Syndication.Rss20
             }
 
             // extensions
-            if (ExtensibleEntityFormatter.TryFormatExtensibleEntity(imageToFormat, namespaceAliases, out var extensionElements))
+            if (ExtensibleEntityFormatter.TryFormatExtensibleEntityExtensions(imageToFormat, namespaceAliases, extensionManifestDirectory, out var extensionElements))
             {
                 imageElement.AddRange(extensionElements);
             }

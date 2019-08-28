@@ -1,13 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using Feedpipes.Syndication.Base;
-using Feedpipes.Syndication.Extensions.CreativeCommons.Entities;
-using Feedpipes.Syndication.Extensions.DublinCore.Entities;
-using Feedpipes.Syndication.Extensions.Rss10Syndication.Entities;
+using Feedpipes.Syndication.Extensions;
 
 namespace Feedpipes.Syndication.FP.Entities
 {
-    public class FPFeedMetadata : IFeed
+    public class FPFeedMetadata : IExtensibleEntity
     {
         public string Id { get; set; }
         public string Language { get; set; }
@@ -30,8 +27,9 @@ namespace Feedpipes.Syndication.FP.Entities
         public FPTextInput TextInput { get; set; }
         public FPCloud Cloud { get; set; }
         
-        public Rss10SyndicationChannelExtension SyndicationExtension { get; set; }
-        public DublinCoreElementExtension DublinCoreExtension { get; set; }
-        public CreativeCommonsElementExtension CreativeCommonsExtension { get; set; }
+        /// <summary>
+        /// Extenssions
+        /// </summary>
+        public IList<IExtensionEntity> Extensions { get; } = new List<IExtensionEntity>();
     }
 }

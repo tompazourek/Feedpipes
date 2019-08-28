@@ -3,12 +3,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 using System.Xml.Linq;
 using Feedpipes.Syndication.Atom10.Entities;
-using Feedpipes.Syndication.Extensions.CreativeCommons;
-using Feedpipes.Syndication.Extensions.DublinCore;
-using Feedpipes.Syndication.Extensions.Rss10Content;
-using Feedpipes.Syndication.Extensions.Rss10Slash;
-using Feedpipes.Syndication.Extensions.Rss10Syndication;
-using Feedpipes.Syndication.Extensions.WellFormedWeb;
+using Feedpipes.Syndication.Extensions;
 using Feedpipes.Syndication.Timestamps.Relaxed;
 
 namespace Feedpipes.Syndication.Atom10
@@ -18,7 +13,7 @@ namespace Feedpipes.Syndication.Atom10
     {
         private static readonly XNamespace _xml = XNamespace.Xml;
 
-        public static bool TryParseAtom10Feed(XDocument document, out Atom10Feed parsedFeed)
+        public static bool TryParseAtom10Feed(XDocument document, out Atom10Feed parsedFeed, ExtensionManifestDirectory extensionManifestDirectory = null)
         {
             parsedFeed = default;
 
@@ -34,6 +29,11 @@ namespace Feedpipes.Syndication.Atom10
 
             if (feedElement == null)
                 return false;
+            
+            if (extensionManifestDirectory == null)
+            {
+                extensionManifestDirectory = ExtensionManifestDirectory.DefaultForAtom;
+            }
 
             parsedFeed = new Atom10Feed();
 
@@ -105,32 +105,19 @@ namespace Feedpipes.Syndication.Atom10
             // entries
             foreach (var entryElement in feedElement.Elements(atom + "entry"))
             {
-                if (TryParseAtom10Entry(entryElement, atom, out var parsedEntry))
+                if (TryParseAtom10Entry(entryElement, atom, extensionManifestDirectory, out var parsedEntry))
                 {
                     parsedFeed.Entries.Add(parsedEntry);
                 }
             }
 
             // extensions
-            if (Rss10SyndicationChannelExtensionParser.TryParseRss10SyndicationChannelExtension(feedElement, out var parsedSyndicationExtension))
-            {
-                parsedFeed.SyndicationExtension = parsedSyndicationExtension;
-            }
-
-            if (DublinCoreElementExtensionParser.TryParseDublinCoreElementExtension(feedElement, out var parsedDublinCoreExtension))
-            {
-                parsedFeed.DublinCoreExtension = parsedDublinCoreExtension;
-            }
-
-            if (CreativeCommonsElementExtensionParser.TryParseCreativeCommonsElementExtension(feedElement, out var parsedCreativeCommonsExtension))
-            {
-                parsedFeed.CreativeCommonsExtension = parsedCreativeCommonsExtension;
-            }
+            ExtensibleEntityParser.ParseExtensibleEntityExtensions(feedElement, extensionManifestDirectory, parsedFeed);
 
             return true;
         }
 
-        private static bool TryParseAtom10Entry(XElement entryElement, XNamespace atom, out Atom10Entry parsedEntry)
+        private static bool TryParseAtom10Entry(XElement entryElement, XNamespace atom, ExtensionManifestDirectory extensionManifestDirectory, out Atom10Entry parsedEntry)
         {
             parsedEntry = default;
 
@@ -209,30 +196,7 @@ namespace Feedpipes.Syndication.Atom10
             }
 
             // extensions
-            if (Rss10ContentItemExtensionParser.TryParseRss10ContentItemExtension(entryElement, out var parsedContentExtension))
-            {
-                parsedEntry.ContentExtension = parsedContentExtension;
-            }
-
-            if (Rss10SlashItemExtensionParser.TryParseRss10SlashItemExtension(entryElement, out var parsedSlashExtension))
-            {
-                parsedEntry.SlashExtension = parsedSlashExtension;
-            }
-
-            if (WfwItemExtensionParser.TryParseWfwItemExtension(entryElement, out var parsedWfwExtension))
-            {
-                parsedEntry.WfwExtension = parsedWfwExtension;
-            }
-
-            if (DublinCoreElementExtensionParser.TryParseDublinCoreElementExtension(entryElement, out var parsedDublinCoreExtension))
-            {
-                parsedEntry.DublinCoreExtension = parsedDublinCoreExtension;
-            }
-
-            if (CreativeCommonsElementExtensionParser.TryParseCreativeCommonsElementExtension(entryElement, out var parsedCreativeCommonsExtension))
-            {
-                parsedEntry.CreativeCommonsExtension = parsedCreativeCommonsExtension;
-            }
+            ExtensibleEntityParser.ParseExtensibleEntityExtensions(entryElement, extensionManifestDirectory, parsedEntry);
 
             return true;
         }

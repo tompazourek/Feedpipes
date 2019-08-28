@@ -1,6 +1,6 @@
-﻿using System.Diagnostics;
-using Feedpipes.Syndication.Base;
-using Feedpipes.Syndication.Extensions.DublinCore.Entities;
+﻿using System.Collections.Generic;
+using System.Diagnostics;
+using Feedpipes.Syndication.Extensions;
 using Feedpipes.Syndication.Utils;
 
 namespace Feedpipes.Syndication.Rss10.Entities
@@ -18,7 +18,7 @@ namespace Feedpipes.Syndication.Rss10.Entities
     /// sub-element of the "textinput" element, if possible.
     /// </summary>
     [DebuggerDisplay("{" + nameof(DebuggerDisplay) + ",nq}")]
-    public class Rss10TextInput : IRssTextInput
+    public class Rss10TextInput : IExtensibleEntity
     {
         [DebuggerBrowsable(DebuggerBrowsableState.Never)]
         internal string DebuggerDisplay => DebuggerDisplayBuilder.Create(this)
@@ -61,7 +61,10 @@ namespace Feedpipes.Syndication.Rss10.Entities
         /// Suggested maximum length of 500 characters.
         /// </summary>
         public string Link { get; set; }
-
-        public DublinCoreElementExtension DublinCoreExtension { get; set; }
+        
+        /// <summary>
+        /// Extenssions
+        /// </summary>
+        public IList<IExtensionEntity> Extensions { get; } = new List<IExtensionEntity>();
     }
 }

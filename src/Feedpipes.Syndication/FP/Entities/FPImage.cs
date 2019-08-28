@@ -1,9 +1,9 @@
-﻿using Feedpipes.Syndication.Base;
-using Feedpipes.Syndication.Extensions.DublinCore.Entities;
+﻿using System.Collections.Generic;
+using Feedpipes.Syndication.Extensions;
 
 namespace Feedpipes.Syndication.FP.Entities
 {
-    public class FPImage : IRssImage
+    public class FPImage : IExtensibleEntity
     {
         public string Alt { get; set; }
         public string Tooltip { get; set; }
@@ -13,6 +13,9 @@ namespace Feedpipes.Syndication.FP.Entities
         public int? Height { get; set; }
         public FPImageKind? Kind { get; set; }
         
-        public DublinCoreElementExtension DublinCoreExtension { get; set; }
+        /// <summary>
+        /// Extenssions
+        /// </summary>
+        public IList<IExtensionEntity> Extensions { get; } = new List<IExtensionEntity>();
     }
 }

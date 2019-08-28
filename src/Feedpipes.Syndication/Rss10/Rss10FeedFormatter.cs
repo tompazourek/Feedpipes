@@ -12,7 +12,7 @@ namespace Feedpipes.Syndication.Rss10
         private static readonly XNamespace _rss = Rss10Constants.Namespace;
         private static readonly XNamespace _rdf = Rss10Constants.RdfNamespace;
 
-        public static bool TryFormatRss10Feed(Rss10Feed feed, out XDocument document)
+        public static bool TryFormatRss10Feed(Rss10Feed feed, out XDocument document, ExtensionManifestDirectory extensionManifestDirectory = null)
         {
             document = default;
 
@@ -28,24 +28,29 @@ namespace Feedpipes.Syndication.Rss10
             namespaceAliases.EnsureNamespaceAlias(Rss10Constants.RdfNamespaceAlias, _rdf);
             namespaceAliases.EnsureNamespaceAlias(alias: null, _rss);
 
-            if (!TryFormatRss10Channel(feed.Channel, namespaceAliases, out var channelElement))
+            if (extensionManifestDirectory == null)
+            {
+                extensionManifestDirectory = ExtensionManifestDirectory.DefaultForRss;
+            }
+
+            if (!TryFormatRss10Channel(feed.Channel, namespaceAliases, extensionManifestDirectory, out var channelElement))
                 return false;
 
             rdfElement.Add(channelElement);
 
-            if (TryFormatRss10Image(feed.Channel.Image, referenceOnly: false, namespaceAliases, out var imageElement))
+            if (TryFormatRss10Image(feed.Channel.Image, referenceOnly: false, namespaceAliases, extensionManifestDirectory, out var imageElement))
             {
                 rdfElement.Add(imageElement);
             }
 
-            if (TryFormatRss10TextInput(feed.Channel.TextInput, referenceOnly: false, namespaceAliases, out var textInputElement))
+            if (TryFormatRss10TextInput(feed.Channel.TextInput, referenceOnly: false, namespaceAliases, extensionManifestDirectory, out var textInputElement))
             {
                 rdfElement.Add(textInputElement);
             }
 
             foreach (var itemToFormat in feed.Channel.Items)
             {
-                if (TryFormatRss10Item(itemToFormat, referenceOnly: false, namespaceAliases, out var itemElement))
+                if (TryFormatRss10Item(itemToFormat, referenceOnly: false, namespaceAliases, extensionManifestDirectory, out var itemElement))
                 {
                     rdfElement.Add(itemElement);
                 }
@@ -59,7 +64,7 @@ namespace Feedpipes.Syndication.Rss10
             return true;
         }
 
-        private static bool TryFormatRss10Channel(Rss10Channel channelToFormat, XNamespaceAliasSet namespaceAliases, out XElement channelElement)
+        private static bool TryFormatRss10Channel(Rss10Channel channelToFormat, XNamespaceAliasSet namespaceAliases, ExtensionManifestDirectory extensionManifestDirectory, out XElement channelElement)
         {
             channelElement = default;
 
@@ -74,18 +79,18 @@ namespace Feedpipes.Syndication.Rss10
             channelElement.Add(new XElement(_rss + "link", channelToFormat.Link ?? ""));
             channelElement.Add(new XElement(_rss + "description", channelToFormat.Description ?? ""));
 
-            if (TryFormatRss10Image(channelToFormat.Image, referenceOnly: true, namespaceAliases, out var imageElement))
+            if (TryFormatRss10Image(channelToFormat.Image, referenceOnly: true, namespaceAliases: namespaceAliases, extensionManifestDirectory, out var imageElement))
             {
                 channelElement.Add(imageElement);
             }
 
-            if (TryFormatRss10TextInput(channelToFormat.TextInput, referenceOnly: true, namespaceAliases, out var textInputElement))
+            if (TryFormatRss10TextInput(channelToFormat.TextInput, referenceOnly: true, namespaceAliases: namespaceAliases, extensionManifestDirectory, out var textInputElement))
             {
                 channelElement.Add(textInputElement);
             }
 
             // extensions
-            if (ExtensibleEntityFormatter.TryFormatExtensibleEntity(channelToFormat, namespaceAliases, out var extensionElements))
+            if (ExtensibleEntityFormatter.TryFormatExtensibleEntityExtensions(channelToFormat, namespaceAliases, extensionManifestDirectory, out var extensionElements))
             {
                 channelElement.AddRange(extensionElements);
             }
@@ -94,7 +99,7 @@ namespace Feedpipes.Syndication.Rss10
             var liElements = new List<XElement>();
             foreach (var itemToFormat in channelToFormat.Items)
             {
-                if (TryFormatRss10Item(itemToFormat, referenceOnly: true, namespaceAliases, out var liElement))
+                if (TryFormatRss10Item(itemToFormat, referenceOnly: true, namespaceAliases: namespaceAliases, extensionManifestDirectory, itemElement: out var liElement))
                 {
                     liElements.Add(liElement);
                 }
@@ -112,7 +117,7 @@ namespace Feedpipes.Syndication.Rss10
             return true;
         }
 
-        private static bool TryFormatRss10Item(Rss10Item itemToFormat, bool referenceOnly, XNamespaceAliasSet namespaceAliases, out XElement itemElement)
+        private static bool TryFormatRss10Item(Rss10Item itemToFormat, bool referenceOnly, XNamespaceAliasSet namespaceAliases, ExtensionManifestDirectory extensionManifestDirectory, out XElement itemElement)
         {
             itemElement = default;
 
@@ -135,7 +140,7 @@ namespace Feedpipes.Syndication.Rss10
             }
 
             // extensions
-            if (ExtensibleEntityFormatter.TryFormatExtensibleEntity(itemToFormat, namespaceAliases, out var extensionElements))
+            if (ExtensibleEntityFormatter.TryFormatExtensibleEntityExtensions(itemToFormat, namespaceAliases, extensionManifestDirectory, out var extensionElements))
             {
                 itemElement.AddRange(extensionElements);
             }
@@ -143,7 +148,7 @@ namespace Feedpipes.Syndication.Rss10
             return true;
         }
 
-        private static bool TryFormatRss10TextInput(Rss10TextInput textInputToFormat, bool referenceOnly, XNamespaceAliasSet namespaceAliases, out XElement textInputElement)
+        private static bool TryFormatRss10TextInput(Rss10TextInput textInputToFormat, bool referenceOnly, XNamespaceAliasSet namespaceAliases, ExtensionManifestDirectory extensionManifestDirectory, out XElement textInputElement)
         {
             textInputElement = default;
 
@@ -163,7 +168,7 @@ namespace Feedpipes.Syndication.Rss10
             textInputElement.Add(new XElement(_rss + "link") { Value = textInputToFormat.Link ?? "" });
 
             // extensions
-            if (ExtensibleEntityFormatter.TryFormatExtensibleEntity(textInputToFormat, namespaceAliases, out var extensionElements))
+            if (ExtensibleEntityFormatter.TryFormatExtensibleEntityExtensions(textInputToFormat, namespaceAliases, extensionManifestDirectory, out var extensionElements))
             {
                 textInputElement.AddRange(extensionElements);
             }
@@ -171,7 +176,7 @@ namespace Feedpipes.Syndication.Rss10
             return true;
         }
 
-        private static bool TryFormatRss10Image(Rss10Image imageToFormat, bool referenceOnly, XNamespaceAliasSet namespaceAliases, out XElement imageElement)
+        private static bool TryFormatRss10Image(Rss10Image imageToFormat, bool referenceOnly, XNamespaceAliasSet namespaceAliases, ExtensionManifestDirectory extensionManifestDirectory, out XElement imageElement)
         {
             imageElement = default;
 
@@ -190,7 +195,7 @@ namespace Feedpipes.Syndication.Rss10
             imageElement.Add(new XElement(_rss + "link") { Value = imageToFormat.Link ?? "" });
 
             // extensions
-            if (ExtensibleEntityFormatter.TryFormatExtensibleEntity(imageToFormat, namespaceAliases, out var extensionElements))
+            if (ExtensibleEntityFormatter.TryFormatExtensibleEntityExtensions(imageToFormat, namespaceAliases, extensionManifestDirectory, out var extensionElements))
             {
                 imageElement.AddRange(extensionElements);
             }

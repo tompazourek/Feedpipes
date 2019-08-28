@@ -5,7 +5,6 @@ using System.Globalization;
 using System.Linq;
 using System.Xml.Linq;
 using Feedpipes.Syndication.Extensions;
-using Feedpipes.Syndication.Rss10;
 using Feedpipes.Syndication.Rss20.Entities;
 using Feedpipes.Syndication.Timestamps.Relaxed;
 
@@ -14,7 +13,7 @@ namespace Feedpipes.Syndication.Rss20
     [SuppressMessage("ReSharper", "UseObjectOrCollectionInitializer")]
     public static class Rss20FeedParser
     {
-        public static bool TryParseRss20Feed(XDocument document, out Rss20Feed parsedFeed)
+        public static bool TryParseRss20Feed(XDocument document, out Rss20Feed parsedFeed, ExtensionManifestDirectory extensionManifestDirectory = null)
         {
             parsedFeed = default;
 
@@ -26,7 +25,12 @@ namespace Feedpipes.Syndication.Rss20
             if (!Rss20Constants.RecognizedVersions.Contains(rssVersion))
                 return false;
 
-            if (!TryParseRss20Channel(rssElement.Element("channel"), out var parsedChannel))
+            if (extensionManifestDirectory == null)
+            {
+                extensionManifestDirectory = ExtensionManifestDirectory.DefaultForRss;
+            }
+
+            if (!TryParseRss20Channel(rssElement.Element("channel"), extensionManifestDirectory, out var parsedChannel))
                 return false;
 
             parsedFeed = new Rss20Feed();
@@ -34,7 +38,7 @@ namespace Feedpipes.Syndication.Rss20
             return true;
         }
 
-        private static bool TryParseRss20Channel(XElement channelElement, out Rss20Channel parsedChannel)
+        private static bool TryParseRss20Channel(XElement channelElement, ExtensionManifestDirectory extensionManifestDirectory, out Rss20Channel parsedChannel)
         {
             parsedChannel = default;
 
@@ -80,12 +84,12 @@ namespace Feedpipes.Syndication.Rss20
                 parsedChannel.Ttl = parsedTtl;
             }
 
-            if (TryParseRss20Image(channelElement.Element("image"), out var parsedImage))
+            if (TryParseRss20Image(channelElement.Element("image"), extensionManifestDirectory, out var parsedImage))
             {
                 parsedChannel.Image = parsedImage;
             }
 
-            if (TryParseRss20TextInput(channelElement.Element("textInput"), out var parsedTextInput))
+            if (TryParseRss20TextInput(channelElement.Element("textInput"), extensionManifestDirectory, out var parsedTextInput))
             {
                 parsedChannel.TextInput = parsedTextInput;
             }
@@ -101,12 +105,12 @@ namespace Feedpipes.Syndication.Rss20
             }
 
             // extensions
-            ExtensibleEntityParser.ParseExtensibleEntity(channelElement, parsedChannel);
+            ExtensibleEntityParser.ParseExtensibleEntityExtensions(channelElement, extensionManifestDirectory, parsedChannel);
 
             // items
             foreach (var itemElement in channelElement.Elements("item"))
             {
-                if (TryParseRss20Item(itemElement, out var parsedItem))
+                if (TryParseRss20Item(itemElement, extensionManifestDirectory, out var parsedItem))
                 {
                     parsedChannel.Items.Add(parsedItem);
                 }
@@ -159,7 +163,7 @@ namespace Feedpipes.Syndication.Rss20
             return true;
         }
 
-        private static bool TryParseRss20Image(XElement imageElement, out Rss20Image parsedImage)
+        private static bool TryParseRss20Image(XElement imageElement, ExtensionManifestDirectory extensionManifestDirectory, out Rss20Image parsedImage)
         {
             parsedImage = default;
 
@@ -183,12 +187,12 @@ namespace Feedpipes.Syndication.Rss20
             }
 
             // extensions
-            ExtensibleEntityParser.ParseExtensibleEntity(imageElement, parsedImage);
+            ExtensibleEntityParser.ParseExtensibleEntityExtensions(imageElement, extensionManifestDirectory, parsedImage);
 
             return true;
         }
 
-        private static bool TryParseRss20TextInput(XElement textInputElement, out Rss20TextInput parsedTextInput)
+        private static bool TryParseRss20TextInput(XElement textInputElement, ExtensionManifestDirectory extensionManifestDirectory, out Rss20TextInput parsedTextInput)
         {
             parsedTextInput = default;
 
@@ -202,7 +206,7 @@ namespace Feedpipes.Syndication.Rss20
             parsedTextInput.Link = textInputElement.Element("link")?.Value.Trim();
 
             // extensions
-            ExtensibleEntityParser.ParseExtensibleEntity(textInputElement, parsedTextInput);
+            ExtensibleEntityParser.ParseExtensibleEntityExtensions(textInputElement, extensionManifestDirectory, parsedTextInput);
 
             return true;
         }
@@ -295,7 +299,7 @@ namespace Feedpipes.Syndication.Rss20
             return true;
         }
 
-        private static bool TryParseRss20Item(XElement itemElement, out Rss20Item parsedItem)
+        private static bool TryParseRss20Item(XElement itemElement, ExtensionManifestDirectory extensionManifestDirectory, out Rss20Item parsedItem)
         {
             parsedItem = default;
 
@@ -341,7 +345,7 @@ namespace Feedpipes.Syndication.Rss20
             }
 
             // extensions
-            ExtensibleEntityParser.ParseExtensibleEntity(itemElement, parsedItem);
+            ExtensibleEntityParser.ParseExtensibleEntityExtensions(itemElement, extensionManifestDirectory, parsedItem);
 
             return true;
         }

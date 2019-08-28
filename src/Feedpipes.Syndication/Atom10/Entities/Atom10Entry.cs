@@ -1,12 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using Feedpipes.Syndication.Base;
-using Feedpipes.Syndication.Extensions.CreativeCommons.Entities;
-using Feedpipes.Syndication.Extensions.DublinCore.Entities;
-using Feedpipes.Syndication.Extensions.Rss10Content.Entities;
-using Feedpipes.Syndication.Extensions.Rss10Slash.Entities;
-using Feedpipes.Syndication.Extensions.WellFormedWeb.Entities;
+using Feedpipes.Syndication.Extensions;
 using Feedpipes.Syndication.Utils;
 
 namespace Feedpipes.Syndication.Atom10.Entities
@@ -16,7 +11,7 @@ namespace Feedpipes.Syndication.Atom10.Entities
     /// An example of an entry would be a single post on a weblog.
     /// </summary>
     [DebuggerDisplay("{" + nameof(DebuggerDisplay) + ",nq}")]
-    public class Atom10Entry : IFeedItem
+    public class Atom10Entry : IExtensibleEntity
     {
         [DebuggerBrowsable(DebuggerBrowsableState.Never)]
         internal string DebuggerDisplay => DebuggerDisplayBuilder.Create(this)
@@ -125,10 +120,9 @@ namespace Feedpipes.Syndication.Atom10.Entities
         /// </summary>
         public Atom10Source Source { get; set; }
 
-        public DublinCoreElementExtension DublinCoreExtension { get; set; }
-        public Rss10ContentItemExtension ContentExtension { get; set; }
-        public WfwItemExtension WfwExtension { get; set; }
-        public Rss10SlashItemExtension SlashExtension { get; set; }
-        public CreativeCommonsElementExtension CreativeCommonsExtension { get; set; }
+        /// <summary>
+        /// Extenssions
+        /// </summary>
+        public IList<IExtensionEntity> Extensions { get; } = new List<IExtensionEntity>();
     }
 }

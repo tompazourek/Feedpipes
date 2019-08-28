@@ -7,7 +7,7 @@ namespace Feedpipes.Syndication.Utils.Xml
     /// <summary>
     /// Helper for maintaining namespace aliases.
     /// </summary>
-    internal class XNamespaceAliasSet : ISet<XAttribute>
+    public class XNamespaceAliasSet : ISet<XAttribute>
     {
         #region Internals
 

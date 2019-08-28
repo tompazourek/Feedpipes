@@ -1,7 +1,7 @@
 ﻿namespace Feedpipes.Syndication.Extensions.Rss10Syndication.Entities
 {
     /// <summary>
-    /// Value of <see cref="Rss10SyndicationChannelExtension.UpdatePeriod" />.
+    /// Value of <see cref="Rss10SyndicationExtension.UpdatePeriod" />.
     /// </summary>
     public enum Rss10SyndicationUpdatePeriodValue
     {

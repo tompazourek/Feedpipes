@@ -1,11 +1,6 @@
-﻿using System.Diagnostics;
-using Feedpipes.Syndication.Base;
-using Feedpipes.Syndication.Extensions.CreativeCommons.Entities;
-using Feedpipes.Syndication.Extensions.DublinCore.Entities;
-using Feedpipes.Syndication.Extensions.Rss10Content.Entities;
-using Feedpipes.Syndication.Extensions.Rss10Slash.Entities;
-using Feedpipes.Syndication.Extensions.RssAtom10.Entities;
-using Feedpipes.Syndication.Extensions.WellFormedWeb.Entities;
+﻿using System.Collections.Generic;
+using System.Diagnostics;
+using Feedpipes.Syndication.Extensions;
 using Feedpipes.Syndication.Utils;
 
 namespace Feedpipes.Syndication.Rss10.Entities
@@ -20,7 +15,7 @@ namespace Feedpipes.Syndication.Rss10.Entities
     /// the "item" element, if possible.
     /// </summary>
     [DebuggerDisplay("{" + nameof(DebuggerDisplay) + ",nq}")]
-    public class Rss10Item : IRssItem, IFeedItem
+    public class Rss10Item : IExtensibleEntity
     {
         [DebuggerBrowsable(DebuggerBrowsableState.Never)]
         internal string DebuggerDisplay => DebuggerDisplayBuilder.Create(this)
@@ -54,12 +49,9 @@ namespace Feedpipes.Syndication.Rss10.Entities
         /// </summary>
         public string Description { get; set; }
 
-        public Rss10ContentItemExtension ContentExtension { get; set; }
-        public WfwItemExtension WfwExtension { get; set; }
-        public Rss10SlashItemExtension SlashExtension { get; set; }
-        public DublinCoreElementExtension DublinCoreExtension { get; set; }
-        public CreativeCommonsElementExtension CreativeCommonsExtension { get; set; }
-
-        public RssAtom10ElementExtension AtomExtension { get; set; }
+        /// <summary>
+        /// Extenssions
+        /// </summary>
+        public IList<IExtensionEntity> Extensions { get; } = new List<IExtensionEntity>();
     }
 }

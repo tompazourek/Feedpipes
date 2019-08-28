@@ -2,13 +2,6 @@
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Xml.Linq;
-using Feedpipes.Syndication.Extensions.CreativeCommons;
-using Feedpipes.Syndication.Extensions.DublinCore;
-using Feedpipes.Syndication.Extensions.Rss10Content;
-using Feedpipes.Syndication.Extensions.Rss10Slash;
-using Feedpipes.Syndication.Extensions.Rss10Syndication;
-using Feedpipes.Syndication.Extensions.RssAtom10;
-using Feedpipes.Syndication.Extensions.WellFormedWeb;
 using Feedpipes.Syndication.Utils.Xml;
 
 namespace Feedpipes.Syndication.Extensions
@@ -16,8 +9,8 @@ namespace Feedpipes.Syndication.Extensions
     internal static class ExtensibleEntityFormatter
     {
         [SuppressMessage("ReSharper", "ConvertIfStatementToSwitchStatement")]
-        public static bool TryFormatExtensibleEntity<T>(T entityToFormat, XNamespaceAliasSet namespaceAliases, out IList<XElement> elements)
-            where T : class
+        public static bool TryFormatExtensibleEntityExtensions<T>(T entityToFormat, XNamespaceAliasSet namespaceAliases, ExtensionManifestDirectory extensionManifestDirectory, out IList<XElement> elements)
+            where T : IExtensibleEntity
         {
             elements = default;
 
@@ -26,57 +19,12 @@ namespace Feedpipes.Syndication.Extensions
 
             var results = new List<XElement>();
 
-            if (entityToFormat is IExtensibleWithCreativeCommons extensibleWithCreativeCommons)
+            foreach (var extensionEntity in entityToFormat.Extensions)
             {
-                if (CreativeCommonsElementExtensionFormatter.TryFormatCreativeCommonsElementExtension(extensibleWithCreativeCommons.CreativeCommonsExtension, namespaceAliases, out var extensionElements))
-                {
-                    results.AddRange(extensionElements);
-                }
-            }
+                if (!extensionManifestDirectory.TryGetExtensionManifestByExtensionType(extensionEntity.GetType(), out var extensionManifest))
+                    continue;
 
-            if (entityToFormat is IExtensibleWithDublinCore extensibleWithDublinCore)
-            {
-                if (DublinCoreElementExtensionFormatter.TryFormatDublinCoreElementExtension(extensibleWithDublinCore.DublinCoreExtension, namespaceAliases, out var extensionElements))
-                {
-                    results.AddRange(extensionElements);
-                }
-            }
-
-            if (entityToFormat is IExtensibleWithRss10Content extensibleWithRss10Content)
-            {
-                if (Rss10ContentItemExtensionFormatter.TryFormatRss10ContentItemExtension(extensibleWithRss10Content.ContentExtension, namespaceAliases, out var extensionElements))
-                {
-                    results.AddRange(extensionElements);
-                }
-            }
-
-            if (entityToFormat is IExtensibleWithRss10Slash extensibleWithRss10Slash)
-            {
-                if (Rss10SlashItemExtensionFormatter.TryFormatRss10SlashItemExtension(extensibleWithRss10Slash.SlashExtension, namespaceAliases, out var extensionElements))
-                {
-                    results.AddRange(extensionElements);
-                }
-            }
-
-            if (entityToFormat is IExtensibleWithRss10Syndication extensibleWithRss10Syndication)
-            {
-                if (Rss10SyndicationChannelExtensionFormatter.TryFormatRss10SyndicationChannelExtension(extensibleWithRss10Syndication.SyndicationExtension, namespaceAliases, out var extensionElements))
-                {
-                    results.AddRange(extensionElements);
-                }
-            }
-
-            if (entityToFormat is IExtensibleWithRssAtom10 extensibleWithRssAtom10)
-            {
-                if (RssAtom10ElementExtensionFormatter.TryFormatRssAtom10ElementExtension(extensibleWithRssAtom10.AtomExtension, namespaceAliases, out var extensionElements))
-                {
-                    results.AddRange(extensionElements);
-                }
-            }
-
-            if (entityToFormat is IExtensibleWithWfw extensibleWithWfw)
-            {
-                if (WfwItemExtensionFormatter.TryFormatWfwItemExtension(extensibleWithWfw.WfwExtension, namespaceAliases, out var extensionElements))
+                if (extensionManifest.TryFormatXElementExtension(extensionEntity, namespaceAliases, out var extensionElements))
                 {
                     results.AddRange(extensionElements);
                 }

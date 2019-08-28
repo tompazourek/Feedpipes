@@ -1,16 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using Feedpipes.Syndication.Base;
-using Feedpipes.Syndication.Extensions.CreativeCommons.Entities;
-using Feedpipes.Syndication.Extensions.DublinCore.Entities;
-using Feedpipes.Syndication.Extensions.Rss10Syndication.Entities;
+using Feedpipes.Syndication.Extensions;
 using Feedpipes.Syndication.Utils;
 
 namespace Feedpipes.Syndication.Atom10.Entities
 {
     [DebuggerDisplay("{" + nameof(DebuggerDisplay) + ",nq}")]
-    public class Atom10Feed : IFeed
+    public class Atom10Feed : IExtensibleEntity
     {
         [DebuggerBrowsable(DebuggerBrowsableState.Never)]
         internal string DebuggerDisplay => DebuggerDisplayBuilder.Create(this)
@@ -130,9 +127,10 @@ namespace Feedpipes.Syndication.Atom10.Entities
         /// An example of an entry would be a single post on a weblog.
         /// </summary>
         public IList<Atom10Entry> Entries { get; set; } = new List<Atom10Entry>();
-
-        public Rss10SyndicationChannelExtension SyndicationExtension { get; set; }
-        public DublinCoreElementExtension DublinCoreExtension { get; set; }
-        public CreativeCommonsElementExtension CreativeCommonsExtension { get; set; }
+        
+        /// <summary>
+        /// Extenssions
+        /// </summary>
+        public IList<IExtensionEntity> Extensions { get; } = new List<IExtensionEntity>();
     }
 }

@@ -1,6 +1,6 @@
-﻿using System.Diagnostics;
-using Feedpipes.Syndication.Base;
-using Feedpipes.Syndication.Extensions.DublinCore.Entities;
+﻿using System.Collections.Generic;
+using System.Diagnostics;
+using Feedpipes.Syndication.Extensions;
 using Feedpipes.Syndication.Utils;
 
 namespace Feedpipes.Syndication.Rss20.Entities
@@ -9,7 +9,7 @@ namespace Feedpipes.Syndication.Rss20.Entities
     /// Specifies a text input box that can be displayed with the channel.
     /// </summary>
     [DebuggerDisplay("{" + nameof(DebuggerDisplay) + ",nq}")]
-    public class Rss20TextInput : IRssTextInput
+    public class Rss20TextInput : IExtensibleEntity
     {
         [DebuggerBrowsable(DebuggerBrowsableState.Never)]
         internal string DebuggerDisplay => DebuggerDisplayBuilder.Create(this)
@@ -37,7 +37,10 @@ namespace Feedpipes.Syndication.Rss20.Entities
         /// The URL of the CGI script that processes text input requests.
         /// </summary>
         public string Link { get; set; }
-
-        public DublinCoreElementExtension DublinCoreExtension { get; set; }
+        
+        /// <summary>
+        /// Extenssions
+        /// </summary>
+        public IList<IExtensionEntity> Extensions { get; } = new List<IExtensionEntity>();
     }
 }

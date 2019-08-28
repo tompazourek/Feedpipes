@@ -1,13 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using Feedpipes.Syndication.Base;
-using Feedpipes.Syndication.Extensions.CreativeCommons.Entities;
-using Feedpipes.Syndication.Extensions.DublinCore.Entities;
-using Feedpipes.Syndication.Extensions.Rss10Content.Entities;
-using Feedpipes.Syndication.Extensions.Rss10Slash.Entities;
-using Feedpipes.Syndication.Extensions.RssAtom10.Entities;
-using Feedpipes.Syndication.Extensions.WellFormedWeb.Entities;
+using Feedpipes.Syndication.Extensions;
 using Feedpipes.Syndication.Utils;
 
 namespace Feedpipes.Syndication.Rss20.Entities
@@ -21,7 +15,7 @@ namespace Feedpipes.Syndication.Rss20.Entities
     /// title or description must be present.
     /// </summary>
     [DebuggerDisplay("{" + nameof(DebuggerDisplay) + ",nq}")]
-    public class Rss20Item : IRssItem, IFeedItem
+    public class Rss20Item : IExtensibleEntity
     {
         [DebuggerBrowsable(DebuggerBrowsableState.Never)]
         internal string DebuggerDisplay => DebuggerDisplayBuilder.Create(this)
@@ -117,13 +111,10 @@ namespace Feedpipes.Syndication.Rss20.Entities
         /// The RSS channel that the item came from.
         /// </summary>
         public Rss20Source Source { get; set; }
-
-        public Rss10ContentItemExtension ContentExtension { get; set; }
-        public WfwItemExtension WfwExtension { get; set; }
-        public Rss10SlashItemExtension SlashExtension { get; set; }
-        public DublinCoreElementExtension DublinCoreExtension { get; set; }
-        public CreativeCommonsElementExtension CreativeCommonsExtension { get; set; }
-
-        public RssAtom10ElementExtension AtomExtension { get; set; }
+        
+        /// <summary>
+        /// Extenssions
+        /// </summary>
+        public IList<IExtensionEntity> Extensions { get; } = new List<IExtensionEntity>();
     }
 }

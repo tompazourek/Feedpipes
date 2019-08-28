@@ -15,7 +15,7 @@ namespace Feedpipes.Syndication.Atom10
         private static readonly XNamespace _atom = Atom10Constants.Namespace;
         private static readonly XNamespace _xml = XNamespace.Xml;
 
-        public static bool TryFormatAtom10Feed(Atom10Feed feed, out XDocument document)
+        public static bool TryFormatAtom10Feed(Atom10Feed feed, out XDocument document, ExtensionManifestDirectory extensionManifestDirectory = null)
         {
             document = default;
 
@@ -29,6 +29,11 @@ namespace Feedpipes.Syndication.Atom10
 
             var namespaceAliases = new XNamespaceAliasSet();
             namespaceAliases.EnsureNamespaceAlias(alias: null, _atom);
+
+            if (extensionManifestDirectory == null)
+            {
+                extensionManifestDirectory = ExtensionManifestDirectory.DefaultForAtom;
+            }
 
             if (TryFormatAtom10OptionalTextAttribute(feed.Lang, _xml + "lang", out var langAttribute))
             {
@@ -113,7 +118,7 @@ namespace Feedpipes.Syndication.Atom10
             }
 
             // extensions
-            if (ExtensibleEntityFormatter.TryFormatExtensibleEntity(feed, namespaceAliases, out var extensionElements))
+            if (ExtensibleEntityFormatter.TryFormatExtensibleEntityExtensions(feed, namespaceAliases, extensionManifestDirectory, out var extensionElements))
             {
                 feedElement.AddRange(extensionElements);
             }
@@ -121,7 +126,7 @@ namespace Feedpipes.Syndication.Atom10
             // entries
             foreach (var entryToFormat in feed.Entries)
             {
-                if (TryFormatAtom10Entry(entryToFormat, namespaceAliases, out var entryElement))
+                if (TryFormatAtom10Entry(entryToFormat, namespaceAliases, extensionManifestDirectory, out var entryElement))
                 {
                     feedElement.Add(entryElement);
                 }
@@ -135,7 +140,7 @@ namespace Feedpipes.Syndication.Atom10
             return true;
         }
 
-        private static bool TryFormatAtom10Entry(Atom10Entry entryToFormat, XNamespaceAliasSet namespaceAliases, out XElement entryElement)
+        private static bool TryFormatAtom10Entry(Atom10Entry entryToFormat, XNamespaceAliasSet namespaceAliases, ExtensionManifestDirectory extensionManifestDirectory, out XElement entryElement)
         {
             entryElement = default;
 
@@ -217,7 +222,7 @@ namespace Feedpipes.Syndication.Atom10
             }
 
             // extensions
-            if (ExtensibleEntityFormatter.TryFormatExtensibleEntity(entryToFormat, namespaceAliases, out var extensionElements))
+            if (ExtensibleEntityFormatter.TryFormatExtensibleEntityExtensions(entryToFormat, namespaceAliases, extensionManifestDirectory, out var extensionElements))
             {
                 entryElement.AddRange(extensionElements);
             }
