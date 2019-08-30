@@ -10,10 +10,10 @@ namespace Feedpipes.Syndication.Extensions.DublinCore
     /// </summary>
     public class DublinCoreExtensionManifest : ExtensionManifest<DublinCoreExtension>
     {
-        protected override bool TryParseXElementExtension(XElement parentElement, out DublinCoreExtension extension)
+        protected override bool TryParseXElementExtension(XElement parentElement, ExtensionManifestDirectory extensionManifestDirectory, out DublinCoreExtension extension)
             => DublinCoreExtensionParser.TryParseDublinCoreExtension(parentElement, out extension);
 
-        protected override bool TryFormatXElementExtension(DublinCoreExtension extensionToFormat, XNamespaceAliasSet namespaceAliases, out IList<XElement> elements)
+        protected override bool TryFormatXElementExtension(DublinCoreExtension extensionToFormat, XNamespaceAliasSet namespaceAliases, ExtensionManifestDirectory extensionManifestDirectory, out IList<XElement> elements)
             => DublinCoreExtensionFormatter.TryFormatDublinCoreExtension(extensionToFormat, namespaceAliases, out elements);
     }
 }

@@ -12,15 +12,15 @@ namespace Feedpipes.Syndication.Extensions
 
         #region XML
 
-        public abstract bool TryParseXElementExtension(XElement parentElement, out IExtensionEntity extension);
-        public abstract bool TryFormatXElementExtension(IExtensionEntity extensionToFormat, XNamespaceAliasSet namespaceAliases, out IList<XElement> elements);
+        public abstract bool TryParseXElementExtension(XElement parentElement, ExtensionManifestDirectory extensionManifestDirectory, out IExtensionEntity extension);
+        public abstract bool TryFormatXElementExtension(IExtensionEntity extensionToFormat, XNamespaceAliasSet namespaceAliases, ExtensionManifestDirectory extensionManifestDirectory, out IList<XElement> elements);
 
         #endregion
 
         #region JSON
 
-        public abstract bool TryParseJObjectExtension(JObject parentObject, out IExtensionEntity extension);
-        public abstract bool TryFormatJObjectExtension(IExtensionEntity extensionToFormat, out IList<JToken> tokens);
+        public abstract bool TryParseJObjectExtension(JObject parentObject, ExtensionManifestDirectory extensionManifestDirectory, out IExtensionEntity extension);
+        public abstract bool TryFormatJObjectExtension(IExtensionEntity extensionToFormat, ExtensionManifestDirectory extensionManifestDirectory, out IList<JToken> tokens);
 
         #endregion
     }
@@ -32,29 +32,29 @@ namespace Feedpipes.Syndication.Extensions
 
         #region XML
 
-        public override bool TryParseXElementExtension(XElement parentElement, out IExtensionEntity extension)
+        public override bool TryParseXElementExtension(XElement parentElement, ExtensionManifestDirectory extensionManifestDirectory, out IExtensionEntity extension)
         {
-            var result = TryParseXElementExtension(parentElement, out var typedExtension);
+            var result = TryParseXElementExtension(parentElement, extensionManifestDirectory, out var typedExtension);
             extension = typedExtension;
             return result;
         }
 
-        public override bool TryFormatXElementExtension(IExtensionEntity extensionToFormat, XNamespaceAliasSet namespaceAliases, out IList<XElement> elements)
+        public override bool TryFormatXElementExtension(IExtensionEntity extensionToFormat, XNamespaceAliasSet namespaceAliases, ExtensionManifestDirectory extensionManifestDirectory, out IList<XElement> elements)
         {
             if (extensionToFormat is TExtension typedExtension)
-                return TryFormatXElementExtension(typedExtension, namespaceAliases, out elements);
+                return TryFormatXElementExtension(typedExtension, namespaceAliases, extensionManifestDirectory, out elements);
 
             elements = default;
             return false;
         }
 
-        protected virtual bool TryParseXElementExtension(XElement parentElement, out TExtension extension)
+        protected virtual bool TryParseXElementExtension(XElement parentElement, ExtensionManifestDirectory extensionManifestDirectory, out TExtension extension)
         {
             extension = default;
             return false;
         }
 
-        protected virtual bool TryFormatXElementExtension(TExtension extensionToFormat, XNamespaceAliasSet namespaceAliases, out IList<XElement> elements)
+        protected virtual bool TryFormatXElementExtension(TExtension extensionToFormat, XNamespaceAliasSet namespaceAliases, ExtensionManifestDirectory extensionManifestDirectory, out IList<XElement> elements)
         {
             elements = default;
             return false;
@@ -64,29 +64,29 @@ namespace Feedpipes.Syndication.Extensions
 
         #region JSON
 
-        public override bool TryParseJObjectExtension(JObject parentObject, out IExtensionEntity extension)
+        public override bool TryParseJObjectExtension(JObject parentObject, ExtensionManifestDirectory extensionManifestDirectory, out IExtensionEntity extension)
         {
-            var result = TryParseJObjectExtension(parentObject, out var typedExtension);
+            var result = TryParseJObjectExtension(parentObject, extensionManifestDirectory, out var typedExtension);
             extension = typedExtension;
             return result;
         }
 
-        public override bool TryFormatJObjectExtension(IExtensionEntity extensionToFormat, out IList<JToken> tokens)
+        public override bool TryFormatJObjectExtension(IExtensionEntity extensionToFormat, ExtensionManifestDirectory extensionManifestDirectory, out IList<JToken> tokens)
         {
             if (extensionToFormat is TExtension typedExtension)
-                return TryFormatJObjectExtension(typedExtension, out tokens);
+                return TryFormatJObjectExtension(typedExtension, extensionManifestDirectory, out tokens);
 
             tokens = default;
             return false;
         }
 
-        protected virtual bool TryParseJObjectExtension(JObject parentObject, out TExtension extension)
+        protected virtual bool TryParseJObjectExtension(JObject parentObject, ExtensionManifestDirectory extensionManifestDirectory, out TExtension extension)
         {
             extension = default;
             return false;
         }
 
-        protected virtual bool TryFormatJObjectExtension(TExtension extensionToFormat, out IList<JToken> tokens)
+        protected virtual bool TryFormatJObjectExtension(TExtension extensionToFormat, ExtensionManifestDirectory extensionManifestDirectory, out IList<JToken> tokens)
         {
             tokens = default;
             return false;

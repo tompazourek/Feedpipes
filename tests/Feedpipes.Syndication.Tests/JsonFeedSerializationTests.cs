@@ -88,7 +88,7 @@ namespace Feedpipes.Syndication.Tests
 
         public class BlueShedSampleExtensionManifest : ExtensionManifest<BlueShedSampleExtension>
         {
-            protected override bool TryParseJObjectExtension(JObject parentObject, out BlueShedSampleExtension extension)
+            protected override bool TryParseJObjectExtension(JObject parentObject, ExtensionManifestDirectory extensionManifestDirectory, out BlueShedSampleExtension extension)
             {
                 extension = default;
 
@@ -102,7 +102,7 @@ namespace Feedpipes.Syndication.Tests
                 return TryParseBlueShedSampleExtensionObject((JObject) property.Value, out extension);
             }
 
-            protected override bool TryFormatJObjectExtension(BlueShedSampleExtension extensionToFormat, out IList<JToken> tokens)
+            protected override bool TryFormatJObjectExtension(BlueShedSampleExtension extensionToFormat, ExtensionManifestDirectory extensionManifestDirectory, out IList<JToken> tokens)
             {
                 tokens = default;
 

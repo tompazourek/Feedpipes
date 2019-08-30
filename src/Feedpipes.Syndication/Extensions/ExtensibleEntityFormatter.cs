@@ -23,7 +23,7 @@ namespace Feedpipes.Syndication.Extensions
                 if (!extensionManifestDirectory.TryGetExtensionManifestByExtensionType(extensionEntity.GetType(), out var extensionManifest))
                     continue;
 
-                if (extensionManifest.TryFormatXElementExtension(extensionEntity, namespaceAliases, out var extensionElements))
+                if (extensionManifest.TryFormatXElementExtension(extensionEntity, namespaceAliases, extensionManifestDirectory, out var extensionElements))
                 {
                     results.AddRange(extensionElements);
                 }
@@ -52,7 +52,7 @@ namespace Feedpipes.Syndication.Extensions
                 if (!extensionManifestDirectory.TryGetExtensionManifestByExtensionType(extensionEntity.GetType(), out var extensionManifest))
                     continue;
 
-                if (extensionManifest.TryFormatJObjectExtension(extensionEntity, out var extensionElements))
+                if (extensionManifest.TryFormatJObjectExtension(extensionEntity, extensionManifestDirectory, out var extensionElements))
                 {
                     results.AddRange(extensionElements);
                 }

@@ -99,7 +99,7 @@ namespace Feedpipes.Syndication.JsonFeedFormat
             }
             
             // extensions
-            ExtensibleEntityParser.ParseXElementExtensions(feedObject, extensionManifestDirectory, parsedFeed);
+            ExtensibleEntityParser.ParseJObjectExtensions(feedObject, extensionManifestDirectory, parsedFeed);
 
             return true;
         }
@@ -206,7 +206,7 @@ namespace Feedpipes.Syndication.JsonFeedFormat
                 return false;
 
             // extensions
-            ExtensibleEntityParser.ParseXElementExtensions(itemObject, extensionManifestDirectory, parsedItem);
+            ExtensibleEntityParser.ParseJObjectExtensions(itemObject, extensionManifestDirectory, parsedItem);
 
             return true;
         }

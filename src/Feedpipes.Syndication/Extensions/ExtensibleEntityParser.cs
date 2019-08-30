@@ -16,14 +16,14 @@ namespace Feedpipes.Syndication.Extensions
 
             foreach (var extensionManifest in extensionManifestDirectory)
             {
-                if (extensionManifest.TryParseXElementExtension(parentElement, out var extension))
+                if (extensionManifest.TryParseXElementExtension(parentElement, extensionManifestDirectory, out var extension))
                 {
                     entityToExtend.Extensions.Add(extension);
                 }
             }
         }
 
-        public static void ParseXElementExtensions<T>([NotNull] JObject parentObject, [NotNull] ExtensionManifestDirectory extensionManifestDirectory, [NotNull] T entityToExtend)
+        public static void ParseJObjectExtensions<T>([NotNull] JObject parentObject, [NotNull] ExtensionManifestDirectory extensionManifestDirectory, [NotNull] T entityToExtend)
             where T : IExtensibleEntity
         {
             if (parentObject == null) throw new ArgumentNullException(nameof(parentObject));
@@ -32,7 +32,7 @@ namespace Feedpipes.Syndication.Extensions
 
             foreach (var extensionManifest in extensionManifestDirectory)
             {
-                if (extensionManifest.TryParseJObjectExtension(parentObject, out var extension))
+                if (extensionManifest.TryParseJObjectExtension(parentObject, extensionManifestDirectory, out var extension))
                 {
                     entityToExtend.Extensions.Add(extension);
                 }
