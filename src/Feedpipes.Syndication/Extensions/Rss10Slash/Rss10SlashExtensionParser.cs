@@ -10,34 +10,34 @@ namespace Feedpipes.Syndication.Extensions.Rss10Slash
     internal static class Rss10SlashExtensionParser
     {
         [SuppressMessage("ReSharper", "ConstantNullCoalescingCondition")]
-        public static bool TryParseRss10SlashExtension(XElement itemElement, out Rss10SlashExtension extension)
+        public static bool TryParseRss10SlashExtension(XElement parentElement, out Rss10SlashExtension extension)
         {
             extension = null;
 
-            if (itemElement == null)
+            if (parentElement == null)
                 return false;
 
             foreach (var ns in Rss10SlashExtensionConstants.RecognizedNamespaces)
             {
-                if (TryParseRss10SlashTextElement(itemElement.Element(ns + "section"), out var parsedSection))
+                if (TryParseRss10SlashTextElement(parentElement.Element(ns + "section"), out var parsedSection))
                 {
                     extension = extension ?? new Rss10SlashExtension();
                     extension.Section = parsedSection;
                 }
 
-                if (TryParseRss10SlashTextElement(itemElement.Element(ns + "department"), out var parsedDepartment))
+                if (TryParseRss10SlashTextElement(parentElement.Element(ns + "department"), out var parsedDepartment))
                 {
                     extension = extension ?? new Rss10SlashExtension();
                     extension.Department = parsedDepartment;
                 }
 
-                if (TryParseRss10SlashComments(itemElement.Element(ns + "comments"), out var parsedComments))
+                if (TryParseRss10SlashComments(parentElement.Element(ns + "comments"), out var parsedComments))
                 {
                     extension = extension ?? new Rss10SlashExtension();
                     extension.Comments = parsedComments;
                 }
 
-                if (TryParseRss10SlashHitParade(itemElement.Element(ns + "hit_parade"), out var parsedHitParade))
+                if (TryParseRss10SlashHitParade(parentElement.Element(ns + "hit_parade"), out var parsedHitParade))
                 {
                     extension = extension ?? new Rss10SlashExtension();
                     extension.HitParade = parsedHitParade;

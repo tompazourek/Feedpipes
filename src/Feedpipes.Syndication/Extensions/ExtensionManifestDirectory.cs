@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Feedpipes.Syndication.Extensions.CreativeCommons;
 using Feedpipes.Syndication.Extensions.DublinCore;
+using Feedpipes.Syndication.Extensions.MediaRss;
 using Feedpipes.Syndication.Extensions.Rss10Content;
 using Feedpipes.Syndication.Extensions.Rss10Slash;
 using Feedpipes.Syndication.Extensions.Rss10Syndication;
@@ -20,6 +21,7 @@ namespace Feedpipes.Syndication.Extensions
         {
             new CreativeCommonsExtensionManifest(),
             new DublinCoreExtensionManifest(),
+            new MediaRssExtensionManifest(),
             new Rss10ContentExtensionManifest(),
             new Rss10SlashExtensionManifest(),
             new Rss10SyndicationExtensionManifest(),

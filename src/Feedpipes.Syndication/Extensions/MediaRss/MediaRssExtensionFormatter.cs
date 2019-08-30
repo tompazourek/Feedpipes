@@ -1,10 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
-using System.Text;
 using System.Xml.Linq;
 using Feedpipes.Syndication.Extensions.MediaRss.Entities;
+using Feedpipes.Syndication.TimeSpans.MinutesSeconds;
+using Feedpipes.Syndication.TimeSpans.Rfc2326Npt;
 using Feedpipes.Syndication.Utils.Xml;
 
 namespace Feedpipes.Syndication.Extensions.MediaRss
@@ -69,72 +69,72 @@ namespace Feedpipes.Syndication.Extensions.MediaRss
             // content fields
             if (!string.IsNullOrEmpty(contentToFormat.Url))
             {
-                attributes.Add(new XAttribute(_media + "url", contentToFormat.Url));
+                attributes.Add(new XAttribute("url", contentToFormat.Url));
             }
 
             if (contentToFormat.FileSize != null)
             {
-                attributes.Add(new XAttribute(_media + "fileSize", contentToFormat.FileSize.Value.ToString(CultureInfo.InvariantCulture)));
+                attributes.Add(new XAttribute("fileSize", contentToFormat.FileSize.Value.ToString(CultureInfo.InvariantCulture)));
             }
 
             if (!string.IsNullOrEmpty(contentToFormat.Type))
             {
-                attributes.Add(new XAttribute(_media + "type", contentToFormat.Type));
+                attributes.Add(new XAttribute("type", contentToFormat.Type));
             }
 
             if (contentToFormat.Medium != null)
             {
-                attributes.Add(new XAttribute(_media + "medium", contentToFormat.Medium.Value.ToString().ToLowerInvariant()));
+                attributes.Add(new XAttribute("medium", contentToFormat.Medium.Value.ToString().ToLowerInvariant()));
             }
 
             if (contentToFormat.IsDefault != null)
             {
-                attributes.Add(new XAttribute(_media + "isDefault", contentToFormat.IsDefault.Value ? "true" : "false"));
+                attributes.Add(new XAttribute("isDefault", contentToFormat.IsDefault.Value ? "true" : "false"));
             }
 
             if (contentToFormat.Expression != MediaRssExpression.Full)
             {
-                attributes.Add(new XAttribute(_media + "expression", contentToFormat.Expression.ToString().ToLowerInvariant()));
+                attributes.Add(new XAttribute("expression", contentToFormat.Expression.ToString().ToLowerInvariant()));
             }
 
             if (contentToFormat.BitRate != null)
             {
-                attributes.Add(new XAttribute(_media + "bitrate", contentToFormat.BitRate.Value.ToString("0.####", CultureInfo.InvariantCulture)));
+                attributes.Add(new XAttribute("bitrate", contentToFormat.BitRate.Value.ToString("0.####", CultureInfo.InvariantCulture)));
             }
 
             if (contentToFormat.FrameRate != null)
             {
-                attributes.Add(new XAttribute(_media + "framerate", contentToFormat.FrameRate.Value.ToString("0.####", CultureInfo.InvariantCulture)));
+                attributes.Add(new XAttribute("framerate", contentToFormat.FrameRate.Value.ToString("0.####", CultureInfo.InvariantCulture)));
             }
 
             if (contentToFormat.SamplingRate != null)
             {
-                attributes.Add(new XAttribute(_media + "samplingrate", contentToFormat.SamplingRate.Value.ToString("0.####", CultureInfo.InvariantCulture)));
+                attributes.Add(new XAttribute("samplingrate", contentToFormat.SamplingRate.Value.ToString("0.####", CultureInfo.InvariantCulture)));
             }
 
             if (contentToFormat.Channels != null)
             {
-                attributes.Add(new XAttribute(_media + "channels", contentToFormat.Channels.Value.ToString(CultureInfo.InvariantCulture)));
+                attributes.Add(new XAttribute("channels", contentToFormat.Channels.Value.ToString(CultureInfo.InvariantCulture)));
             }
 
             if (contentToFormat.Duration != null)
             {
-                attributes.Add(new XAttribute(_media + "duration", contentToFormat.Duration.Value.TotalSeconds.ToString("0.####", CultureInfo.InvariantCulture)));
+                attributes.Add(new XAttribute("duration", contentToFormat.Duration.Value.TotalSeconds.ToString("0.####", CultureInfo.InvariantCulture)));
             }
 
             if (contentToFormat.Height != null)
             {
-                attributes.Add(new XAttribute(_media + "height", contentToFormat.Height.Value.ToString(CultureInfo.InvariantCulture)));
+                attributes.Add(new XAttribute("height", contentToFormat.Height.Value.ToString(CultureInfo.InvariantCulture)));
             }
 
             if (contentToFormat.Width != null)
             {
-                attributes.Add(new XAttribute(_media + "width", contentToFormat.Width.Value.ToString(CultureInfo.InvariantCulture)));
+                attributes.Add(new XAttribute("width", contentToFormat.Width.Value.ToString(CultureInfo.InvariantCulture)));
             }
 
             if (!string.IsNullOrEmpty(contentToFormat.Lang))
             {
-                attributes.Add(new XAttribute(_media + "lang", contentToFormat.Lang));
+                attributes.Add(new XAttribute("lang", contentToFormat.Lang));
             }
 
             // container
@@ -379,17 +379,6 @@ namespace Feedpipes.Syndication.Extensions.MediaRss
             return true;
         }
 
-        private static bool TryFormatMediaRssRights(MediaRssRightsStatus? rightsStatusToFormat, out XElement rightsElement)
-        {
-            rightsElement = default;
-
-            if (rightsStatusToFormat == null)
-                return false;
-
-            rightsElement = new XElement(_media + "rights", rightsStatusToFormat.Value.ToString().ToLowerInvariant());
-            return true;
-        }
-
         private static bool TryFormatMediaRssScenes(IList<MediaRssScene> scenesToFormat, out XElement scenesElement)
         {
             scenesElement = default;
@@ -425,30 +414,41 @@ namespace Feedpipes.Syndication.Extensions.MediaRss
             {
                 // ReSharper disable once ConstantNullCoalescingCondition
                 sceneElement = sceneElement ?? new XElement(_media + "scene");
-                sceneElement.Add(new XElement(_media + "sceneTitle", sceneToFormat.Title));
+                sceneElement.Add(new XElement("sceneTitle", sceneToFormat.Title));
             }
 
             if (!string.IsNullOrEmpty(sceneToFormat.Description))
             {
                 sceneElement = sceneElement ?? new XElement(_media + "scene");
-                sceneElement.Add(new XElement(_media + "sceneDescription", sceneToFormat.Description));
+                sceneElement.Add(new XElement("sceneDescription", sceneToFormat.Description));
             }
 
-            if (TryFormatNtpTimeSpanToString(sceneToFormat.StartTime, out var startTimeFormatted))
+            if (MinutesSecondsTimeSpanFormatter.TryFormatTimeAsString(sceneToFormat.StartTime, out var startTimeFormatted))
             {
                 sceneElement = sceneElement ?? new XElement(_media + "scene");
-                sceneElement.Add(new XElement(_media + "sceneStartTime", startTimeFormatted));
+                sceneElement.Add(new XElement("sceneStartTime", startTimeFormatted));
             }
 
-            if (TryFormatNtpTimeSpanToString(sceneToFormat.EndTime, out var endTimeFormatted))
+            if (MinutesSecondsTimeSpanFormatter.TryFormatTimeAsString(sceneToFormat.EndTime, out var endTimeFormatted))
             {
                 sceneElement = sceneElement ?? new XElement(_media + "scene");
-                sceneElement.Add(new XElement(_media + "sceneEndTime", endTimeFormatted));
+                sceneElement.Add(new XElement("sceneEndTime", endTimeFormatted));
             }
 
             if (sceneElement == null)
                 return false;
 
+            return true;
+        }
+
+        private static bool TryFormatMediaRssRights(MediaRssRightsStatus? rightsStatusToFormat, out XElement rightsElement)
+        {
+            rightsElement = default;
+
+            if (rightsStatusToFormat == null)
+                return false;
+
+            rightsElement = new XElement(_media + "rights", new XAttribute("status", rightsStatusToFormat.Value.ToString().ToLowerInvariant()));
             return true;
         }
 
@@ -461,19 +461,19 @@ namespace Feedpipes.Syndication.Extensions.MediaRss
 
             var childObjects = new List<object>();
 
-            if (TryFormatNtpTimeSpanToString(locationToFormat.Start, out var startFormatted))
+            if (MinutesSecondsTimeSpanFormatter.TryFormatTimeAsString(locationToFormat.Start, out var startFormatted))
             {
-                childObjects.Add(new XAttribute(_media + "start", startFormatted));
+                childObjects.Add(new XAttribute("start", startFormatted));
             }
 
-            if (TryFormatNtpTimeSpanToString(locationToFormat.End, out var endFormatted))
+            if (MinutesSecondsTimeSpanFormatter.TryFormatTimeAsString(locationToFormat.End, out var endFormatted))
             {
-                childObjects.Add(new XAttribute(_media + "end", endFormatted));
+                childObjects.Add(new XAttribute("end", endFormatted));
             }
 
             if (!string.IsNullOrEmpty(locationToFormat.Description))
             {
-                childObjects.Add(new XAttribute(_media + "description", locationToFormat.Description));
+                childObjects.Add(new XAttribute("description", locationToFormat.Description));
             }
 
             // extensions
@@ -496,16 +496,16 @@ namespace Feedpipes.Syndication.Extensions.MediaRss
             if (string.IsNullOrEmpty(linkToFormat?.Href))
                 return false;
 
-            linkElement = new XElement(_media + elementName, new XAttribute(_media + "href", linkToFormat.Href));
+            linkElement = new XElement(_media + elementName, new XAttribute("href", linkToFormat.Href));
 
             if (!string.IsNullOrEmpty(linkToFormat.Type))
             {
-                linkElement.Add(new XAttribute(_media + "type", linkToFormat.Type));
+                linkElement.Add(new XAttribute("type", linkToFormat.Type));
             }
 
             if (!string.IsNullOrEmpty(linkToFormat.Lang))
             {
-                linkElement.Add(new XAttribute(_media + "lang", linkToFormat.Lang));
+                linkElement.Add(new XAttribute("lang", linkToFormat.Lang));
             }
 
             return true;
@@ -522,22 +522,22 @@ namespace Feedpipes.Syndication.Extensions.MediaRss
 
             if (priceToFormat.Type != null)
             {
-                childAttributes.Add(new XAttribute(_media + "type", priceToFormat.Type.Value.ToString().ToLowerInvariant()));
+                childAttributes.Add(new XAttribute("type", priceToFormat.Type.Value.ToString().ToLowerInvariant()));
             }
 
             if (!string.IsNullOrEmpty(priceToFormat.Info))
             {
-                childAttributes.Add(new XAttribute(_media + "info", priceToFormat.Info));
+                childAttributes.Add(new XAttribute("info", priceToFormat.Info));
             }
 
             if (priceToFormat.Price != null)
             {
-                childAttributes.Add(new XAttribute(_media + "price", priceToFormat.Price.Value.ToString("0.####", CultureInfo.InvariantCulture)));
+                childAttributes.Add(new XAttribute("price", priceToFormat.Price.Value.ToString("0.####", CultureInfo.InvariantCulture)));
             }
 
             if (!string.IsNullOrEmpty(priceToFormat.Currency))
             {
-                childAttributes.Add(new XAttribute(_media + "currency", priceToFormat.Currency));
+                childAttributes.Add(new XAttribute("currency", priceToFormat.Currency));
             }
 
             if (!childAttributes.Any())
@@ -559,12 +559,12 @@ namespace Feedpipes.Syndication.Extensions.MediaRss
 
             if (statusToFormat.State != null)
             {
-                childObjects.Add(new XAttribute(_media + "state", statusToFormat.State.Value.ToString().ToLowerInvariant()));
+                childObjects.Add(new XAttribute("state", statusToFormat.State.Value.ToString().ToLowerInvariant()));
             }
 
             if (!string.IsNullOrEmpty(statusToFormat.Reason))
             {
-                childObjects.Add(new XAttribute(_media + "reason", statusToFormat.Reason));
+                childObjects.Add(new XAttribute("reason", statusToFormat.Reason));
             }
 
             if (!childObjects.Any())
@@ -581,16 +581,16 @@ namespace Feedpipes.Syndication.Extensions.MediaRss
             if (string.IsNullOrEmpty(embedToFormat?.Url))
                 return false;
 
-            embedElement = new XElement(_media + "embed", new XAttribute(_media + "url", embedToFormat.Url));
+            embedElement = new XElement(_media + "embed", new XAttribute("url", embedToFormat.Url));
 
             if (embedToFormat.Height != null)
             {
-                embedElement.Add(new XAttribute(_media + "height", embedToFormat.Height.Value.ToString(CultureInfo.InvariantCulture)));
+                embedElement.Add(new XAttribute("height", embedToFormat.Height.Value.ToString(CultureInfo.InvariantCulture)));
             }
 
             if (embedToFormat.Width != null)
             {
-                embedElement.Add(new XAttribute(_media + "width", embedToFormat.Width.Value.ToString(CultureInfo.InvariantCulture)));
+                embedElement.Add(new XAttribute("width", embedToFormat.Width.Value.ToString(CultureInfo.InvariantCulture)));
             }
 
             foreach (var paramToFormat in embedToFormat.Params ?? Enumerable.Empty<MediaRssEmbedParam>())
@@ -599,7 +599,7 @@ namespace Feedpipes.Syndication.Extensions.MediaRss
                     continue;
 
                 var paramElement = new XElement(_media + "param", paramToFormat.Value ?? string.Empty);
-                paramElement.Add(new XAttribute(_media + "name", paramToFormat.Name ?? string.Empty));
+                paramElement.Add(new XAttribute("name", paramToFormat.Name ?? string.Empty));
 
                 embedElement.Add(paramElement);
             }
@@ -694,12 +694,12 @@ namespace Feedpipes.Syndication.Extensions.MediaRss
 
             if (statisticsToFormat.Views != null)
             {
-                childAttributes.Add(new XAttribute(_media + "views", statisticsToFormat.Views.Value.ToString(CultureInfo.InvariantCulture)));
+                childAttributes.Add(new XAttribute("views", statisticsToFormat.Views.Value.ToString(CultureInfo.InvariantCulture)));
             }
 
             if (statisticsToFormat.Favorites != null)
             {
-                childAttributes.Add(new XAttribute(_media + "favorites", statisticsToFormat.Favorites.Value.ToString(CultureInfo.InvariantCulture)));
+                childAttributes.Add(new XAttribute("favorites", statisticsToFormat.Favorites.Value.ToString(CultureInfo.InvariantCulture)));
             }
 
             if (!childAttributes.Any())
@@ -721,22 +721,22 @@ namespace Feedpipes.Syndication.Extensions.MediaRss
 
             if (starRatingToFormat.Average != null)
             {
-                childAttributes.Add(new XAttribute(_media + "average", starRatingToFormat.Average.Value.ToString("0.####", CultureInfo.InvariantCulture)));
+                childAttributes.Add(new XAttribute("average", starRatingToFormat.Average.Value.ToString("0.####", CultureInfo.InvariantCulture)));
             }
 
             if (starRatingToFormat.Count != null)
             {
-                childAttributes.Add(new XAttribute(_media + "count", starRatingToFormat.Count.Value.ToString(CultureInfo.InvariantCulture)));
+                childAttributes.Add(new XAttribute("count", starRatingToFormat.Count.Value.ToString(CultureInfo.InvariantCulture)));
             }
 
             if (starRatingToFormat.Min != null)
             {
-                childAttributes.Add(new XAttribute(_media + "min", starRatingToFormat.Min.Value.ToString("0.####", CultureInfo.InvariantCulture)));
+                childAttributes.Add(new XAttribute("min", starRatingToFormat.Min.Value.ToString("0.####", CultureInfo.InvariantCulture)));
             }
 
             if (starRatingToFormat.Max != null)
             {
-                childAttributes.Add(new XAttribute(_media + "max", starRatingToFormat.Max.Value.ToString("0.####", CultureInfo.InvariantCulture)));
+                childAttributes.Add(new XAttribute("max", starRatingToFormat.Max.Value.ToString("0.####", CultureInfo.InvariantCulture)));
             }
 
             if (!childAttributes.Any())
@@ -753,27 +753,29 @@ namespace Feedpipes.Syndication.Extensions.MediaRss
 
             if (restrictionToFormat == null)
                 return false;
+            
+            restrictionElement = new XElement(_media + "restriction");
 
             var valuesFormatted = string.Join(" ", restrictionToFormat.Values
                 .Where(x => !string.IsNullOrEmpty(x))
                 .Select(x => x.Trim()));
 
-            if (string.IsNullOrEmpty(valuesFormatted))
-                return false;
-
-            restrictionElement = new XElement(_media + "restriction", valuesFormatted);
+            if (!string.IsNullOrEmpty(valuesFormatted))
+            {
+                restrictionElement.Add(valuesFormatted);
+            }
 
             if (restrictionToFormat.Relationship != null)
             {
-                restrictionElement.Add(new XAttribute(_media + "relationship", restrictionToFormat.Relationship.Value.ToString().ToLowerInvariant()));
+                restrictionElement.Add(new XAttribute("relationship", restrictionToFormat.Relationship.Value.ToString().ToLowerInvariant()));
             }
 
             if (restrictionToFormat.Type != null)
             {
-                restrictionElement.Add(new XAttribute(_media + "type", restrictionToFormat.Type.Value.ToString().ToLowerInvariant()));
+                restrictionElement.Add(new XAttribute("type", restrictionToFormat.Type.Value.ToString().ToLowerInvariant()));
             }
 
-            return false;
+            return true;
         }
 
         private static bool TryFormatMediaRssText(MediaRssText textToFormat, out XElement textElement)
@@ -788,17 +790,17 @@ namespace Feedpipes.Syndication.Extensions.MediaRss
 
             if (!string.IsNullOrEmpty(textToFormat.Lang))
             {
-                textElement.Add(new XAttribute(_media + "lang", textToFormat.Lang));
+                textElement.Add(new XAttribute("lang", textToFormat.Lang));
             }
 
-            if (TryFormatNtpTimeSpanToString(textToFormat.Start, out var startFormatted))
+            if (Rfc2326NptTimeSpanFormatter.TryFormatTimeAsString(textToFormat.Start, out var startFormatted))
             {
-                textElement.Add(new XAttribute(_media + "start", startFormatted));
+                textElement.Add(new XAttribute("start", startFormatted));
             }
 
-            if (TryFormatNtpTimeSpanToString(textToFormat.End, out var endFormatted))
+            if (Rfc2326NptTimeSpanFormatter.TryFormatTimeAsString(textToFormat.End, out var endFormatted))
             {
-                textElement.Add(new XAttribute(_media + "end", endFormatted));
+                textElement.Add(new XAttribute("end", endFormatted));
             }
 
             return true;
@@ -815,7 +817,7 @@ namespace Feedpipes.Syndication.Extensions.MediaRss
 
             if (!string.IsNullOrEmpty(copyrightToFormat.Url))
             {
-                copyrightElement.Add(new XAttribute(_media + "url", copyrightToFormat.Url));
+                copyrightElement.Add(new XAttribute("url", copyrightToFormat.Url));
             }
 
             return true;
@@ -832,12 +834,12 @@ namespace Feedpipes.Syndication.Extensions.MediaRss
 
             if (!string.IsNullOrEmpty(creditToFormat.Role))
             {
-                creditElement.Add(new XAttribute(_media + "role", creditToFormat.Role));
+                creditElement.Add(new XAttribute("role", creditToFormat.Role));
             }
 
             if (!string.IsNullOrEmpty(creditToFormat.Scheme) && creditToFormat.Scheme != "urn:ebu")
             {
-                creditElement.Add(new XAttribute(_media + "scheme", creditToFormat.Scheme));
+                creditElement.Add(new XAttribute("scheme", creditToFormat.Scheme));
             }
 
             return true;
@@ -850,16 +852,16 @@ namespace Feedpipes.Syndication.Extensions.MediaRss
             if (string.IsNullOrEmpty(playerToFormat?.Url))
                 return false;
 
-            playerElement = new XElement(_media + "player", new XAttribute(_media + "url", playerToFormat.Url));
+            playerElement = new XElement(_media + "player", new XAttribute("url", playerToFormat.Url));
 
             if (playerToFormat.Height != null)
             {
-                playerElement.Add(new XAttribute(_media + "height", playerToFormat.Height.Value.ToString(CultureInfo.InvariantCulture)));
+                playerElement.Add(new XAttribute("height", playerToFormat.Height.Value.ToString(CultureInfo.InvariantCulture)));
             }
 
             if (playerToFormat.Width != null)
             {
-                playerElement.Add(new XAttribute(_media + "width", playerToFormat.Width.Value.ToString(CultureInfo.InvariantCulture)));
+                playerElement.Add(new XAttribute("width", playerToFormat.Width.Value.ToString(CultureInfo.InvariantCulture)));
             }
 
             return true;
@@ -876,7 +878,7 @@ namespace Feedpipes.Syndication.Extensions.MediaRss
 
             if (hashToFormat.Algo != MediaRssHashAlgo.Md5)
             {
-                hashElement.Add(new XAttribute(_media + "algo", hashToFormat.Algo.ToString().ToLowerInvariant()));
+                hashElement.Add(new XAttribute("algo", hashToFormat.Algo.ToString().ToLowerInvariant()));
             }
 
             return true;
@@ -893,12 +895,12 @@ namespace Feedpipes.Syndication.Extensions.MediaRss
 
             if (!string.IsNullOrEmpty(categoryToFormat.Label))
             {
-                categoryElement.Add(new XAttribute(_media + "label", categoryToFormat.Label));
+                categoryElement.Add(new XAttribute("label", categoryToFormat.Label));
             }
 
             if (!string.IsNullOrEmpty(categoryToFormat.Scheme) && categoryToFormat.Scheme != "http://search.yahoo.com/mrss/category_schema")
             {
-                categoryElement.Add(new XAttribute(_media + "scheme", categoryToFormat.Scheme));
+                categoryElement.Add(new XAttribute("scheme", categoryToFormat.Scheme));
             }
 
             return true;
@@ -911,48 +913,23 @@ namespace Feedpipes.Syndication.Extensions.MediaRss
             if (string.IsNullOrEmpty(thumbnailToFormat?.Url))
                 return false;
 
-            thumbnailElement = new XElement(_media + "thumbnail", new XAttribute(_media + "url", thumbnailToFormat.Url));
+            thumbnailElement = new XElement(_media + "thumbnail", new XAttribute("url", thumbnailToFormat.Url));
 
             if (thumbnailToFormat.Height != null)
             {
-                thumbnailElement.Add(new XAttribute(_media + "height", thumbnailToFormat.Height.Value.ToString(CultureInfo.InvariantCulture)));
+                thumbnailElement.Add(new XAttribute("height", thumbnailToFormat.Height.Value.ToString(CultureInfo.InvariantCulture)));
             }
 
             if (thumbnailToFormat.Width != null)
             {
-                thumbnailElement.Add(new XAttribute(_media + "width", thumbnailToFormat.Width.Value.ToString(CultureInfo.InvariantCulture)));
+                thumbnailElement.Add(new XAttribute("width", thumbnailToFormat.Width.Value.ToString(CultureInfo.InvariantCulture)));
             }
 
-            if (TryFormatNtpTimeSpanToString(thumbnailToFormat.Time, out var timeFormatted))
+            if (Rfc2326NptTimeSpanFormatter.TryFormatTimeAsString(thumbnailToFormat.Time, out var timeFormatted))
             {
-                thumbnailElement.Add(new XAttribute(_media + "time", timeFormatted));
+                thumbnailElement.Add(new XAttribute("time", timeFormatted));
             }
 
-            return true;
-        }
-
-        private static bool TryFormatNtpTimeSpanToString(TimeSpan? timeToFormat, out string timeFormatted)
-        {
-            timeFormatted = default;
-
-            if (timeToFormat == null)
-                return false;
-
-            var timeFormattedBuilder = new StringBuilder();
-
-            timeFormattedBuilder.Append(Math.Floor(timeToFormat.Value.TotalHours).ToString("##", CultureInfo.InvariantCulture));
-            timeFormattedBuilder.Append(':');
-            timeFormattedBuilder.Append(timeToFormat.Value.Minutes.ToString("##", CultureInfo.InvariantCulture));
-            timeFormattedBuilder.Append(':');
-            timeFormattedBuilder.Append(timeToFormat.Value.Seconds.ToString("##", CultureInfo.InvariantCulture));
-
-            if (timeToFormat.Value.Milliseconds > 0)
-            {
-                timeFormattedBuilder.Append('.');
-                timeFormattedBuilder.Append(timeToFormat.Value.Milliseconds.ToString("###", CultureInfo.InvariantCulture));
-            }
-
-            timeFormatted = timeFormattedBuilder.ToString();
             return true;
         }
 
@@ -983,7 +960,7 @@ namespace Feedpipes.Syndication.Extensions.MediaRss
 
             if (!string.IsNullOrEmpty(typedTextToFormat.Type) && typedTextToFormat.Type != "plain")
             {
-                typedTextElement.Add(new XAttribute(_media + "type", typedTextToFormat.Type));
+                typedTextElement.Add(new XAttribute("type", typedTextToFormat.Type));
             }
 
             return true;
@@ -1000,7 +977,7 @@ namespace Feedpipes.Syndication.Extensions.MediaRss
 
             if (!string.IsNullOrEmpty(ratingToFormat.Scheme) && ratingToFormat.Scheme != "urn:simple")
             {
-                ratingElement.Add(new XAttribute(_media + "scheme", ratingToFormat.Scheme));
+                ratingElement.Add(new XAttribute("scheme", ratingToFormat.Scheme));
             }
 
             return true;

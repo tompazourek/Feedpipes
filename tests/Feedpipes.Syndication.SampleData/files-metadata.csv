@@ -14,6 +14,12 @@ _rss10-sample01.xml,,,,RSS 1.0 Spec
 _rss10-sample02.xml,,,,RSS 1.0 Spec
 _rss20-sample01.xml,,,,RSS 2.0 Spec
 _rss20-sample02.xml,,,,Custom made
+_rss20-media01.xml,,,,Media RSS Spec
+_rss20-media02.xml,,,,Media RSS Spec
+_rss20-media03.xml,,,,Media RSS Spec
+_rss20-media04.xml,,,,Media RSS Spec
+_rss20-media05.xml,,,,Media RSS Spec
+_rss20-media06.xml,,,,Media RSS Spec
 9gagrss-com-feed.xml,http://9gagrss.com/feed/,9GAG RSS feed,http://9gag.com/,Inoreader Fun
 abduzeedo-com-rss-xml.xml,http://abduzeedo.com/rss.xml,Abduzeedo Design Inspiration - Design Inspiration & Tutorials,http://abduzeedo.com/,Inoreader Tutorials & Howtos
 adamsitnik-com-feed.xml,https://adamsitnik.com/feed.xml,Adam Sitnik,https://adamsitnik.com/,Inoreader OPML
