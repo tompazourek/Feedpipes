@@ -13,8 +13,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Feedpipes.Syndication\Feedpipes.Syndication.csproj" />
-    <ProjectReference Include="..\Feedpipes.Syndication.SampleData\Feedpipes.Syndication.SampleData.csproj" />
+    <ProjectReference Include="..\..\src\Feedpipes.Syndication\Feedpipes.csproj" />
+    <ProjectReference Include="..\Feedpipes.Syndication.SampleData\Feedpipes.Tests.SampleData.csproj" />
   </ItemGroup>
 
 </Project>
