@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Feedpipes.Syndication.Rss20
+namespace Feedpipes.Rss20
 {
     /// <remarks>
     /// More info: https://en.wikipedia.org/wiki/RSS#Variants

@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Feedpipes.Syndication.Extensions;
-using Feedpipes.Syndication.JsonFeedFormat.Entities;
-using Feedpipes.Syndication.Timestamps.Rfc3339;
-using Feedpipes.Syndication.Utils.Json;
+using Feedpipes.Extensions;
+using Feedpipes.JsonFeedFormat.Entities;
+using Feedpipes.Timestamps.Rfc3339;
+using Feedpipes.Utils.Json;
 using Newtonsoft.Json.Linq;
 
-namespace Feedpipes.Syndication.JsonFeedFormat
+namespace Feedpipes.JsonFeedFormat
 {
     public static class JsonFeedFormatter
     {

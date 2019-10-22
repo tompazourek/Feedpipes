@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Globalization;
 
-namespace Feedpipes.Syndication.TimeSpans.Relaxed
+namespace Feedpipes.TimeSpans.Relaxed
 {
     public static class RelaxedTimeSpanParser
     {

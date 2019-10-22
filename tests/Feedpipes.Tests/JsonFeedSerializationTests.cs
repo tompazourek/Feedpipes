@@ -3,17 +3,17 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using Feedpipes.Syndication.Extensions;
-using Feedpipes.Syndication.JsonFeedFormat;
-using Feedpipes.Syndication.JsonFeedFormat.Entities;
-using Feedpipes.Syndication.SampleData;
+using Feedpipes.Extensions;
+using Feedpipes.JsonFeedFormat;
+using Feedpipes.JsonFeedFormat.Entities;
+using Feedpipes.Tests.SampleData;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Xunit;
 
 // ReSharper disable UseObjectOrCollectionInitializer
 
-namespace Feedpipes.Syndication.Tests
+namespace Feedpipes.Tests
 {
     public class JsonFeedSerializationTests
     {

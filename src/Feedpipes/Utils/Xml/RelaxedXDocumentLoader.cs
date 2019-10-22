@@ -2,7 +2,7 @@
 using System.Text;
 using System.Xml.Linq;
 
-namespace Feedpipes.Syndication.Utils.Xml
+namespace Feedpipes.Utils.Xml
 {
     public static class RelaxedXDocumentLoader
     {

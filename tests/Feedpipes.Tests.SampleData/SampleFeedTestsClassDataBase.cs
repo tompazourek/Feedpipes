@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Feedpipes.Syndication.SampleData
+namespace Feedpipes.Tests.SampleData
 {
     public abstract class SampleFeedTestsClassDataBase : IEnumerable<object[]>
     {

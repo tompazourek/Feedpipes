@@ -2,11 +2,11 @@
 using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 using System.Xml.Linq;
-using Feedpipes.Syndication.Atom10.Entities;
-using Feedpipes.Syndication.Extensions.RssAtom10.Entities;
-using Feedpipes.Syndication.Timestamps.Relaxed;
+using Feedpipes.Atom10.Entities;
+using Feedpipes.Extensions.RssAtom10.Entities;
+using Feedpipes.Timestamps.Relaxed;
 
-namespace Feedpipes.Syndication.Extensions.RssAtom10
+namespace Feedpipes.Extensions.RssAtom10
 {
     [SuppressMessage("ReSharper", "UseObjectOrCollectionInitializer")]
     internal static class RssAtom10ExtensionParser

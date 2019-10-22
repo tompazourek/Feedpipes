@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Diagnostics;
-using Feedpipes.Syndication.Utils;
+using Feedpipes.Utils;
 
-namespace Feedpipes.Syndication.Atom10.Entities
+namespace Feedpipes.Atom10.Entities
 {
     /// <summary>
     /// Corresponds to the "source" element.

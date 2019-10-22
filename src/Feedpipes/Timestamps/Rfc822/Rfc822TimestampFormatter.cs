@@ -2,7 +2,7 @@
 using System.Globalization;
 using System.Text;
 
-namespace Feedpipes.Syndication.Timestamps.Rfc822
+namespace Feedpipes.Timestamps.Rfc822
 {
     public static class Rfc822TimestampFormatter
     {

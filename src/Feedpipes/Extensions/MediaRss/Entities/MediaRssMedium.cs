@@ -1,4 +1,4 @@
-﻿namespace Feedpipes.Syndication.Extensions.MediaRss.Entities
+﻿namespace Feedpipes.Extensions.MediaRss.Entities
 {
     /// <summary>
     /// medium is the type of object (image | audio | video | document | executable). While this attribute can

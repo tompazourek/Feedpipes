@@ -1,4 +1,4 @@
-﻿namespace Feedpipes.Syndication.Extensions.MediaRss.Entities
+﻿namespace Feedpipes.Extensions.MediaRss.Entities
 {
     /// <summary>
     /// Optional element to specify the rights information of a media object saying whether a media object has

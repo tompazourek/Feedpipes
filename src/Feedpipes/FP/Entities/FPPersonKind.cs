@@ -1,4 +1,4 @@
-﻿namespace Feedpipes.Syndication.FP.Entities
+﻿namespace Feedpipes.FP.Entities
 {
     public enum FPPersonKind
     {

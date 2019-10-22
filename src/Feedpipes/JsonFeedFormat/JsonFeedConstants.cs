@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Feedpipes.Syndication.JsonFeedFormat
+namespace Feedpipes.JsonFeedFormat
 {
     /// <remarks>
     /// More info: https://jsonfeed.org/version/1

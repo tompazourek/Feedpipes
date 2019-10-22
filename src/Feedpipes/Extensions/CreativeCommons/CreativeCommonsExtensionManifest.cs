@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Xml.Linq;
-using Feedpipes.Syndication.Extensions.CreativeCommons.Entities;
-using Feedpipes.Syndication.Utils.Xml;
+using Feedpipes.Extensions.CreativeCommons.Entities;
+using Feedpipes.Utils.Xml;
 
-namespace Feedpipes.Syndication.Extensions.CreativeCommons
+namespace Feedpipes.Extensions.CreativeCommons
 {
     /// <summary>
     /// Optional "cc:*" extended information.

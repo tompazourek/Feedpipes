@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Diagnostics;
-using Feedpipes.Syndication.Utils;
+using Feedpipes.Utils;
 
-namespace Feedpipes.Syndication.Extensions.MediaRss.Entities
+namespace Feedpipes.Extensions.MediaRss.Entities
 {
     /// <summary>
     /// Sometimes player-specific embed code is needed for a player to play any video.

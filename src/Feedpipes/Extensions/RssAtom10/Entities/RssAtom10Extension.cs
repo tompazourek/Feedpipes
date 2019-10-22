@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using Feedpipes.Syndication.Atom10.Entities;
-using Feedpipes.Syndication.Utils;
+using Feedpipes.Atom10.Entities;
+using Feedpipes.Utils;
 
-namespace Feedpipes.Syndication.Extensions.RssAtom10.Entities
+namespace Feedpipes.Extensions.RssAtom10.Entities
 {
     [DebuggerDisplay("{" + nameof(DebuggerDisplay) + ",nq}")]
     public class RssAtom10Extension : IExtensionEntity

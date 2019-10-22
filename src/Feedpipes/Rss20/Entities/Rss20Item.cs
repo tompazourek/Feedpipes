@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using Feedpipes.Syndication.Extensions;
-using Feedpipes.Syndication.Utils;
+using Feedpipes.Extensions;
+using Feedpipes.Utils;
 
-namespace Feedpipes.Syndication.Rss20.Entities
+namespace Feedpipes.Rss20.Entities
 {
     /// <summary>
     /// A channel may contain any number of itemss.

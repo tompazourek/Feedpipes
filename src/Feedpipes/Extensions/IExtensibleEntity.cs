@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using JetBrains.Annotations;
 
-namespace Feedpipes.Syndication.Extensions
+namespace Feedpipes.Extensions
 {
     public interface IExtensibleEntity
     {

@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Xml.Linq;
-using Feedpipes.Syndication.Atom10.Entities;
-using Feedpipes.Syndication.Extensions.RssAtom10.Entities;
-using Feedpipes.Syndication.Timestamps.Rfc3339;
-using Feedpipes.Syndication.Utils.Xml;
+using Feedpipes.Atom10.Entities;
+using Feedpipes.Extensions.RssAtom10.Entities;
+using Feedpipes.Timestamps.Rfc3339;
+using Feedpipes.Utils.Xml;
 
-namespace Feedpipes.Syndication.Extensions.RssAtom10
+namespace Feedpipes.Extensions.RssAtom10
 {
     internal static class RssAtom10ExtensionFormatter
     {

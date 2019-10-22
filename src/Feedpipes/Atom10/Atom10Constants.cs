@@ -1,6 +1,6 @@
 ﻿using System.Xml.Linq;
 
-namespace Feedpipes.Syndication.Atom10
+namespace Feedpipes.Atom10
 {
     /// <remarks>
     /// Spec: https://validator.w3.org/feed/docs/atom.html

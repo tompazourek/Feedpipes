@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Diagnostics;
-using Feedpipes.Syndication.Utils;
+using Feedpipes.Utils;
 
-namespace Feedpipes.Syndication.Extensions.CreativeCommons.Entities
+namespace Feedpipes.Extensions.CreativeCommons.Entities
 {
     /// <summary>
     /// Applies to multiple elements (channel, item)

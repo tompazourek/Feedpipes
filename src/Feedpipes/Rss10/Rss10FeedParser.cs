@@ -1,9 +1,9 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 using System.Xml.Linq;
-using Feedpipes.Syndication.Extensions;
-using Feedpipes.Syndication.Rss10.Entities;
+using Feedpipes.Extensions;
+using Feedpipes.Rss10.Entities;
 
-namespace Feedpipes.Syndication.Rss10
+namespace Feedpipes.Rss10
 {
     [SuppressMessage("ReSharper", "UseObjectOrCollectionInitializer")]
     public static class Rss10FeedParser

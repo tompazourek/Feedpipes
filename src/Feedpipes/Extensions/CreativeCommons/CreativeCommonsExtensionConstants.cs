@@ -1,6 +1,6 @@
 ﻿using System.Xml.Linq;
 
-namespace Feedpipes.Syndication.Extensions.CreativeCommons
+namespace Feedpipes.Extensions.CreativeCommons
 {
     /// <remarks>
     /// Spec: http://backend.userland.com/creativeCommonsRssModule

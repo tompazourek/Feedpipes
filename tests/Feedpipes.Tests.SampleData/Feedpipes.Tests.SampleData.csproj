@@ -29,7 +29,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Feedpipes.Syndication\Feedpipes.csproj" />
+    <ProjectReference Include="..\..\src\Feedpipes\Feedpipes.csproj" />
   </ItemGroup>
 
 </Project>

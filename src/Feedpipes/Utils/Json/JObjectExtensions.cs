@@ -2,7 +2,7 @@
 using System.Linq;
 using Newtonsoft.Json.Linq;
 
-namespace Feedpipes.Syndication.Utils.Json
+namespace Feedpipes.Utils.Json
 {
     internal static class JObjectExtensions
     {

@@ -1,4 +1,4 @@
-﻿namespace Feedpipes.Syndication.Extensions.MediaRss.Entities
+﻿namespace Feedpipes.Extensions.MediaRss.Entities
 {
     /// <summary>
     /// Values of <see cref="MediaRssStatus.State" />

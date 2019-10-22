@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
-using Feedpipes.Syndication.Utils;
+using Feedpipes.Utils;
 
-namespace Feedpipes.Syndication.Extensions.MediaRss.Entities
+namespace Feedpipes.Extensions.MediaRss.Entities
 {
     /// <summary>
     /// Text value that can be either HTML or plaintext.

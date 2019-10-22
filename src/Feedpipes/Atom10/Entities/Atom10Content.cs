@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
-using Feedpipes.Syndication.Utils;
+using Feedpipes.Utils;
 
-namespace Feedpipes.Syndication.Atom10.Entities
+namespace Feedpipes.Atom10.Entities
 {
     /// <summary>
     /// "content" either contains, or links to, the complete content of the entry.

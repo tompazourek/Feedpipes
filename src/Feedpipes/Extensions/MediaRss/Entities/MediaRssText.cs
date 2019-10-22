@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Diagnostics;
-using Feedpipes.Syndication.Utils;
+using Feedpipes.Utils;
 
-namespace Feedpipes.Syndication.Extensions.MediaRss.Entities
+namespace Feedpipes.Extensions.MediaRss.Entities
 {
     /// <summary>
     /// Allows the inclusion of a text transcript, closed captioning or lyrics of the media content.

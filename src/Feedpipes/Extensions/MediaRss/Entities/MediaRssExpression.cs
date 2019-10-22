@@ -1,4 +1,4 @@
-﻿namespace Feedpipes.Syndication.Extensions.MediaRss.Entities
+﻿namespace Feedpipes.Extensions.MediaRss.Entities
 {
     /// <summary>
     /// expression determines if the object is a sample or the full version of the object, or even if

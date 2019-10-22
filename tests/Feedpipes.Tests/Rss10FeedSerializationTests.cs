@@ -3,12 +3,12 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Xml;
-using Feedpipes.Syndication.Rss10;
-using Feedpipes.Syndication.Rss10.Entities;
-using Feedpipes.Syndication.SampleData;
+using Feedpipes.Rss10;
+using Feedpipes.Rss10.Entities;
+using Feedpipes.Tests.SampleData;
 using Xunit;
 
-namespace Feedpipes.Syndication.Tests
+namespace Feedpipes.Tests
 {
     public class Rss10FeedSerializationTests
     {

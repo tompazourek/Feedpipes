@@ -1,8 +1,8 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 using System.Xml.Linq;
-using Feedpipes.Syndication.Extensions.WellFormedWeb.Entities;
+using Feedpipes.Extensions.WellFormedWeb.Entities;
 
-namespace Feedpipes.Syndication.Extensions.WellFormedWeb
+namespace Feedpipes.Extensions.WellFormedWeb
 {
     internal static class WellFormedWebExtensionParser
     {

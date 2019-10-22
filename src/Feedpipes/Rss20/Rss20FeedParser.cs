@@ -4,11 +4,11 @@ using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 using System.Linq;
 using System.Xml.Linq;
-using Feedpipes.Syndication.Extensions;
-using Feedpipes.Syndication.Rss20.Entities;
-using Feedpipes.Syndication.Timestamps.Relaxed;
+using Feedpipes.Extensions;
+using Feedpipes.Rss20.Entities;
+using Feedpipes.Timestamps.Relaxed;
 
-namespace Feedpipes.Syndication.Rss20
+namespace Feedpipes.Rss20
 {
     [SuppressMessage("ReSharper", "UseObjectOrCollectionInitializer")]
     public static class Rss20FeedParser

@@ -1,8 +1,8 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 using System.Xml.Linq;
-using Feedpipes.Syndication.Extensions.Rss10Content.Entities;
+using Feedpipes.Extensions.Rss10Content.Entities;
 
-namespace Feedpipes.Syndication.Extensions.Rss10Content
+namespace Feedpipes.Extensions.Rss10Content
 {
     internal static class Rss10ContentExtensionParser
     {

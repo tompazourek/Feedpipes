@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using Feedpipes.Syndication.Extensions;
+using Feedpipes.Extensions;
 
-namespace Feedpipes.Syndication.FP.Entities
+namespace Feedpipes.FP.Entities
 {
     public class FPFeedMetadata : IExtensibleEntity
     {

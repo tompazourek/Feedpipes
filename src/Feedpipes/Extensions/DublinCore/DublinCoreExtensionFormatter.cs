@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Xml.Linq;
-using Feedpipes.Syndication.Extensions.DublinCore.Entities;
-using Feedpipes.Syndication.Timestamps.Rfc3339;
-using Feedpipes.Syndication.Utils.Xml;
+using Feedpipes.Extensions.DublinCore.Entities;
+using Feedpipes.Timestamps.Rfc3339;
+using Feedpipes.Utils.Xml;
 
-namespace Feedpipes.Syndication.Extensions.DublinCore
+namespace Feedpipes.Extensions.DublinCore
 {
     internal static class DublinCoreExtensionFormatter
     {

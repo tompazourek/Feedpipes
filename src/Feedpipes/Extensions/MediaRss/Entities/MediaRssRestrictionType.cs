@@ -1,4 +1,4 @@
-﻿namespace Feedpipes.Syndication.Extensions.MediaRss.Entities
+﻿namespace Feedpipes.Extensions.MediaRss.Entities
 {
     /// <summary>
     /// type specifies the type of restriction (country | uri | sharing ) that the media can be syndicated.

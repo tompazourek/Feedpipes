@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Xml.Linq;
-using Feedpipes.Syndication.Extensions;
-using Feedpipes.Syndication.Rss20.Entities;
-using Feedpipes.Syndication.Timestamps.Rfc822;
-using Feedpipes.Syndication.Utils.Xml;
+using Feedpipes.Extensions;
+using Feedpipes.Rss20.Entities;
+using Feedpipes.Timestamps.Rfc822;
+using Feedpipes.Utils.Xml;
 
-namespace Feedpipes.Syndication.Rss20
+namespace Feedpipes.Rss20
 {
     public static class Rss20FeedFormatter
     {

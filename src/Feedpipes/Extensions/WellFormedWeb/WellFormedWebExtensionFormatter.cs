@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Xml.Linq;
-using Feedpipes.Syndication.Extensions.WellFormedWeb.Entities;
-using Feedpipes.Syndication.Utils.Xml;
+using Feedpipes.Extensions.WellFormedWeb.Entities;
+using Feedpipes.Utils.Xml;
 
-namespace Feedpipes.Syndication.Extensions.WellFormedWeb
+namespace Feedpipes.Extensions.WellFormedWeb
 {
     internal class WellFormedWebExtensionFormatter
     {

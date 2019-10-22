@@ -1,6 +1,6 @@
 ﻿using System.Xml.Linq;
 
-namespace Feedpipes.Syndication.Extensions.MediaRss
+namespace Feedpipes.Extensions.MediaRss
 {
     /// <remarks>
     /// Spec: http://www.rssboard.org/media-rss

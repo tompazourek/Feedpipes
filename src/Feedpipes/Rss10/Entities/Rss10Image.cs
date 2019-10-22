@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Diagnostics;
-using Feedpipes.Syndication.Extensions;
-using Feedpipes.Syndication.Utils;
+using Feedpipes.Extensions;
+using Feedpipes.Utils;
 
-namespace Feedpipes.Syndication.Rss10.Entities
+namespace Feedpipes.Rss10.Entities
 {
     /// <summary>
     /// An image to be associated with an HTML rendering of the channel. This image should be of a format

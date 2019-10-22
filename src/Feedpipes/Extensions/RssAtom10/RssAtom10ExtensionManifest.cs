@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Xml.Linq;
-using Feedpipes.Syndication.Extensions.RssAtom10.Entities;
-using Feedpipes.Syndication.Utils.Xml;
+using Feedpipes.Extensions.RssAtom10.Entities;
+using Feedpipes.Utils.Xml;
 
-namespace Feedpipes.Syndication.Extensions.RssAtom10
+namespace Feedpipes.Extensions.RssAtom10
 {
     /// <summary>
     /// Optional "atom10:*" extended information.

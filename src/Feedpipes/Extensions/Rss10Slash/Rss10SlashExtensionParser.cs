@@ -3,9 +3,9 @@ using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 using System.Linq;
 using System.Xml.Linq;
-using Feedpipes.Syndication.Extensions.Rss10Slash.Entities;
+using Feedpipes.Extensions.Rss10Slash.Entities;
 
-namespace Feedpipes.Syndication.Extensions.Rss10Slash
+namespace Feedpipes.Extensions.Rss10Slash
 {
     internal static class Rss10SlashExtensionParser
     {

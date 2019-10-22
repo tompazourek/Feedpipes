@@ -1,8 +1,8 @@
 using System;
-using Feedpipes.Syndication.Timestamps.Rfc822;
+using Feedpipes.Timestamps.Rfc822;
 using Xunit;
 
-namespace Feedpipes.Syndication.Tests
+namespace Feedpipes.Tests
 {
     public class Rfc822TimestampSerializationTests
     {

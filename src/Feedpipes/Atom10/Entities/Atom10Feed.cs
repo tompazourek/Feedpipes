@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using Feedpipes.Syndication.Extensions;
-using Feedpipes.Syndication.Utils;
+using Feedpipes.Extensions;
+using Feedpipes.Utils;
 
-namespace Feedpipes.Syndication.Atom10.Entities
+namespace Feedpipes.Atom10.Entities
 {
     [DebuggerDisplay("{" + nameof(DebuggerDisplay) + ",nq}")]
     public class Atom10Feed : IExtensibleEntity

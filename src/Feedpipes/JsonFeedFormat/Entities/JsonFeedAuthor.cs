@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
-using Feedpipes.Syndication.Utils;
+using Feedpipes.Utils;
 
-namespace Feedpipes.Syndication.JsonFeedFormat.Entities
+namespace Feedpipes.JsonFeedFormat.Entities
 {
     /// <summary>
     /// author (optional, object) specifies the feed author. The author object has several members.

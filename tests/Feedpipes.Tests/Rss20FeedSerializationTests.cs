@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using System.Xml;
-using Feedpipes.Syndication.Rss20;
-using Feedpipes.Syndication.Rss20.Entities;
-using Feedpipes.Syndication.SampleData;
+using Feedpipes.Rss20;
+using Feedpipes.Rss20.Entities;
+using Feedpipes.Tests.SampleData;
 using Xunit;
 
-namespace Feedpipes.Syndication.Tests
+namespace Feedpipes.Tests
 {
     public class Rss20FeedSerializationTests
     {

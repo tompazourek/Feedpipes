@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
-using Feedpipes.Syndication.Utils;
+using Feedpipes.Utils;
 
-namespace Feedpipes.Syndication.Extensions.MediaRss.Entities
+namespace Feedpipes.Extensions.MediaRss.Entities
 {
     /// <summary>
     /// This element contains user-generated tags separated by commas in the decreasing order of each tag's weight.

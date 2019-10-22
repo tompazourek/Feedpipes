@@ -1,8 +1,8 @@
 using System;
-using Feedpipes.Syndication.Timestamps.Relaxed;
+using Feedpipes.Timestamps.Relaxed;
 using Xunit;
 
-namespace Feedpipes.Syndication.Tests
+namespace Feedpipes.Tests
 {
     public class RelaxedTimestampSerializationTests
     {

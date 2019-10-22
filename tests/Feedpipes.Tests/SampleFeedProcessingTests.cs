@@ -4,16 +4,16 @@ using System.IO;
 using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
-using Feedpipes.Syndication.Rss20;
-using Feedpipes.Syndication.SampleData;
-using Feedpipes.Syndication.Utils.Xml;
+using Feedpipes.Rss20;
+using Feedpipes.Tests.SampleData;
+using Feedpipes.Utils.Xml;
 using Xunit;
 
-namespace Feedpipes.Syndication.Tests
+namespace Feedpipes.Tests
 {
     public class SampleFeedProcessingTests
     {
-        [Fact(Skip = "Only helper to download tests, fill in the target path before use.")]
+        [Fact(Skip = "Only a helper to download tests, fill in the target path before use.")]
         public async Task DebugDownloadSampleFeedXml()
         {
             var sampleFeeds = SampleFeedDirectory.GetSampleFeeds();

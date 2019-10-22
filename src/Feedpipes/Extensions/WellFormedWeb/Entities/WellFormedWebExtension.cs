@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
-using Feedpipes.Syndication.Utils;
+using Feedpipes.Utils;
 
-namespace Feedpipes.Syndication.Extensions.WellFormedWeb.Entities
+namespace Feedpipes.Extensions.WellFormedWeb.Entities
 {
     [DebuggerDisplay("{" + nameof(DebuggerDisplay) + ",nq}")]
     public class WellFormedWebExtension : IExtensionEntity

@@ -3,7 +3,7 @@ using System.Xml.Linq;
 using JetBrains.Annotations;
 using Newtonsoft.Json.Linq;
 
-namespace Feedpipes.Syndication.Extensions
+namespace Feedpipes.Extensions
 {
     internal static class ExtensibleEntityParser
     {

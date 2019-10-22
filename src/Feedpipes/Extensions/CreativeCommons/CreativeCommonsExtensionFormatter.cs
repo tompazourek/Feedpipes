@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Xml.Linq;
-using Feedpipes.Syndication.Extensions.CreativeCommons.Entities;
-using Feedpipes.Syndication.Utils.Xml;
+using Feedpipes.Extensions.CreativeCommons.Entities;
+using Feedpipes.Utils.Xml;
 
-namespace Feedpipes.Syndication.Extensions.CreativeCommons
+namespace Feedpipes.Extensions.CreativeCommons
 {
     internal static class CreativeCommonsExtensionFormatter
     {

@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
-using Feedpipes.Syndication.Utils;
+using Feedpipes.Utils;
 
-namespace Feedpipes.Syndication.Atom10.Entities
+namespace Feedpipes.Atom10.Entities
 {
     /// <summary>
     /// "link" is patterned after html's link element. It has one required attribute, href, and five optional attributes:

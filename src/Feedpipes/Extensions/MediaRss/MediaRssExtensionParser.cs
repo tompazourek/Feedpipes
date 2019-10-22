@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Xml.Linq;
-using Feedpipes.Syndication.Extensions.MediaRss.Entities;
-using Feedpipes.Syndication.TimeSpans.Relaxed;
+using Feedpipes.Extensions.MediaRss.Entities;
+using Feedpipes.TimeSpans.Relaxed;
 
-namespace Feedpipes.Syndication.Extensions.MediaRss
+namespace Feedpipes.Extensions.MediaRss
 {
     public static class MediaRssExtensionParser
     {

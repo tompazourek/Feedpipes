@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Feedpipes.Syndication.Extensions.MediaRss.Entities
+namespace Feedpipes.Extensions.MediaRss.Entities
 {
     /// <summary>
     /// Contains information that can be either on the top-level of the extension, inside a <see cref="MediaRssGroup" />, or

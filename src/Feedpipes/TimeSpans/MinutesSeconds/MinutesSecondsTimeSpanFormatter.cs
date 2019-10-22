@@ -2,7 +2,7 @@
 using System.Globalization;
 using System.Text;
 
-namespace Feedpipes.Syndication.TimeSpans.MinutesSeconds
+namespace Feedpipes.TimeSpans.MinutesSeconds
 {
     public static class MinutesSecondsTimeSpanFormatter
     {

@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Diagnostics;
-using Feedpipes.Syndication.Extensions;
-using Feedpipes.Syndication.Utils;
+using Feedpipes.Extensions;
+using Feedpipes.Utils;
 
-namespace Feedpipes.Syndication.Rss20.Entities
+namespace Feedpipes.Rss20.Entities
 {
     /// <summary>
     /// Specifies a GIF, JPEG or PNG image that can be displayed with the channel.

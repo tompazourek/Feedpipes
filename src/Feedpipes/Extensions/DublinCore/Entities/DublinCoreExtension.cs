@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Diagnostics;
-using Feedpipes.Syndication.Utils;
+using Feedpipes.Utils;
 
-namespace Feedpipes.Syndication.Extensions.DublinCore.Entities
+namespace Feedpipes.Extensions.DublinCore.Entities
 {
     /// <summary>
     /// Applies to multiple elements (channel, item, image, textinput)

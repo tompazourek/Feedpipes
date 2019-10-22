@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Xml.Linq;
-using Feedpipes.Syndication.Extensions.MediaRss.Entities;
-using Feedpipes.Syndication.Utils.Xml;
+using Feedpipes.Extensions.MediaRss.Entities;
+using Feedpipes.Utils.Xml;
 
-namespace Feedpipes.Syndication.Extensions.MediaRss
+namespace Feedpipes.Extensions.MediaRss
 {
     /// <summary>
     /// Optional "media:*" extended information.

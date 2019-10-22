@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Diagnostics.CodeAnalysis;
 using System.Xml.Linq;
-using Feedpipes.Syndication.Extensions.DublinCore.Entities;
-using Feedpipes.Syndication.Timestamps.Relaxed;
+using Feedpipes.Extensions.DublinCore.Entities;
+using Feedpipes.Timestamps.Relaxed;
 
-namespace Feedpipes.Syndication.Extensions.DublinCore
+namespace Feedpipes.Extensions.DublinCore
 {
     internal static class DublinCoreExtensionParser
     {

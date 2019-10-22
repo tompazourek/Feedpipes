@@ -2,12 +2,12 @@
 using System.Globalization;
 using System.Linq;
 using System.Xml.Linq;
-using Feedpipes.Syndication.Extensions.MediaRss.Entities;
-using Feedpipes.Syndication.TimeSpans.MinutesSeconds;
-using Feedpipes.Syndication.TimeSpans.Rfc2326Npt;
-using Feedpipes.Syndication.Utils.Xml;
+using Feedpipes.Extensions.MediaRss.Entities;
+using Feedpipes.TimeSpans.MinutesSeconds;
+using Feedpipes.TimeSpans.Rfc2326Npt;
+using Feedpipes.Utils.Xml;
 
-namespace Feedpipes.Syndication.Extensions.MediaRss
+namespace Feedpipes.Extensions.MediaRss
 {
     public static class MediaRssExtensionFormatter
     {

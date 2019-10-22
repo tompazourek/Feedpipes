@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Diagnostics;
-using Feedpipes.Syndication.Extensions;
-using Feedpipes.Syndication.Utils;
+using Feedpipes.Extensions;
+using Feedpipes.Utils;
 
-namespace Feedpipes.Syndication.Rss10.Entities
+namespace Feedpipes.Rss10.Entities
 {
     /// <summary>
     /// While commonly a news headline, with RSS 1.0's modular extensibility, this can be just about anything:

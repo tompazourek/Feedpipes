@@ -1,6 +1,6 @@
 ﻿using System.Xml.Linq;
 
-namespace Feedpipes.Syndication.Extensions.DublinCore
+namespace Feedpipes.Extensions.DublinCore
 {
     /// <remarks>
     /// Spec: http://web.resource.org/rss/1.0/modules/dc/

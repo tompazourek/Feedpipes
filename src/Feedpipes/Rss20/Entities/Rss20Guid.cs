@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
-using Feedpipes.Syndication.Utils;
+using Feedpipes.Utils;
 
-namespace Feedpipes.Syndication.Rss20.Entities
+namespace Feedpipes.Rss20.Entities
 {
     /// <summary>
     /// "guid" element of items.

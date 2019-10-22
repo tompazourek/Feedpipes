@@ -2,7 +2,7 @@
 using System.Globalization;
 using System.Text;
 
-namespace Feedpipes.Syndication.TimeSpans.Rfc2326Npt
+namespace Feedpipes.TimeSpans.Rfc2326Npt
 {
     public static class Rfc2326NptTimeSpanFormatter
     {

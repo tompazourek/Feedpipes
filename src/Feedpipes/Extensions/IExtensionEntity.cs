@@ -1,4 +1,4 @@
-﻿namespace Feedpipes.Syndication.Extensions
+﻿namespace Feedpipes.Extensions
 {
     public interface IExtensionEntity
     {

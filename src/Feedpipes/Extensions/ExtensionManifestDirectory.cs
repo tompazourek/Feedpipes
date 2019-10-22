@@ -1,17 +1,17 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using Feedpipes.Syndication.Extensions.CreativeCommons;
-using Feedpipes.Syndication.Extensions.DublinCore;
-using Feedpipes.Syndication.Extensions.MediaRss;
-using Feedpipes.Syndication.Extensions.Rss10Content;
-using Feedpipes.Syndication.Extensions.Rss10Slash;
-using Feedpipes.Syndication.Extensions.Rss10Syndication;
-using Feedpipes.Syndication.Extensions.RssAtom10;
-using Feedpipes.Syndication.Extensions.WellFormedWeb;
+using Feedpipes.Extensions.CreativeCommons;
+using Feedpipes.Extensions.DublinCore;
+using Feedpipes.Extensions.MediaRss;
+using Feedpipes.Extensions.Rss10Content;
+using Feedpipes.Extensions.Rss10Slash;
+using Feedpipes.Extensions.Rss10Syndication;
+using Feedpipes.Extensions.RssAtom10;
+using Feedpipes.Extensions.WellFormedWeb;
 using JetBrains.Annotations;
 
-namespace Feedpipes.Syndication.Extensions
+namespace Feedpipes.Extensions
 {
     public class ExtensionManifestDirectory : ICollection<ExtensionManifest>
     {

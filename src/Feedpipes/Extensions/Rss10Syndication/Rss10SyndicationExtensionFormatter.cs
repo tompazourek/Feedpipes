@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Xml.Linq;
-using Feedpipes.Syndication.Extensions.Rss10Syndication.Entities;
-using Feedpipes.Syndication.Timestamps.Rfc3339;
-using Feedpipes.Syndication.Utils.Xml;
+using Feedpipes.Extensions.Rss10Syndication.Entities;
+using Feedpipes.Timestamps.Rfc3339;
+using Feedpipes.Utils.Xml;
 
-namespace Feedpipes.Syndication.Extensions.Rss10Syndication
+namespace Feedpipes.Extensions.Rss10Syndication
 {
     internal static class Rss10SyndicationExtensionFormatter
     {

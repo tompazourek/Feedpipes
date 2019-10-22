@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 
-namespace Feedpipes.Syndication.Kvp
+namespace Feedpipes.Kvp
 {
     [DebuggerDisplay("{" + nameof(Value) + "}")]
     public class KvpBagValue

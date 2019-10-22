@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Xml.Linq;
-using Feedpipes.Syndication.Utils.Xml;
+using Feedpipes.Utils.Xml;
 using Newtonsoft.Json.Linq;
 
-namespace Feedpipes.Syndication.Extensions
+namespace Feedpipes.Extensions
 {
     public abstract class ExtensionManifest
     {

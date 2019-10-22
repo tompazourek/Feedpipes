@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Diagnostics;
-using Feedpipes.Syndication.Utils;
+using Feedpipes.Utils;
 
-namespace Feedpipes.Syndication.Extensions.Rss10Syndication.Entities
+namespace Feedpipes.Extensions.Rss10Syndication.Entities
 {
     [DebuggerDisplay("{" + nameof(DebuggerDisplay) + ",nq}")]
     public class Rss10SyndicationExtension : IExtensionEntity

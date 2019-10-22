@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Xml.Linq;
-using Feedpipes.Syndication.Extensions;
-using Feedpipes.Syndication.Rss10.Entities;
-using Feedpipes.Syndication.Utils.Xml;
+using Feedpipes.Extensions;
+using Feedpipes.Rss10.Entities;
+using Feedpipes.Utils.Xml;
 
-namespace Feedpipes.Syndication.Rss10
+namespace Feedpipes.Rss10
 {
     public static class Rss10FeedFormatter
     {

@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Xml.Linq;
-using Feedpipes.Syndication.Extensions.Rss10Syndication.Entities;
-using Feedpipes.Syndication.Utils.Xml;
+using Feedpipes.Extensions.Rss10Syndication.Entities;
+using Feedpipes.Utils.Xml;
 
-namespace Feedpipes.Syndication.Extensions.Rss10Syndication
+namespace Feedpipes.Extensions.Rss10Syndication
 {
     /// <summary>
     /// Optional "sy:*" extended information.

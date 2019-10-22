@@ -2,10 +2,10 @@
 using System.Globalization;
 using System.Linq;
 using System.Xml.Linq;
-using Feedpipes.Syndication.Extensions.Rss10Slash.Entities;
-using Feedpipes.Syndication.Utils.Xml;
+using Feedpipes.Extensions.Rss10Slash.Entities;
+using Feedpipes.Utils.Xml;
 
-namespace Feedpipes.Syndication.Extensions.Rss10Slash
+namespace Feedpipes.Extensions.Rss10Slash
 {
     internal static class Rss10SlashExtensionFormatter
     {

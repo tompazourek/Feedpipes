@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Xml.Linq;
-using Feedpipes.Syndication.Extensions.DublinCore.Entities;
-using Feedpipes.Syndication.Utils.Xml;
+using Feedpipes.Extensions.DublinCore.Entities;
+using Feedpipes.Utils.Xml;
 
-namespace Feedpipes.Syndication.Extensions.DublinCore
+namespace Feedpipes.Extensions.DublinCore
 {
     /// <summary>
     /// Optional "dc:*" extended information.

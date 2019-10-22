@@ -1,12 +1,11 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using JetBrains.Annotations;
 
-namespace Feedpipes.Syndication.Utils
+namespace Feedpipes.Utils
 {
     /// <summary>
     /// Helps building debugger display for purposes of easier debugging.

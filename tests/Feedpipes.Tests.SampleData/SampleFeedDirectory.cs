@@ -6,13 +6,13 @@ using System.Reflection;
 using System.Xml;
 using System.Xml.Linq;
 using Csv;
-using Feedpipes.Syndication.Utils.Xml;
+using Feedpipes.Utils.Xml;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
 #pragma warning disable 168
 
-namespace Feedpipes.Syndication.SampleData
+namespace Feedpipes.Tests.SampleData
 {
     public static class SampleFeedDirectory
     {

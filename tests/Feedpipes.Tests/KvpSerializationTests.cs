@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using Feedpipes.Syndication.Kvp;
+using Feedpipes.Kvp;
 using Xunit;
 
-namespace Feedpipes.Syndication.Tests
+namespace Feedpipes.Tests
 {
     public class KvpSerializationTests
     {

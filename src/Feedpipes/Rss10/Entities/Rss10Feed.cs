@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
-using Feedpipes.Syndication.Utils;
+using Feedpipes.Utils;
 
-namespace Feedpipes.Syndication.Rss10.Entities
+namespace Feedpipes.Rss10.Entities
 {
     /// <summary>
     /// Root RSS 1.0 RDF element. Corresponds to "rss" element.

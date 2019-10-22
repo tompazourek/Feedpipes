@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace Feedpipes.Syndication.Extensions.CreativeCommons.Entities
+namespace Feedpipes.Extensions.CreativeCommons.Entities
 {
     /// <summary>
     /// Specifies which Creative Commons license applies.

@@ -1,6 +1,6 @@
 ﻿using System.Xml.Linq;
 
-namespace Feedpipes.Syndication.Extensions.Rss10Content
+namespace Feedpipes.Extensions.Rss10Content
 {
     /// <remarks>
     /// Spec: http://web.resource.org/rss/1.0/modules/content/

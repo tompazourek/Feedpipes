@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Xml.Linq;
 
-namespace Feedpipes.Syndication.Utils.Xml
+namespace Feedpipes.Utils.Xml
 {
     internal static class XContainerExtensions
     {

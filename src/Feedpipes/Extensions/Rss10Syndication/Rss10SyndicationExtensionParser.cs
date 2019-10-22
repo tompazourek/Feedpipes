@@ -2,10 +2,10 @@
 using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 using System.Xml.Linq;
-using Feedpipes.Syndication.Extensions.Rss10Syndication.Entities;
-using Feedpipes.Syndication.Timestamps.Relaxed;
+using Feedpipes.Extensions.Rss10Syndication.Entities;
+using Feedpipes.Timestamps.Relaxed;
 
-namespace Feedpipes.Syndication.Extensions.Rss10Syndication
+namespace Feedpipes.Extensions.Rss10Syndication
 {
     internal static class Rss10SyndicationExtensionParser
     {

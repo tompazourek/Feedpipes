@@ -1,11 +1,11 @@
 ﻿using System;
-using Feedpipes.Syndication.Extensions;
-using Feedpipes.Syndication.JsonFeedFormat.Entities;
-using Feedpipes.Syndication.Timestamps.Relaxed;
-using Feedpipes.Syndication.Utils.Json;
+using Feedpipes.Extensions;
+using Feedpipes.JsonFeedFormat.Entities;
+using Feedpipes.Timestamps.Relaxed;
+using Feedpipes.Utils.Json;
 using Newtonsoft.Json.Linq;
 
-namespace Feedpipes.Syndication.JsonFeedFormat
+namespace Feedpipes.JsonFeedFormat
 {
     public static class JsonFeedParser
     {

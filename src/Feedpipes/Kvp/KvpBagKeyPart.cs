@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using JetBrains.Annotations;
 
-namespace Feedpipes.Syndication.Kvp
+namespace Feedpipes.Kvp
 {
     [DebuggerDisplay("{" + nameof(DebuggerDisplay) + ",nq}")]
     public class KvpBagKeyPart : IEquatable<KvpBagKeyPart>

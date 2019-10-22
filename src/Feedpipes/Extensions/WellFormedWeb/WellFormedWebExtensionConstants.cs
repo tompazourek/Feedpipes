@@ -1,6 +1,6 @@
 ﻿using System.Xml.Linq;
 
-namespace Feedpipes.Syndication.Extensions.WellFormedWeb
+namespace Feedpipes.Extensions.WellFormedWeb
 {
     /// <remarks>
     /// Spec: https://github.com/simplepie/simplepie-ng/wiki/Spec:-Well-Formed-Web

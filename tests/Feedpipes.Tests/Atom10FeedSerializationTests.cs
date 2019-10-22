@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using System.Xml;
-using Feedpipes.Syndication.Atom10;
-using Feedpipes.Syndication.Atom10.Entities;
-using Feedpipes.Syndication.SampleData;
+using Feedpipes.Atom10;
+using Feedpipes.Atom10.Entities;
+using Feedpipes.Tests.SampleData;
 using Xunit;
 
-namespace Feedpipes.Syndication.Tests
+namespace Feedpipes.Tests
 {
     public class Atom10FeedSerializationTests
     {

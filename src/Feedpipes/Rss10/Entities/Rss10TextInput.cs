@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Diagnostics;
-using Feedpipes.Syndication.Extensions;
-using Feedpipes.Syndication.Utils;
+using Feedpipes.Extensions;
+using Feedpipes.Utils;
 
-namespace Feedpipes.Syndication.Rss10.Entities
+namespace Feedpipes.Rss10.Entities
 {
     /// <summary>
     /// The textinput element affords a method for submitting form data to an arbitrary URL -- usually located

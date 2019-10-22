@@ -1,6 +1,6 @@
 ﻿using System.Xml.Linq;
 
-namespace Feedpipes.Syndication.Extensions.Rss10Slash
+namespace Feedpipes.Extensions.Rss10Slash
 {
     /// <remarks>
     /// Spec: http://web.resource.org/rss/1.0/modules/slash/

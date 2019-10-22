@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
-using Feedpipes.Syndication.Utils;
+using Feedpipes.Utils;
 
-namespace Feedpipes.Syndication.JsonFeedFormat.Entities
+namespace Feedpipes.JsonFeedFormat.Entities
 {
     /// <summary>
     /// An individual item may have one or more attachments.

@@ -1,8 +1,8 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 using System.Xml.Linq;
-using Feedpipes.Syndication.Extensions.CreativeCommons.Entities;
+using Feedpipes.Extensions.CreativeCommons.Entities;
 
-namespace Feedpipes.Syndication.Extensions.CreativeCommons
+namespace Feedpipes.Extensions.CreativeCommons
 {
     internal static class CreativeCommonsExtensionParser
     {

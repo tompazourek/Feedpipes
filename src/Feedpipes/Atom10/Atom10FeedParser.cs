@@ -2,11 +2,11 @@
 using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 using System.Xml.Linq;
-using Feedpipes.Syndication.Atom10.Entities;
-using Feedpipes.Syndication.Extensions;
-using Feedpipes.Syndication.Timestamps.Relaxed;
+using Feedpipes.Atom10.Entities;
+using Feedpipes.Extensions;
+using Feedpipes.Timestamps.Relaxed;
 
-namespace Feedpipes.Syndication.Atom10
+namespace Feedpipes.Atom10
 {
     [SuppressMessage("ReSharper", "UseObjectOrCollectionInitializer")]
     public static class Atom10FeedParser

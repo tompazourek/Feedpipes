@@ -1,4 +1,4 @@
-﻿namespace Feedpipes.Syndication.Extensions.Rss10Syndication.Entities
+﻿namespace Feedpipes.Extensions.Rss10Syndication.Entities
 {
     /// <summary>
     /// Value of <see cref="Rss10SyndicationExtension.UpdatePeriod" />.

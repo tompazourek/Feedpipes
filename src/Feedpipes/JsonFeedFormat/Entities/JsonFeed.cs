@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Diagnostics;
-using Feedpipes.Syndication.Extensions;
-using Feedpipes.Syndication.Utils;
+using Feedpipes.Extensions;
+using Feedpipes.Utils;
 
-namespace Feedpipes.Syndication.JsonFeedFormat.Entities
+namespace Feedpipes.JsonFeedFormat.Entities
 {
     /// <summary>
     /// JSON Feed

@@ -1,7 +1,7 @@
 ﻿using System.Xml.Linq;
-using Feedpipes.Syndication.Atom10;
+using Feedpipes.Atom10;
 
-namespace Feedpipes.Syndication.Extensions.RssAtom10
+namespace Feedpipes.Extensions.RssAtom10
 {
     /// <remarks>
     /// Atom 1.0 used as extension for RSS.

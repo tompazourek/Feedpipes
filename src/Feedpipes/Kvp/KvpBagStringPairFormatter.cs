@@ -2,7 +2,7 @@
 using System.Globalization;
 using System.Text;
 
-namespace Feedpipes.Syndication.Kvp
+namespace Feedpipes.Kvp
 {
     public static class KvpBagStringPairFormatter
     {

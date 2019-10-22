@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace Feedpipes.Syndication.Utils
+namespace Feedpipes.Utils
 {
     internal static class StringEscapeHelper
     {

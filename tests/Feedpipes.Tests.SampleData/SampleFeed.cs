@@ -2,7 +2,7 @@
 using System.Xml.Linq;
 using Newtonsoft.Json.Linq;
 
-namespace Feedpipes.Syndication.SampleData
+namespace Feedpipes.Tests.SampleData
 {
     public class SampleFeed
     {
