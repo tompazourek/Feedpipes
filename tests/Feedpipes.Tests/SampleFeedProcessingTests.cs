@@ -1,9 +1,5 @@
-﻿using System;
-using System.Diagnostics;
-using System.IO;
+﻿using System.Diagnostics;
 using System.Linq;
-using System.Net.Http;
-using System.Threading.Tasks;
 using Feedpipes.Rss20;
 using Feedpipes.Tests.SampleData;
 using Feedpipes.Utils.Xml;
@@ -13,36 +9,6 @@ namespace Feedpipes.Tests
 {
     public class SampleFeedProcessingTests
     {
-        [Fact(Skip = "Only a helper to download tests, fill in the target path before use.")]
-        public async Task DebugDownloadSampleFeedXml()
-        {
-            var sampleFeeds = SampleFeedDirectory.GetSampleFeeds();
-            foreach (var sampleFeed in sampleFeeds)
-            {
-                var file = @"C:\SOLUTION_PATH\tests\Feedpipes.Syndication.SampleData\Files\" + sampleFeed.FileName;
-                if (File.Exists(file))
-                    continue;
-
-                try
-                {
-                    using (var client = new HttpClient())
-                    {
-                        var response = await client.GetAsync(sampleFeed.FeedUrl);
-                        response.EnsureSuccessStatusCode();
-
-                        using (var fileStream = File.OpenWrite(file))
-                        {
-                            await response.Content.CopyToAsync(fileStream);
-                        }
-                    }
-                }
-                catch (Exception)
-                {
-                    Debugger.Break();
-                }
-            }
-        }
-
         [Fact]
         public void DebugInvalidXml()
         {
