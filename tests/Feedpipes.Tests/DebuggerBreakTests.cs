@@ -7,7 +7,7 @@ using Xunit;
 
 namespace Feedpipes.Tests
 {
-    public class SampleFeedProcessingTests
+    public class DebuggerBreakTests
     {
         [Fact]
         public void DebugInvalidXml()
@@ -80,10 +80,10 @@ namespace Feedpipes.Tests
                 .Select(x =>
                 {
                     var tryParseResult = Rss20FeedParser.TryParseRss20Feed(x.XDocument, out var rss20Feed);
-                    return (feed: x, rss20Feed: rss20Feed, tryParseResult: tryParseResult);
+                    return (feed: x, rss20Feed, tryParseResult);
                 })
                 .Where(x => x.tryParseResult)
-                .Select(x => (feed: x.feed, generator: x.rss20Feed.Channel?.Generator))
+                .Select(x => (x.feed, generator: x.rss20Feed.Channel?.Generator))
                 .GroupBy(x => x.generator ?? string.Empty, x => x.feed)
                 .ToDictionary(x => x.Key, x => x.ToList());
 
