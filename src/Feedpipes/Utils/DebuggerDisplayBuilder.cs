@@ -3,7 +3,6 @@ using System.Collections;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
-using JetBrains.Annotations;
 
 namespace Feedpipes.Utils
 {
@@ -15,7 +14,7 @@ namespace Feedpipes.Utils
     /// </remarks>
     internal static class DebuggerDisplayBuilder
     {
-        public static DebuggerDisplayBuilder<T> Create<T>([NotNull] T obj)
+        public static DebuggerDisplayBuilder<T> Create<T>(T obj)
         {
             if (obj == null) throw new ArgumentNullException(nameof(obj));
             return new DebuggerDisplayBuilder<T>(obj);
@@ -29,7 +28,7 @@ namespace Feedpipes.Utils
         private readonly StringBuilder _innerSb;
 
 
-        internal DebuggerDisplayBuilder([NotNull] T obj)
+        internal DebuggerDisplayBuilder(T obj)
         {
             if (obj == null)
                 throw new ArgumentNullException(nameof(obj));
@@ -68,10 +67,10 @@ namespace Feedpipes.Utils
             return propertyValueFormatted;
         }
 
-        public DebuggerDisplayBuilder<T> Append<TProperty>([NotNull] Expression<Func<T, TProperty>> expression, bool? noQuotes = null) 
+        public DebuggerDisplayBuilder<T> Append<TProperty>(Expression<Func<T, TProperty>> expression, bool? noQuotes = null) 
             => Append(expression, GenericPropertyValueFormatter, noQuotes);
 
-        public DebuggerDisplayBuilder<T> Append<TProperty>([NotNull] Expression<Func<T, TProperty>> expression, [NotNull] Func<TProperty, string> propertyValueFormatter, bool? noQuotes = null)
+        public DebuggerDisplayBuilder<T> Append<TProperty>(Expression<Func<T, TProperty>> expression, Func<TProperty, string> propertyValueFormatter, bool? noQuotes = null)
         {
             if (expression == null)
                 throw new ArgumentNullException(nameof(expression));
@@ -98,7 +97,7 @@ namespace Feedpipes.Utils
             return this;
         }
 
-        private static bool TryGetPropertyName<TProperty>([NotNull] Expression<Func<T, TProperty>> expression, out string propertyName)
+        private static bool TryGetPropertyName<TProperty>(Expression<Func<T, TProperty>> expression, out string propertyName)
         {
             if (expression == null)
                 throw new ArgumentNullException(nameof(expression));
@@ -112,7 +111,7 @@ namespace Feedpipes.Utils
             return true;
         }
 
-        public static implicit operator string([NotNull] DebuggerDisplayBuilder<T> input)
+        public static implicit operator string(DebuggerDisplayBuilder<T> input)
         {
             if (input == null)
                 throw new ArgumentNullException(nameof(input));

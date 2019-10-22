@@ -9,7 +9,6 @@ using Feedpipes.Extensions.Rss10Slash;
 using Feedpipes.Extensions.Rss10Syndication;
 using Feedpipes.Extensions.RssAtom10;
 using Feedpipes.Extensions.WellFormedWeb;
-using JetBrains.Annotations;
 
 namespace Feedpipes.Extensions
 {
@@ -45,7 +44,7 @@ namespace Feedpipes.Extensions
         {
         }
 
-        public ExtensionManifestDirectory([NotNull] IEnumerable<ExtensionManifest> extensionManifests)
+        public ExtensionManifestDirectory(IEnumerable<ExtensionManifest> extensionManifests)
         {
             if (extensionManifests == null)
                 throw new ArgumentNullException(nameof(extensionManifests));

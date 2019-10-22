@@ -77,7 +77,7 @@ namespace Feedpipes.Extensions.Rss10Slash
                 return false;
 
             var valueString = element.Value.Trim();
-            var valueStringParts = valueString.Split(",").Select(x => x.Trim());
+            var valueStringParts = valueString.Split(',').Select(x => x.Trim());
 
             parsedValue = new List<int>();
 

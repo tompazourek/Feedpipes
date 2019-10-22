@@ -1,0 +1,31 @@
+image: Visual Studio 2017
+
+configuration: Release
+
+before_build:
+  - dotnet restore
+
+environment:
+  base_version: '1.0.0'
+  version_suffix: '-rc'
+
+version: $(base_version).{build}$(version_suffix)
+
+dotnet_csproj:
+  patch: true
+  file: 'src\Feedpipes\*.csproj'
+  version: '$(base_version)$(version_suffix)'
+  assembly_version: '$(base_version)'
+  file_version: '$(base_version).{build}'
+
+build:
+  parallel: true
+  verbosity: minimal
+
+test_script:
+  - cd tests\Feedpipes.Tests
+  - dotnet xunit --fx-version 2.2.0
+  - cd ..\..
+
+artifacts:
+  - path: src\Feedpipes\bin\%configuration%\*.nupkg

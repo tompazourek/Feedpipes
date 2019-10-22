@@ -1,12 +1,29 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.2</TargetFramework>
-    <LangVersion>latest</LangVersion>
+    <TargetFrameworks>net45;netstandard1.1;</TargetFrameworks>
+    <Version>0.0.1</Version>
+    <AssemblyVersion>0.0.0.1</AssemblyVersion>
+    <FileVersion>0.0.0.1</FileVersion>
+    <Authors>Tomáš Pažourek</Authors>
+    <Company>Tomáš Pažourek</Company>
+    <Product />
+    <Copyright>Tomáš Pažourek</Copyright>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/tompazourek/Feedpipes/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/tompazourek/Feedpipes</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/tompazourek/Feedpipes</RepositoryUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/tompazourek/Feedpipes/master/assets/logo_64.png</PackageIconUrl>
+    <PackageTags>rss atom rss10 rss20 atom10 json-feed c-sharp parser parsing serializer serializing xml json syndication blog mediarss</PackageTags>
+    <Description>Open source .NET library for parsing and serializing RSS, Atom, and JSON feeds.</Description>
+    <RepositoryType>git</RepositoryType>
+    <PackageReleaseNotes>https://github.com/tompazourek/Feedpipes/releases</PackageReleaseNotes>
+    <PackageId>Feedpipes</PackageId>
+    <DocumentationFile>/bin/$(Configuration)/Feedpipes.xml</DocumentationFile>
+    <Deterministic>True</Deterministic>
+    <LangVersion>7.3</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="JetBrains.Annotations" Version="2019.1.3" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
   </ItemGroup>
 

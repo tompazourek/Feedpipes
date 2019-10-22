@@ -720,13 +720,12 @@ namespace Feedpipes.Extensions.MediaRss
             }
 
             parsedEmbed.Params = (embedElement?.Elements(ns + "param") ?? Enumerable.Empty<XElement>())
-                .Select(x => (value: x?.Value, name: x?.Attribute("name")?.Value))
-                .Where(x => !string.IsNullOrEmpty(x.name) || !string.IsNullOrEmpty(x.value))
                 .Select(x => new MediaRssEmbedParam
                 {
-                    Name = x.name,
-                    Value = x.value,
+                    Value = x?.Value, 
+                    Name = x?.Attribute("name")?.Value,
                 })
+                .Where(x => !string.IsNullOrEmpty(x.Name) || !string.IsNullOrEmpty(x.Value))
                 .ToList();
 
             return true;
