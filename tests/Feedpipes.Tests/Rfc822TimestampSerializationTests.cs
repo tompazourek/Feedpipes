@@ -17,7 +17,6 @@ namespace Feedpipes.Tests
             new object[] { "     Sun,   19   May   2002    15:21:36    GMT    ", new DateTimeOffset(2002, 5, 19, 15, 21, 36, TimeSpan.Zero) },
             new object[] { "Sun, 19 May 2002 15:21:36 UT", new DateTimeOffset(2002, 5, 19, 15, 21, 36, TimeSpan.Zero) },
             new object[] { "Sun, 19 May 2002 15:21:36 Z", new DateTimeOffset(2002, 5, 19, 15, 21, 36, TimeSpan.Zero) },
-            new object[] { "Sun, 19 May 2002 15:21:36 GMT", new DateTimeOffset(2002, 5, 19, 15, 21, 36, TimeSpan.Zero) },
             new object[] { "Sun, 19 May 2002 15:21:36 A", new DateTimeOffset(2002, 5, 19, 15, 21, 36, TimeSpan.FromHours(-01)) },
             new object[] { "Sun, 19 May 2002 15:21:36 B", new DateTimeOffset(2002, 5, 19, 15, 21, 36, TimeSpan.FromHours(-02)) },
             new object[] { "Sun, 19 May 2002 15:21:36 C", new DateTimeOffset(2002, 5, 19, 15, 21, 36, TimeSpan.FromHours(-03)) },
