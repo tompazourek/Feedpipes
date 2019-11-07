@@ -18,7 +18,7 @@
     <RepositoryType>git</RepositoryType>
     <PackageReleaseNotes>https://github.com/tompazourek/Feedpipes/releases</PackageReleaseNotes>
     <PackageId>Feedpipes</PackageId>
-    <DocumentationFile>/bin/$(Configuration)/Feedpipes.xml</DocumentationFile>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <Deterministic>True</Deterministic>
     <LangVersion>7.3</LangVersion>
   </PropertyGroup>
