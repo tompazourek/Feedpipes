@@ -1,35 +1,58 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
+  <PropertyGroup Label="Basic build">
     <TargetFrameworks>net45;netstandard1.1;</TargetFrameworks>
-    <Version>0.0.1</Version>
-    <AssemblyVersion>0.0.0.1</AssemblyVersion>
-    <FileVersion>0.0.0.1</FileVersion>
+    <LangVersion>7.3</LangVersion>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+
+  <PropertyGroup Label="NuGet package">
     <Authors>Tomáš Pažourek</Authors>
-    <Company>Tomáš Pažourek</Company>
-    <Product />
-    <Copyright>Tomáš Pažourek</Copyright>
-    <PackageLicenseUrl>https://raw.githubusercontent.com/tompazourek/Feedpipes/master/LICENSE</PackageLicenseUrl>
-    <PackageProjectUrl>https://github.com/tompazourek/Feedpipes</PackageProjectUrl>
+    <Company>$(Authors)</Company>
+    <Copyright>$(Copyright)</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/tompazourek/Feedpipes</RepositoryUrl>
-    <PackageIconUrl>https://raw.githubusercontent.com/tompazourek/Feedpipes/master/assets/logo_64.png</PackageIconUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>$(RepositoryUrl)</PackageProjectUrl>
+    <PackageReleaseNotes>$(RepositoryUrl)/releases</PackageReleaseNotes>
+    <PackageIcon>logo_64.png</PackageIcon>
     <PackageTags>rss atom rss10 rss20 atom10 json-feed c-sharp parser parsing serializer serializing xml json syndication blog mediarss</PackageTags>
     <Description>Open source .NET library for parsing and serializing RSS, Atom, and JSON feeds.</Description>
-    <RepositoryType>git</RepositoryType>
-    <PackageReleaseNotes>https://github.com/tompazourek/Feedpipes/releases</PackageReleaseNotes>
-    <PackageId>Feedpipes</PackageId>
-    <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <Deterministic>True</Deterministic>
-    <LangVersion>7.3</LangVersion>
   </PropertyGroup>
-  
+
+  <PropertyGroup Label="Symbols, docs">
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+  </PropertyGroup>
+
+  <PropertyGroup Label="CI build only" Condition=" '$(CI)' == 'true' ">
+    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+  </PropertyGroup>
+
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
-    <PathMap>$(MSBuildProjectDirectory)=/</PathMap>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
-
+  
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="MinVer" Version="2.2.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="*.DotSettings" />
+    <None Include="..\..\assets\logo_64.png" Pack="true" PackagePath="" />
+  </ItemGroup>
+    
+  <Target Name="UpdateAppVeyorBuildVersion" AfterTargets="MinVer" Condition=" '$(APPVEYOR)' == 'true' ">
+    <Exec Command="appveyor UpdateBuild -Version &quot;$(MinVerVersion)&quot;" />
+   </Target>
 </Project>

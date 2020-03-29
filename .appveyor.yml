@@ -1,22 +1,16 @@
 image: Visual Studio 2019
 
+# Adds "+build.XXX" to MinVer's build metadata
+environment:
+  MINVERBUILDMETADATA: build.%APPVEYOR_BUILD_NUMBER%
+
+# AppVeyor's displaye version, will get updated by MSBuild target
+version: '{build}'
+
 configuration: Release
 
 before_build:
   - dotnet restore
-
-environment:
-  base_version: '1.0.0'
-  version_suffix: '-rc'
-
-version: $(base_version).{build}$(version_suffix)
-
-dotnet_csproj:
-  patch: true
-  file: 'src\Feedpipes\*.csproj'
-  version: '$(base_version)$(version_suffix)'
-  assembly_version: '$(base_version)'
-  file_version: '$(base_version).{build}'
 
 build:
   parallel: true
@@ -26,4 +20,4 @@ test_script:
   - dotnet test
 
 artifacts:
-  - path: src\Feedpipes\bin\%configuration%\*.nupkg
+  - path: ./**/*.nupkg
