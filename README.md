@@ -3,6 +3,8 @@
 
 [![Build status](https://img.shields.io/appveyor/ci/tompazourek/feedpipes.svg)](https://ci.appveyor.com/project/tompazourek/feedpipes)
 [![Tests](https://img.shields.io/appveyor/tests/tompazourek/feedpipes.svg)](https://ci.appveyor.com/project/tompazourek/feedpipes/build/tests)
+[![codecov](https://codecov.io/gh/tompazourek/Feedpipes/branch/master/graph/badge.svg?token=QTXA34723S)](https://codecov.io/gh/tompazourek/Feedpipes)
+[![NuGet version](https://img.shields.io/nuget/v/Feedpipes.svg)](https://www.nuget.org/packages/Feedpipes/)
 [![NuGet downloads](https://img.shields.io/nuget/dt/Feedpipes.svg)](https://www.nuget.org/packages/Feedpipes/)
 
 *Open source .NET library for parsing and serializing RSS, Atom, and JSON feeds.*
