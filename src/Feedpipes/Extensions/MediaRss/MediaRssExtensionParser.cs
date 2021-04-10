@@ -164,7 +164,7 @@ namespace Feedpipes.Extensions.MediaRss
             parsedValue = attribute.Value;
             return true;
         }
-        
+
         private static bool TryParseStringElement(XElement element, out string parsedValue)
         {
             parsedValue = default;
@@ -204,7 +204,7 @@ namespace Feedpipes.Extensions.MediaRss
 
             if (double.TryParse(stringValue, NumberStyles.Any, CultureInfo.InvariantCulture, out var parsedDouble))
             {
-                parsedValue = (int) parsedDouble;
+                parsedValue = (int)parsedDouble;
                 return true;
             }
 
@@ -275,7 +275,7 @@ namespace Feedpipes.Extensions.MediaRss
 
             return true;
         }
-        
+
         private static bool TryParseTimeSpanElement(XElement element, out TimeSpan parsedValue)
         {
             parsedValue = default;
@@ -722,7 +722,7 @@ namespace Feedpipes.Extensions.MediaRss
             parsedEmbed.Params = (embedElement?.Elements(ns + "param") ?? Enumerable.Empty<XElement>())
                 .Select(x => new MediaRssEmbedParam
                 {
-                    Value = x?.Value, 
+                    Value = x?.Value,
                     Name = x?.Attribute("name")?.Value,
                 })
                 .Where(x => !string.IsNullOrEmpty(x.Name) || !string.IsNullOrEmpty(x.Value))
@@ -734,8 +734,8 @@ namespace Feedpipes.Extensions.MediaRss
         private static bool TryParseMediaRssStringCollectionElements(XElement parentElement, XNamespace ns, string collectionElementName, string itemElementName, out IList<string> parsedStrings)
         {
             parsedStrings = (parentElement
-                                 ?.Element(ns + collectionElementName)
-                                 ?.Elements(ns + itemElementName) ?? Enumerable.Empty<XElement>())
+                    ?.Element(ns + collectionElementName)
+                    ?.Elements(ns + itemElementName) ?? Enumerable.Empty<XElement>())
                 .Where(x => !string.IsNullOrWhiteSpace(x?.Value))
                 .Select(x => x.Value.Trim())
                 .ToList();

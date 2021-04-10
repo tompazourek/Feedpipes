@@ -29,7 +29,7 @@ namespace Feedpipes.Atom10
 
             if (feedElement == null)
                 return false;
-            
+
             if (extensionManifestDirectory == null)
             {
                 extensionManifestDirectory = ExtensionManifestDirectory.DefaultForAtom;
@@ -365,7 +365,7 @@ namespace Feedpipes.Atom10
             parsedText = new Atom10Text();
 
             parsedText.Type = textElement.Attribute("type")?.Value ?? "text";
-            
+
             if (!TryParseValueByType(parsedText.Type, textElement, out var parsedValue))
                 return false;
 

@@ -274,7 +274,7 @@ namespace Feedpipes.Atom10
             {
                 textElement.Add(typeAttribute);
             }
-            
+
             if (TryFormatAtom10OptionalTextAttribute(textToFormat?.Lang, _xml + "lang", out var langAttribute))
             {
                 textElement.Add(langAttribute);
@@ -296,7 +296,7 @@ namespace Feedpipes.Atom10
                 return false;
 
             textElement = new XElement(name);
-            
+
             if (TryFormatValueByType(textToFormat.Type, textToFormat.Value, out var contentObject))
             {
                 textElement.Add(contentObject);
@@ -306,7 +306,7 @@ namespace Feedpipes.Atom10
             {
                 textElement.Add(typeAttribute);
             }
-            
+
             if (TryFormatAtom10OptionalTextAttribute(textToFormat.Lang, _xml + "lang", out var langAttribute))
             {
                 textElement.Add(langAttribute);
@@ -424,7 +424,7 @@ namespace Feedpipes.Atom10
             {
                 contentElement.Add(srcAttribute);
             }
-            
+
             if (TryFormatAtom10OptionalTextAttribute(contentToFormat.Lang, _xml + "lang", out var langAttribute))
             {
                 contentElement.Add(langAttribute);
@@ -437,11 +437,11 @@ namespace Feedpipes.Atom10
 
             return true;
         }
-        
+
         private static bool TryFormatValueByType(string type, string valueToFormat, out object content)
         {
             content = default;
-            
+
             if (string.IsNullOrEmpty(valueToFormat))
                 return false;
 

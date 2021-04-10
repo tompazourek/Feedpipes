@@ -172,7 +172,7 @@ namespace Feedpipes.Rss20.Entities
         /// List of "item" elements.
         /// </summary>
         public IList<Rss20Item> Items { get; set; } = new List<Rss20Item>();
-        
+
         /// <summary>
         /// Extenssions
         /// </summary>

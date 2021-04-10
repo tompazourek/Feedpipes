@@ -111,7 +111,7 @@ namespace Feedpipes.Rss20.Entities
         /// The RSS channel that the item came from.
         /// </summary>
         public Rss20Source Source { get; set; }
-        
+
         /// <summary>
         /// Extenssions
         /// </summary>

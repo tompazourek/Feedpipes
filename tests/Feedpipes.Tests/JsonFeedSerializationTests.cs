@@ -99,7 +99,7 @@ namespace Feedpipes.Tests
                 if (property.Value?.Type != JTokenType.Object)
                     return false;
 
-                return TryParseBlueShedSampleExtensionObject((JObject) property.Value, out extension);
+                return TryParseBlueShedSampleExtensionObject((JObject)property.Value, out extension);
             }
 
             protected override bool TryFormatJObjectExtension(BlueShedSampleExtension extensionToFormat, ExtensionManifestDirectory extensionManifestDirectory, out IList<JToken> tokens)
@@ -334,7 +334,7 @@ namespace Feedpipes.Tests
                 Assert.NotEmpty(jsonString);
             }
         }
-        
+
         [Theory]
         [ClassData(typeof(ParseSampleFeedWithBlueShedSampleExtensionData))]
         public void ParseSampleFeedWithBlueShedSampleExtension(SampleFeed embeddedDocument)
@@ -352,7 +352,7 @@ namespace Feedpipes.Tests
             Assert.NotNull(blueShedExtension);
             Assert.Equal("https://blueshed-podcasts.com/json-feed-extension-docs", blueShedExtension.About);
         }
-        
+
         public class ParseSampleFeedWithBlueShedSampleExtensionData : SampleFeedTestsClassDataBase
         {
             public override IEnumerable<string> FileNames => new[]

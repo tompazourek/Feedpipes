@@ -127,7 +127,7 @@ namespace Feedpipes.Atom10.Entities
         /// An example of an entry would be a single post on a weblog.
         /// </summary>
         public IList<Atom10Entry> Entries { get; set; } = new List<Atom10Entry>();
-        
+
         /// <summary>
         /// Extenssions
         /// </summary>

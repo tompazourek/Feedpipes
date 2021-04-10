@@ -11,7 +11,7 @@ namespace Feedpipes.Tests.SampleData
         public string Title { get; set; }
         public string WebUrl { get; set; }
         public string Source { get; set; }
-        
+
         public override string ToString() => FileName;
 
         public XDocument XDocument => LazyXDocument?.Value;

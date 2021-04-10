@@ -37,7 +37,7 @@ namespace Feedpipes.Rss20.Entities
         /// The URL of the CGI script that processes text input requests.
         /// </summary>
         public string Link { get; set; }
-        
+
         /// <summary>
         /// Extenssions
         /// </summary>

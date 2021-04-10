@@ -417,7 +417,7 @@ namespace Feedpipes.Rss20
             if (ttlToFormat == null)
                 return false;
 
-            var totalMinutesString = ((int) ttlToFormat.Value.TotalMinutes).ToString(CultureInfo.InvariantCulture);
+            var totalMinutesString = ((int)ttlToFormat.Value.TotalMinutes).ToString(CultureInfo.InvariantCulture);
             ttlElement = new XElement("ttl") { Value = totalMinutesString };
 
             return true;

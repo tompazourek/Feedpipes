@@ -36,6 +36,7 @@ namespace Feedpipes.Utils.Xml
                 if (ReferenceEquals(x, null)) return false;
                 if (ReferenceEquals(y, null)) return false;
                 if (x.GetType() != y.GetType()) return false;
+
                 return Equals(x.Name, y.Name) && string.Equals(x.Value, y.Value);
             }
 
@@ -54,7 +55,7 @@ namespace Feedpipes.Utils.Xml
 
         public IEnumerator<XAttribute> GetEnumerator() => _internalSet.GetEnumerator();
 
-        IEnumerator IEnumerable.GetEnumerator() => ((IEnumerable) _internalSet).GetEnumerator();
+        IEnumerator IEnumerable.GetEnumerator() => ((IEnumerable)_internalSet).GetEnumerator();
 
         void ICollection<XAttribute>.Add(XAttribute item) => _internalSet.Add(item);
 

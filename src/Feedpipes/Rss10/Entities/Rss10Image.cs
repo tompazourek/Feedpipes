@@ -46,7 +46,7 @@ namespace Feedpipes.Rss10.Entities
         /// Suggested maximum length of 500 characters.
         /// </summary>
         public string Link { get; set; }
-        
+
         /// <summary>
         /// Extenssions
         /// </summary>

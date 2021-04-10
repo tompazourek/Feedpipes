@@ -62,7 +62,7 @@ namespace Feedpipes.Rss10.Entities
         /// List of "item" elements.
         /// </summary>
         public IList<Rss10Item> Items { get; set; } = new List<Rss10Item>();
-        
+
         /// <summary>
         /// Extenssions
         /// </summary>

@@ -49,7 +49,7 @@ namespace Feedpipes.Rss20.Entities
         /// Height of the image in pixels.
         /// </summary>
         public int? Height { get; set; }
-        
+
         /// <summary>
         /// Extenssions
         /// </summary>

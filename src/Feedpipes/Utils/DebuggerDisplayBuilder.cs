@@ -17,6 +17,7 @@ namespace Feedpipes.Utils
         public static DebuggerDisplayBuilder<T> Create<T>(T obj)
         {
             if (obj == null) throw new ArgumentNullException(nameof(obj));
+
             return new DebuggerDisplayBuilder<T>(obj);
         }
     }
@@ -67,7 +68,7 @@ namespace Feedpipes.Utils
             return propertyValueFormatted;
         }
 
-        public DebuggerDisplayBuilder<T> Append<TProperty>(Expression<Func<T, TProperty>> expression, bool? noQuotes = null) 
+        public DebuggerDisplayBuilder<T> Append<TProperty>(Expression<Func<T, TProperty>> expression, bool? noQuotes = null)
             => Append(expression, GenericPropertyValueFormatter, noQuotes);
 
         public DebuggerDisplayBuilder<T> Append<TProperty>(Expression<Func<T, TProperty>> expression, Func<TProperty, string> propertyValueFormatter, bool? noQuotes = null)
@@ -81,7 +82,7 @@ namespace Feedpipes.Utils
             var func = expression.Compile();
             var propertyValue = func(_obj);
             var propertyValueFormatted = propertyValueFormatter(propertyValue);
-            
+
             if (string.IsNullOrEmpty(propertyValueFormatted))
                 return this; // don't add empty properties
 

@@ -97,7 +97,7 @@ namespace Feedpipes.JsonFeedFormat
                     }
                 }
             }
-            
+
             // extensions
             ExtensibleEntityParser.ParseJObjectExtensions(feedObject, extensionManifestDirectory, parsedFeed);
 
@@ -201,7 +201,7 @@ namespace Feedpipes.JsonFeedFormat
                     }
                 }
             }
-            
+
             if (parsedItem == null)
                 return false;
 
@@ -326,7 +326,7 @@ namespace Feedpipes.JsonFeedFormat
 
             if (parentObject.TryGetDoubleProperty(propertyName, out var parsedDouble))
             {
-                parsedValue = (int) parsedDouble;
+                parsedValue = (int)parsedDouble;
                 return true;
             }
 

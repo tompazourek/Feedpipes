@@ -71,7 +71,7 @@ namespace Feedpipes.Extensions
 
         public IEnumerator<ExtensionManifest> GetEnumerator() => _innerCollection.GetEnumerator();
 
-        IEnumerator IEnumerable.GetEnumerator() => ((IEnumerable) _innerCollection).GetEnumerator();
+        IEnumerator IEnumerable.GetEnumerator() => ((IEnumerable)_innerCollection).GetEnumerator();
 
         public void Add(ExtensionManifest item)
         {

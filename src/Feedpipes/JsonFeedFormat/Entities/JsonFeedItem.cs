@@ -112,7 +112,7 @@ namespace Feedpipes.JsonFeedFormat.Entities
         /// that’s an audio or video file.
         /// </summary>
         public IList<JsonFeedAttachment> Attachments { get; set; } = new List<JsonFeedAttachment>();
-        
+
         /// <summary>
         /// Extenssions
         /// </summary>

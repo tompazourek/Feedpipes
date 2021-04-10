@@ -194,7 +194,7 @@ namespace Feedpipes.JsonFeedFormat
             {
                 itemObject.Add(attachmentsProperty);
             }
-            
+
             // extensions
             if (ExtensibleEntityFormatter.TryFormatJObjectExtensions(itemToFormat, extensionManifestDirectory, out var extensionTokens))
             {

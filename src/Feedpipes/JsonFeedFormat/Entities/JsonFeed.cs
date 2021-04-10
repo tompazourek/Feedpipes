@@ -98,7 +98,7 @@ namespace Feedpipes.JsonFeedFormat.Entities
         /// items is an array, and is required.
         /// </summary>
         public IList<JsonFeedItem> Items { get; set; } = new List<JsonFeedItem>();
-        
+
         /// <summary>
         /// Extenssions
         /// </summary>

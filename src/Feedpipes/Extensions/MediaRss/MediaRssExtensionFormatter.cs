@@ -669,12 +669,13 @@ namespace Feedpipes.Extensions.MediaRss
             if (tagsToFormat == null)
                 return false;
 
-            var tagsValueFormatted = string.Join(", ", tagsToFormat
-                .Where(x => !string.IsNullOrEmpty(x?.Tag))
-                // ReSharper disable once CompareOfFloatsByEqualityOperator
-                .Select(x => x.Weight == null || x.Weight == 1
-                    ? x.Tag.Trim()
-                    : x.Tag.Trim() + ":" + x.Weight.Value.ToString("0.####", CultureInfo.InvariantCulture)));
+            var tagsValueFormatted = string.Join(", ",
+                tagsToFormat
+                    .Where(x => !string.IsNullOrEmpty(x?.Tag))
+                    // ReSharper disable once CompareOfFloatsByEqualityOperator
+                    .Select(x => x.Weight == null || x.Weight == 1
+                        ? x.Tag.Trim()
+                        : x.Tag.Trim() + ":" + x.Weight.Value.ToString("0.####", CultureInfo.InvariantCulture)));
 
             if (string.IsNullOrEmpty(tagsValueFormatted))
                 return false;
@@ -753,12 +754,13 @@ namespace Feedpipes.Extensions.MediaRss
 
             if (restrictionToFormat == null)
                 return false;
-            
+
             restrictionElement = new XElement(_media + "restriction");
 
-            var valuesFormatted = string.Join(" ", restrictionToFormat.Values
-                .Where(x => !string.IsNullOrEmpty(x))
-                .Select(x => x.Trim()));
+            var valuesFormatted = string.Join(" ",
+                restrictionToFormat.Values
+                    .Where(x => !string.IsNullOrEmpty(x))
+                    .Select(x => x.Trim()));
 
             if (!string.IsNullOrEmpty(valuesFormatted))
             {
@@ -937,7 +939,8 @@ namespace Feedpipes.Extensions.MediaRss
         {
             keywordsElement = default;
 
-            var keywordsValue = string.Join(", ", (keywordsToFormat ?? Enumerable.Empty<string>())
+            var keywordsValue = string.Join(", ",
+                (keywordsToFormat ?? Enumerable.Empty<string>())
                 .Where(x => !string.IsNullOrWhiteSpace(x))
                 .Select(x => x.Trim()));
 

@@ -84,12 +84,13 @@ namespace Feedpipes.Tests.SampleData
                                     using (var streamReader = new StreamReader(feedStream))
                                     using (var jsonReader = new JsonTextReader(streamReader))
                                     {
-                                        var jsonDocument = JObject.Load(jsonReader, new JsonLoadSettings
-                                        {
-                                            CommentHandling = CommentHandling.Ignore,
-                                            DuplicatePropertyNameHandling = DuplicatePropertyNameHandling.Replace,
-                                            LineInfoHandling = LineInfoHandling.Load,
-                                        });
+                                        var jsonDocument = JObject.Load(jsonReader,
+                                            new JsonLoadSettings
+                                            {
+                                                CommentHandling = CommentHandling.Ignore,
+                                                DuplicatePropertyNameHandling = DuplicatePropertyNameHandling.Replace,
+                                                LineInfoHandling = LineInfoHandling.Load,
+                                            });
                                         return jsonDocument;
                                     }
                                 }

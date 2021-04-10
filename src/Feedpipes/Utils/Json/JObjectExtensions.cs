@@ -25,7 +25,7 @@ namespace Feedpipes.Utils.Json
             if (property.Value?.Type != JTokenType.Object)
                 return false;
 
-            parsedValue = (JObject) property.Value;
+            parsedValue = (JObject)property.Value;
             return true;
         }
 
@@ -40,7 +40,7 @@ namespace Feedpipes.Utils.Json
             if (property.Value?.Type != JTokenType.Array)
                 return false;
 
-            var valuesArray = (JArray) property.Value;
+            var valuesArray = (JArray)property.Value;
             var results = new List<JObject>();
 
             foreach (var value in valuesArray)
@@ -57,7 +57,7 @@ namespace Feedpipes.Utils.Json
             parsedValues = results;
             return true;
         }
-        
+
         public static bool TryGetStringArrayProperty(this JObject parentElement, string propertyName, out IList<string> parsedValues)
         {
             parsedValues = default;
@@ -69,7 +69,7 @@ namespace Feedpipes.Utils.Json
             if (property.Value?.Type != JTokenType.Array)
                 return false;
 
-            var valuesArray = (JArray) property.Value;
+            var valuesArray = (JArray)property.Value;
             var results = new List<string>();
 
             foreach (var value in valuesArray)
@@ -86,7 +86,7 @@ namespace Feedpipes.Utils.Json
             parsedValues = results;
             return true;
         }
-        
+
         public static bool TryGetStringProperty(this JObject parentElement, string propertyName, out string parsedValue)
         {
             parsedValue = default;
@@ -101,7 +101,7 @@ namespace Feedpipes.Utils.Json
             parsedValue = property.Value.Value<string>();
             return true;
         }
-        
+
         public static bool TryGetBoolProperty(this JObject parentElement, string propertyName, out bool parsedValue)
         {
             parsedValue = default;
@@ -116,7 +116,7 @@ namespace Feedpipes.Utils.Json
             parsedValue = property.Value.Value<bool>();
             return true;
         }
-        
+
         public static bool TryGetIntegerProperty(this JObject parentElement, string propertyName, out int parsedValue)
         {
             parsedValue = default;
@@ -127,11 +127,11 @@ namespace Feedpipes.Utils.Json
 
             if (property.Value?.Type != JTokenType.Integer)
                 return false;
-            
+
             parsedValue = property.Value.Value<int>();
             return true;
         }
-        
+
         public static bool TryGetDoubleProperty(this JObject parentElement, string propertyName, out double parsedValue)
         {
             parsedValue = default;
@@ -142,7 +142,7 @@ namespace Feedpipes.Utils.Json
 
             if (property.Value?.Type != JTokenType.Float)
                 return false;
-            
+
             parsedValue = property.Value.Value<double>();
             return true;
         }
