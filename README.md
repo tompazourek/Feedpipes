@@ -30,7 +30,7 @@ PM> Install-Package Feedpipes -IncludePrerelease
 dotnet add package Feedpipes --version 1.0.0-rc
 ```
 
-<sup>Feedpipes is CLS Compliant (to allow use in VB.NET etc.) and is built for .NET v4.5 and .NET Standard 1.1.</sup>
+<sup>Feedpipes is CLS Compliant (to allow use in VB.NET etc.) and is built for .NET v4.5, .NET Standard 1.1, .NET 6 or newer.</sup>
 
 
 Usage

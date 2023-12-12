@@ -54,17 +54,17 @@ namespace Feedpipes.Tests
             using (var stringWriter1 = new StringWriter())
             using (var stringWriter2 = new StringWriter())
             using (var jsonWriter1 = new JsonTextWriter(stringWriter1)
-            {
-                Formatting = Formatting.Indented,
-                StringEscapeHandling = StringEscapeHandling.EscapeHtml,
-                Indentation = 4,
-            })
+                   {
+                       Formatting = Formatting.Indented,
+                       StringEscapeHandling = StringEscapeHandling.EscapeHtml,
+                       Indentation = 4,
+                   })
             using (var jsonWriter2 = new JsonTextWriter(stringWriter2)
-            {
-                Formatting = Formatting.Indented,
-                StringEscapeHandling = StringEscapeHandling.EscapeHtml,
-                Indentation = 4,
-            })
+                   {
+                       Formatting = Formatting.Indented,
+                       StringEscapeHandling = StringEscapeHandling.EscapeHtml,
+                       Indentation = 4,
+                   })
             {
                 document1.WriteTo(jsonWriter1);
                 document2.WriteTo(jsonWriter2);
@@ -245,11 +245,11 @@ namespace Feedpipes.Tests
             using (var memoryStream = new MemoryStream())
             using (var streamWriter = new StreamWriter(memoryStream, targetEncoding))
             using (var jsonWriter = new JsonTextWriter(streamWriter)
-            {
-                Formatting = Formatting.Indented,
-                StringEscapeHandling = StringEscapeHandling.EscapeHtml,
-                Indentation = 4,
-            })
+                   {
+                       Formatting = Formatting.Indented,
+                       StringEscapeHandling = StringEscapeHandling.EscapeHtml,
+                       Indentation = 4,
+                   })
             {
                 document.WriteTo(jsonWriter);
                 jsonWriter.Flush();
@@ -277,11 +277,11 @@ namespace Feedpipes.Tests
             using (var memoryStream = new MemoryStream())
             using (var streamWriter = new StreamWriter(memoryStream, targetEncoding))
             using (var jsonWriter = new JsonTextWriter(streamWriter)
-            {
-                Formatting = Formatting.Indented,
-                StringEscapeHandling = StringEscapeHandling.EscapeHtml,
-                Indentation = 4,
-            })
+                   {
+                       Formatting = Formatting.Indented,
+                       StringEscapeHandling = StringEscapeHandling.EscapeHtml,
+                       Indentation = 4,
+                   })
             {
                 document.WriteTo(jsonWriter);
                 jsonWriter.Flush();
@@ -320,11 +320,11 @@ namespace Feedpipes.Tests
             using (var memoryStream = new MemoryStream())
             using (var streamWriter = new StreamWriter(memoryStream, targetEncoding))
             using (var jsonWriter = new JsonTextWriter(streamWriter)
-            {
-                Formatting = Formatting.Indented,
-                StringEscapeHandling = StringEscapeHandling.EscapeHtml,
-                Indentation = 4,
-            })
+                   {
+                       Formatting = Formatting.Indented,
+                       StringEscapeHandling = StringEscapeHandling.EscapeHtml,
+                       Indentation = 4,
+                   })
             {
                 document.WriteTo(jsonWriter);
                 jsonWriter.Flush();
